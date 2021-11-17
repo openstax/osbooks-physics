@@ -1,0 +1,227 @@
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+    <md:content-id>col12081</md:content-id>
+    <md:title>Physics</md:title>
+    <md:language>en</md:language>
+    <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</md:license>
+    <md:uuid>cce64fde-f448-43b8-ae88-27705cceb0da</md:uuid>
+<md:slug>physics</md:slug>
+</metadata>
+  <col:content>
+    <col:module document="m54081"/>
+    <col:subcollection>
+      <md:title>What is Physics?</md:title>
+      <col:content>
+        <col:module document="m54082"/>
+        <col:module document="m54057"/>
+        <col:module document="m54083"/>
+        <col:module document="m54599"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Motion in One Dimension</md:title>
+      <col:content>
+        <col:module document="m54097"/>
+        <col:module document="m54108"/>
+        <col:module document="m54104"/>
+        <col:module document="m54110"/>
+        <col:module document="m54094"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Acceleration</md:title>
+      <col:content>
+        <col:module document="m54119"/>
+        <col:module document="m54123"/>
+        <col:module document="m54116"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Forces and Newton’s Laws of Motion</md:title>
+      <col:content>
+        <col:module document="m54144"/>
+        <col:module document="m54135"/>
+        <col:module document="m54138"/>
+        <col:module document="m54142"/>
+        <col:module document="m54131"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Motion in Two Dimensions</md:title>
+      <col:content>
+        <col:module document="m54145"/>
+        <col:module document="m54165"/>
+        <col:module document="m54147"/>
+        <col:module document="m54162"/>
+        <col:module document="m54159"/>
+        <col:module document="m54154"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Circular and Rotational Motion</md:title>
+      <col:content>
+        <col:module document="m54173"/>
+        <col:module document="m54176"/>
+        <col:module document="m54181"/>
+        <col:module document="m54180"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Newton's Law of Gravitation</md:title>
+      <col:content>
+        <col:module document="m54196"/>
+        <col:module document="m54192"/>
+        <col:module document="m54189"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Momentum</md:title>
+      <col:content>
+        <col:module document="m54212"/>
+        <col:module document="m54215"/>
+        <col:module document="m54202"/>
+        <col:module document="m54209"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Work, Energy, and Simple Machines</md:title>
+      <col:content>
+        <col:module document="m54268"/>
+        <col:module document="m54271"/>
+        <col:module document="m54273"/>
+        <col:module document="m54274"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Special Relativity</md:title>
+      <col:content>
+        <col:module document="m54277"/>
+        <col:module document="m54280"/>
+        <col:module document="m54282"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Thermal Energy, Heat, and Work</md:title>
+      <col:content>
+        <col:module document="m54283"/>
+        <col:module document="m54287"/>
+        <col:module document="m54290"/>
+        <col:module document="m54292"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Thermodynamics</md:title>
+      <col:content>
+        <col:module document="m54300"/>
+        <col:module document="m54302"/>
+        <col:module document="m54305"/>
+        <col:module document="m54306"/>
+        <col:module document="m54307"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Waves and Their Properties</md:title>
+      <col:content>
+        <col:module document="m54312"/>
+        <col:module document="m54314"/>
+        <col:module document="m54321"/>
+        <col:module document="m54318"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Sound</md:title>
+      <col:content>
+        <col:module document="m54327"/>
+        <col:module document="m54331"/>
+        <col:module document="m54333"/>
+        <col:module document="m54334"/>
+        <col:module document="m54335"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Light</md:title>
+      <col:content>
+        <col:module document="m54336"/>
+        <col:module document="m54342"/>
+        <col:module document="m54346"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Mirrors and Lenses</md:title>
+      <col:content>
+        <col:module document="m54366"/>
+        <col:module document="m54357"/>
+        <col:module document="m54365"/>
+        <col:module document="m54361"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Diffraction and Interference</md:title>
+      <col:content>
+        <col:module document="m54376"/>
+        <col:module document="m54369"/>
+        <col:module document="m54371"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Static Electricity</md:title>
+      <col:content>
+        <col:module document="m54417"/>
+        <col:module document="m54410"/>
+        <col:module document="m54414"/>
+        <col:module document="m54428"/>
+        <col:module document="m54426"/>
+        <col:module document="m63179"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Electrical Circuits</md:title>
+      <col:content>
+        <col:module document="m54450"/>
+        <col:module document="m54437"/>
+        <col:module document="m54435"/>
+        <col:module document="m54442"/>
+        <col:module document="m54446"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Magnetism</md:title>
+      <col:content>
+        <col:module document="m54460"/>
+        <col:module document="m54465"/>
+        <col:module document="m54467"/>
+        <col:module document="m54456"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>The Quantum Nature of Light</md:title>
+      <col:content>
+        <col:module document="m54562"/>
+        <col:module document="m54566"/>
+        <col:module document="m54559"/>
+        <col:module document="m54552"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>The Atom</md:title>
+      <col:content>
+        <col:module document="m54583"/>
+        <col:module document="m54582"/>
+        <col:module document="m54580"/>
+        <col:module document="m63183"/>
+        <col:module document="m54574"/>
+        <col:module document="m54578"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Particle Physics</md:title>
+      <col:content>
+        <col:module document="m54584"/>
+        <col:module document="m54593"/>
+        <col:module document="m54595"/>
+        <col:module document="m54588"/>
+      </col:content>
+    </col:subcollection>
+    <col:module document="m54602"/>
+  </col:content>
+</col:collection>

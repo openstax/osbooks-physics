@@ -1,0 +1,787 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Simple Harmonic Motion</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54154</md:content-id>
+  <md:title>Simple Harmonic Motion</md:title>
+  <md:abstract/>
+  <md:uuid>152f919d-2391-4bf3-85ae-432e63f80468</md:uuid>
+</metadata>
+
+<content>
+    <note id="fs-id1167067053176" class="learning-objectives">
+      <label/>
+      <title>Section Learning Objectives</title>
+      <para id="fs-id1167067041731">By the end of this section, you will be able to do the following:</para>
+<list id="fs-id1167067133714">      <item>Describe Hooke’s law and Simple Harmonic Motion</item>
+      <item>Describe periodic motion, oscillations, amplitude, frequency, and period</item>
+      <item>Solve problems in simple harmonic motion involving springs and pendulums</item></list>
+    </note>
+    <note id="fs-id1167066946918" class="os-teacher"><title>Teacher Support</title>
+      <para id="fs-id1167066971012">The learning objectives in this section will help your students master the following standards:</para><list id="fs-id1167067041046">
+        <item>
+          (7) Science concepts. The student knows the characteristics and behavior of waves. The student is expected to:
+          <list id="fs-id1167067088307">
+            <item><span>(A)</span> <span>examine and describe oscillatory motion and wave propagation in various types of media.</span></item>
+          </list>
+        </item>
+      </list>
+<para id="fs-id1169314094559">In addition, the High School Physics Laboratory Manual addresses content in this section in the lab titled: Motion in Two Dimensions, as well as the following standards:</para><list id="fs-id1169313879089">
+<item>(7) Science concepts. The student knows the characteristics and behavior of waves. The student is expected to:
+<list id="fs-id1169317422216">
+<item>
+<span>(A)</span> <span>examine and describe oscillatory motion and wave propagation in various types of media.</span>
+</item>
+</list>
+</item>
+</list>
+    </note>
+    <section id="keyterms"><title>Section Key Terms</title><table id="fs-id1167067041905" summary="The list of Key Terms includes: amplitude, deformation, equilibrium position, frequency, Hooke’s law, oscillate, period, periodic motion, restoring force, simple harmonic motion, and simple pendulum." class="unnumbered unstyled section-key-terms"><label/>
+<tgroup cols="3"><tbody>
+          <row>
+            <entry>amplitude</entry>
+            <entry>deformation</entry>
+            <entry>equilibrium position</entry>
+            <entry>frequency</entry>
+          </row>
+          <row>
+            <entry>Hooke’s law</entry>
+            <entry>oscillate</entry>
+            <entry>period</entry>
+            <entry>periodic motion</entry>
+          </row>
+          <row>
+            <entry>restoring force</entry>
+            <entry>simple harmonic motion</entry>
+            <entry>simple pendulum</entry>
+            <entry/>
+          </row>
+        </tbody>
+
+</tgroup>
+</table></section>
+  <section id="fs-id1167067105417">
+    <title>Hooke’s Law and Simple Harmonic Motion</title>
+      <para id="fs-id1167067041836">Imagine a car parked against a wall. If a bulldozer pushes the car into the wall, the car will not move but it will noticeably change shape. A change in shape due to the application of a force is a <term>deformation</term>. Even very small forces are known to cause some deformation. For small deformations, two important things can happen. First, unlike the car and bulldozer example, the object returns to its original shape when the force is removed. Second, the size of the deformation is proportional to the force. This second property is known as <term>Hooke’s law</term>. In equation form, Hooke’s law is </para>
+    <equation id="fs-id1167067133839" class="unnumbered"><label/>
+       <m:math>
+        <m:mrow>
+          <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle><m:mo>=</m:mo><m:mo>−</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>k</m:mi><m:mi>x,</m:mi></m:mstyle>
+        </m:mrow>
+      </m:math>
+      </equation><para id="fs-id1167067028916">where <emphasis>x</emphasis> is the amount of deformation (the change in length, for example) produced by the restoring force <emphasis>F</emphasis>, and <emphasis>k</emphasis> is a constant that depends on the shape and composition of the object. The restoring force is the force that brings the object back to its equilibrium position; the minus sign is there because the restoring force acts in the direction opposite to the displacement. Note that the restoring force is proportional to the deformation <emphasis>x</emphasis>. The deformation can also be thought of as a displacement from equilibrium. It is a change in position due to a force. In the absence of force, the object would rest at its equilibrium position. The force constant <emphasis>k</emphasis> is related to the stiffness of a system. The larger the force constant, the stiffer the system. A stiffer system is more difficult to deform and requires a greater restoring force. The units of <emphasis>k</emphasis> are newtons per meter (N/m). One of the most common uses of Hooke’s law is solving problems involving springs and pendulums, which we will cover at the end of this section. </para><note id="fs-id1167067026049" class="os-teacher">
+      <title>Teacher Support</title>
+      <para id="fs-id1167066774672"><span>[BL]</span> Review the concept of force.</para>
+      <para id="fs-id1167066854293"><span>[BL]</span><span>[OL]</span><span>[AL]</span> Introduce Hooke’s law and force constant of a spring.</para>
+    </note>
+  </section>
+  <section id="fs-id1167067021993">
+    <title>Oscillations and Periodic Motion</title>
+    <para id="fs-id1167066806871">What do an ocean buoy, a child in a swing, a guitar, and the beating of hearts all have in common? They all <term>oscillate</term>. That is, they move back and forth between two points, like the ruler illustrated in <link target-id="Figure_05_05_ruler"/>. All oscillations involve force. For example, you push a child in a swing to get the motion started.</para>
+    <figure id="Figure_05_05_ruler">
+      <media id="fs-id1167066867658" alt="A drawing is shown of hands holding and flicking an upright ruler. A double-ended arrow is shown over the ruler and a label Equilibrium position points to the upright position of the ruler.">
+        <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_05_05_ruler.jpg"/>
+      </media>
+      <caption>A ruler is displaced from its equilibrium position.</caption>
+    </figure>
+    <note id="fs-id1167066782907" class="os-teacher">
+      <title>Teacher Support</title>
+      <para id="fs-id1167067077384"><span>[BL]</span><span>[OL]</span><span>[AL]</span> Find springs or rubber bands with different amounts of stiffness. Ask students to attach weights to these to construct oscillators. Introduce the terms frequency and time period. Ask students to observe how the stiffness of the spring affects them. How does mass of the system affect them? How does the initial force applied affect them?</para>
+    </note>
+    <para id="fs-id1167067091393">Newton’s first law implies that an object oscillating back and forth is experiencing forces. Without force, the object would move in a straight line at a constant speed rather than oscillate. Consider, for example, plucking a plastic ruler to the left as shown in <link target-id="Figure_05_05_equilibrium"/>. The deformation of the ruler creates a force in the opposite direction, known as a <term>restoring force</term>. Once released, the restoring force causes the ruler to move back toward its stable equilibrium position, where the net force on it is zero. However, by the time the ruler gets there, it gains momentum and continues to move to the right, producing the opposite deformation. It is then forced to the left, back through equilibrium, and the process is repeated until it gradually loses all of its energy. The simplest oscillations occur when the restoring force is directly proportional to displacement. Recall that Hooke’s law describes this situation with the equation <emphasis>F</emphasis> = −<emphasis>kx</emphasis>. Therefore, Hooke’s law describes and applies to the simplest case of oscillation, known as <term>simple harmonic motion</term>.</para><figure id="Figure_05_05_equilibrium">
+      <media id="fs-id1167067110350" alt="Four diagrams are shown, side-by-side, labeled a, b, c, d, and e. They show the sideways motion of a ruler that has been flicked. The vertical position of the ruler is labeled equilibrium position. A right-pointing force vector is shown on diagram a. A right-facing velocity vector and F equals zero is shown on b. A left-pointing force vector is shown on diagram c. A left-facing velocity vector and F equals zero is shown on d. A right-pointing force vector is shown on diagram e.">
+        <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_05_05_equilibrium.jpg"/>
+      </media>
+      <caption>(a) The plastic ruler has been released, and the restoring force is returning the ruler to its equilibrium position. (b) The net force is zero at the equilibrium position, but the ruler has momentum and continues to move to the right. (c) The restoring force is in the opposite direction. It stops the ruler and moves it back toward equilibrium again. (d) Now the ruler has momentum to the left. (e) In the absence of damping (caused by frictional forces), the ruler reaches its original position. From there, the motion will repeat itself.</caption>
+    </figure>
+    <para id="fs-id1167067095735">When you pluck a guitar string, the resulting sound has a steady tone and lasts a long time. Each vibration of the string takes the same time as the previous one. <term>Periodic motion</term> is a motion that repeats itself at regular time intervals, such as with an object bobbing up and down on a spring or a pendulum swinging back and forth. The time to complete one oscillation (a complete cycle of motion) remains constant and is called the <term>period</term> <emphasis effect="italics">T</emphasis>. Its units are usually seconds. </para>
+    <para id="fs-id1167066783866"><term>Frequency</term> <emphasis effect="italics">f</emphasis> is the number of oscillations per unit time. The SI unit for frequency is the <term class="no-emphasis">hertz</term> (Hz), defined as the number of oscillations per second. The relationship between frequency and period is</para>
+    <equation id="fs-id1167066836799" class="unnumbered"><label/>
+       <m:math display="block">
+        <m:mrow>
+          <m:mi>f</m:mi><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>1</m:mn><m:mo>/</m:mo><m:mi>T</m:mi>
+<m:mtext>.</m:mtext>
+        </m:mrow>
+      </m:math>
+    </equation><para id="fs-id1167066849010">As you can see from the equation, frequency and period are different ways of expressing the same concept. For example, if you get a paycheck twice a month, you could say that the frequency of payment is two per month, or that the period between checks is half a month.</para>
+    <para id="fs-id1167066845905">If there is no friction to slow it down, then an object in simple motion will oscillate forever with equal displacement on either side of the equilibrium position. The <term>equilibrium position</term> is where the object would naturally rest in the absence of force. The maximum displacement from equilibrium is called the <term>amplitude</term> <emphasis>X</emphasis>. The units for amplitude and displacement are the same, but depend on the type of oscillation. For the object on the spring, shown in <link target-id="Figure_05_05_object"/>, the units of amplitude and displacement are meters.</para><figure id="Figure_05_05_object"><media id="fs-id1167066824914" alt="Five diagrams, a, b, c, d, and e are shown. They show an object attached to a spring sliding on a frictionless surface. Diagram a shows a left-pointing force vector and the following labels: v equals zero, x equals zero, x equals x, k. Diagram b has the following labels: F equals zero, negative v max, x equals zero. Diagram c shows a right-pointing force vector and the following labels: v equals zero, x equals zero, x equals negative x. Diagram d has the following labels: F equals zero, positive v max, x equals zero. Diagram e shows a left-pointing force vector and the following labels: v equals zero, x equals zero, x equals x. Free-body diagrams illustrate the forces acting on each system.">
+        <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_05_05_object.jpg"/>
+      </media>
+
+
+    <caption>An object attached to a spring sliding on a frictionless surface is a simple harmonic oscillator. When displaced from equilibrium, the object performs simple harmonic motion that has an amplitude <emphasis>X</emphasis> and a period <emphasis effect="italics">T</emphasis>. The object’s maximum speed occurs as it passes through equilibrium. The stiffer the spring is, the smaller the period <emphasis effect="italics">T</emphasis>. The greater the mass of the object is, the greater the period <emphasis effect="italics">T</emphasis>.</caption></figure><para id="fs-id1167066853862">The mass <emphasis effect="italics">m</emphasis> and the force constant <emphasis>k</emphasis> are the <emphasis effect="italics">only</emphasis> factors that affect the period and frequency of simple harmonic motion. The period of a simple harmonic oscillator is given by</para><equation id="fs-id1167066806397" class="unnumbered"><label/>
+
+       <m:math>
+        <m:mrow>
+          <m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt>
+            <m:mrow>
+              <m:mfrac>
+                <m:mi>m</m:mi>
+                <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>k</m:mi></m:mstyle>
+              </m:mfrac>
+
+            </m:mrow>
+          </m:msqrt>
+
+        </m:mrow>
+      </m:math> </equation><para id="fs-id1167066805529">and, because <emphasis effect="italics">f</emphasis> = 1/<emphasis effect="italics">T</emphasis>, the frequency of a simple harmonic oscillator is</para>
+      <equation id="fs-id1167066806163" class="unnumbered"><label/>
+     <m:math>
+      <m:mrow>
+        <m:mi>f</m:mi><m:mo>=</m:mo><m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mrow>
+            <m:mn>2</m:mn><m:mi>π</m:mi>
+          </m:mrow>
+        </m:mfrac>
+        <m:msqrt>
+          <m:mrow>
+            <m:mfrac>
+              <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>k</m:mi></m:mstyle>
+              <m:mi>m</m:mi>
+            </m:mfrac>
+
+          </m:mrow>
+        </m:msqrt>
+        <m:mtext>.</m:mtext>
+      </m:mrow>
+    </m:math>
+    </equation><note id="fs-id1167067038391" class="watch-physics">
+
+      <title>Introduction to Harmonic Motion</title>
+      <para id="fs-id1167066874412">This video shows how to graph the displacement of a spring in the x-direction over time, based on the period. Watch the first 10 minutes of the video (you can stop when the narrator begins to cover calculus). </para>
+      <media id="fs-id1167067078863" alt="This video discusses the intuition and thought processes behind understanding the motion of a mass on a spring." class="os-embed">
+        <iframe width="660" height="371.4" src="https://www.khanacademy.org/embed_video?v=Nk2q-_jkJVs"/>
+      </media>
+      <exercise id="fs-id1167066948801" class="os-exercise grasp-check unnumbered">
+
+        <problem id="fs-id1167066865947">
+          <para id="fs-id1167066950091">
+            <link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex089"/>
+          </para>
+        </problem>
+      </exercise>
+    </note>
+  </section>
+  <section id="fs-id1167066840846">
+    <title>Solving Spring and Pendulum Problems with Simple Harmonic Motion</title>
+<para id="fs-id1167066799037">Before solving problems with springs and pendulums, it is important to first get an understanding of how a pendulum works. <link target-id="Figure_05_05_pendulum"/> provides a useful illustration of a simple pendulum.</para>
+    <figure id="Figure_05_05_pendulum">
+      <media id="fs-id1167066975444" alt="A pendulum is shown with a small-diameter bob and a string that has a very small mass but is strong enough not to stretch. The linear displacement from equilibrium is labeled s, the length of the arc. Also shown are the forces on the bob, which result in a net force of  negative m times g sine angle toward the equilibrium position.">
+        <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_05_05_pendulum.jpg"/>
+      </media>
+      <caption>A simple pendulum has a small-diameter bob and a string that has a very small mass but is strong enough not to stretch. The linear displacement from equilibrium is s, the length of the arc. Also shown are the forces on the bob, which result in a net force of −<emphasis effect="italics">mg</emphasis> sin<emphasis effect="italics">θ</emphasis> toward the equilibrium position—that is, a restoring force.</caption>
+    </figure>
+    <note id="fs-id1167066790046" class="os-teacher">
+      <title>Teacher Support</title>
+      <para id="fs-id1167066997856"><span>[BL]</span> Review simple harmonic motion.</para>
+    </note>
+    <para id="fs-id1167067050393">Everyday examples of pendulums include old-fashioned clocks, a child’s swing, or the sinker on a fishing line. For small displacements of less than 15 degrees, a pendulum experiences simple harmonic oscillation, meaning that its restoring force is directly proportional to its displacement. A pendulum in simple harmonic motion is called a <term>simple pendulum</term>. A pendulum has an object with a small mass, also known as the pendulum bob, which hangs from a light wire or string. The equilibrium position for a pendulum is where the angle <m:math>
+      <m:mrow>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+    </m:math> is zero (that is, when the pendulum is hanging straight down). It makes sense that without any force applied, this is where the pendulum bob would rest.</para>
+    <note id="fs-id1167066867392" class="os-teacher">
+      <title>Teacher Support</title>
+      <para id="fs-id1167066865609"><span>[BL]</span><span>[OL]</span><span>[AL]</span>Construct simple pendulums of different lengths. Ask students to measure their time periods or frequencies. Are they constant for a given pendulum? How does the mass impact the frequency? How does the initial displacement affect it? What happens if a small push is given to the pendulum to get it started? Does that change the frequency? In what way does the length affect the frequency?</para>
+    </note>
+      <para id="fs-id1167066826389">The displacement of the pendulum bob is the arc length <emphasis effect="italics">s</emphasis>. The weight <emphasis effect="italics">m</emphasis><emphasis>g</emphasis> has components <emphasis effect="italics">m</emphasis><emphasis>g</emphasis> cos <m:math>
+        <m:mrow>
+          <m:mi>θ</m:mi>
+        </m:mrow>
+      </m:math> along the string and <emphasis effect="italics">m</emphasis><emphasis>g</emphasis> sin <m:math>
+        <m:mrow>
+          <m:mi>θ</m:mi>
+        </m:mrow>
+      </m:math>  tangent to the arc. Tension in the string exactly cancels the component <emphasis effect="italics">m</emphasis><emphasis>g</emphasis> cos <m:math>
+        <m:mrow>
+          <m:mi>θ</m:mi>
+        </m:mrow>
+      </m:math> parallel to the string. This leaves a <emphasis effect="italics">net</emphasis> restoring force back toward the equilibrium position that runs tangent to the arc and equals −<emphasis effect="italics">m</emphasis><emphasis>g</emphasis> sin <m:math>
+        <m:mrow>
+          <m:mi>θ</m:mi>
+        </m:mrow>
+      </m:math> .</para><para id="fs-id1167066840531">For a simple pendulum, The period is <m:math>
+      <m:mrow>
+        <m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt>
+          <m:mrow>
+            <m:mfrac>
+              <m:mi>L</m:mi>
+              <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>g</m:mi></m:mstyle>
+            </m:mfrac>
+
+          </m:mrow>
+        </m:msqrt>
+        <m:mo>.</m:mo>
+      </m:mrow>
+    </m:math> </para><para id="fs-id1167066856502">The only things that affect the period of a simple pendulum are its length and the acceleration due to gravity. The period is completely independent of other factors, such as mass or amplitude. However, note that <emphasis effect="italics">T</emphasis> does depend on <emphasis>g</emphasis>. This means that if we know the length of a pendulum, we can actually use it to measure gravity! This will come in useful in <link target-id="Worked_Example_05_09"/>.</para><note id="fs-id1167066839213" class="tips-for-success">
+
+      <para id="fs-id1167066851635">Tension is represented by the variable <emphasis>T</emphasis>, and period is represented by the variable <emphasis effect="italics">T</emphasis>. It is important not to confuse the two, since tension is a force and period is a length of time.</para>
+    </note>
+    <note id="Worked_Example_05_09" class="worked-example">
+        <title>Measuring Acceleration due to Gravity: The Period of a Pendulum</title>
+      <exercise id="fs-id1167067093175" class="05-ex090 unnumbered"><label/>
+        <problem id="fs-id1167066779246">
+          <para id="fs-id1167066829872">What is the acceleration due to gravity in a region where a simple pendulum having a length 75.000 cm has a period of 1.7357 s?</para>
+          <note id="fs-id1167067041534"><label/><title>Strategy</title>
+            <para id="fs-id1167066821477">We are asked to find <emphasis>g</emphasis> given the period <emphasis effect="italics">T</emphasis> and the length <emphasis effect="italics">L</emphasis> of a pendulum. We can solve <m:math>
+              <m:mrow>
+                <m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mi>L</m:mi>
+                      <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>g</m:mi></m:mstyle>
+                    </m:mfrac>
+
+                  </m:mrow>
+                </m:msqrt>
+
+              </m:mrow>
+            </m:math> for <emphasis>g</emphasis>, assuming that the angle of deflection is less than 15 degrees. Recall that when the angle of deflection is less than 15 degrees, the pendulum is considered to be in simple harmonic motion, allowing us to use this equation.</para>
+          </note>
+        </problem>
+        <solution id="fs-id1167066767691"><label/>
+<title>Solution</title>
+          <list id="fs-id1167067030521" list-type="enumerated" number-style="arabic"><item>Square <m:math>
+              <m:mrow>
+                <m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mi>L</m:mi>
+                      <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>g</m:mi></m:mstyle>
+                    </m:mfrac>
+
+                  </m:mrow>
+                </m:msqrt>
+
+              </m:mrow>
+            </m:math> and solve for <emphasis effect="italics">g</emphasis>.
+            <equation id="fs-id1167066870214" class="unnumbered"><label/>
+               <m:math>
+                <m:mrow>
+                  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>g</m:mi></m:mstyle><m:mo>=</m:mo><m:mn>4</m:mn><m:msup>
+                    <m:mi>π</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mfrac>
+                    <m:mi>L</m:mi>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mi>T</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+
+                    </m:mrow>
+                  </m:mfrac>
+
+                </m:mrow>
+              </m:math>
+
+            </equation></item>
+            <item>Substitute known values into the new equation.
+            <equation id="fs-id1167066997902" class="unnumbered"><label/>
+               <m:math>
+                <m:mrow>
+                  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>g</m:mi></m:mstyle><m:mo>=</m:mo><m:mn>4</m:mn><m:msup>
+                    <m:mi>π</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>0.75000</m:mn><m:mspace width="0.3em"/><m:mtext> m</m:mtext>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo stretchy="false">(</m:mo><m:mn>1.7357</m:mn><m:mspace width="0.3em"/><m:mtext> s</m:mtext><m:mo stretchy="false">)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+
+                    </m:mrow>
+                  </m:mfrac>
+
+                </m:mrow>
+              </m:math>
+
+            </equation></item>
+            <item>Calculate to find <emphasis>g</emphasis>.
+              <equation id="fs-id1167066827127" class="unnumbered">
+                <label/>
+                 <m:math display="block">
+                  <m:mrow>
+                    <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>g</m:mi></m:mstyle><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>9.8281</m:mn><m:mspace width="0.3em"/><m:mtext> m</m:mtext><m:mo>/</m:mo><m:msup>
+                      <m:mtext>s</m:mtext>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                  </m:mrow>
+                </m:math>
+
+              </equation>
+            </item>
+          </list></solution>
+        <commentary id="fs-id1167067105106">
+          <title>Discussion</title>
+          <para id="fs-id1167066862251">This method for determining <emphasis>g</emphasis> can be very accurate. This is why length and period are given to five digits in this example. </para></commentary>
+      </exercise></note><note id="fs-id1167066858843" class="worked-example">
+        <title>Hooke’s Law: How Stiff Are Car Springs?</title>
+      <exercise id="fs-id1167067111186" class="05-ex091 unnumbered"><label/>
+
+        <problem id="fs-id1167066851834">
+          <para id="fs-id1167066804408">What is the force constant for the suspension system of a car, like that shown in <link target-id="Figure_05_05_car"/>, that settles 1.20 cm when an 80.0-kg person gets in?</para>
+          <figure id="Figure_05_05_car"><media id="fs-id1167066845053" alt="A side view of the back end of a blue compact car is shown. The car is sitting on black asphalt.">
+              <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_05_05_car.jpg"/>
+            </media>
+
+          <caption>A car in a parking lot. (exfordy, Flickr)</caption></figure><note id="fs-id1167066861278"><label/><title>Strategy</title>
+            <para id="fs-id1167066862275">Consider the car to be in its equilibrium position <emphasis>x</emphasis> = 0 before the person gets in. The car then settles down 1.20 cm, which means it is displaced to a position <emphasis>x</emphasis> = −1.20×10<sup>−2</sup> m.</para>
+            <para id="fs-id1167066843429">At that point, the springs supply a restoring force <emphasis>F</emphasis> equal to the person’s weight </para>
+            <para id="fs-id1167066864263"><emphasis>w</emphasis> = <emphasis effect="italics">m</emphasis><emphasis>g</emphasis> = (80.0 kg)(9.80 m/s<sup>2</sup>) = 784 N. We take this force to be <emphasis>F</emphasis> in Hooke’s law. </para><para id="fs-id1167066961126">Knowing <emphasis>F</emphasis> and <emphasis>x</emphasis>, we can then solve for the force constant <emphasis>k</emphasis>.</para>
+          </note>
+        </problem>
+        <solution id="fs-id1167066808642"><label/>
+<title>Solution</title>
+          <para id="fs-id1167066877838">Solve Hooke’s law, <emphasis>F</emphasis> = −<emphasis>kx</emphasis>, for <emphasis>k</emphasis>.</para><equation id="fs-id1167067026136" class="unnumbered"><label/>
+             <m:math>
+              <m:mrow>
+                <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>k</m:mi></m:mstyle><m:mo>=</m:mo><m:mfrac>
+                  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+                  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>x</m:mi></m:mstyle>
+                </m:mfrac>
+
+              </m:mrow>
+            </m:math>
+
+
+
+          </equation><para id="fs-id1167066958563">Substitute known values and solve for <emphasis>k</emphasis>.</para><equation id="fs-id1167066867576" class="unnumbered"><label/>
+             <m:math display="block">
+              <m:mrow>
+                <m:mtable>
+                  <m:mtr rowalign="center">
+                    <m:mtd rowalign="center" columnalign="right">
+                      <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>k</m:mi></m:mstyle>
+                    </m:mtd>
+                    <m:mtd rowalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd rowalign="center" columnalign="left">
+                      <m:mrow>
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:mo>−</m:mo><m:mn>784</m:mn><m:mspace width="0.3em"/><m:mtext> N</m:mtext>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mo>−</m:mo><m:mn>1.20</m:mn><m:mo>×</m:mo><m:msup>
+                              <m:mrow>
+                                <m:mn>10</m:mn>
+                              </m:mrow>
+                              <m:mrow>
+                                <m:mo>−</m:mo><m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:msup>
+                            <m:mtext> m</m:mtext>
+                          </m:mrow>
+                        </m:mfrac>
+
+                      </m:mrow>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr rowalign="center">
+                    <m:mtd rowalign="center"/>
+                    <m:mtd rowalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd rowalign="center" columnalign="left">
+                      <m:mrow>
+                        <m:mn>6.53</m:mn><m:mo>×</m:mo><m:msup>
+                          <m:mrow>
+                            <m:mn>10</m:mn>
+                          </m:mrow>
+                          <m:mn>4</m:mn>
+                        </m:msup>
+                        <m:mtext> N/m</m:mtext>
+                      </m:mrow>
+                    </m:mtd>
+                  </m:mtr>
+
+                </m:mtable>
+              </m:mrow>
+            </m:math>
+
+          </equation></solution>
+          <commentary id="fs-id1167066860589">
+            <title>Discussion</title>
+            <para id="fs-id1167066835583">Note that <emphasis>F</emphasis> and <emphasis>x</emphasis> have opposite signs because they are in opposite directions—the restoring force is up, and the displacement is down. Also, note that the car would oscillate up and down when the person got in, if it were not for the shock absorbers. Bouncing cars are a sure sign of bad shock absorbers.</para></commentary>
+
+      </exercise></note></section>
+      <section id="fs-id1167066853124" class="practice-problems"><title>Practice Problems</title><exercise id="fs-id1167067099088">
+        <problem id="fs-id1167067012897">
+          <para id="fs-id1167067013620">
+            <link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex092"/>
+          </para>
+        </problem>
+      </exercise>
+      <exercise id="fs-id1167066864038">
+        <problem id="fs-id1167066869100">
+          <para id="fs-id1167067026777">
+            <link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex093"/>
+          </para>
+        </problem>
+      </exercise>
+    </section>
+    <section id="denesting"><note id="fs-id1167066825505" class="snap-lab">
+
+      <title>Finding Gravity Using a Simple Pendulum</title>
+      <para id="fs-id1167066847423">Use a simple pendulum to find the acceleration due to gravity <emphasis>g</emphasis> in your home or classroom.</para><list id="fs-id1167066849411" class="materials">
+        <item>1 string</item>
+        <item>1 stopwatch</item>
+        <item>1 small dense object</item>
+      </list>
+      <list id="fs-id1167066810059" list-type="enumerated" number-style="arabic"><item>Cut a piece of a string or dental floss so that it is about 1 m long.</item>
+        <item>Attach a small object of high density to the end of the string (for example, a metal nut or a car key).</item>
+        <item>Starting at an angle of less than 10 degrees, allow the pendulum to swing and measure the pendulum’s period for 10 oscillations using a stopwatch.</item>
+        <item>Calculate <emphasis>g</emphasis>.</item>
+
+      </list><exercise id="fs-id1167066863322" class="os-exercise grasp-check unnumbered">
+        <problem id="fs-id1167066841612">
+          <!--<para id="fs-id1167066807562">
+            <link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex094"/>
+          </para>-->
+<para id="fs-id1164563421722">How accurate is this measurement for <emphasis effect="italics">g</emphasis>? How might it be improved?</para>
+<list id="fs-id1164563549906" list-type="enumerated" number-style="lower-alpha">
+<item>Accuracy for value of <emphasis effect="italics">g</emphasis> will increase with an increase in the mass of a dense object.</item>
+<item>Accuracy for the value of <emphasis effect="italics">g</emphasis> will increase with increase in the length of the pendulum.</item>
+<item>The value of <emphasis effect="italics">g</emphasis> will be more accurate if the angle of deflection is more than 15°.</item>
+<item>The value of <emphasis effect="italics">g</emphasis> will be more accurate if it maintains simple harmonic motion.</item>
+</list>
+        </problem>
+      </exercise>
+      </note>
+  </section>
+  <section id="fs-id1167066810839" class="summary">
+    <title>Section Summary</title>
+    <list id="fs-id1167067044188">
+      <item>An oscillation is a back and forth motion of an object between two points of deformation.</item>
+      <item>An oscillation may create a wave, which is a disturbance that propagates from where it was created.</item>
+      <item>The simplest type of oscillations are related to systems that can be described by Hooke’s law.</item>
+      <item>Periodic motion is a repetitious oscillation.</item>
+      <item>The time for one oscillation is the period T.</item>
+      <item>The number of oscillations per unit time is the frequency</item>
+      <item>A mass <emphasis effect="italics">m</emphasis> suspended by a wire of length <emphasis effect="italics">L</emphasis> is a simple pendulum and undergoes simple harmonic motion for amplitudes less than about 15 degrees. </item>
+    </list>
+  </section>
+  <section id="fs-id1167066804180" class="key-equations"><title>Key Equations</title><table id="fs-id1167066881417" class="unnumbered unstyled" summary="The list of Key Equations includes Hooke’s law and formulas for a period in simple harmonic motion, frequency in simple harmonic motion, and the period of a simple pendulum.">
+<label/>
+<tgroup cols="2"><colspec colnum="1" align="left" colname="c1"/>
+        <colspec colnum="2" align="left" colname="c2"/>
+        <tbody>
+
+            <row>
+              <entry>Hooke’s law</entry>
+              <entry> <m:math>
+                <m:mrow>
+                  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle><m:mo>=</m:mo><m:mo>−</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>k</m:mi><m:mi>x</m:mi></m:mstyle>
+                </m:mrow>
+              </m:math>
+              </entry>
+            </row><row>
+            <entry>period in simple harmonic motion</entry>
+            <entry> <m:math>
+              <m:mrow>
+                <m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mi>m</m:mi>
+                     <m:mstyle mathvariant="bold" mathsize="normal"> <m:mi>k</m:mi></m:mstyle>
+                    </m:mfrac>
+
+                  </m:mrow>
+                </m:msqrt>
+
+              </m:mrow>
+            </m:math>
+            </entry>
+          </row>
+          <row>
+            <entry>frequency in simple harmonic motion</entry>
+            <entry> <m:math>
+              <m:mrow>
+                <m:mi>f</m:mi><m:mo>=</m:mo><m:mfrac>
+                  <m:mn>1</m:mn>
+                  <m:mrow>
+                    <m:mn>2</m:mn><m:mi>π</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+                <m:msqrt>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>k</m:mi></m:mstyle>
+                      <m:mi>m</m:mi>
+                    </m:mfrac>
+
+                  </m:mrow>
+                </m:msqrt>
+
+              </m:mrow>
+            </m:math>
+            </entry>
+          </row>
+          <row>
+            <entry>period of a simple pendulum</entry>
+            <entry> <m:math>
+              <m:mrow>
+                <m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mi>L</m:mi>
+                      <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>g</m:mi></m:mstyle>
+                    </m:mfrac>
+
+                  </m:mrow>
+                </m:msqrt>
+
+              </m:mrow>
+            </m:math>
+            </entry>
+          </row>
+        </tbody>
+
+
+</tgroup>
+</table></section><section id="fs-id1167067042379" class="check-understanding"><title>Check Your Understanding</title>
+<exercise id="fs-id1167066972334" class="os-exercise">
+      <problem id="fs-id1167066825687">
+        <para id="fs-id1167066881408">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex095"/>
+        </para>
+      </problem>
+    </exercise>
+    <exercise id="fs-id1167066825346" class="os-exercise">
+      <problem id="fs-id1167066834048">
+        <!--<para id="fs-id1167066804067">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex096"/>
+        </para>-->
+<para id="fs-id1164562443641">According to Hookes law, what is deformation proportional to?</para>
+<list id="fs-id1164564733589" list-type="enumerated" number-style="lower-alpha">
+<item>Force</item>
+<item>Velocity</item>
+<item>Displacement</item>
+<item>Force constant</item>
+</list>
+      </problem>
+    </exercise>
+    <exercise id="fs-id1167066867310" class="os-exercise">
+      <problem id="fs-id1167066846774">
+        <!--<para id="fs-id1167066870484">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex097"/>
+        </para>-->
+<para id="fs-id1164563149204">What are oscillations?</para>
+<list id="fs-id1164564925112" list-type="enumerated" number-style="lower-alpha">
+<item>Motion resulting in small displacements</item>
+<item>Motion which repeats itself periodically</item>
+<item>Periodic, repetitive motion between two points</item>
+<item>motion that is the opposite to the direction of the restoring force</item>
+</list>
+      </problem>
+    </exercise>
+    <exercise id="fs-id1167067028710" class="os-exercise">
+      <problem id="fs-id1167066783196">
+        <!--<para id="fs-id1167066876249">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex098"/>
+        </para>-->
+<para id="fs-id1164563499554">True or FalseOscillations can occur without force.</para>
+<list id="fs-id1164565282404" list-type="enumerated" number-style="lower-alpha">
+<item>True</item>
+<item>False</item>
+</list>
+      </problem>
+    </exercise>
+    <note id="fs-id1167066805806" class="os-teacher">
+      <title>Teacher Support</title>
+      <para id="fs-id1167067022035">Use the Check Your Understanding questions to assess whether students achieve the learning objectives for this section. If students are struggling with a specific objective, the Check Your Understanding will help identify which objective is causing the problem and direct students to the relevant content.</para></note>
+  </section><section id="fs-id1167067074205" class="concept"><title>Concept Items</title>
+<exercise id="fs-id1167066875693" class="os-exercise">
+      <problem id="fs-id1167066783059">
+        <para id="fs-id1167067041357">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex099"/>
+        </para>
+      </problem>
+    </exercise>
+    <exercise id="fs-id1167066971744" class="os-exercise">
+      <problem id="fs-id1167066835490">
+        <!--<para id="fs-id1167066829799">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex100"/>
+        </para>-->
+<para id="fs-id1164565049381">With reference to simple harmonic motion, what is the equilibrium position?</para>
+<list id="fs-id1164566507663" list-type="enumerated" number-style="lower-alpha">
+<item>The position where velocity is the minimum</item>
+<item>The position where the displacement is maximum</item>
+<item>The position where the restoring force is the maximum</item>
+<item>The position where the object rests in the absence of force</item>
+</list>
+      </problem>
+    </exercise>
+  <exercise id="eip-id1166848776330" class="os-exercise">
+<problem id="eip-id1166849081900">
+<para id="eip-id1166851394210">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch05-ot078"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167066867494" class="problems">
+    <title>Problems</title>
+    <exercise id="fs-id1167067095567" class="os-exercise">
+      <problem id="fs-id1167066847896">
+        <para id="fs-id1167067053645">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex101"/>
+        </para>
+      </problem>
+    </exercise>
+    <exercise id="fs-id1167066861616" class="os-exercise">
+      <problem id="fs-id1167066873855">
+        <para id="fs-id1167066867270">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex102"/>
+        </para>
+      </problem>
+    </exercise>
+  </section>
+  <section id="fs-id1167066827241" class="critical-thinking"><title>Critical Thinking</title><exercise id="fs-id1167066880063" class="os-exercise"><problem id="fs-id1167067042601"><para id="eip-idm297095360">Two springs are attached to two hooks. Spring A has a greater force constant than spring B. Equal weights are suspended from both. Which of the following statements is true?</para>
+<list id="eip-idm633393552" list-type="enumerated" number-style="lower-alpha"><item>Spring A will have more extension than spring B.</item>
+<item>Spring B will have more extension than spring A.</item>
+<item>Both springs will have equal extension.</item>
+<item>Both springs are equally stiff.</item>
+</list></problem></exercise><exercise id="fs-id1167066965762" class="os-exercise"><problem id="fs-id1167067076521"><para id="fs-id1167066863042"><link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex104"/></para></problem></exercise>
+  </section>
+
+  <section id="fs-id1167066885538" class="performance"><title>Performance Task</title><note id="eip-id1167066068832" class="os-teacher"><title>Teacher Support</title>
+<para id="eip-id1167065975958"><span>[AL]</span> Ask two students to demonstrate pushing a table from two different directions. Ask students what they feel the direction of resultant motion will be. How would they represent this graphically? Recall that a vector’s magnitude is represented by the length of the arrow. Demonstrate the head-to-tail method of adding vectors, using the example given in the chapter. Ask students to practice this method of addition using a scale and a protractor.</para><para id="eip-id1167064953212"><span>[BL]</span><span>[OL]</span><span>[AL]</span> Ask students if anything changes by moving the vector from one place to another on a graph. How about the order of addition? Would that make a difference? Introduce negative of a vector and vector subtraction.</para></note><exercise id="eip-idm389602512"><problem id="eip-idm389602384">      <para id="eip-942">Construct a seconds pendulum (pendulum with time period 2 seconds). </para></problem></exercise>
+  </section><section id="fs-id1167066849603" class="multiple-choice"><title>Test Prep Multiple Choice</title>
+<exercise id="fs-id1167066880217" class="os-exercise"><problem id="fs-id1167066820718"><!--<para id="fs-id1167066820719"><link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex105"/></para>-->
+<para id="fs-id1164564970785">A change in which of the following is an example of deformation?</para>
+<list id="fs-id1164563148689" list-type="enumerated" number-style="lower-alpha">
+<item>Velocity</item>
+<item>Length</item>
+<item>Mass</item>
+<item>Weight</item>
+</list>
+</problem></exercise>
+    <exercise id="fs-id1167066868011" class="os-exercise"><problem id="fs-id1167066876187"><!--<para id="fs-id1167066876188"><link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex106"/></para>-->
+<para id="fs-id1164562172583">The units of amplitude are the same as those for which of the following measurements?</para>
+<list id="fs-id1164563363867" list-type="enumerated" number-style="lower-alpha">
+<item>Speed</item>
+<item>Displacement</item>
+<item>Acceleration</item>
+<item>Force</item>
+</list>
+</problem></exercise>
+    <exercise id="fs-id1167066840503" class="os-exercise"><problem id="fs-id1167067026788"><para id="fs-id1167067026789"><link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex107"/></para></problem></exercise>
+  <exercise id="eip-id1166851431511" class="os-exercise">
+<problem id="eip-id1166848849634">
+<para id="eip-id1166851070121">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch05-ot087"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166848770418" class="os-exercise">
+<problem id="eip-id1166851289631">
+<para id="eip-id1166848815386">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch05-ot093"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167067108592" class="short-answer">
+    <title>Test Prep Short Answer</title>
+    <exercise id="fs-id1167066836651" class="os-exercise"><problem id="fs-id1167066838768"><!--<para id="fs-id1167066793400"><link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex108"/></para>-->
+<para id="fs-id1164562077453">What is the term used for changes in shape due to the application of force?</para>
+<list id="fs-id1164565063660" list-type="enumerated" number-style="lower-alpha">
+<item>Amplitude</item>
+<item>Deformation</item>
+<item>Displacement</item>
+<item>Restoring force</item>
+</list>
+</problem></exercise>
+    <exercise id="fs-id1167066799540" class="os-exercise"><problem id="fs-id1167066998097"><!--<para id="fs-id1167066848484"><link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex109"/></para>-->
+<para id="fs-id1164564962473">What is the restoring force?</para>
+<list id="fs-id1164562107750" list-type="enumerated" number-style="lower-alpha">
+<item>The normal force on the surface of an object</item>
+<item>The weight of a mass attached to an object</item>
+<item>Force which is applied to deform an object from its original shape</item>
+<item>Force which brings an object back to its equilibrium position</item>
+</list>
+</problem></exercise>
+    <exercise id="fs-id1167066846439" class="os-exercise"><problem id="fs-id1167066840185"><!--<para id="fs-id1167066830116"><link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex110"/></para>-->
+<para id="fs-id1164566487147">For a given oscillator, what are the factors that affect its period and frequency?</para>
+<list id="fs-id1164562170527" list-type="enumerated" number-style="lower-alpha">
+<item>Mass only</item>
+<item>Force constant only</item>
+<item>Applied force and mass</item>
+<item>Mass and force constant</item>
+</list>
+</problem></exercise>
+    <exercise id="fs-id1167066880928" class="os-exercise"><problem id="fs-id1167066832080"><!--<para id="fs-id1167066821997"><link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex111"/></para>-->
+<para id="fs-id1164566530937">For an object in simple harmonic motion, when does the maximum speed occur?</para>
+<list id="fs-id1164563558934" list-type="enumerated" number-style="lower-alpha">
+<item>At the extreme positions</item>
+<item>At the equilibrium position</item>
+<item>At the moment when the applied force is removed</item>
+<item>Midway between the extreme and equilibrium positions</item>
+</list>
+</problem></exercise>
+    <exercise id="fs-id1167067092323" class="os-exercise"><problem id="fs-id1167066880561"><!--<para id="fs-id1167066852813"><link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex112"/></para>-->
+<para id="fs-id1164563333978">What is the equilibrium position of a pendulum?</para>
+<list id="fs-id1164566716619" list-type="enumerated" number-style="lower-alpha">
+<item>When the tension in the string is zero</item>
+<item>When the pendulum is hanging straight down</item>
+<item>When the tension in the string is maximum</item>
+<item>When the weight of the mass attached is minimum</item>
+</list>
+</problem></exercise>
+    <exercise id="fs-id1167067083339" class="os-exercise">
+<problem id="fs-id1167066844385">
+<!--<para id="fs-id1167067192840"><link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex113"/></para>-->
+<para id="fs-id1169830593115">If a pendulum is displaced by an angle <emphasis effect="italics">θ</emphasis>, what is the net restoring force it experiences?</para>
+<list id="fs-id1169832966231" list-type="enumerated" number-style="lower-alpha">
+<item><emphasis effect="italics">mg</emphasis>sin<emphasis effect="italics">θ</emphasis></item>
+<item><emphasis effect="italics">mg</emphasis>cos<emphasis effect="italics">θ</emphasis></item>
+<item>–<emphasis effect="italics">mg</emphasis>sin<emphasis effect="italics">θ</emphasis></item>
+<item>–<emphasis effect="italics">mg</emphasis>cos<emphasis effect="italics">θ</emphasis></item>
+</list>
+</problem></exercise>
+  </section>
+  <section id="fs-id1167067077460" class="extended-response">
+    <title>Test Prep Extended Response</title>
+    <exercise id="fs-id1167066833959" class="os-exercise"><problem id="fs-id1167066858881"><!--<para id="fs-id1167066834605"><link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex114"/></para>-->
+<para id="fs-id1164562442708">What physical characteristic of a system is its force constant related to?</para>
+<list id="fs-id1164566531908" list-type="enumerated" number-style="lower-alpha">
+<item>The force constant <emphasis effect="italics">k</emphasis> is related to the stiffness of a system: The larger the force constant, the stiffer the system.</item>
+<item>The force constant <emphasis effect="italics">k</emphasis> is related to the stiffness of a system: The larger the force constant, the looser the system.</item>
+<item>The force constant <emphasis effect="italics">k</emphasis> is related to the friction in the system: The larger the force constant, the greater the friction in the system.</item>
+<item>The force constant <emphasis effect="italics">k</emphasis> is related to the friction in the system: The larger the force constant, the lower the friction in the system.</item>
+</list>
+</problem></exercise>
+    <exercise id="fs-id1167066836139" class="os-exercise"><problem id="fs-id1167066983724"><para id="fs-id1167066861292"><link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex115"/></para></problem></exercise>
+    <exercise id="fs-id1167066833080" class="os-exercise"><problem id="fs-id1167066880620"><para id="fs-id1167066832406"><link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex116"/></para></problem></exercise>
+  </section>
+
+</content>
+  <glossary>
+    <definition id="fs-id1167066971983"><term>amplitude</term> <meaning id="fs-id1167066793954">the maximum displacement from the equilibrium position of an object oscillating around the equilibrium position</meaning></definition>
+    <definition id="fs-id1167066866178"><term>deformation</term> <meaning id="fs-id1167066845080">displacement from equilibrium, or change in shape due to the application of force</meaning></definition>
+    <definition id="fs-id1167066791270"><term>equilibrium position</term> <meaning id="fs-id1167066953218">where an object would naturally rest in the absence of force</meaning></definition>
+    <definition id="fs-id1167067029291"><term>frequency</term> <meaning id="fs-id1167067075181">number of events per unit of time</meaning></definition>
+    <definition id="fs-id1167067075184"><term>Hooke’s law</term> <meaning id="fs-id1167066963037">proportional relationship between the force <emphasis>F</emphasis> on a material and the deformation <m:math>
+      <m:mrow>
+        <m:mi>Δ</m:mi><m:mi>L</m:mi>
+      </m:mrow>
+    </m:math> it causes, <m:math>
+      <m:mrow>
+        <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>k</m:mi></m:mstyle><m:mi>Δ</m:mi><m:mi>L</m:mi>
+      </m:mrow>
+    </m:math> </meaning></definition>
+    <definition id="fs-id1167066983805"><term>oscillate</term> <meaning id="fs-id1167066983809">moving back and forth regularly between two points</meaning></definition>
+    <definition id="fs-id1167066983812"><term>period</term> <meaning id="fs-id1167066828747">time it takes to complete one oscillation</meaning></definition>
+    <definition id="fs-id1167066828751"><term>periodic motion</term> <meaning id="fs-id1167067071093">motion that repeats itself at regular time intervals</meaning></definition>
+    <definition id="fs-id1167067071096"><term>restoring force</term> <meaning id="fs-id1167066974528">force acting in opposition to the force caused by a deformation</meaning></definition>
+    <definition id="fs-id1167066974531"><term>simple harmonic motion</term> <meaning id="fs-id1167066975355">the oscillatory motion in a system where the net force can be described by Hooke’s law</meaning></definition>
+    <definition id="fs-id1167066975360"><term>simple pendulum</term> <meaning id="fs-id1167066884762">an object with a small mass suspended from a light wire or string</meaning></definition>
+  </glossary>
+</document>

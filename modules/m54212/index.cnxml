@@ -1,0 +1,26 @@
+<document xmlns="http://cnx.rice.edu/cnxml" class="introduction">
+
+<title>Introduction</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54212</md:content-id>
+  <md:title>Introduction</md:title>
+  <md:abstract/>
+  <md:uuid>315c0abc-40c8-43ab-a061-a9b9c821a935</md:uuid>
+</metadata>
+
+<content>
+  <figure id="Figure_08_00_football" class="splash"><media id="fs-id1167065867627" alt="A photograph shows a football game with four football players trying to tackle a fifth player. A crowd is shown in the background.">
+      <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_08_00_football.jpg"/>
+    </media><caption>NFC defensive backs Ronde Barber and Roy Williams along with linebacker Jeremiah Trotter gang tackle AFC running back LaDainian Tomlinson during the 2006 Pro Bowl in Hawaii. (United States Marine Corps)</caption></figure>
+<note id="fs-id1167064937964" class="os-teacher">
+    <title>Teacher Support</title>
+    <para id="fs-id1167065970205">Point out to the students how players often collide with each other while playing American football. How do these collisions affect the players? Does colliding into someone change your velocity? Does it change your mass? What about the force of collision? What does it depend on? Would it hurt more if a heavier person collided into you or a faster person? Tell students that in this chapter they will learn about momentum, its relation to force and about collisions.</para>
+  </note>
+  <para id="fs-id1167065858113">We know from everyday use of the word <emphasis effect="italics">momentum</emphasis> that it is a tendency to continue on course in the same direction. Newscasters speak of sports teams or politicians gaining, losing, or maintaining the momentum to win. As we learned when studying about inertia, which is Newton's first law of motion, every object or system has inertia—that is, a tendency for an object in motion to remain in motion or an object at rest to remain at rest. Mass is a useful variable that lets us quantify inertia. Momentum is mass in motion.</para>
+  <para id="fs-id1167066098596">Momentum is important because it is conserved in isolated systems; this fact is convenient for solving problems where objects collide. The magnitude of momentum grows with greater mass and/or speed. For example, look at the football players in the photograph (<link target-id="Figure_08_00_football"/>). They collide and fall to the ground. During their collisions, momentum will play a large part. In this chapter, we will learn about momentum, the different types of collisions, and how to use momentum equations to solve collision problems. </para>
+  <note id="fs-id1167065916374" class="os-teacher">
+    <title>Teacher Support</title>
+    <para id="fs-id1167066098361">Before students begin this chapter, it would be useful to review these concepts: mass, inertia, Newton’s laws of motion, angular motion, and moment of inertia.</para>
+  </note>
+</content>
+</document>

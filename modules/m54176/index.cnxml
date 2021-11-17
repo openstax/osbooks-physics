@@ -1,0 +1,1100 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Angle of Rotation and Angular Velocity</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54176</md:content-id>
+  <md:title>Angle of Rotation and Angular Velocity</md:title>
+  <md:abstract/>
+  <md:uuid>541ebd77-2d9a-43ee-9d52-40c4d4261f6f</md:uuid>
+</metadata>
+
+<content>
+    <note id="fs-id1167065651127" class="learning-objectives">
+        <label/>
+<title>Section Learning Objectives</title>
+        <para id="fs-id1167065977047">By the end of this section, you will be able to do the following:</para>
+<list id="fs-id1167064981179">
+<item>Describe the angle of rotation and relate it to its linear counterpart</item>
+<item>Describe angular velocity and relate it to its linear counterpart</item>
+<item>Solve problems involving angle of rotation and angular velocity</item>
+</list>
+</note>
+<note id="fs-id1167065899465" class="os-teacher">
+        <title>Teacher Support</title>
+        <para id="fs-id1167065020991">The learning objectives in this section will help your students master the following standards:</para><list id="fs-id1167064978822">
+        <item>
+          (4) Science concepts. The student knows and applies the laws governing motion in a variety of situations. The student is expected to:
+        <list id="fs-id1167065860166"><item><span>(C)</span> <span>analyze and describe accelerated motion in two dimensions using equations, including projectile and circular examples.</span></item>
+             </list></item>
+      </list>
+    </note>
+    <section id="keyterms"><title>Section Key Terms</title>
+    <table id="fs-id1167064908228" class="unnumbered unstyled section-key-terms" summary="The list of Key Terms includes: angle of rotation, angular velocity, arc length, circular motion, radius of curvature, rotational motion, spin, and tangential velocity.">
+      <label/>
+      <tgroup cols="3">
+        <tbody>
+          <row>
+            <entry>angle of rotation</entry>
+            <entry>angular velocity</entry>
+            <entry>arc length</entry>
+            <entry>circular motion</entry>
+          </row>
+          <row>
+            <entry>radius of curvature</entry>
+            <entry>rotational motion</entry>
+            <entry>spin</entry>
+            <entry>tangential velocity</entry>
+          </row>
+                  </tbody>
+      </tgroup>
+    </table>
+</section>
+<section id="fs-id1167065826383">
+<title>Angle of Rotation</title>
+<para id="fs-id1167066012376">What exactly do we mean by <emphasis effect="italics">circular motion</emphasis> or <emphasis effect="italics">rotation</emphasis>? <term>Rotational motion</term> is the circular motion of an object about an axis of rotation. We will discuss specifically circular motion and spin. <term>Circular motion</term> is when an object moves in a circular path. Examples of circular motion include a race car speeding around a circular curve, a toy attached to a string swinging in a circle around your head, or the circular <emphasis effect="italics">loop-the-loop</emphasis> on a roller coaster. <term>Spin</term> is rotation about an axis that goes through the center of mass of the object, such as Earth rotating on its axis, a wheel turning on its axle, the spin of a tornado on its path of destruction, or a figure skater spinning during a performance at the Olympics. Sometimes, objects will be spinning while in circular motion, like the Earth spinning on its axis while revolving around the Sun, but we will focus on these two motions separately.</para>
+<note id="fs-id1167065711348" class="os-teacher">
+<title>Teacher Support</title>
+    <para id="fs-id1167065976376"><span>[BL]</span><span>[OL]</span> Explain the difference between circular and rotational motions by using the Earth’s rotation about its axis and its revolution about the Sun. Explain that Earth’s rotation is slightly elliptical, although it is very nearly circular.</para>
+<para id="fs-id1167065897746"><span>[OL]</span><span>[AL]</span> Ask students to come up with examples of circular motion.</para>
+
+</note>
+<para id="fs-id1167065811287">When solving problems involving rotational motion, we use variables that are similar to linear variables (distance, velocity, acceleration, and force) but take into account the curvature or rotation of the motion. Here, we define the <term>angle of rotation</term>, which is the angular equivalence of distance; and <term>angular velocity</term>, which is the angular equivalence of linear velocity.</para>
+<para id="fs-id1167065001525">When objects rotate about some axis—for example, when the CD in <link target-id="Figure_06_01_CD"/> rotates about its center—each point in the object follows a circular path. </para>
+<figure id="Figure_06_01_CD"><media id="fs-id1167065812517" alt="The diagram shows a picture of a CD with about an eighth of the shiny surface peeled away to display the inside of the CD with pits (dots) arranged in lines from the center. An angle theta is marked from one line of dots to another.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_06_01_CD.jpg"/>
+</media>
+
+<caption>All points on a CD travel in circular paths. The pits (dots) along a line from the center to the edge all move through the same angle  <m:math>
+ <m:mrow>
+  <m:mtext>Δ</m:mtext><m:mi>θ</m:mi>
+ </m:mrow>
+</m:math>  in time  <m:math>
+ <m:mrow>
+  <m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+ </m:mrow>
+</m:math> .</caption></figure><para id="fs-id1167065846392">The <term>arc length</term><emphasis>,  </emphasis>, is the distance traveled along a circular path. The <term>radius of curvature</term>,<emphasis> <emphasis effect="italics"/>r</emphasis>, is the radius of the circular path. Both are shown in <link target-id="Figure_06_01_RotationAngle"/>.</para>
+<figure id="Figure_06_01_RotationAngle"><media id="fs-id1167065892392" alt="The diagram shows a circle with the center marked O, a radius r ending on the circumference at A, an arc change of s starting at A and ending at B. The angle for the arc is change of theta. A formula to the right of the circle says change of theta is equal to change of s divided by r.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_06_01_RotationAn.jpg"/>
+</media>
+
+<caption>The radius (<emphasis effect="italics">r</emphasis>) of a circle is rotated through an angle  <m:math>
+ <m:mrow>
+  <m:mtext>Δ</m:mtext><m:mi>θ</m:mi>
+ </m:mrow>
+</m:math> . The arc length,  <m:math>
+ <m:mrow>
+  <m:mtext>Δ</m:mtext><m:mi>s</m:mi>
+ </m:mrow>
+</m:math>, is the distance covered along the circumference.</caption></figure><para id="fs-id1167066039788">Consider a line from the center of the CD to its edge. In a given time, each <emphasis effect="italics">pit</emphasis> (used to record information) on this line moves through the same angle. The angle of rotation is the amount of rotation and is the angular analog of distance. The angle of rotation  <m:math>
+ <m:mrow>
+  <m:mtext>Δ</m:mtext><m:mi>θ</m:mi>
+ </m:mrow>
+</m:math>  is the arc length divided by the radius of curvature.</para><equation id="fs-id1167065743836" class="unnumbered"><label/>
+ <m:math>
+ <m:mrow>
+  <m:mtext>Δ</m:mtext><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mtext>Δ</m:mtext><m:mi>s</m:mi>
+   </m:mrow>
+   <m:mi>r</m:mi>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+
+</equation>
+<para id="fs-id1167064927682">The angle of rotation is often measured by using a unit called the <term class="no-emphasis">radian</term>. (Radians are actually dimensionless, because a radian is defined as the ratio of two distances, radius and arc length.) A <term class="no-emphasis">revolution</term> is one complete rotation, where every point on the circle returns to its original position. One revolution covers  <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mi>π</m:mi>
+ </m:mrow>
+</m:math>  radians (or 360 degrees), and therefore has an angle of rotation of  <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mi>π</m:mi>
+ </m:mrow>
+</m:math>  radians, and an arc length that is the same as the circumference of the circle. We can convert between radians, revolutions, and degrees using the relationship</para>
+<para id="fs-id1167065913594">1 revolution =  <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mi>π</m:mi>
+ </m:mrow>
+</m:math> rad = 360°. See <link target-id="Table_06_01"/> for the conversion of degrees to radians for some common angles.</para>
+<equation id="fs-id1164567109270"> <m:math>
+ <m:mrow>
+  <m:mtable>
+   <m:mtr>
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:mn>2</m:mn><m:mi>π</m:mi><m:mtext> rad</m:mtext>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd>
+     <m:mtext>=</m:mtext>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>360</m:mtext><m:mo>°</m:mo>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:mn>1</m:mn><m:mi>rad</m:mi>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd>
+     <m:mtext>=</m:mtext>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mn>360</m:mn><m:mo>°</m:mo>
+       </m:mrow>
+       <m:mrow>
+        <m:mn>2</m:mn><m:mspace width="0.3em"/><m:mtext>π</m:mtext>
+       </m:mrow>
+      </m:mfrac>
+      <m:mo>≈</m:mo><m:mn>57.3</m:mn><m:mo>°</m:mo>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+</equation>
+<table id="Table_06_01" summary="The table shows two columns with the headers Degree Measures and Radian Measures. The first row under the labels shows that 30 degrees is pi over six. 60 degrees is pi over three. 90 degrees is pi over two. 120 degrees is two times pi over three. 135 degrees is three times pi over four. 180 degrees is pi."><title>Commonly Used Angles in Terms of Degrees and Radians </title>
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row>
+<entry align="center">Degree Measures</entry>
+<entry align="center">Radian Measures</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mn>30</m:mn>
+   </m:mrow>
+   <m:mo>∘</m:mo>
+  </m:msup>
+
+ </m:mrow>
+</m:math> </entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </entry>
+</row>
+<row>
+<entry> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mn>60</m:mn>
+   </m:mrow>
+   <m:mo>∘</m:mo>
+  </m:msup>
+
+ </m:mrow>
+</m:math> </entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </entry>
+</row>
+<row>
+<entry> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mn>90</m:mn>
+   </m:mrow>
+   <m:mo>∘</m:mo>
+  </m:msup>
+
+ </m:mrow>
+</m:math>
+</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mn>120</m:mn>
+   </m:mrow>
+   <m:mo>∘</m:mo>
+  </m:msup>
+
+ </m:mrow>
+</m:math>
+</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mn>135</m:mn>
+   </m:mrow>
+   <m:mo>∘</m:mo>
+  </m:msup>
+
+ </m:mrow>
+</m:math>
+</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mn>3</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>4</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mn>180</m:mn>
+   </m:mrow>
+   <m:mo>∘</m:mo>
+  </m:msup>
+
+ </m:mrow>
+</m:math>
+</entry>
+<entry> <m:math>
+ <m:mi>π</m:mi>
+</m:math>
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table></section>
+<section id="fs-id1167065808336">
+<title>Angular Velocity</title>
+<note id="fs-id1167066029330" class="os-teacher">
+<title>Teacher Support</title>
+    <para id="fs-id1167066153786"><span>[BL]</span> Review displacement, speed, velocity, acceleration.</para>
+<para id="fs-id1167065823102"><span>[AL]</span> Ask students whether or not velocity changes in uniform circular motion. What about speed? What about acceleration?</para>
+</note>
+<para id="fs-id1167064903318">How fast is an object rotating? We can answer this question by using the concept of angular velocity. Consider first the angular speed  <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo stretchy="false">(</m:mo><m:mi>ω</m:mi><m:mo stretchy="false">)</m:mo>
+  </m:mrow>
+ </m:semantics>
+</m:math>  is the rate at which the angle of rotation changes. In equation form, the angular speed is</para>
+<equation id="fs-id1164565533858"> <m:math>
+ <m:mrow>
+  <m:mi>ω</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mtext>Δ</m:mtext><m:mi>θ</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+   </m:mrow>
+  </m:mfrac>
+  <m:mtext>,</m:mtext>
+ </m:mrow>
+</m:math> </equation>
+<para id="fs-id1167064979370">which means that an angular rotation  <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo stretchy="false">(</m:mo><m:mi>Δ</m:mi><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo>
+  </m:mrow>
+ </m:semantics>
+</m:math>  occurs in a time,  <m:math>
+ <m:mrow>
+  <m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+ </m:mrow>
+</m:math> . If an object rotates through a greater angle of rotation in a given time, it has a greater angular speed. The units for angular speed are radians per second (rad/s).</para>
+<para id="fs-id1167065823797">Now let’s consider the direction of the angular speed, which means we now must call it the angular velocity. The direction of the angular velocity is along the axis of rotation. For an object rotating clockwise, the angular velocity points away from you along the axis of rotation. For an object rotating counterclockwise, the angular velocity points toward you along the axis of rotation.</para>
+<para id="fs-id1167065853790">Angular velocity (ω) is the angular version of linear velocity <emphasis>v</emphasis>. <term>Tangential velocity</term> is the instantaneous linear velocity of an object in rotational motion<emphasis>. </emphasis>To get the precise relationship between angular velocity and tangential velocity, consider again a pit on the rotating CD. This pit moves through an arc length  <m:math display="block">
+ <m:semantics>
+  <m:mrow>
+   <m:mo stretchy="false">(</m:mo><m:mi>Δ</m:mi><m:mi>s</m:mi><m:mo stretchy="false">)</m:mo>
+  </m:mrow>
+ </m:semantics>
+</m:math>  in a <emphasis effect="italics">short</emphasis> time  <m:math display="block">
+ <m:semantics>
+  <m:mrow>
+   <m:mo stretchy="false">(</m:mo><m:mi>Δ</m:mi><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo>
+  </m:mrow>
+ </m:semantics>
+</m:math>  so its tangential <emphasis effect="italics">speed</emphasis> is</para>
+<equation id="eip-289"><label/>
+ <m:math>
+ <m:mrow>
+  <m:mi>v</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mtext>Δ</m:mtext><m:mi>s</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+   </m:mrow>
+  </m:mfrac>
+  <m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math> </equation><para id="fs-id1167065844590">From the definition of the angle of rotation,  <m:math>
+ <m:mrow>
+  <m:mtext>Δ</m:mtext><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mtext>Δ</m:mtext><m:mi>s</m:mi>
+   </m:mrow>
+   <m:mi>r</m:mi>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>, we see that  <m:math>
+ <m:mrow>
+  <m:mtext>Δ</m:mtext><m:mi>s</m:mi><m:mo>=</m:mo><m:mi>r</m:mi><m:mtext>Δ</m:mtext><m:mi>θ</m:mi>
+ </m:mrow>
+</m:math> . Substituting this into the expression for <emphasis effect="italics">v </emphasis>gives</para>
+<equation id="fs-id1167065909764" class="unnumbered"><label/>
+ <m:math>
+ <m:mrow>
+  <m:mi>v</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mtext>r</m:mtext><m:mtext>Δ</m:mtext><m:mi>θ</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mi>r</m:mi><m:mi>ω</m:mi>
+<m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1167065974178">The equation  <m:math>
+ <m:mrow>
+  <m:mi>v</m:mi><m:mo>=</m:mo><m:mi>r</m:mi><m:mi>ω</m:mi>
+ </m:mrow>
+</m:math>  says that the tangential speed <emphasis effect="italics">v</emphasis> is proportional to the distance <emphasis effect="italics">r</emphasis> from the center of rotation. Consequently, tangential speed is greater for a point on the outer edge of the CD (with larger <emphasis effect="italics">r</emphasis>) than for a point closer to the center of the CD (with smaller <emphasis effect="italics">r</emphasis>). This makes sense because a point farther out from the center has to cover a longer arc length in the same amount of time as a point closer to the center. Note that both points will still have the same angular speed, regardless of their distance from the center of rotation. See <link target-id="Figure_06_01_ArcLength"/>.</para>
+<figure id="Figure_06_01_ArcLength"><media id="fs-id1167065867330" alt="The picture shows a circle with a radius r2 going from the center, through a point 1 half-way on the radius and point 2 on the circumference. The distance from center to point 1 is labeled r1. A second radius line is drawn with an angle of change in theta. The arc from point 1 to the second radius is labeled change s1. The arc at point 2 is labeled change s2. There are two formulas to the right of the diagram: theta is equal to change of s1 over r1 and theta is equal to change of s2 over r2.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_06_01_ArcLength.jpg"/>
+</media>
+
+<caption>Points 1 and 2 rotate through the same angle ( <m:math>
+ <m:mrow>
+  <m:mtext>Δ</m:mtext><m:mi>θ</m:mi>
+ </m:mrow>
+</m:math> ), but point 2 moves through a greater arc length ( <m:math>
+ <m:mrow>
+  <m:mtext>Δ</m:mtext><m:msub>
+   <m:mi>s</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+
+ </m:mrow>
+</m:math> ) because it is farther from the center of rotation.</caption></figure><note id="fs-id1167064894115" class="os-teacher">
+<title>Teacher Support</title>
+    <para id="fs-id1167066033722"><span>[AL]</span> Explain that the time period  <m:math>
+ <m:mrow>
+  <m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+ </m:mrow>
+</m:math>  in the equation that defines tangential velocity ( <m:math>
+ <m:mrow>
+  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mtext>Δ</m:mtext><m:mi>s</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> ) must be short so that the arc described by the moving object can be approximated as a straight line. This allows us to define the direction of the tangential velocity as being tangent to the circle. This approximation becomes increasingly accurate as  <m:math>
+ <m:mrow>
+  <m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+ </m:mrow>
+</m:math>  becomes increasingly small.</para>
+</note>
+<para id="fs-id1167062400309">Now, consider another example: the tire of a moving car (see <link target-id="Figure_06_01_TireRotates"/>). The faster the tire spins, the faster the car moves—large  <m:math>
+ <m:mi>ω</m:mi>
+</m:math>  means large <emphasis effect="italics">v</emphasis> because  <m:math>
+ <m:mrow>
+  <m:mi>v</m:mi><m:mo>=</m:mo><m:mi>r</m:mi><m:mi>ω</m:mi>
+ </m:mrow>
+</m:math> . Similarly, a larger-radius tire rotating at the same angular velocity,  <m:math>
+ <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>ω</m:mi></m:mstyle>
+</m:math>, will produce a greater linear (tangential) velocity, <emphasis>v,</emphasis> for the car. This is because a larger radius means a longer arc length must contact the road, so the car must move farther in the same amount of time.</para>
+<figure id="Figure_06_01_TireRotates"><media id="fs-id1167064854595" alt="The diagram shows an illustration of the front part of a car. The diagram shows an arrow on the wheel pointing clockwise and labeled omega (angular velocity). There is a green arrow pointing toward the front of the car labeled v (velocity). The radius of the wheel is labeled r. To the right of the wheel is an equation v equals r times omega.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_06_01_TireRotate.jpg"/>
+</media>
+
+<caption>A car moving at a velocity, <emphasis>v,</emphasis> to the right has a tire rotating with angular velocity  <m:math>
+ <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>ω</m:mi></m:mstyle>
+</m:math> . The speed of the tread of the tire relative to the axle is <emphasis effect="italics">v</emphasis>, the same as if the car were jacked up and the wheels spinning without touching the road. Directly below the axle, where the tire touches the road, the tire tread moves backward with respect to the axle with tangential velocity  <m:math>
+ <m:mrow>
+  <m:mi>v</m:mi><m:mo>=</m:mo><m:mi>r</m:mi><m:mi>ω</m:mi>
+ </m:mrow>
+</m:math>, where <emphasis effect="italics">r </emphasis>is the tire radius. Because the road is stationary with respect to this point of the tire, the car must move forward at the linear velocity <emphasis>v</emphasis>. A larger angular velocity for the tire means a greater linear velocity for the car.</caption></figure><para id="fs-id1167065800430">However, there are cases where linear velocity and tangential velocity are not equivalent, such as a car spinning its tires on ice. In this case, the linear velocity will be less than the tangential velocity. Due to the lack of friction under the tires of a car on ice, the arc length through which the tire treads move is greater than the linear distance through which the car moves. It’s similar to running on a treadmill or pedaling a stationary bike; you are literally going nowhere fast.</para>
+<note id="fs-id1167065747609" class="tips-for-success">
+
+<para id="fs-id1167065812100">Angular velocity <emphasis>ω</emphasis> and tangential velocity <emphasis>v</emphasis> are vectors, so we must include magnitude and direction. The direction of the angular velocity is along the axis of rotation, and points away from you for an object rotating clockwise, and toward you for an object rotating counterclockwise. In mathematics this is described by the right-hand rule. Tangential velocity is usually described as up, down, left, right, north, south, east, or west, as shown in <link target-id="Figure_06_01_Vinyl"/>.</para>
+<figure id="Figure_06_01_Vinyl"><media id="fs-id1167065886396" alt="The figure shows an illustration of a vinyl record with an arrow omega (angular velocity) pointing in a clockwise direction. There are two lines for the radius, marked r, one going from the center up and the other going from the center to the right. There are three flies on the record. One is positioned at the top of the record on the vertical radius. A v (velocity) arrow points to the right. A second fly is half-way around the circumference toward the horizontal radius and an arrow v is pointing tangential to the fly. The third fly is on the circumference at the horizontal radius and an arrow v is pointing down.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_06_01_Vinyl.png"/>
+</media>
+<caption>As the fly on the edge of an old-fashioned vinyl record moves in a circle, its instantaneous velocity is always at a tangent to the circle. The direction of the angular velocity is into the page this case.</caption></figure></note>
+<note id="fs-id1167064901840" class="watch-physics"><title>Relationship between Angular Velocity and Speed</title>
+
+<para id="fs-id1167065897265">This video reviews the definition and units of angular velocity and relates it to linear speed. It also shows how to convert between revolutions and radians.</para>
+<media id="fs-id1167065843009" alt="This tutorial explains how angular velocity relates to speed." class="os-embed">
+<iframe width="660" height="371.4" src="https://www.youtube.com/embed/zAx61CO5mDw"/>
+</media>
+<exercise id="fs-id1167065787905" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167065663487">
+<para id="fs-id1167065758426">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex001"/>
+</para>
+</problem>
+</exercise>
+</note></section>
+<section id="fs-id1167066031732">
+<title>Solving Problems Involving Angle of Rotation and Angular Velocity</title>
+<note id="fs-id1167066091922" class="snap-lab">
+
+                <title>Measuring Angular Speed</title>
+                <para id="fs-id1167062408046">In this activity, you will create and measure uniform circular motion and then contrast it with circular motions with different radii.</para>
+<list id="fs-id1167065824464" class="materials">
+<item>One string (1 m long)</item>
+<item>One object (two-hole rubber stopper) to tie to the end</item>
+<item>One timer</item>
+</list><list id="fs-id1167065955105" list-type="enumerated" number-style="arabic"><title>Procedure</title>
+<item>Tie an object to the end of a string.</item>
+<item>Swing the object around in a horizontal circle above your head (swing from your wrist). It is important that the circle be horizontal!</item>
+<item>Maintain the object at uniform speed as it swings.</item>
+<item>Measure the angular speed of the object in this manner. Measure the time it takes in seconds for the object to travel 10 revolutions. Divide that time by 10 to get the angular speed in revolutions per second, which you can convert to radians per second.</item>
+<item>What is the approximate linear speed of the object?</item>
+<item>Move your hand up the string so that the length of the string is 90 cm. Repeat steps 2–5.</item>
+<item>Move your hand up the string so that its length is 80 cm. Repeat steps 2–5.</item>
+<item>Move your hand up the string so that its length is 70 cm. Repeat steps 2–5.</item>
+<item>Move your hand up the string so that its length is 60 cm. Repeat steps 2–5</item>
+<item>Move your hand up the string so that its length is 50 cm. Repeat steps 2–5</item>
+<item>Make graphs of angular speed vs. radius (i.e. string length) and linear speed vs. radius. Describe what each graph looks like.</item>
+</list><exercise id="fs-id1167065029055" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167066145945">
+<para id="fs-id1167065961078">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex002"/>
+</para>
+</problem>
+</exercise>
+            </note>
+<para id="fs-id1167064697578">Now that we have an understanding of the concepts of angle of rotation and angular velocity, we’ll apply them to the real-world situations of a clock tower and a spinning tire.</para>
+<note id="fs-id1167066094605" class="worked-example">
+
+<title>Angle of rotation at a Clock Tower</title>
+<exercise id="fs-id1167064649222" class="06-ex003 unnumbered"><label/>
+    <problem id="fs-id1167066000952">
+<para id="fs-id1167065720622">The clock on a clock tower has a radius of 1.0 m. (a) What angle of rotation does the hour hand of the clock travel through when it moves from 12 p.m. to 3 p.m.? (b) What’s the arc length along the outermost edge of the clock between the hour hand at these two times?</para>
+        <note id="fs-id1167065729740"><label/><title>Strategy</title>
+<para id="fs-id1167065714387">We can figure out the angle of rotation by multiplying a full revolution ( <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mi>π</m:mi>
+ </m:mrow>
+</m:math>  radians) by the fraction of the 12 hours covered by the hour hand in going from 12 to 3. Once we have the angle of rotation, we can solve for the arc length by rearranging the equation  <m:math>
+ <m:mrow>
+  <m:mtext>Δ</m:mtext><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mtext>Δ</m:mtext><m:mi>s</m:mi>
+   </m:mrow>
+   <m:mi>r</m:mi>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>  since the radius is given.</para>
+            </note>
+    </problem>
+<solution id="fs-id1167065795863">
+<label/>
+<title>Solution to (a)</title>
+<para id="fs-id1167065971825">In going from 12 to 3, the hour hand covers 1/4 of the 12 hours needed to make a complete revolution. Therefore, the angle between the hour hand at 12 and at 3 is  <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>4</m:mn>
+  </m:mfrac>
+  <m:mo>×</m:mo><m:mn>2</m:mn><m:mspace width="0.3em"/><m:mtext>π</m:mtext><m:mi>rad</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mtext>π</m:mtext>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>  (i.e., 90 degrees).</para>
+</solution>
+<solution id="fs-id1167063416631">
+<label/>
+<title>Solution to (b)</title>
+<para id="fs-id1167066097061">Rearranging the equation</para>
+<equation id="fs-id1164564513784"> <m:math>
+ <m:mrow>
+  <m:mtext>Δ</m:mtext><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mtext>Δ</m:mtext><m:mi>s</m:mi>
+   </m:mrow>
+   <m:mi>r</m:mi>
+  </m:mfrac>
+  <m:mtext>,</m:mtext>
+ </m:mrow>
+</m:math> </equation>
+<para id="fs-id1167064873328">we get</para>
+<equation id="fs-id1164567422096"> <m:math>
+ <m:mrow>
+  <m:mtext>Δ</m:mtext><m:mi>s</m:mi><m:mo>=</m:mo><m:mi>r</m:mi><m:mtext>Δ</m:mtext><m:mi>θ</m:mi>
+<m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math> </equation>
+<para id="fs-id1167065877301">Inserting the known values gives an arc length of</para>
+<equation id="fs-id1164567275303"> <m:math>
+<m:mrow>
+<m:mtable>
+<m:mtr rowalign="center">
+<m:mtd rowalign="center" columnalign="right">
+<m:mrow>
+<m:mtext>Δ</m:mtext><m:mi>s</m:mi>
+</m:mrow>
+</m:mtd>
+<m:mtd rowalign="center">
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd rowalign="center" columnalign="left">
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>1.0</m:mn><m:mspace width="0.3em"/><m:mtext>m</m:mtext>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mfrac>
+<m:mtext>π</m:mtext>
+<m:mn>2</m:mn>
+</m:mfrac>
+<m:mtext>rad</m:mtext>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+</m:mtd>
+</m:mtr>
+<m:mtr rowalign="center">
+<m:mtd rowalign="center"/>
+<m:mtd rowalign="center">
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd rowalign="center" columnalign="left">
+<m:mrow>
+<m:mn>1.6</m:mn><m:mspace width="0.3em"/><m:mtext>m</m:mtext>
+</m:mrow>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:mrow>
+</m:math>
+</equation>
+</solution>
+<commentary id="fs-id1167064551084">
+<title>Discussion</title>
+<para id="fs-id1167064873191">We were able to drop the radians from the final solution to part (b) because radians are actually dimensionless. This is because the radian is defined as the ratio of two distances (radius and arc length). Thus, the formula gives an answer in units of meters, as expected for an arc length.</para>
+</commentary>
+</exercise>
+</note>
+<note id="fs-id1167065888579" class="worked-example">
+
+<title>How Fast Does a Car Tire Spin?</title>
+<exercise id="fs-id1167065877421" class="06-ex004 unnumbered"><label/>
+    <problem id="fs-id1167065794922">
+<para id="fs-id1167064914605">Calculate the angular speed of a 0.300 m radius car tire when the car travels at 15.0 m/s (about 54 km/h). See <link target-id="Figure_06_01_TireRotates" class="has-default-text"/>.</para>
+        <note id="fs-id1167064634906"><label/><title>Strategy</title>
+<para id="fs-id1167065845337">In this case, the speed of the tire tread with respect to the tire axle is the same as the speed of the car with respect to the road, so we have <emphasis effect="italics">v </emphasis>= 15.0 m/s. The radius of the tire is <emphasis effect="italics">r </emphasis>= 0.300 m. Since we know <emphasis effect="italics">v </emphasis>and <emphasis effect="italics">r</emphasis>, we can rearrange the equation  <m:math>
+ <m:mrow>
+  <m:mi>v</m:mi><m:mo>=</m:mo><m:mi>r</m:mi><m:mi>ω</m:mi>
+ </m:mrow>
+</m:math>, to get  <m:math>
+ <m:mrow>
+  <m:mi>ω</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mi>v</m:mi>
+   <m:mi>r</m:mi>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>  and find the angular speed.</para>
+            </note>
+    </problem>
+<solution id="fs-id1167066137663">
+<label/>
+<title>Solution</title>
+<para id="fs-id1167065771481">To find the angular speed, we use the relationship:  <m:math>
+ <m:mrow>
+  <m:mi>ω</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mi>v</m:mi>
+   <m:mi>r</m:mi>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> .</para>
+<para id="fs-id1167066056981">Inserting the known quantities gives</para>
+<equation id="fs-id1164565363133"> <m:math>
+<m:mrow>
+<m:mtable>
+<m:mtr rowalign="center">
+<m:mtd rowalign="center" columnalign="right">
+<m:mi>ω</m:mi>
+</m:mtd>
+<m:mtd rowalign="center">
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd rowalign="center" columnalign="left">
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mn>15.0</m:mn><m:mspace width="0.3em"/><m:mtext>m/s</m:mtext>
+</m:mrow>
+<m:mrow>
+<m:mn>0.300</m:mn><m:mspace width="0.3em"/><m:mtext>m</m:mtext>
+</m:mrow>
+</m:mfrac>
+
+</m:mrow>
+</m:mtd>
+</m:mtr>
+<m:mtr rowalign="center">
+<m:mtd rowalign="center"/>
+<m:mtd rowalign="center">
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd rowalign="center" columnalign="left">
+<m:mrow>
+<m:mn>50.0</m:mn><m:mspace width="0.3em"/><m:mtext>rad/s.</m:mtext>
+</m:mrow>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:mrow>
+</m:math>
+</equation>
+</solution>
+<commentary id="fs-id1167064794720">
+<title>Discussion</title>
+<para id="fs-id1167066120352">When we cancel units in the above calculation, we get 50.0/s (i.e., 50.0 per second, which is usually written as 50.0 s<sup>−1</sup>). But the angular speed must have units of rad/s. Because radians are dimensionless, we can insert them into the answer for the angular speed because we know that the motion is circular. Also note that, if an earth mover with much larger tires, say 1.20 m in radius, were moving at the same speed of 15.0 m/s, its tires would rotate more slowly. They would have an angular speed of</para>
+<equation id="fs-id1164564475561"> <m:math>
+<m:mrow>
+<m:mtable>
+<m:mtr rowalign="center">
+<m:mtd rowalign="center" columnalign="right">
+<m:mi>ω</m:mi>
+</m:mtd>
+<m:mtd rowalign="center">
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd rowalign="center" columnalign="left">
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mn>15.0</m:mn><m:mspace width="0.3em"/><m:mtext>m/s</m:mtext>
+</m:mrow>
+<m:mrow>
+<m:mn>1.20</m:mn><m:mspace width="0.3em"/><m:mtext>m</m:mtext>
+</m:mrow>
+</m:mfrac>
+
+</m:mrow>
+</m:mtd>
+</m:mtr>
+<m:mtr rowalign="center">
+<m:mtd rowalign="center"/>
+<m:mtd rowalign="center">
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd rowalign="center" columnalign="left">
+<m:mrow>
+<m:mn>12.5</m:mn><m:mspace width="0.3em"/><m:mtext>rad/s</m:mtext>
+</m:mrow>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:mrow>
+</m:math>
+</equation>
+</commentary>
+
+</exercise>
+</note>
+</section>
+<section id="fs-id1167065942000" class="practice-problems"><title>Practice Problems</title><exercise id="fs-id1167065956422">
+<problem id="fs-id1167064780713">
+<!--<para id="fs-id1167062371685">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex005"/>
+</para>-->
+
+<para id="fs-id1164567839675">What is the angle in degrees between the hour hand and the minute hand of a clock showing 9:00 a.m.?</para>
+<list id="fs-id1164565431315" list-type="enumerated" number-style="lower-alpha">
+<item>0°</item>
+<item>90°</item>
+<item>180°</item>
+<item>360°</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167066096104">
+<problem id="fs-id1167066167520">
+<!--<para id="fs-id1167064825997">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex006"/>
+</para>-->
+<para id="fs-id1164567608743">What is the approximate value of the arc length between the hour hand and the minute hand of a clock showing 10:00 a.m if the radius of the clock is 0.2 m?</para>
+<list id="fs-id1164565474640" list-type="enumerated" number-style="lower-alpha">
+<item>0.1 m</item>
+<item>0.2 m</item>
+<item>0.3 m</item>
+<item>0.6 m</item>
+</list>
+
+</problem>
+</exercise>
+</section><section id="fs-id1167064909460" class="check-understanding">
+      <title>Check Your Understanding</title>
+      <exercise id="fs-id1167066113008" class="os-exercise">
+        <problem id="fs-id1167066113012">
+          <para id="fs-id1167064881647">
+            <link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex007"/>
+          </para>
+        </problem>
+      </exercise>
+      <exercise id="fs-id1167065853027" class="os-exercise">
+        <problem id="fs-id1167065736752">
+          <!--<para id="fs-id1167065736754">
+            <link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex008"/>
+          </para>-->
+<para id="fs-id1164565680302">What is meant by radius of curvature when describing rotational motion?</para>
+<list id="fs-id1164567446286" list-type="enumerated" number-style="lower-alpha">
+<item>The radius of curvature is the radius of a circular path.</item>
+<item>The radius of curvature is the diameter of a circular path.</item>
+<item>The radius of curvature is the circumference of a circular path.</item>
+<item>The radius of curvature is the area of a circular path.</item>
+</list>
+
+        </problem>
+      </exercise>
+<exercise id="fs-id1167062361872" class="os-exercise">
+        <problem id="fs-id1167062361875">
+          <para id="fs-id1167062408066">
+            <link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex009"/>
+          </para>
+        </problem>
+      </exercise>
+<exercise id="fs-id1167065894196" class="os-exercise">
+        <problem id="fs-id1167064979477">
+          <para id="fs-id1167064979479">
+            <link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex010"/>
+          </para>
+        </problem>
+      </exercise>
+<exercise id="fs-id1167064818572" class="os-exercise">
+        <problem id="fs-id1167064818575">
+          <para id="fs-id1167064853593">
+            <link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex011"/>
+          </para>
+        </problem>
+      </exercise>
+<exercise id="fs-id1167065852838" class="os-exercise">
+        <problem id="fs-id1167065937485">
+          <para id="fs-id1167065937488">
+            <link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex012"/>
+          </para>
+        </problem>
+      </exercise>
+      <note id="fs-id1167065878497" class="os-teacher">
+        <title>Teacher Support</title>
+        <para id="fs-id1167065048362">Use the <emphasis effect="italics">Check Your Understanding</emphasis> questions to assess whether students master the learning objectives of this section. If students are struggling with a specific objective, the formative assessment will help identify which objective is causing the problem and direct students to the relevant content.</para></note>
+    </section>
+<section id="fs-id1167065855498" class="summary">
+<title>Section Summary</title>
+<list id="fs-id1167064649053">
+<item>Circular motion is motion in a circular path. </item>
+<item>The angle of rotation  <m:math>
+ <m:mrow>
+  <m:mtext>Δ</m:mtext><m:mi>θ</m:mi>
+ </m:mrow>
+</m:math>  is defined as the ratio of the arc length to the radius of curvature.</item>
+<item>The arc length  <m:math>
+ <m:mrow>
+  <m:mtext>Δ</m:mtext><m:mi>s</m:mi>
+ </m:mrow>
+</m:math>  is the distance traveled along a circular path and <emphasis effect="italics">r</emphasis> is the radius of curvature of the circular path. </item>
+<item>The angle of rotation  <m:math>
+ <m:mrow>
+  <m:mtext>Δ</m:mtext><m:mi>θ</m:mi>
+ </m:mrow>
+</m:math>  is measured in units of radians (rad), where  <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mspace width="0.3em"/><m:mtext>π</m:mtext><m:mtext>rad</m:mtext><m:mo>=</m:mo><m:mn>360</m:mn><m:mo>°</m:mo><m:mo>=</m:mo><m:mn>1</m:mn>
+ </m:mrow>
+</m:math>  revolution.</item>
+<item>Angular velocity  <m:math>
+ <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>ω</m:mi></m:mstyle>
+</m:math>  is the rate of change of an angle, where a rotation  <m:math>
+ <m:mrow>
+  <m:mtext>Δ</m:mtext><m:mi>θ</m:mi>
+ </m:mrow>
+</m:math>  occurs in a time  <m:math>
+ <m:mrow>
+  <m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+ </m:mrow>
+</m:math> .</item>
+<item>The units of angular velocity are radians per second (rad/s).</item>
+<item>Tangential speed <emphasis effect="italics">v</emphasis> and angular speed  <m:math>
+ <m:mi>ω</m:mi>
+</m:math>  are related by  <m:math>
+ <m:mrow>
+  <m:mi>v</m:mi><m:mo>=</m:mo><m:mi>r</m:mi><m:mi>ω</m:mi>
+ </m:mrow>
+</m:math>, and tangential velocity has units of m/s.</item>
+<item>The direction of angular velocity is along the axis of rotation, toward (away) from you for clockwise (counterclockwise) motion.</item>
+</list>
+</section>
+<section id="fs-id1167065958090" class="key-equations"><title>Key Equations</title><table id="fs-id1167064982081" class="unnumbered unstyled" summary="The list of Key Equations includes equations for the angle of rotation, angular speed, and tangential speed.">
+<label/>
+<tgroup cols="2"><colspec colnum="1" align="left" colname="c1"/>
+<colspec colnum="2" align="left" colname="c2"/>
+<tbody>
+<row>
+<entry>Angle of rotation</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mtext>Δ</m:mtext><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mtext>Δ</m:mtext><m:mi>s</m:mi>
+   </m:mrow>
+   <m:mi>r</m:mi>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>Angular speed:</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mi>ω</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mtext>Δ</m:mtext><m:mi>θ</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>Tangential speed:</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mi>v</m:mi><m:mo>=</m:mo><m:mi>r</m:mi><m:mi>ω</m:mi>
+ </m:mrow>
+</m:math>
+</entry>
+</row>
+</tbody>
+
+</tgroup>
+</table></section><section id="fs-id1167064841973" class="concept"><title>Concept Items</title>
+<exercise id="fs-id1167064906373" class="os-exercise">
+        <problem id="fs-id1167064906376">
+          <para id="fs-id1167062971548">
+            <link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex013"/>
+          </para>
+        </problem>
+      </exercise>
+<exercise id="fs-id1167065073134" class="os-exercise">
+        <problem id="fs-id1167066163181">
+          <para id="fs-id1167066163183">
+            <link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex014"/>
+          </para>
+        </problem>
+      </exercise>
+    <exercise id="eip-id1166848671782" class="os-exercise">
+<problem id="eip-id1166848791577">
+<!--<para id="eip-id1166851449408">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch06-ot005"/>
+</para>-->
+
+<para id="fs-id1164566296582">What kind of motion is called <emphasis effect="italics">spin</emphasis>?</para><list id="fs-id1164566268041" list-type="enumerated" number-style="lower-alpha">
+<item>Spin is rotational motion of an object about an axis parallel to the axis of the object.</item>
+<item>Spin is translational motion of an object about an axis parallel to the axis of the object.</item>
+<item>Spin is the rotational motion of an object about its center of mass.</item>
+<item>Spin is translational motion of an object about its own axis.</item>
+</list>
+</problem>
+</exercise></section><section id="fs-id1167064872967" class="critical-thinking"><title>Critical Thinking</title><exercise id="fs-id1167065853252" class="os-exercise"><problem id="fs-id1167065853254"><para id="fs-id1167065853256"><link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex015"/></para></problem></exercise>
+<exercise id="fs-id1167065872625" class="os-exercise"><problem id="fs-id1167065872627"><para id="fs-id1167065872628"><link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex016"/></para></problem></exercise>
+    </section><section id="fs-id1167066170118" class="problems">
+      <title>Problems</title>
+      <exercise id="fs-id1167065898630" class="os-exercise">
+        <problem id="fs-id1167065974172">
+          <para id="fs-id1167065974174">
+            <link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex017"/>
+          </para>
+        </problem>
+      </exercise>
+      <exercise id="fs-id1167064541512" class="os-exercise">
+        <problem id="fs-id1167064541515">
+          <para id="fs-id1167065916306">
+            <link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex018"/>
+          </para>
+        </problem>
+      </exercise>
+    </section>
+<section id="fs-id1167065883640" class="multiple-choice"><title>Test Prep Multiple Choice</title>
+<exercise id="fs-id1167065848213" class="os-exercise"><problem id="fs-id1167065000556"><!--<para id="fs-id1167065000558"><link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex019"/></para>-->
+<para id="fs-id1164564437835">What is 1 radian approximately in degrees?</para>
+<list id="fs-id1164567896555" list-type="enumerated" number-style="lower-alpha">
+<item>57.3°</item>
+<item>360°</item>
+<item><emphasis effect="italics">π</emphasis>°</item>
+<item>2<emphasis effect="italics">π</emphasis>°</item>
+</list>
+</problem></exercise>
+      <exercise id="fs-id1167065841130" class="os-exercise"><problem id="fs-id1167065841132">
+<!--<para id="fs-id1167065841133"><link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex020"/></para>-->
+
+<para id="fs-id1164565533526">If the following objects are spinning at the same angular velocities, the edge of which one would have the highest speed?</para>
+<list id="fs-id1164565764677" list-type="enumerated" number-style="lower-alpha">
+<item>Mini CD</item>
+<item>Regular CD</item>
+<item>Vinyl record</item>
+</list>
+</problem></exercise>
+<exercise id="fs-id1167064914954" class="os-exercise"><problem id="fs-id1167064914956"><para id="fs-id1167064914957"><link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex021"/></para></problem></exercise>
+    <exercise id="eip-id1166851382786" class="os-exercise">
+<problem id="eip-id1166849165174">
+<para id="eip-id1166849165176">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch06-ot013"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166848911524" class="os-exercise">
+<problem id="eip-id1166848767171">
+<para id="eip-id1166849129363">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch06-ot017"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167065886382" class="short-answer">
+      <title>Test Prep Short Answer</title>
+      <exercise id="fs-id1167066037496" class="os-exercise"><problem id="fs-id1167064951500">
+<!--<para id="fs-id1167064951501"><link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex022"/></para>-->
+<para id="fs-id1164564459838">What is the rotational analog of linear velocity?</para>
+<list id="fs-id1164566033281" list-type="enumerated" number-style="lower-alpha">
+<item>Angular displacement</item>
+<item>Angular velocity</item>
+<item>Angular acceleration</item>
+<item>Angular momentum</item>
+</list>
+
+</problem></exercise>
+      <exercise id="fs-id1167065969983" class="os-exercise"><problem id="fs-id1167065969985">
+<!--<para id="fs-id1167065969986"><link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex023"/></para>-->
+<para id="fs-id1164567268011">What is the rotational analog of distance?</para>
+<list id="fs-id1164567600999" list-type="enumerated" number-style="lower-alpha">
+<item>Rotational angle</item>
+<item>Torque</item>
+<item>Angular velocity</item>
+<item>Angular momentum</item>
+</list>
+
+</problem></exercise>
+      <exercise id="fs-id1167065771591" class="os-exercise"><problem id="fs-id1167065771593"><para id="fs-id1167065764056"><link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex024"/></para></problem></exercise>
+      <exercise id="fs-id1167065764061" class="os-exercise"><problem id="fs-id1167064907951"><para id="fs-id1167064907952"><link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex025"/></para></problem></exercise>
+<exercise id="fs-id1167066034967" class="os-exercise"><problem id="fs-id1167066034969"><para id="fs-id1167066034970"><link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex026"/></para></problem></exercise>
+<exercise id="fs-id1167066097557" class="os-exercise"><problem id="fs-id1167066097559"><para id="fs-id1167064996542"><link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex027"/></para></problem></exercise>
+    </section>
+<section id="fs-id1167064774627" class="extended-response">
+      <title>Test Prep Extended Response</title>
+      <exercise id="fs-id1167065772556" class="os-exercise"><problem id="fs-id1167065772558"><para id="fs-id1167065772559"><link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex028"/></para></problem></exercise>
+      <exercise id="fs-id1167064819412" class="os-exercise"><problem id="fs-id1167064819415"><para id="fs-id1167064819416"><link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex029"/></para></problem></exercise>
+<exercise id="fs-id1167064915469" class="os-exercise"><problem id="fs-id1167065849130"><!--<para id="fs-id1167065849131"><link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex030"/></para>-->
+
+<para id="fs-id1164565604762">What happens to tangential velocity as the radius of an object increases provided the angular velocity remains the same?</para>
+<list id="fs-id1164567500299" list-type="enumerated" number-style="lower-alpha">
+<item>It increases because tangential velocity is directly proportional to the radius.</item>
+<item>It increases because tangential velocity is inversely proportional to the radius.</item>
+<item>It decreases because tangential velocity is directly proportional to the radius.</item>
+<item>It decreases because tangential velocity is inversely proportional to the radius.</item>
+</list>
+
+</problem></exercise>
+
+    </section>
+</content>
+<glossary>
+<definition id="fs-id1167064903349"><term>angle of rotation</term> <meaning id="fs-id1167065861737">the ratio of the arc length to the radius of curvature of a circular path</meaning></definition>
+<definition id="fs-id1167065861740"><term>angular velocity</term> <meaning id="fs-id1167065048346">( <m:math>
+ <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>ω</m:mi></m:mstyle>
+</m:math> ) the rate of change in the angular position of an object following a circular path</meaning></definition>
+<definition id="fs-id1167063095305"><term>arc length</term> <meaning id="fs-id1167062462666">( <m:math>
+ <m:mrow>
+  <m:mtext>Δ</m:mtext><m:mi>s</m:mi>
+ </m:mrow>
+</m:math> ) the distance traveled by an object along a circular path</meaning></definition>
+<definition id="fs-id1167064916391"><term>circular motion</term> <meaning id="fs-id1167065943230">the motion of an object along a circular path</meaning></definition>
+<definition id="fs-id1167065943233"><term>radius of curvature</term> <meaning id="fs-id1167065841087">the distance between the center of a circular path and the path</meaning></definition>
+<definition id="fs-id1167065841090"><term>rotational motion</term> <meaning id="fs-id1167065030388">the circular motion of an object about an axis of rotation</meaning></definition>
+<definition id="fs-id1167065768717"><term>spin</term> <meaning id="fs-id1167065768721">rotation about an axis that goes through the center of mass of the object</meaning></definition>
+<definition id="fs-id1167065820367"><term>tangential velocity</term> <meaning id="fs-id1167065820371">the instantaneous linear velocity of an object in circular or rotational motion</meaning></definition>
+
+
+</glossary>
+</document>

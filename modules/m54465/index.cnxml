@@ -1,0 +1,1355 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Magnetic Fields, Field Lines, and Force</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54465</md:content-id>
+  <md:title>Magnetic Fields, Field Lines, and Force</md:title>
+  <md:abstract/>
+  <md:uuid>25d1118a-c239-4961-b64a-6ea7c97af4b8</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167064981455" class="learning-objectives">
+<label/>
+<title>Section Learning Objectives</title>
+<para id="fs-id1167065939704">By the end of this section, you will be able to do the following:</para>
+<list id="fs-id1167065011054">
+<item>Summarize properties of magnets and describe how some nonmagnetic materials can become magnetized</item>
+<item>Describe and interpret drawings of magnetic fields around permanent magnets and current-carrying wires</item>
+<item>Calculate the magnitude and direction of magnetic force in a magnetic field and the force on a current-carrying wire in a magnetic field</item>
+</list>
+</note>
+
+<note id="fs-id1167066000679" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167062325582">The learning objectives in this section will help your students master the following standards:</para>
+<list id="fs-id1167066136915"><item>(5) The student knows the nature of forces in the physical world. The student is expected to:
+<list id="fs-id1167066993153"><item><span>(G)</span> <span>investigate and describe the relationship between electric and magnetic fields in applications such as generators, motors, and transformers.</span></item>
+</list></item>
+</list><para id="fs-id1169316533567">In addition, the High School Physics Laboratory Manual addresses content in this section in the lab titled: Magnetism, as well as the following standards:</para><list id="fs-id1169316437745"><item>(5) Science concepts. The student knows the nature of forces in the physical world. The student is expected to:
+<list id="fs-id1169315161569"><item>
+<span>(G)</span>
+ <span>investigate and describe the relationship between electric and magnetic fields in applications such as generators, motors, and transformers.</span>
+</item>
+</list></item>
+</list></note>
+<section id="keyterms"><title>Section Key Terms</title>
+<table id="fs-id1167064904404" class="unnumbered unstyled section-key-terms" summary="no alt text">
+<label/>
+<tgroup cols="3">
+<tbody>
+<row>
+<entry>Curie temperature</entry>
+<entry>domain</entry>
+<entry>electromagnet</entry>
+<entry>electromagnetism</entry>
+<entry>ferromagnetic</entry>
+
+</row>
+<row>
+<entry>magnetic dipole</entry>
+<entry>magnetic field</entry>
+<entry>magnetic pole</entry>
+<entry>magnetized</entry>
+<entry>north pole</entry>
+
+</row>
+<row>
+<entry>permanent magnet</entry>
+<entry>right-hand rule</entry>
+<entry>solenoid</entry>
+<entry>south pole</entry>
+<entry/>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section><section id="fs-id1167064819756">
+<title>Magnets and Magnetization</title>
+<para id="fs-id1167062346517">People have been aware of magnets and magnetism for thousands of years. The earliest records date back to ancient times, particularly in the region of Asia Minor called Magnesia—the name of this region is the source of words like <emphasis effect="italics">magnet</emphasis>. Magnetic rocks found in Magnesia, which is now part of western Turkey, stimulated interest during ancient times. When humans first discovered magnetic rocks, they likely found that certain parts of these rocks attracted bits of iron or other magnetic rocks more strongly than other parts. These areas are called the <emphasis effect="italics">poles</emphasis> of a magnet. A <term>magnetic pole</term> is the part of a magnet that exerts the strongest force on other magnets or magnetic material, such as iron. For example, the poles of the bar magnet shown in <link target-id="Figure_20_01_Magnets"/> are where the paper clips are concentrated.</para>
+
+<figure id="Figure_20_01_Magnets">
+<media id="fs-id1167065866922" alt="A bar magnet with paper clips attached to it.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_20_01_magnets.jpg"/>
+</media>
+<caption>A bar magnet with paper clips attracted to the two poles.</caption>
+</figure>
+
+<para id="fs-id1167066037089">If a bar magnet is suspended so that it rotates freely, one pole of the magnet will always turn toward the north, with the opposite pole facing south. This discovery led to the compass, which is simply a small, elongated magnet mounted so that it can rotate freely. An example of a compass is shown <link target-id="Figure_20_01_Compass"/>. The pole of the magnet that orients northward is called the <term>north pole</term>, and the opposite pole of the magnet is called the <term>south pole</term>.</para>
+
+<figure id="Figure_20_01_Compass">
+<media id="fs-id1167064920660" alt="A compass on a lanyard.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_20_01_compass.jpg"/>
+</media>
+<caption>A compass is an elongated magnet mounted in a device that allows the magnet to rotate freely.</caption>
+</figure>
+
+<para id="fs-id1167065911660">The discovery that one particular pole of a magnet orients northward, whereas the other pole orients southward allowed people to identify the north and south poles of any magnet. It was then noticed that the north poles of two different magnets repel each other, and likewise for the south poles. Conversely, the north pole of one magnet attracts the south pole of other magnets. This situation is analogous to that of electric charge, where like charges repel and unlike charges attract. In magnets, we simply replace charge with <emphasis effect="italics">pole</emphasis>: Like poles repel and unlike poles attract. This is summarized in <link target-id="Figure_20_01_Mag_orien"/>, which shows how the force between magnets depends on their relative orientation.</para>
+
+<figure id="Figure_20_01_Mag_orien">
+<media id="fs-id1167062400279" alt="Bar magnets oriented in the same direction repel, whereas if they are oriented in the opposite direction of each other, they attract."><image mime-type="image/jpg" src="../../media/CNX_HSPhysics_20_01_magorien.jpg"/></media>
+<caption>Depending on their relative orientation, magnet poles will either attract each other or repel each other.</caption>
+</figure>
+
+<para id="fs-id1167062405440">Consider again the fact that the pole of a magnet that orients northward is called the north pole of the magnet. If unlike poles attract, then the magnetic pole of Earth that is close to the geographic North Pole must be a magnetic south pole! Likewise, the magnetic pole of Earth that is close to the geographic South Pole must be a magnetic north pole. This situation is depicted in <link target-id="Figure_20_01_E_mag_pole"/>, in which Earth is represented as containing a giant internal bar magnet with its magnetic south pole at the geographic North Pole and vice versa. If we were to somehow suspend a giant bar magnet in space near Earth, then the north pole of the space magnet would be attracted to the south pole of Earth’s internal magnet. This is in essence what happens with a compass needle: Its magnetic north pole is attracted to the magnet south pole of Earth’s internal magnet.</para>
+
+<figure id="Figure_20_01_E_mag_pole">
+<media id="fs-id1167065944648" alt="Earth depicted as a giant bar magnet whose magnetic north pole is at its geographic South Pole and vice versa.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_20_01_Emagpole.jpg"/>
+</media>
+<caption>Earth can be thought of as containing a giant magnet running through its core. The magnetic south pole of Earth’s magnet is at the geographic North Pole, so the north pole of magnets is attracted to the North Pole, which is how the north pole of magnets got their name. Likewise, the south pole of magnets is attracted to the geographic South Pole of Earth.</caption>
+</figure>
+
+<para id="fs-id1167064700233">What happens if you cut a bar magnet in half? Do you obtain one magnet with two south poles and one magnet with two north poles? The answer is no: Each half of the bar magnet has a north pole and a south pole. You can even continue cutting each piece of the bar magnet in half, and you will always obtain a new, smaller magnet with two opposite poles. As shown in <link target-id="Figure_20_01_Pairs"/>, you can continue this process down to the atomic scale, and you will find that even the smallest particles that behave as magnets have two opposite poles. In fact, no experiment has ever found any object with a single magnetic pole, from the smallest subatomic particle such as electrons to the largest objects in the universe such as stars. Because magnets always have two poles, they are referred to as <term>magnetic dipoles</term>—<emphasis effect="italics">di</emphasis> means <emphasis effect="italics">two</emphasis>. Below, we will see that magnetic dipoles have properties that are analogous to electric dipoles.</para>
+
+<figure id="Figure_20_01_Pairs">
+<media id="fs-id1167065722174" alt="A magnet cut into smaller and smaller sizes, all with a north and a south pole.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_20_01_pairs.jpg"/>
+</media>
+<caption>All magnets have two opposite poles, from the smallest, such as subatomic particles, to the largest, such as stars.</caption>
+</figure>
+
+<note id="fs-id1167066141072" class="watch-physics"><title>Introduction to Magnetism</title>
+
+<para id="fs-id1167065949647">This video provides an interesting introduction to magnetism and discusses, in particular, how electrons around their atoms contribute to the magnetic effects that we observe. </para>
+
+<media id="fs-id1167065702600" alt="no alt text" class="os-embed">
+<iframe width="660" height="371.4" src="https://www.openstax.org/l/28_intro_magn"/>
+</media>
+
+<exercise id="fs-id1167065909864" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167065877004">
+<!-- <para id="fs-id1167062547710">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch20-ex001"/>
+</para> -->
+<para id="fs-id1169829422791">Toward which magnetic pole of Earth is the north pole of a compass needle attracted?</para>
+<list id="fs-id1169833098743" list-type="enumerated" number-style="lower-alpha">
+<item>The north pole of a compass needle is attracted to the north magnetic pole of Earth, which is located near the geographic North Pole of Earth.</item>
+<item>The north pole of a compass needle is attracted to the south magnetic pole of Earth, which is located near the geographic North Pole of Earth.</item>
+<item>The north pole of a compass needle is attracted to the north magnetic pole of Earth, which is located near the geographic South Pole of Earth.</item>
+<item>The north pole of a compass needle is attracted to the south magnetic pole of Earth, which is located near the geographic South Pole of Earth.</item></list>
+</problem>
+</exercise>
+</note><para id="fs-id1167065809888">Only certain materials, such as iron, cobalt, nickel, and gadolinium, exhibit strong magnetic effects. Such materials are called <term>ferromagnetic</term>, after the Latin word <emphasis effect="italics">ferrum</emphasis> for iron. Other materials exhibit weak magnetic effects, which are detectable only with sensitive instruments. Not only do ferromagnetic materials respond strongly to magnets—the way iron is attracted to magnets—but they can also be <term>magnetized</term> themselves—that is, they can be induced to be magnetic or made into permanent magnets (<link target-id="Figure_20_01_Magnetize"/>). A <term>permanent magnet</term> is simply a material that retains its magnetic behavior for a long time, even when exposed to demagnetizing influences.</para>
+
+<figure id="Figure_20_01_Magnetize">
+<media id="fs-id1167064989984" alt="An iron bar is magnetized when heated and cooled (or tapped when cold) when placed between a magnet’s north and south poles.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_20_01_magnetize.jpg"/></media>
+<caption>An unmagnetized piece of iron is placed between two magnets, heated, and then cooled, or simply tapped when cold. The iron becomes a permanent magnet with the poles aligned as shown: Its south pole is adjacent to the north pole of the original magnet, and its north pole is adjacent to the south pole of the original magnet. Note that attractive forces are created between the central magnet and the outer magnets.</caption>
+</figure>
+
+<para id="fs-id1167062305292">When a magnet is brought near a previously unmagnetized ferromagnetic material, it causes local magnetization of the material with unlike poles closest, as in the right side of <link target-id="Figure_20_01_Magnetize"/>. This causes an attractive force, which is why unmagnetized iron is attracted to a magnet. </para>
+<para id="fs-id1167065973403">What happens on a microscopic scale is illustrated in <link target-id="Figure_20_01_domains">Figure 7(a)</link>. Regions within the material called <term>domains</term> act like small bar magnets. Within domains, the magnetic poles of individual atoms are aligned. Each atom acts like a tiny bar magnet. Domains are small and randomly oriented in an unmagnetized ferromagnetic object. In response to an external magnetic field, the domains may grow to millimeter size, aligning themselves, as shown in <link target-id="Figure_20_01_domains">Figure 7(b)</link>. This induced magnetization can be made permanent if the material is heated and then cooled, or simply tapped in the presence of other magnets.</para>
+
+<figure id="Figure_20_01_domains">
+<media id="fs-id1167062339335" alt="Part (a) shows domains in an unmagnetized ferromagnetic material. Part (b) shows alignment of the domains when the material is magnetized.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_20_01_domains.jpg"/></media>
+<caption>(a) An unmagnetized piece of iron—or other ferromagnetic material—has randomly oriented domains. (b) When magnetized by an external magnet, the domains show greater alignment, and some grow at the expense of others. Individual atoms are aligned within domains; each atom acts like a tiny bar magnet.</caption>
+</figure>
+
+<para id="fs-id1167065973509">Conversely, a permanent magnet can be demagnetized by hard blows or by heating it in the absence of another magnet. Increased thermal motion at higher temperature can disrupt and randomize the orientation and size of the domains. There is a well-defined temperature for ferromagnetic materials, which is called the <term>Curie temperature</term>, above which they cannot be magnetized. The Curie temperature for iron is 1,043 K (770 <m:math><m:mrow>
+ <m:mtext>°C</m:mtext></m:mrow></m:math> ), which is well above room temperature. There are several elements and alloys that have Curie temperatures much lower than room temperature and are ferromagnetic only below those temperatures.</para>
+
+<note id="fs-id1167064811776" class="snap-lab">
+
+<title>Refrigerator Magnets</title>
+<para id="fs-id1167064734681">We know that like magnetic poles repel and unlike poles attract. See if you can show this for two refrigerator magnets. Will the magnets stick if you turn them over? Why do they stick to the refrigerator door anyway? What can you say about the magnetic properties of the refrigerator door near the magnet? Do refrigerator magnets stick to metal or plastic spoons? Do they stick to all types of metal?</para>
+
+<note id="fs-id1167066199466" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167064931295">Holding a magnetic close to an unmagnetized ferromagnetic material will magnetically polarize the ferromagnetic material, causing the atomic magnetic dipoles to orient towards the external magnet. This is similar to electric polarization. Thus, the ferromagnetic material becomes magnetized in the presence of the external magnet, and the two magnets attract each other. For a magnet to stick to the refrigerator door, the door must contain some ferromagnetic material. Magnets will stick to ferrous spoons, for example spoons with iron in them, but not to nonferrous spoons, such as spoons made from Al or Ag, and will not stick to a magnet. Magnets will also not stick to plastic spoons.</para>
+</note>
+<exercise id="fs-id1167062889541" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167062606194">
+<!-- <para id="fs-id1167064891581">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch20-ex002"/>
+</para> -->
+<para id="fs-id1169831062502">You have one magnet with the north and south poles labeled. How can you use this magnet to identify the north and south poles of other magnets?</para>
+<list id="fs-id1169830888523" list-type="enumerated" number-style="lower-alpha">
+<item>If the north pole of a known magnet is repelled by a pole of an unknown magnet on bringing them closer, that pole of unknown magnet is its north pole; otherwise, it is its south pole.</item>
+<item>If the north pole of known magnet is attracted to a pole of an unknown magnet on bringing them closer, that pole of unknown magnet is its north pole; otherwise, it is its south pole.</item></list>
+</problem>
+</exercise>
+</note>
+</section>
+
+<section id="fs-id1167065728125">
+<title>Magnetic Fields</title>
+<para id="fs-id1167062467851">We have thus seen that forces can be applied between magnets and between magnets and ferromagnetic materials without any contact between the objects. This is reminiscent of electric forces, which also act over distances. Electric forces are described using the concept of the electric field, which is a force field around electric charges that describes the force on any other charge placed in the field. Likewise, a magnet creates a <term>magnetic field</term> around it that describes the force exerted on other magnets placed in the field. As with electric fields, the pictorial representation of magnetic field lines is very useful for visualizing the strength and direction of the magnetic field.</para>
+<para id="fs-id1167062513033">As shown in <link target-id="Figure_20_01_Mag_field"/>, the direction of magnetic field lines is defined to be the direction in which the north pole of a compass needle points. If you place a compass near the north pole of a magnet, the north pole of the compass needle will be repelled and point away from the magnet. Thus, the magnetic field lines point away from the north pole of a magnet and toward its south pole.</para>
+
+<figure id="Figure_20_01_Mag_field">
+<media id="fs-id1167066199355" alt="Two bar magnets with magnetic field lines emanating from them in complete loops.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_20_01_magfield.jpg"/>
+</media>
+<caption>The black lines represent the magnetic field lines of a bar magnet. The field lines point in the direction that the north pole of a small compass would point, as shown at left. Magnetic field lines never stop, so the field lines actually penetrate the magnet to form complete loops, as shown at right.</caption>
+</figure>
+
+<para id="fs-id1167066121034">Magnetic field lines can be mapped out using a small compass. The compass is moved from point to point around a magnet, and at each point, a short line is drawn in the direction of the needle, as shown in <link target-id="Figure_20_01_Draw_MFLs"/>. Joining the lines together then reveals the path of the magnetic field line. Another way to visualize magnetic field lines is to sprinkle iron filings around a magnet. The filings will orient themselves along the magnetic field lines, forming a pattern such as that shown on the right in <link target-id="Figure_20_01_Draw_MFLs"/>.</para>
+
+<note id="fs-id1167064620232" class="virtual-physics os-interactive"><title>Using a Compass to Map Out the Magnetic Field</title>
+<media id="eip-id1167065942392" alt="This simulation explores the interactions between a compass, a bar magnet, and the earth.">
+<iframe width="660" height="371.4" src="https://openstax.org/l/28magcomp"/></media>
+<para id="eip-id1167062338369">This simulation presents you with a bar magnet and a small compass. Begin by dragging the compass around the bar magnet to see in which direction the magnetic field points. Note that the strength of the magnetic field is represented by the brightness of the magnetic field icons in the grid pattern around the magnet. Use the magnetic field meter to check the field strength at several points around the bar magnet. You can also flip the polarity of the magnet, or place Earth on the image to see how the compass orients itself.</para><exercise id="fs-id1167066152138" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167065825369">
+<!--<para id="fs-id1167065788806"><link class="os-embed" url="#ost/api/ex/k12phys-ch20-ex003"/>
+</para>-->
+<para id="fs-id1164563420236">With the slider at the top right of the simulation window, set the magnetic field strength to 100 percent . Now use the magnetic field meter to answer the following question: Near the magnet, where is the magnetic field strongest and where is it weakest? Don’t forget to check inside the bar magnet.</para>
+<list id="fs-id1164564917733" list-type="enumerated" number-style="lower-alpha">
+<item>The magnetic field is strongest at the center and weakest between the two poles just outside the bar magnet. The magnetic field lines are densest at the center and least dense between the two poles just outside the bar magnet.</item>
+<item>The magnetic field is strongest at the center and weakest between the two poles just outside the bar magnet. The magnetic field lines are least dense at the center and densest between the two poles just outside the bar magnet.</item>
+<item>The magnetic field is weakest at the center and strongest between the two poles just outside the bar magnet. The magnetic field lines are densest at the center and least dense between the two poles just outside the bar magnet.</item>
+<item>The magnetic field is weakest at the center and strongest between the two poles just outside the bar magnet and the magnetic field lines are least dense at the center and densest between the two poles just outside the bar magnet.</item>
+</list>
+</problem>
+</exercise>
+</note><figure id="Figure_20_01_Draw_MFLs">
+<media id="fs-id1167064901815" alt="Parts (a) through (d) show the steps in drawing magnetic field lines using a small compass that is moved from point to point around a magnet; the image on the right shows iron filings sprinkled around a magnet.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_20_01_drawMFLs.jpg"/></media>
+<caption>Magnetic field lines can be drawn by moving a small compass from point to point around a magnet. At each point, draw a short line in the direction of the compass needle. Joining the points together reveals the path of the magnetic field lines. Another way to visualize magnetic field lines is to sprinkle iron filings around a magnet, as shown at right.</caption>
+</figure>
+
+<para id="fs-id1167066051303">When two magnets are brought close together, the magnetic field lines are perturbed, just as happens for electric field lines when two electric charges are brought together. Bringing two north poles together—or two south poles—will cause a repulsion, and the magnetic field lines will bend away from each other. This is shown in <link target-id="Figure_20_01_AR_MFLs"/>, which shows the magnetic field lines created by the two closely separated north poles of a bar magnet. When opposite poles of two magnets are brought together, the magnetic field lines join together and become denser between the poles. This situation is shown in <link target-id="Figure_20_01_AR_MFLs"/>.</para>
+
+<figure id="Figure_20_01_AR_MFLs">
+<media id="fs-id1167064697081" alt="Part (a) shows the field lines when two north poles are brought close together. Part (b) shows the field lines when opposite poles are brought together; they become denser.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_20_01_ARMFLs.jpg"/></media>
+<caption>(a) When two north poles are approached together, the magnetic field lines repel each other and the two magnets experience a repulsive force. The same occurs if two south poles are approached together. (b) If opposite poles are approached together, the magnetic field lines become denser between the poles and the magnets experience an attractive force.</caption>
+</figure>
+
+<para id="fs-id1167064982089">Like the electric field, the magnetic field is stronger where the lines are denser. Thus, between the two north poles in <link target-id="Figure_20_01_AR_MFLs"/>, the magnetic field is very weak because the density of the magnetic field is almost zero. A compass placed at that point would essentially spin freely if we ignore Earth’s magnetic field. Conversely, the magnetic field lines between the north and south poles in <link target-id="Figure_20_01_AR_MFLs"/> are very dense, indicating that the magnetic field is very strong in this region. A compass placed here would quickly align with the magnetic field and point toward the south pole on the right.</para>
+<note id="fs-add" class="os-teacher"><title>Teacher Support</title>
+
+<note id="fs-id1167066058611" class="misconception">
+
+<para id="fs-id1167065937404">The density of the magnetic field lines in <link target-id="Figure_20_01_AR_MFLs"/> indicates the magnitude of the force that would be applied to a small test magnet placed in this field. The density does not indicate the force between the two magnets that create the field. The magnitude of the force between the two magnets is the same in both cases in <link target-id="Figure_20_01_AR_MFLs"/>. This can be understood by imagining that you place one of the magnets in the field of the other magnet. This situation is symmetrical: The magnetic fields look the same—other than direction—for both situations shown in <link target-id="Figure_20_01_AR_MFLs"/>. Because the magnets are of equal strength, they perturb the magnetic field of the opposite magnet, which is why the magnetic field must be probed by a small magnetic such as, a compass.</para>
+</note>
+</note>
+<para id="fs-id1167065061607">Note that magnets are not the only things that make magnetic fields. Early in the nineteenth century, people discovered that electrical currents cause magnetic effects. The first significant observation was by the Danish scientist Hans Christian Oersted (1777–1851), who found that a compass needle was deflected by a current-carrying wire. This was the first significant evidence that the movement of electric charges had any connection with magnets. An <term>electromagnet</term> is a device that uses electric current to make a magnetic field. These temporarily induced magnets are called electromagnets. Electromagnets are employed for everything from a wrecking yard crane that lifts scrapped cars to controlling the beam of a 90-km-circumference particle accelerator to the magnets in medical-imaging machines (see <link target-id="Figure_20_01_Medemag"/>).</para>
+
+<figure id="Figure_20_01_Medemag"><media id="fs-id1167065881460" alt="MRI machine.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_20_01_medemag.jpg"/></media>
+
+<caption>Instrument for magnetic resonance imaging (MRI). The device uses a cylindrical-coil electromagnet to produce for the main magnetic field. The patient goes into the <emphasis effect="italics">tunnel</emphasis> on the gurney. (credit: Bill McChesney, Flickr)</caption></figure><para id="fs-id1167065883351">The magnetic field created by an electric current in a long straight wire is shown in <link target-id="Figure_20_01_RHR"/>. The magnetic field lines form concentric circles around the wire. The direction of the magnetic field can be determined using the <emphasis effect="italics">right-hand rule</emphasis>. This rule shows up in several places in the study of electricity and magnetism. Applied to a straight current-carrying wire, the <term>right-hand rule</term> says that, with your right thumb pointed in the direction of the current, the magnetic field will be in the direction in which your right fingers curl, as shown in <link target-id="Figure_20_01_RHR"/>. If the wire is very long compared to the distance <emphasis effect="italics">r</emphasis> from the wire, the strength <emphasis effect="italics">B</emphasis> of the magnetic field is given by</para>
+<equation id="fs-id1167064909384"><label/> <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>B</m:mi>
+   <m:mrow>
+    <m:mtext>straight</m:mtext><m:mtext>wire</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msub>
+     <m:mi>μ</m:mi>
+     <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>I</m:mi></m:mrow>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi></m:mrow>
+  </m:mfrac>
+  </m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1167064986673">where <emphasis effect="italics">I</emphasis> is the current in the wire in amperes. The SI unit for magnetic field is the tesla (T). The symbol  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>μ</m:mi>
+   <m:mn>0</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math> —read “mu-zero”—is a constant called the “permeability of free space” and is given by</para>
+<equation id="fs-id1164557699649"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>μ</m:mi>
+   <m:mn>0</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>4</m:mn><m:mi>π</m:mi><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>−7</m:mn></m:mrow>
+  </m:msup>
+  <m:mtext>T</m:mtext><m:mo>⋅</m:mo><m:mtext>m/A.</m:mtext></m:mrow>
+</m:math> </equation><figure id="Figure_20_01_RHR">
+<media id="fs-id1167064791947" alt="Demonstration of the right-hand rule, where the thumb points in the direction of the current and the fingers curl in the direction of the magnetic field.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_20_01_RHR.jpg"/></media>
+<caption>This image shows how to use the right-hand rule to determine the direction of the magnetic field created by current flowing through a straight wire. Point your right thumb in the direction of the current, and the magnetic field will be in the direction in which your fingers curl.</caption>
+</figure>
+
+<note id="fs-id1167065081168" class="watch-physics"><title>Magnetic Field Due to an Electric Current</title>
+
+<para id="fs-id1167065878536">This video describes the magnetic field created by a straight current-carrying wire. It goes over the right-hand rule to determine the direction of the magnetic field, and presents and discusses the formula for the strength of the magnetic field due to a straight current-carrying wire.</para>
+
+<media id="eip-id1167062817722" alt="no alt text" class="os-embed">
+<iframe width="660" height="371.4" src="https://www.openstax.org/l/28magfield"/>
+</media>
+
+<exercise id="fs-id1167064818281" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167066033158">
+<!-- <para id="fs-id1167062511670">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch20-ex004"/>
+</para> -->
+<para id="fs-id1169832881193">A long straight wire is placed on a table top and electric current flows through the wire from right to left. If you look at the wire end-on from the left end, does the magnetic field go clockwise or counterclockwise?</para>
+<list id="fs-id1169830992151" list-type="enumerated" number-style="lower-alpha">
+<item>By pointing your right-hand thumb in the direction opposite of current, the right-hand fingers will curl counterclockwise, so the magnetic field will be in the counterclockwise direction.</item>
+<item>By pointing your right-hand thumb in the direction opposite of current, the right-hand fingers will curl clockwise, so the magnetic field will be in the clockwise direction.</item>
+<item>By pointing your right-hand thumb in the direction of current, the right-hand fingers will curl counterclockwise, so the magnetic field will be in the counterclockwise direction.</item>
+<item>By pointing your right-hand thumb in the direction of current, the right-hand fingers will curl clockwise, so the magnetic field will be in the clockwise direction.</item></list>
+</problem>
+</exercise>
+</note><para id="fs-id1167065086656">Now imagine winding a wire around a cylinder with the cylinder then removed. The result is a wire coil, as shown in <link target-id="Figure_20_01_Wire_coil"/>. This is called a <term>solenoid</term>. To find the direction of the magnetic field produced by a solenoid, apply the right-hand rule to several points on the coil. You should be able to convince yourself that, inside the coil, the magnetic field points from left to right. In fact, another application of the right-hand rule is to curl your right-hand fingers around the coil in the direction in which the current flows. Your right thumb then points in the direction of the magnetic field inside the coil: left to right in this case.</para>
+<figure id="Figure_20_01_Wire_coil">
+<media id="fs-id1167065793310" alt="A wire coil with current running through it. The magnetic field generated is shown by a red arrow.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_20_01_wirecoil.jpg"/></media>
+<caption>A wire coil with current running through as shown produces a magnetic field in the direction of the red arrow.</caption>
+</figure>
+
+<para id="fs-id1167064799196">Each loop of wire contributes to the magnetic field inside the solenoid. Because the magnetic field lines must form closed loops, the field lines close the loop outside the solenoid. The magnetic field lines are much denser inside the solenoid than outside the solenoid. The resulting magnetic field looks very much like that of a bar magnet, as shown in <link target-id="Figure_20_01_Sol_vs_mag"/>. The magnetic field strength deep inside a solenoid is</para>
+<equation id="fs-id1167062376778"><label/> <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>B</m:mi>
+   <m:mrow>
+    <m:mtext>solenoid</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>μ</m:mi>
+   <m:mn>0</m:mn>
+  </m:msub>
+  <m:mfrac>
+   <m:mrow>
+    <m:mi>N</m:mi><m:mi>I</m:mi></m:mrow>
+   <m:mi>ℓ</m:mi>
+  </m:mfrac>
+  <m:mtext>,</m:mtext>
+  </m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1167065983718">where <emphasis effect="italics">N</emphasis> is the number of wire loops in the solenoid and  <m:math>
+ <m:mi>ℓ</m:mi>
+</m:math>  is the length of the solenoid.</para>
+
+<figure id="Figure_20_01_Sol_vs_mag">
+<media id="fs-id1167065952491" alt="Part (a) shows iron filings around a solenoid; part (b) shows iron filings around a bar magnet."><image mime-type="image/jpg" src="../../media/CNX_HSPhysics_20_01_solvsmag.jpg"/></media>
+<caption>Iron filings show the magnetic field pattern around (a) a solenoid and (b) a bar magnet. The fields patterns are very similar, especially near the ends of the solenoid and bar magnet.</caption>
+</figure>
+
+<note id="fs-id1167064922358" class="virtual-physics os-interactive"><title>Electromagnets</title>
+<media id="fs-id1167062389771" alt="This simulation explores the interactions between a compass and bar magnet.">
+<iframe width="660" height="371.4" src="https://openstax.org/l/28elec_magnet"/></media>
+<para id="eip-id1167065897002">Use this simulation to visualize the magnetic field made from a solenoid. Be sure to click on the tab that says Electromagnet. You can drive AC or DC current through the solenoid by choosing the appropriate current source. Use the field meter to measure the strength of the magnetic field and then change the number of loops in the solenoid to see how this affects the magnetic field strength.</para>
+
+<exercise id="fs-id1167065035152" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167065941116">
+<para id="fs-id1167065911064">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch20-ex005"/>
+</para>
+</problem>
+</exercise>
+</note></section>
+
+<section id="fs-id1167064892490">
+<title>Magnetic Force</title>
+<para id="fs-id1167062407948">If a moving electric charge, that is electric current, produces a magnetic field that can exert a force on another magnet, then the reverse should be true by Newton’s third law. In other words, a charge moving through the magnetic field produced by another object should experience a force—and this is exactly what we find. As a concrete example, consider <link target-id="Figure_20_01_q_in_B"/>, which shows a charge <emphasis effect="italics">q</emphasis> moving with velocity  <m:math>
+ <m:mover accent="true">
+  <m:mi>v</m:mi>
+  <m:mo>→</m:mo>
+ </m:mover>
+
+</m:math>  through a magnetic field  <m:math>
+ <m:mover accent="true">
+  <m:mi>B</m:mi>
+  <m:mo>→</m:mo>
+ </m:mover>
+
+</m:math>  between the poles of a permanent magnet. The magnitude <emphasis effect="italics">F</emphasis> of the force experienced by this charge is</para>
+<equation id="fs-id1167062509481"><label/> <m:math>
+ <m:mrow>
+  <m:mi>F</m:mi><m:mo>=</m:mo><m:mi>q</m:mi><m:mi>v</m:mi><m:mi>B</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi><m:mtext>,</m:mtext></m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1167064960880">where  <m:math>
+ <m:mi>θ</m:mi>
+</m:math>  is the angle between the velocity of the charge and the magnetic field.</para>
+<para id="fs-id1167062373110">The direction of the force may be found by using another version of the right-hand rule: First, we join the tails of the velocity vector and a magnetic field vector, as shown in step 1 of <link target-id="Figure_20_01_q_in_B"/>. We then curl our right fingers from  <m:math>
+ <m:mover accent="true">
+  <m:mi>v</m:mi>
+  <m:mo>→</m:mo>
+ </m:mover>
+
+</m:math>  to  <m:math>
+ <m:mover accent="true">
+  <m:mi>B</m:mi>
+  <m:mo>→</m:mo>
+ </m:mover>
+
+</m:math>, as indicated in step (2) of <link target-id="Figure_20_01_q_in_B"/>. The direction in which the right thumb points is the direction of the force. For the charge in <link target-id="Figure_20_01_q_in_B"/>, we find that the force is directed into the page.</para>
+<para id="fs-id1167064573353">Note that the factor  <m:math>
+ <m:mrow>
+  <m:mi>sin</m:mi><m:mi>θ</m:mi></m:mrow>
+</m:math>  in the equation  <m:math>
+ <m:mrow>
+  <m:mi>F</m:mi><m:mo>=</m:mo><m:mi>q</m:mi><m:mi>v</m:mi><m:mi>B</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi></m:mrow>
+</m:math>
+ means that zero force is applied on a charge that moves parallel to a magnetic field because  <m:math>
+ <m:mrow>
+  <m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow>
+</m:math>  and  <m:math>
+ <m:mrow>
+  <m:mi>sin</m:mi><m:mn>0</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow>
+</m:math> . The maximum force a charge can experience is when it moves perpendicular to the magnetic field, because  <m:math>
+ <m:mrow>
+  <m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>90°</m:mn></m:mrow>
+</m:math>
+ and  <m:math>
+ <m:mrow>
+  <m:mi>sin</m:mi><m:mn>90°</m:mn><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.3em"/><m:mtext>.</m:mtext></m:mrow>
+</m:math> </para><figure id="Figure_20_01_q_in_B"><media id="fs-id1167062469211" alt="Part (a) shows a proton moving in a uniform magnetic field. Part (b) outlines the steps of the right-hand rule.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_20_01_qinB.jpg"/></media>
+
+<caption>(a) A proton moves through a uniform magnetic field. (b) Using the right-hand rule, the force on the proton is found to be directed into the page.</caption></figure><note id="fs-id1167062349944" class="links-to-physics">
+
+<title>Magnetohydrodynamic Drive</title>
+<para id="fs-id1167064650944">In Tom Clancy’s Cold War novel “The Hunt for Red October,” the Soviet Union built a submarine (see <link target-id="Figure_20_01_Sub"/>) with a magnetohydrodynamic drive that was so silent it could not be detected by surface ships. The only conceivable purpose to build such a submarine was to give the Soviet Union first-strike capability, because this submarine could sneak close to the coast of the United States and fire its ballistic missiles, destroying key military and government installations to prevent an American counterattack.</para>
+
+<figure id="Figure_20_01_Sub"><media id="fs-id1167065975983" alt="Typhoon-class Russian submarine."><image mime-type="image/jpg" src="../../media/CNX_HSPhysics_20_01_sub.jpg"/></media>
+<caption>A Typhoon-class Russian ballistic-missile submarine on which the fictional submarine Red October was based.</caption>
+</figure>
+
+<para id="fs-id1167064730305">A magnetohydrodynamic drive is supposed to be silent because it has no moving parts. Instead, it uses the force experienced by charged particles that move in a magnetic field. The basic idea behind such a drive is depicted in <link target-id="Figure_20_01_MHD"/>. Salt water flows through a channel that runs from the front to the back of the submarine. A magnetic field is applied horizontally across the channel, and a voltage is applied across the electrodes on the top and bottom of the channel to force a downward electric current through the water. The charge carriers are the positive sodium ions and the negative chlorine ions of salt. Using the right-hand rule, the force on the charge carriers is found to be toward the rear of the vessel. The accelerated charges collide with water molecules and transfer their momentum, creating a jet of water that is propelled out the rear of the channel. By Newton’s third law, the vessel experiences a force of equal magnitude, but in the opposite direction.</para>
+
+<figure id="Figure_20_01_MHD">
+<media id="fs-id1167065908450" alt="Drawing of a magnetohydrodynamic dive showing the current (red arrow), the water channel, the magnetic field and the resulting force.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_20_01_MHD.jpg"/></media>
+<caption>A schematic drawing of a magnetohydrodynamic drive showing the water channel, the current direction, the magnetic field direction, and the resulting force.</caption>
+</figure>
+
+<para id="fs-id1167065911777">Fortunately for all involved, it turns out that such a propulsion system is not very practical. Some back-of-the-envelope calculations show that, to power a submarine, either extraordinarily high magnetic fields or extraordinarily high electric currents would be required to obtain a reasonable thrust. In addition, prototypes of magnetohydrodynamic drives show that they are anything but silent. Electrolysis caused by running a current through salt water creates bubbles of hydrogen and oxygen, which makes this propulsion system quite noisy. The system also leaves a trail of chloride ions and metal chlorides that can easily be detected to locate the submarine. Finally, the chloride ions are extremely reactive and very quickly corrode metal parts, such as the electrode or the water channel itself. Thus, the Red October remains in the realm of fiction, but the physics involved is quite real.</para>
+
+<exercise id="fs-id1167065869755" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167064871559">
+<para id="fs-id1167065877029">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch20-ex006"/>
+</para>
+</problem>
+</exercise>
+</note>
+
+<para id="fs-id1167065857484">Instead of a single charge moving through a magnetic field, consider now a steady current <emphasis effect="italics">I</emphasis> moving through a straight wire. If we place this wire in a uniform magnetic field, as shown in <link target-id="Figure_20_01_Wire_in_B"/>, what is the force on the wire or, more precisely, on the electrons in the wire? An electric current involves charges that move. If the charges <emphasis effect="italics">q</emphasis> move a distance  <m:math>
+ <m:mi>ℓ</m:mi>
+</m:math>  in a time <emphasis effect="italics">t</emphasis>, then their speed is  <m:math>
+ <m:mrow>
+  <m:mi>v</m:mi><m:mo>=</m:mo><m:mrow><m:mi>ℓ</m:mi><m:mo>/</m:mo><m:mi>t</m:mi><m:mtext>.</m:mtext></m:mrow>
+  </m:mrow>
+</m:math>  Inserting this into the equation  <m:math>
+ <m:mrow>
+  <m:mi>F</m:mi><m:mo>=</m:mo><m:mi>q</m:mi><m:mi>v</m:mi><m:mi>B</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi></m:mrow>
+</m:math>  gives</para>
+
+<equation id="fs-id1164566950040"> <m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mi>F</m:mi>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mi>q</m:mi><m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mfrac>
+         <m:mi>ℓ</m:mi>
+         <m:mi>t</m:mi>
+        </m:mfrac>
+        </m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:mi>B</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi></m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mfrac>
+         <m:mi>q</m:mi>
+         <m:mi>t</m:mi>
+        </m:mfrac>
+        </m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:mi>ℓ</m:mi><m:mi>B</m:mi><m:mi>sin</m:mi><m:mi>θ.</m:mi></m:mrow>
+    </m:mtd>
+   </m:mtr>
+  </m:mtable></m:mrow>
+</m:math> </equation><para id="fs-id1167065790613">The factor <emphasis effect="italics">q</emphasis>/<emphasis effect="italics">t</emphasis> in this equation is nothing more than the current in the wire. Thus, using  <m:math>
+ <m:mrow>
+  <m:mi>I</m:mi><m:mo>=</m:mo><m:mrow><m:mi>q</m:mi><m:mo>/</m:mo><m:mi>t</m:mi></m:mrow>
+  </m:mrow>
+</m:math>, we obtain</para>
+<equation id="fs-id1167065941598"><label/> <m:math>
+ <m:mrow>
+  <m:mi>F</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>ℓ</m:mi><m:mi>B</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi><m:mtext>(1</m:mtext><m:mtext>.4).</m:mtext>
+ </m:mrow>
+</m:math>
+</equation>
+
+<para id="fs-id1167066024621">This equation gives the force on a straight current-carrying wire of length  <m:math>
+ <m:mi>ℓ</m:mi>
+</m:math>  in a magnetic field of strength <emphasis effect="italics">B</emphasis>. The angle  <m:math>
+ <m:mi>θ</m:mi>
+</m:math>  is the angle between the current vector and the magnetic field vector. Note that  <m:math>
+ <m:mi>ℓ</m:mi>
+</m:math>  is the length of wire that is in the magnetic field and for which  <m:math>
+ <m:mrow>
+  <m:mi>θ</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mspace width="0.3em"/><m:mtext>,</m:mtext></m:mrow>
+</m:math>  as shown in <link target-id="Figure_20_01_Wire_in_B"/>.</para>
+
+<para id="fs-id1167066061128">The direction of the force is determined in the same way as for a single charge. Curl your right fingers from the vector for <emphasis effect="italics">I</emphasis> to the vector for <emphasis effect="italics">B</emphasis>, and your right thumb will point in the direction of the force on the wire. For the wire shown in <link target-id="Figure_20_01_Wire_in_B"/>, the force is directed into the page.</para>
+
+<figure id="Figure_20_01_Wire_in_B">
+<media id="fs-id1167062325875" alt="A current-carrying wire in a magnetic field, with force acting on the wire going into the page."><image mime-type="image/jpg" src="../../media/CNX_HSPhysics_20_01_wireinB.jpg"/></media>
+<caption>A straight wire carrying current <emphasis effect="italics">I</emphasis> in a magnetic field <emphasis effect="italics">B</emphasis>. The force exerted on the wire is directed into the page. The length  <m:math>
+ <m:mi>ℓ</m:mi>
+</m:math>  is the length of the wire that is <emphasis effect="italics">in</emphasis> the magnetic field.</caption>
+</figure>
+
+<para id="fs-id1167064765862">Throughout this section, you may have noticed the symmetries between magnetic effects and electric effects. These effects all fall under the umbrella of <term>electromagnetism</term>, which is the study of electric and magnetic phenomena. We have seen that electric charges produce electric fields, and moving electric charges produce magnetic fields. A magnetic dipole produces a magnetic field, and, as we will see in the next section, moving magnetic dipoles produce an electric field. Thus, electricity and magnetism are two intimately related and symmetric phenomena.</para>
+
+<note id="Worked_Example_20_01_01" class="worked-example"><title>Trajectory of Electron in Magnetic Field</title>
+
+<exercise id="fs-id1167062444010" class="20-ex007 unnumbered"><label/>
+<problem id="fs-id1167062557815">
+<para id="fs-id1167064904707">A proton enters a region of constant magnetic field, as shown in <link target-id="Figure_20_01_Prot_in_B"/>. The magnetic field is coming out of the page. If the electron is moving at  <m:math>
+ <m:mrow>
+  <m:mn>3.0</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mn>6</m:mn>
+  </m:msup>
+  <m:mtext>m/s</m:mtext></m:mrow>
+</m:math>  and the magnetic field strength is 2.0 T, what is the magnitude and direction of the force on the proton?</para>
+
+<figure id="Figure_20_01_Prot_in_B">
+<media id="fs-id1167065871077" alt="A proton dot enters (green arrow) a magnetic field (depicted as circles with dots)."><image mime-type="image/jpg" src="../../media/CNX_HSPhysics_20_01_protinB.jpg"/></media>
+<caption>A proton enters a region of uniform magnetic field. The magnetic field is coming out of the page—the circles with dots represent vector arrow heads coming out of the page.</caption>
+</figure>
+
+<note id="fs-id1167066113383">
+<label/><title>Strategy</title>
+<para id="fs-id1167065001477">Use the equation  <m:math>
+ <m:mrow>
+  <m:mi>F</m:mi><m:mo>=</m:mo><m:mi>q</m:mi><m:mi>v</m:mi><m:mi>B</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi></m:mrow>
+</m:math>  to find the magnitude of the force on the proton. The angle between the magnetic field vectors and the velocity vector of the proton is  <m:math>
+<m:mrow>
+ <m:mn>90°</m:mn><m:mspace width="0.3em"/><m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math>  The direction of the force may be found by using the right-hand rule.</para></note>
+</problem>
+<solution id="fs-id1167065073040"><label/><title>Solution</title>
+<para id="fs-id1167066072624">The charge of the proton is  <m:math>
+ <m:mrow>
+  <m:mi>q</m:mi><m:mo>=</m:mo><m:mn>1.60</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>−19</m:mn></m:mrow>
+  </m:msup>
+  <m:mtext>C</m:mtext></m:mrow>
+</m:math> . Entering this value and the given velocity and magnetic field strength into the equation  <m:math>
+ <m:mrow>
+  <m:mi>F</m:mi><m:mo>=</m:mo><m:mi>q</m:mi><m:mi>v</m:mi><m:mi>B</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi></m:mrow>
+</m:math>  gives</para>
+<equation id="fs-id1164564889787"> <m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mi>F</m:mi>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mi>q</m:mi><m:mi>v</m:mi><m:mi>B</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi></m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mn>1.60</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+         <m:mrow>
+          <m:mn>10</m:mn></m:mrow>
+         <m:mrow>
+          <m:mn>−19</m:mn></m:mrow>
+        </m:msup>
+        <m:mtext>C</m:mtext></m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mn>3.0</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+         <m:mrow>
+          <m:mn>10</m:mn></m:mrow>
+         <m:mn>6</m:mn>
+        </m:msup>
+        <m:mtext>m/s</m:mtext></m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mn>2.0</m:mn><m:mspace width="0.3em"/><m:mtext>T</m:mtext></m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mn>90°</m:mn></m:mrow>
+      <m:mo>)</m:mo></m:mrow></m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>9.6</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+       <m:mrow>
+        <m:mn>10</m:mn></m:mrow>
+       <m:mrow>
+        <m:mn>−13</m:mn></m:mrow>
+      </m:msup>
+      <m:mtext>N.</m:mtext></m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable></m:mrow>
+</m:math> </equation><para id="fs-id1167065949169">To find the direction of the force, first join the velocity vector end to end with the magnetic field vector, as shown in <link target-id="Figure_20_01_RH_curl"/>. Now place your right hand so that your fingers point in the direction of the velocity and curl them upward toward the magnetic field vector. The force is in the direction in which your thumb points. In this case, the force is downward in the plane of the paper in the  <m:math>
+ <m:mover accent="true">
+  <m:mi>z</m:mi>
+  <m:mo>^</m:mo>
+ </m:mover>
+
+</m:math> -direction, as shown in <link target-id="Figure_20_01_RH_curl"/>.</para>
+
+<figure id="Figure_20_01_RH_curl"><media id="fs-id1167064927243" alt="The right-hand rule depicted with an actual hand showing a velocity vector and magnetic field, with the thumb pointing in the direction of the resulting force."><image mime-type="image/jpg" src="../../media/CNX_HSPhysics_20_01_RHcurl.jpg"/></media>
+<caption>The velocity vector and a magnetic field vector from <link target-id="Figure_20_01_Prot_in_B"/> are placed end to end. A right hand is shown with the fingers curling up from the velocity vector toward the magnetic field vector. The thumb points in the direction of the resulting force, which is the  <m:math>
+ <m:mover accent="true">
+  <m:mi>z</m:mi>
+  <m:mo>^</m:mo>
+ </m:mover>
+
+</m:math> -direction in this case.</caption>
+</figure>
+
+<para id="fs-id1167064948061">Thus, combining the magnitude and the direction, we find that the force on the proton is <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>9.6</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn></m:mrow>
+     <m:mrow>
+      <m:mn>−13</m:mn></m:mrow>
+    </m:msup>
+    <m:mtext>N</m:mtext></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mover accent="true">
+   <m:mi>z</m:mi>
+   <m:mo>^</m:mo>
+  </m:mover>
+  <m:mtext>.</m:mtext>
+  </m:mrow>
+</m:math>
+</para></solution>
+<commentary id="fs-id1167062325574">
+<title>Discussion</title>
+<para id="fs-id1167064585490">This seems like a very small force. However, the proton has a mass of  <m:math>
+ <m:mrow>
+  <m:mn>1.67</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>−27</m:mn></m:mrow>
+  </m:msup>
+  <m:mtext>kg</m:mtext></m:mrow>
+</m:math>, so its acceleration is  <m:math>
+ <m:mrow>
+  <m:mi>a</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mi>F</m:mi>
+   <m:mi>m</m:mi>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>9.6</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn></m:mrow>
+     <m:mrow>
+      <m:mn>−13</m:mn></m:mrow>
+    </m:msup>
+    <m:mtext>N</m:mtext></m:mrow>
+   <m:mrow>
+    <m:mn>1.67</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn></m:mrow>
+     <m:mrow>
+      <m:mn>−27</m:mn></m:mrow>
+    </m:msup>
+    <m:mtext>kg</m:mtext></m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>5.7</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>14</m:mn></m:mrow>
+  </m:msup>
+  <m:msup>
+   <m:mrow>
+    <m:mtext> m/s</m:mtext></m:mrow>
+   <m:mtext>2</m:mtext>
+  </m:msup>
+  </m:mrow>
+</m:math>, or about ten thousand billion times the acceleration due to gravity!</para>
+
+<para id="fs-id1167065899146">We found that the proton’s initial acceleration as it enters the magnetic field is downward in the plane of the page. Notice that, as the proton accelerates, its velocity remains perpendicular to the magnetic field, so the magnitude of the force does not change. In addition, because of the right-hand rule, the direction of the force remains perpendicular to the velocity. This force is nothing more than a centripetal force: It has a constant magnitude and is always perpendicular to the velocity. Thus, the magnitude of the velocity does not change, and the proton executes circular motion. The radius of this circle may be found by using the kinematics relationship.</para>
+<equation id="fs-id1164566575526"> <m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr>
+    <m:mtd columnalign="right">
+     <m:mi>F</m:mi>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mi>m</m:mi><m:mi>a</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mfrac>
+       <m:mrow>
+        <m:msup>
+         <m:mi>v</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+        </m:mrow>
+       <m:mi>r</m:mi>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="right">
+     <m:mi>a</m:mi>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:msup>
+         <m:mi>v</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+        </m:mrow>
+       <m:mi>r</m:mi>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="right">
+     <m:mi>r</m:mi>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:msup>
+         <m:mi>v</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+        </m:mrow>
+       <m:mi>a</m:mi>
+      </m:mfrac>
+      <m:mo>=</m:mo><m:mfrac>
+       <m:mrow>
+        <m:msup>
+         <m:mrow>
+          <m:mrow><m:mo>(</m:mo>
+           <m:mrow>
+            <m:mn>3.0</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+             <m:mrow>
+              <m:mn>10</m:mn></m:mrow>
+             <m:mn>6</m:mn>
+            </m:msup>
+            <m:mtext>m/s</m:mtext></m:mrow>
+          <m:mo>)</m:mo></m:mrow></m:mrow>
+         <m:mn>2</m:mn>
+        </m:msup>
+        </m:mrow>
+       <m:mrow>
+        <m:mn>5.7</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+         <m:mrow>
+          <m:mn>10</m:mn></m:mrow>
+         <m:mrow>
+          <m:mn>14</m:mn></m:mrow>
+        </m:msup>
+        <m:msup>
+         <m:mrow>
+          <m:mtext> m/s</m:mtext></m:mrow>
+         <m:mtext>2</m:mtext>
+        </m:msup>
+        </m:mrow>
+      </m:mfrac>
+      <m:mo>=</m:mo><m:mn>1.6</m:mn><m:mspace width="0.3em"/><m:mtext>cm</m:mtext></m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable></m:mrow>
+</m:math> </equation>
+<para id="fs-id1167062815083">The path of the proton in the magnetic field is shown in <link target-id="Figure_20_01_Path_prot"/>.</para>
+<figure id="Figure_20_01_Path_prot">
+<media id="fs-id1167062815093" alt="A proton dot enters a magnetic field perpendicularly, making a circular motion.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_20_01_pathprot.jpg"/></media>
+<caption>When traveling perpendicular to a constant magnetic field, a charged particle will execute circular motion, as shown here for a proton.</caption>
+</figure>
+</commentary>
+</exercise>
+</note><note id="Worked_Example_20_01_02" class="worked-example"><title>Wire with Current in Magnetic Field</title>
+
+<exercise id="fs-id1167066059274" class="20-ex008 unnumbered"><label/>
+<problem id="fs-id1167066059279">
+<para id="fs-id1167062359043">Now suppose we run a wire through the uniform magnetic field from the previous example, as shown. If the wire carries a current of 1.0 A in the  <m:math>
+ <m:mover accent="true">
+  <m:mi>y</m:mi>
+  <m:mo>^</m:mo>
+ </m:mover>
+
+</m:math> -direction, and the region with magnetic field is 4.0 cm long, what is the force on the wire?</para>
+
+<media id="fs-id1167062359077" alt="Insertion of a wire into a magnetic field from the previous example." display="block">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_20_01_wireinB2_img.jpg"/>
+</media>
+
+<note id="fs-id1167062359086">
+<label/><title>Strategy</title>
+<para id="fs-id1167066045877">Use equation  <m:math>
+ <m:mrow>
+  <m:mi>F</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>ℓ</m:mi><m:mi>B</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi></m:mrow>
+</m:math>  to find the magnitude of the force on the wire. The length of the wire inside the magnetic field is 4.0 cm, and the angle between the current direction and the magnetic field direction is 90°. To find the direction of the force, use the right-hand rule as explained just after the equation <m:math>
+ <m:mrow>
+  <m:mi>F</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>ℓ</m:mi><m:mi>B</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi><m:mtext>.</m:mtext></m:mrow>
+</m:math> </para>
+</note>
+</problem>
+
+<solution id="fs-id1167064589279"><label/>
+<title>Solution</title>
+<para id="fs-id1167066139782">Insert the given values into equation  <m:math>
+ <m:mrow>
+  <m:mi>F</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>ℓ</m:mi><m:mi>B</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi></m:mrow>
+</m:math>  to find the magnitude of the force</para>
+<equation id="fs-id1164563330308"> <m:math display="block">
+ <m:mrow>
+  <m:mi>F</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>ℓ</m:mi><m:mi>B</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>1.5</m:mn><m:mspace width="0.3em"/><m:mtext>A</m:mtext></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>0.040</m:mn><m:mspace width="0.3em"/><m:mtext>m</m:mtext></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>2.0</m:mn><m:mspace width="0.3em"/><m:mtext>T</m:mtext></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0.12</m:mn><m:mspace width="0.3em"/><m:mtext>N.</m:mtext></m:mrow>
+</m:math> </equation><para id="fs-id1167062965904">To find the direction of the force, begin by placing the current vector end to end with a vector for the magnetic field. The result is as shown in the figure in the previous Worked Example with  <m:math>
+ <m:mover accent="true">
+  <m:mi>v</m:mi>
+  <m:mo>→</m:mo>
+ </m:mover>
+
+</m:math>  replaced by  <m:math>
+ <m:mover accent="true">
+  <m:mi>I</m:mi>
+  <m:mo>→</m:mo>
+ </m:mover>
+
+</m:math> . Curl your right-hand fingers from  <m:math>
+ <m:mover accent="true">
+  <m:mi>I</m:mi>
+  <m:mo>→</m:mo>
+ </m:mover>
+
+</m:math>  to  <m:math>
+ <m:mover accent="true">
+  <m:mi>B</m:mi>
+  <m:mo>→</m:mo>
+ </m:mover>
+
+</m:math>  and your right thumb points down the page, again as shown in the figure in the previous Worked Example. Thus, the direction of the force is in the  <m:math>
+ <m:mover accent="true">
+  <m:mi>x</m:mi>
+  <m:mo>^</m:mo>
+ </m:mover>
+
+</m:math> -direction. The complete force is thus  <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>0.12</m:mn><m:mspace width="0.3em"/><m:mtext>N</m:mtext></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mover accent="true">
+   <m:mi>x</m:mi>
+   <m:mo>^</m:mo>
+  </m:mover>
+  </m:mrow>
+</m:math> .</para>
+</solution>
+<commentary id="fs-id1167065086463">
+<title>Discussion</title>
+<para id="fs-id1167065086468">The direction of the force is the same as the initial direction of the force was in the previous example for a proton. However, because the current in a wire is confined to a wire, the direction in which the charges move does not change. Instead, the entire wire accelerates in the  <m:math>
+ <m:mover accent="true">
+  <m:mi>x</m:mi>
+  <m:mo>^</m:mo>
+ </m:mover>
+
+</m:math> -direction. The force on a current-carrying wire in a magnetic field is the basis of all electrical motors, as we will see in the upcoming sections.</para>
+</commentary>
+</exercise></note></section>
+
+<section id="fs-id1167062376989" class="practice-problems"><title>Practice Problems</title><exercise id="fs-id1167062376996">
+<problem id="fs-id1167062377003">
+<!--<para id="fs-id1167065997185">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch20-ex009"/>
+</para>-->
+<para id="fs-id1164565223782">What is the magnitude of the force on an electron moving at 1.0 × 106 m/s perpendicular to a 1.0-T magnetic field?</para>
+<list id="fs-id1164566545989" list-type="enumerated" number-style="lower-alpha">
+<item>0.8 × 10<sup>–13</sup> N</item>
+<item>1.6 × 10<sup>–14</sup> N</item>
+<item>0.8 × 10<sup>–14</sup> N</item>
+<item>1.6 × 10<sup>–13</sup> N</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167065997196">
+<problem id="fs-id1167062346401">
+<!--<para id="fs-id1167062346403">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch20-ex010"/>
+</para>-->
+<para id="fs-id1164566534134">A straight 10 cm wire carries 0.40 A and is oriented perpendicular to a magnetic field. If the force on the wire is 0.022 N, what is the magnitude of the magnetic field?</para>
+<list id="fs-id1164566511235" list-type="enumerated" number-style="lower-alpha">
+<item>1.10 × 10<sup>–2</sup> T</item>
+<item>0.55 × 10<sup>–2</sup> T</item>
+<item>1.10 T</item>
+<item>0.55 T</item>
+</list>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167064853688" class="check-understanding"><title>Check Your Understanding</title>
+<exercise id="fs-id1167064853696" class="os-exercise">
+<problem id="fs-id1167065914115">
+<para id="fs-id1167065914118">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch20-ex011"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065914129" class="os-exercise">
+<problem id="fs-id1167065876216">
+<!--<para id="fs-id1167065876218">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch20-ex012"/>
+</para>-->
+<para id="fs-id1164566536651">Describe methods to demagnetize a ferromagnet.</para>
+<list id="fs-id1164565068226" list-type="enumerated" number-style="lower-alpha">
+<item>by cooling, heating, or submerging in water</item>
+<item>by heating, hammering, and spinning it in external magnetic field</item>
+<item>by hammering, heating, and rubbing with cloth</item>
+<item>by cooling, submerging in water, or rubbing with cloth</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167065876230" class="os-exercise">
+<problem id="fs-id1167064740651">
+<para id="fs-id1167064740653">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch20-ex013"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167064740665" class="os-exercise">
+<problem id="fs-id1167066055472">
+<para id="fs-id1167066055474">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch20-ex014"/>
+</para>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167062346415" class="summary">
+<title>Section Summary</title>
+<list id="fs-id1167064956388">
+<item>All magnets have two poles: a north pole and a south pole. If the magnet is free to move, its north pole orients itself toward the geographic North Pole of Earth, and the south pole orients itself toward the geographic South Pole of Earth. </item>
+<item>A repulsive force occurs between the north poles of two magnets and likewise for two south poles. However, an attractive force occurs between the north pole of one magnet and the south pole of another magnet.</item>
+<item>A charged particle moving through a magnetic field experiences a force whose direction is determined by the right-hand rule.</item>
+<item>An electric current generates a magnetic field.</item>
+<item>Electromagnets are magnets made by passing a current through a system of wires.</item>
+</list>
+</section>
+
+<section id="fs-id1167064695679" class="key-equations">
+<title>Key Equations</title>
+<table id="fs-id1167062966968" class="unnumbered unstyled" summary="no alt text"><label/>
+<tgroup cols="2">
+<colspec colnum="1" align="left" colname="c1"/>
+<colspec colnum="2" align="left" colname="c2"/>
+<tbody>
+<row>
+<entry>the magnitude of the force on an electric charge</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mi>F</m:mi><m:mo>=</m:mo><m:mi>q</m:mi><m:mi>v</m:mi><m:mi>B</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi></m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>the force on a wire carrying current</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mi>F</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>ℓ</m:mi><m:mi>B</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi></m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>the magnitude of the magnetic field created by a long, straight current-carrying wire</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>B</m:mi>
+   <m:mrow>
+    <m:mtext>straight</m:mtext><m:mtext>wire</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msub>
+     <m:mi>μ</m:mi>
+     <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>I</m:mi></m:mrow>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi></m:mrow>
+  </m:mfrac>
+  </m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>the magnitude of the magnetic field inside a solenoid</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>B</m:mi>
+   <m:mrow>
+    <m:mtext>solenoid</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>μ</m:mi>
+   <m:mn>0</m:mn>
+  </m:msub>
+  <m:mfrac>
+   <m:mrow>
+    <m:mi>N</m:mi><m:mi>I</m:mi></m:mrow>
+   <m:mi>ℓ</m:mi>
+  </m:mfrac>
+  </m:mrow>
+</m:math>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+
+
+
+<section id="fs-id1167065866180" class="concept"><title>Concept Items</title><exercise id="fs-id1167065866187" class="os-exercise">
+<problem id="fs-id1167064818009">
+<para id="fs-id1167064818012">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch20-ex017"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167064818023" class="os-exercise"><problem id="fs-id1167062571676">
+<para id="fs-id1167062571678">If you place a compass at the three points in the figure, at which point will the needle experience the greatest torque? Why?</para>
+
+<media id="eip-idm324695824" alt="An image of a bar magnet with the north side on top of the south side. Magnetic field lines are shown going from north to south. Point A is located above and close to the north side. Point B is right of the magnet between the two poles. Point C is below and away from the south side." display="block">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_20_01_004_img.jpg"/>
+</media>
+
+<list id="eip-idm323883488" list-type="enumerated" number-style="lower-alpha">
+<item>The density of the magnetic field is minimized at B, so the magnetic compass needle will experience the greatest torque at B.</item>
+<item>The density of the magnetic field is minimized at C, so the magnetic compass needle will experience the greatest torque at C.</item>
+<item>The density of the magnetic field is maximized at B, so the magnetic compass needle will experience the greatest torque at B.</item>
+<item>The density of the magnetic field is maximized at A, so the magnetic compass needle will experience the greatest torque at A.</item></list></problem>
+</exercise><exercise id="eip-id1166850255373" class="os-exercise">
+<problem id="eip-id1166850270605">
+<para id="eip-id1166850270607">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch20-ot005"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167062571691" class="critical-thinking"><title>Critical Thinking</title><exercise id="fs-id1167065845979" class="os-exercise">
+<problem id="fs-id1167065845983">
+<!--<para id="fs-id1167065845985">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch20-ex019"/>
+</para>-->
+<para id="fs-id1164566950763">True or false—It is not recommended to place credit cards with magnetic strips near permanent magnets.</para>
+<list id="fs-id1164566949653" list-type="enumerated" number-style="lower-alpha">
+<item>false</item>
+<item>true</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167064709364" class="os-exercise">
+<problem id="fs-id1167064709368">
+<!--<para id="fs-id1167064709370">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch20-ex020"/>
+</para>-->
+<para id="fs-id1164562399598">True or false—A square magnet can have sides that alternate between north and south poles.</para>
+<list id="fs-id1164563431236" list-type="enumerated" number-style="lower-alpha">
+<item>false</item>
+<item>true</item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-id1166848795872" class="os-exercise">
+<problem id="eip-id1166848757419">
+<!--<para id="eip-id1166848757421">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch20-ot023"/>
+</para>-->
+<para id="fs-id1164566841478">You move a compass in a circular plane around a planar magnet. The compass makes four complete revolutions. How many poles does the magnet have?</para>
+<list id="fs-id1164564864462" list-type="enumerated" number-style="lower-alpha">
+<item>two poles</item>
+<item>four poles</item>
+<item>eight poles</item>
+<item>12 poles</item>
+</list>
+</problem>
+</exercise></section><section id="fs-id1167066103300" class="problems">
+<title>Problems</title>
+<exercise id="fs-id1167066103307" class="os-exercise">
+<problem id="fs-id1167066103311">
+<!--<para id="fs-id1167066103313">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch20-ex015"/>
+</para>-->
+<para id="fs-id1164566489887">A straight wire segment carries 0.25 A. What length would it need to be to exert a 4.0-mN force on a magnet that produces a uniform magnetic field of 0.015 T that is perpendicular to the wire?</para>
+<list id="fs-id1164561331124" list-type="enumerated" number-style="lower-alpha">
+<item>0.55 m</item>
+<item>1.10 m</item>
+<item>2.20 m</item>
+<item>4.40 m</item>
+</list>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167065881574" class="multiple-choice"><title>Test Prep Multiple Choice</title><exercise id="fs-id1167065881582" class="os-exercise">
+<problem id="fs-id1167065992599">
+<!-- <para id="fs-id1167065992601">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch20-ex021"/>
+</para> -->
+<para id="fs-id1169830782888">For a magnet, a domain refers to ______.</para>
+<list id="fs-id1169833249915" list-type="enumerated" number-style="lower-alpha">
+<item>the region between the poles of the magnet</item>
+<item>the space around the magnet that is affected by the magnetic field</item>
+<item>the region within the magnet in which the magnetic poles of individual atoms are aligned</item>
+<item>the region from which the magnetic material is mined</item></list>
+</problem>
+</exercise>
+<exercise id="fs-id1167065992612" class="os-exercise">
+<problem id="fs-id1167064531082">
+<!--<para id="fs-id1167064531085">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch20-ex022"/>
+</para>-->
+<para id="fs-id1164560934340">In the region just outside the south pole of a magnet, the magnetic field lines ______.</para>
+<list id="fs-id1164564889694" list-type="enumerated" number-style="lower-alpha">
+<item>point away from the south pole</item>
+<item>go around the south pole</item>
+<item>are less concentrated than at the north pole</item>
+<item>point toward the south pole</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167064531096" class="os-exercise">
+<problem id="fs-id1167062506410">
+<para id="fs-id1167062506412">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch20-ex023"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166850149378" class="os-exercise">
+<problem id="eip-id1166849822257">
+<para id="eip-id1166849894789">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch20-ot008"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166847998230" class="os-exercise">
+<problem id="eip-id1166849700505">
+<!--<para id="eip-id1166849927701">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch20-ot010"/>
+</para>-->
+<para id="fs-id1164565004170">True or false—If a magnet shatters into many small pieces, all the pieces will have north and south poles</para>
+<list id="fs-id1164564763989" list-type="enumerated" number-style="lower-alpha">
+<item>true</item>
+<item>false</item>
+</list>
+</problem>
+</exercise></section><section id="fs-id1167062506425" class="short-answer">
+<title>Test Prep Short Answer</title>
+<exercise id="fs-id1167066095013" class="os-exercise">
+<problem id="fs-id1167066095017">
+<para id="fs-id1167066095020">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch20-ex024"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167062586941" class="os-exercise">
+<problem id="fs-id1167062586946">
+<para id="fs-id1167062586948">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch20-ex025"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167064591015" class="os-exercise">
+<problem id="fs-id1167064591019">
+<!--<para id="fs-id1167064591021">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch20-ex026"/>
+</para>-->
+<para id="fs-id1164566673600">To produce a magnetic field of 0.0020 T, what current is required in a 500-turn solenoid that is 25 cm long?</para>
+<list id="fs-id1164565012034" list-type="enumerated" number-style="lower-alpha">
+<item>0.80 A</item>
+<item>1.60 A</item>
+<item>80 A</item>
+<item>160 A</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167066014736" class="os-exercise">
+<problem id="fs-id1167066014740">
+<para id="fs-id1167066014742">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch20-ex027"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065954593" class="os-exercise"><problem id="fs-id1167065954597">
+<para id="fs-id1167065954599">Using four solenoids of the same size, describe how to orient them and in which direction the current should flow to make a magnet with two opposite-facing north poles and two opposite-facing south poles.
+<media id="eip-idm370425712" alt="An image of four wire coils with a current flowing through each, creating a magnet in each case. Top coil is labeled N with arrow labeled I pointing toward end of coil. Right coil is labeled S with arrow labeled I pointing away from end of coil. Bottom coil is labeled N with arrow labeled I pointing away from end of coil. Left coil is labeled S with arrow labeled I pointing toward end of coil.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_20_01_010a_img.jpg"/>
+</media>
+<newline/>
+<media id="eip-idm320075120" alt="An image of four wire coils with a current flowing through each, creating a magnet in each case. Top coil is labeled S with arrow labeled I pointing away from end of coil. Right coil is labeled N with arrow labeled I pointing away from end of coil. Bottom coil is labeled S with arrow labeled I pointing away from end of coil. Left coil is labeled N with arrow labeled I pointing toward end of coil.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_20_01_010b_img.jpg"/>
+</media><newline/>
+<media id="eip-idm367853680" alt="An image of four wire coils with a current flowing through each, creating a magnet in each case. Top coil is labeled N with arrow labeled I pointing toward end of coil. Right coil is labeled S with arrow labeled I pointing toward end of coil. Bottom coil is labeled N with arrow labeled I pointing away from end of coil. Left coil is labeled S with arrow labeled I pointing toward end of coil.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_20_01_010c_img.jpg"/>
+</media><newline/>
+<media id="eip-idm379850480" alt="An image of four wire coils with a current flowing through each, creating a magnet in each case. Top coil is labeled S with arrow labeled I pointing toward end of coil. Right coil is labeled N with arrow labeled I pointing away from end of coil. Bottom coil is labeled S with arrow labeled I pointing toward end of coil. Left coil is labeled N with arrow labeled I pointing toward end of coil.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_20_01_010d_img.jpg"/>
+</media>
+</para></problem>
+</exercise><exercise id="fs-id1167062443813" class="os-exercise">
+<problem id="fs-id1167062443817">
+<!--<para id="fs-id1167062443820">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch20-ex029"/>
+</para>-->
+<para id="fs-id1164562292408">How far from a straight wire carrying 0.45 A is the magnetic field strength 0.040 T?</para>
+<list id="fs-id1164566508724" list-type="enumerated" number-style="lower-alpha">
+<item>0.23 µm</item>
+<item>0.72 µm</item>
+<item>2.3 µm</item>
+<item>7.2 µm</item>
+</list>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167065976163" class="extended-response">
+<title>Test Prep Extended Response</title>
+<exercise id="fs-id1167065976170" class="os-exercise">
+<problem id="fs-id1167062458478">
+<!--<para id="fs-id1167062458480">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch20-ex030"/>
+</para>-->
+<para id="fs-id1164560944447">Summarize the properties of magnets.</para>
+<list id="fs-id1164561072025" list-type="enumerated" number-style="lower-alpha">
+<item>A magnet can attract metals like iron, nickel, etc., but cannot attract nonmetals like piece of plastic or wood, etc. If free to rotate, an elongated magnet will orient itself so that its north pole will face the magnetic south pole of Earth.</item>
+<item>A magnet can attract metals like iron, nickel, etc., but cannot attract nonmetals like piece of plastic or wood, etc. If free to rotate, an elongated magnet will orient itself so that its north pole will face the magnetic north pole of Earth.</item>
+<item>A magnet can attract metals like iron, nickel, etc., and nonmetals like piece of plastic or wood, etc. If free to rotate, an elongated magnet will orient itself so that its north pole will face the magnetic south pole of Earth.</item>
+<item>A magnet can attract metals like iron, nickel, etc., and nonmetals like piece of plastic or wood, etc. If free to rotate, an elongated magnet will orient itself so that its north pole will face the magnetic north pole of Earth.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167062458492" class="os-exercise"><problem id="fs-id1167062559880">
+<para id="fs-id1167062559882">The magnetic field shown in the figure is formed by current flowing in two rings that intersect the page at the dots. Current flows into the page at the dots with crosses (right side) and out of the page at the dots with points (left side).<media id="fs-id1167063739513" alt="A figure of a magnet field being created by four wires. The left two wires are coming out of the page, while the right two are going into the page. The resulting magnetic field lines are close to vertical between the left two wires and the right two wires. On the left and right hand sides, the magnetic field lines are loops that center around the two nearest wires.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_20_01_011_img.jpg"/></media>
+<newline/>
+Where is the field strength the greatest and in what direction do the magnetic field lines point?
+</para>
+<list id="eip-idm219492800" list-type="enumerated" number-style="lower-alpha">
+<item>The magnetic field strength is greatest where the magnetic field lines are less dense; magnetic field lines points up the page.</item>
+<item>The magnetic field strength is greatest where the magnetic field lines are most dense; magnetic field lines points up the page.</item>
+<item>The magnetic field strength is greatest where the magnetic field lines are most dense; magnetic field lines points down the page.</item>
+<item>The magnetic field strength is greatest where the magnetic field lines are less dense; magnetic field lines points down the page.</item></list>
+
+</problem>
+</exercise><exercise id="fs-id1167062559894" class="os-exercise"><problem id="eip-idm206673936">
+<para id="eip-idm206673680">The forces shown below are exerted on an electron as it moves through the magnetic field. In each case, what direction does the electron move?</para>
+<media id="eip-idm206673136" alt="Three images indicating the direction of a magnetic field and a force. Image a shows a force pointing upward while the magnetic field points out of the page. Image b shows a force pointing upward with a magnetic field pointing to the right. Image c shows a force pointing to the left and a magnetic field pointing out of the page.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_20_01_012_img.jpg"/></media>
+
+<list id="eip-idm207055504" list-type="enumerated" number-style="lower-alpha">
+<item>(a) left to right, (b) out of the page, (c) upwards</item>
+<item>(a) left to right, (b) into the page, (c) downwards</item>
+<item>(a) right to left, (b) out of the page, (c) upwards</item>
+<item>(a) right to left, (b) into the page, (c) downwards</item></list>
+</problem>
+</exercise></section>
+
+</content>
+<glossary>
+<definition id="fs-id1167062389621"><term>Curie temperature</term><meaning id="fs-id1167062389624"> well-defined temperature for ferromagnetic materials above which they cannot be magnetized</meaning></definition>
+<definition id="fs-id1167062389628"><term>domain</term><meaning id="fs-id1167062389631"> region within a magnetic material in which the magnetic poles of individual atoms are aligned</meaning></definition>
+<definition id="fs-id1167062389635"><term>electromagnet</term><meaning id="fs-id1167064948184"> device that uses electric current to make a magnetic field</meaning></definition>
+<definition id="fs-id1167064948187"><term>electromagnetism</term><meaning id="fs-id1167064948190"> study of electric and magnetic phenomena</meaning></definition>
+<definition id="fs-id1167064948193"><term>ferromagnetic</term><meaning id="fs-id1167064948197"> material such as iron, cobalt, nickel, or gadolinium that exhibits strong magnetic effects</meaning></definition>
+<definition id="fs-id1167064724276"><term>magnetic dipole</term><meaning id="fs-id1167064724280"> term that describes magnets because they always have two poles: north and south</meaning></definition>
+<definition id="fs-id1167064724283"><term>magnetic field</term><meaning id="fs-id1167064724286"> directional lines around a magnetic material that indicates the direction and magnitude of the magnetic force</meaning></definition>
+<definition id="fs-id1167064724290"><term>magnetic pole</term><meaning id="fs-id1167064686616"> part of a magnet that exerts the strongest force on other magnets or magnetic material</meaning></definition>
+<definition id="fs-id1167064686620"><term>magnetized</term><meaning id="fs-id1167064686623"> material that is induced to be magnetic or that is made into a permanent magnet</meaning></definition>
+<definition id="fs-id1167064686626"><term>north pole</term><meaning id="fs-id1167064686629"> part of a magnet that orients itself toward the geographic North Pole of Earth</meaning></definition>
+<definition id="fs-id1167064686632"><term>permanent magnet</term><meaning id="fs-id1167064583496"> material that retains its magnetic behavior for a long time, even when exposed to demagnetizing influences</meaning></definition>
+<definition id="fs-id1167064583500"><term>right-hand rule</term><meaning id="fs-id1167064583504"> rule involving curling the right-hand fingers from one vector to another; the direction in which the right thumb points is the direction of the resulting vector</meaning></definition>
+<definition id="fs-id1167064583508"><term>solenoid</term><meaning id="fs-id1167065886132"> uniform cylindrical coil of wire through which electric current is passed to produce a magnetic field</meaning></definition>
+<definition id="fs-id1167065886135"><term>south pole</term><meaning id="fs-id1167065886139"> part of a magnet that orients itself toward the geographic South Pole of Earth</meaning></definition>
+</glossary>
+</document>

@@ -1,0 +1,37 @@
+<document xmlns="http://cnx.rice.edu/cnxml" class="introduction">
+
+<title>Introduction</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54097</md:content-id>
+  <md:title>Introduction</md:title>
+  <md:abstract/>
+  <md:uuid>6474f7dd-90f7-4ba4-9aab-221c7f1739ac</md:uuid>
+</metadata>
+
+<content>
+<figure id="Figure_02_00_train" class="splash"><media id="fs-id1167067196700" alt="A photograph shows a maglev train traveling past an airport.">
+      <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_02_00_train.jpg"/>
+    </media>
+
+  <caption>Shanghai Maglev. At this rate, a train traveling from Boston to Washington, DC, a distance of 439 miles, could make the trip in under an hour and a half. Presently, the fastest train on this route takes over six hours to cover this distance. (Alex Needham, Public Domain)</caption></figure>
+<note id="fs-id1167067029217" class="os-teacher">
+    <title>Teacher Support</title>
+    <para id="fs-id1167066836955">Have the students describe the photo of the train and discuss its motion. Tell them they will learn about motion. Start the discussion with how a train moves, and guide them toward discussing concepts of displacement, velocity, and acceleration. Ask questions: How do we know something is moving? What defines motion? What direction does the train move? What adjectives describe its motion? If it was a moving ball instead of a train, how would its motion be different? How would the train’s motion change if its wheels were square instead of round or if it had studded tires? Try to uncover what ideas students already have about motion.</para>
+  </note>
+    <para id="fs-id1167067142332">Unless you have flown in an airplane, you have probably never traveled faster than 150 mph. Can you imagine traveling in a train like the one shown in <link target-id="Figure_02_00_train"/> that goes over 300 mph? Despite the high speed, the people riding in this train may not notice that they are moving at all unless they look out the window! This is because motion, even motion at 300 mph, is relative to the observer.</para>
+    <para id="fs-id1167067066670">In this chapter, you will learn why it is important to identify a reference frame in order to clearly describe motion. For now, the motion you describe will be one-dimensional. Within this context, you will learn the difference between distance and displacement as well as the difference between speed and velocity. Then you will look at some graphing and problem-solving techniques.</para>
+
+  <note id="fs-id1167066866992" class="os-teacher">
+    <title>Teacher Support</title>
+    <para id="fs-id1167063572933">Before students begin this chapter, it would be useful to review these concepts:</para>
+    <list id="fs-id1167066774560">
+      <item>Using significant figures in calculations</item>
+      <item>Converting units</item>
+      <item>Calculating average</item>
+      <item>Commonly used terms</item>
+    </list>
+<para id="fs-id1164568012551">Demonstrate how to use the proper number of significant figures when adding, subtracting, multiplying, and dividing. Demonstrate how to convert from km/h to m/s. Demonstrate how to average two numbers by dividing their sum by 2. Explain that <emphasis effect="italics">constant</emphasis> means <emphasis effect="italics">unchanging</emphasis>, so <emphasis effect="italics">constant speed</emphasis> refers to speed that is not changing. Explain that <emphasis effect="italics">initial</emphasis> means starting, so <emphasis effect="italics">initial time</emphasis> is the time at which the action mentioned in a problem begins. Explain that an object that is not moving is often described in physics as being <emphasis effect="italics">at rest</emphasis>.</para>
+  </note>
+</content>
+
+</document>

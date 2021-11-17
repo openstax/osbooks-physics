@@ -1,0 +1,27 @@
+<document xmlns="http://cnx.rice.edu/cnxml" class="introduction">
+
+<title>Introduction</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54584</md:content-id>
+  <md:title>Introduction</md:title>
+  <md:abstract>In this chapter you will learn about:
+<list>
+<item>The Four Fundamental Forces</item>
+<item>Quarks</item>
+<item>The Unification of Forces</item>
+</list></md:abstract>
+  <md:uuid>76cbb1a4-995c-457b-b6b7-ba9af70f97b3</md:uuid>
+</metadata>
+
+<content>
+<figure id="Figure_23_00_LHC" class="splash"><media id="fs-id1167063749178" alt="The photograph shows a series of tubes and structural elements that make up the Large Hadron Collider. The five staircases on the sides of the collider show the very large size of the experimental device."><image mime-type="image/jpg" src="../../media/CNX_HSPhysics_23_00_LHC.jpg"/></media>
+<caption>Part of the Large Hadron Collider (LHC) at CERN, on the border of Switzerland and France. The LHC is a particle accelerator, designed to study fundamental particles. (credit: Image Editor, Flickr)</caption>
+</figure>
+<para id="fs-id1167063947601">Following ideas remarkably similar to those of the ancient Greeks, we continue to look for smaller and smaller structures in nature, hoping ultimately to find and understand the most fundamental building blocks that exist. Atomic physics deals with the smallest units of elements and compounds. In its study, we have found a relatively small number of atoms with systematic properties, and these properties have explained a tremendous range of phenomena. Nuclear physics is concerned with the nuclei of atoms and their substructures. Here, a smaller number of components—the proton and neutron—make up all nuclei. Exploring the systematic behavior of their interactions has revealed even more about matter, forces, and energy. <term>Particle physics</term> deals with the substructures of atoms and nuclei and is particularly aimed at finding those truly fundamental particles that have no further substructure. Just as in atomic and nuclear physics, we have found a complex array of particles and properties with systematic characteristics analogous to the periodic table and the chart of nuclides. An underlying structure is apparent, and there is some reason to think that we <emphasis effect="italics">are </emphasis>finding particles that have no substructure. Of course, we have been in similar situations before. For example, atoms were once thought to be the ultimate substructures. It is possible that we could continue to find deeper and deeper structures without ever discovering the ultimate substructure—in science there is never complete certainty. See <link target-id="Figure_23_00_Structure"/>.</para>
+<para id="caption">The properties of matter are based on substructures called molecules and atoms. Each atom has the substructure of a nucleus surrounded by electrons, and their interactions explain atomic properties. Protons and neutrons—and the interactions between them—explain the stability and abundance of elements and form the substructure of nuclei. Protons and neutrons are not fundamental—they are composed of quarks. Like electrons and a few other particles, quarks may be the fundamental building blocks of all matter, lacking any further substructure. But the story is not complete because quarks and electrons may have substructures smaller than details that are presently observable.</para>
+<figure id="Figure_23_00_Structure"><media id="fs-id1167067092298" alt="A sequence of six images is shown: a solid, a molecule, an atom, a nucleus, a nucleon (a particle that makes up the nucleus—either a proton or a neutron), and a quark. Each image in the sequence is connected to the next one by an arrow from the prior image, showing that the ones on the right are smaller and smaller constructs of each preceding one on the left. In other words, the solid is made of molecules, the molecule is made of atoms, and so on."><image mime-type="image/jpg" src="../../media/CNX_HSPhysics_23_00_Structure.jpg"/></media>
+<caption>A solid, a molecule, an atom, a nucleus, a nucleon (a particle that makes up the nucleus—either a proton or a neutron), and a quark.</caption>
+</figure>
+<para id="fs-id1167061226816">This chapter covers the basics of particle physics as we know it today. An amazing convergence of topics is evolving in particle physics. We find that some particles are intimately related to forces and that nature on the smallest scale may have its greatest influence on the large scale character of the universe. It is an adventure exceeding the best science fiction because it is not only fantastic but also real.</para>
+</content>
+</document>

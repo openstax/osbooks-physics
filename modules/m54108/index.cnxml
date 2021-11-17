@@ -1,0 +1,586 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Relative Motion, Distance, and Displacement</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54108</md:content-id>
+  <md:title>Relative Motion, Distance, and Displacement</md:title>
+  <md:abstract/>
+  <md:uuid>3e280fd9-2656-4632-9b76-5ff408846a8f</md:uuid>
+</metadata>
+
+<content>
+    <note id="fs-id1167063684507" class="learning-objectives">
+      <label/>
+      <title>Section Learning Objectives</title>
+      <para id="fs-id1167067202296">By the end of this section, you will be able to do the following:</para>
+      <list id="fs-id1167067226853">
+        <item>Describe motion in different reference frames</item>
+        <item>Define distance and displacement, and distinguish between the two</item>
+        <item>Solve problems involving distance and displacement</item>
+      </list>
+    </note>
+      <note id="fs-id1167067048803" class="os-teacher">
+        <title>Teacher Support</title>
+        <para id="fs-id1167067072798">The learning objectives in this section will help your students master the following standards:</para><list id="fs-id1167063506335"><item>
+            (4) Science concepts. The student knows and applies the laws governing motion in a variety of situations. The student is expected to:
+            <list id="fs-id1167063608667"><item><span>(B)</span> <span>describe and analyze motion in one dimension using equations with the concepts of distance, displacement, speed, average velocity, instantaneous velocity, and acceleration;</span></item>
+              <item><span>(F)</span> <span>identify and describe motion relative to different frames of reference.</span></item>
+            </list></item>
+        </list></note>
+        <section id="keyterms"><title>Section Key Terms</title>
+    <table id="fs-id1167066790601" summary="The list of Key Terms includes: displacement, distance, kinematics, magnitude, position, reference frame, scalar, and vector." class="unnumbered unstyled section-key-terms"><label/>
+<tgroup cols="3"><tbody>
+          <row>
+            <entry>displacement</entry>
+            <entry>distance</entry>
+            <entry>kinematics</entry>
+            <entry>magnitude</entry>
+          </row>
+          <row>
+            <entry>position</entry>
+            <entry>reference frame</entry>
+            <entry>scalar</entry>
+            <entry>vector</entry>
+          </row>
+        </tbody>
+
+</tgroup>
+</table></section>
+  <note id="fs-id1167067192688" class="os-teacher">
+    <title>Teacher Support</title>
+    <para id="fs-id1167066827519"><span>[BL]</span><span>[OL]</span> Start by asking what <emphasis effect="italics">position</emphasis> is and how it is defined. You can use a toy car or other object. Then ask how they know the object has moved. Lead them to the idea of a defined starting point. Then bring in the concept of a numbered line as a way of quantifying motion.</para>
+    <para id="fs-id1167063855912"><span>[AL]</span> Ask students to describe the path of movement and emphasize that direction is a necessary component of a definition of motion. Ask the students to form pairs, and ask each pair to come up with their own definition of motion. Then compare and discuss definitions as a class. What components are necessary for a definition of motion?</para>
+  </note>
+  <section id="fs-id1167066958871">
+    <title>Defining Motion</title>
+    <para id="fs-id1167066850203">Our study of physics opens with <term>kinematics</term>—the study of <term class="no-emphasis">motion</term> without considering its causes. Objects are in motion everywhere you look. Everything from a tennis game to a space-probe flyby of the planet Neptune involves motion. When you are resting, your heart moves blood through your veins. Even in inanimate objects, atoms are always moving.</para>
+    <para id="fs-id1167066820976">How do you know something is moving? The location of an object at any particular time is its <term>position</term>. More precisely, you need to specify its position relative to a convenient <term>reference frame</term>. Earth is often used as a reference frame, and we often describe the position of an object as it relates to <term class="no-emphasis">stationary</term> objects in that reference frame. For example, a rocket launch would be described in terms of the position of the rocket with respect to Earth as a whole, while a professor’s position could be described in terms of where she is in relation to the nearby white board. In other cases, we use reference frames that are not stationary but are in motion relative to Earth. To describe the position of a person in an airplane, for example, we use the airplane, not Earth, as the reference frame. (See <link target-id="Figure_02_01_Airplane"/>.) Thus, you can only know how fast and in what <term class="no-emphasis">direction</term> an object's position is changing against a background of something else that is either not moving or moving with a known <term class="no-emphasis">speed</term> and direction. The reference frame is the coordinate system from which the positions of objects are described. </para>
+    <figure id="Figure_02_01_Airplane"><media id="fs-id1167067234812" alt="A photograph of an airplane flying in an upward direction is shown. The sky is partly cloudy.">
+        <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_02_01_airplane.jpg"/>
+      </media>
+
+    <caption>Are clouds a useful reference frame for airplane passengers? Why or why not? (Paul Brennan, Public Domain)</caption></figure><note id="fs-id1167066834517" class="os-teacher">
+      <title>Teacher Support</title>
+      <para id="fs-id1167066826981"><span>[OL]</span><span>[AL]</span>Explain that the word <emphasis effect="italics">kinematics</emphasis> comes from a Greek term meaning motion. It is related to other English words, such as <emphasis effect="italics">cinema</emphasis> (movies, or moving pictures) and <emphasis effect="italics">kinesiology</emphasis> (the study of human motion).</para>
+    </note>
+    <para id="fs-id1167067092685">Your classroom can be used as a reference frame. In the classroom, the walls are not moving. Your motion as you walk to the door, can be measured against the stationary background of the classroom walls. You can also tell if other things in the classroom are moving, such as your classmates entering the classroom or a book falling off a desk. You can also tell in what direction something is moving in the classroom. You might say, “The teacher is moving toward the door.” Your reference frame allows you to determine not only that something is moving but also the direction of motion. </para>
+    <para id="fs-id1167063429823">You could also serve as a reference frame for others’ movement. If you remained seated as your classmates left the room, you would measure their movement away from your stationary location. If you and your classmates left the room together, then your perspective of their motion would be change. You, as the reference frame, would be moving in the same direction as your other moving classmates. As you will learn in the <term>Snap Lab</term>, your description of motion can be quite different when viewed from different reference frames.</para><note id="fs-id1167067070915" class="os-teacher">
+      <title>Teacher Support</title>
+      <para id="fs-id1167067075716"><span>[BL]</span><span>[OL]</span> You may want to introduce the concept of a reference point as the starting point of motion. Relate this to the origin of a coordinate grid.</para>
+      <para id="fs-id1167066839569"><span>[AL]</span> Explain that the reference frames considered in this chapter are inertial reference frames, which means they are not accelerating. Engage students in a discussion of how it is the difference in motion between the reference frame of the observer and the reference frame of the object that is important in describing motion. The reference frames used in this chapter might be moving at a constant speed relative to each other, but they are not accelerating relative to each other.</para><para id="fs-id1167066862483"><span>[BL]</span><span>[OL]</span>[Visual] Misconception: Students may assume that a reference frame is a background of motion instead of the frame from which motion is viewed. Demonstrate the difference by having one student stand at the front of the class. Explain that this student represents the background. Walk once across the room between the student and the rest of the class. Ask the student and others in the class to describe the direction of your motion. The class might describe your motion as <emphasis effect="italics">to the right</emphasis>, but the student who is standing as a background to your motion would describe the motion as <emphasis effect="italics">to the left</emphasis>. Conclude by reminding students that the reference frame is the viewpoint of the observer, not the background.</para>
+      <para id="fs-id1167066972157"><span>[BL]</span> Have students practice describing simple examples of motion in the class from different reference frames. For example, slide a book across a desk. Ask students to describe its motion from their reference point, from the book's reference point, and from another student's reference point.</para>
+    </note>
+    <note id="fs-id1167066828338" class="snap-lab"><title>Looking at Motion from Two Reference Frames</title>
+
+      <para id="fs-id1167067184111">In this activity you will look at motion from two reference frames. Which reference frame is correct?</para>
+
+<list id="eip-id1167066033801" class="warnings">
+
+      <item>Choose an open location with lots of space to spread out so there is less chance of tripping or falling due to a collision and/or loose basketballs.</item>
+</list>
+
+
+      <list id="fs-id1167067066369" class="materials">
+        <item>1 basketball</item>
+      </list><list id="fs-id1167066871214" list-type="enumerated" number-style="arabic"><title>Procedure</title>
+        <item>Work with a partner. Stand a couple of meters away from your partner. Have your partner turn to the side so that you are looking at your partner’s profile. Have your partner begin bouncing the basketball while standing in place. Describe the motion of the ball.</item>
+        <item>Next, have your partner again bounce the ball, but this time your partner should walk forward with the bouncing ball. You will remain stationary. Describe the ball's motion.</item>
+        <item>Again have your partner walk forward with the bouncing ball. This time, you should move alongside your partner while continuing to view your partner’s profile. Describe the ball's motion.</item>
+        <item>Switch places with your partner, and repeat Steps 1–3.</item>
+      </list><exercise id="fs-id1167067036320" class="os-exercise grasp-check unnumbered">
+
+        <problem id="fs-id1167067105791">
+          <!--<para id="fs-id1167066885734">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex001"/>
+
+          </para>-->
+
+<para id="fs-id1164560828037">How do the different reference frames affect how you describe the motion of the ball?</para>
+<list id="fs-id1164557666733" list-type="enumerated" number-style="lower-alpha">
+<item>The motion of the ball is independent of the reference frame and is same for different reference frames.</item>
+<item>The motion of the ball is independent of the reference frame and is different for different reference frames.</item>
+<item>The motion of the ball is dependent on the reference frame and is same for different reference frames.</item>
+<item>The motion of the ball is dependent on the reference frames and is different for different reference frames.</item>
+</list>
+
+        </problem>
+      </exercise>
+    </note><note id="fs-id1167067006140" class="os-teacher">
+      <title>Teacher Support</title>
+      <para id="fs-id1167063519796">Before students begin the lab, arrange a location where pairs of students can have ample room to walk forward at least several meters.</para>
+      <para id="fs-id1167066774955">As students work through the lab, encourage lab partners to discuss their observations. In Steps 1 and 3, students should observe the ball move straight up and straight down. In Step 2, students should observe the ball in a zigzag path away from the stationary observer. </para><para id="fs-id1167066831382">After the lab, lead students in discussing their observations. Ask them which reference frame is the correct one. Then emphasize that there is not a single correct reference frame. All reference frames are equally valid.</para>
+    </note>
+    <note id="fs-id1167066799171" class="links-to-physics"><title>History: Galileo's Ship</title>
+
+      <figure id="Figure_02_01_Galileo"><media id="fs-id1167063419529" alt="A painting of Galileo Galilei is shown.">
+          <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_02_01_Galileo.jpg"/>
+        </media>
+
+      <caption>Galileo Galilei (1564–1642) studied motion and developed the concept of a reference frame. (Domenico Tintoretto)
+</caption></figure><para id="fs-id1167067139129">The idea that a description of motion depends on the reference frame of the observer has been known for hundreds of years. The 17<sup>th</sup>-century astronomer <term class="no-emphasis">Galileo</term> Galilei (<link target-id="Figure_02_01_Galileo"/>) was one of the first scientists to explore this idea. Galileo suggested the following thought experiment: Imagine a windowless ship moving at a constant speed and direction along a perfectly calm sea. Is there a way that a person inside the ship can determine whether the ship is moving? You can extend this thought experiment by also imagining a person standing on the shore. How can a person on the shore determine whether the ship is moving?</para>
+      <para id="fs-id1167066864742">Galileo came to an amazing conclusion. Only by looking at each other can a person in the ship or a person on shore describe the motion of one relative to the other. In addition, their descriptions of motion would be identical. A person inside the ship would describe the person on the land as moving past the ship. The person on shore would describe the ship and the person inside it as moving past. Galileo realized that observers moving at a constant speed and direction relative to each other describe motion in the same way. Galileo had discovered that a description of motion is only meaningful if you specify a reference frame.</para>
+      <exercise id="fs-id1167067000489" class="os-exercise grasp-check unnumbered">
+
+        <problem id="fs-id1167067076458">
+          <para id="fs-id1167067203984">
+            <link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex002"/>
+          </para>
+        </problem>
+      </exercise>
+    </note><section id="fs-id1167067215506">
+      <title>Distance vs. Displacement</title>
+      <para id="fs-id1167067165836">As we study the motion of objects, we must first be able to describe the object’s position. Before your parent drives you to school, the car is sitting in your driveway. Your driveway is the starting position for the car. When you reach your high school, the car has changed position. Its new position is your school. </para>
+      <figure id="Figure_02_01_house"><media id="fs-id1167067054121" alt="A drawing is shown of a house on the left facing a school on the right. A vector between points from the house to the school is labeled d o on the left and d f on the right. A car is shown driving from the house to the school.">
+          <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_02_01_house.jpg"/>
+        </media>
+
+      <caption>Your total change in position is measured from your house to your school.</caption></figure><para id="fs-id1167066975897">Physicists use variables to represent terms. We will use <emphasis>d</emphasis> to represent car’s position. We will use a subscript to differentiate between the initial position, <emphasis>d</emphasis><sub>0</sub>, and the final position, <emphasis>d</emphasis><sub>f</sub>. In addition, vectors, which we will discuss later, will be in bold or will have an arrow above the variable. Scalars will be italicized.</para>
+      <note id="fs-id1167067104045" class="tips-for-success">
+
+        <para id="fs-id1167066870543">In some books, <emphasis>x</emphasis> or <emphasis>s</emphasis> is used instead of <emphasis>d</emphasis> to describe position. In <emphasis>d</emphasis><sub>0</sub>, said <emphasis effect="italics">d naught</emphasis>, the subscript 0 stands for <emphasis effect="italics">initial</emphasis>. When we begin to talk about two-dimensional motion, sometimes other subscripts will be used to describe horizontal position, <emphasis>d</emphasis><sub>x</sub>, or vertical position, <emphasis>d</emphasis><sub>y</sub>. So, you might see references to <emphasis>d</emphasis><sub>0x</sub> and <emphasis>d</emphasis><sub>fy</sub>.</para>
+      </note>
+      <para id="fs-id1167067111017">
+        Now imagine driving from your house to a friend's house located several kilometers away. How far would you drive? The <term>distance</term> an object moves is the length of the path between its initial position and its final position. The distance you drive to your friend's house depends on your path. As shown in <link target-id="Figure_02_01_comic"/>, distance is different from the length of a straight line between two points. The distance you drive to your friend's house is probably longer than the straight line between the two houses.
+      </para>
+      <figure id="Figure_02_01_comic">
+        <media id="fs-id1167067090273" alt="A diagram is shown of a house on the left labeled home and another house on the right labeled Friend's house. The driveways of the houses are facing each other and a curvy road connects the driveways. A car is on the curvy road about half-way between the two houses.">
+          <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_02_01_comic.jpg"/>
+        </media>
+        <caption>A short line separates the starting and ending points of this motion, but the distance along the path of motion is considerably longer.</caption>
+      </figure>
+      <para id="fs-id1167066958923">We often want to be more precise when we talk about position. The description of an object’s motion often includes more than just the distance it moves. For instance, if it is a five kilometer drive to school, the distance traveled is 5 kilometers. After dropping you off at school and driving back home, your parent will have traveled a total distance of 10 kilometers. The car and your parent will end up in the same starting position in space. The net change in position of an object is its <term>displacement</term>, or  <m:math>
+        <m:mrow>
+          <m:mtext>Δ</m:mtext> <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>d</m:mi></m:mstyle><m:mtext>.</m:mtext>
+        </m:mrow>
+      </m:math> The Greek letter delta,  <m:math>
+        <m:mtext>Δ</m:mtext>
+      </m:math>, means <emphasis effect="italics">change in</emphasis>.</para>
+
+      <figure id="Figure_02_01_arrow">
+        <media id="fs-id1167066807291" alt="A drawing is shown of a house on the left facing a school on the right. The distance between the two is labeled five miles. A double-arrow vector between the house and the school is labeled do on the left and df on the right. The equation change in d total equals zero is shown below the vector.">
+          <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_02_01_arrow.jpg"/>
+        </media>
+        <caption>The total distance that your car travels is 10 km, but the total displacement is 0.</caption>
+      </figure>
+      <note id="fs-id1167066821564" class="os-teacher"><title>Teacher Support</title>
+<note id="eip-id1167066851377" class="teacher-demonstration">
+
+        <para id="fs-id1167067184149">Help students learn the difference between distance and displacement by showing examples of motion.</para>
+        <list id="fs-id1167067152582" list-type="enumerated" number-style="arabic">
+          <item>As students watch, walk straight across the room and have students estimate the length of your path.</item>
+          <item>Then, at same starting point, walk along a winding path to the same ending point.</item>
+          <item>Again, have students estimate the length of your path.</item>
+        </list>
+        <para id="fs-id1167066805135">Ask—Which motion showed displacement? Which showed distance? Point out that the first motion shows displacement, and the second shows distance along a path. In both cases, the starting and ending points were the same.</para>
+        <para id="fs-id1167066837568"><span>[OL]</span> Be careful that students do not assume that initial position is always zero. Emphasize that although initial position is often zero, motion can start from any position relative to a starting point.</para>
+        <para id="fs-id1167066792497">[Visual] Demonstrate positive and negative displacement by placing two meter sticks on the ground with their zero marks end-to-end. As students watch, place a small car at the zero mark. Slowly move the car to students' right a short distance and ask students what its displacement is. Then move the car to the left of the zero mark. Point out that the car now has a negative displacement.</para>
+        <para id="fs-id1167067070872">Students will learn more about vectors and scalars later when they study two-dimensional motion. For now, it is sufficient to introduce the terms and let students know that a vector includes information about direction.</para>
+        <para id="fs-id1167066828835"><span>[BL]</span> Ask students whether each of the following is a vector quantity or a scalar quantity: temperature (scalar), force (vector), mass (scalar). </para>
+        <para id="fs-id1167067317949"><span>[OL]</span> Ask students to provide examples of vector quantities and scalar quantities.</para>
+        <para id="fs-id1167067165867">[Kinesthetic] Provide students with large arrows cut from construction paper. Have them use the arrows to identify the magnitude (number or length of arrows) and direction of displacement. Emphasize that distance cannot be represented by arrows because distance does not include direction.</para>
+</note></note><note id="fs-id1167066840121" class="snap-lab">
+
+        <title>Distance vs. Displacement</title>
+        <para id="fs-id1167067150478">In this activity you will compare distance and displacement. Which term is more useful when making measurements?</para>
+        <list id="fs-id1167066998091" class="materials">
+          <item>1 recorded song available on a portable device</item>
+          <item>1 tape measure</item>
+          <item>3 pieces of masking tape</item>
+          <item>A room (like a gym) with a wall that is large and clear enough for all pairs of students to walk back and forth without running into each other.</item>
+        </list><list id="fs-id1167067199033" list-type="enumerated" number-style="arabic"><title>Procedure</title>
+
+          <item>One student from each pair should stand with their back to the longest wall in the classroom. Students should stand at least 0.5 meters away from each other. Mark this starting point with a piece of masking tape.</item>
+          <item>The second student from each pair should stand facing their partner, about two to three meters away. Mark this point with a second piece of masking tape.</item>
+          <item>Student pairs line up at the starting point along the wall.</item>
+          <item>The teacher turns on the music. Each pair walks back and forth from the wall to the second marked point until the music stops playing. Keep count of the number of times you walk across the floor.</item>
+          <item>When the music stops, mark your ending position with the third piece of masking tape.</item>
+          <item>Measure from your starting, initial position to your ending, final position.</item>
+          <item>Measure the length of your path from the starting position to the second marked position. Multiply this measurement by the total number of times you walked across the floor. Then add this number to your measurement from step 6.</item>
+          <item>Compare the two measurements from steps 6 and 7.</item>
+        </list><exercise id="fs-id1167066877218" class="os-exercise grasp-check unnumbered">
+
+          <problem id="fs-id1167066851422">
+            <para id="fs-id1167067153298">
+              <link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex003"/>
+            </para>
+          </problem>
+        </exercise>
+      </note>
+      <note id="fs-id1167066858962" class="os-teacher">
+        <title>Teacher Support</title>
+        <para id="fs-id1167066992237">Choose a room that is large enough for all students to walk unobstructed. Make sure the total path traveled is short enough that students can walk back and forth across it multiple times during the course of a song. Have them measure the distance between the two points and come to a consensus. When students measure their displacement, make sure that they measure forward from the direction they marked as the starting position. After they have completed the lab, have them discuss their results. </para>
+      </note>
+      <para id="fs-id1167067039297">If you are describing only your drive to school, then the distance traveled and the displacement are the same—5 kilometers. When you are describing the entire round trip, distance and displacement are different. When you describe distance, you only include the <term>magnitude</term>, the size or amount, of the distance traveled. However, when you describe the displacement, you take into account both the magnitude of the change in position and the direction of movement.</para>
+      <para id="fs-id1167067292383">In our previous example, the car travels a total of 10 kilometers, but it drives five of those kilometers forward toward school and five of those kilometers back in the opposite direction. If we ascribe the forward direction a positive (+) and the opposite direction a negative (–), then the two quantities will cancel each other out when added together.</para>
+      <para id="fs-id1167066854758">A quantity, such as distance, that has magnitude (i.e., how big or how much) but does not take into account direction is called a <term>scalar</term>. A quantity, such as displacement, that has both magnitude and direction is called a <term>vector</term>.</para>
+      <note id="fs-id1167063511963" class="watch-physics"><title>Vectors &amp; Scalars</title>
+
+        <para id="fs-id1167067031806">This <link url="http://openstax.org/l/28vectorscalar">video</link> introduces and differentiates between vectors and scalars. It also introduces quantities that we will be working with during the study of kinematics.</para>
+        <media id="fs-id1167067317066" alt="This tutorial talks about the difference between vectors and scalars, providing definitions as well as examples." class="os-embed">
+          <iframe width="660" height="371.4" src="https://www.khanacademy.org/embed_video?v=ihNZlp7iUHE"/>
+        </media>
+        <exercise id="fs-id1167067192771" class="os-exercise grasp-check unnumbered">
+
+          <problem id="fs-id1167063520712">
+            <para id="fs-id1167066810019">
+              <link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex004"/>
+            </para>
+          </problem>
+        </exercise>
+      </note><note id="fs-id1167067043787" class="os-teacher">
+        <title>Teacher Support</title>
+        <para id="fs-id1167066869052">Define the concepts of vectors and scalars before watching the video.</para>
+        <para id="fs-id1167067103747"><span>[OL]</span><span>[BL]</span> Come up with some examples of vectors and scalars and have the students classify each.</para>
+        <para id="fs-id1167066862852"><span>[AL]</span> Discuss how the concept of direction might be important for the study of motion.</para>
+      </note>
+      <section id="fs-id1167066956651"><title>Displacement Problems</title><para id="fs-id1167066864263">Hopefully you now understand the conceptual difference between distance and displacement. Understanding concepts is half the battle in physics. The other half is math. A stumbling block to new physics students is trying to wade through the math of physics while also trying to understand the associated concepts. This struggle may lead to misconceptions and answers that make no sense. Once the concept is mastered, the math is far less confusing.</para>
+        <para id="fs-id1167066832416">So let’s review and see if we can make sense of displacement in terms of numbers and equations. You can calculate an object's displacement by subtracting its original position, <emphasis>d<sub>0</sub></emphasis>, from its final position <emphasis>d<sub>f</sub></emphasis>. In math terms that means</para><equation id="fs-id1167066782882" class="unnumbered"><label/>
+           <m:math>
+            <m:mrow>
+              <m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>d</m:mi></m:mstyle><m:mo>=</m:mo><m:msub>
+                <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>d</m:mi></m:mstyle>
+                <m:mtext>f</m:mtext>
+              </m:msub>
+              <m:mo>−</m:mo><m:msub>
+                <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>d</m:mi></m:mstyle>
+                <m:mn>0</m:mn>
+              </m:msub>
+              <m:mtext>.</m:mtext>
+            </m:mrow>
+          </m:math>
+        </equation><para id="fs-id1167067041495">If the final position is the same as the initial position, then  <m:math>
+          <m:mrow>
+            <m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>d</m:mi></m:mstyle><m:mo>=</m:mo><m:mn>0</m:mn>
+          </m:mrow>
+        </m:math> .</para>
+        <para id="fs-id1167066864063">To assign numbers and/or direction to these quantities, we need to define an axis with a positive and a negative direction. We also need to define an origin, or <emphasis effect="italics">O</emphasis>. In <link target-id="Figure_02_01_arrow" class="has-default-text"/>, the axis is in a straight line with home at zero and school in the positive direction. If we left home and drove the opposite way from school, motion would have been in the negative direction. We would have assigned it a negative value. In the round-trip drive, <emphasis>d</emphasis><sub>f</sub> and <emphasis>d</emphasis><sub>0</sub> were both at zero kilometers. In the one way trip to school, <emphasis>d</emphasis><sub>f</sub> was at 5 kilometers and <emphasis>d</emphasis><sub>0</sub> was at zero km. So,  <m:math>
+          <m:mrow>
+            <m:mi>Δ</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>d</m:mi></m:mstyle>
+          </m:mrow>
+        </m:math>  was 5 kilometers. </para><note id="fs-id1167066966479" class="tips-for-success">
+
+          <para id="fs-id1167067032157">You may place your origin wherever you would like. You have to make sure that you calculate all distances consistently from your zero and you define one direction as positive and the other as negative. Therefore, it makes sense to choose the easiest axis, direction, and zero. In the example above, we took home to be zero because it allowed us to avoid having to interpret a solution with a negative sign.</para>
+        </note>
+        <note id="Example_02_01" class="worked-example"><title>Calculating Distance and Displacement</title>
+
+          <exercise id="fs-id1167066952597" class="02-ex005 unnumbered"><label/>
+
+            <problem id="fs-id1167067076237">
+              <para id="fs-id1167066875338">A cyclist rides 3 km west and then turns around and rides 2 km east. (a) What is her displacement? (b) What distance does she ride? (c) What is the magnitude of her displacement?</para>
+
+              <media id="fs-id1167066868872" alt="A segment is shown, divided into two sections. The first section is labeled change in d two equals plus twelve kilometers and has a right pointing arrow, ending at a label df. The second section is labeled do at the end of it. A left-pointing arrow is above the entire segment and is labeled change in d one equals negative three kilometers. The right of the segment, a left-pointing arrow is shown with a W and a negative sign on the left side and E and a positive sign on the right side. The label do is in the center.">
+                  <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_02_01_direction_img.jpg"/>
+                </media>
+
+              <note id="fs-id1167063726104"><label/><title>Strategy</title>
+                <para id="fs-id1167067193275">To solve this problem, we need to find the difference between the final position and the initial position while taking care to note the direction on the axis. The final position is the sum of the two displacements,  <m:math>
+                  <m:mrow>
+                    <m:mtext>Δ</m:mtext><m:msub>
+                      <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>d</m:mi></m:mstyle>
+                      <m:mn>1</m:mn>
+                    </m:msub>
+
+                  </m:mrow>
+                </m:math>  and  <m:math>
+                  <m:mrow>
+                    <m:mtext>Δ</m:mtext><m:msub>
+                      <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>d</m:mi></m:mstyle>
+                      <m:mn>2</m:mn>
+                    </m:msub>
+
+                  </m:mrow>
+                </m:math> .</para>
+              </note>
+            </problem>
+            <solution id="fs-id1167067204853">
+<label/><title>Solution</title>
+<list id="eip-id1167067040710" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+              <item>Displacement: The rider’s displacement is  <m:math>
+                <m:mrow>
+                  <m:mtext>Δ</m:mtext>
+                  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>d</m:mi></m:mstyle><m:mo>=</m:mo><m:msub>
+                    <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>d</m:mi></m:mstyle>
+                    <m:mtext>f</m:mtext>
+                  </m:msub>
+                  <m:mo>−</m:mo><m:msub>
+                    <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>d</m:mi></m:mstyle>
+                    <m:mn>0</m:mn>
+                  </m:msub>
+                  <m:mo>=</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mspace width="0.3em"/><m:mtext> km</m:mtext>
+                </m:mrow>
+              </m:math> .</item>
+              <item>Distance: The distance traveled is 3 km + 2 km = 5 km.</item>
+              <item>The magnitude of the displacement is 1 km.</item></list>
+            </solution>
+            <commentary id="fs-id1167063622347">
+              <title>Discussion</title>
+              <para id="fs-id1167067190224">The displacement is negative because we chose east to be positive and west to be negative. We could also have described the displacement as 1 km west. When calculating displacement, the direction mattered, but when calculating distance, the direction did not matter. The problem would work the same way if the problem were in the north–south or <emphasis effect="italics">y</emphasis>-direction.</para>
+              <note id="fs-id1167067158213" class="tips-for-success">
+
+                <para id="fs-id1167067033896">Physicists like to use standard units so it is easier to compare notes. The standard units for calculations are called <emphasis effect="italics">SI</emphasis> units (International System of Units). SI units are based on the metric system. The SI unit for displacement is the meter (m), but sometimes you will see a problem with kilometers, miles, feet, or other units of length. If one unit in a problem is an SI unit and another is not, you will need to convert all of your quantities to the same system before you can carry out the calculation.</para>
+              </note>
+            </commentary>
+          </exercise></note><note id="fs-id1167066877122" class="os-teacher">
+          <title>Teacher Support</title>
+          <para id="fs-id1167067127668">Point out to students that the distance for each segment is the absolute value of the displacement along a straight path.</para>
+        </note>
+        </section></section>
+  </section>
+  <section id="fs-id1167067014335" class="practice-problems"><title>Practice Problems</title><exercise id="fs-id1167067025012">
+<label/>
+      <problem id="fs-id1167067101026">
+        <!--<para id="fs-id1167067093291">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex006"/>
+        </para>-->
+
+<para id="fs-id1164563549296">On an axis in which moving from right to left is positive, what is the displacement and distance of a student who walks 32 m to the right and then 17 m to the left?</para>
+<list id="fs-id1164562073661" list-type="enumerated" number-style="lower-alpha">
+<item>Displacement is -15 m and distance is -49 <emphasis effect="italics">m</emphasis>.</item>
+<item>Displacement is -15 m and distance is 49 m.</item>
+<item>Displacement is 15 m and distance is -49 m.</item>
+<item>Displacement is 15 m and distance is 49 m.</item>
+</list>
+      </problem>
+    </exercise>
+
+    <exercise id="fs-id1167067109948">
+<label/>
+      <problem id="fs-id1167066880561">
+        <!--<para id="fs-id1167067174208">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex007"/>
+        </para>-->
+
+<para id="fs-id1164566528764">Tiana jogs 1.5 km along a straight path and then turns and jogs 2.4 km in the opposite direction. She then turns back and jogs 0.7 km in the original direction. Let Tianas original direction be the positive direction. What are the displacement and distance she jogged?</para>
+<list id="fs-id1164562114390" list-type="enumerated" number-style="lower-alpha">
+<item>Displacement is 4.6 km,and distance is -0.2 km.</item>
+<item>Displacement is -0.2 km, and distance is 4.6 km.</item>
+<item>Displacement is 4.6 km, and distance is +0.2 km.</item>
+<item>Displacement is +0.2 km, and distance is 4.6 km.</item>
+</list>
+      </problem>
+    </exercise>
+    <note id="fs-id1167067013739" class="work-in-physics">
+
+      <title>Mars Probe Explosion</title>
+      <figure id="Figure_02_01_Mars"><media id="fs-id1167066870524" alt="An image of the Mars Climate Orbiter is shown hovering above Mars.">
+          <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_02_01_Mars.jpg"/>
+        </media>
+
+      <caption>The Mars Climate Orbiter disaster illustrates the importance of using the correct calculations in physics. (NASA)</caption></figure><para id="fs-id1167063894582">Physicists make calculations all the time, but they do not always get the right answers. In 1998, NASA, the National Aeronautics and Space Administration, launched the Mars Climate Orbiter, shown in <link target-id="Figure_02_01_Mars"/>, a $125-million-dollar satellite designed to monitor the Martian atmosphere. It was supposed to orbit the planet and take readings from a safe distance. The American scientists made calculations in English units (feet, inches, pounds, etc.) and forgot to convert their answers to the standard metric SI units. This was a very costly mistake. Instead of orbiting the planet as planned, the Mars Climate Orbiter ended up flying into the Martian atmosphere. The probe disintegrated. It was one of the biggest embarrassments in NASA’s history.</para>
+      <exercise id="fs-id1167067195791" class="os-exercise grasp-check unnumbered">
+        <problem id="fs-id1167066861127">
+          <para id="fs-id1167066955206">
+            <link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex008"/>
+          </para>
+        </problem>
+      </exercise>
+    </note>
+    <note id="fs-id1167066855434" class="os-teacher">
+      <title>Teacher Support</title>
+      <para id="fs-id1167067196592">The text feature describes a real-life miscalculation made by astronomers at NASA. In this case, the Mars Climate Orbiter’s orbit needed to be calculated precisely because its machinery was designed to withstand only a certain amount of atmospheric pressure. The orbiter had to be close enough to the planet to take measurements and far enough away that it could remain structurally sound. One way to teach this concept would be to pick an orbital distance from Mars and have the students calculate the distance of the path and the height from the surface both in SI units and in English units. Ask why failure to convert might be a problem.</para>
+    </note>
+
+  </section><section id="fs-id1167066948169" class="check-understanding"><title>Check Your Understanding</title><exercise id="fs-id1167063790450" class="os-exercise">
+      <problem id="fs-id1167063513853">
+        <!--<para id="fs-id1167063605964">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex009"/>
+        </para>-->
+
+<para id="fs-id1164563526876">What does it mean when motion is described as relative?</para>
+<list id="fs-id1164562078448" list-type="enumerated" number-style="lower-alpha">
+<item>It means that motion of any object is described relative to the motion of Earth.</item>
+<item>It means that motion of any object is described relative to the motion of any other object.</item>
+<item>It means that motion is independent of the frame of reference.</item>
+<item>It means that motion depends on the frame of reference selected.</item>
+</list>
+     </problem>
+    </exercise>
+    <exercise id="fs-id1167063635724" class="os-exercise">
+      <problem id="fs-id1167067174246">
+        <para id="fs-id1167067203008">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex010"/>
+        </para>
+      </problem>
+    </exercise>
+    <exercise id="fs-id1167067030969" class="os-exercise">
+      <problem id="fs-id1167067007926">
+        <para id="fs-id1167067324751">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex011"/>
+        </para>
+      </problem>
+    </exercise>
+    <exercise id="fs-id1167066826408" class="os-exercise">
+      <problem id="fs-id1167067194960">
+        <para id="fs-id1167067079082">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex012"/>
+        </para>
+      </problem>
+    </exercise>
+<exercise id="eip-id1166850143916" class="os-exercise">
+<problem id="eip-id1166849972229">
+<para id="eip-id1166849972232">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch02-ot005"/>
+</para>
+</problem>
+</exercise>
+    <note id="fs-id1167063790608" class="os-teacher">
+      <title>Teacher Support</title>
+      <para id="fs-id1167067052879">Use the questions under <emphasis effect="italics">Check Your Understanding</emphasis> to assess students’ achievement of the section’s learning objectives. If students are struggling with a specific objective, the formative assessment will help direct students to the relevant content.</para></note>
+  </section><section id="fs-id1167063917610" class="summary">
+    <title>Section Summary</title>
+    <list id="fs-id1167066992275">
+      <item>A description of motion depends on the reference frame from which it is described.</item>
+      <item>The distance an object moves is the length of the path along which it moves.</item>
+      <item>Displacement is the difference in the initial and final positions of an object.</item>
+
+    </list>
+  </section>
+  <section id="fs-id1167067069023" class="key-equations"><title>Key Equations</title><table id="fs-id1167067209915" class="unnumbered unstyled" summary="The list of Key Equations includes the equation for displacement.">
+<label/>
+<tgroup cols="2"><colspec colnum="1" align="left" colname="c1"/>
+        <colspec colnum="2" align="left" colname="c2"/>
+        <tbody>
+          <row>
+            <entry>Displacement</entry>
+            <entry> <m:math>
+              <m:mrow>
+                <m:mtext>Δ</m:mtext>
+                <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>d</m:mi><m:mo>=</m:mo><m:msub>
+                  <m:mi>d</m:mi>
+                  <m:mi>f</m:mi>
+                </m:msub>
+                <m:mo>−</m:mo><m:msub>
+                  <m:mi>d</m:mi>
+                  <m:mn>0</m:mn>
+                </m:msub></m:mstyle>
+
+              </m:mrow>
+            </m:math>
+            </entry>
+          </row>
+        </tbody>
+
+</tgroup>
+</table></section><section id="fs-id1167067023534" class="concept"><title>Concept Items</title>
+<exercise id="fs-id1167063790536" class="os-exercise">
+      <problem id="fs-id1167063422130">
+        <para id="fs-id1167067068229">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex013"/>
+        </para>
+      </problem>
+    </exercise>
+  <exercise id="eip-id1166851321481" class="os-exercise">
+<problem id="eip-id1166851433336">
+<!--<para id="eip-id1166851008312">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch02-ot008"/>
+</para>-->
+
+<para id="fs-id1164562459959">In which example would you be correct in describing an object in motion while your friend would also be correct in describing that same object as being at rest?</para>
+<list id="fs-id1164565195855" list-type="enumerated" number-style="lower-alpha"><item>You are driving a car toward the east and your friend drives past you in the opposite direction with the same speed. In your frame of reference, you will be in motion. In your friends frame of reference, you will be at rest.</item>
+<item>You are driving a car toward the east and your friend is standing at the bus stop. In your frame of reference, you will be in motion. In your friends frame of reference, you will be at rest.</item>
+<item>You are driving a car toward the east and your friend is standing at the bus stop. In your frame of reference, your friend will be moving toward the west. In your friends frame of reference, he will be at rest.</item>
+<item>You are driving a car toward the east and your friend is standing at the bus stop. In your frame of reference, your friend will be moving toward the east. In your friends frame of reference, he will be at rest.</item>
+</list></problem>
+</exercise>
+<exercise id="eip-id1166848771592" class="os-exercise">
+<problem id="eip-id1166850904428">
+<para id="eip-id1166848749361">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch02-ot009"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167067147460" class="critical-thinking"><title>Critical Thinking</title><exercise id="fs-id1167066963400" class="os-exercise"><problem id="fs-id1167063519781"><para id="fs-id1167067068331"><link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex014"/></para></problem></exercise>
+  <exercise id="eip-id1166851298946" class="os-exercise">
+<problem id="eip-id1166851066091">
+<para id="eip-id1166851038738">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch02-ot015"/>
+</para>
+</problem>
+</exercise></section>
+<section id="fs-id1167066854415" class="problems">
+    <title>Problems</title>
+    <exercise id="fs-id1167066854836" class="os-exercise">
+      <problem id="fs-id1167067292494">
+        <para id="fs-id1167067214584">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex015"/>
+        </para>
+      </problem>
+    </exercise>
+    <exercise id="fs-id1167067158435" class="os-exercise">
+      <problem id="fs-id1167067198147">
+        <!--<para id="fs-id1167067007296">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex016"/>
+        </para>-->
+
+<para id="fs-id1164566533130">Billy drops a ball from a height of 1 m. The ball bounces back to a height of 0.8 m, then bounces again to a height of 0.5 m, and bounces once more to a height of 0.2 m. Up is the positive direction. What are the total displacement of the ball and the total distance traveled by the ball?</para>
+<list id="fs-id1164566547571" list-type="enumerated" number-style="lower-alpha"><item>The displacement is equal to –4 m and the distance is equal to 4 m.</item>
+<item>The displacement is equal to –1 m and the distance is equal to 1 m</item>
+<item>The displacement is equal to 4 m and the distance is equal to 1 m.</item>
+<item>The displacement is equal to –1 m and the distance is equal to 4 m.</item>
+</list></problem>
+    </exercise>
+  </section>
+  <section id="fs-id1167067180354" class="multiple-choice"><title>Test Prep Multiple Choice</title>
+<exercise id="fs-id1167063506333" class="os-exercise"><problem id="fs-id1167067093010"><para id="fs-id1167063518917"><link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex017"/></para></problem></exercise>
+    <exercise id="fs-id1167067068710" class="os-exercise"><problem id="fs-id1167067140420"><para id="fs-id1167067205788"><link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex018"/></para></problem></exercise>
+    <exercise id="fs-id1167063693938" class="os-exercise"><problem id="fs-id1167066966798"><para id="fs-id1167067158120"><link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex019"/></para></problem></exercise>
+  <exercise id="eip-id1166848680009" class="os-exercise">
+<problem id="eip-id1166849115245">
+<para id="eip-id1166848815568">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch02-ot018"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166851210410" class="os-exercise">
+<problem id="eip-id1166851425730">
+<!--<para id="eip-id1166851054481">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch02-ot019"/>
+</para>-->
+<para id="fs-id1164562238415">If a space shuttle orbits Earth once, what is the shuttles distance traveled and displacement?</para>
+<list id="fs-id1164559087872" list-type="enumerated" number-style="lower-alpha">
+<item>Distance and displacement both are zero.</item>
+<item>Distance is circumference of the circular orbit while displacement is zero.</item>
+<item>Distance is zero while the displacement is circumference of the circular orbit.</item>
+<item>Distance and displacement both are equal to circumference of the circular orbit.</item>
+</list>
+</problem>
+</exercise></section><section id="fs-id1167067211120" class="short-answer">
+    <title>Test Prep Short Answer</title>
+    <exercise id="fs-id1167066875649" class="os-exercise"><problem id="fs-id1167066790761"><!-- <para id="fs-id1167066790762"><link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex020"/></para> -->
+
+<para id="eip-id1164565479443">While standing on a sidewalk facing the road, you see a bicyclist passing by toward your right. In the reference frame of the bicyclist, in which direction are you moving?</para>
+<list id="eip-id1164567327918" list-type="enumerated" number-style="lower-alpha"><item>in the same direction of motion as the bicyclist</item>
+<item>in the direction opposite the motion of the bicyclist</item>
+<item>stationary with respect to the bicyclist</item>
+<item>in the direction of velocity of the bicyclist</item>
+</list></problem></exercise><exercise id="fs-id1167067077206" class="os-exercise"><problem id="fs-id1167067036436"><para id="fs-id1167067036437"><link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex021"/></para></problem></exercise>
+    <exercise id="fs-id1167066828691" class="os-exercise"><problem id="fs-id1167067180163"><para id="fs-id1167067180164"><link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex022"/></para></problem></exercise>
+  </section>
+  <section id="fs-id1167063535344" class="extended-response">
+    <title>Test Prep Extended Response</title>
+    <exercise id="fs-id1167067011687" class="os-exercise"><problem id="fs-id1167067289507">
+<!--<para id="fs-id1167066945419"><link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex023"/></para>--><para id="eip-idm647612320">Find the distance traveled from the starting point for each path.</para>
+<figure id="fs-id1164562069693" class="unnumbered">
+<media id="fs-id1164565114161" alt="A line begins at 0 and extends to the right. 2, 4, 6, 8, 10, and 12 are marked on the line, and it is titled displacement x (m). a green line A extends from 0 to the right. A red line c extends from two to the right, and makes an ess pattern at 10 where it goes back to 8, then reverses direction again and extends to infinity. An orange line D extends from 9 to the left, then reverses direction at 3. A purple line B extends from 12 to the left.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_02_01_displace_img.jpg"/>
+</media>
+<caption/>
+</figure>
+<para id="fs-id1164565093505">Which path has the maximum distance?</para><list id="fs-id1164566687466" list-type="enumerated" number-style="lower-alpha"><item>The distance for Path A is 6 m, Path B is 4 m, Path C is 12 m and for Path D is 7 m. The net displacement for Path A is 7 m, Path B is –4m, Path C is 8 m and for Path D is –5m. Path C has maximum distance and it is equal to 12 meters.</item>
+<item>The distance for Path A is 6 m, Path B is 4 m, Path C is 8 m and for Path D is 7 m. The net displacement for Path A is 6 m, Path B is –4m, Path C is 12 m and for Path D is –5 m. Path A has maximum distance and it is equal to 6 meters.</item>
+<item>The distance for Path A is 6 m, Path B is 4 m, Path C is 12 m and for Path D is 7 m. The net displacement for Path A is 6 m, Path B is –4 m, Path C is 8 m and for Path D is –5 m. Path C has maximum distance and it is equal to 12 meters.</item>
+<item>The distance for Path A is 6 m, Path B is –4 m, Path C is 12 m and for Path D is –5 m. The net displacement for Path A is 7 m, Path B is 4 m, Path C is 8 m and for Path D is 7 m. Path A has maximum distance and it is equal to 6 m.</item>
+</list></problem></exercise><exercise id="fs-id1167067179467" class="os-exercise"><problem id="fs-id1167067088619"><para id="fs-id1167067294766"><link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex024"/></para></problem></exercise>
+  </section>
+</content>
+  <glossary>
+    <definition id="fs-id1167066994249"><term>displacement</term> <meaning id="fs-id1167067108153">the change in position of an object against a fixed axis</meaning></definition>
+    <definition id="fs-id1167063563548"><term>distance</term> <meaning id="fs-id1167066944938">the length of the path actually traveled between an initial and a final position</meaning></definition>
+    <definition id="fs-id1167063560819"><term>kinematics</term> <meaning id="fs-id1167067032174">the study of motion without considering its causes</meaning></definition>
+    <definition id="fs-id1167067028379"><term>magnitude</term> <meaning id="fs-id1167063535955">size or amount</meaning></definition>
+    <definition id="fs-id1167066984863"><term>position</term> <meaning id="fs-id1167066790078">the location of an object at any particular time</meaning></definition>
+    <definition id="fs-id1167066975728"><term>reference frame</term> <meaning id="fs-id1167066940039">a coordinate system from which the positions of objects are described</meaning></definition>
+    <definition id="fs-id1167067106156"><term>scalar</term> <meaning id="fs-id1167067192913">a quantity that has magnitude but no direction</meaning></definition>
+    <definition id="fs-id1167067143060"><term>vector</term> <meaning id="fs-id1167066799686">a quantity that has both magnitude and direction</meaning></definition>
+
+  </glossary>
+</document>

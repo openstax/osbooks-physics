@@ -1,0 +1,46 @@
+<document xmlns="http://cnx.rice.edu/cnxml" class="introduction">
+
+<title>Introduction</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54196</md:content-id>
+  <md:title>Introduction</md:title>
+  <md:abstract/>
+  <md:uuid>33e5d378-965b-4996-82ee-56d7616a158c</md:uuid>
+</metadata>
+
+<content>
+<note id="imp-id1167067216940" class="os-teacher">
+<title>Teacher Support</title>
+<para id="imp-id1167067078823">Physics learning objectives come from 112.39 (c) Knowledge and Skills</para>
+</note>
+
+<figure id="Figure_07_00_Kepler" class="splash"><media id="imp-id1167067068130" alt="Two photos show men in old-fashioned dress.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_07_00_Kepler.jpg"/>
+</media>
+
+<caption>Johannes Kepler (left) showed how the planets move, and Isaac Newton (right) discovered that gravitational force caused them to move that way. ((left) unknown, Public Domain; (right) Sir Godfrey Kneller, Public Domain)</caption></figure>
+<note id="fs-id1167065865861" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066029985">Contrast the type of work that each scientist did. Both were important and tackled difficult problems. Kepler found patterns in a mountain of data. Newton found the underlying cause of those patterns.</para>
+</note>
+
+<para id="imp-id1167066946072">What do a falling apple and the orbit of the moon have in common? You will learn in this chapter that each is caused by gravitational force. The motion of all celestial objects, in fact, is determined by the gravitational force, which depends on their mass and separation.</para>
+<para id="imp-id1167067183504">Johannes Kepler discovered three laws of planetary motion that all orbiting planets and moons follow. Years later, Isaac Newton found these laws useful in developing his law of universal gravitation. This law relates gravitational force to the masses of objects and the distance between them. Many years later still, Albert Einstein showed there was a little more to the gravitation story when he published his theory of general relativity.</para>
+
+<note id="imp-id1167067294977" class="os-teacher">
+<title>Teacher Support</title>
+<para id="imp-id1167067104536">Before students begin this chapter, it is useful to review the following concepts: </para>
+<list id="imp-id1167066832482" list-type="bulleted">
+<item>Using significant figures in calculations—Demonstrate how to use the proper number of significant figures when adding and multiplying.</item>
+<item>Review scientific notation as related to significant figures.</item>
+<item>Converting units—Demonstrate how to convert from km/h to m/s.</item>
+<item>Review dimensional analysis. For example, N is equivalent to kg∙m/s<sup>2</sup>.</item>
+<item>Explain that metric units clearly distinguish between mass and weight, but that the commonly used English units do not.</item>
+<item>Calculating average—Demonstrate how to average two numbers.</item>
+<item>Review manipulation of formulas so that they may be expressed in terms of the unknown.</item>
+<item>Review Newton’s laws of motion.</item>
+</list>
+</note>
+
+</content>
+</document>

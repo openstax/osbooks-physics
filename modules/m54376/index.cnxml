@@ -1,0 +1,41 @@
+<document xmlns="http://cnx.rice.edu/cnxml" class="introduction">
+
+<title>Introduction</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54376</md:content-id>
+  <md:title>Introduction</md:title>
+  <md:abstract/>
+  <md:uuid>93d68a26-132e-4174-933d-d29fb3e2af19</md:uuid>
+</metadata>
+
+<content>
+<figure id="Figure_17_00_CDcolors" class="splash"><media id="fs-id1167067264759" alt="Photograph of a compact disc, showing arcs of rainbow colors produced by diffraction.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_17_00_CDcolors.jpg"/>
+</media>
+
+<caption>The colors reflected by this compact disc vary with angle and are not caused by pigments. Colors such as these are direct evidence of the wave character of light. (credit: Reggie Mathalone)</caption></figure><note id="fs-id1167067284281" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066972277">Review the concepts related to waves and wave propagation. Remind students that, in the previous chapter, they learned about the ray aspect of light and the phenomena that can be explained in terms of rays. Those included reflection and refraction and their related applications, such as curved mirrors and lenses. Explain that, in this chapter, they will be looking at light behavior that is explained by light as waves. That will include diffraction and interference, as demonstrated by light when it passes through narrow slits. Finally, they will look at applications related to waves, including lasers, spectroscopes, and the resolution of optical instruments.</para>
+<para id="fs-id1167067049787"><span>[BL]</span>Recall that the speed of light is a fundamental constant. It is also the fastest possible speed.</para>
+<para id="fs-id1167061391800"><span>[OL]</span>Review the similarities and differences of light waves, sound waves, and water waves. Discuss relative speeds, wavelengths, methods of propagation, longitudinal vs. transverse waves, and media.</para>
+<para id="fs-id1167067152111"><span>[AL]</span>Ask students to recall any wave behavior they have witnessed on the surfaces of bodies of water. Do they understand how those waves propagate? Have they seen two wavefronts interfering? Can they describe patterns of crests and troughs?</para>
+<note id="fs-id1167063912030" class="misconception">
+<para id="fs-id1167067311629">Ask students to compare the speeds of light, sound, and water waves. Correct any large misconceptions about relative speeds. Light travels about one million times faster than sound, which travels about one hundred times faster than water waves.</para>
+</note>
+</note>
+<para id="fs-id1167066854507">Examine a compact disc under white light, noting the colors observed and their locations on the disc. Using the CD, explore the spectra of a few light sources, such as a candle flame, an incandescent bulb, and fluorescent light. If you have ever looked at the reds, blues, and greens in a sunlit soap bubble and wondered how straw-colored soapy water could produce them, you have hit upon one of the many phenomena that can only be explained by the wave character of light. That and other interesting phenomena, such as the dispersion of white light into a rainbow of colors when passed through a narrow slit, cannot be explained fully by geometric optics. In such cases, light interacts with small objects and exhibits its wave characteristics. The topic of this chapter is the branch of optics that considers the behavior of light when it exhibits wave characteristics.</para>
+
+<note id="fs-id1167067194265" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066957995">Before students begin this chapter, it is useful to review the following concepts:</para>
+<list id="fs-id1167063583161">
+<item>Significant figuresdemonstrate how to obtain the proper number of significant figures when adding and multiplying.</item>
+<item>Scientific notation and how it expresses significant figures</item>
+<item>Converting unitsdemonstrate how to convert from km/h to m/s. Review metric length units, including nanometers, meters, and kilometers. Show how units cancel in calculations.</item>
+<item>Wave propagation, including wavelength, frequency, and amplitude</item>
+<item>Refractive index</item>
+<item>Trigonometric functions and inverse functions</item>
+</list>
+</note>
+</content>
+</document>

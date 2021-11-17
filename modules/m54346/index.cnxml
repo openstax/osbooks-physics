@@ -1,0 +1,889 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>The Behavior of Electromagnetic Radiation</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54346</md:content-id>
+  <md:title>The Behavior of Electromagnetic Radiation</md:title>
+  <md:abstract/>
+  <md:uuid>f8da9cb0-b2e4-45ea-ad83-18b6e345e09a</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167067072874" class="learning-objectives"><label/><title>Section Learning Objectives</title>
+<para id="fs-id1167063419776">By the end of this section, you will be able to do the following:</para>
+<list id="fs-id1167067142539"><item>Describe the behavior of electromagnetic radiation</item>
+<item>Solve quantitative problems involving the behavior of electromagnetic radiation</item>
+</list></note><note id="fs-id1167066839890" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067195688">The learning objectives in this section will help your students master the following standards:</para>
+<list id="fs-id1167063606215">
+<item>(7) Science concepts. The student knows the characteristics and behavior of waves. The student is expected to
+<list id="fs-id1167063684444"><item>
+<span>(B) </span>
+<span>investigate and analyze characteristics of waves, including velocity, frequency, amplitude, and wavelength, and calculate using the relationship between wave speed, frequency, and wavelength;</span></item>
+<item>
+<span>(C) </span>
+<span>compare characteristics and behaviors of transverse waves, including electromagnetic waves and the electromagnetic spectrum, and characteristics and behaviors of longitudinal waves, including sound waves; and</span></item>
+<item>
+<span>(D) </span><span>investigate behaviors of waves, including reflection, refraction, diffraction, interference, resonance, and the Doppler Effect.</span></item>
+</list></item>
+</list>
+</note>
+<section id="keyterms"><title>Section Key Terms</title>
+<table id="fs-id1167067080247" class="unnumbered unstyled section-key-terms" summary="Section key terms is a 3 column table. The first row reads illuminance, interference, lumens. The second row reads luminous flux, lux, polarized light.">
+<label/>
+<tgroup cols="3">
+<colspec colnum="1" align="left" colname="c1"/>
+<colspec colnum="2" align="left" colname="c2"/>
+<colspec colnum="3" align="left" colname="c3"/>
+<tbody>
+<row>
+<entry>illuminance</entry>
+<entry>interference</entry>
+<entry>lumens</entry>
+<entry>luminous flux</entry>
+<entry>lux</entry>
+<entry>polarized light</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<note id="fs-id1167067308108" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067209883"><span>[BL]</span>Impress on students how incredibly fast light travels. Start with 3.00 × 10<sup>8</sup> m/s and express it as 300,000 km/s, or roughly the distance to the moon or the odometer reading on an old, very durable car.</para><para id="fs-id1167067250966"><span>[OL]</span>Discuss fundamental physical constants. Ask students to name some others in addition to the speed of light. Supply the gravitational constant and Planck’s constant. Note that these are different from mathematical constants, such as pi.</para>
+<para id="fs-id1167061190352"><span>[AL]</span>Explain that physical constants have the same value everywhere in the universe. This realization was an important event in the history of science.</para>
+
+<note id="fs-id1167066970886" class="misconception">
+
+<para id="fs-id1167067216760">Both light and sound seem to travel very rapidly from a human perspective. Impress on students that the speed of sound is many orders of magnitude slower than the speed of light.</para>
+</note>
+</note>
+
+
+<section id="fs-id1167067199374"><title>Types of Electromagnetic Wave Behavior</title><para id="fs-id1167063473880">In a vacuum, all electromagnetic radiation travels at the same incredible speed of 3.00 × 10<sup>8</sup> m/s, which is equal to 671 million miles per hour. This is one of the fundamental physical constants. It is referred to as the speed of light and is given the symbol <emphasis effect="italics">c</emphasis>. The space between celestial bodies is a near vacuum, so the light we see from the Sun, stars, and other planets has traveled here at the speed of light. Keep in mind that all EM radiation travels at this speed. All the different wavelengths of radiation that leave the Sun make the trip to Earth in the same amount of time. That trip takes 8.3 minutes. Light from the nearest star, besides the Sun, takes 4.2 years to reach Earth, and light from the nearest galaxy—a dwarf galaxy that orbits the Milky Way—travels 25,000 years on its way to Earth. You can see why we call very long distances <emphasis effect="italics">astronomical</emphasis>. </para><para id="fs-id1167067305253">When light travels through a physical medium, its speed is always less than the speed of light. For example, light travels in water at three-fourths the value of <emphasis effect="italics">c</emphasis>. In air, light has a speed that is just slightly slower than in empty space: 99.97 percent of <emphasis effect="italics">c</emphasis>. Diamond slows light down to just 41 percent of <emphasis effect="italics">c</emphasis>. When light changes speeds at a boundary between media, it also changes direction. The greater the difference in speeds, the more the path of light bends. In other chapters, we look at this bending, called <emphasis effect="italics">refraction</emphasis>, in greater detail. We introduce refraction here to help explain a phenomenon called <term class="no-emphasis">thin-film interference</term>.</para>
+<note id="fs-id1167067055091" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067058439"><span>[BL]</span>Describe the rainbow colors that result from thin-film interference and ask students for examples. Fill in the ones they miss with soap bubbles, oil slicks, and compact discs.</para>
+<para id="fs-id1167063828456"><span>[OL]</span>Describe refraction qualitatively. Base the discussion on change of speed; there is no need to introduce refractive index yet. Give some examples from everyday experience. For example, explain why objects underwater are not exactly where they appear to be.</para>
+<para id="fs-id1167067025813"><span>[AL]</span>Explain refraction with the analogy of a four-wheeled vehicle veering from solid pavement into sand. When wheels on one side enter the sand—the slower medium—the vehicle swerves toward the sand. This is because the wheels on that side move more slowly than those on the pavement side.</para>
+</note>
+<para id="fs-id1167061290983">Have you ever wondered about the rainbow colors you often see on soap bubbles, oil slicks, and compact discs? This occurs when light is both refracted by and reflected from a very thin film. The diagram shows the path of light through such a thin film. The symbols <emphasis effect="italics">n</emphasis><sub>1</sub>, <emphasis effect="italics">n</emphasis><sub>2</sub>, and <emphasis effect="italics">n</emphasis><sub>3</sub> indicate that light travels at different speeds in each of the three materials. Learn more about this topic in the chapter on diffraction and interference.</para>
+<para id="fs-id1167067041820"><link target-id="Figure_15_02_Thinfilm"/> shows the result of thin film interference on the surface of soap bubbles. Because ray 2 travels a greater distance, the two rays become <emphasis effect="italics">out of phase</emphasis>. That is, the crests of the two emerging waves are no longer moving together. This causes <term>interference</term>, which reinforces the intensity of the wavelengths of light that create the bands of color. The color bands are separated because each color has a different wavelength. Also, the thickness of the film is not uniform, and different thicknesses cause colors of different wavelengths to interfere in different places. Note that the film must be very, very thin—somewhere in the vicinity of the wavelengths of visible light.</para>
+
+<figure id="Figure_15_02_Thinfilm">
+<media id="fs-id1167067036714" alt="This diagram shows three areas separated by two parallel, horizontal lines. The distance between the two lines is labeled “t”. The top area, labeled n subscript 1, has a white background. The middle area, labeled n subscript 2, has a hazy bluish background. The bottom area, labeled n subscript 3, has a hazy gray background. An arrow labeled “Incident light” starts from the top left of the white area, points in a southeasterly direction, and ends on the upper horizontal line. At that point, two arrows emerge: one of them, labeled number 1, travels back through the white area in the northeast direction; the other travels through the bluish area in a south-southeast direction until it reaches the lower horizontal line. At the point where the lower arrow ends, another arrow begins, pointing in the north-northeast direction until it reaches the upper horizontal line. From that junction, a new arrow emerges, labeled number 2, traveling in the white area and parallel to the arrow labeled number 1. A human eye observes the arrows marked 1 and 2.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_15_02_Thinfilm.jpg"/>
+</media>
+<caption>Light striking a thin film is partially reflected (ray 1) and partially refracted at the top surface. The refracted ray is partially reflected at the bottom surface and emerges as ray 2. These rays will interfere in a way that depends on the thickness of the film and the indices of refraction of the various media.</caption>
+</figure>
+<note id="fs-add" class="os-teacher"><title>Teacher Support</title>
+
+<note id="fs-id1167066775169" class="misconception">
+
+<para id="fs-id1167061243017">Do not confuse polar molecules with polarized light. If a molecule is polar, it refers to a separation of negative and positive electric charges. Polarized light is light whose electric field component vibrates in a specific plane.</para>
+</note>
+</note>
+<para id="fs-id1167067292574">You have probably experienced how polarized sunglasses reduce glare from the surface of water or snow. The effect is caused by the wave nature of light. Looking back at <link document="m54342" target-id="Figure_15_01_EMwave"/>, we see that the electric field moves in only one direction perpendicular to the direction of propagation. Light from most sources vibrates in all directions perpendicular to propagation. Light with an electric field that vibrates in only one direction is called <emphasis effect="italics">polarized</emphasis>. A diagram of <term>polarized light</term> would look like <link document="m54342" target-id="Figure_15_01_EMwave"/>. </para><para id="fs-id1167067036868">Polarized glasses are an example of a polarizing filter. These glasses absorb most of the horizontal light waves and transmit the vertical waves. This cuts down glare, which is caused by horizontal waves. <link target-id="Figure_15_02_Rope"/> shows how waves traveling along a rope can be used as a model of how a polarizing filter works. The oscillations in one rope are in a vertical plane and are said to be vertically polarized. Those in the other rope are in a horizontal plane and are horizontally polarized. If a vertical slit is placed on the first rope, the waves pass through. However, a vertical slit blocks the horizontally polarized waves. For EM waves, the direction of the electric field oscillation is analogous to the disturbances on the ropes.</para>
+
+<figure id="Figure_15_02_Rope">
+<media id="fs-id1167063914916" alt="This figure has two panels arranged side by side. The left panel, labeled “(a)”, shows a hand holding one end of a wave moving in a vertical plane and passing through a vertically oriented slit. Next to the hand is a double-headed vertical arrow labeled “Direction of polarization”. The right panel, labeled “(b)”, shows a hand holding one end of a wave moving in a horizontal plane and passing through a horizontally oriented slit. Next to the hand is a double-headed horizontal arrow labeled “Direction of polarization.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_15_02_Rope.jpg"/>
+</media>
+<caption>The transverse oscillations in one rope are in a vertical plane, and those in the other rope are in a horizontal plane. The first is said to be vertically polarized, and the other is said to be horizontally polarized. Vertical slits pass vertically polarized waves and block horizontally polarized waves.</caption>
+</figure>
+
+<para id="fs-id1167066859264">Light can also be polarized by reflection. Most of the light reflected from water, glass, or any highly reflective surface is polarized horizontally. <link target-id="Figure_15_02_Reflection"/> shows the effect of a polarizing lens on light reflected from the surface of water.</para>
+
+<figure id="Figure_15_02_Reflection">
+<media id="fs-id1167066983234" alt="This figure shows two photographs arranged side by side. The left photograph, labeled “(a)”, shows a river bed that looks hazy because of interfering gray and white patches. The right photograph, labeled “(b)”, shows the same area of the river bed with almost no interfering gray patches, so that the pebbles on the bed are clearly visible.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_15_02_Reflection.jpg"/>
+</media>
+<caption>These two photographs of a river show the effect of a polarizing filter in reducing glare in light reflected from the surface of water. Part (b) of this figure was taken with a polarizing filter and part (a) was taken without. As a result, the reflection of clouds and sky observed in part (a) is not observed in part (b). Polarizing sunglasses are particularly useful on snow and water.</caption>
+</figure>
+
+<note id="fs-id1167063560782" class="watch-physics"><title>Polarization of Light, Linear and Circular</title>
+
+<para id="fs-id1167063573243">This video explains the polarization of light in great detail. Before viewing the video, look back at the drawing of an electromagnetic wave from the previous section. Try to visualize the two-dimensional drawing in three dimensions.
+</para>
+
+<media id="fs-id1167067013865" alt="...">
+<iframe width="660" height="371.4" src="https://www.openstax.org/l/28Polarization"/>
+</media>
+
+<exercise id="fs-id1167066835566" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167063630613">
+<!--<para id="fs-id1167067020604">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch15-ex022"/>-->
+<para id="fs-id1164565377523">How do polarized glasses reduce glare reflected from the ocean?</para>
+<list id="fs-id1164565624754" list-type="enumerated" number-style="lower-alpha">
+<item>They block horizontally polarized and vertically polarized light.</item>
+<item>They are transparent to horizontally polarized and vertically polarized light.</item>
+<item>They block horizontally polarized rays and are transparent to vertically polarized rays.</item>
+<item>They are transparent to horizontally polarized light and block vertically polarized light.</item>
+</list>
+</problem>
+</exercise>
+<note id="fs-id1167063518874" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067264627">The video explains how to generate linear polarized light, and how, by uniformly changing the phase of linear polarized light, circularly polarized light can be produced.</para>
+</note>
+</note><note id="fs-id1167066799176" class="snap-lab">
+
+<title>Polarized Glasses</title>
+<list id="fs-id1167067249571" list-type="bulleted" bullet-style="none" class="warnings">
+
+<item>EYE SAFETY—Looking at the Sun directly can cause permanent eye damage. Avoid looking directly at the Sun.</item>
+</list>
+<list id="fs-id1167067049657" class="materials">
+
+<item>two pairs of polarized sunglasses<newline/>
+OR</item>
+<item>two lenses from one pair of polarized sunglasses</item>
+</list>
+<list id="fs-id1167063594654" list-type="enumerated">
+<title>Procedure</title>
+<item>Look through both or either polarized lens and record your observations.</item>
+<item>Hold the lenses, one in front of the other. Hold one lens stationary while you slowly rotate the other lens. Record your observations, including the relative angles of the lenses when you make each observation.</item>
+<item>Find a reflective surface on which the Sun is shining. It could be water, glass, a mirror, or any other similar smooth surface. The results will be more dramatic if the sunlight strikes the surface at a sharp angle.</item>
+<item>Observe the appearance of the surface with your naked eye and through one of the polarized lenses.</item>
+<item>Observe any changes as you slowly rotate the lens, and note the angles at which you see changes.</item>
+</list>
+<note id="fs-id1167067043176" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167063901188">Explain your observations made through the polarized lenses. Describe what happened when you held the lenses together and rotated one of them. Explain the changes during rotation in terms of planes of polarization. Explain your observation of the reflective surface in terms of planes of polarization.</para></note>
+</note>
+
+
+</section><exercise id="fs-id1167063656044" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167067223958">
+<!--<para id="fs-id1167066793404"><link class="os-embed" url="#ost/api/ex/k12phys-ch15-ex023"/></para>-->
+<para id="fs-id1164567936071">If you buy sunglasses in a store, how can you be sure that they are polarized?</para>
+<list id="fs-id1164567516604" list-type="enumerated" number-style="lower-alpha">
+<item>When one pair of sunglasses is placed in front of another and rotated in the plane of the body, the light passing through the sunglasses will be blocked at two positions due to refraction of light.</item>
+<item>When one pair of sunglasses is placed in front of another and rotated in the plane of the body, the light passing through the sunglasses will be blocked at two positions due to reflection of light.</item>
+<item>When one pair of sunglasses is placed in front of another and rotated in the plane of the body, the light passing through the sunglasses will be blocked at two positions due to the polarization of light.</item>
+<item>When one pair of sunglasses is placed in front of another and rotated in the plane of the body, the light passing through the sunglasses will be blocked at two positions due to the bending of light waves.</item>
+</list>
+</problem>
+</exercise>
+
+<section id="fs-id1167067056516">
+<title>Quantitative Treatment of Electromagnetic Waves</title>
+<note id="fs-id1167061220798" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167061420164"><span>[BL]</span>Remember that the equation for speed is <emphasis effect="italics">v</emphasis> = <emphasis effect="italics">d</emphasis>/<emphasis effect="italics">t</emphasis>, where <emphasis effect="italics">v</emphasis> is velocity or speed, <emphasis effect="italics">d</emphasis> is distance, and <emphasis effect="italics">t</emphasis> is time. Rearrange the equation so that it can be used to solve for either distance or time if the other two values are known.</para>
+<para id="fs-id1167067072791"><span>[OL]</span>Ask students to recall ****the metric units of frequency and wavelength. The answer is  <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mtext>s</m:mtext>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>1</m:mn>
+   </m:mrow>
+  </m:msup>
+
+ </m:mrow>
+ <m:mtext>,</m:mtext>
+</m:math>
+ or Hz for frequency and meters or any other metric distance unit for wavelength.</para>
+
+<note id="fs-id1167063572245" class="misconception">
+
+<para id="fs-id1167063895526">A light year is a measure of distance, not time.</para>
+</note>
+</note>
+<para id="fs-id1167067217919">We can use the speed of light, <emphasis effect="italics">c</emphasis>, to carry out several simple but interesting calculations. If we know the distance to a celestial object, we can calculate how long it takes its light to reach us. Of course, we can also make the reverse calculation if we know the time it takes for the light to travel to us. For an object at a very great distance from Earth, it takes many years for its light to reach us. This means that we are looking at the object as it existed in the distant past. The object may, in fact, no longer exist. Very large distances in the universe are measured in <term class="no-emphasis">light years</term>. One light year is the distance that light travels in one year, which is  <m:math>
+ <m:mrow>
+  <m:mn>9.46</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>12</m:mn>
+   </m:mrow>
+  </m:msup>
+
+ </m:mrow>
+</m:math>
+ kilometers or <m:math>
+ <m:mrow>
+  <m:mn>5.88</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>12</m:mn>
+   </m:mrow>
+  </m:msup>
+
+ </m:mrow>
+</m:math>
+ miles (…and 10<sup>12</sup> is a trillion!).</para>
+<para id="fs-id1167063837673">A useful equation involving <emphasis effect="italics">c</emphasis> is</para>
+<equation id="fs-id1167067268992">
+<label/>
+ <m:math>
+ <m:mrow>
+  <m:mi>c</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mi>λ</m:mi>
+ </m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1167064573474">where <emphasis effect="italics">f</emphasis> is frequency in Hz, and  <m:math>
+ <m:mi>λ</m:mi>
+</m:math>  is wavelength in meters.</para>
+
+<note id="Worked_Example_15_02" class="worked-example"><title>Frequency and Wavelength Calculation</title>
+<exercise id="fs-id1167067151260" class="15-ex024 unnumbered"><label/>
+<problem id="fs-id1167063933425">
+<para id="fs-id1167067190369">For example, you can calculate the frequency of yellow light with a wavelength of  <m:math>
+ <m:mrow>
+  <m:mn>6.00</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>7</m:mn>
+   </m:mrow>
+  </m:msup>
+ </m:mrow>
+</m:math> m.</para>
+<note id="fs-id1167063568806"><label/><title>Strategy</title>
+
+<para id="fs-id1167067289776">Rearrange the equation to solve for frequency.</para>
+<equation id="fs-id1167067303376"><m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mi>c</m:mi>
+   <m:mi>λ</m:mi>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</equation></note></problem>
+<solution id="fs-id1167067104334">
+<label/>
+<title>Solution</title>
+<para id="fs-id1167063841517">Substitute the values for the speed of light and wavelength into the equation. </para>
+<equation id="fs-id1164565465561">
+ <m:math display="block">
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>3.00</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn>
+     </m:mrow>
+     <m:mn>8</m:mn>
+    </m:msup>
+    <m:mtext> m/s</m:mtext>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>6.00</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn>
+     </m:mrow>
+     <m:mrow>
+      <m:mo>−</m:mo><m:mn>7</m:mn>
+     </m:mrow>
+    </m:msup>
+    <m:mtext> m</m:mtext>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>5.00</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>14</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:msup>
+   <m:mrow>
+    <m:mtext> s</m:mtext>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>1</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mo>=</m:mo><m:mn>5.00</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>14</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mtext> Hz</m:mtext>
+ </m:mrow>
+</m:math> </equation></solution>
+<commentary id="fs-id1167063652380">
+<title>Discussion</title>
+<para id="fs-id1167067012137">Manipulating exponents of 10 in a fraction can be tricky. Be sure you keep track of the + and – exponents correctly. Checking back to the diagram of the electromagnetic spectrum in the previous section shows that 10<sup>14</sup> is a reasonable order of magnitude for the frequency of yellow light.</para><para id="fs-id1167066950014">The frequency of a wave is proportional to the energy the wave carries. The actual proportionality constant will be discussed in a later chapter. Since frequency is inversely proportional to wavelength, we also know that wavelength is inversely proportional to energy. Keep these relationships in mind as general rules.</para>
+</commentary>
+</exercise>
+</note><note id="fs-id1167063537564" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066938849"><span>[BL]</span>Good lighting for reading is important. We will see that moving twice as far away from a light source does not give you half as much light. It decreases much more than that.</para>
+<para id="fs-id1167067192967"><span>[AL]</span>Recall the inverse-square law for gravitational force. Any force or radiation that spreads out in all directions will decrease with the square of the distance.</para>
+</note>
+
+<para id="fs-id1167063810790">The rate at which light is radiated from a source is called <term>luminous flux</term>, <emphasis effect="italics">P</emphasis>, and it is measured in <term>lumens</term> (lm). Energy-saving light bulbs, which provide more luminous flux for a given use of electricity, are now available. One of these bulbs is called a <emphasis effect="italics">compact fluorescent lamp</emphasis>; another is an <emphasis effect="italics">LED</emphasis> (light-emitting diode) bulb. If you wanted to replace an old incandescent bulb with an energy saving bulb, you would want the new bulb to have the same brightness as the old one. To compare bulbs accurately, you would need to compare the lumens each one puts out. Comparing wattage—that is, the electric power used—would be misleading. Both wattage and lumens are stated on the packaging.</para>
+<para id="fs-id1167066850066">The luminous flux of a bulb might be 2,000 lm. That accounts for all the light radiated in all directions. However, what we really need to know is how much light falls on an object, such as a book, at a specific distance. The number of lumens per square meter is called <term>illuminance</term>, and is given in units of <term>lux</term> (lx). Picture a light bulb in the middle of a sphere with a 1-m radius. The total surface of the sphere equals 4π<emphasis effect="italics">r</emphasis><sup>2</sup> m<sup>2</sup>. The illuminance then is given by</para><equation id="fs-id1167063524875"><label/>
+ <m:math>
+ <m:mrow>
+  <m:mtext>illuminance =</m:mtext><m:mspace width="0.25em"/><m:mfrac>
+   <m:mi>P</m:mi>
+   <m:mrow>
+    <m:mn>4</m:mn><m:mi>π</m:mi><m:msup>
+     <m:mi>r</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+ <m:mtext>.</m:mtext>
+</m:math>
+</equation><para id="fs-id1167063534977">What happens if the radius of the sphere is increased 2 m? The illuminance is now only one-fourth as great, because the <emphasis effect="italics">r</emphasis><sup>2</sup> term in the denominator is 4 instead of 1. <link target-id="Figure_15_02_Illuminance"/> shows how illuminance decreases with the inverse square of the distance.</para>
+
+<figure id="Figure_15_02_Illuminance">
+<media id="fs-id1167067038162" alt="This diagram shows a small sphere on the left, labeled “Source of Electromagnetic Radiation”, and a series of arrows emerging from it, pointing rightward. Three curved surfaces are separated from the sphere by distances labeled as “r”, “2r”, and “3r”. One of these surfaces is labeled “Part of the surface of a sphere with radius r”. The arrows penetrate these three surfaces and move farther and farther apart as they move away from the sphere.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_15_02_Illuminanc.jpg"/>
+</media>
+<caption>The diagram shows why the illuminance varies inversely with the square of the distance from a source of light.</caption>
+</figure>
+
+<note id="fs-id1167066862765" class="worked-example">
+
+<title>Calculating Illuminance</title>
+<exercise id="fs-id1167067217536" class="15-ex025 unnumbered">
+<label/>
+<problem id="fs-id1167067073808">
+<para id="fs-id1167063801811">A woman puts a new bulb in a floor lamp beside an easy chair. If the luminous flux of the bulb is rated at 2,000 lm, what is the illuminance on a book held 2.00 m from the bulb?</para>
+
+<note id="fs-id1167061393964"><label/><title>Strategy</title>
+
+<para id="fs-id1167066946958">Choose the equation and list the knowns.</para>
+<para id="fs-id1167063519208">Equation:
+ <m:math>
+ <m:mrow>
+  <m:mtext>illuminance =</m:mtext><m:mspace width="0.25em"/><m:mfrac>
+   <m:mi>P</m:mi>
+   <m:mrow>
+    <m:mn>4</m:mn><m:mi>π</m:mi><m:msup>
+     <m:mi>r</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</para>
+<para id="fs-id1167063582685"><emphasis effect="italics">P</emphasis> = 2,000 lm</para>
+<para id="fs-id1167061214482">π = 3.14</para><para id="fs-id1167067075739"><emphasis effect="italics">r</emphasis> = 2.00 m</para>
+</note></problem>
+
+<solution id="fs-id1167066865354">
+<label/>
+<title>Solution</title>
+<para id="fs-id1167067176334">Substitute the known values into the equation.</para>
+<para id="fs-id1167067053095"> <m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:mtext>illuminance</m:mtext></m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mtext>=</m:mtext>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mi>P</m:mi>
+       <m:mrow>
+        <m:mn>4</m:mn><m:mi>π</m:mi><m:msup>
+         <m:mi>r</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+        </m:mrow>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mtext>=</m:mtext>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mtext>2,000</m:mtext><m:mtext> lm</m:mtext></m:mrow>
+       <m:mrow>
+        <m:mn>4</m:mn><m:mo stretchy="false">(</m:mo><m:mn>3.14</m:mn><m:mo stretchy="false">)</m:mo><m:msup>
+         <m:mrow>
+          <m:mo stretchy="false">(</m:mo><m:mn>2.00</m:mn><m:mo stretchy="false">)</m:mo></m:mrow>
+         <m:mn>2</m:mn>
+        </m:msup>
+        <m:msup>
+         <m:mrow>
+          <m:mtext> m</m:mtext></m:mrow>
+         <m:mn>2</m:mn>
+        </m:msup>
+        </m:mrow>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mtext>=</m:mtext>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>39.8</m:mn><m:msup>
+       <m:mrow>
+        <m:mtext> lm/m</m:mtext></m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mtext>=</m:mtext>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>39.8</m:mn><m:mspace width="0.3em"/><m:mtext> lx</m:mtext></m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable></m:mrow>
+</m:math> </para></solution>
+
+<commentary id="fs-id1167061177686">
+<title>Discussion</title>
+<para id="fs-id1167066793039">Try some other distances to illustrate how greatly light fades with distance from its source. For example, at 3 m the illuminance is only 17.7 lux. Parents often scold children for reading in light that is too dim. Instead of shouting, “You’ll ruin your eyes!” it might be better to explain the inverse square law of illuminance to the child.</para>
+</commentary>
+</exercise>
+</note>
+</section>
+
+
+
+<section id="fs-id1167063464070" class="practice-problems"><title>Practice Problems</title><exercise id="fs-id1167063526786">
+<problem id="fs-id1167067005596">
+<!-- <para id="fs-id1167063961409"><link class="os-embed" url="#ost/api/ex/k12phys-ch15-ex026"/></para> -->
+<para id="fs-id1169831824157">Red light has a wavelength of 7.0 × 10−7 m and a frequency of 4.3 × 1014 Hz. Use these values to calculate the speed of light in a vacuum.</para>
+<list id="fs-id1169831711090" list-type="enumerated" number-style="lower-alpha">
+<item>3 × 1020 m/s</item>
+<item>3 × 1015 m/s</item>
+<item>3 × 1014 m/s</item>
+<item>3 × 108 m/s</item></list>
+</problem>
+</exercise>
+<exercise id="fs-id1167063574168">
+<problem id="fs-id1167063520063">
+<para id="fs-id1167063512743"><link class="os-embed" url="#ost/api/ex/k12phys-ch15-ex027"/></para>
+</problem>
+</exercise>
+</section><section id="fs-id1167067203438" class="check-understanding">
+<title>Check Your Understanding</title>
+<note id="fs-id1167066810021" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067198283">Use these questions to assess student achievement of the section’s Learning Objectives. If students are struggling with a specific objective, these questions will help identify any gaps and direct students to the relevant content. </para>
+</note>
+<exercise id="fs-id1167063891863" class="os-exercise">
+<problem id="fs-id1167063518955">
+<!--<para id="fs-id1167067009963"><link class="os-embed" url="#ost/api/ex/k12phys-ch15-ex028"/></para>-->
+<para id="fs-id1164566363020">Give an example of a place where light travels at the speed of 3.00 × 10<sup>8</sup> m/s.</para>
+<list id="fs-id1164567934106" list-type="enumerated" number-style="lower-alpha">
+<item>outer space</item>
+<item>water</item>
+<item>Earth’s atmosphere</item>
+<item>quartz glass</item></list>
+</problem>
+</exercise>
+<exercise id="fs-id1167063415383" class="os-exercise">
+<problem id="fs-id1167067038797">
+<!--<para id="fs-id1167060081159"><link class="os-embed" url="#ost/api/ex/k12phys-ch15-ex029"/></para>-->
+<para id="fs-id1164567360706">Explain in terms of distances and the speed of light why it is currently very unlikely that humans will visit planets that circle stars other than our Sun.</para>
+<list id="fs-id1164567614050" list-type="enumerated" number-style="lower-alpha">
+<item>The spacecrafts used for travel are very heavy and thus very slow.</item>
+<item>Spacecrafts do not have a constant source of energy to run them.</item>
+<item>If a spacecraft could attain a maximum speed equal to that of light, it would still be too slow to cover astronomical distances.</item>
+<item>Spacecrafts can attain a maximum speed equal to that of light, but it is difficult to locate planets around stars.</item></list>
+</problem>
+</exercise>
+</section>
+
+
+<section id="fs-id1167067269093" class="summary">
+<title>Section Summary</title>
+<list id="fs-id1167067086111">
+<item>EM radiation travels at different speeds in different media, produces colors on thin films, and can be polarized to oscillate in only one direction.</item>
+<item>Calculations can be based on the relationship among the speed, frequency, and wavelength of light, and on the relationship among luminous flux, illuminance, and distance.</item>
+</list>
+</section>
+
+<section id="fs-id1167067013200" class="key-equations"><title>Key Equations</title><table id="fs-id1167067184447" class="unnumbered unstyled" summary="This table has two columns and two rows. In the first row, the left cell reads “Frequency and wavelength”, and the right cell shows the equation for the speed of light in a vacuum equal to frequency multiplied by wavelength. In the second row, the left cell reads “Illuminance”, and the right cell shows the equation for illuminance in terms of radiant power  P divided by surface area at distance r.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry>frequency and wavelength</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mi>c</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mi>λ</m:mi>
+ </m:mrow>
+</m:math> </entry>
+</row>
+<row>
+<entry>illuminance</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mtext>illuminance =</m:mtext><m:mspace width="0.25em"/><m:mfrac>
+   <m:mi>P</m:mi>
+   <m:mrow>
+    <m:mn>4</m:mn><m:mi>π</m:mi><m:msup>
+     <m:mi>r</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section><section id="fs-id1167067101747" class="concept"><title>Concept Items</title><exercise id="fs-id1167067198400" class="os-exercise">
+<problem id="fs-id1167067039464">
+<!--<para id="fs-id1167066869678"><link class="os-embed" url="#ost/api/ex/k12phys-ch15-ex030"/></para>-->
+<para id="fs-id1164564475439">Light travels at different speeds in different media. Put these media in order, from the slowest light speed to the fastest light speed: air, diamond, vacuum, water.</para><list id="fs-id1164568038416" list-type="enumerated" number-style="lower-alpha">
+<item>diamond, water, air, vacuum</item>
+<item>vacuum, diamond, air, water</item>
+<item>diamond, air, water, vacuum</item>
+<item>air, diamond, water, vacuum</item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-id1166848000288" class="os-exercise">
+<problem id="eip-id1166849325362">
+<para id="eip-id1166847997263">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch15-ot024"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166849941050" class="os-exercise">
+<problem id="eip-id1166849939958">
+<!--<para id="eip-id1166849532997">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch15-ot026"/>
+</para>-->
+<para id="fs-id1164564623220">Bright sunlight is reflected from an icy pond. You look at the glare of the reflected light through polarized glasses. When you take the glasses off, rotate them 90°, and look through one of the lenses again, the light you see becomes brighter. Explain why the light you see changes.</para>
+<list id="fs-id1164566040366" list-type="enumerated" number-style="lower-alpha"><item>The glass blocks horizontally polarized light, and the light reflected from the icy pond is, in part, polarized horizontally.</item>
+<item>The glass blocks vertically polarized light, and the light reflected from the icy pond is, in part, polarized vertically.</item>
+<item>The glass allows horizontally polarized light to pass, and the light reflected from the icy pond is, in part, polarized vertically.</item>
+<item>The glass allows horizontally polarized light to pass, and the light reflected from the icy pond is, in part, polarized horizontally.</item>
+</list></problem>
+</exercise></section>
+<section id="fs-id1167063625530" class="critical-thinking"><title>Critical Thinking</title>
+<exercise id="fs-id1167063582982" class="os-exercise">
+<problem id="fs-id1167067052504">
+<!--<para id="fs-id1167067114972"><link class="os-embed" url="#ost/api/ex/k12phys-ch15-ex031"/></para>-->
+<para id="fs-id1164565530624">Explain how thin-film interference occurs. Discuss in terms of the meaning of interference and the pathways of light waves.</para>
+<list id="fs-id1164567999751" list-type="enumerated" number-style="lower-alpha"><item>For a particular thickness of film, light of a given wavelength that reflects from the outer and inner film surfaces is completely in phase, and so undergoes constructive interference.</item>
+<item>For a particular thickness of film, light of a given wavelength that reflects from the outer and inner surfaces is completely in phase, and so undergoes destructive interference.</item>
+<item>For a particular thickness of film, light of a given wavelength that reflects from the outer and inner film surfaces is completely out of phase, and so undergoes constructive interference.</item>
+<item>For a particular thickness of film, light of a given wavelength that reflects from the outer and inner film surfaces is completely out of phase, and so undergoes no interference.</item>
+</list></problem>
+</exercise>
+<exercise id="eip-id1166849297320" class="os-exercise">
+<problem id="eip-id1166849791242">
+<!--<para id="eip-id1166849967119">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch15-ot028"/>
+</para>-->
+<para id="fs-id1164565557923">When you move a rope up and down, waves are created. If the waves pass through a slot, they will be affected differently, depending on the orientation of the slot. Using the rope waves and the slot as a model, explain how polarizing glasses affect light waves.</para>
+<list id="fs-id1164565565114" list-type="enumerated" number-style="lower-alpha">
+<item>If the wave—electric field—is vertical and slit—polarizing molecules in the glass—is horizontal, the wave will pass.</item>
+<item>If the wave—electric field— is vertical and slit—polarizing molecules in the glass—is vertical, the wave will not pass.</item>
+<item>If the wave—electric field—is horizontal and slit—polarizing molecules in the glass—is horizontal, the wave will pass.</item>
+<item>If the wave—electric field—is horizontal and slit—polarizing molecules in the glass—is horizontal, the wave will not pass.</item>
+</list>
+</problem>
+</exercise></section>
+<section id="fs-id1167066834527" class="problems"><title>Problems</title>
+<exercise id="fs-id1167066848542" class="os-exercise">
+<problem id="fs-id1167067147871">
+<!-- <para id="fs-id1167066866003"><link class="os-embed" url="#ost/api/ex/k12phys-ch15-ex032"/></para> -->
+<para id="fs-id1169831820136">Visible light has a range of wavelengths from about 400 nm to 800 nm . What is the range of frequencies for visible light?</para>
+<list id="fs-id1169828359383" list-type="enumerated" number-style="lower-alpha"><item>3.75 × 10<sup>6</sup> Hz to 7.50 × 10<sup>6</sup> Hz</item>
+<item>3.75 Hz to 7.50 Hz</item>
+<item>3.75 × 10<sup>−7</sup> Hz to 7.50 × 10<sup>−7</sup> Hz</item>
+<item>3.75 × 10<sup>14</sup> Hz to 7.50 × 10<sup>14</sup> Hz</item></list></problem>
+</exercise>
+<exercise id="fs-id1167063915153" class="os-exercise">
+<problem id="fs-id1167066869078">
+<!--<para id="fs-id1167063730282"><link class="os-embed" url="#ost/api/ex/k12phys-ch15-ex033"/></para>-->
+<para id="fs-id1164566086660">Light travels through the wall of a soap bubble that is 600 nm thick and is reflected from the inner surface back into the air. Assume the bubble wall is mostly water and that light travels in water at 75 percent of the speed of light in vacuum. How many seconds behind will the light reflected from the inner surface arrive compared to the light that was reflected from the outer surface?</para>
+<list id="fs-id1164567960668" list-type="enumerated" number-style="lower-alpha">
+<item>4.0 × 10<sup>–8</sup> s</item>
+<item>5.3 × 10<sup>–6</sup> s</item>
+<item>2.65 × 10<sup>–15</sup> s</item>
+<item>5.3 × 10<sup>–15</sup> s</item>
+</list>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167066953278" class="performance"><title>Performance Task</title><exercise id="fs-id1167063579664">
+<problem id="fs-id1167063586116">
+<para id="fs-id1167066837512">Design an experiment to observe the phenomenon of thin-film interference. Observe colors of visible light, and relate each color to its corresponding wavelength. Comparison with the magnitudes of visible light wavelength will give an appreciation of just how very thin a thin film is. Thin-film interference has a number of practical applications, such as anti-reflection coatings and optical filters. Thin films used in filters can be designed to reflect or transmit specific wavelengths of light. This is done by depositing a film one molecular layer at a time from a vapor, thus allowing the thickness of the film to be exactly controlled.</para>
+</problem>
+</exercise>
+
+<list id="fs-id1167066843309" list-type="bulleted" bullet-style="none" class="warnings">
+
+<item>EYE SAFETY—Chemicals in this lab are poisonous if ingested. If chemicals are ingested, inform your teacher immediately.</item>
+<item>FUMES—Certain chemicals or chemical reactions in this lab create a vapor that is harmful if inhaled. Follow your teacher's instructions for the use of fume hoods and other safety apparatus designed to prevent fume inhalation. Never smell or otherwise breath in any chemicals or vapors in the lab.</item>
+<item>FLAMMABLE—Chemicals in this lab are highly flammable and can ignite, especially if exposed to a spark or open flame. Follow your teacher's instructions carefully on how to handle flammable chemicals. Do not expose any chemical to a flame or other heat source unless specifically instructed by your teacher.</item>
+<item>HAND WASHING—Some materials may be hazardous if in extended contact with the skin. Be sure to wash your hands with soap after handling and disposing of these materials during the lab.</item>
+<item>WASTE—Some things in this lab are hazardous and need to be disposed of properly. Follow your teacher's instructions for disposal of all items.</item>
+</list>
+<list id="fs-id1167067160011" class="materials">
+
+<item>A large flat tray with raised sides, such as a baking tray</item>
+<item>Small volumes of motor oil, lighter fluid or a penetrating oil of the type used to loosen rusty bolts, and cooking oil</item>
+<item>Water</item>
+<item>A camera</item>
+</list>
+
+<list id="fs-id1167063876662" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>Thin-film interference causes colors to appear on the surface of a thin transparent layer. Do you expect to see a pattern to the colors?</item>
+<item>How could you make a permanent record of your observations?</item>
+<item>What data would you need to look up to help explain any patterns that you see?</item>
+<item>What could explain colors failing to appear under some conditions?</item>
+</list>
+
+<note id="fs-id1167063817541" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067085693">This performance task supports NGSS HS-PS4-3. Analyze observations to support the assertion that thin films must be of the order of magnitude of the wavelengths of visible light for thin-film interference to be observed. Explain how variations in film thickness affect the colors produced.</para>
+<para id="fs-id1167063513880">Performance Task Rubric</para>
+<list id="fs-id1167067072718" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>Add just enough water to the tray to completely cover the bottom. Add one or two drops of only one of the other liquids: motor oil, kerosene, or cooking oil.</item>
+<item>Observe and photograph the results.</item>
+<item>Thoroughly wash out and rinse the tray and repeat steps (a) and (b) with each of the other liquids.</item>
+<item>Create a table with one column that lists the colors in order from the center of the film to its edge. In another column, write the approximate wavelength of the color in nanometers.</item>
+<item>Explain the tabulated results in terms of film thickness.</item>
+</list>
+</note>
+</section>
+
+<section id="fs-id1167067143604" class="multiple-choice"><title>Test Prep Multiple Choice</title>
+<exercise id="fs-id1167061322379" class="os-exercise">
+<problem id="fs-id1167063680408">
+<!-- <para id="fs-id1167063504360"><link class="os-embed" url="#ost/api/ex/k12phys-ch15-ex034"/></para> -->
+<para id="fs-id1169831788470">To compare the brightness of light bulbs for sale in a store, you should look on the labels to see how they are rated in terms of ____.</para>
+<list id="fs-id1169831705816" list-type="enumerated" number-style="lower-alpha">
+<item>frequency</item>
+<item>watts</item>
+<item>amps</item>
+<item>lumens</item></list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067217170" class="os-exercise">
+<problem id="fs-id1167063520295">
+<!-- <para id="fs-id1167063588738"><link class="os-embed" url="#ost/api/ex/k12phys-ch15-ex035"/></para> -->
+<para id="fs-id1169832033998">What is the wavelength of red light with a frequency of 4.00 × 10<sup>14</sup> Hz?</para><list id="fs-id1169831788320" list-type="enumerated" number-style="lower-alpha"><item>2.50 × 10<sup>14</sup> m</item>
+<item>4.00 × 10<sup>15</sup> m</item>
+<item>2.50 × 10<sup>6</sup> m</item>
+<item>4.00 × 10<sup>-7</sup> m</item>
+</list></problem>
+</exercise>
+<exercise id="eip-id1166849964785" class="os-exercise">
+<problem id="eip-id1166850155613">
+<!-- <para id="eip-id1166849944397">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch15-ot018"/>
+</para> -->
+<para id="fs-id1169831894499">What is the distance of one light year in kilometers?</para>
+<list id="fs-id1169828364762" list-type="enumerated" number-style="lower-alpha"><item>2.59 × 10<sup>10</sup> km</item>
+<item>1.58 × 10<sup>11</sup> km</item>
+<item>2.63 × 10<sup>9</sup> km</item>
+<item>9.46 × 10<sup>12</sup> km</item></list></problem>
+</exercise>
+<exercise id="eip-id1166849976101" class="os-exercise">
+<problem id="eip-id1166847252054">
+<!--<para id="eip-id1166850023512">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch15-ot019"/>
+</para>-->
+<para id="fs-id1164565358879">How does the illuminance of light change when the distance from the light source is tripled? Cite the relevant equation and explain how it supports your answer.</para>
+<list id="fs-id1164564483012" list-type="enumerated" number-style="lower-alpha"><item> <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtext>Illuminance = </m:mtext><m:mfrac>
+    <m:mi>P</m:mi>
+    <m:mrow>
+     <m:mtext> 4</m:mtext><m:mi>π</m:mi><m:msup>
+      <m:mi>r</m:mi>
+      <m:mtext>2</m:mtext>
+     </m:msup>
+
+    </m:mrow>
+   </m:mfrac>
+   <m:mtext>;</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math>  if distance is tripled, then the illuminance increases by 19 times.</item>
+<item> <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtext>Illuminance = </m:mtext><m:mfrac>
+    <m:mi>P</m:mi>
+    <m:mrow>
+     <m:mtext> 4</m:mtext><m:mi>π</m:mi>
+      <m:mi>r</m:mi>
+
+    </m:mrow>
+   </m:mfrac>
+   <m:mtext>;</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math>  if distance is tripled, then the illuminance decreases by 13 times.</item>
+<item> <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtext>Illuminance = </m:mtext><m:mi>P</m:mi><m:mi> </m:mi><m:mtext>· 4</m:mtext><m:mi>π</m:mi><m:msup>
+    <m:mi>r</m:mi>
+    <m:mtext>2</m:mtext>
+   </m:msup>
+   <m:mtext>;</m:mtext>
+  </m:mrow>
+   </m:semantics>
+</m:math>  if distance is tripled, then the illuminance decreases by 9 times.</item>
+<item> <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtext>Illuminance = </m:mtext><m:mi>P</m:mi><m:mi> </m:mi><m:mtext>· 4</m:mtext><m:mi>π</m:mi>
+    <m:mi>r</m:mi>
+       <m:mtext>;</m:mtext>
+  </m:mrow>
+   </m:semantics>
+</m:math>  if distance tripled, then the illuminance increases by 3 times.</item>
+</list></problem>
+</exercise>
+<exercise id="eip-id1166850196399" class="os-exercise">
+<problem id="eip-id1166849963703">
+<!--<para id="eip-id1166849969222">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch15-ot020"/>
+</para>-->
+<para id="fs-id1164567828199"> A light bulb has an illuminance of 19.9 lx at a distance of 2 m . What is the luminous flux of the bulb?</para>
+<list id="fs-id1164565653696" list-type="enumerated" number-style="lower-alpha">
+<item>500 lm</item>
+<item>320 lm</item>
+<item>250 lm</item>
+<item>1,000 lm</item>
+</list>
+</problem>
+</exercise></section><section id="fs-id1167067040590" class="short-answer"><title>Short Answer</title><exercise id="fs-id1167063687579" class="os-exercise"><problem id="fs-id1167063947540">
+<para id="fs-id1167067191255">Describe what happens to the path of light when the light slows down as it passes from one medium to another?
+</para>
+<list id="eip-idm367497360" list-type="enumerated" number-style="lower-alpha">
+<item>The path of the light remains the same.</item>
+<item>The path of the light becomes circular.</item>
+<item>The path of the light becomes curved.</item>
+<item>The path of the light changes.</item>
+</list>
+</problem>
+</exercise><exercise id="fs-id1167067147813" class="os-exercise">
+<problem id="fs-id1167066807501">
+<para id="fs-id1167067176657"><link class="os-embed" url="#ost/api/ex/k12phys-ch15-ex037"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167063864807" class="os-exercise">
+<problem id="fs-id1167067284196">
+<!--<para id="fs-id1167066858519"><link class="os-embed" url="#ost/api/ex/k12phys-ch15-ex038"/></para>-->
+<para id="fs-id1164567994401">How many lumens are radiated from a candle which has an illuminance of 3.98 lx at a distance of 2.00 m?</para>
+<list id="fs-id1164565365658" list-type="enumerated" number-style="lower-alpha">
+<item>400 lm</item>
+<item>100 lm</item>
+<item>50 lm</item>
+<item>200 lm</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167061216890" class="os-exercise">
+<problem id="fs-id1167067137735">
+<!--<para id="fs-id1167063630657"><link class="os-embed" url="#ost/api/ex/k12phys-ch15-ex039"/></para>-->
+<para id="fs-id1164568049646">Saturn is 1.43×1012 m from the Sun. How many minutes does it take the Sun’s light to reach Saturn?</para>
+<list id="fs-id1164567118349" list-type="enumerated" number-style="lower-alpha">
+<item>7.94 × 10<sup>9</sup> minutes</item>
+<item>3.4 × 10<sup>4</sup> minutes</item>
+<item>3.4 × 10<sup>–6</sup> minutes</item>
+<item>79.4 minutes</item>
+</list>
+</problem>
+</exercise>
+</section><section id="fs-id1167066974121" class="extended-response"><label/><title>Extended Response</title>
+
+<exercise id="fs-id1167066953213" class="os-exercise">
+<problem id="fs-id1167067217204">
+<!--<para id="fs-id1167067201807"><link class="os-embed" url="#ost/api/ex/k12phys-ch15-ex040"/></para>-->
+<para id="fs-id1164567469275">Explain why we see the colorful effects of thin-film interference on the surface of soap bubbles and oil slicks, but not on the surface of a window pane or clear plastic bag.</para>
+<list id="fs-id1164567098522" list-type="enumerated" number-style="lower-alpha">
+<item>The thickness of a window pane or plastic bag is more than the wavelength of light, and interference occurs for thicknesses smaller than the wavelength of light.</item>
+<item>The thickness of a window pane or plastic bag is less than the wavelength of light, and interference occurs for thicknesses similar to the wavelength of light.</item>
+<item>The thickness of a window pane or plastic bag is more than the wavelength of light, and interference occurs for thicknesses similar to the wavelength of light.</item>
+<item>The thickness of a window pane or plastic bag is less than the wavelength of light, and interference occurs for thicknesses larger than the wavelength of light.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167066955438" class="os-exercise">
+<problem id="fs-id1167067250756">
+<para id="fs-id1167066878885"><link class="os-embed" url="#ost/api/ex/k12phys-ch15-ex041"/></para>
+</problem>
+</exercise>
+</section></content>
+<glossary>
+<definition id="fs-id1167067312896">
+<term>illuminance</term>
+<meaning id="fs-id1167063419051">number of lumens per square meter, given in units of lux (lx)</meaning>
+</definition>
+<definition id="fs-id1167063513718">
+<term>interference</term>
+<meaning id="fs-id1167061226922">increased or decreased light intensity caused by the phase differences between waves</meaning>
+</definition>
+<definition id="fs-id1167063572487">
+<term>lumens</term>
+<meaning id="fs-id1167063895938">unit of measure for luminous flux</meaning></definition>
+<definition id="fs-id1167066984810">
+<term>luminous flux</term>
+<meaning id="fs-id1167063890127">rate at which light is radiated from a source</meaning></definition>
+<definition id="fs-id1167063563300">
+<term>lux</term>
+<meaning id="fs-id1167067061397">unit of measure for illuminance</meaning></definition>
+<definition id="fs-id1167067321275">
+<term>polarized light</term>
+<meaning id="fs-id1167067202336">light whose electric field component vibrates in a specific plane</meaning>
+</definition>
+</glossary>
+</document>

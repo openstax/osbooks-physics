@@ -1,0 +1,886 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Acceleration</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54123</md:content-id>
+  <md:title>Acceleration</md:title>
+  <md:abstract/>
+  <md:uuid>7d40de6f-2450-4b39-8b53-f7ca116c1345</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-idm15002784" class="learning-objectives">
+<label/>
+<title>Section Learning Objectives</title>
+<para id="fs-idm23421280">By the end of this section, you will be able to do the following:</para>
+<list id="fs-idp24241232"><item>Explain acceleration and determine the direction and magnitude of acceleration in one dimension</item>
+<item>Analyze motion in one dimension using kinematic equations and graphic representations</item>
+</list></note>
+
+<note id="fs-idm5732144" class="os-teacher"><title>Teacher Support</title>
+<para id="fs-idp3095152">The Learning Objectives in this section will help your students master the following standards:</para>
+<list id="fs-id1164558015616">
+<item>(4) Science concepts. The student knows and applies the laws governing motion in a variety of situations. The student is expected to:
+<list id="fs-idm6050816">
+<item><span>(A)</span> <span>generate and interpret graphs and charts describing different types of motion, including the use of real-time technology such as motion detectors or photogates;</span></item>
+<item><span>(B)</span> <span>describe and analyze motion in one dimension using equations with the concepts of distance, displacement, speed, average velocity, instantaneous velocity, and acceleration.</span></item>
+</list></item>
+</list>
+<para id="fs-id1169316524752">In addition, the High School Physics Laboratory Manual addresses content in this section in the lab titled: <emphasis effect="italics">Position and Speed of an Object</emphasis>, as well as the following standards:</para><list id="fs-id1169314977778">
+<item>(4) Science concepts. The student knows and applies the laws governing motion in a variety of situations. The student is expected to:
+<list id="fs-id1169316103928">
+<item>
+<span>(B)</span> <span>describe and analyze motion in one dimension using equations with the concepts of distance, displacement, speed, average velocity, instantaneous velocity, and acceleration.</span>
+</item>
+</list>
+</item>
+</list>
+</note>
+<section id="keyterms"><title>Section Key Terms</title>
+<table id="fs-idp26088544" summary="The list of Key Terms includes: average acceleration, instantaneous acceleration, and negative acceleration." class="unnumbered unstyled section-key-terms"><label/>
+<tgroup cols="3"><tbody>
+<row>
+<entry>average acceleration</entry>
+<entry>instantaneous acceleration</entry>
+<entry>negative acceleration</entry>
+</row>
+</tbody>
+
+</tgroup>
+</table><note id="fs-idp33495232" class="os-teacher"><title>Teacher Support</title>
+<para id="fs-idp6842880"><span>[BL]</span><span>[OL]</span> Begin a general discussion about acceleration and deceleration. Ask for examples of both. Explain that deceleration is not used in physics because acceleration is either positive or negative. Lead students to their topics of interest, such as motor vehicles or sports. Explain that the capital Greek letter delta always means <emphasis effect="italics">final minus initial</emphasis> and that the net change may be zero, positive, or negative.</para>
+<para id="fs-idm13370000"><span>[AL]</span> See how much students remember about vectors. What does a vector arrow represent? Ask them to name some quantities that are vectors and some that are scalars.</para>
+</note></section>
+
+<section id="fs-idm21400512"><title>Defining Acceleration</title><para id="fs-idp32132880">Throughout this chapter we will use the following terms: <emphasis effect="italics">time</emphasis>, <emphasis effect="italics">displacement</emphasis>, <emphasis effect="italics">velocity</emphasis>, and <emphasis effect="italics">acceleration</emphasis>. Recall that each of these terms has a designated variable and SI unit of measurement as follows:</para>
+<list id="fs-idp27202528"><item><term class="no-emphasis">Time</term>: <emphasis effect="italics">t</emphasis>, measured in seconds (s)</item>
+<item><term class="no-emphasis">Displacement</term>: Δ<emphasis effect="italics">d</emphasis>, measured in meters (m)</item>
+<item><term class="no-emphasis">Velocity</term>: <emphasis effect="italics">v</emphasis>, measured in meters per second (m/s)</item>
+<item><term class="no-emphasis">Acceleration</term>: <emphasis effect="italics">a</emphasis>, measured in meters per second per second (m/s<sup>2</sup>, also called meters per second squared)</item>
+<item>Also note the following:
+<list id="fs-idm15527984"><item>Δ means <emphasis effect="italics">change in</emphasis></item>
+<item>The subscript 0 refers to an initial value; sometimes subscript i is instead used to refer to initial value.</item>
+<item>The subscript f refers to final value</item>
+<item>A bar over a symbol, such as  <m:math><m:mover accent="true"><m:mi>a</m:mi>
+<m:mo>¯</m:mo></m:mover></m:math>, means <emphasis effect="italics">average</emphasis></item>
+</list></item>
+</list><note id="fs-idm20606336" class="os-teacher"><title>Teacher Support</title>
+<para id="fs-idm21364672"><span>[BL]</span> Review definitions of the terms: <emphasis effect="italics">time</emphasis>, <emphasis effect="italics">displacement</emphasis>, <emphasis effect="italics">velocity</emphasis>, and <emphasis effect="italics">acceleration</emphasis>. Point out that the variables commonly used to represent these quantities are the first letters of the corresponding term.</para>
+<para id="fs-idm25154368"><span>[OL]</span> Verify that the students know the SI units in which time, displacement, velocity, and acceleration are expressed. Note that these are some of the seven <emphasis effect="italics">base units</emphasis> of the metric system. Explain that converting to base units is a good first step when calculating these quantities. Explain the meaning of <emphasis effect="italics">seconds squared</emphasis> in the denominator of the units of acceleration.</para>
+<para id="fs-idm70881568"><span>[AL]</span> Review all the base units of the metric system. Explain how these units are interrelated. For example, show how length is defined by time.</para>
+<para id="fs-idm31661664"><span>[BL]</span><span>[OL]</span> Use the equation  <m:math>
+<m:mrow>
+ <m:mover accent="true">
+<m:mi>a</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+<m:mo>=</m:mo><m:mfrac>
+<m:mrow>
+<m:mi>Δ</m:mi><m:mi>v</m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi>Δ</m:mi><m:mi>t</m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo><m:mfrac>
+ <m:mrow>
+    <m:msub>
+     <m:mi>v</m:mi>
+     <m:mtext>f</m:mtext>
+    </m:msub>
+    <m:mo>−</m:mo><m:msub>
+     <m:mi>v</m:mi>
+     <m:mn>0</m:mn>
+    </m:msub>
+
+   </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mi>t</m:mi>
+     <m:mtext>f</m:mtext>
+    </m:msub>
+    <m:mo>−</m:mo><m:msub>
+     <m:mi>t</m:mi>
+     <m:mn>0</m:mn>
+    </m:msub>
+
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>  to emphasize the relationship between Δ and the subscripts f and 0. Distinguish between constant and variable acceleration. There could be confusion here, especially in the case of increasing acceleration. Be sure students understand that the word <emphasis effect="italics">deceleration</emphasis> is not used in physics and that <emphasis effect="italics">acceleration</emphasis> may be either positive or negative.</para><para id="fs-idp6693680"><span>[AL]</span> See if students can use the concept of acceleration to understand confusing statements such as “a decrease in the rate of increase.” For example, use the concept of acceleration to analyze the statement “the rate of increase in the cost of health care is decreasing.” If the increase in the cost is defined as positive, then the <emphasis effect="italics">acceleration</emphasis> in the cost of health care would be negative.</para>
+<para id="fs-idm2513040"><span>[OL]</span> The arrow for acceleration that points opposite to the arrow for velocity may be confusing. Explain that the acceleration arrow points in the direction opposite the velocity because the velocity is getting smaller, i.e., the velocity arrow is getting shorter.</para>
+</note><para id="fs-idp44355664">Acceleration is the change in velocity divided by a period of time during which the change occurs. The SI units of velocity are m/s and the SI units for time are s, so the SI units for acceleration are m/s<sup>2</sup>. <term>Average acceleration</term> is given by</para>
+
+<equation id="fs-idm11502816" class="unnumbered"><label/> <m:math>
+ <m:mrow>
+  <m:mover accent="true">
+   <m:mi>a</m:mi>
+   <m:mo>¯</m:mo>
+  </m:mover>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>Δ</m:mi><m:mi>v</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mi>Δ</m:mi><m:mi>t</m:mi>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msub>
+     <m:mi>v</m:mi>
+     <m:mtext>f</m:mtext>
+    </m:msub>
+    <m:mo>−</m:mo><m:msub>
+     <m:mi>v</m:mi>
+     <m:mn>0</m:mn>
+    </m:msub>
+
+   </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mi>t</m:mi>
+     <m:mtext>f</m:mtext>
+    </m:msub>
+    <m:mo>−</m:mo><m:msub>
+     <m:mi>t</m:mi>
+     <m:mn>0</m:mn>
+    </m:msub>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math>
+</equation><para id="fs-idp22305568">Average acceleration is distinguished from <term>instantaneous acceleration</term>, which is acceleration at a specific instant in time. The magnitude of acceleration is often not constant over time. For example, runners in a race accelerate at a greater rate in the first second of a race than during the following seconds. You do not need to know all the instantaneous accelerations at all times to calculate average acceleration. All you need to know is the change in velocity (i.e., the final velocity minus the initial velocity) and the change in time (i.e., the final time minus the initial time), as shown in the formula. Note that the average acceleration can be positive, negative, or zero. A <term>negative acceleration</term> is simply an acceleration in the negative direction.</para>
+<para id="fs-idp25862848">Keep in mind that although acceleration points in the same direction as the <emphasis effect="italics">change</emphasis> in velocity, it is not always in the direction of the velocity itself. When an object slows down, its acceleration is opposite to the direction of its velocity. In everyday language, this is called deceleration; but in physics, it is acceleration—whose direction happens to be opposite that of the velocity. For now, let us assume that motion to the right along the <emphasis effect="italics">x</emphasis>-axis is <emphasis effect="italics">positive</emphasis> and motion to the left is <emphasis effect="italics">negative</emphasis>.</para>
+<para id="fs-idp37610544"><link target-id="Figure_03_01_Car"/> shows a car with positive acceleration in (a) and negative acceleration in (b). The arrows represent vectors showing both direction and magnitude of velocity and acceleration.</para>
+<figure id="Figure_03_01_Car">
+<media id="fs-idp52490976" alt="Two similar cars are shown. The first car is speeding up as indicated by a velocity vector and an acceleration vector pointing to the right. The second car is slowing down as indicated by a velocity vector pointing to the right and an acceleration vector pointing to the left. Unlabeled x and y-axes are shown for reference.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_03_01_car.jpg"/>
+</media>
+<caption>The car is speeding up in (a) and slowing down in (b).</caption>
+</figure>
+
+<para id="fs-idp56616272">Velocity and acceleration are both <term class="no-emphasis">vector quantities</term>. Recall that vectors have both magnitude and direction. An object traveling at a constant velocity—therefore having no acceleration—does accelerate if it changes direction. So, turning the steering wheel of a moving car makes the car accelerate because the velocity changes direction.</para>
+<note id="fs-idp56122560" class="virtual-physics"><title>The Moving Man</title><para id="fs-idp24239584">With this animation, you can produce both variations of acceleration and velocity shown in <link target-id="Figure_03_01_Car"/>, plus a few more variations. Vary the velocity and acceleration by sliding the red and green markers along the scales. Keeping the velocity marker near zero will make the effect of acceleration more obvious. Try changing acceleration from positive to negative while the man is moving. We will come back to this animation and look at the <emphasis effect="italics">Charts</emphasis> view when we study graphical representation of motion.</para>
+
+<media id="fs-id1167066948382" alt="The Moving Man Simulation allows you to study graphical representation of motion.">
+<iframe width="660" height="371.4" src="https://openstax.org/l/02moving_man"/></media>
+
+<note id="fs-idp50985968" class="os-teacher"><title>Teacher Support</title>
+<para id="fs-idp19127424">Have students use a very low setting for velocity and acceleration because it is easier to see how the motion changes. Show students how setting velocity as positive and acceleration as negative creates the motion that resembles that of an object thrown into the air.</para>
+</note>
+<exercise id="fs-idp9187104" class="os-exercise grasp-check unnumbered">
+<problem id="fs-idp20986976">
+<!--<para id="fs-idp7725440">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch03-ex001"/>
+</para>-->
+<figure id="fs-id1169831812741">
+<media id="fs-id1169827344794" alt="no alt text">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_03_01_car.jpg"/>
+</media>
+<caption/>
+</figure>
+<para id="fs-id1169831811696">Which part, (a) or (b), is represented when the velocity vector is on the positive side of the scale and the acceleration vector is set on the negative side of the scale? What does the cars motion look like for the given scenario?</para>
+<list id="fs-id1169831836343" list-type="enumerated" number-style="lower-alpha">
+<item>Part (a). The car is slowing down because the acceleration and the velocity vectors are acting in the opposite direction.</item>
+<item>Part (a). The car is speeding up because the acceleration and the velocity vectors are acting in the same direction.</item>
+<item>Part (b). The car is slowing down because the acceleration and velocity vectors are acting in the opposite directions.</item>
+<item>Part (b). The car is speeding up because the acceleration and the velocity vectors are acting in the same direction.</item>
+</list>
+</problem>
+</exercise></note></section><section id="fs-idm27472368">
+<title>Calculating Average Acceleration</title>
+<para id="fs-idp36840768">Look back at the equation for average acceleration. You can see that the calculation of average acceleration involves three values: change in time, (Δ<emphasis effect="italics">t</emphasis>); change in velocity, (Δ<emphasis effect="italics">v</emphasis>); and acceleration (<emphasis effect="italics">a</emphasis>).</para>
+<para id="fs-idp41662800">Change in <term class="no-emphasis">time</term> is often stated as a time interval, and change in velocity can often be calculated by subtracting the initial velocity from the final velocity. Average acceleration is then simply change in velocity divided by change in time. Before you begin calculating, be sure that all distances and times have been converted to meters and seconds. Look at these examples of acceleration of a subway train.</para><note id="fs-idm2891888" class="os-teacher"><title>Teacher Support</title>
+<para id="fs-idp6692672"><span>[BL]</span><span>[OL]</span> Before beginning the calculations, verify that students understand the equation for acceleration. Do they understand what it means when quantities have a plus or minus sign? Do they understand the units for each variable?</para>
+</note><note id="fs-idp42721584" class="worked-example"><title>An Accelerating Subway Train</title>
+<exercise id="fs-idp17233664" class="03-ex002 unnumbered"><label/>
+<problem id="fs-idp6324528">
+<para id="fs-idp15224384">A subway train accelerates from rest to 30.0 km/h in 20.0 s. What is the average acceleration during that time interval?</para>
+<note id="eip-idp69732560"><label/><title>Strategy</title>
+
+<para id="eip-idp40602976">Start by making a simple sketch.</para>
+<figure id="Figure_03_01_velocity_img"><label/><media id="eip-idp51096160" alt="A velocity vector and an acceleration vector are shown. The original velocity is zero kilometers per hour, and the final velocity is thirty kilometers per hour. The acceleration is unknown. Both vectors are pointing to the right, and the velocity vector is longer than the acceleration vector. Unlabeled x and y-axes are shown reference.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_03_01_velocity_img.jpg"/>
+</media></figure><para id="eip-idp53967904">This problem involves four steps: </para>
+<list id="eip-idp46582480" list-type="enumerated"><item>Convert to units of meters and seconds. </item>
+<item>Determine the change in velocity.  </item>
+<item>Determine the change in time.  </item>
+<item>Use these values to calculate the average acceleration. </item></list>
+</note></problem>
+<solution id="fs-idp57867792">
+<label/>
+<title>Solution</title>
+<list id="fs-idp6286512" list-type="enumerated" number-style="arabic"><item>Identify the knowns. Be sure to read the problem for given information, which may not <emphasis effect="italics">look</emphasis> like numbers. When the problem states that the train starts from rest, you can write down that the initial velocity is 0 m/s. Therefore, <emphasis effect="italics">v</emphasis><sub>0</sub> = 0; <emphasis effect="italics">v</emphasis><sub>f</sub> = 30.0 km/h; and Δ<emphasis effect="italics">t</emphasis> = 20.0 s.</item>
+<item><para id="eip-id1164353575973">Convert the units.</para>
+<equation id="eip-id1164353575976"><label/> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mtext>30</m:mtext><m:mtext>.0 km</m:mtext>
+   </m:mrow>
+   <m:mtext>h</m:mtext>
+  </m:mfrac>
+  <m:mtext> × </m:mtext><m:mfrac>
+   <m:mrow>
+    <m:msup>
+     <m:mrow>
+      <m:mtext>10</m:mtext>
+     </m:mrow>
+     <m:mtext>3</m:mtext>
+    </m:msup>
+    <m:mtext>m</m:mtext>
+   </m:mrow>
+   <m:mrow>
+    <m:mtext>1 km</m:mtext>
+   </m:mrow>
+  </m:mfrac>
+  <m:mtext> × </m:mtext><m:mfrac>
+   <m:mrow>
+    <m:mtext>1 h</m:mtext>
+   </m:mrow>
+   <m:mrow>
+    <m:mtext>3600 s</m:mtext>
+   </m:mrow>
+  </m:mfrac>
+  <m:mtext> = 8</m:mtext><m:mtext>.333 </m:mtext><m:mfrac>
+   <m:mtext>m</m:mtext>
+   <m:mtext>s</m:mtext>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+
+</equation></item>
+<item>Calculate change in velocity,  <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>v</m:mi><m:mo>=</m:mo><m:msub>
+   <m:mi>v</m:mi>
+   <m:mtext>f</m:mtext>
+  </m:msub>
+  <m:mtext>– </m:mtext><m:msub>
+   <m:mi>v</m:mi>
+   <m:mtext>0</m:mtext>
+  </m:msub>
+  <m:mtext>= 8</m:mtext><m:mtext>.333 m/s – 0 = + 8</m:mtext><m:mtext>.333 m/s,</m:mtext>
+ </m:mrow>
+</m:math>
+ where the plus sign means the change in velocity is to the right.</item>
+<item><para id="fs-idm13131248">We know Δ<emphasis effect="italics">t</emphasis>, so all we have to do is insert the known values into the formula for average acceleration.</para>
+<equation id="fs-idp50157200"><label/> <m:math>
+ <m:mrow>
+  <m:mover accent="true">
+   <m:mi>a</m:mi>
+   <m:mo>¯</m:mo>
+  </m:mover>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>Δ</m:mi><m:mi>v</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mi>Δ</m:mi><m:mi>t</m:mi>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>8.333</m:mn><m:mspace width="0.3em"/><m:mtext>m/s</m:mtext>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>20.00</m:mn><m:mspace width="0.3em"/><m:mtext>s</m:mtext>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mo>+</m:mo><m:mn>0.417</m:mn><m:mfrac>
+   <m:mtext>m</m:mtext>
+   <m:mrow>
+    <m:msup>
+     <m:mtext>s</m:mtext>
+     <m:mtext>2</m:mtext>
+    </m:msup>
+
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </equation></item>
+</list></solution>
+<commentary id="fs-idp14591072">
+<title>Discussion</title>
+<para id="fs-idp1446624">The plus sign in the answer means that acceleration is to the right. This is a reasonable conclusion because the train starts from rest and ends up with a velocity directed to the right (i.e., positive). So, acceleration is in the same direction as the <emphasis effect="italics">change</emphasis> in velocity, as it should be.</para>
+<note id="fs-idm16457456" class="os-teacher"><title>Teacher Support</title>
+<para id="fs-idm58747504">Note that extra digits were carried along and rounding off to the correct number of significant figures, 3, was not done until the final answer was calculated.</para>
+</note></commentary>
+</exercise></note><note id="fs-idm2028864" class="worked-example">
+<title>An Accelerating Subway Train</title>
+<exercise id="fs-idp121959984" class="03-ex003"><label/>
+
+<problem id="fs-idp51254336"><para id="fs-idp41874176">Now, suppose that at the end of its trip, the train slows to a stop in 8.00 s from a speed of 30.0 km/h. What is its average acceleration during this time?</para>
+<note id="eip-idm26873968"><label/><title>Strategy</title>
+
+<para id="eip-idm48726256">Again, make a simple sketch.</para>
+<figure id="Figure_03_01_velocity2_img"><label/><media id="eip-idm8390672" alt="A velocity vector and an acceleration vector are shown. The original velocity is thirty kilometers per hour, and the final velocity is zero kilometers per hour. The acceleration is unknown. The velocity vector is longer than the acceleration vector and is pointing to the right. The acceleration vector is pointing to the left. Unlabeled x and y-axes are shown reference.">
+  <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_03_01_velocity2_img.jpg"/></media></figure>
+
+<para id="eip-idp37385088">In this case, the train is decelerating and its acceleration is negative because it is pointing to the left. As in the previous example, we must find the change in velocity and change in time, then solve for acceleration.</para>
+</note>
+</problem>
+<solution id="fs-idp58067440">
+<label/>
+<title>Solution</title>
+<list id="fs-idp25052160" list-type="enumerated" number-style="arabic"><item>Identify the knowns: <emphasis effect="italics">v</emphasis><sub>0</sub> = 30.0 km/h; <emphasis effect="italics">v</emphasis><sub>f</sub> = 0; and Δ<emphasis effect="italics">t</emphasis> = 8.00 s.</item>
+<item>Convert the units. From the first problem, we know that 30.0 km/h = 8.333 m/s.</item>
+<item>Calculate change in velocity,  <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>v</m:mi><m:mo>=</m:mo><m:msub>
+   <m:mi>v</m:mi>
+   <m:mtext>f</m:mtext>
+  </m:msub>
+  <m:mo>−</m:mo><m:msub>
+   <m:mi>v</m:mi>
+   <m:mn>0</m:mn>
+  </m:msub>
+<m:mo>=</m:mo><m:mn>0</m:mn><m:mo>−</m:mo><m:mn>8.333</m:mn><m:mspace width="0.3em"/><m:mtext>m/s</m:mtext><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>8.333</m:mn><m:mspace width="0.3em"/><m:mtext>m/s,</m:mtext>
+ </m:mrow>
+</m:math>  where the minus sign means that the change in velocity points to the left.</item>
+<item><para id="fs-idp80943248">We know Δ<emphasis effect="italics">t</emphasis> = 8.00 s, so all we have to do is insert the known values into the equation for average acceleration.</para>
+<equation id="fs-idp39523872"><label/> <m:math>
+ <m:mrow>
+  <m:mover accent="true">
+   <m:mi>a</m:mi>
+   <m:mo>¯</m:mo>
+  </m:mover>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>Δ</m:mi><m:mi>v</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mi>Δ</m:mi><m:mi>t</m:mi>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>8.333</m:mn><m:mspace width="0.3em"/><m:mtext>m/s</m:mtext>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>8.00</m:mn><m:mspace width="0.3em"/><m:mtext>s</m:mtext>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mo>−</m:mo><m:mn>1.04</m:mn><m:mfrac>
+   <m:mtext>m</m:mtext>
+   <m:mrow>
+    <m:msup>
+     <m:mtext>s</m:mtext>
+     <m:mtext>2</m:mtext>
+    </m:msup>
+
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </equation></item>
+</list></solution>
+<commentary id="fs-idp62189376">
+<title>Discussion</title>
+<para id="fs-idp21345664">The minus sign indicates that acceleration is to the left. This is reasonable because the train initially has a positive velocity in this problem, and a negative acceleration would reduce the velocity. Again, acceleration is in the same direction as the <emphasis effect="italics">change</emphasis> in velocity, which is negative in this case. This acceleration can be called a deceleration because it has a direction opposite to the velocity.</para>
+<note id="fs-idp68395728" class="os-teacher"><title>Teacher Support</title>
+<para id="fs-idp89221344">Help students see the relationship between the direction of the vector arrows and the plus and minus signs. Explain that one indication of the sign for acceleration is that it is in the direction opposite that of the velocity. Also point out that correctly identifying the initial and final speeds will result in the correct sign for acceleration.</para>
+</note><note id="fs-idp58385280" class="tips-for-success">
+
+<list id="fs-idp92156704"><item>It is easier to get plus and minus signs correct if you always assume that motion is away from zero and toward positive values on the <emphasis effect="italics">x</emphasis>-axis. This way <emphasis effect="italics">v</emphasis> always starts off being positive and points to the right. If speed is increasing, then acceleration is positive and also points to the right. If speed is decreasing, then acceleration is negative and points to the left.</item>
+<item>It is a good idea to carry two extra significant figures from step-to-step when making calculations. Do not round off with each step. When you arrive at the final answer, apply the rules of significant figures for the operations you carried out and round to the correct number of digits. Sometimes this will make your answer slightly more accurate.</item>
+</list></note>
+</commentary>
+</exercise></note></section>
+<section id="fs-idm1835456" class="practice-problems"><title>Practice Problems</title><exercise id="fs-idp25744304" class="os-exercise">
+<problem id="fs-idp59062448">
+<para id="fs-idp2005936">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch03-ex004"/>
+</para>
+</problem>
+</exercise><exercise id="fs-idp37722688" class="os-exercise">
+<problem id="fs-idp15818576">
+<para id="fs-idp2352976">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch03-ex005"/>
+</para>
+</problem>
+</exercise></section>
+<section id="denesting"><note id="fs-idm3223168" class="watch-physics"><title>Acceleration</title>
+
+<para id="fs-idm41969712">This video shows the basic calculation of acceleration and some useful unit conversions.</para>
+<media id="fs-idp1939200" alt="This link takes you to a lecture that shows the basic calculation of acceleration." class="os-embed">
+<iframe width="660" height="371.4" src="https://www.khanacademy.org/embed_video?v=FOkQszg1-j8"/>
+</media>
+<note id="fs-idp47197296" class="os-teacher"><title>Teacher Support</title>
+<para id="fs-idm17064800">Ask students to note the explanation of units and the identification of the vector quantities. Tell them the calculations demonstrated in the video are fairly straightforward and that the definitions given for displacement, elapsed time, velocity, and acceleration should be clear.</para>
+</note>
+<exercise id="fs-idm9377712" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-idp38160256">
+<para id="fs-idm22950864">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch03-ex006"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-idp63847568" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-idp43945888">
+<para id="fs-idp21296176">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch03-ex007"/>
+</para>
+</problem>
+</exercise>
+</note><note id="fs-idp58007968" class="snap-lab">
+
+<title>Measure the Acceleration of a Bicycle on a Slope</title>
+<para id="fs-idp20446944">In this lab you will take measurements to determine if the acceleration of a moving bicycle is constant. If the acceleration is constant, then the following relationships hold:  <m:math>
+ <m:mrow>
+  <m:mover accent="true">
+   <m:mi>v</m:mi>
+   <m:mo>¯</m:mo>
+  </m:mover>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>Δ</m:mi><m:mi>d</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mi>Δ</m:mi><m:mi>t</m:mi>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msub>
+     <m:mi>v</m:mi>
+     <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo><m:msub>
+     <m:mi>v</m:mi>
+     <m:mtext>f</m:mtext>
+    </m:msub>
+
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>  If  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>v</m:mi>
+   <m:mn>0</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math>, then  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>v</m:mi>
+   <m:mtext>f</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>2</m:mn><m:mover accent="true">
+   <m:mi>v</m:mi>
+   <m:mo>¯</m:mo>
+  </m:mover>
+
+ </m:mrow>
+</m:math>
+ and  <m:math>
+ <m:mrow>
+  <m:mover accent="true">
+   <m:mi>a</m:mi>
+   <m:mo>¯</m:mo>
+  </m:mover>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msub>
+     <m:mi>v</m:mi>
+     <m:mtext>f</m:mtext>
+    </m:msub>
+
+   </m:mrow>
+   <m:mrow>
+    <m:mi>Δ</m:mi><m:mi>t</m:mi>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </para><para id="fs-idp24601632">You will work in pairs to measure and record data for a bicycle coasting down an incline on a smooth, gentle slope. The data will consist of distances traveled and elapsed times.</para>
+<list id="fs-idm32837456" list-type="labeled-item" class="warnings">
+
+<item>Find an open area to minimize the risk of injury during this lab.</item>
+</list>
+<list id="fs-idp50621536" class="materials">
+
+<item>stopwatch</item>
+<item>measuring tape</item>
+<item>bicycle</item>
+</list>
+<list id="fs-idp12409168" list-type="enumerated">
+<item>Find a gentle, paved slope, such as an incline on a bike path. The more gentle the slope, the more accurate your data will likely be.</item>
+<item>Mark uniform distances along the slope, such as 5 m, 10 m, etc.</item>
+<item>Determine the following roles: the bike rider, the timer, and the recorder. The recorder should create a data table to collect the distance and time data.</item>
+<item>Have the rider at the starting point at rest on the bike. When the timer calls <emphasis effect="italics">Start</emphasis>, the timer starts the stopwatch and the rider begins coasting down the slope on the bike without pedaling.</item>
+<item>Have the timer call out the elapsed times as the bike passes each marked point. The recorder should record the times in the data table. It may be necessary to repeat the process to practice roles and make necessary adjustments.</item>
+<item>Once acceptable data has been recorded, switch roles. Repeat Steps 3–5 to collect a second set of data.</item>
+<item>Switch roles again to collect a third set of data.</item>
+<item>Calculate average acceleration for each set of distance-time data. If your result for  <m:math><m:mover accent="true"><m:mi>a</m:mi><m:mo>¯</m:mo></m:mover></m:math>  is not the same for different pairs of Δ<emphasis effect="italics">v</emphasis> and Δ<emphasis effect="italics">t</emphasis>, then acceleration is not constant.</item>
+<item>Interpret your results.</item>
+</list>
+
+<note id="fs-idp14002656" class="os-teacher"><title>Teacher Support</title>
+<para id="fs-idp14290224">Explain that two factors that could prevent uniform acceleration are (i) friction between the tires and the pavement and friction in the bicycle axles, and (ii) air resistance. Discuss methods for minimizing these factors—e.g., selecting a smoother surface for the bike to coast, greasing the axles, etc. Explain that friction will only decrease acceleration, but air resistance to a tail wind would increase acceleration. Discuss why it would be difficult to study constant acceleration if students were to pedal the bicycle. Note that the given kinematic equation that is valid for constant acceleration, which is presented at the start of the Snap Lab, will be presented in further detail in the following section.</para>
+<para id="fs-idp21164368">Prior to the lab, investigate appropriate areas around the school that have gentle, uniform slopes. Should the number of bicycles be limited, consider conducting the lab as a whole class or in larger clusters. Ensure that the planned paths of student groups do not cross and that there is adequate space for riders to stop without risk of injury.</para>
+</note>
+<exercise id="fs-idp49731264" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-idp29276832">
+<!--<para id="fs-idp231936">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch03-ex008"/>
+</para>-->
+<para id="fs-id1164564766510">If you graph the average velocity (<emphasis effect="italics">y</emphasis>-axis) vs. the elapsed time (<emphasis effect="italics">x</emphasis>-axis), what would the graph look like if acceleration is uniform?</para>
+<list id="fs-id1164559113006" list-type="enumerated" number-style="lower-alpha">
+<item>a horizontal line on the graph</item>
+<item>a diagonal line on the graph</item>
+<item>an upward-facing parabola on the graph</item>
+<item>a downward-facing parabola on the graph</item>
+</list>
+</problem>
+</exercise>
+</note>
+</section>
+<section id="fs-idm93639936" class="check-understanding"><title>Check Your Understanding</title><note id="fs-idp2540320" class="os-teacher"><title>Teacher Support</title>
+<para id="fs-idp7464112">Use these questions to assess student achievement of the section’s Learning Objectives. If students are struggling with a specific objective, these questions will help identify any gaps and direct students to the relevant content.</para>
+</note><exercise id="fs-idm96016" class="os-exercise">
+<problem id="fs-idp1965728">
+<!--<para id="fs-idp34384608">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch03-ex009"/>
+</para>-->
+<para id="fs-id1164560973965">What are three ways an object can accelerate?</para>
+<list id="fs-id1164561227634" list-type="enumerated" number-style="lower-alpha">
+<item>By speeding up, maintaining constant velocity, or changing direction</item>
+<item>By speeding up, slowing down, or changing direction</item>
+<item>By maintaining constant velocity, slowing down, or changing direction</item>
+<item>By speeding up, slowing down, or maintaining constant velocity</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-idm7907216" class="os-exercise">
+<problem id="fs-idp14866672">
+<!--<para id="fs-idm12694144">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch03-ex010"/>
+</para>-->
+<para id="fs-id1164557673561">What is the difference between average acceleration and instantaneous acceleration?</para>
+<list id="fs-id1164564813590" list-type="enumerated" number-style="lower-alpha">
+<item>Average acceleration is the change in displacement divided by the elapsed time; instantaneous acceleration is the acceleration at a given point in time.</item>
+<item>Average acceleration is acceleration at a given point in time; instantaneous acceleration is the change in displacement divided by the elapsed time.</item>
+<item>Average acceleration is the change in velocity divided by the elapsed time; instantaneous acceleration is acceleration at a given point in time.</item>
+<item>Average acceleration is acceleration at a given point in time; instantaneous acceleration is the change in velocity divided by the elapsed time.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-id1166849834668" class="os-exercise">
+<problem id="eip-id1166849924045">
+<para id="eip-id1166849924048">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch03-ot005"/>
+</para>
+</problem>
+</exercise></section><section id="fs-idm9378240" class="summary">
+<title>Section Summary</title>
+<list id="fs-idm9527648"><item>Acceleration is the rate of change of velocity and may be negative or positive.</item>
+<item>Average acceleration is expressed in m/s<sup>2</sup> and, in one dimension, can be calculated using  <m:math>
+ <m:mrow>
+  <m:mover accent="true">
+   <m:mi>a</m:mi>
+   <m:mo>¯</m:mo>
+  </m:mover>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>Δ</m:mi><m:mi>v</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mi>Δ</m:mi><m:mi>t</m:mi>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msub>
+     <m:mi>v</m:mi>
+     <m:mtext>f</m:mtext>
+    </m:msub>
+    <m:mo>−</m:mo><m:msub>
+     <m:mi>v</m:mi>
+     <m:mn>0</m:mn>
+    </m:msub>
+
+   </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mi>t</m:mi>
+     <m:mtext>f</m:mtext>
+    </m:msub>
+    <m:mo>−</m:mo><m:msub>
+     <m:mi>t</m:mi>
+     <m:mi>o</m:mi>
+    </m:msub>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math>
+</item>
+</list></section>
+
+<section id="fs-idp35380400" class="key-equations"><title>Key Equations</title><table id="eip-972" class="unnumbered unstyled" summary="The list of Key Equations includes the equation for average acceleration"><label/>
+<tgroup cols="2"><colspec colnum="1" align="left" colname="c1"/>
+<colspec colnum="2" align="left" colname="c2"/>
+<tbody>
+  <row>
+    <entry>Average acceleration</entry>
+    <entry> <m:math>
+ <m:mrow>
+  <m:mover accent="true">
+   <m:mi>a</m:mi>
+   <m:mo>¯</m:mo>
+  </m:mover>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>Δ</m:mi><m:mi>v</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mi>Δ</m:mi><m:mi>t</m:mi>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msub>
+     <m:mi>v</m:mi>
+     <m:mtext>f</m:mtext>
+    </m:msub>
+    <m:mo>−</m:mo><m:msub>
+     <m:mi>v</m:mi>
+     <m:mn>0</m:mn>
+    </m:msub>
+
+   </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mi>t</m:mi>
+     <m:mtext>f</m:mtext>
+    </m:msub>
+    <m:mo>−</m:mo><m:msub>
+     <m:mi>t</m:mi>
+     <m:mi>o</m:mi>
+    </m:msub>
+
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</entry>
+  </row>
+</tbody>
+
+
+
+
+
+
+</tgroup>
+</table></section><section id="fs-idp21023312" class="concept"><title>Concept Items</title><exercise id="fs-idm94893408" class="os-exercise">
+<problem id="fs-idp27174016">
+<!--<para id="fs-idp42379248">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch03-ex011"/>
+</para>-->
+<para id="fs-id1164564975995">How can you use the definition of acceleration to explain the units in which acceleration is measured?</para>
+<list id="fs-id1164563121789" list-type="enumerated" number-style="lower-alpha">
+<item>Acceleration is the rate of change of velocity. Therefore, its unit is m/s<sup>2</sup>.</item>
+<item>Acceleration is the rate of change of displacement. Therefore, its unit is m/s.</item>
+<item>Acceleration is the rate of change of velocity. Therefore, its unit is m<sup>2</sup>/s.</item>
+<item>Acceleration is the rate of change of displacement. Therefore, its unit is m<sup>2</sup>/s.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-id1166849855451" class="os-exercise">
+<problem id="eip-id1166850079032">
+<para id="eip-id1166850079034">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch03-ot006"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166850195250" class="os-exercise">
+<problem id="eip-id1166849291151">
+<para id="eip-id1166849291153">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch03-ot008"/>
+</para>
+</problem>
+</exercise></section><section id="fs-idp66548080" class="critical-thinking"><title>Critical Thinking</title><exercise id="fs-idm25988896" class="os-exercise">
+<problem id="fs-idp32355296">
+<para id="fs-idm36430304">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch03-ex012"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166851054480" class="os-exercise">
+<problem id="eip-id1166851228580">
+<para id="eip-id1166851203605">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch03-ot015"/>
+</para>
+</problem>
+</exercise></section><section id="fs-idp16539568" class="problems">
+<title>Problems</title>
+<exercise id="fs-idp25246160" class="os-exercise">
+<problem id="fs-idm74159440">
+<!--<para id="fs-idp62495152">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch03-ex013"/>
+</para>-->
+
+<para id="fs-id1164566486280">The driver of a sports car traveling at 10.0 m/s steps down hard on the accelerator for 5.0 s and the velocity increases to 30.0 m/s. What was the average acceleration of the car during the 5.0 s time interval?</para>
+<list id="fs-id1164561298608" list-type="enumerated" number-style="lower-alpha"><item>–1.0 × 10<sup>2</sup> m/s<sup>2</sup></item>
+<item>–4.0 m/s<sup>2</sup></item>
+<item>4.0 m/s<sup>2</sup></item>
+<item>1.0 × 10<sup>2</sup> m/s<sup>2</sup></item>
+</list></problem>
+</exercise>
+<exercise id="fs-idp59012320" class="os-exercise">
+<problem id="fs-idm48613872">
+<!--<para id="fs-idp28495072">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch03-ex014"/>
+</para>-->
+<para id="fs-id1164560809423">A girl rolls a basketball across a basketball court. The ball slowly decelerates at a rate of −0.20 m/s<sup>2</sup>. If the initial velocity was 2.0 m/s and the ball rolled to a stop at 5.0 sec after 12:00 p.m., at what time did she start the ball rolling?</para>
+<list id="fs-id1164562047772" list-type="enumerated" number-style="lower-alpha">
+<item>0.1 seconds before noon</item>
+<item>0.1 seconds after noon</item>
+<item>5 seconds before noon</item>
+<item>5 seconds after noon</item>
+</list>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-idp30946192" class="multiple-choice">
+<title>Test Prep Multiple Choice</title>
+<exercise id="fs-idm9033648" class="os-exercise">
+<problem id="fs-idm512032">
+<!--<para id="fs-idm3500608">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch03-ex015"/>
+</para>-->
+<para id="fs-id1164566821794">Which variable represents displacement?</para>
+<list id="fs-id1164566883003" list-type="enumerated" number-style="lower-alpha">
+<item><emphasis effect="italics">a</emphasis></item>
+<item><emphasis effect="italics">d</emphasis></item>
+<item><emphasis effect="italics">t</emphasis></item>
+<item><emphasis effect="italics">v</emphasis></item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-idm141844320" class="os-exercise">
+<problem id="fs-idp5724784">
+<!--<para id="fs-idm3898080">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch03-ex016"/>
+</para>-->
+<para id="fs-id1164566582239">If a velocity increases from 0 to 20 m/s in 10 s, what is the average acceleration?</para>
+<list id="fs-id1164562388360" list-type="enumerated" number-style="lower-alpha">
+<item>0.5 m/s<sup>2</sup></item>
+<item>2 m/s<sup>2</sup></item>
+<item>10 m/s<sup>2</sup></item>
+<item>30 m/s<sup>2</sup></item>
+</list>
+</problem>
+</exercise>
+</section>
+<section id="fs-idm14002752" class="short-answer">
+<title>Test Prep Short Answer</title>
+<exercise id="fs-idm40699088" class="os-exercise">
+<problem id="fs-idm26784944">
+<!--<para id="fs-idm3361904">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch03-ex017"/>
+</para>-->
+<para id="fs-id1164566646821">True or FalseThe vector for a negative acceleration points in the opposite direction when compared to the vector for a positive acceleration.</para>
+<list id="fs-id1164564954034" list-type="enumerated" number-style="lower-alpha">
+<item>True</item>
+<item>False</item>
+</list>
+
+</problem>
+</exercise>
+<exercise id="fs-idp40450800" class="os-exercise">
+<problem id="fs-idp34972432">
+<para id="fs-idm82246272">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch03-ex018"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-idp30486784" class="os-exercise">
+<problem id="fs-idp6068768">
+<!--<para id="fs-idp27414480">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch03-ex019"/>
+</para>-->
+<para id="fs-id1164566633289">How is the vector arrow representing an acceleration of magnitude 3 m/s<sup>2</sup> different from the vector arrow representing a negative acceleration of magnitude 3 m/s<sup>2</sup>?</para>
+<list id="fs-id1164562131058" list-type="enumerated" number-style="lower-alpha">
+<item>They point in the same direction.</item>
+<item>They are perpendicular, forming a 90° angle between each other.</item>
+<item>They point in opposite directions.</item>
+<item>They are perpendicular, forming a 270° angle between each other.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-idm39098688" class="os-exercise">
+<problem id="fs-idm8375696">
+<!--<para id="fs-idp36067616">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch03-ex020"/>
+</para>-->
+
+<para id="fs-id1169831931081">How long does it take to accelerate from 8.0 m/s to 20.0 m/s at a rate of acceleration of 3.0 m/s<sup>2</sup>?</para>
+<list id="fs-id1169828417106" list-type="enumerated" number-style="lower-alpha">
+<item>0.25 s</item>
+<item>4.0 s</item>
+<item>9.33 s</item>
+<item>36 s</item>
+</list>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-idm16520384" class="extended-response">
+<title>Test Prep Extended Response</title>
+<exercise id="fs-idm11852608" class="os-exercise">
+<problem id="fs-idm15178352">
+<para id="fs-idm8444608">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch03-ex021"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-idm75037648" class="os-exercise">
+<problem id="fs-idm19363936">
+<!--<para id="fs-idm15049488">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch03-ex022"/>
+</para>-->
+<para id="fs-id1164565033033">A car accelerates from rest at a stop sign at a rate of 3.0 m/s<sup>2</sup> to a speed of 21.0 m/s, and then immediately begins to decelerate to a stop at the next stop sign at a rate of 4.0 m/s<sup>2</sup>. How long did it take the car to travel from the first stop sign to the second stop sign? Show your work.</para>
+<list id="fs-id1164565181991" list-type="enumerated" number-style="lower-alpha">
+<item>1.7 seconds</item>
+<item>5.3 seconds</item>
+<item>7.0 seconds</item>
+<item>12 seconds</item>
+</list>
+</problem>
+</exercise>
+</section>
+
+</content>
+
+<glossary>
+<definition id="fs-idm16637648">
+<term>average acceleration</term><meaning id="fs-idm23520624">change in velocity divided by the time interval over which it changed</meaning>
+</definition>
+<definition id="fs-idm516880">
+<term>instantaneous acceleration</term> <meaning id="fs-idm46472224">rate of change of velocity at a specific instant in time</meaning>
+</definition>
+<definition id="fs-idp14365632">
+<term>negative acceleration</term> <meaning id="fs-idm23612832">acceleration in the negative direction</meaning>
+</definition>
+</glossary>
+
+</document>

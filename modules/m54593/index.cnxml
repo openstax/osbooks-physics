@@ -1,0 +1,896 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>The Four Fundamental Forces</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54593</md:content-id>
+  <md:title>The Four Fundamental Forces</md:title>
+  <md:abstract/>
+  <md:uuid>2a6a74b7-53e3-4496-81ef-f40540ffcd84</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167067031400" class="learning-objectives">
+<label/>
+<title>Section Learning Objectives</title>
+<para id="fs-id1167066972560">By the end of the section, you will be able to do the following:</para>
+<list id="fs-id1167063891721"><item>Define, describe, and differentiate the four fundamental forces</item>
+<item>Describe the carrier particles and explain how their exchange transmits force</item>
+<item>Explain how particle accelerators work to gather evidence about particle physics</item>
+</list></note>
+
+<note id="fs-id1167066959976" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167063680522">The learning objectives in this section will help your students master the following standards:</para>
+<list id="fs-id1167066104240"><item>(5) Science concepts. The student knows the nature of forces in the physical world. The student is expected to:
+<list id="fs-id1167067158485"><item>(H) describe evidence for and effects of the strong and weak nuclear forces in nature.</item>
+</list></item></list></note>
+<section id="keyterms"><title>Section Key Terms</title>
+<table id="fs-id1167063957912" summary="The list of Key Terms includes: carrier particle, colliding beam, cyclotron, Feynman diagram, graviton, particle physics, pion, quantum electrodynamics, synchrotron, W- boson, W+ boson weak nuclear force, and Z0 boson." class="unnumbered unstyled section-key-terms"><label/>
+<tgroup cols="3"><tbody>
+<row>
+<entry>carrier particle</entry>
+<entry>colliding beam</entry>
+<entry>cyclotron</entry>
+<entry>Feynman diagram</entry>
+<entry>graviton</entry>
+</row>
+<row>
+<entry>particle physics</entry>
+<entry>pion</entry>
+<entry>quantum electrodynamics</entry>
+<entry>synchrotron</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mtext>W</m:mtext>
+   <m:mo>−</m:mo>
+  </m:msup>
+  </m:mrow>
+</m:math>  boson</entry>
+</row>
+<row>
+<entry> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mtext>W</m:mtext>
+   <m:mo>+</m:mo>
+  </m:msup>
+  </m:mrow>
+</m:math>  boson</entry>
+<entry>weak nuclear force</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mtext>Z</m:mtext>
+   <m:mn>0</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math>  boson</entry>
+<entry/>
+<entry/>
+</row>
+
+</tbody>
+</tgroup>
+</table></section>
+
+<note id="fs-id1167066972058" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067107323">Prior to the section, have students create a list of different forces. Additionally, it may be valuable to review gravitational and electric fields, Rutherford’s gold foil experiment, the Van de Graaff generator, particle decay, and the impulse—momentum theorem.</para>
+</note>
+
+<para id="fs-id1167066948148">Despite the apparent complexity within the universe, there remain just four basic forces. These forces are responsible for all interactions known to science: from the very small to the very large to those that we experience in our day-to-day lives. These forces describe the movement of galaxies, the chemical reactions in our laboratories, the structure within atomic nuclei, and the cause of radioactive decay. They describe the true cause behind familiar terms like friction and the normal force. These four basic forces are known as fundamental because they alone are responsible for all observations of forces in nature. The four fundamental forces are gravity, electromagnetism, <term>weak nuclear force</term>, and <term class="no-emphasis">strong nuclear force</term>.</para>
+
+<note id="fs-id1167063726225" class="os-teacher">
+<title>Teacher Support</title>
+<list id="fs-id1167062367514">
+<item>Some students may be disheartened by the idea that two of the four fundamental forces have barely been discussed in the course. Remind them that nearly all of their daily observations and interactions are due to the gravitational and electromagnetic forces and that this chapter will not be <emphasis effect="italics">un-teaching</emphasis> their prior lessons. Discussions of the strong and weak nuclear forces are designed to help them understand particle organization and particle decay.</item>
+<item>Prior to beginning the lesson, have students predict the relative strengths of the four forces, from weakest to strongest. Refer to their rankings as you present the section. Later, this will be a useful tool to discuss why the <emphasis effect="italics">weak</emphasis> force isn’t the weakest force and should provide students a greater appreciation for the discovery of science.</item>
+</list>
+</note>
+
+<section id="fs-id1167063800506">
+<title>Understanding the Four Forces</title>
+<para id="fs-id1167066865817">The <term class="no-emphasis">gravitational force</term> is most familiar to us because it describes so many of our common observations. It explains why a dropped ball falls to the ground and why our planet orbits the Sun. It gives us the property of weight and determines much about the motion of objects in our daily lives. Because gravitational force acts between all objects of mass and has the ability to act over large distances, the gravitational force can be used to explain much of what we observe and can even describe the motion of objects on astronomical scales! That said, gravity is incredibly weak compared to the other fundamental forces and is the weakest of all of the fundamental forces. Consider this: The entire mass of Earth is needed to hold an iron nail to the ground. Yet with a simple magnet, the force of gravity can be overcome, allowing the nail to accelerate upward through space.</para>
+
+<note id="fs-id1167067019472" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067111218">A brief nail-magnet demonstration as described above is a powerful way to help students recognize the weakness of gravity. Discussion can follow regarding why people tend to feel that gravity is a strong force, what would happen if a charged object the size of Earth existed, and so forth.</para>
+</note>
+
+<para id="fs-id1167066839229">The <term class="no-emphasis">electromagnetic force</term> is responsible for both electrostatic interactions and the magnetic force seen between bar magnets. When focusing on the electrostatic relationship between two charged particles, the electromagnetic force is known as the <term class="no-emphasis">coulomb force</term>. The electromagnetic force is an important force in the chemical and biological sciences, as it is responsible for molecular connections like ionic bonding and hydrogen bonding. Additionally, the electromagnetic force is behind the common physics forces of friction and the normal force. Like the gravitational force, the electromagnetic force is an inverse square law. However, the electromagnetic force does not exist between any two objects of mass, only those that are charged.</para>
+
+<note id="fs-id1167066949553" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067165790">Take a moment to review forces and chemistry concepts. Look at each from the perspective of the electromagnetic force. Consider terms like the normal force, friction, chemical bonding, surface tension, and capillary action. Allow students to consider the pervasive nature of the electromagnetic force in their daily observations.</para>
+</note>
+
+<para id="fs-id1167066938972">When considering the structure of an atom, the electromagnetic force is somewhat apparent. After all, the electrons are held in place by an attractive force from the nucleus. But what causes the nucleus to remain intact? After all, if all protons are positive, it makes sense that the coulomb force between the protons would repel the nucleus apart immediately. Scientists theorized that another force must exist within the nucleus to keep it together. They further theorized that this nuclear force must be significantly stronger than gravity, which has been observed and measured for centuries, and also stronger than the electromagnetic force, which would cause the protons to want to accelerate away from each other.</para>
+
+<para id="fs-id1167067105008">The strong nuclear force is an attractive force that exists between all <term class="no-emphasis">nucleons</term>. This force, which acts equally between proton-proton connections, proton-neutron connections, and neutron-neutron connections, is the strongest of all forces at short ranges. However, at a distance of 10<sup>13</sup> cm, or the diameter of a single proton, the force dissipates to zero. If the nucleus is large (it has many nucleons), then the distance between each nucleon could be much larger than the diameter of a single proton.</para>
+
+<note id="fs-id1167067321592" class="os-teacher"><title>Teacher Support</title><para id="fs-id1167067138830">At this time, it may be useful to have students construct a table categorizing each for based on important characteristics: attractive or attractive/repulsive force, force strength, force range, and so on. While <link target-id="Table_23_01"/> will help in organization, students will make more sense of the material if they create a table on their own.</para>
+<para id="fs-id1167067293559"><span>[OL]</span><span>[AL]</span>To make the strength-distance relationship of the strong force more visible, show students the graph below.</para>
+
+<media id="fs-id1167067030363" alt="Figure 1 shows a graph with the left side labeled “Nuclear Strong Force” and the right side labeled “Distance of Separation” A red line drawn on the T graph shows a decrease from the top left straight downward prior to climbing back up to the middle line and adjusting right underneath the graph line to the edge of the graph."><image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_23_01_Graph_img.jpg"/></media>
+
+<para id="fs-id1167067199183">Note that repulsion is considered a positive strong force, while attraction is considered a negative strong force.</para>
+<para id="fs-id1167061226816"><span>[AL]</span>Ask students what distance aligns with the valley representing the maximum attractive force. NoteThis is equivalent to the average distance between two nucleons.</para>
+</note><para id="fs-id1167067021973">The weak nuclear force is responsible for beta decay, as seen in the equation  <m:math display="block">
+ <m:mrow>
+  <m:msubsup>
+   <m:mrow/>
+   <m:mi>Z</m:mi>
+   <m:mi>A</m:mi>
+  </m:msubsup>
+  <m:msub>
+   <m:mi>X</m:mi>
+   <m:mi>N</m:mi>
+  </m:msub>
+  <m:mo> → </m:mo><m:mtext> </m:mtext><m:msubsup>
+   <m:mo> </m:mo>
+   <m:mrow>
+    <m:mi>Z</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+   </m:mrow>
+   <m:mi>A</m:mi>
+  </m:msubsup>
+  <m:msub>
+   <m:mi>Y</m:mi>
+   <m:mrow>
+    <m:mi>N</m:mi><m:mo>–</m:mo><m:mn>1</m:mn>
+   </m:mrow>
+  </m:msub>
+  <m:mo> </m:mo><m:mo>+</m:mo><m:mo> </m:mo><m:mi>e</m:mi><m:mo> </m:mo><m:mo>+</m:mo><m:mo> </m:mo><m:mi>v</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>  Recall that beta decay is when a beta particle is ejected from an atom. In order to accelerate away from the nucleus, the particle must be acted on by a force. <term class="no-emphasis">Enrico Fermi</term> was the first to envision this type of force. While this force is appropriately labeled, it remains stronger than the gravitational force. However, its range is even smaller than that of the strong force, as can be seen in <link target-id="Table_23_01"/>. The weak nuclear force is more important than it may appear at this time, as will be addressed when we discuss quarks.</para><table id="Table_23_01" summary="The table consists of three columns with the headers Force, Approximate Relative Strength, and Range. The forces compared are gravity, weak, electromagnetic, and strong. The order of the forces listed is the order of their relative strength, from least to greatest."><title>Relative strength and range of the four fundamental forces</title>
+<tgroup cols="3"><colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row>
+<entry>Force</entry>
+<entry>Approximate Relative Strength<sup>[1]</sup></entry>
+<entry>Range</entry>
+</row>
+</thead>
+<tfoot>
+<row>
+<entry namest="c1" nameend="c3"><sup>[1]</sup>Relative strength is based on the strong force felt by a protonproton pair.</entry>
+</row>
+</tfoot>
+<tbody>
+<row>
+<entry>Gravity</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>−38</m:mn></m:mrow>
+  </m:msup>
+  </m:mrow>
+</m:math>
+</entry>
+<entry> <m:math>
+ <m:mi>∞</m:mi>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>Weak</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>−13</m:mn></m:mrow>
+  </m:msup>
+  </m:mrow>
+</m:math>
+</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mo>&lt;</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>−18</m:mn></m:mrow>
+  </m:msup>
+  <m:mtext>m</m:mtext></m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>Electromagnetic</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>−2</m:mn></m:mrow>
+  </m:msup>
+  </m:mrow>
+</m:math>
+</entry>
+<entry> <m:math>
+ <m:mi>∞</m:mi>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>Strong</entry>
+<entry>1</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mo>&lt;</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>−15</m:mn></m:mrow>
+  </m:msup>
+  <m:mtext>m</m:mtext></m:mrow>
+</m:math>
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table></section>
+
+<section id="fs-id1167066778184">
+<title>Transmitting the Four Fundamental Forces</title>
+
+<note id="fs-id1167066826284" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067132259">This subsection may be troubling to students who have a great appreciation for the gravitational field concept. You can reassure these students that the field concept is still used to explain and predict phenomena.</para>
+</note>
+
+<para id="fs-id1167063730478">Just as it troubled Einstein prior to formulating the gravitational field theory, the concept of forces acting over a distance had greatly troubled particle physicists. That is, how does one proton <emphasis effect="italics">know</emphasis> that another exists? Furthermore, what causes one proton to make a second proton repel? Or, for that matter, what is it about a proton that causes a neutron to attract? These mysterious interactions were first considered by <term class="no-emphasis">Hideki Yukawa</term> in 1935 and laid the foundation for much of what we now understand about particle physics.</para>
+<para id="fs-id1167067295248">Hideki Yukawa’s focus was on the strong nuclear force and, in particular, its incredibly short range. His idea was a blend of particles, relativity, and quantum mechanics that was applicable to all four forces. Yukawa proposed that the nuclear force is actually transmitted by the exchange of particles, called <term>carrier particles</term>, and that what we commonly refer to as the force’s field consists of these carrier particles. Specifically for the strong nuclear force, Yukawa proposed that a previously unknown particle, called a <term>pion</term>, is exchanged between nucleons, transmitting the force between them. <link target-id="Figure_23_01_Pion"/> illustrates how a pion would carry a force between a proton and a neutron.</para>
+
+<figure id="Figure_23_01_Pion"><media id="fs-id1167063522469" alt="This figure shows a sequence of four images in four rows. In the first row, a proton and a neutron are pictured. The proton is on the left and the neutron is on the right. In the second row, a pion leaves the proton and travels toward the neutron, as represented by an arrow. As a result, the proton is now a neutron. In the third row, the pion is still traveling toward the neutron on the right. This image consists of the pion and two neutrons. In the fourth row, a proton is on the right with a neutron on the left. This shows that the pion has been absorbed by the right-side neutron, which has turned into a proton as a result."><image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_23_01_Pion.jpg"/></media>
+<caption>The strong nuclear force is transmitted between a proton and neutron by the creation and exchange of a pion. The pion, created through a temporary violation of conservation of mass-energy, travels from the proton to the neutron and is recaptured. It is not directly observable and is called a virtual particle. Note that the proton and neutron change identity in the process. The range of the force is limited by the fact that the pion can exist for only the short time allowed by the Heisenberg uncertainty principle. Yukawa used the finite range of the strong nuclear force to estimate the mass of the pion; the shorter the range, the larger the mass of the carrier particle.</caption>
+</figure>
+
+<para id="fs-id1167067023025">In Yukawa’s strong force, the carrier particle is assumed to be transmitted at the speed of light and is continually transferred between the two nucleons shown. The particle that Yukawa predicted was finally discovered within cosmic rays in 1947. Its name, the pion, stands for pi meson, where <term class="no-emphasis">meson</term> means <emphasis effect="italics">medium mass</emphasis>; it’s a medium mass because it is smaller than a nucleon but larger than an electron. Yukawa launched the field that is now called <term class="no-emphasis">quantum chromodynamics</term>, and the carrier particles are now called <term class="no-emphasis">gluons</term> due to their strong binding power. The reason for the change in the particle name will be explained when quarks are discussed later in this section.</para>
+<para id="fs-id1167067043176">As you may assume, the strong force is not the only force with a carrier particle. Nuclear decay from the weak force also requires a particle transfer. In the weak force are the following three: the weak negative carrier, W<sup>–</sup>; the weak positive carrier, W<sup>+</sup>; and the zero charge carrier, Z<sup>0</sup>. As we will see, Fermi inferred that these particles must carry mass, as the total mass of the products of nuclear decay is slightly larger than the total mass of all reactants after nuclear decay.</para>
+<para id="fs-id1167063612542">The carrier particle for the electromagnetic force is, not surprisingly, the <term class="no-emphasis">photon</term>. After all, just as a lightbulb can emit photons from a charged tungsten filament, the photon can be used to transfer information from one electrically charged particle to another. Finally, the <term>graviton</term> is the proposed carrier particle for gravity. While it has not yet been found, scientists are currently looking for evidence of its existence (see <link target-id="Boundless_Physics">Boundless Physics: Searching for the Graviton</link>).</para>
+
+<note id="fs-id1167063719833" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067032127"><span>[BL]</span><span>[OL]</span>The concept of a carrier particle transmitting a force is similar to the concept of using energy to transmit information. How do you let your friend know that you are at school? Do you send a text message? Wave to them at their locker? Shout down the hallway? In each case, waves transfer energy from you to your friend. In the same manner, carrier particles are necessary to carry the weak nuclear force.</para>
+</note>
+
+
+<para id="fs-id1167061190382">So how does a carrier particle transmit a fundamental force? <link target-id="Figure_23_01_Photon"/> shows a virtual photon transmitted from one positively charged particle to another. The transmitted photon is referred to as a virtual particle because it cannot be directly observed while transmitting the force. <link target-id="Figure_23_01_Feynman"/> shows a way of graphing the exchange of a virtual photon between the two positively charged particles. This graph of time versus position is called a <term>Feynman diagram</term>, after the brilliant American physicist <term class="no-emphasis">Richard Feynman</term> (1918–1988), who developed it.</para>
+
+<figure id="Figure_23_01_Photon"><media id="fs-idm806264480" alt="There are two sequences of images in two columns labeled (a) and (b). In part (a), the sequence begins with a photon leaving a proton on the left and moving toward another proton on the right. When it leaves, it propels the left-side proton leftward. Later in the sequence, the photon is received by the proton on the right. Upon receiving the photon, the right-side proton is propelled to the right. Thus the sequence begins with two stationary protons and finishes with two protons traveling in opposite directions. In part (b), the sequence of images shows that the photon cannot be observed. An eye is drawn between two protons. When the photon leaves the left-side proton, it is intercepted by the eye and does not reach the right-side proton. Because this cannot occur, this sequence is evidence of the photon’s virtual nature."><image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_23_01_Photon.jpg"/></media>
+<caption>The image in part (a) shows the exchange of a virtual photon transmitting the electromagnetic force between charges, just as virtual pion exchange carries the strong nuclear force between nucleons. The image in part (b) shows that the photon cannot be directly observed in its passage because this would disrupt it and alter the force. In this case, the photon does not reach the other charge.</caption>
+</figure>
+
+<note id="fs-id1167066954039" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067140780">The term <emphasis effect="italics">virtual particle</emphasis> actually refers to a disturbance in space created by the presence of the two nucleons. Use of the term <emphasis effect="italics">virtual</emphasis> hints at the idea that the carrier particle should not be confused with a regular particle of mass. A full understanding of the true nature of virtual particles, however, relies on mathematics and theory beyond the scope of this text.
+</para>
+</note>
+
+<para id="fs-id1167067108202">The Feynman diagram should be read from the bottom up to show the movement of particles over time. In it, you can see that the left proton is propelled leftward from the photon emission, while the right proton feels an impulse to the right when the photon is received. In addition to the Feynman diagram, Richard Feynman was one of the theorists who developed the field of <term>quantum electrodynamics</term> (QED), which further describes electromagnetic interactions on the submicroscopic scale. For this work, he shared the 1965 Nobel Prize with Julian Schwinger and S.I. Tomonaga. A Feynman diagram explaining the strong force interaction hypothesized by Yukawa can be seen in <link target-id="Figure_23_01_FeynYuk"/>. Here, you can see the change in particle type due to the exchange of the pi meson.</para>
+
+<note id="fs-id1167063756491" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067158322"><span>[BL]</span><span>[OL]</span><span>[AL]</span>To help students explain the Feynman diagram, ask a number of specific questions. In what direction is the left proton traveling? What happens to it when it releases a virtual photon? In what direction does the virtual photon travel? Is the photon received by the right proton at the same time as it is emitted? What effect does the photon have on the right proton’s trajectory?</para>
+</note>
+
+<figure id="Figure_23_01_Feynman"><media id="fs-id1167063628885" alt="The diagram shows two positively charged particles traveling upward toward each other. As one positively charged particle (on the left) expels a virtual photon to the right, the charge is projected upward and to the left. The virtual photon is received by the positively charged particle on the right. As a result, this positively charged particle is projected upward and to the right."><image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_23_01_Feynman.jpg"/></media>
+<caption>The Feynman diagram for the exchange of a virtual photon between two positively charged particles illustrates how electromagnetic force is transmitted on a quantum mechanical scale. Time is graphed vertically, while the distance is graphed horizontally. The two positively charged particles are seen to repel each other by the photon exchange.</caption>
+</figure>
+
+<figure id="Figure_23_01_FeynYuk"><media id="fs-id1167063625495" alt="The diagram shows a proton and a neutron traveling upward toward each other. As the proton expels a virtual pion to the right, it is projected upward and to the left. As a result of expelling this pion, the particle traveling upward and to the left is now a neutron. The virtual pion is received by the neutron on the right. As a result, this particle is projected upward and to the right and is now a proton."><image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_23_01_FeynYuk.jpg"/></media>
+<caption>The image shows a Feynman diagram for the exchange of a π+ (pion) between a proton and a neutron, carrying the strong nuclear force between them. This diagram represents the situation shown more pictorially in <link target-id="Figure_23_01_Pion"/>.</caption>
+</figure>
+
+<para id="fs-id1167067110411">The relative masses of the listed carrier particles describe something valuable about the four fundamental forces, as can be seen in <link target-id="Table_23_02"/>. <term>W bosons</term> (consisting of  <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mtext>W</m:mtext>
+   <m:mo>−</m:mo>
+  </m:msup>
+  </m:mrow>
+</m:math>  and  <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mtext>W</m:mtext>
+   <m:mo>+</m:mo>
+  </m:msup>
+  </m:mrow>
+</m:math>  bosons) and <term>Z bosons</term> ( <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mtext>Z</m:mtext>
+   <m:mn>0</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math>  bosons), carriers of the weak nuclear force, are nearly 1,000 times more massive than pions, carriers of the strong nuclear force. Simultaneously, the distance that the weak nuclear force can be transmitted is approximately  <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:mn>1,000</m:mn></m:mrow>
+  </m:mfrac>
+  </m:mrow>
+</m:math>  times the strong force transmission distance. Unlike carrier particles, which have a limited range, the photon is a massless particle that has no limit to the transmission distance of the electromagnetic force. This relationship leads scientists to understand that the yet-unfound graviton is likely massless as well.</para><table id="Table_23_02" summary="The table has four columns for force, carrier particle, range, and relative strength. The four rows of the table are for the four forces: gravity, electromagnetic, weak, and strong. The gravity force has a theorized carrier particle called the graviton and has an infinite range. The electromagnetic force has a carrier particle called the photon and has an infinite range. The weak force has carrier particles called the W and Z bosons and has a range less than 10-18 meters. The strong force has a carrier particle called the Pi Meson, now known as a gluon, and has a range less than 10-15 meters. Relative force values are identical to those listed in [Table_23_01_Force]."><title>Carrier particles and their relative masses compared to pions for the four fundamental forces</title>
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<thead>
+<row>
+<entry>Force</entry>
+<entry>Carrier Particle</entry>
+<entry>Range</entry>
+<entry>Relative Strength<sup>[1]</sup></entry>
+</row>
+</thead>
+<tfoot>
+<row>
+<entry namest="c1" nameend="c4"><sup>[1]</sup>Relative strength is based on the strong force felt by a proton-proton pair.</entry>
+</row>
+</tfoot>
+<tbody>
+<row>
+<entry>Gravity</entry>
+<entry>Graviton (theorized)</entry>
+<entry> <m:math>
+ <m:mi>∞</m:mi>
+</m:math>
+</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>−38</m:mn></m:mrow>
+  </m:msup>
+  </m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>Weak </entry>
+<entry>W and Z bosons</entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mo>&lt;</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>−18</m:mn></m:mrow>
+  </m:msup>
+  <m:mtext>m</m:mtext></m:mrow>
+</m:math>
+</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>−2</m:mn></m:mrow>
+  </m:msup>
+  </m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>Electromagnetic</entry>
+<entry>Photon </entry>
+<entry> 
+
+
+ <m:math>
+ <m:mi>∞</m:mi>
+</m:math>
+</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>−13</m:mn></m:mrow>
+  </m:msup>
+  </m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>Strong</entry>
+<entry>Pi mesons or pions (now known as gluons)</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mo>&lt;</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>−15</m:mn></m:mrow>
+  </m:msup>
+  <m:mtext>m</m:mtext></m:mrow>
+</m:math>
+</entry>
+<entry>1</entry>
+</row>
+</tbody>
+
+</tgroup>
+</table><note id="Boundless_Physics" class="boundless-physics"><title>Searching for the Graviton</title>
+
+
+<para id="fs-id1167067305054">From Newton’s Universal Law of Gravitation to Einstein’s field equations, gravitation has held the focus of scientists for centuries. Given the discovery of carrier particles during the twentieth century, the importance of understanding gravitation has yet again gained the interest of prominent physicists everywhere.</para>
+<para id="fs-id1167067085561">With carrier particles discovered for three of the four fundamental forces, it is sensible to scientists that a similar particle, titled the <term>graviton</term>, must exist for the gravitational force. While evidence of this particle is yet to be uncovered, scientists are working diligently to discover its existence.</para>
+<para id="fs-id1167063912203">So what do scientists think about the unfound particle? For starters, the graviton (like the photon) should be a massless particle traveling at the speed of light. This is assumed because, like the electromagnetic force, gravity is an inverse square law,  <m:math>
+ <m:mrow>
+  <m:mi>F</m:mi><m:mo>≈</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:msup>
+     <m:mi>r</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    </m:mrow>
+  </m:mfrac>
+  </m:mrow>
+</m:math> . Scientists also theorize that the graviton is an electrically neutral particle, as an empty space within the influence of gravity is chargeless.</para>
+
+<note id="fs-id1167067078097" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067202333">Understanding why gravitons have a quantum mechanical spin of 2 is not necessary at this time. This information is provided so that students recognize that the graviton has different characteristics from the photon, another massless, chargeless carrier particle.
+</para>
+</note>
+<para id="fs-id1167067133020">However, because gravity is such a weak force, searching for the graviton has resulted in some unique methods. LIGO, the <term class="no-emphasis">Laser Interferometer Gravitational-Wave Observatory</term>, is one tool currently being utilized (see <link target-id="Figure_23_01_LIGO"/>). While searching for a gravitational wave to find a carrier particle may seem counterintuitive, it is similar to the approach taken by Planck and Einstein to learn more about the photon. According to wave-particle duality, if a gravitational wave can be found, the graviton should be present along with it. Predicted by Einstein’s theory of general relativity, scientists have been monitoring binary star systems for evidence of these gravitational waves.</para>
+
+<figure id="Figure_23_01_LIGO"><media id="fs-id1167063786353" alt="The image shows the LIGO Hanford control room. There are desktop computers and large screens showing a variety of graphs, likely showing spectra collected from stars."><image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_23_01_LIGO_img.jpg"/></media>
+<caption>In searching for gravitational waves, scientists are using the Laser Interferometer Gravitational-Wave Observatory (LIGO). Here we see the control room of LIGO in Hanford, Washington.</caption>
+</figure>
+
+<para id="fs-id1167066778255">Particle accelerators like the <term class="no-emphasis">Large Hadron Collider</term> (LHC) are being used to search for the graviton through high-energy collisions. While scientists at the LHC speculate that the particle may not exist long enough to be seen, evidence of its prior existence, like footprints in the sand, can be found through gaps in projected energy and momentum.</para>
+<para id="fs-id1167067012026">Some scientists are even searching the remnants of the Big Bang in an attempt to find the graviton. By observing the cosmic background radiation, they are looking for anomalies in gravitational waves that would provide information about the gravity particles that existed at the start of our universe.</para>
+<para id="fs-id1167066974292">Regardless of the method used, scientists should know the graviton once they find it. A massless, chargeless particle with a spin of 2 and traveling at the speed of light—there is no other particle like it. Should it be found, its discovery would surely be considered by future generations to be on par with those of Newton and Einstein.</para>
+
+<exercise id="fs-id1167066880430" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167067069803">
+<para id="fs-id1167063956508">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex001"/>
+</para>
+</problem>
+</exercise>
+
+</note></section>
+
+<section id="fs-id1167063832133"><title>Accelerators Create Matter From Energy</title><para id="fs-id1167067035445">Before looking at all the particles that make up our universe, let us first examine some of the machines that create them. The fundamental process in creating unknown particles is to accelerate known particles, such as protons or electrons, and direct a beam of them toward a target. Collisions with target nuclei provide a wealth of information, such as information obtained by Rutherford in the gold foil experiment. If the energy of the incoming particles is large enough, new matter can even be created in the collision. The more energy input or Δ<emphasis effect="italics">E</emphasis>, the more matter <emphasis effect="italics">m </emphasis>can be created, according to mass energy equivalence  <m:math>
+ <m:mrow>
+  <m:mi>m</m:mi><m:mo>=</m:mo><m:mtext>Δ</m:mtext><m:mi>E</m:mi><m:mo>/</m:mo><m:msup>
+   <m:mi>c</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math> . Limitations are placed on what can occur by known conservation laws, such as conservation of mass-energy, momentum, and charge. Even more interesting are the unknown limitations provided by nature. While some expected reactions do occur, others do not, and still other unexpected reactions may appear. New laws are revealed, and the vast majority of what we know about particle physics has come from accelerator laboratories. It is the particle physicist’s favorite indoor sport.</para>
+<para id="fs-id1167065871199">Our earliest model of a particle accelerator comes from the <term class="no-emphasis">Van de Graaff generator</term>. The relatively simple device, which you have likely seen in physics demonstrations, can be manipulated to produce potentials as great as 50 million volts. While these machines do not have energies large enough to produce new particles, analysis of their accelerated ions was instrumental in exploring several aspects of the nucleus.</para><para id="fs-id1167067154076">Another equally famous early accelerator is the <term>cyclotron</term>, invented in 1930 by the American physicist, <term class="no-emphasis">E.O. Lawrence</term> (1901–1958). <link target-id="Figure_23_01_Cyclotron"/> is a visual representation with more detail. Cyclotrons use fixed-frequency alternating electric fields to accelerate particles. The particles spiral outward in a magnetic field, making increasingly larger radius orbits during acceleration. This clever arrangement allows the successive addition of electric potential energy with each loop. As a result, greater particle energies are possible than in a Van de Graaff generator.</para>
+
+<note id="fs-id1167063876493" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167061303089"><span>[BL]</span><span>[OL]</span><span>[AL]</span>There are two forces acting with the cyclotron in <link target-id="Figure_23_01_Cyclotron"/>. A centripetal force is created by the magnetic field, which can be verified to the students through use of the right-hand rule. Additionally, the voltage differential creates a linear force at the gap between the two <emphasis effect="italics">Dees</emphasis>. Note to the students that the voltage gap reverses direction at a constant rate so that the linear force is always in the direction of the particle’s travel.</para>
+</note>
+
+<figure id="Figure_23_01_Cyclotron"><media id="fs-id1167067239829" alt="There are two images. On the left is an image of a Van de Graaff generator. On the right is a drawing of a cyclotron. This is created by two semi-circles separated by a gap. In this gap are arrows representing the direction of an alternating electric field. Within the two semi-circles are x symbols showing that the magnetic field is projected upward through the semi-circles. A particle is shown spiraling in an expanding circular pattern from the center of the semi-circles and outward."><image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_23_01_Cyclotron.jpg"/></media>
+<caption>On the left is an artist’s rendition of the popular physics demonstration tool, the Van de Graaff generator. A battery (A) supplies excess positive charge to a pointed conductor, the points of which spray the charge onto a moving insulating belt near the bottom. The pointed conductor (B) on top in the large sphere picks up the charge. (The induced electric field at the points is so large that it removes the charge from the belt.) This can be done because the charge does not remain inside the conducting sphere but moves to its outer surface. An ion source inside the sphere produces positive ions, which are accelerated away from the positive sphere to high velocities. On the right is a cyclotron. Cyclotrons use a magnetic field to cause particles to move in circular orbits. As the particles pass between the plates of the Dees, the voltage across the gap is oscillated to accelerate them twice in each orbit.</caption>
+</figure>
+
+<para id="fs-id1167063960900">A <term>synchrotron</term> is a modification of the cyclotron in which particles continually travel in a fixed-radius orbit, increasing speed each time. Accelerating voltages are synchronized with the particles to accelerate them, hence the name. Additionally, magnetic field strength is increased to keep the orbital radius constant as energy increases. A ring of magnets and accelerating tubes, as shown in <link target-id="Figure_23_01_Synchro"/>, are the major components of synchrotrons. High-energy particles require strong magnetic fields to steer them, so superconducting magnets are commonly employed. Still limited by achievable magnetic field strengths, synchrotrons need to be very large at very high energies since the radius of a high-energy particle’s orbit is very large.</para>
+
+<note id="fs-id1167067100000" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067070396"><span>[BL]</span><span>[OL]</span>Assist the students in constructing a chart or Venn diagram showing similarities and differences between the cyclotron and synchrotron. Consideration should include particle travel, rate of voltage oscillation, and device construction.</para>
+</note>
+
+
+
+<para id="fs-id1167067065724">To further probe the nucleus, physicists need accelerators of greater energy and detectors of shorter wavelength. To do so requires not only greater funding but greater ingenuity as well. <term>Colliding beams</term> used at both the <term class="no-emphasis">Fermi National Accelerator Laboratory</term> (Fermilab; see <link target-id="Figure_23_01_FermiLab2"/>) near Chicago and the LHC in Switzerland are designed to reduce energy loss in particle collisions. Typical stationary particle detectors lose a large amount of energy to the recoiling target struck by the accelerating particle. By providing head-on collisions between particles moving in opposite directions, colliding beams make it possible to create particles with momenta and kinetic energies near zero. This allows for particles of greater energy and mass to be created. <link target-id="Figure_23_01_FermiLab"/> is a schematic representation of this effect. In addition to circular accelerators, linear accelerators can be used to reduce energy radiation losses. The <term class="no-emphasis">Stanford Linear Accelerator Center</term> (now called the SLAC National Accelerator Laboratory) in California is home to the largest such accelerator in the world.</para>
+
+<figure id="Figure_23_01_Synchro"><media id="fs-id1167063582862" alt="There are three images. The image on the left is a series of magnets connected in a circle by a line. This line shows the direction of an accelerating circulating particle. The next two images are close-ups of a particle traveling from one magnet to the next. In the center image the particle (a proton) is traveling from one tube to the next because an electric field is pushing it in that direction. The electric field is shown by an arrow pointing from a positive charge over the tube the proton is leaving and negative charge over the tube the proton is entering. In the right picture, the proton is leaving the tube it had just entered and is about to enter the next tube in its path. It can be seen that the electric field has switched directions, as the charge over the tube it had previously entered is now positive and the tube it is about to enter is now negative."><image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_23_01_Synchro.jpg"/></media>
+<caption>(a) A synchrotron has a ring of magnets and accelerating tubes. The frequency of the accelerating voltages is increased to cause the beam particles to travel the same distance in a shorter time. The magnetic field should also be increased to keep each beam burst traveling in a fixed-radius path. Limits on magnetic field strength require these machines to be very large in order to accelerate particles to very high energies. (b) A positively charged particle is shown in the gap between accelerating tubes. (c) While the particle passes through the tube, the potentials are reversed so that there is another acceleration at the next gap. The frequency of the reversals needs to be varied as the particle is accelerated to achieve successive accelerations in each gap.</caption>
+</figure>
+
+<figure id="Figure_23_01_FermiLab"><media id="fs-id1167066856057" alt="The image shows a long circulating tube, shaped like a pair of parallel rings, one pair of rings being much smaller than the other. One end of the tube, extending out from one of the small rings, is labeled proton source; the other end of the tube, near the other small ring, is labeled antiproton source. There are arrows representing the direction of particle travel, with blue arrows pointing toward the center of the tube from the proton source, and red arrows pointing toward the center of the tube from the antiproton source. The arrows meet at a box in the center of the tube structure. The box is labeled ‘Collision detector’ and has an explosion symbol on it."><image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_23_01_FermiLab.jpg"/></media>
+<caption>This schematic shows the two rings of Fermilab’s accelerator and the scheme for colliding protons and antiprotons (not to scale).</caption>
+</figure>
+
+<figure id="Figure_23_01_FermiLab2"><media id="fs-id1167066966450" alt="An aerial view of the Fermi National Accelerator Laboratory is shown."><image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_23_01_FermiLab2.jpg"/></media>
+<caption>The Fermi National Accelerator Laboratory, near Batavia, Illinois, was a subatomic particle collider that accelerated protons and antiprotons to attain energies up to 1 Tev (a trillion electronvolts). The circular ponds near the rings were built to dissipate waste heat. This accelerator was shut down in September 2011. (credit: Fermilab, Reidar Hahn)</caption>
+</figure>
+</section><section id="fs-id1167066825973" class="check-understanding"><title>Check Your Understanding</title><note id="eip-id1167064906741" class="os-teacher">
+<title>Teacher Support</title>
+<para id="eip-id1167065775485">Use these questions to assess student achievement of the section’s learning objectives. If students are struggling with a specific objective, these questions will help identify which and direct students to the relevant content.</para>
+</note>
+
+<exercise id="fs-id1167067012149" class="os-exercise">
+<problem id="fs-id1167067006859">
+<!--<para id="fs-id1167063689487">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex002"/>
+</para>-->
+<para id="fs-id1164564320493">Which of the four forces is responsible for radioactive decay?</para>
+<list id="fs-id1164566970239" list-type="enumerated" number-style="lower-alpha">
+<item>the electromagnetic force</item>
+<item>the gravitational force</item>
+<item>the strong nuclear force</item>
+<item>the weak nuclear force</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167066854018" class="os-exercise">
+<problem id="fs-id1167061193138">
+<!--<para id="fs-id1167067158409">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex003"/>
+</para>-->
+<para id="fs-id1164567863441">What force or forces exist between an electron and a proton?</para>
+<list id="fs-id1164567516678" list-type="enumerated" number-style="lower-alpha">
+<item>the strong nuclear force, the electromagnetic force, and gravity</item>
+<item>the weak nuclear force, the strong nuclear force, and gravity</item>
+<item>the weak nuclear force, the strong nuclear force, and the electromagnetic force</item>
+<item>the weak nuclear force, the electromagnetic force, and gravity</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167063529914" class="os-exercise">
+<problem id="fs-id1167067153960">
+<!--<para id="fs-id1167067315852">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex004"/>
+</para>-->
+<para id="fs-id1164566258566">What is the proposed carrier particle for the gravitational force?</para>
+<list id="fs-id1164565539098" list-type="enumerated" number-style="lower-alpha">
+<item>boson</item>
+<item>graviton</item>
+<item>gluon</item>
+<item>photon</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167063615397" class="os-exercise">
+<problem id="fs-id1167067028392">
+<para id="fs-id1167063448922">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex005"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167060128362" class="os-exercise">
+<problem id="fs-id1167063579742">
+<!--<para id="fs-id1167067057614">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex006"/>
+</para>-->
+<para id="fs-id1164566125255">What type of particle accelerator uses fixed-frequency oscillating electric fields to accelerate particles?</para>
+<list id="fs-id1164567451955" list-type="enumerated" number-style="lower-alpha">
+<item>cyclotron</item>
+<item>synchrotron</item>
+<item>betatron</item>
+<item>Van de Graaff accelerator</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167064891974" class="os-exercise">
+<problem id="fs-id1167064947667">
+<para id="fs-id1167064598193">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex007"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166849635001" class="os-exercise">
+<problem id="eip-id1166849331671">
+<!--<para id="eip-id1166849368722">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ot001"/>
+</para>-->
+<para id="fs-id1164567612213">Which of the four forces is responsible for the structure of galaxies?</para>
+<list id="fs-id1164567995805" list-type="enumerated" number-style="lower-alpha">
+<item>electromagnetic force</item>
+<item>gravity</item>
+<item>strong nuclear force</item>
+<item>weak nuclear force</item>
+</list>
+</problem>
+</exercise></section><section id="fs-id1167065904847" class="summary">
+<title>Section Summary</title>
+<list id="fs-id1167065847183">
+<item>The four fundamental forces are gravity, the electromagnetic force, the weak nuclear force, and the strong nuclear force.</item>
+<item>A variety of particle accelerators have been used to explore the nature of subatomic particles and to test predictions of particle theories.</item>
+</list>
+</section>
+
+
+<section id="fs-id1167063747640" class="concept"><title>Concept Items</title><exercise id="fs-id1167066948069" class="os-exercise">
+<problem id="fs-id1167067232514">
+<!--<para id="fs-id1167063652183">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex008"/>
+</para>-->
+<para id="fs-id1164564320718">What forces does the inverse square law describe?</para>
+<list id="fs-id1164567328651" list-type="enumerated" number-style="lower-alpha">
+<item>the electromagnetic and weak nuclear force</item>
+<item>the electromagnetic force and strong nuclear force</item>
+<item>the electromagnetic force and gravity</item>
+<item>the strong nuclear force and gravity</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167066843214" class="os-exercise">
+<problem id="fs-id1167063657569">
+<!-- <para id="fs-id1167063496125">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex009"/>
+</para> -->
+<para id="fs-id1164567577037">Do the carrier particles explain the loss of mass in nuclear decay?</para>
+<list id="fs-id1164565872667" list-type="enumerated" number-style="lower-alpha">
+<item>no</item>
+<item>yes</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067076121" class="os-exercise">
+<problem id="fs-id1167066791011">
+<para id="fs-id1167066945403">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex010"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166850077760" class="os-exercise">
+<problem id="eip-id1166850117891">
+<!--<para id="eip-id1166849793124">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ot002"/>
+</para>-->
+<para id="fs-id1164565666466">Which of the four forces is responsible for ionic bonding?</para>
+<list id="fs-id1164567327278" list-type="enumerated" number-style="lower-alpha">
+<item>electromagnetic force</item>
+<item>gravity</item>
+<item>strong force</item>
+<item>weak nuclear force</item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-id1166849388868" class="os-exercise">
+<problem id="eip-id1166850284056">
+<!--<para id="eip-id1166849936388">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ot009"/>
+</para>-->
+<para id="fs-id1164564409042">What type of particle accelerator uses oscillating electric fields to accelerate particles around a fixed radius track?</para>
+<list id="fs-id1164567031353" list-type="enumerated" number-style="lower-alpha">
+<item>LINAC</item>
+<item>synchrotron</item>
+<item>SLAC</item>
+<item>Van de Graaff accelerator</item>
+</list>
+</problem>
+</exercise></section><section id="fs-id1167066787198" class="critical-thinking"><title>Critical Thinking</title><exercise id="fs-id1167063517238" class="os-exercise">
+<problem id="fs-id1167067051555">
+<!--<para id="fs-id1167063526978">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex011"/>
+</para>-->
+<para id="fs-id1164565292935">The gravitational force is considered a very weak force. Yet, it is strong enough to hold Earth in orbit around the Sun. Explain this apparent disparity.</para>
+<list id="fs-id1164566044765" list-type="enumerated" number-style="lower-alpha">
+<item>At the level of the Earth-to-Sun distance, gravity is the strongest acting force because neither the strong nor the weak nuclear force exists at this distance.</item>
+<item>At the level of the Earth-to-Sun distance, gravity is the strongest acting force because both the strong and the weak nuclear force is minimal at this distance.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167066870588" class="os-exercise">
+<problem id="fs-id1167066961231">
+<!--<para id="fs-id1167063707024">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex012"/>
+</para>-->
+<para id="fs-id1164566041848">True or FalseGiven that their carrier particles are massless, some may argue that the electromagnetic and gravitational forces should maintain the same value at all distances from their source. However, both forces decrease with distance at a rate of  <m:math>
+<m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mi>r</m:mi>
+   </m:mfrac>
+
+  </m:mrow>
+</m:semantics>
+</m:math> </para>
+<list id="fs-id1164565610493" list-type="enumerated" number-style="lower-alpha">
+<item>false</item>
+<item>true</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167066838627" class="os-exercise">
+<problem id="fs-id1167066826602">
+<para id="fs-id1167067200242">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex013"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166847372043" class="os-exercise">
+<problem id="eip-id1166849868010">
+<para id="eip-id1166847734941">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ot020"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167063651978" class="multiple-choice"><title>Test Prep Multiple Choice</title><exercise id="fs-id1167067255384" class="os-exercise">
+<problem id="fs-id1167066876200">
+<!--<para id="fs-id1167063723488">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex014"/>
+</para>-->
+<para id="fs-id1164565303361">Which of the following is not one of the four fundamental forces?</para>
+<list id="fs-id1164567177026" list-type="enumerated" number-style="lower-alpha">
+<item>gravity</item>
+<item>friction</item>
+<item>strong nuclear</item>
+<item>electromagnetic</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067075787" class="os-exercise">
+<problem id="fs-id1167063693570">
+<para id="fs-id1167067015758">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex015"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167063517849" class="os-exercise">
+<problem id="fs-id1167066789711">
+<para id="fs-id1167063917720">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex016"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166849329272" class="os-exercise">
+<problem id="eip-id1166849963703">
+<!--<para id="eip-id1166849310385">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ot004"/>
+</para>-->
+<para id="fs-id1164567364099">What force or forces exist between a proton and a second proton?</para>
+<list id="fs-id1164567960837" list-type="enumerated" number-style="lower-alpha">
+<item>The weak electrostatic force and strong magnetic force</item>
+<item>The weak electrostatic and strong gravitational force</item>
+<item>The weak frictional force and strong gravitational force</item>
+<item>The weak nuclear force, the strong nuclear force, and the electromagnetic force</item>
+</list>
+</problem>
+</exercise></section><section id="fs-id1167063514397" class="short-answer">
+<title>Test Prep Short Answer</title>
+<exercise id="fs-id1167063426316" class="os-exercise"><problem id="fs-id1167066790019">
+<para id="fs-id1167061358793">Why do people tend to be more aware of the gravitational and electromagnetic forces than the strong and weak nuclear forces?</para>
+<list id="eip-idm351487552" list-type="enumerated" number-style="lower-alpha">
+<item>The gravitational and electromagnetic forces act at short ranges, while strong and weak nuclear forces act at comparatively long range.</item>
+<item>The strong and weak nuclear forces act at short ranges, while gravitational and electromagnetic forces act at comparatively long range.</item>
+<item>The strong and weak nuclear forces act between all objects, while gravitational and electromagnetic forces act between smaller objects.</item>
+<item>The strong and weak nuclear forces exist in outer space, while gravitational and electromagnetic forces exist everywhere.</item></list>
+</problem>
+</exercise><exercise id="fs-id1167063531263" class="os-exercise">
+<problem id="fs-id1167063895661">
+<!--<para id="fs-id1167067197993">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex018"/>
+</para>-->
+<para id="fs-id1164565415104">What fundamental force is responsible for the force of friction?</para>
+<list id="fs-id1164565575950" list-type="enumerated" number-style="lower-alpha"><item>the electromagnetic force</item>
+<item>the strong nuclear force</item>
+<item>the weak nuclear force</item>
+
+</list></problem>
+</exercise>
+<exercise id="fs-id1167067174874" class="os-exercise">
+<problem id="fs-id1167066880179">
+<para id="fs-id1167067024819">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex019"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167063582786" class="os-exercise">
+<problem id="fs-id1167067067207">
+<!--<para id="fs-id1167067038608">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex020"/>
+</para>-->
+<para id="fs-id1164566297460">Which carrier particle is transmitted solely between nucleons?</para>
+<list id="fs-id1164564522741" list-type="enumerated" number-style="lower-alpha">
+<item>graviton</item>
+<item>photon</item>
+<item>pion</item>
+<item>W and Z bosons</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167063867582" class="os-exercise">
+<problem id="fs-id1167063459272">
+<!--<para id="fs-id1167067076325">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex021"/>
+</para>-->
+<para id="fs-id1164565342841">Two particles of the same mass are traveling at the same speed but in opposite directions when they collide head-on.<newline/>
+What is the final kinetic energy of this two-particle system?</para>
+<list id="fs-id1164567082179" list-type="enumerated" number-style="lower-alpha">
+<item>infinite</item>
+<item>the sum of the kinetic energies of the two particles</item>
+<item>zero</item>
+<item>the product of the kinetic energies of the two particles</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167066808672" class="os-exercise">
+<problem id="fs-id1167061728594">
+<para id="fs-id1167063572661">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex022"/>
+</para>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167067289158" class="extended-response">
+<title>Test Prep Extended Response</title>
+<exercise id="fs-id1167067054655" class="os-exercise">
+<problem id="fs-id1167067194074">
+<!--<para id="fs-id1167066835301">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex023"/>
+</para>-->
+<para id="fs-id1164565506969">If the strong attractive force is the greatest of the four fundamental forces, are all masses fated to combine together at some point in the future? Explain.</para>
+<list id="fs-id1164567841496" list-type="enumerated" number-style="lower-alpha">
+<item>No, the strong attractive force acts only at incredibly small distances. As a result, only masses close enough to be within its range will combine.</item>
+<item>No, the strong attractive force acts only at large distances. As a result, only masses far enough apart will combine.</item>
+<item>Yes, the strong attractive force acts at any distance. As a result, all masses are fated to combine together at some point in the future.</item>
+<item>Yes, the strong attractive force acts at large distances. As a result, all masses are fated tocombine together at some point in the future.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067077294" class="os-exercise">
+<problem id="fs-id1167066939964">
+<para id="fs-id1167067313012">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex024"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167063649608" class="os-exercise">
+<problem id="fs-id1167063425307">
+<para id="fs-id1167063522544">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex025"/>
+</para>
+</problem>
+</exercise>
+</section>
+
+</content>
+<glossary>
+<definition id="fs-id1167066958330"><term>carrier particle</term><meaning id="fs-id1167063641990"> a virtual particle exchanged in the transmission of a fundamental force</meaning></definition>
+<definition id="fs-id1167063429796"><term>colliding beam</term><meaning id="fs-id1167066876011"> head-on collisions between particles moving in opposite directions</meaning></definition>
+<definition id="fs-id1167063526073"><term>cyclotron</term><meaning id="fs-id1167066999688"> accelerator that uses fixed-frequency alternating electric fields and fixed magnets to accelerate particles in a circular spiral path</meaning></definition>
+<definition id="fs-id1167067034206"><term>Feynman diagram</term><meaning id="fs-id1167067252302"> a graph of time versus position that describes the exchange of virtual particles between subatomic particles</meaning></definition>
+<definition id="fs-id1167063852322"><term>graviton</term><meaning id="fs-id1167063498772"> hypothesized particle exchanged between two particles of mass, transmitting the gravitational force between them</meaning></definition>
+<definition id="fs-id1167067106527"><term>particle physics </term><meaning id="fs-id1167067053737">the study of and the quest for those truly fundamental particles having no substructure</meaning></definition>
+<definition id="fs-id1167061608269"><term>pion</term><meaning id="fs-id1167066968337"> particle exchanged between nucleons, transmitting the strong nuclear force between them</meaning></definition>
+<definition id="fs-id1167066983456"><term>quantum electrodynamics</term><meaning id="fs-id1167063757948"> the theory of electromagnetism on the particle scale</meaning></definition>
+<definition id="fs-id1167067214124"><term>synchrotron</term><meaning id="fs-id1167067145919"> a version of a cyclotron in which the frequency of the alternating voltage and the magnetic field strength are increased as the beam particles are accelerated</meaning></definition>
+<definition id="fs-id1167067036736"><term> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mtext>W</m:mtext>
+   <m:mo>−</m:mo>
+  </m:msup>
+  </m:mrow>
+</m:math>  boson</term> <meaning id="fs-id1167066999129">negative carrier particle of the weak nuclear force</meaning></definition>
+<definition id="fs-id1167063657626"><term> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mtext>W</m:mtext>
+   <m:mo>+</m:mo>
+  </m:msup>
+  </m:mrow>
+</m:math>  boson</term> <meaning id="fs-id1167067038354">positive carrier particle of the weak nuclear force</meaning></definition>
+<definition id="fs-id1167067185977"><term>weak nuclear force</term><meaning id="fs-id1167067153929"> fundamental force responsible for particle decay</meaning></definition>
+<definition id="fs-id1167067248759"><term> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mtext>Z</m:mtext>
+   <m:mn>0</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math>  boson</term> <meaning id="fs-id1167067157994">neutral carrier particle of the weak nuclear force</meaning></definition>
+</glossary>
+</document>

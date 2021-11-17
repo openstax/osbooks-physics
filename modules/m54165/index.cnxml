@@ -1,0 +1,791 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Vector Addition and Subtraction: Graphical Methods</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54165</md:content-id>
+  <md:title>Vector Addition and Subtraction: Graphical Methods</md:title>
+  <md:abstract/>
+  <md:uuid>a3321427-dc31-4908-bf4b-bfe790b75111</md:uuid>
+</metadata>
+
+<content>
+    <note id="fs-id1167065886421" class="learning-objectives">
+      <label/>
+      <title>Section Learning Objectives</title>
+      <para id="fs-id1167065968195">By the end of this section, you will be able to do the following:</para>
+      <list id="fs-id1167065846214"><item>Describe the graphical method of vector addition  and subtraction</item>
+<item>Use the graphical method of vector addition and subtraction to solve physics problems</item>
+      </list></note>
+    <note id="fs-id1167065866618" class="os-teacher">
+      <title>Teacher Support</title>
+      <para id="fs-id1167065944194">The learning objectives in this section will help your students master the following standards:</para><list id="fs-id1167065879132">
+        <item>
+          (4) Science concepts. The student knows and applies the laws governing motion in two dimensions for a variety of situations. The student is expected to:
+        <list id="fs-id1167065661945"><item><span>(E)</span> <span>develop and interpret free-body force diagrams.</span></item>
+             </list></item>
+      </list>
+    </note>
+    <section id="keyterms"><title>Section Key Terms</title>
+    <table id="fs-id1167065822951" class="unnumbered unstyled section-key-terms" summary="The list of Key Terms includes: graphical method, head (of a vector), head-to-tail method, resultant, resultant vector, tail, vector addition, and vector subtraction.">
+      <label/>
+      <tgroup cols="3">
+        <tbody>
+          <row>
+            <entry>graphical method</entry>
+            <entry>head (of a vector)</entry>
+            <entry>head-to-tail method</entry>
+            <entry>resultant</entry>
+          </row>
+          <row>
+            <entry>resultant vector</entry>
+            <entry>tail</entry>
+            <entry>vector addition</entry>
+            <entry>vector subtraction</entry>
+          </row>
+                  </tbody>
+      </tgroup>
+    </table>
+  </section>
+  <section id="fs-id1167065863577">
+    <title>The Graphical Method of Vector Addition and Subtraction</title>
+    <para id="fs-id1167065938140">Recall that a vector is a quantity that has magnitude and direction. For example, displacement, velocity, acceleration, and force are all vectors. In one-dimensional or straight-line motion, the direction of a vector can be given simply by a plus or minus sign. Motion that is forward, to the right, or upward is usually considered to be <emphasis effect="italics">positive</emphasis> (+); and motion that is backward, to the left, or downward is usually considered to be <emphasis effect="italics">negative</emphasis> (−).</para>
+    <para id="fs-id1167065795979">In two dimensions, a vector describes motion in two perpendicular directions, such as vertical and horizontal. For vertical and horizontal motion, each vector is made up of vertical and horizontal components. In a one-dimensional problem, one of the components simply has a value of zero. For two-dimensional vectors, we work with vectors by using a frame of reference such as a coordinate system. Just as with one-dimensional vectors, we graphically represent vectors with an arrow having a length proportional to the vector’s magnitude and pointing in the direction that the vector points.</para>
+    <note id="fs-id1167066037613" class="os-teacher">
+      <title>Teacher Support</title>
+      <para id="fs-id1167065743628"><span>[BL]</span><span>[OL]</span>Review vectors and free body diagrams. Recall how velocity, displacement and acceleration vectors are represented. </para>
+    </note>
+    <para id="fs-id1167065713282"><link target-id="Figure_05_01_city"/> shows a graphical representation of a vector; the total displacement for a person walking in a city. The person first walks nine blocks east and then five blocks north. Her total displacement does not match her path to her final destination. The displacement simply connects her starting point with her ending point using a straight line, which is the shortest distance. We use the notation that a boldface symbol, such as <emphasis>D</emphasis>, stands for a vector. Its magnitude is represented by the symbol in italics, <emphasis effect="italics">D</emphasis>, and its direction is given by an angle represented by the symbol <m:math>
+      <m:mrow>
+        <m:mi>θ</m:mi><m:mo>.</m:mo>
+      </m:mrow>
+    </m:math> Note that her displacement would be the same if she had begun by first walking five blocks north and then walking nine blocks east.</para>
+    <note id="fs-id1167065977354" class="tips-for-success">
+
+      <para id="fs-id1167066048395">In this text, we represent a vector with a boldface variable. For example, we represent a force with the vector <emphasis>F</emphasis>, which has both magnitude and direction. The magnitude of the vector is represented by the variable in italics, <emphasis effect="italics">F</emphasis>, and the direction of the variable is given by the angle <m:math>
+        <m:mrow>
+          <m:mi>θ</m:mi><m:mo>.</m:mo>
+        </m:mrow>
+      </m:math> </para>
+    </note>
+    <figure id="Figure_05_01_city">
+      <media id="fs-id1167065859280" alt="A map is shown over top x and y-axes. The origin is labeled Starting Point. The x-axis represents east and has a scale from zero to nine in increments of one. The y-axis represents north and has a scale from zero to five in increments of one. Lines show that a person walks nine blocks east and five blocks north. A displacement vector is plotted from the origin to the destination of nine, five on the axes.">
+        <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_05_01_city.jpg"/>
+      </media>
+      <caption>A person walks nine blocks east and five blocks north. The displacement is 10.3 blocks at an angle <m:math>
+        <m:mrow>
+          <m:msup>
+            <m:mrow>
+              <m:mn>29.1</m:mn>
+            </m:mrow>
+            <m:mo>∘</m:mo>
+          </m:msup>
+
+        </m:mrow>
+      </m:math> north of east.</caption>
+    </figure>
+    <para id="fs-id1167065864748">The <term>head-to-tail method</term> is a <term>graphical</term> way to add vectors. The <term>tail</term> of the vector is the starting point of the vector, and the <term>head</term> (or tip) of a vector is the pointed end of the arrow. The following steps describe how to use the head-to-tail method for graphical <term>vector addition</term>.</para>
+    <list id="fs-id1167065826467" list-type="enumerated" number-style="arabic">
+      <item>Let the <emphasis effect="italics">x</emphasis>-axis represent the east-west direction. Using a ruler and protractor, draw an arrow to represent the first vector (nine blocks to the east), as shown in <link target-id="Figure_05_01_vectora"/><link target-id="Figure_05_01_vectora">(a)</link>.
+        <figure id="Figure_05_01_vectora">
+          <media id="fs-id1167065763661" alt="The diagram shows a vector along an x-axis with a magnitude of nine units and a direction of 0°. An unlabeled y-axis is also shown.">
+            <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_05_01_vector(a).jpg"/>
+          </media>
+          <caption>The diagram shows a vector with a magnitude of nine units and a direction of 0°.</caption>
+        </figure>
+      </item>
+      <item>Let the <emphasis effect="italics">y</emphasis>-axis represent the north-south direction. Draw an arrow to represent the second vector (five blocks to the north). Place the tail of the second vector at the head of the first vector, as shown in <link target-id="Figure_05_01_vectorb"/><link target-id="Figure_05_01_vectorb">(b)</link>.
+        <figure id="Figure_05_01_vectorb">
+          <media id="fs-id1167065764637" alt="The diagram shows a vector along an x-axis with a magnitude of nine units and a direction of 0°. A vertical vector is also shown at nine units with a height of five units. A y-axis is also shown with ten tick marks.">
+            <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_05_01_vector(b).jpg"/>
+          </media>
+          <caption>A vertical vector is added.</caption>
+        </figure>
+      </item>
+      <item>If there are more than two vectors, continue to add the vectors head-to-tail as described in step 2. In this example, we have only two vectors, so we have finished placing arrows tip to tail.</item>
+      <item>Draw an arrow from the tail of the first vector to the head of the last vector, as shown in <link target-id="Figure_05_01_vectorc"/><link target-id="Figure_05_01_vectorc">(c)</link>. This is the <term>resultant</term>, or the sum, of the vectors.
+        <figure id="Figure_05_01_vectorc">
+          <media id="fs-id1167065785430" alt="The diagram shows a vector along an x-axis with a magnitude of nine units and a direction of 0°. A vertical vector is also shown at nine units with a height of five units. A y-axis is shown with ten tick marks. A resultant vector is drawn, forming a right triangle with the other two vectors. This vector is labeled D, has a magnitude of ten point three units, and forms a twenty-nine point one degree angle with the x-axis.">
+            <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_05_01_vector(c).jpg"/>
+          </media>
+          <caption>The diagram shows the resultant vector, a ruler, and protractor.</caption>
+        </figure>
+      </item>
+      <item>To find the magnitude of the resultant, measure its length with a ruler. When we deal with vectors analytically in the next section, the magnitude will be calculated by using the Pythagorean theorem.</item>
+      <item>To find the direction of the resultant, use a protractor to measure the angle it makes with the reference direction (in this case, the <emphasis effect="italics">x</emphasis>-axis). When we deal with vectors analytically in the next section, the direction will be calculated by using trigonometry to find the angle.</item>
+    </list>
+    <note id="fs-id1167065788144" class="os-teacher">
+      <title>Teacher Support</title>
+      <para id="fs-id1167066055299"><span>[AL]</span> Ask two students to demonstrate pushing a table from two different directions. Ask students what they feel the direction of resultant motion will be. How would they represent this graphically? Recall that a vector’s magnitude is represented by the length of the arrow. Demonstrate the head-to-tail method of adding vectors, using the example given in the chapter. Ask students to practice this method of addition using a scale and a protractor.</para>
+      <para id="fs-id1167065856345"><span>[BL]</span><span>[OL]</span><span>[AL]</span> Ask students if anything changes by moving the vector from one place to another on a graph. How about the order of addition? Would that make a difference? Introduce negative of a vector and vector subtraction.</para>
+    </note>
+    <note id="fs-id1167065885222" class="watch-physics"><title>Visualizing Vector Addition Examples </title>
+
+      <para id="fs-id1167065842695">This video shows four graphical representations of vector addition and matches them to the correct vector addition formula.</para>
+      <media id="fs-id1167065984397" alt="This video shows four graphical representations of vector addition. An instructor guides you through the steps required to match them to the correct vector addition formula." class="os-embed">
+       <iframe width="660" height="371.4" src="https://openstax.org/l/02addvector"/>
+      </media>
+      <exercise id="fs-id1167065763403" class="os-exercise grasp-check unnumbered">
+
+        <problem id="fs-id1167065708298">
+          <para id="fs-id1167065708405">
+            <link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex001"/>
+          </para>
+        </problem>
+      </exercise>
+    </note><para id="fs-id1167065770710"><term>Vector subtraction</term> is done in the same way as vector addition with one small change. We add the first vector to the negative of the vector that needs to be subtracted. A negative vector has the same magnitude as the original vector, but points in the opposite direction (as shown in <link target-id="Figure_05_01_negative"/>). Subtracting the vector <emphasis>B</emphasis> from the vector <emphasis>A</emphasis>, which is written as <emphasis>A</emphasis> − <emphasis>B</emphasis>, is the same as <emphasis>A</emphasis> + (−<emphasis>B</emphasis>). Since it does not matter in what order vectors are added, <emphasis>A</emphasis> − <emphasis>B</emphasis> is also equal to (−<emphasis>B</emphasis>) + <emphasis>A</emphasis>. This is true for scalars as well as vectors. For example, 5 – 2 = 5 + (−2) = (−2) + 5. </para>
+    <figure id="Figure_05_01_negative">
+      <media id="fs-id1167066034916" alt="Two vectors are shown. Vector B points upward at an angle. Vector negative B is parallel to vector B and points downward.">
+        <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_05_01_negative.jpg"/>
+      </media>
+      <caption>The diagram shows a vector, B, and the negative of this vector, –B.</caption>
+    </figure>
+    <para id="fs-id1167065971998">Global angles are calculated in the counterclockwise direction. The clockwise direction is considered negative. For example, an angle of <m:math>
+      <m:mrow>
+        <m:msup>
+          <m:mrow>
+            <m:mn>30</m:mn>
+          </m:mrow>
+          <m:mo>∘</m:mo>
+        </m:msup>
+
+      </m:mrow>
+    </m:math> south of west is the same as the global angle <m:math>
+      <m:mrow>
+        <m:msup>
+          <m:mrow>
+            <m:mn>210</m:mn>
+          </m:mrow>
+          <m:mo>∘</m:mo>
+        </m:msup>
+        <m:mo>,</m:mo>
+      </m:mrow>
+    </m:math> which can also be expressed as <m:math>
+      <m:mrow>
+        <m:msup>
+          <m:mrow>
+            <m:mn>−150</m:mn>
+          </m:mrow>
+          <m:mo>∘</m:mo>
+        </m:msup>
+
+      </m:mrow>
+    </m:math> from the positive <emphasis effect="italics">x</emphasis>-axis.</para>
+  </section>
+  <section id="fs-id1167065700592">
+    <title>Using the Graphical Method of Vector Addition and Subtraction to Solve Physics Problems </title>
+    <para id="fs-id1167065662827">Now that we have the skills to work with vectors in two dimensions, we can apply vector addition to graphically determine the <term>resultant vector</term>, which represents the total force. Consider an example of force involving two ice skaters pushing a third as seen in <link target-id="Figure_05_01_skaters"/>.</para>
+    <figure id="Figure_05_01_skaters">
+      <media id="fs-id1167065974680" alt="Two diagrams are shown. Diagram a is an overhead view of two skaters, one on the left and one below, pushing on a third skater in the center. A force vector is shown on each of the pushing skaters pointing from the skater's shoulder to the skater in the center. A right triangle is drawn using the force vectors, with F tot as the hypotenuse, F one as the bottom leg, and F two as the right leg. Diagram b is a free body diagram with F one pointing to the right and F two pointing up. Both vectors have the same magnitude.">
+        <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_05_01_skaters.jpg"/>
+      </media>
+      <caption>Part (a) shows an overhead view of two ice skaters pushing on a third. Forces are vectors and add like vectors, so the total force on the third skater is in the direction shown. In part (b), we see a free-body diagram representing the forces acting on the third skater.</caption>
+    </figure>
+    <para id="fs-id1167065655711">In problems where variables such as force are already known, the forces can be represented by making the length of the vectors proportional to the magnitudes of the forces. For this, you need to create a scale. For example, each centimeter of vector length could represent 50 N worth of force. Once you have the initial vectors drawn to scale, you can then use the head-to-tail method to draw the resultant vector. The length of the resultant can then be measured and converted back to the original units using the scale you created.</para>
+    <para id="fs-id1167065886432">You can tell by looking at the vectors in the free-body diagram in <link target-id="Figure_05_01_skaters"/> that the two skaters are pushing on the third skater with equal-magnitude forces, since the length of their force vectors are the same. Note, however, that the forces are not equal because they act in different directions. If, for example, each force had a magnitude of 400 N, then we would find the magnitude of the total external force acting on the third skater by finding the magnitude of the resultant vector. Since the forces act at a right angle to one another, we can use the Pythagorean theorem. For a triangle with sides a, b, and c, the Pythagorean theorem tells us that</para>
+
+  <equation id="fs-id1167065759269" class="unnumbered"><label/> <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtable columnalign="left">
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:msup>
+        <m:mi>a</m:mi>
+        <m:mn>2</m:mn>
+       </m:msup>
+       <m:mo>+</m:mo><m:msup>
+        <m:mi>b</m:mi>
+        <m:mn>2</m:mn>
+       </m:msup>
+       <m:mo>=</m:mo><m:msup>
+        <m:mi>c</m:mi>
+        <m:mn>2</m:mn>
+       </m:msup>
+
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mi>c</m:mi><m:mo>=</m:mo><m:msqrt>
+        <m:mrow>
+         <m:msup>
+          <m:mi>a</m:mi>
+          <m:mn>2</m:mn>
+         </m:msup>
+         <m:mo>+</m:mo><m:msup>
+          <m:mi>b</m:mi>
+          <m:mn>2</m:mn>
+         </m:msup>
+
+        </m:mrow>
+       </m:msqrt>
+       <m:mo>.</m:mo>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+
+   </m:mtable>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+  </equation>
+  <para id="fs-id1167065684950">Applying this theorem to the triangle made by <emphasis>F</emphasis><sub>1</sub>, <emphasis>F</emphasis><sub>2</sub>, and <emphasis>F</emphasis><sub>tot</sub> in <link target-id="Figure_05_01_skaters"/>, we get </para>
+    <equation id="fs-id1167065845467" class="unnumbered"><label/>
+       <m:math display="block">
+        <m:mrow>
+          <m:msubsup>
+            <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+            <m:mrow>
+              <m:mtext>tot</m:mtext>
+            </m:mrow>
+            <m:mn>2</m:mn>
+          </m:msubsup>
+          <m:mo>=</m:mo><m:msqrt>
+            <m:mrow>
+              <m:msubsup>
+                <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+                <m:mn>1</m:mn>
+                <m:mn>2</m:mn>
+              </m:msubsup>
+              <m:mo>+</m:mo><m:msubsup>
+                <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+                <m:mn>1</m:mn>
+                <m:mn>2</m:mn>
+              </m:msubsup>
+
+            </m:mrow>
+          </m:msqrt>
+          <m:mo>,</m:mo>
+        </m:mrow>
+      </m:math> </equation><para id="fs-id1167066960058">or</para>
+    <equation id="fs-id1167067191347" class="unnumbered"><label/>
+       <m:math display="block">
+        <m:mrow>
+          <m:msub>
+            <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+            <m:mrow>
+              <m:mtext>tot</m:mtext>
+            </m:mrow>
+          </m:msub>
+          <m:mo>=</m:mo><m:msqrt>
+            <m:mrow>
+              <m:msup>
+                <m:mrow>
+                  <m:mo stretchy="false">(</m:mo><m:mn>400</m:mn><m:mo> </m:mo><m:mtext>N</m:mtext><m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo><m:msup>
+                <m:mrow>
+                  <m:mo stretchy="false">(</m:mo><m:mn>400</m:mn><m:mo> </m:mo><m:mtext>N</m:mtext><m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+                <m:mn>2</m:mn>
+              </m:msup>
+
+            </m:mrow>
+          </m:msqrt>
+          <m:mo>=</m:mo><m:mn>566</m:mn><m:mo> </m:mo><m:mtext>N.</m:mtext>
+        </m:mrow>
+      </m:math>
+
+    </equation><para id="fs-id1167065878919">Note that, if the vectors were not at a right angle to each other  <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo stretchy="false">(</m:mo><m:msup>
+    <m:mrow>
+     <m:mn>90</m:mn>
+    </m:mrow>
+    <m:mo>∘</m:mo>
+   </m:msup>
+
+  </m:mrow>
+ </m:semantics>
+</m:math>
+ to one another), we would not be able to use the Pythagorean theorem to find the magnitude of the resultant vector. Another scenario where adding two-dimensional vectors is necessary is for velocity, where the direction may not be purely east-west or north-south, but some combination of these two directions. In the next section, we cover how to solve this type of problem analytically. For now let’s consider the problem graphically.</para>
+  <note id="fs-id1167065848962" class="worked-example">
+      <title>Adding Vectors Graphically by Using the Head-to-Tail Method: A Woman Takes a Walk</title>
+    <exercise id="fs-id1167065774470" class="05-ex002 unnumbered"><label/>
+      <problem id="fs-id1167065773422"><para id="fs-id1167065986293">Use the graphical technique for adding vectors to find the total displacement of a person who walks the following three paths (displacements) on a flat field. First, she walks 25 m in a direction <m:math>
+        <m:mrow>
+          <m:msup>
+            <m:mrow>
+              <m:mn>49</m:mn>
+            </m:mrow>
+            <m:mo>∘</m:mo>
+          </m:msup>
+
+        </m:mrow>
+      </m:math> north of east. Then, she walks 23 m heading <m:math>
+        <m:mrow>
+          <m:msup>
+            <m:mrow>
+              <m:mn>15</m:mn>
+            </m:mrow>
+            <m:mo>∘</m:mo>
+          </m:msup>
+
+        </m:mrow>
+      </m:math> north of east. Finally, she turns and walks 32 m in a direction <m:math>
+        <m:mrow>
+          <m:msup>
+            <m:mrow>
+              <m:mn>68</m:mn>
+            </m:mrow>
+            <m:mo>∘</m:mo>
+          </m:msup>
+
+        </m:mrow>
+      </m:math> south of east.</para><note id="fs-id1167065854258"><label/><title>Strategy</title>
+          <para id="fs-id1167066032387">Graphically represent each displacement vector with an arrow, labeling the first <emphasis>A</emphasis>, the second <emphasis>B</emphasis>, and the third <emphasis>C</emphasis>. Make the lengths proportional to the distance of the given displacement and orient the arrows as specified relative to an east-west line. Use the head-to-tail method outlined above to determine the magnitude and direction of the resultant displacement, which we’ll call <emphasis>R</emphasis>.</para>
+        </note>
+      </problem>
+        <solution id="fs-id1167065878843"><label/>
+<title>Solution</title>
+<para id="fs-id1167065882029">(1) Draw the three displacement vectors, creating a convenient scale (such as 1 cm of vector length on paper equals 1 m in the problem), as shown in <link target-id="Figure_05_01_displace"/>.</para>
+          <figure id="Figure_05_01_displace">
+            <media id="fs-id1167065865132" alt="Three displacement vectors are drawn on separate x-y axes. Vector A points upward from the origin and is twenty-five meters with an angle of forty-nine degrees. Vector B points upward from the origin and is twenty-three meters with an angle of fifteen degrees. Vector C points downward from the origin and is thirty-two meters with an angle of sixty-eight degrees.">
+              <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_05_01_displace.jpg"/>
+            </media>
+            <caption>The three displacement vectors are drawn first.</caption>
+          </figure>
+          <para id="fs-id1167065769743">(2) Place the vectors head to tail, making sure not to change their magnitude or direction, as shown in <link target-id="Figure_05_01_tall"/>.</para>
+          <figure id="Figure_05_01_tall">
+            <media id="fs-id1167065839060" alt="Three vectors, A, B, and C are shown. They form three sides of a polygon, with an x-axis forming the fourth side. The arrow of vector A touches the end of vector B and has an x-y-axis shown at the touching point. The arrow of vector B touches the end of vector C and has an x-y-axis shown at the touching point.">
+              <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_05_01_tall.jpg"/>
+            </media>
+            <caption>Next, the vectors are placed head to tail.</caption>
+          </figure>
+          <para id="fs-id1167065861444">(3) Draw the <emphasis>resultant vector R</emphasis> from the tail of the first vector to the head of the last vector, as shown in <link target-id="Figure_05_01_result"/>.</para>
+          <figure id="Figure_05_01_result">
+            <media id="fs-id1167066037227" alt="Vectors A, B, C, and R form a four-sided figure, with vector R intersecting an x-axis. The magnitude of vector R is fifty meters and vector R forms a seven degree angle with the x-axis.">
+              <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_05_01_result.jpg"/>
+            </media>
+            <caption>The resultant vector is drawn .</caption>
+          </figure>
+          <para id="fs-id1167065757967">(4) Use a ruler to measure the magnitude of <emphasis>R</emphasis>, remembering to convert back to the units of meters using the scale. Use a protractor to measure the direction of <emphasis>R</emphasis>. While the direction of the vector can be specified in many ways, the easiest way is to measure the angle between the vector and the nearest horizontal or vertical axis. Since <emphasis>R</emphasis> is south of the eastward pointing axis (the <emphasis effect="italics">x</emphasis>-axis), we flip the protractor upside down and measure the angle between the eastward axis and the vector, as illustrated in <link target-id="Figure_05_01_measure"/>.</para>
+          <figure id="Figure_05_01_measure">
+            <media id="fs-id1167065714918" alt="Vectors A, B, C, and R form a four-sided figure, with vector R intersecting an x-axis. A ruler and a protractor are pictured below the figure. The magnitude of vector R is fifty meters and the direction of vector R is ninety degrees.">
+              <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_05_01_measure.jpg"/>
+            </media>
+            <caption>A ruler is used to measure the magnitude of <emphasis>R</emphasis>, and a protractor is used to measure the direction of <emphasis>R</emphasis>.</caption>
+          </figure>
+          <para id="fs-id1167065965344">In this case, the total displacement <emphasis>R</emphasis> has a magnitude of 50 m and points <m:math>
+            <m:mrow>
+              <m:msup>
+                <m:mn>7</m:mn>
+                <m:mo>∘</m:mo>
+              </m:msup>
+
+            </m:mrow>
+          </m:math> south of east. Using its magnitude and direction, this vector can be expressed as</para>
+          <para id="fs-id1167065690165"><!--<emphasis>R</emphasis> = 50 m--><equation id="fs-id1164564820973"> <m:math display="block">
+ <m:mrow>
+  <m:mtext>R = </m:mtext><m:mn>50</m:mn><m:mspace width="0.3em"/><m:mtext> m</m:mtext>
+ </m:mrow>
+</m:math> </equation>
+</para><para id="fs-id1167065855872">and</para>
+          <para id="fs-id1167065879484"><equation id="fs-id1164562406903"> <m:math>
+            <m:mrow>
+              <m:mi>θ</m:mi><m:mo>=</m:mo><m:msup>
+                <m:mn>7</m:mn>
+                <m:mo>∘</m:mo>
+                </m:msup>
+
+<m:mtext>south of east.</m:mtext>
+</m:mrow>
+          </m:math> </equation></para>
+        </solution>
+      <commentary id="fs-id1167065861649">
+        <title>Discussion</title>
+        <para id="fs-id1167065773429">The head-to-tail graphical method of vector addition works for any number of vectors. It is also important to note that it does not matter in what order the vectors are added. Changing the order does not change the resultant. For example, we could add the vectors as shown in <link target-id="Figure_05_01_alt"/>, and we would still get the same solution.</para>
+        <figure id="Figure_05_01_alt">
+          <media id="fs-id1167065838049" alt="Vectors A, B, C, and R are shown. Angle CR is against the origin of x and y-axes and vector R has a length of 50 centimeters. Vector R forms a seven degree angle with the x-axis. Vectors C and A form an angle, and vectors B and R form an angle.">
+            <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_05_01_alt.jpg"/>
+          </media>
+          <caption>Vectors can be added in any order to get the same result.</caption>
+        </figure>
+      </commentary></exercise></note><note id="fs-id1167065938289" class="os-teacher">
+    <title>Teacher Support</title>
+    <para id="fs-id1167065714453"><span>[BL]</span><span>[OL]</span><span>[AL]</span> Ask three students to enact the situation shown in <link target-id="Figure_05_01_displace"/>. Recall how these forces can be represented in a free-body diagram. Giving values to these vectors, show how these can be added graphically.</para>
+  </note>
+    <note id="fs-id1167065802397" class="worked-example">
+        <title>Subtracting Vectors Graphically: A Woman Sailing a Boat</title>
+      <exercise id="fs-id1167065714418" class="05-ex003 unnumbered"><label/>
+       <problem id="fs-id1167065712861">
+         <para id="fs-id1167065713508">A woman sailing a boat at night is following directions to a dock. The instructions read to first sail 27.5 m in a direction <m:math>
+           <m:mrow>
+             <m:msup>
+               <m:mrow>
+                 <m:mn>66.0</m:mn>
+               </m:mrow>
+               <m:mo>∘</m:mo>
+             </m:msup>
+
+           </m:mrow>
+         </m:math> north of east from her current location, and then travel 30.0 m in a direction <m:math>
+           <m:mrow>
+             <m:msup>
+               <m:mrow>
+                 <m:mn>112</m:mn>
+               </m:mrow>
+               <m:mo>∘</m:mo>
+             </m:msup>
+
+           </m:mrow>
+         </m:math> north of east (or <m:math>
+           <m:mrow>
+             <m:msup>
+               <m:mrow>
+                 <m:mn>22.0</m:mn>
+               </m:mrow>
+               <m:mo>∘</m:mo>
+             </m:msup>
+
+           </m:mrow>
+         </m:math> west of north). If the woman makes a mistake and travels in the <emphasis effect="italics">opposite</emphasis> direction for the second leg of the trip, where will she end up? The two legs of the woman’s trip are illustrated in <link target-id="Figure_05_01_magnitude"/>.</para>
+         <figure id="Figure_05_01_magnitude">
+           <media id="fs-id1167065885132" alt="An x-y axis is shown for reference. Vector A points upward from the x-axis is twenty-seven point five meters, and has an angle of sixty-six degrees. Vector B points upward from the x-axis is thirty meters, and has an angle of one hundred twelve degrees.">
+             <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_05_01_magnitude.jpg"/>
+           </media>
+           <caption>In the diagram, the first leg of the trip is represented by vector A and the second leg is represented by vector B.</caption>
+         </figure>
+         <note id="fs-id1167066039953"><label/><title>Strategy</title>
+           <para id="fs-id1167065859287">We can represent the first leg of the trip with a vector <emphasis>A</emphasis>, and the second leg of the trip that she was <emphasis effect="italics">supposed to</emphasis> take with a vector <emphasis>B</emphasis>. Since the woman mistakenly travels in the opposite direction for the second leg of the journey, the vector for second leg of the trip she <emphasis effect="italics">actually</emphasis> takes is −<emphasis>B</emphasis>. Therefore, she will end up at a location <emphasis>A</emphasis> + (−<emphasis>B</emphasis>), or <emphasis>A</emphasis> − <emphasis>B</emphasis>. Note that −<emphasis>B</emphasis> has the same magnitude as <emphasis>B</emphasis> (30.0 m), but is in the opposite direction, <m:math>
+             <m:mrow>
+               <m:msup>
+                 <m:mrow>
+                   <m:mn>68</m:mn>
+                 </m:mrow>
+                 <m:mo>∘</m:mo>
+               </m:msup>
+               <m:mo stretchy="false">(</m:mo><m:msup>
+                 <m:mrow>
+                   <m:mn>180</m:mn>
+                 </m:mrow>
+                 <m:mo>∘</m:mo>
+               </m:msup>
+               <m:mo>−</m:mo><m:msup>
+                 <m:mrow>
+                   <m:mn>112</m:mn>
+                 </m:mrow>
+                 <m:mo>∘</m:mo>
+               </m:msup>
+               <m:mo stretchy="false">)</m:mo>
+             </m:mrow>
+           </m:math> south of east, as illustrated in <link target-id="Figure_05_01_inclined"/>.</para>
+         <figure id="Figure_05_01_inclined">
+           <media id="fs-id1167065755627" alt="An x-y-axis is shown on the left for reference. On the right, vector negative B points downward and intersects the x-axis, forming an angle that measures sixty-eight degrees and a supplementary angle that measures one hundred twelve degrees.">
+             <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_05_01_inclined.jpg"/>
+           </media>
+           <caption>Vector –B represents traveling in the opposite direction of vector B.</caption>
+         </figure>
+           <para id="fs-id1167065788374">We use graphical vector addition to find where the woman arrives <emphasis>A</emphasis> + (−<emphasis>B</emphasis>).</para></note>
+       </problem>
+        <solution id="fs-id1167065880148"><label/>
+<title>Solution</title>
+          <para id="fs-id1167065775584">(1) To determine the location at which the woman arrives by accident, draw vectors <emphasis>A</emphasis> and −<emphasis>B</emphasis>.</para>
+          <para id="fs-id1167065793489">(2) Place the vectors head to tail.</para>
+          <para id="fs-id1167065747609">(3) Draw the resultant vector <emphasis>R</emphasis>.</para>
+          <para id="fs-id1167065729949">(4) Use a ruler and protractor to measure the magnitude and direction of <emphasis>R</emphasis>.</para>
+          <para id="fs-id1167065762394">These steps are demonstrated in <link target-id="Figure_05_01_connected"/>.</para>
+          <figure id="Figure_05_01_connected">
+            <media id="fs-id1167065770877" alt="An x-y axis is shown on the left. On the right, vectors A, negative B, and R form a triangle. R and the x-axis form an angle with a measure of seven point five degrees. A minus B equals R and R equals twenty-three meters.">
+              <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_05_01_connected.jpg"/>
+            </media>
+            <caption>The vectors are placed head to tail.</caption>
+          </figure>
+          <para id="fs-id1167065795594">In this case</para>
+          <para id="fs-id1167065768837"><equation id="fs-id1164563522704"> <m:math>
+            <m:mrow>
+              <m:mi>R</m:mi><m:mo>=</m:mo><m:mn>23.0</m:mn><m:mspace width="0.3em"/><m:mtext>m</m:mtext>
+            </m:mrow>
+          </m:math> </equation></para>
+          <para id="fs-id1167065738986">and</para>
+          <para id="fs-id1167065711479"><equation id="fs-id1164563092313"> <m:math>
+            <m:mrow>
+              <m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>7.5</m:mn><m:mo>°</m:mo><m:mtext>south of east.</m:mtext>
+            </m:mrow>
+          </m:math> </equation></para></solution>
+          <commentary id="fs-id1167065811553">
+            <title>Discussion</title>
+            <para id="fs-id1167065696248">Because subtraction of a vector is the same as addition of the same vector with the opposite direction, the graphical method for subtracting vectors works the same as for adding vectors.</para>
+          </commentary>
+
+      </exercise></note><note id="fs-id1167065699355" class="worked-example">
+        <title>Adding Velocities: A Boat on a River</title>
+      <exercise id="fs-id1167065825624" class="05-ex004 unnumbered"><label/>
+
+        <problem id="fs-id1167065739766">
+          <para id="fs-id1167065897689">A boat attempts to travel straight across a river at a speed of 3.8 m/s. The river current flows at a speed <emphasis effect="italics">v</emphasis><sub>river</sub> of 6.1 m/s to the right. What is the total velocity and direction of the boat? You can represent each meter per second of velocity as one centimeter of vector length in your drawing.</para>
+          <note id="fs-id1167065826407"><label/><title>Strategy</title>
+            <para id="fs-id1167065885314">We start by choosing a coordinate system with its x-axis parallel to the velocity of the river. Because the boat is directed straight toward the other shore, its velocity is perpendicular to the velocity of the river. We draw the two vectors, <emphasis>v</emphasis><sub>boat</sub> and <emphasis>v</emphasis><sub>river</sub>, as shown in <link target-id="Figure_05_01_river"/>.</para>
+            <para id="fs-id1167065822748">Using the head-to-tail method, we draw the resulting total velocity vector from the tail of <emphasis>v</emphasis><sub>boat</sub> to the head of <emphasis>v</emphasis><sub>river</sub>.</para>
+            <figure id="Figure_05_01_river">
+              <media id="fs-id1167065955197" alt="A river is shown with a boat traveling across it. Three images of the boat are shown to indicate the boat's motion in diagonal path across the river from the bottom left to the upper right corner. Three vectors are drawn to form a right triangle. The hypotenuse intersects the path of the boat and is labeled V tot. The left leg of the triangle is labeled V boat, three point eight meters per second. The upper leg of the triangle is labeled V river at one point six one meters per second. An x-y axis is in the bottom left corner for reference.">
+                <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_05_01_river.jpg"/>
+              </media>
+              <caption>A boat attempts to travel across a river. What is the total velocity and direction of the boat?</caption>
+            </figure>
+            </note>
+        </problem>
+        <solution id="fs-id1167065949816"><label/>
+<title>Solution</title>
+          <para id="fs-id1167065773315">By using a ruler, we find that the length of the resultant vector is 7.2 cm, which means that the magnitude of the total velocity is </para>
+          <para id="fs-id1167065972580"><!--<emphasis>v</emphasis><sub>tot</sub> = 7.2 m/s.--><equation id="fs-id1164562255496"> <m:math display="block">
+ <m:mrow>
+  <m:msub><m:mtext>v</m:mtext><m:mtext>tot</m:mtext></m:msub><m:mo>=</m:mo><m:mn>7.2</m:mn><m:mspace width="0.5em"/><m:mtext>m/s</m:mtext>
+  <m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </equation></para><para id="fs-id1167065721923">By using a protractor to measure the angle, we find <m:math>
+            <m:mrow>
+              <m:mi>θ</m:mi><m:mo>=</m:mo><m:msup>
+                <m:mrow>
+                  <m:mn>32.0</m:mn>
+                </m:mrow>
+                <m:mo>∘</m:mo>
+              </m:msup>
+              <m:mtext>.</m:mtext>
+            </m:mrow>
+          </m:math>
+          </para>
+        </solution>
+        <commentary id="fs-id1167066037318">
+          <title>Discussion</title>
+          <para id="fs-id1167065853413">If the velocity of the boat and river were equal, then the direction of the total velocity would have been 45°. However, since the velocity of the river is greater than that of the boat, the direction is less than 45° with respect to the shore, or <emphasis effect="italics">x</emphasis> axis. </para></commentary>
+      </exercise>
+    </note><note id="fs-id1167065867227" class="os-teacher">
+      <title>Teacher Support</title>
+
+      <note id="fs-id1167066822032" class="teacher-demonstration">
+
+        <para id="fs-id1167065857180">Plot the way from the classroom to the cafeteria (or any two places in the school on the same level). Ask students to come up with approximate distances. Ask them to do a vector analysis of the path. What is the total distance travelled? What is the displacement?</para> </note>     </note>
+      </section>
+      <section id="fs-id1167065712747" class="practice-problems"><title>Practice Problems</title><exercise id="fs-id1167065882472">
+          <problem id="fs-id1167065654470">
+            <para id="fs-id1167065839006">
+              <link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex005"/>
+            </para>
+          </problem>
+        </exercise>
+        <exercise id="fs-id1167065892563">
+          <problem id="fs-id1167065812356">
+            <para id="fs-id1167066057181">
+              <link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex006"/>
+            </para>
+          </problem>
+        </exercise>
+      </section>
+      <section id="denesting">
+      <note id="fs-id1167065826994" class="virtual-physics os-interactive"><title>Vector Addition</title>
+
+      <para id="fs-id1167065787931">In <link url="https://openstax.org/l/28vectoradd/">this simulation</link>, you will experiment with adding vectors graphically. Click and drag the red vectors from the Grab One basket onto the graph in the middle of the screen. These red vectors can be rotated, stretched, or repositioned by clicking and dragging with your mouse. Check the Show Sum box to display the resultant vector (in green), which is the sum of all of the red vectors placed on the graph. To remove a red vector, drag it to the trash or click the Clear All button if you wish to start over. Notice that, if you click on any of the vectors, the <m:math>
+        <m:mrow>
+          <m:mrow><m:mo>|</m:mo> <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>R</m:mi></m:mstyle> <m:mo>|</m:mo></m:mrow>
+        </m:mrow>
+      </m:math> is its magnitude, <m:math>
+        <m:mrow>
+          <m:mi>θ</m:mi>
+        </m:mrow>
+      </m:math> is its direction with respect to the positive <emphasis effect="italics">x</emphasis>-axis, <emphasis>R<sub>x</sub></emphasis> is its horizontal component, and <emphasis effect="italics">R<sub>y</sub></emphasis> is its vertical component. You can check the resultant by lining up the vectors so that the head of the first vector touches the tail of the second. Continue until all of the vectors are aligned together head-to-tail. You will see that the resultant magnitude and angle is the same as the arrow drawn from the tail of the first vector to the head of the last vector. Rearrange the vectors in any order head-to-tail and compare. The resultant will always be the same.</para>
+<media id="fs-id1167066847646" alt="This simulation provides the tools to experiment with adding vectors graphically.">
+<iframe width="660" height="371.4" src="https://openstax.org/l/28vectoradd/"/></media>
+      <exercise id="fs-id1167065762452" class="os-exercise grasp-check unnumbered">
+        <problem id="fs-id1167065855060">
+          <!--<para id="fs-id1167065734108">
+            <link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex007"/>
+          </para>-->
+<para id="fs-id1164564967961">True or FalseThe more long, red vectors you put on the graph, rotated in any direction, the greater the magnitude of the resultant green vector.</para>
+<list id="fs-id1164557674160" list-type="enumerated" number-style="lower-alpha">
+<item>True</item>
+<item>False</item>
+</list>
+        </problem>
+      </exercise></note></section>
+  <section id="fs-id1167065948761" class="summary">
+    <title>Section Summary</title>
+    <list id="fs-id1167065763197">
+      <item>The graphical method of adding vectors <m:math>
+        <m:mrow>
+          <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>A</m:mtext></m:mstyle>
+        </m:mrow>
+      </m:math> and <m:math>
+        <m:mrow>
+          <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>B</m:mi></m:mstyle>
+        </m:mrow>
+      </m:math> involves drawing vectors on a graph and adding them by using the head-to-tail method. The resultant vector <m:math>
+        <m:mrow>
+          <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>R</m:mi></m:mstyle>
+        </m:mrow>
+      </m:math> is defined such that <emphasis>A</emphasis> + <emphasis>B</emphasis> = <emphasis>R</emphasis>. The magnitude and direction of <m:math>
+        <m:mrow>
+          <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>R</m:mtext></m:mstyle>
+        </m:mrow>
+      </m:math> are then determined with a ruler and protractor.</item>
+      <item>The graphical method of subtracting vectors <emphasis>A</emphasis> and <emphasis>B</emphasis> involves adding the opposite of vector <emphasis>B</emphasis>, which is defined as −<emphasis>B</emphasis>. In this case, <m:math>
+        <m:mrow>
+          <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>A</m:mi><m:mo> </m:mo><m:mo>–</m:mo><m:mo> </m:mo><m:mi>B</m:mi><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mi>A</m:mi><m:mo> </m:mo><m:mo>+</m:mo><m:mo> </m:mo><m:mo stretchy="false">(</m:mo><m:mo>–</m:mo><m:mi>B</m:mi><m:mo stretchy="false">)</m:mo><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mi>R</m:mi></m:mstyle><m:mo>.</m:mo>
+        </m:mrow>
+      </m:math> Next, use the head-to-tail method as for vector addition to obtain the resultant vector <m:math>
+        <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>R</m:mtext></m:mstyle>
+      </m:math> .</item>
+      <item>Addition of vectors is independent of the order in which they are added; <emphasis>A</emphasis> + <emphasis>B</emphasis> = <emphasis>B</emphasis> + <emphasis>A</emphasis>.</item>
+      <item>The head-to-tail method of adding vectors involves drawing the first vector on a graph and then placing the tail of each subsequent vector at the head of the previous vector. The resultant vector is then drawn from the tail of the first vector to the head of the final vector.</item>
+      <item>Variables in physics problems, such as force or velocity, can be represented with vectors by making the length of the vector proportional to the magnitude of the force or velocity. </item>
+      <item>Problems involving displacement, force, or velocity may be solved graphically by measuring the resultant vector’s magnitude with a ruler and measuring the direction with a protractor.</item>
+    </list>
+  </section>
+  <section id="fs-id1167066955195" class="check-understanding"><title>Check Your Understanding</title><exercise id="fs-id1167066975379" class="os-exercise">
+      <problem id="fs-id1167066970745">
+        <para id="fs-id1167066863716">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex008"/>
+        </para>
+      </problem>
+    </exercise>
+    <exercise id="fs-id1167066983659" class="os-exercise">
+      <problem id="fs-id1167066838086">
+        <!--<para id="fs-id1167067049671">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex009"/>
+        </para>-->
+
+<para id="fs-id1164564964889">True or FalseA person walks 2 blocks east and 5 blocks north. Another person walks 5 blocks north and then two blocks east. The displacement of the first person will be more than the displacement of the second person.</para>
+<list id="fs-id1164562113752" list-type="enumerated" number-style="lower-alpha">
+<item>True</item>
+<item>False</item>
+</list>
+      </problem>
+    </exercise>
+    <note id="fs-id1167065949347" class="os-teacher">
+      <title>Teacher Support</title>
+      <para id="fs-id1167067154035">Use the Check Your Understanding questions to assess whether students achieve the learning objectives for this section. If students are struggling with a specific objective, the Check Your Understanding will help identify which objective is causing the problem and direct students to the relevant content.</para></note>
+  </section><section id="fs-id1167065848800" class="concept"><title>Concept Items</title><exercise id="fs-id1167065869663" class="os-exercise"><problem id="fs-id1167065869666">
+        <para id="fs-id1167065869668">There is a vector  <m:math><m:mover><m:mtext>A</m:mtext><m:mo>→</m:mo></m:mover></m:math>, with magnitude 5 units pointing towards west and vector  <m:math><m:mover><m:mtext>B</m:mtext><m:mo>→</m:mo></m:mover></m:math>, with magnitude 3 units, pointing towards south. Using vector addition, calculate the magnitude of the resultant vector.
+
+        </para><list id="eip-idm514644704" list-type="enumerated" number-style="lower-alpha"><item>4.0</item>
+<item>5.8</item>
+<item>6.3</item>
+<item>8.0</item></list></problem>
+    </exercise><exercise id="eip-id1166849254639" class="os-exercise">
+<problem id="eip-id1166849934582">
+<para id="eip-id1166849934584">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch05-ot007"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166849329823" class="os-exercise">
+<problem id="eip-id1166849331531">
+<para id="eip-id1166849331533">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch05-ot008"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167065661413" class="problems">
+    <title>Problems</title>
+    <exercise id="fs-id1167065938127" class="os-exercise">
+      <problem id="fs-id1167065938130">
+        <para id="fs-id1167065938132">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex011"/>
+        </para>
+      </problem>
+    </exercise>
+    <exercise id="fs-id1167065850968" class="os-exercise">
+      <problem id="fs-id1167065850971">
+        <para id="fs-id1167065846676">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex012"/>
+        </para>
+      </problem>
+    </exercise>
+  </section>
+  <section id="fs-id1167065846686" class="critical-thinking">
+    <title>Critical Thinking</title>
+<exercise id="fs-id1167065855128" class="os-exercise"><problem id="fs-id1167065855130"><!--<para id="fs-id1167065855131"><link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex013"/></para>-->
+<para id="fs-id1164562127745">True or FalseA person is following a set of directions. He has to walk 2 km east and then 1 km north. He takes a wrong turn and walks in the opposite direction for the second leg of the trip. The magnitude of his total displacement will be the same as it would have been had he followed directions correctly.</para>
+<list id="fs-id1164566528409" list-type="enumerated" number-style="lower-alpha">
+<item>True</item>
+<item>False</item>
+</list>
+
+</problem></exercise>
+  </section>
+  <section id="fs-id1167065864695" class="multiple-choice"><title>Test Prep Multiple Choice</title>
+<exercise id="fs-id1167065864701" class="os-exercise"><problem id="fs-id1167065864704"><!--<para id="fs-id1167065864705"><link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex014"/></para>-->
+<para id="fs-id1164566481938">True or False—We can use Pythagorean theorem to calculate the length of the resultant vector obtained from the addition of two vectors which are at right angles to each other.</para>
+<list id="fs-id1164564909029" list-type="enumerated" number-style="lower-alpha">
+<item>True</item>
+<item>False</item>
+</list>
+</problem></exercise>
+    <exercise id="fs-id1167066047872" class="os-exercise"><problem id="fs-id1167066047874"><!--<para id="fs-id1167066047876"><link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex015"/></para>-->
+<para id="fs-id1164565196411">True or FalseThe direction of the resultant vector depends on both the magnitude and direction of added vectors.</para>
+<list id="fs-id1164560866907" list-type="enumerated" number-style="lower-alpha">
+<item>True</item>
+<item>False</item>
+</list>
+</problem></exercise>
+  <exercise id="eip-id1166849406980" class="os-exercise">
+<problem id="eip-id1166850102395">
+<para id="eip-id1166850102397">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch05-ot013"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166849964506" class="os-exercise">
+<problem id="eip-id1166849331641">
+<para id="eip-id1166849331643">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch05-ot015"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167066047882" class="short-answer">
+    <title>Test Prep Short Answer</title>
+    <exercise id="fs-id1167065961593" class="os-exercise"><problem id="fs-id1167065961596"><para id="fs-id1167065961597"><link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex016"/></para></problem></exercise>
+    <exercise id="fs-id1167065859446" class="os-exercise"><problem id="fs-id1167065859449"><para id="fs-id1167065859450"><link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex017"/></para></problem></exercise>
+    <exercise id="fs-id1167065859455" class="os-exercise"><problem id="fs-id1167065859457"><!--<para id="fs-id1167065859458"><link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex018"/></para>-->
+<para id="fs-id1164566930449">Consider six vectors of 2 cm each, joined from head to tail making a hexagon. What would be the magnitude of the addition of these vectors?</para>
+<list id="fs-id1164566913487" list-type="enumerated" number-style="lower-alpha">
+<item>Zero</item>
+<item>Six</item>
+<item>Eight</item>
+<item>Twelve</item>
+</list>
+</problem></exercise>
+    <exercise id="fs-id1167065871032" class="os-exercise"><problem id="fs-id1167065871034"><!--<para id="fs-id1167065871035"><link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex019"/></para>-->
+<para id="fs-id1164565216525">Two people pull on ropes tied to a trolley, each applying 44 N of force. The angle the ropes form with each other is 39.5°. What is the magnitude of the net force exerted on the trolley?</para>
+<list id="fs-id1164564806236" list-type="enumerated" number-style="lower-alpha">
+<item>0.0 N</item>
+<item>79.6 N</item>
+<item>82.8 N</item>
+<item>88.0 N</item>
+</list>
+</problem></exercise>
+  </section>
+  <section id="fs-id1167065871042" class="extended-response">
+    <title>Test Prep Extended Response</title>
+    <exercise id="fs-id1167065850650" class="os-exercise"><problem id="fs-id1167065850652"><!--<para id="fs-id1167065850653"><link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex020"/></para>-->
+<para id="fs-id1164560820877">True or False—For vectors the order of addition is important.</para>
+<list id="fs-id1164559071822" list-type="enumerated" number-style="lower-alpha">
+<item>True</item>
+<item>False</item>
+</list>
+</problem></exercise>
+    <exercise id="fs-id1167065875808" class="os-exercise"><problem id="fs-id1167065875810"><!--<para id="fs-id1167065875811"><link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex021"/></para>-->
+<para id="fs-id1164562349365">Consider five vectors <emphasis effect="italics">a, b, c, d,</emphasis> and <emphasis effect="italics">e.</emphasis> Is it true or false that their addition always results in a vector with a greater magnitude than if only two of the vectors were added?</para>
+<list id="fs-id1164563491878" list-type="enumerated" number-style="lower-alpha">
+<item>True</item>
+<item>False</item>
+</list>
+</problem></exercise>
+
+  </section>
+</content>
+<glossary>
+  <definition id="fs-id1167065875821"><term>graphical method</term> <meaning id="fs-id1167065892472">drawing vectors on a graph to add them using the head-to-tail method</meaning></definition>
+  <definition id="fs-id1167065892475"><term>head (of a vector)</term> <meaning id="fs-id1167065892480">the end point of a vector; the location of the vector’s arrow; also referred to as the tip</meaning></definition>
+  <definition id="fs-id1167065971972"><term>head-to-tail method</term> <meaning id="fs-id1167065971976">a method of adding vectors in which the tail of each vector is placed at the head of the previous vector</meaning></definition>
+  <definition id="fs-id1167065971980"><term>resultant</term> <meaning id="fs-id1167065971984">the sum of the a collection of vectors</meaning></definition>
+  <definition id="fs-id1167065910234"><term>resultant vector</term> <meaning id="fs-id1167065910238">the vector sum of two or more vectors</meaning></definition>
+  <definition id="fs-id1167065910241"><term>tail</term> <meaning id="fs-id1167065910246">the starting point of a vector; the point opposite to the head or tip of the arrow</meaning></definition>
+  <definition id="fs-id1167065702799"><term>vector addition</term> <meaning id="fs-id1167065702804">adding together two or more vectors</meaning></definition>
+
+</glossary>
+</document>

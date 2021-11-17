@@ -1,0 +1,803 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<title>The Electromagnetic Spectrum</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54342</md:content-id>
+  <md:title>The Electromagnetic Spectrum</md:title>
+  <md:abstract/>
+  <md:uuid>7d996634-c209-41d3-a183-18f0081f9388</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167063095535" class="learning-objectives"><label/><title>Section Learning Objectives</title>
+<para id="fs-id1167064818567">By the end of this section, you will be able to do the following:</para>
+<list id="fs-id1167062588048"><item>Define the electromagnetic spectrum, and describe it in terms of frequencies and wavelengths</item>
+<item>Describe and explain the differences and similarities of each section of the electromagnetic spectrum and the applications of radiation from those sections</item>
+</list></note><note id="fs-id1167066800362" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167063673968">The learning objectives in this section will help your students master the following standards</para>
+<list id="fs-id1167066960090"><item>(7) Science concepts. The student knows the characteristics and behavior of waves. The student is expected to:
+<list id="fs-id1167063512549"><item>
+<span>(A) </span>
+<span>examine and describe oscillatory motion and wave propagation in various types of media;</span>
+</item>
+<item>
+<span>(B) </span>
+<span>investigate and analyze characteristics of waves, including velocity, frequency, amplitude, and wavelength, and calculate using the relationship between wave speed, frequency, and wavelength;</span>
+</item>
+<item>
+<span>(C) </span>
+<span>compare characteristics and behaviors of transverse waves, including electromagnetic waves and the electromagnetic spectrum, and characteristics and behaviors of longitudinal waves, including sound waves; and</span>
+</item>
+<item>
+<span>(F) </span>
+<span>describe the role of wave characteristics and behaviors in medical and industrial applications.</span>
+</item>
+</list></item>
+</list>
+<para id="fs-id1169316057261">In addition, the High School Physics Laboratory Manual addresses content in this section in the lab titled: Light and Color, as well as the following standards:</para><list id="fs-id1169315061688">
+<item>(7) Science concepts. The student knows the characteristics and behavior of waves. The student is expected to
+<list id="fs-id1169316094995">
+<item>
+<span>(C) </span>
+ <span>compare characteristics and behaviors of transverse waves, including electromagnetic waves and the electromagnetic spectrum, and characteristics and behaviors of longitudinal waves, including sound waves.</span>
+</item>
+</list>
+</item>
+</list>
+<list id="fs-id1169316405943">
+<item>(8) Science concepts. The student knows simple examples of atomic, nuclear, and quantum phenomena. The student is expected to
+<list id="fs-id1169316516227"><item>
+<span>(B) </span>
+ <span>compare and explain the emission spectra produced by various atoms.</span>
+</item>
+</list></item>
+</list>
+</note>
+<section id="keyterms"><title>Section Key Terms</title>
+<table id="fs-id1167064927104" class="unnumbered unstyled section-key-terms" summary="Section key terms is a 3 column table. The first row reads electric field, electromagnetic radiation E M R, magnetic field. The second row reads Maxwell's equations.">
+<label/>
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+<row>
+<entry>electric field</entry>
+<entry>electromagnetic radiation (EMR)</entry>
+<entry>magnetic field</entry>
+<entry>Maxwell’s equations</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<note id="fs-id1167065843440" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065884446"><span>[BL]</span>Explain that the term <emphasis effect="italics">spectrum</emphasis> refers to a physical property that has a broad range with values that are continuous in some cases and, in other cases, discrete. Ask for other examples of spectra, for example, sound, people’s heights, etc.</para>
+<para id="fs-id1167065037990"><span>[OL]</span>Ask students to name ways that sunlight affects Earth. Provide examples that students don’t name: photosynthesis, weather, climate, seasons, warming, etc. Discuss energy transformations that take place after light enters the atmosphere, such as transformations in food chains and ecosystems. Ask students if they can explain how the energy in fossil fuels was originally light energy.</para>
+<note id="fs-id1167065715361" class="misconception">
+
+<para id="fs-id1167066025221">The light we can see is called visible light. Dispel any misconceptions that visible light is somehow different from radiation we cannot see, except for frequency and wavelength. The fact that some radiation is visible has to do with how the eye functions, not with the radiation itself.</para>
+</note>
+</note>
+<section id="fs-id1167065871698"><title>The Electromagnetic Spectrum</title><para id="fs-id1167065067186">We generally take light for granted, but it is a truly amazing and mysterious form of energy. Think about it: Light travels to Earth across millions of kilometers of empty space. When it reaches us, it interacts with matter in various ways to generate almost all the energy needed to support life, provide heat, and cause weather patterns. Light is a form of <term>electromagnetic radiation (EMR)</term>. The term <emphasis effect="italics">light</emphasis> usually refers to <term class="no-emphasis">visible light</term>, but this is not the only form of EMR. As we will see, visible light occupies a narrow band in a broad range of types of electromagnetic radiation.</para>
+<note id="fs-id1167062377078" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167064915408"><span>[OL]</span>Discuss electric, magnetic, and gravitational fields. Point out how these three fields are similar, and how they differ.</para>
+<para id="fs-id1167064590404"><span>[AL]</span>Describe vectors as having magnitude and direction, and explain that fields are vector quantities. In these cases, the fields are made up of forces acting in a direction.</para>
+</note>
+<para id="fs-id1167066170006">Electromagnetic radiation is generated by a moving electric charge, that is, by an electric current. As you will see when you study electricity, an electric current generates both an <term>electric field</term>, <emphasis>E</emphasis>, and a <term>magnetic field</term>, <emphasis>B</emphasis>. These fields are perpendicular to each other. When the moving charge oscillates, as in an alternating current, an EM wave is propagated. <link target-id="Figure_15_01_EMwave"/> shows how an electromagnetic wave moves away from the source—indicated by the ~ symbol.</para>
+<note id="fs-id1167066120380" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167064899679"><span>[BL]</span>Review wave properties: frequency, wavelength, and amplitude. Ask students to recall sound and water waves, and explain how they relate to these properties.</para>
+<para id="fs-id1167066028053"><span>[OL]</span>Explain that an important difference between EM waves and other waves is that they can travel across empty space.</para><para id="fs-id1167066103292"><span>[AL]</span>Ask if students remember the differences between longitudinal and transverse waves. Give examples. Explain that waves carry energy, not matter.</para>
+</note>
+<note id="fs-id1167065061701" class="watch-physics"><title>Electromagnetic Waves and the Electromagnetic Spectrum</title>
+
+<para id="fs-id1167064909498">This video, link below, is closely related to the following figure. If you have questions about EM wave properties, the EM spectrum, how waves propagate, or definitions of any of the related terms, the answers can be found in this <link class="os-embed" url="http://www.openstax.org/l/28EMWaves">video</link>.</para><media id="eip-id1167067174336" alt="watchphysics" class="os-­‐embed">
+<iframe width="660" height="371.4" src="https://www.openstax.org/l/28EMWaves"/>
+</media>
+<exercise id="fs-id1167065978009" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167066032980">
+<!--<para id="fs-id1167062968801">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch15-ex001"/>
+</para>-->
+<para id="fs-id1164567518956">In an electromagnetic wave, how are the magnetic field, the electric field, and the direction of propagation oriented to each other?</para>
+<list id="fs-id1164565644968" list-type="enumerated" number-style="lower-alpha">
+<item>All three are parallel to each other and are along the <emphasis effect="italics">x</emphasis>-axis.</item>
+<item>All three are mutually perpendicular to each other.</item>
+<item>The electric field and magnetic fields are parallel to each other and perpendicular to the direction of propagation.</item>
+<item>The magnetic field and direction of propagation are parallel to each other along the <emphasis effect="italics">y</emphasis>-axis and perpendicular to the electric field.</item>
+</list>
+</problem>
+</exercise>
+<note id="fs-id1167064903696" class="os-teacher"><title>Teacher Support</title>
+<para id="fs-id1167064927654">Direct students to use this video as a way of connecting to the information in the following two figures, as well as to the following table.</para></note>
+</note>
+<note id="fs-id1167065912785" class="virtual-physics"><title>Radio Waves and Electromagnetic Fields</title>
+<media id="fs-id1167065661124" alt="This simulation demonstrates EM wave propagation">
+<iframe width="660" height="371.4" src="https://openstax.org/l/28Radiowaves"/></media>
+<para id="fs-id1167061228865">This simulation demonstrates wave propagation. The EM wave is propagated from the broadcast tower on the left, just as in <link target-id="Figure_15_01_EMwave"/>. You can make the wave yourself or allow the animation to send it. When the wave reaches the antenna on the right, it causes an oscillating current. This is how radio and television signals are transmitted and received.</para>
+<exercise id="fs-id1167064669785" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167066146054">
+<!--<para id="fs-id1167065772516">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch15-ex002"/>
+</para>-->
+<para id="fs-id1164567350016">Where do radio waves fall on the electromagnetic spectrum?</para>
+<list id="fs-id1164566119853" list-type="enumerated" number-style="lower-alpha">
+<item>Radio waves have the same wavelengths as visible light.</item>
+<item>Radio waves fall on the high-frequency side of visible light.</item>
+<item>Radio waves fall on the short-wavelength side of visible light.</item>
+<item>Radio waves fall on the low-frequency side of visible light.</item>
+</list>
+</problem>
+</exercise>
+<note id="fs-id1167064900891" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065859876">Connect the discussion from the previous video, in which the generation of an electromagnetic wave is described, to this application of transmission and reception of electromagnetic waves. In particular, point out how the reception of the radio wave is essentially identical to the method by which the wave is generated. Explain also that these electromagnetic waves are the <emphasis effect="italics">carrier</emphasis> waves on which audio or visual signals—either analog or digital—are placed, so that they can be transmitted to receivers within a certain range of the broadcast antenna.</para>
+</note>
+</note><figure id="Figure_15_01_EMwave">
+<media id="fs-id1167066103182" alt="The diagram shows two intersecting planes: a vertical plane labeled “E” and a horizontal plane labeled “B”. The line of intersection is drawn as an arrow, with the letter “c” next to the arrowhead. Within the vertical plane are the crest, trough, and crest of a blue wave, enclosing arrows that point from the baseline to the line of the wave. Likewise, within the horizontal plane are the crest, trough, and crest of a red wave, enclosing arrows that point from the baseline to the line of the wave. To the left of the intersecting planes is a thin vertical bar with a small circle in the middle and a wave symbol within the circle.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_15_01_EMwave.jpg"/>
+</media>
+<caption>A part of the electromagnetic wave sent out from an oscillating charge at one instant in time. The electric and magnetic fields (<emphasis>E</emphasis> and <emphasis>B</emphasis>) are in phase, and they are perpendicular to each other and to the direction of propagation. For clarity, the waves are shown only along one direction, but they propagate out in other directions too.</caption>
+</figure>
+<para id="fs-id1167065763586">From your study of sound waves, recall these features that apply to all types of waves:</para>
+<list id="fs-id1167065931579">
+<item><term class="no-emphasis">Wavelength</term>—The distance between two wave crests or two wave troughs, expressed in various metric measures of distance</item>
+<item><term class="no-emphasis">Frequency</term>—The number of wave crests that pass a point per second, expressed in hertz (Hz or s<sup>–1</sup>)</item>
+<item><term class="no-emphasis">Amplitude</term>: The height of the crest above the null point</item>
+</list>
+<para id="fs-id1167064927975">As mentioned, electromagnetic radiation takes several forms. These forms are characterized by a range of frequencies. Because frequency is inversely proportional to wavelength, any form of EMR can also be represented by its range of wavelengths. <link target-id="Figure_15_01_EMSpectrum"/> shows the frequency and wavelength ranges of various types of EMR. With how many of these types are you familiar?</para>
+
+<figure id="Figure_15_01_EMSpectrum">
+<media id="fs-id1167065864505" alt="This figure shows the electromagnetic spectrum between two parallel, horizontal lines. The lower line, labeled “Frequency (Hz)”, is calibrated in increments that increase by 100-fold, starting from 10 superscript 0 at the extreme left and ending beyond 10 superscript 24 on the extreme right. The upper line, labeled “Wavelength”, is calibrated in increments that decrease by 100-fold, starting from 3 times 10 superscript 6 on the left and ending with 3 times 10 superscript minus 14 on the right. Each wavelength measure has the unit “m” after it. The various categories of the spectrum are written between the parallel lines, with a double-headed arrow showing the range of each category. Starting from the left, they are: “Radio waves”, “Infrared”, “Visible light”, “Ultraviolet”, “X rays”, and “gamma rays”. Within the range for “Radio waves” are the subcategories labeled as “AM radio”, “TV”, and “Microwaves”. Within the range for “TV” is the subcategory FM radio.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_15_01_EMSpectrum-a267.jpg"/>
+</media>
+<caption>The electromagnetic spectrum, showing the major categories of electromagnetic waves. The range of frequencies and wavelengths is remarkable. The dividing line between some categories is distinct, whereas other categories overlap.</caption>
+</figure>
+
+<para id="fs-id1167065841295">Take a few minutes to study the positions of the various types of radiation on the EM spectrum, above. Sometimes all radiation with frequencies lower than those of visible light are referred to as <term class="no-emphasis">infrared (IR) radiation</term>. This includes <term class="no-emphasis">radio waves</term>, which overlap with the frequencies used for media broadcasts of TV and radio signals. The <term class="no-emphasis">microwave radiation</term> that you see on the diagram is the same radiation that is used in a microwave oven. What we feel as radiant heat is also a form of low-frequency EMR.</para>
+
+<note id="fs-id1167064740664" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167064990683"><span>[BL]</span>Notice that most harmful forms of EM radiation are on the high-frequency end of the spectrum.</para>
+<para id="fs-id1167062968822"><span>[OL]</span>Ask which forms of EM radiation students have heard about. Ask them to describe the types of radiation they remember, and correct any misconceptions. Discuss the difference between ionizing radiation and nonionizing radiation, and the difference between electromagnetic radiation and other types of radiation—alpha, beta, etc.</para>
+
+<note id="fs-id1167065968222" class="misconception">
+
+<para id="fs-id1167066061304">Heat waves, a type of infrared radiation, are basically no different from other EM waves. We feel them as heat because they have a frequency that interacts with our bodies in a way that transforms EM energy into thermal energy.</para>
+</note>
+</note>
+
+<para id="fs-id1167064915154">All the high-frequency radiation to the right of visible light is sometimes referred to as <term class="no-emphasis">ultraviolet (UV) radiation</term>. This includes <term class="no-emphasis">X-rays</term> and <term class="no-emphasis">gamma (γ) rays</term>. The narrow band that is visible light extends from lower-frequency red light to higher-frequency violet light, thus the terms are <emphasis effect="italics">infrared</emphasis> (below red) and <emphasis effect="italics">ultraviolet</emphasis> (beyond violet).</para>
+
+
+<note id="fs-id1167066029150" class="boundless-physics">
+
+<title>Maxwell’s Equations</title>
+<para id="fs-id1167064948318">The Scottish physicist James Clerk Maxwell (1831–1879) is regarded widely to have been the greatest theoretical physicist of the nineteenth century. Although he died young, Maxwell not only formulated a complete electromagnetic theory, represented by <term>Maxwell’s equations</term>, he also developed the kinetic theory of gases, and made significant contributions to the understanding of color vision and the nature of Saturn’s rings.</para>
+<para id="fs-id1167065820461">Maxwell brought together all the work that had been done by brilliant physicists, such as Ørsted, Coulomb, Ampere, Gauss, and Faraday, and added his own insights to develop the overarching theory of electromagnetism. Maxwell’s equations are paraphrased here in words because their mathematical content is beyond the level of this text. However, the equations illustrate how apparently simple mathematical statements can elegantly unite and express a multitude of concepts—why mathematics is the language of science.</para>
+<para id="fs-id1167065044286">Maxwell’s Equations</para>
+<list id="fs-id1167062509638" list-type="enumerated">
+<item>Electric field lines originate on positive charges and terminate on negative charges. The electric field is defined as the force per unit charge on a test charge, and the strength of the force is related to the electric constant, <emphasis effect="italics">ε</emphasis><sub>0</sub>.</item>
+<item>Magnetic field lines are continuous, having no beginning or end. No magnetic monopoles are known to exist. The strength of the magnetic force is related to the magnetic constant, <emphasis effect="italics">μ</emphasis><sub>0</sub>.</item>
+<item>A changing magnetic field induces an electromotive force (emf) and, hence, an electric field. The direction of the emf opposes the change, changing direction of the magnetic field.</item>
+<item>Magnetic fields are generated by moving charges or by changing electric fields.</item>
+</list>
+
+<para id="fs-id1167065861460">Maxwell’s complete theory shows that electric and magnetic forces are not separate, but different manifestations of the same thing—the electromagnetic force. This classical unification of forces is one motivation for current attempts to unify the four basic forces in nature—the gravitational, electromagnetic, strong nuclear, and weak nuclear forces. The weak nuclear and electromagnetic forces have been unified, and further unification with the strong nuclear force is expected; but, the unification of the gravitational force with the other three has proven to be a real head-scratcher.</para>
+<para id="fs-id1167064707478">One final accomplishment of Maxwell was his development in 1855 of a process that could produce color photographic images. In 1861, he and photographer Thomas Sutton worked together on this process. The color image was achieved by projecting red, blue, and green light through black-and-white photographs of a tartan ribbon, each photo itself exposed in different-colored light. The final image was projected onto a screen (see <link target-id="Figure_15_01_FirstColor"/>).</para>
+
+<figure id="Figure_15_01_FirstColor">
+<media id="fs-id1167065761913" alt="Photograph of a tartan ribbon tied like a bow.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_15_01_FirstColor.jpg"/>
+</media>
+<caption>Maxwell and Sutton’s photograph of a colored ribbon. This was the first durable color photograph. The plaid tartan of the Scots made a <emphasis effect="italics">colorful</emphasis> photographic subject.</caption>
+</figure>
+
+<note id="fs-id1167066047947" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065849096">Features that encouraged mathematicians and physicists to accept Maxwell’s equations is that they are seen as being both elegant and—considering the difference between an electric charge and a magnetic dipole, which give rise to the respective fields—essentially symmetrical. When scientists are looking for an approach to developing a new theory, they usually begin with the simplest and most symmetrical explanations. An example of such symmetry is the fact that electrons and protons have equal and opposite charges. You can see the symmetry in the four statements, given above, that describe the equations. The first two statements show a similar treatment of electric and magnetic fields, and the last two describe how a magnetic field can generate an electric field, and vice versa. </para>
+<para id="fs-id1167064994250">From our present-day perspective, we can now see the significance of Maxwell’s equations. This was the first step in the quest to unify all natural forces under one theory. After Maxwell unified the electric and magnetic forces as the electromagnetic force, others unified this force with the weak nuclear force, and there is evidence that the strong nuclear force can be unified with the <emphasis effect="italics">electroweak</emphasis> force. The only force that has resisted unification with the others is the gravitational force. A theory that would unify all forces is often referred as a <emphasis effect="italics">grand unified theory</emphasis> or a <emphasis effect="italics">theory of everything</emphasis>. The quest for such a theory is still underway.</para>
+</note>
+
+<exercise id="fs-id1167064781080" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167065859102">
+<para id="fs-id1167064952031">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch15-ex003"/>
+</para>
+</problem>
+</exercise>
+</note>
+</section><section id="fs-id1167065770385">
+<title>Characteristics of Electromagnetic Radiation</title>
+<para id="fs-id1167065945608">All the EM waves mentioned above are basically the same form of radiation. They can all travel across empty space, and they all travel at the speed of light in a vacuum. The basic difference between types of radiation is their differing frequencies. Each frequency has an associated wavelength. As frequency increases across the spectrum, wavelength decreases. Energy also increases with frequency. Because of this, higher frequencies penetrate matter more readily. Some of the properties and uses of the various EM spectrum bands are listed in <link target-id="Table_15_01"/>.</para>
+
+<note id="fs-id1167065873047" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065887807"><span>[BL]</span>Explain transparency and opacity. Discuss how some materials are transparent to certain frequencies but opaque to others. Ask students for examples of materials that can be penetrated by some EM frequencies but not by others. Ask for examples of materials that are transparent to visible light and materials that are opaque to visible light.</para>
+<para id="fs-id1167062343634"><span>[OL]</span>Ask students why a lead apron is laid across dental patients during dental X-rays. Explain that X-rays are at the high-energy end of the spectrum and that they are very penetrating. They are only stopped by very dense materials, such as lead.</para>
+<para id="fs-id1167062557237"><span>[AL]</span>Ask if students can explain Earth’s greenhouse effect in terms of the penetrating power of various frequencies of EM radiation. Explain that the atmosphere is more transparent to visible light than to heat waves. Visible light penetrates the atmosphere and warms Earth’s surface. The heated surface radiates heat waves, which are trapped partially by certain gases in the atmosphere.</para>
+</note>
+
+<table id="Table_15_01" summary="This table has five columns and eight rows. The top row is the header row. The top left cell reads “Type of EM Wave” with cells to the right reading, respectively, “Production” “Applications” “Life Sciences Aspect” and “Issues” The extreme left column, from the second row down, gives the following regions of the electromagnetic spectrum: “Radio &amp; TV”, “Microwaves”, “Infrared”, “Visible light”, “Ultraviolet”, “X rays”, and “Gamma rays”. To the right of that column, each row describes the production, applications, life sciences application, and other issues related to each region of the electromagnetic spectrum.">
+<title>Electromagnetic Waves</title>
+<tgroup cols="5">
+<colspec colname="c1" colnum="1"/>
+<colspec colname="c2" colnum="2"/>
+<colspec colname="c3" colnum="3"/>
+<colspec colname="c4" colnum="4"/>
+<colspec colname="c5" colnum="5"/>
+<thead>
+<row>
+<entry>Types of EM Waves</entry>
+<entry>Production</entry>
+<entry>Applications</entry>
+<entry>Life Sciences Aspect</entry>
+<entry>Issues</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>Radio and TV</entry>
+<entry>Accelerating charges</entry>
+<entry>Communications, remote controls</entry>
+<entry>MRI</entry>
+<entry>Requires controls for band use</entry>
+</row>
+<row>
+<entry>Microwaves</entry>
+<entry>Accelerating charges &amp; thermal agitation</entry>
+<entry>Communications, microwave ovens, radar</entry>
+<entry>Deep heating</entry>
+<entry>Cell phone use</entry>
+</row>
+<row>
+<entry>Infrared</entry>
+<entry>Thermal agitation &amp; electronic transitions</entry>
+<entry>Thermal imaging, heating</entry>
+<entry>Absorption by atmosphere</entry>
+<entry>Greenhouse effect</entry>
+</row>
+<row>
+<entry>Visible Light</entry>
+<entry>Thermal agitation &amp; electronic transitions</entry>
+<entry>All pervasive</entry>
+<entry>Photosynthesis, human vision</entry>
+<entry/>
+</row>
+<row>
+<entry>Ultraviolet</entry>
+<entry>Thermal agitation &amp; electronic transitions</entry>
+<entry>Sterilization, slowing abnormal growth of cells</entry>
+<entry>Vitamin D production</entry>
+<entry>Ozone depletion, causes cell damage</entry>
+</row>
+<row>
+<entry>X-rays</entry>
+<entry>Inner electronic transitions &amp; fast collisions</entry>
+<entry>Medical, security</entry>
+<entry>Medical diagnosis, cancer therapy</entry>
+<entry>Causes cell damage</entry>
+</row>
+<row>
+<entry>Gamma Rays</entry>
+<entry>Nuclear decay</entry>
+<entry>Nuclear medicine, security</entry>
+<entry>Medical diagnosis, cancer therapy</entry>
+<entry>Causes cell damage, radiation damage</entry>
+</row>
+</tbody>
+</tgroup>
+<caption>This table shows how each type of EM radiation is produced, how it is applied, as well as environmental and health issues associated with it.</caption>
+</table>
+<para id="fs-id1167064937542">The narrow band of visible light is a combination of the colors of the rainbow. <link target-id="Figure_15_01_Visible"/> shows the section of the EM spectrum that includes visible light. The frequencies corresponding to these wavelengths are  <m:math>
+<m:mrow>
+<m:mn>4.0</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+<m:mrow>
+<m:mn>10</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn>14</m:mn>
+</m:mrow>
+</m:msup>
+<m:msup>
+<m:mrow>
+<m:mtext> s</m:mtext>
+</m:mrow>
+<m:mrow>
+<m:mn>−1</m:mn>
+</m:mrow>
+</m:msup>
+</m:mrow>
+</m:math>  at the red end to  <m:math>
+<m:mrow>
+<m:mn>7.9</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+<m:mrow>
+<m:mn>10</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn>14</m:mn>
+</m:mrow>
+</m:msup>
+<m:msup>
+<m:mrow>
+<m:mtext> s</m:mtext>
+</m:mrow>
+<m:mrow>
+<m:mn>−1</m:mn>
+</m:mrow>
+</m:msup>
+</m:mrow>
+</m:math>  at the violet end. This is a very narrow range, considering that the EM spectrum spans about 20 orders of magnitude.</para>
+
+<figure id="Figure_15_01_Visible">
+<media id="fs-id1167065860796" alt="This diagram focuses on the visible section of the electromagnetic spectrum. A horizontal arrow represents wavelengths of light decreasing from left to right. The arrow is calibrated with numbers ranging from 800 on the left to 300 on the right, and the line is labeled with the Greek letter lambda, followed by the letters n m in parentheses. Above the arrow is a colored band stretching from about 760 up to about 420. The band, labeled as “Visible light”, shows colors labeled as “Red”, “Orange”, “Yellow”, “Green”, “Blue”, and “Violet”. To the left of the band is a region labeled as “Infrared”, above the 800 mark. To the right of the band is a region labeled as “Ultraviolet”, above the 300 mark.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_15_01_Visible.jpg"/>
+</media>
+<caption>A small part of the electromagnetic spectrum that includes its visible components. The divisions between infrared, visible, and ultraviolet are not perfectly distinct, nor are the divisions between the seven rainbow colors</caption>
+</figure>
+
+<note id="fs-id1167065810120" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066090980"><span>[BL]</span>Review the primary and secondary colors of pigments. Note that this is subtractive color mixing.</para>
+<para id="fs-id1167065740810"><span>[OL]</span>Explain the difference between <emphasis effect="italics">subtractive</emphasis> and <emphasis effect="italics">additive</emphasis> color mixing. The colors on the subtractive color wheel are made by pigments that absorb all colors but one. Therefore, when these colors all overlap, all light is absorbed and the result is black. White light is a combination of all colors, so when all colors are added together on the additive color wheel, the result is white. Explain that cyan is a shade of blue and that magenta is a shade of red.</para>
+</note>
+
+<note id="fs-id1167064770035" class="tips-for-success">
+
+<para id="fs-id1167066054792">Wavelengths of visible light are often given in nanometers, nm. One nm equals  <m:math>
+<m:mrow>
+<m:msup>
+<m:mrow>
+<m:mn>10</m:mn></m:mrow>
+<m:mrow>
+<m:mn>−9</m:mn></m:mrow>
+</m:msup>
+</m:mrow>
+</m:math>  m. For example, yellow light has a wavelength of about 600 nm, or  <m:math>
+<m:mrow>
+<m:mn>6</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+<m:mrow>
+<m:mn>10</m:mn></m:mrow>
+<m:mrow>
+<m:mn>−7</m:mn></m:mrow>
+</m:msup>
+</m:mrow>
+</m:math>  m.</para>
+</note>
+<para id="fs-id1167065863709">As a child, you probably learned the color wheel, shown on the left in <link target-id="Figure_15_01_Color"/>. It helps if you know what color results when you mix different colors of paint together. Mixing two of the primary <term class="no-emphasis"><emphasis effect="italics">pigment</emphasis></term> colors—magenta, yellow, or cyan—together results in a secondary color. For example, mixing cyan and yellow makes green. This is called <emphasis effect="italics">subtractive</emphasis> color mixing. Mixing different colors of <emphasis effect="italics">light</emphasis> together is quite different. The diagram on the right shows <emphasis effect="italics">additive</emphasis> color mixing. In this case, the primary colors are red, green, and blue, and the secondary colors are cyan, magenta, and yellow. Mixing pigments and mixing light are different because materials absorb light by a different set of rules than does the perception of light by the eye. Notice that, when all colors are subtracted, the result is no color, or black. When all colors are added, the result is white light. We see the reverse of this when white sunlight is separated into the visible spectrum by a prism or by raindrops when a rainbow appears in the sky.</para>
+
+<figure id="Figure_15_01_Color">
+<media id="fs-id1167065860797" alt="The figure shows two panels arranged side by side. Each panel consists of three overlapping circles, arranged such that the intersection of any two circles passes through the center of the third circle. The left panel, labeled “Pigment” at the top and “Subtractive color” at the bottom, has the three circles on a white background. The top circle is labeled “Y” and colored yellow; the bottom left circle is labeled “M” and colored magenta; the bottom right circle is labeled “C” and colored cyan. The areas of overlap of pairs of circles are colored red, dark blue, and green, and the area of overlap of all three circles is black. The right panel, labeled “Light” at the top and “Additive color” at the bottom, has the three circles on a black background. The top circle is labeled “R” and colored red; the bottom left circle is labeled “G” and colored green; the bottom right circle is labeled “B” and colored dark blue. The areas of overlap of pairs of circles are colored yellow, cyan, and magenta, and the area of overlap of all three circles is white.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_15_01_Color.jpg"/>
+</media>
+<caption>Mixing colored pigments follows the subtractive color wheel, and mixing colored light follows the additive color wheel.</caption>
+</figure>
+
+<note id="fs-id1167065871152" class="virtual-physics os-interactive"><title>Color Vision</title>
+<media id="fs-id1167064871798" alt="This video demonstrates additive color and color filters.">
+<iframe width="660" height="371.4" src="https://openstax.org/l/28Colorvision"/></media>
+  <para id="fs-id1167063890352">This video demonstrates additive color and color filters. Try all the settings except <emphasis effect="italics">Photons</emphasis>.</para>
+<exercise id="fs-id1167065850984" class="os-exercise grasp-check unnumbered">
+<problem id="fs-id1167062408599">
+<para id="fs-id1167066097100"><link class="os-embed" url="#ost/api/ex/k12phys-ch15-ex004"/></para>
+</problem>
+</exercise>
+<note id="fs-id1167065926316" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065966923">Have students adjust the different colored lights for the RGB bulb simulation, first with individual settings, then with combinations of two and three colors to see what colors result and are perceived. Similarly, with the Single Bulb simulation, have students note how different filter settings affect what colors are seen for light with different color components.</para>
+</note>
+</note><note id="fs-id1167065941840" class="links-to-physics">
+
+<title>Animal Color Perception</title>
+<para id="fs-id1167065073193">The physics of color perception has interesting links to zoology. Other animals have very different views of the world than humans, especially with respect to which colors can be seen. Color is detected by cells in the eye called <emphasis effect="italics">cones</emphasis>. Humans have three cones that are sensitive to three different ranges of electromagnetic wavelengths. They are called red, blue, and green cones, although these colors do not correspond exactly to the centers of the three ranges. The ranges of wavelengths that each cone detects are red, 500 to 700 nm; green, 450 to 630 nm; and blue, 400 to 500 nm.</para>
+<para id="fs-id1167066188849">Most primates also have three kinds of cones and see the world much as we do. Most mammals other than primates only have two cones and have a less colorful view of things. Dogs, for example see blue and yellow, but are color blind to red and green. You might think that <emphasis effect="italics">simpler</emphasis> species, such as fish and insects, would have less sophisticated vision, but this is not the case. Many birds, reptiles, amphibians, and insects have four or five different cones in their eyes. These species don’t have a wider range of perceived colors, but they see more hues, or combinations of colors. Also, some animals, such as bees or rattlesnakes, see a range of colors that is as broad as ours, but shifted into the ultraviolet or infrared.</para>
+<para id="fs-id1167065013759">These differences in color perception are generally adaptations that help the animals survive. Colorful tropical birds and fish display some colors that are too subtle for us to see. These colors are believed to play a role in the species mating rituals. <link target-id="Figure_15_01_DogBee"/> shows the colors visible and the color range of vision in humans, bees, and dogs.</para>
+
+<figure id="Figure_15_01_DogBee">
+<media id="fs-id1167064853394" alt="This figure shows three parallel, horizontal bands of colors, labeled “Humans”, “Bees”, and “Dogs”. Each band starts with the blue color on the left and ends with the red color on the right. Above the bands is a horizontal line calibrated with numbers ranging from 300 on the left to 700 on the right, and the line is labeled as “Wavelength”, followed by the letters n m in parentheses.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_15_01_DogBee.jpg"/>
+</media>
+<caption>Humans, bees, and dogs see colors differently. Dogs see fewer colors than humans, and bees see a different range of colors.</caption>
+</figure>
+
+<note id="fs-id1167066013711" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167064903844">The symbiotic relationship between plants and their pollinators—bees, birds, etc.—is related to color perception. Plants have evolved to have flowers with colors that bees can see easily, and bees can find those flowers easily to collect the nectar they need for survival.</para>
+</note>
+
+<exercise id="fs-id1167065897553" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167065943630">
+<!--<para id="fs-id1167065863652"><link class="os-embed" url="#ost/api/ex/k12phys-ch15-ex005"/></para>-->
+<para id="fs-id1164565595003">The belief that bulls are enraged by seeing the color red is a misconception. What did you read in this Links to Physics that shows why this belief is incorrect?</para>
+<list id="fs-id1164565994739" list-type="enumerated" number-style="lower-alpha">
+<item>Bulls are color-blind to every color in the spectrum of colors.</item>
+<item>Bulls are color-blind to the blue colors in the spectrum of colors.</item>
+<item>Bulls are color-blind to the red colors in the spectrum of colors.</item>
+<item>Bulls are color-blind to the green colors in the spectrum of colors.</item>
+</list>
+</problem>
+</exercise>
+</note>
+
+<para id="fs-id1167065770929">Humans have found uses for every part of the electromagnetic spectrum. We will take a look at the uses of each range of frequencies, beginning with visible light. Most of our uses of visible light are obvious; without it our interaction with our surroundings would be much different. We might forget that nearly all of our food depends on the photosynthesis process in plants, and that the energy for this process comes from the visible part of the spectrum. Without photosynthesis, we would also have almost no oxygen in the atmosphere.</para>
+
+<note id="fs-id1167066154053" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066032612"><span>[BL]</span>Ask how different frequencies of EM radiation are applied. Name each frequency range, and ask the students to supply the application, for example, X-rays used in medical imaging.</para>
+<para id="fs-id1167066028347"><span>[OL]</span>Ask students if they know why low-frequency radiation generally has different uses than high-frequency radiation. Explain that it has to do with penetrating power, which is related to health hazards.</para>
+<para id="fs-id1167062338448"><span>[AL]</span>Mention the ranges of TV signals designated <emphasis effect="italics">very high frequency</emphasis> (VHF) and <emphasis effect="italics">ultrahigh frequency</emphasis> (UHF). Explain that these frequencies are only relatively high compared to radio broadcast frequencies. Their place in the whole EM spectrum is at the low end.</para>
+</note>
+
+<para id="fs-id1167065704583">The low-frequency, infrared region of the spectrum has many applications in media broadcasting. Television, radio, cell phone, and remote-control devices all broadcast and/or receive signals with these wavelengths. AM and FM radio signals are both low-frequency radiation. They are in different regions of the spectrum, but that is not their basic difference. AM and FM are abbreviations for <term class="no-emphasis"><emphasis effect="italics">amplitude modulation</emphasis></term> and <term class="no-emphasis"><emphasis effect="italics">frequency modulation</emphasis></term>. Information in AM signals has the form of changes in <emphasis effect="italics">amplitude</emphasis> of the radio waves; information in FM signals has the form of changes in wave <emphasis effect="italics">frequency</emphasis>.</para>
+
+<para id="fs-id1167062550966">Another application of long-wavelength radiation is found in microwave ovens. These appliances cook or warm food by irradiating it with EM radiation in the microwave frequency range. Most kitchen microwaves use a frequency of  <m:math>
+<m:mrow>
+<m:mn>2.45</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+<m:mrow>
+<m:mn>10</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn>9</m:mn>
+</m:mrow>
+</m:msup>
+</m:mrow>
+</m:math> Hz. These waves have the right amount of energy to cause polar molecules, such as water, to rotate faster. Polar molecules are those that have a partial charge separation. The rotational energy of these molecules is given up to surrounding matter as heat. The first microwave ovens were called <emphasis effect="italics">Radaranges</emphasis> because they were based on radar technology  developed during World War II.</para>
+<para id="fs-id1167066037692"><term class="no-emphasis">Radar</term> uses radiation with wavelengths similar to those of microwaves to detect the location and speed of distant objects, such as airplanes, weather formations, and motor vehicles. Radar information is obtained by receiving and analyzing the echoes of microwaves reflected by an object. The speed of the object can be measured using the Doppler shift of the returning waves. This is the same effect you learned about when you studied sound waves. Like sound waves, EM waves are shifted to higher frequencies by an object moving toward an observer, and to lower frequencies by an object moving away from the observer. Astronomers use this same Doppler effect to measure the speed at which distant galaxies are moving away from us. In this case, the shift in frequency is called the <emphasis effect="italics">red shift</emphasis>, because visible frequencies are shifted toward the lower-frequency, red end of the spectrum.</para>
+
+<para id="fs-id1167065968183">Exposure to any radiation with frequencies greater than those of visible light carries some health hazards. All types of radiation in this range are known to cause cell damage. The danger is related to the high energy and penetrating ability of these EM waves. The likelihood of being harmed by any of this radiation depends largely on the amount of exposure. Most people try to reduce exposure to UV radiation from sunlight by using sunscreen and protective clothing. Physicians still use X-rays to diagnose medical problems, but the intensity of the radiation used is extremely low. <link target-id="Figure_15_01_X-ray"/> shows an X-ray image of a patient’s chest cavity.</para>
+
+<para id="fs-id1167066112286">One medical-imaging technique that involves no danger of exposure is magnetic resonance imaging (MRI). MRI is an important imaging and research tool in medicine, producing highly detailed two- and three-dimensional images. Radio waves are broadcast, absorbed, and reemitted in a resonance process that is sensitive to the density of nuclei, usually hydrogen nuclei—protons.</para>
+
+<figure id="Figure_15_01_X-ray">
+<media id="fs-id1167066090874" alt="This figure is an X-ray of a person's chest cavity. It includes the outlines of artificial heart valves, a pacemaker, and some wires.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_15_01_X-ray.jpg"/>
+</media>
+<caption>This shadow X-ray image shows many interesting features, such as artificial heart valves, a pacemaker, and wires used to close the sternum. (credit: P.P. Urone) </caption>
+</figure>
+
+
+</section>
+
+<section id="fs-id1167064772676" class="check-understanding"><title>Check Your Understanding</title><note id="fs-id1167066024976" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066098814">Use these questions to assess student achievement of the section’s Learning Objectives. If students are struggling with a specific objective, these questions will help identify any gaps and direct students to the relevant content.</para>
+</note>
+<exercise id="fs-id1167064758211" class="os exercise">
+<problem id="fs-id1167065727494">
+<!--<para id="fs-id1167062389605">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch15-ex006"/>-->
+<para id="fs-id1164567271264">Identify the fields produced by a moving charged particle.</para>
+<list id="fs-id1164565581192" list-type="enumerated" number-style="lower-alpha">
+<item>Both an electric field and a magnetic field will be produced.</item>
+<item>Neither a magnetic field nor an electric field will be produced.</item>
+<item>A magnetic field, but no electric field will be produced.</item>
+<item>Only the electric field, but no magnetic field will be produced.</item>
+</list>
+</problem>
+</exercise>
+
+<exercise id="fs-id1167062411088" class="os exercise">
+<problem id="fs-id1167065744119">
+<para id="fs-id1167065744121">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch15-ex007"/>
+</para>
+</problem>
+</exercise>
+
+<exercise id="fs-id1167065847146" class="os exercise"><problem id="fs-id1167065654103">
+<para id="fs-id1167065654105">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch15-ex008"/>
+</para>
+</problem>
+</exercise>
+
+<exercise id="fs-id1167065007989" class="os exercise">
+<problem id="fs-id1167064826691">
+<para id="fs-id1167064775354">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch15-ex009"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166849963901" class="os-exercise">
+<problem id="eip-id1166849941750">
+<para id="eip-id1166849937835">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch15-ot001"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167064905236" class="summary">
+<title>Section Summary</title>
+<list id="fs-id1167065985869">
+<item>The electromagnetic spectrum is made up of a broad range of frequencies of electromagnetic radiation.</item>
+<item>All frequencies of EM radiation travel at the same speed in a vacuum and consist of an electric field and a magnetic field. The types of EM radiation have different frequencies and wavelengths, and different energies and penetrating ability.</item>
+</list>
+</section>
+
+<section id="fs-id1167064635209" class="concept"><title>Concept Items</title>
+<exercise id="fs-id1167065886179" class="os-exercise">
+<problem id="fs-id1167066025745"><!--<para id="fs-id1167066025746"><link class="os-embed" url="#ost/api/ex/k12phys-ch15-ex010"/></para>-->
+<para id="fs-id1164568001595">Use the concepts on which Maxwell’s equations are based to explain why a compass needle is deflected when the compass is brought near a wire that is carrying an electric current.</para>
+<list id="fs-id1164564475439" list-type="enumerated" number-style="lower-alpha">
+<item>The charges in the compass needle and the charges in the electric current have interacting electric fields, causing the needle to deflect.</item>
+<item>The electric field from the moving charges in the current interacts with the magnetic field of the compass needle, causing the needle to deflect.</item>
+<item>The magnetic field from the moving charges in the current interacts with the electric field of the compass needle, causing the needle to deflect.</item>
+<item>The moving charges in the current produce a magnetic field that interacts with the compass needle’s magnetic field, causing the needle to deflect.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167065883530" class="os-exercise">
+<problem id="fs-id1167064928163">
+<!--<para id="fs-id1167064928164"><link class="os-embed" url="#ost/api/ex/k12phys-ch15-ex011"/></para>-->
+<para id="fs-id1164568026406">Consider these colors of light: yellow, blue, and red. Part A.  Put these light waves in order according to wavelength, from shortest wavelength to longest wavelength. Part B.  Put these light waves in order according to frequency, from lowest frequency to highest frequency.</para>
+<list id="fs-id1164564442732" list-type="enumerated" number-style="lower-alpha">
+<item>wavelength: blue, yellow, red<newline/>
+frequency: blue, yellow, red</item>
+<item>wavelength: red, yellow, blue<newline/>
+frequency: red, yellow, blue</item>
+<item>wavelength: red, yellow, blue<newline/>
+frequency: blue, yellow, red</item>
+<item>wavelength: blue, yellow, red<newline/>
+frequency: red, yellow, blue</item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-id1166849159403" class="os-exercise">
+<problem id="eip-id1166851327237">
+<!--<para id="eip-id1166851325525"><link class="os-embed" url="#ost/api/ex/k12phys-ch15-ot002"/></para>-->
+<para id="fs-id1164567267741">Describe the location of gamma rays on the electromagnetic spectrum.</para>
+<list id="fs-id1164567290016" list-type="enumerated" number-style="lower-alpha">
+<item>At the high-frequency and long-wavelength end of the spectrum</item>
+<item>At the high-frequency and short-wavelength end of the spectrum</item>
+<item>At the low-frequency and long-wavelength end of the spectrum</item>
+<item>At the low-frequency and short-wavelength end of the spectrum</item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-id1166851143808" class="os-exercise">
+<problem id="eip-id1166848769547">
+<!--<para id="eip-id1166851057716"><link class="os-embed" url="#ost/api/ex/k12phys-ch15-ot010"/></para>-->
+<para id="fs-id1164564476031">In which region of the electromagnetic spectrum would you find radiation that is invisible to the human eye and has low energy?</para>
+<list id="fs-id1164567164408" list-type="enumerated" number-style="lower-alpha">
+<item>Long-wavelength and high-frequency region</item>
+<item>Long-wavelength and low-frequency region</item>
+<item>Short-wavelength and high-frequency region</item>
+<item>Short-wavelength and low-frequency region</item>
+</list>
+</problem>
+</exercise></section>
+<section id="fs-id1167064962068" class="critical-thinking"><title>Critical Thinking</title>
+<exercise id="fs-id1167066188831" class="os exercise">
+<problem id="fs-id1167066196043">
+<!--<para id="fs-id1167062511476">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch15-ex012"/></para>-->
+<para id="fs-id1164567223740">Standing in front of a fire, we can sense both its heat and its light. How are the light and heat radiated by the fire the same, and how are they different?<newline/>
+</para><list id="fs-id1164566148169" list-type="enumerated" number-style="lower-alpha"><item>Both travel as waves, but only light waves are a form of electromagnetic radiation.</item>
+<item>Heat and light are both forms of electromagnetic radiation, but light waves have higher frequencies.</item>
+<item>Heat and light are both forms of electromagnetic radiation, but heat waves have higher frequencies.</item>
+<item>Heat and light are both forms of electromagnetic radiation, but light waves have higher wavelengths.</item>
+</list></problem>
+</exercise>
+<exercise id="fs-id1167064873292" class="os-exercise">
+<problem id="fs-id1167066088868">
+<!--<para id="fs-id1167065943421"><link class="os-embed" url="#ost/api/ex/k12phys-ch15-ex013"/></para>-->
+<para id="fs-id1164564189520">Light shines on a picture of the subtractive color wheel. The light is a mixture of red, blue, and green light.<newline/>
+Part A—Which part of the color wheel will look blue? Explain in terms of absorbed and reflected light.<newline/>
+Part B—Which part of the color wheel will look yellow? Explain in terms of absorbed and reflected light.</para>
+<list id="fs-id1164567852741" list-type="enumerated" number-style="lower-alpha">
+<item>
+<list id="fs-id1164565328028" list-type="enumerated" number-style="upper-alpha">
+<item>The yellow section of the wheel will look blue because it will reflect blue light and absorb red and green.</item>
+<item>The blue section of the wheel will look yellow because it will reflect red and green light and absorb blue.</item>
+</list></item>
+<item>
+<list id="fs-id1164567217018" list-type="enumerated" number-style="upper-alpha">
+<item>The blue section of the wheel will look blue because it will absorb blue light and reflect red and green.</item>
+<item>The yellow section of the wheel will look yellow because it will absorb red and green light and reflect blue.</item>
+</list></item>
+<item>
+<list id="fs-id1164565565541" list-type="enumerated" number-style="upper-alpha">
+<item>The yellow section of the wheel will look blue because it will absorb blue light and reflect red and green.</item>
+<item>The blue section of the wheel will look yellow because it will absorb red and green light and reflect blue.</item>
+</list></item>
+<item>
+<list id="fs-id1164567380113" list-type="enumerated" number-style="upper-alpha">
+<item>The blue section of the wheel will look blue because it will reflect blue light and absorb red and green.</item>
+<item>The yellow section of the wheel will look yellow because it will reflect red and green light and absorb blue.</item>
+</list></item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-id1166851091220" class="os-exercise">
+<problem id="eip-id1166851449866">
+<!--<para id="eip-id1166851150976">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch15-ot013"/>
+</para>-->
+<para id="fs-id1164565549496">Part A. When you stand in front of an open fire, you can sense light waves with your eyes. You sense another type of electromagnetic radiation as heat. What is this other type of radiation?<newline/>
+Part B. How is this other type of radiation different front light waves?</para>
+<list id="fs-id1164566052615" list-type="enumerated" number-style="lower-alpha">
+<item>
+<list id="fs-id1164565567946" list-type="enumerated" number-style="upper-alpha">
+<item>X-rays</item>
+<item>The X-rays have higher frequencies and shorter wavelengths than the light waves.</item>
+</list></item>
+<item>
+<list id="fs-id1164565427357" list-type="enumerated" number-style="upper-alpha">
+<item>X-rays</item>
+<item>The X-rays have lower frequencies and longer wavelengths than the light waves.</item>
+</list></item>
+<item>
+<list id="fs-id1164565384535" list-type="enumerated" number-style="upper-alpha">
+<item>infrared rays</item>
+<item>The infrared rays have higher frequencies and shorter wavelengths than the light waves.</item>
+</list></item>
+<item>
+<list id="fs-id1164565387488" list-type="enumerated" number-style="upper-alpha">
+<item>infrared rays</item>
+<item>The infrared rays have lower frequencies and longer wavelengths than the light waves.</item>
+</list></item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-id1166851273599" class="os-exercise">
+<problem id="eip-id1166851119087">
+<!--<para id="eip-id1166848694392">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch15-ot014"/>
+</para>-->
+<para id="fs-id1164567800012">Overexposure to this range of EM radiation is dangerous, and yet it is used by doctors to diagnose medical problems.<newline/>
+Part AIdentify the type of radiation.<newline/>
+Part BLocate the position of this radiation on the EM spectrum by comparing its frequency and wavelength to visible light.<newline/>
+Part CExplain why this radiation is both dangerous and therapeutic in terms of its energy, based on your answer to Part B.</para>
+<list id="fs-id1164567950742" list-type="enumerated" number-style="lower-alpha"><item>A. X-rays<newline/>
+B. X-rays have shorter wavelengths (1 × 10<sup>–8</sup> – 5 × 10<sup>–12</sup> m)  and higher frequencies  (3 × 10<sup>16</sup> – 6 × 10<sup>19</sup> Hz) than visible light (7.5 × 10<sup>–7</sup> – 4.0 × 10<sup>–7</sup> m; 4.0 × 10<sup>14</sup> –  7.5 × 10<sup>14</sup> Hz).
+<newline/>
+C. X-rays have low energies because of their high frequencies, and so can penetrate matter to greater depths.</item>
+<item>A. X-rays<newline/>
+B. X-rays have shorter wavelengths (1 × 10<sup>–8</sup> – 5 × 10<sup>–12</sup> m)  and higher frequencies  (3 × 10<sup>10</sup> – 6 × 10<sup>13</sup> Hz) than visible light (7.5 × 10<sup>–7</sup> – 4.0 × 10<sup>–7</sup> m; 4.0 × 10<sup>14</sup> –  7.5 × 10<sup>14</sup> Hz).<newline/>
+C. X-rays have low energies because of their low frequencies, and so can penetrate matter to greater depths.</item>
+<item>A. X-rays
+B. X-rays have longer wavelengths  (1 × 10<sup>–6</sup> – 5 × 10<sup>–7</sup> m) and higher frequencies  (3 × 10<sup>15</sup> – 6 × 10<sup>15</sup> Hz) than visible light (7.5 × 10<sup>–7</sup> – 4.0 × 10<sup>–7</sup> m; 4.0 × 10<sup>14</sup> –  7.5 × 10<sup>14</sup> Hz).
+<newline/>
+C. X-rays have high energies because of their high frequencies, and therefore can penetrate matter to greater depths.</item>
+<item>A. X-rays<newline/>
+B. X-rays have shorter wavelengths  (1 × 10<sup>–8</sup> – 5 × 10<sup>–12</sup> m) and higher frequencies  (3 × 10<sup>16</sup> – 6 × 10<sup>19</sup> Hz) than visible light (7.5 × 10<sup>–7</sup> – 4.0 × 10<sup>–7</sup> m; 4.0 × 10<sup>14</sup> –  7.5 × 10<sup>14</sup> Hz).
+<newline/>
+C. X-rays have high energies because of their high frequencies, and so can penetrate matter to greater depths.</item>
+</list></problem>
+</exercise></section>
+<section id="fs-id1167064551102" class="multiple-choice"><title>Test Prep Multiple Choice</title>
+
+<exercise id="fs-id1167064743541" class="os-exercise"><problem id="fs-id1167065913831">
+<!--<para id="fs-id1167065913832"><link class="os-embed" url="#ost/api/ex/k12phys-ch15-ex014"/></para>-->
+<para id="fs-id1164567985175">Which type of EM radiation has the shortest wavelengths?</para>
+<list id="fs-id1164566370426" list-type="enumerated" number-style="lower-alpha">
+<item>gamma rays</item>
+<item>infrared waves</item>
+<item>blue light</item>
+<item>microwaves</item>
+</list>
+</problem>
+</exercise>
+
+<exercise id="fs-id1167064937436" class="os-exercise">
+<problem id="fs-id1167065653447">
+<!--<para id="fs-id1167065653448"><link class="os-embed" url="#ost/api/ex/k12phys-ch15-ex015"/></para>-->
+<para id="fs-id1164565563093">Which form of EM radiation has the most penetrating ability?</para>
+<list id="fs-id1164567418663" list-type="enumerated" number-style="lower-alpha">
+<item>red light</item>
+<item>microwaves</item>
+<item>gamma rays</item>
+<item>infrared radiation</item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-id1166849568085" class="os-exercise">
+<problem id="eip-id1166849839343">
+<para id="eip-id1166849559396">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch15-ot007"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166849311703" class="os-exercise">
+<problem id="eip-id1166849870900">
+<para id="eip-id1166849290492">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch15-ot008"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167064649128" class="short-answer">
+<title>Test Prep Short Answer</title>
+<exercise id="fs-id1167064669924" class="os-exercise"><problem id="fs-id1167065977913">
+<!--<para id="fs-id1167064886040"><link class="os-embed" url="#ost/api/ex/k12phys-ch15-ex016"/></para>-->
+<para id="fs-id1164564453686">Describe one way in which heat waves—infrared radiation—are different from sound waves.</para>
+<list id="fs-id1164565456883" list-type="enumerated" number-style="lower-alpha">
+<item>Sound waves are transverse waves, whereas heat waves—infrared radiation—are longitudinal waves.</item>
+<item>Sound waves have shorter wavelengths than heat waves.</item>
+<item>Sound waves require a medium, whereas heat waves—infrared radiation—do not.</item>
+<item>Sound waves have higher frequencies than heat waves.</item>
+</list>
+</problem></exercise>
+<exercise id="fs-id1167064927129" class="os-exercise"><problem id="fs-id1167062789044"><para id="fs-id1167064749579"><link class="os-embed" url="#ost/api/ex/k12phys-ch15-ex017"/></para></problem></exercise>
+<exercise id="fs-id1167065039667" class="os-exercise"><problem id="fs-id1167065972620"><para id="fs-id1167064911688"><link class="os-embed" url="#ost/api/ex/k12phys-ch15-ex018"/></para></problem></exercise>
+<exercise id="fs-id1167065973704" class="os-exercise"><problem id="fs-id1167066030723"><para id="fs-id1167065980521"><link class="os-embed" url="#ost/api/ex/k12phys-ch15-ex019"/></para></problem></exercise>
+</section>
+
+<section id="fs-id1167062328691" class="extended-response">
+<title>Test Prep Extended Response</title>
+<exercise id="fs-id1167064818530" class="os exercise"><problem id="fs-id1167064697042">
+<!--<para id="fs-id1167064697043"><link class="os-embed" url="#ost/api/ex/k12phys-ch15-ex020"/></para>-->
+<para id="fs-id1164566254945">A frequency of red light has a wavelength of 700 nm.<newline/>
+Part A—Compare the wavelength and frequency of violet light to red light.<newline/>
+Part B—Identify a type of radiation that has lower frequencies than red light.<newline/>
+Part C—Identify a type of radiation that has shorter wavelengths than violet light.</para>
+<list id="fs-id1164567344828" list-type="enumerated" number-style="lower-alpha">
+<item>
+<list id="fs-id1164567007916" list-type="enumerated" number-style="upper-alpha">
+<item>Violet light has a lower frequency and longer wavelength than red light.</item>
+<item>ultraviolet radiation</item>
+<item>infrared radiation</item>
+</list></item>
+<item>
+<list id="fs-id1164566041454" list-type="enumerated" number-style="upper-alpha">
+<item>Violet light has a lower frequency and longer wavelength than red light.</item>
+<item>infrared radiation</item>
+<item>ultraviolet radiation</item>
+</list></item>
+<item>
+<list id="fs-id1164567198117" list-type="enumerated" number-style="upper-alpha">
+<item>Violet light has a higher frequency and shorter wavelength than red light.</item>
+<item>ultraviolet radiation</item>
+<item>infrared radiation</item>
+</list></item>
+<item>
+<list id="fs-id1164567441204" list-type="enumerated" number-style="upper-alpha">
+<item>Violet light has a higher frequency and shorter wavelength than red light.</item>
+<item>infrared radiation</item>
+<item>ultraviolet radiation</item>
+</list></item>
+</list>
+</problem></exercise>
+<exercise id="fs-id1167064529146" class="os exercise"><problem id="fs-id1167062461368">
+<!--<para id="fs-id1167062461369"><link class="os-embed" url="#ost/api/ex/k12phys-ch15-ex021"/></para>-->
+<para id="fs-id1164565331898">A mixture of red and green light is shone on each of the subtractive colors.<newline/>
+Part A—Which of these colors of light are reflected from magenta?<newline/>
+Part B—Which of these colors of light are reflected from yellow?<newline/>
+Part C—Which these colors of light are reflected from cyan?</para>
+<list id="fs-id1164566962733" list-type="enumerated" number-style="lower-alpha">
+<item>Part A. red and green<newline/>
+Part B. green<newline/>
+Part C. red</item>
+<item>Part A. red and green<newline/>
+Part B. red<newline/>
+Part C. green</item>
+<item>Part A. green<newline/>
+Part B. red and green<newline/>
+Part C. red</item>
+<item>Part A. red<newline/>
+Part B. red and green<newline/>
+Part C. green</item>
+</list>
+</problem></exercise>
+</section></content>
+
+<glossary>
+<definition id="fs-id1167065067601">
+<term>electric field</term>
+<meaning id="fs-id1167065799082">a field that tells us the force per unit charge at all locations in space around a charge distribution</meaning></definition>
+<definition id="fs-id1167064688920">
+<term>electromagnetic radiation (EMR)</term>
+<meaning id="fs-id1167064749805">radiant energy that consists of oscillating electric and magnetic fields</meaning>
+</definition>
+<definition id="fs-id1167064600077">
+<term>magnetic field</term>
+<meaning id="fs-id1167064743436">the directional lines around a magnetic material that indicates the direction and magnitude of the magnetic force</meaning>
+</definition>
+<definition id="fs-id1167065979077"><term>Maxwell’s equations</term>
+<meaning id="fs-id1167064825603">equations that describe the interrelationship between electric and magnetic fields, and how these fields combine to form electromagnetic radiation</meaning>
+</definition>
+</glossary>
+</document>

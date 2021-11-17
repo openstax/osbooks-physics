@@ -1,0 +1,1216 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Nuclear Forces and Radioactivity</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54580</md:content-id>
+  <md:title>Nuclear Forces and Radioactivity</md:title>
+  <md:abstract/>
+  <md:uuid>f2efbd0d-73fa-4ee4-94d0-8d73c75fc534</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167061709772" class="learning-objectives">
+<label/>
+<title>Section Learning Objectives</title>
+<para id="fs-id1167063630657">By the end of this section, you will be able to do the following:</para><list id="fs-id1167067266716"><item>Describe the structure and forces present within the nucleus</item>
+<item>Explain the three types of radiation</item>
+<item>Write nuclear equations associated with the various types of radioactive decay</item>
+</list></note>
+
+<note id="fs-id1167067204808" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167061216676">The learning objectives in this section will help your students master the following standards:</para>
+<list id="fs-id1167067064230"><item>(5) Science concepts. The student knows the nature of forces in the physical world. The student is expected to:
+    <list id="fs-id1167067188583">
+    <item>
+    <span>(H)</span>
+    <span>describe evidence for and effects of the strong and weak nuclear forces in nature.</span>
+    </item>
+    </list>
+</item>
+<item>(8) Science concepts. The student knows simple examples of atomic, nuclear, and quantum phenomena. The student is expected to:
+    <list id="fs-id1167066998965">
+    <item>
+    <span>(B)</span>
+    <span>compare and explain the emission spectra produced by various atoms; and</span>
+    </item>
+    <item>
+    <span>(C)</span>
+    <span>describe the significance of mass-energy equivalence and apply it in explanations of phenomena such as nuclear stability, fission, and fusion.</span>
+    </item>
+    </list>
+</item>
+</list></note>
+<section id="keyterms"><title>Section Key Terms</title>
+<table id="fs-id1167066829612" class="unnumbered unstyled section-key-terms" summary="The list of Key terms includes alpha decay, atomic number, beta decay, gamma decay, Geiger tube, isotope, mass number, nucleons, radioactive, radioactive decay, radioactivity, scintillator, strong nuclear force, and transmutation."><label/>
+<tgroup cols="3">
+<tbody>
+<row>
+<entry>alpha decay</entry>
+<entry>atomic number</entry>
+<entry>beta decay</entry>
+<entry>gamma decay</entry>
+<entry>Geiger tube</entry>
+</row>
+<row>
+<entry>isotope</entry>
+<entry>mass number</entry>
+<entry>nucleons</entry>
+<entry>radioactive</entry>
+<entry>radioactive decay</entry>
+</row>
+<row>
+<entry>radioactivity</entry>
+<entry>scintillator</entry>
+<entry>strong nuclear force</entry>
+<entry>transmutation</entry>
+<entry/>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<note id="fs-id1167063514426" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167061325714"><span>[BL]</span><span>[OL]</span><span>[AL]</span>As in the beginning of Section 1, have students create a list of facts they have learned about the atom. Have the students update their list throughout this section.</para>
+</note>
+<para id="fs-id1167067019875">There is an ongoing quest to find the substructures of matter. At one time, it was thought that atoms would be the ultimate substructure. However, just when the first direct evidence of atoms was obtained, it became clear that they have a substructure and a tiny nucleus. The nucleus itself has spectacular characteristics. For example, certain nuclei are unstable, and their decay emits radiations with energies millions of times greater than atomic energies. Some of the mysteries of nature, such as why the core of Earth remains molten and how the Sun produces its energy, are explained by nuclear phenomena. The exploration of radioactivity and the nucleus has revealed new fundamental particles, forces, and conservation laws. That exploration has evolved into a search for further underlying structures, such as quarks. In this section, we will explore the fundamentals of the nucleus and nuclear radioactivity.</para>
+<section id="fs-id1167063616797">
+<title>The Structure of the Nucleus</title>
+<para id="fs-id1167066848759">At this point, you are likely familiar with the neutron and proton, the two fundamental particles that make up the nucleus of an atom. Those two particles, collectively called <term>nucleons</term>, make up the small interior portion of the atom. Both particles have nearly the same mass, although the neutron is about two parts in 1,000 more massive. The mass of a proton is equivalent to 1,836 electrons, while the mass of a neutron is equivalent to that of 1,839 electrons. That said, each of the particles is significantly more massive than the electron.</para>
+<para id="fs-id1167067088207">When describing the mass of objects on the scale of nucleons and atoms, it is most reasonable to measure their mass in terms of atoms. The atomic mass unit (u) was originally defined so that a neutral carbon atom would have a mass of exactly 12 u. Given that protons and neutrons are approximately the same mass, that there are six protons and six neutrons in a carbon atom, and that the mass of an electron is minuscule in comparison, measuring this way allows for both protons and neutrons to have masses close to 1 u. <link target-id="Table_22_01"/> shows the mass of protons, neutrons, and electrons on the new scale. </para>
+
+<note id="fs-id1167066790901" class="tips-for-success">
+
+<para id="fs-id1167061330660">For most conceptual situations, the difference in mass between the proton and neutron is insubstantial. In fact, for calculations that require fewer than four significant digits, both the proton and neutron masses may be considered equivalent to one atomic mass unit. However, when determining the amount of energy released in a nuclear reaction, as in <link target-id="Worked_Example_22_05"/>, the difference in mass cannot be ignored.</para>
+</note>
+
+<para id="fs-id1167067011406">Another other useful mass unit on the atomic scale is the  <m:math>
+ <m:mrow>
+  <m:mtext>M</m:mtext><m:mtext>e</m:mtext><m:mtext>V</m:mtext><m:mo>/</m:mo><m:msup>
+   <m:mi>c</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math> . While rarely used in most contexts, it is convenient when one uses the equation  <m:math>
+ <m:mrow>
+  <m:mi>E</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:msup>
+   <m:mi>c</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math>, as will be addressed later in this text.</para>
+
+<table id="Table_22_01" summary="Table containing three columns: Proton mass, Neutron mass, and electron mass; and two rows: Kilograms and Atomic mass units.">
+<title>Atomic Masses for Multiple Units</title>
+<tgroup cols="4">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<thead>
+<row>
+<entry/>
+<entry>Proton Mass</entry>
+<entry>Neutron Mass</entry>
+<entry>Electron Mass</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry><emphasis effect="bold">Kilograms (kg)</emphasis></entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mn>1.673</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>−27</m:mn></m:mrow>
+  </m:msup>
+  </m:mrow>
+</m:math>
+</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mn>1.675</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>−27</m:mn></m:mrow>
+  </m:msup>
+  </m:mrow>
+</m:math>
+</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mn>9.109</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>−31</m:mn></m:mrow>
+  </m:msup>
+  </m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry><emphasis effect="bold">Atomic mass units (u)</emphasis></entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mn>1.007</m:mn></m:mrow>
+</m:math>
+</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mn>1.009</m:mn></m:mrow>
+</m:math>
+</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mn>5.486</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>−4</m:mn></m:mrow>
+  </m:msup>
+  </m:mrow>
+</m:math>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+<para id="fs-id1167067019330">To more completely characterize nuclei, let us also consider two other important quantities: the atomic number and the mass number. The <term>atomic number</term>, <emphasis effect="italics">Z</emphasis>, represents the number of protons within a nucleus. That value determines the elemental quality of each atom. Every carbon atom, for instance, has a <emphasis effect="italics">Z</emphasis> value of 6, whereas every oxygen atom has a <emphasis effect="italics">Z</emphasis> value of 8. For clarification, only oxygen atoms may have a <emphasis effect="italics">Z</emphasis> value of 8. If the <emphasis effect="italics">Z</emphasis> value is not 8, the atom cannot be oxygen.</para>
+<para id="fs-id1167067078734">The <term>mass number</term>, <emphasis effect="italics">A</emphasis>, represents the total number of protons and neutrons, or nucleons, within an atom. For an ordinary carbon atom the mass number would be 12, as there are typically six neutrons accompanying the six protons within the atom. In the case of carbon, the mass would be exactly 12 u. For oxygen, with a mass number of 16, the atomic mass is 15.994915 u. Of course, the difference is minor and can be ignored for most scenarios. Again, because the mass of an electron is so small compared to the nucleons, the mass number and the atomic mass can be essentially equivalent. <link target-id="Figure_22_02_Lithium"/> shows an example of Lithium-7, which has an atomic number of 3 and a mass number of 7.</para>
+
+<note id="fs-id1167066838861" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067201861"><span>[BL]</span>Students may confuse the terms <emphasis effect="italics">mass number</emphasis> and <emphasis effect="italics">atomic number</emphasis>. Remind them that the mass is based on both protons and neutrons and so mass number is a measure of both combined. The atomic number differentiates between two different atoms, which only protons can do. A few examples showing pictures of nuclei and having students identify the mass and atomic numbers of each should help.</para>
+</note>
+
+<para id="fs-id1167067098651">How does the mass number help to differentiate one atom from another? If each atom of carbon has an atomic number of 6, then what is the value of including the mass number at all? The intent of the mass number is to differentiate between various isotopes of an atom. The term <term>isotope</term> refers to the variation of atoms based upon the number of neutrons within their nucleus. While it is most common for there to be six neutrons accompanying the six protons within a carbon atom, it is possible to find carbon atoms with seven neutrons or eight neutrons. Those carbon atoms are respectively referred to as carbon-13 and carbon-14 atoms, with their mass numbers being their primary distinction. The isotope distinction is an important one to make, as the number of neutrons within an atom can affect a number of its properties, not the least of which is nuclear stability.</para>
+
+<figure id="Figure_22_02_Lithium">
+<media id="fs-id1167066843126" alt="The figure shows the Lithium-7 atom with three protons and four neutrons at the center (nucleus) and three electrons orbiting around the nucleus in different orbits.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_22_02_Lithium.jpg"/></media>
+<caption>Lithium-7 has three protons and four neutrons within its nucleus. As a result, its mass number is 7, while its atomic number is 3. The actual mass of the atom is 7.016 u. Lithium 7 is an isotope of lithium.</caption>
+</figure>
+
+<note id="fs-id1167066879102" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067147521">Point out to students that the number of electrons is irrelevant to discussions of mass number, atomic number, and isotopes.</para>
+</note>
+
+<para id="fs-id1167063667227">To more easily identify various atoms, their atomic number and mass number are typically written in a form of representation called the <term class="no-emphasis">nuclide</term>. The nuclide form appears as follows: <m:math>
+<m:msubsup>
+<m:mrow/>
+   <m:mrow><m:mi>A</m:mi></m:mrow>
+   <m:mi>Z</m:mi>
+</m:msubsup>
+  <m:mi>X</m:mi>
+  <m:msub>
+   <m:mrow/>
+   <m:mi>N</m:mi>
+  </m:msub>
+</m:math>, where <emphasis effect="italics">X</emphasis> is the atomic symbol and <emphasis effect="italics">N</emphasis> represents the number of neutrons. </para><para id="fs-id1167063419008">Let us look at a few examples of nuclides expressed in the  <m:math>
+<m:msubsup>
+<m:mrow/>
+   <m:mrow><m:mi>A</m:mi></m:mrow>
+   <m:mi>Z</m:mi>
+</m:msubsup>
+  <m:mi>X</m:mi>
+  <m:msub>
+   <m:mrow/>
+   <m:mi>N</m:mi>
+  </m:msub>
+</m:math>  notation. The nucleus of the simplest atom, hydrogen, is a single proton, or  <m:math>
+ <m:mrow>
+  <m:mmultiscripts>
+   <m:mtext>H</m:mtext>
+   <m:mprescripts/>
+   <m:mn>1</m:mn>
+   <m:mn>1</m:mn>
+  </m:mmultiscripts>
+  </m:mrow>
+</m:math> (the zero for no neutrons is often omitted). To check the symbol, refer to the periodic table—you see that the atomic number <emphasis effect="italics">Z </emphasis>of hydrogen is 1. Since you are given that there are no neutrons, the mass number <emphasis effect="italics">A</emphasis> is also 1. There is a scarce form of hydrogen found in nature called <emphasis effect="italics">deuterium</emphasis>; its nucleus has one proton and one neutron and, hence, twice the mass of common hydrogen. The symbol for deuterium is, thus,  <m:math>
+<m:msubsup>
+<m:mrow/>
+   <m:mrow><m:mn>1</m:mn></m:mrow>
+   <m:mn>2</m:mn>
+</m:msubsup>
+  <m:mtext>H</m:mtext>
+  <m:msub>
+   <m:mrow/>
+   <m:mn>2</m:mn>
+  </m:msub>
+</m:math> . An even rarer—and radioactive—form of hydrogen is called <emphasis effect="italics">tritium</emphasis>, since it has a single proton and two neutrons, and it is written  <m:math>
+<m:msubsup>
+<m:mrow/>
+   <m:mrow><m:mn>1</m:mn></m:mrow>
+   <m:mn>3</m:mn>
+</m:msubsup>
+  <m:mtext>H</m:mtext>
+  <m:msub>
+   <m:mrow/>
+   <m:mn>2</m:mn>
+  </m:msub>
+</m:math> . The three varieties of hydrogen have nearly identical chemistries, but the nuclei differ greatly in mass, stability, and other characteristics. Again, the different nuclei are referred to as isotopes of the same element.</para><para id="fs-id1167067201106">There is some redundancy in the symbols <emphasis effect="italics">A</emphasis>, <emphasis effect="italics">X</emphasis>, <emphasis effect="italics">Z</emphasis>, and <emphasis effect="italics">N</emphasis>. If the element <emphasis effect="italics">X</emphasis> is known, then <emphasis effect="italics">Z </emphasis>can be found in a periodic table. If both <emphasis effect="italics">A </emphasis>and <emphasis effect="italics">X</emphasis> are known, then <emphasis effect="italics">N </emphasis>can also be determined by first finding <emphasis effect="italics">Z</emphasis>; then, <emphasis effect="italics">N </emphasis> = <emphasis effect="italics">A </emphasis> – <emphasis effect="italics">Z</emphasis>. Thus the simpler notation for nuclides is</para>
+
+<equation id="fs-id1164565288066"> <m:math display="block">
+ <m:mrow>
+  <m:msup>
+   <m:mrow/>
+   <m:mi>A</m:mi>
+  </m:msup>
+  <m:mi>X</m:mi><m:mo>,</m:mo>
+ </m:mrow>
+</m:math>
+</equation>
+
+<para id="fs-id1167063698110">which is sufficient and is most commonly used. For example, in this simpler notation, the three isotopes of hydrogen are  <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow/>
+   <m:mn>1</m:mn>
+  </m:msup>
+  <m:mtext>H</m:mtext></m:mrow>
+</m:math>, <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow/>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mtext>H</m:mtext></m:mrow>
+</m:math>, and  <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow/>
+   <m:mn>3</m:mn>
+  </m:msup>
+  <m:mtext>H</m:mtext></m:mrow>
+</m:math> . For <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow/>
+   <m:mrow>
+    <m:mn>238</m:mn></m:mrow>
+  </m:msup>
+  <m:mtext>U</m:mtext></m:mrow>
+</m:math>, should we need to know, we
+can determine that <emphasis effect="italics">Z </emphasis>= 92 for uranium from the periodic table, and thus, <emphasis effect="italics">N </emphasis>= 238 − 92 = 146.</para>
+
+<note id="fs-id1167066885714" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067176764">This explanation is provided to help students understand nomenclature later on in the text. However, it may be useful to have students practice writing nuclide notation to build confidence with the concept.</para>
+</note>
+</section>
+
+<section id="fs-id1167063651885">
+<title>Radioactivity and Nuclear Forces</title>
+<para id="fs-id1167060070546">In 1896, the French physicist <term class="no-emphasis">Antoine Henri Becquerel</term> (1852–1908) noticed something strange. When a uranium-rich mineral called pitchblende was placed on a completely opaque envelope containing a photographic plate, it darkened spots on the photographic plate.. Becquerel reasoned that the pitchblende must emit invisible rays capable of penetrating the opaque material. Stranger still was that no light was shining on the pitchblende, which means that the pitchblende was emitting the invisible rays continuously without having any energy input! There is an apparent violation of the law of conservation of energy, one that scientists can now explain using Einstein’s famous equation  <m:math>
+ <m:mrow>
+  <m:mi>E</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:msup>
+   <m:mi>c</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mtext>.</m:mtext>
+  </m:mrow>
+</m:math>  It was soon evident that Becquerel’s rays originate in the nuclei of the atoms and have other unique characteristics.</para>
+
+<para id="fs-id1167063606216">To this point, most reactions you have studied have been chemical reactions, which are reactions involving the electrons surrounding the atoms. However, two types of experimental evidence implied that Becquerel’s rays did not originate with electrons, but instead within the nucleus of an atom.</para>
+<para id="fs-id1167066831128">First, the radiation is found to be only associated with certain elements, such as uranium. Whether uranium was in the form of an element or compound was irrelevant to its radiation. In addition, the presence of radiation does not vary with temperature, pressure, or ionization state of the uranium atom. Since all of those factors affect electrons in an atom, the radiation cannot come from electron transitions, as atomic spectra do.</para>
+<para id="fs-id1167066800344">The huge energy emitted during each event is the second piece of evidence that the radiation cannot be atomic. Nuclear radiation has energies on the order of 10<sup>6</sup> eV per event, which is much greater than typical atomic energies that are a few eV, such as those observed in spectra and chemical reactions, and more than ten times as high as the most energetic X-rays.</para>
+
+<note id="fs-id1167066803728" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067176158">To emphasize the point that most reactions are chemical, have students brainstorm a list of reactions from chemistry class. Have them describe the changes that cause the reactions to take place. Are the reactions the result of nuclear interactions or electron interactions?</para>
+</note>
+
+<para id="fs-id1167067305006">But why would reactions within the nucleus take place? And what would cause an apparently stable structure to begin emitting energy? Was there something special about Becquerel’s uranium-rich pitchblende? To answer those questions, it is necessary to look into the structure of the nucleus. Though it is perhaps surprising, you will find that many of the same principles that we observe on a macroscopic level still apply to the nucleus.</para>
+
+
+<section id="fs-id1167063810938">
+<title>Nuclear Stability</title>
+<para id="fs-id1167067196573">A variety of experiments indicate that a nucleus behaves something like a tightly packed ball of nucleons, as illustrated in <link target-id="Figure_22_02_Nucleus"/>. Those nucleons have large kinetic energies and, thus, move rapidly in very close contact. Nucleons can be separated by a large force, such as in a collision with another nucleus, but strongly resist being pushed closer together. The most compelling evidence that nucleons are closely packed in a nucleus is that the radius of a nucleus, <emphasis effect="italics">r</emphasis>, is found to be approximately</para>
+<equation id="fs-id1164567138801"> <m:math display="block">
+ <m:mrow>
+  <m:mi>r</m:mi><m:mo>=</m:mo><m:msub>
+   <m:mi>r</m:mi>
+   <m:mi>o</m:mi>
+  </m:msub>
+  <m:msup>
+   <m:mi>A</m:mi>
+   <m:mrow>
+    <m:mfrac bevelled="true">
+     <m:mn>1</m:mn>
+     <m:mn>3</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  </m:msup>
+  <m:mo>,</m:mo>
+ </m:mrow>
+</m:math>
+
+</equation>
+
+<para id="fs-id1167067104708">where  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>r</m:mi>
+   <m:mi>o</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo></m:mrow>
+</m:math> 1.2 femtometer (fm) and <emphasis effect="italics">A </emphasis>is the mass number of the nucleus.</para>
+<para id="fs-id1167063675092">Note that  <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mi>r</m:mi>
+   <m:mn>3</m:mn>
+  </m:msup>
+  <m:mo>∝</m:mo><m:mi>A</m:mi></m:mrow>
+</m:math> . Since many nuclei are spherical, and the volume of a sphere is  <m:math>
+ <m:mrow>
+  <m:mi>V</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>4</m:mn>
+     <m:mn>3</m:mn>
+    </m:mfrac>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mi>π</m:mi><m:msup>
+   <m:mi>r</m:mi>
+   <m:mn>3</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math>, we see that  <m:math>
+ <m:mrow>
+  <m:mi>V</m:mi><m:mo>∝</m:mo><m:mi>A</m:mi></m:mrow>
+</m:math> —that is, the volume of a nucleus is proportional to the number of nucleons in it. That is what you expect if you pack nucleons so close that there is no empty space between them.</para>
+
+<figure id="Figure_22_02_Nucleus"><media id="fs-id1167067031835" alt="The figure shows a nucleus with several spherical protons and neutrons which are held together."><image mime-type="image/jpg" src="../../media/CNX_HSPhysics_22_02_Nucleus.jpg"/></media>
+<caption>Nucleons are held together by nuclear forces and resist both being pulled apart and pushed inside one another. The volume of the nucleus is the sum of the volumes of the nucleons in it, here shown in different colors to represent protons and neutrons.</caption>
+</figure>
+
+<para id="fs-id1167067061344">So what forces hold a nucleus together? After all, the nucleus is very small and its protons, being positive, should exert tremendous repulsive forces on one another. Considering that, it seems that the nucleus would be forced apart, not together!</para>
+<para id="fs-id1167067210142">The answer is that a previously unknown force holds the nucleus together and makes it into a tightly packed ball of nucleons. This force is known as the <term>strong nuclear force</term>. The strong force has such a short range that it quickly fall to zero over a distance of only 10<sup>–15</sup> meters. However, like glue, it is very strong when the nucleons get close to one another.</para>
+
+<note id="fs-id1167061367671" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167063828459">The relationship between the repulsive Coulomb force and the attractive nuclear force can be modeled using a balloon. Squeeze the balloon, or have one student hold a balloon while the other pushes on it. The pressure of the air inside the balloon will model the Coulomb force while the push from the student models the nuclear force.</para>
+</note>
+
+<para id="fs-id1167063747176">The balancing of the electromagnetic force with the nuclear forces is what allows the nucleus to maintain its spherical shape. If, for any reason, the electromagnetic force should overcome the nuclear force, components of the nucleus would be projected outward, creating the very radiation that Becquerel discovered!</para>
+<para id="fs-id1167067176394">Understanding why the nucleus would break apart can be partially explained using <link target-id="Table_22_02"/>. The balance between the strong nuclear force and the electromagnetic force is a tenuous one. Recall that the attractive strong nuclear force exists between any two nucleons and acts over a very short range while the weaker repulsive electromagnetic force only acts between protons, although over a larger range. Considering the interactions, an imperfect balance between neutrons and protons can result in a nuclear reaction, with the result of regaining equilibrium.</para>
+
+<table id="Table_22_02" summary="Table with four columns: Range of force, direction, nucleon interaction, magnitude of force; and two rows: Electromagnetic force and strong nuclear force.">
+<title>Comparing the Electromagnetic and Strong Forces</title>
+<tgroup cols="5">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<thead>
+<row>
+<entry/>
+<entry>Range of Force</entry>
+<entry>Direction</entry>
+<entry>Nucleon Interaction</entry>
+<entry>Magnitude of Force</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry><emphasis effect="bold">Electromagnetic Force</emphasis></entry>
+<entry>Long range, though decreasing by 1/r<sup>2</sup></entry>
+<entry>Repulsive</entry>
+<entry>Proton –proton repulsion</entry>
+<entry>Relatively small</entry>
+</row>
+<row>
+<entry><emphasis effect="bold">Strong Nuclear Force</emphasis></entry>
+<entry>Very short range, essentially zero at 1 femtometer</entry>
+<entry>Attractive</entry>
+<entry>Attraction between any two nucleons</entry>
+<entry>100 times greater than the electromagnetic force</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+<para id="fs-id1167067204623">The radiation discovered by Becquerel was due to the large number of protons present in his uranium-rich pitchblende. In short, the large number of protons caused the electromagnetic force to be greater than the strong nuclear force. To regain stability, the nucleus needed to undergo a nuclear reaction called <term>alpha (α) decay</term>.</para>
+</section>
+</section>
+
+<section id="fs-id1167066957409"><title>The Three Types of Radiation</title><para id="fs-id1167063495925"><term>Radioactivity</term> refers to the act of emitting particles or energy from the nucleus. When the uranium nucleus emits energetic nucleons in Becquerel’s experiment, the radioactive process causes the nucleus to alter in structure. The alteration is called <term>radioactive decay</term>. Any substance that undergoes radioactive decay is said to be <term>radioactive</term>. That those terms share a root with the term <emphasis effect="italics">radiation</emphasis> should not be too surprising, as they all relate to the transmission of energy.</para>
+
+<note id="fs-id1167067024694" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067204202">Students have plenty of preconceptions about radioactivity. Discuss their preconceptions. Are their concerns related to the radioactive decay process or to the energy transmitted in the process?</para>
+<para id="fs-id1167063519723">Radioactivity can be understood as a tendency for a nucleus to reach equilibrium. Discuss with students other instances of objects desiring equilibrium. Such macroscopic interactions may help to make their understanding of radioactivity more tangible.</para>
+</note>
+
+<section id="fs-id1167061583068">
+<title>Alpha Decay</title>
+<para id="fs-id1167066870470">Alpha decay refers to the type of decay that takes place when too many protons exist in the nucleus. It is the most common type of decay and causes the nucleus to regain equilibrium between its two competing internal forces. During alpha decay, the nucleus ejects two protons and two neutrons, allowing the strong nuclear force to regain balance with the repulsive electromagnetic force. The nuclear equation for an alpha decay process can be shown as follows.</para>
+<equation id="fs-id1164566003648"> <m:math display="block">
+ <m:mrow>
+  <m:mmultiscripts>
+   <m:mi>X</m:mi>
+   <m:mprescripts/>
+   <m:mi>Z</m:mi>
+   <m:mi>A</m:mi>
+  </m:mmultiscripts>
+  <m:msub>
+   <m:mrow/>
+   <m:mi>N</m:mi>
+  </m:msub>
+  <m:mrow><m:mo>→</m:mo></m:mrow><m:mmultiscripts>
+   <m:mi>Y</m:mi>
+   <m:mprescripts/>
+   <m:mrow>
+    <m:mi>Z</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow>
+   <m:mrow>
+    <m:mi>A</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow>
+  </m:mmultiscripts>
+  <m:msub>
+   <m:mrow/>
+   <m:mi>N</m:mi>
+  </m:msub>
+  <m:mo>+</m:mo><m:mmultiscripts>
+   <m:mtext>H</m:mtext>
+   <m:mprescripts/>
+   <m:mn>2</m:mn>
+   <m:mn>4</m:mn>
+  </m:mmultiscripts>
+  <m:msub>
+   <m:mtext>e</m:mtext>
+   <m:mrow/>
+  </m:msub>
+  </m:mrow>
+</m:math> </equation><figure id="Figure_22_02_AlphaDecay"><media id="fs-id1167063792999" alt="The figure shows alpha decay of a nucleus (with several spherical protons and neutrons), resulting in release of an alpha particle, i.e. two protons and two neutrons."><image mime-type="image/jpg" src="../../media/CNX_HSPhysics_22_02_AlphaDecay.jpg"/></media>
+<caption>A nucleus undergoes alpha decay. The <term class="no-emphasis">alpha particle</term> can be seen as made up of two neutrons and two protons, which constitute a helium-4 atom.</caption>
+</figure>
+
+<para id="fs-id1167067106608">Three things to note as a result of the above equation:</para>
+<list id="fs-id1167066874266" list-type="enumerated">
+<item>By ejecting an alpha particle, the original nuclide decreases in atomic number. That means that Becquerel’s uranium nucleus, upon decaying, is actually transformed into thorium, two atomic numbers lower on the periodic table! The process of changing elemental composition is called <term>transmutation</term>.</item>
+<item>Note that the two protons and two neutrons ejected from the nucleus combine to form a helium nucleus. Shortly after decay, the ejected helium ion typically acquires two electrons to become a stable helium atom.</item>
+<item>Finally, it is important to see that, despite the elemental change, physical conservation still takes place. The mass number of the new element and the alpha particle together equal the mass number of the original element. Also, the net charge of all particles involved remains the same before and after the transmutation.</item>
+</list>
+
+<note id="fs-id1167067031062" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167063697432">Differentiate between ionization and transmutation to reinforce that alpha radiation is an elemental change.</para>
+</note>
+</section>
+
+<section id="fs-id1167063577910">
+<title>Beta Decay</title>
+<para id="fs-id1167067029462">Like alpha decay, <term>beta ( <m:math>
+ <m:mi>β</m:mi>
+</m:math> ) decay</term> also takes place when there is an imbalance between neutrons and protons within the nucleus. For beta decay, however, a neutron is transformed into a proton and electron or vice versa. The transformation allows for the total mass number of the atom to remain the same, although the atomic number will increase by one (or decrease by one). Once again, the transformation of the neutron allows for a rebalancing of the strong nuclear and electromagnetic forces. The nuclear equation for a beta decay process is shown below.</para>
+<para id="fs-id1167067315695"> <m:math display="block">
+<m:msubsup>
+<m:mrow/>
+   <m:mrow><m:mi>Z</m:mi></m:mrow>
+   <m:mi>A</m:mi>
+</m:msubsup>
+  <m:mi>X</m:mi>
+  <m:msub>
+   <m:mrow/>
+   <m:mi>N</m:mi>
+  </m:msub>
+  <m:mrow><m:mo>→</m:mo></m:mrow>
+<m:msubsup>
+<m:mrow/>
+    <m:mrow><m:mi>Z</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow>
+    <m:mi>A</m:mi>
+</m:msubsup>
+   <m:mi>Y</m:mi>
+  <m:msub>
+   <m:mrow/>
+   <m:mrow>
+    <m:mi>N</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+  </m:msub>
+  <m:mo>+</m:mo><m:mi>e</m:mi><m:mo>+</m:mo><m:mi>v</m:mi>
+</m:math> </para><para id="fs-id1167067153716">The symbol  <m:math>
+ <m:mi>v</m:mi>
+</m:math>  in the equation above stands for a high-energy particle called the <term class="no-emphasis">neutrino</term>. A nucleus may also emit a positron, and in that case <emphasis effect="italics">Z</emphasis> decreases and <emphasis effect="italics">N</emphasis> increases. It is beyond the scope of this section and will be discussed in further detail in the chapter on particles. It is worth noting, however, that the mass number and charge in all beta-decay reactions are conserved.</para>
+
+<figure id="Figure_22_02_BetaDecay"><media id="fs-id1167067054814" alt="The figure shows beta decay of a nucleus (with several spherical protons and neutrons), resulting in splitting of a neutron intro three particles, namely proton, electron and neutrino."><image mime-type="image/jpg" src="../../media/CNX_HSPhysics_22_02_BetaDecay.jpg"/></media>
+<caption>A nucleus undergoes beta decay. The neutron splits into a proton, electron, and neutrino. This particular decay is called  <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mi>β</m:mi>
+   <m:mo>−</m:mo>
+  </m:msup>
+  </m:mrow>
+</m:math>  decay.</caption>
+</figure>
+
+<note id="fs-id1167063939040" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066948296"><span>[AL]</span>The mass number of the nucleus is conserved, but is the mass? Mention that that mass of a proton is slightly less than the mass of the neutron. Have students consider where that mass goes. Note—Not all of it goes to the electron.</para>
+</note>
+</section>
+
+<section id="fs-id1167067252452">
+<title>Gamma Decay</title>
+<para id="fs-id1167066956521"><term>Gamma decay</term> is a unique form of radiation that does not involve balancing forces within the nucleus. Gamma decay occurs when a nucleus drops from an excited state to the ground state. Recall that such a change in energy state will release energy from the nucleus in the form of a photon. The energy associated with the photon emitted is so great that its wavelength is shorter than that of an X-ray. Its nuclear equation is as follows.</para>
+<equation id="fs-id1164565502588"> <m:math display="block">
+ <m:mrow>
+  <m:msubsup>
+   <m:mrow/>
+   <m:mrow><m:mi>Z</m:mi></m:mrow>
+   <m:mi>A</m:mi>
+  </m:msubsup>
+<m:mi>X</m:mi>
+  <m:msub>
+   <m:mrow/>
+   <m:mi>N</m:mi>
+  </m:msub>
+  <m:mrow><m:mo>→</m:mo></m:mrow><m:msub>
+   <m:mi>X</m:mi>
+   <m:mi>N</m:mi>
+  </m:msub>
+  <m:mo>+</m:mo><m:mi>γ</m:mi></m:mrow>
+</m:math> </equation><figure id="Figure_22_02_GammaDecay"><media id="fs-id1167066946419" alt="The figure shows gamma decay of a nucleus (with several spherical protons and neutrons), resulting in release of a gamma ray."><image mime-type="image/jpg" src="../../media/CNX_HSPhysics_22_02_GammaDecay.jpg"/></media>
+<caption>A nucleus undergoes gamma decay. The nucleus drops in energy state, releasing a gamma ray.</caption>
+</figure>
+
+<note id="fs-id1167066860825" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167063583101"><span>[OL]</span><span>[AL]</span>To differentiate between the three types of decay, you can have the students construct a large Venn diagram of their radioactive properties. For students struggling with the idea, it may be easier to have them first construct a table of what they know about each type of decay.</para>
+</note>
+
+<note id="Worked_Example_22_04" class="worked-example">
+
+<title>Creating a Decay Equation</title>
+<exercise id="fs-id1167067058276" class="22-ex054 unnumbered">
+<label/>
+<problem id="fs-id1167066805000">
+<para id="fs-id1167061192561">Write the complete decay equation in  <m:math>
+<m:msubsup>
+<m:mrow/>
+   <m:mrow><m:mi>Z</m:mi></m:mrow>
+   <m:mi>A</m:mi>
+</m:msubsup>
+  <m:mi>X</m:mi>
+  <m:msub>
+   <m:mrow/>
+   <m:mi>N</m:mi>
+  </m:msub>
+</m:math>  notation for beta decay producing <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow/>
+   <m:mrow>
+    <m:mn>137</m:mn></m:mrow>
+  </m:msup>
+  <m:mtext>B</m:mtext><m:mtext>a</m:mtext></m:mrow>
+</m:math> . Refer to the periodic table for values of <emphasis effect="italics">Z</emphasis>.</para><note id="fs-id1167066885689">
+<label/>
+<title>Strategy</title>
+<para id="fs-id1167067314152">Beta decay results in an increase in atomic number. As a result, the original (or parent) nucleus, must have an atomic number of one fewer proton.</para>
+</note>
+</problem>
+<solution id="fs-id1167066874134"><label/>
+<title>Solution</title>
+<para id="fs-id1167063519623">The equation for beta decay is as follows</para>
+<equation id="fs-id1164568022601"> <m:math display="block">
+ <m:mrow>
+  <m:mmultiscripts>
+   <m:mi>X</m:mi>
+   <m:mprescripts/>
+   <m:mi>Z</m:mi>
+   <m:mi>A</m:mi>
+  </m:mmultiscripts>
+  <m:msub>
+   <m:mrow/>
+   <m:mi>N</m:mi>
+  </m:msub>
+  <m:mrow><m:mo>→</m:mo></m:mrow><m:mmultiscripts>
+   <m:mi>Y</m:mi>
+   <m:mprescripts/>
+   <m:mrow>
+    <m:mi>Z</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow>
+   <m:mi>A</m:mi>
+  </m:mmultiscripts>
+  <m:msub>
+   <m:mrow/>
+   <m:mrow>
+    <m:mi>N</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+  </m:msub>
+  <m:mo>+</m:mo><m:mi>e</m:mi><m:mo>+</m:mo><m:mi>v</m:mi>
+<m:mtext>.</m:mtext>
+</m:mrow>
+</m:math>
+</equation><para id="fs-id1167067032810">Considering that barium is the product (or daughter) nucleus and has an atomic number of 56, the original nucleus must be of an atomic number of 55. That corresponds to cesium, or Cs.</para>
+<equation id="fs-id1164566345503"> <m:math display="block">
+ <m:mrow>
+  <m:mmultiscripts>
+   <m:mtext>C</m:mtext>
+   <m:mprescripts/>
+   <m:mrow>
+    <m:mn>55</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>137</m:mn></m:mrow>
+  </m:mmultiscripts>
+  <m:msub>
+   <m:mtext>s</m:mtext>
+   <m:mi>N</m:mi>
+  </m:msub>
+  <m:mrow><m:mo>→</m:mo></m:mrow><m:mmultiscripts>
+   <m:mtext>B</m:mtext>
+   <m:mprescripts/>
+   <m:mrow>
+    <m:mn>56</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>137</m:mn></m:mrow>
+  </m:mmultiscripts>
+  <m:msub>
+   <m:mtext>a</m:mtext>
+   <m:mrow>
+    <m:mi>N</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+  </m:msub>
+  <m:mo>+</m:mo><m:mi>e</m:mi><m:mo>+</m:mo><m:mi>v</m:mi></m:mrow>
+</m:math>
+</equation><para id="fs-id1167063779503">The number of neutrons in the parent cesium and daughter barium can be determined by subtracting the atomic number from the mass number (137 – 55 for cesium, 137 – 56 for barium). Substitute those values for the <emphasis effect="italics">N</emphasis> and <emphasis effect="italics">N – 1</emphasis> subscripts in the above equation.</para>
+<equation id="fs-id1164567907098"> <m:math display="block">
+ <m:mrow>
+  <m:mmultiscripts>
+   <m:mtext>C</m:mtext>
+   <m:mprescripts/>
+   <m:mrow>
+    <m:mn>55</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>137</m:mn></m:mrow>
+  </m:mmultiscripts>
+  <m:msub>
+   <m:mtext>s</m:mtext>
+   <m:mrow>
+    <m:mn>82</m:mn></m:mrow>
+  </m:msub>
+  <m:mrow><m:mo>→</m:mo></m:mrow><m:mmultiscripts>
+   <m:mtext>B</m:mtext>
+   <m:mprescripts/>
+   <m:mrow>
+    <m:mn>56</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>137</m:mn></m:mrow>
+  </m:mmultiscripts>
+  <m:msub>
+   <m:mtext>a</m:mtext>
+   <m:mrow>
+    <m:mn>81</m:mn></m:mrow>
+  </m:msub>
+  <m:mo>+</m:mo><m:mi>e</m:mi><m:mo>+</m:mo><m:mi>v</m:mi></m:mrow>
+</m:math>
+</equation></solution>
+<commentary id="fs-id1167067176361">
+<title>Discussion</title>
+<para id="fs-id1167061253287">The terms <emphasis effect="italics">parent</emphasis> and <emphasis effect="italics">daughter</emphasis> nucleus refer to the reactants and products of a nuclear reaction. The terminology is not just used in this example, but in all nuclear reaction examples. The cesium-137 nuclear reaction poses a significant health risk, as its chemistry is similar to that of potassium and sodium, and so it can easily be concentrated in your cells if ingested.</para>
+</commentary>
+</exercise>
+</note>
+
+<note id="Worked_Example_22_05" class="worked-example">
+
+<title>Alpha Decay Energy Found from Nuclear Masses</title>
+<exercise id="fs-id1167067100947" class="22-ex055 unnumbered">
+<label/>
+<problem id="fs-id1167066867343">
+<para id="fs-id1167066973970">Find the energy emitted in the  <m:math>
+ <m:mi>α</m:mi>
+</m:math>  decay of <sup>239</sup>Pu.</para>
+<note id="fs-id1167063628934">
+<label/>
+<title>Strategy</title>
+<para id="fs-id1167066958437">Nuclear reaction energy, such as released in  <m:math>
+ <m:mi>α</m:mi>
+</m:math>  decay, can be found using the equation  <m:math>
+ <m:mrow>
+  <m:mi>E</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:msup>
+   <m:mi>c</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math> . We must first find  <m:math>
+ <m:mrow>
+  <m:mtext>Δ</m:mtext><m:mi>m</m:mi></m:mrow>
+</m:math>, the difference in mass between the parent nucleus and the products of the decay.</para>
+
+<para id="fs-id1167067108934">The mass of pertinent particles is as follows</para>
+<para id="fs-id1167063519972"><sup>239</sup>Pu: 239.052157 u</para>
+<para id="fs-id1167067049482"><sup>235</sup>U: 235.043924 u</para>
+<para id="fs-id1167066938856"><sup>4</sup>He: 4.002602 u.</para>
+</note>
+</problem>
+<solution id="fs-id1167063514819">
+<label/>
+<title>Solution</title>
+<para id="fs-id1167066959740">The decay equation for <sup>239</sup>Pu is</para>
+<equation id="fs-id1167067209015"><label/> <m:math>
+ <m:mrow>
+  <m:mmultiscripts>
+   <m:mtext>P</m:mtext>
+   <m:mprescripts/>
+   <m:none/>
+   <m:mrow>
+    <m:mn>239</m:mn></m:mrow>
+  </m:mmultiscripts>
+  <m:mtext>u</m:mtext><m:mrow><m:mo>→</m:mo></m:mrow><m:mmultiscripts>
+   <m:mtext>U</m:mtext>
+   <m:mprescripts/>
+   <m:none/>
+   <m:mrow>
+    <m:mn>235</m:mn></m:mrow>
+  </m:mmultiscripts>
+  <m:mo>+</m:mo><m:mmultiscripts>
+   <m:mtext>H</m:mtext>
+   <m:mprescripts/>
+   <m:none/>
+   <m:mn>4</m:mn>
+  </m:mmultiscripts>
+  <m:mtext>e</m:mtext>
+  <m:mtext>.</m:mtext>
+  </m:mrow>
+</m:math>
+</equation><para id="fs-id1167067305334">Determine the amount of mass lost between the parent and daughter nuclei.</para>
+<equation id="fs-id1167063454307"><label/> <m:math>
+ <m:mtable columnalign="left">
+  <m:mtr>
+   <m:mtd>
+    <m:mtext>Δ</m:mtext><m:mi>m</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:msup>
+       <m:mrow/>
+       <m:mrow>
+        <m:mn>239</m:mn></m:mrow>
+      </m:msup>
+      <m:mtext>P</m:mtext><m:mspace width="0.25em"/><m:mtext>u</m:mtext></m:mrow>
+    <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mi>m</m:mi><m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:msup>
+         <m:mrow/>
+         <m:mrow>
+          <m:mn>239</m:mn></m:mrow>
+        </m:msup>
+        <m:mtext>U</m:mtext></m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:mspace width="0.25em"/><m:mo>+</m:mo><m:mspace width="0.25em"/><m:mi>m</m:mi><m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:msup>
+         <m:mrow/>
+         <m:mn>4</m:mn>
+        </m:msup>
+        <m:mtext>H</m:mtext><m:mtext>e</m:mtext></m:mrow>
+      <m:mo>)</m:mo></m:mrow></m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mtd>
+  </m:mtr>
+  <m:mtr>
+   <m:mtd>
+    <m:mtext>Δ</m:mtext><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>239.052157</m:mn><m:mspace width="0.25em"/><m:mtext>u</m:mtext><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mn>235.043924</m:mn><m:mspace width="0.25em"/><m:mtext>u</m:mtext><m:mo>+</m:mo><m:mn>4.002602</m:mn><m:mspace width="0.25em"/><m:mtext>u</m:mtext><m:mo stretchy="false">)</m:mo>
+   </m:mtd>
+  </m:mtr>
+  <m:mtr>
+   <m:mtd>
+    <m:mtext>Δ</m:mtext><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>0.0005631</m:mn><m:mspace width="0.25em"/><m:mtext>u</m:mtext>
+   </m:mtd>
+  </m:mtr>
+ </m:mtable>
+
+</m:math>
+</equation>
+<para id="fs-id1167067166302">Now we can find <emphasis effect="italics">E </emphasis>by entering  <m:math>
+ <m:mrow>
+  <m:mtext>Δ</m:mtext><m:mi>m</m:mi></m:mrow>
+</m:math>  into the equation.</para>
+<equation id="fs-id1167063584155"><label/> <m:math>
+ <m:mrow>
+  <m:mi>E</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mtext>Δ</m:mtext><m:mi>m</m:mi></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:msup>
+   <m:mi>c</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>0.005631</m:mn><m:mspace width="0.3em"/><m:mtext>u</m:mtext></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:msup>
+   <m:mi>c</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1167063719839">And knowing that  <m:math>
+ <m:mrow>
+  <m:mn>1</m:mn><m:mspace width="0.25em"/><m:mtext>u</m:mtext><m:mo>=</m:mo><m:mn>931.5</m:mn><m:mspace width="0.3em"/><m:mtext>m</m:mtext><m:mtext>e</m:mtext><m:mtext>V</m:mtext><m:mo>/</m:mo><m:msup>
+   <m:mi>c</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math>, we can find that</para>
+<equation id="fs-id1167066879020"><label/> <m:math>
+ <m:mrow>
+  <m:mi>E</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>0.005631</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>931.5</m:mn><m:mspace width="0.25em"/><m:mtext>M</m:mtext><m:mtext>e</m:mtext><m:mtext>V</m:mtext><m:mo>/</m:mo><m:msup>
+     <m:mi>c</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msup>
+     <m:mi>c</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>5.25</m:mn><m:mspace width="0.25em"/><m:mtext>M</m:mtext><m:mtext>e</m:mtext><m:mtext>V</m:mtext>
+ <m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math>
+</equation></solution>
+<commentary id="fs-id1167067103168">
+<title>Discussion</title>
+<para id="fs-id1167063491115">The energy released in this  <m:math>
+ <m:mi>α</m:mi>
+</m:math>  decay is in the MeV range, about 10<sup>6</sup> times as great as typical chemical reaction energies, consistent with previous discussions. Most of the energy becomes kinetic energy of the  <m:math>
+ <m:mi>α</m:mi>
+</m:math>  particle (or <sup>4</sup>He nucleus), which moves away at high speed.</para>
+<para id="fs-id1167063526880">The energy carried away by the recoil of the <sup>235</sup>U nucleus is much smaller, in order to conserve momentum. The <sup>235</sup>U nucleus can be left in an excited state to later emit photons ( <m:math>
+ <m:mi>γ</m:mi>
+</m:math>  rays). The decay is spontaneous and releases energy, because the products have less mass than the parent nucleus.</para>
+</commentary>
+</exercise>
+</note>
+</section>
+</section><section id="fs-id1167066945054"><title>Properties of Radiation</title><para id="fs-id1167063594623">The charges of the three radiated particles differ. Alpha particles, with two protons, carry a net charge of +2. Beta particles, with one electron, carry a net charge of –1. Meanwhile, gamma rays are solely photons, or light, and carry no charge. The difference in charge plays an important role in how the three radiations affect surrounding substances.</para>
+
+<note id="fs-id1167066808714" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167063655997"><span>[OL]</span><span>[AL]</span>Show table 22.3 to students after they read the preceding paragraph. See if they can explain the penetration distances based on charge difference alone.</para>
+<para id="fs-id1167063517686"><span>[BL]</span>-See if students can come up with a relationship between penetration distance and particle charge. If there were a radiation particle with a charge of –4, what would you expect its penetration distance to be?</para>
+</note>
+
+<para id="fs-id1167067066616">Alpha particles, being highly charged, will quickly interact with ions in the air and electrons within metals. As a result, they have a short range and short penetrating distance in most materials. Beta particles, being slightly less charged, have a larger range and larger penetrating distance. Gamma rays, on the other hand, have little electric interaction with particles and travel much farther. Two diagrams below show the importance of difference in penetration. <link target-id="Table_22_03"/> shows the distance of radiation penetration, and <link target-id="Figure_22_02_RadPen"/> shows the influence various factors have on radiation penetration distance.</para>
+
+<table id="Table_22_03" summary="Table with type of radiation and range.">
+<title>Comparing Ranges of Radioactive Decay</title>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row>
+<entry>Type of Radiation</entry>
+<entry>Range</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry> <m:math>
+ <m:mi>α</m:mi>
+</m:math>  particles</entry>
+<entry>A sheet of paper, a few cm of air, fractions of a millimeter of tissue</entry>
+</row>
+<row>
+<entry> <m:math>
+ <m:mi>β</m:mi>
+</m:math>  particles</entry>
+<entry>A thin aluminum plate, tens of cm of tissue</entry>
+</row>
+<row>
+<entry> <m:math>
+ <m:mi>γ</m:mi>
+</m:math>  rays</entry>
+<entry>Several cm of lead, meters of concrete</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+<figure id="Figure_22_02_RadPen">
+<media id="fs-id1167067013060" alt="Part (a) shows penetration of two beta radiations with different energy levels in the same material—higher energy radiation achieves better penetration. Part (b) shows penetration of two beta radiations with same energy but in different materials (Pb and Li). The penetration is greater in Li due to lower electron density. Part (c) shows penetration of alpha, beta and gamma radiations with same energy in the same material. Gamma radiation has greatest penetration whereas alpha radiation has least penetration.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_22_02_RadPen.jpg"/></media>
+<caption>The penetration or range of radiation depends on its energy, the material it encounters, and the type of radiation. (a) Greater energy means greater range. (b) Radiation has a smaller range in materials with high electron density. (c) Alphas have the smallest range, betas have a greater range, and gammas have the greatest range.</caption>
+</figure>
+
+<note id="fs-id1167063779506" class="links-to-physics">
+
+<title>Radiation Detectors</title>
+<para id="fs-id1167063820980">The first direct detection of radiation was Becquerel’s darkened photographic plate. Photographic film is still the most common detector of ionizing radiation, being used routinely in medical and dental X-rays. Nuclear radiation can also be captured on film, as seen in <link target-id="Figure_22_02_PhotoFilm"/>. The mechanism for film exposure by radiation is similar to that by photons. A quantum of energy from a radioactive particle interacts with the emulsion and alters it chemically, thus exposing the film. Provided the radiation has more than the few eV of energy needed to induce the chemical change, the chemical alteration will occur. The amount of film darkening is related to the type of radiation and amount of exposure. The process is not 100 percent efficient, since not all incident radiation interacts and not all interactions produce the chemical change.</para>
+
+<figure id="Figure_22_02_PhotoFilm"><media id="fs-id1167061253469" alt="A photo of a film badge."><image mime-type="image/jpg" src="../../media/CNX_HSPhysics_22_02_PhotoFilm.jpg"/></media>
+<caption>Film badges contain film similar to that used in this dental X-ray film. It is sandwiched between various absorbers to determine the penetrating ability of the radiation as well as the amount. Film badges are worn to determine radiation exposure. (credit: Werneuchen, Wikimedia Commons)</caption>
+</figure>
+
+<para id="fs-id1167066966916">Another very common radiation detector is the <term>Geiger tube</term>. The clicking and buzzing sound we hear in dramatizations and documentaries, as well as in our own physics labs, is usually an audio output of events detected by a Geiger counter. These relatively inexpensive radiation detectors are based on the simple and sturdy Geiger tube, shown schematically in <link target-id="Figure_22_02_Geiger"/>. A conducting cylinder with a wire along its axis is filled with an insulating gas so that a voltage applied between the cylinder and wire produces almost no current. Ionizing radiation passing through the tube produces free ion pairs that are attracted to the wire and cylinder, forming a current that is detected as a count. Not every particle is detected, since some radiation can pass through without producing enough ionization. However, Geiger counters are very useful in producing a prompt output that reveals the existence and relative intensity of ionizing radiation.</para>
+
+<figure id="Figure_22_02_Geiger">
+<media id="fs-id1167067025882" alt="Part (a) shows the photo of a Geiger counter. Part (b) shows the working of Geiger counter as radiation comes from the left into a thin window and enters a cylinder filled with rarefied gas. The electronic counter on the right is used to detect the current."><image mime-type="image/jpg" src="../../media/CNX_HSPhysics_22_02_Geiger.jpg"/></media>
+<caption>(a) Geiger counters such as this one are used for prompt monitoring of radiation levels, generally giving only relative intensity and not identifying the type or energy of the radiation. (credit: Tim Vickers, Wikimedia Commons) (b) Voltage applied between the cylinder and wire in a Geiger tube affects ions and electrons produced by radiation passing through the gas-filled cylinder. Ions move toward the cylinder and electrons toward the wire. The resulting current is detected and registered as a count.</caption>
+</figure>
+
+<para id="fs-id1167067028510">Another radiation detection method records light produced when radiation interacts with materials. The energy of the radiation is sufficient to excite atoms in a material that may fluoresce, such as the phosphor used by Rutherford’s group. Materials called <term>scintillators</term> use a more complex process to convert radiation energy into light. Scintillators may be liquid or solid, and they can be very efficient. Their light output can provide information about the energy, charge, and type of radiation. Scintillator light flashes are very brief in duration, allowing the detection of a huge number of particles in short periods of time. Scintillation detectors are used in a variety of research and diagnostic applications. Among those are the detection of the radiation from distant galaxies using satellite-mounted equipment and the detection of exotic particles in accelerator laboratories.</para>
+
+</note>
+<note id="fs-id1167067201219" class="virtual-physics os-interactive"><title>Beta Decay</title>
+<media id="fs-id1167067184393" alt="This simulation allows you to watch beta decay occur for a collection of nuclei or for an individual nucleus.">
+<iframe width="660" height="371.4" src="https://openstax.org/l/21betadecayvid"/>
+</media>
+<para id="fs-id1167067051785">Watch beta decay occur for a collection of nuclei or for an individual nucleus. With this applet, individuals or groups of students can compare half-lives!</para>
+</note></section><section id="fs-id1167063615140" class="check-understanding"><title>Check Your Understanding</title><exercise id="eip-id1166848989048" class="os-exercise">
+<problem id="eip-id1166848689021">
+<para id="eip-id1166848689023">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch22-ot009"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167061216890" class="summary">
+<title>Section Summary</title>
+<list id="fs-id1167066961964"><item>The structure of the nucleus is defined by its two nucleons, the neutron and proton. </item>
+<item>Atomic numbers and mass numbers are used to differentiate between various atoms and isotopes. Those numbers can be combined into an easily recognizable form called a <emphasis effect="italics">nuclide</emphasis>.</item>
+<item>The size and stability of the nucleus is based upon two forces: the electromagnetic force and strong nuclear force.</item>
+<item>Radioactive decay is the alteration of the nucleus through the emission of particles or energy.</item>
+<item>Alpha decay occurs when too many protons exist in the nucleus. It results in the ejection of an alpha particle, as described in the equation  <m:math>
+ <m:mrow>
+  <m:mmultiscripts>
+   <m:mi>X</m:mi>
+   <m:mprescripts/>
+   <m:mi>Z</m:mi>
+   <m:mi>A</m:mi>
+  </m:mmultiscripts>
+  <m:msub>
+   <m:mrow/>
+   <m:mi>N</m:mi>
+  </m:msub>
+  <m:mrow><m:mo>→</m:mo></m:mrow><m:mmultiscripts>
+   <m:mi>Y</m:mi>
+   <m:mprescripts/>
+   <m:mrow>
+    <m:mi>Z</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow>
+   <m:mrow>
+    <m:mi>A</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow>
+  </m:mmultiscripts>
+  <m:msub>
+   <m:mrow/>
+   <m:mi>N</m:mi>
+  </m:msub>
+  <m:mo>+</m:mo><m:mmultiscripts>
+   <m:mtext>H</m:mtext>
+   <m:mprescripts/>
+   <m:mn>2</m:mn>
+   <m:mn>4</m:mn>
+  </m:mmultiscripts>
+  <m:msub>
+   <m:mtext>e</m:mtext>
+   <m:mrow/>
+  </m:msub>
+  </m:mrow>
+</m:math> .</item>
+<item>Beta decay occurs when too many neutrons (or protons) exist in the nucleus. It results in the transmutation of a neutron into a proton, electron, and neutrino. The decay is expressed through the equation  <m:math>
+ <m:mrow>
+  <m:mmultiscripts>
+   <m:mi>X</m:mi>
+   <m:mprescripts/>
+   <m:mi>Z</m:mi>
+   <m:mi>A</m:mi>
+  </m:mmultiscripts>
+  <m:msub>
+   <m:mrow/>
+   <m:mi>N</m:mi>
+  </m:msub>
+  <m:mrow><m:mo>→</m:mo></m:mrow><m:mmultiscripts>
+   <m:mi>Y</m:mi>
+   <m:mprescripts/>
+   <m:mrow>
+    <m:mi>Z</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow>
+   <m:mi>A</m:mi>
+  </m:mmultiscripts>
+  <m:msub>
+   <m:mrow/>
+   <m:mrow>
+    <m:mi>N</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+  </m:msub>
+  <m:mo>+</m:mo><m:mi>e</m:mi><m:mo>+</m:mo><m:mi>v</m:mi></m:mrow>
+</m:math> . (Beta decay may also transform a proton into a neutron.)</item>
+<item>Gamma decay occurs when a nucleus in an excited state move to a more stable state, resulting in the release of a photon. Gamma decay is represented with the equation  <m:math>
+ <m:mrow>
+  <m:mmultiscripts>
+   <m:mi>X</m:mi>
+   <m:mprescripts/>
+   <m:mi>Z</m:mi>
+   <m:mi>A</m:mi>
+  </m:mmultiscripts>
+  <m:msub>
+   <m:mrow/>
+   <m:mi>N</m:mi>
+  </m:msub>
+  <m:mrow><m:mo>→</m:mo></m:mrow><m:msub>
+   <m:mi>X</m:mi>
+   <m:mi>N</m:mi>
+  </m:msub>
+  <m:mo>+</m:mo><m:mi>γ</m:mi></m:mrow>
+</m:math> .</item>
+<item>The penetration distance of radiation depends on its energy, charge, and type of material it encounters.</item>
+</list></section>
+
+<section id="fs-id1167066842972" class="key-equations">
+<title>Key Equations</title>
+<table class="unnumbered unstyled" id="fs-id1167063810774" summary="Equations for alpha, beta and gamma decay."><label/>
+<tgroup cols="2"><colspec colnum="1" align="left" colname="c1"/>
+<colspec colnum="2" align="left" colname="c2"/>
+<tbody>
+<row>
+<entry>alpha decay equation</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mmultiscripts>
+   <m:mi>X</m:mi>
+   <m:mprescripts/>
+   <m:mi>Z</m:mi>
+   <m:mi>A</m:mi>
+  </m:mmultiscripts>
+  <m:msub>
+   <m:mrow/>
+   <m:mi>N</m:mi>
+  </m:msub>
+  <m:mrow><m:mo>→</m:mo></m:mrow><m:mmultiscripts>
+   <m:mi>Y</m:mi>
+   <m:mprescripts/>
+   <m:mrow>
+    <m:mi>Z</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow>
+   <m:mrow>
+    <m:mi>A</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow>
+  </m:mmultiscripts>
+  <m:msub>
+   <m:mrow/>
+   <m:mi>N</m:mi>
+  </m:msub>
+  <m:mo>+</m:mo><m:mmultiscripts>
+   <m:mtext>H</m:mtext>
+   <m:mprescripts/>
+   <m:mn>2</m:mn>
+   <m:mn>4</m:mn>
+  </m:mmultiscripts>
+  <m:msub>
+   <m:mtext>e</m:mtext>
+   <m:mrow/>
+  </m:msub>
+  </m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>beta decay equation</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mmultiscripts>
+   <m:mi>X</m:mi>
+   <m:mprescripts/>
+   <m:mi>Z</m:mi>
+   <m:mi>A</m:mi>
+  </m:mmultiscripts>
+  <m:msub>
+   <m:mrow/>
+   <m:mi>N</m:mi>
+  </m:msub>
+  <m:mrow><m:mo>→</m:mo></m:mrow><m:mmultiscripts>
+   <m:mi>Y</m:mi>
+   <m:mprescripts/>
+   <m:mrow>
+    <m:mi>Z</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow>
+   <m:mi>A</m:mi>
+  </m:mmultiscripts>
+  <m:msub>
+   <m:mrow/>
+   <m:mrow>
+    <m:mi>N</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+  </m:msub>
+  <m:mo>+</m:mo><m:mi>e</m:mi><m:mo>+</m:mo><m:mi>v</m:mi></m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>gamma decay equation</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mmultiscripts>
+   <m:mi>X</m:mi>
+   <m:mprescripts/>
+   <m:mi>Z</m:mi>
+   <m:mi>A</m:mi>
+  </m:mmultiscripts>
+  <m:msub>
+   <m:mrow/>
+   <m:mi>N</m:mi>
+  </m:msub>
+  <m:mrow><m:mo>→</m:mo></m:mrow><m:msub>
+   <m:mi>X</m:mi>
+   <m:mi>N</m:mi>
+  </m:msub>
+  <m:mo>+</m:mo><m:mi>γ</m:mi></m:mrow>
+</m:math>
+</entry>
+</row>
+</tbody>
+
+</tgroup>
+</table></section>
+
+
+
+<section id="fs-id1167067140054" class="critical-thinking"><title>Critical Thinking</title><exercise id="fs-id1167067153381" class="os-exercise">
+<problem id="fs-id1167067067135">
+<para id="fs-id1167066809663">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch22-ex067"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166848703815" class="os-exercise">
+<problem id="eip-id1166849155109">
+<para id="eip-id1166849155111">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch22-ot010"/>
+</para>
+</problem>
+</exercise>
+</section><section id="fs-id1167063890219" class="short-answer"><title>Test Prep Short Answer</title><exercise id="eip-id1166849443626" class="os-exercise">
+<problem id="eip-id1166849474790">
+<para id="eip-id1166849855349">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch22-ot011"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167067058602" class="extended-response"><title>Test Prep Extended Response</title><exercise id="eip-id1166849262120" class="os-exercise">
+<problem id="eip-id1166847998403">
+<para id="eip-id1166849552981">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch22-ot012"/>
+</para>
+</problem>
+</exercise></section></content>
+<glossary>
+<definition id="fs-id1167063580959"><term>alpha decay </term><meaning id="fs-id1167066778559">type of radioactive decay in which an atomic nucleus emits an alpha particle</meaning></definition>
+<definition id="fs-id1167063788911"><term>atomic number </term><meaning id="fs-id1167063788914">number of protons in a nucleus</meaning></definition>
+<definition id="fs-id1167067292663"><term>beta decay </term><meaning id="fs-id1167063470051">type of radioactive decay in which an atomic nucleus emits a beta particle</meaning></definition>
+<definition id="fs-id1167063842152"><term>gamma decay </term><meaning id="fs-id1167063842155">type of radioactive decay in which an atomic nucleus emits a gamma ray</meaning></definition>
+<definition id="fs-id1167066975946"><term>Geiger tube </term><meaning id="fs-id1167067275506">very common radiation detector that usually gives an audio output</meaning></definition>
+<definition id="fs-id1167063634776"><term>isotope </term><meaning id="fs-id1167063634779">nuclei having the same <emphasis effect="italics">Z </emphasis>and different <emphasis effect="italics">N’</emphasis>s</meaning></definition>
+<definition id="fs-id1167067103442"><term>mass number </term><meaning id="fs-id1167067103445">number of nucleons in a nucleus</meaning></definition>
+<definition id="fs-id1167067203137"><term>nucleons </term><meaning id="fs-id1167067273157">particles found inside nuclei</meaning></definition>
+<definition id="fs-id1167067197970"><term>radioactive </term><meaning id="fs-id1167067197973">substance or object that emits nuclear radiation</meaning></definition>
+<definition id="fs-id1167067167206"><term>radioactive decay </term><meaning id="fs-id1167067227449">process by which an atomic nucleus of an unstable atom loses mass and energy by emitting ionizing particles</meaning></definition>
+<definition id="fs-id1167067262124"><term>radioactivity </term><meaning id="fs-id1167063483810">emission of rays from the nuclei of atoms</meaning></definition>
+<definition id="fs-id1167063483813"><term>scintillator </term><meaning id="fs-id1167067043620">radiation detection method that records light produced when radiation interacts with materials</meaning></definition>
+<definition id="fs-id1167063493767"><term>strong nuclear force </term><meaning id="fs-id1167061400778">attractive force that holds nucleons together within the nucleus</meaning></definition>
+<definition id="fs-id1167067234819"><term>transmutation </term><meaning id="fs-id1167067234822">process of changing elemental composition</meaning></definition>
+</glossary>
+</document>

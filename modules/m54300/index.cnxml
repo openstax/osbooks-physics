@@ -1,0 +1,32 @@
+<document xmlns="http://cnx.rice.edu/cnxml" class="introduction">
+
+<title>Introduction</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54300</md:content-id>
+  <md:title>Introduction</md:title>
+  <md:abstract/>
+  <md:uuid>37353a3e-d727-4fc1-93c9-6cafc04c766c</md:uuid>
+</metadata>
+
+<content><figure id="Figure_12_00_Train" class="splash"><media id="fs-id1167066832216" alt="Smoke rises from the stack of a train travelling through the mountains">
+<image src="../../media/CNX_HSPhysics_12_00_Train-d3d5.jpg" mime-type="image/jpg"/>
+</media>
+
+<caption>A steam engine uses energy transfer by heat to do work. (Modification of work by Gerald Friedrich, Pixabay)</caption></figure><note id="fs-id1167063496372" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167063630345"><span>[BL]</span><span>[OL]</span><span>[AL]</span> Ask students if they know how a steam engine works. What are the energy conversions that takes place? Before the start of the chapter, review the concepts of heat, heat transfer, and internal energy of a system.</para>
+<para id="fs-id1167063624387"><span>[BL]</span> Ask students what they think the word <emphasis effect="italics">efficiency</emphasis> means. Ask them what it means for them to be efficient when performing classwork. Ask whether there are some days when they are more or less efficient than others, and have them give examples.</para>
+<para id="fs-id1167063865162"><span>[OL]</span><span>[AL]</span> Ask students why when they touch a machine, such as a computer or auto engine, it feels warm (or very hot!) to the touch. Then explain that, in physics, efficiency is defined as the amount of useful output energy (usually work) for a given input energy. In any engine, including humans, some energy is used to make the engine run, while the rest is lost in the form of unused heat. This is why any device or machine might feel hot while under operation. Point out that if an engine gives more output (say, the energy to travel a certain number of miles) for a given input (the chemical potential energy of the fuel), it is said to be more efficient. People constantly strive to design machines that give more and more efficiency. However, it is impossible for an engine to be 100 percent efficient. Some energy will always be lost in the form of heat.</para>
+</note>
+
+<para id="fs-id1167067266196">Energy can be transferred to or from a system, either through a temperature difference between it and another system (i.e., by heat) or by exerting a force through a distance (work). In these ways, energy can be converted into other forms of energy in other systems. For example, a car engine burns fuel for heat transfer into a gas. Work is done by the gas as it exerts a force through a distance by pushing a piston outward. This work converts the energy into a variety of other forms—into an increase in the car’s kinetic or gravitational potential energy; into electrical energy to run the spark plugs, radio, and lights; and back into stored energy in the car’s battery. But most of the thermal energy transferred by heat from the fuel burning in the engine does not do work on the gas. Instead, much of this energy is released into the surroundings at lower temperature (i.e., lost through heat), which is quite inefficient. Car engines are only about 25 to 30 percent efficient. This inefficiency leads to increased fuel costs, so there is great interest in improving fuel efficiency. However, it is common knowledge that modern gasoline engines cannot be made much more efficient. The same is true about the conversion to electrical energy in large power stations, whether they are coal, oil, natural gas, or nuclear powered. Why is this the case?</para>
+<para id="fs-id1167061433283">The answer lies in the nature of heat. Basic physical laws govern how heat transfer for doing work takes place and limit the maximum possible efficiency of the process. This chapter will explore these laws as well their applications to everyday machines. These topics are part of <emphasis effect="italics">thermodynamics</emphasis>—the study of heat and its relationship to doing work.</para>
+<note id="fs-id1167063862733" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167063725925">Before the start of this chapter, it is useful to review the following concept:</para>
+<list id="fs-id1167067153015">
+<item>Conservation of energy, work, and heat</item>
+</list>
+</note>
+</content>
+</document>

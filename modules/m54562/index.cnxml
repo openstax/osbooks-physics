@@ -1,0 +1,31 @@
+<document xmlns="http://cnx.rice.edu/cnxml" class="introduction">
+
+<title>Introduction</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54562</md:content-id>
+  <md:title>Introduction</md:title>
+  <md:abstract/>
+  <md:uuid>bacc23bf-c358-4751-833f-e87247511316</md:uuid>
+</metadata>
+
+<content>
+<figure id="Figure_21_00_Alice" class="splash"><media id="fs-id1167064848846" alt="An image from the book Alice in Wonderland is shown. Alice is attending a tea party with the Mad Hatter and the White Rabbit.">
+<image src="../../media/CNX_HSPhysics_21_00_Alice.jpg" mime-type="image/jpg"/>
+</media><caption>In Lewis Carroll’s classic text Alice’s Adventures in Wonderland, Alice follows a rabbit down a hole into a land of curiosity. While many of her interactions in Wonderland are of surprising consequence, they follow a certain inherent logic. (credit: modification of work by John Tenniel, Wikimedia Commons)</caption></figure>
+<note id="fs-id1167065733924" class="os-teacher">
+<title>Teacher Support</title>
+<list id="fs-id1167064986665"><item>Discuss with students what features of Alice in Wonderland were unusual compared to life as Alice typically knew it. Question whether an inherent logic still existed in Wonderland. These discussions should prepare students not only to anticipate the bizarre nature of quantum mechanics but also to look for its underlying structure.</item>
+<item>Ask students to review what concepts of physics they consider normal. Look for big ideas: the structure of matter, conservation of momentum and energy, and the like. Have the students consider earlier instances in the course of which these concepts have been challenged or expanded. A reminder of relativity of gravitational fields could remind them that simple concepts are often more than what they seem.</item>
+</list></note>
+<para id="fs-id1167064682022">At first glance, the quantum nature of light can be a strange and bewildering concept. Between light acting as discrete chunks, massless particles providing momenta, and fundamental particles behaving like waves, it may often seem like something out of Alice in Wonderland.</para><para id="fs-id1167066080027">For many, the study of this branch of physics can be as enthralling as Lewis Carroll’s classic novel. Recalling the works of legendary characters and brilliant scientists such as Einstein, Planck, and Compton, the study of light’s quantum nature will provide you an interesting tale of how a clever interpretation of some small details led to the most important discoveries of the past 150 years. From the electronics revolution of the twentieth century to our future progress in solar energy and space exploration, the quantum nature of light should yield a rabbit hole of curious consequence, within which lie some of the most fascinating truths of our time.</para>
+<note id="fs-id1167065977199" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065937396">Before students begin this chapter, it would be useful to review the following concepts:</para>
+<list id="fs-id1167064766250"><item>The wave nature of light—particularly the relationship between wavelength, frequency, and speed.</item>
+<item>The electromagnetic (EM) spectrum—review what separates ultraviolet from visible light and other portions of the EM spectrum. Review the various EM divisions in order of increasing frequency.</item>
+<item>The reflection and absorption of light upon reaching a new boundary. No need to discuss refraction or Snell’s Law, just a reminder that the energy will be reflected or transmitted.</item>
+<item>Conservation of momentum and energy within a macroscopic collision. This will be useful when discussing photon momentum in <link class="target-chapter" document="m54552">The Dual Nature of Light</link>.</item>
+<item>The double-slit experiment and other evidence that light acts as a wave.</item>
+</list></note>
+</content>
+</document>

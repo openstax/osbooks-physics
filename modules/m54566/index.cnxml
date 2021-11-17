@@ -1,0 +1,647 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Planck and Quantum Nature of Light</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54566</md:content-id>
+  <md:title>Planck and Quantum Nature of Light</md:title>
+  <md:abstract/>
+  <md:uuid>cee9f331-93d3-41c8-82a6-b655de75d1e8</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1164353442294" class="learning-objectives">
+<label/>
+<title>Section Learning Objectives</title>
+<para id="fs-id1164354696767">By the end of this section, you will be able to do the following:</para>
+<list id="fs-id1164354531245"><item>Describe blackbody radiation</item>
+<item>Define quantum states and their relationship to modern physics</item>
+<item>Calculate the quantum energy of lights</item>
+<item>Explain how photon energies vary across divisions of the electromagnetic spectrum</item>
+</list></note>
+<note id="fs-id1164354697240" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1164354656837">The learning objectives in this section will help your students master the following standards:</para><list id="fs-id1164354596876"><item>(3) Scientific processes. The student uses critical thinking, scientific reasoning, and problem solving to make informed decisions within and outside the classroom. The student is expected to:
+<list id="fs-id1167065953026"><item>
+<span>(D)</span><span class="ost‐standards-­discard">:</span>
+<span>explain the impacts of the scientific contributions of a variety of historical and contemporary scientists on scientific thought and society.</span></item>
+</list></item>
+<item>(8) Science concepts. The student knows simple examples of atomic, nuclear, and quantum phenomena. The student is expected to:
+<list id="fs-id1167064743894"><item>
+<span>(B)</span><span class="ost‐standards-­discard">:</span>
+<span>compare and explain the emission spectra produced by various atoms; and</span></item>
+<item>
+<span>(D)</span><span class="ost‐standards-­discard">:</span>
+<span>give examples of applications of atomic and nuclear phenomena such as radiation therapy, diagnostic imaging, and nuclear power, and examples of quantum phenomena such as digital cameras.</span></item>
+</list></item>
+</list></note>
+<section id="keyterms"><title>Section Key Terms</title>
+<table id="fs-id1164354601564" class="unnumbered unstyled section-key-terms" summary="Section Key Terms is a three column table. The first row reads blackbody, quantized, quantum. The second row reads ultraviolet catastrophe."><label/>
+<tgroup cols="3">
+<tbody>
+<row>
+<entry>blackbody</entry>
+<entry>quantized</entry>
+<entry>quantum</entry>
+<entry>ultraviolet catastrophe</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section id="fs-id1167063694131">
+<title>Blackbodies</title>
+<note id="fs-id1167066956498" class="os-teacher">
+<title>Teacher Support</title>
+<list id="fs-id1167067217440">
+<item>Prior to beginning this section, it would be a good idea to review wave concepts including frequency, wavelength, and amplitude. Have students write down a list of equations or statements that relate to the three concepts.</item>
+<item><span>[BL]</span><span>[OL]</span>Discuss what could be meant by the term <emphasis effect="italics">blackbody</emphasis>. Why do some objects appear black? Furthermore, why do we see objects that are red as red? It is said that black is the <emphasis effect="italics">absence of color</emphasis>, but what does that mean in terms of the light reflected into our eyes?</item>
+<item><span>[AL]</span>Discuss what can happen to energy when it strikes a surface. Discuss how it can be reflected or transmitted. If a blackbody is perfectly black, what must be happening to all of the energy incident upon it?</item>
+<item>[EL]Reinforce that the term blackbody is nothing more than its name suggests—that is, a body that is perfectly black. Discuss what <emphasis effect="italics">perfectly black</emphasis> means. Is a black piece of paper <emphasis effect="italics">perfectly black</emphasis>?</item>
+</list>
+</note>
+<para id="fs-id1167061703883">Our first story of curious significance begins with a T-shirt. You are likely aware that wearing a tight black T-shirt outside on a hot day provides a significantly less comfortable experience than wearing a white shirt. Black shirts, as well as all other black objects, will absorb and re-emit a significantly greater amount of radiation from the sun. This shirt is a good approximation of what is called a <term>blackbody</term>.</para>
+<note id="fs-id1167067080222" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167063544134">Occasionally, texts refer to <emphasis effect="italics">blackbody</emphasis> and <emphasis effect="italics">perfect blackbody</emphasis> as two different concepts. It is likely best to refer to anything that is not a perfect blackbody as an <emphasis effect="italics">approximation</emphasis> of a blackbody in order to avoid confusion.</para>
+</note>
+<para id="fs-id1167067083929">A perfect blackbody is one that absorbs and re-emits all radiated energy that is incident upon it. Imagine wearing a tight shirt that did this! This phenomenon is often modeled with quite a different scenario. Imagine carving a small hole in an oven that can be heated to very high temperatures. As the temperature of this container gets hotter and hotter, the radiation out of this dark hole would increase as well, re-emitting all energy provided it by the increased temperature. The hole may even begin to glow in different colors as the temperature is increased. Like a burner on your stove, the hole would glow red, then orange, then blue, as the temperature is increased. In time, the hole would continue to glow but the light would be invisible to our eyes. This container is a good model of a perfect blackbody.</para>
+<para id="fs-id1167067200096">It is the analysis of blackbodies that led to one of the most consequential discoveries of the twentieth century. Take a moment to carefully examine <link target-id="Figure_21_01_Blackbody"/>. What relationships exist? What trends can you see? The more time you spend interpreting this figure, the closer you will be to understanding quantum physics!</para>
+
+<figure id="Figure_21_01_Blackbody">
+<media id="fs-id1167063629171" alt="A graph plotting radiation intensity against wavelength is shown. On the graph, there are three lines, each one corresponding to the temperature of a different radiator. Each of the three lines curves sharply upward and then gradually back downward. This shows two things: First, for each temperature, there is energy emitted across the electromagnetic section. Second, there is a peak wavelength, where the radiation intensity is greatest. On the graph it can be seen that as temperatures get hotter, the peak wavelength shifts to the left of the visible spectrum.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_21_01_Blackbody-d846.jpg"/>
+</media>
+<caption>Graphs of blackbody radiation (from an ideal radiator) at three different radiator temperatures. The intensity or rate of radiation emission increases dramatically with temperature, and the peak of the spectrum shifts toward the visible and ultraviolet parts of the spectrum. The shape of the spectrum cannot be described with classical physics.</caption>
+</figure>
+
+<note id="fs-id1167063751856" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066836560">It is important for students to make sense of <link target-id="Figure_21_01_Blackbody"/> before progressing further. Have students independently create a list of observations from the graph. When presenting their observations, press the students on the specifics of their observations.</para>
+<para id="fs-id1167066962536"><span>[BL]</span>Discuss what variables are being graphed. Have them complete the statement: ________ is dependent upon ________. Discuss what is meant by intensity. What is the difference between being <emphasis effect="italics">mad</emphasis> and <emphasis effect="italics">intensely mad</emphasis>?</para>
+<para id="fs-id1167066983736"><span>[OL]</span>Discuss what the peak of each graph refers to. Ask if the radiation intensity depends upon the wavelength of the radiation. How do they know this? What do the peaks on each graph mean?</para>
+<para id="fs-id1167063564409"><span>[AL]</span>Discuss why there are three lines on the graph. Does it make sense that an increase in temperature would cause the line of the graph to be raised? Why does this make sense? A good challenging exercise would be to have the students re-graph the information in order to represent EM radiation intensity against frequency.</para>
+</note>
+<note id="fs-id1167063558263" class="tips-for-success">
+
+<para id="fs-id1167063539698">When encountering a new graph, it is best to try to interpret the graph before you read about it. Doing this will make the following text more meaningful and will help to remind yourself of some of the key concepts within the section.</para>
+</note>
+</section>
+
+<section id="fs-id1167067179493">
+<title>Understanding Blackbody Graphs</title>
+<para id="fs-id1167063503942"><link target-id="Figure_21_01_Blackbody"/> is a plot of radiation intensity against radiated wavelength. In other words, it shows how the intensity of radiated light changes when a blackbody is heated to a particular temperature.</para>
+<para id="fs-id1167063634882">It may help to just follow the bottom-most red line labeled 3,000 K, red hot. The graph shows that when a blackbody acquires a temperature of 3,000 K, it radiates energy across the electromagnetic spectrum. However, the energy is most intensely emitted at a wavelength of approximately 1000 nm. This is in the infrared portion of the electromagnetic spectrum. While a body at this temperature would appear <emphasis effect="italics">red-hot</emphasis> to our eyes, it would truly appear ‘infrared-hot’ if we were able to see the entire spectrum.</para>
+<para id="fs-id1167063865116">A few other important notes regarding <link target-id="Figure_21_01_Blackbody"/>:</para>
+<list id="fs-id1167067315882">
+<item>As temperature increases, the total amount of energy radiated increases. This is shown by examining the area underneath each line.</item>
+<item>Regardless of temperature, all red lines on the graph undergo a consistent pattern. While electromagnetic radiation is emitted throughout the spectrum, the intensity of this radiation peaks at one particular wavelength.</item>
+<item>As the temperature changes, the wavelength of greatest radiation intensity changes. At 4,000 K, the radiation is most intense in the yellow-green portion of the spectrum. At 6,000 K, the blackbody would radiate <emphasis effect="italics">white hot,</emphasis> due to intense radiation throughout the visible portion of the electromagnetic spectrum. Remember that white light is the emission of all visible colors simultaneously.</item>
+<item>As the temperature increases, the frequency of light providing the greatest intensity increases as well. Recall the equation  <m:math> <m:mrow>  <m:mi>v</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mi>λ</m:mi><m:mo>.</m:mo> </m:mrow></m:math>  Because the speed of light is constant, frequency and wavelength are inversely related. This is verified by the leftward movement of the three red lines as temperature is increased.</item>
+</list>
+
+<note id="fs-id1167062971401" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167062348708">Discuss the bullet points above. Why does an increase in temperature result in an increase in the total amount of energy radiated? Do you have personal experience with the relationship described in bullet point #3? Students may not have answers as to the causal factors for some of the observations in the above bullet points. Remind them that this is okay as these <emphasis effect="italics">why</emphasis> questions were the big questions being asked by physicists at the turn of the twentieth century!</para>
+
+<para id="fs-id1167065893178"><span>[BL]</span><span>[OL]</span>Do you have personal evidence to show that as temperature increases the energy radiated increases as well?</para>
+<para id="fs-id1167065020977"><span>[AL]</span>Remind students that temperature is just a measure of the average kinetic energy of particles in a gas. Does this definition support bullet point #1?</para>
+</note>
+<para id="fs-id1167062332070">While in science it is important to categorize observations, theorizing as to why the observations exist is crucial to scientific advancement. Why doesn’t a blackbody emit radiation evenly across all wavelengths? Why does the temperature of the body change the peak wavelength that is radiated? Why does an increase in temperature cause the peak wavelength emitted to decrease? It is questions like these that drove significant research at the turn of the twentieth century. And within the context of these questions, Max <term class="no-emphasis">Planck</term> discovered something of tremendous importance.</para>
+</section>
+
+<section id="fs-id1167061177790">
+<title>Planck’s Revolution</title>
+<note id="fs-id1167066791043" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067075874">Planck’s revolution is very much the story of the scientific method—reconciling disconnects between theory and experimental results. Encourage the students to think of other events—either historical or within their own lives—in which a predominant theory was shown to be incorrect when confronted with overwhelming evidence to the contrary. Possible examples include the geocentric model, the ether, or the four elements.</para>
+</note>
+<para id="fs-id1167063537558">The prevailing theory at the time of Max Planck’s discovery was that intensity and frequency were related by the equation  <m:math> <m:mrow> <m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac> <m:mrow> <m:mn>2</m:mn><m:mi>k</m:mi><m:mi>T</m:mi> </m:mrow> <m:mrow> <m:msup> <m:mi>λ</m:mi> <m:mn>2</m:mn> </m:msup> </m:mrow> </m:mfrac> <m:mo>.</m:mo> </m:mrow></m:math>  This equation, derived from classical physics and using wave phenomena, infers that as wavelength increases, the intensity of energy provided will decrease with an inverse-squared relationship. This relationship is graphed in <link target-id="Figure_21_01_Comparison"/> and shows a troubling trend. For starters, it should be apparent that the graph from this equation does not match the blackbody graphs found experimentally. Additionally, it shows that for an object of any temperature, there should be an infinite amount of energy quickly emitted in the shortest wavelengths. When theory and experimental results clash, it is important to re-evaluate both models. The disconnect between theory and reality was termed the <term>ultraviolet catastrophe</term>.</para>
+
+<figure id="Figure_21_01_Comparison">
+<media id="fs-id1167066885729" alt="A graph plotting intensity of spectral radiation (or, loosely speaking, brightness) vs wavelength is shown. There is another line shown, called ‘Classical Theory.’ This line starts at the right of the graph and curves sharply upward and to the left. It appears to reach an infinite value around 1.2 micrometers.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_21_01_Comparison.jpg"/>
+</media>
+<caption>The graph above shows the true spectral measurements by a blackbody against those predicted by the classical theory at the time. The discord between the predicted classical theory line and the actual results is known as the ultraviolet catastrophe.</caption>
+</figure>
+<para id="fs-id1167067065648">Due to concerns over the ultraviolet catastrophe, Max Planck began to question whether another factor impacted the relationship between intensity and wavelength. This factor, he posited, should affect the probability that short wavelength light would be emitted. Should this factor reduce the probability of short wavelength light, it would cause the radiance curve to not progress infinitely as in the classical theory, but would instead cause the curve to precipitate back downward as is shown in the 5,000 K, 4,000 K, and 3,000 K temperature lines of the graph in <link target-id="Figure_21_01_Comparison"/>. Planck noted that this factor, whatever it may be, must also be dependent on temperature, as the intensity decreases at lower and lower wavelengths as the temperature increases.</para>
+<para id="fs-id1167067076541">The determination of this <emphasis effect="italics">probability factor</emphasis> was a groundbreaking discovery in physics, yielding insight not just into light but also into energy and matter itself. It would be the basis for Planck’s 1918 Nobel Prize in Physics and would result in the transition of physics from classical to modern understanding. In an attempt to determine the cause of the <emphasis effect="italics">probability factor,</emphasis> Max Planck constructed a new theory. This theory, which created the branch of physics called <term class="no-emphasis">quantum mechanics</term>, speculated that the energy radiated by the blackbody could exist only in specific numerical, or <term>quantum</term>, states. This theory is described by the equation  <m:math> <m:mrow> <m:mi>E</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>h</m:mi><m:mi>f</m:mi><m:mo>,</m:mo> </m:mrow></m:math>  where <emphasis effect="italics">n</emphasis> is any nonnegative integer (0, 1, 2, 3, …) and <emphasis effect="italics">h</emphasis> is <term class="no-emphasis">Planck’s constant</term>, given by  <m:math> <m:mrow> <m:mi>h</m:mi><m:mo>=</m:mo><m:mn>6.626</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup> <m:mrow> <m:mn>10</m:mn> </m:mrow> <m:mrow> <m:mn>−34</m:mn> </m:mrow> </m:msup> <m:mtext>J</m:mtext><m:mo>⋅</m:mo><m:mtext>s</m:mtext><m:mo>,</m:mo> </m:mrow></m:math>  and <emphasis effect="italics">f</emphasis> is frequency.</para><para id="fs-id1167063525703">Through this equation, Planck’s probability factor can be more clearly understood. Each frequency of light provides a specific quantized amount of energy. Low frequency light, associated with longer wavelengths would provide a smaller amount of energy, while high frequency light, associated with shorter wavelengths, would provide a larger amount of energy. For specified temperatures with specific total energies, it makes sense that more low frequency light would be radiated than high frequency light. To a degree, the relationship is like pouring coins through a funnel. More of the smaller pennies would be able to pass through the funnel than the larger quarters. In other words, because the value of the coin is somewhat related to the size of the coin, the probability of a quarter passing through the funnel is reduced!</para>
+<para id="fs-id1167067102881">Furthermore, an increase in temperature would signify the presence of higher energy. As a result, the greater amount of total blackbody energy would allow for more of the high frequency, short wavelength, energies to be radiated. This permits the peak of the blackbody curve to drift leftward as the temperature increases, as it does from the 3,000 K to 4,000 K to 5,000 K values. Furthering our coin analogy, consider a wider funnel. This funnel would permit more quarters to pass through and allow for a reduction in concern about the <emphasis effect="italics">probability factor</emphasis>.</para>
+<para id="fs-id1167067321347">In summary, it is the interplay between the predicted classical model and the quantum probability that creates the curve depicted in <link target-id="Figure_21_01_Comparison"/>. Just as quarters have a higher currency denomination than pennies, higher frequencies come with larger amounts of energy. However, just as the probability of a quarter passing through a fixed diameter funnel is reduced, so is the probability of a high frequency light existing in a fixed temperature object. As is often the case in physics, it is the balancing of multiple incredible ideas that finally allows for better understanding.</para>
+</section>
+
+<section id="fs-id1167063606248"><title>Quantization</title><note id="fs-id1167067149800" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167063579798">[EL]Quantum is related to the word <emphasis effect="italics">quantity,</emphasis> a measure of the amount of something. Discuss why the term quantum would be useful in this context.</para>
+<para id="fs-id1167063615340">[<span>BL</span>, <span>OL</span>, <span>AL</span>]Quantum vs. continuous states is well described when considering clocks. A digital clock represents quantum states—it reads 11:14 a.m., then 11:15 a.m. An analog clock with a continually gliding second hand is a good representation of continuous states—it does not appear to pause at any one instant. What would you consider an analog clock that ticks each second? What would you consider a grandfather clock?</para>
+</note>
+<para id="fs-id1167063464093">It may be helpful at this point to further consider the idea of quantum states. Atoms, molecules, and fundamental electron and proton charges are all examples of physical entities that are <term>quantized</term>—that is, they appear only in certain discrete values and do not have every conceivable value. On the macroscopic scale, this is not a revolutionary concept. A standing wave on a string allows only particular harmonics described by integers. Going up and down a hill using discrete stair steps causes your potential energy to take on discrete values as you move from step to step. Furthermore, we cannot have a fraction of an atom, or part of an electron’s charge, or 14.33 cents. Rather, everything is built of integral multiples of these substructures.</para>
+<para id="fs-id1167060123406">That said, to discover quantum states within a phenomenon that science had always considered continuous would certainly be surprising. When Max Planck was able to use quantization to correctly describe the experimentally known shape of the blackbody spectrum, it was the first indication that energy was quantized on a small scale as well. This discovery earned Planck the Nobel Prize in Physics in 1918 and was such a revolutionary departure from classical physics that Planck himself was reluctant to accept his own idea. The general acceptance of Planck’s energy quantization was greatly enhanced by Einstein’s explanation of the photoelectric effect (discussed in the next section), which took energy quantization a step further.</para>
+
+<figure id="Figure_21_01_Planck">
+<media id="fs-id1167063416308" alt="A photo of Max Planck sitting at a desk is shown. The photo is taken from his side and he appears to be reading a document.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_21_01_Planck.jpg"/>
+</media>
+<caption>The German physicist Max Planck had a major influence on the early development of quantum mechanics, being the first to recognize that energy is sometimes quantized. Planck also made important contributions to special relativity and classical physics. (credit: Library of Congress, Prints and Photographs Division, Wikimedia Commons)</caption>
+</figure>
+
+<note id="Worked_Example_21_01" class="worked-example"><title>How Many Photons per Second Does a Typical Light Bulb Produce?</title>
+
+<exercise id="fs-id1167066867701" class="21-ex001 unnumbered"><label/>
+<problem id="fs-id1167067153570">
+<para id="fs-id1167067006913">Assuming that 10 percent of a 100-W light bulb’s energy output is in the visible range (typical for incandescent bulbs) with an average wavelength of 580 nm, calculate the number of visible photons emitted per second.</para>
+<note id="fs-id1167066973440"><label/><title>Strategy</title>
+<para id="fs-id1167067175368">The number of visible photons per second is directly related to the amount of energy emitted each second, also known as the bulb’s power. By determining the bulb’s power, the energy emitted each second can be found. Since the power is given in watts, which is joules per second, the energy will be in joules. By comparing this to the amount of energy associated with each photon, the number of photons emitted each second can be determined.</para>
+</note></problem>
+<solution id="fs-id1167063556825"><label/><title>Solution</title>
+<para id="fs-id1167067032188">The power in visible light production is 10.0 percent of 100 W, or 10.0 J/s. The energy of the average visible photon is found by substituting the given average wavelength into the formula</para>
+<para id="fs-id1167067202772"> <m:math display="block"> <m:mrow> <m:mi>E</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>h</m:mi><m:mi>f</m:mi><m:mo>=</m:mo><m:mfrac> <m:mrow> <m:mi>n</m:mi><m:mi>h</m:mi><m:mi>c</m:mi> </m:mrow> <m:mi>λ</m:mi> </m:mfrac> <m:mo>.</m:mo> </m:mrow> </m:math> </para><para id="fs-id1167067041407">By rearranging the above formula to determine energy per photon, this produces</para>
+<equation id="fs-id1164565188492"> <m:math display="block"> <m:mrow> <m:mi>E</m:mi><m:mo>/</m:mo><m:mi>n</m:mi><m:mo>=</m:mo><m:mfrac> <m:mrow> <m:mo stretchy="false">(</m:mo><m:mn>6.63</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup> <m:mrow> <m:mn>10</m:mn> </m:mrow> <m:mrow> <m:mo>−</m:mo><m:mn>34</m:mn> </m:mrow> </m:msup> <m:mtext>J</m:mtext><m:mo>⋅</m:mo><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3.00</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup> <m:mrow> <m:mn>10</m:mn> </m:mrow> <m:mn>8</m:mn> </m:msup> <m:mtext>m</m:mtext><m:mo>/</m:mo><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo> </m:mrow> <m:mrow> <m:mn>580</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup> <m:mrow> <m:mn>10</m:mn> </m:mrow> <m:mrow> <m:mo>−</m:mo><m:mn>9</m:mn> </m:mrow> </m:msup> <m:mtext>m</m:mtext> </m:mrow> </m:mfrac> <m:mo>=</m:mo><m:mn>3.43</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup> <m:mrow> <m:mn>10</m:mn> </m:mrow> <m:mrow> <m:mo>−</m:mo><m:mn>19</m:mn> </m:mrow> </m:msup> <m:mtext>J</m:mtext><m:mo>/</m:mo><m:mtext>p</m:mtext><m:mtext>h</m:mtext><m:mtext>o</m:mtext><m:mtext>t</m:mtext><m:mtext>o</m:mtext><m:mtext>n</m:mtext><m:mo>.</m:mo> </m:mrow></m:math> </equation>
+<para id="fs-id1167067209467">The number of visible photons per second is thus</para>
+<para id="fs-id1167067055058"> <m:math display="block"> <m:mrow> <m:mfrac> <m:mrow> <m:mtext>p</m:mtext><m:mtext>h</m:mtext><m:mtext>o</m:mtext><m:mtext>t</m:mtext><m:mtext>o</m:mtext><m:mtext>n</m:mtext><m:mtext>s</m:mtext> </m:mrow> <m:mrow> <m:mtext>sec</m:mtext> </m:mrow> </m:mfrac> <m:mo>=</m:mo><m:mfrac> <m:mrow> <m:mn>10.0</m:mn>  <m:mtext>J</m:mtext><m:mo>/</m:mo><m:mtext>s</m:mtext> </m:mrow> <m:mrow> <m:mn>3.43</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup> <m:mrow> <m:mn>10</m:mn> </m:mrow> <m:mrow> <m:mo>−</m:mo><m:mn>19</m:mn> </m:mrow> </m:msup> <m:mtext>J</m:mtext><m:mo>/</m:mo><m:mtext>p</m:mtext><m:mtext>h</m:mtext><m:mtext>o</m:mtext><m:mtext>t</m:mtext><m:mtext>o</m:mtext><m:mtext>n</m:mtext> </m:mrow> </m:mfrac> <m:mo>=</m:mo><m:mn>2.92</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup> <m:mrow> <m:mn>10</m:mn> </m:mrow> <m:mrow> <m:mn>19</m:mn> </m:mrow> </m:msup> <m:mtext>p</m:mtext><m:mtext>h</m:mtext><m:mtext>o</m:mtext><m:mtext>t</m:mtext><m:mtext>o</m:mtext><m:mtext>n</m:mtext><m:mtext>s</m:mtext><m:mo>/</m:mo><m:mtext>s.</m:mtext> </m:mrow></m:math> </para></solution>
+<commentary id="fs-id1167067082745">
+<title>Discussion</title>
+<para id="fs-id1167063876514">This incredible number of photons per second is verification that individual photons are insignificant in ordinary human experience. However, it is also a verification of our everyday experience—on the macroscopic scale, photons are so small that quantization becomes essentially continuous.</para>
+</commentary>
+</exercise>
+</note><note id="Example_21_02" class="worked-example"><title>How does Photon Energy Change with Various Portions of the EM Spectrum?</title>
+
+<exercise id="fs-id1167067053889" class="21-ex002 unnumbered"><label/>
+<problem id="fs-id1167061228805">
+<para id="fs-id1167067038441">Refer to the Graphs of Blackbody Radiation shown in the first figure in this section. Compare the energy necessary to radiate one photon of infrared light and one photon of visible light.</para><note id="fs-id1167066810134"><label/><title>Strategy</title>
+<para id="fs-id1167066840296">To determine the energy radiated, it is necessary to use the equation  <m:math> <m:mrow> <m:mi>E</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>h</m:mi><m:mi>f</m:mi><m:mo>.</m:mo> </m:mrow></m:math>  It is also necessary to find a representative frequency for infrared light and visible light.</para>
+</note></problem>
+<solution id="fs-id1167063635725"><label/>
+<title>Solution</title>
+<para id="fs-id1167066803603">According to the first figure in this section, one representative wavelength for infrared light is 2000 nm (2.000 × 10<sup>-6</sup> m). The associated frequency of an infrared light is </para>
+<equation id="fs-id1164563510359"> <m:math display="block"> <m:mrow> <m:mi>f</m:mi><m:mo>=</m:mo><m:mfrac> <m:mi>c</m:mi> <m:mi>λ</m:mi> </m:mfrac> <m:mo>=</m:mo><m:mfrac> <m:mrow> <m:mn>3.00</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup> <m:mrow> <m:mn>10</m:mn> </m:mrow> <m:mn>8</m:mn> </m:msup> <m:mtext>m</m:mtext><m:mo>/</m:mo><m:mtext>s</m:mtext> </m:mrow> <m:mrow> <m:mn>2.000</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup> <m:mrow> <m:mn>10</m:mn> </m:mrow> <m:mrow> <m:mo>−</m:mo><m:mn>6</m:mn> </m:mrow> </m:msup> <m:mtext>m</m:mtext> </m:mrow> </m:mfrac> <m:mo>=</m:mo><m:mn>1.50</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup> <m:mrow> <m:mn>10</m:mn> </m:mrow> <m:mrow> <m:mn>14</m:mn> </m:mrow> </m:msup> <m:mtext>H</m:mtext><m:mtext>z</m:mtext><m:mo>.</m:mo> </m:mrow></m:math> </equation>
+<para id="fs-id1167063626609">Using the equation <m:math> <m:mrow> <m:mi>E</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>h</m:mi><m:mi>f</m:mi> </m:mrow></m:math>, the energy associated with one photon of representative infrared light is</para>
+<equation id="fs-id1164563504871"> <m:math display="block"> <m:mrow> <m:mfrac> <m:mi>E</m:mi> <m:mi>n</m:mi> </m:mfrac> <m:mo>=</m:mo><m:mi>h</m:mi><m:mo>⋅</m:mo><m:mi>f</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo> <m:mrow> <m:mn>6.63</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup> <m:mrow> <m:mn>10</m:mn> </m:mrow> <m:mrow> <m:mo>−</m:mo><m:mn>34</m:mn> </m:mrow> </m:msup> <m:mtext>J</m:mtext><m:mo>⋅</m:mo><m:mtext>s</m:mtext> </m:mrow> <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo> <m:mrow> <m:mn>1.50</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup> <m:mrow> <m:mn>10</m:mn> </m:mrow> <m:mrow> <m:mn>14</m:mn> </m:mrow> </m:msup> <m:mtext>Hz</m:mtext> </m:mrow> <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>9.95</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup> <m:mrow> <m:mn>10</m:mn> </m:mrow> <m:mrow> <m:mo>−</m:mo><m:mn>20</m:mn> </m:mrow> </m:msup> <m:mfrac> <m:mtext>J</m:mtext> <m:mrow> <m:mtext>p</m:mtext><m:mtext>h</m:mtext><m:mtext>o</m:mtext><m:mtext>t</m:mtext><m:mtext>o</m:mtext><m:mtext>n</m:mtext> </m:mrow> </m:mfrac> <m:mo>.</m:mo> </m:mrow></m:math>
+</equation>
+<para id="fs-id1167063498961">The same process above can be used to determine the energy associated with one photon of representative visible light. According to the first figure in this section, one representative wavelength for visible light is 500 nm.</para>
+<equation id="fs-id1164564851499"> <m:math display="block"> <m:mrow> <m:mi>f</m:mi><m:mo>=</m:mo><m:mfrac> <m:mi>c</m:mi> <m:mi>λ</m:mi> </m:mfrac> <m:mo>=</m:mo><m:mfrac> <m:mrow> <m:mn>3.00</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup> <m:mrow> <m:mn>10</m:mn> </m:mrow> <m:mn>8</m:mn> </m:msup> <m:mtext>m</m:mtext><m:mo>/</m:mo><m:mtext>s</m:mtext> </m:mrow> <m:mrow> <m:mn>5.00</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup> <m:mrow> <m:mn>10</m:mn> </m:mrow> <m:mrow> <m:mo>−</m:mo><m:mn>7</m:mn> </m:mrow> </m:msup> <m:mtext>m</m:mtext> </m:mrow> </m:mfrac> <m:mo>=</m:mo><m:mn>6.00</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup> <m:mrow> <m:mn>10</m:mn> </m:mrow> <m:mrow> <m:mn>14</m:mn> </m:mrow> </m:msup> <m:mtext>H</m:mtext><m:mtext>z</m:mtext><m:mo>.</m:mo> </m:mrow></m:math> </equation>
+<equation id="fs-id1164564910141"> <m:math display="block"> <m:mrow> <m:mfrac> <m:mi>E</m:mi> <m:mi>n</m:mi> </m:mfrac> <m:mo>=</m:mo><m:mi>h</m:mi><m:mo>⋅</m:mo><m:mi>f</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo> <m:mrow> <m:mn>6.63</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup> <m:mrow> <m:mn>10</m:mn> </m:mrow> <m:mrow> <m:mo>−</m:mo><m:mn>34</m:mn> </m:mrow> </m:msup> <m:mtext>J</m:mtext><m:mo>⋅</m:mo><m:mtext>s</m:mtext> </m:mrow> <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo> <m:mrow> <m:mn>6.00</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup> <m:mrow> <m:mn>10</m:mn> </m:mrow> <m:mrow> <m:mn>14</m:mn> </m:mrow> </m:msup> <m:mtext>Hz</m:mtext> </m:mrow> <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3.98</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup> <m:mrow> <m:mn>10</m:mn> </m:mrow> <m:mrow> <m:mo>−</m:mo><m:mn>19</m:mn> </m:mrow> </m:msup> <m:mfrac> <m:mtext>J</m:mtext> <m:mrow> <m:mtext>p</m:mtext><m:mtext>h</m:mtext><m:mtext>o</m:mtext><m:mtext>t</m:mtext><m:mtext>o</m:mtext><m:mtext>n</m:mtext> </m:mrow> </m:mfrac> <m:mo>.</m:mo> </m:mrow></m:math> </equation></solution>
+<commentary id="fs-id1167067205672">
+<title>Discussion</title>
+<para id="fs-id1167063524694">This example verifies that as the wavelength of light decreases, the quantum energy increases. This explains why a fire burning with a blue flame is considered more dangerous than a fire with a red flame. Each photon of short-wavelength blue light emitted carries a greater amount of energy than a long-wavelength red light. This example also helps explain the differences in the 3,000 K, 4,000 K, and 6,000 K lines shown in the first figure in this section. As the temperature is increased, more energy is available for a greater number of short-wavelength photons to be emitted.</para></commentary>
+</exercise>
+</note></section><section id="fs-id1167067189487" class="practice-problems">
+<title>Practice Problems</title>
+<exercise id="fs-id1167067090541">
+<problem id="fs-id1167067234832">
+<!--<para id="fs-id1167063659276">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex003"/>
+</para>-->
+<para id="fs-id1169828633570">An AM radio station broadcasts at a frequency of 1,530 kHz . What is the energy in Joules of a photon emitted from this station?</para>
+<list id="fs-id1169827343701" list-type="enumerated" number-style="lower-alpha">
+<item>10.1 × 10<sup>-26</sup> J</item>
+<item>1.01 × 10<sup>-28</sup> J</item>
+<item>1.01 × 10<sup>-29</sup> J</item>
+<item>1.01 × 10<sup>-27</sup> J</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167066790192">
+<problem id="fs-id1167066865249">
+<!-- <para id="fs-id1167067012238">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex004"/>
+</para> -->
+<para id="fs-id1164558734174">A photon travels with energy of 1.0 eV. What type of EM radiation is this photon?</para>
+<list id="fs-id1164562285210" list-type="enumerated" number-style="lower-alpha">
+<item>visible radiation</item>
+<item>microwave radiation</item>
+<item>infrared radiation</item>
+<item>ultraviolet radiation</item>
+</list>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167063729862" class="check-understanding"><title>Check Your Understanding</title><exercise id="fs-id1167067051003" class="os-exercise">
+<problem id="fs-id1167066829581">
+<!-- <para id="fs-id1167067317181">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex005"/>
+</para> -->
+<para id="fs-id1164566555680">Do reflective or absorptive surfaces more closely model a perfect blackbody?</para>
+<list id="fs-id1164565009231" list-type="enumerated" number-style="lower-alpha">
+<item>reflective surfaces</item>
+<item>absorptive surfaces</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167066827561" class="os-exercise">
+<problem id="fs-id1167067070704">
+<para id="fs-id1167063876522">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex006"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167067066494" class="os-exercise">
+<problem id="fs-id1167067241561">
+<para id="fs-id1167066832503">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex007"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167067073001" class="os-exercise">
+<problem id="fs-id1167066851161">
+<!--<para id="fs-id1167063878070">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex008"/>
+</para>-->
+<para id="fs-id1169831959698">Why do we not notice quantization of photons in everyday experience?</para>
+<list id="fs-id1169831840741" list-type="enumerated" number-style="lower-alpha">
+<item>because the size of each photon is very large</item>
+<item>because the mass of each photon is so small</item>
+<item>because the energy provided by photons is very large</item>
+<item>because the energy provided by photons is very small</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067082912" class="os-exercise">
+<problem id="fs-id1167063675248">
+<para id="fs-id1167067019569">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex009"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167063579610" class="os-exercise">
+<problem id="fs-id1167067205246">
+<para id="fs-id1167067247868">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex010"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166850908950" class="os-exercise">
+<problem id="eip-id1166851017281">
+<para id="eip-id1166851123335">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ot006"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167063699281" class="summary">
+<title>Section Summary</title>
+<list id="fs-id1167067026697">
+<item>A blackbody will radiate energy across all wavelengths of the electromagnetic spectrum.</item>
+<item>Radiation of a blackbody will peak at a particular wavelength, dependent on the temperature of the blackbody.</item>
+<item>Analysis of blackbody radiation led to the field of quantum mechanics, which states that radiated energy can only exist in discrete quantum states.</item>
+</list>
+</section>
+
+<section id="fs-id1167067099000" class="key-equations"><title>Key Equations</title><table id="fs-id1167063901200" class="unnumbered unstyled" summary="The table has one row, with the equation for ‘Quantum energy.’ This equation is E = nhf.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" align="left" colname="c1"/>
+<colspec colnum="2" align="left" colname="c2"/>
+<tbody>
+<row>
+<entry>quantum energy</entry>
+<entry> <m:math> <m:mrow> <m:mi>E</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>h</m:mi><m:mi>f</m:mi> </m:mrow></m:math> </entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+
+
+
+<section id="fs-id1167067045862" class="concept"><title>Concept Items</title><exercise id="fs-id1167067033774" class="os-exercise">
+<problem id="fs-id1167066999587">
+<!-- <para id="fs-id1167063915003">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex011"/>
+</para> -->
+<para id="fs-id1164564776120">What aspect of the blackbody spectrum forced Planck to propose quantization of energy levels in atoms and molecules?</para>
+<list id="fs-id1164566855979" list-type="enumerated" number-style="lower-alpha">
+<item>Radiation occurs at a particular frequency that does not change with the energy supplied.</item>
+<item>Certain radiation occurs at a particular frequency that changes with the energy supplied.</item>
+<item>Maximum radiation would occur at a particular frequency that does not change with the energy supplied.</item>
+<item>Maximum radiation would occur at a particular frequency that changes with the energy supplied.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067032970" class="os-exercise">
+<problem id="fs-id1167063480681">
+<!-- <para id="fs-id1167067210384">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex012"/>
+</para> -->
+<para id="fs-id1164566835416">Two lasers shine red light at 650 nm. One laser is twice as bright as the other. Explain this difference using photons and photon energy.</para>
+<list id="fs-id1164564831758" list-type="enumerated" number-style="lower-alpha">
+<item>The brighter laser emits twice the number of photons and more energy per photon.</item>
+<item>The brighter laser emits twice the number of photons and less energy per photon.</item>
+<item>Both lasers emit equal numbers of photons and equivalent amounts of energy per photon.</item>
+<item>The brighter laser emits twice the number of photons but both lasers emit equivalent amounts of energy per photon.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067148112" class="os-exercise">
+<problem id="fs-id1167061358805">
+<!-- <para id="fs-id1167066968306">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex013"/>
+</para> -->
+<para id="fs-id1164564866423">Consider four stars in the night sky: red, yellow, orange, and blue. The photons of which star will carry the greatest amount of energy?</para>
+<list id="fs-id1164563512048" list-type="enumerated" number-style="lower-alpha">
+<item>blue</item>
+<item>orange</item>
+<item>red</item>
+<item>yellow</item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-id1166848922431" class="os-exercise"><problem id="eip-id1166851239092">
+<para id="eip-id1166851222779">A lightbulb is wired to a variable resistor. What will happen to the color spectrum emitted by the bulb as the resistance of the circuit is increased?</para><list id="eip-idm302532576" list-type="enumerated" number-style="lower-alpha">
+<item>The bulb will emit greener light.</item>
+<item>The bulb will emit bluer light.</item>
+<item>The bulb will emit more ultraviolet light.</item>
+<item>The bulb will emit redder light.</item></list>
+</problem>
+</exercise></section><section id="fs-id1167061399050" class="critical-thinking"><title>Critical Thinking</title><exercise id="fs-id1167066829339" class="os-exercise">
+<problem id="fs-id1167067180580">
+<para id="fs-id1167063527126">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex014"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167063539941" class="os-exercise"><problem id="fs-id1167067194441">
+<para id="fs-id1167067272670">
+Why does the intensity shown in the blackbody radiation graph decrease after its peak frequency is achieved?
+</para>
+
+<media id="eip-idm321851360" alt="A graph of blackbody radiation that shows curves of the intensity of E M radiation versus wavelength in nanometers.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_21_01_Blackbody-d846.jpg"/>
+</media><list id="eip-idm324843376" list-type="enumerated" number-style="lower-alpha">
+<item>Because after reaching the peak frequency, the photons created at a particular frequency are too many for energy intensity to continue to decrease.</item>
+<item>Because after reaching the peak frequency, the photons created at a particular frequency are too few for energy intensity to continue to decrease.</item>
+<item>Because after reaching the peak frequency, the photons created at a particular frequency are too many for energy intensity to continue to increase.</item>
+<item>Because after reaching the peak frequency, the photons created at a particular frequency are too few for energy intensity to continue to increase.</item>
+</list></problem></exercise><exercise id="fs-id1167063601122" class="os-exercise">
+<problem id="fs-id1167067038732">
+<para id="fs-id1167061202761">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex016"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166851316716" class="os-exercise">
+<problem id="eip-id1166850956192">
+<!-- <para id="eip-id1166850956194">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ot023"/>
+</para> -->
+<para id="fs-id1164564908798">Why is it assumed that a perfect absorber of light (like a blackbody) must also be a perfect emitter of light?</para>
+<list id="fs-id1164562233843" list-type="enumerated" number-style="lower-alpha">
+<item>To achieve electrostatic equilibrium with its surroundings</item>
+<item>To achieve thermal equilibrium with its surroundings</item>
+<item>To achieve mechanical equilibrium with its surroundings</item>
+<item>To achieve chemical equilibrium with its surroundings</item>
+</list>
+</problem>
+</exercise></section><section id="fs-id1167067108196" class="problems">
+<title>Problems</title>
+<exercise id="fs-id1167067166599" class="os-exercise">
+<problem id="fs-id1167067208929">
+<!-- <para id="fs-id1167067295137">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex017"/>
+</para> -->
+<para id="fs-id1164565173936">How many X-ray photons per second are created by an X-ray tube that produces a flux of X-rays having a power of
+1.00 W? Assume the average energy per photon is 75.0 keV.</para>
+<list id="fs-id1164564723616" list-type="enumerated" number-style="lower-alpha">
+<item>8.33 × 10<sup>15</sup> photons</item>
+<item>9.1 × 10<sup>7</sup> photons</item>
+<item>9.1 × 10<sup>8</sup> photons</item>
+<item>8.33 × 10<sup>13</sup> photons</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067025238" class="os-exercise">
+<problem id="fs-id1167066885418">
+<!--<para id="fs-id1167063816923"><link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex018"/>
+</para>-->
+<para id="fs-id1169828316427">What is the frequency of a photon produced in a CRT using a 25.0-kV accelerating potential? This is similar to the layout as in older color television sets.</para>
+<list id="fs-id1169831885185" list-type="enumerated" number-style="lower-alpha">
+<item>6.04 × 10<sup>−48</sup> Hz</item>
+<item>2.77 × 10<sup>−48</sup> Hz</item>
+<item>3.02 × 10<sup>18</sup> Hz</item>
+<item>6.04 × 10<sup>18</sup> Hz</item>
+</list>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167063630456" class="multiple-choice"><title>Test Prep Multiple Choice</title><exercise id="fs-id1167067034209" class="os-exercise">
+<problem id="fs-id1167067055186">
+<!-- <para id="fs-id1167067041809">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex019"/>
+</para> -->
+<para id="fs-id1164564738550">A perfect blackbody is a perfect absorber of energy transferred by what method?</para>
+<list id="fs-id1164559085266" list-type="enumerated" number-style="lower-alpha">
+<item>conduction</item>
+<item>convection</item>
+<item>induction</item>
+<item>radiation</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167066829383" class="os-exercise">
+<problem id="fs-id1167061381749">
+<!-- <para id="fs-id1167063512363">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex020"/>
+</para> -->
+<para id="fs-id1164561108773">Which of the following is a physical entity that is quantized?</para>
+<list id="fs-id1164566575746" list-type="enumerated" number-style="lower-alpha">
+<item>electric charge of an ion</item>
+<item>frequency of a sound</item>
+<item>speed of a car</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167066952490" class="os-exercise">
+<problem id="fs-id1167066856898">
+<!--<para id="fs-id1167066974342">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex021"/>
+</para>-->
+<para id="fs-id1169828345503">Find the energy in joules of photons of radio waves that leave an FM station that has a 90.0-MHz broadcast frequency.</para>
+<list id="fs-id1169832080534" list-type="enumerated" number-style="lower-alpha">
+<item>1.8 × 10<sup>−25</sup> J</item>
+<item>1.11 × 10<sup>−25</sup> J</item>
+<item>7.1 × 10<sup>−43</sup> J</item>
+<item>5.96 × 10<sup>-26</sup> J</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067184428" class="os-exercise">
+<problem id="fs-id1167063879990">
+<!-- <para id="fs-id1167067042134">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex022"/>
+</para> -->
+<para id="fs-id1164563548606">Which region of the electromagnetic spectrum will provide photons of the least energy?</para>
+<list id="fs-id1164566837787" list-type="enumerated" number-style="lower-alpha">
+<item>infrared light</item>
+<item>radio waves</item>
+<item>ultraviolet light</item>
+<item>X-rays</item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-id1166851294647" class="os-exercise">
+<problem id="eip-id1166851112016">
+<para id="eip-id1166851112018">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ot007"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166851025887" class="os-exercise">
+<problem id="eip-id1166849154892">
+<!-- <para id="eip-id1166848705139">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ot008"/>
+</para> -->
+<para id="fs-id1164565042778">Given two stars of equivalent size, which will have a greater temperature: a red dwarf or a yellow dwarf? Explain. Note—Our sun is considered a yellow dwarf.</para>
+<list id="fs-id1164563151362" list-type="enumerated" number-style="lower-alpha">
+<item>a yellow dwarf, because yellow light has lower frequency</item>
+<item>a red dwarf, because red light has lower frequency</item>
+<item>a red dwarf, because red light has higher frequency</item>
+<item>a yellow dwarf, because yellow light has higher frequency</item>
+</list>
+</problem>
+</exercise></section><section id="fs-id1167063535862" class="short-answer">
+<title>Test Prep Short Answer</title>
+<exercise id="fs-id1167067070263" class="os-exercise">
+<problem id="fs-id1167066804347">
+<para id="fs-id1167067105868">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex023"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167067264246" class="os-exercise">
+<problem id="fs-id1167067010001">
+<!-- <para id="fs-id1167063868154">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex024"/>
+</para> -->
+<para id="fs-id1164565219666">Because there are more gradations to high frequency radiation than low frequency radiation, scientists also thought it possible that a curve titled the <emphasis effect="italics">ultraviolet catastrophe</emphasis> would occur. Explain what the blackbody radiation curve would look like if this were the case.</para>
+<list id="fs-id1164564917091" list-type="enumerated" number-style="lower-alpha">
+<item>The curve would steadily increase in intensity with increasing frequency.</item>
+<item>The curve would steadily decrease in intensity with increasing frequency.</item>
+<item>The curve would be much steeper than in the blackbody radiation graph.</item>
+<item>The curve would be much flatter than in the blackbody radiation graph.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067184448" class="os-exercise">
+<problem id="fs-id1167063499024">
+<!-- <para id="fs-id1167063560646">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex025"/>
+</para> -->
+<para id="fs-id1164563185880">Energy provided by a light exists in the following quantities: 150 J, 225 J, 300 J. Define one possible quantum of energy and provide an energy state that cannot exist with this quantum.</para>
+<list id="fs-id1164563492916" list-type="enumerated" number-style="lower-alpha">
+<item>65 J; 450 J cannot exist</item>
+<item>70 J; 450 J cannot exist</item>
+<item>75 J; 375 J cannot exist</item>
+<item>75 J; 100 J cannot exist</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067105266" class="os-exercise">
+<problem id="fs-id1167067145858">
+<para id="fs-id1167066783975">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex026"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167066961090" class="os-exercise">
+<problem id="fs-id1167063444937">
+<!--<para id="fs-id1167067210915">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex027"/>
+</para>-->
+<para id="fs-id1169831653487">How many 500-mm microwave photons are needed to supply the 8 kJ of energy necessary to heat a cup of water by 10 degrees Celsius?</para>
+<list id="fs-id1169828312103" list-type="enumerated" number-style="lower-alpha"><item>8.05 × 10<sup>28</sup> photons</item>
+<item>8.05 × 10<sup>26</sup> photons</item>
+<item>2.01 × 10<sup>26</sup> photons</item>
+<item>2.01 × 10<sup>28</sup> photons</item>
+</list></problem>
+</exercise>
+<exercise id="fs-id1167067240435" class="os-exercise">
+<problem id="fs-id1167067226754">
+<!-- <para id="fs-id1167063490340">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex028"/>
+</para> -->
+<para id="fs-id1164566403028">What is the efficiency of a 100-W, 550-nm lightbulb if a photometer finds that 1 × 10<sup>20</sup> photons are emitted each second?</para>
+<list id="fs-id1164563511551" list-type="enumerated" number-style="lower-alpha">
+<item>101 percent</item>
+<item>72 percent</item>
+<item>18 percent</item>
+<item>36 percent</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067049284" class="os-exercise">
+<problem id="fs-id1167066971131">
+<para id="fs-id1167067293502">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex029"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167067086215" class="os-exercise">
+<problem id="fs-id1167067032545">
+<para id="fs-id1167067043862">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex030"/>
+</para>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167063589004" class="extended-response">
+<title>Test Prep Extended Response</title>
+<exercise id="fs-id1167067041904" class="os-exercise"><problem id="fs-id1167063743181">
+<para id="fs-id1167067307700">Some television tubes are CRTs. They use an approximately 30-kV accelerating potential to send electrons to the screen, where the electrons stimulate phosphors to emit the light that forms the pictures we watch. Would you expect X-rays also to be created? Explain.</para>
+<list id="eip-idm212074032" list-type="enumerated" number-style="lower-alpha">
+<item>No, because the full spectrum of EM radiation is not emitted at any temperature.</item>
+<item>No, because the full spectrum of EM radiation is not emitted at certain temperatures.</item>
+<item>Yes, because the full spectrum of EM radiation is emitted at any temperature.</item>
+<item>Yes, because the full spectrum of EM radiation is emitted at certain temperatures.</item></list>
+</problem>
+</exercise><exercise id="fs-id1167063497283" class="os-exercise">
+<problem id="fs-id1167066959411">
+<para id="fs-id1167067148193">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex032"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167063512630" class="os-exercise">
+<problem id="fs-id1167060078455">
+<!--<para id="fs-id1167067084296">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex033"/>
+</para>-->
+<para id="fs-id1169831842749">What is the accelerating voltage of an X-ray tube that produces X-rays with the shortest wavelength of 0.0103 nm?</para>
+<list id="fs-id1169831842753" list-type="enumerated" number-style="lower-alpha">
+<item>1.21 × 10<sup>10</sup> V</item>
+<item>2.4 × 10<sup>5</sup> V</item>
+<item>3.0 × 10<sup>−33</sup> V</item>
+<item>1.21 × 10<sup>5</sup> V</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067061025" class="os-exercise">
+<problem id="fs-id1167063606381">
+<para id="fs-id1167067200538">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex034"/>
+</para>
+</problem>
+</exercise>
+</section>
+
+
+
+</content>
+<glossary>
+<definition id="fs-id1167063862572">
+<term>blackbody</term>
+<meaning id="fs-id1167067077227">object that absorbs all radiated energy that strikes it and also emits energy across all wavelengths of the electromagnetic spectrum</meaning>
+</definition>
+<definition id="fs-id1167067068901">
+<term>quantized</term>
+<meaning id="fs-id1167067105534">the fact that certain physical entities exist only with particular discrete values and not every conceivable value</meaning>
+</definition>
+<definition id="fs-id1167067074542">
+<term>quantum</term>
+<meaning id="fs-id1167063476207">discrete packet or bundle of a physical entity such as energy</meaning>
+</definition>
+<definition id="fs-id1167063693577">
+<term>ultraviolet catastrophe</term>
+<meaning id="fs-id1167067014424">misconception that blackbodies would radiate high frequency energy at a much higher rate than energy radiated at lower frequencies</meaning>
+</definition>
+</glossary>
+</document>

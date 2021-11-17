@@ -1,0 +1,1772 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Capacitors and Dielectrics</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m63179</md:content-id>
+  <md:title>Capacitors and Dielectrics</md:title>
+  <md:abstract/>
+  <md:uuid>59ff04de-1c94-482d-acab-18131afcd230</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167064619893" class="learning-objectives">
+<label/>
+<title>Section Learning Objectives</title>
+<para id="fs-id1167065708581">By the end of this section, you will be able to do the following:</para>
+<list id="fs-id1167065867277">
+<item>Calculate the energy stored in a charged capacitor and the capacitance of a capacitor</item>
+<item>Explain the properties of capacitors and dielectrics</item>
+</list>
+</note>
+
+<note id="fs-id1167065863039" class="os-teacher"><title>Teacher Support</title>
+<para id="fs-id1167064635506">The learning objectives in this section will help your students master the following standards:</para>
+<list id="eip-id1167065953699"><item>(5) The student knows the nature of forces in the physical world. The student is expected to:
+<list id="eip-id1167065851126">
+<item>
+<span>(F)</span>
+<span>design construct, and calculate in terms of current through, potential difference across, resistance of, and power used by electric circuit elements connected in both series and parallel combinations.</span>
+</item>
+</list>
+</item>
+</list><para id="fs-id1169316054637">In addition, the High School Physics Laboratory Manual addresses content in this section in the lab titled: Electric Charge as well as the following standards:</para><list id="fs-id1169316300740"><item>(5) The student knows the nature of forces in the physical world. The student is expected to:
+<list id="fs-id1169316103548"><item>
+<span>(F)</span>
+ <span>design construct, and calculate in terms of current through, potential difference across, resistance of, and power used by electric circuit elements connected in both series and parallel combinations.</span>
+</item>
+</list></item>
+</list></note>
+<section id="keyterms"><title>Section Key Terms</title>
+<table id="fs-id1167065775529" class="unnumbered unstyled section-key-terms" summary="no alt text">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry>capacitor</entry>
+<entry>dielectric</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<note id="fs-id1167066045729" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066026769">To present capacitors, this section emphasizes their capacity to store energy. Dielectrics are introduced as a way to increase the amount of energy that can be stored in a capacitor. To introduce the idea of energy storage, discuss with students other mechanisms of storing energy, such as dams or batteries. Ask which have greater capacity.</para>
+</note>
+<section id="fs-id1167062325940">
+<title>Capacitors</title>
+
+<note id="fs-id1167064709408" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167064641375">Explain that electrical capacitors are vital parts of all electrical circuits. In fact, all electrical devices have a capacitance even if a capacitor is not explicitly put into the device.</para>
+<para id="fs-id1167065768695"><span>[BL]</span>Have students define how the word <emphasis effect="italic">capacity</emphasis> is used in everyday life. Have them look up the definition in the dictionary. Compare and contrast the everyday meaning with the meaning of the term in physics.</para>
+<para id="fs-id1167065820156"><span>[OL]</span>Ask students whether they have heard the word <emphasis effect="italic">capacitor</emphasis> used in conjunction with electricity, such as in power stations or electric circuits. Have them describe how the word is used.</para>
+<para id="fs-id1167066159023"><span>[AL]</span>Discuss how a spring has a capacity to store mechanical energy. Discuss which properties of the spring would increase its capacity to store energy. Point out that these properties are intrinsic to the spring.</para>
+</note>
+
+<para id="fs-id1167066155562">Consider again the X-ray tube discussed in the previous sample problem. How can a <term class="no-emphasis">uniform electric field</term> be produced? A single positive charge produces an electric field that points away from it, as in <link document="m54428" target-id="Figure_18_03_3Dfieldlin"/>. This field is not uniform, because the space between the lines increases as you move away from the charge. However, if we combine a positive and a negative charge, we obtain the electric field shown in <link document="m54428" target-id="Figure_18_03_dipole"/>(a). Notice that, between the charges, the electric field lines are more equally spaced.</para><para id="fs-id1167065884957">What happens if we place, say, five positive charges in a line across from five negative charges, as in <link target-id="Figure_18_05_embryonic"/>? Now the region between the lines of charge contains a fairly uniform electric field.</para>
+
+<figure id="Figure_18_05_embryonic">
+<media id="fs-id1167064908013" alt="This diagram shows five red dots forming a vertical column on the left side and five blue dots forming a second vertical column on the right side. Each red dot is marked with a “plus” symbol, and each blue dot is marked with a “minus” symbol. Surrounding these dots are small arrows pointing in various directions. Between the two columns of dots, most of the arrows point rightward, from the red dots toward the blue ones. The arrows around each red dot point away from it, and most arrows around each blue dot point toward it.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_18_05_embryonic.jpg"/>
+</media>
+<caption>The red dots are positive charges, and the blue dots are negative charges. The electric-field direction is shown by the red arrows. Notice that the electric field between the positive and negative dots is fairly uniform.</caption>
+</figure>
+
+<para id="fs-id1167064982119">We can extend this idea even further and into two dimensions by placing two metallic plates face to face and charging one with positive charge and the other with an equal magnitude of negative charge. This can be done by connecting one plate to the positive terminal of a battery and the other plate to the negative terminal, as shown in <link target-id="Figure_18_05_parallelca"/>. The electric field between these charged plates will be extremely uniform.</para>
+
+<figure id="Figure_18_05_parallelca">
+<media id="fs-id1167065985058" alt="This figure shows two parallel strips in vertical orientation connected to the terminals of a battery. The strip on the left has a series of “plus” signs and is labeled “plus Q”. It is connected to the battery terminal marked with a “plus” sign. The strip on the right has a series of “minus” signs and is labeled “minus Q”. It is connected to the battery terminal marked with a “minus” sign. Between the strips is a series of horizontal lines, and below these lines is a label that says, “E is proportional to Q”, using a proportionality sign.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_18_05_parallelca.jpg"/>
+</media>
+<caption>Two parallel metal plates are charged with opposite charge, by connecting the plates to the opposite terminals of a battery. The magnitude of the charge on each plate is the same.</caption>
+</figure>
+
+<para id="fs-id1167066188924">Let’s think about the work required to charge these plates. Before the plates are connected to the battery, they are neutral—that is, they have zero net charge. Placing the first positive charge on the left plate and the first negative charge on the right plate requires very little work, because the plates are neutral, so no opposing charges are present. Now consider placing a second positive charge on the left plate and a second negative charge on the right plate. Because the first two charges repel the new arrivals, a force must be applied to the two new charges over a distance to put them on the plates. This is the definition of work, which means that, compared with the first pair, more work is required to put the second pair of charges on the plates. To place the third positive and negative charges on the plates requires yet more work, and so on. Where does this work come from? The battery! Its chemical potential energy is converted into the work required to separate the positive and negative charges.</para>
+
+<para id="fs-id1167065894951">Although the battery does work, this work remains within the battery-plate system. Therefore, conservation of energy tells us that, if the potential energy of the battery decreases to separate charges, the energy of another part of the system must increase by the same amount. In fact, the energy from the battery is stored in the electric field between the plates. This idea is analogous to considering that the potential energy of a raised hammer is stored in Earth’s gravitational field. If the gravitational field were to disappear, the hammer would have no potential energy. Likewise, if no electric field existed between the plates, no energy would be stored between them.</para>
+
+<para id="fs-id1167066038320">If we now disconnect the plates from the battery, they will hold the energy. We could connect the plates to a lightbulb, for example, and the lightbulb would light up until this energy was used up. These plates thus have the capacity to store energy. For this reason, an arrangement such as this is called a <term>capacitor</term>. A capacitor is an arrangement of objects that, by virtue of their geometry, can store energy an electric field.</para>
+
+<para id="fs-id1167065876874">Various real capacitors are shown in <link target-id="Figure_18_05_capacitors"/>. They are usually made from conducting plates or sheets that are separated by an insulating material. They can be flat or rolled up or have other geometries.</para>
+
+<figure id="Figure_18_05_capacitors">
+<media id="fs-id1167062369067" alt="This is a photograph showing seven small capacitors, of varying shapes and colors, usually found in electronic circuits.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_18_05_capacitors.jpg"/>
+</media>
+<caption>Some typical capacitors. (credit: Windell Oskay)</caption>
+</figure>
+
+<para id="fs-id1167062506460">The capacity of a capacitor is defined by its capacitance <emphasis effect="italics">C</emphasis>, which is given by</para>
+
+<equation id="fs-id1167065013790">
+<label/>
+ <m:math>
+ <m:mrow>
+  <m:mi>C</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mi>Q</m:mi>
+   <m:mi>V</m:mi>
+  </m:mfrac>
+<m:mtext>,</m:mtext>
+  </m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1167066058006">where <emphasis effect="italics">Q</emphasis> is the <emphasis effect="italics">magnitude</emphasis> of the charge on each capacitor plate, and <emphasis effect="italics">V</emphasis> is the potential difference in going from the negative plate to the positive plate. This means that both <emphasis effect="italics">Q</emphasis> and <emphasis effect="italics">V</emphasis> are always positive, so the capacitance is always positive. We can see from the equation for capacitance that the units of capacitance are C/V, which are called farads (F) after the nineteenth-century English physicist Michael Faraday.</para>
+<para id="fs-id1167062811009">The equation  <m:math>
+ <m:mrow>
+  <m:mi>C</m:mi><m:mo>=</m:mo><m:mrow><m:mi>Q</m:mi><m:mo>/</m:mo><m:mi>V</m:mi></m:mrow>
+
+ </m:mrow>
+</m:math>  makes sense: A parallel-plate capacitor (like the one shown in <link target-id="Figure_18_05_parallelca"/>) the size of a football field could hold a lot of charge without requiring too much work per unit charge to push the charge into the capacitor. Thus, <emphasis effect="italics">Q</emphasis> would be large, and <emphasis effect="italics">V</emphasis> would be small, so the capacitance <emphasis effect="italics">C</emphasis> would be very large. Squeezing the same charge into a capacitor the size of a fingernail would require much more work, so <emphasis effect="italics">V</emphasis> would be very large, and the capacitance would be much smaller.</para>
+<para id="fs-id1167065839366">Although the equation  <m:math>
+ <m:mrow>
+  <m:mi>C</m:mi><m:mo>=</m:mo><m:mrow><m:mi>Q</m:mi><m:mo>/</m:mo><m:mi>V</m:mi></m:mrow>
+
+ </m:mrow>
+</m:math>  makes it seem that capacitance depends on voltage, in fact it does not. For a given capacitor, the ratio of the charge stored in the capacitor to the voltage difference between the plates of the capacitor always remains the same. Capacitance is determined by the geometry of the capacitor and the materials that it is made from. For a parallel-plate capacitor with nothing between its plates, the capacitance is given by</para>
+<equation id="fs-id1167065894804">
+<label/>
+ <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>C</m:mi>
+   <m:mn>0</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>ε</m:mi>
+   <m:mn>0</m:mn>
+  </m:msub>
+  <m:mfrac>
+   <m:mi>A</m:mi>
+   <m:mi>d</m:mi>
+  </m:mfrac>
+  <m:mtext>,</m:mtext>
+  </m:mrow>
+</m:math>
+</equation>
+
+<para id="fs-id1167065864190">where <emphasis effect="italics">A</emphasis> is the area of the plates of the capacitor and <emphasis effect="italics">d</emphasis> is their separation. We use  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>C</m:mi>
+   <m:mn>0</m:mn>
+  </m:msub>
+
+ </m:mrow>
+</m:math>  instead of <emphasis effect="italics">C</emphasis>, because the capacitor has nothing between its plates (in the next section, we’ll see what happens when this is not the case). The constant  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>ε</m:mi>
+   <m:mn>0</m:mn>
+  </m:msub>
+  <m:mtext>,</m:mtext>
+ </m:mrow>
+</m:math>  read <emphasis effect="italic">epsilon zero</emphasis> is called the <term class="no-emphasis">permittivity of free space</term>, and its value is</para>
+
+<equation id="fs-id1164566976698"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>ε</m:mi>
+   <m:mn>0</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>8.85</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>−12</m:mn></m:mrow>
+  </m:msup>
+  <m:mtext> F/m</m:mtext></m:mrow>
+</m:math> </equation><para id="fs-id1167064694391">Coming back to the energy stored in a capacitor, we can ask exactly how much energy a capacitor stores. If a capacitor is charged by putting a voltage <emphasis effect="italics">V</emphasis> across it for example, by connecting it to a battery with voltage <emphasis effect="italics">V</emphasis>—the electrical potential energy stored in the capacitor is</para>
+
+<equation id="fs-id1167065883898"><label/>
+ <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>U</m:mi>
+   <m:mi>E</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mi>C</m:mi><m:msup>
+   <m:mi>V</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+<m:mtext>.</m:mtext>
+  </m:mrow>
+</m:math> </equation><para id="fs-id1167064929182">Notice that the form of this equation is similar to that for kinetic energy,  <m:math>
+ <m:mrow>
+  <m:mi>K</m:mi><m:mo>=</m:mo><m:mstyle scriptlevel="+1">
+   <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+  </m:mstyle>
+  <m:mi>m</m:mi><m:msup>
+   <m:mi>v</m:mi>
+   <m:mrow>
+    <m:msup>
+     <m:mn>2</m:mn>
+     <m:mrow/>
+    </m:msup>
+
+   </m:mrow>
+  </m:msup>
+
+ </m:mrow>
+</m:math> .</para>
+
+<note id="fs-id1167065764368" class="watch-physics"><title>Where does Capacitance Come From?</title>
+
+<para id="fs-id1167066097262">This video shows how capacitance is defined and why it depends only on the geometric properties of the capacitor, not on voltage or charge stored. In so doing, it provides a good review of the concepts of work and electric potential.</para>
+
+<media id="fs-id1167065940289" alt="..." class="os-embed">
+<iframe width="660" height="371.4" src="https://www.openstax.org/l/28capacitance"/>
+</media>
+
+<exercise id="fs-id1167065879267" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167065820691">
+<!--<para id="fs-id1167065033321"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex103"/></para>-->
+<para id="fs-id1164566319395">If you increase the distance between the plates of a capacitor, how does the capacitance change?</para>
+<list id="fs-id1164567590178" list-type="enumerated" number-style="lower-alpha">
+<item>Doubling the distance between capacitor plates will reduce the capacitance four fold.</item>
+<item>Doubling the distance between capacitor plates will reduce the capacitance two fold.</item>
+<item>Doubling the distance between capacitor plates will increase the capacitance two times.</item>
+<item>Doubling the distance between capacitor plates will increase the capacitance four times.</item>
+</list>
+</problem>
+</exercise>
+</note><note id="fs-id1167065844476" class="virtual-physics os-interactive"><title>Charge your Capacitor</title>
+<media id="fs-id1167066202649" alt="This simulation allows you to explore how a capacitor works.">
+<iframe width="660" height="371.4" src="https://openstax.org/l/28charge-cap"/></media>
+<para id="eip-id1167062372980">In this simulation, you are presented with a parallel-plate capacitor connected to a variable-voltage battery. The battery is initially at zero volts, so no charge is on the capacitor. Slide the battery slider up and down to change the battery voltage, and observe the charges that accumulate on the plates. Display the capacitance, top-plate charge, and stored energy as you vary the battery voltage. You can also display the electric-field lines in the capacitor. Finally, probe the voltage between different points in this circuit with the help of the voltmeter.</para>
+
+<exercise id="fs-id1167065762850" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167065926805">
+<!--<para id="fs-id1167065802973"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex104"/></para>-->
+<para id="fs-id1164567271268">True or false— In a capacitor, the stored energy is always positive, regardless of whether the top plate is charged with negative or positive charge.</para>
+<list id="fs-id1164567345514" list-type="enumerated" number-style="lower-alpha">
+<item>false</item>
+<item>true</item>
+</list>
+</problem>
+</exercise>
+</note><note id="fs-id1167062348036" class="worked-example"><title>Capacitance and Charge Stored in a Parallel Plate Capacitor</title>
+
+<exercise id="fs-id1167066162511" class="18-ex105 unnumbered">
+<label/>
+<problem id="fs-id1167062536027">
+<para id="fs-id1167064902467">(a) What is the capacitance of a parallel-plate capacitor with metal plates, each of area 1.00 m<sup>2</sup>, separated by 0.0010 m? (b) What charge is stored in this capacitor if a voltage of 3.00 × 10<sup>3</sup> V is applied to it?</para>
+
+<note id="fs-id1167065920380">
+<label/><title>Strategy FOR (A)</title>
+<para id="fs-id1167066170762">Use the equation  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>C</m:mi>
+   <m:mn>0</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>ε</m:mi>
+   <m:mn>0</m:mn>
+  </m:msub>
+  <m:mfrac>
+   <m:mi>A</m:mi>
+   <m:mi>d</m:mi>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> . </para>
+</note></problem>
+
+<solution id="fs-id1167065926905">
+<label/>
+<title>Solution for (a)</title>
+<para id="fs-id1167066037750">Entering the given values into this equation for the capacitance of a parallel-plate capacitor yields</para>
+<equation id="fs-id1164567060958"> <m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mi>C</m:mi>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:msub>
+       <m:mi>ε</m:mi>
+       <m:mn>0</m:mn>
+      </m:msub>
+      <m:mfrac>
+       <m:mi>A</m:mi>
+       <m:mi>d</m:mi>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mn>8.85</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+         <m:mrow>
+          <m:mn>10</m:mn></m:mrow>
+         <m:mrow>
+          <m:mn>−12</m:mn></m:mrow>
+        </m:msup>
+        <m:mtext> F/m</m:mtext></m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:mfrac>
+       <m:mrow>
+        <m:mn>1.00</m:mn><m:msup>
+         <m:mtext>m</m:mtext>
+         <m:mtext>2</m:mtext>
+        </m:msup>
+        </m:mrow>
+       <m:mrow>
+        <m:mn>0.0010</m:mn><m:mspace width="0.3em"/><m:mtext>m</m:mtext></m:mrow>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>8.9</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+       <m:mrow>
+        <m:mn>10</m:mn></m:mrow>
+       <m:mrow>
+        <m:mn>−9</m:mn></m:mrow>
+      </m:msup>
+      <m:mtext> F</m:mtext></m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>8</m:mtext><m:mtext>.9</m:mtext><m:mtext>nF</m:mtext></m:mrow>
+<m:mtext>.</m:mtext>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+</m:mrow>
+</m:math> </equation></solution>
+
+<commentary id="fs-id1167065820258">
+<title>Discussion for (a)</title>
+<para id="fs-id1167065926897">This small value for the capacitance indicates how difficult it is to make a device with a large capacitance. Special techniques help, such as using very-large-area thin foils placed close together or using a dielectric (to be discussed below).</para>
+</commentary>
+</exercise>
+<exercise id="fs-id1167066121708"><label/>
+<problem id="fs-id1167065859214">
+<note id="fs-id1167065945180">
+<label/><title>Strategy FOR (B)</title>
+<para id="fs-id1167065733568">Knowing <emphasis effect="italics">C</emphasis>, find the charge stored by solving the equation  <m:math>
+ <m:mrow>
+  <m:mi>C</m:mi><m:mo>=</m:mo><m:mrow><m:mi>Q</m:mi><m:mo>/</m:mo><m:mi>V</m:mi></m:mrow>
+
+ </m:mrow>
+</m:math>, for the charge <emphasis effect="italics">Q</emphasis>.</para>
+</note>
+</problem>
+<solution id="fs-id1167065876762">
+<label/>
+<title>Solution for (b)</title>
+<para id="fs-id1167066138031">The charge <emphasis effect="italics">Q</emphasis> on the capacitor is</para>
+<equation id="fs-id1164567967992"> <m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center" columnalign="right">
+     <m:mi>Q</m:mi>
+    </m:mtd>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd rowalign="center" columnalign="left">
+     <m:mrow>
+      <m:mi>C</m:mi><m:mi>V</m:mi>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd rowalign="center" columnalign="left">
+     <m:mrow>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mn>8.9</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+         <m:mrow>
+          <m:mn>10</m:mn>
+         </m:mrow>
+         <m:mrow>
+          <m:mo>−</m:mo><m:mn>9</m:mn>
+         </m:mrow>
+        </m:msup>
+        <m:mtext>F</m:mtext>
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mn>3.00</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+         <m:mrow>
+          <m:mn>10</m:mn>
+         </m:mrow>
+         <m:mn>3</m:mn>
+        </m:msup>
+        <m:mtext>V</m:mtext>
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd rowalign="center" columnalign="left">
+     <m:mrow>
+      <m:mn>2.7</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+       <m:mrow>
+        <m:mn>10</m:mn>
+       </m:mrow>
+       <m:mrow>
+        <m:mo>−</m:mo><m:mn>5</m:mn>
+       </m:mrow>
+      </m:msup>
+      <m:mtext>C</m:mtext>
+     </m:mrow>
+<m:mtext>.</m:mtext>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math> </equation>
+
+</solution>
+<commentary id="fs-id1167064899879">
+<title>Discussion for (b)</title>
+<para id="fs-id1167065852280">This charge is only slightly greater than typical static electricity charges. More charge could be stored by using a dielectric between the capacitor plates.</para>
+</commentary>
+</exercise></note><note id="fs-id1167065884590" class="worked-example"><title>What battery is needed to charge a capacitor?</title>
+
+<exercise id="fs-id1167065874914" class="18-ex106 unnumbered">
+<label/>
+<problem id="fs-id1167065893597">
+<para id="fs-id1167065880157">Your friend provides you with a  <m:math>
+ <m:mrow>
+  <m:mn>10</m:mn><m:mi>μ</m:mi><m:mtext>F</m:mtext>
+ </m:mrow>
+</m:math>  capacitor. To store  <m:math>
+ <m:mrow>
+  <m:mn>120</m:mn><m:mi>μ</m:mi><m:mtext>C</m:mtext>
+ </m:mrow>
+</m:math>  on this capacitor, what voltage battery should you buy?</para>
+
+<note id="fs-id1167065847522">
+<label/><title>Strategy</title>
+<para id="fs-id1167065953302">Use the equation  <m:math>
+ <m:mrow>
+  <m:mi>C</m:mi><m:mo>=</m:mo><m:mrow><m:mi>Q</m:mi><m:mo>/</m:mo><m:mi>V</m:mi></m:mrow>
+
+ </m:mrow>
+</m:math>  to find the voltage needed to charge the capacitor.
+</para>
+</note>
+</problem>
+
+<solution id="fs-id1167062401500">
+<label/>
+<title>Solution</title>
+<para id="fs-id1167064546113">Solving  <m:math>
+ <m:mrow>
+  <m:mi>C</m:mi><m:mo>=</m:mo><m:mrow><m:mi>Q</m:mi><m:mo>/</m:mo><m:mi>V</m:mi></m:mrow>
+
+ </m:mrow>
+</m:math>  for the voltage gives  <m:math>
+ <m:mrow>
+  <m:mi>V</m:mi><m:mo>=</m:mo><m:mrow><m:mi>Q</m:mi><m:mo>/</m:mo><m:mi>C</m:mi></m:mrow>
+
+ </m:mrow>
+</m:math> . Inserting  <m:math>
+ <m:mrow>
+  <m:mi>C</m:mi><m:mo>=</m:mo><m:mn>10</m:mn><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mo>=</m:mo><m:mn>10</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>−6</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mtext>F</m:mtext>
+ </m:mrow>
+</m:math>  and  <m:math>
+ <m:mrow>
+  <m:mi>Q</m:mi><m:mo>=</m:mo><m:mn>120</m:mn><m:mi>μ</m:mi><m:mtext>C</m:mtext><m:mo>=</m:mo><m:mn>120</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>−6</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mtext>C</m:mtext>
+ </m:mrow>
+</m:math>  gives</para><equation id="fs-id1164565974557"> <m:math display="block">
+ <m:mrow>
+  <m:mi>V</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mi>Q</m:mi>
+   <m:mi>C</m:mi>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>120</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn></m:mrow>
+     <m:mrow>
+      <m:mn>−6</m:mn></m:mrow>
+    </m:msup>
+    <m:mtext>C</m:mtext></m:mrow>
+   <m:mrow>
+    <m:mn>10</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn></m:mrow>
+     <m:mrow>
+      <m:mn>−6</m:mn></m:mrow>
+    </m:msup>
+    <m:mtext>F</m:mtext></m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>12</m:mn><m:mspace width="0.3em"/><m:mtext>V</m:mtext></m:mrow>
+</m:math> </equation></solution>
+
+<commentary id="fs-id1167065826885">
+<title>Discussion</title>
+<para id="fs-id1167066091154">Such a battery should be easy to procure. There is still a question of whether the battery contains enough energy to provide the desired charge. The equation  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>U</m:mi>
+   <m:mi>E</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mstyle scriptlevel="+1">
+   <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+  </m:mstyle>
+  <m:mi>C</m:mi><m:msup>
+   <m:mi>V</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+
+ </m:mrow>
+</m:math>  allows us to calculate the required energy.</para>
+<equation id="fs-id1164567639273"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>U</m:mi>
+   <m:mi>E</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mi>C</m:mi><m:msup>
+   <m:mi>V</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>10</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn></m:mrow>
+     <m:mrow>
+      <m:mo>−</m:mo><m:mn>6</m:mn></m:mrow>
+    </m:msup>
+    <m:mtext>F</m:mtext></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:msup>
+   <m:mrow>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mn>12</m:mn><m:mspace width="0.3em"/><m:mtext>V</m:mtext></m:mrow>
+    <m:mo>)</m:mo></m:mrow></m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>=</m:mo><m:mn>72</m:mn><m:mspace width="0.3em"/><m:mtext>mJ</m:mtext></m:mrow>
+</m:math> </equation><para id="fs-id1167064770196">A typical commercial battery can easily provide this much energy.</para>
+</commentary>
+</exercise>
+</note></section>
+<section id="fs-id1167062308329" class="practice-problems"><title>Practice Problems</title><exercise id="fs-id1167065788616">
+<problem id="fs-id1167065847397">
+<!--<para id="fs-id1167066015204"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex107"/></para>-->
+<para id="fs-id1164567400100">What is the voltage on a 35 μF with 25 nC of charge?</para>
+<list id="fs-id1164567467654" list-type="enumerated" number-style="lower-alpha">
+<item>8.75 × 10<sup>−13</sup> V</item>
+<item>0.71 × 10<sup>−3</sup> V</item>
+<item>1.4 × 10<sup>−3</sup> V</item>
+<item>1.4 × 10<sup>3</sup> V</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167065000353">
+<problem id="fs-id1167064573114">
+<!--<para id="fs-id1167065020959"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex108"/></para>-->
+<para id="fs-id1164567152505">Which voltage is across a 100 μF capacitor that stores 10 J of energy?</para>
+<list id="fs-id1164565534190" list-type="enumerated" number-style="lower-alpha">
+<item>−4.5 × 10<sup>2</sup> V</item>
+<item>4.5 × 10<sup>2</sup> V</item>
+<item>±4.5 × 10<sup>2</sup> V</item>
+<item>±9 × 10<sup>2</sup> V</item>
+</list>
+</problem>
+</exercise>
+</section><section id="fs-id1167065943730">
+<title>Dielectrics</title>
+<note id="fs-id1167066054889" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065822228">Explain that <emphasis effect="italic">dielectric</emphasis> is short for <emphasis effect="italic">dielectric material</emphasis>, which has specific electrical properties to be discussed in this section. The word <emphasis effect="italic">dielectric</emphasis> is used to indicate the energy-storage capacity of a material. Remind students that <emphasis effect="italic">insulator</emphasis> is used to indicate the ability of a material to prevent the passage of electric charge.</para>
+<para id="fs-id1167065913212"><span>[BL]</span><span>[OL]</span>Point out that the prefix <emphasis effect="italic">di</emphasis> means two or double. Combined with the word <emphasis effect="italic">electric</emphasis>, this implies that a dielectric can have two electric charges.</para>
+<para id="fs-id1167064746763"><span>[AL]</span>Ask students whether they know of other words that use the prefix <emphasis effect="italic">di</emphasis> in science (diatomic, carbon dioxide, dipole, …).</para>
+</note>
+<para id="fs-id1167065877751">Before working through some sample problems, let’s look at what happens if we put an insulating material between the plates of a capacitor that has been charged and then disconnected from the charging battery, as illustrated in <link target-id="Figure_18_05_dielectric"/>. Because the material is insulating, the charge cannot move through it from one plate to the other, so the charge <emphasis effect="italics">Q</emphasis> on the capacitor does not change. An electric field exists between the plates of a charged capacitor, so the insulating material becomes polarized, as shown in the lower part of the figure. An electrically insulating material that becomes polarized in an electric field is called a <term>dielectric</term>.</para>
+<para id="fs-id1167065823543"><link target-id="Figure_18_05_dielectric"/> shows that the negative charge in the molecules in the material shifts to the left, toward the positive charge of the capacitor. This shift is due to the electric field, which applies a force to the left on the electrons in the molecules of the dielectric. The right sides of the molecules are now missing a bit of negative charge, so their net charge is positive.</para><figure id="Figure_18_05_dielectric">
+<media id="fs-id1167064599965" alt="This figure has two panels. The upper panel shows two parallel strips in vertical orientation. The strip on the left has a series of “plus” signs and is labeled “plus Q”. The strip on the right has a series of “minus” signs and is labeled “minus Q”. Between the strips is a series of horizontal arrows pointing from left to right, and below the arrows is a label that says “No dielectric”. The lower panel shows two similar strips, with the strip on the left containing “plus” signs and labeled “plus Q”, and the one on the right containing “minus” signs and labeled “minus Q”. Between the strips is a grid of elliptical shapes of equal size, each containing a “minus” sign on the left and a “plus” sign on the right. The whole group of ellipses is labeled “With dielectric”, and one ellipse is labeled “Polarized molecule”. A label pointing to a minus sign within an ellipse says “Negative charge on surface”, and another label pointing to a plus sign within an ellipse says “Positive charge on surface”. Also, a series of short, rightward pointing arrows lie on each side of the grid of ellipses.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_18_05_dielectric.jpg"/>
+</media>
+<caption>The top and bottom capacitors carry the same charge <emphasis effect="italics">Q</emphasis>. The top capacitor has no dielectric between its plates. The bottom capacitor has a dielectric between its plates. The molecules in the dielectric are polarized by the electric field of the capacitor.</caption>
+</figure>
+
+<note id="fs-id1167065062020" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066033117">Point out the positive and negative surface charge on each side of the dielectric. Discuss with students that the electric-field lines are drawn so that they touch the surface charges, because electric-field lines always start or terminate on a charge. Thus, fewer electric-field lines will traverse the dielectric, meaning the electric field is weaker inside the dielectric.</para>
+</note>
+
+<para id="fs-id1167064910755">All electrically insulating materials are dielectrics, but some are <emphasis effect="italics">better</emphasis> dielectrics than others. A good dielectric is one whose molecules allow their electrons to shift strongly in an electric field. In other words, an electric field pulls their electrons a fair bit away from their atom, but they do not escape completely from their atom (which is why they are insulators).</para>
+
+<para id="fs-id1167064818830"><link target-id="Figure_18_05_dielectinc"/> shows a macroscopic view of a dielectric in a charged capacitor. Notice that the electric-field lines in the capacitor with the dielectric are spaced farther apart than the electric-field lines in the capacitor with no dielectric. This means that the electric field in the dielectric is weaker, so it stores less electrical potential energy than the electric field in the capacitor with no dielectric.</para>
+
+<para id="fs-id1167065919220">Where has this energy gone? In fact, the molecules in the dielectric act like tiny springs, and the energy in the electric field goes into stretching these springs. With the electric field thus weakened, the voltage difference between the two sides of the capacitor is smaller, so it becomes easier to put more charge on the capacitor. Placing a dielectric in a capacitor before charging it therefore allows more charge and potential energy to be stored in the capacitor. A parallel plate with a dielectric has a capacitance of</para>
+
+<equation id="fs-id1167064872923"><label/>
+ <m:math>
+ <m:mrow>
+  <m:mi>C</m:mi><m:mo>=</m:mo><m:mi>κ</m:mi><m:msub>
+   <m:mi>ε</m:mi>
+   <m:mn>0</m:mn>
+  </m:msub>
+  <m:mfrac>
+   <m:mi>A</m:mi>
+   <m:mi>d</m:mi>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mi>κ</m:mi><m:msub>
+   <m:mi>C</m:mi>
+   <m:mn>0</m:mn>
+  </m:msub>
+<m:mtext>,</m:mtext>
+  </m:mrow>
+
+</m:math>
+</equation><para id="fs-id1167065919311">where  <m:math>
+ <m:mi>κ</m:mi>
+</m:math>  (<emphasis effect="italic">kappa</emphasis>) is a dimensionless constant called the <emphasis effect="italic">dielectric constant</emphasis>. Because  <m:math>
+ <m:mi>κ</m:mi>
+</m:math>  is greater than 1 for dielectrics, the capacitance increases when a dielectric is placed between the capacitor plates. The dielectric constant of several materials is shown in <link target-id="Table_18_01"/>.</para>
+
+<table id="Table_18_01" summary="This table has two columns and thirteen rows. The top row is a header row that labels each column. The first column header is “Material”, and the second column header is “Dielectric constant” followed by the Greek letter kappa in parentheses. Under the header “Material” are the following names of materials: “Vacuum”, “Air”, “Fused quartz”, “Neoprene rubber”, “Nylon”, “Paper”, “Polystyrene”, “Pyrex glass”, “Silicon oil”, “Strontium titanate”, “Teflon”, and “Water”. Under the header “Dielectric constant” are the following values: “1.00000”, “1.00059”, “3.78”, “6.7”, “3.4”, “3.7”, “2.56”, “5.6”, “2.5”, “233”, “2.1”, and “80”."><title>Dielectric Constants for Various Materials at 20 °C</title>
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row>
+<entry>Material</entry>
+<entry>Dielectric Constant ( <m:math>
+ <m:mi>κ</m:mi>
+</m:math> )</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>Vacuum</entry>
+<entry>1.00000</entry>
+</row>
+<row>
+<entry>Air</entry>
+<entry>1.00059</entry>
+</row>
+<row>
+<entry>Fused quartz</entry>
+<entry>3.78</entry>
+</row>
+<row>
+<entry>Neoprene rubber</entry>
+<entry>6.7</entry>
+</row>
+<row>
+<entry>Nylon</entry>
+<entry>3.4</entry>
+</row>
+<row>
+<entry>Paper</entry>
+<entry>3.7</entry>
+</row>
+<row>
+<entry>Polystyrene</entry>
+<entry>2.56</entry>
+</row>
+<row>
+<entry>Pyrex glass</entry>
+<entry>5.6</entry>
+</row>
+<row>
+<entry>Silicon oil</entry>
+<entry>2.5</entry>
+</row>
+<row>
+<entry>Strontium titanate</entry>
+<entry>233</entry>
+</row>
+<row>
+<entry>Teflon</entry>
+<entry>2.1</entry>
+</row>
+<row>
+<entry>Water</entry>
+<entry>80</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table><figure id="Figure_18_05_dielectinc">
+<media id="fs-id1167064799164" alt="This figure has two panels. The upper panel shows two parallel strips in vertical orientation. The strip on the left has a series of plus signs and is labeled “plus Q”. The strip on the right has a series of minus signs and is labeled “minus Q”. Between the strips is a series of horizontal arrows pointing from left to right, and below the arrows is a label that says “No dielectric”. The lower panel shows two similar strips, with the strip on the left containing plus signs and labeled “plus Q”, and the one on the right containing minus signs and labeled “minus Q”. Between the strips is a rectangle labeled “With dielectric”, with a few minus signs along its left edge and a few plus signs along its right edge. Also, between the strips are several long arrows pointing rightward and going from the left strip to the right one. In addition, a series of short, rightward pointing arrows lie between the left strip and the rectangle and between the rectangle and the right strip.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_18_05_dielectinc.jpg"/>
+</media>
+<caption>The top and bottom capacitors carry the same charge Q. The top capacitor has no dielectric between its plates. The bottom capacitor has a dielectric between its plates. Because some electric-field lines terminate and start on polarization charges in the dielectric, the electric field is less strong in the capacitor. Thus, for the same charge, a capacitor stores less energy when it contains a dielectric.</caption>
+</figure>
+
+<note id="fs-id1167066026920" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167064590398">Emphasize that the electric-field lines in the dielectric are less dense than in the capacitor with no dielectric, which shows that the electric field is weaker in the dielectric.</para>
+</note>
+
+<note id="fs-id1167062372573" class="worked-example"><title>Capacitor for Camera Flash</title>
+
+<exercise id="fs-id1167066097099" class="18-ex109 unnumbered"><label/>
+<problem id="fs-id1167064818155">
+<para id="fs-id1167064892659">A typical flash for a point-and-shoot camera uses a capacitor of about  <m:math>
+ <m:mrow>
+  <m:mn>200</m:mn><m:mspace width="0.3em"/><m:mtext>μ</m:mtext><m:mtext>F</m:mtext>
+ </m:mrow>
+</m:math> . (a) If the potential difference between the capacitor plates is 100 V—that is, 100 V is placed “across the capacitor,” how much energy is stored in the capacitor? (b) If the dielectric used in the capacitor were a 0.010-mm-thick sheet of nylon, what would be the surface area of the capacitor plates?</para>
+
+<note id="fs-id1167065886312">
+<label/><title>Strategy FOR (A)</title>
+<para id="fs-id1167065866903">Given that  <m:math>
+ <m:mrow>
+  <m:mi>V</m:mi><m:mo>=</m:mo><m:mn>100</m:mn><m:mspace width="0.3em"/><m:mtext>V</m:mtext>
+ </m:mrow>
+</m:math>  and  <m:math>
+ <m:mrow>
+  <m:mi>C</m:mi><m:mo>=</m:mo><m:mn>200</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>−6</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mtext>F</m:mtext>
+ </m:mrow>
+</m:math>, we can use the equation  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>U</m:mi>
+   <m:mi>E</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mstyle scriptlevel="+1">
+   <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+  </m:mstyle>
+  <m:mi>C</m:mi><m:msup>
+   <m:mi>V</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+
+ </m:mrow>
+</m:math>, to find the electric potential energy stored in the capacitor.</para>
+</note>
+</problem>
+<solution id="fs-id1167066145702">
+<title>Solution for (a)</title>
+<para id="fs-id1167062361692">Inserting the given quantities into  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>U</m:mi>
+   <m:mi>E</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mstyle scriptlevel="+1">
+   <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+  </m:mstyle>
+  <m:mi>C</m:mi><m:msup>
+   <m:mi>V</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+
+ </m:mrow>
+</m:math>  gives</para>
+<equation id="fs-id1164567390210"> <m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center" columnalign="right">
+     <m:mrow>
+      <m:msub>
+       <m:mi>U</m:mi>
+       <m:mi>E</m:mi>
+      </m:msub>
+
+     </m:mrow>
+    </m:mtd>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd rowalign="center" columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mn>1</m:mn>
+       <m:mn>2</m:mn>
+      </m:mfrac>
+      <m:mi>C</m:mi><m:msup>
+       <m:mi>V</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd rowalign="center" columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mn>1</m:mn>
+       <m:mn>2</m:mn>
+      </m:mfrac>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mn>200</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+         <m:mrow>
+          <m:mn>10</m:mn>
+         </m:mrow>
+         <m:mrow>
+          <m:mo>−</m:mo><m:mn>6</m:mn>
+         </m:mrow>
+        </m:msup>
+        <m:mtext>F</m:mtext>
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:msup>
+       <m:mrow>
+        <m:mrow><m:mo>(</m:mo>
+         <m:mrow>
+          <m:mn>100</m:mn><m:mspace width="0.3em"/><m:mtext>V</m:mtext>
+         </m:mrow>
+        <m:mo>)</m:mo></m:mrow>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd rowalign="center" columnalign="left">
+     <m:mrow>
+      <m:mn>1.0</m:mn><m:mspace width="0.25em"/><m:mtext>J</m:mtext>
+<m:mtext>.</m:mtext>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+</equation>
+</solution>
+<commentary id="fs-id1167065943530">
+<title>Discussion for (a)</title>
+<para id="fs-id1167065030403">This is enough energy to lift a 1-kg ball about 1 m up from the ground. The flash lasts for about 0.001 s, so the power delivered by the capacitor during this brief time is  <m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msub>
+     <m:mi>U</m:mi>
+     <m:mi>E</m:mi>
+    </m:msub>
+
+   </m:mrow>
+   <m:mi>t</m:mi>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>1.0</m:mn><m:mspace width="0.3em"/><m:mtext>J</m:mtext>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>0.001</m:mn><m:mspace width="0.3em"/><m:mtext>s</m:mtext>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.3em"/><m:mtext>kW</m:mtext>
+ </m:mrow>
+</m:math> . Considering that a car engine delivers about 100 kW of power, this is not bad for a little capacitor!</para>
+</commentary>
+</exercise><exercise id="fs-id1167062475747"><label/>
+<problem id="fs-id1167065870708">
+<note id="fs-id1167064985055">
+<label/><title>Strategy FOR (B)</title>
+<para id="fs-id1167065030269">Because the capacitor plates are in contact with the dielectric, we know that the spacing between the capacitor plates is  <m:math>
+ <m:mrow>
+  <m:mi>d</m:mi><m:mo>=</m:mo><m:mn>0.010</m:mn><m:mspace width="0.3em"/><m:mtext>mm</m:mtext><m:mo>=</m:mo><m:mn>1.0</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>−5</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mtext>m</m:mtext>
+ </m:mrow>
+</m:math> . From the previous table, the dielectric constant of nylon is  <m:math>
+ <m:mrow>
+  <m:mi>κ</m:mi><m:mo>=</m:mo><m:mn>3.4</m:mn>
+ </m:mrow>
+</m:math> . We can now use the equation  <m:math>
+ <m:mrow>
+  <m:mi>C</m:mi><m:mo>=</m:mo><m:mi>κ</m:mi><m:msub>
+   <m:mi>ε</m:mi>
+   <m:mn>0</m:mn>
+  </m:msub>
+  <m:mfrac>
+   <m:mi>A</m:mi>
+   <m:mi>d</m:mi>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>  to find the area <emphasis effect="italics">A</emphasis> of the capacitor.</para></note>
+</problem>
+<solution id="fs-id1167065945357"><label/><title>Solution (b)</title>
+<para id="fs-id1167065792948">Solving the equation for the area <emphasis effect="italics">A</emphasis> and inserting the known quantities gives</para>
+<equation id="fs-id1164567128556"> <m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center" columnalign="right">
+     <m:mi>C</m:mi>
+    </m:mtd>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd rowalign="center" columnalign="left">
+     <m:mrow>
+      <m:mi>κ</m:mi><m:msub>
+       <m:mi>ε</m:mi>
+       <m:mn>0</m:mn>
+      </m:msub>
+      <m:mfrac>
+       <m:mi>A</m:mi>
+       <m:mi>d</m:mi>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center" columnalign="right">
+     <m:mi>A</m:mi>
+    </m:mtd>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd rowalign="center" columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mi>C</m:mi><m:mi>d</m:mi>
+       </m:mrow>
+       <m:mrow>
+        <m:mi>κ</m:mi><m:msub>
+         <m:mi>ε</m:mi>
+         <m:mn>0</m:mn>
+        </m:msub>
+
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd rowalign="center" columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mrow><m:mo>(</m:mo>
+         <m:mrow>
+          <m:mn>200</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+           <m:mrow>
+            <m:mn>10</m:mn>
+           </m:mrow>
+           <m:mrow>
+            <m:mn>−6</m:mn>
+           </m:mrow>
+          </m:msup>
+          <m:mtext>F</m:mtext>
+         </m:mrow>
+        <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+         <m:mrow>
+          <m:mn>1.0</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+           <m:mrow>
+            <m:mn>10</m:mn>
+           </m:mrow>
+           <m:mrow>
+            <m:mn>−5</m:mn>
+           </m:mrow>
+          </m:msup>
+          <m:mtext>m</m:mtext>
+         </m:mrow>
+        <m:mo>)</m:mo></m:mrow>
+       </m:mrow>
+       <m:mrow>
+        <m:mrow><m:mo>(</m:mo>
+         <m:mrow>
+          <m:mn>3.4</m:mn>
+         </m:mrow>
+        <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+         <m:mrow>
+          <m:mn>8.85</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+           <m:mrow>
+            <m:mn>10</m:mn>
+           </m:mrow>
+           <m:mrow>
+            <m:mn>−12</m:mn>
+           </m:mrow>
+          </m:msup>
+          <m:mtext> F/m</m:mtext>
+         </m:mrow>
+        <m:mo>)</m:mo></m:mrow>
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd rowalign="center" columnalign="left">
+     <m:mrow>
+      <m:mn>66</m:mn><m:msup>
+       <m:mtext>m</m:mtext>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mtext>.</m:mtext>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+</equation></solution>
+<commentary id="fs-id1167065062083">
+<title>Discussion for (b)</title>
+<para id="fs-id1167065881042">This is much too large an area to roll into a capacitor small enough to fit in a handheld camera. This is why these capacitors don’t use simple dielectrics but a more advanced technology to obtain a high capacitance.</para>
+</commentary>
+</exercise></note></section><section id="fs-id1167064872112" class="practice-problems"><title>Practice Problems</title><exercise id="fs-id1167065953887">
+<problem id="fs-id1167066202688">
+<!--<para id="fs-id1167066104255">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex110"/>
+</para>-->
+<para id="fs-id1164567986113">With 12 V across a capacitor, it accepts 10 mC of charge. What is its capacitance?</para>
+<list id="fs-id1164565589518" list-type="enumerated" number-style="lower-alpha">
+<item>0.83 <emphasis effect="italic">μ</emphasis>F</item>
+<item>83 <emphasis effect="italic">μ</emphasis>F</item>
+<item>120 <emphasis effect="italic">μ</emphasis>F</item>
+<item>830 <emphasis effect="italic">μ</emphasis>F</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167066137104">
+<problem id="fs-id1167064928165">
+<!--<para id="fs-id1167065877257">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex111"/>
+</para>-->
+<para id="fs-id1164567142386">A parallel-plate capacitor has an area of 10 cm<sup>2</sup> and the plates are separated by 100 <emphasis effect="italic">μ</emphasis>m . If the capacitor contains paper between the plates, what is its capacitance?</para>
+<list id="fs-id1164567516892" list-type="enumerated" number-style="lower-alpha">
+<item>3.3 × 10<sup>−10</sup> F</item>
+<item>3.3 × 10<sup>−8</sup> F</item>
+<item>3.3 × 10<sup>−6</sup> F</item>
+<item>3.3 × 10<sup>−4</sup> F</item>
+</list>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167066138956" class="check-understanding">
+<title>Check Your Understanding</title>
+<exercise id="fs-id1167064911742" class="os-exercise">
+<problem id="fs-id1167065725876">
+<para id="fs-id1167065715160"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex112"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167066147592" class="os-exercise">
+<problem id="fs-id1167062889689">
+<para id="fs-id1167066108271">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex113"/>
+</para>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167064980017" class="summary">
+<title>Section Summary</title>
+<list id="fs-id1167066188831">
+<item>The capacitance of a capacitor depends only on the geometry of the capacitor and the materials from which it is made. It does not depend on the voltage across the capacitor.</item>
+<item>Capacitors store electrical energy in the electric field between their plates.</item>
+<item>A dielectric material is an insulator that is polarized in an electric field.</item>
+<item>Putting a dielectric between the plates of a capacitor increases the capacitance of the capacitor.</item>
+</list>
+</section>
+
+<section id="fs-id1167066014712" class="key-equations"><title>Key Equations</title><table id="fs-id1167064547277" class="unnumbered unstyled" summary="This table has two columns and three rows. The first column contains the following descriptions: “Capacitance”; “Energy stored in a capacitor”; and “Capacitance of a parallel-plate capacitor”. The second column gives the corresponding equations."><label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry>capacitance</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mi>C</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mi>Q</m:mi>
+   <m:mi>V</m:mi>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </entry>
+</row>
+<row>
+<entry>energy stored in a capacitor</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>U</m:mi>
+   <m:mi>E</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mi>C</m:mi><m:msup>
+   <m:mi>V</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+
+ </m:mrow>
+</m:math> </entry>
+</row>
+<row>
+<entry>capacitance of a parallel-plate capacitor</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mi>C</m:mi><m:mo>=</m:mo><m:mi>κ</m:mi><m:msub>
+   <m:mi>ε</m:mi>
+   <m:mn>0</m:mn>
+  </m:msub>
+  <m:mfrac>
+   <m:mi>A</m:mi>
+   <m:mi>d</m:mi>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+
+<section id="fs-id1167064694615" class="concept"><title>Concept Items</title><exercise id="fs-id1167065898269" class="os-exercise">
+<problem id="fs-id1167064896268">
+<!--<para id="fs-id1167064896271">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex116"/>
+</para>-->
+<para id="fs-id1164567882230">You insert a dielectric into an air-filled capacitor. How does this affect the energy stored in the capacitor?</para>
+<list id="fs-id1164567216928" list-type="enumerated" number-style="lower-alpha">
+<item>Energy stored in the capacitor will remain same.</item>
+<item>Energy stored in the capacitor will decrease.</item>
+<item>Energy stored in the capacitor will increase.</item>
+<item>Energy stored in the capacitor will increase first, and then it will decrease.</item></list>
+</problem>
+</exercise>
+<exercise id="eip-id1166849845850" class="os-exercise">
+<problem id="eip-id1166849622881">
+<!--<para id="eip-id1166849928074">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch18-ot093"/>
+</para>-->
+
+<para id="fs-id1164567535713">True or false Placing a dielectric between the plates of a capacitor increases the energy of the capacitor.</para>
+<list id="fs-id1164567617574" list-type="enumerated" number-style="lower-alpha">
+<item>false</item>
+<item>true</item></list>
+</problem>
+</exercise>
+<exercise id="eip-id1166849832315" class="os-exercise">
+<problem id="eip-id1166849796346">
+<!--<para id="eip-id1166849796348">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch18-ot094"/>
+</para>-->
+<para id="fs-id1164567767217">True or false The electric field in an air-filled capacitor is reduced when a dielectric is inserted between the plates.</para>
+<list id="fs-id1164564493119" list-type="enumerated" number-style="lower-alpha">
+<item>false</item>
+<item>true</item></list>
+</problem>
+</exercise></section><section id="fs-id1167065873731" class="critical-thinking">
+<title>Critical Thinking</title><exercise id="fs-id1167066030967" class="os-exercise">
+<problem id="fs-id1167062305582">
+<!--<para id="fs-id1167064645939">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex117"/>
+</para>-->
+<para id="fs-id1164566039620">When you insert a dielectric into a capacitor, the energy stored in the capacitor decreases. If you take the dielectric out, the energy increases again. Where does this energy go in the former case, and where does the energy come from in the latter case?</para>
+<list id="fs-id1164567962714" list-type="enumerated" number-style="lower-alpha">
+<item>Energy is utilized to remove the dielectric and is released when the dielectric is introduced between the plates.</item>
+<item>Energy is released when the dielectric is added and is utilized when the dielectric is introduced between the plates.</item>
+<item>Energy is utilized to polarize the dielectric and is released when the dielectric is introduced between the plates.</item>
+<item>Energy is released to polarize the dielectric and is utilized when dielectric is introduced between the plates.</item></list>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167064648177" class="problems">
+<title>Problems</title>
+<exercise id="fs-id1167062368324" class="os-exercise">
+<problem id="fs-id1167065970166">
+<!--<para id="fs-id1167065970169">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex114"/>
+</para>-->
+<para id="fs-id1164567969959">A 4.12 <emphasis effect="italics">µ</emphasis>F parallel-plate capacitor has a plate area of 2,000 cm<sup>2</sup> and a plate separation of 10 <emphasis effect="italics">µ</emphasis>m . What dielectric is between the plates?</para>
+<list id="fs-id1164566991670" list-type="enumerated" number-style="lower-alpha">
+<item>1, the dielectric is strontium titanate</item>
+<item>466, the dielectric is strontium</item>
+<item>699, the dielectric is strontium nitrate</item>
+<item>1,000, the dielectric is strontium chloride</item></list>
+</problem>
+</exercise>
+<exercise id="fs-id1167065842388" class="os-exercise">
+<problem id="fs-id1167066138999">
+<para id="fs-id1167066139001"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex115"/>
+</para>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167064649051" class="performance"><label/><title>Performance Task</title>
+<exercise id="fs-id1167065713978"><problem id="fs-id1167062541050">
+<para id="fs-id1167062541052">Newton’s law of universal gravitation is</para>
+<equation id="fs-id1167065771934">
+<label/>
+ <m:math>
+ <m:mrow>
+  <m:mi>F</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>G</m:mi><m:msub>
+     <m:mi>m</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+     <m:mi>m</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    <m:mtext>,</m:mtext>
+   </m:mrow>
+   <m:mrow>
+    <m:msup>
+     <m:mi>r</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    <m:mtext>,</m:mtext>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </equation>
+<para id="fs-id1167065977328">where  <m:math>
+ <m:mrow>
+  <m:mi>G</m:mi><m:mo>=</m:mo><m:mn>6.67</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>11</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:msup>
+   <m:mtext>m</m:mtext>
+   <m:mn>3</m:mn>
+  </m:msup>
+  <m:mtext>/kg</m:mtext><m:mo>⋅</m:mo><m:msup>
+   <m:mtext>s</m:mtext>
+   <m:mn>2</m:mn>
+  </m:msup>
+
+ </m:mrow>
+</m:math> . This describes the gravitational force between two point masses <emphasis effect="italics">m</emphasis><sub>1</sub> and <emphasis effect="italics">m</emphasis><sub>2</sub>.</para><para id="fs-id1167066044923">Coulomb’s law is</para>
+<equation id="fs-id1167066046087">
+<label/>
+ <m:math>
+ <m:mrow>
+  <m:mi>F</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>k</m:mi><m:msub>
+     <m:mi>q</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+     <m:mi>q</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+
+   </m:mrow>
+   <m:mrow>
+    <m:msup>
+     <m:mi>r</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </equation>
+<para id="fs-id1167065791103">where  <m:math>
+ <m:mrow>
+  <m:mi>k</m:mi><m:mo>=</m:mo><m:mn>8.99</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mn>9</m:mn>
+  </m:msup>
+  <m:mtext>N</m:mtext><m:mo>⋅</m:mo><m:msup>
+   <m:mtext>m</m:mtext>
+   <m:mtext>2</m:mtext>
+  </m:msup>
+  <m:msup>
+   <m:mrow>
+    <m:mtext>/C</m:mtext>
+   </m:mrow>
+   <m:mtext>2</m:mtext>
+  </m:msup>
+
+ </m:mrow>
+</m:math> . This describes the electric force between two point charges <emphasis effect="italics">q</emphasis><sub>1</sub> and <emphasis effect="italics">q</emphasis><sub>2</sub>.</para><para id="fs-id1167065883173">(a) Describe how the force in each case depends on the distance <emphasis effect="italics">r</emphasis> between the objects. How do the forces change if the distance is reduced by half? If the distance is doubled?</para>
+<para id="fs-id1167062368320">(b) Describe the similarities and differences between the two laws. Consider the signs of the quantities that create the interaction (i.e., mass and charge), the constants <emphasis effect="italics">G</emphasis> and <emphasis effect="italics">k</emphasis>, and their dependence on separation <emphasis effect="italics">r</emphasis>.</para>
+<para id="fs-id1167063013659">(c) Given that the electric force is much stronger than the gravitational force, discuss why the law for gravitational force was discovered much earlier than the law for electric force.</para>
+<para id="fs-id1167064531005">(d) Consider a hydrogen atom, which is a single proton orbited by a single electron. The electric force holds the electron and proton together so that the hydrogen atom has a radius of about  <m:math>
+ <m:mrow>
+  <m:mn>0.5</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>−10</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mtext>m</m:mtext>
+ </m:mrow>
+</m:math> . Assuming the force between electron and proton does not change, what would be the approximate radius of the hydrogen atom if  <m:math>
+ <m:mrow>
+  <m:mi>k</m:mi><m:mo>=</m:mo><m:mn>6.67</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>−11</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mtext>N</m:mtext><m:mo>⋅</m:mo><m:msup>
+   <m:mtext>m</m:mtext>
+   <m:mtext>2</m:mtext>
+  </m:msup>
+  <m:msup>
+   <m:mrow>
+    <m:mtext>/C</m:mtext>
+   </m:mrow>
+   <m:mtext>2</m:mtext>
+  </m:msup>
+
+ </m:mrow>
+</m:math> ?</para></problem>
+</exercise>
+<note id="fs-id1167066088866" class="os-teacher"><title>Teacher Support</title>
+<para id="fs-id1167064784326">HS-PS2-4. Use mathematical representations of Newton’s law of gravitation and Coulomb’s law to describe and predict the gravitational and electrostatic forces between objects. Clarification statementEmphasis is on quantitative and conceptual descriptions of gravitational and electric fields.</para>
+<para id="fs-id1167064733965">Assessment boundaryAssessment is limited to systems with two objects.</para>
+<para id="fs-id1167065823217">(a) For both laws, the force varies as the inverse of the distance between the objects. The forces increase fourfold if the distance is reduced by half and decrease fourfold if the distance is doubled.</para>
+<para id="fs-id1167066096330">(b) Both laws vary as the inverse distance squared between the objects. Because charge can be positive or negative, the electric force can be attractive or repulsive, whereas the force of gravity is only attractive because mass is a strictly positive quantity. Finally, the constants involved show that the electric force is typically much stronger than the force of gravity.</para>
+<para id="fs-id1167064993793">(c) Because gravity is only attractive, it is noticeable on a macroscopic scale. The electric force between most macroscopic objects is very small, because such objects typically contain equal amounts of positive and negative charge. Thus, the electric force between macroscopic objects is typically not noticeable.</para>
+<para id="fs-id1167064993795">(d)  <m:math>
+ <m:mrow>
+  <m:mtable>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:msub>
+         <m:mi>k</m:mi>
+         <m:mrow>
+          <m:mtext>real</m:mtext></m:mrow>
+        </m:msub>
+        <m:msub>
+         <m:mi>q</m:mi>
+         <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+         <m:mi>q</m:mi>
+         <m:mn>2</m:mn>
+        </m:msub>
+        </m:mrow>
+       <m:mrow>
+        <m:msubsup>
+         <m:mi>r</m:mi>
+         <m:mrow>
+          <m:mtext>real</m:mtext></m:mrow>
+         <m:mn>2</m:mn>
+        </m:msubsup>
+        </m:mrow>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:msub>
+         <m:mi>k</m:mi>
+         <m:mrow>
+          <m:mtext>gravity</m:mtext></m:mrow>
+        </m:msub>
+        <m:msub>
+         <m:mi>q</m:mi>
+         <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+         <m:mi>q</m:mi>
+         <m:mn>2</m:mn>
+        </m:msub>
+        </m:mrow>
+       <m:mrow>
+        <m:msubsup>
+         <m:mi>r</m:mi>
+         <m:mrow>
+          <m:mtext>gravity</m:mtext></m:mrow>
+         <m:mn>2</m:mn>
+        </m:msubsup>
+        </m:mrow>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:msub>
+       <m:mi>r</m:mi>
+       <m:mrow>
+        <m:mtext>gravity</m:mtext></m:mrow>
+      </m:msub>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:msub>
+       <m:mi>r</m:mi>
+       <m:mrow>
+        <m:mtext>real</m:mtext></m:mrow>
+      </m:msub>
+      <m:msqrt>
+       <m:mrow>
+        <m:mfrac>
+         <m:mrow>
+          <m:msub>
+           <m:mi>k</m:mi>
+           <m:mrow>
+            <m:mtext>real</m:mtext></m:mrow>
+          </m:msub>
+          </m:mrow>
+         <m:mrow>
+          <m:msub>
+           <m:mi>k</m:mi>
+           <m:mrow>
+            <m:mtext>gravity</m:mtext></m:mrow>
+          </m:msub>
+          </m:mrow>
+        </m:mfrac>
+        </m:mrow>
+      </m:msqrt>
+      <m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mn>0.5</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+         <m:mrow>
+          <m:mn>10</m:mn></m:mrow>
+         <m:mrow>
+          <m:mo>−</m:mo><m:mn>10</m:mn></m:mrow>
+        </m:msup>
+        <m:mtext>m</m:mtext></m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:msqrt>
+       <m:mrow>
+        <m:mfrac>
+         <m:mrow>
+          <m:mn>8.99</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+           <m:mrow>
+            <m:mn>10</m:mn></m:mrow>
+           <m:mn>9</m:mn>
+          </m:msup>
+          <m:mtext>N</m:mtext><m:mo>⋅</m:mo><m:msup>
+           <m:mtext>m</m:mtext>
+           <m:mtext>2</m:mtext>
+          </m:msup>
+          <m:msup>
+           <m:mrow>
+            <m:mtext>/C</m:mtext></m:mrow>
+           <m:mtext>2</m:mtext>
+          </m:msup>
+          </m:mrow>
+         <m:mrow>
+          <m:mn>6.67</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+           <m:mrow>
+            <m:mn>10</m:mn></m:mrow>
+           <m:mrow>
+            <m:mo>−</m:mo><m:mn>11</m:mn></m:mrow>
+          </m:msup>
+          <m:mtext>N</m:mtext><m:mo>⋅</m:mo><m:msup>
+           <m:mtext>m</m:mtext>
+           <m:mtext>2</m:mtext>
+          </m:msup>
+          <m:msup>
+           <m:mrow>
+            <m:mtext>/C</m:mtext></m:mrow>
+           <m:mtext>2</m:mtext>
+          </m:msup>
+          </m:mrow>
+        </m:mfrac>
+        </m:mrow>
+      </m:msqrt>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>≈</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>0.6</m:mn><m:mspace width="0.3em"/><m:mtext>m</m:mtext></m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable></m:mrow>
+</m:math> </para></note></section>
+
+<section id="fs-id1167062477259" class="multiple-choice"><title>Test Prep Multiple Choice</title><exercise id="fs-id1167065030321" class="os-exercise">
+<problem id="fs-id1167062332126">
+<!--<para id="fs-id1167062877270">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex120"/>
+</para>-->
+<para id="fs-id1164567093195">Which magnitude of charge is stored on each plate of a 12 µF capacitor with 12 V applied across it?</para>
+<list id="fs-id1164567193323" list-type="enumerated" number-style="lower-alpha">
+<item>1.0 × 10<sup>6</sup> C</item>
+<item>1.0 × 10<sup>6</sup> C</item>
+<item>1.4 × 10<sup>4</sup> C</item>
+<item>1.4 × 10<sup>4</sup> C</item></list>
+</problem>
+</exercise>
+<exercise id="fs-id1167065968410" class="os-exercise">
+<problem id="fs-id1167064937809">
+<!--<para id="fs-id1167064937811">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex121"/>
+</para>-->
+<para id="fs-id1164564510384">What is the capacitance of a parallel-plate capacitor with an area of 200 cm<sup>2</sup>, a distance of 0.20 mm between the plates, and polystyrene as a dielectric?</para>
+<list id="fs-id1164565355052" list-type="enumerated" number-style="lower-alpha">
+<item>2.3 nC</item>
+<item>0.89 nC</item>
+<item>23 nC</item>
+<item>8.9 nC</item></list>
+</problem>
+</exercise>
+<exercise id="eip-id1166847411231" class="os-exercise">
+<problem id="eip-id1166849442228">
+<!--<para id="eip-id1166849442230">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch18-ot095"/>
+</para>-->
+<para id="fs-id1164567076562">Which factors determine the capacitance of a device?</para>
+<list id="fs-id1164567076566" list-type="enumerated" number-style="lower-alpha">
+<item>Capacitance depends only on the materials that make up the device.</item>
+<item>Capacitance depends on the electric field surrounding the device.</item>
+<item>Capacitance depends on the geometric and material parameters of the device.</item>
+<item>Capacitance depends only on the mass of the capacitor</item></list>
+</problem>
+</exercise></section><section id="fs-id1167065854864" class="short-answer">
+<title>Test Prep Short Answer</title>
+<exercise id="fs-id1167062370288" class="os-exercise">
+<problem id="fs-id1167065765454">
+<para id="fs-id1167065765456">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex122"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167064616824" class="os-exercise">
+<problem id="fs-id1167065045646">
+<!--<para id="fs-id1167064845387">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex123"/>
+</para>-->
+<para id="fs-id1164566196994">A capacitor with neoprene rubber as the dielectric stores 0.185 mJ of energy with a voltage of 50 V across the plates. If the area of the plates is 500 cm<sup>2</sup>, what is the plate separation?</para>
+<list id="fs-id1164567535374" list-type="enumerated" number-style="lower-alpha">
+<item>20 µm</item>
+<item>20 m</item>
+<item>80 µm</item>
+<item>80 m</item></list>
+</problem>
+</exercise>
+<exercise id="fs-id1167065763077" class="os-exercise">
+<problem id="fs-id1167064538152">
+<!--<para id="fs-id1167065862585">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex124"/>
+</para>-->
+<para id="fs-id1164567003410">Explain why a storm cloud before a lightning strike is like a giant capacitor.</para>
+<list id="fs-id1164567003414" list-type="enumerated" number-style="lower-alpha">
+<item>The storm cloud acts as a giant charged capacitor, as it can store a large amount of charge.</item>
+<item>The storm cloud acts as a giant charged capacitor, as it contains a high amount of excess charges.</item>
+<item>The storm cloud acts as a giant charged capacitor, as it splits in two capacitor plates with equal and opposite charge.</item>
+<item>The storm cloud acts as a giant charged capacitor, as it splits in two capacitor plates with unequal and opposite charges.</item></list>
+</problem>
+</exercise>
+<exercise id="fs-id1167066025777" class="os-exercise">
+<problem id="fs-id1167065847789">
+<!--<para id="fs-id1167065847791">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex125"/>
+</para>-->
+<para id="fs-id1164567116175">A storm cloud is 2 km above the surface of Earth. The lower surface of the cloud is approximately 2 km<sup>2</sup> in area. What is the approximate capacitance of this storm cloud-Earth system?</para>
+<list id="fs-id1164567628344" list-type="enumerated" number-style="lower-alpha">
+<item>9 × 10<sup>15</sup> F</item>
+<item>9 × 10<sup>-9</sup> F</item>
+<item>17.7 × 10<sup>-15</sup> F</item>
+<item>17.7 × 10<sup>-9</sup> F</item></list>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167062368545" class="extended-response">
+<title>Test Prep Extended Response</title>
+<exercise id="fs-id1167064641346" class="os-exercise">
+<problem id="fs-id1167064767774">
+<!--<para id="fs-id1167064767776">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex126"/>
+</para>-->
+<para id="fs-id1169832896687">A 12 μF air-filled capacitor has 12 V across it. If the surface charge on each capacitor plate is <emphasis effect="italics">σ</emphasis> = 7.2 mC / m<sup>2</sup>, what is the attractive force of one capacitor plate toward the other?</para>
+<list id="fs-id1169833296109" list-type="enumerated" number-style="lower-alpha">
+<item>0.81 × 10<sup>5</sup> N</item>
+<item>0.81 × 10<sup>6</sup> N</item>
+<item>1.2 × 10<sup>5</sup> N</item>
+<item>1.2 × 10<sup>6</sup> N</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167064927754" class="os-exercise">
+<problem id="fs-id1167062967448">
+<!--<para id="fs-id1167066036502">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex127"/>
+</para>-->
+<para id="fs-id1164565790020">Explain why capacitance should be inversely proportional to the separation between the plates of a capacitor.</para>
+<list id="fs-id1164566346741" list-type="enumerated" number-style="lower-alpha">
+<item>Capacitance is directly proportional to the electric field, which is inversely proportional to the distance between the capacitor plates.</item>
+<item>Capacitance is inversely proportional to the electric field, which is inversely proportional to the distance between the capacitor plates.</item>
+<item>Capacitance is inversely proportional to the electric field, which is directly proportional to the distance between the capacitor plates.</item>
+<item>Capacitance is directly proportional to the electric field, which is directly proportional to the distance between the capacitor plates.</item></list>
+
+</problem>
+</exercise>
+</section>
+
+
+
+</content>
+<glossary>
+<definition id="fs-id1167064533191">
+<term>capacitor</term>
+<meaning id="fs-id1167062312211">arrangement of objects that can store electrical energy by virtue of their geometry</meaning>
+</definition>
+<definition id="fs-id1167065728430">
+<term>dielectric</term>
+<meaning id="fs-id1167065871430">electrically insulating material that becomes polarized in an electric field</meaning>
+</definition>
+</glossary>
+</document>

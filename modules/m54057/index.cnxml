@@ -1,0 +1,525 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+
+<title>Physics: Definitions and Applications</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54057</md:content-id>
+  <md:title>Physics: Definitions and Applications</md:title>
+  <md:abstract/>
+  <md:uuid>5f0710fe-1028-4ac4-b8fd-b0a6c792c642</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1164353442294" class="learning-objectives">
+<label/>
+<title>Section Learning Objectives</title>
+<para id="fs-id1164354696767">By the end of this section, you will be able to do the following:</para>
+<list id="fs-id1164354531245"><item>Describe the definition, aims, and branches of physics</item>
+<item>Describe and distinguish classical physics from modern physics and describe the importance of relativity, quantum mechanics, and relativistic quantum mechanics in modern physics</item>
+<item>Describe how aspects of physics are used in other sciences (e.g., biology, chemistry, geology, etc.) as well as in everyday technology</item>
+</list></note>
+
+<note id="fs-id1164354697240" class="os-teacher"><title>Teacher Support</title>
+<para id="fs-id1164354656837">The learning objectives in this section will help your students master the following standards:</para>
+<list id="fs-id1164354596876">
+<item>
+<span>(2)</span> <span>Scientific processes. The student uses a systematic approach to answer scientific laboratory and field investigative questions. The student is expected to:</span>
+<list id="fs-id1164565666468">
+<item>
+<span>(A)</span> <span>know the definition of science and understand that it has limitations, as specified in subsection (b)(2) of this section;</span></item>
+
+</list></item></list>
+<list id="fs-id1164567151945"><item>
+<span>(3)</span>  <span>Scientific processes. The student uses critical thinking, scientific reasoning, and problem solving to make informed decisions within and outside the classroom. The student is expected to:</span>
+<list id="fs-id1164566038655">
+
+<item>
+<span>(A)</span> <span>in all fields of science, analyze, evaluate, and critique scientific explanations by using empirical evidence, logical reasoning, and experimental and observational testing, including examining all sides of scientific evidence of those scientific explanations, so as to encourage critical thinking by the student.</span></item>
+<item>
+<span>(B)</span> <span>communicate and apply scientific information extracted from various sources such as current events, news reports, published journal articles, and marketing materials;</span>
+</item>
+<item>
+<span>(C)</span> <span>draw inferences based on data related to promotional materials for products and services;</span></item>
+
+<item>
+<span>(D)</span> <span>explain the impacts of the scientific contributions of a variety of historical and contemporary scientists on scientific thought and society.</span></item>
+</list></item></list></note>
+<section id="keyterms"><title>Section Key Terms</title>
+
+<table id="fs-id1164354601564" summary="The list of Key Terms includes: atom, classical physics, modern physics, physics, quantum mechanics, and theory of relativity." class="unnumbered unstyled section-key-terms"><label/>
+<tgroup cols="3"><tbody>
+<row>
+<entry>atom</entry>
+<entry>classical physics</entry>
+<entry>modern physics</entry>
+</row>
+<row>
+<entry>physics</entry>
+<entry>quantum mechanics</entry>
+<entry>theory of relativity</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table></section>
+
+<!-- Test test -->
+
+<note id="fs-id1164354519605" class="os-teacher"><title>Teacher Support</title>
+<para id="eip-id1167066848242">To help meet the multimodal needs of classrooms today, OpenStax Tutor’s <emphasis effect="italics">Physics</emphasis> provides Teacher Support tips for on-level [OL], below-level [BL], and above-level [AL] students.</para>
+<para id="fs-id1164353511379"><span>[OL]</span>Pre-assessment for this section could involve asking students the definition of matter, atoms, electrons, protons, neutrons, subatomic particles, and energy. Students could also be asked to name some prominent classical and modern physicists and to describe some of their work in general terms.</para>
+<para id="fs-id1164354483165"><span>[OL]</span>The introduction and opening picture are meant to show students that the physical laws governing their own everyday surroundings also govern the movement of stars in a galaxy. Teachers could ask students how gravity affects life on Earth. Students will likely mention how gravity keeps us on Earth’s surface. Prompt them, if necessary, to also think about Earth’s orbital motion around the sun. This motion allows Earth to bask in the warmth of the sun’s light. Without the Sun’s gravity, Earth would continue moving in a straight line and move away from the sun, while people would float off of Earth’s surface. The orbit of the moon could also be brought into this discussion, because Earth’s gravity keeps the moon moving around Earth rather than continuing in a straight path.</para>
+</note><section id="fs-id1164354587065"><title>What Physics Is</title><para id="fs-id1164353488300">Think about all of the technological devices that you use on a regular basis. Computers, wireless internet, smart phones, tablets, global positioning system (GPS), MP3 players, and satellite radio might come to mind. Next, think about the most exciting modern technologies that you have heard about in the news, such as trains that levitate above their tracks, <emphasis effect="italics">invisibility cloaks</emphasis> that bend light around them, and microscopic robots that fight diseased cells in our bodies. All of these groundbreaking advancements rely on the principles of <term>physics</term>.</para>
+<para id="fs-id1169316365038">Physics is a branch of science. The word <emphasis effect="italics">science</emphasis> comes from a Latin word that means <emphasis effect="italics">having knowledge</emphasis>, and refers the knowledge of how the physical world operates, based on objective evidence determined through observation and experimentation. A key requirement of any scientific explanation of a natural phenomenon is that it must be testable; one must be able to devise and conduct an experimental investigation that either supports or refutes the explanation. It is important to note that some questions fall outside the realm of science precisely because they deal with phenomena that are not scientifically testable. This need for objective evidence helps define the investigative process scientists follow, which will be described later in this chapter.</para>
+<para id="fs-id1164354537908">Physics is the science aimed at describing the fundamental aspects of our universe. This includes what things are in it, what properties of those things are noticeable, and what processes those things or their properties undergo. In simpler terms, physics attempts to describe the basic mechanisms that make our universe behave the way it does. For example, consider a smart phone (<link target-id="Figure_01_01_phone"/>). Physics describes how electric current interacts with the various circuits inside the device. This knowledge helps engineers select the appropriate materials and circuit layout when building the smart phone. Next, consider a GPS. Physics describes the relationship between the speed of an object, the distance over which it travels, and the time it takes to travel that distance. When you use a GPS device in a vehicle, it utilizes these physics relationships to determine the travel time from one location to another.</para>
+
+<figure id="Figure_01_01_phone"><media id="fs-id1164354456903" alt="A common smart phone with a GPS function is shown.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_01_01_phone.jpg"/>
+</media>
+
+<caption>Physics describes the way that electric charge flows through the circuits of this device. Engineers use their knowledge of physics to construct a smartphone with features that consumers will enjoy, such as a GPS function. GPS uses physics equations to determine the driving time between two locations on a map. (@gletham GIS, Social, Mobile Tech Images)</caption></figure><note id="fs-id1164353513921" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1164354530634"><span>[AL]</span>Ask what parts of a cell phone should contain conducting materials (wires, circuit boards, etc.) versus insulating materials (e.g., places where electrical insulation keeps humans from touching electrical circuits inside the phone).</para>
+<para id="fs-id1164354468798"><span>[AL]</span>You can delve into GPS usage at this point by defining velocity = distance/time, discussing triangulation, and/or discussing line of sight.</para>
+</note>
+
+<para id="fs-id1164354471453">As our technology evolved over the centuries, physics expanded into many branches. Ancient peoples could only study things that they could see with the naked eye or otherwise experience without the aid of scientific equipment. This included the study of <term class="no-emphasis">kinematics</term>, which is the study of moving objects. For example, ancient people often studied the apparent motion of objects in the sky, such as the sun, moon, and stars. This is evident in the construction of prehistoric astronomical observatories, such as Stonehenge in England (shown in <link target-id="Figure_01_01_Stonehenge"/>). </para>
+<figure id="Figure_01_01_Stonehenge"><media id="fs-id1164354615229" alt="A photograph of Stonehenge shows large rocks sitting upright and other laying across the upright rocks. Stonehenge functions as an ancient astronomical observatory, with certain rocks in the monument aligning with the position of the Sun during the summer and winter solstices. Other rocks align with the rising and setting of the Moon during certain days of the year.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_01_01_Stonehenge.jpg"/>
+</media>
+
+<caption>Stonehenge is a monument located in England that was built between 3000 and 1000 B.C. It functions as an ancient astronomical observatory, with certain rocks in the monument aligning with the position of the sun during the summer and winter solstices. Other rocks align with the rising and setting of the moon during certain days of the year. (Citypeek, Wikimedia Commons)</caption></figure>
+
+<para id="fs-id1164354617452">Ancient people also studied <term class="no-emphasis">statics</term> and <term class="no-emphasis">dynamics</term>, which focus on how objects start moving, stop moving, and change speed and direction in response to forces that push or pull on the objects. This early interest in kinematics and dynamics allowed humans to invent simple machines, such as the lever, the pulley, the ramp, and the wheel. These simple machines were gradually combined and integrated to produce more complicated machines, such as wagons and cranes. Machines allowed humans to gradually do more work more effectively in less time, allowing them to create larger and more complicated buildings and structures, many of which still exist today from ancient times.</para>
+
+
+
+<para id="fs-id1164354554377">As technology advanced, the branches of physics diversified even more. These include branches such as <term class="no-emphasis">acoustics</term>, the study of sound, and <term class="no-emphasis">optics</term>, the study of the light. In 1608, the invention of the telescope by a Germany spectacle maker, Hans Lippershey, led to huge breakthroughs in astronomythe study of objects or phenomena in space. One year later, in 1609, Galileo Galilei began the first studies of the solar system and the universe using a telescope. During the Renaissance era, Isaac Newton used observations made by Galileo to construct his three laws of motion. These laws were the standard for studying kinematics and dynamics even today.</para>
+
+<para id="fs-id1164354602999">Another major branch of physics is <term class="no-emphasis">thermodynamics</term>, which includes the study of thermal energy and the transfer of heat. James Prescott Joule, an English physicist, studied the nature of heat and its relationship to work. Joule’s work helped lay the foundation for the first of three laws of thermodynamics that describe how energy in our universe is transferred from one object to another or transformed from one form to another. Studies in thermodynamics were motivated by the need to make engines more efficient, keep people safe from the elements, and preserve food.</para>
+
+<para id="fs-id1164354472610">The 18<sup>th</sup> and 19<sup>th</sup> centuries also saw great strides in the study of electricity and magnetism. <term class="no-emphasis">Electricity</term> involves the study of electric charges and their movements. <term class="no-emphasis">Magnetism</term> had long ago been noticed as an attractive force between a magnetized object and a metal like iron, or between the opposite poles (North and South) of two magnetized objects. In 1820, Danish physicist Hans Christian Oersted showed that electric currents create magnetic fields. In 1831, English inventor Michael Faraday showed that moving a wire through a magnetic field could induce an electric current. These studies led to the inventions of the electric motor and electric generator, which revolutionized human life by bringing electricity and magnetism into our machines.</para><para id="fs-id1164354540028">The end of the 19<sup>th</sup> century saw the discovery of radioactive substances by the scientists Marie and Pierre Curie. <term class="no-emphasis">Nuclear physics</term> involves studying the nuclei of <term>atoms</term>, the source of nuclear radiation. In the 20<sup>th</sup> century, the study of nuclear physics eventually led to the ability to split the nucleus of an atom, a process called nuclear fission. This process is the basis for nuclear power plants and nuclear weapons. Also, the field of <term>quantum mechanics</term>, which involves the mechanics of atoms and molecules, saw great strides during the 20<sup>th</sup> century as our understanding of atoms and subatomic particles increased (see below).</para><para id="fs-id1164354528506">Early in the 20<sup>th</sup> century, Albert Einstein revolutionized several branches of physics, especially relativity. Relativity revolutionized our understanding of motion and the universe in general as described further in this chapter. Now, in the 21<sup>st</sup> century, physicists continue to study these and many other branches of physics.</para>
+
+<para id="fs-id1164354631526">By studying the most important topics in physics, you will gain analytical abilities that will enable you to apply physics far beyond the scope of what can be included in a single book. These analytical skills will help you to excel academically, and they will also help you to think critically in any career you choose to pursue.</para>
+</section><section id="fs-id1164354537940">
+<title>Physics: Past and Present</title>
+<para id="fs-id1164354879006">The word physics is thought to come from the Greek word <emphasis effect="italics">phusis</emphasis>, meaning nature. The study of nature later came to be called <emphasis effect="italics">natural philosophy</emphasis>. From ancient times through the Renaissance, natural philosophy encompassed many fields, including astronomy, biology, chemistry, mathematics, and medicine. Over the last few centuries, the growth of scientific knowledge has resulted in ever-increasing specialization and branching of natural philosophy into separate fields, with physics retaining the most basic facets. Physics, as it developed from the Renaissance to the end of the 19<sup>th</sup> century, is called <term>classical physics</term>. Revolutionary discoveries starting at the beginning of the 20<sup>th</sup> century transformed physics from classical physics to <term>modern physics</term>.</para>
+
+<note id="fs-id1164354556890" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1164354609833"><span>[BL]</span>[EL]English learners may need <emphasis effect="italics">philosophy</emphasis> and <emphasis effect="italics">classical</emphasis> defined during this section. Relate the definition of classical physics to the use of the word <emphasis effect="italics">classical</emphasis> in a context that is probably more familiar to students, such as classic films.</para>
+</note>
+
+<para id="fs-id1164353401791">Classical physics is not an exact description of the universe, but it is an excellent approximation under the following conditions: (1) matter must be moving at speeds less than about 1 percent of the speed of light, (2) the objects dealt with must be large enough to be seen with the naked eye, and (3) only weak gravity, such as that generated by Earth, can be involved. Very small objects, such as atoms and molecules, cannot be adequately explained by classical physics. These three conditions apply to almost all of everyday experience. As a result, most aspects of classical physics should make sense on an intuitive level.</para>
+
+<note id="fs-id1164354594058" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1164354501431"><span>[OL]</span>To better relate to student experience, express the speed of light in units used while driving a car, for example, 1.080 million km/h or 671 million miles per hour. Relate this to the approximately eight minute trip that light takes to travel 150 billion kilometers (93 billion miles) from the Sun to the Earth.</para></note>
+
+<para id="fs-id1164354658284">Many laws of classical physics have been modified during the 20<sup>th</sup> century, resulting in revolutionary changes in technology, society, and our view of the universe. As a result, many aspects of modern physics, which occur outside of the range of our everyday experience, may seem bizarre or unbelievable. So why is most of this textbook devoted to classical physics? There are two main reasons. The first is that knowledge of classical physics is necessary to understand modern physics. The second reason is that classical physics still gives an accurate description of the universe under a wide range of everyday circumstances.</para>
+
+<para id="fs-id1164353401992">Modern physics includes two revolutionary theories: relativity and quantum mechanics. These theories deal with the very fast and the very small, respectively. The <term>theory of relativity</term> was developed by Albert Einstein in 1905. By examining how two observers moving relative to each other would see the same phenomena, Einstein devised radical new ideas about time and space. He came to the startling conclusion that the measured length of an object travelling at high speeds (greater than about one percent of the speed of light) is shorter than the same object measured at rest. Perhaps even more bizarre is the idea the time for the same process to occur is different depending on the motion of the observer. Time passes more slowly for an object travelling at high speeds. A trip to the nearest star system, Alpha Centauri, might take an astronaut 4.5 Earth years if the ship travels near the speed of light. However, because time is slowed at higher speeds, the astronaut would age only 0.5 years during the trip. Einstein’s ideas of relativity were accepted after they were confirmed by numerous experiments.</para>
+
+<para id="fs-id1164354538885">Gravity, the force that holds us to Earth, can also affect time and space. For example, time passes more slowly on Earth’s surface than for objects farther from the surface, such as a satellite in orbit. The very accurate clocks on global positioning satellites have to correct for this. They slowly keep getting ahead of clocks at Earth’s surface. This is called time dilation, and it occurs because gravity, in essence, slows down time.</para>
+
+<note id="fs-id1164354564070" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1164354949787"><span>[AL]</span>By saying that time passes more slowly at near-light speeds or high gravity, it is important to mention that people in both locations perceive the second as the same length of time.</para>
+</note>
+
+<para id="fs-id1164354495139">Large objects, like Earth, have strong enough gravity to distort space. To visualize this idea, think about a bowling ball placed on a trampoline. The bowling ball depresses or curves the surface of the trampoline. If you rolled a marble across the trampoline, it would follow the surface of the trampoline, roll into the depression caused by the bowling ball, and hit the ball. Similarly, the Earth curves space around it in the shape of a funnel. These curves in space due to the Earth cause objects to be attracted to Earth (i.e., gravity).</para>
+
+<para id="fs-id1164354634189">Because of the way gravity affects space and time, Einstein stated that gravity affects the space-time continuum, as illustrated in <link target-id="Figure_01_01_Earth"/>. This is why time proceeds more slowly at Earth’s surface than in orbit. In black holes, whose gravity is hundreds of times that of Earth, time passes so slowly that it would appear to a far-away observer to have stopped!</para>
+
+<figure id="Figure_01_01_Earth"><media id="fs-id1164354954207" alt="An image of Earth in outer space sitting in a mesh net is shown. The mesh is pushed downward by the mass of Earth and arrows indicate that Earth is spinning. The image illustrates Einstein’s theory of relativity describes space and time as an interweaved mesh.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_01_01_Earth.jpg"/>
+</media>
+
+<caption>Einstein’s theory of relativity describes space and time as an interweaved mesh. Large objects, such as a planet, distort space, causing objects to fall in toward the planet due to the action of gravity. Large objects also distort time, causing time to proceed at a slower rate near the surface of Earth compared with the area outside of the distorted region of space-time.</caption></figure><note id="fs-id1164354471806" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1164354572756"><span>[AL]</span>Black holes are much more dense and massive than Earth. The greater an object’s mass, the stronger the gravitational field it produces, and the more that gravity slows down time.</para>
+</note>
+
+<para id="fs-id1164354569346">In summary, relativity says that in describing the universe, it is important to realize that time, space and speed are not absolute. Instead, they can appear different to different observers. Einstein’s ability to reason out relativity is even more amazing because we cannot see the effects of relativity in our everyday lives.</para>
+
+<para id="fs-id1164354678126">Quantum mechanics is the second major theory of modern physics. Quantum mechanics deals with the very small, namely, the subatomic particles that make up atoms. Atoms (<link target-id="Figure_01_01_gold"/>) are the smallest units of elements. However, atoms themselves are constructed of even smaller subatomic particles, such as protons, neutrons and electrons. Quantum mechanics strives to describe the properties and behavior of these and other subatomic particles. Often, these particles do not behave in the ways expected by classical physics. One reason for this is that they are small enough to travel at great speeds, near the speed of light.</para><figure id="Figure_01_01_gold"><media id="fs-id1164354600655" alt="An image of gold taken by a scanning tunneling microscope shows individual gold atoms.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_01_01_gold.jpg"/>
+</media>
+
+<caption>Using a scanning tunneling microscope (STM), scientists can see the individual atoms that compose this sheet of gold. (Erwinrossen)</caption></figure><note id="fs-id1164354478289" class="os-teacher"><title>Teacher Support</title>
+<para id="fs-id1164354696367"><span>[OL]</span><span>[AL]</span>Assess prior knowledge of subatomic particles by asking students if they have heard of protons, electrons, neutrons, as well as quarks, Higgs-Boson particles, and so on.</para>
+<para id="fs-id1164354531272"><span>[AL]</span>Scanning electron microscopes generate highly-detailed surface views of objects such as that shown in <link target-id="Figure_01_01_gold"/>. They scan the object’s surface with beams of electrons to detect the object’s microscopic topography.</para></note><para id="fs-id1164354498230">At particle colliders (<link target-id="Figure_01_01_collider"/>), such as the Large Hadron Collider on the France-Swiss border, particle physicists can make subatomic particles travel at very high speeds within a 27 kilometers (17 miles) long superconducting tunnel. They can then study the properties of the particles at high speeds, as well as collide them with each other to see how they exchange energy. This has led to many intriguing discoveries such as the Higgs-Boson particle, which gives matter the property of mass, and antimatter, which causes a huge energy release when it comes in contact with matter.</para>
+
+<figure id="Figure_01_01_collider"><media id="fs-id1164354502491" alt="A photograph shows a large collider, called the Fermilab, with a long tube that allows subatomic particles to be accelerated.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_01_01_collider.jpg"/>
+</media>
+
+<caption>Particle colliders such as the Large Hadron Collider in Switzerland or Fermilab in the United States (pictured here), have long tunnels that allows subatomic particles to be accelerated to near light speed. (Andrius.v )</caption></figure><para id="fs-id1164354608337">Physicists are currently trying to unify the two theories of modern physics, relativity and quantum mechanics, into a single, comprehensive theory called relativistic quantum mechanics. Relating the behavior of subatomic particles to gravity, time, and space will allow us to explain how the universe works in a much more comprehensive way.</para>
+</section>
+
+<section id="fs-id1164354562387">
+<title>Application of Physics</title>
+<para id="fs-id1164354463964">You need not be a scientist to use physics. On the contrary, knowledge of physics is useful in everyday situations as well as in nonscientific professions. For example, physics can help you understand why you shouldn’t put metal in the microwave (<link target-id="Figure_01_01_microwave"/>), why a black car radiator helps remove heat in a car engine, and why a white roof helps keep the inside of a house cool. The operation of a car’s ignition system, as well as the transmission of electrical signals through our nervous system, are much easier to understand when you think about them in terms of the basic physics of electricity.</para><figure id="Figure_01_01_microwave"><media id="fs-id1164354562173" alt="A small, counter-top microwave oven is shown. Microwave ovens use electromagnetic waves to heat food.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_01_01_microwave.jpg"/>
+</media>
+
+<caption>Why can't you put metal in the microwave? Microwaves are high-energy radiation that increases the movement of electrons in metal. These moving electrons can create an electrical current, causing sparking that can lead to a fire. (= MoneyBlogNewz)</caption></figure><note id="fs-id1164354563145" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1164354537532"><span>[AL]</span>It is hazardous to put metal in the microwave because metal reflects microwaves, which, when free to bounce around the oven, can damage the oven. Also, the metal in the microwave oven gets very hot and begins generating an electrical field. This electrical field ionizes the air surrounding the metal, creating sparks.</para>
+</note>
+
+<para id="fs-id1164354555274">Physics is the foundation of many important scientific disciplines. For example, chemistry deals with the interactions of atoms and molecules. Not surprisingly, chemistry is rooted in atomic and molecular physics. Most branches of engineering are also applied physics. In architecture, physics is at the heart of determining structural stability, acoustics, heating, lighting, and cooling for buildings. Parts of geology, the study of nonliving parts of Earth, rely heavily on physics; including radioactive dating, earthquake analysis, and heat transfer across Earth’s surface. Indeed, some disciplines, such as biophysics and geophysics, are hybrids of physics and other disciplines.</para>
+
+<note id="fs-id1164354608360" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1164353400524"><span>[BL]</span>[EL]Students may need <emphasis effect="italics">acoustics</emphasis> to be explained as the properties of a room or structure that determine how sound is transmitted within it.</para>
+</note>
+
+<para id="fs-id1164354626125">Physics also describes the chemical processes that power the human body. Physics is involved in medical diagnostics, such as x-rays, magnetic resonance imaging (MRI), and ultrasonic blood flow measurements (<link target-id="Figure_01_01_eye"/>). Medical therapy Physics also has many applications in biology, the study of life. For example, physics describes how cells can protect themselves using their cell walls and cell membranes (<link target-id="Figure_01_01_cell"/>). Medical therapy sometimes directly involves physics, such as in using X-rays to diagnose health conditions. Physics can also explain what we perceive with our senses, such as how the ears detect sound or the eye detects color.</para><figure id="Figure_01_01_eye"><media id="fs-id1164354603843" alt="An MRI image of a brain is shown. This type of photography uses electromagnetic radiation to produce images.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_01_01_eye.jpg"/>
+</media>
+
+<caption>Magnetic resonance imaging (MRI) uses electromagnetic waves to yield an image of the brain, which doctors can use to find diseased regions. (Rashmi Chawla, Daniel Smith, and Paul E. Marik)</caption></figure><figure id="Figure_01_01_cell"><media id="fs-id1164354591439" alt="A group of onion cells is shown. Each cell has a visible cell wall and nucleus.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_01_01_cell.jpg"/>
+</media>
+
+<caption>Physics, chemistry, and biology help describe the properties of cell walls in plant cells, such as the onion cells seen here. (Umberto Salvagnin)</caption></figure><note id="fs-id1164354605777" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1164354531660"><span>[BL]</span>Cell membranes (found in the cells of all organisms) control the transport of materials into and out of a cell. Cell walls (found in plant cells, fungus cells, bacteria, and plant-like microbes) mainly provide structure and support.</para>
+<para id="fs-id1164354497453"><span>[AL]</span>X-rays easily penetrate skin and soft tissues but are absorbed to a far greater extent by bone. This produces an image where bones within the body are clearly visible while soft tissue is not. MRI scans for the magnetic properties of atoms within the body, allowing the solid versus empty areas within the body to be visualized. Ultrasonic blood flow measurements use sound waves and the Doppler effect to measure blood flow speed and volume.</para>
+</note>
+
+<note id="fs-id1164354635018" class="boundless-physics">
+
+<title>The Physics of Landing on a Comet</title>
+<para id="fs-id1164354555075">On November 12, 2014, the European Space Agency’s Rosetta spacecraft (shown in <link target-id="Figure_01_01_Rosetta"/>) became the first ever to reach and orbit a comet. Shortly after, Rosetta’s rover, Philae, landed on the comet, representing the first time humans have ever landed a space probe on a comet.</para><figure id="Figure_01_01_Rosetta"><media id="fs-id1164354626090" alt="An image of the Rosetta spacecraft is shown. It has large solar panels and is hovering over a comet.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_01_01_Rosetta.jpg"/>
+</media>
+
+<caption>The Rosetta spacecraft, with its large and revolutionary solar panels, carried the Philae lander to a comet. The lander then detached and landed on the comet’s surface. (European Space Agency)</caption></figure><para id="fs-id1164354468641">After traveling 6.4 billion kilometers starting from its launch on Earth, Rosetta landed on the comet 67P/Churyumov-Gerasimenko, which is only 4 kilometers wide. Physics was needed to successfully plot the course to reach such a small, distant, and rapidly moving target. Rosetta’s path to the comet was not straight forward. The probe first had to travel to Mars so that Mars’s gravity could accelerate it and divert it in the exact direction of the comet. </para><para id="fs-id1164354594416">This was not the first time humans used gravity to power our spaceships. Voyager 2, a space probe launched in 1977, used the gravity of Saturn to <emphasis effect="italics">slingshot</emphasis> over to Uranus and Neptune (illustrated in <link target-id="Figure_01_01_solar"/>), providing the first pictures ever taken of these planets. Now, almost 40 years after its launch, Voyager 2 is at the very edge of our solar system and is about to enter interstellar space. Its sister ship, Voyager 1 (illustrated in <link target-id="Figure_01_01_solar"/>), which was also launched in 1977, is already there.</para><para id="fs-id1164354871882">To listen to the sounds of interstellar space or see images that have been transmitted back from the Voyager I or to learn more about the Voyager mission, visit the <link url="https://openstax.org/l/28voyager">Voyager’s Mission website</link>.</para><figure id="Figure_01_01_solar"><media id="fs-id1164354656384" alt="Two diagrams are shown. The diagram on the left illustrates the path of the Voyager 2 spacecraft starting at Earth on August 20th, 1977. The following labels describe the path: Jupiter on July 9th, 1979, Saturn on August 25th, 1981, Uranus on January 24th, 1986, and Neptune on August 25th, 1989. The diagram on the right illustrates the Voyager 1 space probe.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_01_01_solar.jpg"/>
+</media>
+
+<caption>a) Voyager 2, launched in 1977, used the gravity of Saturn to slingshot over to Uranus and Neptune. NASA b) A rendering of Voyager 1, the first space probe to ever leave our solar system and enter interstellar space. NASA</caption></figure><para id="fs-id1164354626383">Both Voyagers have electrical power generators based on the decay of radioisotopes. These generators have served them for almost 40 years. Rosetta, on the other hand, is solar-powered. In fact, Rosetta became the first space probe to travel beyond the asteroid belt by relying only on solar cells for power generation.</para>
+
+<para id="fs-id1164353487283">At 800 million kilometers from the sun, Rosetta receives sunlight that is only 4 percent as strong as on Earth. In addition, it is very cold in space. Therefore, a lot of physics went into developing Rosetta’s low-intensity low-temperature solar cells.</para>
+
+<para id="fs-id1164354501460">In this sense, the Rosetta project nicely shows the huge range of topics encompassed by physics: from modeling the movement of gigantic planets over huge distances within our solar systems, to learning how to generate electric power from low-intensity light. Physics is, by far, the broadest field of science.</para>
+
+<exercise id="fs-id1164353440258" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1164354827183">
+<!--<para id="fs-id1164354551967">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex001"/></para>-->
+
+<para id="fs-id1164566952986">What characteristics of the solar system would have to be known or calculated in order to send a probe to a distant planet, such as Jupiter?</para>
+<list id="fs-id1164564735175" list-type="enumerated" number-style="lower-alpha">
+<item>the effects due to the light from the distant stars</item>
+<item>the effects due to the air in the solar system</item>
+<item>the effects due to the gravity from the other planets</item>
+<item>the effects due to the cosmic microwave background radiation</item>
+</list>
+</problem>
+</exercise>
+</note>
+
+<note id="fs-id1164354520787" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1164354537086">This passage describes the physics behind getting the Rosetta and Voyager probes across the solar system using gravitational sling shots. In addition, the physics behind the power systems of these probes is compared. This is meant to reinforce how physics applies over wide ranges, from the immense distances in our universe to the tiny sizes of subatomic particles.</para>
+<para id="fs-id1164353500231">Answers to the Grasp Check may vary. A sample answer: You would have to how the target planet moves to know when to launch the probe so it actually reaches the planet. You would also need to know and account for the effects of gravity from other planets during the path followed during its journey.</para>
+</note>
+
+<para id="fs-id1164354633460">In summary, physics studies many of the most basic aspects of science. A knowledge of physics is, therefore, necessary to understand all other sciences. This is because physics explains the most basic ways in which our universe works. However, it is not necessary to formally study all applications of physics. A knowledge of the basic laws of physics will be most useful to you, so that you can use them to solve some everyday problems. In this way, the study of physics can improve your problem-solving skills.</para>
+</section>
+
+<section id="fs-id1164354609936" class="check-understanding">
+<title>Check Your Understanding</title>
+<exercise id="fs-id1163726129615"><problem id="fs-id1163725943168">
+<para id="fs-id1163726057676">Which of the following is <emphasis effect="italics">not</emphasis> an essential feature of scientific explanations?</para>
+<list id="fs-id1163726024717" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>They must be subject to testing.</item>
+<item>They strictly pertain to the physical world.</item>
+<item>Their validity is judged based on objective observations.</item>
+<item>Once supported by observation, they can be viewed as a fact.</item>
+</list>
+</problem></exercise><exercise id="fs-id1163726267118"><problem id="fs-id1163726138185">
+<para id="fs-id1163726411016">Which of the following does <emphasis effect="italics">not</emphasis> represent a question that can be answered by science?</para>
+<list id="fs-id1163726241132" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>How much energy is released in a given nuclear chain reaction?</item>
+<item>Can a nuclear chain reaction be controlled?</item>
+<item>Should uncontrolled nuclear reactions be used for military applications?</item>
+<item>What is the half-life of a waste product of a nuclear reaction?</item>
+</list>
+</problem></exercise><exercise id="fs-id1164564910765">
+<problem id="fs-id1164564959672">
+<para id="fs-id1164562050282">What are the three conditions under which classical physics provides an excellent description of our universe?</para>
+<list id="fs-id1164563565180" list-type="enumerated" number-style="lower-alpha">
+<item>
+<list id="fs-id1164561125656" list-type="enumerated" number-style="arabic">
+<item>Matter is moving at speeds less than about 1 percent of the speed of light</item>
+<item>Objects dealt with must be large enough to be seen with the naked eye.</item>
+<item>Strong electromagnetic fields are involved.</item>
+</list></item>
+<item>
+<list id="fs-id1164564970695" list-type="enumerated" number-style="arabic">
+<item>Matter is moving at speeds less than about 1 percent of the speed of light.</item>
+<item>Objects dealt with must be large enough to be seen with the naked eye.</item>
+<item>Only weak gravitational fields are involved.</item></list>
+</item>
+<item>
+<list id="fs-id1164562109199" list-type="enumerated" number-style="arabic">
+<item>Matter is moving at great speeds, comparable to the speed of light.</item>
+<item>Objects dealt with are large enough to be seen with the naked eye.</item>
+<item>Strong gravitational fields are involved.</item></list>
+</item>
+<item>
+<list id="fs-id1164565054090" list-type="enumerated" number-style="arabic">
+<item>Matter is moving at great speeds, comparable to the speed of light.</item>
+<item>Objects are just large enough to be visible through the most powerful telescope.</item>
+<item>Only weak gravitational fields are involved.</item></list>
+</item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-225"><problem id="eip-706">
+  <para id="eip-275">
+Why is the Greek word for nature appropriate in describing the field of physics?
+  </para>
+
+<list id="eip-id1168638601828" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")"><item>Physics is a natural science that studies life and living organism on habitable planets like Earth.
+</item>
+<item>Physics is a natural science that studies the laws and principles of our universe.</item>
+<item>Physics is a physical science that studies the composition, structure, and changes of matter in our universe.
+</item>
+<item>Physics is a social science that studies the social behavior of living beings on habitable planets like Earth.</item></list>
+</problem>
+</exercise><exercise id="eip-560"><problem id="eip-928">
+  <para id="eip-971">
+Which aspect of the universe is studied by quantum mechanics?</para>
+<list id="eip-id1168639791896" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")"><item>objects at the galactic level</item>
+<item>objects at the classical level</item>
+<item>objects at the subatomic level</item>
+<item>objects at all levels, from subatomic to galactic</item></list>
+</problem></exercise><note id="fs-id1164354635124" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1164354528796">Use the Check Your Understanding questions to assess students’ mastery of the sections learning objectives. If students are struggling with a specific objective, the Check Your Understanding will help identify the source of the problem and direct students to the relevant content.</para></note>
+</section>
+<section id="fs-id1164354658653" class="summary">
+<title>Section Summary</title>
+<list id="fs-id1164354513703">
+<item>Physics is the most fundamental of the sciences, concerning itself with energy, matter, space and time, and their interactions. </item>
+<item>Modern physics involves the theory of relativity, which describes how time, space and gravity are not constant in our universe can be different for different observers, and quantum mechanics, which describes the behavior of subatomic particles.</item>
+<item>Physics is the basis for all other sciences, such as chemistry, biology and geology, because physics describes the fundamental way in which the universe functions.</item>
+</list>
+</section>
+
+<section id="fs-id1164354567778" class="concept"><title>Concept Items</title>
+<exercise id="fs-id1164354494682" class="os-exercise">
+<problem id="fs-id1164354953958">
+<para id="fs-id1164354595396"><link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex008"/></para>
+</problem>
+</exercise>
+
+<exercise id="fs-id1163727092660">
+<problem id="fs-id1163727094238">
+<para id="fs-id1163727045719">Which of the following is <emphasis effect="underline">not</emphasis> an underlying assumption essential to scientific understanding?</para>
+<list id="fs-id1163727081139" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>Characteristics of the physical universe can be perceived and objectively measured by human beings.</item>
+<item>Explanations of natural phenomena can be established with absolute certainty.</item>
+<item>Fundamental physical processes dictate how characteristics of the physical universe evolve.</item>
+<item>The fundamental processes of nature operate the same way everywhere and at all times.</item>
+</list>
+</problem>
+<solution id="fs-id1163727224757">
+<para id="fs-id1163727162587">The correct answer is (b). Scientific explanations may be fully supported by all existing evidence, and so accepted as highly probable and extremely useful for practical applications. But science never precludes the possibility that some future observation could contradict the explanation, requiring a modification to the existing explanation or an entirely new explanation.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163723631648">
+<problem id="fs-id1163727375211">
+<para id="fs-id1163727035911">Which of the following questions regarding a strain of genetically modified rice is <emphasis effect="underline">not</emphasis> one that can be answered by science?</para>
+<list id="fs-id1163727320782" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>How does the yield of the genetically modified rice compare with that of existing rice?</item>
+<item>Is the genetically modified rice more resistant to infestation than existing rice?</item>
+<item>How does the nutritional value of the genetically modified rice compare to that of existing rice?</item>
+<item>Should the genetically modified rice be grown commercially and sold in the marketplace?</item>
+</list>
+</problem>
+<solution id="fs-id1163727008737">
+<para id="fs-id1163727017481">The correct answer is (d). How one weighs the benefits and risks of introducing genetically modified organisms into the food chain (and nature in general) involves subjective judgment that can vary widely from person to person. Science can contribute information regarding the relative benefits and risks, but it does not make conclusive judgments about how scientific knowledge should be used. Answers to the remaining three questions can be decided based strictly on observations and the results of experimentation, and so <emphasis effect="underline">can</emphasis> be answered by science.</para>
+</solution>
+</exercise>
+
+<exercise id="fs-id1164354537730" class="os-exercise">
+<problem id="fs-id1164354614791">
+<!--<para id="fs-id1164353393457"><link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex009"/></para>-->
+<para id="fs-id1164564893799">What conditions imply that we can use classical physics without considering special relativity or quantum mechanics?</para>
+<list id="fs-id1164562360298" list-type="enumerated" number-style="lower-alpha">
+<item>
+<list id="fs-id1164566880697" list-type="enumerated" number-style="arabic">
+<item>matter is moving at speeds of less than roughly 1 percent the speed of light,</item>
+<item>objects are large enough to be seen with the naked eye, and</item>
+<item>there is the involvement of a strong gravitational field.</item>
+</list>
+</item>
+<item>
+<list id="fs-id1164566539869" list-type="enumerated" number-style="arabic">
+<item>matter is moving at speeds greater than roughly 1 percent the speed of light,</item>
+<item>objects are large enough to be seen with the naked eye, and</item>
+<item>there is the involvement of a strong gravitational field.</item>
+</list>
+</item>
+<item>
+<list id="fs-id1164562043555" list-type="enumerated" number-style="arabic">
+<item>matter is moving at speeds of less than roughly 1 percent the speed of light,</item>
+<item>objects are too small to be seen with the naked eye, and</item>
+<item>there is the involvement of only a weak gravitational field.</item>
+</list>
+</item>
+<item>
+<list id="fs-id1164564858244" list-type="enumerated" number-style="arabic">
+<item>matter is moving at speeds of less than roughly 1 percent the speed of light,</item>
+<item>objects are large enough to be seen with the naked eye, and</item>
+<item>there is the involvement of a weak gravitational field.</item>
+</list>
+</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1164354483858" class="os-exercise">
+<problem id="fs-id1164354532591"><para id="fs-id1164354619016"><link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex010"/></para></problem>
+</exercise>
+
+
+<exercise id="eip-id1166849329693" class="os-exercise">
+<problem id="eip-id1166849847074">
+<para id="eip-id1166849838418">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch01-ot001"/>
+</para>
+</problem>
+</exercise>
+
+<exercise id="eip-id1166847545455" class="os-exercise">
+<problem id="eip-id1166847262236">
+<para id="eip-id1166847262238">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch01-ot003"/>
+</para>
+</problem>
+</exercise>
+
+<exercise id="eip-id1166849441842" class="os-exercise">
+<problem id="eip-id1166849441846">
+<para id="eip-id1166849897664">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch01-ot005"/>
+</para>
+</problem>
+</exercise>
+
+<exercise id="eip-id1166849295331" class="os-exercise">
+<problem id="eip-id1166850204537">
+<!--<para id="eip-id1166850204540">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch01-ot006"/>
+</para>-->
+<para id="fs-id1164564800228">Why is Einsteins theory of relativity considered part of modern physics, as opposed to classical physics?</para>
+<list id="fs-id1164564924208" list-type="enumerated" number-style="lower-alpha">
+<item>Because it was considered less outstanding than the classics of physics, such as classical mechanics.</item>
+<item>Because it was popular physics enjoyed by average people today, instead of physics studied by the elite.</item>
+<item>Because the theory deals with very slow-moving objects and weak gravitational fields.</item>
+<item>Because it was among the new 19th-century discoveries that changed physics.</item>
+</list>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1164354575997" class="critical-thinking"><title>Critical Thinking</title><exercise id="fs-id1164353343036" class="os-exercise">
+<problem id="fs-id1164354610431"><para id="fs-id1164354657896"><link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex011"/></para></problem>
+</exercise>
+<exercise id="fs-id1164354500322" class="os-exercise"><problem id="fs-id1164354616295"><para id="fs-id1164354630766">
+Can classical physics be used to accurately describe a satellite moving at a speed of 7500 m/s? Explain why or why not.</para>
+<list id="eip-idm299989120" list-type="enumerated" number-style="lower-alpha"><item>No, because the satellite is moving at a speed much smaller than the speed of the light and is not in a strong gravitational field.</item>
+<item>No, because the satellite is moving at a speed much smaller than the speed of the light and is in a strong gravitational field.</item>
+<item>Yes, because the satellite is moving at a speed much smaller than the speed of the light and it is not in a strong gravitational field.</item>
+<item>Yes, because the satellite is moving at a speed much smaller than the speed of the light and is in a strong gravitational field.</item></list></problem>
+</exercise><exercise id="eip-id1167063514988" class="os-exercise">
+<problem id="eip-id1167063582695"><para id="eip-id1167063582696"><link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex013"/></para></problem>
+</exercise>
+
+
+<exercise id="eip-id1166849098325" class="os-exercise">
+<problem id="eip-id1166850980027">
+<para id="eip-id1166848777255">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch01-ot007"/>
+</para>
+</problem>
+</exercise>
+
+<exercise id="eip-id1166851025601" class="os-exercise"><problem id="eip-id1166846486898">
+<para id="eip-id1166851124572">According to Einstein’s theory of relativity, how could you effectively travel many years into Earth’s future, but not age very much yourself?
+</para>
+<list id="eip-idm350913440" list-type="enumerated" number-style="lower-alpha"><item>by traveling at a speed equal to the speed of light</item>
+<item>by traveling at a speed faster than the speed of light</item>
+<item>by traveling at a speed much slower than the speed of light</item>
+<item>by traveling at a speed slightly slower than the speed of light</item></list></problem>
+</exercise></section><section id="fs-id1164354606508" class="multiple-choice"><title>Test Prep Multiple Choice</title><exercise id="fs-id1164354879297" class="os-exercise">
+<problem id="fs-id1164354950593"><para id="fs-id1164354871373"><link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex014"/></para></problem>
+</exercise>
+<exercise id="fs-id1164354528662" class="os-exercise">
+<problem id="fs-id1164354628665"><para id="fs-id1164354635312"><link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex015"/></para></problem>
+</exercise>
+<exercise id="fs-id1164354513340" class="os-exercise">
+<problem id="fs-id1164353406565"><para id="fs-id1164353491372"><link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex016"/></para></problem>
+</exercise>
+
+<exercise id="eip-id1166849874445" class="os-exercise">
+<problem id="eip-id1166849856741">
+<para id="eip-id1166849985688">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch01-ot013"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1164354556608" class="short-answer"><title>Test Prep Short Answer</title><exercise id="eip-id1167066038325" class="os-exercise">
+<problem id="eip-id1167065712545"><para id="eip-id1167065712546"><link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex017"/></para></problem>
+</exercise>
+<exercise id="fs-id1164354610536" class="os-exercise">
+<problem id="fs-id1164354616242"><para id="fs-id1164354585054"><link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex018"/></para></problem>
+</exercise>
+<exercise id="fs-id1164354457617" class="os-exercise">
+<problem id="fs-id1164354536542"><para id="fs-id1164354592206"><link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex019"/></para></problem>
+</exercise>
+<exercise id="fs-id1164354529871" class="os-exercise">
+<problem id="fs-id1164354529675"><para id="fs-id1164354631286"><link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex020"/></para></problem>
+</exercise>
+<exercise id="fs-id1164354952431" class="os-exercise">
+<problem id="fs-id1164354572834"><para id="fs-id1164354605548"><link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex021"/></para></problem>
+</exercise>
+<exercise id="fs-id1164354623959" class="os-exercise">
+<problem id="fs-id1164354588450"><para id="fs-id1164354541096"><link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex022"/></para></problem>
+</exercise>
+
+<exercise id="eip-id1166848778702" class="os-exercise">
+<problem id="eip-id1166851226091">
+<para id="eip-id1166851226093">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch01-ot018"/>
+</para>
+</problem>
+</exercise>
+</section><!--<section id="fs-id1164354562058" class="extended-response">
+<title>Test Prep Extended Response</title>
+<exercise id="fs-id1164354757688" class="os-exercise">
+<problem id="fs-id1164354882903"><para id="fs-id1164354633622"><link class="os-embed" url="#ost/api/ex/k12phys-ch03-ex023"/></para></problem>
+</exercise>
+<exercise id="fs-id1164354522117" class="os-exercise">
+<problem id="fs-id1164354535804"><para id="fs-id1164354657028"><link class="os-embed" url="#ost/api/ex/k12phys-ch03-ex024"/></para></problem>
+</exercise>
+<exercise id="fs-id1164354871806" class="os-exercise">
+<problem id="fs-id1164353353195"><para id="fs-id1164354659588"><link class="os-embed" url="#ost/api/ex/k12phys-ch03-ex025"/></para></problem>
+</exercise>
+</section>-->
+</content>
+<glossary>
+<definition id="fs-id1164353407696"><term>atom</term><meaning id="fs-id1164354476526">smallest and most basic units of matter</meaning></definition>
+<definition id="fs-id1164354627476"><term>classical physics</term><meaning id="fs-id1164354529580">physics, as it developed from the Renaissance to the end of the nineteenth century</meaning></definition>
+<definition id="fs-id1164355000127"><term>modern physics</term><meaning id="fs-id1164354616870">physics as developed from the twentieth century to the present, involving the theories of relativity and quantum mechanics</meaning></definition>
+<definition id="fs-id1164354828462"><term>physics</term><meaning id="fs-id1164354602378">science aimed at describing the fundamental aspects of our universeenergy, matter, space, motion, and time</meaning></definition>
+<definition id="fs-id1164353489474"><term>quantum mechanics</term><meaning id="fs-id1164354695568">major theory of modern physics which describes the properties and nature of atoms and their subatomic particles</meaning></definition>
+<definition id="fs-id1164354624844"><term>theory of relativity</term><meaning id="fs-id1164354922074">theory constructed by Albert Einstein which describes how space, time and energy are different for different observers in relative motion</meaning></definition>
+<definition id="fs-id1169316066255"><term>science</term><meaning id="fs-id1169316480699">the study or knowledge of how the physical world operates, based on objective evidence determined through observation and experimentation</meaning></definition>
+</glossary>
+</document>

@@ -1,0 +1,25 @@
+<document xmlns="http://cnx.rice.edu/cnxml" class="introduction">
+
+<title>Introduction</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54173</md:content-id>
+  <md:title>Introduction</md:title>
+  <md:abstract/>
+  <md:uuid>f9f74d4c-e2bb-42e4-ac60-3ffa64fe3dbf</md:uuid>
+</metadata>
+
+<content>
+<figure id="Figure_06_01_RaceCar" class="splash"><media id="fs-id1167066105956" alt="The picture is a race car with large wheels turning on a track.">
+      <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_06_00_RaceCar.jpg"/>
+    </media>
+
+  <caption>This Australian Grand Prix Formula 1 race car moves in a circular path as it makes the turn. Its wheels also spin rapidly. The same physical principles are involved in both of these motions. (Richard Munckton).</caption></figure>
+<note id="fs-id1167065024548" class="os-teacher">
+<title>Teacher Support</title>
+    <para id="fs-id1167066104264">Before students begin this chapter, they may wish to review the concepts of distance, displacement, speed, velocity, acceleration, force, and Newton’s laws of motion. Address any misconceptions about centrifugal force.</para>
+    <para id="fs-id1167065879936">Point out that we come across circular motion in our everyday lives; for instance, a car tire spinning, a fan rotating, and so forth. This chapter is about the quantities that describe rotational motion and the relationships between them.</para>
+</note>
+<para id="fs-id1167064819428">You may recall learning about various aspects of motion along a straight line: kinematics (where we learned about displacement, velocity, and acceleration), projectile motion (a special case of two-dimensional kinematics), force, and Newton’s laws of motion. In some ways, this chapter is a continuation of Newton’s laws of motion. Recall that Newton’s first law tells us that objects move along a straight line at constant speed unless a net external force acts on them. Therefore, if an object moves along a circular path, such as the car in the photo, it must be experiencing an external force. In this chapter, we explore both circular motion and rotational motion.</para>
+</content>
+
+</document>

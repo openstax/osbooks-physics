@@ -1,0 +1,2378 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Parallel Circuits</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54442</md:content-id>
+  <md:title>Parallel Circuits</md:title>
+  <md:abstract/>
+  <md:uuid>16fa7a01-ec10-4eac-b7ab-2e9b8cc390ee</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167065940038" class="learning-objectives">
+<label/><title>Section Learning Objectives</title>
+<para id="fs-id1167065060646">By the end of this section, you will be able to do the following:</para>
+<list id="fs-id1167065920076">
+<item>Interpret circuit diagrams with parallel resistors</item>
+<item>Calculate equivalent resistance of resistor combinations containing series and parallel resistors</item>
+</list>
+</note>
+
+<note id="fs-id1167062371977" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067141945">The learning objectives in this section will help your students master the following standards:</para>
+<list id="fs-id1167067234528"><item>(5) Science concepts. The student knows the nature of forces in the physical world. The student is expected to:
+<list id="fs-id1167063471526"><item><span>(F)</span>
+<span>design. construct, and calculate in terms of current through, potential difference across, resistance of, and power used by electric circuit elements connected in both series and parallel combinations.</span></item>
+</list></item>
+</list><para id="fs-id1169313861968">In addition, the High School Physics Laboratory Manual addresses content in this section in the lab titled: Circuits, as well as the following standards:</para><list id="fs-id1169317427086"><item>(5) The student knows the nature of forces in the physical world. The student is expected to:
+<list id="fs-id1169317572463">
+<item>
+<span>(F)</span>
+<span>design, construct, and calculate in terms of current through, potential difference across, resistance of, and power used by electric circuit elements connected in both series and parallel combinations.</span>
+</item>
+</list>
+</item>
+</list></note>
+<section id="keyterms"><title>Section Key Terms</title>
+<table id="eip-id1167065967085" class="unnumbered unstyled section-key-terms" summary="no alt text">
+<label/>
+<tgroup cols="1">
+<colspec colname="c1" colnum="1"/>
+<tbody>
+<row>
+<entry>in parallel</entry>
+</row>
+</tbody>
+</tgroup>
+</table></section>
+<section id="fs-id1167064564121">
+<title>Resistors in Parallel</title>
+<para id="fs-id1167065746966">In the previous section, we learned that resistors in series are resistors that are connected one after the other. If we instead combine resistors by connecting them next to each other, as shown in <link target-id="Figure_19_03_Circuit04"/>, then the resistors are said to be connected <emphasis effect="italics">in parallel</emphasis>. Resistors are <term>in parallel</term> when both ends of each resistor are connected directly together.</para>
+<para id="fs-id1167065978239">Note that the tops of the resistors are all connected to the same wire, so the voltage at the top of the each resistor is the same. Likewise, the bottoms of the resistors are all connected to the same wire, so the voltage at the bottom of each resistor is the same. This means that the voltage drop across each resistor is the same. In this case, the voltage drop is the voltage rating <emphasis effect="italics">V</emphasis> of the battery, because the top and bottom wires connect to the positive and negative terminals of the battery, respectively.</para>
+<para id="fs-id1167062315741">Although the voltage drop across each resistor is the same, we cannot say the same for the current running through each resistor. Thus,  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>I</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>,</m:mo><m:msub>
+   <m:mi>I</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>,</m:mo><m:mtext>and</m:mtext><m:msub>
+   <m:mi>I</m:mi>
+   <m:mn>3</m:mn>
+  </m:msub>
+
+ </m:mrow>
+</m:math>  are not necessarily the same, because the resistors  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>,</m:mo><m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>,</m:mo><m:mtext>and</m:mtext><m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>3</m:mn>
+  </m:msub>
+
+ </m:mrow>
+</m:math>  do not necessarily have the same resistance.</para>
+<para id="fs-id1167065722817">Note that the three resistors in <link target-id="Figure_19_03_Circuit04"/> provide three different paths through which the current can flow. This means that the equivalent resistance for these three resistors must be less than the smallest of the three resistors. To understand this, imagine that the smallest resistor is the only path through which the current can flow. Now add on the alternate paths by connecting other resistors in parallel. Because the current has more paths to go through, the overall resistance (i.e., the equivalent resistance) will decrease. Therefore, the equivalent resistance must be less than the smallest resistance of the parallel resistors.</para>
+
+<figure id="Figure_19_03_Circuit04">
+<media id="fs-id1167065763621" alt="On the left is a circuit diagram with three resistors connected in parallel. On the right is a circuit diagram with only one resistor that has equivalent resistance to the three resistors shown on the left.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_19_03_circuit04.jpg"/>
+</media>
+<caption>The left circuit diagram shows three resistors in parallel. The voltage <emphasis effect="italics">V</emphasis> of the battery is applied across all three resistors. The currents that flow through each branch are not necessarily equal. The right circuit diagram shows an equivalent resistance that replaces the three parallel resistors.</caption>
+</figure>
+
+<note id="fs-id1167065997200" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065874410">Emphasize that the voltage across each parallel resistor is the same, whereas the current may differ; it will be the same if a pair of resistors has the same resistance.</para>
+</note>
+
+<para id="fs-id1167064872510">To find the equivalent resistance  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mrow>
+    <m:mtext>equiv</m:mtext>
+   </m:mrow>
+  </m:msub>
+
+ </m:mrow>
+</m:math>  of the three resistors  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>,</m:mo><m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>,</m:mo><m:mtext>and</m:mtext><m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>3</m:mn>
+  </m:msub>
+
+ </m:mrow>
+</m:math>, we apply Ohm’s law to each resistor. Because the voltage drop across each resistor is <emphasis effect="italics">V</emphasis>, we obtain</para>
+<equation id="fs-id1164565665399"> <m:math display="block">
+ <m:mrow>
+  <m:mi>V</m:mi><m:mo>=</m:mo><m:msub>
+   <m:mi>I</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>V</m:mi><m:mo>=</m:mo><m:msub>
+   <m:mi>I</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>V</m:mi><m:mo>=</m:mo><m:msub>
+   <m:mi>I</m:mi>
+   <m:mn>3</m:mn>
+  </m:msub>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>3</m:mn>
+  </m:msub>
+ </m:mrow>
+</m:math> </equation>
+<para id="fs-id1167065892046">or</para>
+<equation id="fs-id1164566982270"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>I</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mi>V</m:mi>
+   <m:mrow>
+    <m:msub>
+     <m:mi>R</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mtext> </m:mtext><m:msub>
+   <m:mi>I</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mi>V</m:mi>
+   <m:mrow>
+    <m:msub>
+     <m:mi>R</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mtext> </m:mtext><m:msub>
+   <m:mi>I</m:mi>
+   <m:mn>3</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mi>V</m:mi>
+   <m:mrow>
+    <m:msub>
+     <m:mi>R</m:mi>
+     <m:mn>3</m:mn>
+    </m:msub>
+    <m:mtext>.</m:mtext>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </equation>
+<para id="fs-id1167065843479">We also know from conservation of charge that the three currents  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>I</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>,</m:mo><m:msub>
+   <m:mi>I</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>,</m:mo><m:mtext>and</m:mtext><m:msub>
+   <m:mi>I</m:mi>
+   <m:mn>3</m:mn>
+  </m:msub>
+
+ </m:mrow>
+</m:math>  must add up to give the current <emphasis effect="italics">I</emphasis> that goes through the battery. If this were not true, current would have to be mysteriously created or destroyed somewhere in the circuit, which is physically impossible. Thus, we have</para>
+<equation id="fs-id1164567560913"> <m:math display="block">
+ <m:mrow>
+  <m:mi>I</m:mi><m:mo>=</m:mo><m:msub>
+   <m:mi>I</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>I</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>I</m:mi>
+   <m:mn>3</m:mn>
+  </m:msub>
+  <m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math> </equation><para id="fs-id1167066039488">Inserting the expressions for  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>I</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>,</m:mo><m:msub>
+   <m:mi>I</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>,</m:mo><m:mtext>and</m:mtext><m:msub>
+   <m:mi>I</m:mi>
+   <m:mn>3</m:mn>
+  </m:msub>
+
+ </m:mrow>
+</m:math>  into this equation gives</para>
+<equation id="fs-id1164567488084"> <m:math display="block">
+ <m:mrow>
+  <m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mi>V</m:mi>
+   <m:mrow>
+    <m:msub>
+     <m:mi>R</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>+</m:mo><m:mfrac>
+   <m:mi>V</m:mi>
+   <m:mrow>
+    <m:msub>
+     <m:mi>R</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>+</m:mo><m:mfrac>
+   <m:mi>V</m:mi>
+   <m:mrow>
+    <m:msub>
+     <m:mi>R</m:mi>
+     <m:mn>3</m:mn>
+    </m:msub>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mi>V</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mrow>
+      <m:msub>
+       <m:mi>R</m:mi>
+       <m:mn>1</m:mn>
+      </m:msub>
+
+     </m:mrow>
+    </m:mfrac>
+    <m:mo>+</m:mo><m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mrow>
+      <m:msub>
+       <m:mi>R</m:mi>
+       <m:mn>2</m:mn>
+      </m:msub>
+
+     </m:mrow>
+    </m:mfrac>
+    <m:mo>+</m:mo><m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mrow>
+      <m:msub>
+       <m:mi>R</m:mi>
+       <m:mn>3</m:mn>
+      </m:msub>
+
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math> </equation>
+<para id="fs-id1167064980017">or</para>
+<equation id="fs-id1164567858765"> <m:math display="block">
+ <m:mrow>
+  <m:mi>V</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mrow>
+      <m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+       <m:msub>
+        <m:mi>R</m:mi>
+        <m:mn>1</m:mn>
+       </m:msub>
+
+      </m:mrow></m:mrow>
+      <m:mo>+</m:mo><m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+       <m:msub>
+        <m:mi>R</m:mi>
+        <m:mn>2</m:mn>
+       </m:msub>
+
+      </m:mrow></m:mrow>
+      <m:mo>+</m:mo><m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+       <m:msub>
+        <m:mi>R</m:mi>
+        <m:mn>3</m:mn>
+       </m:msub>
+
+      </m:mrow></m:mrow>
+
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+  <m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math> </equation><para id="fs-id1167062551649">This formula is just Ohm’s law, with the factor in parentheses being the equivalent resistance.</para>
+<equation id="fs-id1164565522429"> <m:math display="block">
+ <m:mrow>
+  <m:mi>V</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mrow>
+      <m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+       <m:msub>
+        <m:mi>R</m:mi>
+        <m:mn>1</m:mn>
+       </m:msub>
+
+      </m:mrow></m:mrow>
+      <m:mo>+</m:mo><m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+       <m:msub>
+        <m:mi>R</m:mi>
+        <m:mn>2</m:mn>
+       </m:msub>
+
+      </m:mrow></m:mrow>
+      <m:mo>+</m:mo><m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+       <m:msub>
+        <m:mi>R</m:mi>
+        <m:mn>3</m:mn>
+       </m:msub>
+
+      </m:mrow></m:mrow>
+
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>I</m:mi><m:msub>
+   <m:mi>R</m:mi>
+   <m:mrow>
+    <m:mtext>equiv.</m:mtext>
+   </m:mrow>
+  </m:msub>
+
+ </m:mrow>
+</m:math> </equation>
+<para id="fs-id1167062315069">Thus, the equivalent resistance for three resistors in parallel is</para>
+<equation id="fs-id1164567095300"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mrow>
+    <m:mtext>equiv</m:mtext>
+   </m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+     <m:msub>
+      <m:mi>R</m:mi>
+      <m:mn>1</m:mn>
+     </m:msub>
+
+    </m:mrow></m:mrow>
+    <m:mo>+</m:mo><m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+     <m:msub>
+      <m:mi>R</m:mi>
+      <m:mn>2</m:mn>
+     </m:msub>
+
+    </m:mrow></m:mrow>
+    <m:mo>+</m:mo><m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+     <m:msub>
+      <m:mi>R</m:mi>
+      <m:mn>3</m:mn>
+     </m:msub>
+
+    </m:mrow></m:mrow>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math> </equation>
+<para id="fs-id1167065761913">The same logic works for any number of resistors in parallel, so the general form of the equation that gives the equivalent resistance of <emphasis effect="italics">N</emphasis> resistors connected in parallel is</para>
+<equation id="fs-id1167065828408"><label/>
+ <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mrow>
+    <m:mtext>equiv</m:mtext>
+   </m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+     <m:msub>
+      <m:mi>R</m:mi>
+      <m:mn>1</m:mn>
+     </m:msub>
+
+    </m:mrow></m:mrow>
+    <m:mo>+</m:mo><m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+     <m:msub>
+      <m:mi>R</m:mi>
+      <m:mn>2</m:mn>
+     </m:msub>
+
+    </m:mrow></m:mrow>
+    <m:mo>+</m:mo><m:mo>⋯</m:mo><m:mo>+</m:mo><m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+     <m:msub>
+      <m:mi>R</m:mi>
+      <m:mi>N</m:mi>
+     </m:msub>
+
+    </m:mrow></m:mrow>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math> </equation><note id="Worked_Example_19_03_01" class="worked-example"><title>Find the Current through Parallel Resistors</title>
+
+<exercise id="fs-id1167064982040" class="19-ex055 unnumbered">
+<label/>
+<problem id="fs-id1167065972980">
+<para id="fs-id1167065851163">The three circuits below are equivalent. If the voltage rating of the battery is  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>V</m:mi>
+   <m:mrow>
+    <m:mtext>battery</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>3</m:mn><m:mspace width="0.3em"/><m:mtext>V</m:mtext></m:mrow>
+</m:math>, what is the equivalent resistance of the circuit and what current runs through the circuit?</para>
+
+<media id="fs-id1167066034121" alt="Three equivalent circuit diagrams are shown, each with three resistors connected in parallel." display="block">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_19_03_Eqresex01_img.jpg"/>
+</media>
+
+
+<note id="fs-id1167064820772"><label/><title>Strategy</title>
+
+<para id="fs-id1167065945663">The three resistors are connected in parallel and the voltage drop across them is <emphasis effect="italics">V</emphasis><sub>battery</sub>. Thus, we can apply the equation for the equivalent resistance of resistors in parallel, which takes the form</para>
+<equation id="fs-id1164565776830"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mrow>
+    <m:mtext>equiv</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+     <m:msub>
+      <m:mi>R</m:mi>
+      <m:mn>1</m:mn>
+     </m:msub>
+     </m:mrow></m:mrow>
+    <m:mo>+</m:mo><m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+     <m:msub>
+      <m:mi>R</m:mi>
+      <m:mn>2</m:mn>
+     </m:msub>
+     </m:mrow></m:mrow>
+    <m:mo>+</m:mo><m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+     <m:msub>
+      <m:mi>R</m:mi>
+      <m:mn>3</m:mn>
+     </m:msub>
+     </m:mrow></m:mrow>
+     </m:mrow>
+  </m:mfrac>
+  <m:mtext>.</m:mtext>
+  </m:mrow>
+</m:math> </equation>
+<para id="fs-id1167064929817">The circuit with the equivalent resistance is shown below. Once we know the equivalent resistance, we can use Ohm’s law to find the current in the circuit.</para>
+
+<media id="fs-id1167065914668" alt="A circuit diagram showing only one resistor that is equivalent to the three resistors shown in each of the three diagrams shown above." display="block">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_19_03_Eqresex02_img.jpg"/>
+</media>
+
+</note></problem>
+
+<solution id="fs-id1167065860080">
+<label/>
+<title>Solution</title>
+<para id="fs-id1167066032253">Inserting the given values for the resistance into the equation for equivalent resistance gives</para>
+<equation id="fs-id1164564387263"> <m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:msub>
+       <m:mi>R</m:mi>
+       <m:mrow>
+        <m:mtext>equiv</m:mtext></m:mrow>
+      </m:msub>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mn>1</m:mn>
+       <m:mrow>
+        <m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+         <m:msub>
+          <m:mi>R</m:mi>
+          <m:mn>1</m:mn>
+         </m:msub>
+         </m:mrow></m:mrow>
+        <m:mo>+</m:mo><m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+         <m:msub>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+         </m:msub>
+         </m:mrow></m:mrow>
+        <m:mo>+</m:mo><m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+         <m:msub>
+          <m:mi>R</m:mi>
+          <m:mn>3</m:mn>
+         </m:msub>
+         </m:mrow></m:mrow>
+        </m:mrow>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mn>1</m:mn>
+       <m:mrow>
+        <m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+         <m:mn>10</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext></m:mrow></m:mrow>
+        <m:mo>+</m:mo><m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+         <m:mn>25</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext></m:mrow></m:mrow>
+        <m:mo>+</m:mo><m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+         <m:mn>15</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext></m:mrow></m:mrow>
+        </m:mrow>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>4.84</m:mn><m:mspace width="0.3em"/><m:mtext>Ω.</m:mtext></m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable></m:mrow>
+</m:math> </equation><para id="fs-id1167065864646">The current through the circuit is thus</para>
+<equation id="fs-id1164567221703"> <m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mi>V</m:mi>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mi>I</m:mi><m:mi>R</m:mi></m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mi>I</m:mi>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mi>V</m:mi>
+       <m:mi>R</m:mi>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mn>3</m:mn><m:mspace width="0.3em"/><m:mtext>V</m:mtext></m:mrow>
+       <m:mrow>
+        <m:mn>4.84</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext></m:mrow>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>0.62</m:mn><m:mspace width="0.3em"/><m:mtext>A.</m:mtext></m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable></m:mrow>
+</m:math> </equation></solution>
+
+<commentary id="fs-id1167066012060">
+<title>Discussion</title>
+<para id="fs-id1167066025777">Although 0.62 A flows through the entire circuit, note that this current does not flow through each resistor. However, because electric charge must be conserved in a circuit, the sum of the currents going through each branch of the circuit must add up to the current going through the battery. In other words, we cannot magically create charge somewhere in the circuit and add this new charge to the current. Let’s check this reasoning by using Ohm’s law to find the current through each resistor.</para>
+<equation id="fs-id1164565510684"> <m:math display="block">
+ <m:mtable columnalign="left">
+  <m:mtr>
+   <m:mtd>
+    <m:msub>
+     <m:mi>I</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo><m:mfrac>
+     <m:mi>V</m:mi>
+     <m:mrow>
+      <m:msub>
+       <m:mi>R</m:mi>
+       <m:mn>1</m:mn>
+      </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo><m:mfrac>
+     <m:mrow>
+      <m:mn>3</m:mn><m:mspace width="0.3em"/><m:mtext>V</m:mtext></m:mrow>
+     <m:mrow>
+      <m:mn>10</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext></m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo><m:mn>0.30</m:mn><m:mspace width="0.3em"/><m:mtext>A</m:mtext>
+   </m:mtd>
+  </m:mtr>
+  <m:mtr>
+   <m:mtd>
+    <m:msub>
+     <m:mi>I</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo><m:mfrac>
+     <m:mi>V</m:mi>
+     <m:mrow>
+      <m:msub>
+       <m:mi>R</m:mi>
+       <m:mn>2</m:mn>
+      </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo><m:mfrac>
+     <m:mrow>
+      <m:mn>3</m:mn><m:mspace width="0.3em"/><m:mtext>V</m:mtext></m:mrow>
+     <m:mrow>
+      <m:mn>25</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext></m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo><m:mn>0.12</m:mn><m:mspace width="0.3em"/><m:mtext>A</m:mtext>
+   </m:mtd>
+  </m:mtr>
+  <m:mtr>
+   <m:mtd>
+    <m:msub>
+     <m:mi>I</m:mi>
+     <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo><m:mfrac>
+     <m:mi>V</m:mi>
+     <m:mrow>
+      <m:msub>
+       <m:mi>R</m:mi>
+       <m:mn>3</m:mn>
+      </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo><m:mfrac>
+     <m:mrow>
+      <m:mn>3</m:mn><m:mspace width="0.3em"/><m:mtext>V</m:mtext></m:mrow>
+     <m:mrow>
+      <m:mn>15</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext></m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo><m:mn>0.20</m:mn><m:mspace width="0.3em"/><m:mtext>A</m:mtext>
+   </m:mtd>
+  </m:mtr>
+ </m:mtable>
+
+</m:math> </equation><para id="fs-id1167065070326">As expected, these currents add up to give 0.62 A, which is the total current found going through the equivalent resistor. Also, note that the smallest resistor has the largest current flowing through it, and vice versa.</para>
+</commentary>
+</exercise>
+</note><note id="Worked_Example_19_03_02" class="worked-example">
+
+<title>Reasoning with Parallel Resistors</title>
+<exercise id="fs-id1167065983588" class="19-ex056 unnumbered">
+<label/>
+<problem id="fs-id1167065949116">
+<label/>
+<para id="fs-id1167065696892">Without doing any calculation, what is the equivalent resistance of three identical resistors <emphasis effect="italics">R</emphasis> in parallel?</para>
+<note id="fs-id1167065866154">
+<label/><title>Strategy</title>
+<para id="fs-id1167065754959">Three identical resistors <emphasis effect="italics">R</emphasis> in parallel make three identical paths through which the current can flow. Thus, it is three times easier for the current to flow through these resistors than to flow through a single one of them.</para>
+</note>
+</problem>
+<solution id="fs-id1167065941500">
+<label/>
+<title>Solution</title>
+<para id="fs-id1167066051681">If it is three times easier to flow through three identical resistors <emphasis effect="italics">R</emphasis> than to flow through a single one of them, the equivalent resistance must be three times less: <emphasis effect="italics">R</emphasis>/3.</para>
+</solution>
+<commentary id="fs-id1167064861109">
+<title>Discussion</title>
+<para id="fs-id1167064881980">Let’s check our reasoning by calculating the equivalent resistance of three identical resistors <emphasis effect="italics">R</emphasis> in parallel. The equation for the equivalent resistance of resistors in parallel gives</para>
+<equation id="fs-id1164565320921"> <m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:msub>
+       <m:mi>R</m:mi>
+       <m:mrow>
+        <m:mtext>equiv</m:mtext></m:mrow>
+      </m:msub>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mn>1</m:mn>
+       <m:mrow>
+        <m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mi>R</m:mi></m:mrow>
+        <m:mo>+</m:mo><m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mi>R</m:mi></m:mrow>
+        <m:mo>+</m:mo><m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mi>R</m:mi></m:mrow>
+        </m:mrow>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mn>1</m:mn>
+       <m:mrow>
+        <m:mrow><m:mn>3</m:mn><m:mo>/</m:mo><m:mi>R</m:mi></m:mrow>
+        </m:mrow>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mi>R</m:mi>
+       <m:mn>3</m:mn>
+      </m:mfrac>
+      <m:mtext>.</m:mtext>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable></m:mrow>
+</m:math> </equation><para id="fs-id1167065985248">Thus, our reasoning was correct. In general, when more paths are available through which the current can flow, the equivalent resistance decreases. For example, if we have identical resistors <emphasis effect="italics">R</emphasis> in parallel, the equivalent resistance would be <emphasis effect="italics">R</emphasis>/10.</para>
+</commentary>
+</exercise>
+</note></section>
+
+<section id="fs-id1167062355236" class="practice-problems">
+<title>Practice Problems</title>
+<exercise id="fs-id1167064825054">
+<problem id="fs-id1167064589160">
+<!--<para id="fs-id1167065022929"><link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex058"/></para>-->
+<para id="fs-id1169833079232">Three resistors, 10, 20, and 30 Ω, are connected in parallel. What is the equivalent resistance?</para>
+<list id="fs-id1169833139649" list-type="enumerated" number-style="lower-alpha">
+<item>The equivalent resistance is 5.5 Ω</item>
+<item>The equivalent resistance is 60 Ω</item>
+<item>The equivalent resistance is 6 × 103 Ω</item>
+<item>The equivalent resistance is 6 × 104 Ω</item></list>
+</problem>
+</exercise>
+<exercise id="fs-id1167062368078">
+<problem id="fs-id1167064911934">
+<para id="fs-id1167063183901"><link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex059"/></para>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167065715010">
+<title>Resistors in Parallel and in Series</title>
+<para id="fs-id1167066095853">More complex connections of resistors are sometimes just combinations of series and parallel. Combinations of series and parallel resistors can be reduced to a single equivalent resistance by using the technique illustrated in <link target-id="Figure_19_03_Circuit05"/>. Various parts are identified as either series or parallel, reduced to their equivalents, and further reduced until a single resistance is left. The process is more time consuming than difficult.</para>
+
+<figure id="Figure_19_03_Circuit05">
+<media id="fs-id1167064848441" alt="Four steps are shown to simplify a complex circuit diagram of seven resistors to one with only a single equivalent resistor. Initially, two groups of parallel resistors, circled by the blue dashed loop, are combined; then, two resistors in series, circled by the red dashed loop, are combined, which is then combined with a resistor in parallel, circled by the green dashed loop; finally, two resistors in series are combined, circled by the purple dashed loop, yielding the final diagram.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_19_03_circuit05.jpg"/>
+</media>
+<caption>This combination of seven resistors has both series and parallel parts. Each is identified and reduced to an equivalent resistance, and these are further reduced until a single equivalent resistance is reached.</caption>
+</figure>
+<note id="fs-id1167067202301" class="os-teacher"><title>Teacher Support</title>
+<note id="fs-id1167066057038" class="misconception">
+
+<para id="fs-id1167065853915">Students may be tempted to immediately add  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>  and  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>7</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>  together because they appear to be in series. Point out that  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>  is in series with the parallel combination of  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>7</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>  and all the resistors to the right of  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>7</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math> . Thus, the equivalent resistance of this parallel combination must be found before it can be added to  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math> .</para></note></note>
+
+<note id="fs-id1167065856610" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065861987">Work through this example with students to ensure that they understand the reduction that occurs at each step.</para>
+</note>
+
+<para id="fs-id1167065858332">Let’s work through the four steps in <link target-id="Figure_19_03_Circuit05"/> to reduce the seven resistors to a single equivalent resistor. To avoid distracting algebra, we’ll assume each resistor is 10  <m:math>
+ <m:mtext>Ω</m:mtext>
+</m:math> . In step 1, we reduce the two sets of parallel resistors circled by the blue dashed loop. The upper set has three resistors in parallel and will be reduced to a single equivalent resistor  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mrow>
+    <m:mtext>P1</m:mtext></m:mrow>
+  </m:msub>
+  </m:mrow>
+</m:math> . The lower set has two resistors in parallel and will be reduced to a single equivalent resistor  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mrow>
+    <m:mtext>P2</m:mtext></m:mrow>
+  </m:msub>
+  </m:mrow>
+</m:math> . Using the equation for the equivalent resistance of resistors in parallel, we obtain</para>
+<equation id="fs-id1164567319381"> <m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:msub>
+       <m:mi>R</m:mi>
+       <m:mrow>
+        <m:mtext>P1</m:mtext></m:mrow>
+      </m:msub>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mn>1</m:mn>
+       <m:mrow>
+        <m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+         <m:msub>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+         </m:msub>
+         <m:mo>+</m:mo><m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+          <m:msub>
+           <m:mi>R</m:mi>
+           <m:mn>3</m:mn>
+          </m:msub>
+          <m:mo>+</m:mo><m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+           <m:msub>
+            <m:mi>R</m:mi>
+            <m:mn>4</m:mn>
+           </m:msub>
+           </m:mrow></m:mrow>
+          </m:mrow></m:mrow>
+         </m:mrow></m:mrow>
+        </m:mrow>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mn>1</m:mn>
+       <m:mrow>
+        <m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+         <m:mn>10</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext><m:mo>+</m:mo><m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+          <m:mn>10</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext><m:mo>+</m:mo><m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+           <m:mn>10</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext></m:mrow></m:mrow>
+          </m:mrow></m:mrow>
+         </m:mrow></m:mrow>
+        </m:mrow>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mn>10</m:mn></m:mrow>
+       <m:mn>3</m:mn>
+      </m:mfrac>
+      <m:mtext>Ω</m:mtext></m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:msub>
+       <m:mi>R</m:mi>
+       <m:mrow>
+        <m:mtext>P2</m:mtext></m:mrow>
+      </m:msub>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mn>1</m:mn>
+       <m:mrow>
+        <m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+         <m:msub>
+          <m:mi>R</m:mi>
+          <m:mn>5</m:mn>
+         </m:msub>
+         <m:mo>+</m:mo><m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+          <m:msub>
+           <m:mi>R</m:mi>
+           <m:mn>6</m:mn>
+          </m:msub>
+          </m:mrow></m:mrow>
+         </m:mrow></m:mrow>
+        </m:mrow>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mn>1</m:mn>
+       <m:mrow>
+        <m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+         <m:mn>10</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext><m:mo>+</m:mo><m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+          <m:mn>10</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext></m:mrow></m:mrow>
+         </m:mrow></m:mrow>
+        </m:mrow>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>5</m:mn><m:mspace width="0.3em"/><m:mtext>Ω.</m:mtext></m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable></m:mrow>
+</m:math> </equation><para id="fs-id1167064532172">These two equivalent resistances are encircled by the red dashed loop following step 1. They are in series, so we can use the equation for the equivalent resistance of resistors in series to reduce them to a single equivalent resistance  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mrow>
+    <m:mtext>S1</m:mtext></m:mrow>
+  </m:msub>
+  </m:mrow>
+</m:math> . This is done in step 2, with the result being</para>
+<equation id="fs-id1164565567969"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mrow>
+    <m:mtext>S1</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>R</m:mi>
+   <m:mrow>
+    <m:mtext>P1</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>R</m:mi>
+   <m:mrow>
+    <m:mtext>P2</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  <m:mtext>Ω</m:mtext><m:mo>+</m:mo><m:mn>5</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>25</m:mn></m:mrow>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  <m:mtext>Ω.</m:mtext></m:mrow>
+</m:math> </equation><para id="fs-id1167065857716">The equivalent resistor  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mrow>
+    <m:mtext>S1</m:mtext></m:mrow>
+  </m:msub>
+  </m:mrow>
+</m:math>  appears in the green dashed loop following step 2. This resistor is in parallel with resistor  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mtext>7</m:mtext>
+  </m:msub>
+  </m:mrow>
+</m:math>, so the pair can be replaced by the equivalent resistor  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mrow>
+    <m:mtext>P3</m:mtext></m:mrow>
+  </m:msub>
+  </m:mrow>
+</m:math>, which is given by</para>
+<equation id="fs-id1164565539607"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mrow>
+    <m:mtext>P3</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+     <m:msub>
+      <m:mi>R</m:mi>
+      <m:mrow>
+       <m:mtext>S1</m:mtext></m:mrow>
+     </m:msub>
+     <m:mo>+</m:mo><m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+      <m:msub>
+       <m:mi>R</m:mi>
+       <m:mn>7</m:mn>
+      </m:msub>
+      </m:mrow></m:mrow>
+     </m:mrow></m:mrow>
+    </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:mrow><m:mn>3</m:mn><m:mo>/</m:mo><m:mrow>
+     <m:mn>25</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext></m:mrow></m:mrow>
+    <m:mo>+</m:mo><m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+     <m:mn>10</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext></m:mrow></m:mrow>
+    </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>50</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>11</m:mn></m:mrow>
+  </m:mfrac>
+  <m:mtext>Ω.</m:mtext></m:mrow>
+</m:math> </equation><para id="fs-id1167065875667">This is done in step 3. The resistor  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mrow>
+    <m:mtext>P3</m:mtext></m:mrow>
+  </m:msub>
+  </m:mrow>
+</m:math>  is in series with the resistor  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mtext>1</m:mtext>
+  </m:msub>
+  </m:mrow>
+</m:math>, as shown in the purple dashed loop following step 3. These two resistors are combined in the final step to form the final equivalent resistor  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mrow>
+    <m:mtext>equiv</m:mtext></m:mrow>
+  </m:msub>
+  </m:mrow>
+</m:math>, which is</para>
+<equation id="fs-id1164567002424"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mrow>
+    <m:mtext>equiv</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>R</m:mi>
+   <m:mtext>1</m:mtext>
+  </m:msub>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>R</m:mi>
+   <m:mrow>
+    <m:mtext>P3</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>10</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext><m:mo>+</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>50</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>11</m:mn></m:mrow>
+  </m:mfrac>
+  <m:mtext>Ω</m:mtext><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>160</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>11</m:mn></m:mrow>
+  </m:mfrac>
+  <m:mtext>Ω.</m:mtext></m:mrow>
+</m:math> </equation>
+<para id="fs-id1167065927015">Thus, the entire combination of seven resistors may be replaced by a single resistor with a resistance of about 14.5  <m:math>
+ <m:mtext>Ω</m:mtext>
+</m:math> .</para><para id="fs-id1167062401539">That was a lot of work, and you might be asking why we do it. It’s important for us to know the equivalent resistance of the entire circuit so that we can calculate the current flowing through the circuit. Ohm’s law tells us that the current flowing through a circuit depends on the resistance of the circuit and the voltage across the circuit. But to know the current, we must first know the equivalent resistance.</para>
+<para id="fs-id1167062536004">Here is a general approach to find the equivalent resistor for any arbitrary combination of resistors:</para>
+<list id="fs-id1167064876574" list-type="enumerated">
+<item>Identify a group of resistors that are only in parallel or only in series.</item>
+<item>For resistors in series, use the equation for the equivalent resistance of resistors in series to reduce them to a single equivalent resistance. For resistors in parallel, use the equation for the equivalent resistance of resistors in parallel to reduce them to a single equivalent resistance.</item>
+<item>Draw a new circuit diagram with the resistors from step 1 replaced by their equivalent resistor.</item>
+<item>If more than one resistor remains in the circuit, return to step 1 and repeat. Otherwise, you are finished.</item>
+</list>
+
+<note id="fs-id1167065742047" class="fun-in-physics">
+
+<title>Robot</title>
+<para id="fs-id1167065852822">Robots have captured our collective imagination for over a century. Now, this dream of creating clever machines to do our dirty work, or sometimes just to keep us company, is becoming a reality. <emphasis effect="italics">Robotics</emphasis> has become a huge field of research and development, with some technology already being commercialized. Think of the small autonomous vacuum cleaners, for example.</para>
+<para id="fs-id1167062352591"><link target-id="Figure_19_03_Robots"/> shows just a few of the multitude of different forms robots can take. The most advanced humanoid robots can walk, pour drinks, even dance (albeit not very gracefully). Other robots are bio-inspired, such as the <emphasis effect="italics">dogbot</emphasis> shown in the middle photograph of <link target-id="Figure_19_03_Robots"/>. This robot can carry hundreds of pounds of load over rough terrain. The photograph on the right in <link target-id="Figure_19_03_Robots"/> shows the inner workings of an <emphasis effect="italics">M-block,</emphasis> developed by the Massachusetts Institute of Technology. These simple-looking blocks contain inertial wheels and electromagnets that allow them to spin and flip into the air and snap together in a variety of shapes. By communicating wirelessly between themselves, they self-assemble into a variety of shapes, such as desks, chairs, and someday maybe even buildings.</para>
+<para id="fs-id1167066142587">All robots involve an immense amount of physics and engineering. The simple act of pouring a drink has only recently been mastered by robots, after over 30 years of research and development! The balance and timing that we humans take for granted is in fact a very tricky act to follow, requiring excellent balance, dexterity, and feedback. To master this requires sensors to detect balance, computing power to analyze the data and communicate the appropriate compensating actions, and joints and actuators to implement the required actions.</para>
+<para id="fs-id1167066142071">In addition to sensing gravity or acceleration, robots can contain multiple different sensors to detect light, sound, temperature, smell, taste, etc. These devices are all based on the physical principles that you are studying in this text. For example, the optics used for robotic vision are similar to those used in your digital cameras: pixelated semiconducting detectors in which light is converted into electrical signals. To detect temperature, simple thermistors may be used, which are resistors whose resistance changes depending on temperature.</para>
+<para id="fs-id1167066027267">Building a robot today is much less arduous than it was a few years ago. Numerous companies now offer kits for building robots. These range in complexity something suitable for elementary school children to something that would challenge the best professional engineers. If interested, you may find these easily on the Internet and start making your own robot today. </para>
+
+<figure id="Figure_19_03_Robots"><media id="fs-id1167065869566" alt="A “dogbot” in the general shape of a dog is shown">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_19_03_robots.jpg"/>
+</media>
+<caption>Robots come in many shapes and sizes, from the classic <emphasis effect="italics">humanoid</emphasis> type to <emphasis effect="italics">dogbots</emphasis> to small cubes that self-assemble to perform a variety of tasks.</caption>
+</figure>
+</note>
+
+<note id="fs-id1167065684940" class="watch-physics"><title>Resistors in Parallel</title>
+
+<para id="fs-id1167063102216">This video shows a lecturer discussing a simple circuit with a battery and a pair of resistors in parallel. He emphasizes that electrons flow in the direction opposite to that of the positive current and also makes use of the fact that the voltage is the same at all points on an ideal wire. The derivation is quite similar to what is done in this text, but the lecturer goes through it well, explaining each step.</para>
+
+<media id="fs-id1167065845608" alt=" " class="os-embed">
+<iframe width="660" height="371.4" src="https://www.openstax.org/l/28resistors"/>
+</media>
+
+<exercise id="fs-id1167062577318" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167066027200">
+<!-- <para id="fs-id1167062465599">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex059"/>
+</para> -->
+<para id="fs-id1164566095996">True or false—In a circuit diagram, we can assume that the voltage is the same at every point in a given wire.</para>
+<list id="fs-id1164564373506" list-type="enumerated" number-style="lower-alpha">
+<item>false</item>
+<item>true</item>
+</list>
+</problem>
+</exercise>
+</note><note id="fs-id1167065972187" class="watch-physics"><title>Resistors in Series and in Parallel</title>
+
+
+<para id="fs-id1167066030181">This video shows how to calculate the equivalent resistance of a circuit containing resistors in parallel and in series. The lecturer uses the same approach as outlined above for finding the equivalent resistance.</para>
+
+<media id="fs-id1167065885628" alt=" " class="os-embed">
+<iframe width="660" height="371.4" src="https://www.openstax.org/l/28resistorssp"/>
+</media>
+
+<exercise id="fs-id1167064896985" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167064956172">
+<!--<para id="fs-id1167065860587">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex060"/>
+</para>-->
+<para id="fs-id1164567806197">Imagine connected <emphasis effect="italics">N</emphasis> identical resistors in parallel. Each resistor has a resistance of <emphasis effect="italics">R</emphasis>. What is the equivalent resistance for this group of parallel resistors?</para>
+<list id="fs-id1164567040774" list-type="enumerated" number-style="lower-alpha">
+<item>The equivalent resistance is (<emphasis effect="italics">R</emphasis>)<sup><emphasis effect="italics">N</emphasis></sup>.</item>
+<item>The equivalent resistance is NR.</item>
+<item>The equivalent resistance is  <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mi>R</m:mi>
+    <m:mi>N</m:mi>
+   </m:mfrac>
+<m:mtext>.</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math> </item>
+<item>The equivalent resistance is  <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mi>N</m:mi>
+    <m:mi>R</m:mi>
+   </m:mfrac>
+<m:mtext>.</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math> </item>
+</list>
+
+</problem>
+</exercise>
+</note><note id="Worked_Example_19_03_03" class="worked-example"><title>Find the Current through a Complex Resistor Circuit</title>
+
+<exercise id="fs-id1167065737890" class="19-ex061 unnumbered"><label/>
+<problem id="fs-id1167064929787">
+<para id="fs-id1167065899489">The battery in the circuit below has a voltage rating of 10 V. What current flows through the circuit and in what direction?</para>
+
+<media id="fs-id1167065926806" alt="A circuit diagram showing six resistors, some in series and others parallel." display="block">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_19_03_circuit06_img.jpg"/>
+</media>
+
+<note id="fs-id1167066202992">
+<label/><title>Strategy</title>
+<para id="fs-id1167064724065">Apply the Strategy for finding equivalent resistance to replace all the resistors with a single equivalent resistance, then use Ohm’s law to find the current through the equivalent resistor.</para>
+</note>
+</problem>
+
+<solution id="fs-id1167064726956">
+<label/>
+<title>Solution</title>
+<para id="fs-id1167062305243">The resistor combination  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>4</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>  and  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>5</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>  can be reduced to an equivalent resistance of</para>
+<equation id="fs-id1164567249061"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mrow>
+    <m:mtext>P1</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+     <m:msub>
+      <m:mi>R</m:mi>
+      <m:mn>4</m:mn>
+     </m:msub>
+     <m:mo>+</m:mo><m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+      <m:msub>
+       <m:mi>R</m:mi>
+       <m:mn>5</m:mn>
+      </m:msub>
+      </m:mrow></m:mrow>
+     </m:mrow></m:mrow>
+    </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+     <m:mn>45</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext></m:mrow></m:mrow>
+    <m:mo>+</m:mo><m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+     <m:mn>60</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext></m:mrow></m:mrow>
+    </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>25.71</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext><m:mtext>R.</m:mtext></m:mrow>
+</m:math> </equation>
+<para id="fs-id1167065039283">Replacing  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>4</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>  and  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>5</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>  with this equivalent resistance gives the circuit below.</para>
+<media id="fs-id1167065843526" alt="The same circuit diagram from above but with the two parallel resistors combined." display="block">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_19_03_circuit07_img.jpg"/>
+</media>
+<para id="fs-id1167065747984">We now replace the two upper resistors  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>  and  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>3</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>  by the equivalent resistor  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mrow>
+    <m:mtext>S</m:mtext><m:mn>1</m:mn></m:mrow>
+  </m:msub>
+  </m:mrow>
+</m:math>  and the two lower resistors  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mrow>
+    <m:mtext>P</m:mtext><m:mn>1</m:mn></m:mrow>
+  </m:msub>
+  </m:mrow>
+</m:math>  and  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>6</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>  by their equivalent resistor  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mrow>
+    <m:mtext>S2</m:mtext></m:mrow>
+  </m:msub>
+  </m:mrow>
+</m:math> . These resistors are in series, so we add them together to find the equivalent resistance.</para>
+<equation id="fs-id1164565421471"> <m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:msub>
+       <m:mi>R</m:mi>
+       <m:mrow>
+        <m:mtext>S1</m:mtext></m:mrow>
+      </m:msub>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:msub>
+       <m:mi>R</m:mi>
+       <m:mn>2</m:mn>
+      </m:msub>
+      <m:mo>+</m:mo><m:msub>
+       <m:mi>R</m:mi>
+       <m:mn>3</m:mn>
+      </m:msub>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>50</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext><m:mo>+</m:mo><m:mn>30</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext></m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>80</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext></m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:msub>
+       <m:mi>R</m:mi>
+       <m:mrow>
+        <m:mtext>S2</m:mtext></m:mrow>
+      </m:msub>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:msub>
+       <m:mi>R</m:mi>
+       <m:mrow>
+        <m:mtext>P1</m:mtext></m:mrow>
+      </m:msub>
+      <m:mo>+</m:mo><m:msub>
+       <m:mi>R</m:mi>
+       <m:mn>6</m:mn>
+      </m:msub>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>25.71</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext><m:mo>+</m:mo><m:mn>20</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext></m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>45.71</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext></m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable></m:mrow>
+</m:math> </equation>
+<para id="eip-id1167066946524">Replacing the relevant resistors with their equivalent resistor gives the circuit below.</para>
+
+<media id="fs-id1167065883866" alt="The same circuit diagram as above, but with two pairs of resistors in series combined." display="block">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_19_03_circuit08_img.jpg"/>
+</media>
+
+<para id="fs-id1167066141918">Now replace the two resistors  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mrow>
+    <m:mtext>S1</m:mtext></m:mrow>
+  </m:msub>
+  <m:mtext> and </m:mtext><m:msub>
+   <m:mi>R</m:mi>
+   <m:mrow>
+    <m:mtext>S2</m:mtext></m:mrow>
+  </m:msub>
+  </m:mrow>
+</m:math>, which are in parallel, with their equivalent resistor  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mrow>
+    <m:mtext>P2</m:mtext></m:mrow>
+  </m:msub>
+  </m:mrow>
+</m:math> . The resistance of  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mrow>
+    <m:mtext>P2</m:mtext></m:mrow>
+  </m:msub>
+  </m:mrow>
+</m:math>  is</para>
+<equation id="fs-id1164566111085"> <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mrow>
+    <m:mtext>P2</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:mn>1</m:mn><m:mo>/</m:mo><m:msub>
+     <m:mi>R</m:mi>
+     <m:mrow>
+      <m:mtext>S1</m:mtext></m:mrow>
+    </m:msub>
+    <m:mo>+</m:mo><m:mn>1</m:mn><m:mo>/</m:mo><m:msub>
+     <m:mi>R</m:mi>
+     <m:mrow>
+      <m:mtext>S2</m:mtext></m:mrow>
+    </m:msub>
+    </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:mn>1</m:mn><m:mo>/</m:mo><m:mn>80</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>/</m:mo><m:mn>45.71</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext></m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>29.09</m:mn><m:mspace width="0.3em"/><m:mtext>Ω.</m:mtext></m:mrow>
+</m:math> </equation>
+<para id="fs-id1164565475168">Updating the circuit diagram by replacing  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mrow>
+    <m:mtext>S1</m:mtext></m:mrow>
+  </m:msub>
+  <m:mtext> and </m:mtext><m:msub>
+   <m:mi>R</m:mi>
+   <m:mrow>
+    <m:mtext>S2</m:mtext></m:mrow>
+  </m:msub>
+  </m:mrow>
+</m:math>  with this equivalent resistance gives the circuit below.</para><media id="fs-id1167064686256" alt="The same circuit diagram shown above but with the two resistors in series combined." display="block">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_19_03_circuit09_img.jpg"/>
+</media>
+
+<para id="fs-id1167064769724">Finally, we combine resistors  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mtext>1</m:mtext>
+  </m:msub>
+  <m:mtext> and </m:mtext><m:msub>
+   <m:mi>R</m:mi>
+   <m:mrow>
+    <m:mtext>P2</m:mtext></m:mrow>
+  </m:msub>
+  </m:mrow>
+</m:math>, which are in series. The equivalent resistance is  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mrow>
+    <m:mtext>S3</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>R</m:mi>
+   <m:mrow>
+    <m:mtext>P2</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>75</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext><m:mo>+</m:mo><m:mn>29.09</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext><m:mo>=</m:mo><m:mn>104.09</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext><m:mo>.</m:mo></m:mrow>
+</m:math>  The final circuit is shown below.</para><media id="fs-id1167062443409" alt="The final circuit diagram showing the final two resistors combined." display="block">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_19_03_circuit10_img.jpg"/>
+</media>
+
+<para id="fs-id1167065856112">We now use Ohm’s law to find the current through the circuit.</para>
+<equation id="fs-id1164567396039"> <m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mi>V</m:mi>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mi>I</m:mi><m:msub>
+       <m:mi>R</m:mi>
+       <m:mrow>
+        <m:mtext>S3</m:mtext></m:mrow>
+      </m:msub>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd>
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd>
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd>
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd>
+     <m:mrow/>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mi>I</m:mi>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mi>V</m:mi>
+       <m:mrow>
+        <m:msub>
+         <m:mi>R</m:mi>
+         <m:mrow>
+          <m:mtext>S3</m:mtext></m:mrow>
+        </m:msub>
+        </m:mrow>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mn>10</m:mn><m:mspace width="0.3em"/><m:mtext>V</m:mtext></m:mrow>
+       <m:mrow>
+        <m:mn>104.09</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext></m:mrow>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>0.096</m:mn><m:mspace width="0.3em"/><m:mtext>A</m:mtext></m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable></m:mrow>
+</m:math> </equation><para id="eip-id1167067069323">The current goes from the positive terminal of the battery to the negative terminal of the battery, so it flows clockwise in this circuit.</para></solution>
+
+<commentary id="fs-id1167065727801">
+<title>Discussion</title>
+<para id="fs-id1167066045308">This calculation may seem rather long, but with a little practice, you can combine some steps. Note also that extra significant digits were carried through the calculation. Only at the end was the final result rounded to two significant digits.</para>
+</commentary>
+
+</exercise></note><note id="Worked_Example_19_03_04" class="worked-example"><title>Strange-Looking Circuit Diagrams</title>
+
+<exercise id="fs-id1167065738971" class="19-ex062 unnumbered"><label/>
+<problem id="fs-id1167065738974">
+<para id="fs-id1167064908002">Occasionally, you may encounter circuit diagrams that are not drawn very neatly, such as the diagram shown below. This circuit diagram looks more like how a real circuit might appear on the lab bench. What is the equivalent resistance for the resistors in this diagram, assuming each resistor is 10  <m:math>
+ <m:mtext>Ω</m:mtext>
+</m:math>  and the voltage rating of the battery is 12 V.</para>
+<media id="fs-id1167065973791" alt="A circuit diagram with curved lines between all components instead of straight lines." display="block">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_19_03_circuit11_img.jpg"/>
+</media>
+
+<note id="fs-id1167064875229">
+<label/><title>Strategy</title>
+<para id="fs-id1167064909458">Let’s redraw this circuit diagram to make it clearer. Then we’ll apply the Strategy outlined above to calculate the equivalent resistance.</para>
+</note>
+</problem>
+
+<solution id="fs-id1167066048203">
+<label/>
+<title>Solution</title>
+<para id="fs-id1167065945515">To redraw the diagram, consider the figure below. In the upper circuit, the blue resistors constitute a path from the positive terminal of the battery to the negative terminal. In parallel with this circuit are the red resistors, which constitute another path from the positive to negative terminal of the battery. The blue and red paths are shown more cleanly drawn in the lower circuit diagram. Note that, in both the upper and lower circuit diagrams, the blue and red paths connect the positive terminal of the battery to the negative terminal of the battery.</para>
+<media id="fs-id1167065983746" alt="The circuit diagram above redrawn with straight lines. In the upper circuit, the blue resistors constitute a path from the positive terminal of the battery to the negative terminal. In parallel with this circuit are the red resistors, which constitute another path from the positive to negative terminal of the battery." display="block">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_19_03_circuit12_img.jpg"/>
+</media>
+<para id="fs-id1167065863664">Now it is easier to see that  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mtext>1</m:mtext>
+  </m:msub>
+  <m:mtext> and </m:mtext><m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>  are in parallel, and the parallel combination is in series with  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>4</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math> . This combination in turn is in parallel with the series combination of  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mtext>3</m:mtext>
+  </m:msub>
+  <m:mtext> and </m:mtext><m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>5</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math> . First, we calculate the blue branch, which contains  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>,</m:mo><m:msub>
+   <m:mi>R</m:mi>
+   <m:mtext>2</m:mtext>
+  </m:msub>
+  <m:mtext>, and </m:mtext><m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>4</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math> . The equivalent resistance is</para>
+<equation id="fs-id1164568067605"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mrow>
+    <m:mtext>blue</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+     <m:msub>
+      <m:mi>R</m:mi>
+      <m:mn>1</m:mn>
+     </m:msub>
+     <m:mo>+</m:mo><m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+      <m:msub>
+       <m:mi>R</m:mi>
+       <m:mn>2</m:mn>
+      </m:msub>
+      </m:mrow></m:mrow>
+     </m:mrow></m:mrow>
+    </m:mrow>
+  </m:mfrac>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>4</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+     <m:mn>10</m:mn></m:mrow></m:mrow>
+    <m:mtext>Ω</m:mtext><m:mo>+</m:mo><m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+     <m:mn>10</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext></m:mrow></m:mrow>
+    </m:mrow>
+  </m:mfrac>
+  <m:mo>+</m:mo><m:mn>10</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext><m:mo>=</m:mo><m:mn>15</m:mn><m:mspace width="0.3em"/><m:mtext>Ω.</m:mtext></m:mrow>
+</m:math> </equation><para id="fs-id1167066047819">where we show the contribution from the parallel combination of resistors and from the series combination of resistors. We now calculate the equivalent resistance of the red branch, which is</para>
+<equation id="fs-id1164564469836"> <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mrow>
+    <m:mtext>red</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>3</m:mn>
+  </m:msub>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>5</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>10</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext><m:mo>+</m:mo><m:mn>10</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext><m:mo>=</m:mo><m:mn>20</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext><m:mtext>.</m:mtext></m:mrow>
+</m:math> </equation>
+<para id="fs-id1164564383989">Inserting these equivalent resistors into the circuit gives the circuit below.</para><media id="fs-id1167064710252" alt="The same circuit diagram but with the red resistors combined and the blue resistors combined." display="block">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_19_03_circuit13_img.jpg"/>
+</media>
+<para id="fs-id1167065971753">These two resistors are in parallel, so they can be replaced by a single equivalent resistor with a resistance of</para>
+<equation id="fs-id1164565504267"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mrow>
+    <m:mtext>equiv</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+     <m:msub>
+      <m:mi>R</m:mi>
+      <m:mrow>
+       <m:mtext>blue</m:mtext></m:mrow>
+     </m:msub>
+     </m:mrow></m:mrow>
+    <m:mo>+</m:mo><m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+     <m:msub>
+      <m:mi>R</m:mi>
+      <m:mrow>
+       <m:mtext>red</m:mtext></m:mrow>
+     </m:msub>
+     </m:mrow></m:mrow>
+    </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+     <m:mn>15</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext></m:mrow></m:mrow>
+    <m:mo>+</m:mo><m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+     <m:mn>20</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext></m:mrow></m:mrow>
+    </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>8.6</m:mn><m:mspace width="0.3em"/><m:mtext>Ω.</m:mtext></m:mrow>
+</m:math> </equation>
+<para id="fs-id1167064769908">The final equivalent circuit is show below.</para>
+<media id="fs-id1167065938583" alt="The simplified circuit diagram with one resistor equivalent to the original five resistors." display="block">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_19_03_circuit14_img.jpg"/>
+</media>
+
+</solution>
+<commentary id="fs-id1167062510689">
+<title>Discussion</title>
+<para id="fs-id1167065893136">Finding the equivalent resistance was easier with a clear circuit diagram. This is why we try to make clear circuit diagrams, where the resistors in parallel are lined up parallel to each other and at the same horizontal position on the diagram.</para>
+<para id="fs-id1167065946991">We can now use Ohm’s law to find the current going through each branch to this circuit. Consider the circuit diagram with  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mrow>
+    <m:mtext>blue</m:mtext></m:mrow>
+  </m:msub>
+  </m:mrow>
+</m:math>  and  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mrow>
+    <m:mtext>red</m:mtext></m:mrow>
+  </m:msub>
+  </m:mrow>
+</m:math> . The voltage across each of these branches is 12 V (i.e., the voltage rating of the battery). The current in the blue branch is</para>
+<equation id="fs-id1164567826596"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>I</m:mi>
+   <m:mrow>
+    <m:mtext>blue</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mi>V</m:mi>
+   <m:mrow>
+    <m:msub>
+     <m:mi>R</m:mi>
+     <m:mrow>
+      <m:mtext>blue</m:mtext></m:mrow>
+    </m:msub>
+    </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>12</m:mn><m:mspace width="0.3em"/><m:mtext>V</m:mtext></m:mrow>
+   <m:mrow>
+    <m:mn>15</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext></m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>0.80</m:mn><m:mspace width="0.3em"/><m:mtext>A.</m:mtext></m:mrow>
+</m:math> </equation>
+<para id="fs-id1167064700394">The current across the red branch is</para>
+<equation id="fs-id1164567606711"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>I</m:mi>
+   <m:mrow>
+    <m:mtext>red</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mi>V</m:mi>
+   <m:mrow>
+    <m:msub>
+     <m:mi>R</m:mi>
+     <m:mrow>
+      <m:mtext>red</m:mtext></m:mrow>
+    </m:msub>
+    </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>12</m:mn><m:mspace width="0.3em"/><m:mtext>V</m:mtext></m:mrow>
+   <m:mrow>
+    <m:mn>20</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext></m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>0.60</m:mn><m:mspace width="0.3em"/><m:mtext>A.</m:mtext></m:mrow>
+</m:math> </equation>
+<para id="fs-id1167064896832">The current going through the battery must be the sum of these two currents (can you see why?), or 1.4 A.</para>
+</commentary>
+</exercise>
+</note></section>
+
+<section id="fs-id1167065873871" class="practice-problems">
+<title>Practice Problems</title>
+<exercise id="fs-id1167066044772">
+<problem id="fs-id1167066044776">
+<!--<para id="fs-id1167064993634"><link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex063"/>
+</para>-->
+
+<para id="fs-id1164566252991">What is the formula for the equivalent resistance of two parallel resistors with resistance <emphasis effect="italics">R</emphasis><sub>1</sub> and <emphasis effect="italics">R</emphasis><sub>2</sub>?</para>
+<list id="fs-id1164567231429" list-type="enumerated" number-style="lower-alpha">
+<item>Equivalent resistance of two parallel resistors  <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msub>
+    <m:mi>R</m:mi>
+    <m:mrow>
+     <m:mtext>eqv</m:mtext>
+    </m:mrow>
+   </m:msub>
+   <m:mo>=</m:mo><m:msub>
+    <m:mi>R</m:mi>
+    <m:mn>1</m:mn>
+   </m:msub>
+   <m:mo>+</m:mo><m:msub>
+    <m:mi>R</m:mi>
+    <m:mn>2</m:mn>
+   </m:msub>
+
+  </m:mrow>
+   </m:semantics>
+</m:math> </item>
+<item>Equivalent resistance of two parallel resistors  <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msub>
+    <m:mi>R</m:mi>
+    <m:mrow>
+     <m:mtext>eqv</m:mtext>
+    </m:mrow>
+   </m:msub>
+   <m:mo>=</m:mo><m:msub>
+    <m:mi>R</m:mi>
+    <m:mn>1</m:mn>
+   </m:msub>
+   <m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msub>
+    <m:mi>R</m:mi>
+    <m:mn>2</m:mn>
+   </m:msub>
+
+  </m:mrow>
+   </m:semantics>
+</m:math> </item>
+<item>Equivalent resistance of two parallel resistors  <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msub>
+    <m:mi>R</m:mi>
+    <m:mrow>
+     <m:mtext>eqv</m:mtext>
+    </m:mrow>
+   </m:msub>
+   <m:mo>=</m:mo><m:msub>
+    <m:mi>R</m:mi>
+    <m:mn>1</m:mn>
+   </m:msub>
+   <m:mo>-</m:mo><m:msub>
+    <m:mi>R</m:mi>
+    <m:mn>2</m:mn>
+   </m:msub>
+
+  </m:mrow>
+   </m:semantics>
+</m:math> </item>
+<item>Equivalent resistance of two parallel resistors  <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msub>
+    <m:mi>R</m:mi>
+    <m:mrow>
+     <m:mtext>eqv</m:mtext>
+    </m:mrow>
+   </m:msub>
+   <m:mo>=</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mrow>
+     <m:mn>1</m:mn><m:mo>/</m:mo><m:msub>
+      <m:mi>R</m:mi>
+      <m:mn>1</m:mn>
+     </m:msub>
+     <m:mo>+</m:mo><m:mn>1</m:mn><m:mo>/</m:mo><m:msub>
+      <m:mi>R</m:mi>
+      <m:mn>2</m:mn>
+     </m:msub>
+
+    </m:mrow>
+   </m:mfrac>
+
+  </m:mrow>
+ </m:semantics>
+</m:math> </item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167064783456">
+<problem id="fs-id1167064783459"><figure id="fs-id1164567042412">
+<media id="fs-id1164567871354" alt="This shows a vertical parallel circuit. In the middle of either side there are resistors. The left resistor is labeled R1 = 35Ω. The right resistor is labeled R1 = 55Ω">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_19_03_ex64_img.jpg"/>
+</media>
+<caption/>
+</figure>
+<!--<para id="fs-id1167062571358"><link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex064"/>
+</para>-->
+<para id="fs-id1169831590774">What is the equivalent resistance for the two resistors shown?</para><list id="fs-id1169829521666" list-type="enumerated" number-style="lower-alpha">
+<item>The equivalent resistance is 20 Ω</item>
+<item>The equivalent resistance is 21 Ω</item>
+<item>The equivalent resistance is 90 Ω</item>
+<item>The equivalent resistance is 1,925 Ω</item>
+</list>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167066145433" class="check-understanding">
+<title>Check Your Understanding</title>
+<exercise id="fs-id1167066058038" class="os-exercise">
+<problem id="fs-id1167066094445">
+<!--<para id="fs-id1167066094448">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex065"/>
+</para>-->
+<para id="fs-id1169830660937">The voltage drop across parallel resistors is ________.</para>
+<list id="fs-id1169832969660" list-type="enumerated" number-style="lower-alpha">
+<item>the same for all resistors</item>
+<item>greater for the larger resistors</item>
+<item>less for the larger resistors</item>
+<item>greater for the smaller resistors</item></list>
+</problem>
+</exercise>
+<exercise id="fs-id1167065067224" class="os-exercise">
+<problem id="fs-id1167062305160">
+<!-- <para id="fs-id1167062305162">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex066"/>
+</para> -->
+<para id="fs-id1164567229929">Consider a circuit of parallel resistors. The smallest resistor is 25 Ω . What is the upper limit of the equivalent resistance?</para>
+<list id="fs-id1164564477011" list-type="enumerated" number-style="lower-alpha">
+<item>The upper limit of the equivalent resistance is 2.5 Ω.</item>
+<item>The upper limit of the equivalent resistance is 25 Ω.</item>
+<item>The upper limit of the equivalent resistance is 100 Ω.</item>
+<item>There is no upper limit.</item>
+</list>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167066036147" class="summary">
+<title>Section Summary</title>
+<list id="fs-id1167066025697">
+<item>The equivalent resistance of a group of <emphasis effect="italics">N</emphasis> identical resistors <emphasis effect="italics">R</emphasis> connected in parallel is <emphasis effect="italics">R</emphasis>/<emphasis effect="italics">N</emphasis>.</item>
+<item>Connecting resistors in parallel provides more paths for the current to go through, so the equivalent resistance is always less than the smallest resistance of the parallel resistors.</item>
+<item>The same voltage drop occurs across all resistors in parallel; however, the current through each resistor can differ.</item>
+</list>
+</section>
+
+<section id="fs-id1167065802894" class="key-equations">
+<title>Key Equations</title>
+<table id="fs-id1167062410339" class="unnumbered unstyled" summary="A table with two columns and one row, describing the equivalent resistance of resistors connected in parallel.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry>the equivalent resistance of <emphasis effect="italics">N</emphasis> resistors connected in parallel</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mrow>
+    <m:mtext>equiv</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+     <m:msub>
+      <m:mi>R</m:mi>
+      <m:mn>1</m:mn>
+     </m:msub>
+     </m:mrow></m:mrow>
+    <m:mo>+</m:mo><m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+     <m:msub>
+      <m:mi>R</m:mi>
+      <m:mn>2</m:mn>
+     </m:msub>
+     </m:mrow></m:mrow>
+    <m:mo>+</m:mo><m:mo>⋯</m:mo><m:mo>+</m:mo><m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+     <m:msub>
+      <m:mi>R</m:mi>
+      <m:mi>N</m:mi>
+     </m:msub>
+     </m:mrow></m:mrow>
+    </m:mrow>
+  </m:mfrac>
+  </m:mrow>
+</m:math> </entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+
+<section id="fs-id1167062791755" class="concept"><title>Concept Items</title><exercise id="fs-id1167066057379" class="os-exercise">
+<problem id="fs-id1167066153543">
+<para id="fs-id1167066153545">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex069"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166848711141" class="os-exercise">
+<problem id="eip-id1166848988833">
+<para id="eip-id1166848988835">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ot061"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167065867011" class="critical-thinking"><title>Critical Thinking</title><exercise id="fs-id1167066199346" class="os-exercise">
+<problem id="fs-id1167064755527">
+<para id="fs-id1167064755530">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex070"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166849313816" class="os-exercise">
+<problem id="eip-id1166849313820">
+<!-- <para id="eip-id1166847944394">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ot052"/>
+</para> -->
+<para id="fs-id1164565430571">What is the equivalent resistance of the circuit shown below?</para>
+<figure id="fs-id1164566284234"><media id="fs-id1164564511502" alt="The figure shows a horizontal circuit with three resistors. Two horizontal resistors are connected on both ends and labeled 75 ohms and 100 ohms. A third resistor is connected diagonally across the two resistors and labeled 20 ohms.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_19_03_equivresi3_img.jpg"/>
+</media>
+
+</figure><list id="fs-id1164565304490" list-type="enumerated" number-style="lower-alpha">
+<item>The equivalent resistance of the circuit 14 Ω.</item>
+<item>The equivalent resistance of the circuit 16.7 Ω.</item>
+<item>The equivalent resistance of the circuit 140 Ω.</item>
+<item>The equivalent resistance of the circuit 195 Ω.</item>
+</list>
+</problem>
+</exercise></section><section id="fs-id1167064692488" class="problems">
+<title>Problems</title>
+<exercise id="fs-id1167062361665" class="os-exercise"><problem id="fs-id1167062462531">
+<!-- <para id="fs-id1167062462533">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex067"/>
+</para> --><para id="eip-idm365296368">What is the equivalent resistance of this circuit?</para>
+<media id="fs-id1164564472101" alt="The figure shows a circuit with three resistors. The first resistor is horizontal and labeled 150 ohms. The left end of the first resistor is connected to a second resistor of 250 ohms. The other end of the second resistor is connected to a third resistor of 50 ohms, which in turn is connected to the right end of the first resistor.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_19_03_ex67_img.jpg"/>
+</media>
+
+<list id="fs-id1164565332746" list-type="enumerated" number-style="lower-alpha">
+<item>The equivalent resistance of the circuit is 32.7 Ω.</item>
+<item>The equivalent resistance of the circuit is 100 Ω.</item>
+<item>The equivalent resistance of the circuit is 327 Ω.</item>
+<item>The equivalent resistance of the circuit is 450 Ω.</item>
+</list>
+</problem>
+</exercise><exercise id="fs-id1167065958602" class="os-exercise"><problem id="fs-id1167066165922">
+<!-- <para id="fs-id1167066165924">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex068"/>
+</para> -->
+<para id="fs-id1164564327812">What is the equivalent resistance of the circuit shown below?</para>
+<media id="fs-id1164567216194" alt="A circuit contains six resistors that are arranged in an outer circuit enclosing an inner circuit. The outer circuit has a 100-ohm horizontal resistor. Left end of the resistor is connected to a second resistor of 50 ohms. The other end of the second resistor is connected to a third resistor of 50 ohms, which in turn is connected to the right end of the first resistor. The inner circuit is identical to the outer circuit, and the left and right ends of both the circuits are connected. In addition, there is a line connecting the points between the two 50-ohm resistors of each circuit.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_19_03_ex68_img.jpg"/>
+</media>
+<list id="fs-id1164567887361" list-type="enumerated" number-style="lower-alpha">
+<item>The equivalent resistance is 25 Ω.</item>
+<item>The equivalent resistance is 50 Ω.</item>
+<item>The equivalent resistance is 75 Ω.</item>
+<item>The equivalent resistance is 100 Ω.</item>
+</list>
+</problem>
+</exercise></section>
+
+<section id="fs-id1167064626740" class="multiple-choice"><title>Test Prep Multiple Choice</title><exercise id="fs-id1167065937918" class="os-exercise">
+<problem id="fs-id1167065937922">
+<!--<para id="fs-id1167064928071">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex071"/>
+</para>-->
+<para id="fs-id1169831612317">A 10-Ω resistor is connected in parallel to another resistor R . The equivalent resistance of the pair is 8 Ω. What is the resistance R?</para>
+<list id="fs-id1169831599221" list-type="enumerated" number-style="lower-alpha">
+<item>10 Ω</item>
+<item>20 Ω</item>
+<item>30 Ω</item>
+<item>40 Ω</item></list>
+</problem>
+</exercise>
+<exercise id="eip-id1166850248128" class="os-exercise"><problem id="eip-id1166849783778">
+<para id="eip-id1166849783780">Are the resistors shown  connected in parallel or in series? Explain.
+<newline/>
+<media id="eip-idm370924928" alt="A circuit shows positive terminal of a voltage source connected to one end of a resistor. The other end of the resistor is connected to a second resistor, which is in turn is connected to a third resistor. Finally, the third resistor is connected to the negative terminal of the voltage source.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_19_03_curvycircu_img.jpg"/>
+</media></para>
+<list id="eip-idm369187856" list-type="enumerated" number-style="lower-alpha">
+<item>The resistors are connected in parallel because the same current flows through all three resistors.</item>
+<item>The resistors are connected in parallel because different current flows through all three resistors.</item>
+<item>The resistors are connected in series because the same current flows through all three resistors.</item>
+<item>The resistors are connected in series because different current flows through all three resistors.</item></list>
+</problem>
+</exercise></section><section id="fs-id1167064778700" class="short-answer">
+<title>Test Prep Short Answer</title>
+<exercise id="fs-id1167064945370" class="os-exercise">
+<problem id="fs-id1167064945374">
+<!-- <para id="fs-id1167066112518">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex073"/>
+</para> -->
+<para id="fs-id1164568032123">Ten 100-Ω resistors are connected in series. How can you increase the total resistance of the circuit by about 40 percent?</para>
+<list id="fs-id1164567009736" list-type="enumerated" number-style="lower-alpha">
+<item>Adding two 10-Ω resistors increases the total resistance of the circuit by about 40 percent.</item>
+<item>Removing two 10-Ω resistors increases the total resistance of the circuit by about 40 percent.</item>
+<item>Adding four 10-Ω resistors increases the total resistance of the circuit by about 40 percent.</item>
+<item>Removing four 10-Ω resistors increases the total resistance of the circuit by about 40 percent.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167064982333" class="os-exercise">
+<problem id="fs-id1167066098108">
+<para id="fs-id1167066098111">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex074"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065968621" class="os-exercise">
+<problem id="fs-id1167066033582">
+<media id="fs-id1169832871769" alt="no alt text">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_19_03_ex75_img.jpg"/>
+</media>
+<!-- <para id="fs-id1167066033585">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex075"/>
+</para> -->
+<para id="fs-id1169833201817">In the circuit shown, through which resistor(s) does the most current flow? Through which does the least flow? Explain.</para><list id="fs-id1169830601726" list-type="enumerated" number-style="lower-alpha">
+<item>The most current flows through the 15-Ω resistor because all the current must pass through this resistor.</item>
+<item>The most current flows through the 20-Ω resistor because all the current must pass through this resistor.</item>
+<item>The most current flows through the 25-Ω resistor because it is the highest resistance.</item>
+<item>The same current flows through the all the resistor because all the current must pass through each of the resistors.</item></list>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167065886200" class="extended-response">
+<title>Test Prep Extended Response</title>
+<exercise id="fs-id1167065857602" class="os-exercise">
+<problem id="fs-id1167064819245">
+<para id="fs-id1167064819247">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex077"/>
+</para>
+</problem>
+</exercise>
+</section>
+</content>
+
+<glossary>
+<definition id="fs-id1167066155921"><term>in parallel</term><meaning id="fs-id1167066155924"> when a group of resistors are connected side by side, with the top ends of the resistors connected together by a wire and the bottom ends connected together by a different wire</meaning></definition>
+</glossary>
+</document>

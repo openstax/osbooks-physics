@@ -1,0 +1,651 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Second Law of Thermodynamics: Entropy</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54306</md:content-id>
+  <md:title>Second Law of Thermodynamics: Entropy</md:title>
+  <md:abstract/>
+  <md:uuid>e5983fe2-b735-4109-a184-3c3e328e624b</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167065888436" class="learning-objectives">
+<label/>
+<title>Section Learning Objectives</title>
+<para id="fs-id1167064919287">By the end of this section, you will be able to do the following:</para>
+<list id="fs-id1167064747037">
+<item>Describe entropy</item>
+<item>Describe the second law of thermodynamics</item>
+<item>Solve problems involving the second law of thermodynamics</item>
+</list>
+</note>
+
+<note id="fs-id1167064872436" class="os-teacher"><title>Teacher Support</title>
+<para id="fs-id1167064981779">The learning objectives in this section will help your students master the following standards:</para>
+<list id="fs-id1167064579137"><item>(6) Science concepts. The student knows that changes occur within a physical system and applies the laws of conservation of energy and momentum. The student is expected to:
+<list id="eip-id1167062315333"><item>
+<span>(G)</span>
+<span>analyze and explain everyday examples that illustrate the laws of thermodynamics, including the law of conservation of energy and the law of entropy</span></item>
+</list></item></list></note>
+<section id="keyterms"><title>Section Key Terms</title>
+<table id="fs-id1167065862188" class="unnumbered unstyled section-key-terms" summary="no alt text">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry>entropy</entry>
+<entry>second law of thermodynamics</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section><section id="fs-id1167062314650">
+<title>Entropy</title>
+<note id="fs-id1167066186042" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167064908214">
+<span>[BL]</span><span>[OL]</span><span>[AL]</span> Review heat and absolute temperature. Recall earlier discussions on engine efficiency. Assess students' understanding of efficiency.
+</para>
+</note>
+<para id="fs-id1167065957917">Recall from the chapter introduction that it is not even theoretically possible for engines to be 100 percent efficient. This phenomenon is explained by the <term>second law of thermodynamics</term>, which relies on a concept known as <term>entropy</term>. Entropy is a measure of the disorder of a system. Entropy also describes how much energy is <emphasis effect="italics">not</emphasis> available to do work. The more disordered a system and higher the entropy, the less of a system's energy is available to do work.</para>
+
+<note id="fs-id1167064985573" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065897911">The meaning of entropy is difficult to grasp, as it may seem like an abstract concept. However, we see examples of entropy in our everyday lives. For instance, if a car tire is punctured, air disperses in all directions. When water in a dish is set on a counter, it eventually evaporates, the individual molecules spreading out in the surrounding air. When a hot object is placed in the room, it quickly spreads heat energy in all directions. Entropy can be thought of as a measure of the dispersal of energy. It measures how much energy has been dispersed in a process. The flow of any energy is always from high to low. Hence, entropy always tends to increase.</para>
+</note>
+
+<para id="fs-id1167066142148">Although all forms of energy can be used to do work, it is not possible to use the entire available energy for work. Consequently, not all energy transferred by heat can be converted into work, and some of it is lost in the form of waste heat—that is, heat that does not go toward doing work. The unavailability of energy is important in thermodynamics; in fact, the field originated from efforts to convert heat to work, as is done by engines.</para>
+
+<para id="fs-id1167064752556">The equation for the change in entropy,  <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>S</m:mi>
+ </m:mrow>
+</m:math>, is</para>
+<equation id="fs-id1167065688021" class="unnumbered">
+<label/>
+ <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>S</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mi>Q</m:mi>
+   <m:mi>T</m:mi>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math> 
+</equation>
+<para id="fs-id1167064734009">where <emphasis effect="italics">Q</emphasis> is the heat that transfers energy during a process, and <emphasis effect="italics">T </emphasis>is the absolute temperature at which the process takes place.</para>
+<para id="fs-id1167065971624"><emphasis effect="italics">Q</emphasis> is positive for energy transferred <emphasis effect="italics">into</emphasis> the system by heat and negative for energy transferred <emphasis effect="italics">out of</emphasis> the system by heat. In SI, entropy is expressed in units of joules per kelvin (J/K). If temperature changes during the process, then it is usually a good approximation (for small changes in temperature) to take <emphasis effect="italics">T </emphasis>to be the average temperature in order to avoid trickier math (calculus).</para>
+
+<note id="fs-id1167064876101" class="tips-for-success">
+
+<para id="fs-id1167065958930">Absolute temperature is the temperature measured in Kelvins. The Kelvin scale is an absolute temperature scale that is measured in terms of the number of degrees above absolute zero. All temperatures are therefore positive. Using temperatures from another, nonabsolute scale, such as Fahrenheit or Celsius, will give the wrong answer.</para>
+</note>
+</section>
+
+<section id="fs-id1167065011037"><title>Second Law of Thermodynamics</title><para id="fs-id1167062325767">Have you ever played the card game 52 pickup? If so, you have been on the receiving end of a practical joke and, in the process, learned a valuable lesson about the nature of the universe as described by the second law of thermodynamics. In the game of 52 pickup, the prankster tosses an entire deck of playing cards onto the floor, and you get to pick them up. In the process of picking up the cards, you may have noticed that the amount of work required to restore the cards to an orderly state in the deck is much greater than the amount of work required to toss the cards and create the disorder.</para>
+<para id="fs-id1167062476005">The second law of thermodynamics states that <emphasis effect="italics">the total entropy of a system either increases or remains constant in any spontaneous process; it never decreases.</emphasis> An important implication of this law is that heat transfers energy spontaneously from higher- to lower-temperature objects, but never spontaneously in the reverse direction. This is because entropy increases for heat transfer of energy from hot to cold (<link target-id="Figure_12_03_Drink"/>). Because the change in entropy is <emphasis effect="italics">Q</emphasis>/<emphasis effect="italics">T</emphasis>, there is a larger change in  <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>S</m:mi>
+ </m:mrow>
+</m:math>  at lower temperatures (smaller <emphasis effect="italics">T</emphasis>). The decrease in entropy of the hot (larger <emphasis effect="italics">T</emphasis>) object is therefore less than the increase in entropy of the cold (smaller <emphasis effect="italics">T</emphasis>) object, producing an overall increase in entropy for the system.</para>
+<figure id="Figure_12_03_Drink">
+<media id="fs-id1167066039727" alt="Ice water in a glass with a straw and lemon wedge.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_12_03_Drink.jpg"/>
+</media>
+<caption>The ice in this drink is slowly melting. Eventually, the components of the liquid will reach thermal equilibrium, as predicted by the second law of thermodynamics—that is, after heat transfers energy from the warmer liquid to the colder ice. (Jon Sullivan, PDPhoto.org)</caption>
+</figure>
+<para id="fs-id1167066141526">Another way of thinking about this is that it is impossible for any process to have, as its sole result, heat transferring energy from a cooler to a hotter object. Heat cannot transfer energy spontaneously from colder to hotter, because the entropy of the overall system would decrease.</para>
+
+<para id="fs-id1167064669962">Suppose we mix equal masses of water that are originally at two different temperatures, say  <m:math>
+ <m:mrow>
+  <m:mtext>20</m:mtext><m:mtext>.0 °C</m:mtext>
+ </m:mrow>
+</m:math> 
+ and  <m:math>
+ <m:mrow>
+  <m:mtext>40</m:mtext><m:mtext>.0 °C</m:mtext>
+ </m:mrow>
+</m:math> . The result will be water at an intermediate temperature of  <m:math>
+ <m:mrow>
+  <m:mtext>30</m:mtext><m:mtext>.0 °C</m:mtext>
+ </m:mrow>
+</m:math> . Three outcomes have resulted: entropy has increased, some energy has become unavailable to do work, and the system has become less orderly. Let us think about each of these results.</para>
+<para id="fs-id1167066058440">First, why has entropy increased? Mixing the two bodies of water has the same effect as the heat transfer of energy from the higher-temperature substance to the lower-temperature substance. The mixing decreases the entropy of the hotter water but increases the entropy of the colder water by a greater amount, producing an overall increase in entropy.</para>
+<para id="fs-id1167064752524">Second, once the two masses of water are mixed, there is no more temperature difference left to drive energy transfer by heat and therefore to do work. The energy is still in the water, but it is now <emphasis effect="italics">unavailable</emphasis> to do work.</para>
+<para id="fs-id1167064876566">Third, the mixture is less orderly, or to use another term, less structured. Rather than having two masses at different temperatures and with different distributions of molecular speeds, we now have a single mass with a broad distribution of molecular speeds, the average of which yields an intermediate temperature.</para>
+<para id="fs-id1167066154063">These three results—entropy, unavailability of energy, and disorder—not only are related but are, in fact, essentially equivalent. Heat transfer of energy from hot to cold is related to the tendency in nature for systems to become disordered and for less energy to be available for use as work.</para>
+
+
+
+<para id="fs-id1167065081544">Based on this law, what cannot happen? A cold object in contact with a hot one never spontaneously transfers energy by heat to the hot object, getting colder while the hot object gets hotter. Nor does a hot, stationary automobile ever spontaneously cool off and start moving. </para>
+<para id="fs-id1167062348098">Another example is the expansion of a puff of gas introduced into one corner of a vacuum chamber. The gas expands to fill the chamber, but it never regroups on its own in the corner. The random motion of the gas molecules could take them all back to the corner, but this is never observed to happen (<link target-id="Figure_12_03_Entropy"/>).</para>
+<figure id="Figure_12_03_Entropy">
+<media id="fs-id1167062971494" alt="In part (a), heat travels from a hotter box to a cooler box. In part (b), a car brakes and releases some heat to the environment. In part (c), a spray bottle releases a puff of air into a vacuum, where the molecules become evenly distributed.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_12_03_Entropy.jpg"/>
+</media>
+<caption>Examples of one-way processes in nature. (a) Heat transfer occurs spontaneously from hot to cold, but not from cold to hot. (b) The brakes of this car convert its kinetic energy to increase their internal energy (temperature), and heat transfers this energy to the environment. The reverse process is impossible. (c) The burst of gas released into this vacuum chamber quickly expands to uniformly fill every part of the chamber. The random motions of the gas molecules will prevent them from returning altogether to the corner.</caption>
+</figure>
+<para id="fs-id1167065857716">We've explained that heat never transfers energy spontaneously from a colder to a hotter object. The key word here is <emphasis effect="italics">spontaneously</emphasis>. If we <emphasis effect="italics">do work</emphasis> on a system, it <emphasis effect="italics">is</emphasis> possible to transfer energy by heat from a colder to hotter object. We'll learn more about this in the next section, covering refrigerators as one of the applications of the laws of thermodynamics.</para>
+<para id="fs-id1167065870908">Sometimes people misunderstand the second law of thermodynamics, thinking that based on this law, it is impossible for entropy to decrease at any particular location. But, it actually <emphasis effect="italics">is</emphasis> possible for the entropy of <emphasis effect="italics">one part</emphasis> of the universe to decrease, as long as the total change in entropy of the universe increases. In equation form, we can write this as</para>
+<para id="fs-id1167065897434"> <m:math display="block">
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:msub>
+   <m:mi>S</m:mi>
+   <m:mrow>
+    <m:mtext>tot</m:mtext>
+   </m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mi>Δ</m:mi><m:msub>
+   <m:mi>S</m:mi>
+   <m:mrow>
+    <m:mtext>syst</m:mtext>
+   </m:mrow>
+  </m:msub>
+  <m:mo>+</m:mo><m:mi>Δ</m:mi><m:msub>
+   <m:mi>S</m:mi>
+   <m:mrow>
+    <m:mtext>envir</m:mtext>
+   </m:mrow>
+  </m:msub>
+  <m:mo>&gt;</m:mo><m:mn>0</m:mn>
+<m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math> </para><para id="fs-id1167066170244">Based on this equation, we see that  <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:msub>
+   <m:mi>S</m:mi>
+   <m:mrow>
+    <m:mtext>syst</m:mtext>
+   </m:mrow>
+  </m:msub>
+
+ </m:mrow>
+</m:math>  can be negative as long as  <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:msub>
+   <m:mi>S</m:mi>
+   <m:mrow>
+    <m:mtext>envir</m:mtext>
+   </m:mrow>
+  </m:msub>
+
+ </m:mrow>
+</m:math>  is positive and greater in magnitude.</para>
+<para id="fs-id1167064784328">How is it possible for the entropy of a system to decrease? Energy transfer is necessary. If you pick up marbles that are scattered about the room and put them into a cup, your work has decreased the entropy of that system. If you gather iron ore from the ground and convert it into steel and build a bridge, your work has decreased the entropy of that system. Energy coming from the sun can decrease the entropy of local systems on Earth—that is,  <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:msub>
+   <m:mi>S</m:mi>
+   <m:mrow>
+    <m:mtext>syst</m:mtext>
+   </m:mrow>
+  </m:msub>
+
+ </m:mrow>
+</m:math>  is negative. But the overall entropy of the rest of the universe increases by a greater amount—that is,  <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:msub>
+   <m:mi>S</m:mi>
+   <m:mrow>
+    <m:mtext>envir</m:mtext>
+   </m:mrow>
+  </m:msub>
+
+ </m:mrow>
+</m:math>  is positive and greater in magnitude. In the case of the iron ore, although you made the system of the bridge and steel more structured, you did so at the expense of the universe. Altogether, the entropy of the universe is increased by the disorder created by digging up the ore and converting it to steel. Therefore,</para>
+<equation id="fs-id1164566508232"> <m:math display="block">
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:msub>
+   <m:mi>S</m:mi>
+   <m:mrow>
+    <m:mtext>tot</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mi>Δ</m:mi><m:msub>
+   <m:mi>S</m:mi>
+   <m:mrow>
+    <m:mtext>syst</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>+</m:mo><m:mi>Δ</m:mi><m:msub>
+   <m:mi>S</m:mi>
+   <m:mrow>
+    <m:mtext>envir</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow>
+</m:math> </equation><para id="fs-id1167065728367">and the second law of thermodynamics is <emphasis effect="italics">not</emphasis> violated.</para>
+<para id="fs-id1167065926298">Every time a plant stores some solar energy in the form of chemical potential energy, or an updraft of warm air lifts a soaring bird, Earth experiences local decreases in entropy as it uses part of the energy transfer from the sun into deep space to do work. There is a large total increase in entropy resulting from this massive energy transfer. A small part of this energy transfer by heat is stored in structured systems on Earth, resulting in much smaller, local decreases in entropy.</para>
+
+<note id="fs-id1167065034017" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167062971539"><span>[AL]</span> Ask students what would happen if the second law of thermodynamics were not true. What if the direction of flow of energy were not predictable? Would life on Earth be able to function?</para>
+</note>
+</section><section id="fs-id1167065820461">
+<title>Solving Problems Involving the Second Law of Thermodynamics</title>
+<para id="fs-id1167064869588">Entropy is related not only to the unavailability of energy to do work; it is also a measure of disorder. For example, in the case of a melting block of ice, a highly structured and orderly system of water molecules changes into a disorderly liquid, in which molecules have no fixed positions (<link target-id="Figure_12_03_IceGator"/>). There is a large increase in entropy for this process, as we'll see in the following worked example.</para><figure id="Figure_12_03_IceGator">
+<media id="fs-id1167064934071" alt="Ice frozen in the shape of an alligator pokes through the surface of the water.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_12_03_IceGator.jpg"/>
+</media>
+<caption>These ice floes melt during the Arctic summer. Some of them refreeze in the winter, but the second law of thermodynamics predicts that it would be extremely unlikely for the water molecules contained in these particular floes to reform in the distinctive alligator-like shape they possessed when this picture was taken in the summer of 2009. (Patrick Kelley, U.S. Coast Guard, U.S. Geological Survey)</caption>
+</figure>
+
+<note id="Worked_Example_12_03" class="worked-example">
+
+<title>Entropy Associated with Disorder</title>
+<exercise id="fs-id1167064799513" class="12-ex048 unnumbered"><label/>
+<problem id="fs-id1167065984366">
+<para id="fs-id1167065044287">Find the increase in entropy of 1.00 kg of ice that is originally at  <m:math>
+ <m:mrow>
+  <m:mtext>0 °C</m:mtext>
+ </m:mrow>
+</m:math> 
+ and melts to form water at  <m:math>
+ <m:mrow>
+  <m:mtext>0 °C</m:mtext>
+ </m:mrow>
+</m:math> .</para>
+
+<note id="fs-id1167063102214">
+<label/>
+<title>Strategy</title>
+<para id="fs-id1167065062086">The change in entropy can be calculated from the definition of  <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>S</m:mi>
+ </m:mrow>
+</m:math>  once we find the energy, <emphasis effect="italics">Q</emphasis>, needed to melt the ice.</para>
+</note>
+</problem>
+
+<solution id="fs-id1167062966062"><label/>
+<title>Solution</title>
+<para id="fs-id1167064896082">The change in entropy is defined as</para>
+<equation id="fs-id1164566522678"> <m:math display="block">
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>S</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mi>Q</m:mi>
+   <m:mi>T</m:mi>
+  </m:mfrac>
+<m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math> </equation>
+<para id="fs-id1167065866557">Here, <emphasis effect="italics">Q</emphasis> is the heat necessary to melt 1.00 kg of ice and is given by</para>
+<equation id="fs-id1164560820986"> <m:math display="block">
+ <m:mrow>
+  <m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:msub>
+   <m:mi>L</m:mi>
+   <m:mi>f</m:mi>
+  </m:msub>
+  <m:mtext>,</m:mtext>
+ </m:mrow>
+</m:math> </equation>
+<para id="fs-id1167065893600">where <emphasis effect="italics">m</emphasis> is the mass and  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>L</m:mi>
+   <m:mi>f</m:mi>
+  </m:msub>
+
+ </m:mrow>
+</m:math>  is the latent heat of fusion.  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>L</m:mi>
+   <m:mi>f</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mtext>334 kJ/kg</m:mtext>
+ </m:mrow>
+</m:math>  for water, so</para>
+<equation id="fs-id1164565282798"> <m:math display="block">
+ <m:mrow>
+  <m:mi>Q</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mtext>1</m:mtext><m:mtext>.00 kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mtext>334 kJ/kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3.34</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mn>5</m:mn>
+  </m:msup>
+  <m:mtext>J.</m:mtext>
+ </m:mrow>
+</m:math> </equation>
+<para id="fs-id1167065017767">Because <emphasis effect="italics">Q</emphasis> is the amount of energy heat adds to the ice, its value is positive, and <emphasis effect="italics">T </emphasis>is the melting temperature of ice,  <m:math>
+ <m:mrow>
+  <m:mi>T</m:mi><m:mo>=</m:mo><m:mtext>273 K</m:mtext>
+ </m:mrow>
+</m:math>  So the change in entropy is</para>
+<equation id="fs-id1164563431889"> <m:math display="block">
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>S</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mi>Q</m:mi>
+   <m:mi>T</m:mi>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>3.34</m:mn><m:mo>×</m:mo><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn>
+     </m:mrow>
+     <m:mn>5</m:mn>
+    </m:msup>
+    <m:mtext>J</m:mtext>
+   </m:mrow>
+   <m:mrow>
+    <m:mtext>273 K</m:mtext>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>1.22</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mn>3</m:mn>
+  </m:msup>
+  <m:mtext>J/K.</m:mtext>
+ </m:mrow>
+</m:math> </equation>
+</solution>
+<commentary id="fs-id1167065843318">
+<title>Discussion</title>
+<figure id="eip-idm334427536">
+<media id="fs-id1167065870145" alt="Ice is shown side-by-side with water. Ice has more structure, and water has more disorder. Water molecules are traveling in random directions, and the change in entropy is positive as melting occurs." display="block">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_12_03_Disorder_img.jpg"/>
+</media><caption>When ice melts, it becomes more disordered and less structured. The
+systematic arrangement of molecules in a crystal structure is replaced by a more
+random and less orderly movement of molecules without fixed locations or orientations.
+Its <emphasis effect="bold">entropy</emphasis> increases because heat transfer occurs into it. Entropy is a measure of
+disorder.</caption></figure>
+<para id="fs-id1167065865396">The change in entropy is positive, because heat transfers energy <emphasis effect="italics">into</emphasis> the ice to cause the phase change. This is a significant increase in entropy, because it takes place at a relatively low temperature. It is accompanied by an increase in the disorder of the water molecules.</para>
+</commentary>
+</exercise></note>
+</section>
+
+<section id="fs-id1167062379752" class="practice-problems">
+<title>Practice Problems</title>
+<exercise id="fs-id1167064749668">
+<problem id="fs-id1167065070057">
+<para id="fs-id1167065910602">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex049"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167062901002">
+<problem id="fs-id1167066039314">
+<para id="fs-id1167062325938">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex050"/>
+</para>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167066137169" class="check-understanding">
+<title>Check Your Understanding</title>
+<note id="fs-id1167064917338" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066122693">Use these questions to assess student achievement of the section's learning objectives. If students are struggling with a specific objective, these questions will help identify which and direct students to the relevant content.</para>
+</note>
+<exercise id="fs-id1167065768478" class="os-exercise">
+<problem id="fs-id1167065947839">
+<!--<para id="fs-id1167066023818">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex051"/>
+</para>-->
+<para id="fs-id1164559075748">What is entropy?</para>
+<list id="fs-id1164561331232" list-type="enumerated" number-style="lower-alpha">
+<item>Entropy is a measure of the potential energy of a system.</item>
+<item>Entropy is a measure of the net work done by a system.</item>
+<item>Entropy is a measure of the disorder of a system.</item>
+<item>Entropy is a measure of the heat transfer of energy into a system.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167065864894" class="os-exercise">
+<problem id="fs-id1167066138025">
+<!--<para id="fs-id1167064914357">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex052"/>
+</para>-->
+<para id="fs-id1164566493248">Which forms of energy can be used to do work?</para>
+<list id="fs-id1164565027993" list-type="enumerated" number-style="lower-alpha">
+<item>Only work is able to do work.</item>
+<item>Only heat is able to do work.</item>
+<item>Only internal energy is able to do work.</item>
+<item>Heat, work, and internal energy are all able to do work.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167063095366" class="os-exercise">
+<problem id="fs-id1167062351044">
+<para id="fs-id1167065010970">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex053"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065846557" class="os-exercise">
+<problem id="fs-id1167065937775">
+<!--<para id="fs-id1167065871813">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex054"/>
+</para>-->
+<para id="fs-id1164563466661">For heat transferring energy from a high to a low temperature, what usually happens to the entropy of the whole system?</para>
+<list id="fs-id1164564953226" list-type="enumerated" number-style="lower-alpha">
+<item>It decreases.</item>
+<item>It must remain constant.</item>
+<item>The entropy of the system cannot be predicted without specific values for the temperatures.</item>
+<item>It increases.</item>
+</list>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167065734596" class="summary">
+<title>Section Summary</title>
+<list id="fs-id1167065017523">
+<item>Entropy is a measure of a system's disorder: the greater the disorder, the larger the entropy.</item>
+<item>Entropy is also the reduced availability of energy to do work.</item>
+<item>The second law of thermodynamics states that, for any spontaneous process, the total entropy of a system either increases or remains constant; it never decreases.</item>
+<item>Heat transfers energy spontaneously from higher- to lower-temperature bodies, but never spontaneously in the reverse direction.</item>
+</list>
+</section>
+
+<section id="fs-id1167064529204" class="key-equations"><title>Key Equations</title><table id="fs-id1167062376778" class="unnumbered unstyled" summary="Table with two columns and one row. The first cell reads “Change in entropy,” with the right cell showing the equation entropy change as the quotient of the energy transferred by heat to or from a substance, divided by the absolute temperature of the substance.">
+<label/>
+<tgroup cols="2">
+<colspec colname="c1" colnum="1"/>
+<colspec colname="c2" colnum="2"/>
+<tbody>
+<row>
+<entry>change in entropy</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>S</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mi>Q</m:mi>
+   <m:mi>T</m:mi>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> 
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+
+
+
+<section id="fs-id1167065884154" class="concept"><title>Concept Items</title>
+<exercise id="fs-id1167064875350" class="os-exercise">
+<problem id="fs-id1167065837770">
+<!--<para id="fs-id1167066138802">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex055"/>
+</para>-->
+<para id="fs-id1164564926160">Air freshener is sprayed from a bottle. The molecules spread throughout the room and cannot make their way back into the bottle. Why is this the case?</para>
+<list id="fs-id1164565003378" list-type="enumerated" number-style="lower-alpha">
+<item>The entropy of the molecules increases.</item>
+<item>The entropy of the molecules decreases.</item>
+<item>The heat content (<emphasis effect="italics">enthalpy</emphasis>, or total energy available for heat) of the molecules increases.</item>
+<item>The heat content (<emphasis effect="italics">enthalpy</emphasis>, or total energy available for heat) of the molecules decreases.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067075836" class="os-exercise">
+<problem id="fs-id1167067098273">
+<!--<para id="fs-id1167062557077">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex056"/>
+</para>-->
+<para id="fs-id1164566436670">Give an example of entropy as experienced in everyday life.</para>
+<list id="fs-id1164562321644" list-type="enumerated" number-style="lower-alpha">
+<item>rotation of Earth</item>
+<item>formation of a solar eclipse</item>
+<item>filling a car tire with air</item>
+<item>motion of a pendulum bob</item>
+</list>
+</problem>
+</exercise>
+
+</section>
+<section id="fs-id1167066097025" class="critical-thinking">
+<title>Critical Thinking</title>
+<exercise id="fs-id1167064981393" class="os-exercise">
+<problem id="fs-id1167065001512">
+<!--<para id="fs-id1167065789223">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex057"/>
+</para>-->
+<para id="fs-id1164560918343">If an engine were constructed to perform such that there would be no losses due to friction, what would be its efficiency?</para><list id="fs-id1164566536281" list-type="enumerated" number-style="lower-alpha">
+<item>It would be 0 percent.</item>
+<item>It would be less than 100 percent.</item>
+<item>It would be 100 percent.</item>
+<item>It would be greater than 100 percent.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167063547306" class="os-exercise">
+<problem id="fs-id1167063530131">
+<!--<para id="fs-id1167064701862">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex058"/>
+</para>-->
+<para id="fs-id1164563571687">Entropy never decreases in a spontaneous process. Give an example to support this statement.</para>
+<list id="fs-id1164564941145" list-type="enumerated" number-style="lower-alpha">
+<item>The transfer of energy by heat from colder bodies to hotter bodies is a spontaneous process in which the entropy of the system of bodies increases.</item>
+<item>The melting of an ice cube placed in a room causes an increase in the entropy of the room.</item>
+<item>The dissolution of salt in water is a spontaneous process in which the entropy of the system increases.</item>
+<item>A plant uses energy from the sun and converts it into sugar molecules by the process of photosynthesis.</item>
+</list>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167064824415" class="multiple-choice"><title>Test Prep Multiple Choice</title><exercise id="fs-id1167065789672" class="os-exercise">
+<problem id="fs-id1167065734178">
+<para id="fs-id1167062867980">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex061"/></para>
+</problem></exercise>
+
+<exercise id="fs-id1167063509697" class="os-exercise">
+<problem id="fs-id1167067038805">
+<para id="fs-id1167064854718">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex062"/></para>
+</problem></exercise>
+
+<exercise id="fs-id1167067252425" class="os-exercise">
+<problem id="fs-id1167067149586">
+<para id="fs-id1167066023763">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex063"/></para>
+</problem>
+</exercise>
+
+<exercise id="eip-id1166847411233" class="os-exercise"><problem id="eip-id1166850011224"><para id="eip-idm359486048">
+Why does entropy increase during a spontaneous process?</para>
+<list id="eip-idm389514352" list-type="enumerated" number-style="lower-alpha">
+<item>Entropy increases because energy always transfers spontaneously from a dispersed state to a concentrated state.</item>
+<item>Entropy increases because energy always transfers spontaneously from a concentrated state to a dispersed state.</item>
+<item>Entropy increases because pressure always increases spontaneously.</item>
+<item>Entropy increases because temperature of any system always increases spontaneously.</item>
+</list>
+</problem>
+</exercise><exercise id="eip-id1166849875617" class="os-exercise">
+<problem id="eip-id1166849895051">
+<!--<para id="eip-id1166849691798">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch12-ot050"/>
+</para>-->
+<para id="fs-id1164562445572">A system consists of ice melting in a glass of water. What happens to the entropy of this system?</para>
+<list id="fs-id1164564875234" list-type="enumerated" number-style="lower-alpha">
+<item>The entropy of the ice decreases, while the entropy of the water cannot be predicted without more specific information.</item>
+<item>The entropy of the system remains constant.</item>
+<item>The entropy of the system decreases.</item>
+<item>The entropy of the system increases.</item>
+</list>
+</problem>
+</exercise></section><section id="fs-id1167064964419" class="short-answer">
+<title>Test Prep Short Answer</title>
+<exercise id="fs-id1167064769518" class="os-exercise">
+<problem id="fs-id1167065919699">
+<para id="fs-id1167065881200"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex064"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167063563117" class="os-exercise">
+<problem id="fs-id1167066832617">
+<!--<para id="fs-id1167065789388">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex065"/></para>-->
+<para id="fs-id1164562257638">Which sort of thermal energy do molecules in a solid possess?</para>
+<list id="fs-id1164564805654" list-type="enumerated" number-style="lower-alpha">
+<item>electric potential energy</item>
+<item>gravitational potential energy</item>
+<item>translational kinetic energy</item>
+<item>vibrational kinetic energy</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167066962983" class="os-exercise">
+<problem id="fs-id1167067142281">
+<para id="fs-id1167062509546">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex066"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167063443315" class="os-exercise">
+<problem id="fs-id1167067020194">
+<para id="fs-id1167065897701">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex067"/></para>
+</problem></exercise>
+<exercise id="fs-id1167067026492" class="os-exercise">
+<problem id="fs-id1167066954751">
+<!--<para id="fs-id1167065865834">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex068"/></para>-->
+<para id="fs-id1164564873396">What is the change in entropy caused by melting 5.00 kg of ice at 0 °C ?</para>
+<list id="fs-id1164561061602" list-type="enumerated" number-style="lower-alpha">
+<item>0 J/K</item>
+<item>6.11×10<sup>3</sup> J/K</item>
+<item>6.11×10<sup>4</sup> J/K</item>
+<item>∞J/K</item>
+</list>
+</problem></exercise>
+<exercise id="fs-id1167066856974" class="os-exercise">
+<problem id="fs-id1167066961992">
+<para id="fs-id1167065952627">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex069"/></para>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167065875451" class="extended-response">
+<title>Test Prep Extended Response</title>
+<exercise id="fs-id1167063416632" class="os-exercise">
+<problem id="fs-id1167063593748">
+<para id="fs-id1167066201006"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex070"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167067263871" class="os-exercise">
+<problem id="fs-id1167063634444">
+<para id="fs-id1167065017509"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex071"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167067023183" class="os-exercise">
+<problem id="fs-id1167063457285">
+<para id="fs-id1167065885963"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex072"/></para>
+</problem>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1167064922811">
+<term>entropy</term>
+<meaning id="fs-id1167065679445">measurement of a system's disorder and how much energy is not available to do work in a system</meaning>
+</definition>
+<definition id="fs-id1167065845287">
+<term>second law of thermodynamics</term>
+<meaning id="fs-id1167065974619">states that the total entropy of a system either increases or remains constant in any spontaneous process; it never decreases</meaning>
+</definition>
+</glossary>
+</document>

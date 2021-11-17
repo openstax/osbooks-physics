@@ -1,0 +1,1661 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Series Circuits</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54435</md:content-id>
+  <md:title>Series Circuits</md:title>
+  <md:abstract/>
+  <md:uuid>a03fcc71-a951-4ab2-94e5-42549d6c88e9</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167065927124" class="learning-objectives"><label/>
+<title>Section Learning Objectives</title>
+<para id="fs-id1167066029397">By the end of this section, you will be able to do the following:</para>
+<list id="fs-id1167065919038">
+<item>Interpret circuit diagrams and diagram basic circuit elements</item>
+<item>Calculate equivalent resistance of resistors in series and apply Ohm’s law to resistors in series and apply Ohm’s law to resistors in series</item>
+</list></note>
+
+<note id="fs-id1167065770777" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167060075315">The learning objectives in this section will help your students master the following standards:</para>
+<list id="fs-id1167066879586"><item>(5) Science concepts. The student knows the nature of forces in the physical world. The student is expected to:
+<list id="fs-id1167063754834"><item><span>(F)</span>
+<span>design. construct, and calculate in terms of current through, potential difference across, resistance of, and power used by electric circuit elements connected in both series and parallel combinations.</span></item>
+</list></item>
+</list><para id="fs-id1169317375393">In addition, the High School Physics Laboratory Manual addresses content in this section in the lab titled: Circuits, as well as the following standards</para><list id="fs-id1169313846678"><item>(5) Science concepts. The student knows the nature of forces in the physical world. The student is expected to:
+<list id="fs-id1169314312687">
+<item>
+<span>(F)</span>
+<span>design, construct, and calculate in terms of current through, potential difference across, resistance of, and power used by electric circuit elements connected in both series and parallel combinations.</span>
+</item>
+</list>
+</item>
+</list></note>
+<section id="keyterms"><title>Section Key Terms</title>
+<table id="fs-id1167062371638" class="unnumbered unstyled section-key-terms" summary="Section Key Terms is a one term box reading in parallel.">
+<label/>
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+<row>
+<entry>circuit diagram</entry>
+<entry>electric circuit</entry>
+<entry>equivalent resistance</entry>
+</row>
+<row>
+<entry>in series</entry>
+<entry>resistor</entry>
+<entry>steady state</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section><section id="fs-id1167062325716"><title>Electric Circuits and Resistors</title><para id="fs-id1167066085825">Now that we understand the concept of electric current, let’s see what we can do with it. As you are no doubt aware, the modern lifestyle relies heavily on electrical devices. These devices contain ingenious <term>electric circuits</term>, which are complete, closed pathways through which electric current flows. Returning to our water analogy, an electric circuit is to electric charge like a network of pipes is to water: The electric circuit guides electric charge from one point to the next, running the charge through various devices along the way to extract work or information.</para>
+<para id="fs-id1167066183240">Electric circuits are made from many materials and cover a huge range of sizes, as shown in <link target-id="Figure_19_02_Circuits"/>. Computers and cell phones contain electric circuits whose features can be as small as roughly a billionth of a meter (a nanometer, or  <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>−9</m:mn></m:mrow>
+  </m:msup>
+  <m:mtext>m</m:mtext></m:mrow>
+</m:math> ). The pathways that guide the current in these devices are made by ultraprecise chemical treatments of silicon or other semiconductors. Large power systems, on the other hand, contain electric circuits whose features are on the scale of meters. These systems carry such large electric currents that their physical dimensions must be relatively large.</para>
+
+<figure id="Figure_19_02_Circuits">
+<media id="fs-id1167065967352" alt="Part (a) shows a circuit board with a small “chip.” Part (b) shows a high-power electric power transmission station.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_19_02_circuits.jpg"/>
+</media>
+<caption>The photo on the left shows a <emphasis effect="italics">chip</emphasis> that contains complex integrated electric circuitry. Chips such as this are at the heart of devices such as computers and cell phones. The photograph on the right shows some typical electric circuitry required for high-power electric power transmission.</caption>
+</figure>
+
+<para id="fs-id1167065940814">The pathways that form electric circuits are made from a conducting material, normally a metal in macroscopic circuits. For example, copper wires inside your school building form the electrical circuits that power lighting, projectors, screens, speakers, etc. To represent an electric circuit, we draw <term>circuit diagrams</term>. We use lines and symbols to represent the elements in the circuit. A simple electric circuit diagram is shown on the left side of <link target-id="Figure_19_02_Circuit01"/>. On the right side is an analogous water circuit, which we discuss below.</para>
+
+<figure id="Figure_19_02_Circuit01">
+<media id="fs-id1167064564102" alt="Part (a) shows a circuit diagram with a zigzag line of a resistor, a battery, and current. Part (b) shows an analogous water circuit with a pump (similar to a battery) and a sand filter (similar to the resistor).">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_19_02_circuit01.jpg"/>
+</media>
+<caption>On the left is a circuit diagram showing a battery (in red), a resistor (black zigzag element), and the current <emphasis effect="italics">I</emphasis>. On the right is the analogous water circuit. The pump is like the battery, the sand filter is like the resistor, the water current is like the electrical current, and the reservoir is like the ground.</caption>
+</figure>
+
+<note id="fs-id1167064917233" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167062348140">Review the analogy between water flow and electric current to ensure that students understand it. To explain the analogy between pressure and voltage, compare water molecules compressed together under high pressure with electric charges compressed together under high voltage. Explain that the water pump increases the water pressure and that the battery increases the voltage. Other comparisons to discuss include the resistor versus the sand filter, and the ground versus the reservoir.</para>
+</note>
+
+<para id="fs-id1167066069244">There are many different symbols that scientists and engineers use in circuit diagrams, but we will focus on four main symbols: the wire, the battery or voltage source, resistors, and the ground. The thin black lines in the electric circuit diagram represent the pathway that the electric charge must follow. These pathways are assumed to be perfect conductors, so electric charge can move along these pathways without losing any energy. In reality, the wires in circuits are not perfect, but they come close enough for our purposes.</para>
+<para id="fs-id1167062339992">The zigzag element labeled <emphasis effect="italics">R</emphasis> is a <term>resistor</term>, which is a circuit element that provides a known resistance. Macroscopic resistors are often color coded to indicate their resistance, as shown in <link target-id="Figure_19_02_Resistors"/>.</para>
+
+<para id="fs-id1167064948476">The red element in <link target-id="Figure_19_02_Circuit01"/> is a battery, with its positive and negative terminals indicated; the longer line represents the positive terminal of the battery, and the shorter line represents the negative terminal. Note that the battery icon is not always colored red; this is done in <link target-id="Figure_19_02_Circuit01"/> just to make it easy to identify.</para>
+
+<para id="fs-id1167064649314">Finally, the element labeled <emphasis effect="italics">ground</emphasis> on the lower left of the circuit indicates that the circuit is connected to Earth, which is a large, essentially neutral object containing an infinite amount of charge. Among other things, the ground determines the potential of the negative terminal of the battery. Normally, the potential of the ground is defined to be zero:  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>V</m:mi>
+   <m:mrow>
+    <m:mtext>ground</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>≡</m:mo><m:mn>0</m:mn></m:mrow>
+</m:math> . This means that the entire lower wire in <link target-id="Figure_19_02_Resistors"/> is at a voltage of zero volts.</para>
+
+<figure id="Figure_19_02_Resistors">
+<media id="fs-id1167066183260" alt="Typical resistors of various color values are shown.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_19_02_resistors.jpg"/>
+</media>
+<caption>Some typical resistors. The color bands indicate the value of the resistance of each resistor.</caption>
+</figure>
+
+<para id="fs-id1167062441845">The electric current in <link target-id="Figure_19_02_Circuit01"/> is indicted by the blue line labeled <emphasis effect="italics">I</emphasis>. The arrow indicates the direction in which positive charge would flow in this circuit. Recall that, in metals, electrons are mobile charge carriers, so negative charges actually flow in the opposite direction around this circuit (i.e., counterclockwise). However, we draw the current to show the direction in which positive charge would move.</para>
+
+<para id="fs-id1167065915672">On the right side of <link target-id="Figure_19_02_Circuit01"/> is an analogous water circuit. Water at a higher pressure leaves the top of the pump, which is like charges leaving the positive terminal of the battery. The water travels through the pipe, like the charges traveling through the wire. Next, the water goes through a sand filter, which heats up as the water squeezes through. This step is like the charges going through the resistor. When charges flow through a resistor, they do work to heat up the resistor. After flowing through the sand filter, the water has converted its potential energy into heat, so it is at a lower pressure. Likewise, the charges exiting the resistor have converted their potential energy into heat, so they are at a lower voltage. Recall that voltage is just potential energy per charge. Thus, water pressure is analogous to electric potential energy (i.e., voltage). Coming back to the water circuit again, we see that the water returns to the bottom of the pump, which is like the charge returning to the negative terminal of the battery. The water pump uses a source of energy to pump the water back up to a high pressure again, giving it the pressure required to go through the circuit once more. The water pump is like the battery, which uses chemical energy to increase the voltage of the charge up to the level of the positive terminal.</para>
+
+<para id="fs-id1167062368676">The potential energy per charge at the positive terminal of the battery is the voltage rating of the battery. This voltage is like water pressure in the upper pipe. Just like a higher pressure forces water to move toward a lower pressure, a higher voltage forces electric charge to flow toward a lower voltage. The pump takes water at low pressure and does work on it, ejecting water at a higher pressure. Likewise, a battery takes charge at a low voltage, does work on it, and ejects charge at a higher voltage.</para>
+
+<para id="fs-id1167065931293">Note that the current in the water circuit of <link target-id="Figure_19_02_Circuit01"/> is the same throughout the circuit. In other words, if we measured the number of water molecules passing a cross-section of the pipe per unit time at any point in the circuit, we would get the same answer no matter where in the circuit we measured. The same is true of the electrical circuit in the same figure. The electric current is the same at all points in this circuit, including inside the battery and in the resistor. The electric current neither speeds up in the wires nor slows down in the resistor. This would create points where too much or too little charge would be bunched up. Thus, the current is the same at all points in the circuit shown in <link target-id="Figure_19_02_Circuit01"/>.</para>
+
+<para id="fs-id1167066000035">Although the current is the same everywhere in both the electric and water circuits, the voltage or water pressure changes as you move through the circuits. In the water circuit, the water pressure at the pump outlet stays the same until the water goes through the sand filter, assuming no energy loss in the pipe. Likewise, the voltage in the electrical circuit is the same at all points in a given wire, because we have assumed that the wires are perfect conductors. Thus, as indicated by the constant red color of the upper wire in <link target-id="Figure_19_02_Const_volt"/>, the voltage throughout this wire is constant at  <m:math>
+ <m:mrow>
+  <m:mi>V</m:mi><m:mo>=</m:mo><m:msub>
+   <m:mi>V</m:mi>
+   <m:mrow>
+    <m:mtext>battery</m:mtext></m:mrow>
+  </m:msub>
+  </m:mrow>
+</m:math> . The voltage then drops as you go through the resistor, but once you reach the blue wire, the voltage stays at its new level of  <m:math>
+ <m:mrow>
+  <m:mi>V</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow>
+</m:math>  all the way to the negative terminal of the battery (i.e., the blue terminal of the battery).</para>
+
+<figure id="Figure_19_02_Const_volt">
+<media id="fs-id1167065874664" alt="A circuit diagram showing a battery and resistor at constant voltage: V=Vbattery and V=Vground=0.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_19_02_consvolt.jpg"/>
+</media>
+<caption>The voltage in the red wire is constant at  <m:math>
+ <m:mrow>
+  <m:mi>V</m:mi><m:mo>=</m:mo><m:msub>
+   <m:mi>V</m:mi>
+   <m:mrow>
+    <m:mtext>battery</m:mtext></m:mrow>
+  </m:msub>
+  </m:mrow>
+</m:math>  from the positive terminal of the battery to the top of the resistor. The voltage in the blue wire is constant at  <m:math>
+ <m:mrow>
+  <m:mi>V</m:mi><m:mo>=</m:mo><m:msub>
+   <m:mi>V</m:mi>
+   <m:mrow>
+    <m:mtext>ground</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>0</m:mn></m:mrow>
+</m:math>  from the bottom of the resistor to the negative terminal of the battery.</caption>
+</figure>
+
+<note id="fs-id1167065033773" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167064818461">Explain that, as you descend through the resistor, the voltage decreases linearly from the battery voltage to zero.</para>
+</note>
+
+<para id="fs-id1167062549230">If we go from the blue wire through the battery to the red wire, the voltage increases from  <m:math>
+ <m:mrow>
+  <m:mi>V</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow>
+</m:math>
+ to  <m:math>
+ <m:mrow>
+  <m:mi>V</m:mi><m:mo>=</m:mo><m:msub>
+   <m:mi>V</m:mi>
+   <m:mrow>
+    <m:mtext>battery</m:mtext></m:mrow>
+  </m:msub>
+  </m:mrow>
+</m:math> . Likewise, if we go from the blue wire up through the resistor to the red wire, the voltage also goes from  <m:math>
+ <m:mrow>
+  <m:mi>V</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow>
+</m:math>  to  <m:math>
+ <m:mrow>
+  <m:mi>V</m:mi><m:mo>=</m:mo><m:msub>
+   <m:mi>V</m:mi>
+   <m:mrow>
+    <m:mtext>battery</m:mtext></m:mrow>
+  </m:msub>
+  </m:mrow>
+</m:math> . Thus, using Ohm’s law, we can write</para>
+<para id="fs-id1167065794851"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>V</m:mi>
+   <m:mrow>
+    <m:mtext>resistor</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>V</m:mi>
+   <m:mrow>
+    <m:mtext>battery</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mi>I</m:mi><m:mi>R</m:mi><m:mtext>.</m:mtext></m:mrow>
+</m:math>
+</para><para id="fs-id1167065825384">Note that  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>V</m:mi>
+   <m:mrow>
+    <m:mtext>resistor</m:mtext></m:mrow>
+  </m:msub>
+  </m:mrow>
+</m:math>  is measured from the bottom of the resistor to the top, meaning that the top of the resistor is at a higher voltage than the bottom of the resistor. Thus, current flows from the top of the resistor or higher voltage to the bottom of the resistor or lower voltage.</para>
+
+<note id="fs-id1167065071819" class="virtual-physics os-interactive"><title>Battery-Resistor Circuit</title>
+<media id="fs-id1167066103477" alt="This simulation shows how resistance, voltage, and current are related.">
+<iframe width="660" height="371.4" src="https://openstax.org/l/21batteryresist"/></media>
+<para id="eip-id1167067152016">Use this simulation to better understand how resistance, voltage, and current are related. The simulation shows a battery with a resistor connected between the terminals of the battery, as in the previous figure. You can modify the battery voltage and the resistance. The simulation shows how electrons react to these changes. It also shows the atomic cores in the resistor and how they are excited and heat up as more current goes through the resistor.</para>
+
+<para id="fs-id1167064910507">Draw the circuit diagram for the circuit, being sure to draw an arrow indicating the direction of the current. Now pick three spots along the wire. Without changing the settings, allow the simulation to run for 20 s while you count the number of electrons passing through that spot. Record the number on the circuit diagram. Now do the same thing at each of the other two spots in the circuit. What do you notice about the number of charges passing through each spot in 20 s? Remember that that current is defined as the rate that charges flow through the circuit. What does this mean about the current through the entire circuit?</para>
+
+<exercise id="fs-id1167064835479" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167066038726">
+<para id="fs-id1167065913056">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex034"/>
+</para>
+</problem>
+</exercise>
+</note><para id="fs-id1167065870957">Other possible circuit elements include capacitors and switches. These are drawn as shown on the left side of <link target-id="Figure_19_02_Circuit02"/>. A switch is a device that opens and closes the circuit, like a light switch. It is analogous to a valve in a water circuit, as shown on the right side of <link target-id="Figure_19_02_Circuit02"/>. With the switch open, no current passes through the circuit. With the switch closed, it becomes part of the wire, so the current passes through it with no loss of voltage.</para>
+
+<para id="fs-id1167064845494">The capacitor is labeled C on the left of <link target-id="Figure_19_02_Circuit02"/>. A capacitor in an electrical circuit is analogous to a flexible membrane in a water circuit. When the switch is closed in the circuit of <link target-id="Figure_19_02_Circuit02"/>, the battery forces electrical current to flow toward the capacitor, charging the upper capacitor plate with positive charge. As this happens, the voltage across the capacitor plates increases. This is like the membrane in the water circuit: When the valve is opened, the pump forces water to flow toward the membrane, making it stretch to store the excess water. As this happens, the pressure behind the membrane increases. </para>
+
+<para id="fs-id1167064747022">Now if we open the switch, the capacitor holds the voltage between its plates because the charges have nowhere to go. Likewise, if we close the valve, the water has nowhere to go and the membrane maintains the water pressure in the pipe between itself and the valve.</para>
+<para id="fs-id1167064802429">If the switch is closed for a long time in the electric circuit or if the valve is open for a long time in the water circuit, the current will eventually stop flowing because the capacitor or the membrane will have become completely charged. Each circuit is now in the <term>steady state</term>, which means that its characteristics do not change over time. In this case, the steady state is characterized by zero current, and this does not change as long as the switch or valve remains in the same position. In the steady state, no electrical current passes through the capacitor, and no water current passes through the membrane. The voltage difference between the capacitor plates will be the same as the battery voltage. In the water circuit, the pressure behind the membrane will be the same as the pressure created by the pump.</para>
+<para id="fs-id1167065850500">Although the circuit in <link target-id="Figure_19_02_Circuit02"/> may seem a bit pointless because all that happens when the switch is closed is that the capacitor charges up, it does show the capacitor’s ability to store charge. Thus, the capacitor serves as a reservoir for charge. This property of capacitors is used in circuits in many ways. For example, capacitors are used to power circuits while batteries are being charged. In addition, capacitors can serve as filters. To understand this, let’s go back to the water analogy. Suppose you have a water hose and are watering your garden. Your friend thinks he’s funny, and <emphasis effect="italics">kinks</emphasis> the hose. While the hose is kinked, you experience no water flow. When he lets go, the water starts flowing again. If he does this really fast, you experience water-no water-water-no water, and that’s really no way to water your garden. Now imagine that the hose is filling up a big bucket, and you are watering from the bottom of the bucket. As long as you had water in your bucket to begin with and your friend doesn’t kink the water hose for too long, you would be able to water your garden without the interruptions. Your friend kinking the water hose is <emphasis effect="italics">filtered</emphasis> by the big bucket’s supply of water, so it does not impact your ability to water the garden. We can think of the interruptions in the current (be it water or electrical current) as <emphasis effect="italics">noise</emphasis>. Capacitors act in an analogous way as the water bucket to help filter out the noise. Capacitors have so many uses that it is very rare to find an electronic circuit that does not include some capacitors. </para>
+
+<figure id="Figure_19_02_Circuit02">
+<media id="fs-id1167064937973" alt="Part (a) is a circuit diagram with a battery, switch, and capacitor. Part (b) is an analogous water circuit with a pump (like a battery), a valve (like a switch), and a stretchable membrane (like a capacitor).">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_19_02_circuit02.jpg"/>
+</media>
+<caption>On the left is an electrical circuit containing a battery, a switch, and a capacitor. On the left is the analogous water circuit with a pump, a valve, and a stretchable membrane. The pump is like the battery, the valve is like the switch, and the stretchable membrane is like the capacitor. When the switch is closed, electrical current flows as the capacitor charges and its voltage increases. Likewise in the water circuit, when the valve is open, water current flows as the stretchable membrane stretches and the water pressure behind it increases.</caption>
+</figure>
+
+<note id="fs-id1167066000723" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167062532881">Point out that, when the switch is open, no current flows, which differs from the water valve that allows current to flow when it is open. Explain that the pressure difference in the water <emphasis effect="italics">capacitor</emphasis> is supported by the membrane, which supplies a pressure to hold back the high-pressure water. Likewise, the capacitor provides a voltage to hold back the high-voltage charges.</para>
+</note>
+
+<note id="fs-id1167066156463" class="work-in-physics"><title>What It Takes to be an Electrical Engineer</title>
+
+<para id="fs-id1167064748954">Physics is used in a wide variety of fields. One field that requires a very thorough knowledge of physics is electrical engineering. An electrical engineer can work on anything from the large-scale power systems that provide power to big cities to the nanoscale electronic circuits that are found in computers and cell phones (<link target-id="Figure_19_02_EE"/>).</para>
+<para id="fs-id1167065946134">In working with power companies, you can be responsible for maintaining the power grid that supplies electrical power to large areas. Although much of this work is done from an office, it is common to be called in for overtime duty after storms or other natural events. Many electrical engineers enjoy this part of the job, which requires them to race around the countryside repairing high-voltage transformers and other equipment. However, one of the more unpleasant aspects of this work is to remove the carcasses of unfortunate squirrels or other animals that have wandered into the transformers.</para>
+<para id="fs-id1167064579183">Other careers in electrical engineering can involve designing circuits for cell phones, which requires cramming some 10 billion transistors into an electronic chip the size of your thumbnail. These jobs can involve much work with computer simulations and can also involve fields other than electronics. For example, the 1-m-diameter lenses that are used to make these circuits (as of 2015) are so precise that they are shipped from the manufacture to the chip fabrication plant in temperature-controlled trucks to ensure that they are held within a certain temperature range. If they heat up or cool down too much, they deform ever so slightly, rendering them useless for the ultrahigh precision photolithography required to manufacture these chips.</para>
+<para id="fs-id1167065000455">In addition to a solid knowledge of physics, electrical engineers must above all be practical. Consider, for example, how one corporation managed to launch some anti-ballistic missiles at the White Sands Missile Test Range in New Mexico in the 1960s. Before launch, the skin of the missile had to be at the same voltage as the rail from which it was launched. The rail was connected to the ground by a large copper wire connected to a stake driven into the sandy earth. The missile, however, was connected by an umbilical cord to the equipment in the control shed a few meters away, which was grounded via a different grounding circuit. Before launching the missile, the voltage difference between the missile skin and the rail had to be less than 2.5 V. After an especially dry spell of weather, the missile could not be launched because the voltage difference stood at 5 V. A group of electrical engineers, including the father of your author, stood around pondering how to reduce the voltage difference. The situation was resolved when one of the engineers realized that urine contains electrolytes and conducts electricity quite well. With that, the four engineers quickly resolved the problem by urinating on the rail spike. The voltage difference immediately dropped to below 2.5 V and the missile was launched on schedule.</para><figure id="Figure_19_02_EE">
+<media id="fs-id1167065824249" alt="The left shows a microprocessor chip; the right shows a missile being launched.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_19_02_EE.jpg"/>
+</media>
+<caption>The systems that electrical engineers work on range from microprocessor circuits (left)] to missile systems (right).</caption>
+</figure></note>
+
+<note id="eip-id1167063573082" class="virtual-physics">
+  <media id="eip-id1167067027672" alt="This simulation provides you with various standard circuit elements, such as batteries, AC voltage sources, resistors, capacitors, light bulbs, switches, etc., with which to build your own circuits.">
+  <iframe width="660" height="371.4" src="https://openstax.org/l/21phetcirconstr"/></media>
+  <para id="fs-id1167065945137">Amuse yourself by building circuits of all different shapes and sizes. This simulation provides you with various standard circuit elements, such as batteries, AC voltage sources, resistors, capacitors, light bulbs, switches, etc. You can connect these in any configuration you like and then see the result.</para>
+
+<para id="fs-id1167066138991">Build a circuit that starts with a resistor connected to a capacitor. Connect the free side of the resistor to the positive terminal of a battery and the free side of the capacitor to the negative terminal of the battery. Click the <emphasis effect="italics">reset dynamics</emphasis> button to see how the current flows starting with no charge on the capacitor. Now right click on the resistor to change its value. When you increase the resistance, does the circuit reach the steady state more rapidly or more slowly?</para>
+
+<exercise id="fs-id1167064743610" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167064933184">
+<para id="fs-id1167064535020">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex035"/>
+</para>
+</problem>
+</exercise>
+</note></section><section id="fs-id1167066046532">
+<title>Resistors in Series and Equivalent Resistance</title>
+<para id="fs-id1167064901800">Now that we have a basic idea of how electrical circuits work, let’s see what happens in circuits with more than one circuit element. In this section, we look at resistors in series. Components connected <term>in series</term> are connected one after the other in the same branch of a circuit, such as the resistors connected in series on the left side of <link target-id="Figure_19_02_Circuit03"/>.</para>
+
+<figure id="Figure_19_02_Circuit03">
+<media id="fs-id1167062465567" alt="The left circuit diagram shows three resistors and a battery connected in series. The right circuit diagram shows one resistor that is equivalent to the combination of the three resistors shown on the left.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_19_02_circuit03.jpg"/>
+</media>
+<caption>On the left is an electric circuit with three resistors <emphasis effect="italics">R</emphasis><sub>1</sub>, <emphasis effect="italics">R</emphasis><sub>2</sub>, and <emphasis effect="italics">R</emphasis><sub>3</sub> connected in series. On the right is an electric circuit with one resistor <emphasis effect="italics">R</emphasis><sub>equiv</sub> that is equivalent to the combination of the three resistors <emphasis effect="italics">R</emphasis><sub>1</sub>, <emphasis effect="italics">R</emphasis><sub>2</sub>, and <emphasis effect="italics">R</emphasis><sub>3</sub>.</caption>
+</figure>
+
+<para id="fs-id1167065821410">We will now try to find a single resistance that is equivalent to the three resistors in series on the left side of <link target-id="Figure_19_02_Circuit03"/>. An <term>equivalent resistor</term> is a resistor that has the same resistance as the combined resistance of a set of other resistors. In other words, the same current will flow through the left and right circuits in <link target-id="Figure_19_02_Circuit03"/> if we use the equivalent resistor in the right circuit.</para>
+<para id="fs-id1167066057188">According to Ohm’s law, the voltage drop <emphasis effect="italics">V</emphasis> across a resistor when a current flows through it is  <m:math>
+ <m:mrow>
+  <m:mi>V</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>R</m:mi></m:mrow>
+</m:math>  where <emphasis effect="italics">I</emphasis> is the current in amperes (A) and <emphasis effect="italics">R</emphasis> is the resistance in ohms ( <m:math>
+ <m:mi>Ω</m:mi>
+</m:math> ). Another way to think of this is that <emphasis effect="italics">V</emphasis> is the voltage necessary to make a current <emphasis effect="italics">I</emphasis> flow through a resistance <emphasis effect="italics">R</emphasis>. Applying Ohm’s law to each resistor on the left circuit of <link target-id="Figure_19_02_Circuit03"/>, we find that the voltage drop across  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>  is  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>V</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mi>I</m:mi><m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>, that across  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>  is  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>V</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mi>I</m:mi><m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>, and that across  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>3</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>  is  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>V</m:mi>
+   <m:mn>3</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mi>I</m:mi><m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>3</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math> . The sum of these voltages equals the voltage output of the battery, that is</para>
+<equation id="fs-id1164567873139"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>V</m:mi>
+   <m:mrow>
+    <m:mtext>battery</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>V</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>V</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>V</m:mi>
+   <m:mn>3</m:mn>
+  </m:msub>
+  <m:mtext>.</m:mtext>
+  </m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1167066036066">You may wonder why voltages must add up like this. One way to understand this is to go once around the circuit and add up the successive changes in voltage. If you do this around a loop and get back to the starting point, the total change in voltage should be zero, because you end up at the same place that you started. To better understand this, consider the analogy of going for a stroll through some hilly countryside. If you leave your car and walk around, then come back to your car, the total height you gained in your stroll must be the same as the total height you lost, because you end up at the same place as you started. Thus, the gravitational potential energy you gain must be the same as the gravitational potential energy you lose. The same reasoning holds for voltage in going around an electric circuit. Let’s apply this reasoning to the left circuit in <link target-id="Figure_19_02_Circuit03"/>. We start just below the battery and move up through the battery, which contributes a voltage <emphasis effect="italics">gain</emphasis> of  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>V</m:mi>
+   <m:mrow>
+    <m:mtext>battery</m:mtext></m:mrow>
+  </m:msub>
+  </m:mrow>
+</m:math> . Next, we got through the resistors. The voltage <emphasis effect="italics">drops</emphasis> by  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>V</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>  in going through resistor  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>, by  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>V</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>  in going through resistor  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>, and by  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>V</m:mi>
+   <m:mn>3</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>  in going through resistor  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>3</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math> . After going through resistor  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>3</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>, we arrive back at the starting point, so we add up these four changes in voltage and set the sum equal to zero. This gives</para>
+<equation id="fs-id1164567906010"> <m:math display="block">
+ <m:mrow>
+  <m:mn>0</m:mn><m:mo>=</m:mo><m:msub>
+   <m:mi>V</m:mi>
+   <m:mrow>
+    <m:mtext>battery</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>−</m:mo><m:msub>
+   <m:mi>V</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>−</m:mo><m:msub>
+   <m:mi>V</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>−</m:mo><m:msub>
+   <m:mi>V</m:mi>
+   <m:mn>3</m:mn>
+  </m:msub>
+  <m:mtext>.</m:mtext>
+  </m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1167066123159">which is the same as the previous equation. Note that the minus signs in front of  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>V</m:mi>
+   <m:mtext>1</m:mtext>
+  </m:msub>
+  <m:mtext> ,</m:mtext><m:msub>
+   <m:mi>V</m:mi>
+   <m:mtext>2</m:mtext>
+  </m:msub>
+  <m:mtext> , and </m:mtext><m:msub>
+   <m:mi>V</m:mi>
+   <m:mn>3</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>  are because these are voltage <emphasis effect="italics">drops</emphasis>, whereas  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>V</m:mi>
+   <m:mrow>
+    <m:mtext>battery</m:mtext></m:mrow>
+  </m:msub>
+  </m:mrow>
+</m:math>  is a voltage <emphasis effect="italics">rise</emphasis>.</para>
+<para id="fs-id1167064979882">Ohm’s law tells us that  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>V</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mi>I</m:mi><m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>,  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>V</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mi>I</m:mi><m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>, and  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>V</m:mi>
+   <m:mn>3</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mi>I</m:mi><m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>3</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math> . Inserting these values into equation  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>V</m:mi>
+   <m:mrow>
+    <m:mtext>battery</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>V</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>V</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>V</m:mi>
+   <m:mn>3</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>  gives</para>
+<equation id="fs-id1164565417796"> <m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:msub>
+       <m:mi>V</m:mi>
+       <m:mrow>
+        <m:mtext>battery</m:mtext></m:mrow>
+      </m:msub>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mi>I</m:mi><m:msub>
+       <m:mi>R</m:mi>
+       <m:mn>1</m:mn>
+      </m:msub>
+      <m:mo>+</m:mo><m:mi>I</m:mi><m:msub>
+       <m:mi>R</m:mi>
+       <m:mn>2</m:mn>
+      </m:msub>
+      <m:mo>+</m:mo><m:mi>I</m:mi><m:msub>
+       <m:mi>R</m:mi>
+       <m:mn>3</m:mn>
+      </m:msub>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mi>I</m:mi><m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:msub>
+         <m:mi>R</m:mi>
+         <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo><m:msub>
+         <m:mi>R</m:mi>
+         <m:mn>2</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo><m:msub>
+         <m:mi>R</m:mi>
+         <m:mn>3</m:mn>
+        </m:msub>
+        </m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:mtext>.</m:mtext></m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable></m:mrow>
+</m:math> </equation>
+<para id="fs-id1167066121073">Applying this same logic to the right circuit in
+<link target-id="Figure_19_02_Circuit03"/> gives</para>
+<equation id="fs-id1164567368171"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>V</m:mi>
+   <m:mrow>
+    <m:mtext>battery</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mi>I</m:mi><m:msub>
+   <m:mi>R</m:mi>
+   <m:mrow>
+    <m:mtext>equiv.</m:mtext></m:mrow>
+  </m:msub>
+  </m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1167065012071">Dividing the equation  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>V</m:mi>
+   <m:mrow>
+    <m:mtext>battery</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mi>I</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msub>
+     <m:mi>R</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo><m:msub>
+     <m:mi>R</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo><m:msub>
+     <m:mi>R</m:mi>
+     <m:mn>3</m:mn>
+    </m:msub>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow></m:mrow>
+</m:math>  by  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>V</m:mi>
+   <m:mrow>
+    <m:mtext>battery</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mi>I</m:mi><m:msub>
+   <m:mi>R</m:mi>
+   <m:mrow>
+    <m:mtext>equiv</m:mtext></m:mrow>
+  </m:msub>
+  </m:mrow>
+</m:math>, we get</para>
+<equation id="fs-id1164565365747"> <m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:msub>
+         <m:mi>V</m:mi>
+         <m:mrow>
+          <m:mtext>battery</m:mtext></m:mrow>
+        </m:msub>
+        </m:mrow>
+       <m:mrow>
+        <m:msub>
+         <m:mi>V</m:mi>
+         <m:mrow>
+          <m:mtext>battery</m:mtext></m:mrow>
+        </m:msub>
+        </m:mrow>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mi>I</m:mi><m:mrow><m:mo>(</m:mo>
+         <m:mrow>
+          <m:msub>
+           <m:mi>R</m:mi>
+           <m:mn>1</m:mn>
+          </m:msub>
+          <m:mo>+</m:mo><m:msub>
+           <m:mi>R</m:mi>
+           <m:mn>2</m:mn>
+          </m:msub>
+          <m:mo>+</m:mo><m:msub>
+           <m:mi>R</m:mi>
+           <m:mn>3</m:mn>
+          </m:msub>
+          </m:mrow>
+        <m:mo>)</m:mo></m:mrow></m:mrow>
+       <m:mrow>
+        <m:mi>I</m:mi><m:msub>
+         <m:mi>R</m:mi>
+         <m:mrow>
+          <m:mtext>equiv</m:mtext></m:mrow>
+        </m:msub>
+        </m:mrow>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:msub>
+       <m:mi>R</m:mi>
+       <m:mrow>
+        <m:mtext>equiv</m:mtext></m:mrow>
+      </m:msub>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:msub>
+       <m:mi>R</m:mi>
+       <m:mn>1</m:mn>
+      </m:msub>
+      <m:mo>+</m:mo><m:msub>
+       <m:mi>R</m:mi>
+       <m:mn>2</m:mn>
+      </m:msub>
+      <m:mo>+</m:mo><m:msub>
+       <m:mi>R</m:mi>
+       <m:mn>3</m:mn>
+      </m:msub>
+      <m:mtext>.</m:mtext>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   </m:mtable></m:mrow>
+</m:math> </equation>
+<para id="fs-id1167066197380">This shows that the equivalent resistance for a series of resistors is simply the sum of the resistances of each resistor. In general, <emphasis effect="italics">N</emphasis> resistors connected in series can be replaced by an equivalent resistor with a resistance of</para>
+<equation id="fs-id1167065980770" class="unnumbered">
+<label/>
+ <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mrow>
+    <m:mtext>equiv</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>+</m:mo><m:mo>⋯</m:mo><m:mo>+</m:mo><m:msub>
+   <m:mi>R</m:mi>
+   <m:mi>N</m:mi>
+  </m:msub>
+  </m:mrow>
+  <m:mtext>.</m:mtext>
+</m:math> </equation>
+
+
+<note id="fs-id1167066059042" class="watch-physics"><title>Resistors in Series</title>
+
+<para id="fs-id1167065953237">This video discusses the basic concepts behind interpreting circuit diagrams and then shows how to calculate the equivalent resistance for resistors in series.</para>
+
+<media id="fs-id1167064688854" alt="no alt text" class="os-embed">
+<iframe width="660" height="371.1" src="https://www.openstax.org/l/02resistseries"/>
+</media>
+
+<exercise id="fs-id1167065052679" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167064743247">
+<!-- <para id="fs-id1167064743249">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex036"/>
+</para> -->
+<para id="fs-id1164567282410">True or false—In a circuit diagram, we can assume that the voltage is the same at every point in a given wire.</para>
+<list id="fs-id1164565351260" list-type="enumerated" number-style="lower-alpha">
+<item>false</item>
+<item>true</item>
+</list>
+</problem>
+</exercise>
+</note><note id="Worked_Example_19_02_01" class="worked-example"><title>Calculation of Equivalent Resistance</title><exercise id="fs-id1167062320943" class="19-ex037 unnumbered"><label/>
+<problem id="fs-id1167064895569">
+<para id="fs-id1167064895571">In the left circuit of the previous figure, suppose the voltage rating of the battery is 12 V, and the resistances are  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>1.0</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext><m:mo>,</m:mo><m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>6.0</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext><m:mo>,</m:mo><m:mtext>and</m:mtext><m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>3</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>13</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext>
+ </m:mrow>
+</m:math> . (a) What is the equivalent resistance? (b) What is the current through the circuit?</para>
+
+<note id="fs-id1167064871522">
+<label/><title>Strategy FOR (A)</title>
+<para id="fs-id1167065948271">Use the equation for the equivalent resistance of resistors connected in series. Because the circuit has three resistances, we only need to keep three terms, so it takes the form</para>
+<equation id="fs-id1164567265129"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mrow>
+    <m:mtext>equiv</m:mtext>
+   </m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>3</m:mn>
+  </m:msub>
+  <m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math>
+</equation></note>
+</problem>
+
+<solution id="fs-id1167064892782">
+<label/>
+<title>Solution for (a)</title>
+<para id="fs-id1167065877702">Inserting the given resistances into the equation above gives</para>
+<equation id="fs-id1164567399774"> <m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:msub>
+       <m:mi>R</m:mi>
+       <m:mrow>
+        <m:mtext>equiv</m:mtext></m:mrow>
+      </m:msub>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:msub>
+       <m:mi>R</m:mi>
+       <m:mn>1</m:mn>
+      </m:msub>
+      <m:mo>+</m:mo><m:msub>
+       <m:mi>R</m:mi>
+       <m:mn>2</m:mn>
+      </m:msub>
+      <m:mo>+</m:mo><m:msub>
+       <m:mi>R</m:mi>
+       <m:mn>3</m:mn>
+      </m:msub>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>1.0</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext><m:mo>+</m:mo><m:mn>6.0</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext><m:mo>+</m:mo><m:mn>13</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext></m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>20</m:mn><m:mspace width="0.3em"/><m:mtext>Ω.</m:mtext></m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable></m:mrow>
+</m:math> </equation></solution>
+
+<commentary id="fs-id1167065768629">
+<title>Discussion for (a)</title>
+<para id="fs-id1167062411021">We can thus replace the three resistors  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>,</m:mo><m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>,</m:mo><m:mtext>and</m:mtext><m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>3</m:mn>
+  </m:msub>
+
+ </m:mrow>
+</m:math>  with a single 20- <m:math>
+ <m:mtext>Ω</m:mtext>
+</m:math>  resistor.</para>
+</commentary>
+</exercise>
+
+
+<exercise id="fs-id1167067055717" class="unnumbered">
+<label/>
+<problem id="fs-id1167067210499">
+<label/>
+<note id="fs-id1167065847994">
+<label/><title>Strategy FOR (B)</title>
+<para id="fs-id1167065873757">Apply Ohm’s law to the circuit on the right side of the previous figure with the equivalent resistor of 20  <m:math>
+ <m:mtext>Ω</m:mtext>
+</m:math> .
+</para></note>
+</problem>
+
+<solution id="fs-id1167065763552">
+<label/>
+<title>Solution for (b)</title>
+<para id="fs-id1167065763558">The voltage drop across the equivalent resistor must be the same as the voltage rise in the battery. Thus, Ohm’s law gives</para>
+<equation id="fs-id1164565568933"> <m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:msub>
+       <m:mi>V</m:mi>
+       <m:mrow>
+        <m:mtext>battery</m:mtext></m:mrow>
+      </m:msub>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mi>I</m:mi><m:msub>
+       <m:mi>R</m:mi>
+       <m:mrow>
+        <m:mtext>equiv</m:mtext></m:mrow>
+      </m:msub>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mi>I</m:mi>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:msub>
+         <m:mi>V</m:mi>
+         <m:mrow>
+          <m:mtext>battery</m:mtext></m:mrow>
+        </m:msub>
+        </m:mrow>
+       <m:mrow>
+        <m:msub>
+         <m:mi>R</m:mi>
+         <m:mrow>
+          <m:mtext>equiv</m:mtext></m:mrow>
+        </m:msub>
+        </m:mrow>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mn>12</m:mn><m:mspace width="0.3em"/><m:mtext>V</m:mtext></m:mrow>
+       <m:mrow>
+        <m:mn>20</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext></m:mrow>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>0.60</m:mn><m:mspace width="0.3em"/><m:mtext>A.</m:mtext></m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable></m:mrow>
+</m:math> </equation></solution>
+
+<commentary id="fs-id1167067026935">
+<title>Discussion for (b)</title>
+<para id="fs-id1167067307805">To check that this result is reasonable, we calculate the voltage drop across each resistor and verify that they add up to the voltage rating of the battery. The voltage drop across each resistor is</para>
+<equation id="fs-id1164565364538"> <m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:msub>
+       <m:mi>V</m:mi>
+       <m:mn>1</m:mn>
+      </m:msub>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mi>I</m:mi><m:msub>
+       <m:mi>R</m:mi>
+       <m:mn>1</m:mn>
+      </m:msub>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mn>0.60</m:mn><m:mspace width="0.3em"/><m:mtext>A</m:mtext></m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mn>1.0</m:mn><m:mi>Ω</m:mi></m:mrow>
+      <m:mo>)</m:mo></m:mrow></m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>0.60</m:mn><m:mspace width="0.3em"/><m:mtext>V</m:mtext></m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:msub>
+       <m:mi>V</m:mi>
+       <m:mn>2</m:mn>
+      </m:msub>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mi>I</m:mi><m:msub>
+       <m:mi>R</m:mi>
+       <m:mn>2</m:mn>
+      </m:msub>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mn>0.60</m:mn><m:mspace width="0.3em"/><m:mtext>A</m:mtext></m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mn>6.0</m:mn><m:mi>Ω</m:mi></m:mrow>
+      <m:mo>)</m:mo></m:mrow></m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>3.6</m:mn><m:mspace width="0.3em"/><m:mtext>V</m:mtext></m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:msub>
+       <m:mi>V</m:mi>
+       <m:mn>3</m:mn>
+      </m:msub>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mi>I</m:mi><m:msub>
+       <m:mi>R</m:mi>
+       <m:mn>3</m:mn>
+      </m:msub>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mn>0.60</m:mn><m:mspace width="0.3em"/><m:mtext>A</m:mtext></m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mn>13</m:mn><m:mi>Ω</m:mi></m:mrow>
+      <m:mo>)</m:mo></m:mrow></m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>7.8</m:mn><m:mspace width="0.3em"/><m:mtext>V.</m:mtext></m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable></m:mrow>
+</m:math> </equation>
+<para id="fs-id1167061216404">Adding these voltages together gives</para>
+<equation id="fs-id1164566103017"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>V</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>V</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>V</m:mi>
+   <m:mn>3</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>0.60</m:mn><m:mspace width="0.3em"/><m:mtext>V</m:mtext><m:mo>+</m:mo><m:mn>3.6</m:mn><m:mspace width="0.3em"/><m:mtext>V</m:mtext><m:mo>+</m:mo><m:mn>7.8</m:mn><m:mspace width="0.3em"/><m:mtext>V</m:mtext><m:mo>=</m:mo><m:mn>12</m:mn><m:mspace width="0.3em"/><m:mtext>V.</m:mtext>
+ </m:mrow>
+</m:math>
+</equation><para id="fs-id1167061391607">which is the voltage rating of the battery.</para>
+</commentary>
+</exercise>
+</note><note id="Worked_Example_19_02_02" class="worked-example"><title>Determine the Unknown Resistance</title>
+
+
+<exercise id="fs-id1167064543308" class="19-ex038 unnumbered"><label/>
+<problem id="fs-id1167064543313">
+<para id="fs-id1167065880329">The circuit shown in figure below contains three resistors of known value and a third element whose resistance  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>3</m:mn>
+  </m:msub>
+
+ </m:mrow>
+</m:math>  is unknown. Given that the equivalent resistance for the entire circuit is 150  <m:math>
+ <m:mtext>Ω</m:mtext>
+</m:math>, what is the resistance  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>3</m:mn>
+  </m:msub>
+
+ </m:mrow>
+</m:math> ?</para>
+
+<media id="fs-id1167065741679" alt="A circuit diagram shows a battery and four resistors; only the resistances of three of the resistors are given." display="block">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_19_02_BBresistor_img.jpg"/>
+</media>
+
+<note id="fs-id1167065081431">
+<label/><title>Strategy</title>
+<para id="fs-id1167065945971">The four resistances in this circuit are connected in series, so we know that they must add up to give the equivalent resistance. We can use this to find the unknown resistance  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>3</m:mn>
+  </m:msub>
+
+ </m:mrow>
+</m:math>
+.</para>
+</note>
+</problem>
+<solution id="fs-id1167064996710"><label/><title>Solution</title>
+<para id="fs-id1167064695519">For four resistances in series, the equation for the equivalent resistance of resistors in series takes the form</para>
+<equation id="fs-id1164567163363"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mrow>
+    <m:mtext>equiv</m:mtext>
+   </m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>3</m:mn>
+  </m:msub>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>4</m:mn>
+  </m:msub>
+  <m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1167062950198">Solving for <emphasis effect="italics">R</emphasis>3 and inserting the known values gives</para>
+<equation id="fs-id1164567805866"> <m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:msub>
+       <m:mi>R</m:mi>
+       <m:mn>3</m:mn>
+      </m:msub>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:msub>
+       <m:mi>R</m:mi>
+       <m:mrow>
+        <m:mtext>equiv</m:mtext></m:mrow>
+      </m:msub>
+      <m:mo>−</m:mo><m:msub>
+       <m:mi>R</m:mi>
+       <m:mn>1</m:mn>
+      </m:msub>
+      <m:mo>−</m:mo><m:msub>
+       <m:mi>R</m:mi>
+       <m:mn>2</m:mn>
+      </m:msub>
+      <m:mo>−</m:mo><m:msub>
+       <m:mi>R</m:mi>
+       <m:mn>4</m:mn>
+      </m:msub>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>150</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext><m:mo>−</m:mo><m:mn>10</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext><m:mo>−</m:mo><m:mn>25</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext><m:mo>−</m:mo><m:mn>15</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext></m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>100</m:mn><m:mspace width="0.3em"/><m:mtext>Ω.</m:mtext></m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable></m:mrow>
+</m:math> </equation></solution>
+<commentary id="fs-id1167064767206">
+<title>Discussion</title>
+<para id="fs-id1167064767212">The equivalent resistance of a circuit can be measured with an ohmmeter. This is sometimes useful for determining the effective resistance of elements whose resistance is not marked on the element.</para>
+</commentary>
+</exercise></note></section>
+
+<section id="fs-id1167064993429" class="check-understanding">
+<title>Check your Understanding</title>
+<exercise id="fs-id1167066156473" class="os-exercise"><problem id="fs-id1167064746349">
+<figure id="fs-id1164567636290">
+<media id="fs-id1164568073880" alt="An image is shown with a continuous line. The line starts out straight and black, becomes red and up and down pointed, and goes back to straight and black.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_19_02_ex41_img.jpg"/>
+</media>
+<caption/>
+</figure>
+<para id="fs-id1164568046416">What circuit element is represented in the figure above?</para><list id="fs-id1164567375832" list-type="enumerated" number-style="lower-alpha">
+<item>a battery</item>
+<item>a resistor</item>
+<item>a capacitor</item>
+<item>an inductor</item>
+</list>
+</problem>
+</exercise><exercise id="fs-id1167066160358" class="os-exercise">
+<problem id="fs-id1167066160362">
+<para id="fs-id1167064893748">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex042"/>
+</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167065913710" class="summary">
+<title>Section Summary</title>
+<list id="fs-id1167062511509">
+<item>Circuit diagrams are schematic representations of electric circuits.</item>
+<item>Resistors in series are resistors that are connected head to tail.</item>
+<item>The same current runs through all resistors in series; however, the voltage drop across each resistor can be different.</item>
+<item>The voltage is the same at every point in a given wire.</item>
+</list>
+</section>
+
+<section id="fs-id1167067140759" class="key-equations"><title>Key Equations</title><table id="fs-id1167066165888" class="unnumbered unstyled" summary="Table with two columns and one row, providing the equation for the equivalent resistance of N resistors connected in series.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" align="left" colname="c1"/>
+<colspec colnum="2" align="left" colname="c2"/>
+<tbody>
+<row>
+<entry>the equivalent resistance of <emphasis effect="italics">N</emphasis> resistors connected in series</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mrow>
+    <m:mtext>equiv</m:mtext>
+   </m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>+</m:mo><m:mo>⋯</m:mo><m:mo>+</m:mo><m:msub>
+   <m:mi>R</m:mi>
+   <m:mi>N</m:mi>
+  </m:msub>
+
+ </m:mrow>
+</m:math>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+
+<section id="fs-id1167066039903" class="concept"><title>Concept Items</title><exercise id="fs-id1167065911680" class="os-exercise"><problem id="fs-id1167064706008">
+<para id="fs-id1167064706010">In which circuit are all the resistors connected in series?
+</para>
+<list id="eip-idm368533184" list-type="enumerated" number-style="lower-alpha"><item><media id="eip-idm365187904" alt="Circuit has three vertical resistors connected in a line.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_19_02_series1_SM_img.jpg"/>
+</media></item>
+<item><media id="eip-idm212233440" alt="Circuit has two vertical resistors connected in line and a third resistor connected across the line between the two resistors.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_19_02_series2_SM_img.jpg"/>
+</media></item>
+<item><media id="eip-idm216167456" alt="Circuit has one resistor connected to a pair of two horizontal resistors, which are connected on both ends.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_19_02_series3_SM_img.jpg"/>
+</media></item>
+<item><media id="eip-idm216165968" alt="Circuit has three resistors in a horizontal line, and all are connected on both ends.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_19_02_series4_SM_img.jpg"/>
+</media></item></list></problem>
+</exercise><exercise id="eip-id1166849370147" class="os-exercise"><problem id="eip-id1166849904490">
+<!--<para id="eip-id1166849904492">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ot042"/>
+</para>-->
+<para id="eip-idm339465024">What is the voltage and current through the capacitor in the circuit below a long time after the switch is closed?</para>
+<media id="fs-id1169831865779" alt="The figure shows a circuit with an open switch with one end connected to a capacitor. The other end of the capacitor is connected to the negative terminal of a 10-volt voltage source. The positive terminal of the voltage source is connected to the other end of the open switch. The connection between the capacitor and voltage source is also connected to the ground.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_19_02_opencircui_img.jpg"/>
+</media>
+<list id="fs-id1169831706383" list-type="enumerated" number-style="lower-alpha">
+<item>0 V, 0 A</item>
+<item>0 V, 10 A</item>
+<item>10 V, 0 A</item>
+<item>10 V, 10 A</item>
+</list>
+</problem>
+</exercise></section><section id="fs-id1167065947682" class="critical-thinking"><title>Critical Thinking</title>
+<exercise id="fs-id1167066202869" class="os-exercise">
+<problem id="fs-id1167064688338">
+<!-- <para id="fs-id1167064688340">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex046"/>
+</para> -->
+<para id="fs-id1164567342301">Given three batteries (5V, 9V, 12V) and five resistors (10, 20, 30, 40, 50Ω) to choose from, what can you choose to form a circuit diagram with a current of 0.175A? You do not need to use all of the components.</para>
+<list id="fs-id1164565539053" list-type="enumerated" number-style="lower-alpha">
+<item>Batteries (5V, 9V) and resistors (30Ω, 50Ω) connected in series</item>
+<item>Batteries (5V4, 12V) and resistors (10Ω, 20Ω, 40Ω, and 50Ω) connected in series.</item>
+<item>Batteries (5V, 9V, and 12V) and resistors (10Ω, 20Ω, and 30Ω) connected in series.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-id1166850202200" class="os-exercise">
+<problem id="eip-id1166849948410">
+<para id="eip-id1166847361965">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ot030"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166847299978" class="os-exercise"><problem id="eip-id1166850075480">
+<para id="eip-id1166850192711">Rank the points A, B, C, and D in the circuit diagram from lowest voltage to highest voltage.
+
+
+<media id="eip-idm366511072" alt="The figure shows a circuit with four points labeled A, B, D, and C in clockwise direction. Between points A and B is a voltage of 5 volts with the negative terminal connected to point A. Between points B and D is a resistor of 500 ohms. Between points D and C is a voltage of 24 volts with negative terminal connected to point D and ground. Finally, between points C and A is a resistor of 300 ohms.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_19_02_ABCDcircui_img.jpg"/>
+</media></para>
+
+<list id="eip-idm368876080" list-type="enumerated" number-style="lower-alpha">
+<item>A, B, C, D</item>
+<item>B, C, A, D</item>
+<item>C, B, A, D</item>
+<item>D, A, B, C</item>
+</list>
+</problem>
+</exercise></section><section id="fs-id1167066032507" class="problems">
+<title>Problems</title>
+<exercise id="fs-id1167062414094" class="os-exercise">
+<problem id="fs-id1167064945403">
+<!-- <para id="fs-id1167064945405">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex043"/>
+</para> -->
+<para id="fs-id1169832014655">What is the voltage drop across two 80-Ω resistors connected in series with 0.15 A flowing through them?</para>
+<list id="fs-id1169832014657" list-type="enumerated" number-style="lower-alpha">
+<item>12 V</item>
+<item>24 V</item>
+<item>36 V</item>
+<item>48 V</item></list>
+</problem>
+</exercise>
+<exercise id="fs-id1167064695191" class="os-exercise"><problem id="fs-id1167064695195">
+<para id="fs-id1167065086403">In this circuit, the voltage drop across the upper resistor is 4.5 V. What is the battery voltage?
+
+<media id="eip-idm206570048" alt="The figure shows a rectangular circuit with a battery and two resistors connected in series. The battery is located on the left-hand segment of the circuit, a 30-ohm resistor is located on the upper segment, and a 50-ohm resistor is located on the right-hand segment of the circuit.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_19_02_ex44_img.jpg"/>
+</media></para>
+
+<list id="eip-idm210005744" list-type="enumerated" number-style="lower-alpha">
+<item>4.5V</item>
+<item>7.5V</item>
+<item>12V</item>
+<item>18V</item>
+</list>
+</problem>
+</exercise></section>
+
+<section id="fs-id1167062577214" class="multiple-choice"><title>Test Prep Multiple Choice</title>
+<exercise id="fs-id1167065949186" class="os-exercise"><problem id="fs-id1167065891910">
+<!--<para id="fs-id1167065891912">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex047"/>
+</para>-->
+<para id="fs-id1164567625313">What does the circuit element shown represent?</para>
+<media id="fs-id1164567119435" alt="The figure shows a symbol with one vertical line connected to a horizontal line. The horizontal line has a short line under it, which in turn has another shorter line under it.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_19_02_ex47_img.jpg"/>
+</media>
+<list id="fs-id1164566030132" list-type="enumerated" number-style="lower-alpha">
+<item>a battery</item>
+<item>a capacitor</item>
+<item>the ground</item>
+<item>a switch</item>
+</list>
+</problem>
+</exercise><exercise id="fs-id1167065894489" class="os-exercise">
+<problem id="fs-id1167064706491">
+<!--<para id="fs-id1167064706493">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex048"/>
+</para>-->
+<para id="fs-id1169831981190">How many 10-Ω resistors must be connected in series to make an equivalent resistance of 80 Ω?</para>
+<list id="fs-id1169831880810" list-type="enumerated" number-style="lower-alpha">
+<item>80</item>
+<item>8</item>
+<item>20</item>
+<item>40</item></list>
+</problem>
+</exercise>
+<exercise id="eip-id1166848792362" class="os-exercise"><problem id="eip-id1166848792366">
+<!--<para id="eip-id1166851220047">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ot035"/>
+</para>-->
+<para id="fs-id1164567496357">Which two circuit elements are represented in the circuit diagram?</para>
+<media id="fs-id1164564289171" alt="The figure shows two circuit elements connected to each other. The first element is represented by two parallel lines, and the second element is represented by a wiggly line.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_19_02_capacresis_img.jpg"/>
+</media>
+<list id="fs-id1164566048347" list-type="enumerated" number-style="lower-alpha">
+<item>a battery connected in series with an inductor</item>
+<item>a capacitor connected in series with a resistor</item>
+<item>a resistor connected in series with a battery</item>
+<item>an inductor connected in series with a resistor</item>
+</list>
+</problem>
+</exercise><exercise id="eip-id1166851225351" class="os-exercise">
+<problem id="eip-id1166851225355">
+<!--<para id="eip-id1166848665764">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ot036"/>
+</para>-->
+<para id="fs-id1164567303454">How much current will flow through a 10-V battery with a 100-Ω resistor connected across its terminals?</para>
+<list id="fs-id1164567987757" list-type="enumerated" number-style="lower-alpha">
+<item>0.1 A</item>
+<item>1.0 A</item>
+<item>0</item>
+<item>1,000 A</item>
+</list>
+</problem>
+</exercise></section><section id="fs-id1167065941590" class="short-answer">
+<title>Test Prep Short Answer</title>
+<exercise id="fs-id1167065885455" class="os-exercise">
+<problem id="fs-id1167064620021">
+<!-- <para id="fs-id1167064620023">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex049"/>
+</para> -->
+<para id="fs-id1169831962055">Given a circuit with one 9-V battery and with its negative terminal connected to ground. The two paths are connected to ground from the positive terminal: the right path with a 20-Ω and a 100-Ω resistor and the left path with a 50-Ω resistor. How much current will flow in the right branch?</para><list id="fs-id1169831860251" list-type="enumerated" number-style="lower-alpha">
+<item> <m:math display="block">
+ <m:mrow>
+  <m:mfrac>
+   <m:mtext>9</m:mtext>
+   <m:mrow>
+    <m:mtext>120</m:mtext>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</item>
+<item> <m:math display="block">
+ <m:mrow>
+  <m:mfrac>
+   <m:mtext>9</m:mtext>
+   <m:mrow>
+    <m:mtext>100</m:mtext>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </item>
+<item> <m:math display="block">
+ <m:mrow>
+  <m:mfrac>
+   <m:mtext>9</m:mtext>
+   <m:mrow>
+    <m:mtext>50</m:mtext>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</item>
+<item> <m:math display="block">
+ <m:mrow>
+  <m:mfrac>
+   <m:mtext>9</m:mtext>
+   <m:mrow>
+    <m:mtext>20</m:mtext>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</item></list>
+</problem>
+</exercise>
+<exercise id="fs-id1167066145902" class="os-exercise">
+<problem id="fs-id1167064951293">
+<para id="fs-id1167064951295">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex050"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167062892582" class="os-exercise">
+<problem id="fs-id1167062299460">
+<para id="fs-id1167062299462">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex051"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167066036933" class="os-exercise">
+<problem id="fs-id1167066036937">
+<para id="fs-id1167062342766">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex052"/>
+</para>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167064598316" class="extended-response">
+<title>Test Prep Extended Response</title>
+<exercise id="fs-id1167064540997" class="os-exercise">
+<problem id="fs-id1167062867837">
+<para id="fs-id1167062867839">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex053"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167066142440" class="os-exercise">
+<problem id="fs-id1167066142444">
+<para id="fs-id1169831834947">What is the current through each resistor in the circuit?</para>
+<media id="fs-id1169828589258" alt="The figure shows a circuit with five vertical branches connected at the top and bottom. The bottom is also connected to ground. From left to right, the branch elements are 50-ohm R 1, 80-ohm R 2, 24-volt voltage source, 20-ohm R 3, and 100-ohm R 4, respectively.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_19_03_ex54_img.jpg"/>
+</media>
+<!-- <para id="fs-id1167064572317">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex054"/>
+</para> -->
+<list id="fs-id1169831705145" list-type="enumerated" number-style="lower-alpha"><item>Current through resistors <emphasis effect="italics">R</emphasis><sub>1</sub>, <emphasis effect="italics">R</emphasis><sub>2</sub>, <emphasis effect="italics">R</emphasis><sub>3</sub>, and <emphasis effect="italics">R</emphasis><sub>4</sub> is 0.48 A, 0.30 A, 1.2 A, and 0.24 A, respectively.</item>
+<item>Current through resistors <emphasis effect="italics">R</emphasis><sub>1</sub>, <emphasis effect="italics">R</emphasis><sub>2</sub>, <emphasis effect="italics">R</emphasis><sub>3</sub>, and <emphasis effect="italics">R</emphasis><sub>4</sub> is 1200 A, 1920 A, 480 A, and 2400 A, respectively.</item>
+<item>Current through resistors <emphasis effect="italics">R</emphasis><sub>1</sub>, <emphasis effect="italics">R</emphasis><sub>2</sub>, <emphasis effect="italics">R</emphasis><sub>3</sub>, and is <emphasis effect="italics">R</emphasis><sub>4</sub> 2.08 A, 3.34 A, 0.833 A, and 4.17 A, respectively.</item>
+<item>The same amount of current, 0.096 A, flows through all of the resistors.</item></list></problem>
+</exercise>
+</section>
+</content>
+
+<glossary>
+<definition id="fs-id1167064910885"><term>circuit diagram</term><meaning id="fs-id1167065086631"> schematic drawing of an electrical circuit including all circuit elements, such as resistors, capacitors, batteries, and so on</meaning></definition>
+<definition id="fs-id1167066113098"><term>electric circuit</term><meaning id="fs-id1167066113101"> physical network of paths through which electric current can flow</meaning></definition>
+<definition id="fs-id1167064901132"><term>equivalent resistor</term><meaning id="fs-id1167064901135"> resistance of a single resistor that is the same as the combined resistance of a group of resistors</meaning></definition>
+<definition id="fs-id1167065869581"><term>in series</term><meaning id="fs-id1167065869584"> when elements in a circuit are connected one after the other in the same branch of the circuit</meaning></definition>
+<definition id="fs-id1167064775384"><term>resistor</term><meaning id="fs-id1167064775387"> circuit element that provides a known resistance</meaning></definition>
+<definition id="fs-id1167066086303"><term>steady state</term><meaning id="fs-id1167066086306"> when the characteristics of a system do not change over time</meaning></definition>
+</glossary>
+</document>

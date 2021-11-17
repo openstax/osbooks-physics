@@ -1,0 +1,1779 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Electric Potential</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54426</md:content-id>
+  <md:title>Electric Potential</md:title>
+  <md:abstract/>
+  <md:uuid>dec3c320-8093-4d37-a6e4-c8b8e0c58e55</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167066056821" class="learning-objectives">
+<label/>
+<title>Section Learning Objectives</title>
+<para id="fs-id1167065727537">By the end of this section, you will be able to do the following:</para>
+<list id="fs-id1167065968801">
+<item>Explain the similarities and differences between electric potential energy and gravitational potential energy</item>
+<item>Calculate the electric potential difference between two point charges and in a uniform electric field</item>
+</list>
+</note>
+
+<note id="fs-id1167064978952" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067215509">The learning objectives in this section will help your students master the following standards:</para>
+<list id="fs-id1167067078581"><item>(5) The student knows the nature of forces in the physical world. The student is expected to:
+<list id="fs-id1167067209805"><item>
+<span>(C)</span>
+<span>describe and calculate how the magnitude of the electrical force between two objects depends on their charges and the distance between them; and</span></item>
+<item>
+<span>(D)</span>
+<span>identify examples of electric and magnetic forces in everyday life.</span></item>
+</list></item>
+</list></note>
+<section id="keyterms"><title>Section Key Terms</title>
+<table id="fs-id1167064930353" class="unnumbered unstyled section-key-terms" summary="no alt text">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry>electric potential</entry>
+<entry>electric potential energy</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<note id="fs-id1167064961028" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065066839">This section again uses the analogy between gravity and electric force to present electric potential energy and electric potential.</para>
+<para id="fs-id1167064697400"><span>[BL]</span>Ask students to define how <emphasis effect="italics">potential</emphasis> is used in everyday life. Draw the analogy between this and potential energy.</para>
+<para id="fs-id1167062325673"><span>[OL]</span><span>[AL]</span>Review the concept of potential energy as being the potential an object has to do work by virtue of its position with respect to another object.</para>
+<para id="fs-id1167065974562"><span>[OL]</span>Remind students that gravitational potential energy is only meaningful when we deal with differences in energy. In other words, a reference position is chosen, and all other potential energies are compared with the potential energy at the reference position.</para>
+<para id="fs-id1167065888014"><span>[AL]</span>Point out that sometimes the reference position is at infinity, in which case this may not be explicitly stated.</para>
+</note>
+<para id="fs-id1167062810961">As you learned in studying gravity, a mass in a gravitational field has <term class="no-emphasis">potential energy</term>, which means it has the potential to accelerate and thereby increase its <term class="no-emphasis">kinetic energy</term>. This kinetic energy can be used to do work. For example, imagine you want to use a stone to pound a nail into a piece of wood. You first lift the stone high above the nail, which increases the potential energy of the stone-Earth system—because Earth is so large, it does not move, so we usually shorten this by saying simply that the potential energy of the stone increases. When you drop the stone, gravity converts the potential energy into kinetic energy. When the stone hits the nail, it does work by pounding the nail into the wood. The gravitational potential energy is the work that a mass can potentially do by virtue of its position in a gravitational field. Potential energy is a very useful concept, because it can be used with conservation of energy to calculate the motion of masses in a gravitational field.</para>
+<para id="fs-id1167062367476"><term>Electric potential energy</term> works much the same way, but it is based on the electric field instead of the gravitational field. By virtue of its position in an electric field, a charge has an electric potential energy. If the charge is free to move, the force due to the electric field causes it to accelerate, so its potential energy is converted to kinetic energy, just like a mass that falls in a gravitational field. This kinetic energy can be used to do work. The electric potential energy is the work that a charge can do by virtue of its position in an electric field.</para>
+<para id="fs-id1167065052791">The analogy between gravitational potential energy and electric potential energy is depicted in <link target-id="Figure_18_04_gravelecpe"/>. On the left, the ball-Earth system gains gravitational potential energy when the ball is higher in Earth's gravitational field. On the right, the two-charge system gains electric potential energy when the positive charge is farther from the negative charge.</para>
+<figure id="Figure_18_04_gravelecpe"><media id="fs-id1167065955231" alt="This figure has two columns. The left column is labeled “Gravitational Potential Energy”, and the right column is labeled “Electric Potential Energy”. In the left column, a large sphere represents planet Earth, as it shows features of land and water. Above it are two small balls, with an arrow pointing from the lower to the upper ball. The gap between the two small balls is labeled “Gravitational potential energy increases.” In the right column, a large sphere is marked with a minus sign at its center. Above it are two small balls, each marked with a plus sign, and an arrow points from the lower to the upper ball. The gap between the two small balls is labeled “Electric potential energy increases.”">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_18_04_gravelecpe.jpg"/>
+</media>
+
+<caption>On the left, the gravitational field points toward Earth. The higher the ball is in the gravitational field, the higher the potential energy is of the Earth-ball system. On the right, the electric field points toward a negative charge. The farther the positive charge is from the negative charge, the higher the potential energy is of the two-charge system.</caption></figure><para id="fs-id1167066059012">Let’s use the symbol  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>U</m:mi>
+   <m:mi>G</m:mi>
+  </m:msub>
+  </m:mrow>
+</m:math>  to denote gravitational potential energy. When a mass falls in a gravitational field, its gravitational potential energy decreases. Conservation of energy tells us that the work done by the gravitational field to make the mass accelerate must equal the loss of potential energy of the mass. If we use the symbol  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>W</m:mi>
+   <m:mrow>
+    <m:mtext>done</m:mtext><m:mtext>by</m:mtext><m:mtext>gravity</m:mtext></m:mrow>
+  </m:msub>
+  </m:mrow>
+</m:math>  to denote this work, then</para>
+
+<equation id="fs-id1164565609815"> <m:math display="block">
+ <m:mrow>
+  <m:mo>−</m:mo><m:mi>Δ</m:mi><m:msub>
+   <m:mi>U</m:mi>
+   <m:mtext>G</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>W</m:mi>
+   <m:mrow>
+    <m:mtext>done</m:mtext><m:mtext>by</m:mtext><m:mtext>gravity,</m:mtext></m:mrow>
+  </m:msub>
+  </m:mrow>
+</m:math> </equation><para id="fs-id1167065055438">where the minus sign reflects the fact that the potential energy of the ball decreases.</para>
+<para id="fs-id1167065894868">The work done by gravity on the mass is</para>
+<equation id="fs-id1164567428251"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>W</m:mi>
+   <m:mrow>
+    <m:mtext>done</m:mtext><m:mtext>by</m:mtext><m:mtext>gravity</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mo>−</m:mo><m:mi>F</m:mi><m:mo stretchy="false">(</m:mo><m:msub>
+   <m:mi>y</m:mi>
+   <m:mtext>f</m:mtext>
+  </m:msub>
+  <m:mo>−</m:mo><m:msub>
+   <m:mi>y</m:mi>
+   <m:mtext>i</m:mtext>
+  </m:msub>
+  <m:mo stretchy="false">),</m:mo></m:mrow>
+</m:math> </equation><para id="fs-id1167064818717">where <emphasis effect="italics">F</emphasis> is the force due to gravity, and  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>y</m:mi>
+   <m:mtext>i</m:mtext>
+  </m:msub>
+  </m:mrow>
+</m:math>  and  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>y</m:mi>
+   <m:mtext>f</m:mtext>
+  </m:msub>
+  </m:mrow>
+</m:math>  are the initial and final positions of the ball, respectively. The negative sign is because gravity points down, which we consider to be the negative direction. For the <emphasis effect="italics">constant</emphasis> gravitational field near Earth’s surface,  <m:math>
+ <m:mrow>
+  <m:mi>F</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>g</m:mi></m:mrow>
+</m:math> . The change in gravitational potential energy of the mass is</para>
+<equation id="fs-id1164566376970"> <m:math>
+ <m:mrow>
+  <m:mo>−</m:mo><m:mi>Δ</m:mi><m:msub>
+   <m:mi>U</m:mi>
+   <m:mtext>G</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>W</m:mi>
+   <m:mrow>
+    <m:mtext>done</m:mtext><m:mtext>by</m:mtext><m:mtext>gravity</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mo>−</m:mo><m:mi>F</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msub>
+     <m:mi>y</m:mi>
+     <m:mtext>f</m:mtext>
+    </m:msub>
+    <m:mo>−</m:mo><m:msub>
+     <m:mi>y</m:mi>
+     <m:mtext>i</m:mtext>
+    </m:msub>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msub>
+     <m:mi>y</m:mi>
+     <m:mtext>f</m:mtext>
+    </m:msub>
+    <m:mo>−</m:mo><m:msub>
+     <m:mi>y</m:mi>
+     <m:mtext>i</m:mtext>
+    </m:msub>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+<m:mtext>, or</m:mtext>
+  <m:mi>Δ</m:mi><m:msub>
+   <m:mi>U</m:mi>
+   <m:mtext>G</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msub>
+     <m:mi>y</m:mi>
+     <m:mtext>f</m:mtext>
+    </m:msub>
+    <m:mo>−</m:mo><m:msub>
+     <m:mi>y</m:mi>
+     <m:mtext>i</m:mtext>
+    </m:msub>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mtext>.</m:mtext></m:mrow>
+</m:math> </equation><para id="fs-id1167064779324">Note that  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>y</m:mi>
+   <m:mtext>f</m:mtext>
+  </m:msub>
+  <m:mo>−</m:mo><m:msub>
+   <m:mi>y</m:mi>
+   <m:mtext>i</m:mtext>
+  </m:msub>
+  </m:mrow>
+</m:math>  is just the negative of the height <emphasis effect="italics">h</emphasis> from which the mass falls, so we usually just write  <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:msub>
+   <m:mi>U</m:mi>
+   <m:mtext>G</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:mo>−</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:mi>h</m:mi></m:mrow>
+</m:math> .</para>
+
+<para id="fs-id1167062867886">We now apply the same reasoning to a charge in an electric field to find the electric potential energy. The change  <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:msub>
+   <m:mi>U</m:mi>
+   <m:mtext>E</m:mtext>
+  </m:msub>
+  </m:mrow>
+</m:math>  in electric potential energy is the work done by the electric field to move a charge <emphasis effect="italics">q</emphasis> from an initial position  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>x</m:mi>
+   <m:mtext>i</m:mtext>
+  </m:msub>
+  </m:mrow>
+</m:math>  to a final position  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>x</m:mi>
+   <m:mtext>f</m:mtext>
+  </m:msub>
+  </m:mrow>
+</m:math>  ( <m:math>
+ <m:mrow>
+  <m:mo>−</m:mo><m:mi>Δ</m:mi><m:msub>
+   <m:mi>U</m:mi>
+   <m:mtext>E</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>W</m:mi>
+   <m:mrow>
+    <m:mtext>done</m:mtext><m:mtext>by</m:mtext><m:mtext>E-field</m:mtext></m:mrow>
+  </m:msub>
+  </m:mrow>
+</m:math> ). The definition of work does not change, except that now the work is done by the electric field:  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>W</m:mi>
+   <m:mrow>
+    <m:mtext>done</m:mtext><m:mtext>by</m:mtext><m:mtext>E-field</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mi>F</m:mi><m:mo stretchy="false">(</m:mo><m:msub>
+   <m:mi>x</m:mi>
+   <m:mtext>f</m:mtext>
+  </m:msub>
+  <m:mo>−</m:mo><m:msub>
+   <m:mi>x</m:mi>
+   <m:mtext>i</m:mtext>
+  </m:msub>
+  <m:mo stretchy="false">)</m:mo></m:mrow>
+</m:math> . For a charge that falls through a <emphasis effect="italics">constant</emphasis> electric field <emphasis effect="italics">E</emphasis>, the force applied to the charge by the electric field is  <m:math>
+ <m:mrow>
+  <m:mi>F</m:mi><m:mo>=</m:mo><m:mi>q</m:mi><m:mi>E</m:mi></m:mrow>
+</m:math> . The change in electric potential energy of the charge is thus</para>
+<equation id="fs-id1164567944565">
+ <m:math>
+ <m:mrow>
+  <m:mo>−</m:mo><m:mi>Δ</m:mi><m:msub>
+   <m:mi>U</m:mi>
+   <m:mtext>E</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>W</m:mi>
+   <m:mrow>
+    <m:mtext>done</m:mtext><m:mtext>by</m:mtext><m:mtext>E-field</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mi>F</m:mi><m:mi>d</m:mi><m:mo>=</m:mo><m:mi>q</m:mi><m:mi>E</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msub>
+     <m:mi>x</m:mi>
+     <m:mtext>f</m:mtext>
+    </m:msub>
+    <m:mo>−</m:mo><m:msub>
+     <m:mi>x</m:mi>
+     <m:mtext>i</m:mtext>
+    </m:msub>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow></m:mrow>
+</m:math> </equation> <para id="fs-id1164565471206">or</para>
+
+<equation id="fs-id1167064985175"><label/>
+ <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:msub>
+   <m:mi>U</m:mi>
+   <m:mtext>E</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:mo>−</m:mo><m:mi>q</m:mi><m:mi>E</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msub>
+     <m:mi>x</m:mi>
+     <m:mtext>f</m:mtext>
+    </m:msub>
+    <m:mo>−</m:mo><m:msub>
+     <m:mi>x</m:mi>
+     <m:mtext>i</m:mtext>
+    </m:msub>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mtext>.</m:mtext></m:mrow>
+</m:math>
+</equation><para id="fs-id1167062385399">This equation gives the change in electric potential energy of a charge <emphasis effect="italics">q</emphasis> when it moves from position  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>x</m:mi>
+   <m:mtext>i</m:mtext>
+  </m:msub>
+  </m:mrow>
+</m:math>  to position  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>x</m:mi>
+   <m:mtext>f</m:mtext>
+  </m:msub>
+  </m:mrow>
+</m:math>  in a <emphasis effect="italics">constant</emphasis> electric field <emphasis effect="italics">E</emphasis>.</para>
+
+<para id="fs-id1167064581572"><link target-id="Figure_18_04_constantfi"/> shows how this analogy would work if we were close to Earth’s surface, where gravity is constant. The top image shows a charge accelerating due to a constant electric field. Likewise, the round mass in the bottom image accelerates due to a constant gravitation field. In both cases, the potential energy of the particle decreases, and its kinetic energy increases.</para>
+
+<figure id="Figure_18_04_constantfi"><media id="fs-id1167065013766" alt="This figure is divided into two parts. The upper part shows a vertical strip on the left marked with plus signs and two vertical strips on the right marked with minus signs. A series of horizontal arrows point from the left strip to the strips on the right. A small sphere, labeled “plus q”, is located between these arrows and near the strip on the left. Another horizontal arrow, with ends labeled “A” and “B”, points from the sphere toward a gap between the strips on the right. Above this drawing is an equation: delta P E subscript elec equals delta K E. The lower part of the figure shows a small sphere, labeled “m”, on the slope of a small green hill. An arrow points from the sphere downward, parallel to the slope of the hill. To the right of the hill is a flat green area. Above the flat area is an equation: delta P E subscript grav equals delta K E.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_18_04_constantfi.jpg"/>
+</media>
+
+<caption>In the top picture, a mass accelerates due to a constant electric field. In the bottom picture, the mass accelerates due to a constant gravitational field.</caption></figure><note id="fs-id1167062889587" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066038960">Point out the fringing fields at the ends of the plates. Ask what path the charge would take if it were released in a fringing field (note that the charge does not follow the field lines due to its inertia).</para>
+<para id="fs-id1167065919798">Ask students to draw the gravitational field lines in the bottom picture. Discuss why the mass does not follow the gravitational field lines.</para>
+</note>
+
+<note id="fs-id1167062461214" class="watch-physics"><title>Analogy between Gravity and Electricity</title>
+
+<para id="fs-id1167064906557">This video discusses the analogy between gravitational potential energy and electric potential energy. It reviews the concepts of work and potential energy and shows the connection between a mass in a uniform gravitation field, such as on Earth’s surface, and an electric charge in a uniform electric field.</para><media id="eip-id1167063426457" alt="..." class="os-embed">
+<iframe width="660" height="371.4" src="https://www.openstax.org/l/28grav-elec"/>
+</media></note><para id="fs-id1167065857925">If the electric field is not constant, then the equation  <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:msub>
+   <m:mi>U</m:mi>
+   <m:mtext>E</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:mo>−</m:mo><m:mi>q</m:mi><m:mi>E</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msub>
+     <m:mi>x</m:mi>
+     <m:mtext>f</m:mtext>
+    </m:msub>
+    <m:mo>−</m:mo><m:msub>
+     <m:mi>x</m:mi>
+     <m:mtext>i</m:mtext>
+    </m:msub>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow></m:mrow>
+</m:math>  is not valid, and deriving the electric potential energy becomes more involved. For example, consider the electric potential energy of an assembly of two point charges  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>  and  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>  of the same sign that are initially very far apart. We start by placing charge  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>  at the origin of our coordinate system. This takes no electrical energy, because there is no electric field at the origin (because charge  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>  is very far away). We then bring charge  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>  in from very far away to a distance <emphasis effect="italics">r</emphasis> from the center of charge  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math> . This requires some effort, because the electric field of charge  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>  applies a repulsive force on charge  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math> . The energy it takes to assemble these two charges can be recuperated if we let them fly apart again. Thus, the charges have potential energy when they are a distance <emphasis effect="italics">r</emphasis> apart. It turns out that the electric potential energy of a pair of point charges  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>  and  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>  a distance <emphasis effect="italics">r</emphasis> apart is</para><equation id="fs-id1167065884489"><label/>
+ <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>U</m:mi>
+   <m:mtext>E</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>k</m:mi><m:msub>
+     <m:mi>q</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+     <m:mi>q</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    </m:mrow>
+   <m:mi>r</m:mi>  </m:mfrac>
+  </m:mrow>
+</m:math>
+</equation><para id="fs-id1167064755513">To recap, if charges  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>  and  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>  are free to move, they can accumulate kinetic energy by flying apart, and this kinetic energy can be used to do work. The maximum amount of work the two charges can do (if they fly infinitely far from each other) is given by the equation above.</para>
+
+<para id="fs-id1167066046662">Notice that if the two charges have opposite signs, then the potential energy is negative. This means that the charges have more potential to do work when they are <emphasis effect="italics">far</emphasis> apart than when they are at a distance <emphasis effect="italics">r</emphasis> apart. This makes sense: Opposite charges attract, so the charges can gain more kinetic energy if they attract each other from far away than if they start at only a short distance apart. Thus, they have more potential to do work when they are far apart. <link target-id="Figure_18_04_PEtwocha"/> summarizes how the electric potential energy depends on charge and separation.</para>
+
+<figure id="Figure_18_04_PEtwocha"><media id="fs-id1167065843477" alt="This figure has two panels. The upper panel shows a pair of red spheres, labeled “plus q subscript 1” and “plus q subscript 2”, separated horizontally by a distance marked “far apart”, and a label to their right says “Low potential energy”. Below them is a similar pair of spheres, but they are at a distance marked “close together”, and a label to their right says “High potential energy”. The lower panel shows a blue sphere on the left labeled “minus q subscript 1” and a red sphere on the right labeled “plus q subscript 2”. They are separated horizontally by a distance marked “far apart”, and a label to their right says “High potential energy”. Below them is a similar pair of spheres, but they are at a distance marked “close together”, and a label to their right says “Low potential energy”.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_18_04_PEtwocha.jpg"/>
+</media>
+
+<caption>The potential energy depends on the sign of the charges and their separation. The arrows on the charges indicate the direction in which the charges would move if released. When charges with the same sign are far apart, their potential energy is low, as shown in the top panel for two positive charges. The situation is the reverse for charges of opposite signs, as shown in the bottom panel.</caption></figure><note id="fs-id1167065035182" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066051053">Have students imagine that they have to push together or pull apart balls that carry these charges. Discuss which would require more work: pushing them together from far apart or from close together. Compare this with the analogous situations for the different charge combinations and for pushing together versus pulling apart.</para>
+</note>
+<section id="fs-id1167065984645"><title>Electric Potential</title><para id="fs-id1167065738498">Recall that to find the force applied by a fixed charge <emphasis effect="italics">Q</emphasis> on any arbitrary test charge <emphasis effect="italics">q</emphasis>, it was convenient to define the electric field, which is the force per unit charge applied by <emphasis effect="italics">Q</emphasis> on any test charge that we place in its electric field. The same Strategy is used here with electric potential energy: We now define the <term>electric potential</term> <emphasis effect="italics">V</emphasis>, which is the electric potential energy per unit charge.</para>
+
+<equation id="fs-id1167062304791"><label/>
+ <m:math>
+ <m:mrow>
+  <m:mi>V</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msub>
+     <m:mi>U</m:mi>
+     <m:mtext>E</m:mtext>
+    </m:msub>
+    </m:mrow>
+   <m:mi>q</m:mi>
+  </m:mfrac>
+  </m:mrow>
+</m:math>
+</equation>
+<note id="fs-add" class="os-teacher"><title>Teacher Support</title>
+<note id="fs-id1167066205511" class="misconception">
+
+<para id="fs-id1167066205515">Emphasize the difference between electric potential energy and electric potential. Although the latter seems to be shorthand for the former, the two terms have different meanings.</para></note>
+</note>
+<para id="fs-id1167065859576">Normally, the electric potential is simply called the <emphasis effect="italics">potential</emphasis> or <term class="no-emphasis"><emphasis effect="italics">voltage</emphasis></term>. The units for the potential are J/C, which are given the name <emphasis effect="italics">volt</emphasis> (V) after the Italian physicist Alessandro Volta (1745–1827). From the equation  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>U</m:mi>
+   <m:mtext>E</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:mrow><m:mrow>
+   <m:mi>k</m:mi><m:msub>
+    <m:mi>q</m:mi>
+    <m:mn>1</m:mn>
+   </m:msub>
+   <m:msub>
+    <m:mi>q</m:mi>
+    <m:mn>2</m:mn>
+   </m:msub>
+   </m:mrow><m:mo>/</m:mo><m:mi>r</m:mi></m:mrow>
+  </m:mrow>
+</m:math>, the electric potential a distance <emphasis effect="italics">r</emphasis> from a point charge  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>  is</para><equation id="fs-id1164566265874"> <m:math display="block">
+ <m:mrow>
+  <m:mi>V</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msub>
+     <m:mi>U</m:mi>
+     <m:mtext>E</m:mtext>
+    </m:msub>
+    </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mi>q</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>k</m:mi><m:msub>
+     <m:mi>q</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    </m:mrow>
+   <m:mi>r</m:mi>
+     </m:mfrac>
+  <m:mtext>.</m:mtext>
+  </m:mrow>
+</m:math> </equation>
+
+<para id="fs-id1167066182699">This equation gives the energy required per unit charge to bring a charge  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>  from infinity to a distance <emphasis effect="italics">r</emphasis> from a point charge  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mn>1</m:mn>
+ </m:msub><m:mtext>.</m:mtext>
+  </m:mrow>
+</m:math>  Mathematically, this is written as</para>
+
+<equation id="fs-id1164568046433"> <m:math display="block">
+ <m:mrow>
+  <m:mi>V</m:mi><m:mo>=</m:mo><m:msub>
+   <m:mrow>
+    <m:mrow><m:mrow>
+     <m:mfrac>
+      <m:mrow>
+       <m:msub>
+        <m:mi>U</m:mi>
+        <m:mi>E</m:mi>
+       </m:msub>
+       </m:mrow>
+      <m:mrow>
+       <m:msub>
+        <m:mi>q</m:mi>
+        <m:mn>2</m:mn>
+       </m:msub>
+       </m:mrow>
+     </m:mfrac>
+     </m:mrow><m:mo>|</m:mo></m:mrow></m:mrow>
+   <m:mrow>
+    <m:mi>R</m:mi><m:mo>=</m:mo><m:mi>r</m:mi></m:mrow>
+  </m:msub>
+  <m:mo>−</m:mo><m:msub>
+   <m:mrow>
+    <m:mrow><m:mrow>
+     <m:mfrac>
+      <m:mrow>
+       <m:msub>
+        <m:mi>U</m:mi>
+        <m:mi>E</m:mi>
+       </m:msub>
+       </m:mrow>
+      <m:mrow>
+       <m:msub>
+        <m:mi>q</m:mi>
+        <m:mn>2</m:mn>
+       </m:msub>
+       </m:mrow>
+     </m:mfrac>
+     </m:mrow><m:mo>|</m:mo></m:mrow></m:mrow>
+   <m:mrow>
+    <m:mi>R</m:mi><m:mo>=</m:mo><m:mi>∞</m:mi></m:mrow>
+  </m:msub>
+  <m:mtext>.</m:mtext>
+  </m:mrow>
+</m:math> </equation>
+
+<para id="fs-id1167066141428">Note that this equation actually represents a <emphasis effect="italics">difference</emphasis> in electric potential. However, because the second term is zero, it is normally not written, and we speak of the electric potential instead of the electric <term class="no-emphasis">potential difference</term>, or we just say the potential difference, or voltage). Below, when we consider the electric potential energy per unit charge between two points not infinitely far apart, we speak of electric potential <emphasis effect="italics">difference</emphasis> explicitly. Just remember that electric potential and electric potential difference are really the same thing; the former is used just when the electric potential energy is zero in either the initial or final charge configuration.</para>
+
+<para id="fs-id1167065838871">Coming back now to the electric potential a distance <emphasis effect="italics">r</emphasis> from a point charge  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>, note that  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>  can be any arbitrary point charge, so we can drop the subscripts and simply write</para>
+
+<equation id="fs-id1167065967185"><label/>
+ <m:math>
+ <m:mrow>
+  <m:mi>V</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>k</m:mi><m:mi>q</m:mi></m:mrow>
+   <m:mi>r</m:mi>
+  </m:mfrac>
+  <m:mtext>.</m:mtext>
+  </m:mrow>
+</m:math> </equation><para id="fs-id1167062342433">Now consider the electric potential near a group of charges <emphasis effect="italics">q</emphasis><sub>1</sub>, <emphasis effect="italics">q</emphasis><sub>2</sub>, and <emphasis effect="italics">q</emphasis><sub>3</sub>, as drawn in <link target-id="Figure_18_04_groupcha"/>. The electric potential is derived by considering the electric field. Electric fields follow the principle of superposition and can be simply added together, so the electric potential from different charges also add together. Thus, the electric potential of a point near a group of charges is</para>
+<equation id="fs-id1164565604757"> <m:math display="block">
+ <m:mrow>
+  <m:mi>V</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>k</m:mi><m:msub>
+     <m:mi>q</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mi>r</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    </m:mrow>
+  </m:mfrac>
+  <m:mo>+</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>k</m:mi><m:msub>
+     <m:mi>q</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mi>r</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    </m:mrow>
+  </m:mfrac>
+  <m:mo>+</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>k</m:mi><m:msub>
+     <m:mi>q</m:mi>
+     <m:mn>3</m:mn>
+    </m:msub>
+    </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mi>r</m:mi>
+     <m:mn>3</m:mn>
+    </m:msub>
+    </m:mrow>
+  </m:mfrac>
+  <m:mo>+</m:mo><m:mo>⋯.</m:mo></m:mrow>
+
+</m:math> </equation>
+
+<para id="fs-id1167065884610">where  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>r</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>,</m:mo><m:msub>
+   <m:mi>r</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>,</m:mo><m:msub>
+   <m:mi>r</m:mi>
+   <m:mn>3</m:mn>
+  </m:msub>
+  <m:mo>,</m:mo><m:mo>…,</m:mo></m:mrow>
+</m:math>  are the distances from the center of charges  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>,</m:mo><m:msub>
+   <m:mi>q</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>,</m:mo><m:msub>
+   <m:mi>q</m:mi>
+   <m:mn>3</m:mn>
+  </m:msub>
+  <m:mo>,</m:mo><m:mo>…</m:mo></m:mrow>
+</m:math>  to the point of interest, as shown in <link target-id="Figure_18_04_groupcha"/>.</para>
+
+<figure id="Figure_18_04_groupcha"><media id="fs-id1167065996896" alt="This figure shows three small blue spheres distributed around a much smaller red sphere. One blue sphere, labeled “q subscript 1”, lies roughly northwest of the red sphere, and an arrow labeled “r subscript 1” points from the blue sphere to the red one. A second blue sphere, labeled “q subscript 2”, lies roughly southwest of the red sphere, and an arrow labeled “r subscript 2” points from this blue sphere to the red one. The third blue sphere, labeled “q subscript 3”, lies directly south of the red sphere, and an arrow labeled “r subscript 3” points from this blue sphere to the red one.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_18_04_groupcha.jpg"/>
+</media>
+
+<caption>The potential at the red point is simply the sum of the potentials due to each individual charge.</caption></figure><para id="fs-id1167065942348">Now let’s consider the electric potential in a uniform electric field. From the equation  <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:msub>
+   <m:mi>U</m:mi>
+   <m:mtext>E</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:mo>−</m:mo><m:mi>q</m:mi><m:mi>E</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msub>
+     <m:mi>x</m:mi>
+     <m:mtext>f</m:mtext>
+    </m:msub>
+    <m:mo>−</m:mo><m:msub>
+     <m:mi>x</m:mi>
+     <m:mtext>i</m:mtext>
+    </m:msub>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow></m:mrow>
+</m:math>, we see that the potential difference in going from  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>x</m:mi>
+   <m:mtext>i</m:mtext>
+  </m:msub>
+  </m:mrow>
+</m:math>  to  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>x</m:mi>
+   <m:mtext>f</m:mtext>
+  </m:msub>
+  </m:mrow>
+</m:math>  in a uniform electric field <emphasis effect="italics">E</emphasis> is</para><equation id="fs-id1167065953408"><label/>
+ <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>Δ</m:mi><m:msub>
+     <m:mi>U</m:mi>
+     <m:mi>E</m:mi>
+    </m:msub>
+    </m:mrow>
+   <m:mi>q</m:mi>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mo>−</m:mo><m:mi>E</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msub>
+     <m:mi>x</m:mi>
+     <m:mtext>f</m:mtext>
+    </m:msub>
+    <m:mo>−</m:mo><m:msub>
+     <m:mi>x</m:mi>
+     <m:mtext>i</m:mtext>
+    </m:msub>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow></m:mrow>
+<m:mtext>.</m:mtext>
+</m:math>
+</equation><note id="fs-id1167066112448" class="tips-for-success">
+
+<para id="fs-id1167066055153">Notice from the equation  <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>E</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msub>
+     <m:mi>x</m:mi>
+     <m:mtext>f</m:mtext>
+    </m:msub>
+    <m:mo>−</m:mo><m:msub>
+     <m:mi>x</m:mi>
+     <m:mtext>i</m:mtext>
+    </m:msub>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow></m:mrow>
+</m:math>  that the electric field can be written as</para>
+<equation id="fs-id1164567307537"> <m:math display="block">
+ <m:mrow>
+  <m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>Δ</m:mi><m:mi>V</m:mi></m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mi>x</m:mi>
+     <m:mtext>f</m:mtext>
+    </m:msub>
+    <m:mo>−</m:mo><m:msub>
+     <m:mi>x</m:mi>
+     <m:mtext>i</m:mtext>
+    </m:msub>
+    </m:mrow>
+  </m:mfrac>
+  </m:mrow>
+</m:math> </equation><para id="fs-id1167065979118">which means that the electric field has units of V/m. Thus, if you know the potential difference between two points, calculating the electric field is very simple—you simply divide the potential difference by the distance!</para>
+</note>
+
+<para id="fs-id1167065942127">Notice that a positive charge in a region with high potential will experience a force pushing it toward regions of lower potential. In this sense, potential is like pressure for fluids. Imagine a pipe containing fluid, with the fluid at one end of the pipe under high pressure and the fluid at the other end of the pipe under low pressure. If nothing prevents the fluid from flowing, it will flow from the high-pressure end to the low-pressure end. Likewise, a positive charge that is free to move will move from a region with high potential to a region with lower potential.</para>
+
+<note id="fs-id1167062314643" class="watch-physics"><title>Voltage</title>
+
+
+<para id="fs-id1167064635753">This video starts from electric potential energy and explains how this is related to electric potential (or voltage). The lecturer calculates the electric potential created by a uniform electric field.</para>
+
+<media id="fs-id1167066038725" alt="..." class="os-embed">
+<iframe width="660" height="371.4" src="https://www.openstax.org/l/28voltage"/>
+</media>
+
+<exercise id="fs-id1167065770029" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167065850903">
+<para id="fs-id1167064757845"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex083"/></para>
+</problem>
+</exercise>
+</note><note id="fs-id1167065758484" class="links-to-physics">
+
+<title>Electric Animals</title>
+<para id="fs-id1167062359222">Many animals generate and/or detect electric fields. This is useful for activities such as hunting, defense, navigation, communication, and mating. Because salt water is a relatively good conductor, electric fish have evolved in all the world’s oceans. These fish have intrigued humans since the earliest times. In the nineteenth century, parties were even organized where the main attraction was getting a jolt from an electric fish! Scientists also studied electric fish to learn about electricity. Alessandro Volta based his research that led to batteries in 1799 on electric fish. He even referred to batteries as artificial electric organs, because he saw them as imitations of the electric organs of electric fish.</para>
+<para id="fs-id1167062359225">Animals that generate electricity are called <emphasis effect="italics">electrogenic</emphasis> and those that detect electric fields are called <emphasis effect="italics">electroreceptive</emphasis>. Most fish that are electrogenic are also electroreceptive. One of the most well-known electric fish is the electric eel (see <link target-id="Figure_18_04_eleceel"/>), which is both electrogenic and electroreceptive. These fish have three pairs of organs that produce the electric charge: the main organ, Hunter’s organ, and Sach’s organ. Together, these organs account for more than 80percent of the fish’s body.</para>
+<para id="fs-id1167062401404">Electric eels can produce electric discharges of much greater voltage than what you would get from a standard wall socket. These discharges can stun or even kill their prey. They also use low-intensity discharges to navigate. The electric fields they generate reflect off nearby obstacles or animals and are then detected by electroreceptors in the eel’s skin. The three organs that produce electricity contain electrolytes, which are substances that ionize when dissolved in water (or other liquids). An ionized atom or molecule is one that has lost or gained at least one electron, so it carries a net charge. Thus, a liquid solution containing an electrolyte conducts electricity, because the ions in the solution can move if an electric field is applied.</para>
+<para id="fs-id1167066040912">To produce large discharges, the main organ is used. It contains approximately 6,000 rows of electroplaques connected in a long chain. Connected this way, the voltage between electroplaques adds up, creating a large final voltage. Each electroplaque consists of a column of cells controlled by an excitor nerve. When triggered by the excitor nerve, the electroplaques allow ionized sodium to flow through them, creating a potential difference between electroplaques. These potentials add up, and a large current can flow through the electrolyte.</para>
+<para id="fs-id1167065943495">This geometry is reflected in batteries, which also use stacks of plates to produce larger potential differences.</para>
+
+<figure id="Figure_18_04_eleceel"><media id="fs-id1167065978554" alt="This is a photograph showing the head of an electric eel just above water, next to the leaves of a plant growing in the water.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_18_04_eleceel.jpg"/>
+</media>
+
+<caption>An electric eel in its natural environment. (credit: Steven G. Johnson)</caption></figure><exercise id="fs-id1167065893380" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167066036943">
+<!--<para id="fs-id1167062376797"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex084"/></para>-->
+<para id="fs-id1164567285451">If an electric eel produces 1,000 V, which voltage is produced by each electroplaque in the main organ?</para>
+<list id="fs-id1164566317846" list-type="enumerated" number-style="lower-alpha">
+<item>0.17 mV</item>
+<item>1.7 mV</item>
+<item>17 mV</item>
+<item>170 mV</item></list>
+</problem>
+</exercise>
+</note>
+
+<note id="Worked_Example_18_07" class="worked-example"><title>X-ray Tube</title>
+
+<exercise id="fs-id1167066205819" class="18-ex085 unnumbered">
+<label/>
+<problem id="fs-id1167062299258">
+<para id="fs-id1167066041786">Dentists use X-rays to image their patients’ teeth and bones. The X-ray tubes that generate X-rays contain an electron source separated by about 10 cm from a metallic target. The electrons are accelerated from the source to the target by a uniform electric field with a magnitude of about 100 kN/C, as drawn in <link target-id="Figure_18_04_x-raytube"/>. When the electrons hit the target, X-rays are produced. (a) What is the potential difference between the electron source and the metallic target? (b) What is the kinetic energy of the electrons when they reach the target, assuming that the electrons start at rest?</para>
+<figure id="Figure_18_04_x-raytube"><media id="fs-id1167064981494" alt="This diagram shows a vertically oriented ellipse labeled “Electron source” on the left, and a trapezoid labeled “Target” on the right. Between them, in the middle section of the diagram, there are four tiny spheres labeled “Electrons”, each of which has a short, rightward pointing arrow attached to it. Five long, horizontal arrows point from the trapezoid to the ellipse, and a label between them says “Electric field”. Near the middle of the left edge of the trapezoid is a yellow circle from which emerge three long, orange, wavy lines, as well as a number of short yellow and red lines. The long wavy lines are labeled “X-rays”.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_18_04_x-raytube.jpg"/>
+</media>
+
+<caption>In an X-ray tube, a large current flows through the electron source, causing electrons to be ejected from the electron source. The ejected electrons are accelerated toward the target by the electric field. When they strike the target, X-rays are produced.</caption></figure>
+<note id="fs-id1167064845662">
+<label/><title>Strategy FOR (A)</title>
+<para id="fs-id1167065859497">Use the equation  <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>E</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msub>
+     <m:mi>x</m:mi>
+     <m:mtext>f</m:mtext>
+    </m:msub>
+    <m:mo>−</m:mo><m:msub>
+     <m:mi>x</m:mi>
+     <m:mtext>i</m:mtext>
+    </m:msub>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow></m:mrow>
+</m:math>  to find the potential difference given a constant electric field. Define the source position as  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>x</m:mi>
+   <m:mtext>i</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>0</m:mn></m:mrow>
+</m:math>  and the target position as  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>x</m:mi>
+   <m:mtext>f</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>10</m:mn><m:mspace width="0.3em"/><m:mtext>cm</m:mtext></m:mrow>
+</m:math> . To accelerate the electrons in the positive <emphasis effect="italics">x</emphasis> direction, the electric field must point in the negative <emphasis effect="italics">x</emphasis> direction. This way, the force  <m:math>
+ <m:mrow>
+  <m:mi>F</m:mi><m:mo>=</m:mo><m:mi>q</m:mi><m:mi>E</m:mi></m:mrow>
+</m:math>  on the electrons will point in the positive <emphasis effect="italics">x</emphasis> direction, because both <emphasis effect="italics">q</emphasis> and <emphasis effect="italics">E</emphasis> are negative. Thus,  <m:math>
+ <m:mrow>
+  <m:mi>E</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>100</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mn>3</m:mn>
+  </m:msup>
+  <m:mtext>N/C</m:mtext></m:mrow>
+</m:math> .</para></note>
+
+</problem>
+<solution id="fs-id1167065886681">
+<label/>
+<title>Solution for (a)</title>
+<para id="fs-id1167065850636">Using  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>x</m:mi>
+   <m:mtext>i</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>0</m:mn></m:mrow>
+</m:math>  and  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>x</m:mi>
+   <m:mtext>f</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>10</m:mn><m:mspace width="0.3em"/><m:mtext>cm</m:mtext><m:mo>=</m:mo><m:mn>0.10</m:mn><m:mspace width="0.3em"/><m:mtext>m</m:mtext></m:mrow>
+</m:math>, the equation  <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>E</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msub>
+     <m:mi>x</m:mi>
+     <m:mtext>f</m:mtext>
+    </m:msub>
+    <m:mo>−</m:mo><m:msub>
+     <m:mi>x</m:mi>
+     <m:mtext>i</m:mtext>
+    </m:msub>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow></m:mrow>
+</m:math>  tells us that the potential difference between the electron source and the target is</para><equation id="fs-id1164565313310"> <m:math display="block">
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>E</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msub>
+     <m:mi>x</m:mi>
+     <m:mtext>f</m:mtext>
+    </m:msub>
+    <m:mo>−</m:mo><m:msub>
+     <m:mi>x</m:mi>
+     <m:mtext>i</m:mtext>
+    </m:msub>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>100</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn></m:mrow>
+     <m:mn>3</m:mn>
+    </m:msup>
+    <m:mtext>N/C</m:mtext></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>0.10</m:mn><m:mspace width="0.3em"/><m:mtext>m</m:mtext><m:mo>−</m:mo><m:mn>0</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>+</m:mo><m:mn>10</m:mn><m:mspace width="0.3em"/><m:mtext>kV.</m:mtext></m:mrow>
+</m:math>
+</equation>
+</solution>
+<commentary id="fs-id1167066165763">
+<title>Discussion for (a)</title>
+<para id="fs-id1167065067030">The potential difference is positive, so the energy per unit positive charge is higher at the target than at the source. This means that free positive charges would fall from the target to the source. However, electrons are negative charges, so they accelerate from the source toward the target, gaining kinetic energy as they go.</para>
+</commentary>
+</exercise>
+<exercise id="fs-id1167065966768"><label/>
+<problem id="fs-id1167064903461">
+<note id="fs-id1167066112680">
+<label/><title>Strategy FOR (B)</title>
+<para id="fs-id1167065893135">Apply conservation of energy to find the final kinetic energy of the electrons. In going from the source to the target, the change in electric potential energy plus the change in kinetic energy of the electrons must be zero, so  <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:msub>
+   <m:mi>U</m:mi>
+   <m:mi>E</m:mi>
+  </m:msub>
+  <m:mo>+</m:mo><m:mi>Δ</m:mi><m:mi>K</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow>
+<m:mtext>.</m:mtext></m:math>  The change in electric potential energy for moving through a constant electric field is given by the equation</para>
+<para id="fs-id1167065039820"> <m:math display="block">
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:msub>
+   <m:mi>U</m:mi>
+   <m:mtext>E</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:mo>−</m:mo><m:mi>q</m:mi><m:mi>E</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msub>
+     <m:mi>x</m:mi>
+     <m:mtext>f</m:mtext>
+    </m:msub>
+    <m:mo>−</m:mo><m:msub>
+     <m:mi>x</m:mi>
+     <m:mtext>i</m:mtext>
+    </m:msub>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow></m:mrow>
+<m:mtext>,</m:mtext></m:math>
+</para>
+<para id="fs-id1167065067568">where the electric field is  <m:math>
+ <m:mrow>
+  <m:mi>E</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>100</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mn>3</m:mn>
+  </m:msup>
+  <m:mtext>N/C</m:mtext></m:mrow>
+</m:math> . Because the electrons start at rest, their initial kinetic energy is zero. Thus, the change in kinetic energy is simply their final kinetic energy, so  <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>K</m:mi><m:mo>=</m:mo><m:msub>
+   <m:mi>K</m:mi>
+   <m:mtext>f</m:mtext>
+  </m:msub>
+  </m:mrow>
+</m:math> .</para></note>
+</problem>
+<solution id="fs-id1167062586953">
+<label/>
+<title>Solution for (b)</title>
+<para id="fs-id1167064916374">Again  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>x</m:mi>
+   <m:mtext>i</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>0</m:mn></m:mrow>
+</m:math>  and  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>x</m:mi>
+   <m:mtext>f</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>10</m:mn><m:mspace width="0.3em"/><m:mtext>cm</m:mtext><m:mo>=</m:mo><m:mn>0.10</m:mn><m:mspace width="0.3em"/><m:mtext>m</m:mtext></m:mrow>
+</m:math> . The charge of an electron is  <m:math>
+ <m:mrow>
+  <m:mi>q</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>1.602</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>19</m:mn></m:mrow>
+  </m:msup>
+  <m:mtext>C</m:mtext></m:mrow>
+</m:math> . Conservation of energy gives</para>
+
+<equation id="fs-id1164567612699"> <m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr>
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:mi>Δ</m:mi><m:msub>
+       <m:mi>U</m:mi>
+       <m:mi>E</m:mi>
+      </m:msub>
+      <m:mo>+</m:mo><m:mi>Δ</m:mi><m:mi>K</m:mi></m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mn>0.</m:mn>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:mo>−</m:mo><m:mi>q</m:mi><m:mi>E</m:mi><m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:msub>
+         <m:mi>x</m:mi>
+         <m:mtext>f</m:mtext>
+        </m:msub>
+        <m:mo>−</m:mo><m:msub>
+         <m:mi>x</m:mi>
+         <m:mtext>i</m:mtext>
+        </m:msub>
+        </m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:msub>
+       <m:mi>K</m:mi>
+       <m:mtext>f</m:mtext>
+      </m:msub>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mn>0.</m:mn>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:msub>
+       <m:mi>K</m:mi>
+       <m:mtext>f</m:mtext>
+      </m:msub>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mi>q</m:mi><m:mi>E</m:mi><m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:msub>
+         <m:mi>x</m:mi>
+         <m:mtext>f</m:mtext>
+        </m:msub>
+        <m:mo>−</m:mo><m:msub>
+         <m:mi>x</m:mi>
+         <m:mtext>i.</m:mtext>
+        </m:msub>
+        </m:mrow>
+      <m:mo>)</m:mo><m:mtext>.</m:mtext></m:mrow></m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable></m:mrow>
+</m:math> </equation><para id="fs-id1167067194193">Inserting the known values into the right-hand side of this equation gives</para>
+<equation id="fs-id1164566220341"> <m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:msub>
+       <m:mi>K</m:mi>
+       <m:mtext>f</m:mtext>
+      </m:msub>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mo>−</m:mo><m:mn>1.60</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+         <m:mrow>
+          <m:mn>10</m:mn></m:mrow>
+         <m:mrow>
+          <m:mo>−</m:mo><m:mn>19</m:mn></m:mrow>
+        </m:msup>
+        <m:mtext>C</m:mtext></m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mo>−</m:mo><m:mn>100</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+         <m:mrow>
+          <m:mn>10</m:mn></m:mrow>
+         <m:mn>3</m:mn>
+        </m:msup>
+        <m:mtext>N/C</m:mtext></m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mn>0.10</m:mn><m:mspace width="0.3em"/><m:mtext>m</m:mtext><m:mo>−</m:mo><m:mn>0</m:mn></m:mrow>
+      <m:mo>)</m:mo></m:mrow></m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>1.6</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+       <m:mrow>
+        <m:mn>10</m:mn></m:mrow>
+       <m:mrow>
+        <m:mo>−</m:mo><m:mn>15</m:mn></m:mrow>
+      </m:msup>
+      <m:mtext>J.</m:mtext></m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable></m:mrow>
+</m:math> </equation></solution>
+
+<commentary id="fs-id1167064956465">
+<title>Discussion for (b)</title>
+<para id="fs-id1167066120379">This is a very small energy. However, electrons are very small, so they are easy to accelerate, and this energy is enough to make an electron go extremely fast. You can find their speed by using the definition of kinetic energy,  <m:math>
+ <m:mrow>
+  <m:mi>K</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mi>m</m:mi><m:msup>
+   <m:mi>v</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math> . The result is that the electrons are moving at more than 100 million miles per hour!</para>
+</commentary>
+</exercise></note><note id="fs-id1167064766262" class="worked-example"><title>Electric Potential Energy of Doorknob and Dust Speck</title>
+
+<exercise id="fs-id1167065845903" class="18-ex086 unnumbered"><label/>
+<problem id="fs-id1167065845905"><para id="fs-id1167064986660">Consider again the doorknob from the example in the previous section. The doorknob is treated as a spherical conductor with a uniform static charge  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>−1.5</m:mn><m:mspace width="0.3em"/><m:mtext>nC</m:mtext></m:mrow>
+</m:math>  on its surface. What is the electric potential energy between the doorknob and a speck of dust carrying a charge  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>0.20</m:mn><m:mspace width="0.3em"/><m:mtext>nC</m:mtext></m:mrow>
+</m:math>  at 1.0 cm from the front surface of the doorknob? The diameter of the doorknob is 5.0 cm.</para>
+
+<note id="fs-id1167062403631">
+<label/><title>Strategy</title>
+<para id="fs-id1167064985632">As we did in the previous section, we treat the charge as if it were concentrated at the center of the doorknob. Again, as you will be able to validate in later physics classes, we can make this simplification, because the charge is uniformly distributed over the surface of the spherical object. Make a sketch of the situation and define a coordinate system, as shown in the image below. We use  <m:math>
+ <m:mrow>
+  <m:mo>+</m:mo><m:mi>x</m:mi></m:mrow>
+</m:math>  to indicate the outward direction perpendicular to the door, with  <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow>
+</m:math>  at the center of the doorknob. If the diameter of the doorknob is 5.0 cm, its radius is 2.5 cm. Thus, the speck of dust 1.0 cm from the surface of the doorknob is a distance  <m:math>
+ <m:mrow>
+  <m:mi>r</m:mi><m:mo>=</m:mo><m:mn>2.5</m:mn><m:mspace width="0.3em"/><m:mtext>cm</m:mtext><m:mo>+</m:mo><m:mn>1.0</m:mn><m:mspace width="0.3em"/><m:mtext>cm</m:mtext><m:mo>=</m:mo><m:mn>3.5</m:mn><m:mspace width="0.3em"/><m:mtext>cm</m:mtext></m:mrow>
+</m:math>  from the center of the doorknob. To solve this problem, use the equation  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>U</m:mi>
+   <m:mtext>E</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:mrow><m:mrow>
+   <m:mi>k</m:mi><m:msub>
+    <m:mi>q</m:mi>
+    <m:mn>1</m:mn>
+   </m:msub>
+   <m:msub>
+    <m:mi>q</m:mi>
+    <m:mn>2</m:mn>
+   </m:msub>
+   </m:mrow><m:mo>/</m:mo><m:mi>r</m:mi></m:mrow>
+  </m:mrow>
+</m:math> .</para>
+</note>
+
+<media id="fs-id1167066112870" alt="This diagram shows the edge of a door in cross-section and a doorknob attached to it. Two axes, perpendicular to each other, originate from the center of the doorknob and point away from it. The horizontal axis is labeled “plus x circumflexΣ and the vertical axis is labeled “plus y circumflex”. A dot on the horizontal axis beyond the doorknob is labeled “Speck of dust”, and a second label that gives the equation “x = 3.5 cm”." display="block">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_18_04_Doorknob_img.jpg"/>
+</media>
+</problem>
+
+<solution id="fs-id1167064982562">
+<label/>
+<title>Solution</title>
+<para id="fs-id1167062385042">The charge on the doorknob is  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>−1.5</m:mn><m:mspace width="0.3em"/><m:mtext>nC</m:mtext><m:mo>=</m:mo><m:mn>−1.5</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>−9</m:mn></m:mrow>
+  </m:msup>
+  <m:mtext>C,</m:mtext></m:mrow>
+</m:math>  and the charge on the speck of dust is  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>0.20</m:mn><m:mspace width="0.3em"/><m:mtext>nC</m:mtext><m:mo>=</m:mo><m:mn>2.0</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>−10</m:mn></m:mrow>
+  </m:msup>
+  <m:mtext>C</m:mtext></m:mrow>
+</m:math> . The distance  <m:math>
+ <m:mrow>
+  <m:mi>r</m:mi><m:mo>=</m:mo><m:mn>3.5</m:mn><m:mspace width="0.3em"/><m:mtext>cm</m:mtext><m:mo>=</m:mo><m:mn>0.035</m:mn><m:mspace width="0.3em"/><m:mtext>m</m:mtext></m:mrow>
+</m:math> . Inserting these values into the equation  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>U</m:mi>
+   <m:mtext>E</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:mrow><m:mrow>
+   <m:mi>k</m:mi><m:msub>
+    <m:mi>q</m:mi>
+    <m:mn>1</m:mn>
+   </m:msub>
+   <m:msub>
+    <m:mi>q</m:mi>
+    <m:mn>2</m:mn>
+   </m:msub>
+   </m:mrow><m:mo>/</m:mo><m:mi>r</m:mi></m:mrow>
+  </m:mrow>
+</m:math>  gives</para>
+<equation id="fs-id1164567183383"> <m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="center">
+     <m:mrow>
+      <m:msub>
+       <m:mi>U</m:mi>
+       <m:mi>E</m:mi>
+      </m:msub>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mi>k</m:mi><m:msub>
+         <m:mi>q</m:mi>
+         <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+         <m:mi>q</m:mi>
+         <m:mn>2</m:mn>
+        </m:msub>
+        </m:mrow>
+       <m:mi>r</m:mi>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="center">
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mrow><m:mo>(</m:mo>
+         <m:mrow>
+          <m:mn>8.99</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+           <m:mrow>
+            <m:mn>10</m:mn></m:mrow>
+           <m:mn>9</m:mn>
+          </m:msup>
+          <m:mtext>N</m:mtext><m:mo>⋅</m:mo><m:msup>
+           <m:mtext>m</m:mtext>
+           <m:mtext>2</m:mtext>
+          </m:msup>
+          <m:msup>
+           <m:mrow>
+            <m:mtext>/C</m:mtext></m:mrow>
+           <m:mtext>2</m:mtext>
+          </m:msup>
+          </m:mrow>
+        <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+         <m:mrow>
+          <m:mo>−</m:mo><m:mn>1.5</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+           <m:mrow>
+            <m:mn>10</m:mn></m:mrow>
+           <m:mrow>
+            <m:mn>−9</m:mn></m:mrow>
+          </m:msup>
+          <m:mtext>C</m:mtext></m:mrow>
+        <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+         <m:mrow>
+          <m:mn>2.0</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+           <m:mrow>
+            <m:mn>10</m:mn></m:mrow>
+           <m:mrow>
+            <m:mn>−10</m:mn></m:mrow>
+          </m:msup>
+          <m:mtext>C</m:mtext></m:mrow>
+        <m:mo>)</m:mo></m:mrow></m:mrow>
+       <m:mrow>
+        <m:mrow><m:mo>(</m:mo>
+         <m:mrow>
+          <m:mn>0.035</m:mn><m:mspace width="0.3em"/><m:mtext>m</m:mtext></m:mrow>
+        <m:mo>)</m:mo></m:mrow></m:mrow>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="center">
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>−7.7</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+       <m:mrow>
+        <m:mn>10</m:mn></m:mrow>
+       <m:mrow>
+        <m:mn>−8</m:mn></m:mrow>
+      </m:msup>
+      <m:mtext>J</m:mtext></m:mrow>
+      <m:mtext>.</m:mtext>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable></m:mrow>
+</m:math> </equation></solution>
+
+<commentary id="fs-id1167065841892">
+<title>Discussion</title>
+<para id="fs-id1167065860695">The energy is negative, which means that the energy will decrease that is, get even <emphasis effect="italics">more</emphasis> negative as the speck of dust approaches the doorknob. This helps explain why dust accumulates on objects that carry a static charge. However, note that insulators normally collect more static charge than conductors, because any charge that accumulates on insulators cannot move about on the insulator to find a way to escape. They must simply wait to be removed by some passing moist speck of dust or other host.</para>
+</commentary>
+</exercise></note></section><section id="fs-id1167065975437" class="practice-problems"><title>Practice Problems</title><exercise id="fs-id1167066120778">
+<problem id="fs-id1167065860922">
+<!--<para id="fs-id1167065860924"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex087"/></para>-->
+<para id="fs-id1164565634432">What is the electric potential 10 cm from a −10 nC charge?</para>
+<list id="fs-id1164566044181" list-type="enumerated" number-style="lower-alpha">
+<item>9.0 × 10<sup>2</sup> V</item>
+<item>9.0 × 10<sup>3</sup> V</item>
+<item>9.0 × 10<sup>4</sup> V</item>
+<item>9.0 × 10<sup>5</sup> V</item></list>
+</problem>
+</exercise>
+<exercise id="fs-id1167066155694">
+<problem id="fs-id1167064932395">
+<!--<para id="fs-id1167064932397"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex088"/></para>-->
+<para id="fs-id1164566031302">An electron accelerates from 0 to 10 × 10<sup>4</sup> m/s in an electric field. Through what potential difference did the electron travel? The mass of an electron is 9.11 × 10<sup>–31</sup> kg, and its charge is −1.60 × 10<sup>–19</sup> C.</para>
+<list id="fs-id1164567946871" list-type="enumerated" number-style="lower-alpha">
+<item>29 mV</item>
+<item>290 mV</item>
+<item>2,900 mV</item>
+<item>29 V</item></list>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167066023933" class="check-understanding">
+<title>Check Your Understanding</title>
+<exercise id="fs-id1167065880337" class="os-exercise">
+<problem id="fs-id1167066058371">
+<!--<para id="fs-id1167066058373"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex089"/></para>-->
+<para id="fs-id1164565957935">Gravitational potential energy is the potential for two masses to do work by virtue of their positions with respect to each other. What is the analogous definition of electric potential energy?</para><list id="fs-id1164564474322" list-type="enumerated" number-style="lower-alpha">
+<item>Electric potential energy is the potential for two charges to do work by virtue of their positions with respect to the origin point.</item>
+<item>Electric potential energy is the potential for two charges to do work by virtue of their positions with respect to infinity.</item>
+<item>Electric potential energy is the potential for two charges to do work by virtue of their positions with respect to each other.</item>
+<item>Electric potential energy is the potential for single charges to do work by virtue of their positions with respect to their final positions.</item></list>
+</problem>
+</exercise>
+<exercise id="fs-id1167064893209" class="os-exercise">
+<problem id="fs-id1167064781181">
+<!--<para id="fs-id1167062359035"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex090"/></para>-->
+<para id="fs-id1164567194617">A negative charge is 10 m from a positive charge. Where would you have to move the negative charge to increase the potential energy of the system?</para>
+<list id="fs-id1164568030574" list-type="enumerated" number-style="lower-alpha">
+<item>The negative charge should be moved closer to the positive charge.</item>
+<item>The negative charge should be moved farther away from the positive charge.</item>
+<item>The negative charge should be moved to infinity.</item>
+<item>The negative charge should be placed just next to the positive charge.</item></list>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167066199504" class="summary">
+<title>Section Summary</title>
+<list id="fs-id1167062509461">
+<item>Electric potential energy is a concept similar to gravitational potential energy: It is the potential that charges have to do work by virtue of their positions relative to each other.</item>
+<item>Electric potential is the electric potential energy per unit charge.</item>
+<item>The potential is always measured between two points, where one point may be at infinity.</item>
+<item>Positive charges move from regions of high potential to regions of low potential.</item>
+<item>Negative charges move from regions of low potential to regions of high potential.</item>
+</list>
+</section>
+
+<section id="fs-id1167062385638" class="key-equations"><title>Key Equations</title><table id="fs-id1167064914781" class="unnumbered unstyled" summary="This table has two columns and five rows. The rows in the first column give the following descriptions: “change in electric potential energy for a charge that moves in a constant electric field”; “electric potential energy of a charge a distance r from a point charge or sphere of uniform charge”; “definition of electric potential“; ”change in electric potential for a charge that moves in a constant electric field”; and “electric potential of a charge a distance r from a point charge or sphere of uniform charge”. The second column gives the corresponding equations."><label/>
+<tgroup cols="2"><colspec colnum="1" align="left" colname="c1"/>
+<colspec colnum="2" align="left" colname="c2"/>
+<tbody>
+<row>
+<entry>change in electric potential energy for a charge that moves in a constant electric field</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:msub>
+   <m:mi>U</m:mi>
+   <m:mtext>E</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:mo>−</m:mo><m:mi>q</m:mi><m:mi>E</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msub>
+     <m:mi>x</m:mi>
+     <m:mtext>f</m:mtext>
+    </m:msub>
+    <m:mo>−</m:mo><m:msub>
+     <m:mi>x</m:mi>
+     <m:mtext>i</m:mtext>
+    </m:msub>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow></m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>electric potential energy of a charge a distance <emphasis effect="italics">r</emphasis> from a point charge or sphere of uniform charge</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>U</m:mi>
+   <m:mtext>E</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>k</m:mi><m:mi>Q</m:mi><m:mi>q</m:mi></m:mrow>
+   <m:mi>r</m:mi>
+  </m:mfrac>
+  </m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>definition of electric potential</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mi>V</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msub>
+     <m:mi>U</m:mi>
+     <m:mtext>E</m:mtext>
+    </m:msub>
+    </m:mrow>
+   <m:mi>q</m:mi>
+  </m:mfrac>
+  </m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>change in electric potential for a charge that moves in a constant electric field</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>E</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msub>
+     <m:mi>x</m:mi>
+     <m:mtext>f</m:mtext>
+    </m:msub>
+    <m:mo>−</m:mo><m:msub>
+     <m:mi>x</m:mi>
+     <m:mtext>i</m:mtext>
+    </m:msub>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow></m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>electric potential of a charge a distance <emphasis effect="italics">r</emphasis> from a point charge or sphere of uniform charge</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mi>V</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>k</m:mi><m:mi>Q</m:mi></m:mrow>
+   <m:mi>r</m:mi>
+  </m:mfrac>
+  </m:mrow>
+</m:math>
+</entry>
+</row>
+</tbody>
+
+</tgroup>
+</table></section>
+
+
+<section id="fs-id1167065037443" class="concept"><title>Concept Items</title><exercise id="fs-id1167064579901" class="os-exercise">
+<problem id="fs-id1167065931525">
+<!--<para id="fs-id1167065931527"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex093"/></para>-->
+<para id="fs-id1164567420964">True or false—The potential from a group of charges is the sum of the potentials from each individual charge.</para>
+<list id="fs-id1164567852324" list-type="enumerated" number-style="lower-alpha">
+<item>false</item>
+<item>true</item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-id1166849876539" class="os-exercise">
+<problem id="eip-id1166849860723">
+<!--<para id="eip-id1166849860725">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch18-ot073"/>
+</para>-->
+<para id="fs-id1164567411233">True or false—The characteristics of an electric field make it analogous to the gravitational field near the surface of Earth.</para>
+<list id="fs-id1164567593897" list-type="enumerated" number-style="lower-alpha">
+<item>false</item>
+<item>true</item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-id1166851082919" class="os-exercise">
+<problem id="eip-id1166851082923">
+<para id="eip-id1166851082925">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch18-ot081"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167065913220" class="critical-thinking"><title>Critical Thinking</title><exercise id="fs-id1167064861221" class="os-exercise">
+<problem id="fs-id1167064730338">
+<!--<para id="fs-id1167064730340"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex094"/></para>-->
+<para id="fs-id1164565377700">What is the relationship between voltage and energy? More precisely, what is the relationship between potential difference and electric potential?</para>
+<list id="fs-id1164565437472" list-type="enumerated" number-style="lower-alpha">
+<item>Voltage is the energy per unit mass at some point in space.</item>
+<item>Voltage is the energy per unit length in space.</item>
+<item>Voltage is the energy per unit charge at some point in space.</item>
+<item>Voltage is the energy per unit area in space.</item></list>
+</problem>
+</exercise>
+<exercise id="eip-id1166847293071" class="os-exercise">
+<problem id="eip-id1166847412621">
+<!--<para id="eip-id1166847412623">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch18-ot083"/>
+</para>-->
+<para id="fs-id1164567093480">Three parallel plates are stacked above each other, with a separation between each plate. If the potential difference between the first two plates is ΔV<sub>1</sub> and the potential between the second two plates is Δ<emphasis effect="italics">V</emphasis><sub>2</sub>, what is the potential difference between the first and the third plates?</para>
+<list id="fs-id1164567189787" list-type="enumerated" number-style="lower-alpha">
+<item>Δ<emphasis effect="italics">V</emphasis><sub>3</sub> = Δ<emphasis effect="italics">V</emphasis><sub>2</sub> + Δ<emphasis effect="italics">V</emphasis><sub>1</sub></item>
+<item>Δ<emphasis effect="italics">V</emphasis><sub>3</sub> = Δ<emphasis effect="italics">V</emphasis><sub>2</sub> − Δ<emphasis effect="italics">V</emphasis><sub>1</sub></item>
+<item>Δ<emphasis effect="italics">V</emphasis><sub>3</sub> = Δ<emphasis effect="italics">V</emphasis><sub>2</sub> / Δ<emphasis effect="italics">V</emphasis><sub>1</sub></item>
+<item>Δ<emphasis effect="italics">V</emphasis><sub>3</sub> = Δ<emphasis effect="italics">V</emphasis><sub>2</sub>×Δ<emphasis effect="italics">V</emphasis><sub>1</sub></item></list>
+</problem>
+</exercise></section><section id="fs-id1167064619952" class="problems">
+<title>Problems</title>
+<exercise id="fs-id1167066028542" class="os-exercise">
+<problem id="fs-id1167062315508">
+<!--<para id="fs-id1167062315510"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex091"/></para>-->
+<para id="fs-id1164567086554">You move a charge <emphasis effect="italics">q</emphasis> from <emphasis effect="italics">r</emphasis><sub>i</sub> = 20 cm to <emphasis effect="italics">r</emphasis><sub>f</sub> = 40 cm from a fixed charge <emphasis effect="italics">Q</emphasis> = 10 nC. What is the difference in potential for these two positions?</para>
+<list id="fs-id1164565790760" list-type="enumerated" number-style="lower-alpha">
+<item>−2.2 × 10<sup>2</sup> V</item>
+<item>−1.7 × 10<sup>3</sup> V</item>
+<item>−2.2 × 10<sup>4</sup> V</item>
+<item>−1.7 × 10<sup>2</sup> V</item></list>
+</problem>
+</exercise>
+<exercise id="fs-id1167062509447" class="os-exercise">
+<problem id="fs-id1167065943985">
+<!--<para id="fs-id1167065943987"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex092"/></para>-->
+<para id="fs-id1164564361439">How much work is required from an outside agent to move an electron from <emphasis effect="italics">x</emphasis><sub>i</sub> = 0 to <emphasis effect="italics">x</emphasis><sub>f</sub> = 20 cm in an electric field  <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo stretchy="false">(</m:mo><m:mn>50</m:mn><m:mo> </m:mo><m:mtext>N/C</m:mtext><m:mo stretchy="false">)</m:mo><m:mover accent="true">
+    <m:mi>x</m:mi>
+    <m:mo stretchy="true">^</m:mo>
+   </m:mover>
+
+  </m:mrow>
+ </m:semantics>
+</m:math>
+?</para>
+<list id="fs-id1169830620477" list-type="enumerated" number-style="lower-alpha">
+<item>1.6 × 10<sup>−15</sup> J</item>
+<item>1.6 × 10<sup>−16</sup> J</item>
+<item>1.6 × 10<sup>−20</sup> J</item>
+<item>1.6 × 10<sup>−18</sup> J</item></list>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167065847597" class="multiple-choice"><title>Test Prep Multiple Choice</title><exercise id="fs-id1167065913781" class="os-exercise">
+<problem id="fs-id1167065913784">
+<!--<para id="fs-id1167065821024"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex095"/></para>-->
+<para id="fs-id1169830886328">What is the potential at 1.0 m from a point charge <emphasis effect="italics">Q</emphasis> = − 25 nC?</para><list id="fs-id1164567168749" list-type="enumerated" number-style="lower-alpha"><item>6.6 × 10<sup>2</sup> V</item>
+<item>−2.3 × 10<sup>2</sup> V</item>
+<item>−6.6 × 10<sup>2</sup> V</item>
+<item>2.3 × 10<sup>2</sup> V</item>
+</list></problem>
+</exercise>
+<exercise id="fs-id1167064529156" class="os-exercise"><problem id="fs-id1167064529159">
+<para id="eip-idm212001728">Increasing the distance by a factor of two from a point charge will change the potential by a factor of how much?</para>
+<list id="eip-idm214364496" list-type="enumerated" number-style="lower-alpha"><item>2</item>
+<item>4</item>
+<item>1/2</item>
+<item>1/4</item>
+</list></problem>
+</exercise><exercise id="eip-id1166851365187" class="os-exercise">
+<problem id="eip-id1166851365191">
+<!--<para id="eip-id1166851365194">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch18-ot080"/>
+</para>-->
+<para id="fs-id1164567955116">True or false—<emphasis effect="italics">Voltage</emphasis> is the common word for potential difference, because this term is more descriptive than potential difference.</para>
+<list id="fs-id1164567588625" list-type="enumerated" number-style="lower-alpha">
+<item>false</item>
+<item>true</item></list>
+</problem>
+</exercise></section><section id="fs-id1167065953456" class="short-answer">
+<title>Test Prep Short Answer</title>
+<exercise id="fs-id1167064778490" class="os-exercise">
+<problem id="fs-id1167064993470">
+<!--<para id="fs-id1167066096347"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex097"/></para>-->
+<para id="fs-id1164564529624">The energy required to bring a charge <emphasis effect="italics">q</emphasis> = − 8.8 nC from far away to 5.5 cm from a point charge Q is 13 mJ. What is the potential at the final position of <emphasis effect="italics">q</emphasis>?</para>
+<list id="fs-id1164566130448" list-type="enumerated" number-style="lower-alpha">
+<item>−112 MV</item>
+<item>−1.5 MV</item>
+<item>−0.66 MV</item>
+<item>+1.5 MV</item></list>
+</problem>
+</exercise>
+<exercise id="fs-id1167065734950" class="os-exercise">
+<problem id="fs-id1167064916685">
+<!--<para id="fs-id1167064572037"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex098"/></para>-->
+<para id="fs-id1164567107742">How is electric potential related to electric potential energy?</para>
+<list id="fs-id1164567617394" list-type="enumerated" number-style="lower-alpha">
+<item>Electric potential is the electric potential energy per unit mass at a given position in space.</item>
+<item>Electric potential is the electric potential energy per unit length at a given position in space. This relation is not dimensionally correct.</item>
+<item>Electric potential is the electric potential energy per unit area in space.</item>
+<item>Electric potential is the electric potential energy per unit charge at a given position in space.</item></list>
+</problem>
+</exercise>
+<exercise id="fs-id1167065893807" class="os-exercise">
+<problem id="fs-id1167066056009">
+<!--<para id="fs-id1167066028511"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex099"/></para>-->
+<para id="fs-id1164566039634">If it takes 10 mJ to move a charge <emphasis effect="italics">q</emphasis> from <emphasis effect="italics">x</emphasis><sub>i</sub> = 25 cm to <emphasis effect="italics">x</emphasis><sub>f</sub> = − 25 cm in an electric field of  <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo stretchy="false">(</m:mo><m:mn>20</m:mn><m:mo> </m:mo><m:mtext>N/C</m:mtext><m:mo stretchy="false">)</m:mo><m:mover accent="true">
+    <m:mi>x</m:mi>
+    <m:mo stretchy="true">^</m:mo>
+   </m:mover>
+   <m:mtext>,</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math>  what is the charge <emphasis effect="italics">q</emphasis>?</para>
+<list id="fs-id1164565457350" list-type="enumerated" number-style="lower-alpha">
+<item>−1.0 mC</item>
+<item>+0.25 mC</item>
+<item>+ 1.0 mC</item>
+<item>+400 mC</item></list>
+</problem>
+</exercise>
+<exercise id="fs-id1167064903980" class="os-exercise">
+<problem id="fs-id1167064573460">
+<para id="fs-id1167065879548"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex100"/></para>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167063167969" class="extended-response">
+<title>Test Prep Extended Response</title>
+<exercise id="fs-id1167066025391" class="os-exercise">
+<problem id="fs-id1167064892816">
+<!--<para id="fs-id1167064892818"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex101"/></para>-->
+<para id="fs-id1164565288597">A square grid has charges of <emphasis effect="italics">Q</emphasis> = 10 nC are each corner. The sides of the square at 10 cm . How much energy does it require to bring a <emphasis effect="italics">q</emphasis> = 1.0 nC charge from very far away to the point at the center of this square?</para>
+<list id="fs-id1164565790232" list-type="enumerated" number-style="lower-alpha"><item>1.3 × 10<sup>−6</sup> J</item>
+<item>2.5 × 10<sup>−6</sup> J</item>
+<item>3.8 × 10<sup>−6</sup> J</item>
+<item>5.1 × 10<sup>−6</sup> J</item></list></problem>
+</exercise>
+<exercise id="fs-id1167064919293" class="os-exercise">
+<problem id="fs-id1167064948114">
+<!--<para id="fs-id1167064948116"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex102"/></para>-->
+<para id="fs-id1164567385080">How are potential difference and electric-field strength related for a constant electric field?</para>
+<list id="fs-id1164567328008" list-type="enumerated" number-style="lower-alpha"><item>The magnitude of electric-field strength is equivalent to the potential divided by the distance.</item>
+<item>The magnitude of electric-field strength is equivalent to the product of the electric potential and the distance.</item>
+<item>The magnitude of electric-field strength is equivalent to the difference between magnitude of the electric potential and the distance.</item>
+<item>The magnitude of electric-field strength is equivalent to the sum of the magnitude of the electric potential and the distance.</item></list></problem>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1167065755524"><term>electric potential</term><meaning id="fs-id1167066122572"> the electric potential energy per unit charge</meaning></definition>
+<definition id="fs-id1167066122576"><term>electric potential energy </term><meaning id="fs-id1167064743683">the work that a charge can do by virtue of its position in an electric field</meaning></definition>
+</glossary>
+</document>

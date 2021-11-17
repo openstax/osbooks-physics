@@ -1,0 +1,689 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Postulates of Special Relativity</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54280</md:content-id>
+  <md:title>Postulates of Special Relativity</md:title>
+  <md:abstract/>
+  <md:uuid>9b86596d-b640-4477-a517-3108627f5fba</md:uuid>
+</metadata>
+
+<content>
+    <note id="fs-id1164352312881" class="learning-objectives">
+      <label/>
+      <title>Section Learning Objectives</title>
+      <para id="fs-id1164355851512">By the end of this section, you will be able to do the following:</para>
+      <list id="fs-id1164355733986"><item>Describe the experiments and scientific problems that led Albert Einstein to develop the special theory of relativity</item>
+<item>Understand the postulates on which the special theory of relativity was based</item>
+      </list></note>
+    <note id="fs-id1164352248741" class="os-teacher">
+      <title>Teacher Support</title>
+      <para id="fs-id1164355657682">The learning objectives in this section will help your students master the following student standards:</para>
+<list id="fs-id1164567296325">
+<item>(2) Scientific processes. The student uses a systematic approach to answer scientific laboratory and field investigative questions. The student is expected to:
+<list id="fs-id1164355749441"><item><span>(C)</span> <span>Know that scientific theories are based on natural and physical phenomena and are capable of being tested by multiple independent researchers. Unlike hypotheses, scientific theories are well-established and well-tested explanations, but may be subject to change as new areas of science and new technologies are developed.</span></item></list></item></list>
+<list id="fs-id1164567016757">
+<item>(3) Scientific processes. The student uses critical thinking, scientific reasoning, and problem solving to make informed decisions within and outside the classroom. The student is expected to:
+<list id="fs-id1164567588952"><item><span>(D)</span> <span>Explain the impacts of the scientific contributions of a variety of historical and contemporary scientists on scientific thought and society.</span></item></list></item></list>
+<list id="fs-id1164567505709">
+<item>(4) Science concepts. The student knows and applies the laws governing motion in a variety of situations. The student is expected to:
+<list id="fs-id1164567965208"><item><span>(F)</span> <span>Identify and describe motion relative to different frames of reference.</span></item>
+      </list></item></list></note>
+      <section id="keyterms"><title>Section Key Terms</title>
+    <table id="fs-id1164355985117" summary="The list of Key Terms includes: ether, frame of reference, inertial reference frame, general relativity, postulate, relativity, simultaneity, and special relativity." class="unnumbered unstyled section-key-terms"><label/>
+<tgroup cols="3"><tbody>
+          <row>
+            <entry>ether</entry>
+            <entry>frame of reference</entry>
+            <entry>inertial reference frame</entry>
+          </row>
+          <row>
+            <entry>general relativity</entry>
+            <entry>postulate</entry>
+            <entry>relativity</entry>
+          </row>
+          <row>
+            <entry>simultaneity</entry>
+            <entry>special relativity</entry>
+            <entry/>
+
+          </row>
+        </tbody>
+
+</tgroup>
+</table><note id="fs-id1164356014749" class="os-teacher">
+      <title>Teacher Support</title>
+      <para id="fs-id1164355917331"><span>[AL]</span> Discuss the history of the concept of the ether. Explain that it more of a philosophical concept that was important prior to the development of modern science. It arose from the belief that matter was continuous and vacuums were impossible. Ether was sometimes considered to be one of the elements.</para>
+      <para id="fs-id1164355599628"><span>[BL]</span><span>[OL]</span> Mention that electromagnetic waves are unique among wave-propagated energy forms, in that they can travel across empty space. This was difficult to believe and caused scientists to doggedly hang onto the idea that there must be an ether permeating space. Ask students what they know about Einstein and dispel any misconceptions. Explain what <emphasis effect="italics">thought experiments</emphasis> and <emphasis effect="italics">postulates</emphasis> are.</para></note>
+  </section>
+  <section id="fs-id1164352258568">
+    <title>Scientific Experiments and Problems</title>
+    <para id="fs-id1164355916579">Relativity is not new. Way back around the year 1600, Galileo explained that motion is relative. Wherever you happen to be, it seems like you are at a fixed point and that everything moves with respect to you. Everyone else feels the same way. Motion is always measured with respect to a fixed point. This is called establishing a <term>frame of reference</term>. But the choice of the point is arbitrary, and all frames of reference are equally valid. A passenger in a moving car is not moving with respect to the driver, but they are both moving from the point of view of a person on the sidewalk waiting for a bus. They are moving even faster as seen by a person in a car coming toward them. It is all relative.</para>
+    <note id="fs-id1164355932537" class="os-teacher">
+      <title>Teacher Support</title>
+      <para id="fs-id1164355747766"><span>[OL]</span><span>[AL]</span> Focus students’ thinking on the speed of light. Can the students think of anything else that has a maximum allowable value and is also a universal constant? Most constants are just numbers, like the value of pi. Most properties, such as mass and volume, have no fixed upper limit. Why does speed have a limit? </para>
+    </note>
+    <note id="fs-id1164355739203" class="tips-for-success">
+
+      <para id="fs-id1164355607183">A frame of reference is not a complicated concept. It is just something you decide is a fixed point or group of connected points. It is completely up to you. For example, when you look up at celestial objects in the sky, you choose the earth as your frame of reference, and the sun, moon, etc., seem to move across the sky.</para>
+    </note>
+    <para id="fs-id1164355756051">Light is involved in the discussion of relativity because theories related to electromagnetism are inconsistent with Galileo’s and Newton’s explanation of relativity. The true nature of light was a hot topic of discussion and controversy in the late 19th century. At the time, it was not generally believed that light could travel across empty space. It was known to travel as waves, and all other types of energy that propagated as waves needed to travel though a material medium. It was believed that space was filled with an invisible medium that light waves traveled through. This imaginary (as it turned out) material was called the <term>ether</term> (also spelled aether). It was thought that everything moved through this mysterious fluid. In other words, ether was the one fixed frame of reference. The <term class="no-emphasis">Michelson–Morley experiment</term> proved it was not.</para>
+    <para id="fs-id1164355875256">In 1887, Albert Michelson and Edward Morley designed the interferometer shown in <link target-id="Figure_10_01_mirror"/> to measure the speed of Earth through the ether. A light beam is split into two perpendicular paths and then recombined. Recombining the waves produces an inference pattern, with a bright fringe at the locations where the two waves arrive in phase; that is, with the crests of both waves arriving together and the troughs arriving together. A dark fringe appears where the crest of one wave coincides with a trough of the other, so that the two cancel. If Earth is traveling through the ether as it orbits the sun, the peaks in one arm would take longer than in the other to reach the same location. The places where the two waves arrive in phase would change, and the interference pattern would shift. But, using the interferometer, there was no shift seen! This result led to two conclusions: that there is no ether and that the speed of light is the same regardless of the relative motion of source and observer. The Michelson–Morley investigation has been called the most famous failed experiment in history.</para>
+    <figure id="Figure_10_01_mirror"><media id="fs-id1164355755869" alt="A drawing shows how light travels from a coherent light source, through a semi-silvered mirror to a mirror, then travels up, then back down towards a detector.">
+        <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_10_01_mirror.jpg"/>
+      </media>
+
+    <caption>This is a diagram of the instrument used in the MichelsonMorley experiment.</caption></figure><note id="fs-id1164355677719" class="os-teacher">
+      <title>Teacher Support</title>
+      <para id="fs-id1164355736826"><span>[BL]</span><span>[OL]</span> Explain the geometry of the Michelson–Morley experiment. Explain why failure in this case was actually a success. Discuss how accepting unexpected results is an important ability for scientists. Ask students to memorize the value of the speed of light in m/s to three significant figures. </para></note>
+    <para id="fs-id1164355888880">To see what Michelson and Morley expected to find when they measured the speed of light in two directions, watch <link url="http://openstax.org/l/28MMexperiment">this animation</link>. In the video, two people swimming in a lake are represented as an analogy to light beams leaving Earth as it moves through the ether (if there were any ether). The swimmers swim away from and back to a platform that is moving through the water. The swimmers swim in different directions with respect to the motion of the platform. Even though they swim equal distances at the same speed, the motion of the platform causes them to arrive at different times.</para>
+    <note id="fs-id1164356023874" class="os-teacher">
+      <title>Teacher Support</title>
+      <para id="fs-id1164355611907"><span>[AL]</span>Be sure students understand that this animation does not explain how light behaves. It shows what Michelson and Morley <emphasis effect="italics">expected</emphasis> to observe. It may work best to just introduce the Michelson—Morley experiment briefly and then watch the animation.</para>
+      </note>
+  </section>
+  <section id="fs-id1164355965847">
+    <title>Einstein’s Postulates</title>
+    <para id="fs-id1164356025436">The results described above left physicists with some puzzling and unsettling questions such as, why doesn’t light emitted by a fast-moving object travel faster than light from a street lamp? A radical new theory was needed, and Albert Einstein, shown in <link target-id="Figure_10_01_Einstein"/>, was about to become everyone’s favorite genius. Einstein began with two simple <term>postulates</term> based on the two things we have discussed so far in this chapter. </para>
+    <list id="fs-id1164355932848" list-type="enumerated" number-style="arabic">
+      <item>The laws of physics are the same in all inertial reference frames.</item>
+      <item>The speed of light is the same in all inertial reference frames and is not affected by the speed of its source. </item>
+    </list>
+    <figure id="Figure_10_01_Einstein"><media id="fs-id1164355730553" alt="A photograph of Albert Einstein.">
+        <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_10_00_Einstein.jpg"/>
+      </media>
+
+    <caption>Albert Einstein (1879–1955) developed modern relativity and also made fundamental contributions to the foundations of quantum mechanics. (The Library of Congress)</caption></figure><para id="fs-id1164355848122">The speed of light is given the symbol <emphasis effect="italics">c</emphasis> and is equal to exactly 299,792,458 m/s. This is the speed of light in vacuum; that is, in the absence of air. For most purposes, we round this number off to  <m:math>
+      <m:mrow>
+        <m:mn>3.00</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+          <m:mrow>
+            <m:mn>10</m:mn>
+          </m:mrow>
+          <m:mn>8</m:mn>
+        </m:msup>
+        <m:mtext> m/s</m:mtext>
+      </m:mrow>
+    </m:math>  The term <term>inertial reference frame</term> simply refers to a frame of reference where all objects follow Newton’s first law of motion: Objects at rest remain at rest, and objects in motion remain in motion at a constant velocity in a straight line, unless acted upon by an external force. The inside of a car moving along a road at constant velocity and the inside of a stationary house are inertial reference frames.</para><note id="fs-id1164355753300" class="os-teacher">
+      <title>Teacher Support</title>
+      <para id="fs-id1164355876526"><span>[BL]</span> Ask students to round off the value given for <emphasis effect="italics">c</emphasis> to 3 significant figures and express in scientific notation. Stress the units of measurements.</para>
+      <para id="fs-id1164355917158"><span>[OL]</span> Explain the postulates carefully. Note that, although they both seem true, they lead to problems with the classical mechanics of Newton. Explain the concept of reference frame and ask students to think of examples of reference frames that are moving relative to one other. Use vehicles and celestial bodies. Explain that the understanding of relative motion goes back hundreds of years and did not begin with relativity theory.</para>
+      <para id="fs-id1164355650136"><span>[AL]</span> Explain that it is the combination of these two postulates that leads to unusual results that will follow in the next section and that it is the combination of these postulates that forces us to abandon some aspects of Newtonian physics in some scenarios.</para>
+
+      <note id="fs-id1167066861047" class="misconception">
+        <para id="fs-id1164355917468">Note that the very precise value for the speed of light only applies to light traveling through a vacuum and that in all transparent material media it is slower.</para></note></note>
+    <note id="fs-id1164352313795" class="watch-physics"><title>The Speed of Light</title>
+
+      <para id="fs-id1164355607109">This lecture on light summarizes the most important facts about the speed of light. If you are interested, you can watch the whole video, but the parts relevant to this chapter are found between 3:25 and 5:10, which you find by running your cursor along the bottom of the video.</para>
+      <media id="fs-id1164356049129" alt="This link takes you to a lecture on light that summarizes the most important facts about the speed of light." class="os-embed">
+        <iframe width="660" height="371.4" src="https://www.youtube.com/embed/rLNM8zI4Q_M"/>
+      </media>
+      <note id="fs-id1164355985836" class="os-teacher">
+        <title>Teacher Support</title>
+        <para id="fs-id1164355882818">Only the section from 3:25 to 5:10 minutes is completely relevant to an understanding of the speed of light. If students watch it just after the text above, they will be adequately prepared.</para>
+
+      </note>
+      <exercise id="fs-id1164355681740" class="os-exercise grasp-check unnumbered">
+
+        <problem id="fs-id1164355916693">
+<para id="fs-id1164567319667">An airliner traveling at 200 m/s emits light from the front of the plane. Which statement describes the speed of the light?</para>
+<list id="fs-id1164567577039" list-type="enumerated" number-style="lower-alpha">
+<item>It travels at a speed of <emphasis effect="italics">c</emphasis> + 200 m/s.</item>
+<item>It travels at a speed of <emphasis effect="italics">c</emphasis>  200 m/s.</item>
+<item>It travels at a speed <emphasis effect="italics">c</emphasis>, like all light.</item>
+<item>It travels at a speed slightly less than <emphasis effect="italics">c</emphasis>.</item></list>
+          <!--<para id="fs-id1164356118947">
+            <link class="os-embed" url="#ost/api/ex/k12phys-ch10-ex002"/>
+          </para>-->
+        </problem>
+      </exercise>
+    </note><note id="fs-id1164356013464" class="snap-lab"><title>Measure the Speed of Light</title>
+
+      <para id="fs-id1164356098935">In this experiment, you will measure the speed of light using a microwave oven and a slice of bread. The waves generated by a microwave oven are not part of the visible spectrum, but they are still electromagnetic radiation, so they travel at the speed of light. If we know the wavelength, <emphasis effect="italics">λ</emphasis>, and frequency, <emphasis effect="italics">f</emphasis>, of a wave, we can calculate its speed, <emphasis effect="italics">v</emphasis>, using the equation <emphasis effect="italics">v = λf</emphasis>. You can measure the wavelength. You will find the frequency on a label on the back of a microwave oven. The wave in a microwave is a standing wave with areas of high and low intensity. The high intensity sections are one-half wavelength apart.</para>
+      <list id="fs-id1164355717408" list-type="labeled-item" class="warnings">
+<item>High temperature: Very hot temperatures are encountered in this lab. These can cause burns.</item>
+      </list><list id="fs-id1164355846995" class="materials">
+        <item>a microwave oven</item>
+        <item>one slice of plain white bread</item>
+        <item>a centimeter ruler</item>
+        <item>a calculator</item>
+      </list>
+
+      <list id="fs-id1164355832372" list-type="enumerated">
+        <item>Work with a partner.</item>
+        <item>Turn off the revolving feature of the microwave oven or remove the wheels under the microwave dish that make it turn. It is important that the dish does not turn.</item>
+        <item>Place the slice of bread on the dish, set the microwave on high, close the door, run the microwave for about 15 seconds.</item>
+        <item>A row of brown or black marks should appear on the bread. Stop the microwave as soon as they appear. Measure the distance between two adjacent burn marks and multiply the result by 2. This is the wavelength.</item>
+        <item>The frequency of the waves is written on the back of the microwave. Look for something like “2,450 MHz.” Hz is the unit hertz, which means <emphasis effect="italics">per second</emphasis>. The M represents mega, which stands for million, so multiply the number by 10<sup>6</sup>.</item>
+        <item>Express the wavelength in meters and multiply it times the frequency. If you did everything correctly, you will get a number very close to the speed of light. Do not eat the bread. It is a general laboratory safety rule never to eat anything in the lab.</item>
+      </list>
+
+    <note id="fs-id1164352337353" class="os-teacher"><title>Teacher Support</title>
+      <para id="fs-id1164355723564">This experiment could be demonstrated to the class if a microwave is available in the classroom. It might be better to let the students do the experiment at home so they can get more of a hands-on experience. Before the lab you might have them watch <link url="https://openstax.org/l/28speedoflight">this video</link>.</para>
+      <para id="fs-id1164356013360">To continue the discussion, you could tell them about how light is refracted when it changes speed as it passes from one medium to another. Because light speed in air is slower than in a vacuum, light is refracted as it enters Earth’s atmosphere.</para>
+      <para id="fs-id1164356038873">This link takes you to a video demonstrating how to measure the speed of light using a microwave, a ruler, and a bar of chocolate. There is also an accompanying article with background information on measuring the speed of light.</para>
+
+    </note><exercise id="fs-id1164355690198" class="os-exercise grasp-check unnumbered">
+
+      <problem id="fs-id1164355728958">
+<para id="fs-id1164564496973">How does your measured value of the speed of light compare to the accepted value (% error)?</para>
+<list id="fs-id1164567944874" list-type="enumerated" number-style="lower-alpha">
+<item>The measured value of speed will be equal to <emphasis effect="italics">c</emphasis>.</item>
+<item>The measured value of speed will be slightly less than <emphasis effect="italics">c</emphasis>.</item>
+<item>The measured value of speed will be slightly greater than <emphasis effect="italics">c</emphasis>.</item>
+<item>The measured value of speed will depend on the frequency of the microwave.</item></list>
+
+<!--        <para id="fs-id1164355843201">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch10-ex003"/>
+        </para>-->
+      </problem>
+    </exercise>
+      <note id="fs-id1164355718714" class="os-teacher">
+        <title>Teacher Support</title>
+        <para id="fs-id1164355917454"><span>[AL]</span> This will be difficult to grasp completely for some students. The fact that the observers see different things is the result of the two postulates being true. If light speed is a constant and the two frames of reference are both valid, then simultaneity is not the same for all observers. Ask them to try the thought experiment in their own head to grasp what is being shown here. Sometimes students have fun sketching a cartoon that explains or demonstrates difficult concepts. They can then show the cartoon to the class and explain their reasoning.</para>
+        <para id="fs-id1164355651215"><span>[OL]</span> If students are struggling with this explanation of simultaneity, let them know that there will be an animation in the next section that should make it clearer.</para>
+        <para id="fs-id1164355768596"><span>[OL]</span><span>[BL]</span> Point out that the relationship between special relativity and Newton’s mechanics is an excellent example of how science advances. Explain that new theories rarely reverse old theories. It is more common that new theories extend and expand on old theories. Ask students if they can think of other examples from the history of science.</para>
+      </note>
+    </note><para id="fs-id1164355616582">Einstein’s postulates were carefully chosen, and they both seemed very likely to be true. Einstein proceeded despite realizing that these two ideas taken together and applied to extreme conditions led to results that contradict Newtonian mechanics. He just took the ball and ran with it. </para>
+    <para id="fs-id1164355858140">In the traditional view, velocities are additive. If you are running at 3 m/s and you throw a ball forward at a speed of 10 m/s, the ball should have a net speed of 13 m/s. However, according to relativity theory, the speed of a moving light source is not added to the speed of the emitted light.</para>
+    <para id="fs-id1164355663869">In addition, Einstein’s theory shows that if you were moving forward relative to Earth at nearly <emphasis effect="italics">c</emphasis> (the speed of light) and could throw a ball forward at <emphasis effect="italics">c</emphasis>, an observer at rest on the earth would not see the ball moving at nearly twice the speed of light. The observer would see it moving at a speed that is still less than <emphasis effect="italics">c</emphasis>. This result conforms to both of Einstein’s postulates: The speed of light has a fixed maximum and neither reference frame is privileged.</para>
+    <para id="fs-id1164355994161">Consider how we measure elapsed time. If we use a stopwatch, for example, how do we know when to start and stop the watch? One method is to use the arrival of light from the event, such as observing a light turn green to start a drag race. The timing will be more accurate if some sort of electronic detection is used, avoiding human reaction times and other complications.</para>
+    <para id="fs-id1164355746975">Now suppose we use this method to measure the time interval between two flashes of light produced by flash lamps on a moving train. (See <link target-id="Figure_10_01_train"/>) </para>
+    <figure id="Figure_10_01_train">
+      <media id="fs-id1164355752223" alt="There are two illustrations. Both show a man standing beside a railroad track looking at a rail car with an open side. Sitting in the center of the rail car is a woman facing toward the left. Mounted on the wall at either end of the car are light fixtures. In the first illustration, the light that is emitted from the light fixtures is shown as arrows that start at the light fixture and fan out toward the center of the rail car. In the second illustration, the rail car is shown as having moved to the right and the arrows representing the light on the right are shown closer to the woman while the ones coming from the light on the left have not moved.">
+        <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_10_01_train.jpg"/>
+      </media>
+      <caption>Light arriving to observer A as seen by two different observers.</caption>
+    </figure>
+    <para id="fs-id1164355606036">A woman (observer A) is seated in the center of a rail car, with two flash lamps at opposite sides equidistant from her. Multiple light rays that are emitted from the flash lamps move towards observer A, as shown with arrows. A velocity vector arrow for the rail car is shown towards the right. A man (observer B) standing on the platform is facing the woman and also observes the flashes of light.</para>
+    <para id="fs-id1164355609084">Observer A moves with the lamps on the rail car as the rail car moves towards the right of observer B. Observer B receives the light flashes simultaneously, and sees the bulbs as both having flashed at the same time. However, he sees observer A receive the flash from the right first. Because the pulse from the right reaches her first, in her frame of reference she sees the bulbs as not having flashed simultaneously. Here, a relative velocity between observers affects whether two events at well-separated locations are observed to be simultaneous. <term>Simultaneity</term>, or whether different events occur at the same instant, depends on the frame of reference of the observer. Remember that velocity equals distance divided by time, so <emphasis effect="italics">t = d/</emphasis><emphasis>v</emphasis>. If velocity appears to be different, then duration of time appears to be different. </para><para id="fs-id1164355721752">This illustrates the power of clear thinking. We might have guessed incorrectly that, if light is emitted simultaneously, then two observers halfway between the sources would see the flashes simultaneously. But careful analysis shows this not to be the case. Einstein was brilliant at this type of thought experiment (in German, <emphasis effect="italics">Gedankenexperiment</emphasis>). He very carefully considered how an observation is made and disregarded what might seem obvious. The validity of thought experiments, of course, is determined by actual observation. The genius of Einstein is evidenced by the fact that experiments have repeatedly confirmed his theory of relativity. No experiments after that of Michelson and Morley were able to detect any ether medium. We will describe later how experiments also confirmed other predictions of <term>special relativity</term>, such as the distance between two objects and the time interval of two events being different for two observers moving with respect to each other. </para>
+    <para id="fs-id1164356017560">In summary: Two events are defined to be simultaneous if an observer measures them as occurring at the same time (such as by receiving light from the events). Two events are not necessarily simultaneous to all observers.</para>
+    <para id="fs-id1164355840665">The discrepancies between Newtonian mechanics and relativity theory illustrate an important point about how science advances. Einstein’s theory did not replace Newton’s but rather extended it. It is not unusual that a new theory must be developed to account for new information. In most cases, the new theory is built on the foundation of older theory. It is rare that old theories are completely replaced.</para>
+    <para id="fs-id1164355831681">In this chapter, you will learn about the theory of special relativity, but, as mentioned in the introduction, Einstein developed two relativity theories: special and general. <link target-id="Table_10_01_relativity"/> summarizes the differences between the two theories.</para>
+    <table id="Table_10_01_relativity" summary="A table with two columns. One lists the key points of Special Relativity and the other the key points of General Relativity.">
+      <title>Comparing Special Relativity and General Relativity</title>
+      <tgroup cols="2">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <thead>
+          <row>
+            <entry align="center">Special Relativity</entry>
+            <entry align="center">General Relativity</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>Published in 1905</entry>
+            <entry>Final form published in 1916</entry>
+          </row>
+          <row>
+            <entry>A theory of space-time</entry>
+            <entry>A theory of gravity</entry>
+          </row>
+          <row>
+            <entry>Applies to observers moving at constant speed</entry>
+            <entry>Applies to observers that are accelerating</entry>
+          </row>
+          <row>
+            <entry>Most useful in the field of nuclear physics</entry>
+            <entry>Most useful in the field of astrophysics</entry>
+          </row>
+          <row>
+            <entry>Accepted quickly and put to practical use by nuclear physicists and quantum chemists</entry>
+            <entry>Largely ignored until 1960 when new mathematical techniques made the theory more accessible and astronomers found some important applications </entry>
+          </row>
+          <row>
+
+              <entry namest="c1" nameend="c2">Also note that the theory of general relativity includes the theory of special relativity.</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <note id="fs-id1164355581949" class="worked-example"><title>Calculating the Time it Takes Light to Travel a Given Distance</title>
+
+      <exercise id="fs-id1164355651711" class="10-ex004 unnumbered"><label/>
+
+        <problem id="fs-id1164355858683">
+          <para id="fs-id1164355688893">The sun is 1.50 × 10<sup>8</sup> km from Earth. How long does it take light to travel from the sun to Earth in minutes and seconds?</para>
+          <note id="fs-id1164355951235"><label/>
+          <title>Strategy</title>
+            <para id="fs-id1164355755417">Identify knowns.</para>
+
+<!-- <para id="fs-id1164355872046">Distance = 1.50 &#215; 10<sup>8</sup> km</para>
+            <para id="fs-id1164355734011">Speed = 3.00 &#215; 10<sup>8</sup> m/s</para>-->
+<equation id="fs-id1164567761250">
+ <m:math display="block">
+ <m:mtable columnalign="left">
+  <m:mtr>
+   <m:mtd>
+    <m:mtext>Distance = 1</m:mtext><m:mtext>.50 </m:mtext><m:mo>×</m:mo><m:msup>
+     <m:mtext> 10</m:mtext>
+     <m:mtext>8</m:mtext>
+    </m:msup>
+    <m:mtext> km</m:mtext>
+   </m:mtd>
+  </m:mtr>
+  <m:mtr>
+   <m:mtd>
+    <m:mtext>Speed = 3</m:mtext><m:mtext>.00 </m:mtext><m:mo>×</m:mo><m:msup>
+     <m:mtext> 10</m:mtext>
+     <m:mtext>8</m:mtext>
+    </m:msup>
+    <m:mtext> km</m:mtext>
+   </m:mtd>
+  </m:mtr>
+ </m:mtable>
+
+</m:math> 
+</equation>
+
+            <para id="fs-id1164356099482">Identify unknowns.</para>
+            <para id="fs-id1164356123515">Time</para>
+            <para id="fs-id1164355831598">Find the equation that relates knowns and unknowns.</para>
+            <para id="fs-id1164355669072"><equation id="fs-id1164565510064"> <m:math display="block">
+ <m:mi>v</m:mi><m:mo>=</m:mo><m:mfrac>
+  <m:mi>d</m:mi>
+  <m:mi>t</m:mi>
+ </m:mfrac>
+ <m:mo>;</m:mo><m:mtext> </m:mtext><m:mo> </m:mo><m:mi>t</m:mi><m:mo>=</m:mo><m:mfrac>
+  <m:mi>d</m:mi>
+  <m:mi>v</m:mi>
+ </m:mfrac>
+
+</m:math> 
+</equation>
+           </para>
+            <para id="fs-id1164355742045">Be sure to use consistent units.</para>
+                      </note>
+        </problem>
+        <solution id="fs-id1164355871647"><label/>
+<title>Solution</title>
+          <equation id="fs-id1164355850497" class="unnumbered"><label/> <m:math display="block">
+ <m:mtable columnalign="left">
+  <m:mtr>
+   <m:mtd>
+    <m:mi>t</m:mi><m:mo>=</m:mo><m:mfrac>
+     <m:mi>d</m:mi>
+     <m:mi>v</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo><m:mfrac>
+     <m:mrow>
+      <m:mo stretchy="false">(</m:mo><m:mn>1.50</m:mn><m:mspace width="0.3em"/><m:mtext> </m:mtext><m:mo>×</m:mo><m:mtext> </m:mtext><m:msup>
+       <m:mrow>
+        <m:mn>10</m:mn>
+       </m:mrow>
+       <m:mn>8</m:mn>
+      </m:msup>
+      <m:mi>k</m:mi><m:mi>m</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext><m:mo>×</m:mo><m:mtext> </m:mtext><m:mfrac>
+       <m:mrow>
+        <m:msup>
+         <m:mrow>
+          <m:mtext>10</m:mtext>
+         </m:mrow>
+         <m:mtext>3</m:mtext>
+        </m:msup>
+        <m:mtext>m</m:mtext>
+       </m:mrow>
+       <m:mrow>
+        <m:mtext>km</m:mtext>
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+     <m:mrow>
+      <m:mn>3.00</m:mn><m:mspace width="0.3em"/><m:mtext> </m:mtext><m:mo>×</m:mo><m:mtext> </m:mtext><m:msup>
+       <m:mrow>
+        <m:mn>10</m:mn>
+       </m:mrow>
+       <m:mn>8</m:mn>
+      </m:msup>
+      <m:mfrac>
+       <m:mtext>m</m:mtext>
+       <m:mtext>s</m:mtext>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo><m:mn>5.00</m:mn><m:mo>×</m:mo><m:msup>
+     <m:mn>10</m:mn>
+     <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>s</m:mi>
+   </m:mtd>
+  </m:mtr>
+  <m:mtr>
+   <m:mtd>
+    <m:mtext>           500 s = 8 min and 20 s</m:mtext>
+   </m:mtd>
+  </m:mtr>
+ </m:mtable>
+
+</m:math> 
+
+</equation></solution>
+        <commentary id="fs-id1164355941972">
+          <title>Discussion</title>
+          <para id="fs-id1164355860831">The answer is written as 5.00 × 10<sup>2</sup> rather than 500 in order to show that there are three significant figures. When astronomers witness an event on the sun, such as a sunspot, it actually happened minutes earlier. Compare 8 light <emphasis effect="italics">minutes</emphasis> to the distance to stars, which are light <emphasis effect="italics">years</emphasis> away. Any events on other stars happened years ago. </para>
+        </commentary>
+      </exercise><note id="fs-id1164355863370" class="os-teacher">
+        <title>Teacher Support</title>
+        <para id="fs-id1164355762955">Identify the three variables and choose the relevant equation. In physics, calculations are usually done using units of meters and seconds. Use scientific notation to keep track of significant figures.</para>
+      </note>
+    </note></section>
+  <section id="fs-id1164355862282" class="practice-problems"><title>Practice Problems</title>
+<exercise id="fs-id1164352347668">
+      <problem id="fs-id1164355875775">
+<para id="fs-id1164567820296">Light travels through 1.00 m of water in 4.42×10<sup>-9</sup> s. What is the speed of light in water?</para>
+<list id="fs-id1164566217996" list-type="enumerated" number-style="lower-alpha">
+<item>4.42×10<sup>-9</sup> m/s</item>
+<item>4.42×10<sup>9</sup> m/s</item>
+<item>2.26×10<sup>8</sup> m/s</item>
+<item>226×10<sup>8</sup> m/s</item></list>
+<!--<para id="fs-id1164355917412">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch10-ex005"/>
+        </para>-->
+      </problem>
+    </exercise>
+    <exercise id="fs-id1164355858371">
+      <problem id="fs-id1164355944509">
+<para id="fs-id1164567312689">An astronaut on the moon receives a message from mission control on Earth. The signal is sent by a form of electromagnetic radiation and takes 1.28 s to travel the distance between Earth and the moon. What is the distance from Earth to the moon?</para>
+<list id="fs-id1164567626672" list-type="enumerated" number-style="lower-alpha">
+<item>2.34×10<sup>5</sup> km</item>
+<item>2.34×10<sup>8</sup> km</item>
+<item>3.84×10<sup>5</sup> km</item>
+<item>3.84×10<sup>8</sup> km</item></list>
+<!--<para id="fs-id1164356089552">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch10-ex006"/>
+        </para>-->
+      </problem>
+    </exercise>
+  </section><section id="fs-id1164355724791" class="check-understanding"><title>Check Your Understanding</title><note id="fs-id1164355660346" class="os-teacher">
+      <title>Teacher Support</title>
+      <para id="fs-id1164355916829">Use the Check Your Understanding questions to assess students’ achievement of the section’s learning objectives. If students are struggling with a specific objective, the Check Your Understanding will help identify which and direct students to the relevant content.</para></note>
+    <exercise id="fs-id1164355677732" class="os-exercise">
+      <problem id="fs-id1164355864724">
+        <para id="fs-id1164355686782">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch10-ex007"/>
+        </para>
+      </problem>
+    </exercise>
+    <exercise id="fs-id1164355747522" class="os-exercise">
+      <problem id="fs-id1164355723322">
+<para id="fs-id1164565574589">Two people swim away from a raft that is floating downstream. One swims upstream and returns, and the other swims across the current and back. If this scenario represents the MichelsonMorley experiment, what do (i) the water, (ii) the swimmers, and (iii) the raft represent?</para>
+<list id="fs-id1164565755744" list-type="enumerated" number-style="lower-alpha">
+<item>the ether
+rays of light
+Earth</item>
+
+<item>rays of light
+the ether
+Earth</item>
+
+<item>the ether
+Earth
+rays of light</item>
+
+<item>Earth
+rays of light
+the ether</item></list>
+<!--        <para id="fs-id1164355716369">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch10-ex008"/>
+        </para>-->
+      </problem>
+    </exercise>
+
+<exercise id="eip-id1166849137849" class="os-exercise">
+<problem id="eip-id1166848708400">
+<para id="fs-id1164565550723">If Michelson and Morley had observed the interference pattern shift in their interferometer, what would that have indicated?</para>
+<list id="fs-id1164567821984" list-type="enumerated" number-style="lower-alpha">
+<item>The speed of light is the same in all frames of reference.</item>
+<item>The speed of light depends on the motion relative to the ether.</item>
+<item>The speed of light changes upon reflection from a surface.</item>
+<item>The speed of light in vacuum is less than 3.00×10<sup>8</sup> m/s.</item></list>
+<!--<para id="eip-id1166848716149">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch10-ot005"/>
+</para>-->
+</problem>
+</exercise>
+
+<exercise id="eip-id1166851383146" class="os-exercise">
+<problem id="eip-id1166851445119">
+<para id="fs-id1164565932451">If you designate a point as being fixed and use that point to measure the motion of surrounding objects, what is the point called?</para>
+<list id="fs-id1164566297357" list-type="enumerated" number-style="lower-alpha">
+<item>An origin</item>
+<item>A frame of reference</item>
+<item>A moving frame</item>
+<item>A coordinate system</item></list>
+<!--<para id="eip-id1166848792900">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch10-ot006"/>
+</para>-->
+</problem>
+</exercise></section><section id="fs-id1164355689614" class="summary">
+    <title>Section Summary</title>
+    <list id="fs-id1164355653181">
+      <item>One postulate of special relativity theory is that the laws of physics are the same in all inertial frames of reference.</item>
+      <item>The other postulate is that the speed of light in a vacuum is the same in all inertial frames. </item>
+      <item>Einstein showed that simultaneity, or lack of it, depends on the frame of reference of the observer.</item>
+    </list>
+  </section>
+  <section id="fs-id1164355658620" class="key-equations">
+    <title>Key Equations</title>
+    <table id="fs-id1164355765662" class="unnumbered unstyled" summary="The list of Key Equations includes the equation for speed of light (as a factor of wavelength and frequency) and the constant value for the speed of light."><label/>
+<tgroup cols="2"><colspec colnum="1" align="left" colname="c1"/>
+        <colspec colnum="2" align="left" colname="c2"/>
+        <tbody>
+          <row>
+            <entry>speed of light</entry>
+            <entry> <m:math display="block">
+              <m:mrow>
+                <m:mi>v</m:mi><m:mo>=</m:mo><m:mi>λ</m:mi><m:mi>f</m:mi>
+              </m:mrow>
+            </m:math> </entry>
+          </row>
+          <row>
+            <entry>constant value for the speed of light</entry>
+            <entry> <m:math display="block">
+              <m:mrow>
+                <m:mi>c</m:mi><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>3.00</m:mn><m:mspace width="0.3em"/><m:mtext> </m:mtext><m:mo>×</m:mo><m:mtext> </m:mtext><m:msup>
+                  <m:mrow>
+                    <m:mn>10</m:mn>
+                  </m:mrow>
+                  <m:mn>8</m:mn>
+                </m:msup>
+                <m:mtext>m/s</m:mtext>
+              </m:mrow>
+            </m:math> 
+            </entry>
+          </row>
+        </tbody>
+
+
+
+</tgroup>
+</table></section>
+
+  <section id="fs-id1164355873428" class="concept"><title>Concept Items</title>
+<exercise id="fs-id1164356097272" class="os-exercise">
+      <problem id="fs-id1164355745613">
+        <para id="fs-id1164355951450">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch10-ex009"/>
+        </para>
+      </problem>
+    </exercise>
+
+<exercise id="eip-id1166848740901" class="os-exercise">
+<problem id="eip-id1166848928620">
+<!--<para id="eip-id1166851281240">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch10-ot007"/>
+</para>-->
+<para id="fs-id1164567228834">Describe the relative motion of Earth and the sun:</para>
+<list id="fs-id1164566354267" list-type="enumerated" number-style="arabic">
+<item>if Earth is taken as the inertial frame of reference and</item>
+<item>if the sun is taken as the inertial frame of reference.
+<list id="fs-id1164567410747" list-type="enumerated" number-style="lower-alpha">
+<item>
+<list id="fs-id1164567495285" list-type="enumerated" number-style="arabic">
+<item>Earth is at rest and the sun orbits Earth.</item>
+<item>The sun is at rest and Earth orbits the sun.</item></list></item>
+<item>
+<list id="fs-id1164567211252" list-type="enumerated" number-style="arabic">
+<item>The sun is at rest and Earth orbits the sun.</item>
+<item>Earth is at rest and the sun orbits Earth.</item></list></item>
+<item>
+<list id="fs-id1164567289201" list-type="enumerated" number-style="arabic">
+<item>The sun is at rest and Earth orbits the sun.</item>
+<item>The sun is at rest and Earth orbits the sun.</item></list></item>
+<item>
+<list id="fs-id1164566266162" list-type="enumerated" number-style="arabic">
+<item>Earth is at rest and the sun orbits Earth.</item>
+<item>Earth is at rest and the sun orbits Earth.</item></list></item>
+</list></item></list>
+</problem>
+</exercise>
+
+</section><section id="fs-id1164355735117" class="critical-thinking"><title>Critical Thinking</title>
+<exercise id="fs-id1164356089365" class="os-exercise">
+<problem id="fs-id1164355676735">
+<para id="fs-id1164567824998">Explain how the two postulates of Einsteins theory of special relativity, when taken together, could lead to a situation that seems to contradict the mechanics and laws of motion as described by Newton.</para>
+<list id="fs-id1164565478621" list-type="enumerated" number-style="lower-alpha">
+<item>In Newtonian mechanics, velocities are multiplicative but the speed of a moving light source cannot be multiplied to the speed of light because, according to special relativity, the speed of light is the maximum speed possible.</item>
+<item>In Newtonian mechanics, velocities are additive but the speed of a moving light source cannot be added to the speed of light because the speed of light is the maximum speed possible.</item>
+<item>An object that is at rest in one frame of reference may appear to be in motion in another frame of reference, while in Newtonian mechanics such a situation is not possible.</item>
+<item>The postulates of Einsteins theory of special relativity do not contradict any situation that Newtonian mechanics explains.</item></list>
+<!--<para id="fs-id1164355720378"><link class="os-embed" url="#ost/api/ex/k12phys-ch10-ex010"/></para>-->
+</problem>
+</exercise>
+
+
+    <exercise id="fs-id1164356078548" class="os-exercise"><problem id="fs-id1164356122506"><para id="fs-id1164355751236"><link class="os-embed" url="#ost/api/ex/k12phys-ch10-ex011"/></para></problem></exercise>
+
+    <exercise id="fs-id1164355697071" class="os-exercise"><problem id="fs-id1164355754437">
+<para id="fs-id1164566080283">In 2003, Earth and Mars were the closest they had been in 50,000 years. The two planets were aligned so that Earth was between Mars and the sun. At that time it took light from the sun 500 s to reach Earth and 687 s to get to Mars. What was the distance from Mars to Earth?</para>
+<list id="fs-id1164567523344" list-type="enumerated" number-style="lower-alpha">
+<item>5.6×10<sup>7</sup> km</item>
+<item>5.6×10<sup>10</sup> km</item>
+<item>6.2×10<sup>6</sup> km</item>
+<item>6.2×10<sup>12</sup> km</item></list>
+<!--<para id="fs-id1164355664766"><link class="os-embed" url="#ost/api/ex/k12phys-ch10-ex012"/></para>-->
+</problem></exercise>
+
+<exercise id="eip-id1166849393611" class="os-exercise">
+<problem id="eip-id1166849904746">
+<para id="eip-id1166849906651">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch10-ot009"/>
+</para>
+</problem>
+</exercise>
+
+<exercise id="eip-id1166851052610" class="os-exercise">
+<problem id="eip-id1166851327928">
+<para id="fs-id1164567262442">Use the postulates of the special relativity theory to explain why the speed of light emitted from a fast-moving light source cannot exceed 3.00×10<sup>8</sup> m/s.</para>
+<list id="fs-id1164567919519" list-type="enumerated" number-style="lower-alpha">
+<item>The speed of light is maximum in the frame of reference of the moving object.</item>
+<item>The speed of light is minimum in the frame of reference of the moving object.</item>
+<item>The speed of light is the same in all frames of reference, including in the rest frame of its source.</item>
+<item>Light always travels in a vacuum with a speed less than 3.00×10<sup>8</sup> m/s, regardless of the speed of the source.</item></list>
+<!--<para id="eip-id1166848717652">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch10-ot011"/>
+</para>-->
+</problem>
+</exercise></section><section id="fs-id1164355871744" class="multiple-choice"><title>Test Prep Multiple Choice</title>
+<exercise id="fs-id1164356025812" class="os-exercise">
+<problem id="fs-id1164355941336">
+<!--<para id="fs-id1164356122452"><link class="os-embed" url="#ost/api/ex/k12phys-ch10-ex013"/></para>-->
+<para id="fs-id1164567120738">What was the purpose of the MichelsonMorley experiment?</para>
+<list id="fs-id1164564452633" list-type="enumerated" number-style="lower-alpha">
+<item>To determine the exact speed of light</item>
+<item>To analyze the electromagnetic spectrum</item>
+<item>To establish that Earth is the true frame of reference</item>
+<item>To learn how the ether affected the propagation of light</item></list>
+</problem></exercise>
+    <exercise id="fs-id1164355717060" class="os-exercise"><problem id="fs-id1164355733405"><para id="fs-id1164355859204"><link class="os-embed" url="#ost/api/ex/k12phys-ch10-ex014"/></para></problem></exercise>
+
+<exercise id="eip-id1166848023794" class="os-exercise">
+<problem id="eip-id1166849842345">
+<para id="eip-id1166849861097">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch10-ot002"/>
+</para>
+</problem>
+</exercise>
+
+<exercise id="eip-id1166851195782" class="os-exercise">
+<problem id="eip-id1166848859394">
+<para id="eip-id1166848676531">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch10-ot010"/>
+</para>
+</problem>
+</exercise>
+
+<exercise id="eip-id1166849569329" class="os-exercise">
+<problem id="eip-id1166847120107">
+<para id="fs-id1164566992712">In 2003, Earth and Mars were aligned so that Earth was between Mars and the sun. Earth and Mars were 5.6×10<sup>7</sup> km from each other, which was the closest they had been in 50,000 years. People looking up saw Mars as a very bright red light on the horizon. If Mars was 2.06×10<sup>8</sup> km from the sun, how long did the reflected light people saw take to travel from the sun to Earth?</para>
+<list id="fs-id1164565370993" list-type="enumerated" number-style="lower-alpha">
+<item>14 min and 33 s</item>
+<item>12 min and 15 s</item>
+<item>11 min and 27 s</item>
+<item>3 min and 7 s</item></list>
+<!--<para id="eip-id1166849248593">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch10-ot015"/>
+</para>-->
+</problem>
+</exercise></section><section id="fs-id1164355940936" class="short-answer">
+    <title>Test Prep Short Answer</title>
+    <exercise id="fs-id1164355619346" class="os-exercise"><problem id="fs-id1164355904243"><para id="eip-idm514770864">What is the postulate having to do with the speed of light on which the theory of special relativity is based?</para>
+<list id="eip-idm513239008" list-type="enumerated" number-style="lower-alpha"><item>The speed of light remains the same in all inertial frames of reference.</item>
+<item>The speed of light depends on the speed of the source emitting the light.</item>
+<item>The speed of light changes with change in medium through which it travels.</item>
+<item>The speed of light does not change with change in medium through which it travels.</item></list></problem></exercise><exercise id="fs-id1164355693144" class="os-exercise"><problem id="fs-id1164355636764">
+<para id="fs-id1164568048372">What is the postulate having to do with reference frames on which the theory of special relativity is based?</para>
+<list id="fs-id1164566360853" list-type="enumerated" number-style="lower-alpha"><item>The frame of reference chosen is arbitrary as long as it is inertial.</item>
+<item>The frame of reference is chosen to have constant nonzero acceleration.</item>
+<item>The frame of reference is chosen in such a way that the object under observation is at rest.</item>
+<item>The frame of reference is chosen in such a way that the object under observation is moving with a constant speed.</item></list><!--<para id="fs-id1164355890272"><link class="os-embed" url="#ost/api/ex/k12phys-ch10-ex016"/></para>-->
+</problem></exercise>
+    <exercise id="fs-id1164355864232" class="os-exercise"><problem id="fs-id1164355727356">
+<para id="fs-id1164565549795">If you look out the window of a moving car at houses going past, you sense that you are moving. What have you chosen as your frame of reference?</para>
+<list id="fs-id1164565342340" list-type="enumerated" number-style="lower-alpha"><item>the car</item>
+<item>the sun</item>
+<item>a house</item></list><!--<para id="fs-id1164355951224"><link class="os-embed" url="#ost/api/ex/k12phys-ch10-ex017"/></para>-->
+</problem></exercise>
+    <exercise id="fs-id1164356022182" class="os-exercise"><problem id="fs-id1164355761408">
+<para id="fs-id1164566016003">Why did Michelson and Morley orient light beams at right angles to each other?</para>
+<list id="fs-id1164567821461" list-type="enumerated" number-style="lower-alpha">
+<item>To observe the particle nature of light</item>
+<item>To observe the effect of the passing ether on the speed of light</item>
+<item>To obtain a diffraction pattern by combination of light</item>
+<item>To obtain a constant path difference for interference of light</item></list>
+<!--<para id="fs-id1164355753519"><link class="os-embed" url="#ost/api/ex/k12phys-ch10-ex018"/></para>-->
+</problem></exercise>
+  </section>
+  <section id="fs-id1164355582441" class="extended-response">
+    <title>Test Prep Extended Response</title>
+    <exercise id="fs-id1164355749185" class="os-exercise"><problem id="fs-id1164355730988"><para id="fs-id1164355742561">Explain how Einstein’s conclusion that nothing can travel faster than the speed of light contradicts an older concept about the speed of an object propelled from another, already moving, object.</para>
+<list id="eip-idm321281600" list-type="enumerated" number-style="lower-alpha"><item>The older concept is that speeds are subtractive. For example, if a person throws a ball while running, the speed of the ball relative to the ground is the speed at which the person was running minus the speed of the throw. A relativistic example is when light is emitted from car headlights, it moves faster than the speed of light emitted from a stationary source.</item>
+<item>The older concept is that speeds are additive. For example, if a person throws a ball while running, the speed of the ball relative to the ground is the speed at which the person was running plus the speed of the throw. A relativistic example is when light is emitted from car headlights, it moves no faster than the speed of light emitted from a stationary source. The car's speed does not affect the speed of light.</item>
+<item>The older concept is that speeds are multiplicative. For example, if a person throws a ball while running, the speed of the ball relative to the ground is the speed at which the person was running multiplied by the speed of the throw. A relativistic example is when light is emitted from car
+headlights, it moves no faster than the speed of light emitted from a stationary source. The car's speed does not affect the speed of light.</item>
+<item>The older concept is that speeds are frame independent. For example, if a person throws a ball while running, the speed of the ball relative to the ground has nothing to do with the speed at which the person was running. A relativistic example is when light is emitted from car headlights, it
+moves no faster than the speed of light emitted from a stationary source. The car's speed does not affect the speed of light.</item></list></problem></exercise><exercise id="fs-id1164355733530" class="os-exercise"><problem id="fs-id1164355697837">
+<para id="fs-id1164567819528">A rowboat is drifting downstream. One person swims 20 m toward the shore and back, and another, leaving at the same time, swims upstream 20 m and back to the boat. The swimmer who swam toward the shore gets back first. Explain how this outcome is similar to the outcome expected in the MichelsonMorley experiment.</para>
+<list id="fs-id1164565749291" list-type="enumerated" number-style="lower-alpha">
+<item>The rowboat represents Earth, the swimmers are beams of light, and the water is acting as the ether. Light going against the current of the ether would get back later because, by then, Earth would have moved on.</item>
+<item>The rowboat represents the beam of light, the swimmers are the ether, and water is acting as Earth. Light going against the current of the ether would get back later because, by then, Earth would have moved on.</item>
+<item>The rowboat represents the ether, the swimmers are ray of light, and the water is acting as the earth. Light going against the current of the ether would get back later because, by then, Earth would have moved on.</item>
+<item>The rowboat represents the Earth, the swimmers are the ether, and the water is acting as the rays of light. Light going against the current of the ether would get back later because, by then, Earth would have moved on.</item></list>
+<!--<para id="fs-id1164355695802"><link class="os-embed" url="#ost/api/ex/k12phys-ch10-ex020"/></para>-->
+</problem></exercise>
+
+  </section>
+</content>
+<glossary>
+  <definition id="fs-id1164355686132"><term>ether</term> <meaning id="fs-id1164355672092">scientists once believed there was a medium that carried light waves; eventually, experiments proved that ether does not exist</meaning></definition>
+  <definition id="fs-id1164355931406"><term>frame of reference</term> <meaning id="fs-id1164355697135">the point or collection of points arbitrarily chosen, which motion is measured in relation to</meaning></definition>
+  <definition id="fs-id1164355690835"><term>inertial reference frame</term> <meaning id="fs-id1164355849481">a frame of reference where all objects follow Newton’s first law of motion</meaning></definition>
+  <definition id="fs-id1164355750297"><term>general relativity</term> <meaning id="fs-id1164355687009">the theory proposed to explain gravity and acceleration</meaning></definition>
+  <definition id="fs-id1164355926976"><term>postulate</term> <meaning id="fs-id1164352252760">a statement that is assumed to be true for the purposes of reasoning in a scientific or mathematic argument</meaning></definition>
+  <definition id="fs-id1164355712301"><term>relativity</term> <meaning id="fs-id1164355610799">the explanation of how objects move relative to one another</meaning></definition>
+  <definition id="fs-id1164355925722"><term>simultaneity</term> <meaning id="fs-id1164355932213">the property of events that occur at the same time</meaning></definition>
+  <definition id="fs-id1164355850947"><term>special relativity</term> <meaning id="fs-id1164352320541">the theory proposed to explain the consequences of requiring the speed of light and the laws of physics to be the same in all inertial frames</meaning></definition>
+</glossary>
+</document>

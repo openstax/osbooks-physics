@@ -1,0 +1,395 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="intro">
+
+<title>The Scientific Methods</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54083</md:content-id>
+  <md:title>The Scientific Methods</md:title>
+  <md:abstract/>
+  <md:uuid>38c45e46-b77d-44c3-8b97-846b6d2c1aa4</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1164355844283" class="learning-objectives"><label/><title> Section Learning Objectives</title>
+<para id="fs-id1164355636735">By the end of this section, you will be able to do the following:</para>
+<list id="fs-id1164355611214"><item>Explain how the methods of science are used to make scientific discoveries</item>
+<item>Define a scientific model and describe examples of physical and mathematical models used in physics</item>
+<item>Compare and contrast hypothesis, theory, and law</item>
+</list></note><note id="fs-id1164355872820" class="os-teacher"><title>Teacher Support</title>
+<para id="eip-id1167066858526">The learning objectives in this section will help your students master the following standards:</para>
+<list id="fs-id1164355923015">
+<item>
+<span class="oat-standards-name">(2) Scientific processes. The student uses a systematic approach to answer scientific laboratory and field investigative questions. The student is expected to:</span>
+<list id="fs-id1164564959664">
+<item>
+<span class="oat-standards-name">(A)</span> <span>know the definition of science and understand that it has limitations, as specified in subsection (b)(2) of this section;</span></item>
+<item>
+<span class="oat-standards-name">(B)</span> <span>know that scientific hypotheses are tentative and testable statements that must be capable of being supported or not supported by observational evidence. Hypotheses of durable explanatory power which have been tested over a wide variety of conditions are incorporated into theories;</span></item>
+<item>
+<span class="oat-standards-name">(C)</span> <span>know that scientific theories are based on natural and physical phenomena and are capable of being tested by multiple independent researchers. Unlike hypotheses, scientific theories are well-established and highly-reliable explanations, but may be subject to change as new areas of science and new technologies are developed;</span></item>
+<item>
+<span class="oat-standards-name">(D)</span> <span>distinguish between scientific hypotheses and scientific theories.</span>
+</item>
+</list></item></list></note>
+<section id="keyterms"><title>Section Key Terms</title><table id="fs-id1164355863127" summary="The list of Key Terms includes: experiment, hypothesis, model, observation, principle, scientific law, scientific method, theory, and universal." class="unnumbered unstyled section-key-terms"><label/>
+<tgroup cols="3"><tbody>
+<row>
+<entry>experiment</entry>
+<entry>hypothesis</entry>
+<entry>model</entry>
+<entry>observation</entry>
+<entry>principle</entry>
+
+</row>
+<row>
+<entry>scientific law</entry>
+<entry>scientific methods</entry>
+<entry>theory</entry>
+<entry>universal</entry>
+<entry/>
+</row>
+</tbody>
+
+</tgroup>
+</table></section>
+<note id="fs-id1164355857530" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1164355714202"><span>[OL]</span>Pre-assessment for this section could involve students sharing or writing down an anecdote about when they used the methods of science. Then, students could label their thought processes in their anecdote with the appropriate scientific methods. The class could also discuss their definitions of theory and law, both outside and within the context of science.</para>
+<para id="fs-id1164356027322"><span>[OL]</span>It should be noted and possibly mentioned that <emphasis effect="italics">a scientist</emphasis>, as mentioned in this section, does not necessarily mean a trained scientist. It could be anyone using methods of science.</para>
+</note>
+
+<section id="fs-id1164355954912">
+<title>Scientific Methods</title>
+<para id="fs-id1164355734421">Scientists often plan and carry out investigations to answer questions about the universe around us. Such laws are intrinsic to the universe, meaning that humans did not create them and cannot change them. We can only discover and understand them. Their discovery is a very human endeavor, with all the elements of mystery, imagination, struggle, triumph, and disappointment inherent in any creative effort. The cornerstone of discovering natural laws is observation. Science must describe the universe as it is, not as we imagine or wish it to be.</para>
+<para id="fs-id1164355753146">We all are curious to some extent. We look around, make generalizations, and try to understand what we see. For example, we look up and wonder whether one type of cloud signals an oncoming storm. As we become serious about exploring nature, we become more organized and formal in collecting and analyzing data. We attempt greater precision, perform controlled experiments (if we can), and write down ideas about how data may be organized. We then formulate models, theories, and laws based on the data we have collected, and communicate those results with others. This, in a nutshell, describes the <term>scientific method</term> that scientists employ to decide scientific issues on the basis of evidence from observation and experiment.</para><para id="fs-id1164355748890">An investigation often begins with a scientist making an <term>observation</term>. The scientist observes a pattern or trend within the natural world. Observation may generate questions that the scientist wishes to answer. Next, the scientist may perform some research about the topic and devise a <term>hypothesis</term>. A hypothesis is a testable statement that describes how something in the natural world works. In essence, a hypothesis is an educated guess that explains something about an observation.</para>
+
+<note id="fs-id1164356044398" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1164355724534"><span>[OL]</span> An educated guess is used throughout this section in describing a hypothesis to combat the tendency to think of a theory as an educated guess.</para></note>
+
+<para id="fs-id1164355746249">Scientists may test the hypothesis by performing an <term>experiment</term>. During an experiment, the scientist collects data that will help them learn about the phenomenon they are studying. Then the scientists analyze the results of the experiment (that is, the data), often using statistical, mathematical, and/or graphical methods. From the data analysis, they draw conclusions. They may conclude that their experiment either supports or rejects their hypothesis. If the hypothesis is supported, the scientist usually goes on to test another hypothesis related to the first. If their hypothesis is rejected, they will often then test a new and different hypothesis in their effort to learn more about whatever they are studying.</para>
+
+<para id="fs-id1164355882653">Scientific processes can be applied to many situations. Let’s say that you try to turn on your car, but it will not start. You have just made an observation! You ask yourself, "Why won’t my car start?" You can now use scientific processes to answer this question. First, you generate a hypothesis such as, "The car won’t start because it has no gasoline in the gas tank." To test this hypothesis, you put gasoline in the car and try to start it again. If the car starts, then your hypothesis is supported by the experiment. If the car does not start, then your hypothesis is rejected. You will then need to think up a new hypothesis to test such as, "My car won’t start because the fuel pump is broken." Hopefully, your investigations lead you to discover why the car wont start and enable you to fix it.</para>
+</section>
+<section id="fs-id1164356023247">
+<title>Modeling</title>
+<para id="fs-id1164355853097">A <term>model</term> is a representation of something that is often too difficult (or impossible) to study directly. Models can take the form of physical models, equations, computer programs, or simulations—computer graphics/animations. Models are tools that are especially useful in modern physics because they let us visualize phenomena that we normally cannot observe with our senses, such as very small objects or objects that move at high speeds. For example, we can understand the structure of an atom using models, despite the fact that no one has ever seen an atom with their own eyes. Models are always approximate, so they are simpler to consider than the real situation; the more complete a model is, the more complicated it must be. Models put the intangible or the extremely complex into human terms that we can visualize, discuss, and hypothesize about.</para>
+
+<para id="fs-id1164355591169"><term class="no-emphasis">Scientific models</term> are constructed based on the results of previous experiments. Even still, models often only describe a phenomenon partially or in a few limited situations. Some phenomena are so complex that they may be impossible to model them in their entirety, even using computers. An example is the <term class="no-emphasis">electron cloud model</term> of the atom in which electrons are moving around the atom’s center in distinct clouds (<link target-id="Figure_01_02_electron"/>), that represent the likelihood of finding an electron in different places. This model helps us to visualize the structure of an atom. However, it does not show us exactly where an electron will be within its cloud at any one particular time.</para><figure id="Figure_01_02_electron">
+<media id="fs-id1164355691661" alt="A drawing of an electron cloud model shows an atom with a nucleus and predicted geometry and shape of areas where electrons surround the nucleus.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_01_02_electron.jpg"/>
+</media>
+<caption>The electron cloud model of the atom predicts the geometry and shape of areas where different electrons may be found in an atom. However, it cannot indicate exactly where an electron will be at any one time.</caption>
+</figure>
+
+<para id="fs-id1164355743525">As mentioned previously, physicists use a variety of models including equations, physical models, computer simulations, etc. For example, <term class="no-emphasis">three-dimensional models</term> are often commonly used in chemistry and physics to model molecules. Properties other than appearance or location are usually modelled using mathematics, where functions are used to show how these properties relate to one another. Processes such as the formation of a star or the planets, can also be modelled using computer simulations. Once a simulation is correctly programmed based on actual experimental data, the simulation can allow us to view processes that happened in the past or happen too quickly or slowly for us to observe directly. In addition, scientists can also run virtual experiments using computer-based models. In a model of planet formation, for example, the scientist could alter the amount or type of rocks present in space and see how it affects planet formation.</para>
+
+<para id="fs-id1164355916579">Scientists use models and experimental results to construct explanations of observations or design solutions to problems. For example, one way to make a car more fuel efficient is to reduce the friction or drag caused by air flowing around the moving car. This can be done by designing the body shape of the car to be more aerodynamic, such as by using rounded corners instead of sharp ones. Engineers can then construct <term class="no-emphasis">physical models</term> of the car body, place them in a wind tunnel, and examine the flow of air around the model. This can also be done mathematically in a computer simulation. The air flow pattern can be analyzed for regions smooth air flow and for eddies that indicate drag. The model of the car body may have to be altered slightly to produce the smoothest pattern of air flow (i.e., the least drag). The pattern with the least drag may be the solution to increasing fuel efficiency of the car. This solution might then be incorporated into the car design.</para>
+
+<note id="fs-id1164355841632" class="snap-lab">
+
+<title>Using Models and the Scientific Processes</title>
+  <para id="fs-id1167066861558">Be sure to secure loose items before opening the window or door.</para>
+<para id="fs-id1164355862909">In this activity, you will learn about scientific models by making a model of how air flows through your classroom or a room in your house.</para>
+<list id="fs-id1164352262615" list-type="bulleted" class="materials">
+<item>One room with at least one window or door that can be opened</item>
+<item>Piece of single-ply tissue paper
+    <list id="fs-id1164355916693" list-type="enumerated" number-style="arabic">
+        <item>Work with a group of four, as directed by your teacher. Close all of the windows and doors in the room you are working in. Your teacher may assign you a specific window or door to study.</item>
+        <item>Before opening any windows or doors, draw a to-scale diagram of your room. First, measure the length and width of your room using the tape measure. Then, transform the measurement using a scale that could fit on your paper, such as 5 centimeters = 1 meter. </item>
+        <item>Your teacher will assign you a specific window or door to study air flow. On your diagram, add arrows showing your hypothesis (before opening any windows or doors) of how air will flow through the room when your assigned window or door is opened. Use pencil so that you can easily make changes to your diagram.</item>
+        <item>On your diagram, mark four locations where you would like to test air flow in your room. To test for airflow, hold a strip of single ply tissue paper between the thumb and index finger. Note the direction that the paper moves when exposed to the airflow. Then, for each location, predict which way the paper will move if your air flow diagram is correct.</item>
+<item>Now, each member of your group will stand in one of the four selected areas. Each member will test the airflow Agree upon an approximate height at which everyone will hold their papers.</item>
+<item>When you teacher tells you to, open your assigned window and/or door. Each person should note the direction that their paper points immediately after the window or door was opened. Record your results on your diagram.</item>
+        <item>Did the airflow test data support or refute the hypothetical model of air flow shown in your diagram? Why or why not? Correct your model based on your experimental evidence.</item>
+        <item>With your group, discuss how accurate your model is. What limitations did it have? Write down the limitations that your group agreed upon.</item>
+    </list>
+</item>
+</list><exercise id="fs-id1164355853970" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1164355840608">
+<para id="fs-id1164355729966"><link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex026"/></para>
+</problem>
+</exercise>
+</note>
+
+<note id="fs-id1164355620765" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1164356089015">This Snap Lab! has students construct a model of how air flows in their classroom. Each group of four students will create a model of air flow in their classroom using a scale drawing of the room. Then, the groups will test the validity of their model by placing weathervanes that they have constructed around the room and opening a window or door. By observing the weather vanes, students will see how air actually flows through the room from a specific window or door. Students will then correct their model based on their experimental evidence. The following material list is given per group:
+<list id="fs-id1164355973500" list-type="bulleted"><item>One room with at least one window or door that can be opened (An optimal configuration would be one window or door per group.)</item>
+<item>Several pieces of construction paper (at least four per group)</item>
+<item>Strips of single ply tissue paper</item>
+<item>One tape measure (long enough to measure the dimensions of the room)</item>
+<item>Straws</item>
+<item>Scissors</item>
+<item>tape</item>
+</list></para>
+<list id="fs-id1164355752853" class="stepwise" list-type="enumerated" number-style="arabic">
+<item>Group size can vary depending on the number of windows/doors available and the number of students in the class.</item>
+<item>The room dimensions could be provided by the teacher. Also, students may need a brief introduction in how to make a drawing to scale.</item>
+<item>This is another opportunity to discuss controlled experiments in terms of why the students should hold the strips of tissue paper at the same height and in the same way. One student could also serve as a control and stand far away from the window/door or in another area that will not receive air flow from the window/door.</item>
+<item>You will probably need to coordinate this when multiple windows or doors are used. Only one window or door should be opened at a time for best results. Between openings, allow a short period (5 minutes) when all windows and doors are closed, if possible.</item>
+</list>
+<para id="fs-id1164356048421">Answers to the Grasp Check will vary, but the air flow in the new window or door should be based on what the students observed in their experiment.</para>
+</note>
+</section>
+
+<section id="fs-id1164355973562">
+<title>Scientific Laws and Theories</title>
+<para id="fs-id1164355634276">A <term>scientific law</term> is a description of a pattern in nature that is true in all circumstances that have been studied. That is, physical laws are meant to be <term>universal</term>, meaning that they apply throughout the known universe. Laws are often also concise, whereas theories are more complicated. A law can be expressed in the form of a single sentence or mathematical equation. For example, <term class="no-emphasis">Newton’s second law of motion</term>, which relates the motion of an object to the force applied (<emphasis effect="italics">F</emphasis>), the mass of the object (<emphasis effect="italics">m</emphasis>), and the object’s acceleration (<emphasis effect="italics">a</emphasis>), is simply stated using the equation</para>
+
+<equation id="fs-id1164356013838" class="unnumbered"><label/> <m:math display="block">
+ <m:mrow>
+  <m:mi>F</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>a</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+
+</equation><para id="fs-id1164355729378">Scientific ideas and explanations that are true in many, but not all situations in the universe are usually called <term>principles</term>. An example is <term class="no-emphasis">Pascal’s principle</term>, which explains properties of liquids, but not solids or gases. However, the distinction between laws and principles is sometimes not carefully made in science.</para>
+
+<para id="fs-id1164355994030">A <term>theory</term> is an explanation for patterns in nature that is supported by much scientific evidence and verified multiple times by multiple researchers. While many people confuse theories with educated guesses or hypotheses, theories have withstood more rigorous testing and verification than hypotheses.</para><note id="fs-id1164355747766" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1164355681426"><span>[OL]</span>Explain to students that in informal, everyday English the word <emphasis effect="italics">theory</emphasis> can be used to describe an idea that is possibly true but that has not been proven to be true. This use of the word <emphasis effect="italics">theory</emphasis> often leads people to think that scientific theories are nothing more than educated guesses. This is not just a misconception among students, but among the general public as well.</para>
+</note>
+
+<para id="fs-id1164356023117">As a closing idea about scientific processes, we want to point out that scientific laws and theories, even those that have been supported by experiments for centuries, can still be changed by new discoveries. This is especially true when new technologies emerge that allow us to observe things that were formerly unobservable. Imagine how viewing previously invisible objects with a microscope or viewing Earth for the first time from space may have instantly changed our scientific theories and laws! What discoveries still await us in the future? The constant retesting and perfecting of our scientific laws and theories allows our knowledge of nature to progress. For this reason, many scientists are reluctant to say that their studies <emphasis effect="italics">prove</emphasis> anything. By saying <emphasis effect="italics">support</emphasis> instead of <emphasis effect="italics">prove</emphasis>, it keeps the door open for future discoveries, even if they won’t occur for centuries or even millennia.</para>
+
+<note id="fs-id1164355714220" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1164355754767"><span>[OL]</span>With regard to scientists avoiding using the word <emphasis effect="italics">prove</emphasis>, the general public knows that science has proven certain things such as that the heart pumps blood and the Earth is round. However, scientists should shy away from using <emphasis effect="italics">prove</emphasis> because it is impossible to test every single instance and every set of conditions in a system to absolutely prove anything. Using <emphasis effect="italics">support</emphasis> or similar terminology leaves the door open for further discovery.</para>
+</note>
+</section>
+
+<section id="fs-id1164355941726" class="check-understanding">
+<title>Check Your Understanding</title>
+<exercise id="fs-id1164355882712" class="os-exercise">
+<problem id="fs-id1164355732887"><para id="fs-id1164355941977"><link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex027"/></para></problem>
+</exercise>
+<exercise id="fs-id1164355718714" class="os-exercise">
+<problem id="fs-id1164355690778"><para id="fs-id1164356083331"><link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex028"/></para></problem>
+</exercise>
+<exercise id="fs-id1164355737539" class="os-exercise">
+<problem id="fs-id1164355738777"><para id="fs-id1164355858520"><link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex029"/></para></problem>
+</exercise>
+<exercise id="fs-id1164355637738" class="os-exercise">
+<problem id="fs-id1164355754297"><para id="fs-id1164355610625"><link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex030"/></para></problem>
+</exercise>
+<exercise id="fs-id1164355832372" class="os-exercise">
+<problem id="fs-id1164355923059"><para id="fs-id1164355756464"><link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex031"/></para></problem>
+</exercise>
+<exercise id="fs-id1164355659368" class="os-exercise">
+<problem id="fs-id1164355738713"><para id="fs-id1164355843214"><link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex032"/></para></problem>
+</exercise>
+
+<note id="fs-id1164355862427" class="os-teacher"><title>Teacher Support</title>
+<para id="fs-id1164355708320">Use the Check Your Understanding questions to assess students’ achievement of the section’s learning objectives. If students are struggling with a specific objective, the Check Your Understanding will help identify which objective and direct students to the relevant content.</para></note></section>
+
+<section id="fs-id1164355852777" class="summary">
+<title>Section Summary</title>
+<list id="fs-id1164355687952">
+<item>Science seeks to discover and describe the underlying order and simplicity in nature.</item>
+<item>The processes of science include observation, hypothesis, experiment, and conclusion.</item>
+<item>Theories are scientific explanations that are supported by a large body experimental results.</item>
+<item>Scientific laws are concise descriptions of the universe that are universally true.</item>
+</list>
+</section>
+
+<section id="fs-id1164355852187" class="concept">
+<title>Concept Items</title>
+<exercise id="fs-id1164355847064" class="os-exercise">
+<problem id="fs-id1164355643110">
+<para id="fs-id1164352282135"><link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex033"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1164355693642" class="os-exercise">
+<problem id="fs-id1164352316739">
+<para id="fs-id1164356126669"><link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex034"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1164355750108" class="os-exercise">
+<problem id="fs-id1164356027753">
+<para id="fs-id1164355762955"><link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex035"/></para>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1164352250761" class="critical-thinking"><title>Critical Thinking</title><exercise id="fs-id1164355765640" class="os-exercise">
+<problem id="fs-id1164355721582">
+<para id="fs-id1164356120972"><link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex036"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1164355941972" class="os-exercise">
+<problem id="fs-id1164355633840">
+<!--<para id="fs-id1164355571833"><link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex037"/></para>-->
+
+<para id="fs-id1164564389820">Light travels as waves at an approximate speed of 300,000,000 m/s (186,000 mi/s). Designers of devices that use mirrors and lenses model the traveling light by straight lines, or light rays. Describe why it would be useful to model the light as rays of light instead of describing them accurately as electromagnetic waves.</para>
+<list id="fs-id1164567834208" list-type="enumerated" number-style="lower-alpha">
+<item>A model can be constructed in such a way that the speed of light decreases.</item>
+<item>Studying a model makes it easier to analyze the path that the light follows.</item>
+<item>Studying a model will help us to visualize why light travels at such great speed.</item>
+<item>Modeling cannot be used to study traveling light as our eyes cannot track the motion of light.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1164355854086" class="os-exercise">
+<problem id="fs-id1164355951620">
+<!--<para id="fs-id1164355758414"><link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex038"/></para>-->
+<para id="fs-id1164565629593">A friend says that he doesnt trust scientific explanations because they are just theories, which are basically educated guesses. What could you say to convince him that scientific theories are different from the everyday use of the word theory?</para>
+<list id="fs-id1164567519989" list-type="enumerated" number-style="lower-alpha">
+<item>A theory is a scientific explanation that has been repeatedly tested and supported by many experiments.</item>
+<item>A theory is a hypothesis that has been tested and supported by some experiments.</item>
+<item>A theory is a set of educated guesses, but at least one of the guesses remain true in each experiment.</item>
+<item>A theory is a set of scientific explanations that has at least one experiment in support of it.</item>
+</list>
+</problem>
+</exercise>
+
+<exercise id="eip-id1166851181934" class="os-exercise">
+<problem id="eip-id1166851379530">
+<para id="eip-id1166851052831">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch01-ot038"/>
+</para>
+</problem>
+</exercise>
+
+<exercise id="eip-id1166849444792" class="os-exercise">
+<problem id="eip-id1166849783395">
+<para id="eip-id1166849964849">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch01-ot043"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1164356017303" class="multiple-choice"><title>Test Prep Multiple Choice</title>
+<exercise id="fs-id1164355752702" class="os-exercise">
+<problem id="fs-id1164355853226">
+<para id="fs-id1164355762579"><link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex039"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1164356013623" class="os-exercise">
+<problem id="fs-id1164356122402">
+<!--<para id="fs-id1164355854848"><link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex040"/></para>-->
+
+<para id="fs-id1164568043553">A scientist wishes to study the motion of about 1,000 molecules of gas in a container by modeling them as tiny billiard balls bouncing randomly off one another. Which of the following is needed to calculate and store data on their detailed motion?</para>
+<list id="fs-id1164565603637" list-type="enumerated" number-style="lower-alpha">
+<item>a group of hypotheses that cannot be practically tested in real life</item>
+<item>a computer that can store and perform calculations on large data sets</item>
+<item>a large amount of experimental results on the molecules and their motion</item>
+<item>a collection of hypotheses that have not yet been tested regarding the molecules</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1164355664768" class="os-exercise">
+<problem id="fs-id1164355616689">
+<para id="fs-id1164352340678"><link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex041"/></para>
+</problem>
+</exercise>
+
+<exercise id="eip-id1166851100510" class="os-exercise">
+<problem id="eip-id1166848815347">
+<para id="eip-id1166851277946">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch01-ot044"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1164356048179" class="short-answer"><title>Test Prep Short Answer</title>
+<exercise id="fs-id1164355852925" class="os-exercise">
+<problem id="fs-id1164355926976">
+<para id="fs-id1164355750297"><link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex042"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1164355636785" class="os-exercise">
+<problem id="fs-id1164355864724">
+<para id="fs-id1164355658942"><link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex043"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1164356087635" class="os-exercise">
+<problem id="fs-id1164355973507">
+<para id="fs-id1164356089389"><link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex044"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1164355697206" class="os-exercise">
+<problem id="fs-id1164355904030">
+<!--<para id="fs-id1164355660610"><link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex045"/></para>-->
+
+<para id="fs-id1164567688721">Explain the advantages and disadvantages of using a model to predict a life-or-death situation, such as whether or not an asteroid will strike Earth.</para>
+<list id="fs-id1164567552834" list-type="enumerated" number-style="lower-alpha">
+<item>The advantage of using a model is that it provides predictions quickly, but the disadvantage of using a model is that it could make erroneous predictions.</item>
+<item>The advantage of using a model is that it provides accurate predictions, but the disadvantage of using a model is that it takes a long time to make predictions.</item>
+<item>The advantage of using a model is that it provides predictions quickly without any error. There are no disadvantages of using a scientific model.</item>
+<item>The disadvantage of using models is that it takes longer time to make predictions and the predictions are inaccurate. There are no advantages to using a scientific model.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1164356026696" class="os-exercise">
+<problem id="fs-id1164355730988">
+<para id="fs-id1164355751890"><link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex046"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1164355721244" class="os-exercise">
+<problem id="fs-id1164355657293">
+<para id="fs-id1164356122506"><link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex047"/></para>
+</problem>
+</exercise>
+<exercise id="eip-id1166851210437" class="os-exercise">
+<problem id="eip-id1166851095442">
+<para id="eip-id1166851306220">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch01-ot046"/>
+</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1164355969821" class="extended-response">
+<title>Test Prep Extended Response</title>
+<exercise id="fs-id1164355686901" class="os-exercise">
+<problem id="fs-id1164355889838">
+<para id="fs-id1164355697837"><link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex048"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1164355712678" class="os-exercise">
+<problem id="fs-id1164355875698">
+<para id="fs-id1164355697135"><link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex049"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1164355755473" class="os-exercise">
+<problem id="fs-id1164355716369">
+<para id="fs-id1164355916829"><link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex050"/></para>
+</problem>
+</exercise>
+</section>
+
+</content>
+<glossary>
+<definition id="fs-id1164352249046">
+<term>experiment</term>
+<meaning id="fs-id1164355653181">process involved with testing a hypothesis</meaning>
+</definition>
+<definition id="fs-id1164356089552">
+<term>hypothesis</term>
+<meaning id="fs-id1164352248988">testable statement that describes how something in the natural world works</meaning>
+</definition>
+<definition id="fs-id1164355718669">
+<term>model</term>
+<meaning id="fs-id1164355847191">system that is analogous to the real system of interest in essential ways but more easily analyzed</meaning>
+</definition>
+<definition id="fs-id1164355758494">
+<term>observation</term>
+<meaning id="fs-id1164355698258">step where a scientist observes a pattern or trend within the natural world</meaning>
+</definition>
+<definition id="fs-id1164355636764">
+<term>principle</term>
+<meaning id="fs-id1164355747522">description of nature that is true in many, but not all situations</meaning>
+</definition>
+<definition id="fs-id1164356078548">
+<term>scientific law</term>
+<meaning id="fs-id1164355695802">pattern in nature that is true in all circumstances studied thus far</meaning>
+</definition>
+<definition id="fs-id1164355754437">
+<term>scientific methods</term>
+<meaning id="fs-id1164356013530">techniques and processes used in the constructing and testing of scientific hypotheses, laws, and theories, and in deciding issues on the basis of experiment and observation</meaning>
+</definition>
+<definition id="fs-id1164356099234">
+<term>theory</term>
+<meaning id="fs-id1164355714521">explanation of patterns in nature that is supported by much scientific evidence and verified multiple times by various groups of researchers</meaning>
+</definition>
+<definition id="fs-id1164356005251">
+<term>universal</term>
+<meaning id="fs-id1164355713108">applies throughout the known universe</meaning>
+</definition>
+</glossary>
+</document>

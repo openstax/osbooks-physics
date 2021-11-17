@@ -1,0 +1,36 @@
+<document xmlns="http://cnx.rice.edu/cnxml" class="introduction">
+
+<title>Introduction</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54417</md:content-id>
+  <md:title>Introduction</md:title>
+  <md:abstract/>
+  <md:uuid>733779ab-85cb-4bdc-b87d-8f217765027c</md:uuid>
+</metadata>
+
+<content>
+<figure id="Figure_18_00_Plasticsli" class="splash"><media id="fs-id1167062537526" alt="A photo shows a child sliding down a spiral-shaped slide, with his straight hair standing on end.">
+<image src="../../media/CNX_HSPhysics_18_00_Plasticsil.jpg" mime-type="image/jpg"/>
+</media>
+<caption>This child’s hair contains an imbalance of electrical charge (commonly called <emphasis effect="italics">static electricity</emphasis>), which causes it to stand on end. The sliding motion stripped electrons away from the child’s body, leaving him with an excess of positive charges, which repel each other along each strand of hair. (credit: Ken Bosma, Wikimedia Commons)</caption></figure>
+<note id="fs-id1167065733924" class="os-teacher">
+<title>Teacher Support</title>
+<list id="fs-id1167062469048">
+<item>Ask students what they know about static electricity and about electric charge. Explain that static electricity is a field of study that focuses on the forces and <emphasis effect="italics">electrical pressure</emphasis> between objects that have an imbalance of electric charge. Although the word <emphasis effect="italics">static</emphasis> implies that nothing is moving, this is often not the case. For example, separating positive from negative charges involves charges in motion but creates static electricity. Likewise, a lightning strike is a huge electric current but is created by static electricity. Normally, static electricity phenomena involve high electric pressure and low, noncontinuous electric currents.</item>
+<item>Review Newton’s law of universal gravitation. Discuss how the force of gravity varies inversely with the distance squared between masses and how it is always an attractive force. Point out how the quantity that determines how strongly gravity acts on an object is its mass. Explain that electric charge is the analogous quantity that determines how strong electric forces are between objects that have nonzero electric charge.</item>
+</list>
+</note>
+<note id="fs-id1167062407366" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065848836"><span>[BL]</span><span>[OL]</span>Review the notion of repulsive and attractive forces. Discuss how forces can have the same magnitude but act in opposite directions.</para>
+<para id="fs-id1167065978479"><span>[AL]</span>Explain that all the macroscopic forces that we experience directly, such as the sensations of touch and the tension in a rope, are due to the electromagnetic force, one of the four fundamental forces in nature. Electrostatic forces are a subset of electromagnetic forces, which are covered further in later chapters. The gravitational force, another fundamental force, is actually sensed through the electromagnetic interaction of molecules, such as between those in our feet and those on the top of a bathroom scale. The other two fundamental forces, the strong nuclear force and the weak nuclear force, cannot be sensed on the human scale.</para>
+</note>
+<para id="fs-id1167064693403">You may have been introduced to static electricity like the child sliding down the slide in the opening photograph (<link target-id="Figure_18_00_Plasticsli"/>). The <emphasis effect="italics">zap</emphasis> that he is likely to receive if he touches a playmate or parent tends to bring home the lesson. But static electricity is more than just fun and games—it is put to use in many industries. The forces between electrically charged particles are used in technologies such as printers, pollution filters, and spray guns used for painting cars and trucks. Static <emphasis effect="italics">electricity</emphasis> is the study of phenomena that involve an imbalance of electrical charge. Although creating this imbalance typically requires moving charge around, once the imbalance is created, it often remains static for a long time. The study of charge in motion is called <emphasis effect="italics">electromagnetism</emphasis> and will be covered in a later chapter. What is electrical charge, how is it associated with objects, and what forces does it create? These are just some of the questions that this chapter addresses.</para>
+<note id="fs-id1167064832451" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066121607">Before students begin this chapter, it would be useful to review the following concepts:</para>
+<list id="fs-id1167064738346"><item>Newton’s universal law of gravitation—Review its mathematical form and how it depends on the masses of the two objects involved and on the inverse square of the distance between the objects. Tell students that this chapter presents a similar inverse-square law that describes the force created by electric effects.</item>
+<item>Review vectors and vector addition—Remind students that vectors are defined by a magnitude and a direction and that adding vectors of the same magnitude but opposite direction results in zero (i.e., they <emphasis effect="italics">cancel</emphasis> each other).</item>
+</list></note>
+</content>
+</document>

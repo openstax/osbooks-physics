@@ -1,0 +1,2113 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>The Structure of the Atom</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54582</md:content-id>
+  <md:title>The Structure of the Atom</md:title>
+  <md:abstract/>
+  <md:uuid>bb9ad47c-5489-4f5c-b178-79a4d5a0fd18</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167063457292" class="learning-objectives">
+<label/>
+<title>Section Learning Objectives</title>
+<para id="fs-id1167063606220">By the end of this section, you will be able to do the following:</para><list id="fs-id1167061347393"><item>Describe Rutherford’s experiment and his model of the atom</item>
+<item>Describe emission and absorption spectra of atoms</item>
+<item>Describe the Bohr model of the atom</item>
+<item>Calculate the energy of electrons when they change energy levels</item>
+<item>Calculate the frequency and wavelength of emitted photons when electrons change energy levels</item>
+<item>Describe the quantum model of the atom</item>
+</list></note>
+
+<note id="fs-id1167061237760" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067181004">The learning objectives in this section will help your students master the following standards:</para>
+<list id="fs-id1167067305435"><item>(8) Science concepts. The student knows simple examples of atomic, nuclear, and quantum phenomena. The student is expected to:
+<list id="fs-id1167066866522">
+<item>
+<span>(B)</span>
+<span>compare and explain the emission spectra produced by various atoms.</span>
+</item>
+</list>
+</item>
+</list><para id="fs-id1169316427024">In addition, the High School Physics Laboratory Manual addresses content in this section in the lab titled: The Atom, as well as the following standards:</para><list id="fs-id1169316160616"><item>(8) Science concepts. The student knows simple examples of atomic, nuclear, and quantum phenomena. The student is expected to:
+<list id="fs-id1169316405632">
+<item>
+<span>(B)</span>
+ <span>compare and explain the emission spectra produced by various atoms.</span>
+</item>
+</list>
+</item>
+</list></note>
+<section id="keyterms"><title>Section Key Terms</title>
+<table id="fs-id1167066958552" class="unnumbered unstyled section-key-terms" summary="The list of Key terms includes energy-level diagram, excited state, Fraunhofer lines, ground state, Heisenberg uncertainty principle, hydrogen-like atoms, planetary model of the atom, Rutherford scattering, and Rydberg constant."><label/>
+<tgroup cols="3"><tbody>
+<row>
+<entry>energy-level diagram</entry>
+<entry>excited state</entry>
+<entry>Fraunhofer lines</entry>
+</row>
+<row>
+<entry>ground state</entry>
+<entry>Heisenberg Uncertainty Principle</entry>
+<entry>hydrogen-like atoms</entry>
+</row>
+<row>
+<entry>planetary model of the atom</entry>
+<entry>Rutherford scattering</entry>
+<entry>Rydberg constant</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<para id="fs-id1167063505424">How do we know that atoms are really there if we cannot see them with our own eyes? While often taken for granted, our knowledge of the existence and structure of atoms is the result of centuries of contemplation and experimentation. The earliest known speculation on the atom dates back to the fifth century B.C., when Greek philosophers Leucippus and Democritus contemplated whether a substance could be divided without limit into ever smaller pieces. Since then, scientists such as John Dalton (1766–1844), Amadeo Avogadro (1776–1856), and Dmitri Mendeleev (1834–1907) helped to discover the properties of that fundamental structure of matter. While much could be written about any number of important scientific philosophers, this section will focus on the role played by <term class="no-emphasis">Ernest Rutherford</term> (1871–1937). Though his understanding of our most elemental matter is rooted in the success of countless prior investigations, his surprising discovery about the interior of the atom is most fundamental in explaining so many well-known phenomena.</para>
+<note id="fs-id1167063515380" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066971837"><span>[AL]</span>For students that are exceptionally curious, suggest studying the writings of Democritus and determining how much of his atomic theory holds true today.</para>
+</note>
+<section id="fs-id1167067123902"><title>Rutherford’s Experiment</title><para id="fs-id1167063535726">In the early 1900’s, the <term class="no-emphasis"><emphasis effect="italics">plum pudding</emphasis> model</term> was the accepted model of the atom. Proposed in 1904 by J. J. Thomson, the model suggested that the atom was a spherical ball of positive charge, with negatively charged electrons scattered evenly throughout. In that model, the positive charges made up the pudding, while the electrons acted as isolated plums. During its short life, the model could be used to explain why most particles were neutral, although with an unbalanced number of plums, electrically charged atoms could exist.</para>
+<note id="fs-id1167063632000" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066850066">The <emphasis effect="italics">plum pudding</emphasis> model is an outdated term many students will not understand. A <emphasis effect="italics">chocolate chip ice cream</emphasis> model may work better to describe Thomson’s model to students. More advanced students may be able to describe other models on their own.</para>
+</note>
+<para id="fs-id1167067073075">When Ernest Rutherford began his gold foil experiment in 1909, it is unlikely that anyone would have expected that the plum pudding model would be challenged. However, using a radioactive source, a thin sheet of gold foil, and a phosphorescent screen, Rutherford would uncover something so great that he would later call it “the most incredible event that has ever happened to me in my life”[James, L. K. (1993). <emphasis effect="italics">Nobel Laureates in Chemistry, 1901–1992</emphasis>. Washington, DC: American Chemical Society.] </para>
+<para id="fs-id1167063490491">The experiment that Rutherford designed is shown in <link target-id="Figure_22_01_GoldFoil"/>. As you can see in, a radioactive source was placed in a lead container with a hole in one side to produce a beam of positively charged helium particles, called <emphasis effect="italics">alpha particles</emphasis>. Then, a thin gold foil sheet was placed in the beam. When the high-energy alpha particles passed through the gold foil, they were scattered. The scattering was observed from the bright spots they produced when they struck the phosphor screen.</para>
+<note id="fs-id1167063514768" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067088248">Take time with explaining this concept. Students may need to be reminded about phosphorescence. Additionally, radioactivity has not yet been covered in this course. At this point, it may make the most sense to state that source in the lead container “shoots small particles at high speeds.” </para>
+</note>
+
+<figure id="Figure_22_01_GoldFoil">
+<media id="fs-id1167067186265" alt="The figure shows the set-up for Rutherford’s experiment. It contains a source which emits alpha particles on a gold foil. The gold foil scatters the particles at different angles to a screen surrounding the gold foil.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_22_01_GoldFoil.jpg"/>
+</media>
+<caption>Rutherford’s experiment gave direct evidence for the size and mass of the nucleus by scattering alpha particles from a thin gold foil. The scattering of particles suggests that the gold nuclei are very small and contain nearly all of the gold atom’s mass. Particularly significant in showing the size of the nucleus are alpha particles that scatter to very large angles, much like a soccer ball bouncing off a goalie’s head.</caption>
+</figure>
+
+<para id="fs-id1167061226310">The expectation of the plum pudding model was that the high-energy alpha particles would be scattered only slightly by the presence of the gold sheet. Because the energy of the alpha particles was much higher than those typically associated with atoms, the alpha particles should have passed through the thin foil much like a supersonic bowling ball would crash through a few dozen rows of bowling pins. Any deflection was expected to be minor, and due primarily to the electrostatic Coulomb force between the alpha particles and the foil’s interior electric charges.</para>
+<para id="fs-id1167067068439">However, the true result was nothing of the sort. While the majority of alpha particles passed through the foil unobstructed, Rutherford and his collaborators Hans Geiger and Ernest Marsden found that alpha particles occasionally were scattered to large angles, and some even came back in the direction from which they came! The result, called <term>Rutherford scattering</term>, implied that the gold nuclei were actually very small when compared with the size of the gold atom. As shown in <link target-id="Figure_22_01_Scattering"/>, the dense nucleus is surrounded by mostly empty space of the atom, an idea verified by the fact that only 1 in 8,000 particles was scattered backward.</para>
+
+<note id="fs-id1167063535221" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066825593"><span>[BL]</span><span>[OL]</span>Students should recognize two distinct results from the gold foil experiment. (1) The gold nucleus is very dense. (2) The atom is mostly empty space. Have students identify what evidence from the gold foil experiment supports those two statements.</para>
+<para id="fs-id1167067095674"><span>[AL]</span>Have the students determine whether backscattering would occur with the plum pudding model.</para>
+<para id="fs-id1167067006997">You may also want the students to try an investigation to explore the type of calculation required to determine the diameter of the nucleus from the number of collisions; it is available at <link url="openstax.org/l/28collisionlab">this website</link>.</para></note>
+
+<figure id="Figure_22_01_Scattering">
+<media id="fs-id1167067158336" alt="The figure shows several circular atoms in a gold foil in Rutherford’s experiment. Each atom contains a tiny dot, known as the nucleus. The radius of an atom is 10−10  m whereas the radius of a nucleus is 10−15 m.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_22_01_Scattering.jpg"/>
+</media>
+<caption>An expanded view of the atoms in the gold foil in Rutherford’s experiment. Circles represent the atoms  that are about 10<sup>−10</sup> m in diameter, while the dots represent the nuclei  that are about 10<sup>−15</sup> m in diameter. To be visible, the dots are much larger than scale—if the nuclei were actually the size of the dots, each atom would have a diameter of about five meters! Most alpha particles crash through but are relatively unaffected because of their high energy and the electron’s small mass. Some, however, strike a nucleus and are scattered straight back. A detailed analysis of their interaction gives the size and mass of the nucleus.</caption>
+</figure>
+
+<para id="fs-id1167067077963">Although the results of the experiment were published by his colleagues in 1909, it took Rutherford two years to convince himself of their meaning. Rutherford later wrote: “It was almost as incredible as if you fired a 15-inch shell at a piece of tissue paper and it came back and hit you. On consideration, I realized that this scattering backwards ... [meant] ... the greatest part of the mass of the atom was concentrated in a tiny nucleus.” In 1911, Rutherford published his analysis together with a proposed model of the atom, which was in part based on Geiger’s work from the previous year. As a result of the paper, the size of the nucleus was determined to be about  <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>−15</m:mn>
+   </m:mrow>
+  </m:msup>
+
+ </m:mrow>
+</m:math>  m, or 100,000 times smaller than the atom. That implies a huge density, on the order of  <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>15</m:mn>
+   </m:mrow>
+  </m:msup>
+
+ </m:mrow>
+</m:math>  g/cm<sup>3</sup>, much greater than any macroscopic matter.</para><para id="fs-id1167063599415">Based on the size and mass of the nucleus revealed by his experiment, as well as the mass of electrons, Rutherford proposed the <term>planetary model of the atom</term>. The planetary model of the atom pictures low-mass electrons orbiting a large-mass nucleus. The sizes of the electron orbits are large compared with the size of the nucleus, and most of the atom is a vacuum. The model is analogous to how low-mass planets in our solar system orbit the large-mass Sun. In the atom, the attractive Coulomb force is analogous to gravitation in the planetary system (see <link target-id="Figure_22_01_Planetary"/>).</para>
+
+<figure id="Figure_22_01_Planetary">
+<media id="fs-id1167066793828" alt="The figure shows the structure of an atom with a positive nucleus in the center and three negative spherical electrons circling around the center in their respective orbits.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPHysics_22_01_Planetary.jpg"/>
+</media>
+<caption>Rutherford’s planetary model of the atom incorporates the characteristics of the nucleus, electrons, and the size of the atom. The model was the first to recognize the structure of atoms, in which low-mass electrons orbit a very small, massive nucleus in orbits much larger than the nucleus. The atom is mostly empty and is analogous to our planetary system.</caption>
+</figure>
+
+<note id="fs-id1167063793041" class="virtual-physics"><title>Rutherford Scattering</title>
+<media id="fs-id1167067048815" alt="This interactive allows you to simulate the famous experiment in which Rutherford disproved the Plum Pudding model of the atom by observing alpha particles bouncing off atoms and determining that they must have a small core.">
+<iframe width="660" height="371.4" src="https://openstax.org/l/28rutherford"/>
+</media>
+<para id="fs-id1167062711884">How did Rutherford figure out the structure of the atom without being able to see it? Explore the answer through this simulation of the famous experiment in which he disproved the plum pudding model by observing alpha particles bouncing off atoms and determining that they must have a small core.</para>
+
+</note><note id="fs-id1167067206956" class="tips-for-success">
+
+<para id="fs-id1167067216892">As you progress through the model of the atom, consider the effect that experimentation has on the scientific process. Ask yourself the following: What would our model of the atom be without Rutherford’s gold foil experiment? What further understanding of the atom would not have been gained? How would that affect our current technologies? Though often confusing, experiments taking place today to further understand composition of the atom could perhaps have a similar effect.</para>
+</note>
+</section><section id="fs-id1167067258959">
+<title>Absorption and Emission Spectra</title>
+<note id="fs-id1167063572344" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067203575">Before beginning this section, it is important to review the concept of quantization. What does it mean to be quantized? Provide examples of concepts that are quantum and concepts that are not. The review will make understanding emission spectra and orbital states much simpler. </para>
+<para id="fs-id1167063828269">[EL]<emphasis effect="italics">Spectrum</emphasis> refers to the range of electromagnetic radiation emitted by a form of matter or energy. The plural is <emphasis effect="italics">spectra</emphasis>.</para>
+</note>
+<para id="fs-id1167063438743">In 1900, Max Planck recognized that all energy radiated from a source is emitted by atoms in quantum states. How would that radical idea relate to the interior of an atom? The answer was first found by investigating the spectrum of light or <term class="no-emphasis">emission spectrum</term> produced when a gas is highly energized.</para>
+<para id="fs-id1167063870982"><link target-id="Figure_22_01_Spectrum"/> shows how to isolate the emission spectrum of one such gas. The gas is placed in the discharge tube at the left, where it is energized to the point at which it begins to radiate energy or emit light. The radiated light is channeled by a thin slit and then passed through a diffraction grating, which will separate the light into its constituent wavelengths. The separated light will then strike the photographic film on the right.</para>
+
+<note id="fs-id1167063644582" class="os-teacher">
+<title>Teacher Support</title>
+<list id="fs-id1167061220902">
+<item>Be sure to explain how the discharge tube begins to radiate energy. When the gas is placed in an electric field, it can be supplied with enough energy that it begins to radiate. Focusing on an increase in energy via electric field will help students separate the concept from the continuous energy spectrum created by increasing the temperature of a radiating black body.</item>
+<item>If a diffraction grating is not handy, <link target-id="Figure_22_01_Spectrum"/> can be modeled using a prism in its place.</item>
+</list>
+</note>
+
+<para id="fs-id1167066854965">The line spectrum shown in part (b) of <link target-id="Figure_22_01_Spectrum"/> is the output shown on the film for excited iron. Note that this spectrum is not continuous but discrete. In other words, only particular wavelengths are emitted by the iron source. Why would that be the case?</para>
+
+<figure id="Figure_22_01_Spectrum">
+<media id="fs-id1167067218024" alt="Part (a) shows the equipment set-up to observe the emission spectrum of iron and part (b) shows the resulting emission spectrum with discrete wavelengths.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_22_01_Spectrum.jpg"/>
+</media>
+<caption>Part (a) shows, from left to right, a discharge tube, slit, and diffraction grating producing a line spectrum. Part (b) shows the emission spectrum for iron. The discrete lines imply quantized energy states for the atoms that produce them. The line spectrum for each element is unique, providing a powerful and much-used analytical tool, and many line spectra were well known for many years before they could be explained with physics. (credit:(b) Yttrium91, Wikimedia Commons)</caption>
+</figure>
+
+<para id="fs-id1167067214285">The spectrum of light created by excited iron shows a variety of discrete wavelengths emitted within the visible spectrum. Each element, when excited to the appropriate degree, will create a discrete emission spectrum as in part (b) of <link target-id="Figure_22_01_Spectrum"/>. However, the wavelengths emitted will vary from element to element. The emission spectrum for iron was chosen for <link target-id="Figure_22_01_Spectrum"/> solely because a substantial portion of its emission spectrum is within the visible spectrum. <link target-id="Figure_22_01_Hydrgen"/> shows the emission spectrum for hydrogen. Note that, while discrete, a large portion of hydrogen emission takes place in the ultraviolet and infrared regions.</para>
+
+<note id="fs-id1167067070963" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167064549702">Show pictures of glowing neon, argon, and helium gases. Have students speculate on the visible line spectra for those gases.</para>
+</note>
+
+<figure id="Figure_22_01_Hydrgen"><media id="fs-id1167067259108" alt="The figure shows the hydrogen spectrum, with wavelengths from 91 nm  to 1875 nm. The spectrum from 91 nm to 122 nm is labelled as Layman series, the spectrum from 365 nm to 656 nm is labelled as Balmer series and the spectrum from 820 nm to 1875 nm is labelled as Paschen series.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPHysics_22_01_Hydrgen.jpg"/>
+</media>
+
+<caption>A schematic of the hydrogen spectrum shows several series named for those who contributed most to their determination. Part of the Balmer series is in the visible spectrum, while the Lyman series is entirely in the ultraviolet, and the Paschen series and others are in the infrared. Values of <emphasis effect="italics">n</emphasis><sub>f</sub> and <emphasis effect="italics">n</emphasis><sub>i</sub> are shown for some of the lines. Their importance will be described shortly.</caption></figure>
+
+<para id="fs-id1167066867406">Just as an emission spectrum shows all discrete wavelengths emitted by a gas, an absorption spectrum will show all light that is absorbed by a gas. Black lines exist where the wavelengths are absorbed, with the remainder of the spectrum lit by light is free to pass through. What relationship do you think exists between the black lines of a gas’s <term class="no-emphasis">absorption spectrum</term> and the colored lines of its emission spectrum? <link target-id="Figure_22_01_Absorption"/> shows the absorption spectrum of the Sun. The black lines are called <term>Fraunhofer lines</term>, and they correspond to the wavelengths absorbed by gases in the Sun’s exterior.</para>
+
+<note id="fs-id1167067117773" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066775396"><span>[AL]</span>Have students explore how Fraunhofer lines are used by astronomers to determine the composition of stars.</para>
+<para id="fs-id1167063730289"><span>[BL]</span><span>[OL]</span>Ask the students to speculate on the absorption spectrum provided by a perfect emitter or a perfect absorber. What would the absorption spectrum look like for a black hole?</para>
+</note>
+
+<figure id="Figure_22_01_Absorption"><media id="fs-id1167067226382" alt="The figure shows sun’s absorption spectrum, with wavelengths from 385 nm to 765 nm.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_22_01_Absorption.jpg"/>
+</media>
+<caption>The absorption spectrum of the Sun. The black lines appear at wavelengths absorbed by the Sun’s gas exterior. The energetic photons emitted from the Sun’s interior are absorbed by gas in its exterior and reemitted in directions away from the observer. That results in dark lines within the absorption spectrum. The lines are called Fraunhofer lines, in honor of the German physicist who discovered them. Lines similar to those are used to determine the chemical composition of stars well outside our solar system.</caption></figure></section>
+
+<section id="fs-id1167067174306">
+<title>Bohr’s Explanation of the Hydrogen Spectrum</title>
+<para id="fs-id1167067092098">To tie the unique signatures of emission spectra to the composition of the atom itself would require clever thinking. <term class="no-emphasis">Niels Bohr</term> (1885–1962), a Danish physicist, did just that, by making immediate use of Rutherford’s planetary model of the atom. Bohr, shown in <link target-id="Figure_22_01_Bohr"/>, became convinced of its validity and spent part of 1912 at Rutherford’s laboratory. In 1913, after returning to Copenhagen, he began publishing his theory of the simplest atom, hydrogen, based on Rutherford’s planetary model.</para>
+
+<figure id="Figure_22_01_Bohr"><media id="fs-id1167067271401" alt="A photo of Niels Bohr.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_22_01_Bohr.jpg"/>
+</media>
+
+
+<caption>Niels Bohr, Danish physicist, used the planetary model of the atom to explain the atomic spectrum and size of the hydrogen atom. His many contributions to the development of atomic physics and quantum mechanics, his personal influence on many students and colleagues, and his personal integrity, especially in the face of Nazi oppression, earned him a prominent place in history. (credit: Unknown Author, Wikimedia Commons)</caption></figure><para id="fs-id1167063649497">Bohr was able to derive the formula for the hydrogen spectrum using basic physics, the planetary model of the atom, and some very important new conjectures. His first conjecture was that only certain orbits are allowed: In other words, in an atom, the orbits of electrons are quantized. Each quantized orbit has a different distinct energy, and electrons can move to a higher orbit by absorbing energy or drop to a lower orbit by emitting energy. Because of the quantized orbits, the amount of energy emitted or absorbed must also be quantized, producing the discrete spectra seen in <link target-id="Figure_22_01_Spectrum"/> and <link target-id="Figure_22_01_Absorption"/>. In equation form, the amount of energy absorbed or emitted can be found as</para>
+<equation id="fs-id1164567336881"> <m:math display="block">
+ <m:mrow>
+  <m:mtext>Δ</m:mtext><m:mi>E</m:mi><m:mo>=</m:mo><m:msub>
+   <m:mi>E</m:mi>
+   <m:mi>i</m:mi>
+  </m:msub>
+  <m:mo>−</m:mo><m:msub>
+   <m:mi>E</m:mi>
+   <m:mi>f</m:mi>
+  </m:msub>
+  <m:mo>,</m:mo>
+ </m:mrow>
+</m:math> </equation>
+<para id="fs-id1167067175939">where  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>E</m:mi>
+   <m:mi>i</m:mi>
+  </m:msub>
+
+ </m:mrow>
+</m:math>  refers to the energy of the initial quantized orbit, and  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>E</m:mi>
+   <m:mi>f</m:mi>
+  </m:msub>
+
+ </m:mrow>
+</m:math>  refers to the energy of the final orbits. Furthermore, the wavelength emitted can be found using the equation</para>
+<equation id="fs-id1164565667297"> <m:math display="block">
+ <m:mrow>
+  <m:mi>h</m:mi><m:mi>f</m:mi><m:mo>=</m:mo><m:msub>
+   <m:mi>E</m:mi>
+   <m:mi>i</m:mi>
+  </m:msub>
+  <m:mo>−</m:mo><m:msub>
+   <m:mi>E</m:mi>
+   <m:mi>f</m:mi>
+  </m:msub>
+  <m:mo>,</m:mo>
+ </m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1167067082714">and relating the wavelength to the frequency found using the equation  <m:math>
+ <m:mrow>
+  <m:mi>v</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mi>λ</m:mi>
+ </m:mrow>
+</m:math>, where <emphasis effect="italics">v</emphasis> corresponds to the speed of light.</para>
+<para id="fs-id1167067015684">It makes sense that energy is involved in changing orbits. For example, a burst of energy is required for a satellite to climb to a higher orbit. What is not expected is that atomic orbits should be quantized. Quantization is not observed for satellites or planets, which can have any orbit, given the proper energy (see <link target-id="Figure_22_01_Quantized"/>).</para>
+
+<figure id="Figure_22_01_Quantized">
+<media id="fs-id1167066857014" alt="The figure shows Bohr’s atom model with circular electron orbits having distinct quantized energy levels. The figure also shows that energy is absorbed or emitted by an electron when it moves from one orbit (level) to another.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPHysics_22_01_Quantized.jpg"/>
+</media>
+<caption>The planetary model of the atom, as modified by Bohr, has the orbits of the electrons quantized. Only certain orbits are allowed, explaining why atomic spectra are discrete or quantized. The energy carried away from an atom by a photon comes from the electron dropping from one allowed orbit to another and is thus quantized. The same is true for atomic absorption of photons.</caption>
+</figure>
+
+<para id="fs-id1167061253475"><link target-id="Figure_22_01_NRGDiagram"/> shows an <term>energy-level diagram</term>, a convenient way to display energy states. Each of the horizontal lines corresponds to the energy of an electron in a different orbital. Energy is plotted vertically with the lowest or <term>ground state</term> at the bottom and with <term>excited states</term> above. The vertical arrow downwards shows energy being emitted out of the atom due to an electron dropping from one excited state to another. That would correspond to a line shown on the atom’s emission spectrum. The Lyman series shown in <link target-id="Figure_22_01_Hydrgen"/> results from electrons dropping to the ground state, while the Balmer and Paschen series result to electrons dropping to the <emphasis effect="italics">n = 2</emphasis> and <emphasis effect="italics">n = 3</emphasis> states, respectively.</para>
+
+<figure id="Figure_22_01_NRGDiagram">
+<media id="fs-id1167067021143" alt="The figure shows energy levels on the vertical axis for the various orbits, from 1 to infinity and change in energy as an electron transitions from orbit 4 to 2.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPHysics_22_01_NRGDiagram.jpg"/>
+</media>
+<caption>An energy-level diagram plots energy vertically and is useful in visualizing the energy states of a system and the transitions between them. This diagram is for the hydrogen-atom electrons, showing a transition between two orbits having energies  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>E</m:mi>
+   <m:mn>4</m:mn>
+  </m:msub>
+
+ </m:mrow>
+</m:math>  and  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>E</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+
+ </m:mrow>
+</m:math> . The energy transition results in a Balmer series line in an emission spectrum.</caption>
+</figure>
+
+<note id="fs-id1167063601115" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167063778972"><span>[BL]</span><span>[OL]</span>Quiz the students at this time. Show a large energy-level diagram on the board. Draw an arrow upward and ask whether energy is being emitted or absorbed. Have students draw an arrow showing more energy being absorbed. Draw a downward arrow and ask whether energy is being emitted or absorbed. Have the students compare the amount of energy emitted for various energy-level drops.</para>
+<para id="fs-id1167066974292"><span>[AL]</span>Have a student draw a planetary model to match the energy-level diagram shown above. Have students model the changes in energy states on their planetary model as they are shown on the energy-level diagram. Encourage students to use terminology such as <emphasis effect="italics">Balmer series, Lyman series, and Paschen series</emphasis> in their explanations.</para>
+</note>
+</section>
+
+<section id="fs-id1167063514274">
+<title>Energy and Wavelength of Emitted Hydrogen Spectra</title>
+<note id="fs-id1167063747566" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067031868">The negative value in the following equation can be difficult for students to understand. If you have already discussed potential energy in large-scale gravitational systems, you may remind students of that application prior to this discussion.</para>
+</note>
+<para id="fs-id1167063740165">The energy associated with a particular orbital of a hydrogen atom can be found using the equation</para>
+<equation id="fs-id1164567478740"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>E</m:mi>
+   <m:mi>n</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>13.6</m:mn><m:mspace width="0.25em"/><m:mtext>eV</m:mtext>
+   </m:mrow>
+   <m:mrow>
+    <m:msup>
+     <m:mi>n</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>...</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> </equation>
+<para id="fs-id1167067038020">where <emphasis effect="italics">n</emphasis> corresponds to the orbital value from the atom’s nucleus. The negative value in the equation is based upon a baseline energy of zero when the electron is infinitely far from the atom. As a result, the negative value shows that energy is necessary to free the electron from its orbital state. The minimum energy to free the electron is also referred to as its <emphasis effect="italics">binding energy</emphasis>. The equation is only valid for atoms with single electrons in their orbital shells (like hydrogen). For ionized atoms similar to hydrogen, the following formula may be used.</para>
+<equation id="fs-id1164565997764"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>E</m:mi>
+   <m:mi>n</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msup>
+     <m:mi>Z</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+   <m:mrow>
+    <m:msup>
+     <m:mi>n</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:msub>
+   <m:mi>E</m:mi>
+   <m:mi>o</m:mi>
+  </m:msub>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>...</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math> </equation>
+<para id="fs-id1167066790901">Please note that  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>E</m:mi>
+   <m:mi>o</m:mi>
+  </m:msub>
+
+ </m:mrow>
+</m:math>  corresponds to –13.6 eV, as mentioned earlier. Additionally,  <m:math> <m:mi>Z</m:mi></m:math>  refers to the atomic number of the element studied. The atomic number is the number of protons in the nucleus—it is different for each element. The above equation is derived from some basic physics principles, namely conservation of energy, conservation of angular momentum, Coulomb’s law, and centripetal force. There are three derivations that result in the orbital energy equations, and they are shown below. While you can use the energy equations without understanding the derivations, they will help to remind you of just how valuable those fundamental concepts are.</para>
+<note id="fs-id1167063415335" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067139261">The following three derivations are meant for advanced students. If you have a student that is at or below level, you may skip them and progress directly to <link target-id="Worked_Example_22_01"/>.</para>
+</note>
+
+<section id="fs-id1167067075386">
+<title>Derivation 1 (Finding the Radius of an Orbital)</title>
+<para id="fs-id1167067102828">One primary difference between the planetary model of the solar system and the planetary model of the atom is the cause of the circular motion. While gravitation causes the motion of orbiting planets around an interior star, the Coulomb force is responsible for the circular shape of the electron’s orbit. The magnitude of the centripetal force is  <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:msub>
+     <m:mi>m</m:mi>
+     <m:mi>e</m:mi>
+    </m:msub>
+    <m:msup>
+     <m:mi>v</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mi>r</m:mi>
+     <m:mi>n</m:mi>
+    </m:msub>
+
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>, while the magnitude of the Coulomb force is  <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mi>k</m:mi><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mi>Z</m:mi><m:msub>
+       <m:mi>q</m:mi>
+       <m:mi>e</m:mi>
+      </m:msub>
+
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:msub>
+       <m:mi>q</m:mi>
+       <m:mi>e</m:mi>
+      </m:msub>
+
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mi>r</m:mi>
+     <m:mi>e</m:mi>
+    </m:msub>
+    <m:msup>
+     <m:mrow/>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> . The assumption here is that the nucleus is more massive than the stationary electron, and the electron orbits about it. That is consistent with the planetary model of the atom. Equating the Coulomb force and the centripetal force,</para>
+<equation id="fs-id1164567466894"> <m:math display="block">
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:msub>
+     <m:mi>m</m:mi>
+     <m:mi>e</m:mi>
+    </m:msub>
+    <m:msup>
+     <m:mi>v</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mi>r</m:mi>
+     <m:mi>n</m:mi>
+    </m:msub>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>k</m:mi><m:mo stretchy="false">(</m:mo><m:mi>Z</m:mi><m:msub>
+     <m:mi>q</m:mi>
+     <m:mi>e</m:mi>
+    </m:msub>
+    <m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:msub>
+     <m:mi>q</m:mi>
+     <m:mi>e</m:mi>
+    </m:msub>
+    <m:mo stretchy="false">)</m:mo>
+   </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mi>r</m:mi>
+     <m:mi>e</m:mi>
+    </m:msub>
+    <m:msup>
+     <m:mrow/>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>,</m:mo>
+ </m:mrow>
+</m:math> </equation>
+<para id="fs-id1167061297250">which yields</para>
+<equation id="fs-id1164567447832"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>r</m:mi>
+   <m:mi>n</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>k</m:mi><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mi>Z</m:mi><m:msub>
+       <m:mi>q</m:mi>
+       <m:mi>e</m:mi>
+      </m:msub>
+      <m:msup>
+       <m:mrow/>
+       <m:mn>2</m:mn>
+      </m:msup>
+
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+   <m:mrow>
+    <m:mi>m</m:mi><m:msup>
+     <m:mi>v</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math> </equation>
+</section>
+
+<section id="fs-id1167067149763"><title>Derivation 2 (Finding the Velocity of the Orbiting Electron)</title>
+<para id="fs-id1167067051449">Bohr was clever enough to find a way to calculate the electron orbital energies in hydrogen. That was an important first step that has been improved upon, but it is well worth repeating here, because it does correctly describe many characteristics of hydrogen. Assuming circular orbits, Bohr proposed that the angular momentum <emphasis effect="italics">L</emphasis> of an electron in its orbit is also quantized, that is, it has only specific, discrete values. The value for <emphasis effect="italics">L</emphasis> is given by the formula</para>
+<equation id="fs-id1164565427018"> <m:math display="block">
+ <m:mrow>
+  <m:mi>L</m:mi><m:mo>=</m:mo><m:msub>
+   <m:mi>m</m:mi>
+   <m:mi>e</m:mi>
+  </m:msub>
+  <m:mi>v</m:mi><m:msub>
+   <m:mi>r</m:mi>
+   <m:mi>n</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mi>n</m:mi><m:mfrac>
+   <m:mi>h</m:mi>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>...</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> </equation>
+<para id="fs-id1167063502437">where <emphasis effect="italics">L</emphasis> is the angular momentum, <emphasis effect="italics">m<sub>e</sub></emphasis> is the electron’s mass, <emphasis effect="italics">r<sub>n</sub></emphasis> is the radius of the <emphasis effect="italics">n</emphasis> th orbit, and <emphasis effect="italics">h</emphasis> is Planck’s constant. Note that angular momentum is  <m:math>
+ <m:mrow>
+  <m:mi>L</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>ω</m:mi>
+ </m:mrow>
+</m:math> . For a small object at a radius r, <m:math>
+ <m:mrow>
+  <m:mi>I</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:msup>
+   <m:mi>r</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+
+ </m:mrow>
+</m:math>, and  <m:math>
+ <m:mrow>
+  <m:mi>ω</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mi>v</m:mi>
+   <m:mi>r</m:mi>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>, so that  <m:math>
+ <m:mrow>
+  <m:mi>L</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>ω</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>m</m:mi><m:msup>
+     <m:mi>r</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mi>v</m:mi>
+     <m:mi>r</m:mi>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>v</m:mi><m:mi>r</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>  Quantization says that the value of <emphasis effect="italics">mvr</emphasis> can only be equal to <emphasis effect="italics">h </emphasis>/ 2, 2<emphasis effect="italics">h </emphasis>/ 2, 3<emphasis effect="italics">h</emphasis> / 2, etc. At the time, Bohr himself did not know why angular momentum should be quantized, but by using that assumption, he was able to calculate the energies in the hydrogen spectrum, something no one else had done at the time.</para>
+</section>
+
+<section id="fs-id1167067267926">
+<title>Derivation 3 (Finding the Energy of the Orbiting Electron)</title>
+<para id="fs-id1167063525103">To get the electron orbital energies, we start by noting that the electron energy is the sum of its kinetic and potential energy.</para>
+<equation id="fs-id1164567263320"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>E</m:mi>
+   <m:mi>n</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mi>K</m:mi><m:mi>E</m:mi><m:mo>+</m:mo><m:mi>P</m:mi><m:mi>E</m:mi>
+ </m:mrow>
+</m:math> </equation>
+<para id="fs-id1167067067466">Kinetic energy is the familiar  <m:math>
+ <m:mrow>
+  <m:mi>K</m:mi><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mi>m</m:mi><m:msup>
+   <m:mi>v</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+
+ </m:mrow>
+</m:math>, assuming the electron is not moving at a relativistic speed. Potential energy for the electron is electrical, or  <m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mi>E</m:mi><m:mo>=</m:mo><m:msub>
+   <m:mi>q</m:mi>
+   <m:mi>e</m:mi>
+  </m:msub>
+  <m:mi>V</m:mi>
+ </m:mrow>
+</m:math>, where <emphasis effect="italics">V</emphasis> is the potential due to the nucleus, which looks like a point charge. The nucleus has a positive charge  <m:math>
+ <m:mrow>
+  <m:mi>Z</m:mi><m:msub>
+   <m:mi>q</m:mi>
+   <m:mi>e</m:mi>
+  </m:msub>
+
+ </m:mrow>
+</m:math>; thus,  <m:math>
+ <m:mrow>
+  <m:mi>V</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>k</m:mi><m:mi>Z</m:mi><m:msub>
+     <m:mi>q</m:mi>
+     <m:mi>e</m:mi>
+    </m:msub>
+
+   </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mi>r</m:mi>
+     <m:mi>n</m:mi>
+    </m:msub>
+
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>, recalling an earlier equation for the potential due to a point charge from the chapter on Electricity and Magnetism. Since the electron’s charge is negative, we see that  <m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mi>k</m:mi><m:mi>Z</m:mi><m:msub>
+     <m:mi>q</m:mi>
+     <m:mi>e</m:mi>
+    </m:msub>
+    <m:msup>
+     <m:mrow/>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mi>r</m:mi>
+     <m:mi>n</m:mi>
+    </m:msub>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math> Substituting the expressions for KE and PE,</para>
+<equation id="fs-id1164567306063"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>E</m:mi>
+   <m:mi>n</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:msub>
+   <m:mi>m</m:mi>
+   <m:mi>e</m:mi>
+  </m:msub>
+  <m:msup>
+   <m:mi>v</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>−</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>k</m:mi><m:mi>Z</m:mi><m:msub>
+     <m:mi>q</m:mi>
+     <m:mi>e</m:mi>
+    </m:msub>
+    <m:msup>
+     <m:mrow/>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mi>r</m:mi>
+     <m:mi>n</m:mi>
+    </m:msub>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </equation>
+
+<para id="fs-id1167063644550">Now we solve for <emphasis effect="italics">r<sub>n</sub></emphasis> and <emphasis effect="italics">v</emphasis> using the equation for angular momentum  <m:math>
+ <m:mrow>
+  <m:mi>L</m:mi><m:mo>=</m:mo><m:msub>
+   <m:mi>m</m:mi>
+   <m:mi>e</m:mi>
+  </m:msub>
+  <m:mi>v</m:mi><m:msub>
+   <m:mi>r</m:mi>
+   <m:mi>n</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mi>n</m:mi><m:mfrac>
+   <m:mi>h</m:mi>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>...</m:mn><m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+</m:math>, giving</para><equation id="fs-id1164566976840"> <m:math display="block">
+ <m:mrow>
+  <m:mi>v</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:mfrac>
+   <m:mi>h</m:mi>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>π</m:mi><m:msub>
+     <m:mi>m</m:mi>
+     <m:mi>e</m:mi>
+    </m:msub>
+    <m:msub>
+     <m:mi>r</m:mi>
+     <m:mi>n</m:mi>
+    </m:msub>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>...</m:mn><m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+</m:math> </equation>
+<para id="fs-id1167067165775">and</para>
+<equation id="fs-id1164566390812"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>r</m:mi>
+   <m:mi>n</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mi>n</m:mi><m:mfrac>
+   <m:mi>h</m:mi>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>π</m:mi><m:msub>
+     <m:mi>m</m:mi>
+     <m:mi>e</m:mi>
+    </m:msub>
+    <m:mi>v</m:mi>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>...</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </equation>
+<para id="fs-id1167066800365">Substituting the expression for <emphasis effect="italics">r<sub>n</sub></emphasis> and <emphasis effect="italics">v </emphasis>into the above expressions for energy (KE and PE), and performing algebraic manipulation, yields</para>
+<equation id="fs-id1164565408599"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>E</m:mi>
+   <m:mi>n</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msup>
+     <m:mi>Z</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+   <m:mrow>
+    <m:msup>
+     <m:mi>n</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:msub>
+   <m:mi>E</m:mi>
+   <m:mi>o</m:mi>
+  </m:msub>
+  <m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>...</m:mn><m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+</m:math> </equation>
+<para id="fs-id1167063741890">for the orbital energies of <term>hydrogen-like atoms</term>. Here, <emphasis effect="italics">E<sub>o</sub></emphasis> is the ground-state energy (<emphasis effect="italics">n </emphasis>= 1) for hydrogen (<emphasis effect="italics">Z </emphasis>= 1) and is given by</para>
+<equation id="fs-id1164567257208"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>E</m:mi>
+   <m:mi>o</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>2</m:mn><m:msup>
+     <m:mi>π</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    <m:msub>
+     <m:mi>q</m:mi>
+     <m:mi>e</m:mi>
+    </m:msub>
+    <m:msup>
+     <m:mrow/>
+     <m:mn>4</m:mn>
+    </m:msup>
+    <m:msub>
+     <m:mi>m</m:mi>
+     <m:mi>e</m:mi>
+    </m:msub>
+    <m:msup>
+     <m:mi>k</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+   <m:mrow>
+    <m:msup>
+     <m:mi>h</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>13.6</m:mn><m:mspace width="0.25em"/><m:mtext>eV</m:mtext>
+<m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math> </equation>
+<para id="fs-id1167067235499">Thus, for hydrogen,</para>
+<equation id="fs-id1164567306877"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>E</m:mi>
+   <m:mi>n</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>13.6</m:mn><m:mspace width="0.25em"/><m:mtext>eV</m:mtext></m:mrow>
+   <m:mrow>
+    <m:msup>
+     <m:mi>n</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    </m:mrow>
+  </m:mfrac>
+  <m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>...</m:mn><m:mo stretchy="false">).</m:mo></m:mrow>
+</m:math> </equation>
+<para id="fs-id1167061216891">The relationship between orbital energies and orbital states for the hydrogen atom can be seen in <link target-id="Figure_22_01_Detailed"/>.</para>
+
+<figure id="Figure_22_01_Detailed">
+<media id="fs-id1167063635765" alt="The figure shows orbital energies on the vertical axis calculated for various orbits (from n=1 to n=infinity). The energy is –13.6eV for n=1, -3.40eV for n=2, –1.51eV for n=3, –0.85eV for n=4, –0.54eV for n=5 and 0 for n=infinity. The figure also shows transitions for Layman series (transitions to n=1 from higher levels), Balmer series (transitions to n=2 from higher levels) and Pacshen series (transitions to n=3 from higher levels).">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_22_01_Detailed.jpg"/>
+</media>
+<caption>Energy-level diagram for hydrogen showing the Lyman, Balmer, and Paschen series of transitions. The orbital energies are calculated using the above equation, first derived by Bohr.</caption></figure>
+
+<note id="Worked_Example_22_01" class="worked-example">
+
+<exercise id="fs-id1167066141914" class="22-ex002 unnumbered">
+<label/>
+<problem id="fs-id1167066784051">
+<para id="fs-id1167067259339">A hydrogen atom is struck by a photon. How much energy must be absorbed from the photon to raise the electron of the hydrogen atom from its ground state to its second orbital?</para>
+<note id="fs-id1167067259341">
+<label/>
+<title>Strategy</title>
+<para id="fs-id1167067263922">The hydrogen atom has an atomic number of <emphasis effect="italics">Z</emphasis> = 1. Raising the electron from the ground state to its second orbital will increase its orbital level from <emphasis effect="italics">n</emphasis> = 1 to <emphasis effect="italics">n</emphasis> = 2. The energy determined will be measured in electron-volts.</para>
+</note>
+</problem>
+<solution id="fs-id1167066837826">
+<label/>
+<title>Solution</title>
+<para id="fs-id1167067103572">The amount of energy necessary to cause the change in electron state is the difference between the final and initial energies of the electron. The final energy state of the electron can be found using</para>
+<equation id="fs-id1164564441519"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>E</m:mi>
+   <m:mi>n</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msup>
+     <m:mi>Z</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+   <m:mrow>
+    <m:msup>
+     <m:mi>n</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:msub>
+   <m:mi>E</m:mi>
+   <m:mi>o</m:mi>
+  </m:msub>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>...</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+  <m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math> </equation>
+<para id="fs-id1167067260751">Knowing the <emphasis effect="italics">n</emphasis> and <emphasis effect="italics">Z</emphasis> values for the hydrogen atom, and knowing that <emphasis effect="italics">E<sub>o</sub></emphasis> = –13.6 eV, the result is</para>
+<equation id="fs-id1164567470296"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>E</m:mi>
+   <m:mi>f</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msup>
+     <m:mn>1</m:mn>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+   <m:mrow>
+    <m:msup>
+     <m:mn>2</m:mn>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>13.6</m:mn><m:mspace width="0.25em"/><m:mtext>eV</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>3.4</m:mn><m:mspace width="0.25em"/><m:mtext>eV</m:mtext><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </equation>
+<para id="fs-id1167063709386">The original amount of energy associated with the electron is equivalent to the ground state orbital, or</para>
+<equation id="fs-id1164564503350"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>E</m:mi>
+   <m:mi>O</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msup>
+     <m:mn>1</m:mn>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+   <m:mrow>
+    <m:msup>
+     <m:mn>1</m:mn>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>13.6</m:mn><m:mspace width="0.25em"/><m:mtext>eV</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>−13.6</m:mn><m:mspace width="0.25em"/><m:mtext>eV</m:mtext><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </equation>
+<para id="fs-id1167063449385">The amount of energy necessary to change the orbital state of the electron can be found by determining the electron’s change in energy.</para>
+<equation id="fs-id1164567328055"> <m:math display="block">
+ <m:mrow>
+  <m:mtext>Δ</m:mtext><m:mi>E</m:mi><m:mo>=</m:mo><m:msub>
+   <m:mi>E</m:mi>
+   <m:mi>f</m:mi>
+  </m:msub>
+  <m:mo>−</m:mo><m:msub>
+   <m:mi>E</m:mi>
+   <m:mi>o</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>3.4</m:mn><m:mspace width="0.25em"/><m:mtext>e</m:mtext><m:mtext>V</m:mtext>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>13.6</m:mn><m:mspace width="0.25em"/><m:mtext>e</m:mtext><m:mtext>V</m:mtext>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>+</m:mo><m:mn>10.2</m:mn><m:mspace width="0.25em"/><m:mtext>e</m:mtext><m:mtext>V</m:mtext>
+ </m:mrow>
+</m:math> </equation>
+
+</solution>
+<commentary id="fs-id1167067007190">
+<title>Discussion</title>
+<para id="fs-id1167063678655">The energy required to change the orbital state of the electron is positive. That means that for the electron to move to a state with greater energy, energy must be added to the atom. Should the electron drop back down to its original energy state, a change of –10.2 eV would take place, and 10.2 eV of energy would be emitted from the atom. Just as only quantum amounts of energy may be absorbed by the atom, only quantum amounts of energy can be emitted from the atom. That helps to explain many of the quantum light effects that you have learned about previously.</para>
+</commentary>
+</exercise>
+</note>
+
+<note id="Worked_Example_22_02" class="worked-example">
+
+<title>Characteristic X-Ray Energy</title>
+<exercise id="fs-id1167063698115" class="22-ex003 unnumbered"><label/>
+<problem id="fs-id1167066984258">
+<para id="fs-id1167066984260">Calculate the approximate energy of an X-ray emitted for an <emphasis effect="italics">n</emphasis> = 2 to <emphasis effect="italics">n</emphasis> = 1 transition in a tungsten anode in an X-ray tube.</para>
+<note id="fs-id1167066948448"><label/>
+<title>Strategy</title>
+<para id="fs-id1167060132966">How do we calculate energies in a multiple-electron atom? In the case of characteristic X-rays, the following approximate calculation is reasonable. Characteristic X-rays are produced when an inner-shell vacancy is filled. Inner-shell electrons are nearer the nucleus than others in an atom and thus feel little net effect from the others. That is similar to what happens inside a charged conductor, where its excess charge is distributed over the surface so that it produces no electric field inside. It is reasonable to assume the inner-shell electrons have hydrogen-like energies, as given by</para>
+<equation id="fs-id1164565671577"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>E</m:mi>
+   <m:mi>n</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msup>
+     <m:mi>Z</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+   <m:mrow>
+    <m:msup>
+     <m:mi>n</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:msub>
+   <m:mi>E</m:mi>
+   <m:mi>o</m:mi>
+  </m:msub>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>...</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math> </equation>
+<para id="fs-id1167067067671">For tungsten, <emphasis effect="italics">Z </emphasis>= 74, so that the effective charge is 73.</para>
+</note>
+</problem>
+<solution id="fs-id1167067105751"><label/>
+<title>Solution</title>
+<para id="fs-id1167067090077">The amount of energy given off as an X-ray is found using</para>
+<equation id="fs-id1164567420965"> <m:math display="block">
+ <m:mrow>
+  <m:mtext>Δ</m:mtext><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>h</m:mi><m:mi>f</m:mi><m:mo>=</m:mo><m:msub>
+   <m:mi>E</m:mi>
+   <m:mi>i</m:mi>
+  </m:msub>
+  <m:mo>−</m:mo><m:msub>
+   <m:mi>E</m:mi>
+   <m:mi>f</m:mi>
+  </m:msub>
+  <m:mo>,</m:mo>
+ </m:mrow>
+</m:math> </equation>
+<para id="fs-id1167063515570">where</para>
+<equation id="fs-id1164567493946"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>E</m:mi>
+   <m:mi>f</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msup>
+     <m:mi>Z</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+   <m:mrow>
+    <m:msup>
+     <m:mn>1</m:mn>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:msub>
+   <m:mi>E</m:mi>
+   <m:mi>o</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msup>
+     <m:mrow>
+      <m:mn>73</m:mn>
+     </m:mrow>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+   <m:mn>1</m:mn>
+  </m:mfrac>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>13.6</m:mn><m:mspace width="0.25em"/><m:mtext>e</m:mtext><m:mtext>V</m:mtext>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>72.5</m:mn><m:mspace width="0.25em"/><m:mtext>k</m:mtext><m:mtext>e</m:mtext><m:mtext>V</m:mtext>
+ </m:mrow>
+</m:math> </equation>
+<para id="fs-id1167066808283">and</para>
+<equation id="fs-id1164567909219"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>E</m:mi>
+   <m:mi>i</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msup>
+     <m:mi>Z</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+   <m:mrow>
+    <m:msup>
+     <m:mn>2</m:mn>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:msub>
+   <m:mi>E</m:mi>
+   <m:mi>o</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msup>
+     <m:mrow>
+      <m:mn>73</m:mn>
+     </m:mrow>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+   <m:mn>4</m:mn>
+  </m:mfrac>
+  <m:mo stretchy="false">(</m:mo><m:mn>13.6</m:mn><m:mspace width="0.25em"/><m:mtext>eV</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>−18.1</m:mn><m:mspace width="0.25em"/><m:mtext>keV</m:mtext><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </equation>
+<para id="fs-id1167061228838">Thus,</para>
+<equation id="fs-id1164567788411"> <m:math display="block">
+ <m:mrow>
+  <m:mtext>Δ</m:mtext><m:mi>E</m:mi><m:mo>=</m:mo><m:msub>
+   <m:mi>E</m:mi>
+   <m:mi>i</m:mi>
+  </m:msub>
+  <m:mo>−</m:mo><m:msub>
+   <m:mi>E</m:mi>
+   <m:mi>f</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>−18.1</m:mn><m:mspace width="0.25em"/><m:mtext>k</m:mtext><m:mtext>e</m:mtext><m:mtext>V</m:mtext>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>−72.5</m:mn><m:mspace width="0.25em"/><m:mtext>k</m:mtext><m:mtext>e</m:mtext><m:mtext>V</m:mtext>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>54.4</m:mn><m:mspace width="0.25em"/><m:mtext>k</m:mtext><m:mtext>e</m:mtext><m:mtext>V</m:mtext><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </equation>
+
+</solution>
+<commentary id="fs-id1167066804648">
+<title>Discussion</title>
+<para id="fs-id1167061419576">This large photon energy is typical of characteristic X-rays from heavy elements. It is large compared with other atomic emissions because it is produced when an inner-shell vacancy is filled, and inner-shell electrons are tightly bound. Characteristic X-ray energies become progressively larger for heavier elements because their energy increases approximately as <emphasis effect="italics">Z</emphasis><sup>2</sup>. Significant accelerating voltage is needed to create such inner-shell vacancies, because other shells are filled and you cannot simply bump one electron to a higher filled shell. You must remove it from the atom completely. In the case of tungsten, at least 72.5 kV is needed. Tungsten is a common anode material in X-ray tubes; so much of the energy of the impinging electrons is absorbed, raising its temperature, that a high-melting-point material like tungsten is required.</para>
+</commentary>
+</exercise>
+</note>
+
+<note id="fs-id1167063601129" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167063788874">As with the previous section, the following derivation may be omitted for students below level. If it is omitted, students should pick up at <link target-id="Worked_Example_22_03"/>.</para>
+</note>
+<para id="fs-id1167067266022">The wavelength of light emitted by an atom can also be determined through basic derivations. Let us consider the energy of a photon emitted from a hydrogen atom in a downward transition, given by the equation</para>
+<equation id="fs-id1164565492530"> <m:math display="block">
+ <m:mrow>
+  <m:mtext>Δ</m:mtext><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>h</m:mi><m:mi>f</m:mi><m:mo>=</m:mo><m:msub>
+   <m:mi>E</m:mi>
+   <m:mi>i</m:mi>
+  </m:msub>
+  <m:mo>−</m:mo><m:msub>
+   <m:mi>E</m:mi>
+   <m:mi>f</m:mi>
+  </m:msub>
+
+ </m:mrow>
+</m:math> </equation>
+
+<para id="fs-id1167066844602">Substituting  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>E</m:mi>
+   <m:mi>n</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mn>−13.6</m:mn><m:mspace width="0.25em"/><m:mtext>e</m:mtext><m:mtext>V</m:mtext>
+     </m:mrow>
+     <m:mrow>
+      <m:msup>
+       <m:mi>n</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math>, we get</para>
+<equation id="fs-id1164567432964"> <m:math display="block">
+ <m:mrow>
+  <m:mi>h</m:mi><m:mi>f</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>13.6</m:mn><m:mspace width="0.25em"/><m:mtext>e</m:mtext><m:mtext>V</m:mtext>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mrow>
+      <m:msub>
+       <m:mi>n</m:mi>
+       <m:mi>f</m:mi>
+      </m:msub>
+      <m:msup>
+       <m:mrow/>
+       <m:mn>2</m:mn>
+      </m:msup>
+
+     </m:mrow>
+    </m:mfrac>
+    <m:mo>−</m:mo><m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mrow>
+      <m:msub>
+       <m:mi>n</m:mi>
+       <m:mi>i</m:mi>
+      </m:msub>
+      <m:msup>
+       <m:mrow/>
+       <m:mn>2</m:mn>
+      </m:msup>
+
+     </m:mrow>
+    </m:mfrac>
+   </m:mrow>
+  <m:mo>).</m:mo></m:mrow>
+ </m:mrow>
+</m:math> </equation><para id="fs-id1167067317827">Dividing both sides of the equation by <emphasis effect="italics">hc</emphasis> gives us an expression for  <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mi>λ</m:mi>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>,</para>
+<equation id="fs-id1164567806548"> <m:math display="block">
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mi>h</m:mi><m:mi>f</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mi>h</m:mi><m:mi>c</m:mi>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mi>f</m:mi>
+   <m:mi>c</m:mi>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mi>λ</m:mi>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>13.6</m:mn><m:mspace width="0.25em"/><m:mtext>eV</m:mtext>
+   </m:mrow>
+   <m:mrow>
+    <m:mi>h</m:mi><m:mi>c</m:mi>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>(</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:msub>
+     <m:mi>n</m:mi>
+     <m:mi>f</m:mi>
+    </m:msub>
+    <m:msup>
+     <m:mrow/>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>−</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:msub>
+     <m:mi>n</m:mi>
+     <m:mi>i</m:mi>
+    </m:msub>
+    <m:msup>
+     <m:mrow/>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>)</m:mo><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </equation>
+
+<para id="fs-id1167063466446">It can be shown that</para>
+<equation id="fs-id1164565637931"> <m:math display="block">
+ <m:mrow>
+  <m:mo>(</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>13.6</m:mn><m:mspace width="0.25em"/><m:mtext>eV</m:mtext>
+   </m:mrow>
+   <m:mrow>
+    <m:mi>h</m:mi><m:mi>c</m:mi>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>)</m:mo><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mo stretchy="false">(</m:mo><m:mn>13.6</m:mn><m:mspace width="0.25em"/><m:mtext>eV</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1.602</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn>
+     </m:mrow>
+     <m:mrow>
+      <m:mn>−19</m:mn>
+     </m:mrow>
+    </m:msup>
+    <m:mtext>J</m:mtext><m:mo>/</m:mo><m:mtext>eV</m:mtext><m:mo stretchy="false">)</m:mo>
+   </m:mrow>
+   <m:mrow>
+    <m:mo stretchy="false">(</m:mo><m:mn>6.602</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn>
+     </m:mrow>
+     <m:mrow>
+      <m:mn>−34</m:mn>
+     </m:mrow>
+    </m:msup>
+    <m:mtext>J</m:mtext><m:mo>⋅</m:mo><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2.998</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn>
+     </m:mrow>
+     <m:mn>8</m:mn>
+    </m:msup>
+    <m:mtext>m</m:mtext><m:mo>/</m:mo><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>1.097</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mn>7</m:mn>
+  </m:msup>
+  <m:msup>
+   <m:mtext>m</m:mtext>
+   <m:mrow>
+    <m:mn>−1</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mo>=</m:mo><m:mi>R</m:mi><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> </equation>
+
+<para id="fs-id1167067253513">where <emphasis effect="italics">R</emphasis> is the <term>Rydberg constant</term>.</para>
+<para id="fs-id1167067139141">Simplified, the formula for determining emitted wavelength can now be written as</para>
+<equation id="fs-id1164567724182"> <m:math display="block">
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mi>λ</m:mi>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mi>R</m:mi><m:mo>(</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:msub>
+     <m:mi>n</m:mi>
+     <m:mi>f</m:mi>
+    </m:msub>
+    <m:msup>
+     <m:mrow/>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>−</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:msub>
+     <m:mi>n</m:mi>
+     <m:mi>i</m:mi>
+    </m:msub>
+    <m:msup>
+     <m:mrow/>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>)</m:mo><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </equation>
+
+<note id="Worked_Example_22_03" class="worked-example">
+
+<title/>
+<exercise id="fs-id1167064906671" class="22-ex006 unnumbered"><label/>
+<problem id="fs-id1167063680368">
+<para id="fs-id1167066845310">What wavelength of light is emitted by an electron dropping from the third orbital to the ground state of a hydrogen atom?</para>
+<note id="fs-id1167061432902"><label/>
+<title>Strategy</title>
+<para id="fs-id1167063504324">The ground state of a hydrogen atom is considered the first orbital of the atom. As a result, <emphasis effect="italics">n<sub>f</sub></emphasis> = 1 and <emphasis effect="italics">n<sub>i</sub></emphasis> = 3. The Rydberg constant has already been determined and will be constant regardless of atom chosen.</para>
+</note>
+</problem>
+<solution id="fs-id1167067158572"><label/>
+<title>Solution</title>
+<equation id="fs-id1164564511886">  <m:math display="block">
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mi>λ</m:mi>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mi>R</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mrow>
+      <m:msub>
+       <m:mi>n</m:mi>
+       <m:mi>f</m:mi>
+      </m:msub>
+      <m:msup>
+       <m:mrow/>
+       <m:mn>2</m:mn>
+      </m:msup>
+
+     </m:mrow>
+    </m:mfrac>
+    <m:mo>−</m:mo><m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mrow>
+      <m:msub>
+       <m:mi>n</m:mi>
+       <m:mi>i</m:mi>
+      </m:msub>
+      <m:msup>
+       <m:mrow/>
+       <m:mn>2</m:mn>
+      </m:msup>
+
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math> </equation>
+<para id="fs-id1167066991793">For the equation above, calculate wavelength based on the known energy states.</para>
+<equation id="fs-id1164567207413"> <m:math display="block">
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mi>λ</m:mi>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>1.097</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mn>7</m:mn>
+  </m:msup>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mrow>
+      <m:msup>
+       <m:mn>1</m:mn>
+       <m:mn>2</m:mn>
+      </m:msup>
+
+     </m:mrow>
+    </m:mfrac>
+    <m:mo>−</m:mo><m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mrow>
+      <m:msup>
+       <m:mn>3</m:mn>
+       <m:mn>2</m:mn>
+      </m:msup>
+
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>9.751</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mn>6</m:mn>
+  </m:msup>
+  <m:msup>
+   <m:mtext>m</m:mtext>
+   <m:mrow>
+    <m:mn>−1</m:mn>
+   </m:mrow>
+  </m:msup>
+
+ </m:mrow>
+</m:math> </equation>
+<para id="fs-id1167067292346">Rearranging the equation for wavelength yields</para>
+<equation id="fs-id1164567307944"> <m:math display="block">
+ <m:mrow>
+  <m:mi>λ</m:mi><m:mo>=</m:mo><m:mn>1.026</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>−7</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mtext>m</m:mtext><m:mo>=</m:mo><m:mn>102.6</m:mn><m:mspace width="0.25em"/><m:mtext>nm</m:mtext><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </equation>
+</solution>
+<commentary id="fs-id1167067054469">
+<title>Discussion</title>
+<para id="fs-id1167067185598">This wavelength corresponds to light in the ultraviolet spectrum. As a result, we would not be able to see the photon of light emitted when an electron drops from its third to first energy state. However, it is worth noting that by supplying light of wavelength precisely 102.6 nm, we can cause the electron in hydrogen to move from its first to its third orbital state.</para>
+</commentary>
+</exercise>
+</note>
+</section>
+
+<note id="fs-id1167063493766" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067100800">Before progressing further, review Bohr’s theory with the students.</para>
+<para id="fs-id1167063438565"><span>[BL]</span><span>[OL]</span>Have students describe what is quantized and how quantum orbitals relate to the wavelengths of energy emitted.</para>
+<para id="fs-id1167067061651"><span>[AL]</span>Have students explain how Bohr’s theory is supported by blackbody radiation and the photoelectric effect. Explain that the photoelectric effect occurs when photons hitting the surface of a solar cell create an electric current in the cell, and that the photoelectric effect allows sunlight to be converted directly into electricity. See whether students can construct a deeper understanding behind the observations mentioned in the chapter on the Quantum Nature of Light.</para>
+</note>
+</section>
+
+<section id="fs-id1167067038792"><title>Limits of Bohr’s Theory and the Quantum Model of the Atom</title><para id="fs-id1167066957298">There are limits to Bohr’s theory. It does not account for the interaction of bound electrons, so it cannot be fully applied to multielectron atoms, even one as simple as the two-electron helium atom. Bohr’s model is what we call <emphasis effect="italics">semiclassical</emphasis>. The orbits are quantized (nonclassical) but are assumed to be simple circular paths (classical). As quantum mechanics was developed, it became clear that there are no well-defined orbits; rather, there are clouds of probability. Additionally, Bohr’s theory did not explain that some spectral lines are doublets or split into two when examined closely. While we shall examine a few of those aspects of quantum mechanics in more detail, it should be kept in mind that Bohr did not fail. Rather, he made very important steps along the path to greater knowledge and laid the foundation for all of atomic physics that has since evolved.</para>
+
+<section id="fs-id1167067251803">
+<title>DeBroglie’s Waves</title>
+<note id="fs-id1167063560739" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167061240894">If it has been a while since students have seen a standing wave, show them a standing wave using a slinky or electric oscillator. Show that a standing wave pattern can only emerge for specific frequencies. Similar to a guitar string only playing a particular frequency when plucked, the electron can only fit into a particular orbital when provided with the appropriate amount of energy.</para>
+</note>
+<para id="fs-id1167067014942">Following Bohr’s initial work on the hydrogen atom, a decade was to pass before <term class="no-emphasis">Louis de Broglie</term> proposed that matter has wave properties. The wave-like properties of matter were subsequently confirmed by observations of electron interference when scattered from crystals. Electrons can exist only in locations where they interfere constructively. How does that affect electrons in atomic orbits? When an electron is bound to an atom, its wavelength must fit into a small space, something like a standing wave on a string (see <link target-id="Figure_22_01_DeBroglie"/>). Orbits in which an electron can constructively interfere with itself are allowed. All orbits in which constructive interference cannot occur are not able to exist. Thus, only certain orbits are allowed. The wave nature of an electron, according to de Broglie, is why the orbits are quantized!</para>
+
+<figure id="Figure_22_01_DeBroglie">
+<media id="fs-id1167063820855" alt="Part (a) shows standing waves on a string. With wave representing an electron parts (b) and (c) show allowed orbit (constructive interference) and forbidden orbit (destructive interference) respectively. The figure also shows equations—constructive interference occurs when 2πr=nλ where r is orbit radius and n is an integer and destructive interference occurs when 2πr’≠nλ’ where r’ is orbit radius and n is an integer.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_22_01_DeBroglie.jpg"/>
+</media>
+<caption>(a) Standing waves on a string have a wavelength related to the length of the string, allowing them to interfere constructively. (b) If we imagine the string formed into a closed circle, we get a rough idea of how electrons in circular orbits can interfere constructively. (c) If the wavelength does not fit into the circumference, the electron interferes destructively; it cannot exist in such an orbit.</caption>
+</figure>
+
+<para id="fs-id1167067110882">For a circular orbit, constructive interference occurs when the electron’s wavelength fits neatly into the circumference, so that wave crests always align with crests and wave troughs align with troughs, as shown in <link target-id="Figure_22_01_DeBroglie"/>(b). More precisely, when an integral multiple of the electron’s wavelength equals the circumference of the orbit, constructive interference is obtained. In equation form, the condition for constructive interference and an allowed electron orbit is</para>
+<equation id="fs-id1164565665314"> <m:math display="block">
+ <m:mrow>
+  <m:mi>n</m:mi><m:msub>
+   <m:mi>λ</m:mi>
+   <m:mi>n</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msub>
+   <m:mi>r</m:mi>
+   <m:mi>n</m:mi>
+  </m:msub>
+  <m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>...</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> </equation>
+<para id="fs-id1167061583282">where  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>λ</m:mi>
+   <m:mi>n</m:mi>
+  </m:msub>
+
+ </m:mrow>
+</m:math>  is the electron’s wavelength and <emphasis effect="italics">r<sub>n</sub></emphasis> is the radius of that circular orbit. <link target-id="Figure_22_01_Orbitals"/> shows the third and fourth orbitals of a hydrogen atom.</para>
+
+<figure id="Figure_22_01_Orbitals">
+<media id="fs-id1167063689907" alt="The figure shows two circular orbits representing third and fourth allowed orbits with three and four wavelengths respectively.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPHysics_22_01_Orbitals.jpg"/>
+</media>
+<caption>The third and fourth allowed circular orbits have three and four wavelengths, respectively, in their circumferences.</caption>
+</figure>
+</section>
+
+<section id="fs-id1167067152930">
+<title>Heisenberg Uncertainty</title>
+<para id="fs-id1167060081109">How does determining the location of an electron change its trajectory? The answer is fundamentally important—measurement affects the system being observed. It is impossible to measure a physical quantity exactly, and greater precision in measuring one quantity produces less precision in measuring a related quantity. It was <term class="no-emphasis">Werner Heisenberg</term> who first stated that limit to knowledge in 1929 as a result of his work on quantum mechanics and the wave characteristics of all particles (see <link target-id="Figure_22_01_Heisenberg"/>).</para>
+
+<figure id="Figure_22_01_Heisenberg"><media id="fs-id1167067123987" alt="A photo of Werner Heisenberg.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPHysics_22_01_Heisenberg.jpg"/>
+</media>
+
+<caption>Werner Heisenberg was the physicist who developed the first version of true quantum mechanics. Not only did his work give a description of nature on the very small scale, it also changed our view of the availability of knowledge. Although he is  universally recognized for the importance of his work by receiving the Nobel Prize in 1932, for example, Heisenberg remained in Germany during World War II and headed the German effort to build a nuclear bomb, permanently alienating himself from most of the scientific community. (credit: Unknown Author, Wikimedia Commons)</caption></figure><para id="fs-id1167066940073">For example, you can measure the position of a moving electron by scattering light or other electrons from it. However, by doing so, you are giving the electron energy, and therefore imparting momentum to it. As a result, the momentum of the electron is affected and cannot be determined precisely. This change in momentum could be anywhere from close to zero up to the relative momentum of the electron ( <m:math>
+ <m:mrow>
+  <m:mi>p</m:mi><m:mo>≈</m:mo><m:mi>h</m:mi><m:mo>/</m:mo><m:mi>λ</m:mi>
+ </m:mrow>
+</m:math> ). Note that, in this case, the particle is an electron, but the principle applies to any particle.</para>
+<para id="fs-id1167066975624">Viewing the electron through the model of wave-particle duality, Heisenberg recognized that, because a wave is not located at one fixed point in space, there is an uncertainty associated with any electron’s position. That uncertainty in position,  <m:math>
+ <m:mrow>
+  <m:mtext>Δ</m:mtext><m:mi>x</m:mi>
+ </m:mrow>
+</m:math> <emphasis effect="italics">, </emphasis>is approximately equal to the wavelength of the particle. That is,  <m:math>
+ <m:mrow>
+  <m:mtext>Δ</m:mtext><m:mi>x</m:mi><m:mo>≈</m:mo><m:mi>λ</m:mi>
+ </m:mrow>
+</m:math> . There is an interesting trade-off between position and momentum. The uncertainty in an electron’s position can be reduced by using a shorter-wavelength electron, since  <m:math>
+ <m:mrow>
+  <m:mtext>Δ</m:mtext><m:mi>x</m:mi><m:mo>≈</m:mo><m:mi>λ</m:mi>
+ </m:mrow>
+</m:math> . But shortening the wavelength increases the uncertainty in momentum, since  <m:math>
+ <m:mrow>
+  <m:mtext>Δ</m:mtext><m:mi>p</m:mi><m:mo>≈</m:mo><m:mi>h</m:mi><m:mo>/</m:mo><m:mi>λ</m:mi>
+ </m:mrow>
+</m:math> . Conversely, the uncertainty in momentum can be reduced by using a longer-wavelength electron, but that increases the uncertainty in position. Mathematically, you can express the trade-off by multiplying the uncertainties. The wavelength cancels, leaving</para>
+<para id="fs-id1167065894875"> <m:math display="block">
+ <m:mrow>
+  <m:mtext>Δ</m:mtext><m:mi>x</m:mi><m:mtext>Δ</m:mtext><m:mi>p</m:mi><m:mo>≈</m:mo><m:mi>h</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </para>
+<para id="fs-id1167063616594">Therefore, if one uncertainty is reduced, the other must increase so that their product is  <m:math>
+ <m:mrow>
+  <m:mo>≈</m:mo><m:mi>h</m:mi>
+ </m:mrow>
+</m:math> <emphasis effect="italics"> .</emphasis> With the use of advanced mathematics, Heisenberg showed that the best that can be done in a simultaneous measurement of position and momentum is</para>
+<equation id="fs-id1164566278777"> <m:math display="block">
+ <m:mrow>
+  <m:mtext>Δ</m:mtext><m:mi>x</m:mi><m:mtext>Δ</m:mtext><m:mi>p</m:mi><m:mo>≥</m:mo><m:mfrac>
+   <m:mi>h</m:mi>
+   <m:mrow>
+    <m:mn>4</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </equation>
+<para id="fs-id1167067135243">That relationship is known as the <term>Heisenberg uncertainty principle</term>.</para>
+<note id="fs-id1167063779403" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167063763926"><span>[BL]</span><span>[OL]</span>Another model for explaining the uncertainty principle for students struggling with the concept: Imagine searching for a floating balloon in a dark room. When your hand strikes the balloon, you provide an impulse and move it from its original spot. While you learned the position of the object, you disturbed it during your search. As a result, it has a new momentum that is unknown!</para>
+</note>
+</section>
+<section id="fs-id1167063734606">
+<title>The Quantum Model of the Atom</title>
+<para id="fs-id1167063449482">Because of the wave characteristic of matter, the idea of well-defined orbits gives way to a model in which there is a cloud of probability, consistent with Heisenberg’s uncertainty principle. <link target-id="Figure_22_01_Cloud"/> shows how the principle applies to the ground state of hydrogen. If you try to follow the electron in some well-defined orbit using a probe that has a wavelength small enough to measure position accurately, you will instead knock the electron out of its orbit. Each measurement of the electron’s position will find it to be in a definite location somewhere near the nucleus. Repeated measurements reveal a cloud of probability like that in the figure, with each speck the location determined by a single measurement. There is not a well-defined, circular-orbit type of distribution. Nature again proves to be different on a small scale than on a macroscopic scale.</para>
+<note id="fs-id1167067293766" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067249238"><span>[BL]</span><span>[OL]</span>Upon viewing <link target-id="Figure_22_01_Cloud"/>, have students explain how the image is supported by Heisenberg’s uncertainty principle. </para>
+<para id="fs-id1167063506575"><span>[AL]</span>Have students explain how DeBroglie’s waves tie to <link target-id="Figure_22_01_Cloud"/>. How would the electron cloud appear if the picture were of a carbon atom?</para>
+</note>
+
+<figure id="Figure_22_01_Cloud">
+<media id="fs-id1167063521289" alt="The figure shows a three dimensional axis with a spherical atom and a nucleus centered at the origin. The figure also shows a circle whose radius represents the most probable distance for an electron.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_22_01_Cloud.jpg"/>
+</media>
+<caption>The ground state of a hydrogen atom has a probability cloud describing the position of its electron. The probability of finding the electron is proportional to the darkness of the cloud. The electron can be closer or farther than the Bohr radius, but it is very unlikely to be a great distance from the nucleus.</caption>
+</figure>
+
+<note id="fs-id1167067201219" class="virtual-physics os-interactive"><title>Models of the Hydrogen Atom</title>
+<media id="fs-id1167067184393" alt="This simulation allows you to try out different models by shooting light at the atom to figure out its structure.">
+<iframe width="660" height="371.4" src="https://openstax.org/l/28atom_model"/>
+</media>
+<para id="fs-id1167065000463">How did scientists figure out the structure of atoms without looking at them? Try out different models by shooting light at the atom. Use  this simulation to see how the prediction of the model matches the experimental results.</para>
+</note></section>
+</section>
+<section id="fs-id1167067193754" class="check-understanding"><title>Check Your Understanding</title><exercise id="eip-id1166850062523" class="os-exercise">
+<problem id="eip-id1166849948595">
+<para id="eip-id1166849948597">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch22-ot001"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167063667180" class="summary">
+<title>Section Summary</title>
+<list id="fs-id1167067069433"><item>Rutherford’s gold foil experiment provided evidence that the atom is composed of a small, dense nucleus with electrons occupying the mostly empty space around it.</item>
+<item>Analysis of emission spectra shows that energy is emitted from energized gas in discrete quantities.</item>
+<item>The Bohr model of the atom describes electrons existing in discrete orbits, with discrete energies emitted and absorbed as the electrons decrease and increase in orbital energy.</item>
+<item>The energy emitted or absorbed by an electron as it changes energy state can be determined with the equation  <m:math>
+ <m:mrow>
+  <m:mtext>Δ</m:mtext><m:mi>E</m:mi><m:mo>=</m:mo><m:msub>
+   <m:mi>E</m:mi>
+   <m:mi>i</m:mi>
+  </m:msub>
+  <m:mo>−</m:mo><m:msub>
+   <m:mi>E</m:mi>
+   <m:mi>f</m:mi>
+  </m:msub>
+
+ </m:mrow>
+</m:math>, where  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>E</m:mi>
+   <m:mi>n</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msup>
+     <m:mi>Z</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+   <m:mrow>
+    <m:msup>
+     <m:mi>n</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:msub>
+   <m:mi>E</m:mi>
+   <m:mi>o</m:mi>
+  </m:msub>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>...</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math> .</item>
+<item>The wavelength of energy absorbed or emitted by an electron as it changes energy state can be determined by the equation  <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mi>λ</m:mi>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mi>R</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mrow>
+      <m:msub>
+       <m:mi>n</m:mi>
+       <m:mi>f</m:mi>
+      </m:msub>
+      <m:msup>
+       <m:mrow/>
+       <m:mn>2</m:mn>
+      </m:msup>
+
+     </m:mrow>
+    </m:mfrac>
+    <m:mo>−</m:mo><m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mrow>
+      <m:msub>
+       <m:mi>n</m:mi>
+       <m:mi>i</m:mi>
+      </m:msub>
+      <m:msup>
+       <m:mrow/>
+       <m:mn>2</m:mn>
+      </m:msup>
+
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math>, where  <m:math>
+ <m:mrow>
+  <m:mi>R</m:mi><m:mo>=</m:mo><m:mn>1.097</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mn>7</m:mn>
+  </m:msup>
+  <m:msup>
+   <m:mtext>m</m:mtext>
+   <m:mrow>
+    <m:mn>−1</m:mn>
+   </m:mrow>
+  </m:msup>
+
+ </m:mrow>
+</m:math> .</item>
+<item>Described as an electron cloud, the quantum model of the atom is the result of de Broglie waves and Heisenberg’s uncertainty principle.</item>
+</list></section>
+
+<section id="fs-id1167067043149" class="key-equations"><title>Key Equations</title><table id="fs-id1167063808225" class="unnumbered unstyled" summary="Table includes the following equations: Energy of hydrogen electron in an orbital, energy of any hydrogen-like electron in orbital, wavelength of light emitted by an electron changing states, wavelength of an orbital, and Heisenberg’s uncertainty principle.">
+<label/>
+<tgroup cols="2"><colspec colnum="1" align="left" colname="c1"/>
+<colspec colnum="2" align="left" colname="c2"/>
+<tbody>
+<row>
+<entry>energy of hydrogen electron in an orbital</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>E</m:mi>
+   <m:mi>n</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>13.6</m:mn><m:mspace width="0.3em"/><m:mtext>eV</m:mtext>
+   </m:mrow>
+   <m:mrow>
+    <m:msup>
+     <m:mi>n</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>...</m:mn><m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+</m:math> </entry>
+</row>
+<row>
+<entry>energy of any hydrogen-like electron in orbital</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>E</m:mi>
+   <m:mi>n</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msup>
+     <m:mi>Z</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+   <m:mrow>
+    <m:msup>
+     <m:mi>n</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:msub>
+   <m:mi>E</m:mi>
+   <m:mi>o</m:mi>
+  </m:msub>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>...</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math> </entry>
+</row>
+<row>
+<entry>wavelength of light emitted by an electron changing states</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mi>λ</m:mi>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mi>R</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mrow>
+      <m:msub>
+       <m:mi>n</m:mi>
+       <m:mi>f</m:mi>
+      </m:msub>
+      <m:msup>
+       <m:mrow/>
+       <m:mn>2</m:mn>
+      </m:msup>
+
+     </m:mrow>
+    </m:mfrac>
+    <m:mo>−</m:mo><m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mrow>
+      <m:msub>
+       <m:mi>n</m:mi>
+       <m:mi>i</m:mi>
+      </m:msub>
+      <m:msup>
+       <m:mrow/>
+       <m:mn>2</m:mn>
+      </m:msup>
+
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math> </entry>
+</row>
+<row>
+<entry>wavelength of an orbital</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mi>n</m:mi><m:msub>
+   <m:mi>λ</m:mi>
+   <m:mi>n</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msub>
+   <m:mi>r</m:mi>
+   <m:mi>n</m:mi>
+  </m:msub>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>...</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math> </entry>
+</row>
+<row>
+<entry>heisenberg’s uncertainty principle</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mtext>Δ</m:mtext><m:mi>x</m:mi><m:mtext>Δ</m:mtext><m:mi>p</m:mi><m:mo>≥</m:mo><m:mfrac>
+   <m:mi>h</m:mi>
+   <m:mrow>
+    <m:mn>4</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </entry>
+</row>
+</tbody>
+
+</tgroup>
+</table></section>
+
+
+
+<section id="fs-id1167067067661" class="concept"><title>Concept Items</title><exercise id="eip-id1166850271077" class="os-exercise">
+<problem id="eip-id1166850098173">
+<para id="eip-id1166850098175">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch22-ot003"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166850234526" class="os-exercise">
+<problem id="eip-id1166850234530">
+<para id="eip-id1166849845240">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch22-ot005"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167063890101" class="critical-thinking"><title>Critical Thinking</title><exercise id="fs-id1167067024027" class="os-exercise">
+<problem id="fs-id1167063447497">
+<para id="fs-id1167063447499">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch22-ex022"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167067076201" class="os-exercise">
+<problem id="fs-id1167067078679">
+<para id="fs-id1167067078681">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch22-ex023"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167067197240" class="os-exercise"><problem id="fs-id1167067036500">
+<para id="fs-id1167067036502">
+Why would it most likely be difficult to observe quantized orbital states for satellites orbiting the earth?
+</para><list id="eip-idm385111424" list-type="enumerated" number-style="lower-alpha">
+<item>On a macroscopic level, the orbital states do exist for satellites orbiting Earth but are too closely spaced for us to see.</item>
+<item>On a macroscopic level, the orbital states do not exist for satellites orbiting Earth.</item>
+<item>On a macroscopic level, we cannot control the amount of energy that we give to an artificial satellite and thus control its orbital altitude.</item>
+<item>On a macroscopic level, we cannot control the amount of energy that we give to an artificial satellite but we can control its orbital altitude.</item></list>
+</problem>
+</exercise><exercise id="fs-id1167063519649" class="os-exercise">
+<problem id="fs-id1167061315085">
+<!--<para id="fs-id1167061315087">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch22-ex025"/>
+</para>-->
+<para id="fs-id1164565655955">Do standing waves explain why electron orbitals are quantized?</para>
+<list id="fs-id1164565389102" list-type="enumerated" number-style="lower-alpha">
+<item>no</item>
+<item>yes</item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-id1166850212885" class="os-exercise">
+<problem id="eip-id1166850212889">
+<!--<para id="eip-id1166849834330">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch22-ot004"/>
+</para>-->
+<para id="fs-id1164567553255">Some terms referring to the observation of light include <emphasis effect="italics">emission spectrum</emphasis> and <emphasis effect="italics">absorption spectrum</emphasis>. Based on these definitions, what would a <emphasis effect="italics">reflection spectrum</emphasis> describe?</para>
+<list id="fs-id1164567142251" list-type="enumerated" number-style="lower-alpha"><item>The reflection spectrum would describe when incident waves are selectively reflected by a substance.</item>
+<item>The reflection spectrum would describe when incident waves are completely reflected by a substance.</item>
+<item>The reflection spectrum would describe when incident waves are not absorbed by a substance.</item>
+<item>The reflection spectrum would describe when incident waves are completely absorbed by a substance.</item>
+</list></problem>
+</exercise></section><section id="fs-id1167063883041" class="multiple-choice"><title>Test Prep Multiple Choice</title><exercise id="eip-id1166849270252" class="os-exercise"><problem id="eip-id1166850031883">
+<para id="eip-id1166850031885">
+If electrons are negatively charged and the nucleus is positively charged, why do they not attract and collide with each other?
+</para>
+
+<list id="eip-idm328818160" list-type="enumerated" number-style="lower-alpha"><item>The pull from the nucleus provides a centrifugal force, which is not strong enough to draw the electrons into the nucleus.</item>
+<item>The pull from the nucleus provides a centripetal force, which is not strong enough to draw the electrons into the nucleus.</item>
+<item>The pull from the nucleus provides a helical motion.</item>
+<item>The pull from the nucleus provides a cycloid motion.</item></list></problem>
+</exercise></section><section id="fs-id1167067294473" class="short-answer"><title>Test Prep Short Answer</title><exercise id="fs-id1167066843281" class="os-exercise">
+<problem id="fs-id1167067031621">
+<!-- <para id="fs-id1167067031623">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch22-ex036"/>
+</para> -->
+<para id="fs-id1169833253657">Why do Bohrs calculations for electron energies not work for all atoms?</para>
+<list id="fs-id1169830809589" list-type="enumerated" number-style="lower-alpha">
+<item>In atoms with more than one electron is an atomic shell, the electrons will interact. That requires a more complex formula than Bohrs calculations accounted for.</item>
+<item>In atoms with 10 or more electorns in an atomic shell, the electrons will interact. That requires a more complex formula than Bohrs calculations accounted for.</item>
+<item>In atoms with more than one electron in an atomic shell, the electrons will not interact. That requires a more complex formula than Bohrs calculations accounted for.</item>
+<item>In atoms with 10 or more electrons in an atomic shell, the electrons will not interact. That requires a more complex formula than Bohrs calculations accounted for.</item></list>
+</problem>
+</exercise></section><section id="fs-id1167067089285" class="extended-response"><title>Test Prep Extended Response</title><exercise id="eip-id1166849815621" class="os-exercise">
+<problem id="eip-id1166849946230">
+<para id="eip-id1166849946232">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch22-ot007"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166849867711" class="os-exercise">
+<problem id="eip-id1166849930442">
+<para id="eip-id1166849930444">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch22-ot008"/>
+</para>
+</problem>
+</exercise></section></content>
+<glossary>
+<definition id="fs-id1167063726442">
+<term>energy-level diagram</term>
+<meaning id="fs-id1167063415450">a diagram used to analyze the energy levels of electrons in the orbits of an atom</meaning>
+</definition>
+<definition id="fs-id1167067076798">
+<term>excited state </term>
+<meaning id="fs-id1167067076804">any state beyond the <emphasis effect="italics">n</emphasis> = 1 orbital in which the electron stores energy</meaning>
+</definition>
+<definition id="fs-id1167063690500">
+<term>Fraunhofer lines</term>
+<meaning id="fs-id1167066804081">black lines shown on an absorption spectrum that show the wavelengths absorbed by a gas</meaning>
+</definition>
+<definition id="fs-id1167066804086">
+<term>ground state</term>
+<meaning id="fs-id1167067039094">the <emphasis effect="italics">n</emphasis>=1 orbital of an electron</meaning>
+</definition>
+<definition id="fs-id1167061358486">
+<term>Heisenberg uncertainty principle</term>
+<meaning id="fs-id1167067226495">fundamental limit to the precision with which pairs of quantities such as momentum and position can be measured</meaning>
+</definition>
+<definition id="fs-id1167067226500">
+<term>hydrogen-like atom</term>
+<meaning id="fs-id1167067321425">any atom with only a single electron</meaning>
+</definition>
+<definition id="fs-id1167066855790">
+<term>planetary model of the atom</term>
+<meaning id="fs-id1167066868120">model of the atom that shows electrons orbiting like planets about a Sun-like nucleus</meaning>
+</definition>
+<definition id="fs-id1167066868124">
+<term>Rutherford scattering</term>
+<meaning id="fs-id1167063730300">scattering of alpha particles by gold nuclei in the gold foil experiment</meaning>
+</definition>
+<definition id="fs-id1167063951600">
+<term>Rydberg constant</term>
+<meaning id="fs-id1167067108339">a physical constant related to atomic spectra, with an established value of  <m:math display="block">
+ <m:mrow>
+  <m:mn>1.097</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mn>7</m:mn>
+  </m:msup>
+  <m:msup>
+   <m:mtext>m</m:mtext>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>1</m:mn>
+   </m:mrow>
+  </m:msup>
+
+ </m:mrow>
+</m:math> </meaning>
+</definition>
+</glossary>
+</document>

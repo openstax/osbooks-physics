@@ -1,0 +1,1358 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Coulomb's law</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54414</md:content-id>
+  <md:title>Coulomb's law</md:title>
+  <md:abstract/>
+  <md:uuid>30e6c4be-bee7-4c4f-9021-0d78ca379bda</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167066121577" class="learning-objectives">
+<label/>
+<title>Section Learning Objectives</title>
+<para id="fs-id1167066058174">By the end of this section, you will be able to do the following:</para>
+<list id="fs-id1167066029829">
+<item>Describe Coulomb’s law verbally and mathematically</item>
+<item>Solve problems involving Coulomb’s law</item>
+</list></note>
+<note id="fs-id1167062481261" class="os-teacher"><title>Teacher Support</title>
+<para id="eip-id1167066877745">The learning objectives in this section will help your students master the following standards:</para>
+<list id="eip-id1167061347429"><item>(5) The student knows the nature of forces in the physical world. The student is expected to:
+<list id="eip-id1167063496747"><item><span>(C)</span>
+<span>describe and calculate how the magnitude of the electrical force between two objects depends on their charges and the distance between them.</span></item>
+</list></item>
+</list></note>
+<section id="keyterms"><title>Section Key Terms</title>
+<table id="fs-id1167062814542" class="unnumbered unstyled section-key-terms" summary="Section Key Terms is a two column table. The first row reads Coulombs law, inverse-square law.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row>
+<entry>Coulomb’s law</entry>
+<entry>inverse-square law</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<note id="fs-id1167065952503" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067132921">This section presents Coulomb’s law and points out its similarities and differences with respect to Newton’s law of universal gravitation. The similarities include the inverse-square nature of the two laws and the analogous roles of mass and charge. The differences include the restriction of positive mass versus positive or negative charge.</para>
+<para id="fs-id1167064669879"><span>[BL]</span><span>[OL]</span>Discuss how Coulomb described this law long after Newton described the law of universal gravitation.</para>
+<para id="fs-id1167065867593"><span>[AL]</span>Ask why the law of force between electrostatic charge was discovered after that of gravity if gravity is weak compared to electrostatic forces.</para>
+</note>
+
+<para id="fs-id1167064929810">More than 100 years before Thomson and Rutherford discovered the fundamental particles that carry positive and negative electric charges, the French scientist Charles-Augustin de <term class="no-emphasis">Coulomb</term> mathematically described the force between charged objects. Doing so required careful measurements of forces between charged spheres, for which he built an ingenious device called a <term class="no-emphasis"><emphasis effect="italics">torsion balance</emphasis></term>.</para>
+<para id="fs-id1167065997226">This device, shown in <link target-id="Figure_18_02_torsionbal"/>, contains an insulating rod that is hanging by a thread inside a glass-walled enclosure. At one end of the rod is the metallic sphere A. When no charge is on this sphere, it touches sphere B. Coulomb would touch the spheres with a third metallic ball (shown at the bottom of the diagram) that was charged. An unknown amount of charge would distribute evenly between spheres A and B, which would then repel each other, because like charges repel. This force would cause sphere A to rotate away from sphere B, thus twisting the wire until the torsion in the wire balanced the electrical force. Coulomb then turned the knob at the top, which allowed him to rotate the thread, thus bringing sphere A closer to sphere B. He found that bringing sphere A twice as close to sphere B required increasing the torsion by a factor of four. Bringing the sphere three times closer required a ninefold increase in the torsion. From this type of measurement, he deduced that the electrical force between the spheres was inversely proportional to the distance squared between the spheres. In other words,</para>
+<equation id="fs-id1167065768462"><label/>
+ <m:math>
+ <m:mrow>
+  <m:mi>F</m:mi><m:mo>∝</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:msup>
+     <m:mi>r</m:mi>
+     <m:mn>2,</m:mn>
+    </m:msup>
+    </m:mrow>
+  </m:mfrac>
+  </m:mrow>
+</m:math> 
+</equation><para id="fs-id1167066096519">where <emphasis effect="italics">r</emphasis> is the distance between the spheres.</para>
+<para id="fs-id1167066028053">An <term class="no-emphasis">electrical charge</term> distributes itself equally between two conducting spheres of the same size. Knowing this allowed Coulomb to divide an unknown charge in half. Repeating this process would produce a sphere with one quarter of the initial charge, and so on. Using this technique, he measured the force between spheres A and B when they were charged with different amounts of charge. These measurements led him to deduce that the force was proportional to the charge on each sphere, or</para>
+<equation id="fs-id1167065857450"><label/>
+ <m:math>
+ <m:mrow>
+  <m:mi>F</m:mi><m:mo>∝</m:mo><m:msub>
+   <m:mi>q</m:mi>
+   <m:mtext>A</m:mtext>
+  </m:msub>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mtext>B,</m:mtext>
+  </m:msub>
+  </m:mrow>
+</m:math> 
+</equation><para id="fs-id1167064535566">where  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mtext>A</m:mtext>
+  </m:msub>
+  </m:mrow>
+</m:math>  is the charge on sphere A, and  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mtext>B</m:mtext>
+  </m:msub>
+  </m:mrow>
+</m:math>  is the charge on sphere B.</para><figure id="Figure_18_02_torsionbal"><media id="fs-id1167065986090" alt="This figure consists of seven drawings, the largest of which is labeled “Fig. 1”. The largest structure appears as follows: there is a cap at the top, and below that are a disc, a long cylinder, a wider disc, and a shorter cylinder. The six smaller drawings show the parts from which the large structure is assembled. One part, labeled “Fig. 5” and placed nearest the upper left corner, consists of a vertical rod with a hook at the top, a sphere at the bottom, and a disc over a hemisphere near the middle. Another part, labeled “Fig. 4”, lies parallel to the bottom edge of the figure. It consists of a rod with a short line and a small sphere attached to one end. Three parts, labeled “Fig. 2”, are arranged in a column on the right side of the figure. Of these, the upper part consists of a cap-shaped structure with a horizontal projection and a vertical projection; the middle part consists of a cylinder with a wider discover it; and the lower part consists of another cylinder with a lip. The final part, labeled “Fig. 3” and placed near the bottom right corner of the figure, is a T-shaped structure with a small sphere at each end of the horizontal line.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_18_02_torsionbal.jpg"/>
+</media>
+
+<caption>A drawing of Coulomb’s torsion balance, which he used to measure the electrical force between charged spheres. (credit: Charles-Augustin de Coulomb)</caption></figure><para id="fs-id1167066051746">Combining these two proportionalities, he proposed the following expression to describe the force between the charged spheres.</para>
+
+<equation id="fs-id1167066145647"><label/>
+ <m:math>
+ <m:mrow>
+  <m:mi>F</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>k</m:mi><m:msub>
+     <m:mi>q</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+     <m:mi>q</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    </m:mrow>
+   <m:mrow>
+    <m:msup>
+     <m:mi>r</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    </m:mrow>
+  </m:mfrac>
+  </m:mrow>
+</m:math> 
+</equation><para id="fs-id1167066163345">This equation is known as <term>Coulomb’s law</term>, and it describes the electrostatic force between charged objects. The constant of proportionality <emphasis effect="italics">k</emphasis> is called <term class="no-emphasis"><emphasis effect="italics">Coulomb’s constant</emphasis></term>. In SI units, the constant <emphasis effect="italics">k</emphasis> has the value  <m:math>
+ <m:mrow>
+  <m:mi>k</m:mi><m:mo>=</m:mo><m:mn>8.99</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mn>9</m:mn>
+  </m:msup>
+  <m:mtext>N</m:mtext><m:mo>⋅</m:mo><m:msup>
+   <m:mtext>m</m:mtext>
+   <m:mtext>2</m:mtext>
+  </m:msup>
+  <m:msup>
+   <m:mrow>
+    <m:mtext>/C</m:mtext></m:mrow>
+   <m:mtext>2.</m:mtext>
+  </m:msup>
+  </m:mrow>
+</m:math> </para><para id="fs-id1167065852164">The direction of the force is along the line joining the centers of the two objects. If the two charges are of opposite signs, Coulomb’s law gives a negative result. This means that the force between the particles is attractive. If the two charges have the same signs, Coulomb’s law gives a positive result. This means that the force between the particles is repulsive. For example, if both  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>  and  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>  are negative or if both are positive, the force between them is repulsive. This is shown in <link target-id="Figure_18_02_Coulomblaw"/>(a). If  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>  is a negative charge and  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>  is a positive charge (or vice versa), then the charges are different, so the force between them is attractive. This is shown in <link target-id="Figure_18_02_Coulomblaw"/>(b).</para>
+<figure id="Figure_18_02_Coulomblaw"><media id="fs-id1167065844204" alt="This figure has two parts. Part a shows two small spheres of equal size, labeled “q subscript 1” and “q subscript 2”, separated by a distance marked as “r”. Each sphere contains a minus sign. Two arrows, labeled “F subscript 1,2” and “F subscript 2,1”, point from the spheres away from each other. Part b also shows two small spheres of equal size, labeled “q subscript 1” and “q subscript 2”, separated by a larger distance marked as “r”. One of these spheres contains a minus sign and the other contains a plus sign. Two arrows, labeled 7F subscript 1,2” and “F subscript 2,1”, point from the spheres toward each other.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_18_02_Coulomblaw.jpg"/>
+</media>
+
+<caption>The magnitude of the electrostatic force <emphasis effect="italics">F</emphasis> between point charges <emphasis effect="italics">q</emphasis><sub>1</sub> and <emphasis effect="italics">q</emphasis><sub>2</sub> separated by a distance <emphasis effect="italics">r</emphasis> is given by Coulomb’s law. Note that Newton’s third law (every force exerted creates an equal and opposite force) applies as usual—the force (<emphasis effect="italics">F</emphasis><sub>1</sub>,<sub>2</sub>) on <emphasis effect="italics">q</emphasis><sub>1</sub> is equal in magnitude and opposite in direction to the force (<emphasis effect="italics">F</emphasis><sub>2</sub>,<sub>1</sub>) it exerts on <emphasis effect="italics">q</emphasis><sub>2</sub>. (a) Like charges. (b) Unlike charges.</caption></figure><note id="fs-id1167064869588" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065857403">Point out how the subscripts <sub>1</sub>, <sub>2</sub> means the force on object 1 due to object 2 (and vice versa).</para>
+</note>
+<para id="fs-id1167064922655">Note that Coulomb’s law applies only to charged objects that are not moving with respect to each other. The law says that the force is proportional to the amount of charge on each object and inversely proportional to the square of the distance between the objects. If we double the charge  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>, for instance, then the force is doubled. If we double the distance between the objects, then the force between them <emphasis effect="italics">decreases</emphasis> by a factor of  <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mn>2</m:mn>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>=</m:mo><m:mn>4</m:mn></m:mrow>
+</m:math> . Although Coulomb’s law is true in general, it is easiest to apply to spherical objects or to objects that are much smaller than the distance between the objects (in which case, the objects can be approximated as spheres).</para>
+<para id="fs-id1167062308272">Coulomb’s law is an example of an <term>inverse-square law</term>, which means the force depends on the square of the denominator. Another inverse-square law is Newton’s law of universal gravitation, which is  <m:math>
+ <m:mrow>
+  <m:mi>F</m:mi><m:mo>=</m:mo><m:mrow><m:mrow>
+   <m:mi>G</m:mi><m:msub>
+    <m:mi>m</m:mi>
+    <m:mn>1</m:mn>
+   </m:msub>
+   <m:msub>
+    <m:mi>m</m:mi>
+    <m:mn>2</m:mn>
+   </m:msub>
+   </m:mrow><m:mo>/</m:mo><m:mrow>
+   <m:msup>
+    <m:mi>r</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   </m:mrow></m:mrow>
+  </m:mrow>
+</m:math> . Although these laws are similar, they differ in two important respects: (i) The gravitational constant <emphasis effect="italics">G</emphasis> is much, much smaller than <emphasis effect="italics">k</emphasis><newline/> ( <m:math>
+ <m:mrow>
+  <m:mi>G</m:mi><m:mo>=</m:mo><m:mn>6.67</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>11</m:mn></m:mrow>
+  </m:msup>
+  <m:msup>
+   <m:mtext>m</m:mtext>
+   <m:mn>3</m:mn>
+  </m:msup>
+  <m:mtext>/kg</m:mtext><m:mo>⋅</m:mo><m:msup>
+   <m:mtext>s</m:mtext>
+   <m:mn>2</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math> ); and (ii) only one type of mass exists, whereas two types of electric charge exist. These two differences explain why gravity is so much weaker than the electrostatic force and why gravity is only attractive, whereas the electrostatic force can be attractive or repulsive.</para>
+<para id="fs-id1167064877432">Finally, note that Coulomb measured the distance between the spheres from the centers of each sphere. He did not explain this assumption in his original papers, but it turns out to be valid. From <emphasis effect="italics">outside</emphasis> a uniform spherical distribution of charge, it can be treated as if all the charge were located at the center of the sphere.</para>
+
+<note id="fs-id1167065847157" class="watch-physics"><title>Electrostatics (part 1): Introduction to charge and Coulomb's law</title>
+<para id="eip-id1167064817797">This video explains the basics of Coulomb’s law. Note that the lecturer uses <emphasis effect="italics">d</emphasis> for the distance between the center of the particles instead of <emphasis effect="italics">r</emphasis>.</para>
+
+<media id="fs-id1167065687764" alt="..." class="os-embed">
+<iframe width="660" height="371.4" src="https://www.openstax.org/l/28coulomb"/>
+</media>
+
+<exercise id="fs-id1167065897951" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167064774565">
+<!--<para id="fs-id1167064910818"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex042"/></para>-->
+<para id="fs-id1164567318994">True or false—If one particle carries a positive charge and another carries a negative charge, then the force between them is attractive.</para>
+<list id="fs-id1164565416284" list-type="enumerated" number-style="lower-alpha">
+<item>true</item>
+<item>false</item></list>
+</problem>
+</exercise>
+</note><note id="fs-id1167065984306" class="snap-lab">
+
+<title>Hovering plastic</title>
+<para id="fs-id1167066156632">In this lab, you will use electrostatics to hover a thin piece of plastic in the air.</para>
+<list id="fs-id1167066094467" class="materials">
+<item>Balloon</item>
+<item>Light plastic bag (e.g., produce bag from grocery store)</item>
+</list>
+<para id="fs-id1164565374455">Instructions</para>
+<list id="fs-id1167064649083" list-type="enumerated">
+<title>Procedure</title>
+<item>Cut the plastic bag to make a plastic loop about 2 inches wide.</item>
+<item>Inflate the balloon.</item>
+<item>Charge the balloon by rubbing it on your clothes.</item>
+<item>Charge the plastic loop by placing it on a nonmetallic surface and rubbing it with a cloth.</item>
+<item>Hold the balloon in one hand, and in the other hand hold the plastic loop above the balloon. If the loop clings too much to your hand, recruit a friend to hold the strip above the balloon with both hands. Now let go of the plastic loop, and maneuver the balloon under the plastic loop to keep it hovering in the air above the balloon.</item>
+</list>
+<exercise id="fs-id1167066173298" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167062945497">
+<!--<para id="fs-id1167066057344"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex043"/></para>-->
+<para id="fs-id1164567095385">How does the balloon keep the plastic loop hovering?</para>
+<list id="fs-id1164564460046" list-type="enumerated" number-style="lower-alpha">
+<item>The balloon and the loop are both negatively charged. This will help the balloon keep the plastic loop hovering.</item>
+<item>The balloon is charged, while the plastic loop is neutral.This will help the balloon keep the plastic loop hovering.</item>
+<item>The balloon and the loop are both positively charged. This will help the balloon keep the plastic loop hovering.</item>
+<item>The balloon is positively charged, while the plastic loop is negatively charged. This will help the balloon keep the plastic loop hovering.</item>
+</list>
+</problem>
+</exercise>
+</note>
+
+<note id="Worked_Example_18_03" class="worked-example"><title>Using Coulomb’s law to find the force between charged objects</title>
+
+<exercise id="fs-id1167065679800" class="18-ex044 unnumbered">
+<label/>
+<problem id="fs-id1167065974577">
+<para id="fs-id1167065728432">Suppose Coulomb measures a force of  <m:math>
+ <m:mrow>
+  <m:mn>20</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>−6</m:mn></m:mrow>
+  </m:msup>
+  <m:mtext>N</m:mtext></m:mrow>
+</m:math>  between the two charged spheres when they are separated by 5.0 cm. By turning the dial at the top of the torsion balance, he approaches the spheres so that they are separated by 3.0 cm. Which force does he measure now?</para>
+
+<note id="fs-id1167065733731">
+<label/><title>Strategy</title>
+<para id="fs-id1167066035613">Apply Coulomb’s law to the situation before and after the spheres are brought closer together. Although we do not know the charges on the spheres, we do know that they remain the same. We call these unknown but constant charges  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>  and  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math> . Because these charges appear as a product in Coulomb’s law, they form a single unknown. We thus have two equations and two unknowns, which we can solve. The first unknown is the force (which we call  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>F</m:mi>
+   <m:mtext>f</m:mtext>
+  </m:msub>
+  </m:mrow>
+</m:math> ) when the spheres are 3.0 cm apart, and the second is  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math> .</para>
+<para id="fs-id1167066108366">Use the following notation: When the charges are 5.0 cm apart, the force is  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>F</m:mi>
+   <m:mtext>i</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>20</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>−6</m:mn></m:mrow>
+  </m:msup>
+  <m:mtext>N</m:mtext></m:mrow>
+</m:math>  and  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>r</m:mi>
+   <m:mtext>i</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>5.0</m:mn><m:mspace width="0.3em"/><m:mtext>cm</m:mtext><m:mo>=</m:mo><m:mn>0.050</m:mn><m:mspace width="0.3em"/><m:mtext>m</m:mtext></m:mrow>
+</m:math>, where the subscript <emphasis effect="italics">i</emphasis> means <emphasis effect="italics">initial</emphasis>. Once the charges are brought closer together, we know  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>r</m:mi>
+   <m:mtext>f</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>3.0</m:mn><m:mspace width="0.3em"/><m:mtext>cm</m:mtext><m:mo>=</m:mo><m:mn>0.030</m:mn><m:mspace width="0.3em"/><m:mtext>m</m:mtext></m:mrow>
+</m:math>, where the subscript <emphasis effect="italics">f</emphasis> means <emphasis effect="italics">final</emphasis>.</para></note>
+</problem>
+<solution id="fs-id1167065897353">
+<label/>
+<title>Solution</title>
+<para id="fs-id1167064895066">Coulomb’s law applied to the spheres in their initial positions gives</para>
+<equation id="fs-id1164564389075"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>F</m:mi>
+   <m:mtext>i</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>k</m:mi><m:msub>
+     <m:mi>q</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+     <m:mi>q</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    </m:mrow>
+   <m:mrow>
+    <m:msubsup>
+     <m:mi>r</m:mi>
+     <m:mtext>i</m:mtext>
+     <m:mn>2.</m:mn>
+    </m:msubsup>
+    </m:mrow>
+  </m:mfrac>
+    <m:mtext>.</m:mtext>
+  </m:mrow>
+</m:math> </equation><para id="fs-id1167065843901">Coulomb’s law applied to the spheres in their final positions gives</para>
+<equation id="fs-id1164567529676"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>F</m:mi>
+   <m:mtext>f</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>k</m:mi><m:msub>
+     <m:mi>q</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+     <m:mi>q</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    </m:mrow>
+   <m:mrow>
+    <m:msubsup>
+     <m:mi>r</m:mi>
+     <m:mtext>f</m:mtext>
+     <m:mn>2.</m:mn>
+    </m:msubsup>
+    </m:mrow>
+  </m:mfrac>
+    <m:mtext>.</m:mtext>
+  </m:mrow>
+</m:math> </equation><para id="fs-id1167065012139">Dividing the second equation by the first and solving for the final force  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>F</m:mi>
+   <m:mtext>f</m:mtext>
+  </m:msub>
+  </m:mrow>
+</m:math>  leads to</para>
+<equation id="fs-id1164567638866"> <m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr>
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:msub>
+         <m:mi>F</m:mi>
+         <m:mtext>f</m:mtext>
+        </m:msub>
+        </m:mrow>
+       <m:mrow>
+        <m:msub>
+         <m:mi>F</m:mi>
+         <m:mtext>i</m:mtext>
+        </m:msub>
+        </m:mrow>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mi>k</m:mi><m:msub>
+         <m:mi>q</m:mi>
+         <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+         <m:mi>q</m:mi>
+         <m:mn>2</m:mn>
+        </m:msub>
+        <m:mo>/</m:mo><m:msubsup>
+         <m:mi>r</m:mi>
+         <m:mtext>f</m:mtext>
+         <m:mn>2</m:mn>
+        </m:msubsup>
+        </m:mrow>
+       <m:mrow>
+        <m:mi>k</m:mi><m:msub>
+         <m:mi>q</m:mi>
+         <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+         <m:mi>q</m:mi>
+         <m:mn>2</m:mn>
+        </m:msub>
+        <m:mo>/</m:mo><m:msubsup>
+         <m:mi>r</m:mi>
+         <m:mtext>i</m:mtext>
+         <m:mn>2</m:mn>
+        </m:msubsup>
+        </m:mrow>
+      </m:mfrac>
+       <m:mtext>.</m:mtext>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:msubsup>
+         <m:mi>r</m:mi>
+         <m:mtext>i</m:mtext>
+         <m:mn>2</m:mn>
+        </m:msubsup>
+        </m:mrow>
+       <m:mrow>
+        <m:msubsup>
+         <m:mi>r</m:mi>
+         <m:mtext>f</m:mtext>
+         <m:mn>2</m:mn>
+        </m:msubsup>
+        </m:mrow>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:msub>
+       <m:mi>F</m:mi>
+       <m:mtext>f</m:mtext>
+      </m:msub>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:msub>
+       <m:mi>F</m:mi>
+       <m:mtext>i</m:mtext>
+      </m:msub>
+      <m:mfrac>
+       <m:mrow>
+        <m:msubsup>
+         <m:mi>r</m:mi>
+         <m:mtext>i</m:mtext>
+         <m:mn>2</m:mn>
+        </m:msubsup>
+        </m:mrow>
+       <m:mrow>
+        <m:msubsup>
+         <m:mi>r</m:mi>
+         <m:mtext>f</m:mtext>
+         <m:mn>2</m:mn>
+        </m:msubsup>
+        </m:mrow>
+      </m:mfrac>
+<m:mtext>.</m:mtext>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+
+</m:mrow>
+       </m:math> </equation><para id="fs-id1167062819999">Inserting the known quantities yields</para>
+<equation id="fs-id1164565546700"> <m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr>
+    <m:mtd>
+     <m:mrow>
+      <m:msub>
+       <m:mi>F</m:mi>
+       <m:mtext>f</m:mtext>
+      </m:msub>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd>
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd>
+     <m:mrow>
+      <m:msub>
+       <m:mi>F</m:mi>
+       <m:mtext>i</m:mtext>
+      </m:msub>
+      <m:mfrac>
+       <m:mrow>
+        <m:msubsup>
+         <m:mi>r</m:mi>
+         <m:mtext>i</m:mtext>
+         <m:mn>2</m:mn>
+        </m:msubsup>
+        </m:mrow>
+       <m:mrow>
+        <m:msubsup>
+         <m:mi>r</m:mi>
+         <m:mtext>f</m:mtext>
+         <m:mn>2</m:mn>
+        </m:msubsup>
+        </m:mrow>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="right">
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mn>20</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+         <m:mrow>
+          <m:mn>10</m:mn></m:mrow>
+         <m:mrow>
+         <m:mn>−6</m:mn></m:mrow>
+        </m:msup>
+        <m:mtext>N</m:mtext></m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:mfrac>
+       <m:mrow>
+        <m:msup>
+         <m:mrow>
+          <m:mrow><m:mo>(</m:mo>
+           <m:mrow>
+            <m:mn>0.050</m:mn><m:mspace width="0.3em"/><m:mtext>m</m:mtext></m:mrow>
+          <m:mo>)</m:mo></m:mrow></m:mrow>
+         <m:mn>2</m:mn>
+        </m:msup>
+        </m:mrow>
+       <m:mrow>
+        <m:msup>
+         <m:mrow>
+          <m:mrow><m:mo>(</m:mo>
+           <m:mrow>
+            <m:mn>0.030</m:mn><m:mspace width="0.3em"/><m:mtext>m</m:mtext></m:mrow>
+          <m:mo>)</m:mo></m:mrow></m:mrow>
+         <m:mn>2</m:mn>
+        </m:msup>
+        </m:mrow>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>56</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+       <m:mrow>
+        <m:mn>10</m:mn></m:mrow>
+       <m:mrow>
+        <m:mn>−6</m:mn></m:mrow>
+      </m:msup>
+      <m:mtext>N</m:mtext></m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>5.6</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+       <m:mrow>
+        <m:mn>10</m:mn></m:mrow>
+       <m:mrow>
+        <m:mn>−5</m:mn></m:mrow>
+      </m:msup>
+      <m:mtext>N.</m:mtext></m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable></m:mrow>
+</m:math> </equation><para id="fs-id1167064669732">The force acts along the line joining the centers of the spheres. Because the same type of charge is on each sphere, the force is repulsive.</para>
+</solution>
+<commentary id="fs-id1167065967422">
+<title>Discussion</title>
+<para id="fs-id1167066029459">As expected, the force between the charges is greater when they are 3.0 cm apart than when they are 5.0 cm apart. Note that although it is a good habit to convert cm to m (because the constant <emphasis effect="italics">k</emphasis> is in SI units), it is not necessary in this problem, because the distances cancel out.</para>
+<para id="fs-id1167066024155">We can also solve for the second unknown  <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>|</m:mo> <m:mrow>
+   <m:msub>
+    <m:mi>q</m:mi>
+    <m:mn>1</m:mn>
+   </m:msub>
+   <m:msub>
+    <m:mi>q</m:mi>
+    <m:mn>2</m:mn>
+   </m:msub>
+   </m:mrow> <m:mo>|</m:mo></m:mrow></m:mrow>
+</m:math> . By using the first equation, we find</para>
+<equation id="fs-id1164567165922"> <m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr>
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:msub>
+       <m:mi>F</m:mi>
+       <m:mtext>f</m:mtext>
+      </m:msub>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd>
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mi>k</m:mi><m:msub>
+         <m:mi>q</m:mi>
+         <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+         <m:mi>q</m:mi>
+         <m:mn>2</m:mn>
+        </m:msub>
+        </m:mrow>
+       <m:mrow>
+        <m:msubsup>
+         <m:mi>r</m:mi>
+         <m:mtext>i</m:mtext>
+         <m:mn>2</m:mn>
+        </m:msubsup>
+        </m:mrow>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:msub>
+       <m:mi>q</m:mi>
+       <m:mn>1</m:mn>
+      </m:msub>
+      <m:msub>
+       <m:mi>q</m:mi>
+       <m:mn>2</m:mn>
+      </m:msub>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:msub>
+         <m:mi>F</m:mi>
+         <m:mtext>i</m:mtext>
+        </m:msub>
+        <m:msubsup>
+         <m:mi>r</m:mi>
+         <m:mtext>i</m:mtext>
+         <m:mn>2</m:mn>
+        </m:msubsup>
+        </m:mrow>
+       <m:mi>k</m:mi>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mrow><m:mo>(</m:mo>
+         <m:mrow>
+          <m:mn>20</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+           <m:mrow>
+            <m:mn>10</m:mn></m:mrow>
+           <m:mrow>
+            <m:mn>−6</m:mn></m:mrow>
+          </m:msup>
+          <m:mtext>N</m:mtext></m:mrow>
+        <m:mo>)</m:mo></m:mrow><m:msup>
+         <m:mrow>
+          <m:mrow><m:mo>(</m:mo>
+           <m:mrow>
+            <m:mn>0.050</m:mn><m:mspace width="0.3em"/><m:mtext>m</m:mtext></m:mrow>
+          <m:mo>)</m:mo></m:mrow></m:mrow>
+         <m:mn>2</m:mn>
+        </m:msup>
+        </m:mrow>
+       <m:mrow>
+        <m:mn>8.99</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+         <m:mrow>
+          <m:mn>10</m:mn></m:mrow>
+         <m:mn>9</m:mn>
+        </m:msup>
+        <m:mtext>N</m:mtext><m:mo>⋅</m:mo><m:msup>
+         <m:mtext>m</m:mtext>
+         <m:mtext>2</m:mtext>
+        </m:msup>
+        <m:msup>
+         <m:mrow>
+          <m:mtext>/C</m:mtext></m:mrow>
+         <m:mtext>2</m:mtext>
+        </m:msup>
+        </m:mrow>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>5.6</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+       <m:mrow>
+        <m:mn>10</m:mn></m:mrow>
+       <m:mrow>
+        <m:mn>−18</m:mn></m:mrow>
+      </m:msup>
+      <m:msup>
+       <m:mtext>C</m:mtext>
+       <m:mn>2</m:mn>
+      </m:msup>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable></m:mrow>
+</m:math> </equation><para id="fs-id1167065862185">Note how the units cancel in the second-to-last line. Had we not converted cm to m, this would not occur, and the result would be incorrect. Finally, because the charge on each sphere is the same, we can further deduce that</para>
+<equation id="fs-id1164567459850"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>q</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mo>±</m:mo><m:msqrt>
+   <m:mrow>
+    <m:mn>5.6</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn></m:mrow>
+     <m:mrow>
+      <m:mn>−18</m:mn></m:mrow>
+    </m:msup>
+    <m:msup>
+     <m:mtext>C</m:mtext>
+     <m:mn>2</m:mn>
+    </m:msup>
+    </m:mrow>
+  </m:msqrt>
+  <m:mo>=</m:mo><m:mo>±</m:mo><m:mn>2.4</m:mn><m:mspace width="0.3em"/><m:mtext>nC.</m:mtext></m:mrow>
+</m:math> </equation></commentary>
+</exercise>
+</note><note id="Worked_Example_18_04" class="worked-example"><title>Using Coulomb’s law to find the distance between charged objects</title>
+
+<exercise id="fs-id1167065044219" class="18-ex045 unnumbered">
+<label/>
+<problem id="fs-id1167065867575">
+<para id="fs-id1167064644596">An engineer measures the force between two ink drops by measuring their acceleration and their diameter. She finds that each member of a pair of ink drops exerts a repulsive force of  <m:math>
+ <m:mrow>
+  <m:mi>F</m:mi><m:mo>=</m:mo><m:mn>5.5</m:mn><m:mspace width="0.3em"/><m:mtext>mN</m:mtext></m:mrow>
+</m:math>  on its partner. If each ink drop carries a charge  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mrow>
+    <m:mtext>ink</m:mtext><m:mtext>drop</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>−1</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>−10</m:mn></m:mrow>
+  </m:msup>
+  <m:mtext>C</m:mtext></m:mrow>
+</m:math>, how far apart are the ink drops?</para>
+
+<note id="fs-id1167066045158">
+<label/><title>Strategy</title>
+<para id="fs-id1167065939953">We know the force and the charge on each ink drop, so we can solve Coulomb’s law for the distance <emphasis effect="italics">r</emphasis> between the ink drops. Do not forget to convert the force into SI units:  <m:math>
+ <m:mrow>
+  <m:mi>F</m:mi><m:mo>=</m:mo><m:mn>5.5</m:mn><m:mspace width="0.3em"/><m:mtext>mN</m:mtext><m:mo>=</m:mo><m:mn>5.5</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>−3</m:mn></m:mrow>
+  </m:msup>
+  <m:mtext>N.</m:mtext></m:mrow>
+</m:math> </para></note>
+</problem>
+<solution id="fs-id1167065953778">
+<label/>
+<title>Solution</title>
+<para id="fs-id1167062343031">The charges in Coulomb’s law are  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>q</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:msubsup>
+   <m:mi>q</m:mi>
+   <m:mrow>
+    <m:mtext>ink</m:mtext><m:mtext>drop</m:mtext></m:mrow>
+   <m:mrow/>
+  </m:msubsup><m:mtext>,</m:mtext>
+  </m:mrow>
+</m:math>  so the numerator in Coulomb’s law takes the form  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:msubsup>
+   <m:mi>q</m:mi>
+   <m:mrow>
+    <m:mtext>ink</m:mtext><m:mtext>drop</m:mtext></m:mrow>
+   <m:mn>2</m:mn>
+  </m:msubsup>
+  </m:mrow>
+</m:math> . Inserting this into Coulomb’s law and solving for the distance <emphasis effect="italics">r</emphasis> gives</para>
+<equation id="fs-id1164564348094"> <m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr>
+    <m:mtd columnalign="right">
+     <m:mrow>
+       <m:mi>F</m:mi>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mi>k</m:mi><m:msubsup>
+         <m:mi>q</m:mi>
+         <m:mrow>
+          <m:mtext>ink</m:mtext><m:mtext>drop</m:mtext></m:mrow>
+         <m:mn>2</m:mn>
+        </m:msubsup>
+        </m:mrow>
+       <m:mrow>
+        <m:msup>
+         <m:mi>r</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+        </m:mrow>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="right">
+     <m:mi>r</m:mi>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mo>±</m:mo><m:msqrt>
+       <m:mrow>
+        <m:mfrac>
+         <m:mrow>
+          <m:mi>k</m:mi><m:msubsup>
+           <m:mi>q</m:mi>
+           <m:mrow>
+            <m:mtext>ink</m:mtext><m:mtext>drop</m:mtext></m:mrow>
+           <m:mn>2</m:mn>
+          </m:msubsup>
+          </m:mrow>
+         <m:mi>F</m:mi>
+        </m:mfrac>
+        </m:mrow>
+      </m:msqrt>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd>
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd>
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd>
+     <m:mrow>
+      <m:mo>±</m:mo><m:msqrt>
+       <m:mrow>
+        <m:mfrac>
+         <m:mrow>
+          <m:mrow><m:mo>(</m:mo>
+           <m:mrow>
+            <m:mn>8.99</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+             <m:mrow>
+              <m:mn>10</m:mn></m:mrow>
+             <m:mn>9</m:mn>
+            </m:msup>
+            <m:mtext>N</m:mtext><m:mo>⋅</m:mo><m:msup>
+             <m:mtext>m</m:mtext>
+             <m:mtext>2</m:mtext>
+            </m:msup>
+            <m:msup>
+             <m:mrow>
+              <m:mtext>/C</m:mtext></m:mrow>
+             <m:mtext>2</m:mtext>
+            </m:msup>
+            </m:mrow>
+          <m:mo>)</m:mo></m:mrow><m:msup>
+           <m:mrow>
+            <m:mrow><m:mo>(</m:mo>
+             <m:mrow>
+              <m:mn>−1</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+               <m:mrow>
+                <m:mn>10</m:mn></m:mrow>
+               <m:mrow>
+                <m:mn>−10</m:mn></m:mrow>
+              </m:msup>
+              <m:mtext>C</m:mtext></m:mrow>
+            <m:mo>)</m:mo></m:mrow></m:mrow>
+           <m:mn>2</m:mn>
+          </m:msup>
+          </m:mrow>
+         <m:mrow>
+          <m:mn>5.5</m:mn><m:mo>×</m:mo><m:msup>
+           <m:mrow>
+            <m:mn>10</m:mn></m:mrow>
+           <m:mrow>
+            <m:mn>−3</m:mn></m:mrow>
+          </m:msup>
+          <m:mtext>N</m:mtext></m:mrow>
+        </m:mfrac>
+        </m:mrow>
+      </m:msqrt>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mo>±</m:mo><m:mn>1.3</m:mn><m:mo>×</m:mo><m:msup>
+       <m:mrow>
+        <m:mn>10</m:mn></m:mrow>
+       <m:mrow>
+        <m:mn>−4</m:mn></m:mrow>
+      </m:msup>
+      <m:mtext>m</m:mtext></m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable></m:mrow>
+</m:math> </equation>
+<para id="fs-id1167065033170">or 130 microns (about one-tenth of a millimeter).</para>
+</solution>
+<commentary id="fs-id1167064737968">
+<title>Discussion</title>
+<para id="fs-id1167062328936">The plus-minus sign means that we do not know which ink drop is to the right and which is to the left, but that is not important, because both ink drops are the same.</para>
+</commentary>
+</exercise>
+</note><section id="fs-id1167066165718" class="practice-problems"><title>Practice Problems</title><exercise id="fs-id1167066105011">
+<problem id="fs-id1167064957316">
+<!--<para id="fs-id1167065058100"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex046"/></para>-->
+<para id="fs-id1164567445940">A charge of −4 × 10<sup>−9</sup> C is a distance of 3 cm from a charge of 3 × 10<sup>−9</sup> C . What is the magnitude and direction of the force between them?</para>
+<list id="fs-id1164566128149" list-type="enumerated" number-style="lower-alpha">
+<item>1.2 × 10<sup>−4</sup> N, and the force is attractive</item>
+<item>1.2 × 10<sup>14</sup> N, and the force is attractive</item>
+<item>6.74 × 10<sup>23</sup> N, and the force is attractive</item>
+<item>−ŷ, and the force is attractive</item></list>
+</problem>
+</exercise>
+<exercise id="fs-id1167064916142">
+<problem id="fs-id1167066167168">
+<!--<para id="fs-id1167064583109"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex047"/></para>-->
+<para id="fs-id1164567281944">Two charges are repelled by a force of 2.0 N. If the distance between them triples, what is the force between the charges?</para>
+<list id="fs-id1164567639737" list-type="enumerated" number-style="lower-alpha">
+<item>0.22 N</item>
+<item>0.67 N</item>
+<item>2.0 N</item>
+<item>18.0 N</item>
+</list>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167062303050" class="check-understanding">
+<title>Check Your Understanding</title>
+<exercise id="fs-id1167064881723" class="os-exercise">
+<problem id="fs-id1167065944331">
+<para id="fs-id1167065855547"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex048"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065941616" class="os-exercise">
+<problem id="fs-id1167064766561">
+<!--<para id="fs-id1167064917629"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex049"/></para>-->
+<para id="fs-id1164566021119">Why is Coulomb’s law called an inverse-square law?</para>
+<list id="fs-id1164566297646" list-type="enumerated" number-style="lower-alpha">
+<item>because the force is proportional to the inverse of the distance squared between charges</item>
+<item>because the force is proportional to the product of two charges</item>
+<item>because the force is proportional to the inverse of the product of two charges</item>
+<item>because the force is proportional to the distance squared between charges</item>
+</list>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167066030223" class="summary">
+<title>Section Summary</title>
+<list id="fs-id1167065970510">
+<item>Coulomb’s law is an inverse square law and describes the electrostatic force between particles.</item>
+<item>The electrostatic force between charged objects is proportional to the charge on each object and inversely proportional to the distance squared between the objects.</item>
+<item>If Coulomb’s law gives a negative result, the force is attractive; if the result is positive, the force is repulsive.</item>
+</list>
+</section>
+<section id="fs-id1167065863652" class="key-equations"><title>Key Equations</title><table id="fs-id1167064749500" class="unnumbered unstyled" summary="This table has one row and two columns. In the first column, the description says “Coulomb's law”, and its equation is given in the second column."><label/>
+<tgroup cols="2"><colspec colnum="1" align="left" colname="c1"/>
+<colspec colnum="2" align="left" colname="c2"/>
+<tbody>
+<row>
+<entry>Coulomb’s law</entry>
+<entry> <m:math display="block">
+ <m:mrow>
+  <m:mi>F</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>k</m:mi><m:msub>
+     <m:mi>q</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+     <m:mi>q</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    </m:mrow>
+   <m:mrow>
+    <m:msup>
+     <m:mi>r</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    </m:mrow>
+  </m:mfrac>
+  </m:mrow>
+</m:math> </entry>
+</row>
+</tbody>
+
+
+
+</tgroup>
+</table></section>
+
+
+<section id="fs-id1167062954804" class="concept"><title>Concept Items</title><exercise id="fs-id1167064915347" class="os-exercise">
+<problem id="fs-id1167064854723">
+<!--<para id="fs-id1167065704566"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex052"/></para>-->
+<para id="fs-id1164567896309">Two plastic spheres with uniform charge repel each other with a force of 10 N . If you remove the charge from one sphere, what will be the force between the spheres?</para>
+<list id="fs-id1164568044225" list-type="enumerated" number-style="lower-alpha">
+<item>The force will be 15 N.</item>
+<item>The force will be 10 N.</item>
+<item>The force will be 5 N.</item>
+<item>The force will be zero.</item></list>
+</problem>
+</exercise>
+<exercise id="eip-id1166848691465" class="os-exercise">
+<problem id="eip-id1166849098530">
+<!--<para id="eip-id1166849098532">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch18-ot041"/>
+</para>-->
+<para id="fs-id1164565492798">What creates a greater magnitude of force, two charges +<emphasis effect="italics">q</emphasis> a distance r apart or two charges – <emphasis effect="italics">q</emphasis> the same distance apart?</para>
+<list id="fs-id1164565876202" list-type="enumerated" number-style="lower-alpha">
+<item>Two charges +<emphasis effect="italics">q</emphasis> a distance <emphasis effect="italics">r</emphasis> away</item>
+<item>Two charges −<emphasis effect="italics">q</emphasis> a distance <emphasis effect="italics">r</emphasis> away</item>
+<item>The magnitudes of forces are equal.</item></list>
+
+</problem>
+</exercise>
+<exercise id="eip-id1166851087585" class="os-exercise">
+<problem id="eip-id1166851192223">
+<!--<para id="eip-id1166851192225">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch18-ot042"/>
+</para>-->
+<para id="fs-id1164565632546">In Newton’s law of universal gravitation, the force between two masses is proportional to the product of the two masses. What plays the role of mass in Coulomb’s law?</para>
+<list id="fs-id1164567066328" list-type="enumerated" number-style="lower-alpha">
+<item>the electric charge</item>
+<item>the electric dipole</item>
+<item>the electric monopole</item>
+<item>the electric quadruple</item></list>
+</problem>
+</exercise></section><section id="fs-id1167066139262" class="critical-thinking"><title>Critical Thinking</title><exercise id="fs-id1167062303374" class="os-exercise">
+<problem id="fs-id1167065893601">
+<!--<para id="fs-id1167064579655"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex053"/></para>-->
+<para id="fs-id1164565610070">In terms of Coulomb’s law, why are water molecules attracted by positive and negative charges?</para><list id="fs-id1164567135515" list-type="enumerated" number-style="lower-alpha">
+<item>Water molecules are neutral.</item>
+<item>Water molecules have a third type of charge that is attracted by positive as well as negative charges.</item>
+<item>Water molecules are polar.</item>
+<item>Water molecule have either an excess of electrons or an excess of protons.</item></list>
+</problem>
+</exercise>
+<exercise id="eip-id1166848989112" class="os-exercise">
+<problem id="eip-id1166848787454">
+<para id="eip-id1166851123844">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch18-ot051"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167064820914" class="problems">
+<title>Problems</title>
+<exercise id="fs-id1167064937980" class="os-exercise">
+<problem id="fs-id1167064841530">
+<!-- <para id="fs-id1167066167485"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex050"/></para> -->
+<para id="fs-id1169832023447">Two particles with equal charge experience a force of 10 nN when they are 30 cm apart. What is the magnitude of the charge on each particle?</para>
+<list id="fs-id1169831826986" list-type="enumerated" number-style="lower-alpha"><item>-5.8 × 10<sup>-10</sup> C</item>
+<item>-3.2 × 10<sup>-10</sup> C</item>
+<item>+3.2 × 10<sup>-10</sup> C</item>
+<item>+1.4 × 10<sup>-5</sup> C</item></list></problem>
+</exercise>
+<exercise id="fs-id1167064701838" class="os-exercise">
+<problem id="fs-id1167065919134">
+<!--<para id="fs-id1167064549901"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex051"/></para>-->
+<para id="fs-id1164565351261">Three charges are on a line. The left charge is <emphasis effect="italics">q</emphasis><sub>1</sub> = 2.0 nC . The middle charge is <emphasis effect="italics">q</emphasis><sub>2</sub> = 5.0 nC . The right charge is <emphasis effect="italics">q</emphasis><sub>3</sub> = − 3.0 nC . The left and right charges are 2.0 cm from the middle charge. What is the force on the middle charge?</para>
+<list id="fs-id1164567792836" list-type="enumerated" number-style="lower-alpha"><item>−5.6 × 10<sup>−4</sup> N to the left</item>
+<item>−1.12 × 10<sup>−4</sup> N to the left</item>
+<item>+1.12 × 10<sup>−4</sup> N to the right</item>
+<item>5.6 × 10<sup>−4</sup> N to the right</item></list></problem>
+</exercise>
+</section>
+
+<section id="fs-id1167065661776" class="multiple-choice"><title>Test Prep Multiple Choice</title><exercise id="fs-id1167065999974" class="os-exercise">
+<problem id="fs-id1167066045168">
+<!--<para id="fs-id1167062413861"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex054"/></para>-->
+<para id="fs-id1164565436626">If you double the distance between two point charges, by which factor does the force between the particles change?</para>
+<list id="fs-id1164567328862" list-type="enumerated" number-style="lower-alpha">
+<item>1/2</item>
+<item>2</item>
+<item>4</item>
+<item>1/4</item></list>
+</problem>
+</exercise>
+<exercise id="eip-id1166850948875" class="os-exercise">
+<problem id="eip-id1166848729200">
+<!--<para id="eip-id1166848729202">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch18-ot043"/>
+</para>-->
+<para id="fs-id1164567508303">The combined charge of all the electrons in a dime is hundreds of thousands of coulombs. Because like charges repel, what keeps the dime from exploding?</para>
+<list id="fs-id1164565490382" list-type="enumerated" number-style="lower-alpha">
+<item>The dime has an equal number of protons, with positive charge.</item>
+<item>The dime has more protons than electrons, with positive charge.</item>
+<item>The dime has fewer protons than electrons, with positive charge.</item>
+<item>The dime is polarized, with electrons on one side and protons on the other side.</item></list>
+</problem>
+</exercise>
+<exercise id="eip-id1166848712919" class="os-exercise">
+<problem id="eip-id1166848694850">
+<para id="eip-id1166848694852">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch18-ot049"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167062348040" class="short-answer">
+<title>Test Prep Short Answer</title>
+<exercise id="fs-id1167062548552" class="os-exercise">
+<problem id="fs-id1167065937519">
+<para id="fs-id1167065985477"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex056"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065788741" class="os-exercise">
+<problem id="fs-id1167066030428">
+<!--<para id="fs-id1167064981048"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex057"/></para>-->
+<para id="fs-id1164567168176">The force between two charges is 4 × 10<sup>–9</sup> N . If the magnitude of one charge is reduced by a factor of two and the distance between the charges is reduced by a factor of two, what is the new force between the charges?</para>
+<list id="fs-id1164567339468" list-type="enumerated" number-style="lower-alpha">
+<item>2 × 10<sup>–9</sup> N</item>
+<item>4 × 10<sup>–9</sup> N</item>
+<item>6 × 10<sup>–9</sup> N</item>
+<item>8 × 10<sup>–9</sup> N</item></list>
+</problem>
+</exercise>
+<exercise id="fs-id1167065012486" class="os-exercise">
+<problem id="fs-id1167064876813">
+<!--<para id="fs-id1167064861141"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex058"/></para>-->
+<para id="fs-id1164567379377">True or false—Coulomb’s constant is <emphasis effect="italics">k</emphasis> = 8.99 × 10<sup>9</sup> N·m<sup>2</sup>/C<sup>2</sup>. Newton’s gravitational constant is <emphasis effect="italics">G</emphasis> = 6.67 × 10<sup>−11</sup> m<sup>3</sup>/kg⋅s<sup>2</sup>. This tells you about the relative strength of the electrostatic force versus that of gravity.</para><list id="fs-id1164566328331" list-type="enumerated" number-style="lower-alpha">
+<item>true</item>
+<item>false</item></list>
+</problem>
+</exercise>
+<exercise id="fs-id1167066177095" class="os-exercise">
+<problem id="fs-id1167062385113">
+<!--<para id="fs-id1167062811012"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex059"/></para>-->
+<para id="fs-id1164567577885">An atomic nucleus contains 56 protons, for iron. Which force would this nucleus apply on an electron at a distance of 10×10<sup>–12</sup> m?</para>
+<list id="fs-id1164567894480" list-type="enumerated" number-style="lower-alpha"><item>0.65 × 10<sup>–4</sup> N</item>
+<item>0.02 × 10<sup>–4</sup> N</item>
+<item>1.3 × 10<sup>–4</sup> N</item>
+<item>72.8 × 10<sup>–4</sup> N</item></list></problem>
+</exercise>
+</section>
+
+<section id="fs-id1167062968828" class="extended-response">
+<title>Test Prep Extended Response</title>
+<exercise id="fs-id1167066142293" class="os-exercise">
+<problem id="fs-id1167065052692">
+<!--<para id="fs-id1167062374907"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex060"/></para>-->
+<para id="fs-id1164565388277">Electrostatic forces are enormous compared to gravitational force. Why do you not notice electrostatic forces in everyday life, whereas you do notice the force due to gravity?</para>
+<list id="fs-id1164568018071" list-type="enumerated" number-style="lower-alpha">
+<item>Because there are two types of charge, but only one type of mass exists.</item>
+<item>Because there is only one type of charge, but two types of mass exist.</item>
+<item>Because opposite charges cancel each other, while gravity does not cancel out.</item>
+<item>Because opposite charges do not cancel each other, while gravity cancels out.</item></list>
+</problem>
+</exercise>
+<exercise id="fs-id1167062342543" class="os-exercise">
+<problem id="fs-id1167065763309">
+<!--<para id="fs-id1167063183103"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex061"/></para>-->
+<para id="fs-id1164565308335">A small metal sphere with a net charge of 3.0 nC is touched to a second small metal sphere that is initially neutral. The spheres are then placed 20 cm apart. What is the force between the spheres?</para>
+<list id="fs-id1164565380505" list-type="enumerated" number-style="lower-alpha">
+<item>1.02 × 10<sup>−7</sup> N</item>
+<item>2.55 × 10<sup>−7</sup> N</item>
+<item>5.1 × 10<sup>−7</sup> N</item>
+<item>20.4 × 10<sup>−7</sup> N</item></list>
+</problem>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1167065974270"><term>Coulomb’s law</term><meaning id="fs-id1167064773983"> describes the electrostatic force between charged objects, which is proportional to the charge on each object and inversely proportional to the square of the distance between the objects</meaning></definition>
+<definition id="fs-id1167065914233"><term>inverse-square law</term><meaning id="fs-id1167064876562"> law that has the form of a ratio, with the denominator being the distance squared</meaning></definition>
+</glossary>
+</document>

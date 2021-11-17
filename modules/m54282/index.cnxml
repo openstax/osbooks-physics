@@ -1,0 +1,2081 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Consequences of Special Relativity</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54282</md:content-id>
+  <md:title>Consequences of Special Relativity</md:title>
+  <md:abstract/>
+  <md:uuid>975c1e43-93a3-448e-959b-741f321f9960</md:uuid>
+</metadata>
+
+<content>
+    <note id="fs-id1164354530842" class="learning-objectives">
+      <label/>
+      <title>Section Learning Objectives</title>
+      <para id="fs-id1164354500051">By the end of this section, you will be able to do the following:</para>
+      <list id="fs-id1164354601763">
+        <item>Describe the relativistic effects seen in time dilation, length contraction, and conservation of relativistic momentum</item>
+        <item>Explain and perform calculations involving mass-energy equivalence</item>
+      </list>
+    </note>
+    <note id="fs-id1164353393931" class="os-teacher">
+      <title>Teacher Support</title>
+      <para id="fs-id1164354591855">The learning objectives in this section will help your students master the following student standards:</para>
+<list id="fs-id1164562311973">
+<item>(4) Science concepts. The student knows and applies the laws governing motion in a variety of situations. The student is expected to:
+<list id="fs-id1164354827354"><item><span>(F)</span> <span>Identify and describe motion relative to different frames of reference.</span></item></list></item></list>
+<list id="fs-id1164563558027">
+<item>(8) Science concepts. The student knows simple examples of atomic, nuclear, and quantum phenomena. The student is expected to:
+<list id="fs-id1164566703558"><item><span>(C)</span> <span>Describe the significance of mass-energy equivalence and apply it in explanations of phenomena such as nuclear stability, fission, and fusion.</span></item>
+      </list></item>
+</list>
+    </note>
+    <section id="keyterms"><title>Section Key Terms</title>
+    <table id="fs-id1164354625670" class="unnumbered unstyled section-key-terms" summary="The list of Key Terms includes: binding energy, length contraction, mass defect, proper length, relativistic, relativistic momentum, relativistic energy, relativistic factor, rest mass, and time dilation.">
+      <label/>
+      <tgroup cols="3">
+        <tbody>
+          <row>
+            <entry>binding energy</entry>
+            <entry>length contraction</entry>
+            <entry>mass defect</entry>
+            <entry>time dilation</entry>
+
+          </row>
+          <row>
+            <entry>proper length</entry>
+            <entry>relativistic</entry>
+            <entry>relativistic momentum</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>relativistic energy</entry>
+            <entry>relativistic factor</entry>
+            <entry>rest mass</entry>
+            <entry/>
+          </row>
+        </tbody>
+      </tgroup>
+    </table></section>
+    <note id="fs-id1164355005898" class="os-teacher">
+      <title>Teacher Support</title>
+      <para id="fs-id1164354502228">In this section, you will see how the postulates lead to the theory of special relativity and see how that theory predicts effects on time, distance, momentum, and energy at velocities approaching the speed of light.</para>
+      <para id="fs-id1164354551637"><span>[BL]</span> Begin a discussion by asking if students have ever seen a science fiction movie where space travelers age more slowly than the people left behind on Earth. Tell them there is some basis in fact to these stories. Discuss nuclear power. Ask if they know the basic difference between the nuclear power and combustion power.</para>
+      <para id="fs-id1164354470612"><span>[OL]</span> Explain that Newton’s laws are valid for everyday mechanics but break down at speeds approaching the speed of light. Discuss the relationship between relativity theory and Newton’s laws. Briefly describe the changes predicted for measurements of time, length, momentum, and energy. See how much they know about energy derived from nuclear reactions.</para>
+      <para id="fs-id1164354954336"><span>[AL]</span> Ask what the students already know about relativity theory. See if they know that relative motion is an old idea and ask for examples of relative motion in everyday situations. Explain that special relativity is similar but describes unexpected results at speeds approaching the speed of light. Ask if anyone can explain why this statement is true: “The original source of all the energy we use is the conversion of matter into energy.”</para>
+      </note>
+  <section id="fs-id1164354696594"><title>Relativistic Effects on Time, Distance, and Momentum</title><para id="fs-id1164354656797">Consideration of the measurement of elapsed time and simultaneity leads to an important relativistic effect. <term>Time dilation</term> is the phenomenon of time passing more slowly for an observer who is moving relative to another observer.</para>
+    <para id="fs-id1164354520869">For example, suppose an astronaut measures the time it takes for light to travel from the light source, cross her ship, bounce off a mirror, and return. (See <link target-id="Figure_10_02_astronaut"/>.) How does the elapsed time the astronaut measures compare with the elapsed time measured for the same event by a person on the earth? Asking this question (another thought experiment) produces a profound result. We find that the elapsed time for a process depends on who is measuring it. In this case, the time measured by the astronaut is smaller than the time measured by the earth bound observer. The passage of time is different for the two observers because the distance the light travels in the astronaut’s frame is smaller than in the earth bound frame. Light travels at the same speed in each frame, and so it will take longer to travel the greater distance in the earth bound frame.</para>
+    <note id="fs-id1164354470742" class="os-teacher">
+      <title>Teacher Support</title>
+      <para id="fs-id1164353403048"><span>[OL]</span> Discuss the expression for the relativistic factor. Explain that this is involved in all relativistic effects. Show how to tell when relativistic effects are significant and when they are negligible by plugging in values of <emphasis effect="italics">v</emphasis> and <emphasis effect="italics">c</emphasis>.</para>
+    </note>
+    <figure id="Figure_10_02_astronaut">
+      <media id="fs-id1164354590628" alt="A series of three illustrations the different frames of reference for an astronaut on a flight versus an observer on Earth.">
+        <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_10_02_astronaut.jpg"/>
+      </media>
+      <caption>(a) An astronaut measures the time <m:math>
+        <m:mrow>
+          <m:mi>Δ</m:mi><m:msub>
+            <m:mi>t</m:mi>
+            <m:mn>0</m:mn>
+          </m:msub>
+
+        </m:mrow>
+      </m:math> for light to cross her ship using an electronic timer. Light travels a distance <m:math>
+        <m:mrow>
+          <m:mn>2</m:mn><m:mi>D</m:mi>
+        </m:mrow>
+      </m:math> in the astronaut’s frame. (b) A person on the earth sees the light follow the longer path <m:math>
+        <m:mrow>
+          <m:mn>2</m:mn><m:mi>s</m:mi>
+        </m:mrow>
+      </m:math> and take a longer time <m:math>
+        <m:mrow>
+          <m:mi>Δ</m:mi><m:mi>t</m:mi>
+<m:mtext>.</m:mtext>
+        </m:mrow>
+      </m:math> </caption>
+    </figure>
+    <note id="fs-id1164354894838" class="os-teacher">
+      <title>Teacher Support</title>
+      <para id="fs-id1164354471588"><span>[AL]</span><link target-id="Figure_10_02_astronaut"/>, like <link document="m54280" target-id="Figure_10_01_train"/>, may be hard for some students to grasp. Refer back to the previous figure. The animation in the discussion of length contraction further on should also be some help.</para></note>
+    <para id="fs-id1164354594328">The relationship between Δ<emphasis effect="italics">t</emphasis> and Δ<emphasis effect="italics">t</emphasis><sub>o</sub> is given by</para>
+    <equation id="fs-id1164354614251" class="unnumbered">
+      <label/>
+       <m:math display="block">
+        <m:mrow>
+          <m:mi>Δ</m:mi><m:mi>t</m:mi><m:mo>=</m:mo><m:mi>γ</m:mi><m:mi>Δ</m:mi><m:msub>
+            <m:mi>t</m:mi>
+            <m:mn>0</m:mn>
+          </m:msub>
+          <m:mo>,</m:mo>
+        </m:mrow>
+      </m:math>
+    </equation>
+    <para id="fs-id1164354490079">where <m:math>
+      <m:mrow>
+        <m:mi>γ</m:mi>
+      </m:mrow>
+    </m:math> is the <term>relativistic factor</term> given by</para>
+    <equation id="fs-id1164354485262" class="unnumbered">
+      <label/>
+       <m:math display="block">
+        <m:mrow>
+          <m:mi>γ</m:mi><m:mo>=</m:mo><m:mfrac>
+            <m:mn>1</m:mn>
+            <m:mrow>
+              <m:msqrt>
+                <m:mrow>
+                  <m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mi>v</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+
+                    </m:mrow>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mi>c</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+
+                    </m:mrow>
+                  </m:mfrac>
+
+                </m:mrow>
+              </m:msqrt>
+
+            </m:mrow>
+          </m:mfrac>
+          <m:mo>,</m:mo>
+        </m:mrow>
+      </m:math>
+
+    </equation>
+    <para id="fs-id1167066770452">and <emphasis effect="italics">v</emphasis> and <emphasis effect="italics">c</emphasis> are the speeds of the moving observer and light, respectively.</para>
+    <note id="fs-id1164354633914" class="tips-for-success">
+
+      <para id="fs-id1164354623623">Try putting some values for <emphasis effect="italics">v</emphasis> into the expression for the relativistic factor ( <m:math>
+        <m:mi>γ</m:mi>
+      </m:math> ). Observe at which speeds this factor will make a difference and when <m:math>
+        <m:mrow>
+          <m:mtext>γ</m:mtext>
+        </m:mrow>
+      </m:math> is so close to 1 that it can be ignored. Try 225 m/s, the speed of an airliner; 2.98 × 10<sup>4</sup> m/s, the speed of Earth in its orbit; and 2.990 × 10<sup>8</sup> m/s, the speed of a particle in an accelerator.</para>
+    </note>
+    <note id="fs-id1164355004850" class="os-teacher">
+      <title>Teacher Support</title>
+      <para id="fs-id1164354626106">Try putting some values for <emphasis effect="italics">v</emphasis> into the expression for the relativistic factor. Observe at which speeds this factor will make a difference and when it is so close to 1 that it can be ignored.</para>
+    </note>
+    <para id="fs-id1164354623805">Notice that when the velocity <emphasis effect="italics">v</emphasis> is small compared to the speed of light <emphasis effect="italics">c</emphasis>, then <emphasis effect="italics">v/c</emphasis> becomes small, and <m:math>
+      <m:mrow>
+        <m:mi>γ</m:mi>
+      </m:mrow>
+    </m:math> becomes close to 1. When this happens, time measurements are the same in both frames of reference. <term>Relativistic</term> effects, meaning those that have to do with special relativity, usually become significant when speeds become comparable to the speed of light. This is seen to be the case for time dilation.</para>
+    <para id="fs-id1164354532591">You may have seen science fiction movies in which space travelers return to Earth after a long trip to find that the planet and everyone on it has aged much more than they have. This type of scenario is a based on a thought experiment, known as the <term class="no-emphasis">twin paradox</term>, which imagines a pair of twins, one of whom goes on a trip into space while the other stays home. When the space traveler returns, she finds her twin has aged much more than she. This happens because the traveling twin has been in two <term class="no-emphasis">frames of reference</term>, one leaving Earth and one returning.</para>
+    <para id="fs-id1164354517231">Time dilation has been confirmed by comparing the time recorded by an atomic clock sent into orbit to the time recorded by a clock that remained on Earth. GPS satellites must also be adjusted to compensate for time dilation in order to give accurate positioning.</para>
+    <para id="fs-id1164354659010">Have you ever driven on a road, like that shown in <link target-id="Figure_10_02_road"/>, that seems like it goes on forever? If you look ahead, you might say you have about 10 km left to go. Another traveler might say the road ahead looks like it is about 15 km long. If you both measured the road, however, you would agree. Traveling at everyday speeds, the distance you both measure would be the same. You will read in this section, however, that this is not true at relativistic speeds. Close to the speed of light, distances measured are not the same when measured by different observers moving with respect to one other.</para>
+    <figure id="Figure_10_02_road"><media id="fs-id1164354517135" alt="A picture of an empty highway in the desert.">
+        <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_10_02_road.jpg"/>
+      </media>
+
+    <caption>People might describe distances differently, but at relativistic speeds, the distances really are different. (Corey Leopold, Flickr)
+</caption></figure><note id="fs-id1164354556608" class="os-teacher">
+      <title>Teacher Support</title>
+      <para id="fs-id1164354518175"><span>[OL]</span> Discuss the relationship between time dilation and length contraction. If observers agree on speed, but not on time, they must also disagree on length because <emphasis effect="italics">v = d/t</emphasis>.</para>
+    </note>
+    <para id="fs-id1164354449916">One thing all observers agree upon is their <term class="no-emphasis">relative speed</term>. When one observer is traveling away from another, they both see the other receding at the same speed, regardless of whose frame of reference is chosen. Remember that speed equals distance divided by time: <emphasis effect="italics">v = d/t</emphasis>. If the observers experience a difference in elapsed time, they must also observe a difference in distance traversed. This is because the ratio <emphasis effect="italics">d/t</emphasis> must be the same for both observers.</para>
+    <para id="fs-id1164354601849">The shortening of distance experienced by an observer moving with respect to the points whose distance apart is measured is called <term>length contraction</term>. <term>Proper length</term>, <emphasis effect="italics">L</emphasis><sub>0</sub>, is the distance between two points measured in the reference frame where the observer and the points are at rest. The observer in motion with respect to the points measures <emphasis effect="italics">L</emphasis>. These two lengths are related by the equation</para>
+    <equation id="fs-id1164354532449" class="unnumbered">
+      <label/>
+       <m:math display="block">
+        <m:mrow>
+          <m:mi>L</m:mi><m:mo>=</m:mo><m:mfrac>
+            <m:mrow>
+              <m:msub>
+                <m:mi>L</m:mi>
+                <m:mn>0</m:mn>
+              </m:msub>
+
+            </m:mrow>
+            <m:mi>γ</m:mi>
+          </m:mfrac>
+          <m:mtext>.</m:mtext>
+        </m:mrow>
+      </m:math>
+
+    </equation>
+    <para id="fs-id1164353484438">Because <m:math>
+      <m:mrow>
+        <m:mtext>γ</m:mtext>
+      </m:mrow>
+    </m:math> is the same expression used in the time dilation equation above, the equation becomes</para>
+    <equation id="fs-id1164354609030" class="unnumbered">
+      <label/>
+       <m:math display="block">
+        <m:mrow>
+          <m:mi>L</m:mi><m:mo>=</m:mo><m:msub>
+            <m:mi>L</m:mi>
+            <m:mn>0</m:mn>
+          </m:msub>
+          <m:msqrt>
+            <m:mrow>
+              <m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac>
+                <m:mrow>
+                  <m:msup>
+                    <m:mi>v</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+
+                </m:mrow>
+                <m:mrow>
+                  <m:msup>
+                    <m:mi>c</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+
+                </m:mrow>
+              </m:mfrac>
+
+            </m:mrow>
+          </m:msqrt>
+          <m:mo>.</m:mo>
+        </m:mrow>
+      </m:math>
+    </equation>
+      <para id="fs-id1164354586082">To see how length contraction is seen by a moving observer, go to <link url="http://openstax.org/l/28simultaneity">this simulation</link>. Here you can also see that simultaneity, time dilation, and length contraction are interrelated phenomena.</para>
+      <para id="fs-id1164354562387">This link is to a simulation that illustrates the relativity of simultaneous events.</para>
+      <para id="fs-id1164354517085">In classical physics, momentum is a simple product of mass and velocity. When special relativity is taken into account, objects that have mass have a speed limit. What effect do you think mass and velocity have on the momentum of objects moving at relativistic speeds; i.e., speeds close to the speed of light?</para>
+      <para id="fs-id1164354470854"><term class="no-emphasis">Momentum</term> is one of the most important concepts in physics. The broadest form of Newton’s second law is stated in terms of momentum. Momentum is conserved in classical mechanics whenever the net external force on a system is zero. This makes momentum conservation a fundamental tool for analyzing collisions. We will see that momentum has the same importance in modern physics. <term>Relativistic momentum</term> is conserved, and much of what we know about subatomic structure comes from the analysis of collisions of accelerator-produced relativistic particles.</para>
+        <para id="fs-id1164354564070">One of the postulates of special relativity states that the laws of physics are the same in all inertial frames. Does the law of conservation of momentum survive this requirement at high velocities? The answer is yes, provided that the momentum is defined as follows.</para>
+      <para id="fs-id1164354492693">Relativistic momentum, <emphasis>p</emphasis>, is classical momentum multiplied by the relativistic factor <m:math>
+        <m:mrow>
+          <m:mi>γ</m:mi>
+<m:mtext>.</m:mtext>
+        </m:mrow>
+      </m:math> </para><equation id="eip-818"> <m:math>
+      <m:mrow>
+        <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle><m:mo>=</m:mo><m:mi>γ</m:mi><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>u</m:mi></m:mstyle><m:mo>,</m:mo>
+      </m:mrow>
+    </m:math> </equation><para id="fs-id1164354585739">where <m:math>
+      <m:mrow>
+        <m:mi>m</m:mi>
+      </m:mrow>
+    </m:math> is the <term>rest mass</term> of the object (that is, the mass measured at rest, without any <m:math>
+      <m:mrow>
+        <m:mi>γ</m:mi>
+      </m:mrow>
+    </m:math> factor involved), <m:math>
+      <m:mrow>
+        <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>u</m:mi></m:mstyle>
+      </m:mrow>
+    </m:math> is its velocity relative to an observer, and <m:math display="block">
+ <m:mi>γ</m:mi><m:mo>,</m:mo>
+</m:math>
+ as before, is the relativistic factor. We use the mass of the object as measured at rest because we cannot determine its mass while it is moving.</para><para id="fs-id1164353407696">Note that we use <m:math>
+      <m:mrow>
+        <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>u</m:mi></m:mstyle>
+      </m:mrow>
+    </m:math> for velocity here to distinguish it from relative velocity <m:math>
+      <m:mrow>
+        <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+      </m:mrow>
+    </m:math> between observers. Only one observer is being considered here. With <m:math>
+      <m:mrow>
+        <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle>
+      </m:mrow>
+    </m:math> defined in this way, <m:math>
+      <m:mrow>
+        <m:msub>
+          <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle>
+          <m:mrow>
+            <m:mtext>tot</m:mtext>
+          </m:mrow>
+        </m:msub>
+
+      </m:mrow>
+    </m:math> is conserved whenever the net external force is zero, just as in classical physics. Again we see that the relativistic quantity becomes virtually the same as the classical at low velocities. That is, relativistic momentum <m:math>
+      <m:mrow>
+        <m:mi>γ</m:mi><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>u</m:mi></m:mstyle>
+      </m:mrow>
+    </m:math> becomes the classical <m:math>
+      <m:mrow>
+        <m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>u</m:mi></m:mstyle>
+      </m:mrow>
+    </m:math> at low velocities, because <m:math>
+      <m:mrow>
+        <m:mi>γ</m:mi>
+      </m:mrow>
+    </m:math> is very nearly equal to 1 at low velocities.</para><para id="fs-id1164354612220">Relativistic momentum has the same intuitive feel as classical momentum. It is greatest for large masses moving at high velocities. Because of the factor <m:math>
+      <m:mrow>
+        <m:mi>γ</m:mi><m:mo>,</m:mo>
+      </m:mrow>
+    </m:math> however, relativistic momentum behaves differently from classical momentum by approaching infinity as <m:math>
+      <m:mrow>
+        <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>u</m:mi></m:mstyle>
+      </m:mrow>
+    </m:math> approaches <m:math>
+      <m:mrow>
+        <m:mi>c</m:mi>
+<m:mtext>.</m:mtext>
+      </m:mrow>
+    </m:math>  (See <link target-id="Figure_10_02_speed"/>.) This is another indication that an object with mass cannot reach the speed of light. If it did, its momentum would become infinite, which is an unreasonable value.</para><figure id="Figure_10_02_speed">
+      <media id="fs-id1164354590087" alt="A graph with a line representing momentum (on the y-axis) relative to speed (on the x-axis). The line stays close to 0 from a speed of 0 up to about a speed of 0.6c where it begins to rise gradually. As it approaches 1.0c, however, it rises dramatically and ends going straight up.">
+        <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_10_02_speed.jpg"/>
+      </media>
+      <caption>Relativistic momentum approaches infinity as the velocity of an object approaches the speed of light.</caption>
+    </figure>
+    <note id="fs-id1164354556293" class="os-teacher">
+      <title>Teacher Support</title>
+      <para id="fs-id1164354628358"><span>[OL]</span> Discuss the graph. Explain how it shows that objects that have mass cannot reach the speed of light. Have the students analyze the equation for relativistic momentum and see how this supports this conclusion. Explain that light can travel at the speed of light because it has no rest mass.</para>
+    </note>
+    <para id="fs-id1164354539217">Relativistic momentum is defined in such a way that the conservation of momentum will hold in all inertial frames. Whenever the net external force on a system is zero, relativistic momentum is conserved, just as is the case for classical momentum. This has been verified in numerous experiments.</para>
+  </section><section id="fs-id1164354602451">
+    <title>Mass-Energy Equivalence</title>
+    <para id="fs-id1164354620495">Let us summarize the calculation of relativistic effects on objects moving at speeds near the speed of light. In each case we will need to calculate the relativistic factor, given by</para>
+    <equation id="fs-id1164354832919" class="unnumbered"><label/> <m:math display="block">
+
+      <m:mrow>
+        <m:mi>γ</m:mi><m:mo>=</m:mo><m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mrow>
+            <m:msqrt>
+              <m:mrow>
+                <m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+
+                  </m:mrow>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>c</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+
+                  </m:mrow>
+                </m:mfrac>
+
+              </m:mrow>
+            </m:msqrt>
+
+          </m:mrow>
+        </m:mfrac>
+        <m:mo>,</m:mo>
+      </m:mrow>
+    </m:math>
+    </equation><para id="fs-id1164354535619">where <emphasis>v</emphasis> and  <emphasis effect="italics">c</emphasis> are as defined earlier. We use <emphasis>u</emphasis> as the velocity of a particle or an object in one frame of reference, and <emphasis>v</emphasis> for the velocity of one frame of reference with respect to another.</para><section id="eip-968"><title>Time Dilation</title><para id="eip-955">Elapsed time on a moving object, <m:math>
+      <m:mrow>
+        <m:mi>Δ</m:mi><m:msub>
+          <m:mi>t</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mtext>,</m:mtext>
+      </m:mrow>
+    </m:math>  as seen by a stationary observer is given by <m:math>
+      <m:mrow>
+        <m:mi>Δ</m:mi><m:mi>t</m:mi><m:mo>=</m:mo><m:mi>γ</m:mi><m:mi>Δ</m:mi><m:msub>
+          <m:mi>t</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mo>,</m:mo>
+      </m:mrow>
+    </m:math> where <m:math>
+      <m:mrow>
+        <m:mi>Δ</m:mi><m:msub>
+          <m:mi>t</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+
+      </m:mrow>
+    </m:math> is the time observed on the moving object when it is taken to be the frame or reference.
+</para></section>
+<section id="eip-285">
+<title>Length Contraction</title>
+<para id="fs-id1164354921089">Length measured by a person at rest with respect to a moving object, <emphasis effect="italics">L</emphasis>, is given by</para>
+    <equation id="fs-id1164354610025" class="unnumbered">
+      <label/>
+       <m:math display="block">
+      <m:mrow>
+        <m:mi>L</m:mi><m:mo>=</m:mo><m:mfrac>
+          <m:mrow>
+            <m:msub>
+              <m:mi>L</m:mi>
+              <m:mn>0</m:mn>
+            </m:msub>
+
+          </m:mrow>
+          <m:mi>γ</m:mi>
+        </m:mfrac>
+        <m:mo>,</m:mo>
+      </m:mrow>
+    </m:math>
+    </equation>
+    <para id="fs-id1164354540043">where <emphasis effect="italics">L</emphasis><sub>0</sub> is the length measured on the moving object.</para>
+</section>
+<section id="fs-id1167066791379">
+<title>Relativistic Momentum</title>
+<para id="fs-id1164354745206">Momentum, <emphasis>p</emphasis>, of an object of mass, <emphasis effect="italics">m</emphasis>, traveling at relativistic speeds is given by <m:math>
+      <m:mrow>
+        <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle><m:mo>=</m:mo><m:mi>γ</m:mi><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>u</m:mi></m:mstyle>
+<m:mtext>,</m:mtext>
+</m:mrow>
+    </m:math>  where <emphasis>u</emphasis> is velocity of a moving object as seen by a stationary observer.</para></section>
+<section id="fs-id1167066793958">
+<title>Relativistic Energy</title>
+    <para id="fs-id1164354628476">The original source of all the energy we use is the conversion of mass into energy. Most of this energy is generated by nuclear reactions in the sun and radiated to Earth in the form of electromagnetic radiation, where it is then transformed into all the forms with which we are familiar. The remaining energy from nuclear reactions is produced in nuclear power plants and in Earth’s interior. In each of these cases, the source of the energy is the conversion of a small amount of mass into a large amount of energy. These sources are shown in <link target-id="Figure_10_02_energy"/>.</para>
+    <figure id="Figure_10_02_energy"><media id="fs-id1164353440244" alt="A picture of the sun (a) and a power plant (b)">
+        <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_10_02_energy.jpg"/>
+      </media>
+
+    <caption>The sun (a) and the Susquehanna Steam Electric Station (b) both convert mass into energy. ((a) NASA/Goddard Space Flight Center, Scientific Visualization Studio; (b) U.S. government)</caption></figure><para id="fs-id1164354623765">The first postulate of relativity states that the laws of physics are the same in all inertial frames. Einstein showed that the law of conservation of energy is valid relativistically, if we define energy to include a relativistic factor. The result of his analysis is that a particle or object of mass <emphasis effect="italics">m</emphasis> moving at velocity <emphasis>u</emphasis> has <term>relativistic energy</term> given by</para><equation id="fs-id1164354626061" class="unnumbered">
+      <label/> <m:math display="block">
+      <m:mrow>
+        <m:mi>E</m:mi><m:mo>=</m:mo><m:mi>γ</m:mi><m:mi>m</m:mi><m:msup>
+          <m:mi>c</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>.</m:mo>
+      </m:mrow>
+    </m:math>
+    </equation>
+    <para id="fs-id1164354691467">This is the expression for the <term class="no-emphasis">total energy</term> of an object of mass <emphasis effect="italics">m</emphasis> at any speed <emphasis>u</emphasis> and includes both <term class="no-emphasis">kinetic</term> and <term class="no-emphasis">potential energy</term>. Look back at the equation for <m:math>
+      <m:mrow>
+        <m:mi>γ</m:mi>
+      </m:mrow>
+    </m:math> and you will see that it is equal to 1 when <emphasis>u</emphasis> is 0; that is, when an object is at rest. Then the rest energy, <emphasis effect="italics">E</emphasis><sub>0</sub>, is simply</para><equation id="fs-id1164354626824" class="unnumbered"><label/> <m:math display="block">
+      <m:mrow>
+        <m:msub>
+          <m:mi>E</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mo>=</m:mo><m:mi>m</m:mi><m:msup>
+          <m:mi>c</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>.</m:mo>
+      </m:mrow>
+    </m:math>
+    </equation>
+    <para id="fs-id1164354879354">This is the correct form of Einstein’s famous equation.</para>
+    <para id="fs-id1164354657575">This equation is very useful to nuclear physicists because it can be used to calculate the energy released by a nuclear reaction. This is done simply by subtracting the mass of the products of such a reaction from the mass of the reactants. The difference is the <emphasis effect="italics">m</emphasis> in <m:math>
+      <m:mrow>
+        <m:msub>
+          <m:mi>E</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mo>=</m:mo><m:mi>m</m:mi><m:msup>
+          <m:mi>c</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mtext>.</m:mtext>
+      </m:mrow>
+    </m:math>  Here is a simple example:</para>
+    <para id="fs-id1164354696798">A positron is a type of antimatter that is just like an electron, except that it has a positive charge. When a positron and an electron collide, their masses are completely annihilated and converted to energy in the form of gamma rays. Because both particles have a rest mass of 9.11 × 10<sup>–31</sup> kg, we multiply the <emphasis effect="italics">mc</emphasis><sup>2</sup> term by 2. So the energy of the gamma rays is</para>
+    <equation id="fs-id1164354456922">
+      <label/>
+       <m:math display="block">
+        <m:mrow>
+          <m:mtable>
+            <m:mtr rowalign="center">
+              <m:mtd columnalign="right" rowalign="center">
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>E</m:mi>
+                    <m:mn>0</m:mn>
+                  </m:msub>
+
+                </m:mrow>
+              </m:mtd>
+              <m:mtd rowalign="center">
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left" rowalign="center">
+                <m:mrow>
+                  <m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>9.11</m:mn><m:mo>×</m:mo><m:msup>
+                    <m:mrow>
+                      <m:mn>10</m:mn>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo>−</m:mo><m:mn>31</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                  <m:mtext> kg</m:mtext><m:mo stretchy="false">)</m:mo><m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo><m:mn>3.00</m:mn><m:mo>×</m:mo><m:msup>
+                        <m:mrow>
+                          <m:mn>10</m:mn>
+                        </m:mrow>
+                        <m:mn>8</m:mn>
+                      </m:msup>
+                      <m:mfrac>
+                        <m:mtext>m</m:mtext>
+                        <m:mtext>s</m:mtext>
+                      </m:mfrac>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr rowalign="center">
+              <m:mtd rowalign="center"/>
+              <m:mtd rowalign="center">
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left" rowalign="center">
+                <m:mrow>
+                  <m:mn>1.64</m:mn><m:mo>×</m:mo><m:msup>
+                    <m:mrow>
+                      <m:mn>10</m:mn>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo>−</m:mo><m:mn>13</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mtext>kg</m:mtext><m:mo>⋅</m:mo><m:msup>
+                        <m:mtext>m</m:mtext>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+
+                    </m:mrow>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mtext>s</m:mtext>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+
+                    </m:mrow>
+                  </m:mfrac>
+
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr rowalign="center">
+              <m:mtd rowalign="center"/>
+              <m:mtd rowalign="center">
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left" rowalign="center">
+                <m:mrow>
+                  <m:mn>1.64</m:mn><m:mo>×</m:mo><m:msup>
+                    <m:mrow>
+                      <m:mn>10</m:mn>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo>−</m:mo><m:mn>13</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                  <m:mtext>J</m:mtext>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+
+          </m:mtable>
+        </m:mrow>
+      </m:math>
+
+
+    </equation>
+    <para id="fs-id1164354696345">where we have the expression for the joule (J) in terms of its SI base units of kg, m, and s. In general, the nuclei of stable isotopes have less mass then their constituent subatomic particles. The energy equivalent of this difference is called the <term>binding energy</term> of the nucleus. This energy is released during the formation of the isotope from its constituent particles because the product is more stable than the reactants. Expressed as mass, it is called the <term>mass defect</term>. For example, a helium nucleus is made of two neutrons and two protons and has a mass of 4.0003 atomic mass units (u). The sum of the masses of two protons and two neutrons is 4.0330 u. The mass defect then is 0.0327 u. Converted to kg, the mass defect is 5.0442 × 10<sup>–30</sup> kg. Multiplying this mass times <emphasis effect="italics">c</emphasis><sup>2</sup> gives a binding energy of 4.540 × 10<sup>–12</sup> J. This does not sound like much because it is only one atom. If you were to make one gram of helium out of neutrons and protons, it would release 683,000,000,000 J. By comparison, burning one gram of coal releases about 24 J.</para>
+</section>
+    <note id="fs-id1164354601726" class="os-teacher">
+      <title>Teacher Support</title>
+      <para id="fs-id1164353393363"><span>[BL]</span> In regards to the change in the law of conservation of energy to the law of conservation of mass-energy, it may help to think of mass as simply a very concentrated form of energy.</para>
+      <para id="fs-id1164354552018"><span>[OL]</span> Impress upon the students the enormous amount of energy derived from the conversion of a small amount of mass. Have them note that <emphasis effect="italics">c</emphasis><sup>2</sup> is a very large number. Students try to understand new concepts by using previous knowledge, and that may result in a misconception here. They are comfortable with chemical reactions and may try to relate this to the burning of a piece of wood. Tell them that burning the wood chemically might provide energy for a single room in a house, but converting the mass of the wood completely to energy according to <emphasis effect="italics">E = mc</emphasis><sup>2</sup> would provide power for thousands of houses. </para>
+      <para id="fs-id1164355006360"><span>[AL]</span> Ask students if they know the difference between fission and fusion and where examples of each of these occur.</para>
+    </note>
+    <note id="fs-id1164354603779" class="boundless-physics">
+
+      <title>The RHIC Collider</title>
+      <para id="fs-id1164354524828"><link target-id="Figure_10_02_lab"/> shows the Brookhaven National Laboratory in Upton, NY. The circular structure houses a particle accelerator called the RHIC, which stands for Relativistic Heavy Ion Collider. The heavy ions in the name are gold nuclei that have been stripped of their electrons. Streams of ions are accelerated in several stages before entering the big ring seen in the figure. Here, they are accelerated to their final speed, which is about 99.7 percent the speed of light. Such high speeds are called relativistic. All the relativistic phenomena we have been discussing in this chapter are very pronounced in this case. At this speed <m:math>
+        <m:mrow>
+          <m:mi>γ</m:mi>
+        </m:mrow>
+      </m:math> = 12.9, so that relativistic time dilates by a factor of about 13, and relativistic length contracts by the same factor.</para>
+      <figure id="Figure_10_02_lab"><media id="fs-id1164353401547" alt="Aerial view of a large building complex.">
+          <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_10_02_lab.jpg"/>
+        </media>
+
+      <caption>Brookhaven National Laboratory. The circular structure houses the RHIC. (energy.gov, Wikimedia Commons)</caption></figure><para id="fs-id1164354625274">Two ion beams circle the 2.4-mile long track around the big ring in opposite directions. The paths can then be made to cross, thereby causing ions to collide. The collision event is very short-lived but amazingly intense. The temperatures and pressures produced are greater than those in the hottest suns. At 4 trillion degrees Celsius, this is the hottest material ever created in a laboratory</para>
+      <para id="fs-id1164354622569">But what is the point of creating such an extreme event? Under these conditions, the neutrons and protons that make up the gold nuclei are smashed apart into their components, which are called quarks and gluons. The goal is to recreate the conditions that theorists believe existed at the very beginning of the universe. It is thought that, at that time, matter was a sort of soup of quarks and gluons. When things cooled down after the initial bang, these particles condensed to form protons and neutrons.</para>
+      <para id="fs-id1164354614464">Some of the results have been surprising and unexpected. It was thought the quark-gluon soup would resemble a gas or plasma. Instead, it behaves more like a liquid. It has been called a <emphasis effect="italics">perfect</emphasis> liquid because it has virtually no viscosity, meaning that it has no resistance to flow.</para>
+      <note id="fs-id1164354599155" class="os-teacher">
+        <title>Teacher Support</title>
+        <para id="fs-id1164353556818">Discuss particle colliders such as the relatively new Large Hadron Collider built by CERN. Students may want to know more about this project and the <emphasis effect="italics">God particle</emphasis>. Explain why there are so many applications of special relativity theory in the field of particle physics.</para>
+      </note>
+      <exercise id="fs-id1164354620124" class="os-exercise grasp-check unnumbered">
+
+        <problem id="fs-id1164354535699">
+<para id="fs-id1164563480856">Calculate the relativistic factor <emphasis effect="italics">γ</emphasis>, for a particle traveling at 99.7 percent of the speed of light.</para>
+<list id="fs-id1164564778987" list-type="enumerated" number-style="lower-alpha">
+<item>0.08</item>
+<item>0.71</item>
+<item>1.41</item>
+<item>12.9</item></list>
+
+<!--          <para id="fs-id1164354535702">
+            <link class="os-embed" url="#ost/api/ex/k12phys-ch10-ex022"/>
+          </para>-->
+        </problem>
+      </exercise>
+    </note>
+    <note id="fs-id1164353407623" class="worked-example"><title>The Speed of Light</title>
+
+      <exercise id="fs-id1164353587694" class="10-ex023 unnumbered"><label/>
+        <problem id="fs-id1164354627706"><para id="fs-id1164354627707">One night you are out looking up at the stars and an extraterrestrial spaceship flashes across the sky. The ship is 50 meters long and is travelling at 95 percent of the speed of light. What would the ship’s length be when measured from your earthbound frame of reference?</para>
+        <note id="fs-id1164354603871"><label/><title>Strategy</title>
+          <para id="fs-id1164354617975">List the knowns and unknowns.</para>
+          <para id="fs-id1164354539601">Knowns: proper length of the ship, <emphasis effect="italics">L<sub>0</sub></emphasis> = 50 m; velocity, <emphasis>v</emphasis>, = 0.95<emphasis effect="italics">c</emphasis></para>
+          <para id="fs-id1164353577321">Unknowns: observed length of the ship accounting for relativistic length contraction, <emphasis effect="italics">L</emphasis>.</para>
+          <para id="fs-id1164353339395">Choose the relevant equation.</para>
+          <equation id="fs-id1164353587304" class="unnumbered"><label/>
+             <m:math display="block">
+              <m:mrow>
+                <m:mi>L</m:mi><m:mo>=</m:mo><m:mfrac>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>L</m:mi>
+                      <m:mn>0</m:mn>
+                    </m:msub>
+
+                  </m:mrow>
+                  <m:mi>γ</m:mi>
+                </m:mfrac>
+                <m:mtext>= </m:mtext><m:msub>
+                  <m:mi>L</m:mi>
+                  <m:mn>0</m:mn>
+                </m:msub>
+                <m:msqrt>
+                  <m:mrow>
+                    <m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>u</m:mi></m:mstyle>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+
+                      </m:mrow>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mi>c</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+
+                      </m:mrow>
+                    </m:mfrac>
+
+                  </m:mrow>
+                </m:msqrt>
+
+              </m:mrow>
+            </m:math>
+
+          </equation>
+</note>
+        </problem>
+        <solution id="fs-id1164354691340"><label/><title>Solution</title>
+<equation id="fs-id1164354691341" class="unnumbered">
+          <label/> <m:math display="block">
+          <m:mrow>
+            <m:mi>L</m:mi><m:mo>=</m:mo><m:mtext> 50 m</m:mtext><m:msqrt>
+              <m:mrow>
+                <m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo stretchy="false">(</m:mo><m:mn>0.95</m:mn><m:mo stretchy="false">)</m:mo>
+                      </m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:msup>
+                      <m:mi>c</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+
+                  </m:mrow>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>c</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+
+                  </m:mrow>
+                </m:mfrac>
+
+              </m:mrow>
+            </m:msqrt>
+            <m:mo>=</m:mo><m:mtext>50 m</m:mtext><m:msqrt>
+              <m:mrow>
+                <m:mn>1</m:mn><m:mo>−</m:mo><m:msup>
+                  <m:mrow>
+                    <m:mo stretchy="false">(</m:mo><m:mn>0.95</m:mn><m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                  <m:mn>2</m:mn>
+                </m:msup>
+
+              </m:mrow>
+            </m:msqrt>
+            <m:mo>=</m:mo><m:mn>16</m:mn><m:mspace width="0.3em"/><m:mtext> m</m:mtext>
+          </m:mrow>
+        </m:math>
+        </equation></solution>
+        <commentary id="fs-id1164354596519">
+          <title>Discussion</title>
+          <para id="fs-id1164353570843">Calculations of <m:math>
+            <m:mrow>
+              <m:mtext>γ</m:mtext>
+            </m:mrow>
+          </m:math> can usually be simplified in this way when <emphasis effect="italics">v</emphasis> is expressed as a percentage of <emphasis effect="italics">c</emphasis> because the <emphasis effect="italics">c</emphasis><sup>2</sup> terms cancel. Be sure to also square the decimal representing the percentage before subtracting from 1. Note that the aliens will still see the length as <emphasis effect="italics">L</emphasis><sub>0</sub> because they are moving with the frame of reference that is the ship.</para>
+          <note id="fs-id1164353372745" class="os-teacher">
+            <title>Teacher Support</title>
+            <para id="fs-id1164353587632">Identify the variables, the knowns and unknowns, and the relevant equation. Understand clearly which length applies to your frame of reference and which applies to the ship’s frame of reference; that is, which is proper length.</para>
+          </note>
+        </commentary>
+      </exercise>
+      </note></section>
+  <section id="fs-id1164353506214" class="practice-problems"><title>Practice Problems</title><exercise id="fs-id1164354878078">
+      <problem id="fs-id1164354697659">
+<para id="fs-id1164564825529">Calculate the relativistic factor, <emphasis effect="italics">γ</emphasis>, for an object traveling at 2.00×10<sup>8</sup> m/s.</para>
+<list id="fs-id1164561135706" list-type="enumerated" number-style="lower-alpha">
+<item>0.74</item>
+<item>0.83</item>
+<item>1.2</item>
+<item>1.34</item></list>
+<!--        <para id="fs-id1164354697662">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch10-ex024"/>
+        </para>-->
+      </problem>
+    </exercise>
+    <exercise id="fs-id1164354604483">
+      <problem id="fs-id1164354538318">
+<para id="fs-id1164566485848">The distance between two points, called the proper length, L0, is 1.00 km. An observer in motion with respect to the frame of reference of the two points measures 0.800 km, which is L. What is the relative speed of the frame of reference with respect to the observer?</para>
+<list id="fs-id1164561013534" list-type="enumerated" number-style="lower-alpha">
+<item>1.80×10<sup>8</sup> m/s</item>
+<item>2.34×10<sup>8</sup> m/s</item>
+<item>3.84×10<sup>8</sup> m/s</item>
+<item>5.00×10<sup>8</sup> m/s</item></list>
+<!--        <para id="fs-id1164354612140">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch10-ex025"/>
+        </para>-->
+      </problem>
+    </exercise>
+<exercise id="fs-id1163726019440">
+<problem id="fs-id1163726130426">
+<para id="fs-id1163726130428">Consider the nuclear fission reaction  <m:math>
+ <m:mrow>
+  <m:mi>n</m:mi><m:mo>+</m:mo><m:mmultiscripts>
+   <m:mi>U</m:mi>
+   <m:mprescripts/>
+   <m:mrow>
+    <m:mn>92</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>235</m:mn>
+   </m:mrow>
+  </m:mmultiscripts>
+  <m:mo>→</m:mo><m:mmultiscripts>
+   <m:mi>C</m:mi>
+   <m:mprescripts/>
+   <m:mrow>
+    <m:mn>55</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>137</m:mn>
+   </m:mrow>
+  </m:mmultiscripts>
+  <m:mi>s</m:mi><m:mo>+</m:mo><m:mmultiscripts>
+   <m:mi>R</m:mi>
+   <m:mprescripts/>
+   <m:mrow>
+    <m:mn>37</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>97</m:mn>
+   </m:mrow>
+  </m:mmultiscripts>
+  <m:mi>b</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>n</m:mi><m:mo>+</m:mo><m:mi>E</m:mi>
+ </m:mrow>
+</m:math> . If a neutron has a rest mass of 1.009u,  <m:math>
+ <m:mrow>
+  <m:mmultiscripts>
+   <m:mi>U</m:mi>
+   <m:mprescripts/>
+   <m:mrow>
+    <m:mn>92</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>235</m:mn>
+   </m:mrow>
+  </m:mmultiscripts>
+
+ </m:mrow>
+</m:math>  has a rest mass of 235.044u,  <m:math>
+ <m:mrow>
+  <m:mmultiscripts>
+   <m:mi>C</m:mi>
+   <m:mprescripts/>
+   <m:mrow>
+    <m:mn>55</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>137</m:mn>
+   </m:mrow>
+  </m:mmultiscripts>
+  <m:mi>s</m:mi>
+ </m:mrow>
+</m:math>  has rest mass of 136.907u, and  <m:math>
+ <m:mrow>
+  <m:mmultiscripts>
+   <m:mi>R</m:mi>
+   <m:mprescripts/>
+   <m:mrow>
+    <m:mn>37</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>97</m:mn>
+   </m:mrow>
+  </m:mmultiscripts>
+  <m:mi>b</m:mi>
+ </m:mrow>
+</m:math>  has a rest mass of 96.937u, what is the value of <emphasis effect="italics">E</emphasis> in joules?</para><list id="fs-id1163726194673" mark-prefix="(" mark-suffix=")" list-type="enumerated" number-style="lower-alpha"><item> <m:math>
+ <m:mrow>
+  <m:mn>1.8</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>11</m:mn>
+   </m:mrow>
+  </m:msup>
+
+ </m:mrow>
+</m:math> J</item>
+<item> <m:math>
+ <m:mrow>
+  <m:mn>2.9</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>11</m:mn>
+   </m:mrow>
+  </m:msup>
+
+ </m:mrow>
+</m:math> J</item>
+<item> <m:math>
+ <m:mrow>
+  <m:mn>1.8</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>10</m:mn>
+   </m:mrow>
+  </m:msup>
+
+ </m:mrow>
+</m:math> J</item>
+<item> <m:math>
+ <m:mrow>
+  <m:mn>2.9</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>10</m:mn>
+   </m:mrow>
+  </m:msup>
+
+ </m:mrow>
+</m:math> J</item>
+</list></problem>
+<solution id="fs-id1163726198460">
+<para id="fs-id1163726198462">The correct answer is (b). The mass deficit in the reaction is  <m:math>
+ <m:mrow>
+  <m:mn>235.044</m:mn><m:mspace width="0.3em"/><m:mtext>u</m:mtext><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>136.907</m:mn><m:mo>+</m:mo><m:mn>96.937</m:mn><m:mo>+</m:mo><m:mn>1.009</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mtext>u,</m:mtext>
+ </m:mrow>
+</m:math>  or 0.191u. Converting that mass to kg and applying  <m:math>
+ <m:mrow>
+  <m:mi>E</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:msup>
+   <m:mi>c</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+
+ </m:mrow>
+</m:math>  to find the energy equivalent of the mass deficit gives  <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>0.191</m:mn><m:mspace width="0.3em"/><m:mtext>u</m:mtext>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>1.66</m:mn><m:mo>×</m:mo><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn>
+     </m:mrow>
+     <m:mrow>
+      <m:mo>−</m:mo><m:mn>27</m:mn>
+     </m:mrow>
+    </m:msup>
+    <m:mtext>kg/u</m:mtext>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:msup>
+   <m:mrow>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mn>3.00</m:mn><m:mo>×</m:mo><m:msup>
+       <m:mrow>
+        <m:mn>10</m:mn>
+       </m:mrow>
+       <m:mn>8</m:mn>
+      </m:msup>
+      <m:mtext>m/s</m:mtext>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>≅</m:mo><m:mn>2.85</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>11</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mtext>J.</m:mtext>
+ </m:mrow>
+</m:math> </para></solution>
+</exercise>
+<exercise id="fs-id1163726309080">
+<problem id="fs-id1163726309082">
+<para id="fs-id1163726309084">Consider the nuclear fusion reaction  <m:math>
+ <m:mrow>
+  <m:mmultiscripts>
+   <m:mi>H</m:mi>
+   <m:mprescripts/>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mmultiscripts>
+  <m:mo>+</m:mo><m:mmultiscripts>
+   <m:mi>H</m:mi>
+   <m:mprescripts/>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mmultiscripts>
+  <m:mo>→</m:mo><m:mmultiscripts>
+   <m:mi>H</m:mi>
+   <m:mprescripts/>
+   <m:mn>1</m:mn>
+   <m:mn>3</m:mn>
+  </m:mmultiscripts>
+  <m:mo>+</m:mo><m:mmultiscripts>
+   <m:mi>H</m:mi>
+   <m:mprescripts/>
+   <m:mn>1</m:mn>
+   <m:mn>1</m:mn>
+  </m:mmultiscripts>
+  <m:mo>+</m:mo><m:mi>E</m:mi>
+ </m:mrow>
+</m:math> . If  <m:math>
+ <m:mrow>
+  <m:mmultiscripts>
+   <m:mi>H</m:mi>
+   <m:mprescripts/>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mmultiscripts>
+
+ </m:mrow>
+</m:math>  has a rest mass of 2.014u,  <m:math>
+ <m:mrow>
+  <m:mmultiscripts>
+   <m:mi>H</m:mi>
+   <m:mprescripts/>
+   <m:mn>1</m:mn>
+   <m:mn>3</m:mn>
+  </m:mmultiscripts>
+
+ </m:mrow>
+</m:math>  has a rest mass of 3.016u, and  <m:math>
+ <m:mrow>
+  <m:mmultiscripts>
+   <m:mi>H</m:mi>
+   <m:mprescripts/>
+   <m:mn>1</m:mn>
+   <m:mn>1</m:mn>
+  </m:mmultiscripts>
+
+ </m:mrow>
+</m:math>  has a rest mass of 1.008u, what is the value of <emphasis effect="italics">E</emphasis> in joules?</para>
+<list id="fs-id1163726129290" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item> <m:math>
+ <m:mrow>
+  <m:mn>6</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>13</m:mn>
+   </m:mrow>
+  </m:msup>
+
+ </m:mrow>
+</m:math> J</item>
+<item> <m:math>
+ <m:mrow>
+  <m:mn>6</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>12</m:mn>
+   </m:mrow>
+  </m:msup>
+
+ </m:mrow>
+</m:math> J</item>
+<item> <m:math>
+ <m:mrow>
+  <m:mn>6</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>11</m:mn>
+   </m:mrow>
+  </m:msup>
+
+ </m:mrow>
+</m:math> J</item>
+<item> <m:math>
+ <m:mrow>
+  <m:mn>6</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>10</m:mn>
+   </m:mrow>
+  </m:msup>
+
+ </m:mrow>
+</m:math> J</item>
+</list>
+</problem>
+<solution id="fs-id1163726287470">
+<para id="fs-id1163726287472">The correct answer is (a). The mass deficit in the reaction is  <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>2.014</m:mn><m:mspace width="0.3em"/><m:mtext>u</m:mtext>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>3.016</m:mn><m:mo>+</m:mo><m:mn>1.008</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mtext>u</m:mtext>
+ </m:mrow>
+</m:math>, or 0.004u. Converting that mass to kg and applying  <m:math>
+ <m:mrow>
+  <m:mi>E</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:msup>
+   <m:mi>c</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+
+ </m:mrow>
+</m:math>  to find the energy equivalent of the mass deficit gives  <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>0.004</m:mn><m:mspace width="0.3em"/><m:mtext>u</m:mtext>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>1.66</m:mn><m:mo>×</m:mo><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn>
+     </m:mrow>
+     <m:mrow>
+      <m:mo>−</m:mo><m:mn>27</m:mn>
+     </m:mrow>
+    </m:msup>
+    <m:mtext>kg/u</m:mtext>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:msup>
+   <m:mrow>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mn>3.00</m:mn><m:mo>×</m:mo><m:msup>
+       <m:mrow>
+        <m:mn>10</m:mn>
+       </m:mrow>
+       <m:mn>8</m:mn>
+      </m:msup>
+      <m:mtext>m/s</m:mtext>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>≅</m:mo><m:mn>5.98</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>13</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mtext>J.</m:mtext>
+ </m:mrow>
+</m:math> </para>
+</solution>
+</exercise>
+
+  </section>
+<section id="fs-id1164353512922" class="check-understanding"><title>Check Your Understanding</title><exercise id="fs-id1164354903006" class="os-exercise">
+      <problem id="fs-id1164354903009">
+        <para id="fs-id1164354957508">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch10-ex026"/>
+        </para>
+      </problem>
+    </exercise>
+    <exercise id="fs-id1164354608999" class="os-exercise">
+      <problem id="fs-id1164354635506">
+<para id="fs-id1164561275952">The equation used to calculate relativistic momentum is <emphasis effect="italics">p</emphasis> = <emphasis effect="italics">γ · m · u</emphasis>. Define the terms to the right of the equal sign and state how <emphasis effect="italics">m</emphasis> and <emphasis effect="italics">u</emphasis> are measured.</para>
+<list id="fs-id1164562221889" list-type="enumerated" number-style="lower-alpha">
+<item><emphasis effect="italics">γ</emphasis> is the relativistic factor, <emphasis effect="italics">m</emphasis> is the rest mass measured when the object is at rest in the frame of reference, and <emphasis effect="italics">u</emphasis> is the velocity of the frame.</item>
+<item><emphasis effect="italics">γ</emphasis> is the relativistic factor, <emphasis effect="italics">m</emphasis> is the rest mass measured when the object is at rest in the frame of reference, and <emphasis effect="italics">u</emphasis> is the velocity relative to an observer.</item>
+<item><emphasis effect="italics">γ</emphasis> is the relativistic factor, <emphasis effect="italics">m</emphasis> is the relativistic mass  <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mtext>i</m:mtext><m:mtext>.e</m:mtext><m:mtext>.,</m:mtext><m:mfrac>
+     <m:mi>m</m:mi>
+     <m:mrow>
+      <m:msqrt>
+       <m:mrow>
+        <m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac>
+         <m:mrow>
+          <m:msup>
+           <m:mi>u</m:mi>
+           <m:mn>2</m:mn>
+          </m:msup>
+
+         </m:mrow>
+         <m:mrow>
+          <m:msup>
+           <m:mi>c</m:mi>
+           <m:mn>2</m:mn>
+          </m:msup>
+
+         </m:mrow>
+        </m:mfrac>
+
+       </m:mrow>
+      </m:msqrt>
+
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math>  measured when the object is moving in the frame of reference, and <emphasis effect="italics">u</emphasis> is the velocity of the frame.</item>
+<item><emphasis effect="italics">γ</emphasis> is the relativistic factor, <emphasis effect="italics">m</emphasis> is the relativistic mass  <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mtext>i</m:mtext><m:mtext>.e</m:mtext><m:mtext>.,</m:mtext><m:mfrac>
+     <m:mi>m</m:mi>
+     <m:mrow>
+      <m:msqrt>
+       <m:mrow>
+        <m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac>
+         <m:mrow>
+          <m:msup>
+           <m:mi>u</m:mi>
+           <m:mn>2</m:mn>
+          </m:msup>
+
+         </m:mrow>
+         <m:mrow>
+          <m:msup>
+           <m:mi>c</m:mi>
+           <m:mn>2</m:mn>
+          </m:msup>
+
+         </m:mrow>
+        </m:mfrac>
+
+       </m:mrow>
+      </m:msqrt>
+
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math>  measured when the object is moving in the frame of reference, and <emphasis effect="italics">u</emphasis> is the velocity relative to an observer.</item></list>
+
+
+<!--        <para id="fs-id1164354635508">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch10-ex027"/>
+        </para>-->
+      </problem>
+    </exercise>
+
+<exercise id="eip-id1166849457266" class="os-exercise">
+<problem id="eip-id1166849457271">
+<para id="eip-id1166849457273">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch10-ot021"/>
+</para>
+</problem>
+</exercise>
+    <note id="fs-id1164354875981" class="os-teacher">
+      <title>Teacher Support</title>
+      <para id="fs-id1164354922017">Use the Check Your Understanding questions to assess students’ achievement of the section’s learning objectives. If students are struggling with a specific objective, the Check Your Understanding will help identify which and direct students to the relevant content.</para>
+    </note></section><section id="fs-id1167066946741" class="summary">
+    <title>Section Summary</title>
+    <list id="fs-id1167066841720">
+      <item>Time dilates, length contracts, and momentum increases as an object approaches the speed of light.</item>
+      <item>Energy and mass are interchangeable, according to the relationship <emphasis effect="italics">E = mc</emphasis>2. The laws of conservation of mass and energy are combined into the law of conservation of mass-energy. </item>
+    </list>
+    </section>
+  <section id="fs-id1164354610185" class="key-equations"><title>Key Equations</title><table id="fs-id1164354658928" class="unnumbered unstyled" summary="The list of Key Equations includes the elapsed time, relativistic factor, length contraction, relativistic momentum, relativistic energy, and rest energy.">
+<label/>
+<tgroup cols="2"><colspec colnum="1" align="left" colname="c1"/>
+      <colspec colnum="2" align="left" colname="c2"/>
+      <tbody>
+        <row>
+          <entry>elapsed time</entry>
+          <entry> <m:math>
+            <m:mrow>
+              <m:mi>Δ</m:mi><m:mi>t</m:mi><m:mo>=</m:mo><m:mi>γ</m:mi><m:mi>Δ</m:mi><m:msub>
+                <m:mi>t</m:mi>
+                <m:mn>0</m:mn>
+              </m:msub>
+
+            </m:mrow>
+          </m:math>
+          </entry>
+        </row>
+        <row>
+          <entry>relativistic factor</entry>
+          <entry> <m:math>
+            <m:mrow>
+              <m:mi>γ</m:mi><m:mo>=</m:mo><m:mfrac>
+                <m:mn>1</m:mn>
+                <m:mrow>
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>u</m:mi></m:mstyle>
+                            <m:mn>2</m:mn>
+                          </m:msup>
+
+                        </m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>c</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:msup>
+
+                        </m:mrow>
+                      </m:mfrac>
+
+                    </m:mrow>
+                  </m:msqrt>
+
+                </m:mrow>
+              </m:mfrac>
+
+            </m:mrow>
+          </m:math>
+          </entry>
+        </row>
+        <row>
+          <entry>length contraction</entry>
+          <entry> <m:math>
+            <m:mrow>
+              <m:mi>L</m:mi><m:mo>=</m:mo><m:mfrac>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>L</m:mi>
+                    <m:mn>0</m:mn>
+                  </m:msub>
+
+                </m:mrow>
+                <m:mi>γ</m:mi>
+              </m:mfrac>
+
+            </m:mrow>
+          </m:math>
+          </entry>
+        </row>
+        <row>
+          <entry>relativistic momentum</entry>
+          <entry> <m:math>
+            <m:mrow>
+              <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle><m:mo>=</m:mo><m:mi>γ</m:mi><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>u</m:mi></m:mstyle>
+            </m:mrow>
+          </m:math>
+          </entry>
+        </row>
+        <row>
+          <entry>relativistic energy</entry>
+          <entry> <m:math>
+            <m:mrow>
+              <m:mi>E</m:mi><m:mo>=</m:mo><m:mi>γ</m:mi><m:mi>m</m:mi><m:msup>
+                <m:mi>c</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+
+            </m:mrow>
+          </m:math>
+          </entry>
+        </row>
+        <row>
+          <entry>rest energy</entry>
+          <entry> <m:math>
+            <m:mrow>
+              <m:msub>
+                <m:mi>E</m:mi>
+                <m:mn>0</m:mn>
+              </m:msub>
+              <m:mo>=</m:mo><m:mi>m</m:mi><m:msup>
+                <m:mi>c</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+
+            </m:mrow>
+          </m:math> </entry>
+        </row>
+      </tbody>
+</tgroup>
+</table></section><section id="fs-id1164354590430" class="concept"><title>Concept Items</title><exercise id="fs-id1164354666684" class="os-exercise">
+      <problem id="fs-id1164354625912">
+        <para id="fs-id1164354625914">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch10-ex028"/>
+        </para>
+      </problem>
+    </exercise>
+
+
+<exercise id="eip-id1166850258841" class="os-exercise">
+<problem id="eip-id1166850258845">
+<para id="eip-id1166845424229">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch10-ot022"/>
+</para>
+</problem>
+</exercise>
+
+<exercise id="eip-id1166845424240" class="os-exercise">
+<problem id="eip-id1166847280738">
+<para id="fs-id1164566442268">A comet reaches its greatest speed as it travels near the sun. True or false Relativistic effects make the comets tail look longer to an observer on Earth.</para>
+<list id="fs-id1164564836742" list-type="enumerated" number-style="lower-alpha">
+<item>True</item>
+<item>False</item></list>
+<!--<para id="eip-id1166847280740">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch10-ot024"/>
+</para>-->
+</problem>
+</exercise></section><section id="fs-id1167067231930" class="critical-thinking"><title>Critical Thinking</title><exercise id="fs-id1164353574298" class="os-exercise">
+      <problem id="fs-id1164353591672">
+<para id="fs-id1164566823502">Halleys Comet comes near Earth every 75 years as it travels around its 22 billion km orbit at a speed of up to 700, 000 m/s. If it were possible to put a clock on the comet and read it each time the comet passed, which part of special relativity theory could be tested? What would be the expected result? Explain.</para>
+<list id="fs-id1164565210023" list-type="enumerated" number-style="lower-alpha">
+<item>It would test time dilation. The clock would appear to be slightly slower.</item>
+<item>It would test time dilation. The clock would appear to be slightly faster.</item>
+<item>It would test length contraction. The length of the orbit would appear to be shortened from Earths frame of reference.</item>
+<item>It would test length contraction. The length of the orbit would appear to be shortened from the comets frame of reference.</item></list>
+<!--        <para id="fs-id1164353591674">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch10-ex029"/>
+        </para>-->
+      </problem>
+    </exercise>
+
+<exercise id="eip-id1166845368600" class="os-exercise">
+<problem id="eip-id1166847527083">
+<para id="fs-id1164563160854">The nucleus of the isotope fluorine-18 (<sup>18</sup> F) has mass defect of 2.44×10<sup>-28</sup> kg. What is the binding energy of <sup>18</sup>F?</para>
+<list id="fs-id1164565120257" list-type="enumerated" number-style="lower-alpha">
+<item>2.2×10<sup>-11</sup> J</item>
+<item>7.3×10<sup>-20</sup> J</item>
+<item>2.2×10<sup>-20</sup> J</item>
+<item>2.4×10<sup>-28</sup> J</item></list>
+<!--<para id="eip-id1166847527085">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch10-ot018"/>
+</para>-->
+</problem>
+</exercise></section><section id="fs-id1164353579527" class="problems">
+    <title>Problems</title>
+    <exercise id="fs-id1164354921930" class="os-exercise">
+      <problem id="fs-id1164354921933">
+<para id="fs-id1164559069472">Deuterium (2 H) is an isotope of hydrogen that has one proton and one neutron in its nucleus. The binding energy of deuterium is 3.56×10<sup>-13</sup> J. What is the mass defect of deuterium?</para>
+<list id="fs-id1164563560221" list-type="enumerated" number-style="lower-alpha">
+	<item>3.20×10<sup>-4</sup> kg</item>
+<item>1.68×10<sup>-6</sup> kg</item>
+<item>1.19×10<sup>-21</sup> kg</item>
+<item>3.96×10<sup>-30</sup> kg</item></list>
+<!--        <para id="fs-id1164354614831">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch10-ex030"/>
+        </para>-->
+      </problem>
+    </exercise>
+    <exercise id="fs-id1164354564230" class="os-exercise">
+      <problem id="fs-id1164354539390">
+<para id="fs-id1164562132524">The sun orbits the center of the galaxy at a speed of 2.3×10<sup>5</sup> m/s. The diameter of the sun is 1.391684×109 m. An observer is in a frame of reference that is stationary with respect to the center of the galaxy. True or falseThe sun is moving fast enough for the observer to notice length contraction of the suns diameter.</para>
+<list id="fs-id1164565278822" list-type="enumerated" number-style="lower-alpha">
+<item>True</item>
+<item>False</item></list>
+<!--        <para id="fs-id1164354539393">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch10-ex031"/>
+        </para>-->
+      </problem>
+    </exercise>
+
+<exercise id="fs-id1163727221130">
+<problem id="fs-id1163727231213">
+<para id="fs-id1163727231215">Consider the nuclear fission reaction  <m:math>
+ <m:mrow>
+  <m:mi>n</m:mi><m:mo>+</m:mo><m:mmultiscripts>
+   <m:mi>U</m:mi>
+   <m:mprescripts/>
+   <m:mrow>
+    <m:mn>92</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>235</m:mn>
+   </m:mrow>
+  </m:mmultiscripts>
+  <m:mo>→</m:mo><m:mmultiscripts>
+   <m:mi>B</m:mi>
+   <m:mprescripts/>
+   <m:mrow>
+    <m:mn>56</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>144</m:mn>
+   </m:mrow>
+  </m:mmultiscripts>
+  <m:mi>a</m:mi><m:mo>+</m:mo><m:mmultiscripts>
+   <m:mi>K</m:mi>
+   <m:mprescripts/>
+   <m:mrow>
+    <m:mn>36</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>89</m:mn>
+   </m:mrow>
+  </m:mmultiscripts>
+  <m:mi>r</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>n</m:mi><m:mo>+</m:mo><m:mi>E</m:mi>
+ </m:mrow>
+</m:math> . If a neutron has a rest mass of 1.009u,  <m:math>
+ <m:mrow>
+  <m:mmultiscripts>
+   <m:mi>U</m:mi>
+   <m:mprescripts/>
+   <m:mrow>
+    <m:mn>92</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>235</m:mn>
+   </m:mrow>
+  </m:mmultiscripts>
+
+ </m:mrow>
+</m:math>  has a rest mass of 235.044u,  <m:math>
+ <m:mrow>
+  <m:mmultiscripts>
+   <m:mi>B</m:mi>
+   <m:mprescripts/>
+   <m:mrow>
+    <m:mn>56</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>144</m:mn>
+   </m:mrow>
+  </m:mmultiscripts>
+  <m:mi>a</m:mi>
+ </m:mrow>
+</m:math>  has rest mass of 143.923u, and  <m:math>
+ <m:mrow>
+  <m:mmultiscripts>
+   <m:mi>K</m:mi>
+   <m:mprescripts/>
+   <m:mrow>
+    <m:mn>36</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>89</m:mn>
+   </m:mrow>
+  </m:mmultiscripts>
+  <m:mi>r</m:mi>
+ </m:mrow>
+</m:math>  has a rest mass of 88.918u, what is the value of <emphasis effect="italics">E</emphasis> in joules?</para>
+<list id="fs-id1163727340290" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item> <m:math>
+ <m:mrow>
+  <m:mn>1.8</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>11</m:mn>
+   </m:mrow>
+  </m:msup>
+
+ </m:mrow>
+</m:math> J</item>
+<item> <m:math>
+ <m:mrow>
+  <m:mn>2.8</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>11</m:mn>
+   </m:mrow>
+  </m:msup>
+
+ </m:mrow>
+</m:math> J</item>
+<item> <m:math>
+ <m:mrow>
+  <m:mn>1.8</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>10</m:mn>
+   </m:mrow>
+  </m:msup>
+
+ </m:mrow>
+</m:math> J</item>
+<item> <m:math>
+ <m:mrow>
+  <m:mn>3.3</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>10</m:mn>
+   </m:mrow>
+  </m:msup>
+
+ </m:mrow>
+</m:math> J</item>
+</list>
+</problem>
+<solution id="fs-id1163723668938">
+<para id="fs-id1163727215904">The correct answer is (b). The mass deficit in the reaction is  <m:math>
+ <m:mrow>
+  <m:mn>235.044</m:mn><m:mspace width="0.3em"/><m:mtext>u</m:mtext><m:mo>−</m:mo><m:mrow><m:mo>[</m:mo> <m:mrow>
+   <m:mn>143.923</m:mn><m:mo>+</m:mo><m:mn>88.918</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mn>1.009</m:mn>
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow>
+  </m:mrow> <m:mo>]</m:mo></m:mrow><m:mtext>u</m:mtext>
+ </m:mrow>
+</m:math>, or 0.185u. Converting that mass to kg and applying  <m:math>
+ <m:mrow>
+  <m:mi>E</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:msup>
+   <m:mi>c</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+
+ </m:mrow>
+</m:math>  to find the energy equivalent of the mass deficit gives  <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>0.185</m:mn><m:mspace width="0.3em"/><m:mtext>u</m:mtext>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>1.66</m:mn><m:mo>×</m:mo><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn>
+     </m:mrow>
+     <m:mrow>
+      <m:mo>−</m:mo><m:mn>27</m:mn>
+     </m:mrow>
+    </m:msup>
+    <m:mtext>kg/u</m:mtext>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:msup>
+   <m:mrow>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mn>3.00</m:mn><m:mo>×</m:mo><m:msup>
+       <m:mrow>
+        <m:mn>10</m:mn>
+       </m:mrow>
+       <m:mn>8</m:mn>
+      </m:msup>
+      <m:mtext>m/s</m:mtext>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>≅</m:mo><m:mn>2.76</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>11</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mtext>J</m:mtext>
+ </m:mrow>
+</m:math> .</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163727052823">
+<problem id="fs-id1163727052825">
+<para id="fs-id1163727052827">Consider the nuclear fusion reaction  <m:math>
+ <m:mrow>
+  <m:mmultiscripts>
+   <m:mi>H</m:mi>
+   <m:mprescripts/>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mmultiscripts>
+  <m:mo>+</m:mo><m:mmultiscripts>
+   <m:mi>H</m:mi>
+   <m:mprescripts/>
+   <m:mn>1</m:mn>
+   <m:mn>3</m:mn>
+  </m:mmultiscripts>
+  <m:mo>→</m:mo><m:mmultiscripts>
+   <m:mi>H</m:mi>
+   <m:mprescripts/>
+   <m:mn>2</m:mn>
+   <m:mn>4</m:mn>
+  </m:mmultiscripts>
+  <m:mi>e</m:mi><m:mo>+</m:mo><m:mi>n</m:mi><m:mo>+</m:mo><m:mi>E</m:mi>
+ </m:mrow>
+</m:math> . If  <m:math>
+ <m:mrow>
+  <m:mmultiscripts>
+   <m:mi>H</m:mi>
+   <m:mprescripts/>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mmultiscripts>
+
+ </m:mrow>
+</m:math>  has a rest mass of 2.014u,  <m:math>
+ <m:mrow>
+  <m:mmultiscripts>
+   <m:mi>H</m:mi>
+   <m:mprescripts/>
+   <m:mn>1</m:mn>
+   <m:mn>3</m:mn>
+  </m:mmultiscripts>
+
+ </m:mrow>
+</m:math>  has a rest mass of 3.016u,  <m:math>
+ <m:mrow>
+  <m:mmultiscripts>
+   <m:mi>H</m:mi>
+   <m:mprescripts/>
+   <m:mn>2</m:mn>
+   <m:mn>4</m:mn>
+  </m:mmultiscripts>
+  <m:mi>e</m:mi>
+ </m:mrow>
+</m:math>  has a rest mass of 4.003u, and a neutron has a rest mass of 1.009u, what is the value of <emphasis effect="italics">E</emphasis> in joules?</para>
+<list id="fs-id1163727241553" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item> <m:math>
+ <m:mrow>
+  <m:mn>2.7</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>14</m:mn>
+   </m:mrow>
+  </m:msup>
+
+ </m:mrow>
+</m:math> J</item>
+<item> <m:math>
+ <m:mrow>
+  <m:mn>2.7</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>13</m:mn>
+   </m:mrow>
+  </m:msup>
+
+ </m:mrow>
+</m:math> J</item>
+<item> <m:math>
+ <m:mrow>
+  <m:mn>2.7</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>12</m:mn>
+   </m:mrow>
+  </m:msup>
+
+ </m:mrow>
+</m:math> J</item>
+<item> <m:math>
+ <m:mrow>
+  <m:mn>2.7</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>11</m:mn>
+   </m:mrow>
+  </m:msup>
+
+ </m:mrow>
+</m:math> J</item>
+</list>
+</problem>
+<solution id="fs-id1163727174666">
+<para id="fs-id1163727174668">The correct answer is (c). The mass deficit in the reaction is  <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>2.014</m:mn><m:mo>+</m:mo><m:mn>3.016</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mtext>u</m:mtext><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>4.003</m:mn><m:mo>+</m:mo><m:mn>1.009</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mtext>u</m:mtext>
+ </m:mrow>
+</m:math>, or 0.018u. Converting that mass to kg and applying  <m:math>
+ <m:mrow>
+  <m:mi>E</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:msup>
+   <m:mi>c</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+
+ </m:mrow>
+</m:math>  to find the energy equivalent of the mass deficit gives  <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>0.018</m:mn><m:mspace width="0.3em"/><m:mtext>u</m:mtext>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>1.66</m:mn><m:mo>×</m:mo><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn>
+     </m:mrow>
+     <m:mrow>
+      <m:mo>−</m:mo><m:mn>27</m:mn>
+     </m:mrow>
+    </m:msup>
+    <m:mtext>kg/u</m:mtext>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:msup>
+   <m:mrow>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mn>3.00</m:mn><m:mo>×</m:mo><m:msup>
+       <m:mrow>
+        <m:mn>10</m:mn>
+       </m:mrow>
+       <m:mn>8</m:mn>
+      </m:msup>
+      <m:mtext>m/s</m:mtext>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>≅</m:mo><m:mn>2.69</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>12</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mtext>J</m:mtext>
+ </m:mrow>
+</m:math> .</para>
+</solution>
+</exercise>
+
+  </section>
+
+  <section id="fs-id1164354585105" class="multiple-choice"><title>Test Prep Multiple Choice</title><exercise id="fs-id1164354631727" class="os-exercise">
+      <problem id="fs-id1164354554924">
+<para id="fs-id1164565280138">What does this expression represent:  <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:msqrt>
+     <m:mrow>
+      <m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac>
+       <m:mrow>
+        <m:msup>
+         <m:mi>u</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+
+       </m:mrow>
+       <m:mrow>
+        <m:msup>
+         <m:mi>c</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:msqrt>
+
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </para>
+<list id="fs-id1164562433318" list-type="enumerated" number-style="lower-alpha">
+<item>time dilation</item>
+<item>relativistic factor</item>
+<item>relativistic energy</item>
+<item>length contraction</item></list>
+<!--        <para id="fs-id1164354554926">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch10-ex033"/>
+        </para>-->
+      </problem>
+    </exercise>
+    <exercise id="fs-id1164354619224" class="os-exercise">
+      <problem id="fs-id1164354619227">
+<para id="fs-id1164563524162">What is the rest energy, E<sub>0</sub>, of an object with a mass of 1.00 g ?</para>
+<list id="fs-id1164564872593" list-type="enumerated" number-style="lower-alpha">
+<item>3.00×10<sup>5</sup> J</item>
+<item>3.00×10<sup>11</sup> J</item>
+<item>9.00×10<sup>13</sup> J</item>
+<item>9.00×10<sup>16</sup> J</item></list>
+<!--        <para id="fs-id1164354619229">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch10-ex034"/>
+        </para>-->
+      </problem>
+    </exercise>
+
+<exercise id="eip-id1166848749098" class="os-exercise">
+<problem id="eip-id1166851010570">
+<para id="fs-id1164566506473">The fuel rods in a nuclear reactor must be replaced from time to time because so much of the radioactive material has reacted that they can no longer produce energy. How would the mass of the spent fuel rods compare to their mass when they were new? Explain your answer.</para>
+<list id="fs-id1164565004035" list-type="enumerated" number-style="lower-alpha">
+<item>The mass of the spent fuel rods would decrease.</item>
+<item>The mass of the spent fuel rods would increase.</item>
+<item>The mass of the spent fuel rods would remain the same.</item>
+<item>The mass of the spent fuel rods would become close to zero.</item></list>
+<!--<para id="eip-id1166851010572">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch10-ot026"/>
+</para>-->
+</problem>
+</exercise></section><section id="fs-id1164353484460" class="short-answer">
+    <title>Test Prep Short Answer</title>
+    <exercise id="fs-id1164354876108" class="os-exercise">
+      <problem id="fs-id1164354604464">
+<para id="fs-id1164561092504">What is the relationship between the binding energy and the mass defect of an atomic nucleus?</para>
+<list id="fs-id1164558741727" list-type="enumerated" number-style="lower-alpha">
+<item>The binding energy is the energy equivalent of the mass defect, as given by E0 = mc.</item>
+<item>The binding energy is the energy equivalent of the mass defect, as given by E0 = mc<sup>2</sup>.</item>
+<item>The binding energy is the energy equivalent of the mass defect, as given by  <m:math>
+ <m:msub>
+  <m:mi>E</m:mi>
+  <m:mn>0</m:mn>
+ </m:msub>
+ <m:mo>=</m:mo><m:mfrac>
+  <m:mi>m</m:mi>
+  <m:mi>c</m:mi>
+ </m:mfrac>
+
+</m:math> </item>
+<item>The binding energy is the energy equivalent of the mass defect, as given by  <m:math>
+ <m:msub>
+  <m:mi>E</m:mi>
+  <m:mn>0</m:mn>
+ </m:msub>
+ <m:mo>=</m:mo><m:mfrac>
+  <m:mi>m</m:mi>
+  <m:mrow>
+   <m:msup>
+    <m:mi>c</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+
+  </m:mrow>
+ </m:mfrac>
+ <m:mo>.</m:mo>
+</m:math>
+</item></list>
+
+<!--        <para id="fs-id1164354604466">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch10-ex035"/>
+        </para>-->
+      </problem>
+    </exercise>
+    <exercise id="fs-id1164354590768" class="os-exercise">
+      <problem id="fs-id1164353375969">
+<para id="fs-id1164562314601">True or falseIt is possible to just use the relationships <emphasis effect="italics">F</emphasis> = <emphasis effect="italics">ma</emphasis> and <emphasis effect="italics">E</emphasis> = <emphasis effect="italics">Fd</emphasis> to show that both sides of the equation E<sub>0</sub> = mc<sup>2</sup> have the same units.</para>
+<list id="fs-id1164566856873" list-type="enumerated" number-style="lower-alpha">
+<item>True</item>
+<item>False</item></list>
+<!--        <para id="fs-id1164353375971">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch10-ex036"/>
+        </para>-->
+      </problem>
+    </exercise>
+    <exercise id="fs-id1164354871620" class="os-exercise">
+      <problem id="fs-id1164354871623">
+        <para id="fs-id1164353440847">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch10-ex037"/>
+        </para>
+      </problem>
+    </exercise>
+    <exercise id="fs-id1164353588416" class="os-exercise">
+      <problem id="fs-id1164354659339">
+<para id="fs-id1164560820884">The sun loses about 4 × 10<sup>9</sup> kg of mass every second. Explain in terms of special relativity why this is happening.</para>
+<list id="fs-id1164559088312" list-type="enumerated" number-style="lower-alpha">
+<item>The sun loses mass because of its high temperature.</item>
+<item>The sun loses mass because it is continuously releasing energy.</item>
+<item>The Sun loses mass because the diameter of the sun is contracted.</item>
+<item>The sun loses mass because the speed of the sun is very high and close to the speed of light.</item>
+</list>
+<!--        <para id="fs-id1164354659341">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch10-ex038"/>
+        </para>-->
+      </problem>
+    </exercise>
+  </section>
+  <section id="fs-id1164353443032" class="extended-response">
+    <title>Test Prep Extended Response</title>
+    <exercise id="fs-id1164353342606" class="os-exercise">
+      <problem id="fs-id1164353342609">
+<para id="fs-id1164566730265">A helium-4 nucleus is made up of two neutrons and two protons. The binding energy of helium-4 is 4.53×10<sup>-12</sup> J. What is the difference in the mass of this helium nucleus and the sum of the masses of two neutrons and two protons? Which weighs more, the nucleus or its constituents?</para>
+<list id="fs-id1164565155479" list-type="enumerated" number-style="lower-alpha">
+<item>1.51×10<sup>-20</sup> kg; the constituents weigh more</item>
+<item>5.03×10<sup>-29</sup> kg; the constituents weigh more</item>
+<item>1.51×10<sup>-29</sup> kg; the nucleus weighs more</item>
+<item>5.03×10<sup>-29</sup> kg; the nucleus weighs more</item></list>
+<!--        <para id="fs-id1164353342611">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch10-ex039"/>
+        </para>-->
+      </problem>
+    </exercise>
+    <exercise id="fs-id1164353442118" class="os-exercise">
+      <problem id="fs-id1164353442122">
+<para id="fs-id1164565195674">Use the equation for length contraction to explain the relationship between the length of an object perceived by a stationary observer who sees the object as moving, and the proper length of the object as measured in the frame of reference where it is at rest.</para>
+<list id="fs-id1164562182856" list-type="enumerated" number-style="lower-alpha">
+<item>As the speed <emphasis effect="italics">v</emphasis> of an object moving with respect to a stationary observer approaches <emphasis effect="italics">c</emphasis>, the length perceived by the observer approaches zero. For other speeds, the length perceived is always less than the proper length.</item>
+<item>As the speed <emphasis effect="italics">v</emphasis> of an object moving with respect to a stationary observer approaches <emphasis effect="italics">c</emphasis>, the length perceived by the observer approaches zero. For other speeds, the length perceived is always greater than the proper length.</item>
+<item>As the speed <emphasis effect="italics">v</emphasis> of an object moving with respect to a stationary observer approaches <emphasis effect="italics">c</emphasis>, the length perceived by the observer approaches infinity. For other speeds, the length perceived is always less than the proper length.</item>
+<item>As the speed <emphasis effect="italics">v</emphasis> of an object moving with respect to a stationary observer approaches <emphasis effect="italics">c</emphasis>, the length perceived by the observer approaches infinity. For other speeds, the length perceived is always greater than the proper length.</item></list>
+<!--        <para id="fs-id1164354610109">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch10-ex040"/>
+        </para>-->
+      </problem>
+    </exercise>
+  </section>
+ <section id="fs-id1164354609970" class="performance"><title>Performance Task</title><exercise id="fs-id1164354956683"><label/>
+      <problem id="fs-id1164354956685">
+        <para id="fs-id1164354956687">People are fascinated by the possibility of traveling across the universe to discover intelligent life on other planets. To do this, we would have to travel enormous distances. Suppose we could somehow travel at up to 90 percent of the speed of light. The closest star is Alpha Centauri, which is 4.37 light years away. (A light year is the distance light travels in one year.)</para>
+        <list id="fs-id1164354532122" list-type="enumerated" number-style="lower-alpha">
+          <item>How long, from the point of view of people on Earth, would it take a space ship to travel to Alpha Centauri and back at 0.9<emphasis effect="italics">c</emphasis>?</item>
+          <item>How much would the astronauts on the spaceship have aged by the time they got back to Earth?</item>
+          <item>Discuss the problems related to travel to stars that are 20 or 30 light years away. Assume travel speeds near the speed of light. </item>
+        </list>
+      </problem>
+    </exercise>
+  </section></content>
+  <glossary>
+    <definition id="fs-id1164353581194"><term>binding energy</term> <meaning id="fs-id1164354519686">the energy equivalent of the difference between the mass of a nucleus and the masses of its nucleons</meaning></definition>
+    <definition id="fs-id1164354519689"><term>length contraction</term> <meaning id="fs-id1164353440106">the shortening of an object as seen by an observer who is moving relative to the frame of reference of the object</meaning></definition>
+    <definition id="fs-id1164353440111"><term>mass defect</term> <meaning id="fs-id1164353372709">the difference between the mass of a nucleus and the masses of its nucleons</meaning></definition>
+    <definition id="fs-id1164353593247"><term>proper length</term> <meaning id="fs-id1164353593251">the length of an object within its own frame of reference, as opposed to the length observed by an observer moving relative to that frame of reference</meaning></definition>
+    <definition id="fs-id1164353585641"><term>relativistic</term> <meaning id="fs-id1164354562340">having to do with modern relativity, such as the effects that become significant only when an object is moving close enough to the speed of light for <m:math>
+      <m:mrow>
+        <m:mtext>γ</m:mtext>
+      </m:mrow>
+    </m:math> to be significantly greater than 1</meaning></definition>
+    <definition id="fs-id1164353405443"><term>relativistic energy</term> <meaning id="fs-id1164354921574">the total energy of a moving object or particle <m:math>
+      <m:mrow>
+        <m:mi>E</m:mi><m:mo>=</m:mo><m:mi>γ</m:mi><m:mi>m</m:mi><m:msup>
+          <m:mi>c</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mtext>,</m:mtext>
+      </m:mrow>
+    </m:math>  which includes both its rest energy <emphasis effect="italics">mc</emphasis><sup>2</sup> and its kinetic energy</meaning></definition>
+    <definition id="fs-id1164354528225"><term>relativistic factor</term><meaning id="fs-id1164353581916"> <m:math>
+      <m:mrow>
+        <m:mi>γ</m:mi><m:mo>=</m:mo><m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mrow>
+            <m:msqrt>
+              <m:mrow>
+                <m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>u</m:mi></m:mstyle>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+
+                  </m:mrow>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>c</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+
+                  </m:mrow>
+                </m:mfrac>
+
+              </m:mrow>
+            </m:msqrt>
+
+          </m:mrow>
+        </m:mfrac>
+
+      </m:mrow>
+    </m:math>, where <emphasis>u</emphasis> is the velocity of a moving object and <emphasis effect="italics">c</emphasis> is the speed of light</meaning></definition>
+    <definition id="fs-id1164353591334"><term>relativistic momentum</term> <meaning id="fs-id1164354587352"><emphasis>p =</emphasis> <emphasis effect="italics">γm</emphasis><emphasis>u</emphasis>, where <m:math>
+      <m:mrow>
+        <m:mtext>γ</m:mtext>
+      </m:mrow>
+    </m:math> is the relativistic factor, <emphasis effect="italics">m</emphasis> is rest mass of an object, and <emphasis>u</emphasis> is the velocity relative to an observer</meaning></definition>
+    <definition id="fs-id1164354656443"><term>rest mass</term> <meaning id="fs-id1164354600692">the mass of an object that is motionless with respect to its frame of reference</meaning></definition>
+    <definition id="fs-id1164354600695"><term>time dilation</term> <meaning id="fs-id1164354600700">the contraction of time as seen by an observer in a frame of reference that is moving relative to the observer</meaning> </definition>
+  </glossary>
+
+</document>

@@ -1,0 +1,38 @@
+<document xmlns="http://cnx.rice.edu/cnxml" class="introduction">
+
+<title>Introduction</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54277</md:content-id>
+  <md:title>Introduction</md:title>
+  <md:abstract/>
+  <md:uuid>a19303c8-a34a-42f0-824c-9d2b789de384</md:uuid>
+</metadata>
+
+<content><figure id="fs-id1164353487675" class="splash"><media id="fs-id1164354953984" alt="A photo shows a star system, the Orion Nebula.">
+      <image src="../../media/CNX_HSPhysics_10_00_space.jpg" mime-type="image/jpg"/>
+    </media>
+
+  <caption>Special relativity explains why travel to other star systems, such as these in the Orion Nebula, is unlikely using our current level of technology. (s58y, Flickr)</caption></figure><note id="fs-id1164354671303" class="os-teacher">
+    <title>Teacher Support</title>
+    <para id="fs-id1164353346960">Start a discussion that taps into the longing of humans to explore worlds beyond our planet. Is this basic human nature? Perhaps it is; humans have now been almost everywhere there is to go on this planet. Ask students why we have not traveled to other star systems yet. Is it just a matter waiting a few years for technological advances, or is there a more daunting problem? If no one knows, tell them it all has to do with achievable speeds, and use this as a lead-in to Einstein’s postulate related to the speed of light.</para>
+    </note>
+  <para id="fs-id1164353487918">Have you ever dreamed of traveling to other planets in faraway star systems? The trip might seem possible by traveling fast enough, but you will read in this chapter why it is not. In 1905, Albert Einstein developed the theory of <term>special relativity</term>. Einstein developed the theory to help explain inconsistencies between the equations describing electromagnetism and Newtonian mechanics, and to explain why the ether did not exist. This theory explains the limit on an object’s speed among other implications.</para>
+  <para id="fs-id1164354629185"><term>Relativity</term> is the study of how different observers moving with respect to one another measure the same events. Galileo and Newton developed the first correct version of classical relativity. Einstein developed the modern theory of relativity. Modern relativity is divided into two parts. Special relativity deals with observers moving at constant velocity. <term>General relativity</term> deals with observers moving at constant acceleration. Einstein’s theories of relativity made revolutionary predictions. Most importantly, his predictions have been verified by experiments.</para>
+  <para id="fs-id1164353488108">In this chapter, you learn how experiments and puzzling contradictions in existing theories led to the development of the theory of special relativity. You will also learn the simple postulates on which the theory was based; a postulate is a statement that is assumed to be true for the purposes of reasoning in a scientific or mathematic argument.</para>
+    <note id="fs-id1164354625460" class="os-teacher">
+      <title>Teacher Support</title>
+      <para id="fs-id1164353340744">Before students begin this chapter, it is useful to review the following concepts: </para>
+      <list id="fs-id1164354659531">
+        <item>Using significant figures in calculations—Demonstrate how to use the proper number of significant figures when adding and multiplying. </item>
+        <item>Using scientific notation in calculations—Demonstrate how to use the proper scientific notation and operations in scientific notation (e.g., addition/subtraction, multiplication/division).</item>
+        <item>Converting units—Demonstrate how to convert from km/h to m/s. </item>
+        <item>Calculating average—Demonstrate how to average two numbers by dividing their sum by 2. </item>
+        <item>Reviewing the difference between mass and weight.</item>
+        <item>Commonly used terms—Explain that constant means <emphasis effect="italics">unchanging</emphasis>. Constant speed refers to speed that is not changing. Explain that initial means <emphasis effect="italics">starting</emphasis>. Initial time is the time at which the action of a problem begins. Explain that an object that is not moving is often described in physics as being at rest.</item>
+      </list>
+        <para id="fs-id1164354658333">To reinforce this description, and to open the door for a discussion of frame of reference, take an object, place it in front of the class, and ask someone to describe its motion. Students will likely respond that the object is at rest. Explain that this correct, but it is not the only correct answer. Help students to understand that the object is sitting still but also moving at a high rate of speed as the earth rotates, orbits the sun, etc. It all depends on how you define the frame of reference.</para>
+        <para id="fs-id1164354632885">Initiate a discussion aimed at making relativity theory less intimidating. Dispel the misconception that “Only three people in the world understand Einstein’s theories.” Stories like this come about because Einstein’s second relativity theory, called <emphasis effect="italics">general relativity</emphasis>, was more difficult to understand. In this chapter, we will only learn about special relativity. </para>
+      </note>
+</content>
+
+</document>

@@ -1,0 +1,1096 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Temperature and Thermal Energy</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54287</md:content-id>
+  <md:title>Temperature and Thermal Energy</md:title>
+  <md:abstract/>
+  <md:uuid>d30b7f93-855c-4e84-a5c3-d2084fda013e</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167064691960" class="learning-objectives"><label/><title>Section Learning Objectives</title>
+<para id="fs-id1167065802904">By the end of this section, you will be able to do the following:</para>
+<list id="fs-id1167066029156">
+<item>Explain that temperature is a measure of internal kinetic energy</item>
+<item>Interconvert temperatures between Celsius, Kelvin, and Fahrenheit scales</item>
+</list>
+</note><note id="fs-id1167064984537" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167062389890">The Learning Objectives in this section will help your students master the following standards:</para>
+<list id="fs-id1167064710271">
+<item>(6) Science concepts.
+The student knows that changes occur within a physical system and applies the laws of conservation of energy and momentum. The student is expected to:
+<list id="fs-id1167066061330"><item>
+<span>(E)</span>
+<span>describe how the macroscopic properties of a thermodynamic system such as temperature, specific heat, and pressure are related to the molecular level of matter, including kinetic or potential energy of atoms.</span>
+</item>
+</list></item>
+</list>
+<para id="fs-id1169317369442">In addition, the High School Physics Laboratory Manual addresses content in this section in the lab titled: Thermodynamics, as well as the following standards:</para><list id="fs-id1169317479956">
+<item>(6) Science concepts. The student knows that changes occur within a physical system and applies the laws of conservation of energy and momentum. The student is expected to:
+<list id="fs-id1169317333715"><item>
+<span>(E)</span>
+ <span>describe how the macroscopic properties of a thermodynamic system such as temperature, specific heat, and pressure are related to the molecular level of matter, including kinetic or potential energy of atoms;</span>
+</item>
+<item>
+<span>(G)</span>
+ <span>analyze and explain everyday examples that illustrate the laws of thermodynamics, including the law of conservation of energy and the law of entropy.</span>
+</item>
+</list></item>
+</list>
+</note>
+<section id="keyterms"><title>Section Key Terms</title>
+<table id="fs-id1167064876758" class="unnumbered unstyled section-key-terms" summary="no alt text">
+<label/>
+<tgroup cols="3">
+<tbody>
+<row>
+<entry>absolute zero</entry>
+<entry>Celsius scale</entry>
+<entry>degree Celsius  <m:math>
+ <m:mrow>
+<m:mtext>(</m:mtext>
+  <m:mtext>°C</m:mtext>
+ </m:mrow>
+<m:mtext>)</m:mtext>
+</m:math> </entry>
+<entry>thermal energy</entry>
+</row>
+<row>
+<entry>degree Fahrenheit  <m:math>
+ <m:mrow>
+<m:mtext>(</m:mtext>
+  <m:mtext>°F</m:mtext>
+<m:mtext>)</m:mtext>
+ </m:mrow>
+</m:math> </entry>
+<entry>Fahrenheit scale</entry>
+<entry>heat</entry>
+<entry/>
+
+</row>
+<row>
+<entry>kelvin (K)</entry>
+<entry>Kelvin scale</entry>
+<entry>temperature</entry>
+<entry/>
+</row>
+</tbody>
+</tgroup>
+</table></section>
+<note id="fs-id1167062343152" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065877117"><span>[BL]</span>
+<span>[OL]</span><span>[AL]</span> Check prior knowledge of terms such as heat, temperature, and temperature scales.</para>
+<para id="fs-id1167065879702"><span>[OL]</span> Ask students what contains more heat—a bucketful of warm water or a spoonful of boiling water. From this ask them to define heat. Ask them which one has a higher temperature.</para>
+
+
+<note id="fs-id1167062971268" class="misconception">
+
+<para id="fs-id1167065856772">Dispel any notions that heat content is solely dependent on temperature.</para>
+</note>
+</note>
+<section id="fs-id1167065738719"><title>Temperature</title><para id="fs-id1167065022892">What is <term>temperature</term>? It’s one of those concepts so ingrained in our everyday lives that, although we know what it means intuitively, it can be hard to define. It is tempting to say that temperature measures heat, but this is not strictly true. <term>Heat</term> is the transfer of energy due to a temperature difference. Temperature is defined in terms of the instrument we use to tell us how hot or cold an object is, based on a mechanism and scale invented by people. Temperature is literally defined as what we measure on a thermometer.</para>
+<para id="fs-id1167062954850">Heat is often confused with temperature. For example, we may say that the heat was unbearable, when we actually mean that the temperature was high. This is because we are sensitive to the flow of energy by heat, rather than the temperature. Since heat, like work, transfers energy, it has the SI unit of joule (J).</para>
+<para id="fs-id1167064894012">Atoms and molecules are constantly in motion, bouncing off one another in random directions. Recall that kinetic energy is the energy of motion, and that it increases in proportion to velocity squared. Without going into mathematical detail, we can say that <term>thermal energy</term>—the energy associated with heat—is the average kinetic energy of the particles (molecules or atoms) in a substance. Faster moving molecules have greater kinetic energies, and so the substance has greater thermal energy, and thus a higher temperature. The total internal energy of a system is the sum of the kinetic and potential energies of its atoms and molecules. Thermal energy is one of the subcategories of internal energy, as is chemical energy.</para>
+<note id="fs-id1167064948368" class="os-teacher"><title>Teacher Support</title><note id="fs-id1167065881911" class="teacher-demonstration">
+<para id="fs-id1167066091536">You can show that temperature is related to the kinetic energy of molecules by a simple demonstration. Take an eraser and rub it vigorously against any surface. Then feel it against your skin. Is it hot?</para>
+</note></note>
+<para id="fs-id1167065952731">To measure temperature, some scale must be used as a standard of measurement. The three most commonly used temperature scales are the Fahrenheit, Celsius, and Kelvin scales. Both the <term>Fahrenheit scale</term> and <term>Celsius scale</term> are relative temperature scales, meaning that they are made around a reference point. For example, the Celsius scale uses the freezing point of water as its reference point; all measurements are either lower than the freezing point of water by a given number of degrees (and have a negative sign), or higher than the freezing point of water by a given number of degrees (and have a positive sign). The boiling point of water is 100 <m:math>
+ <m:mrow>
+  <m:mtext>°C</m:mtext>
+ </m:mrow>
+</m:math>  for the Celsius scale, and its unit is the <term class="no-emphasis">degree Celsius  <m:math>
+ <m:mrow>
+<m:mtext>(</m:mtext>
+  <m:mtext>°C</m:mtext>
+ </m:mrow>
+</m:math> )</term>.</para>
+<para id="fs-id1167066097005">On the Fahrenheit scale, the freezing point of water is at 32 <m:math>
+ <m:mrow>
+  <m:mtext>°F</m:mtext>
+ </m:mrow>
+</m:math>, and the boiling point is at 212 <m:math>
+ <m:mrow>
+  <m:mtext>°F</m:mtext>
+ </m:mrow>
+</m:math> . The unit of temperature on this scale is the <term class="no-emphasis">degree Fahrenheit  <m:math>
+ <m:mrow>
+<m:mtext>(</m:mtext>
+  <m:mtext>°F</m:mtext>
+ </m:mrow>
+</m:math> )</term>. Note that the difference in degrees between the freezing and boiling points is greater for the Fahrenheit scale than for the Celsius scale. Therefore, a temperature difference of one degree Celsius is greater than a temperature difference of one degree Fahrenheit. Since 100 Celsius degrees span the same range as 180 Fahrenheit degrees, one degree on the Celsius scale is 1.8 times larger than one degree on the Fahrenheit scale (because  <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mn>180</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>100</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mn>9</m:mn>
+   <m:mn>5</m:mn>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>1.8</m:mn>
+ </m:mrow>
+</m:math> ). This relationship can be used to convert between temperatures in Fahrenheit and Celsius (see <link target-id="Figure_11_01_TempScale"/>).</para><figure id="Figure_11_01_TempScale">
+<media id="fs-id1167065739914" alt="Lines representing the temperature ranges from 0 to 373 K are shown for the Fahrenheit, Celsius, and Kelvin scales, with absolute zero, the freezing point of water, normal body temperature, and the boiling point of water marked on all three scales.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_11_01_TempScale.jpg"/>
+</media>
+<caption>Relationships between the Fahrenheit, Celsius, and Kelvin temperature scales, rounded to the nearest degree. The relative sizes of the scales are also shown.</caption>
+</figure>
+<para id="fs-id1167065911098">The <term>Kelvin scale</term> is the temperature scale that is commonly used in science because it is an absolute temperature scale. This means that the theoretically lowest-possible temperature is assigned the value of zero. Zero degrees on the Kelvin scale is known as <term>absolute zero</term>; it is theoretically the point at which there is no molecular motion to produce thermal energy. On the original Kelvin scale first created by Lord Kelvin, all temperatures have positive values, making it useful for scientific work. The official temperature unit on this scale is the <term class="no-emphasis">kelvin</term>, which is abbreviated as K. The freezing point of water is 273.15 K, and the boiling point of water is 373.15 K.</para>
+
+<note id="fs-id1167065850848" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065979882"><span>[BL]</span><span>[OL]</span><span>[AL]</span> Ask students in which case each scale would be most convenient to use.</para>
+</note>
+
+<para id="fs-id1167065792806">Although absolute zero is possible in theory, it cannot be reached in practice. The lowest temperature ever created and measured during a laboratory experiment was  <m:math>
+ <m:mrow>
+  <m:mn>1.0</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>10</m:mn>
+   </m:mrow>
+  </m:msup>
+  </m:mrow>
+</m:math>  K, at Helsinki University of Technology in Finland. In comparison, the coldest recorded temperature for a place on Earth’s surface was 183 K (<emphasis effect="italics">–</emphasis>89 	°C
+), at Vostok, Antarctica, and the coldest known place (outside the lab) in the universe is the Boomerang Nebula, with a temperature of 1 K. Luckily, most of us humans will never have to experience such extremes.</para>
+
+<note id="fs-id1167065974865" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066189017"><span>[AL]</span>Ask why absolute zero has never been recorded. Discuss if atoms and molecules can ever be completely motionless.</para>
+</note>
+
+<para id="fs-id1167062371951">The average normal body temperature is 98.6 <m:math>
+ <m:mrow>
+  <m:mtext>°F</m:mtext>
+ </m:mrow>
+</m:math>  (37.0 <m:math>
+ <m:mrow>
+  <m:mtext>°C</m:mtext>
+ </m:mrow>
+</m:math> ), but people have been known to survive with body temperatures ranging from 75 <m:math>
+ <m:mrow>
+  <m:mtext>°F</m:mtext>
+ </m:mrow>
+</m:math>  to 111 <m:math>
+ <m:mrow>
+  <m:mtext>°F</m:mtext>
+ </m:mrow>
+</m:math>  (24 <m:math>
+ <m:mrow>
+  <m:mtext>°C</m:mtext>
+ </m:mrow>
+</m:math>  to 44 <m:math>
+ <m:mrow>
+  <m:mtext>°C</m:mtext>
+ </m:mrow>
+</m:math> ).</para><note id="fs-id1167063786352" class="watch-physics"><title>Comparing Celsius and Fahrenheit Temperature Scales</title>
+
+
+<para id="fs-id1167067105266">This video shows how the Fahrenheit and Celsius temperature scales compare to one another.</para>
+
+<media id="fs-id1167067209545" alt="..." class="os-embed">
+<iframe width="660" height="371.4" src="https://www.openstax.org/l/02celfahtemp"/>
+</media>
+
+<exercise id="fs-id1167064646051" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167065859249">
+<para id="fs-id1167065894158">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex001"/>
+</para>
+</problem>
+</exercise>
+
+<note id="fs-id1167065740960" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167064908624">Students can use the process described in this video as a means of comparing different temperature scales. Point out to them that all they need to know are the temperatures on each scale of a single property, such as the boiling and freezing points of a liquid, whether it be water, ethanol, or tetrachloromethane.</para>
+</note>
+</note></section><section id="fs-id1167064853898"><title>Converting Between Celsius, Kelvin, and Fahrenheit Scales</title><para id="fs-id1167066200745">While the Fahrenheit scale is still the most commonly used scale in the United States, the majority of the world uses Celsius, and scientists prefer Kelvin. It’s often necessary to convert between these scales. For instance, if the TV meteorologist gave the local weather report in kelvins, there would likely be some confused viewers! <link target-id="fs-id1167065747083"/> gives the equations for conversion between the three temperature scales.</para><table id="fs-id1167065747083" summary="Left column of table is headed “To convert from…”, while right column heading is “Use this equation.” The left column lists six possible temperature scale conversions (e.g., Celsius to Fahrenheit), and the corresponding right column shows the equation for the conversion."><title>Temperature Conversions</title>
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row>
+<entry>To Convert From…</entry>
+<entry>Use This Equation</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>Celsius to Fahrenheit</entry>
+<entry> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>T</m:mi>
+   <m:mrow>
+    <m:mtext>°F</m:mtext>
+   </m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mn>9</m:mn>
+   <m:mn>5</m:mn>
+  </m:mfrac>
+  <m:msub>
+   <m:mi>T</m:mi>
+   <m:mrow>
+    <m:mtext>°C</m:mtext>
+   </m:mrow>
+  </m:msub>
+  <m:mo>+</m:mo><m:mn>32</m:mn>
+ </m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>Fahrenheit to Celsius</entry>
+<entry> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>T</m:mi>
+   <m:mrow>
+    <m:mtext>°C</m:mtext>
+   </m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mn>5</m:mn>
+   <m:mn>9</m:mn>
+  </m:mfrac>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msub>
+     <m:mi>T</m:mi>
+     <m:mrow>
+      <m:mtext>°F</m:mtext>
+     </m:mrow>
+    </m:msub>
+    <m:mn>−32</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>Celsius to Kelvin</entry>
+<entry> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>T</m:mi>
+   <m:mtext>K</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>T</m:mi>
+   <m:mrow>
+    <m:mtext>°C</m:mtext>
+   </m:mrow>
+  </m:msub>
+  <m:mo>+</m:mo><m:mtext> </m:mtext><m:mn>273.15</m:mn>
+ </m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>Kelvin to Celsius</entry>
+<entry> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>T</m:mi>
+   <m:mrow>
+    <m:mtext>°C</m:mtext>
+   </m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>T</m:mi>
+   <m:mtext>K</m:mtext>
+  </m:msub>
+  <m:mo>−</m:mo><m:mn>273.15</m:mn>
+ </m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>Fahrenheit to Kelvin </entry>
+<entry> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>T</m:mi>
+   <m:mtext>K</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mn>5</m:mn>
+   <m:mn>9</m:mn>
+  </m:mfrac>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msub>
+     <m:mi>T</m:mi>
+     <m:mrow>
+      <m:mtext>°F</m:mtext>
+     </m:mrow>
+    </m:msub>
+    <m:mo>−</m:mo><m:mn>32</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>273.15</m:mn>
+ </m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>Kelvin to Fahrenheit</entry>
+<entry> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>T</m:mi>
+   <m:mrow>
+    <m:mtext>°F</m:mtext>
+   </m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mn>9</m:mn>
+   <m:mn>5</m:mn>
+  </m:mfrac>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msub>
+     <m:mi>T</m:mi>
+     <m:mtext>K</m:mtext>
+    </m:msub>
+    <m:mo>−</m:mo><m:mn>273.15</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>32</m:mn>
+ </m:mrow>
+</m:math>
+</entry>
+</row>
+</tbody>
+
+</tgroup>
+</table><note id="fs-id1167065071550" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066155804">
+<span>[BL]</span><span>[OL]</span><span>[AL]</span> Ask students which is more—a difference of  <m:math>
+ <m:mrow>
+  <m:mn>5</m:mn><m:mspace width="0.25em"/><m:mtext>°F</m:mtext>
+ </m:mrow>
+</m:math>  or a difference of  <m:math>
+ <m:mrow>
+  <m:mn>5</m:mn><m:mspace width="0.25em"/><m:mtext>°C</m:mtext>
+ </m:mrow>
+</m:math> . Now ask them the same for  <m:math>
+ <m:mrow>
+  <m:mn>5</m:mn><m:mspace width="0.25em"/><m:mtext>°C</m:mtext>
+ </m:mrow>
+</m:math>  and  <m:math>
+ <m:mrow>
+  <m:mn>5</m:mn><m:mspace width="0.25em"/><m:mtext>°F</m:mtext>
+ </m:mrow>
+</m:math> . A difference in temperature for Kelvin and that for Celsius are the same. The same is not true for Celsius and Fahrenheit.</para>
+</note>
+
+<note id="fs-id1167065858372" class="worked-example"><title>Converting between Temperature Scales: Room Temperature</title>
+
+<exercise id="fs-id1167065893061" class="11-ex002 unnumbered"><label/>
+<problem id="fs-id1167065976312">
+<para id="fs-id1167066051447"><emphasis effect="italics">Room temperature</emphasis> is generally defined to be 25  <m:math>
+ <m:mrow>
+  <m:mtext>°C</m:mtext>
+<m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math>  (a) What is room temperature in  <m:math>
+ <m:mrow>
+  <m:mtext>°F</m:mtext>
+<m:mtext>?</m:mtext>
+ </m:mrow>
+</m:math>  (b) What is it in K?</para>
+
+<media id="fs-id1167064892001" alt="A thermometer is shown." display="block">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_11_01_Thermometr_img.jpg"/></media>
+
+<note id="fs-id1167064895459" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065895191">In an alcohol-in-glass thermometer, alcohol molecules absorb energy by heat, and as the intermolecular distances increase, the bulk alcohol expands. Ask students the temperature range for which this thermometer shows an accurate reading. Why is this the case? Ask them if it is possible to design a thermometer with any other substance. Why or why not?</para>
+</note>
+
+<note id="fs-id1167064641384"><label/><title>Strategy</title>
+
+<para id="fs-id1167066142588">To answer these questions, all we need to do is choose the correct conversion equations and plug in the known values.</para></note></problem>
+<solution id="fs-id1167065763737">
+<label/>
+<title>Solution for (a)</title>
+<list id="fs-id1167065919050" list-type="enumerated">
+<item>Choose the right equation. To convert from  <m:math>
+ <m:mrow>
+  <m:mtext>°C</m:mtext>
+ </m:mrow>
+</m:math>  to  <m:math>
+ <m:mrow>
+  <m:mtext>°F</m:mtext>
+ </m:mrow>
+</m:math>, use the equation
+<para id="fs-id1167065984334"><equation id="fs-id1164567895175"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>T</m:mi>
+   <m:mrow>
+    <m:mtext>°F</m:mtext>
+   </m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mn>9</m:mn>
+   <m:mn>5</m:mn>
+  </m:mfrac>
+  <m:msub>
+   <m:mi>T</m:mi>
+   <m:mrow>
+    <m:mtext>°C</m:mtext>
+   </m:mrow>
+  </m:msub>
+  <m:mo>+</m:mo><m:mn>32</m:mn>
+<m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math> </equation></para></item>
+<item>Plug the known value into the equation and solve.
+<para id="fs-id1167064529839"><equation id="fs-id1164567612866"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>T</m:mi>
+   <m:mrow>
+    <m:mtext>°F</m:mtext>
+   </m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mn>9</m:mn>
+   <m:mn>5</m:mn>
+  </m:mfrac>
+  <m:mn>25</m:mn><m:mspace width="0.25em"/><m:mtext>°C</m:mtext><m:mo>+</m:mo><m:mn>32</m:mn><m:mo>=</m:mo><m:mn>77</m:mn><m:mspace width="0.25em"/><m:mtext>°F</m:mtext>
+ </m:mrow>
+</m:math> </equation></para></item>
+</list>
+</solution>
+<solution id="fs-id1167064583645">
+<label/>
+<title>Solution for (b)</title>
+<list id="fs-id1167064799832" list-type="enumerated">
+<item>Choose the right equation. To convert from  <m:math>
+ <m:mrow>
+  <m:mtext>°C</m:mtext>
+ </m:mrow>
+</m:math>  to K, use the equation
+<para id="fs-id1167064850887"><equation id="fs-id1164567429376"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>T</m:mi>
+   <m:mtext>K</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>T</m:mi>
+   <m:mrow>
+    <m:mtext>°C</m:mtext>
+   </m:mrow>
+  </m:msub>
+  <m:mo>+</m:mo><m:mtext> </m:mtext><m:mn>273.15</m:mn>
+<m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math> </equation></para></item>
+<item>Plug the known value into the equation and solve.
+<para id="fs-id1167065853639"><equation id="fs-id1164567441760"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>T</m:mi>
+   <m:mtext>K</m:mtext>
+  </m:msub>
+  <m:mtext>= 25 °C + 273</m:mtext><m:mtext>.15 = 298K</m:mtext>
+ </m:mrow>
+</m:math> </equation></para></item>
+</list>
+</solution>
+<commentary id="fs-id1167062410699">
+<title>Discussion</title>
+<para id="fs-id1167065854560">Living in the United States, you are likely to have more of a sense of what the temperature feels like if it’s described as 77 <m:math>
+ <m:mrow>
+  <m:mtext>°F</m:mtext>
+ </m:mrow>
+</m:math>  than as 25 <m:math>
+ <m:mrow>
+  <m:mtext>°C</m:mtext>
+ </m:mrow>
+</m:math>  (or 298 K, for that matter).</para>
+</commentary>
+</exercise></note><note id="fs-id1167065882077" class="worked-example"><title>Converting Between Temperature Scales: The Reaumur Scale</title>
+<exercise id="fs-id1167065847714" class="11-ex003 unnumbered">
+<label/>
+<problem id="fs-id1167065968226">
+<para id="fs-id1167065893229">The Reaumur scale is a temperature scale that was used widely in Europe in the 18<sup>th</sup> and 19<sup>th</sup> centuries. On the Reaumur temperature scale, the freezing point of water is 0 <m:math>
+ <m:mrow>
+  <m:mtext>°R</m:mtext>
+ </m:mrow>
+</m:math>  and the boiling temperature is 80 <m:math>
+ <m:mrow>
+  <m:mo/><m:mtext>°R</m:mtext>
+<m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math>  If “room temperature” is 25 <m:math>
+ <m:mrow>
+  <m:mtext>°C</m:mtext>
+ </m:mrow>
+</m:math>  on the Celsius scale, what is it on the Reaumur scale?</para>
+<note id="fs-id1167066088769"><label/><title>Strategy</title>
+
+<para id="fs-id1167062475855">To answer this question, we must compare the Reaumur scale to the Celsius scale. The difference between the freezing point and boiling point of water on the Reaumur scale is 80 <m:math>
+ <m:mrow>
+  <m:mtext>°R</m:mtext>
+ </m:mrow>
+</m:math> . On the Celsius scale, it is 100 <m:math>
+ <m:mrow>
+  <m:mtext>°C</m:mtext>
+ </m:mrow>
+</m:math> . Therefore, 100 <m:math>
+ <m:mrow>
+  <m:mtext>°C = 80 </m:mtext><m:mtext>°R</m:mtext>
+ </m:mrow>
+</m:math> . Both scales start at 0 <m:math>
+ <m:mo>°</m:mo>
+</m:math>  for freezing, so we can create a simple formula to convert between temperatures on the two scales.</para>
+</note></problem>
+<solution id="fs-id1167064849119">
+<label/>
+<title>Solution</title>
+<list id="fs-id1167065850601" list-type="enumerated">
+<item>Derive a formula to convert from one scale to the other.
+<para id="fs-id1167065974111"><equation id="fs-id1164566347370"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>T</m:mi>
+   <m:mrow>
+    <m:mtext>°R</m:mtext>
+   </m:mrow>
+  </m:msub>
+  <m:mtext>= </m:mtext><m:mfrac>
+   <m:mrow>
+    <m:mtext>0</m:mtext><m:mtext>.80°R</m:mtext>
+   </m:mrow>
+   <m:mrow>
+    <m:mtext>°C</m:mtext>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>×</m:mo><m:msub>
+   <m:mi>T</m:mi>
+   <m:mrow>
+    <m:mtext>°C</m:mtext>
+   </m:mrow>
+  </m:msub>
+ </m:mrow>
+</m:math> </equation></para></item>
+<item>Plug the known value into the equation and solve.
+<para id="fs-id1167064579911"><equation id="fs-id1164566166673"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>T</m:mi>
+   <m:mrow>
+    <m:mtext>°R</m:mtext>
+   </m:mrow>
+  </m:msub>
+  <m:mtext>= </m:mtext><m:mfrac>
+   <m:mrow>
+    <m:mtext>0</m:mtext><m:mtext>.80°R</m:mtext>
+   </m:mrow>
+   <m:mrow>
+    <m:mtext>°C</m:mtext>
+   </m:mrow>
+  </m:mfrac>
+<m:mo>×</m:mo><m:mn>25</m:mn><m:mspace width="0.3em"/><m:mtext>°C = 20°R</m:mtext>
+ </m:mrow>
+</m:math> </equation></para></item>
+</list>
+</solution>
+<commentary id="fs-id1167064990749">
+<title>Discussion</title>
+<para id="fs-id1167065738052">As this example shows, relative temperature scales are somewhat arbitrary. If you wanted, you could create your own temperature scale!</para>
+</commentary>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167065943530" class="practice-problems">
+<title>Practice Problems</title>
+<exercise id="fs-id1167062941047">
+<problem id="fs-id1167064950896">
+<para id="fs-id1164567606464">What is 12.0 °C in kelvins?</para>
+<list id="fs-id1164565437776" list-type="enumerated" number-style="lower-alpha">
+<item>112.0 K</item>
+<item>273.2 K</item>
+<item>12.0 K</item>
+<item>285.2 K</item></list>
+<!--<para id="fs-id1167065850299">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex004"/>
+</para>-->
+</problem>
+</exercise>
+<exercise id="fs-id1167064919744">
+<problem id="fs-id1167064832831">
+<para id="fs-id1164567815024">What is 32.0 °C in degrees Fahrenheit?</para>
+<list id="fs-id1164567042253" list-type="enumerated" number-style="lower-alpha">
+<item>57.6 °F</item>
+<item>25.6 °F</item>
+<item>305.2 °F</item>
+<item>89.6 °F</item></list>
+<!--<para id="fs-id1167064697606">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex005"/>
+</para>-->
+</problem>
+</exercise>
+</section>
+
+<note id="fs-id1167064886093" class="tips-for-success">
+
+<para id="fs-id1167065747573">Sometimes it is not so easy to guess the temperature of the air accurately. Why is this? Factors such as humidity and wind speed affect how hot or cold we feel. Wind removes thermal energy from our bodies at a faster rate than usual, making us feel colder than we otherwise would; on a cold day, you may have heard the TV weather person refer to the <emphasis effect="italics">wind chill</emphasis>.</para>
+<para id="fs-id1167065913834">On humid summer days, people tend to feel hotter because sweat doesn’t evaporate from the skin as efficiently as it does on dry days, when the evaporation of sweat cools us off.</para>
+</note>
+<note id="fs-id1167066140833" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065850348">Ask students how wind chill works. Will it work on any surface or just the human body? The rate of heat loss for any object depends on the temperature difference between the object and its surroundings. When heat transfers energy away from the object, it warms a layer of air around it. Wind disrupts this layer, replacing it with cooler air. This, in turn, increases the rate of heat loss.</para>
+
+<note id="fs-id1167064710524" class="misconception">
+
+<para id="fs-id1167065873728">Wind chill can only increase the rate of cooling. It can never cool an object to a temperature below the ambient temperature.</para>
+</note>
+</note>
+
+
+
+<section id="fs-id1167064985056" class="check-understanding">
+<title>Check Your Understanding</title>
+<note id="fs-id1167064818536" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167064877287">Use these questions to assess student achievement of the section’s learning objectives. If students are struggling with a specific objective, these questions will help identify which and direct students to the relevant content.</para>
+</note>
+<exercise id="fs-id1167065790623" class="os-exercise">
+<problem id="fs-id1167062567221">
+<para id="fs-id1167064724028">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex006"/>
+</para>
+</problem>
+</exercise>
+
+<exercise id="fs-id1167064840223" class="os-exercise">
+<problem id="fs-id1167065975496">
+<para id="fs-id1164567450281">What is used to measure temperature?</para>
+<list id="fs-id1164567310372" list-type="enumerated" number-style="lower-alpha">
+<item>a galvanometer</item>
+<item>a manometer</item>
+<item>a thermometer</item>
+<item>a voltmeter</item></list>
+<!--<para id="fs-id1167066091916">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex007"/>
+</para>-->
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167062353350" class="summary">
+<title>Section Summary</title>
+<list id="fs-id1167065870621">
+<item>Temperature is the quantity measured by a thermometer.</item>
+<item>Temperature is related to the average kinetic energy of atoms and molecules in a system.</item>
+<item>Absolute zero is the temperature at which there is no molecular motion.</item>
+<item>There are three main temperature scales: Celsius, Fahrenheit, and Kelvin.</item>
+<item>Temperatures on one scale can be converted into temperatures on another scale.</item>
+</list>
+</section>
+
+<section id="fs-id1167062368317" class="key-equations"><title>Key Equations</title><table id="fs-id1167064730342" class="unnumbered unstyled" summary="The left column lists six possible temperature scale conversions (e.g., Celsius to Fahrenheit), and the corresponding right column shows the equation for the conversion.">
+<label/>
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry>Celsius to Fahrenheit conversion</entry>
+<entry> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>T</m:mi>
+   <m:mrow>
+    <m:mtext>°F</m:mtext>
+   </m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mn>9</m:mn>
+   <m:mn>5</m:mn>
+  </m:mfrac>
+  <m:msub>
+   <m:mi>T</m:mi>
+   <m:mrow>
+    <m:mtext>°C</m:mtext>
+   </m:mrow>
+  </m:msub>
+  <m:mo>+</m:mo><m:mn>32</m:mn>
+ </m:mrow>
+</m:math> </entry>
+</row>
+<row>
+<entry>Fahrenheit to Celsius conversion</entry>
+<entry> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>T</m:mi>
+   <m:mrow>
+    <m:mtext>°C</m:mtext>
+   </m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mn>5</m:mn>
+   <m:mn>9</m:mn>
+  </m:mfrac>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msub>
+     <m:mi>T</m:mi>
+     <m:mrow>
+      <m:mtext>°F</m:mtext>
+     </m:mrow>
+    </m:msub>
+    <m:mo>−</m:mo><m:mn>32</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math> </entry>
+</row>
+<row>
+<entry>Celsius to Kelvin conversion</entry>
+<entry> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>T</m:mi>
+   <m:mtext>K</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>T</m:mi>
+   <m:mrow>
+    <m:mtext>°C</m:mtext>
+   </m:mrow>
+  </m:msub>
+  <m:mo>+</m:mo><m:mtext> </m:mtext><m:mn>273.15</m:mn>
+ </m:mrow>
+</m:math> </entry>
+</row>
+<row>
+<entry>Kelvin to Celsius conversion</entry>
+<entry> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>T</m:mi>
+   <m:mrow>
+    <m:mtext>°C</m:mtext>
+   </m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>T</m:mi>
+   <m:mtext>K</m:mtext>
+  </m:msub>
+  <m:mo>−</m:mo><m:mn>273.15</m:mn>
+ </m:mrow>
+</m:math> </entry>
+</row>
+<row>
+<entry>Fahrenheit to Kelvin conversion</entry>
+<entry> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>T</m:mi>
+   <m:mtext>K</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mn>5</m:mn>
+   <m:mn>9</m:mn>
+  </m:mfrac>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msub>
+     <m:mi>T</m:mi>
+     <m:mrow>
+      <m:mtext>°F</m:mtext>
+     </m:mrow>
+    </m:msub>
+    <m:mo>−</m:mo><m:mn>32</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>273.15</m:mn>
+ </m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>Kelvin to Fahrenheit conversion</entry>
+<entry> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>T</m:mi>
+   <m:mrow>
+    <m:mtext>°F</m:mtext>
+   </m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mn>9</m:mn>
+   <m:mn>5</m:mn>
+  </m:mfrac>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msub>
+     <m:mi>T</m:mi>
+     <m:mtext>K</m:mtext>
+    </m:msub>
+    <m:mo>−</m:mo><m:mn>273.15</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>32</m:mn>
+ </m:mrow>
+</m:math> </entry>
+</row>
+</tbody>
+
+</tgroup>
+</table></section>
+
+
+
+<section id="fs-id1167067152132" class="concept"><title>Concept Items</title><exercise id="fs-id1167067005890" class="os-exercise">
+<problem id="fs-id1167067185604">
+<para id="fs-id1164567592966">A glass of water has a temperature of 31 degrees Celsius. What state of matter is it in?</para>
+<list id="fs-id1164567196034" list-type="enumerated" number-style="lower-alpha">
+<item>solid</item>
+<item>liquid</item>
+<item>gas</item>
+<item>plasma</item></list>
+
+<!--<para id="fs-id1167067011989">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex008"/>
+</para>-->
+</problem>
+</exercise>
+
+<exercise id="eip-id1166849748148" class="os-exercise">
+<problem id="eip-id1166849463954">
+<para id="eip-id1166849392211">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch11-ot006"/>
+</para>
+</problem>
+</exercise>
+
+<exercise id="eip-id1166849626889" class="os-exercise">
+<problem id="eip-id1166849391308">
+<para id="fs-id1164565402570">What does the Celsius scale use as a reference point?</para>
+<list id="fs-id1164567533461" list-type="enumerated" number-style="lower-alpha">
+<item>The boiling point of mercury</item>
+<item>The boiling point of wax</item>
+<item>The freezing point of water</item>
+<item>The freezing point of wax</item></list>
+<!--<para id="eip-id1166849694963">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch11-ot007"/>
+</para>-->
+</problem>
+</exercise></section><section id="fs-id1167066828475" class="critical-thinking"><title>Critical Thinking</title><exercise id="fs-id1167063596723" class="os-exercise">
+<problem id="fs-id1167063499024">
+<para id="fs-id1167063484260">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex009"/>
+</para>
+</problem>
+</exercise>
+
+<exercise id="eip-id1166849128882" class="os-exercise">
+<problem id="eip-id1166851049670">
+<para id="fs-id1164567908257">What is 100.00 °C in kelvins?</para>
+<list id="fs-id1164567372431" list-type="enumerated" number-style="lower-alpha">
+<item>212.00 K</item>
+<item>100.00 K</item>
+<item>473.15 K</item>
+<item>373.15 K</item></list>
+<!--<para id="eip-id1166848898431">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch11-ot001"/>
+</para>-->
+</problem>
+</exercise></section><section id="fs-id1167066967627" class="problems">
+<title>Problems</title>
+<exercise id="fs-id1167066975327" class="os-exercise">
+<problem id="fs-id1167067295242">
+<para id="fs-id1164568013101">What is 35.0 °F in kelvins?</para>
+<list id="fs-id1164565302088" list-type="enumerated" number-style="lower-alpha">
+<item>1.67 K</item>
+<item>35.0 K</item>
+<item>-271.5 K</item>
+<item>274.8 K</item></list>
+<!--<para id="fs-id1167063774892">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex010"/>
+</para>-->
+</problem>
+</exercise>
+<exercise id="fs-id1167067248945" class="os-exercise">
+<problem id="fs-id1167066954381">
+<para id="fs-id1164565493537">Design a temperature scale where the freezing point of water is 0 degrees and its boiling point is 70 degrees. What
+would be the room temperature on this scale?</para>
+<list id="fs-id1164567345333" list-type="enumerated" number-style="lower-alpha">
+<item>If room temperature is 25.0 °C, the temperature on the new scale will be 17.5 °.</item>
+<item>If room temperature is 25.0 °C, the temperature on the new scale will be 25.0°.</item>
+<item>If the room temperature is 25.0 °C, the temperature on the new scale will be 35.7°.</item>
+<item>If the room temperature is 25.0 °C, the temperature on the new scale will be 50.0°.</item></list>
+<!--<para id="fs-id1167067013826">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex011"/>
+</para>-->
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167067190384" class="multiple-choice">
+<title>Test Prep Multiple Choice</title>
+<exercise id="fs-id1167067053516" class="os-exercise">
+<problem id="fs-id1167067314814">
+<para id="fs-id1167067208357">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex012"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167063828459" class="os-exercise">
+<problem id="fs-id1167063459070">
+<!-- <para id="fs-id1167066846170">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex013"/>
+</para> -->
+<para id="fs-id1169832953426">What is the preferred temperature scale used in scientific laboratories?</para>
+<list id="fs-id1169829696934" list-type="enumerated" number-style="lower-alpha">
+<item>celsius</item>
+<item>fahrenheit</item>
+<item>kelvin</item>
+<item>rankine</item></list>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167061177831" class="short-answer">
+<title>Test Prep Short Answer</title>
+<exercise id="fs-id1167066958772" class="os-exercise">
+<problem id="fs-id1167063518991">
+<para id="fs-id1164567121382">What is <emphasis effect="italics">absolute zero</emphasis> on the Fahrenheit scale?</para>
+<list id="fs-id1164567468643" list-type="enumerated" number-style="lower-alpha">
+<item>0 °F</item>
+<item>32 °F</item>
+<item>-273.15 °F</item>
+<item>-459.67 °F</item></list>
+<!--<para id="fs-id1167063466450">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex014"/>
+</para>-->
+</problem>
+</exercise>
+<exercise id="fs-id1167067021107" class="os-exercise">
+<problem id="fs-id1167067210121">
+<para id="fs-id1164565874294">What is <emphasis effect="italics">absolute zero</emphasis> on the Celsius scale?</para>
+<list id="fs-id1164567608326" list-type="enumerated" number-style="lower-alpha">
+<item>0 °C</item>
+<item>273.15 °C</item>
+<item>-459.67 °C</item>
+<item>-273.15 °C</item></list>
+<!--<para id="fs-id1167063632672">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex015"/>
+</para>-->
+</problem>
+</exercise><exercise id="fs-id1167067044298" class="os-exercise">
+<problem id="fs-id1167063798559">
+<para id="fs-id1167067111689">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex016"/>
+</para>
+</problem>
+</exercise><exercise id="fs-id1167063576636" class="os-exercise">
+<problem id="fs-id1167067106292">
+<para id="fs-id1164565466378">What is the difference between the freezing point and boiling point of water on the Reaumur scale?</para>
+<list id="fs-id1164565444768" list-type="enumerated" number-style="lower-alpha">
+<item>The boiling point of water is 80° on the Reaumur scale.</item>
+<item>Reaumur scale is less than 120°.</item>
+<item>100°</item>
+<item>80°</item></list>
+<!--<para id="fs-id1167067254484">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex017"/>
+</para>-->
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167067074473" class="extended-response">
+<title>Test Prep Extended Response</title>
+<exercise id="fs-id1167067146143" class="os-exercise">
+<problem id="fs-id1167067152071">
+<para id="fs-id1167066794007">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex018"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167066833202" class="os-exercise">
+<problem id="fs-id1167067068634">
+<para id="fs-id1167067191128">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex019"/>
+</para>
+</problem>
+</exercise>
+</section>
+</content>
+
+<glossary>
+<definition id="fs-id1167062889653">
+<term>absolute zero</term>
+<meaning id="fs-id1167066044922">lowest possible temperature; the temperature at which all molecular motion ceases</meaning>
+</definition>
+<definition id="fs-id1167065895720">
+<term>Celsius scale</term>
+<meaning id="fs-id1167066032312">temperature scale in which the freezing point of water is 0 <m:math>
+ <m:mrow>
+  <m:mtext>°C</m:mtext>
+ </m:mrow>
+</m:math>  and the boiling point of water is 100 <m:math>
+ <m:mrow>
+  <m:mtext>°C</m:mtext>
+ </m:mrow>
+</m:math>  at 1 atm of pressure</meaning>
+</definition>
+<definition id="fs-id1167065896070">
+<term>degree Celsius</term>
+<meaning id="fs-id1167064951481">unit on the Celsius temperature scale</meaning>
+</definition>
+<definition id="fs-id1167066138958">
+<term>degree Fahrenheit</term>
+<meaning id="fs-id1167064899434">unit on the Fahrenheit temperature scale</meaning>
+</definition>
+<definition id="fs-id1167064948083">
+<term>Fahrenheit scale</term>
+<meaning id="fs-id1167064981668">temperature scale in which the freezing point of water is 32 <m:math>
+ <m:mrow>
+  <m:mtext>°F</m:mtext>
+ </m:mrow>
+</m:math>  and the boiling point of water is 212 <m:math>
+ <m:mrow>
+  <m:mtext>°F</m:mtext>
+ </m:mrow>
+</m:math> </meaning>
+</definition>
+<definition id="fs-id1167066046086">
+<term>heat</term>
+<meaning id="fs-id1167065954950">transfer of thermal (or internal) energy due to a temperature difference</meaning>
+</definition>
+<definition id="fs-id1167062299257">
+<term>Kelvin</term>
+<meaning id="fs-id1167066137387">unit on the Kelvin temperature scale; note that it is never referred to in terms of “degrees” Kelvin</meaning>
+</definition>
+<definition id="fs-id1167066137105">
+<term>Kelvin scale</term>
+<meaning id="fs-id1167065977912">temperature scale in which 0 K is the lowest possible temperature, representing absolute zero</meaning>
+</definition>
+<definition id="fs-id1167065808361">
+<term>temperature</term>
+<meaning id="fs-id1167065951550">quantity measured by a thermometer</meaning>
+</definition>
+<definition id="fs-id1167065976025">
+<term>thermal energy</term>
+<meaning id="fs-id1167066090980">average random kinetic energy of a molecule or an atom</meaning>
+</definition>
+</glossary>
+</document>

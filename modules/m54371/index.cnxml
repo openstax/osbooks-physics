@@ -1,0 +1,957 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Applications of Diffraction, Interference, and Coherence</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54371</md:content-id>
+  <md:title>Applications of Diffraction, Interference, and Coherence</md:title>
+  <md:abstract/>
+  <md:uuid>5e2d1a16-6ca1-4ba9-9d9d-b08784b462ce</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167065973779" class="learning-objectives"><label/>
+<title>Section Learning Objectives</title>
+<para id="fs-id1167066057104">By the end of this section, you will be able to do the following:</para><list id="fs-id1167064902426"><item>Explain behaviors of waves, including reflection, refraction, diffraction, interference, and coherence, and describe applications based on these behaviors</item>
+<item>Perform calculations related to applications based on wave properties of light</item>
+</list></note>
+
+<note id="fs-id1167065938601" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167064886235">The learning objectives in this section will help your students master the following standards:</para>
+<list id="fs-id1167066164809"><item>(7) Science concepts. The student knows the characteristics and behavior of waves. The student is expected to:
+<list id="fs-id1167065852841"><item>
+<span>(D)</span>
+<span>investigate behaviors of waves, including reflection, refraction, diffraction, interference, resonance, and the Doppler effect</span> and
+</item>
+<item>
+<span>(F)</span>
+<span>describe the role of wave characteristics and behaviors in medical and industrial applications</span>.
+</item>
+</list></item>
+</list></note>
+<section id="keyterms"><title>Section Key Terms</title>
+<table id="fs-id1167066104240" class="unnumbered unstyled section-key-terms" summary="Section Key Terms is a three column table. The first row reads differential interference contrast D I C, diffraction grating, iridescence. The second row reads laser, monochromator, Rayleigh criterion. The third row reads resolution.">
+<label/>
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+<row>
+<entry>differential interference contrast (DIC)</entry>
+<entry>diffraction grating</entry>
+<entry>iridescence</entry>
+<entry>laser</entry>
+</row>
+<row>
+<entry>monochromator</entry>
+<entry>Rayleigh criterion</entry>
+<entry>resolution</entry>
+<entry/>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section><section id="fs-id1167062405934">
+<title>Wave-Based Applications of Light</title>
+
+<note id="fs-id1167065661427" class="os-teacher"><title>Teacher Support</title>
+<para id="fs-id1167066094930"><span>[BL]</span>Define the terms <emphasis effect="italics">laser, diffraction grating, and resolution</emphasis>.</para>
+<para id="fs-id1167065703854"><span>[OL]</span>Remind students of the meaning of coherent light in terms of wave properties. Ask students to name examples of lasers and diffraction gratings. Suggest common ones they miss, such as lasers used in surgery, as pointers, for reading CDs, and diffraction gratings on the surface of CDs, iridescent minerals, backs of beetles, and in spectroscopes.</para>
+<para id="fs-id1167066035390"><span>[AL]</span>Explain how, for very short wavelengths ( <m:math>
+ <m:mrow>
+  <m:mi>λ</m:mi><m:mo>&lt;</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>−12</m:mn></m:mrow>
+  </m:msup>
+  <m:mtext> m</m:mtext></m:mrow>
+</m:math> ), the limit of resolution is related to Heisenberg’s uncertainty principle.</para><note id="fs-id1167064811791" class="misconception">
+
+<para id="fs-id1167064928507">Perfect resolution is impossible. There will always be some blurring of images, no matter what the size of the aperture or the wavelength of light used to make an image.</para>
+</note>
+</note>
+
+<para id="fs-id1167064905172">In 1917, Albert Einstein was thinking about photons and excited atoms. He considered an atom excited by a certain amount of energy and what would happen if that atom were hit by a photon with the same amount of energy. He suggested that the atom would emit a photon with that amount of energy, and it would be accompanied by the original photon. The exciting part is that you would have <emphasis effect="italics">two</emphasis> photons with the same energy <emphasis effect="italics">and </emphasis>they would be in phase. Those photons could go on to hit other excited atoms, and soon you would have a stream of in-phase photons. Such a light stream is said to be <emphasis effect="italics">coherent</emphasis>. Some four decades later, Einstein’s idea found application in a process called, <emphasis effect="italics">light amplification by stimulated emission of radiation</emphasis>. Take the first letters of all the words (except <emphasis effect="italics">by</emphasis> and “of”) and write them in order. You get the word <term><emphasis effect="italics">laser</emphasis></term> (see <link document="m54369" target-id="Figure_17_01_RayWave"/> (a)), which is the name of the device that produces such a beam of light.</para><para id="fs-id1167065943042">Laser beams are directional, very intense, and narrow (only about 0.5 mm in diameter). These properties lead to a number of applications in industry and medicine. The following are just a few examples:</para>
+
+<list id="fs-id1167064908051"><item>This chapter began with a picture of a compact disc (see <link document="m54376" target-id="Figure_17_00_CDcolors"/>). Those audio and data-storage devices began replacing cassette tapes during the 1990s. CDs are read by interpreting variations in reflections of a laser beam from the surface.</item>
+<item>Some barcode scanners use a laser beam.</item>
+<item>Lasers are used in industry to cut steel and other metals.</item>
+<item>Lasers are bounced off reflectors that astronauts left on the Moon. The time it takes for the light to make the round trip can be used to make precise calculations of the Earth-Moon distance.</item>
+<item>Laser beams are used to produce holograms. The name hologram means <emphasis effect="italics">entire picture</emphasis> (from the Greek <emphasis effect="italics">holo-</emphasis>, as in <emphasis effect="italics">holistic</emphasis>), because the image is three-dimensional. A viewer can move around the image and see it from different perspectives. Holograms take advantage of the wave properties of light, as opposed to traditional photography which is based on geometric optics. A holographic image is produced by constructive and destructive interference of a split laser beam.</item>
+<item>One of the advantages of using a laser as a surgical tool is that it is accompanied by very little bleeding.</item>
+<item>Laser eye surgery has improved the vision of many people, without the need for corrective lenses. A laser beam is used to change the shape of the lens of the eye, thus changing its focal length.</item>
+</list><note id="fs-id1167066094217" class="virtual-physics"><title>Lasers</title>
+<media id="fs-id1167066074326" alt="This simulation allows you to examine the workings of a laser.">
+<iframe width="660" height="371.4" src="https://openstax.org/l/28lasers"/></media>
+<para id="fs-id1167065877288">This animation allows you to examine the workings of a laser. First view the picture of a real laser. Change the energy of the incoming photons, and see if you can match it to an excitation level that will produce pairs of coherent photons. Change the excitation level and try to match it to the incoming photon energy.</para>
+<!--<para id="fs-id1167067076635"><link class="os-embed" url="#ost/api/ex/k12phys-ch17-ex021"/></para>-->
+<para id="fs-id1164564767073">In the animation there is only one excited atom. Is that the case for a real laser? Explain.</para>
+<list id="fs-id1164562306470" list-type="enumerated" number-style="lower-alpha">
+<item>No, a laser would have two excited atoms.</item>
+<item>No, a laser would have several million excited atoms.</item>
+<item>Yes, a laser would have only one excited atom.</item>
+<item>No, a laser would have on the order of 10<sup>23</sup> excited atoms.</item>
+</list>
+</note><para id="fs-id1167064790615">An interesting thing happens if you pass light through a large number of evenly-spaced parallel slits. Such an arrangement of slits is called a <term>diffraction grating</term>. An interference pattern is created that is very similar to the one formed by double-slit diffraction (see <link document="m54369" target-id="Figure_17_01_2slit2"/> and <link document="m54369" target-id="Figure_17_01_2slit3"/>). A diffraction grating can be manufactured by scratching glass with a sharp tool to form a number of precisely positioned parallel lines, which act like slits. Diffraction gratings work both for transmission of light, as in <link target-id="Figure_17_02_Grating"/>, and for reflection of light, as on the butterfly wings or the Australian opal shown in <link target-id="Figure_17_02_Grating2"/>, or the CD pictured in the opening <link document="m54376" target-id="Figure_17_00_CDcolors">illustration</link> of this chapter. In addition to their use as novelty items, diffraction gratings are commonly used for spectroscopic dispersion and analysis of light. What makes them particularly useful is the fact that they form a sharper pattern than do double slits. That is, their bright regions are narrower and brighter, while their dark regions are darker. <link target-id="Figure_17_02_Grating3"/> shows idealized graphs demonstrating the sharper pattern. Natural diffraction gratings occur in the feathers of certain birds. Tiny, fingerlike structures in regular patterns act as reflection gratings, producing constructive interference that gives the feathers colors not solely due to their pigmentation. The effect is called <term>iridescence</term>.</para><figure id="Figure_17_02_Grating">
+<media id="fs-id1167065875050" alt="(a) Drawing of a vertical screen with five equally spaced horizontal slits that take up the middle third. A single blue arrow to the left of the barrier point to the right. Five blue arrows from the five slits point to the right, to five small diagrams arranged vertically. (b) Five small diagrams arranged vertically. The middle diagram is a white rectangle. It is labeled “Central white.” Above it is a square with colored bands; from the top, they are red, yellow, green, blue, and purple. The square is labeled “First-order rainbow.” Above the first rainbow is another small square, with the same colors as the one below, but fainter. It is labeled “Second-order rainbow.” Below the central white square is another square with colored bands. They are purple, blue, green, yellow, and red (the opposite order from the upper rainbows), and the square is labeled “First-order rainbow.” The lowest of the five diagrams is a fainter version of the square above it. It is labeled “Second-order rainbow.”">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_17_02_Grating.jpg"/>
+</media>
+<caption>A diffraction grating consists of a large number of evenly-spaced parallel slits. (a) Light passing through the grating is diffracted in a pattern similar to a double slit, with bright regions at various angles. (b) The pattern obtained for white light incident on a grating. The central maximum is white, and the higher-order maxima disperse white light into a rainbow of colors.</caption>
+</figure>
+
+<figure id="Figure_17_02_Grating2">
+<media id="fs-id1167066083117" alt="(a) Photograph of an opal, with a rounded triangular shape. Most of the upper portion of the triangle is red and yellow. The lower portion is blue, green, and purple. (b) Photograph of a butterfly on a leaf. The wings are blue with white spots at the points of the wings and black bands at the rear edges of the wings.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_17_02_Grating2.jpg"/>
+</media>
+<caption>(a) This Australian opal and (b) the butterfly wings have rows of reflectors that act like reflection gratings, reflecting different colors at different angles. (credit: (a) Opals-On-Black.com, via Flickr (b) whologwhy, Flickr)</caption>
+</figure>
+
+<figure id="Figure_17_02_Grating3">
+<media id="fs-id1167066012716" alt="(a) Graph labeled “double slit.” A sine curve with three peaks is plotted with its troughs on a horizontal axis. Three points on the axis are labeled, corresponding to three maxima. Left to right, the points are labeled “m equals 1,” m equals zero,” and “m equals 1.” (b) Graph labeled “grating.” A curve with three tall narrow peaks is plotted with its troughs on a horizontal axis. On either side of the three peaks are two much smaller peaks (the larger peaks are separated by a total of four smaller peaks). Three points on the axis are labeled, corresponding to three maxima. Left to right, the points are labeled “m equals 1,” m equals zero,” and “m equals 1.”">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_17_02_Grating3.jpg"/>
+</media>
+<caption>Idealized graphs of the intensity of light passing through a double slit (a) and a diffraction grating (b) for monochromatic light. Maxima can be produced at the same angles, but those for the diffraction grating are narrower, and hence sharper. The maxima become narrower and the regions between become darker as the number of slits is increased.</caption>
+</figure>
+
+<note id="fs-id1167065927289" class="snap-lab">
+
+<title>Diffraction Grating</title>
+<list id="fs-id1167066030920" class="materials">
+
+<item>A CD (compact disc) or DVD</item>
+<item>A measuring tape</item>
+<item>Sunlight near a white wall</item>
+</list>
+<para id="fs-id1164564967982">Instructions</para>
+<list id="fs-id1167064908633" list-type="enumerated"><title>Procedure</title>
+<item>Hold the CD in direct sunlight near the wall, and move it around until a circular rainbow pattern appears on the wall.</item>
+<item>Measure the distance from the CD to the wall and the distance from the center of the circular pattern to a color in the rainbow. Use those two distances to calculate  <m:math>
+ <m:mrow>
+  <m:mi>tan</m:mi><m:mi>θ</m:mi></m:mrow>
+</m:math> . Find  <m:math>
+ <m:mrow>
+  <m:mtext>sin</m:mtext><m:mi>θ</m:mi></m:mrow>
+</m:math> .</item>
+<item>Look up the wavelength of the color you chose. That is  <m:math>
+ <m:mi>λ</m:mi>
+</m:math> .</item>
+<item>Solve  <m:math>
+ <m:mrow>
+  <m:mi>d</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>λ</m:mi></m:mrow>
+</m:math>  for <emphasis effect="italics">d</emphasis>.</item>
+<item>Compare your answer to the usual spacing between CD tracks, which is 1,600 nm (1.6 μm).<!--<link class="os-embed" url="#ost/api/ex/k12phys-ch17-ex022"/>-->
+<para id="fs-id1164566547341">How do you know what number to use for <emphasis effect="italics">m</emphasis>?</para>
+<list id="fs-id1164564988295" list-type="enumerated" number-style="lower-alpha">
+<item>Count the rainbow rings preceding the chosen color.</item>
+<item>Calculate mfrom the frequency of the light of the chosen color.</item>
+<item>Calculate <emphasis effect="italics">m</emphasis> from the wavelength of the light of the chosen color.</item>
+<item>The value of <emphasis effect="italics">m</emphasis> is fixed for every color.</item>
+</list>
+</item>
+</list></note>
+
+<note id="fs-id1167064589100" class="fun-in-physics">
+
+<title>CD Players</title>
+<para id="fs-id1167065858873">Can you see the grooves on a CD or DVD (see <link target-id="Figure_17_02_CD"/>)? You may think you can because you know they are there, but they are extremely narrow—1,600 in a millimeter. Because the width of the grooves is similar to wavelengths of visible light, they form a diffraction grating. That is why you see rainbows on a CD. The colors are attractive, but they are incidental to the functions of storing and retrieving audio and other data.</para>
+
+<figure id="Figure_17_02_CD">
+<media id="fs-id1167064820391" alt="Drawing of a portable CD player. Its cover is open, showing a CD that has a red sector on the lower left, of about 90 degrees, a blue sector on the upper right of about 120 degrees, and a yellow sector between them of about 30 degrees.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_17_02_CD.jpg"/>
+</media>
+<caption>For its size, this CD holds a surprising amount of information. Likewise, the CD player it is in houses a surprising number of electronic devices.</caption>
+</figure>
+
+<para id="fs-id1167066120789">The grooves are actually one continuous groove that spirals outward from the center. Data are recorded in the grooves as binary code (zeroes and ones) in small pits. Information in the pits is detected by a laser that tracks along the groove. It gets even more complicated: The speed of rotation must be varied as the laser tracks toward the circumference so that the linear speed along the groove remains constant. There is also an error correction mechanism to prevent the laser beam from getting off track. A diffraction grating is used to create the first two maxima on either side of the track. If those maxima are not the same distance from the track, an error is indicated and then corrected.</para>
+<para id="fs-id1167064686953">The pits are reflective because they have been coated with a thin layer of aluminum. That allows the laser beam to be reflected back and directed toward a photodiode detector. The signal can then be processed and converted to the audio we hear.</para>
+<!--<para id="fs-id1167066103295"><link class="os-embed" url="#ost/api/ex/k12phys-ch17-ex023"/></para>-->
+<para id="fs-id1164562340848">The longest wavelength of visible light is about 780 nm . How does that compare to the distance between CD grooves?</para>
+<list id="fs-id1164562205596" list-type="enumerated" number-style="lower-alpha">
+<item>The grooves are about 3 times the longest wavelength of visible light.</item>
+<item>The grooves are about 2 times the longest wavelength of visible light.</item>
+<item>The grooves are about 2 times the shortest wavelength of visible light.</item>
+<item>The grooves are about 3 times the shortest wavelength of visible light.</item>
+</list>
+</note>
+
+<note id="fs-id1167064854578" class="links-to-physics">
+
+<title>Biology: DIC Microscopy</title>
+
+<para id="fs-id1167065725904">If you were completely transparent, it would be hard to recognize you from your photograph. The same problem arises when using a traditional microscope to view or photograph small transparent objects such as cells and microbes. Microscopes using <term>differential interference contrast (DIC)</term> solve the problem by making it possible to view microscopic objects with enhanced contrast, as shown in <link target-id="Figure_17_02_DIC"/>.</para>
+
+<figure id="Figure_17_02_DIC"><media id="fs-id1167065812528" alt="Photo of freshwater alga. A flat green object with a rough texture is divided into forking branches. The largest resembles the letter Y with a very thick stem, tipped to the left so the stem is horizontal. Both arms of the Y fork into two very small branches. Joined to the base of the stem of the Y are other pairs of branches that resemble the letter V, one above and one below, and both angled slightly to the left. Each arm of the V splits into two branches, and then again into very small branches. A mirror image of the Y and two V’s is to the right and the two Y stems are joined.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_17_02_DIC.jpg"/>
+</media>
+
+<caption>This aquatic organism was photographed with a DIC microscope. (credit: Public Library of Science)</caption></figure>
+<para id="fs-id1167064885966">A DIC microscope separates a polarized light source into two beams polarized at right angles to each other and coherent with each other, that is, in phase. After passing through the sample, the beams are recombined and realigned so they have the same plane of polarization. They then create an interference pattern caused by the differences in their optical path and the refractive indices of the parts of the sample they passed through. The result is an image with contrast and shadowing that could not be observed with traditional optics.</para>
+
+<!--<para id="fs-id1167065894529"><link class="os-embed" url="#ost/api/ex/k12phys-ch17-ex024"/></para>-->
+
+</note>
+
+<para id="fs-id1167066136988">Where are diffraction gratings used? Diffraction gratings are key components of <term>monochromators</term>—devices that separate the various wavelengths of incoming light and allow a beam with only a specific wavelength to pass through. Monochromators are used, for example, in optical imaging of particular wavelengths from biological or medical samples. A diffraction grating can be chosen to specifically analyze a wavelength of light emitted by molecules in diseased cells in a biopsy sample, or to help excite strategic molecules in the sample with a selected frequency of light. Another important use is in optical fiber technologies where fibers are designed to provide optimum performance at specific wavelengths. A range of diffraction gratings is available for selecting specific wavelengths for such use.</para>
+
+<para id="fs-id1167064619902">Diffraction gratings are used in spectroscopes to separate a light source into its component wavelengths. When a material is heated to incandescence, it gives off wavelengths of light characteristic of the chemical makeup of the material. A pure substance will produce a spectrum that is unique, thus allowing identification of the substance. Spectroscopes are also used to measure wavelengths both shorter and longer than visible light. Such instruments have become especially useful to astronomers and chemists. <link target-id="Figure_17_02_Spectroscp"/> shows a diagram of a spectroscope.</para>
+
+<figure id="Figure_17_02_Spectroscp">
+<media id="fs-id1167064708545" alt="Drawing of a spectroscope. Drawing shows a flame, two mirrors, grating and detector. A yellow flame at the upper left is labeled “source.” A horizontal arrow from the source extends to a small circular arc, which is concave to the left and slightly downward. The arc is one of two that are labeled “mirrors.” A second arrow extends to the left and downward from the point where the first arrow strikes the mirror, and in turn strikes a rectangular object that is tilted from vertical slightly to the left. The object is labeled “grating.” From the point where the second arrow strikes the grating, a number of colored arrows fan out downward and to the right, forming a narrow triangle. Those arrows in turn strike the second circular arc, labeled as one of the “mirrors,” which is concave to the left and slightly upward. From the second mirror, five colored arrows fan out to the left and slightly downward to form a wider triangle, and they strike a vertical surface labeled “detector.” The purple arrow strikes the top of the detector and the blue arrow slightly below it. The green arrow strikes the middle of the detector, the yellow arrow slightly lower, and the red arrow the bottom of the detector.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_17_02_Spectroscp.jpg"/>
+</media>
+<caption>The diagram shows the function of a diffraction grating in a spectroscope.</caption>
+</figure>
+
+<para id="fs-id1167065083400">Light diffracts as it moves through space, bending around obstacles and interfering constructively and destructively. While diffraction allows light to be used as a spectroscopic tool, it also limits the detail we can obtain in images.</para>
+<para id="fs-id1167062506432"><link class="os-embed" url="#ost/api/ex/k12phys-ch17-ex025"/></para>
+<para id="fs-id1167065702491"><link target-id="Figure_17_02_Resolution"/> (a) shows the effect of passing light through a small circular aperture. Instead of a bright spot with sharp edges, a spot with a fuzzy edge surrounded by circles of light is obtained. This pattern is caused by diffraction similar to that produced by a single slit. Light from different parts of the circular aperture interferes constructively and destructively. The effect is most noticeable when the aperture is small, but the effect is there for large apertures, too.</para>
+
+<figure id="Figure_17_02_Resolution">
+<media id="fs-id1167064766429" alt="(a) A white circle on a black background is surrounded by a ring that fades outward from gray to black. (b) Two circles, one on the left and one on the right, are surrounded by gray rings. Their circumferences touch, but the circles are distinguishable. (c)Two circles, with surrounding gray rings, have moved closer together and now are indistinguishable. They form a horizontal oval.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_17_02_Resolution.jpg"/>
+</media>
+<caption>(a) Monochromatic light passed through a small circular aperture produces this diffraction pattern. (b) Two point light sources that are close to one another produce overlapping images because of diffraction. (c) If they are closer together, they cannot be resolved, that is, distinguished.</caption>
+</figure>
+
+<para id="fs-id1167062385719">How does diffraction affect the detail that can be observed when light passes through an aperture? <link target-id="Figure_17_02_Resolution"/> (b) shows the diffraction pattern produced by two point light sources that are close to one another. The pattern is similar to that for a single point source, and it is just barely possible to tell that there are two light sources rather than one. If they are closer together, as in <link target-id="Figure_17_02_Resolution"/> (c), you cannot distinguish them, thus limiting the detail, or <term>resolution</term>, you can obtain. That limit is an inescapable consequence of the wave nature of light.</para>
+<para id="fs-id1167066034659">There are many situations in which diffraction limits the resolution. The acuity of vision is limited because light passes through the pupil, the circular aperture of the eye. Be aware that the diffraction-like spreading of light is due to the limited diameter of a light beam, not the interaction with an aperture. Thus light passing through a lens with a diameter of <emphasis effect="italics">D </emphasis>shows the diffraction effect and spreads, blurring the image, just as light passing through an aperture of diameter <emphasis effect="italics">D </emphasis>does. Diffraction limits the resolution of any system having a lens or mirror. Telescopes are also limited by diffraction, because of the finite diameter, <emphasis effect="italics">D</emphasis>, of their primary mirror.</para>
+</section>
+
+<section id="fs-id1167065028409"><title>Calculations Involving Diffraction Gratings and Resolution</title><note id="fs-id1167065081168" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065858188"><span>[BL]</span>Review problem-solving techniques: Identify the knowns and unknowns. Convert measurements of the same property to the same units of measurements. Choose the equation and rearrange it, if necessary, to solve for the unknown.</para>
+<para id="fs-id1167062475888"><span>[OL]</span>Review the meaning of arcsine in particular and of inverse trigonometric functions in general. Explain the radian as a unit of measure for angles, and relate it to degrees.</para>
+</note>
+
+<para id="fs-id1167065859473">Early in the chapter, it was mentioned that when light passes from one medium to another, its speed and wavelength change, but its frequency remains constant. The equation</para>
+<equation id="fs-id1167064529157" class="unnumbered"><label/>
+ <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>λ</m:mi>
+   <m:mi>n</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mi>λ</m:mi>
+   <m:mi>n</m:mi>
+  </m:mfrac>
+  </m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1167064979215">shows how to the wavelength in a given medium,  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>λ</m:mi>
+   <m:mi>n</m:mi>
+  </m:msub>
+  </m:mrow>
+</m:math>, is related to the wavelength in a vacuum,  <m:math>
+ <m:mi>λ</m:mi>
+</m:math>, and the refractive index, <emphasis effect="italics">n</emphasis>, of the medium. The equation is useful for calculating the change in wavelength of a monochromatic laser beam in various media. The analysis of a diffraction grating is very similar to that for a double slit. As you know from the discussion of double slits in Young’s double-slit experiment, light is diffracted by, and spreads out after passing through, each slit. Rays travel at an angle  <m:math>
+ <m:mi>θ</m:mi>
+</m:math>  relative to the incident direction. Each ray travels a different distance to a common point on a screen far away. The rays start in phase, and they can be in or out of phase when they reach a screen, depending on the difference in the path lengths traveled. Each ray travels a distance that differs by  <m:math>
+ <m:mrow>
+  <m:mi>d</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi></m:mrow>
+</m:math>  from that of its neighbor, where <emphasis effect="italics">d </emphasis>is the distance between slits. If  <m:math>
+ <m:mrow>
+  <m:mi>d</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi></m:mrow>
+</m:math>  equals an integral number of wavelengths, the rays all arrive in phase, and constructive interference (a maximum) is obtained. Thus, the condition necessary to obtain constructive interference for a diffraction grating is</para>
+<equation id="fs-id1167062368653" class="unnumbered">
+<label/>
+ <m:math display="block">
+ <m:mrow>
+  <m:mi>d</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>λ</m:mi><m:mo>,</m:mo><m:mtext>for </m:mtext><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mo>…</m:mo><m:mtext>,</m:mtext></m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1167065887099">where <emphasis effect="italics">d</emphasis> is the distance between slits in the grating,  <m:math>
+ <m:mi>λ</m:mi>
+</m:math>  is the wavelength of the light, and <emphasis effect="italics">m </emphasis>is the order of the maximum. Note that this is exactly the same equation as for two slits separated by <emphasis effect="italics">d</emphasis>. However, the slits are usually closer in diffraction gratings than in double slits, producing fewer maxima at larger angles.</para>
+
+<note id="fs-id1167065873747" class="watch-physics"><title>Diffraction Grating</title>
+<para id="fs-id1167065938826">This <link class="os-embed" url="https://www.openstax.org/l/28diffraction">video</link> explains the geometry behind the diffraction pattern produced by a diffraction grating.</para>
+
+<media id="fs-id1167065823067" alt="diffraction grating" class="os-embed">
+<iframe width="660" height="371.4" src="https://www.openstax.org/l/28diffraction"/>
+</media>
+
+<para id="fs-id1167065918843"><link class="os-embed" url="#ost/api/ex/k12phys-ch17-ex026"/></para>
+</note><para id="fs-id1167064799668">Just what is the resolution limit of an aperture or lens? To answer that question, consider the diffraction pattern for a circular aperture, which, similar to the diffraction pattern of light passing through a slit, has a central maximum that is wider and brighter than the maxima surrounding it (see <link target-id="Figure_17_02_Resolution"/> (a)). It can be shown that, for a circular aperture of diameter <emphasis effect="italics">D</emphasis>, the first minimum in the diffraction pattern occurs at  <m:math>
+ <m:mrow>
+  <m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>1.22</m:mn><m:mi>λ</m:mi><m:mo>/</m:mo><m:mi>D</m:mi></m:mrow>
+</m:math>, provided that the aperture is large compared with the wavelength of light, which is the case for most optical instruments. The accepted criterion for determining the diffraction limit to resolution based on diffraction was developed by Lord Rayleigh in the 19th century. The <term>Rayleigh criterion</term> for the diffraction limit to resolution states that two images are just resolvable when the center of the diffraction pattern of one is directly over the first minimum of the diffraction pattern of the other. See <link target-id="Figure_17_02_Resolution2"/> (b). The first minimum is at an angle of  <m:math>
+ <m:mrow>
+  <m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>1.22</m:mn><m:mi>λ</m:mi><m:mo>/</m:mo><m:mi>D</m:mi></m:mrow>
+</m:math>, so that two point objects are just resolvable if they are separated by the angle</para>
+
+<equation id="fs-id1167062602058" class="unnumbered">
+<label/>
+ <m:math display="block">
+ <m:mrow>
+  <m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>1.22</m:mn><m:mfrac>
+   <m:mi>λ</m:mi>
+   <m:mi>D</m:mi>
+  </m:mfrac>
+  <m:mo>,</m:mo></m:mrow>
+</m:math> </equation>
+
+<para id="fs-id1167065838062">where  <m:math>
+ <m:mi>λ</m:mi>
+</m:math>  is the wavelength of the light (or other electromagnetic radiation) and <emphasis effect="italics">D </emphasis>is the diameter of the aperture, lens, mirror, etc., with which the two objects are observed. In the expression above,  <m:math>
+ <m:mi>θ</m:mi>
+</m:math>  has units of radians.</para>
+
+<figure id="Figure_17_02_Resolution2">
+<media id="fs-id1167064867809" alt="(a) A graph with five peaks. The valleys are on a horizontal axis. The central peak is largest, and it is labeled “intensity.” Four much smaller peaks are arranged symmetrically, two to the left and two to the right. An arrow below the horizontal axis points to the right and is labeled “theta.” Three points are labeled on the horizontal axis, “zero” for the central peak, “negative 1.22 lamda divided by D” for the valley on its left, and “1.22 lamda divided by D” for the valley on its right. (b) A drawing shows two lightbulbs at the bottom. One is labeled “Object 1,” and it is to the right and slightly above the other, labeled “Object 2.” In the middle of the drawing is a vertical screen with a circular hole in it. At the top of the drawing is a vertical screen with two wide peaks graphed on it, which are labeled “Intensities.” A line from Object 1 extends through the hole in the screen and strikes the horizontal axis of the graph directly below the left peak on the graph. Another line from Object two extends through the hole in the screen and strikes the horizontal axis of the graph directly below the right peak on the graph. The angle formed when the two lines cross (where they pass through the hole in the middle screen) is labeled “theta min.”">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_17_02_Resolutn2.jpg"/>
+</media>
+<caption>(a) Graph of intensity of the diffraction pattern for a circular aperture. Note that, similar to a single slit, the central maximum is wider and brighter than those to the sides. (b) Two point objects produce overlapping diffraction patterns. Shown here is the Rayleigh criterion for their being just resolvable. The central maximum of one pattern lies on the first minimum of the other.</caption>
+</figure>
+
+<note id="fs-id1167065720808" class="snap-lab"><title>Resolution</title>
+
+<list id="fs-id1167065824504" class="materials">
+
+<item>A sheet of white paper</item>
+<item>A black pen or pencil</item>
+<item>A measuring tape</item>
+</list>
+<para id="fs-id1164566894780">Instructions</para>
+<list id="fs-id1167064571996" list-type="enumerated">
+<title>Procedure</title>
+<item>Draw two lines several mm apart on a white sheet of paper.</item>
+<item>Move away from the sheet as it is held upright, and measure the distance at which you can just distinguish (resolve) the lines as separate.</item>
+<item>Use  <m:math>
+ <m:mrow>
+  <m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>1.22</m:mn><m:mfrac>
+   <m:mi>λ</m:mi>
+   <m:mi>D</m:mi>
+  </m:mfrac>
+  </m:mrow>
+</m:math>  to calculate <emphasis effect="italics">D</emphasis> the diameter of your pupil. Use the distance between the lines and the maximum distance at which they were resolved to calculate  <m:math>
+ <m:mi>θ</m:mi>
+</m:math> . Use the average wavelength for visible light as the value for  <m:math>
+ <m:mi>λ</m:mi>
+</m:math> .</item>
+<item>Compare your answer to the average pupil diameter of 3 mm.</item>
+</list>
+
+<para id="fs-id1167064909687"><link class="os-embed" url="#ost/api/ex/k12phys-ch17-ex027"/></para>
+</note><note id="Worked_Example_17_03" class="worked-example"><title>Change of Wavelength</title>
+
+<exercise id="fs-id1167066032415" class="17-ex028 unnumbered">
+<label/>
+<problem id="fs-id1167064687050">
+<para id="fs-id1167065950323">A monochromatic laser beam of green light with a wavelength of 550 nm passes from air to water. The refractive index of water is 1.33. What will be the wavelength of the light after it enters the water?</para>
+<note id="fs-id1167064706253"><label/><title>Strategy</title>
+
+<para id="fs-id1167065943511">You can assume that the refractive index of air is the same as that of light in a vacuum because they are so close. You then have all the information you need to solve for  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>λ</m:mi>
+   <m:mi>n</m:mi>
+  </m:msub>
+  </m:mrow>
+</m:math> .</para>
+</note></problem>
+<solution id="fs-id1167065897867">
+<label/>
+<title>Solution</title>
+<equation id="fs-id1164562434035"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>λ</m:mi>
+   <m:mi>n</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mi>λ</m:mi>
+   <m:mi>n</m:mi>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>550</m:mn><m:mspace width="0.3em"/><m:mtext> nm</m:mtext></m:mrow>
+   <m:mrow>
+    <m:mn>1.33</m:mn></m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>414</m:mn><m:mspace width="0.3em"/><m:mtext> nm</m:mtext></m:mrow>
+</m:math> </equation>
+</solution>
+
+<commentary id="fs-id1167064894620">
+<title>Discussion</title>
+<para id="fs-id1167065060719">The refractive index of air is 1.0003, so the approximation holds for three significant figures. You would not see the light change color, however. Color is determined by frequency, not wavelength.</para>
+</commentary>
+</exercise>
+</note><note id="Worked_Example_17_04" class="worked-example">
+
+<title>Diffraction Grating</title>
+<exercise id="fs-id1167064922385" class="17-ex029 unnumbered">
+<label/>
+<problem id="fs-id1167064774499">
+<para id="fs-id1167064937708">A diffraction grating has 2000 lines per centimeter. At what angle will the first-order maximum form for green light with a wavelength of 520 nm?</para>
+<note id="fs-id1167065914470"><label/><title>Strategy</title>
+
+<para id="fs-id1167065886161">You are given enough information to calculate <emphasis effect="italics">d</emphasis>, and you are given the values of  <m:math>
+ <m:mi>λ</m:mi>
+</m:math>  and <emphasis effect="italics">m</emphasis>. You will have to find the arcsin of a number to find  <m:math>
+ <m:mi>θ</m:mi>
+</m:math> .</para>
+</note></problem>
+<solution id="fs-id1167064892963">
+<label/>
+<title>Solution</title>
+<para id="fs-id1167065972373">First find <emphasis effect="italics">d</emphasis>.</para>
+<equation id="fs-id1164564937571"> <m:math>
+ <m:mrow>
+  <m:mi>d</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>1</m:mn><m:mspace width="0.3em"/><m:mtext> cm</m:mtext></m:mrow>
+   <m:mrow>
+    <m:mn>2,000</m:mn></m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>5.00</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>4</m:mn></m:mrow>
+  </m:msup>
+  <m:mtext> cm = 5,000 nm</m:mtext></m:mrow>
+</m:math> </equation>
+<para id="fs-id1167064937128">Rearrange the equation for constructive interference conditions for a diffraction grating, and substitute the known values.</para>
+<para id="fs-id1167066160421"> <m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:mi>d</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi></m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mi>m</m:mi><m:mi>λ</m:mi></m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mi>θ</m:mi>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:msup>
+       <m:mrow>
+        <m:mtext>sin</m:mtext></m:mrow>
+       <m:mrow>
+        <m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+      </m:msup>
+      <m:mfrac>
+       <m:mrow>
+        <m:mi>m</m:mi><m:mi>λ</m:mi></m:mrow>
+       <m:mi>d</m:mi>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:msup>
+       <m:mrow>
+        <m:mtext>sin</m:mtext></m:mrow>
+       <m:mrow>
+        <m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+      </m:msup>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mfrac>
+         <m:mrow>
+          <m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>520</m:mn><m:mo stretchy="false">)</m:mo></m:mrow>
+         <m:mrow>
+          <m:mn>5,000</m:mn></m:mrow>
+        </m:mfrac>
+        </m:mrow>
+      <m:mo>)</m:mo></m:mrow></m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>5.97</m:mn></m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable></m:mrow>
+</m:math> </para></solution>
+<commentary id="fs-id1167066156807">
+<title>Discussion</title>
+<para id="fs-id1167062348542">This angle seems reasonable for the first maximum. Recall that the meaning of sin<sup>‒1</sup> (or arcsin) is <emphasis effect="italics">the angle with a sine that is (the unknown)</emphasis>. Remember that the value of  <m:math>
+ <m:mrow>
+  <m:mi>sin</m:mi><m:mi>θ</m:mi></m:mrow>
+</m:math>  will not be greater than 1 for any value of  <m:math>
+ <m:mi>θ</m:mi>
+</m:math> .</para>
+</commentary>
+</exercise>
+</note>
+
+<note id="Worked_Example_17_05" class="worked-example">
+
+<title>Resolution</title>
+<exercise id="fs-id1167062368161" class="17-ex030 unnumbered">
+<label/>
+<problem id="fs-id1167064697580">
+<para id="fs-id1167065044473">What is the minimum angular spread of a 633-nm-wavelength He-Ne laser beam that is originally 1.00 mm in diameter?</para>
+<note id="fs-id1167064669241"><label/><title>Strategy</title>
+
+<para id="fs-id1167064649162">The diameter of the beam is the same as if it were coming through an aperture of that size, so <emphasis effect="italics">D</emphasis> = 1.00 mm. You are given  <m:math>
+ <m:mi>λ</m:mi>
+</m:math>, and you must solve for  <m:math>
+ <m:mi>θ</m:mi>
+</m:math> .</para>
+</note></problem>
+<solution id="fs-id1167066167453">
+<label/>
+<title>Solution</title>
+<equation id="fs-id1164566844758"> <m:math display="block">
+ <m:mrow>
+  <m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mo stretchy="false">(</m:mo><m:mn>1.22</m:mn><m:mo stretchy="false">)</m:mo><m:mi>λ</m:mi></m:mrow>
+   <m:mi>D</m:mi>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mo stretchy="false">(</m:mo><m:mn>1.22</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>633</m:mn><m:mspace width="0.3em"/><m:mtext> nm</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow>
+   <m:mrow>
+    <m:mn>1.00</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn></m:mrow>
+     <m:mn>6</m:mn>
+    </m:msup>
+    <m:mtext> nm</m:mtext></m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>7.72</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>−4</m:mn></m:mrow>
+  </m:msup>
+  <m:mtext> rad</m:mtext><m:mo>=</m:mo><m:mn>0.0442°</m:mn></m:mrow>
+</m:math> </equation></solution>
+<commentary id="fs-id1167064691975">
+<title>Discussion</title>
+<para id="fs-id1167066038460">The conversion factor for radians to degrees is 1.000 radian = 57.3°. The spread is very small and would not be noticeable over short distances. The angle represents the angular separation of the central maximum and the first minimum.</para></commentary>
+</exercise>
+</note>
+
+
+</section><section id="fs-id1167064765914" class="practice-problems">
+<title>Practice Problems</title>
+<exercise id="fs-id1167062541067">
+<problem id="fs-id1167062397997">
+<!--<para id="fs-id1167064686448">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch17-ex031"/>
+</para>-->
+<para id="fs-id1164566869248">A beam of yellow light has a wavelength of 600 nm in a vacuum and a wavelength of 397 nm in Plexiglas. What is the refractive index of Plexiglas?</para>
+<list id="fs-id1164564941473" list-type="enumerated" number-style="lower-alpha">
+<item>1.51</item>
+<item>2.61</item>
+<item>3.02</item>
+<item>3.77</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167065871199">
+<problem id="fs-id1167066039508">
+<!--<para id="fs-id1167064842037">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch17-ex032"/>
+</para>-->
+<para id="fs-id1164559106301">What is the angle between two just-resolved points of light for a 3.00 mm diameter pupil, assuming an average wavelength of 550 nm?</para>
+<list id="fs-id1164563537690" list-type="enumerated" number-style="lower-alpha">
+<item>224 rad</item>
+<item>183 rad</item>
+<item>1.83 × 10<sup>–4</sup> rad</item>
+<item>2.24 × 10<sup>–4</sup> rad</item>
+</list>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167064817808" class="check-understanding"><title>Check Your Understanding</title><note id="fs-id1167064927777" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066041483">Use these questions to assess student achievement of the section’s learning objectives. If students are struggling with a specific objective, these questions will help identify which and direct students to the relevant content.</para>
+</note>
+<exercise id="fs-id1167065071192">
+<problem id="fs-id1167066105583">
+<para id="fs-id1167062458462">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch17-ex033"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065892288">
+<problem id="fs-id1167064875673">
+<para id="fs-id1167066183137">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch17-ex034"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166849075760" class="os-exercise">
+<problem id="eip-id1166849075764">
+<para id="eip-id1166851225621">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch17-ot021"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166850992201" class="os-exercise">
+<problem id="eip-id1166848848342">
+<para id="eip-id1166848848345">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch17-ot022"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167065702775" class="summary">
+<title>Section Summary</title>
+<list id="fs-id1167062352579">
+<item>The focused, coherent radiation emitted by lasers has many uses in medicine and industry.</item>
+<item>Characteristics of diffraction patterns produced with diffraction gratings can be determined.</item>
+<item>Diffraction gratings have been incorporated in many instruments, including microscopes and spectrometers.</item>
+<item>Resolution has a limit that can be predicted.</item>
+</list>
+</section>
+
+<section id="fs-id1167064872189" class="key-equations">
+<title>Key Equations</title>
+<table id="fs-id1167062555454" class="unnumbered unstyled" summary="Table with two columns and three rows. The top left cell reads “Wavelength change with change in medium,” with the top right cell showing the equation for the wavelength of light in a medium as equal to the wavelength in vacuum divided by the index of refraction of the medium. The second left cell reads “Diffraction grating constructive interference,” with the right cell showing the product of slit separation in a diffraction grating and the sine of the angle to a given bright line as equal to the product of the bright-line order (0, 1, −1, 2, −2, …) and the wavelength of the light. The bottom left cell reads “Resolution,” with the right cell showing the angle (in radians) by which two objects can just be resolved as equal to the product of 1.22 and the wavelength of the light, divided by the aperture width.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1" align="left"/>
+<colspec colnum="2" colname="c2" align="left"/>
+<tbody>
+<row>
+<entry>wavelength change with change in medium</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>λ</m:mi>
+   <m:mi>n</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mi>λ</m:mi>
+   <m:mi>n</m:mi>
+  </m:mfrac>
+  </m:mrow>
+</m:math> </entry>
+</row>
+<row>
+<entry>diffraction grating constructive interference</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mi>d</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>λ</m:mi></m:mrow>
+</m:math> </entry>
+</row>
+<row>
+<entry>resolution</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>1.22</m:mn><m:mfrac>
+   <m:mi>λ</m:mi>
+   <m:mi>D</m:mi>
+  </m:mfrac>
+  </m:mrow>
+</m:math> </entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+
+<section id="fs-id1167065878071" class="concept"><title>Concept Items</title><exercise id="fs-id1167065946888"><problem id="fs-id1167064535386">
+<para id="fs-id1167064535388">There is a principle related to resolution that is expressed by this equation.
+</para>
+<equation id="eip-idm230410704"> <m:math><m:mrow>
+<m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>λ</m:mi><m:mi>D</m:mi></m:mfrac>
+</m:mrow></m:math> </equation>
+<para id="eip-idm223576880">What is that principle stated in full?</para>
+</problem>
+</exercise><exercise id="eip-id1166851082725" class="os-exercise"><problem id="eip-id1166851082729">
+<para id="eip-id1166851082732">A principle related to resolution states, “Two images are just resolved when the center of the diffraction pattern of one is directly over the first minimum of the diffraction pattern of the other.” Write the equation that expresses that principle.</para>
+<list id="eip-idm341276096" list-type="enumerated" number-style="lower-alpha"><item> <m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>1.22</m:mn><m:mfrac><m:mi>D</m:mi><m:mi>λ</m:mi></m:mfrac></m:mrow></m:math>
+</item>
+
+<item> <m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>D</m:mi><m:mi>λ</m:mi></m:mfrac></m:mrow></m:math>
+</item>
+
+<item> <m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>λ</m:mi><m:mi>D</m:mi></m:mfrac></m:mrow></m:math>
+</item>
+
+<item> <m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>1.22</m:mn><m:mfrac><m:mi>λ</m:mi><m:mi>D</m:mi></m:mfrac></m:mrow></m:math>
+</item></list></problem>
+</exercise><exercise id="eip-id1166851367430" class="os-exercise">
+<problem id="eip-id1166851367434">
+<!--<para id="eip-id1166851052167">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch17-ot026"/>
+</para>-->
+<para id="fs-id1164566931608">Which statement completes this resolution?
+<newline/>Two images are just resolved when —
+</para><list id="fs-id1164566692309" list-type="enumerated" number-style="lower-alpha">
+<item>The center of the diffraction pattern of one image is directly over the central maximum of the diffraction pattern of the other.</item>
+<item>The center of the diffraction pattern of one image is directly over the central minimum of the diffraction pattern of the other</item>
+<item>The center of the diffraction pattern of one image is directly over the first minimum of the diffraction pattern of the other</item>
+<item>The center of the diffraction pattern of one is directly over the first maximum of the diffraction pattern of the other</item>
+</list>
+</problem>
+</exercise></section><section id="fs-id1167064877565" class="critical-thinking"><title>Critical Thinking</title><exercise id="fs-id1167062312031"><problem id="fs-id1167066029737">
+<para id="fs-id1167064951742">For what type of electromagnetic radiation would a grating with spacing greater than 800 nm be useful as a spectroscopic tool?
+</para><list id="eip-idm352074400" list-type="enumerated" number-style="lower-alpha">
+<item>It can be used to analyze spectra only in the infrared portion of the spectrum.</item>
+<item>It can be used to analyze spectra in the entire visible portion of the electromagnetic
+spectrum.</item>
+<item>It can only be used to analyze spectra in the short‐wavelength visible.</item>
+<item>It can only be used to analyze spectra in the short‐wavelength visible and ultraviolet.</item>
+</list>
+</problem>
+</exercise><exercise id="eip-id1166850949099" class="os-exercise">
+<problem id="eip-id1166851223622">
+<para id="eip-id1166851223624">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch17-ot017"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167064824657" class="problems">
+<title>Problems</title>
+<exercise id="fs-id1167065913415">
+<problem id="fs-id1167065974801">
+<!--<para id="fs-id1167065787730">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch17-ex037"/>
+</para>-->
+<para id="fs-id1169832014930">A 500-nm beam of light passing through a diffraction grating creates its second band of constructive interference at an angle of 1.50°. How far apart are the slits in the grating?</para>
+<list id="fs-id1169831732026" list-type="enumerated" number-style="lower-alpha">
+<item>38,200 nm</item>
+<item>19,100 nm</item>
+<item>667 nm</item>
+<item>333 nm</item></list>
+</problem>
+</exercise>
+<exercise id="fs-id1167064973745">
+<problem id="fs-id1167063009903">
+<!--<para id="fs-id1167063009906">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch17-ex038"/>
+</para>-->
+<para id="fs-id1169831666535">The range of the visible-light spectrum is 380 nm to 780 nm. What is the maximum number of lines per centimeter
+a diffraction grating can have and produce a complete first-order spectrum for visible light?</para><list id="fs-id1169831977437" list-type="enumerated" number-style="lower-alpha"><item>26,300 lines/cm</item>
+<item>13,200 lines/cm</item>
+<item>6,410 lines/cm</item>
+<item>12,820 lines/cm</item></list></problem>
+</exercise>
+</section>
+
+<section id="fs-id1167065874940" class="multiple-choice"><title>Test Prep Multiple Choice</title><exercise id="fs-id1167062877284">
+<problem id="fs-id1167065851686">
+<!--<para id="fs-id1167065824896">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch17-ex039"/>
+</para>-->
+<para id="fs-id1169827320992">Two images are just resolved when the center of the diffraction pattern of one is directly over ________ of the diffraction pattern of the other.</para>
+<list id="fs-id1169832035950" list-type="enumerated" number-style="lower-alpha">
+<item>the center</item>
+<item>the first minimum</item>
+<item>the first maximum</item>
+<item>the last maximum</item></list>
+</problem>
+</exercise>
+<exercise id="fs-id1167062571142">
+<problem id="fs-id1167062409071">
+<para id="fs-id1167065689958">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch17-ex040"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166851051700" class="os-exercise">
+<problem id="eip-id1166846428048">
+<!--<para id="eip-id1166846428050">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch17-ot023"/>
+</para>-->
+<para id="fs-id1164566942782">Will a beam of light shining through a 1-mm hole behave any differently than a beam of light that is 1 mm wide as it leaves its source? Explain.?</para>
+<list id="fs-id1164562064419" list-type="enumerated" number-style="lower-alpha">
+<item>Yes, the beam passing through the hole will spread out as it travels, because it is diffracted by the edges of the hole, whereas the 1 -mm beam, which encounters no diffracting obstacle, will not spread out.</item>
+<item>Yes, the beam passing through the hole will be made <emphasis effect="italics">more parallel</emphasis> by passing through the hole, and so will not spread out as it travels, whereas the unaltered wavefronts of the 1-mm beam will cause the beam to spread out as it travels. </item>
+<item>No, both beams will remain the same width as they travel, and they will not spread out.</item>
+<item>No, both beams will spread out as they travel.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-id1166848791896" class="os-exercise">
+<problem id="eip-id1166848791900">
+<para id="eip-id1166848791903">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch17-ot024"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167064758094" class="short-answer"><title>Test Prep Short Answer</title>
+<exercise id="fs-id1167066164982">
+<problem id="fs-id1167065887529">
+<para id="fs-id1167065887531">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch17-ex041"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065891150"><problem id="fs-id1167064535246">
+<para id="eip-idm193494048">Suppose pure-wavelength light falls on a diffraction grating. What happens to the interference pattern if the same light falls on a grating that has more lines per centimeter?</para><list id="eip-idm231192016" list-type="enumerated" number-style="lower-alpha"><item>The bands will spread farther from the central maximum.</item>
+<item>The bands will come closer to the central maximum.</item>
+<item>The bands will not spread farther from the first maximum.</item>
+<item>The bands will come closer to the first maximum.</item>
+</list></problem>
+</exercise><exercise id="fs-id1167064872505">
+<problem id="fs-id1167065978811">
+<!--<para id="fs-id1167064879333">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch17-ex043"/>
+</para>-->
+<para id="fs-id1169831889653">How many lines per centimeter are there on a diffraction grating that gives a first-order maximum for 473 nm blue
+light at an angle of 25.0°?</para>
+<list id="fs-id1169831865207" list-type="enumerated" number-style="lower-alpha"><item>529,000 lines/cm</item>
+<item>50,000 lines/cm</item>
+<item>851 lines/cm</item>
+<item>8,934 lines/cm</item></list></problem>
+</exercise>
+<exercise id="fs-id1167064706015">
+<problem id="fs-id1167066036663">
+<!--<para id="fs-id1167066036665">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch17-ex044"/>
+</para>-->
+<para id="fs-id1169832029462">What is the distance between lines on a diffraction grating that produces a second-order maximum for 760-nm red
+light at an angle of 60.0°?</para>
+<list id="fs-id1169831940798" list-type="enumerated" number-style="lower-alpha">
+<item>2.28 × 10<sup>4</sup> nm</item>
+<item>3.29 × 10<sup>2</sup> nm</item>
+<item>2.53 × 10<sup>1</sup> nm</item>
+<item>1.76 × 10<sup>3</sup> nm</item></list>
+</problem>
+</exercise>
+</section><section id="fs-id1167064835435" class="extended-response"><title>Extended Response</title><exercise id="fs-id1167062814482">
+<problem id="fs-id1167065075840">
+<para id="fs-id1167065075842">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch17-ex045"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167062606225">
+<problem id="fs-id1167064910778">
+<para id="fs-id1167065973089">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch17-ex046"/>
+</para>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167064986525" class="performance">
+<title>Performance Task</title>
+<exercise id="fs-id1167065888367"><problem id="fs-id1167065888369">
+<para id="fs-id1167065896407">In this performance task you will create one- and two-slit diffraction and observe the interference patterns that result.</para>
+<list id="fs-id1167065896411">
+
+<item>A utility knife (a knife with a razor blade-like cutting edge)</item>
+<item>Aluminum foil</item>
+<item>A straight edge</item>
+<item>A strong, small light source or a laser pointer</item>
+<item>A tape measure</item>
+<item>A white wall</item>
+</list>
+
+<list id="fs-id1167066054034" list-type="enumerated">
+<title>Procedure</title>
+<item>Cut a piece of aluminum foil about 15 cm × 15 cm.</item>
+<item>Use the utility knife and the straight edge to cut a straight slit several cm long in the center of the foil square.</item>
+<item>With the room darkened, one partner shines the light through the slit and toward the wall. The other partner observes the pattern on the wall. The partner with the light changes the distance from the foil to the wall and the distance from the light to the foil.</item>
+<item>When the sharpest, brightest pattern possible is obtained, the partner who is not holding the foil and light makes measurements.</item>
+<item>Measure the perpendicular (shortest) distance from the slit to the wall, the distance from the center of the pattern to several of the dark bands, and the distance from the slit to the same dark bands.</item>
+<item>Carefully make a second slit parallel to the first slit and 1 mm or less away.</item>
+<item>Repeat steps 2 through 5, only this time measure the distances to bright bands.
+<para id="fs-id1167064730272">NOTE—In your calculations, use 580 nm for  <m:math>
+ <m:mi>λ</m:mi>
+</m:math>  if you used white light. If you used a colored laser pointer, look up the wavelength of the color. You may find it easier to calculate  <m:math>
+ <m:mi>θ</m:mi>
+</m:math>  from its tangent rather than from its sine.
+<list id="fs-id1167062811248" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>Which experiment gave the most distinct pattern—one or two slits?</item>
+<item>What was the width of the single slit? Compare the calculated distance with the measured distance.</item>
+<item>What was the distance between the two slits? Compare the calculated distance with the measured distance.</item>
+</list>
+</para>
+</item>
+</list>
+
+<note id="fs-id1167065738098" class="os-teacher"><title>Teacher Support</title>
+<list id="eip-id1167067078194" list-type="bulleted" bullet-style="none"><item>This performance task supports <span>NGSS HS-PS4-3</span><span>:</span> <span>Evaluate the claims, evidence, and reasoning behind the idea that electromagnetic radiation can be described either by a wave model or a particle model, and that for some situations one model is more useful than the other.</span></item></list><para id="fs-id1167065874583">Clarification Statement—Emphasis is on how the experimental evidence supports the claim and how a theory is generally modified in light of new evidence. Examples of a phenomenon could include resonance, interference, diffraction, and photoelectric effect.</para>
+<para id="fs-id1167065874588">Assessment Boundary—Assessment does not include using quantum theory.</para>
+<para id="fs-id1167062408682">AND</para>
+<para id="fs-id1167062408685">S&amp;EP—Use mathematical representations of phenomena or design solutions to describe and/or support claims and/or explanations.
+<list id="fs-id1167064876639" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>The double-slit pattern was more distinct.</item>
+<item>Answers will vary. Calculation should employ  <m:math>
+ <m:mrow>
+  <m:mi>D</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>λ</m:mi></m:mrow>
+</m:math>  or  <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mi>D</m:mi><m:mi>y</m:mi></m:mrow>
+   <m:mi>L</m:mi>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mi>m</m:mi><m:mi>λ</m:mi></m:mrow>
+</m:math> .</item>
+<item>Answers will vary. Calculation should employ  <m:math>
+ <m:mrow>
+  <m:mi>d</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>λ</m:mi></m:mrow>
+</m:math> .</item>
+</list>
+</para>
+</note></problem>
+</exercise></section>
+
+
+</content>
+<glossary>
+<definition id="fs-id1167065913002">
+<term>diffraction grating</term>
+<meaning id="fs-id1167066056529">many of evenly spaced slits having dimensions such that they produce an interference pattern</meaning>
+</definition>
+<definition id="fs-id1167066056534">
+<term>differential interference contrast (DIC)</term>
+<meaning id="fs-id1167065039319">separating a polarized light source into two beams polarized at right angles to each other and coherent with each other then, after passing through the sample, recombining and realigning the beams so they have the same plane of polarization, and then creating an interference pattern caused by the differences in their optical path and the refractive indices of the parts of the sample they passed through; the result is an image with contrast and shadowing that could not be observed with traditional optics</meaning>
+</definition>
+<definition id="fs-id1167065001311">
+<term>iridescence</term>
+<meaning id="fs-id1167065001316">the effect that occurs when tiny, fingerlike structures in regular patterns act as reflection gratings, producing constructive interference that gives feathers colors not solely due to their pigmentation</meaning>
+</definition>
+<definition id="fs-id1167062312080">
+<term>laser</term>
+<meaning id="fs-id1167064932396">acronym for a device that produces <emphasis effect="italics">light amplification by stimulated emission of radiation</emphasis></meaning>
+</definition>
+<definition id="fs-id1167066153701">
+<term>monochromator</term>
+<meaning id="fs-id1167065024576">device that separates the various wavelengths of incoming light and allows a beam with only a specific wavelength to pass through</meaning>
+</definition>
+<definition id="fs-id1167062299462">
+<term>Rayleigh criterion</term>
+<meaning id="fs-id1167064572031">two images are just resolvable when the center of the diffraction pattern of one is directly over the first minimum of the diffraction pattern of the other</meaning>
+</definition>
+<definition id="fs-id1167065920207">
+<term>resolution</term>
+<meaning id="fs-id1167065823860">degree to which two images can be distinguished from one another, which is limited by diffraction</meaning>
+</definition>
+</glossary>
+</document>

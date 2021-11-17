@@ -1,0 +1,1263 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Lenses</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54361</md:content-id>
+  <md:title>Lenses</md:title>
+  <md:abstract/>
+  <md:uuid>e202e0db-9d73-4300-b3c7-20f022d60fd0</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167064626583" class="learning-objectives"><label/><title>Section Learning Objectives</title>
+<para id="fs-id1167066025057">By the end of this section, you will be able to do the following:</para>
+<list id="fs-id1167063208255">
+<item>Describe and predict image formation and magnification as a consequence of refraction through convex and concave lenses, use ray diagrams to confirm image formation, and discuss how these properties of lenses determine their applications</item>
+<item>Explain how the human eye works in terms of geometric optics</item>
+<item>Perform calculations, based on the thin-lens equation, to determine image and object distances, focal length, and image magnification, and use these calculations to confirm values determined from ray diagrams</item>
+</list>
+</note>
+<section id="keyterms"><title>Section Key Terms</title>
+<table id="fs-id1167064585090" class="unnumbered unstyled section-key-terms" summary="Section Key Terms is a three column table. The first row reads aberration, chromatic aberration, concave lens. The second row reads converging lens, convex lens, diverging lens. The third row reads  eyepiece, objective, ocular. The fourth row reads parfocal.">
+<label/>
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+<row>
+<entry>aberration</entry>
+<entry>chromatic aberration</entry>
+<entry>concave lens</entry>
+<entry>converging lens</entry>
+<entry>convex lens</entry>
+</row>
+<row>
+<entry>diverging lens</entry>
+<entry>eyepiece</entry>
+<entry>objective</entry>
+<entry>ocular</entry>
+<entry>parfocal</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section id="fs-id1167066177054"><title>Characteristics of Lenses</title><note id="fs-id1167066141690" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065975547"><span>[BL]</span><span>[OL]</span><span>[AL]</span>Review the lens/mirror equation from the <link document="m54357" target-id="fs-id1167067144771">Reflection</link> section. Review the terms focal point, focal length, object distance, image distance, concave, convex, converging, and diverging from the <link document="m54357" target-id="fs-id1167067144771">Reflection</link> section.</para></note>
+
+<para id="fs-id1167065858906">Lenses are found in a huge array of optical instruments, ranging from a simple magnifying glass to the eye to a camera’s zoom lens. In this section, we use the law of refraction to explore the properties of lenses and how they form images.</para>
+<para id="fs-id1167065943153">Some of what we learned in the earlier discussion of curved mirrors also applies to the study of lenses. Concave, convex, focal point F, and focal length <emphasis effect="italics">f</emphasis> have the same meanings as before, except each measurement is made from the center of the lens instead of the surface of the mirror. The <term>convex lens</term> shown in <link target-id="Figure_16_03_ConvexLens"/> has been shaped so that all light rays that enter it parallel to its central axis cross one another at a single point on the opposite side of the lens. The central axis, or axis, is defined to be a line normal to the lens at its center. Such a lens is called a <term>converging lens</term> because of the converging effect it has on light rays. An expanded view of the path of one ray through the lens is shown in <link target-id="Figure_16_03_ConvexLens"/> to illustrate how the ray changes direction both as it enters and as it leaves the lens. Because the index of refraction of the lens is greater than that of air, the ray moves toward the perpendicular as it enters and away from the perpendicular as it leaves. (This is in accordance with the law of refraction.) As a result of the shape of the lens, light is thus bent toward the axis at both surfaces.</para>
+<figure id="Figure_16_03_ConvexLens"><media id="fs-id1167065809698" alt="A drawing on the left side of the figure depicts a convex lens with three parallel light rays (labeled 1, 2, and 3 from top to bottom) passing through the lens from the left and converging to the right of the lens at F. After passing through F, the light rays are flipped from top to bottom (3, 2, 1). The figure on the right is an expanded view of the figure on the left.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_16_03_ConvexLens.jpg"/>
+</media>
+
+<caption>Rays of light entering a convex, or converging, lens parallel to its axis converge at its focal point, F. Ray 2 lies on the axis of the lens. The distance from the center of the lens to the focal point is the focal length, <emphasis effect="italics">ƒ</emphasis>, of the lens. An expanded view of the path taken by ray 1 shows the perpendiculars and the angles of incidence and refraction at both surfaces.</caption>
+</figure>
+<para id="fs-id1167064984875">Note that rays from a light source placed at the focal point of a converging lens emerge parallel from the other side of the lens. You may have heard of the trick of using a converging lens to focus rays of sunlight to a point. Such a concentration of light energy can produce enough heat to ignite paper.</para>
+<para id="fs-id1167064894736"><link target-id="Figure_16_03_Concave_Lens"/> shows a <term>concave lens</term> and the effect it has on rays of light that enter it parallel to its axis (the path taken by ray 2 in the figure is the axis of the lens). The concave lens is a <term>diverging lens</term> because it causes the light rays to bend away (diverge) from its axis. In this case, the lens has been shaped so all light rays entering it parallel to its axis appear to originate from the same point, F, defined to be the focal point of a diverging lens. The distance from the center of the lens to the focal point is again called the <emphasis effect="italics">focal length</emphasis>, or “<emphasis effect="italics">ƒ</emphasis>,” of the lens. Note that the focal length of a diverging lens is defined to be negative. An expanded view of the path of one ray through the lens is shown in <link target-id="Figure_16_03_Concave_Lens"/> to illustrate how the shape of the lens, together with the law of refraction, causes the ray to follow its particular path and diverge.</para>
+
+<figure id="Figure_16_03_Concave_Lens"><media id="fs-id1167064634524" alt="In this schematic, parallel rays of light (rays 1, 2, and 3, top to bottom) enter a convex lens and diverge away from the axis. These diverging rays are labeled 1, 2, and 3 (top to bottom). Another schematic shows an expanded view of ray 1.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_16_03_ConcaveL.jpg"/>
+</media>
+
+<caption>Rays of light enter a concave, or diverging, lens parallel to its axis diverge and thus appear to originate from its focal point, F. The dashed lines are not rays; they indicate the directions from which the rays appear to come. The focal length, <emphasis effect="italics">ƒ</emphasis>, of a diverging lens is negative. An expanded view of the path taken by ray 1 shows the perpendiculars and the angles of incidence and refraction at both surfaces.</caption></figure>
+
+<para id="fs-id1167065954769">The power, <emphasis effect="italics">P</emphasis>, of a lens is very easy to calculate. It is simply the reciprocal of the focal length, expressed in meters</para>
+<equation id="fs-id1167065884491"><label/> <m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mi>f</m:mi>
+  </m:mfrac>
+  <m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </equation>
+<para id="fs-id1167065820187">The units of power are diopters, D, which are expressed in reciprocal meters. If the focal length is negative, as it is for the diverging lens in <link target-id="Figure_16_03_Concave_Lens"/>, then the power is also negative.</para>
+<note id="fs-id1167065868007" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167064896896"><span>[BL]</span><span>[OL]</span>Explain that for ray tracing, the focal point is needed. It is possible to calculate the location of the focal point using the law of refraction (Snell’s law) and the refractive index of the lens material, but this process is time-consuming and difficult to do accurately. Repeat the definitions of real, virtual, upright, and inverted, as they apply to images.</para>
+<note id="fs-id1167062945497" class="misconception">
+
+<para id="fs-id1167066137211">It is an unfortunate fact that the word <emphasis effect="italics">power</emphasis> is used for two completely different concepts. If you examine a prescription for eyeglasses, the lens powers are given in diopters. If you examine the label on a motor, the energy consumption rate is given as power in watts.</para>
+</note>
+</note>
+
+<para id="fs-id1167065738903">In some circumstances, a lens forms an image at an obvious location, such as when a movie projector casts an image onto a screen. In other cases, the image location is less obvious. Where, for example, is the image formed by eyeglasses? We use ray tracing for thin lenses to illustrate how they form images, and we develop equations to describe the image-formation quantitatively. These are the rules for ray tracing:</para>
+<list id="fs-id1167064875149" list-type="enumerated">
+<item>A ray entering a converging lens parallel to its axis passes through the focal point, F, of the lens on the other side</item>
+<item>A ray entering a diverging lens parallel to its axis seems to come from the focal point, F, on the side of the entering ray</item>
+<item>A ray passing through the center of either a converging or a diverging lens does not change direction</item>
+<item>A ray entering a converging lens through its focal point exits parallel to its axis</item>
+<item>A ray that enters a diverging lens by heading toward the focal point on the opposite side exits parallel to the axis</item>
+</list>
+
+<para id="fs-id1167065892046">Consider an object some distance away from a converging lens, as shown in <link target-id="Figure_16_03_ConvexL2"/>. To find the location and size of the image formed, we trace the paths of select light rays originating from one point on the object. In this example, the originating point is the top of a woman’s head. <link target-id="Figure_16_03_ConvexL2"/> shows three rays from the top of the object that can be traced using the ray-tracing rules just listed. Rays leave this point traveling in many directions, but we concentrate on only a few, which have paths that are easy to trace. The first ray is one that enters the lens parallel to its axis and passes through the focal point on the other side (rule 1). The second ray passes through the center of the lens without changing direction (rule 3). The third ray passes through the nearer focal point on its way into the lens and leaves the lens parallel to its axis (rule 4). All rays that come from the same point on the top of the person’s head are refracted in such a way as to cross at the same point on the other side of the lens. The image of the top of the person’s head is located at this point. Rays from another point on the object, such as the belt buckle, also cross at another common point, forming a complete image, as shown. Although three rays are traced in <link target-id="Figure_16_03_ConvexL2"/>, only two are necessary to locate the image. It is best to trace rays for which there are simple ray-tracing rules. Before applying ray tracing to other situations, let us consider the example shown in <link target-id="Figure_16_03_ConvexL2"/> in more detail.</para>
+<figure id="Figure_16_03_ConvexL2">
+<media id="fs-id1167064549938" alt="This series of drawings shows a woman standing to the left of a lens. Rays originate from the top of her head and pass through the lens at various angles to create a real image on the other side of the lens.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_16_03_ConvexL2.jpg"/>
+</media>
+<caption>Ray tracing is used to locate the image formed by a lens. Rays originating from the same point on the object are traced. The three chosen rays each follow one of the rules for ray tracing, so their paths are easy to determine. The image is located at the point where the rays cross. In this case, a real image—one that can be projected on a screen—is formed.</caption>
+</figure>
+
+<para id="fs-id1167066037149">The image formed in <link target-id="Figure_16_03_ConvexL2"/> is a real image—meaning, it can be projected. That is, light rays from one point on the object actually cross at the location of the image and can be projected onto a screen, a piece of film, or the retina of an eye.</para>
+<para id="fs-id1167065871537">In <link target-id="Figure_16_03_ConvexL2"/>, the object distance, <emphasis effect="italics">d<sub>o</sub></emphasis>, is greater than <emphasis effect="italics">f.</emphasis> Now we consider a ray diagram for a convex lens where <emphasis effect="italics">d<sub>o</sub>&lt;</emphasis> <emphasis effect="italics">f</emphasis>, and another diagram for a concave lens.</para>
+
+<note id="fs-id1167062957736" class="virtual-physics os-interactive"><title>Geometric Optics</title>
+<media id="fs-id1167062368653" alt="This simulation allows you to see how light rays are refracted by a lens.">
+<iframe width="660" height="371.4" src="https://openstax.org/l/28Geometric"/></media>
+<para id="eip-id1167067041601">This animation shows you how the image formed by a convex lens changes as you change object distance, curvature radius, refractive index, and diameter of the lens. To begin, choose Principal Rays in the upper left menu and then try varying some of the parameters indicated at the upper center. Show Help supplies a few helpful labels.</para>
+
+<para id="fs-id1167064958819"><link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex047"/></para>
+
+
+<note id="fs-id1167064872783" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167064850996">After students become familiar with the operation of the animation, have them select the 2nd Point option at the lower left of the menu. This option provides the rays from a second point on the object. This point can be adjusted so that rays from both the top and, for example, the center of the object may be studied.</para>
+</note>
+</note>
+<table id="Table_16_03" summary="Table with five columns and four rows. The top left cell reads “Type,” with cells to the right reading, respectively, “Formed When,” “Image Type,” “di,” and “m.” The next two rows describe type “case 1” and “case 2” placement of the object outside and within the positive focal length (convex lens), respectively, with the image produced being either real, having a positive image distance, and having a negative magnification (inverted image); or being virtual, having a negative image distance, and having a positive magnification (erect image) greater than one. Case 3 involves a negative focal length (concave lens), so the image type is virtual, the image distance is negative, and the magnification is positive (an erect image) and less than one.">
+<title>Three Types of Images Formed by Lenses</title>
+<tgroup cols="5"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<thead>
+<row>
+<entry>Type</entry>
+<entry>Formed When</entry>
+<entry>Image Type</entry>
+<entry><emphasis effect="italics">d</emphasis><sub>i</sub></entry>
+<entry><emphasis effect="italics">M</emphasis></entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>Case 1</entry>
+<entry><emphasis effect="italics">f </emphasis>positive, <emphasis effect="italics">d<sub>o</sub></emphasis> &gt; <emphasis effect="italics">f</emphasis></entry>
+<entry>Real</entry>
+<entry>Positive</entry>
+<entry>Negative <emphasis effect="italics">m</emphasis> &gt;, &lt;, or = ‒1</entry>
+</row>
+<row>
+<entry>Case 2</entry>
+<entry><emphasis effect="italics">f </emphasis>positive, <emphasis effect="italics">d<sub>o</sub></emphasis> &lt; <emphasis effect="italics">f</emphasis></entry>
+<entry>Virtual</entry>
+<entry>Negative</entry>
+<entry>Positive <emphasis effect="italics">m</emphasis> &gt; 1</entry>
+</row>
+<row>
+<entry>Case 3</entry>
+<entry><emphasis effect="italics">f </emphasis>negative</entry>
+<entry>Virtual</entry>
+<entry>Negative</entry>
+<entry>Positive <emphasis effect="italics">m</emphasis> &lt; 1</entry>
+</row>
+</tbody>
+
+</tgroup>
+</table>
+
+<para id="fs-id1167065870878">The examples in <link target-id="Figure_16_03_ConvexL2"/> and <link target-id="Figure_16_03_Concave_Convex"/> represent the three possible cases—case 1, case 2, and case 3—summarized in <link target-id="Table_16_03"/>. In the table, <emphasis effect="italics">m</emphasis> is magnification; the other symbols have the same meaning as they did for curved mirrors.</para>
+
+<figure id="Figure_16_03_Concave_Convex">
+<media id="fs-id1167065945296" alt="These two schematics, (a) and (b), are a visual depiction of cases 1 through 3 presented in Three Types of Images Formed by Lenses.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_16_03_ConcaveVex.jpg"/>
+</media>
+<caption>(a) The image is virtual and larger than the object. (b) The image is virtual and smaller than the object.</caption>
+</figure>
+
+<note id="fs-id1167066045327" class="snap-lab">
+
+<title>Focal Length</title>
+<list id="fs-id1167065969902" list-type="bulleted" bullet-style="none" class="warnings">
+
+<item>Temperature extremes—Very hot or very cold temperatures are encountered in this lab that can cause burns. Use protective mitts, eyewear, and clothing when handling very hot or very cold objects. Notify your teacher immediately of any burns.</item>
+<item>EYE SAFETY—Looking at the Sun directly can cause permanent eye damage. Do not look at the Sun through any lens.</item>
+</list>
+<list id="fs-id1167064820146" class="materials">
+
+<item>Several lenses</item>
+<item>A sheet of white paper</item>
+<item>A ruler or tape measure</item>
+</list>
+<para id="fs-id1164561071930">Instructions</para>
+<list id="fs-id1167064900885" list-type="enumerated">
+<title>Procedure</title>
+<item>Find several lenses and determine whether they are converging or diverging. In general, those that are thicker near the edges are diverging and those that are thicker near the center are converging.</item>
+<item>On a bright, sunny day take the converging lenses outside and try focusing the sunlight onto a sheet of white paper.</item>
+<item>Determine the focal lengths of the lenses. Have one partner slowly move the lens toward and away from the paper until you find the distance at which the light spot is at its brightest. Have the other partner measure the distance from the lens to the bright spot. Be careful, because the paper may start to burn, depending on the type of lens.</item>
+</list>
+
+<note id="fs-id1167065715088" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065789515">Be sure there are no flammable materials near the place where you do the experiment. For example, bare concrete pavement is acceptable, but dry, brown grass or leaves is not. <emphasis effect="italics">Do not look at the Sun through any lens</emphasis>! This could cause permanent eye damage!</para>
+</note>
+
+<!--<para id="fs-id1167065785136"><link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex048"/></para>-->
+<para id="fs-id1164564791833">True or false—The bright spot that appears in focus on the paper is an image of the Sun.</para>
+<list id="fs-id1164566571181" list-type="enumerated" number-style="lower-alpha">
+<item>True</item>
+<item>False</item>
+</list>
+</note>
+
+<note id="fs-id1167065882046" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065956185"><span>[BL]</span>Ask students to name as many tools and instruments as they can that incorporate one or more lenses. Fill in the ones they miss with magnifying glass, camera, eye, telescope, microscope, and movie and slide projectors.</para>
+<para id="fs-id1167066112630"><span>[OL]</span>Explain how the human eye is analogous to a camera. Discuss where the lens, aperture, and focal point is in each. Discuss how a camera focuses objects at different distances by moving the lens whereas the eye does this by changing the shape of the lens.</para>
+<para id="fs-id1167066027219"><span>[AL]</span>Ask students to define index of refraction and explain how it affects the path of light rays passing through a lens. How would the path vary with changes in the index of refraction of the lens material? With changes in the wavelengths that make up the light ray?</para>
+</note>
+
+<para id="fs-id1167065734545">Image formation by lenses can also be calculated from simple equations. We learn how these calculations are carried out near the end of this section.</para>
+<para id="fs-id1167064626693">Some common applications of lenses with which we are all familiar are magnifying glasses, eyeglasses, cameras, microscopes, and telescopes. We take a look at the latter two examples, which are the most complex. We have already seen the design of a telescope that uses only mirrors in <link document="m54357" target-id="Figure_16_01_Schmidt"/>. <link target-id="Figure_16_03_Telescope"/> shows the design of a telescope that uses two lenses. Part (a) of the figure shows the design of the telescope used by Galileo. It produces an upright image, which is more convenient for many applications. Part (b) shows an arrangement of lenses used in many astronomical telescopes. This design produces an inverted image, which is less of a problem when viewing celestial objects.</para><note id="fs-id1167064853426" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065788769"><span>[OL]</span><span>[AL]</span>Explain why it does not matter whether an image of a celestial object is inverted. Ask your students whether they agree with the statement: There is no up or down in space.</para>
+
+<note id="fs-id1167064956187" class="misconception">
+
+<para id="fs-id1167064876917">We do not realize that light rays come from every part of an object and pass through every part of the lens; all are used to form the final image. In general, we feel the entire lens, or mirror, is needed to form an image. Actually, half a lens forms the same, although fainter, image.</para>
+</note>
+</note>
+
+<figure id="Figure_16_03_Telescope"><media id="fs-id1167065897963" alt="In view (a), moving from left to right, there is a tree (which is a real final image), an objective, an eyepiece, and an eye. Incoming parallel rays of light pass through the objective (which is convex) and the eyepiece (which is concave) to the eye. In view (b), moving from left to right, there is an inverted tree (which is a magnified final image), an objective and an eyepiece (both of which are convex), and an eye. Incoming rays of light pass through the first objective and converge, then pass through the second lens (the eyepiece) to the eye.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_16_03_Telescope.jpg"/>
+</media>
+<caption>(a) Galileo made telescopes with a convex objective and a concave eyepiece. They produce an upright image and are used in spyglasses. (b) Most simple telescopes have two convex lenses. The objective forms a case 1 image, which is the object for the eyepiece. The eyepiece forms a case 2 final image that is magnified.</caption>
+</figure>
+
+<para id="fs-id1167062811451"><link target-id="Figure_16_03_Microscope"/> shows the path of light through a typical microscope. Microscopes were first developed during the early 1600s by eyeglass makers in the Netherlands and Denmark. The simplest compound microscope is constructed from two convex lenses, as shown schematically in <link target-id="Figure_16_03_Microscope"/>. The first lens is called the <emphasis effect="italics">objective lens</emphasis>; it has typical magnification values from 5 <m:math>
+ <m:mo>×</m:mo>
+</m:math>  to 100 <m:math>
+ <m:mo>×</m:mo>
+</m:math> . In standard microscopes, the <term>objectives</term> are mounted such that when you switch between them, the sample remains in focus. Objectives arranged in this way are described as <term><emphasis effect="italics">parfocal</emphasis></term>. The second lens, the <term>eyepiece</term>, also referred to as the <term><emphasis effect="italics">ocular</emphasis></term>, has several lenses that slide inside a cylindrical barrel. The focusing ability is provided by the movement of both the objective lens and the eyepiece. The purpose of a microscope is to magnify small objects, and both lenses contribute to the final magnification. In addition, the final enlarged image is produced in a location far enough from the observer to be viewed easily because the eye cannot focus on objects or images that are too close.</para>
+<figure id="Figure_16_03_Microscope"><media id="fs-id1167065878796" alt="The schematic depicts the inner workings of a microscope.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_16_03_Microscope.jpg"/>
+</media>
+
+<caption>A compound microscope composed of two lenses, an objective and an eyepiece. The objective forms a case 1 image that is larger than the object. This first image is the object for the eyepiece. The eyepiece forms a case 2 final image that is magnified even further.</caption></figure>
+
+<para id="fs-id1167066054949">Real lenses behave somewhat differently from how they are modeled using rays diagrams or the thin-lens equations. Real lenses produce aberrations. An <term>aberration</term> is a distortion in an image. There are a variety of aberrations that result from lens size, material, thickness, and the position of the object. One common type of aberration is <term>chromatic aberration</term>, which is related to color. Because the index of refraction of lenses depends on color, or wavelength, images are produced at different places and with different magnifications for different colors. The law of reflection is independent of wavelength, so mirrors do not have this problem. This result is another advantage for the use of mirrors in optical systems such as telescopes.</para>
+<para id="fs-id1167064546032"><link target-id="Figure_16_03_Aberration"/>(a) shows chromatic aberration for a single convex lens, and its partial correction with a two-lens system. The index of refraction of the lens increases with decreasing wavelength, so violet rays are refracted more than red rays, and are thus focused closer to the lens. The diverging lens corrects this in part, although it is usually not possible to do so completely. Lenses made of different materials and with different dispersions may be used. For example, an achromatic doublet consisting of a converging lens made of crown glass in contact with a diverging lens made of flint glass can reduce chromatic aberration dramatically (<link target-id="Figure_16_03_Aberration"/>(b)).</para>
+<figure id="Figure_16_03_Aberration">
+<media id="fs-id1167065761952" alt="View (a) is a sketch of a convex lens. White light, originating at a single point to the left, diverges and enters the lens. The rays pass through the lens and refract to produce a chromatic aberration. View (b) is a sketch of a multilense system in which parallel rays of white light to the left of the system pass through a convex lens, then a concave lens, to converge at a point that corrects the chromatic aberration.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_16_03_Aberration.jpg"/>
+</media>
+<caption>(a) Chromatic aberration is caused by the dependence of a lens’s index of refraction on color (wavelength). The lens is more powerful for violet (V) than for red (R), producing images with different colors, locations, and magnifications. (b) Multiple-lens systems can correct chromatic aberrations in part, but they may require lenses of different materials and add to the expense of optical systems such as cameras.</caption>
+</figure>
+</section><section id="fs-id1167066843842">
+<title>Physics of the Eye</title>
+<note id="fs-id1167067033754" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066803919"><span>[BL]</span>Review bending of light by refraction at a boundary between media of differing refracting indices. Note that the greater the difference in refraction indices, the more the light is bent.</para>
+<para id="fs-id1167063514214"><span>[OL]</span>Show students a camera and point out the parts of the camera that have the same function as analogous parts of the eye: aperture (iris), lens (lens), film or light-sensitive screen (retina), and memory (brain).</para>
+<para id="fs-id1167067005587"><span>[AL]</span>Have students with glasses compare them. Ask if they know whether their glasses correct for nearsightedness or farsightedness. Explain why glasses that correct nearsightedness are diverging (concave) and why glasses that correct farsightedness are converging (convex).</para>
+</note>
+
+<para id="fs-id1167063429677">The eye is perhaps the most interesting of all optical instruments. It is remarkable in how it forms images and in the richness of detail and color they eye can detect. However, our eyes commonly need some correction to reach what is called <emphasis effect="italics">normal</emphasis> vision, but should be called <emphasis effect="italics">ideal</emphasis> vision instead. Image formation by our eyes and common vision correction are easy to analyze using geometric optics. <link target-id="Figure_16_03_Eye"/> shows the basic anatomy of the eye. The cornea and lens form a system that, to a good approximation, acts as a single thin lens. For clear vision, a real image must be projected onto the light-sensitive retina, which lies at a fixed distance from the lens. The lens of the eye adjusts its power to produce an image on the retina for objects at different distances. The center of the image falls on the fovea, which has the greatest density of light receptors and the greatest acuity (sharpness) in the visual field. There are no receptors at the place where the optic nerve meets the eye, which is called the <emphasis effect="italics">blind spot</emphasis>. An image falling on this spot cannot be seen. The variable opening (or pupil) of the eye along with chemical adaptation allows the eye to detect light intensities from the lowest observable to 10<sup>10</sup> times greater (without damage). Ten orders of magnitude is an incredible range of detection. Our eyes perform a vast number of functions, such as sense direction, movement, sophisticated colors, and distance. Processing of visual nerve impulses begins with interconnections in the retina and continues in the brain. The optic nerve conveys signals received by the eye to the brain.</para>
+
+<figure id="Figure_16_03_Eye">
+<media id="fs-id1167063535758" alt="This schematic is a cross-section of the various parts of the eye.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_16_03_Eye.jpg"/>
+</media>
+<caption>The cornea and lens of an eye act together to form a real image on the light-sensing retina, which has its densest concentration of receptors in the fovea, and a blind spot over the optic nerve. The power of the lens of an eye is adjustable to provide an image on the retina for varying object distances.</caption>
+</figure>
+
+<para id="fs-id1167066946736">Refractive indices are crucial to image formation using lenses. <link target-id="Table_16_04"/> shows refractive indices relevant to the eye. The biggest change in the refractive index—and the one that causes the greatest bending of rays—occurs at the cornea rather than the lens. The ray diagram in <link target-id="Figure_16_03_Eye2"/> shows image formation by the cornea and lens of the eye. The rays bend according to the refractive indices provided in <link target-id="Table_16_04"/>. The cornea provides about two-thirds of the magnification of the eye because the speed of light changes considerably while traveling from air into the cornea. The lens provides the remaining magnification needed to produce an image on the retina. The cornea and lens can be treated as a single thin lens, although the light rays pass through several layers of material (such as the cornea, aqueous humor, several layers in the lens, and vitreous humor), changing direction at each interface. The image formed is much like the one produced by a single convex lens. This result is a case 1 image. Images formed in the eye are inverted, but the brain inverts them once more to make them seem upright.</para>
+
+<table id="Table_16_04" summary="Table with two columns and seven rows. The top left cell reads “Material”; the top right cell reads “Index of Refraction.” The next six rows describe the various transparent substances of which the human eye is composed and the index of refraction of that substance."><title>Refractive Indices Relevant to the Eye</title>
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row>
+<entry>Material</entry>
+<entry>Index of Refraction</entry>
+</row>
+</thead>
+<tfoot>
+<row>
+<entry namest="c1" nameend="c2"><sup>*</sup>The index of refraction varies throughout the lens and is greatest at its center.</entry>
+</row>
+</tfoot>
+<tbody>
+<row>
+<entry>Water</entry>
+<entry>1.33</entry>
+</row>
+<row>
+<entry>Air</entry>
+<entry>1.00</entry>
+</row>
+<row>
+<entry>Cornea</entry>
+<entry>1.38</entry>
+</row>
+<row>
+<entry>Aqueous humor</entry>
+<entry>1.34</entry>
+</row>
+<row>
+<entry>Lens</entry>
+<entry>1.41 average<sup>*</sup></entry>
+</row>
+<row>
+<entry>Vitreous humor</entry>
+<entry>1.34</entry>
+</row>
+</tbody>
+
+</tgroup>
+</table><figure id="Figure_16_03_Eye2">
+<media id="fs-id1167067314264" alt="This schematic shows a cross-section of an eyeball. An upright tree is to the left of the eye. Rays 1 and 2 come from the top of the tree; rays 3 and 4 originate from the bottom of the tree. The rays enter the eyeball, pass through the components of the eye, and produce an image of an inverted tree.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_16_03_Eye2.jpg"/>
+</media>
+<caption>An image is formed on the retina, with light rays converging most at the cornea and on entering and exiting the lens. Rays from the top and bottom of the object are traced and produce an inverted real image on the retina. The distance to the object is drawn smaller than scale.</caption>
+</figure>
+
+<para id="fs-id1167061250456">As noted, the image must fall precisely on the retina to produce clear vision—that is, the image distance, <emphasis effect="italics">d</emphasis><sub>i</sub>, must equal the lens-to-retina distance. Because the lens-to-retina distance does not change, <emphasis effect="italics">d</emphasis><sub>i</sub> must be the same for objects at all distances. The eye manages to vary the distance by varying the power (and focal length) of the lens to accommodate for objects at various distances. In <link target-id="Figure_16_03_Eye2"/>, you can see the small ciliary muscles above and below the lens that change the shape of the lens and, thus, the focal length.</para>
+<para id="fs-id1167061226385">The need for some type of vision correction is very common. Common vision defects are easy to understand, and some are simple to correct. <link target-id="Figure_16_03_Eye3"/> illustrates two common vision defects. Nearsightedness, or myopia, is the inability to see distant objects clearly while close objects are in focus. The nearsighted eye <emphasis effect="italics">overconverges</emphasis> the nearly parallel rays from a distant object, and the rays cross in front of the retina. More divergent rays from a close object are converged on the retina, producing a clear image. Farsightedness, or hyperopia, is the inability to see close objects clearly whereas distant objects may be in focus. A farsighted eye does not converge rays from a close object sufficiently to make the rays meet on the retina. Less divergent rays from a distant object can be converged for a clear image.</para>
+<figure id="Figure_16_03_Eye3">
+<media id="fs-id1167067054733" alt="View (a) shows schematic cross-sections of the eye indicative of myopia. View (b) show schematic cross-sections of the eye indicative of hyperopia.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_16_03_Eye3.jpg"/>
+</media>
+<caption>(a) The nearsighted (myopic) eye converges rays from a distant object in front of the retina; thus, they are diverging when they strike the retina, and produce a blurry image. This divergence can be caused by the lens of the eye being too powerful (in other words, too short a focal length) or the length of the eye being too great. (b) The farsighted (hyperopic) eye is unable to converge the rays from a close object by the time they strike the retina and produce ... blurry close vision. This poor convergence can be caused by insufficient power (in other words, too long a focal length) in the lens or by the eye being too short.</caption>
+</figure>
+
+<para id="fs-id1167066991166">Because the nearsighted eye overconverges light rays, the correction for nearsightedness involves placing a diverging spectacle lens in front of the eye. This lens reduces the power of an eye that has too short a focal length (<link target-id="Figure_16_05_Eye4"/>(a)). Because the farsighted eye <emphasis effect="italics">underconverges</emphasis> light rays, the correction for farsightedness is to place a converging spectacle lens in front of the eye. This lens increases the power of an eye that has too long a focal length (<link target-id="Figure_16_05_Eye4"/>(b)).</para>
+
+<figure id="Figure_16_05_Eye4"><media id="fs-id1167067052594" alt="View (a) shows a schematic cross-section of the eye and a concave lens that corrects for nearsightedness. View (b) shows a schematic cross-section of the eye and a convex lens that corrects for farsightedness.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_16_03_Eye4.jpg"/>
+</media>
+
+<caption>(a) Correction of nearsightedness requires a diverging lens that compensates for the overconvergence by the eye. The diverging lens produces an image closer to the eye than the object so that the nearsighted person can see it clearly. (b) Correction of farsightedness uses a converging lens that compensates for the underconvergence by the eye. The converging lens produces an image farther from the eye than the object so that the farsighted person can see it clearly. In both (a) and (b), the rays that meet at the retina represent corrected vision, and the other rays represent blurred vision without corrective lenses.</caption></figure></section>
+
+<section id="fs-id1167064691836"><title>Calculations Using Lens Equations</title><para id="fs-id1167064620275">As promised, there are no new equations to memorize. We can use equations already presented for solving problems involving curved mirrors. Careful analysis allows you to apply these equations to lenses. Here are the equations you need</para>
+<equation id="fs-id1167064956462" class="unnumbered">
+<label/>
+ <m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mi>f</m:mi>
+  </m:mfrac>
+  <m:mo>,</m:mo>
+ </m:mrow>
+</m:math> </equation>
+<para id="fs-id1167065775854">where <emphasis effect="italics">P</emphasis> is power, expressed in reciprocal meters (m<sup>–1</sup>) rather than diopters (D), and <emphasis effect="italics">f</emphasis> is focal length, expressed in meters (m). You also need</para>
+<equation id="fs-id1167065980194" class="unnumbered"><label/> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mi>f</m:mi>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:msub>
+     <m:mi>d</m:mi>
+     <m:mi>i</m:mi>
+    </m:msub>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>+</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:msub>
+     <m:mi>d</m:mi>
+     <m:mi>o</m:mi>
+    </m:msub>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>,</m:mo>
+ </m:mrow>
+</m:math> </equation>
+<para id="fs-id1167064892758">where, as before, <emphasis effect="italics">d</emphasis><sub>o</sub> and <emphasis effect="italics">d</emphasis><sub>i</sub> are object distance and image distance, respectively. Remember, this equation is usually more useful if rearranged to solve for one of the variables. For example,</para>
+<equation id="fs-id1167064741363" class="unnumbered">
+<label/>
+ <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>d</m:mi>
+   <m:mi>i</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>f</m:mi><m:msub>
+     <m:mi>d</m:mi>
+     <m:mi>o</m:mi>
+    </m:msub>
+
+   </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mi>d</m:mi>
+     <m:mi>o</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo><m:mi>f</m:mi>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </equation>
+<para id="fs-id1167062401812">The equations for magnification, <emphasis effect="italics">m</emphasis>, are also the same as for mirrors</para>
+<equation id="fs-id1167062901380" class="unnumbered">
+<label/>
+ <m:math>
+ <m:mrow>
+  <m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msub>
+     <m:mi>h</m:mi>
+     <m:mi>i</m:mi>
+    </m:msub>
+
+   </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mi>h</m:mi>
+     <m:mi>o</m:mi>
+    </m:msub>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msub>
+     <m:mi>d</m:mi>
+     <m:mi>i</m:mi>
+    </m:msub>
+
+   </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mi>d</m:mi>
+     <m:mi>o</m:mi>
+    </m:msub>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>,</m:mo>
+ </m:mrow>
+</m:math> </equation>
+<para id="fs-id1167062351068">where <emphasis effect="italics">h</emphasis><sub>i</sub> and <emphasis effect="italics">h</emphasis><sub>o</sub> are the image height and object height, respectively. Remember, also, that a negative <emphasis effect="italics">d</emphasis><sub>i</sub> value indicates a virtual image and a negative <emphasis effect="italics">h</emphasis><sub>i</sub> value indicates an inverted image.</para>
+
+<para id="fs-id1167065876119">These are the steps to follow when solving a lens problem:</para>
+<list id="fs-id1167065896093" list-type="labeled-item">
+<item>Step 1. Examine the situation to determine that image formation by a lens is involved.</item>
+<item>Step 2. Determine whether ray tracing, the thin-lens equations, or both should be used. A sketch is very helpful even if ray tracing is not specifically required by the problem. Write useful symbols and values on the sketch.</item>
+<item>Step 3. Identify exactly what needs to be determined in the problem (identify the unknowns).</item>
+<item>Step 4. Make a list of what is given or can be inferred from the problem as stated (identify the knowns). It is helpful to determine whether the situation involves a case 1, 2, or 3 image. Although these are just names for types of images, they have certain characteristics (given in <link target-id="Table_16_03"/>) that can be of great use in solving problems.</item>
+<item>Step 5. If ray tracing is required, use the ray-tracing rules listed earlier in this section.</item>
+<item>Step 6. Most quantitative problems require the use of the thin-lens equations. These equations are solved in the usual manner by substituting knowns and solving for unknowns. Several worked examples were included earlier and can serve as guides.</item>
+<item>Step 7. Check whether the answer is reasonable. Does it make sense<emphasis effect="italics">? </emphasis>If you identified the type of image (case 1, 2, or 3) correctly, you should assess whether your answer is consistent with the type of image, magnification, and so on.</item>
+</list>
+
+<para id="fs-id1167062371754">All problems will be solved by one or more of the equations just presented, with ray tracing used only for general analysis of the problem. The steps then simplify to the following:</para>
+<list id="fs-id1167064910718" list-type="enumerated">
+<item>Identify the unknown.</item>
+<item>Identify the knowns.</item>
+<item>Choose an equation, plug in the knowns, and solve for the unknown.</item>
+</list>
+
+<para id="fs-id1167064638529">Here are some worked examples:</para>
+
+<note id="Worked_Example_16_06" class="worked-example"><title>The Power of a Magnifying Glass</title>
+
+<exercise id="fs-id1167064915345" class="16-ex049 unnumbered">
+<label/>
+<problem id="fs-id1167064840191">
+<note id="fs-id1167064840193"><label/><title>Strategy</title>
+
+<para id="fs-id1167065888588">The Sun is so far away that its rays are nearly parallel when they reach Earth. The magnifying glass is a convex (or converging) lens, focusing the nearly parallel rays of sunlight. Thus, the focal length of the lens is the distance from the lens to the spot, and its power, in diopters (D), is the inverse of this distance (in reciprocal meters).</para>
+</note></problem>
+
+<solution id="fs-id1167064790580">
+<label/>
+<title>Solution</title>
+<para id="fs-id1167066045486">The focal length of the lens is the distance from the center of the lens to the spot, which we know to be 8.00 cm. Thus,</para>
+<equation id="fs-id1164563481547"> <m:math display="block">
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo>=</m:mo><m:mn>8.00</m:mn><m:mspace width="0.3em"/><m:mtext>cm</m:mtext><m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math> </equation>
+<para id="fs-id1167062458802">To find the power of the lens, we must first convert the focal length to meters; then, we substitute this value into the equation for power.</para>
+<equation id="fs-id1164564967045"> <m:math display="block">
+ <m:mrow>
+  <m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mi>f</m:mi>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:mn>0.0800</m:mn><m:mspace width="0.3em"/><m:mtext> m</m:mtext>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>12.5</m:mn><m:mspace width="0.3em"/><m:mtext> D</m:mtext>
+ </m:mrow>
+</m:math>
+</equation></solution>
+
+<commentary id="fs-id1167065883230">
+<title>Discussion</title>
+<para id="fs-id1167065844059">This result demonstrates a relatively powerful lens. Remember that the power of a lens in diopters should not be confused with the familiar concept of power in watts.</para>
+</commentary>
+</exercise>
+</note><note id="Worked_Example_16_07" class="worked-example"><title>Image Formation by a Convex Lens</title>
+
+<exercise id="fs-id1167065941672" class="16-ex050 unnumbered">
+<label/>
+<problem id="fs-id1167066138558">
+<para id="fs-id1167066138560">A clear glass light bulb is placed 0.75 m from a convex lens with a 0.50 m focal length, as shown in <link target-id="Figure_16_03_Example"/>. Use ray tracing to get an approximate location for the image. Then, use the mirror/lens equations to calculate (a) the location of the image and (b) its magnification. Verify that ray tracing and the thin-lens and magnification equations produce consistent results.</para><figure id="Figure_16_03_Example">
+<media id="fs-id1167064914709" alt="The example is illustrated and depicts values of f = 0.50 m, do = 0.75 m, and di = 1.50 m.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_16_03_Example.jpg"/>
+</media>
+<caption>A light bulb placed 0.75 m from a lens with a 0.50 m focal length produces a real image on a poster board, as discussed in the previous example. Ray tracing predicts the image location and size.</caption>
+</figure>
+
+<note id="fs-id1167065073220"><label/><title>Strategy</title>
+
+<para id="fs-id1167065884050">Because the object is placed farther away from a converging lens than the focal length of the lens, this situation is analogous to the one illustrated in the previous figure of a series of drawings showing a woman standing to the left of a lens. Ray tracing to scale should produce similar results for <emphasis effect="italics">d</emphasis><sub>i</sub>. Numerical solutions for <emphasis effect="italics">d</emphasis><sub>i</sub> and <emphasis effect="italics">m </emphasis>can be obtained using the thin-lens and magnification equations, noting that <emphasis effect="italics">d</emphasis><sub>o</sub> = 0.75 m and <emphasis effect="italics">f </emphasis>= 0.50 m.</para></note></problem>
+
+<solution id="fs-id1167064563984">
+<label/>
+<title>Solution</title>
+<para id="fs-id1167065766120">The ray tracing to scale in <link target-id="Figure_16_03_Example"/> shows two rays from a point on the bulb’s filament crossing about 1.50 m on the far side of the lens. Thus, the image distance, <emphasis effect="italics">d</emphasis><sub>i</sub>, is about 1.50 m. Similarly, the image height based on ray tracing is greater than the object height by about a factor of two, and the image is inverted. Thus, <emphasis effect="italics">m </emphasis>is about –2. The minus sign indicates the image is inverted. The lens equation can be rearranged to solve for <emphasis effect="italics">d</emphasis><sub>i</sub> from the given information.</para><equation id="fs-id1164566540855"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>d</m:mi>
+   <m:mi>i</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>f</m:mi><m:msub>
+     <m:mi>d</m:mi>
+     <m:mi>o</m:mi>
+    </m:msub>
+
+   </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mi>d</m:mi>
+     <m:mi>o</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo><m:mi>f</m:mi>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mo stretchy="false">(</m:mo><m:mn>0.50</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.75</m:mn><m:mo stretchy="false">)</m:mo>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>0.75–0.50</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>1.5</m:mn><m:mspace width="0.3em"/><m:mtext> m</m:mtext>
+ </m:mrow>
+</m:math> </equation>
+<para id="fs-id1167064876776">Now, we use  <m:math><m:mfrac><m:mrow><m:msub><m:mi>d</m:mi><m:mi>i</m:mi></m:msub></m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mi>o</m:mi></m:msub></m:mrow></m:mfrac></m:math>  to find <emphasis effect="italics">m</emphasis>.</para><equation id="fs-id1164565253490"> <m:math display="block">
+ <m:mrow>
+  <m:mi>m</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msub>
+     <m:mi>d</m:mi>
+     <m:mi>i</m:mi>
+    </m:msub>
+
+   </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mi>d</m:mi>
+     <m:mi>o</m:mi>
+    </m:msub>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>1.5</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>0.75</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2.0</m:mn>
+ </m:mrow>
+</m:math> </equation></solution>
+
+<commentary id="fs-id1167064802372">
+<title>Discussion</title>
+<para id="fs-id1167062338188">Note that the minus sign causes the magnification to be negative when the image is inverted. Ray tracing and the use of the lens equation produce consistent results. The thin-lens equation gives the most precise results, and is limited only by the accuracy of the given information. Ray tracing is limited by the accuracy with which you draw, but it is highly useful both conceptually and visually.</para>
+</commentary>
+</exercise>
+</note><note id="Worked_Example_16_08" class="worked-example"><title>Image Formation by a Concave Lens</title>
+
+<exercise id="fs-id1167065999948" class="16-ex051 unnumbered">
+<label/>
+<problem id="fs-id1167064875526">
+<para id="fs-id1167064875528">Suppose an object, such as a book page, is held 6.50 cm from a concave lens with a focal length of –10.0 cm. Such a lens could be used in eyeglasses to correct pronounced nearsightedness. What magnification is produced?</para>
+
+<note id="fs-id1167065030064"><label/><title>Strategy</title>
+
+<para id="fs-id1167065822522">This example is identical to the preceding one, except that the focal length is negative for a concave or diverging lens. The method of solution is therefore the same, but the results are different in important ways.</para>
+</note></problem>
+
+<solution id="fs-id1167064918364">
+<label/>
+<title>Solution</title>
+<equation id="fs-id1164561145336"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>d</m:mi>
+   <m:mi>i</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>f</m:mi><m:msub>
+     <m:mi>d</m:mi>
+     <m:mi>o</m:mi>
+    </m:msub>
+
+   </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mi>d</m:mi>
+     <m:mi>o</m:mi>
+    </m:msub>
+    <m:mtext>−</m:mtext><m:mi>f</m:mi>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mo stretchy="false">(</m:mo><m:mtext>−</m:mtext><m:mn>10.0</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>6.50</m:mn><m:mo stretchy="false">)</m:mo>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>6.50</m:mn><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mtext>−</m:mtext><m:mn>10.0</m:mn><m:mo stretchy="false">)</m:mo>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mo>−</m:mo><m:mn>3.94</m:mn><m:mspace width="0.3em"/><m:mtext> cm</m:mtext>
+ </m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1167065975706">Now the magnification equation can be used to find the magnification, <emphasis effect="italics">m</emphasis>, because both <emphasis effect="italics">d</emphasis><sub>i</sub> and <emphasis effect="italics">d</emphasis><sub>o</sub> are known. Entering their values gives</para>
+<equation id="fs-id1164558015681"> <m:math display="block">
+ <m:mrow>
+  <m:mi>m</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msub>
+     <m:mi>d</m:mi>
+     <m:mi>i</m:mi>
+    </m:msub>
+
+   </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mi>d</m:mi>
+     <m:mi>o</m:mi>
+    </m:msub>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>3.94</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>6.50</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>0.606.</m:mn>
+ </m:mrow>
+</m:math>
+</equation></solution>
+<commentary id="fs-id1167064635059">
+<title>Discussion</title>
+<para id="fs-id1167065953136">A number of results in this example are true of all case 3 images. Magnification is positive (as calculated), meaning the image is upright. The magnification is also less than one, meaning the image is smaller than the object—in this case, a little more than half its size. The image distance is negative, meaning the image is on the same side of the lens as the object. The image is virtual. The image is closer to the lens than the object, because the image distance is smaller in magnitude than the object distance. The location of the image is not obvious when you look through a concave lens. In fact, because the image is smaller than the object, you may think it is farther away; however, the image is closer than the object—a fact that is useful in correcting nearsightedness.</para>
+</commentary>
+</exercise>
+</note><note id="fs-id1167065011007" class="watch-physics"><title>The Lens Equation and Problem Solving</title>
+<para id="fs-id1167064875276">The video shows calculations for both concave and convex lenses. It also explains real versus virtual images, erect versus inverted images, and the significance of negative and positive signs for the involved variables.</para>
+<media id="eip-id1167063746718" alt="...">
+<iframe width="660" height="371.4" src="https://www.openstax.org/l/28Lenses"/>
+</media>
+<para id="fs-id1167065735852"><link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex052"/></para>
+</note></section><section id="fs-id1167062401781" class="practice-problems">
+<title>Practice Problems</title>
+<exercise id="fs-id1167065961598" class="os-exercise">
+<problem id="fs-id1167065979614">
+<para id="fs-id1167064900461">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex053"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167064537035" class="os-exercise">
+<problem id="fs-id1167064589376">
+<!--<para id="fs-id1167065740593">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex054"/>
+</para>-->
+<para id="fs-id1169830992782">If a lens produces a 5.00 -cm tall image of an 8.00 -cm -high object when placed 10.0 cm from the lens, what is the apparent image distance? Construct a ray diagram using paper, a pencil, and a ruler to confirm your calculation.</para>
+<list id="fs-id1169830837443" list-type="enumerated" number-style="lower-alpha">
+<item>−3.12 cm</item>
+<item>−6.25 cm</item>
+<item>3.12 cm</item>
+<item>6.25 cm</item>
+</list>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167062579367" class="check-understanding"><title>Check Your Understanding</title><note id="fs-id1167065743460" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065945416">Use these questions to assess student achievement of the section’s learning objectives. If students are struggling with a specific objective, these questions help identify which one, and then you can direct students to the relevant content.</para>
+</note>
+<exercise id="fs-id1167065851647" class="os-exercise">
+<problem id="fs-id1167066069110">
+<para id="fs-id1167065952524">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex055"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167064876918" class="os-exercise">
+<problem id="fs-id1167065864112">
+<!--<para id="fs-id1167065942334">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex056"/>
+</para>-->
+<para id="fs-id1164566424872">Which part of the eye controls the amount of light that enters?</para>
+<list id="fs-id1164565001258" list-type="enumerated" number-style="lower-alpha">
+<item>the pupil</item>
+<item>the iris</item>
+<item>the cornea</item>
+<item>the retina</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167062557237" class="os-exercise">
+<problem id="fs-id1167064649316">
+<para id="fs-id1167066055013">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex057"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065938967" class="os-exercise">
+<problem id="fs-id1167064649424">
+<para id="fs-id1167064708636">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex058"/>
+</para>
+</problem>
+</exercise>
+</section><section id="fs-id1167063102580" class="summary">
+<title>Section Summary</title>
+<list id="fs-id1167063102111">
+<item>The characteristics of images formed by concave and convex lenses can be predicted using ray tracing. Characteristics include real versus virtual, inverted versus upright, and size.</item>
+<item>The human eye and corrective lenses can be explained using geometric optics.</item>
+<item>Characteristics of images formed by lenses can be calculated using the mirror/lens equation.</item>
+</list>
+</section>
+
+<section id="fs-id1167065677119" class="key-equations">
+<title>Key Equations</title>
+<table id="fs-id1167065827982" class="unnumbered unstyled" summary="Table with two columns and four rows. The top left cell reads “Power and focal length,” with the top right cell showing the equation for the power of a lens and its equivalence to the reciprocal of focal length. The second left cell reads “Mirror/lens equation (or thin-lens) equation,” with the right cell showing the equation for the reciprocal of focal length equal to the reciprocal of the image distance plus the reciprocal of the object distance. The third left cell reads “Rearranged mirror/lens equation,” with the right cell showing the equation for image distance as the product of focal length and object distance divided by the object distance less the focal length. The bottom left cell reads “Magnification equation,” with the right cell showing the magnification equal to image height to object height, or the negative ratio of image distance to object distance.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry>power and focal length</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mi>f</m:mi>
+  </m:mfrac>
+  </m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>mirror/lens (or thin-lens) equation</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mi>f</m:mi>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:msub>
+     <m:mi>d</m:mi>
+     <m:mi>i</m:mi>
+    </m:msub>
+    </m:mrow>
+  </m:mfrac>
+  <m:mo>+</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:msub>
+     <m:mi>d</m:mi>
+     <m:mi>o</m:mi>
+    </m:msub>
+    </m:mrow>
+  </m:mfrac>
+  </m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>rearranged mirror/lens equation</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>d</m:mi>
+   <m:mi>i</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>f</m:mi><m:msub>
+     <m:mi>d</m:mi>
+     <m:mi>o</m:mi>
+    </m:msub>
+    </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mi>d</m:mi>
+     <m:mi>o</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo><m:mi>f</m:mi></m:mrow>
+  </m:mfrac>
+  </m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>magnification equation</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msub>
+     <m:mi>h</m:mi>
+     <m:mi>i</m:mi>
+    </m:msub>
+    </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mi>h</m:mi>
+     <m:mi>o</m:mi>
+    </m:msub>
+    </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msub>
+     <m:mi>d</m:mi>
+     <m:mi>i</m:mi>
+    </m:msub>
+    </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mi>d</m:mi>
+     <m:mi>o</m:mi>
+    </m:msub>
+    </m:mrow>
+  </m:mfrac>
+  </m:mrow>
+</m:math>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+
+<section id="fs-id1167065866297" class="concept"><title>Concept Items</title><exercise id="fs-id1167065845902" class="os-exercise">
+<problem id="fs-id1167062350972">
+<!--<para id="fs-id1167065950536">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex059"/>
+</para>-->
+<para id="fs-id1164562055312">An object is positioned in front of a lens with its base resting on the principal axis. Describe two rays that could be traced from the top of the object and through the lens that would locate the top of an image.</para>
+<list id="fs-id1164557673325" list-type="enumerated" number-style="lower-alpha">
+<item>A ray perpendicular to the axis and a ray through the center of the lens</item>
+<item>A ray parallel to the axis and a ray that does not pass through the center of the lens</item>
+<item>A ray parallel to the axis and a ray through the center of the lens</item>
+<item>A ray parallel to the axis and a ray that does not pass through the focal point</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167065774567" class="os-exercise">
+<problem id="fs-id1167065854749">
+<para id="fs-id1167062403603">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex060"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166851274528" class="os-exercise">
+<problem id="eip-id1166851274532">
+<!--<para id="eip-id1166848842990">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ot038"/>
+</para>-->
+<para id="fs-id1164564949186">For a concave lens, if the image distance, <emphasis effect="italics">d</emphasis><sub>i</sub>, is negative, where does the image appear to be with respect to the object?</para>
+<list id="fs-id1164564959496" list-type="enumerated" number-style="lower-alpha">
+<item>The image always appears on the same side of the lens.</item>
+<item>The image appears on the opposite side of the lens.</item>
+<item>The image appears on the opposite side of the lens only if the object distance is greater than the focal length.</item>
+<item>The image appears on the same side of the lens only if the object distance is less than the focal length.</item>
+</list>
+</problem>
+</exercise></section><section id="fs-id1167064825775" class="critical-thinking">
+<title>Critical Thinking</title>
+<exercise id="fs-id1167062377097" class="os-exercise"><problem id="fs-id1167062354288">
+<para id="fs-id1167065052895">When you focus a camera, you adjust the distance of the lens from the film. If the camera lens acts like a thin lens, why can it not be kept at a fixed distance from the film for both near and distant objects?</para>
+<list id="eip-idm632677184" list-type="enumerated" number-style="lower-alpha">
+<item>To focus on a distant object, you need to increase the image distance.</item>
+<item>To focus on a distant object, you need to increase the focal length of the lens.</item>
+<item>To focus on a distant object, you need to decrease the focal length of the lens.</item>
+<item>To focus on a distant object, you may need to increase or decrease the focal length of the lens.</item>
+</list>
+</problem>
+</exercise><exercise id="fs-id1167065967816" class="os-exercise">
+<problem id="fs-id1167065865105">
+<!--<para id="fs-id1167064981321">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex062"/>
+</para>-->
+<para id="fs-id1164564738278">Part A—How do the refractive indices of the cornea, aqueous humor, and the lens of the eye compare with the refractive index of air?</para>
+<para id="fs-id1164565271948">Part B—How do the comparisons in part A explain how images are focused on the retina?</para>
+<list id="fs-id1164566540868" list-type="enumerated" number-style="lower-alpha">
+<item>(A) The cornea, aqueous humor, and lens of the eye have smaller refractive indices than air.<newline/>
+(B) Rays entering the eye are refracted away from the central axis, which causes them to meet at the focal point on the retina.</item>
+<item>(A) The cornea, aqueous humor, and lens of the eye have greater refractive indices than air.<newline/>
+(B) Rays entering the eye are refracted away from the central axis, which causes them to meet at the focal point on the retina.</item>
+<item>(A) The cornea, aqueous humor, and lens of the eye have smaller refractive indices than air.<newline/>
+(B) Rays entering the eye are refracted toward the central axis, which causes them to meet at the focal point on the retina.</item>
+<item>(A) The cornea, aqueous humor, and lens of the eye have greater refractive indices than air.<newline/>
+(B) Rays entering the eye are refracted toward the central axis, which causes them to meet at the focal point on the retina.</item>
+</list>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167064692639" class="problems">
+<title>Problems</title>
+<exercise id="fs-id1167064825834" class="os-exercise">
+<problem id="fs-id1167064589190">
+<!--<para id="fs-id1167066030062">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex063"/>
+</para>-->
+<para id="fs-id1169830889096">A cameras zoom lens has an adjustable focal length ranging from 80.0 to 200 mm . What is its range of powers?</para>
+<list id="fs-id1169831232347" list-type="enumerated" number-style="lower-alpha">
+<item>The lowest power is 0.05 D and the highest power is 0.125 D.</item>
+<item>The lowest power is 0.08 D and the highest power is 0.20 D.</item>
+<item>The lowest power is 5.00 D and the highest power is 12.5 D.</item>
+<item>The lowest power is 80 D and the highest power is 200 D.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167064538129" class="os-exercise">
+<problem id="fs-id1167062339890">
+<!--<para id="fs-id1167066054053">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex064"/>
+</para>-->
+<para id="fs-id1169833061840">Suppose a telephoto lens with a focal length of 200 mm is being used to photograph mountains 10.0 km away. (a) Where is the image? (b) What is the height of the image of a 1,000-m-high cliff on one of the mountains? </para><list id="fs-id1169833194845" list-type="enumerated" number-style="lower-alpha">
+<item>(a) The image is 0.200 m on the same side of the lens. (b) The height of the image is  2.00 cm.</item>
+<item>(a) The image is 0.200 m on the opposite side of the lens. (b) The height of the image is  2.00 cm.</item>
+<item>(a) The image is 0.200 m on the opposite side of the lens. (b) The height of the image is +2.00 cm.</item>
+<item>(a) The image is 0.100 m on the same side of the lens. (b) The height of the image is +2.00 cm.</item>
+</list>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167062349330" class="performance">
+<title>Performance Task</title>
+<exercise id="fs-id1167063616602">
+<problem id="fs-id1167063808029">
+<para id="fs-id1167065820151">In this performance task, you will investigate the lens-like properties of a clear bottle. </para>
+
+<list id="fs-id1167066142788" class="materials">
+
+<item>a water bottle or glass with a round cross-section and smooth, vertical sides</item>
+<item>enough water to fill the bottle</item>
+<item>a meter stick or tape measure</item>
+<item>a bright light source with a small bulb, such as a pen light</item>
+<item>a small bright object, such as a silver spoon.</item>
+</list>
+<para id="fs-id1164564963423">Instructions</para>
+<list id="fs-id1167065883150" list-type="enumerated">
+<title>Procedure</title>
+<item>Look through a clear glass or plastic bottle and describe what you see.</item>
+<item>Next, fill the bottle with water and describe what you see. </item>
+<item>Use the water bottle as a lens to produce the image of a bright object.</item>
+<item>Estimate the focal length of the water bottle lens.
+<list id="fs-id1167062551469" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>How can you find the focal length of the lens using the light and a blank wall?</item>
+<item>How can you find the focal length of the lens using the bright object?</item>
+<item>Why did the water change the lens properties of the bottle? </item>
+</list>
+</item>
+</list></problem></exercise>
+<note id="fs-id1167065808428" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065974999">The learning objectives in this section help your students master the following standards:</para><list id="fs-id1167066056725">
+<item>(7) Science concepts. The student knows the characteristics and behavior of waves. The student is expected to
+<list id="fs-id1167064832645"><item>
+<span>(D)</span>
+<span>investigate behaviors of waves, including reflection, refraction, diffraction, interference, resonance, and the Doppler effect;</span>
+</item>
+<item>
+<span>(E)</span>
+<span>describe and predict image formation as a consequence of reflection from a plane mirror and refraction through a thin convex lens; and</span>
+</item>
+<item>
+<span>(F)</span>
+<span>describe the role of wave characteristics and behaviors in medical and industrial applications.</span>
+</item>
+</list></item>
+</list>
+<para id="fs-id1169316445047">In addition, the High School Physics Laboratory Manual addresses content in this section in the lab titled: Mirrors and Lenses, as well as the following standards:</para><list id="fs-id1169316397356">
+<item>(7) Science concepts. The student knows the characteristics and behavior of waves. The student is expected to
+<list id="fs-id1169316472820"><item>
+<span>(D)</span>
+ <span>investigate behaviors of waves, including reflection, refraction, diffraction, interference, resonance, and the Doppler effect.</span>
+</item>
+</list></item>
+</list>
+</note>
+
+</section>
+
+<section id="fs-id1167065969992" class="multiple-choice"><title>Test Prep Multiple Choice</title><exercise id="fs-id1167064695462" class="os-exercise">
+<problem id="fs-id1167066177046">
+<!--<para id="fs-id1167066122753"><link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex065"/>
+</para>-->
+<para id="fs-id1164565114161">For a given lens, what is the height of the image divided by the height of the object ( <m:math><m:mfrac>
+<m:mrow><m:msub>
+<m:mi>h</m:mi><m:mi>i</m:mi>
+</m:msub></m:mrow>
+<m:mrow><m:msub>
+<m:mi>h</m:mi><m:mi>o</m:mi>
+</m:msub></m:mrow></m:mfrac></m:math> ) equal to?</para><list id="fs-id1164566564750" list-type="enumerated" number-style="lower-alpha">
+<item>power</item>
+<item>focal length</item>
+<item>magnification</item>
+<item>radius of curvature</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167065896743" class="os-exercise">
+<problem id="fs-id1167065794930">
+<!--<para id="fs-id1167065891189"><link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex066"/>
+</para>-->
+<para id="fs-id1164566423410">Which part of the eye has the greatest density of light receptors?</para>
+<list id="fs-id1164559078312" list-type="enumerated" number-style="lower-alpha">
+<item>the lens</item>
+<item>the fovea</item>
+<item>the optic nerve</item>
+<item>the vitreous humor</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167065937990" class="os-exercise">
+<problem id="fs-id1167065861302">
+<!--<para id="fs-id1167064583723"><link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex067"/>
+</para>-->
+<para id="fs-id1164564932543">What is the power of a lens with a focal length of 10 cm?</para>
+<list id="fs-id1164566888568" list-type="enumerated" number-style="lower-alpha">
+<item>10 m<sup>–1</sup>, or 10 D</item>
+<item>10 cm<sup>–1</sup>, or 10 D</item>
+<item>10 m, or 10 D</item>
+<item>10 cm, or 10 D</item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-id1166849750427" class="os-exercise">
+<problem id="eip-id1166847407100">
+<para id="eip-id1166847369756">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ot042"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167062488465" class="short-answer">
+<title>Test Prep Short Answer</title>
+<exercise id="fs-id1167062462416" class="os-exercise">
+<problem id="fs-id1167065859251">
+<!--<para id="fs-id1167062509160">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex068"/>
+</para>-->
+<para id="fs-id1164566423487">What are two equivalent terms for a lens that always causes light rays to bend away from the principal axis?</para>
+<list id="fs-id1164562329438" list-type="enumerated" number-style="lower-alpha">
+<item>a diverging lens or a convex lens</item>
+<item>a diverging lens or a concave lens</item>
+<item>a converging lens or a concave lens</item>
+<item>a converging lens or a convex lens</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167064736580" class="os-exercise">
+<problem id="fs-id1167064590588">
+<!--<para id="fs-id1167064697604">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex069"/>
+</para>-->
+<para id="fs-id1164561015082">Define the term <emphasis effect="italics">virtual image</emphasis>.</para>
+<list id="fs-id1164564947114" list-type="enumerated" number-style="lower-alpha"><item>A virtual image is an image that cannot be projected onto a screen.</item>
+<item>A virtual image is an image that can be projected onto a screen.</item>
+<item>A virtual image is an image that is formed on the opposite side of the lens from where the object is placed.</item>
+<item>A virtual image is an image that is always bigger than the object.</item>
+</list></problem>
+</exercise>
+<exercise id="fs-id1167062359290" class="os-exercise">
+<problem id="fs-id1167065033154">
+<para id="fs-id1167065971627">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex070"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167062314796" class="os-exercise">
+<problem id="fs-id1167063010215">
+<para id="fs-id1167066041483">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex071"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065847016" class="os-exercise">
+<problem id="fs-id1167065892462">
+<para id="fs-id1167065862344">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex072"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065788863" class="os-exercise">
+<problem id="fs-id1167064899901">
+<!--<para id="fs-id1167064641466">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex073"/>
+</para>-->
+<para id="fs-id1169831107175">What is the magnification of a lens if it produces a 12-cm-high image of a 4 -cm -high object? The image is virtual and erect.</para>
+<list id="fs-id1169833195291" list-type="enumerated" number-style="lower-alpha">
+<item> <m:math>
+<m:semantics>
+  <m:mrow>
+   <m:mo>–</m:mo><m:mn>3.00</m:mn>
+  </m:mrow>
+   </m:semantics>
+</m:math> </item>
+<item> <m:math>
+<m:semantics>
+  <m:mrow>
+   <m:mo>–</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mrow>
+     <m:mn>3.00</m:mn>
+    </m:mrow>
+   </m:mfrac>
+
+  </m:mrow>
+   </m:semantics>
+</m:math> </item>
+<item> <m:math>
+<m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mrow>
+     <m:mn>3.00</m:mn>
+    </m:mrow>
+   </m:mfrac></m:mrow>
+   </m:semantics>
+</m:math>
+</item>
+<item> <m:math>
+<m:semantics>
+  <m:mrow>
+   <m:mn>3.00</m:mn>
+  </m:mrow>
+</m:semantics>
+</m:math> </item>
+</list>
+</problem>
+</exercise>
+
+</section>
+
+<section id="fs-id1167065861451" class="extended-response">
+<title>Test Prep Extended Response</title>
+<exercise id="fs-id1167065735893" class="os-exercise">
+<problem id="fs-id1167064896623">
+<!--<para id="fs-id1167064861127">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex075"/>
+</para>-->
+<para id="fs-id1164559105730">The muscles that change the shape of the lens in the eyes have become weak, causing vision problems for a person. In particular, the muscles cannot pull hard enough on the edges of the lens to make it less convex.</para>
+<para id="fs-id1164564824392">Part A—What condition does inability cause?</para>
+<para id="fs-id1164563142216">Part B—Where are images focused with respect to the retina?</para>
+<para id="fs-id1164563559905">Part C—Which type of lens corrects this person’s problem? Explain.</para>
+<list id="fs-id1164562217884" list-type="enumerated" number-style="lower-alpha">
+<item>Part A—This condition causes hyperopia.<newline/>
+Part B—Images are focused between the lens and the retina.<newline/>
+Part C—A converging lens gathers the rays slightly so they focus onto the retina.</item>
+<item>Part A—This condition causes myopia.<newline/>
+Part B—Images are focused between the lens and the retina.<newline/>
+Part C—A converging lens gathers the rays slightly so they focus onto the retina.</item>
+<item>Part A—This condition causes hyperopia.<newline/>
+Part B—Images are focused between the lens and the retina.<newline/>
+Part C—A diverging lens spreads the rays slightly so they focus onto the retina.</item>
+<item>Part A—This condition causes myopia.<newline/>
+Part B—Images are focused between the lens and the retina.<newline/>
+Part C—A diverging lens spreads the rays slightly so they focus onto the retina.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167064984547" class="os-exercise">
+<problem id="fs-id1167064909591">
+<para id="fs-id1167062399467">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex076"/>
+</para>
+</problem>
+</exercise>
+</section>
+
+<note id="fs-id1167066141525" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065822888">This performance task supports the following:</para>
+<para id="fs-id1167066037531"><span>NGSS HS-PS4-1</span><span>:</span> <span>Use mathematical representations to support a claim regarding relationships among the frequency, wavelength, and speed of waves traveling in various media; and</span></para>
+<para id="fs-id1167066039634"><span>NGSS HS-PS4-5</span><span>:</span> <span>Communicate technical information about how some technological devices use the principles of wave behavior and wave interactions with matter to transmit and capture information and energy.</span></para>
+<list id="fs-id1167066030565" list-type="bulleted">
+<item>The empty bottle distorts vision, but it does not have much of a lens effect.</item>
+<item>4:
+<list id="fs-id1167062547810" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>Shining the light through the bottle onto a wall reveals the focal length. When the image on the wall is smallest and brightest, the distance from the center of the bottle to the wall is the focal length.</item>
+<item>Look through the bottle at the bright object. When the image of the object is most vaguely defined and large, the distance from the center of the bottle to the object is the focal length.</item>
+<item>The water-filled bottle is a better lens because water has a greater index of refraction than air.</item>
+</list>
+</item>
+</list>
+</note>
+</content>
+<glossary>
+<definition id="fs-id1167065809904">
+<term>aberration</term>
+<meaning id="fs-id1167065046705">a distortion in an image produced by a lens</meaning>
+</definition>
+<definition id="fs-id1167065940355">
+<term>chromatic aberration</term>
+<meaning id="fs-id1167062315054">an aberration related to color</meaning>
+</definition>
+<definition id="fs-id1167062461232">
+<term>concave lens</term>
+<meaning id="fs-id1167065852157">a lens that causes light rays to diverge from the central axis</meaning>
+</definition>
+<definition id="fs-id1167065947188">
+<term>converging lens</term>
+<meaning id="fs-id1167064770233">a convex lens</meaning>
+</definition>
+<definition id="fs-id1167064948255">
+<term>convex lens</term>
+<meaning id="fs-id1167064564152">a lens that causes light rays to converge toward the central axis</meaning>
+</definition>
+<definition id="fs-id1167065074004">
+<term>diverging lens</term>
+<meaning id="fs-id1167064736311">a concave lens</meaning>
+</definition>
+</glossary>
+</document>

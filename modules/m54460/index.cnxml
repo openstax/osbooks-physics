@@ -1,0 +1,28 @@
+<document xmlns="http://cnx.rice.edu/cnxml" class="introduction">
+
+<title>Introduction</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54460</md:content-id>
+  <md:title>Introduction</md:title>
+  <md:abstract><para>In this chapter you will learn about:</para>
+<list>
+<item>Magnetic Fields, Field Lines, and Force</item>
+<item>Electromagnetic Induction</item>
+<item>Motors, Generators, and Transformers</item>
+</list></md:abstract>
+  <md:uuid>53cf9e9e-4d2e-4cc6-b91c-b117545cce3e</md:uuid>
+</metadata>
+
+<content>
+<figure id="Figure_20_00_Aurora" class="splash"><media id="fs-id1167064876028" alt="The Aurora Borealis.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_20_00_Aurora.jpg"/>
+</media>
+<caption>The magnificent spectacle of the Aurora Borealis, or northern lights, glows in the northern sky above Bear Lake near Eielson Air Force Base, Alaska. Shaped by Earth’s magnetic field, this light is produced by radiation spewed from solar storms. (credit: Senior Airman Joshua Strang, Flickr)</caption></figure>
+<note id="fs-id1167064892754" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066104264">Ask students what they know about magnets. Discuss the two poles of magnets that either attract each other or repel each other. Point out that magnetic force acts at a distance, which is similar to the electrostatic force studied earlier.</para>
+<para id="fs-id1167065978016">Review electric dipoles and the electric field that they create. Emphasize that dipoles have two charges, or poles, and that these poles will repulse, or attract, the same, or opposite, pole of another dipole. Also discuss how electric dipoles orient themselves to be parallel to electric field lines.</para>
+</note>
+<para id="fs-id1167065687616">You may have encountered magnets for the first time as a small child playing with magnetic toys or refrigerator magnets. At the time, you likely noticed that two magnets that repulse each other will attract each other if you flip one of them around. The force that acts across the air gaps between magnets is the same force that creates wonders such as the Aurora Borealis. In fact, magnetic effects pervade our lives in myriad ways, from electric motors to medical imaging and computer memory. In this chapter, we introduce magnets and learn how they work and how magnetic fields and electric currents interact.</para>
+</content>
+</document>

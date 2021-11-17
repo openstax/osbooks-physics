@@ -1,0 +1,1297 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Kepler's Laws of Planetary Motion</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54192</md:content-id>
+  <md:title>Kepler's Laws of Planetary Motion</md:title>
+  <md:abstract/>
+  <md:uuid>7825821d-3e4b-4384-b98b-d44d40c0c41b</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167066030570" class="learning-objectives">
+<label/>
+<title>Section Learning Objectives</title>
+<para id="fs-id1167064931405">By the end of this section, you will be able to do the following:</para>
+<list id="fs-id1167065808082"><item>Explain Kepler’s three laws of planetary motion</item>
+<item>Apply Kepler’s laws to calculate characteristics of orbits</item>
+</list></note>
+
+<note id="fs-id1167065968297" class="os-teacher"><title>Teacher Support</title>
+<para id="eip-id1167063525762">The learning objectives in this section will help your students master the following standards:</para>
+<list id="fs-id1164566942432">
+<item>(4) Science concepts. The student knows and applies the laws governing motion in a variety of situations. The student is expected to:
+<list id="fs-id1167065773751"><item>(C) <span>analyze and describe accelerated motion in two dimensions using equations, including projectile and circular examples.</span></item>
+</list></item>
+</list>
+<para id="fs-id1167065888596">In this section students will apply Kepler’s laws of planetary motion to objects in the solar system.</para>
+<para id="fs-id1167064585809"><span>[BL]</span><span>[OL]</span> Discuss the historical setting in which Kepler worked. Most people still thought Earth was the center of the universe, and yet Kepler not only knew that the planets circled the sun, he found patterns in the paths they followed. What would it be like to be that far ahead of almost everyone? A fascinating description of this is given in the program <emphasis effect="italics">Cosmos</emphasis> with Carl Sagan (Episode 3, Harmony of the Worlds).</para><para id="fs-id1167065734888"><span>[AL]</span> Explain that Kepler’s laws were laws and not theories. Laws describe patterns in nature that always repeat themselves under the same set of conditions. Theories provide an explanation for the patterns. Kepler provided no explanation.</para>
+</note>
+<section id="keyterms"><title>Section Key Terms</title>
+<table id="fs-id1167065884201" class="unnumbered unstyled section-key-terms" summary="The list of Key Terms includes: aphelion, Copernican model, eccentricity, Kepler’s laws of planetary motion, perihelion, and Ptolemaic model.">
+<label/>
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+<row>
+<entry>aphelion</entry>
+<entry>Copernican model</entry>
+<entry>eccentricity</entry>
+</row>
+<row>
+<entry>Kepler’s laws of planetary motion</entry>
+<entry>perihelion </entry>
+<entry>Ptolemaic model</entry>
+</row>
+</tbody>
+
+</tgroup>
+</table></section>
+<section id="fs-id1167065877362">
+<title>Concepts Related to Kepler’s Laws of Planetary Motion</title>
+<para id="fs-id1167065869219">Examples of orbits abound. Hundreds of artificial satellites orbit Earth together with thousands of pieces of debris. The moon’s orbit around Earth has intrigued humans from time immemorial. The orbits of planets, asteroids, meteors, and comets around the sun are no less interesting. If we look farther, we see almost unimaginable numbers of stars, galaxies, and other celestial objects orbiting one another and interacting through gravity. </para>
+<para id="fs-id1167065846545">All these motions are governed by gravitational force. The orbital motions of objects in our own solar system are simple enough to describe with a few fairly simple laws. The orbits of planets and moons satisfy the following two conditions:</para>
+<list id="fs-id1167065859458" list-type="bulleted">
+<item>The mass of the orbiting object, <emphasis effect="italics">m</emphasis>, is small compared to the mass of the object it orbits, <emphasis effect="italics">M</emphasis>.</item>
+<item>The system is isolated from other massive objects.</item>
+</list>
+<note id="fs-id1167065977234" class="os-teacher"><title>Teacher Support</title>
+<para id="fs-id1167065864125"><span>[OL]</span> Ask the students to explain the criteria to see if they understand relative mass and isolated systems.</para>
+</note><para id="fs-id1167066121734">Based on the motion of the planets about the sun, Kepler devised a set of three classical laws, called <term>Kepler’s laws of planetary motion</term>, that describe the orbits of all bodies satisfying these two conditions:</para>
+<list id="fs-id1167065705190" list-type="enumerated" number-style="arabic">
+<item>The orbit of each planet around the sun is an ellipse with the sun at one focus.</item>
+<item>Each planet moves so that an imaginary line drawn from the sun to the planet sweeps out equal areas in equal times.</item>
+<item>The ratio of the squares of the periods of any two planets about the sun is equal to the ratio of the cubes of their average distances from the sun.</item>
+</list>
+<para id="fs-id1167065847818">These descriptive laws are named for the German astronomer Johannes Kepler (1571–1630). He devised them after careful study (over some 20 years) of a large amount of meticulously recorded observations of planetary motion done by Tycho Brahe (1546–1601). Such careful collection and detailed recording of methods and data are hallmarks of good science. Data constitute the evidence from which new interpretations and meanings can be constructed. Let’s look closer at each of these laws.</para>
+<note id="fs-id1167065884127" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167064649473"><span>[BL]</span> Relate orbit to year and rotation to day. Be sure that students know that an object rotates on its axis and revolves around a parent body as it follows its orbit.</para>
+<para id="fs-id1167065722877"><span>[OL]</span> See how many levels of orbital motion the students know and fill in the ones they don’t. For example, moons orbit around planets; planets around stars; stars around the center of the galaxy, etc.</para>
+<para id="fs-id1167066097827"><span>[AL]</span> From the point of view of Earth, which objects appear (incorrectly) to be orbiting Earth (stars, the sun, galaxies) and which can be seen to be orbiting parent bodies (the moon, moons of other planets, stars in other galaxies)?</para>
+</note>
+
+<section id="fs-id1167064916013">
+<title>Kepler’s First Law</title>
+<para id="fs-id1167065894858">The orbit of each planet about the sun is an ellipse with the sun at one focus, as shown in <link target-id="Figure_07_01_circle"/>. The planet’s closest approach to the sun is called <term>perihelion</term> and its farthest distance from the sun is called <term>aphelion</term>.</para><figure id="Figure_07_01_circle"><media id="fs-id1167065872487" alt="Three ellipses are shown. In image (a) the ellipse is divided into quadrants. In image (b) the sun and a planet are shown. In image (c), the sun and planet are shown, and the aphelion and perihelion.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_07_01_circle.jpg"/>
+</media>
+
+<caption>(a) An ellipse is a closed curve such that the sum of the distances from a point on the curve to the two foci (<emphasis effect="italics">f</emphasis><sub>1</sub> and <emphasis effect="italics">f</emphasis><sub>2</sub>) is constant. (b) For any closed orbit, <emphasis effect="italics">m </emphasis>follows an elliptical path with <emphasis effect="italics">M </emphasis>at one focus. (c) The aphelion (<emphasis effect="italics">r</emphasis>a) is the furthest distance between the planet and the sun, while the perihelion (<emphasis effect="italics">r</emphasis>p) is the closest distance from the sun.</caption></figure><note id="fs-id1167065769732" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065875974"><span>[AL]</span> Ask for a definition of planet. Prepare to discuss Pluto’s demotion if it comes up. Discuss the first criterion in terms of center of rotation of a moon-planet system. Explain that for all planet-moon systems in the solar system, the center of rotation is within the planet. This is not true for Pluto and its largest moon, Charon, because their masses are similar enough that they rotate around a point in space between them.</para>
+</note>
+
+<para id="fs-id1167065688169">If you know the aphelion (<emphasis effect="italics">r</emphasis><sub>a</sub>) and perihelion (<emphasis effect="italics">r</emphasis><sub>p</sub>) distances, then you can calculate the semi-major axis (<emphasis effect="italics">a</emphasis>) and semi-minor axis (<emphasis effect="italics">b</emphasis>).</para><equation id="fs-id1167066055063" class="unnumbered"><label/>
+ <m:math display="block">
+ <m:semantics>
+  <m:mrow>
+   <m:mtable columnalign="left">
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mi>a</m:mi><m:mo>=</m:mo><m:mfrac>
+        <m:mrow>
+         <m:mo stretchy="false">(</m:mo><m:msub>
+          <m:mi>r</m:mi>
+          <m:mi>a</m:mi>
+         </m:msub>
+         <m:mo>+</m:mo><m:msub>
+          <m:mi>r</m:mi>
+          <m:mi>p</m:mi>
+         </m:msub>
+         <m:mo stretchy="false">)</m:mo>
+        </m:mrow>
+        <m:mn>2</m:mn>
+       </m:mfrac>
+
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mi>b</m:mi><m:mo>=</m:mo><m:msqrt>
+        <m:mrow>
+         <m:msub>
+          <m:mi>r</m:mi>
+          <m:mi>a</m:mi>
+         </m:msub>
+         <m:msub>
+          <m:mi>r</m:mi>
+          <m:mi>p</m:mi>
+         </m:msub>
+
+        </m:mrow>
+       </m:msqrt>
+
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+
+   </m:mtable>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</equation>
+<note id="fs-id1167065773080" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065802308"><span>[AL]</span> If any students are interested and proficient in algebra and geometry, ask them to derive a formula that relates the length of the string and the distance between pins to the major and minor axes of an ellipse. Explain that this is a real world problem for workers who design elliptical tabletops and mirrors.</para>
+<para id="fs-id1167065807807"><span>[BL]</span><span>[OL]</span> Impress upon the students that Kepler had to crunch an enormous amount of data and that all his calculations had to be done by hand. Ask students to think of similar projects where scientists found order in a daunting amount of data (the periodic table, DNA structure, climate models, etc.).</para>
+<note id="fs-id1167066097507" class="teacher-demonstration">
+<para id="fs-id1167066025366">Demonstrate the pins and string method of drawing an ellipse, as shown in <link target-id="Figure_07_01_pen"/>, or have the students try it at home or in class.</para>
+
+<para id="eip-id1167065873572">Ask students: Why does the string and pin method create a shape that conforms to Kepler's second law? That is, why is the shape an ellipse?</para>
+</note></note>
+<note id="fs-id1167065959353" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065857053">Explain that the pins are the foci and explain what each of the three sections of string represents. Note that the pencil represents a planet and one of the pins represents the sun.</para>
+</note>
+
+<figure id="Figure_07_01_pen"><media id="fs-id1167065711167" alt="A picture shows a hand holding a pen, drawing a blue ellipse, with 2 black pins inside the ellipse. A red string is attached to the pins. The pen is held inside the red string, to draw the ellipse.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_07_01_pen.jpg"/>
+</media>
+
+<caption>You can draw an ellipse as shown by putting a pin at each focus, and then placing a loop of string around a pen and the pins and tracing a line on the paper.</caption></figure></section>
+
+<section id="fs-id1167065985750">
+<title>Kepler’s Second Law</title>
+<para id="fs-id1167065738943">Each planet moves so that an imaginary line drawn from the sun to the planet sweeps out equal areas in equal times, as shown in <link target-id="Figure_07_01_planet"/>.</para><figure id="Figure_07_01_planet"><media id="fs-id1167065891604" alt="A diagram shows a circle, divided into quadrants. The sun (labeled M) is inside the circle. The circle represents a planet’s orbit around the sun. The planet is labeled m. Shaded regions are labeled A1, A2, and A3">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_07_01_planet.jpg"/>
+</media>
+
+<caption>The shaded regions have equal areas. The time for <emphasis effect="italics">m </emphasis>to go from A to B is the same as the time to go from C to D and from E to F. The mass <emphasis effect="italics">m </emphasis>moves fastest when it is closest to <emphasis effect="italics">M</emphasis>. Kepler’s second law was originally devised for planets orbiting the sun, but it has broader validity.</caption></figure><note id="fs-id1167065884370" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065882055">Ask the students to imagine how complicated it would be to describe the motion of the planets mathematically, if it is assumed that Earth is stationary. And yet, people tried to do this for hundreds of years, while overlooking the simple explanation that all planets circle the sun.</para>
+<para id="fs-id1167065885299"><span>[OL]</span> Ask students to use this figure to understand why planets and comets travel faster when they are closer to the sun. Explain that time intervals and areas are constant, but both velocity and distance from the sun vary.</para>
+</note>
+
+<note id="fs-id1167065854753" class="tips-for-success">
+
+<para id="fs-id1167065788665">Note that while, for historical reasons, Kepler’s laws are stated for planets orbiting the sun, they are actually valid for all bodies satisfying the two previously stated conditions.</para>
+</note>
+</section>
+
+<section id="fs-id1167065739702">
+<title>Kepler’s Third Law</title>
+<para id="fs-id1167065699876">The ratio of the periods squared of any two planets around the sun is equal to the ratio of their average distances from the sun cubed. In equation form, this is</para>
+<equation id="fs-id1167066098361" class="unnumbered"><label/>
+ <m:math display="block">
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:msubsup>
+     <m:mi>T</m:mi>
+     <m:mn>1</m:mn>
+     <m:mn>2</m:mn>
+    </m:msubsup>
+    </m:mrow>
+   <m:mrow>
+    <m:msubsup>
+     <m:mi>T</m:mi>
+     <m:mn>2</m:mn>
+     <m:mn>2</m:mn>
+    </m:msubsup>
+    </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msubsup>
+     <m:mi>r</m:mi>
+     <m:mn>1</m:mn>
+     <m:mn>3</m:mn>
+    </m:msubsup>
+    </m:mrow>
+   <m:mrow>
+    <m:msubsup>
+     <m:mi>r</m:mi>
+     <m:mn>2</m:mn>
+     <m:mn>3</m:mn>
+    </m:msubsup>
+    </m:mrow>
+  </m:mfrac>
+  <m:mo>,</m:mo></m:mrow>
+</m:math> </equation><para id="fs-id1167066145469">where <emphasis effect="italics">T </emphasis>is the <term class="no-emphasis">period</term> (time for one orbit) and <emphasis effect="italics">r </emphasis>is the average distance (also called orbital radius). This equation is valid only for comparing two small masses orbiting a single large mass. Most importantly, this is only a descriptive equation; it gives no information about the cause of the equality.</para>
+
+
+<note id="fs-id1167065736386" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065862675"><span>[BL]</span> See if students can rearrange this equation to solve for any one of the variables when the other three are known.</para>
+<para id="fs-id1167065868318"><span>[AL]</span> Show a solution for one of the periods <emphasis effect="italics">T</emphasis> or radii <emphasis effect="italics">r</emphasis> and ask students to interpret the fractional powers on the right hand side of the equation.</para>
+<para id="fs-id1167064531229"><span>[OL]</span> Emphasize that this approach only works for two satellites orbiting the same parent body. The parent body must be the same because  <m:math>
+ <m:mrow>
+  <m:mrow><m:mrow>
+   <m:msup>
+    <m:mi>r</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   </m:mrow><m:mo>/</m:mo><m:mrow>
+   <m:msup>
+    <m:mi>T</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   </m:mrow></m:mrow>
+  <m:mo>=</m:mo><m:mrow><m:mrow>
+   <m:mi>G</m:mi><m:mi>M</m:mi></m:mrow><m:mo>/</m:mo><m:mrow>
+   <m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:msup>
+    <m:mi>π</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mo stretchy="false">)</m:mo></m:mrow></m:mrow>
+  </m:mrow>
+</m:math>  and <emphasis effect="italics">M</emphasis> is the mass of the parent body. If <emphasis effect="italics">M</emphasis> changes, the ratio <emphasis effect="italics">r</emphasis><sup>3</sup>/<emphasis effect="italics">T</emphasis><sup>2</sup> also changes.</para></note>
+
+<note id="fs-id1167065057938" class="links-to-physics">
+
+<title>History: Ptolemy vs. Copernicus</title>
+<para id="fs-id1167065844371">Before the discoveries of Kepler, Copernicus, Galileo, Newton, and others, the solar system was thought to revolve around Earth as shown in <link target-id="Figure_07_01_solar"/> <emphasis>(a)</emphasis>. This is called the <term>Ptolemaic model</term>, named for the Greek philosopher Ptolemy who lived in the second century AD. The Ptolemaic model is characterized by a list of facts for the motions of planets, with no explanation of cause and effect. There tended to be a different rule for each heavenly body and a general lack of simplicity.</para><para id="fs-id1167065827754"><link target-id="Figure_07_01_solar"/> <emphasis>(b)</emphasis> represents the modern or <term>Copernican model</term>. In this model, a small set of rules and a single underlying force explain not only all planetary motion in the solar system, but also all other situations involving gravity. The breadth and simplicity of the laws of physics are compelling.</para><figure id="Figure_07_01_solar"><media id="fs-id1167065849651" alt="Image a shows the Ptolemaic view of the solar system. This view shows Earth at the center of the solar system with all other planets orbiting clockwise, the moon circling the Earth, Mercury and Venus which go in wide circles as it orbits, which are called Epicycles. The Sun orbits earth between Venus and Mars. Mars circles opposite of the others, its own path shown with a looping arrow. Jupiter and Saturn come next. On the outside of the solar system are stars. Image b shows the Copernican view of the solar system which is the more traditional view of the solar system with the Sun in the center and the other planets orbiting the sun.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_07_01_solar.jpg"/>
+</media>
+<caption>(a) The Ptolemaic model of the universe has Earth at the center with the moon, the planets, the sun, and the stars revolving about it in complex circular paths. This geocentric (Earth-centered) model, which can be made progressively more accurate by adding more circles, is purely descriptive, containing no hints about the causes of these motions. (b) The Copernican heliocentric (sun-centered) model is a simpler and more accurate model.</caption></figure><para id="fs-id1167064819448">Nicolaus Copernicus (1473–1543) first had the idea that the planets circle the sun, in about 1514. It took him almost 20 years to work out the mathematical details for his model. He waited another 10 years or so to publish his work. It is thought he hesitated because he was afraid people would make fun of his theory. Actually, the reaction of many people was more one of fear and anger. Many people felt the Copernican model threatened their basic belief system. About 100 years later, the astronomer Galileo was put under house arrest for providing evidence that planets, including Earth, orbited the sun. In all, it took almost 300 years for everyone to admit that Copernicus had been right all along.</para>
+
+<exercise id="fs-id1167065758369" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167065823246">
+<!--<para id="fs-id1167065910345"><link class="os-embed" url="#ost/api/ex/k12phys-ch07-ex002"/></para>-->
+
+<para id="fs-id1164559092993">Explain why Earth does actually appear to be the center of the solar system.</para>
+<list id="fs-id1164565201308" list-type="enumerated" number-style="lower-alpha">
+<item>Earth appears to be the center of the solar system because Earth is at the center of the universe, and everything revolves around it in a circular orbit.</item>
+<item>Earth appears to be the center of the solar system because, in the reference frame of Earth, the sun, moon, and planets all appear to move across the sky as if they were circling Earth.</item>
+<item>Earth appears to be at the center of the solar system because Earth is at the center of the solar system and all the heavenly bodies revolve around it.</item>
+<item>Earth appears to be at the center of the solar system because Earth is located at one of the foci of the elliptical orbit of the sun, moon, and other planets.</item>
+</list>
+</problem>
+</exercise>
+</note>
+
+<note id="fs-id1167066170450" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167064915958">Introduce the historical debate around the geocentric versus the heliocentric view of the universe. Stress how controversial this debate was at the time. Explain that this was important to people because their world view and cultural beliefs were at stake.</para>
+</note>
+
+<note id="fs-id1167065801827" class="virtual-physics"><title>Acceleration</title>
+<para id="fs-id1167066829548">This simulation allows you to create your own solar system so that you can see how changing distances and masses determines the orbits of planets. Click <emphasis effect="italics">Help</emphasis> for instructions.</para>
+
+<media id="fs-id1167063525612" alt="This simulation allows you to build your own solar system and then watch how the gravitational forces impact them in their orbits." class="os-embed">
+<iframe width="660" height="371.4" src="https://openstax.org/l/28mysolar"/></media>
+<exercise id="fs-id1167065728450" class="os-exercise grasp-check unnumbered">
+<problem id="fs-id1167065787999">
+<para id="fs-id1167065769883"><link class="os-embed" url="#ost/api/ex/k12phys-ch07-ex003"/></para>
+</problem>
+</exercise></note><note id="fs-id1167065886664" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065855077">Give the students ample time to manipulate this animation. It may take some time to get the parameters adjusted so that they can see how mass and eccentricity affect the orbit. Initially, the planet is likely to disappear off the screen or crash into the sun.</para>
+</note>
+</section>
+</section>
+
+<section id="fs-id1167066033386">
+<title>Calculations Related to Kepler’s Laws of Planetary Motion</title>
+<section id="fs-id1167065770901">
+<title>Kepler’s First Law</title>
+<para id="fs-id1167065764423">Refer back to <link target-id="Figure_07_01_circle" class="has-default-text"/> <emphasis>(a)</emphasis>. Notice which distances are constant. The foci are fixed, so distance  <m:math>
+ <m:mrow>
+  <m:mover accent="true">
+   <m:mrow>
+    <m:msub>
+     <m:mi>f</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+     <m:mi>f</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    </m:mrow>
+   <m:mo stretchy="true">¯</m:mo>
+  </m:mover>
+  </m:mrow>
+</m:math>  is a constant. The definition of an ellipse states that the sum of the distances  <m:math>
+ <m:mrow>
+  <m:mover accent="true">
+   <m:mrow>
+    <m:msub>
+     <m:mi>f</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    <m:mi>m</m:mi></m:mrow>
+   <m:mo stretchy="true">¯</m:mo>
+  </m:mover>
+  <m:mo>+</m:mo><m:mover accent="true">
+   <m:mrow>
+    <m:mi>m</m:mi><m:msub>
+     <m:mi>f</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    </m:mrow>
+   <m:mo stretchy="true">¯</m:mo>
+  </m:mover>
+  </m:mrow>
+</m:math>  is also constant. These two facts taken together mean that the perimeter of triangle  <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:msub>
+   <m:mi>f</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mi>m</m:mi><m:msub>
+   <m:mi>f</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>  must also be constant. Knowledge of these constants will help you determine positions and distances of objects in a system that includes one object orbiting another.</para></section>
+
+<section id="fs-id1167065715705">
+<title>Kepler’s Second Law</title>
+<para id="fs-id1167065822565">Refer back to <link target-id="Figure_07_01_planet" class="has-default-text"/>. The second law says that the segments have equal area and that it takes equal time to sweep through each segment. That is, the time it takes to travel from A to B equals the time it takes to travel from C to D, and so forth. Velocity <emphasis>v</emphasis> equals distance <emphasis effect="italics">d</emphasis> divided by time <emphasis effect="italics">t</emphasis>:  <m:math>
+ <m:mrow>
+  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle><m:mo>=</m:mo><m:mrow><m:mi>d</m:mi><m:mo>/</m:mo><m:mi>t</m:mi></m:mrow>
+  </m:mrow>
+</m:math> . Then,  <m:math>
+ <m:mrow>
+  <m:mi>t</m:mi><m:mo>=</m:mo><m:mrow><m:mi>d</m:mi><m:mo>/</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle></m:mrow>
+  </m:mrow>
+</m:math>, so distance divided by velocity is also a constant. For example, if we know the average velocity of Earth on June 21 and December 21, we can compare the distance Earth travels on those days.</para><para id="fs-id1167065740948">The degree of elongation of an elliptical orbit is called its <term>eccentricity</term> (<emphasis effect="italics">e</emphasis>). Eccentricity is calculated by dividing the distance <emphasis effect="italics">f</emphasis> from the center of an ellipse to one of the foci by half the long axis <emphasis effect="italics">a</emphasis>.</para>
+<equation id="fs-id1167067012774"> <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo stretchy="false">(</m:mo><m:mi>e</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>f</m:mi><m:mo>/</m:mo><m:mi>a</m:mi>
+  </m:mrow>
+ </m:semantics>
+</m:math> </equation>
+<para id="fs-id1164566882575">When  <m:math>
+ <m:mrow>
+  <m:mi>e</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow>
+</m:math>, the ellipse is a circle.</para>
+
+<para id="fs-id1167064746437">The area of an ellipse is given by  <m:math>
+ <m:mrow>
+  <m:mi>A</m:mi><m:mo>=</m:mo><m:mi>π</m:mi><m:mi>a</m:mi><m:mi>b</m:mi></m:mrow>
+</m:math>, where <emphasis effect="italics">b</emphasis> is half the short axis. If you know the axes of Earth’s orbit and the area Earth sweeps out in a given period of time, you can calculate the fraction of the year that has elapsed.</para>
+
+<note id="fs-id1167065877786" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066012047"><span>[OL]</span> Review the definitions of major and minor axes, semi-major and semi-minor axes, and distance <emphasis effect="italics">f</emphasis>. The major axis is the length of the ellipse and passes through both foci. The minor axis is the width of the ellipse and is perpendicular to the major axis. The semi-major and semi-minor axes are half of the major and minor axes, respectively.</para>
+</note>
+
+<note id="Example_07_01" class="worked-example">
+<title>Kepler’s First Law</title>
+<exercise id="fs-id1167065803098" class="07-ex004 unnumbered"><label/>
+<problem id="fs-id1167065842554"><para id="fs-id1167065842556">At its closest approach, a moon comes within 200,000 km of the planet it orbits. At that point, the moon is 300,000 km from the other focus of its orbit, <emphasis effect="italics">f</emphasis><sub>2</sub>. The planet is focus <emphasis effect="italics">f</emphasis><sub>1</sub> of the moon’s elliptical orbit. How far is the moon from the planet when it is 260,000 km from <emphasis effect="italics">f</emphasis><sub>2</sub>?</para>
+
+<note id="fs-id1167065729948">
+<label/>
+<title>Strategy</title>
+<para id="fs-id1167066015195">Show and label the ellipse that is the orbit in your solution. Picture the triangle <emphasis effect="italics">f</emphasis><sub>1</sub>m<emphasis effect="italics">f</emphasis><sub>2</sub> collapsed along the major axis and add up the lengths of the three sides. Find the length of the unknown side of the triangle when the moon is 260,000 km from <emphasis effect="italics">f</emphasis><sub>2</sub>.</para>
+</note>
+</problem>
+<solution id="fs-id1167065066805">
+<label/>
+<title>Solution</title>
+<para id="fs-id1167065016150">Perimeter of  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>f</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mi>m</m:mi><m:msub>
+   <m:mi>f</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>200</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mspace width="0.3em"/><m:mtext>km</m:mtext><m:mo>+</m:mo><m:mn>100,000</m:mn><m:mspace width="0.3em"/><m:mtext>km</m:mtext><m:mo>+</m:mo><m:mn>300,000</m:mn><m:mspace width="0.3em"/><m:mtext>km</m:mtext><m:mo>=</m:mo><m:mn>600,000</m:mn><m:mspace width="0.3em"/><m:mtext>km.</m:mtext></m:mrow>
+</m:math> </para><para id="fs-id1167065875846"><m:math>
+ <m:mrow>
+  <m:mi>m</m:mi><m:msub>
+   <m:mi>f</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>600,000</m:mn><m:mspace width="0.3em"/><m:mtext>km</m:mtext><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mn>100,000</m:mn><m:mspace width="0.3em"/><m:mtext>km</m:mtext><m:mo>+</m:mo><m:mn>260,000</m:mn><m:mspace width="0.3em"/><m:mtext>km</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>240,000</m:mn><m:mspace width="0.3em"/><m:mtext>km.</m:mtext></m:mrow>
+</m:math> </para></solution>
+<commentary id="fs-id1167066024026">
+<title>Discussion</title>
+<para id="fs-id1167065884424">The perimeter of triangle <emphasis effect="italics">f</emphasis><sub>1</sub><emphasis effect="italics">mf</emphasis><sub>2</sub> must be constant because the distance between the foci does not change and Kepler’s first law says the orbit is an ellipse. For any ellipse, the sum of the two sides of the triangle, which are <emphasis effect="italics">f</emphasis><sub>1</sub><emphasis effect="italics">m</emphasis> and <emphasis effect="italics">mf</emphasis><sub>2</sub>, is constant.</para></commentary>
+</exercise></note><note id="fs-id1167066141556" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065764480">Walk the students through the process of mentally collapsing the <emphasis effect="italics">f</emphasis><sub>1</sub><emphasis effect="italics">mf</emphasis><sub>2</sub>  at the end of the major axis to reveal what the three sides of the triangle <emphasis effect="italics">f</emphasis><sub>1</sub><emphasis effect="italics">mf</emphasis><sub>2</sub> are equal to. Picture the sections of the string as the pencil approaches the major axis. This distance <emphasis effect="italics">f</emphasis><sub>1</sub><emphasis effect="italics">f</emphasis><sub>2</sub> remains constant, <emphasis effect="italics">f</emphasis><sub>1</sub><emphasis effect="italics">m</emphasis> is the distance from <emphasis effect="italics">f</emphasis><sub>1</sub> to the end of the major axis, and <emphasis effect="italics">mf</emphasis><sub>2</sub> is <emphasis effect="italics">f</emphasis><sub>1</sub><emphasis effect="italics">m</emphasis> + <emphasis effect="italics">f</emphasis><sub>1</sub><emphasis effect="italics">f</emphasis><sub>2</sub>.</para>
+<para id="fs-id1167065713861"><span>[OL]</span> Have students relate eccentricity, distance between foci, and shape of orbit.</para>
+<para id="fs-id1167065969791"><span>[AL]</span> Ask for examples of orbits with high eccentricity (comets, Pluto) and low eccentricity (moon, Earth).</para>
+</note>
+
+<note id="Example_07_02" class="worked-example">
+<title>Kepler’s Second Law</title>
+<exercise id="fs-id1167066030450" class="07-ex005 unnumbered"><label/>
+<problem id="fs-id1167065843693">
+<para id="fs-id1167065789412"><link target-id="Figure_07_01_ellipse"/> shows the major and minor axes of an ellipse. The semi-major and semi-minor axes are half of these, respectively.</para><figure id="Figure_07_01_ellipse"><media id="fs-id1167066155692" alt="A drawing shows as ellipse, divided into quadrants. The horizontal line is labeled major axis; the vertical line is labeled minor axis. A focus point is marked at each end of the major axis.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_07_01_ellipse.jpg"/>
+</media>
+
+<caption>The major axis is the length of the ellipse, and the minor axis is the width of the ellipse. The semi-major axis is half the major axis, and the semi-minor axis is half the minor axis.</caption></figure><para id="fs-id1167065787646">Earth’s orbit is slightly elliptical, with a semi-major axis of 152 million km and a semi-minor axis of 147 million km. If Earth’s period is 365.26 days, what area does an Earth-to-sun line sweep past in one day?</para>
+
+<note id="fs-id1167065735846">
+<label/>
+<title>Strategy</title>
+<para id="fs-id1167065803026">Each day, Earth sweeps past an equal-sized area, so we divide the total area by the number of days in a year to find the area swept past in one day. For total area use  <m:math>
+ <m:mrow>
+  <m:mi>A</m:mi><m:mo>=</m:mo><m:mi>π</m:mi><m:mi>a</m:mi><m:mi>b</m:mi></m:mrow>
+</m:math> . Calculate <emphasis effect="italics">A</emphasis>, the area inside Earth’s orbit and divide by the number of days in a year (i.e., its period).</para>
+</note>
+</problem>
+
+<solution id="fs-id1167066145534"><label/>
+<title>Solution</title>
+<equation id="fs-id1164563062709"> <m:math>
+ <m:mrow>
+  <m:mtable>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center" columnalign="right">
+     <m:mrow>
+      <m:mtext>area per day</m:mtext></m:mrow>
+    </m:mtd>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd rowalign="center" columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mtext>total area</m:mtext></m:mrow>
+       <m:mrow>
+        <m:mtext>total number of days</m:mtext></m:mrow>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center"><m:mo>=</m:mo></m:mtd>
+    <m:mtd rowalign="center" columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mi>π</m:mi><m:mi>a</m:mi><m:mi>b</m:mi></m:mrow>
+       <m:mrow>
+        <m:mtext>365 d</m:mtext></m:mrow>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd rowalign="center" columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mi>π</m:mi><m:mrow><m:mo>(</m:mo>
+         <m:mrow>
+          <m:mn>1.47</m:mn><m:mo>×</m:mo><m:msup>
+           <m:mrow>
+            <m:mn>10</m:mn></m:mrow>
+           <m:mn>8</m:mn>
+          </m:msup>
+          <m:mtext> km</m:mtext></m:mrow>
+        <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+         <m:mrow>
+          <m:mn>1.52</m:mn><m:mo>×</m:mo><m:msup>
+           <m:mrow>
+            <m:mn>10</m:mn></m:mrow>
+           <m:mn>3</m:mn>
+          </m:msup>
+          <m:mtext> km</m:mtext></m:mrow>
+        <m:mo>)</m:mo></m:mrow></m:mrow>
+       <m:mrow>
+        <m:mtext>365 d</m:mtext></m:mrow>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd rowalign="center" columnalign="left">
+     <m:mrow>
+      <m:mn>1.92</m:mn><m:mo>×</m:mo><m:msup>
+       <m:mrow>
+        <m:mn>10</m:mn></m:mrow>
+       <m:mrow>
+        <m:mn>14</m:mn></m:mrow>
+      </m:msup>
+      <m:msup>
+       <m:mrow>
+        <m:mtext> km</m:mtext></m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>/</m:mo><m:mtext>d</m:mtext></m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable></m:mrow>
+</m:math> </equation>
+<para id="fs-id1167066091834">The area swept out in one day is thus  <m:math>
+ <m:mrow>
+  <m:mn>1.92</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>14</m:mn></m:mrow>
+  </m:msup>
+  <m:msup>
+   <m:mrow>
+    <m:mtext>km</m:mtext></m:mrow>
+   <m:mtext>2</m:mtext>
+  </m:msup>
+  </m:mrow>
+</m:math> .</para>
+</solution>
+<commentary id="fs-id1167065861812">
+<title>Discussion</title>
+<para id="fs-id1167064917410">The answer is based on Kepler’s law, which states that a line from a planet to the sun sweeps out equal areas in equal times.</para>
+</commentary>
+</exercise></note><note id="fs-id1167062299484" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065960658">Explain that this formula is easy to remember because it is similar to  <m:math>
+ <m:mrow>
+  <m:mi>A</m:mi><m:mo>=</m:mo><m:mi>π</m:mi><m:msup>
+   <m:mi>r</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+<m:mtext>.</m:mtext>
+  </m:mrow>
+</m:math>  Discuss Earth’s eccentricity. Compare it with that of other planets, asteroids, or comets to further emphasize what defines a planet. Note that Earth has one of the least eccentric orbits and Mercury has the most eccentric orbit of the planets.</para>
+<para id="fs-id1167064905075"><span>[BL]</span>Have the students memorized the value of  <m:math><m:mrow><m:mi>π</m:mi><m:mtext>?</m:mtext></m:mrow></m:math> </para><para id="fs-id1167065940413"><span>[OL]</span><span>[AL]</span>What is the formula when <emphasis effect="italics">a</emphasis> = <emphasis effect="italics">b</emphasis>? Is the formula familiar?</para>
+<para id="fs-id1167066025287"><span>[OL]</span>Can the student verify this statement by rearranging the equation?</para>
+</note>
+</section>
+
+<section id="fs-id1167064747122">
+<title>Kepler’s Third Law</title>
+<para id="fs-id1167064825670">Kepler’s third law states that the ratio of the squares of the periods of any two planets (<emphasis effect="italics">T</emphasis><sub>1</sub><emphasis effect="italics">, T</emphasis><sub>2</sub>) is equal to the ratio of the cubes of their average orbital distance from the sun (<emphasis effect="italics">r</emphasis><sub>1</sub><emphasis effect="italics">, r</emphasis><sub>2</sub>). Mathematically, this is represented by</para><equation id="fs-id1167064583666" class="unnumbered"> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:msubsup>
+     <m:mi>T</m:mi>
+     <m:mn>1</m:mn>
+     <m:mn>2</m:mn>
+    </m:msubsup>
+    </m:mrow>
+   <m:mrow>
+    <m:msubsup>
+     <m:mi>T</m:mi>
+     <m:mn>2</m:mn>
+     <m:mn>2</m:mn>
+    </m:msubsup>
+    </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msubsup>
+     <m:mi>r</m:mi>
+     <m:mn>1</m:mn>
+     <m:mn>3</m:mn>
+    </m:msubsup>
+    </m:mrow>
+   <m:mrow>
+    <m:msubsup>
+     <m:mi>r</m:mi>
+     <m:mn>2</m:mn>
+     <m:mn>3</m:mn>
+    </m:msubsup>
+    </m:mrow>
+  </m:mfrac>
+<m:mtext>.</m:mtext>
+  </m:mrow>
+</m:math>
+</equation><para id="fs-id1167066054776">From this equation, it follows that the ratio <emphasis effect="italics">r</emphasis><sup>3</sup><emphasis effect="italics">/T</emphasis><sup>2</sup> is the same for all planets in the solar system. Later we will see how the work of Newton leads to a value for this constant.</para>
+
+<note id="fs-id1167064825185" class="worked-example"><title>Kepler’s Third Law</title>
+
+<exercise id="fs-id1167066096188" class="07-ex006 unnumbered"><label/>
+<problem id="fs-id1167065811402">
+<para id="fs-id1167065811404">Given that the moon orbits Earth each 27.3 days and that it is an average distance of  <m:math>
+ <m:mrow>
+  <m:mn>3.84</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mn>8</m:mn>
+  </m:msup>
+  <m:mtext>m</m:mtext>
+ </m:mrow>
+</m:math>  from the center of Earth, calculate the period of an artificial satellite orbiting at an average altitude of 1,500 km above Earth’s surface.</para>
+
+<note id="fs-id1167065880654"><label/>
+<title>Strategy</title>
+<para id="fs-id1167065875668">The period, or time for one orbit, is related to the radius of the orbit by Kepler’s third law, given in mathematical form by  <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:msubsup>
+     <m:mi>T</m:mi>
+     <m:mn>1</m:mn>
+     <m:mn>2</m:mn>
+    </m:msubsup>
+    </m:mrow>
+   <m:mrow>
+    <m:msubsup>
+     <m:mi>T</m:mi>
+     <m:mn>2</m:mn>
+     <m:mn>2</m:mn>
+    </m:msubsup>
+    </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msubsup>
+     <m:mi>r</m:mi>
+     <m:mn>1</m:mn>
+     <m:mn>3</m:mn>
+    </m:msubsup>
+    </m:mrow>
+   <m:mrow>
+    <m:msubsup>
+     <m:mi>r</m:mi>
+     <m:mn>2</m:mn>
+     <m:mn>3</m:mn>
+    </m:msubsup>
+    </m:mrow>
+  </m:mfrac>
+  </m:mrow>
+</m:math> . Let us use the subscript 1 for the moon and the subscript 2 for the satellite. We are asked to find <emphasis effect="italics">T</emphasis><sub>2</sub>. The given information tells us that the orbital radius of the moon is  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>r</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>3.84</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mn>8</m:mn>
+  </m:msup>
+  <m:mtext>m</m:mtext></m:mrow>
+</m:math>, and that the period of the moon is  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>T</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>27.3</m:mn><m:mspace width="0.3em"/><m:mtext>days</m:mtext></m:mrow>
+</m:math> . The height of the artificial satellite above Earth’s surface is given, so to get the distance <emphasis effect="italics">r</emphasis><sub>2</sub> from the center of Earth we must add the height to the radius of Earth (6380 km). This gives  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>r</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>1500</m:mn><m:mspace width="0.3em"/><m:mtext>km</m:mtext><m:mo>+</m:mo><m:mn>6380</m:mn><m:mspace width="0.3em"/><m:mtext>km</m:mtext><m:mo>=</m:mo><m:mn>7880</m:mn><m:mspace width="0.3em"/><m:mtext>km</m:mtext></m:mrow>
+</m:math> . Now all quantities are known, so <emphasis effect="italics">T</emphasis><sub>2</sub> can be found.</para>
+</note>
+</problem>
+<solution id="fs-id1167065974915">
+<label/>
+<title>Solution</title>
+<para id="fs-id1167066121700">To solve for <emphasis effect="italics">T</emphasis><sub>2</sub>, we cross-multiply and take the square root, yielding</para>
+<equation id="fs-id1164562239848"> <m:math display="block">
+ <m:semantics>
+  <m:mtable columnalign="left">
+   <m:mtr>
+    <m:mtd>
+     <m:msubsup>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+      <m:mn>2</m:mn>
+     </m:msubsup>
+     <m:mo>=</m:mo><m:msubsup>
+      <m:mi>T</m:mi>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+     </m:msubsup>
+     <m:msup>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mfrac>
+         <m:mrow>
+          <m:msub>
+           <m:mi>r</m:mi>
+           <m:mn>2</m:mn>
+          </m:msub>
+
+         </m:mrow>
+         <m:mrow>
+          <m:msub>
+           <m:mi>r</m:mi>
+           <m:mn>1</m:mn>
+          </m:msub>
+
+         </m:mrow>
+        </m:mfrac>
+
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow>
+      <m:mn>3</m:mn>
+     </m:msup>
+     <m:mo>;</m:mo><m:mo> </m:mo><m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+     </m:msub>
+     <m:mo>=</m:mo><m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>1</m:mn>
+     </m:msub>
+     <m:msup>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mfrac>
+         <m:mrow>
+          <m:msub>
+           <m:mi>r</m:mi>
+           <m:mn>2</m:mn>
+          </m:msub>
+
+         </m:mrow>
+         <m:mrow>
+          <m:msub>
+           <m:mi>r</m:mi>
+           <m:mn>1</m:mn>
+          </m:msub>
+
+         </m:mrow>
+        </m:mfrac>
+
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow>
+      <m:mrow>
+       <m:mfrac>
+        <m:mn>3</m:mn>
+        <m:mn>2</m:mn>
+       </m:mfrac>
+
+      </m:mrow>
+     </m:msup>
+
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd>
+     <m:mtable>
+      <m:mtr>
+       <m:mtd>
+        <m:mrow>
+         <m:msub>
+          <m:mi>T</m:mi>
+          <m:mn>2</m:mn>
+         </m:msub>
+         <m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>27.3</m:mn><m:mo> </m:mo><m:mtext>d</m:mtext><m:mo stretchy="false">)</m:mo><m:mrow><m:mo>(</m:mo>
+          <m:mrow>
+           <m:mfrac>
+            <m:mrow>
+             <m:mn>24.0</m:mn><m:mo> </m:mo><m:mtext>h</m:mtext>
+            </m:mrow>
+            <m:mtext>d</m:mtext>
+           </m:mfrac>
+
+          </m:mrow>
+         <m:mo>)</m:mo></m:mrow><m:msup>
+          <m:mrow>
+           <m:mrow><m:mo>(</m:mo>
+            <m:mrow>
+             <m:mfrac>
+              <m:mrow>
+               <m:mn>7880</m:mn><m:mo> </m:mo><m:mtext>km</m:mtext>
+              </m:mrow>
+              <m:mrow>
+               <m:mn>3.84</m:mn><m:mo>×</m:mo><m:msup>
+                <m:mrow>
+                 <m:mn>10</m:mn>
+                </m:mrow>
+                <m:mn>5</m:mn>
+               </m:msup>
+               <m:mo> </m:mo><m:mtext>km</m:mtext>
+              </m:mrow>
+             </m:mfrac>
+
+            </m:mrow>
+           <m:mo>)</m:mo></m:mrow>
+          </m:mrow>
+          <m:mrow>
+           <m:mfrac>
+            <m:mn>3</m:mn>
+            <m:mn>2</m:mn>
+           </m:mfrac>
+
+          </m:mrow>
+         </m:msup>
+         <m:mo>=</m:mo><m:mn>1.93</m:mn><m:mo> </m:mo><m:mtext>h</m:mtext><m:mo>.</m:mo>
+        </m:mrow>
+       </m:mtd>
+      </m:mtr>
+
+     </m:mtable>
+    </m:mtd>
+   </m:mtr>
+  </m:mtable>
+ </m:semantics>
+</m:math> </equation>
+</solution>
+<commentary id="fs-id1167066097036">
+<title>Discussion</title>
+<para id="fs-id1167066121833">This is a reasonable period for a satellite in a fairly low orbit. It is interesting that any satellite at this altitude will complete one orbit in the same amount of time.</para>
+</commentary>
+</exercise></note><note id="fs-id1167065969662" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066000673">Remind the students that this only works when the satellites are small compared to the parent object and when both satellites orbit the same parent object.</para>
+</note>
+</section>
+</section>
+
+<section id="fs-id1167066045643" class="practice-problems"><title>Practice Problems</title><exercise id="fs-id1167064979336">
+<problem id="fs-id1167064746955">
+<!--<para id="fs-id1167064746958">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch07-ex007"/>
+</para>-->
+<para id="fs-id1164557666958">A planet with no axial tilt is located in another solar system. It circles its sun in a very elliptical orbit so that the temperature varies greatly throughout the year. If the year there has 612 days and the inhabitants celebrate the coldest day on day 1 of their calendar, when is the warmest day?</para>
+<list id="fs-id1164564761082" list-type="enumerated" number-style="lower-alpha">
+<item>Day 1</item>
+<item>Day 153</item>
+<item>Day 306</item>
+<item>Day 459</item>
+</list>
+</problem>
+</exercise>
+
+<exercise id="fs-id1167064908172">
+<problem id="fs-id1167065856317">
+<para id="fs-id1167065856319">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch07-ex008"/>
+</para>
+</problem>
+</exercise>
+</section><section id="fs-id1167066051206" class="check-understanding"><title>Check Your Understanding</title>
+<exercise id="fs-id1167065959667" class="os-exercise">
+<problem id="fs-id1167065959670">
+<para id="fs-id1167065951369">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch07-ex009"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167064899735" class="os-exercise">
+<problem id="fs-id1167066021325">
+<!--<para id="fs-id1167066021327">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch07-ex010"/>
+</para>-->
+<para id="fs-id1164566561515">True or false—According to Keplers laws of planetary motion, a satellite increases its speed as it approaches its parent body and decreases its speed as it moves away from the parent body.</para>
+<list id="fs-id1164562398300" list-type="enumerated" number-style="lower-alpha">
+<item>True</item>
+<item>False</item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-id1166849927657" class="os-exercise">
+<problem id="eip-id1166849891035">
+<para id="eip-id1166849891038">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch07-ot005"/>
+</para>
+</problem>
+</exercise></section><note id="fs-id1167065821760" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167064950854">Use the <emphasis effect="italics">Check Your Answers</emphasis> questions to assess whether students master the learning objectives for this section. If students are struggling with a specific objective, the <emphasis effect="italics">Check Your Answers</emphasis> will help identify which objective is causing the problem and direct students to the relevant content.</para></note>
+
+<section id="fs-id1167065057963" class="summary">
+<title>Section Summary</title>
+<list id="fs-id1167064902250" list-type="bulleted">
+<item>All satellites follow elliptical orbits.</item>
+<item>The line from the satellite to the parent body sweeps out equal areas in equal time.</item>
+<item>The radius cubed divided by the period squared is a constant for all satellites orbiting the same parent body.</item>
+</list>
+</section>
+
+<section id="fs-id1167064877194" class="key-equations"><title>Key Equations</title><table id="fs-id1167065824697" class="unnumbered unstyled" summary="The list of Key Equations includes Kepler’s third law and formulas for calculating eccentricity, the area of an ellipse, and the semi-major and semi-minor axis of an ellipse.">
+<label/>
+<tgroup cols="1">
+<colspec colnum="1" colname="c1"/>
+<tbody>
+<row>
+<entry>Kepler’s third law</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:msubsup>
+     <m:mi>T</m:mi>
+     <m:mn>1</m:mn>
+     <m:mn>2</m:mn>
+    </m:msubsup>
+    </m:mrow>
+   <m:mrow>
+    <m:msubsup>
+     <m:mi>T</m:mi>
+     <m:mn>2</m:mn>
+     <m:mn>2</m:mn>
+    </m:msubsup>
+    </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msubsup>
+     <m:mi>r</m:mi>
+     <m:mn>1</m:mn>
+     <m:mn>3</m:mn>
+    </m:msubsup>
+    </m:mrow>
+   <m:mrow>
+    <m:msubsup>
+     <m:mi>r</m:mi>
+     <m:mn>2</m:mn>
+     <m:mn>3</m:mn>
+    </m:msubsup>
+    </m:mrow>
+  </m:mfrac>
+  </m:mrow>
+</m:math> </entry>
+</row>
+<row>
+<entry>eccentricity</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mi>e</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mi>f</m:mi>
+   <m:mi>a</m:mi>
+  </m:mfrac>
+  </m:mrow>
+</m:math> </entry>
+</row>
+<row>
+<entry>area of an ellipse</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mi>A</m:mi><m:mo>=</m:mo><m:mi>π</m:mi><m:mi>a</m:mi><m:mi>b</m:mi></m:mrow>
+</m:math> </entry>
+</row>
+<row>
+<entry>semi-major axis of an ellipse</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mi>a</m:mi><m:mo>=</m:mo><m:mrow><m:mrow>
+   <m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:msub>
+      <m:mi>r</m:mi>
+      <m:mtext>a</m:mtext>
+     </m:msub>
+     <m:mo>+</m:mo><m:msub>
+      <m:mi>r</m:mi>
+      <m:mtext>p</m:mtext>
+     </m:msub>
+     </m:mrow>
+   <m:mo>)</m:mo></m:mrow></m:mrow><m:mo>/</m:mo><m:mn>2</m:mn></m:mrow>
+  </m:mrow>
+</m:math> </entry>
+</row>
+<row>
+<entry>semi-minor axis of an ellipse</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mi>b</m:mi><m:mo>=</m:mo><m:msqrt>
+   <m:mrow>
+    <m:msub>
+     <m:mi>r</m:mi>
+     <m:mtext>a</m:mtext>
+    </m:msub>
+    <m:msub>
+     <m:mi>r</m:mi>
+     <m:mtext>p</m:mtext>
+    </m:msub>
+    </m:mrow>
+  </m:msqrt>
+  </m:mrow>
+</m:math> </entry>
+</row>
+</tbody>
+</tgroup>
+</table></section><section id="fs-id1167064896252" class="concept"><title>Concept Items</title>
+<exercise id="fs-id1167064953077" class="os-exercise"><problem id="fs-id1167064953080">
+<para id="eip-idm277853056">A circle is a special case of an ellipse. Explain how a circle is different from other ellipses.</para>
+<list id="eip-idm646241168" list-type="enumerated" number-style="lower-alpha"><item>The foci of a circle are at the same point and are located at the center of the circle.</item>
+<item>The foci of a circle are at the same point and are located at the circumference of the circle.</item>
+<item>The foci of a circle are at the same point and are located outside of the circle.</item>
+<item>The foci of a circle are at the same point and are located anywhere on the diameter, except on its midpoint.</item>
+</list>
+</problem>
+</exercise><exercise id="eip-id1166847409671" class="os-exercise">
+<problem id="eip-id1166847409674">
+<!--<para id="eip-id1166849846006">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch07-ot006"/>
+</para>-->
+<para id="fs-id1164559077423">Comets have very elongated elliptical orbits with the sun at one focus. Using Kepler's Law, explain why a comet travels much faster near the sun than it does at the other end of the orbit.</para>
+<list id="fs-id1164566843851" list-type="enumerated" number-style="lower-alpha"><item>Because the satellite sweeps out equal areas in equal times</item>
+<item>Because the satellite sweeps out unequal areas in equal times</item>
+<item>Because the satellite is at the other focus of the ellipse</item>
+<item>Because the square of the period of the satellite is proportional to the cube of its average distance from the sun</item>
+</list></problem>
+</exercise>
+<exercise id="eip-id1166850087786" class="os-exercise">
+<problem id="eip-id1166849303562">
+<!--<para id="eip-id1166849303564">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch07-ot007"/>
+</para>-->
+<para id="fs-id1164564896718">True or False—A planet-satellite system must be isolated from other massive objects to follow Keplers laws of planetary motion.</para>
+<list id="fs-id1164563541977" list-type="enumerated" number-style="lower-alpha">
+<item>True</item>
+<item>False</item>
+</list>
+
+</problem>
+</exercise>
+<exercise id="eip-id1166849864204" class="os-exercise">
+<problem id="eip-id1166849464580">
+<para id="eip-id1166849464582">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch07-ot008"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167064929524" class="critical-thinking"><title>Critical Thinking</title>
+<exercise id="fs-id1167066091131" class="os-exercise"><problem id="fs-id1167065899522">
+<!--<para id="fs-id1167065899524">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch07-ex012"/>
+</para>-->
+<para id="eip-idm321012288">In the figure, the time it takes for the planet to go from A to B, C to D, and E to F is the same. </para>
+<media id="fs-id1169831275315" alt="no alt text">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_07_01_planet.jpg"/>
+</media>
+<para id="fs-id1169830534115">Compare the areas <emphasis effect="italics">A</emphasis><sub>1</sub>, <emphasis effect="italics">A</emphasis><sub>2</sub>, and <emphasis effect="italics">A</emphasis><sub>3</sub> in terms of size.</para>
+<list id="fs-id1169833232558" list-type="enumerated" number-style="lower-alpha">
+<item><emphasis effect="italics">A</emphasis><sub>1</sub> ≠ <emphasis effect="italics">A</emphasis><sub>2</sub> ≠ <emphasis effect="italics">A</emphasis><sub>3</sub></item>
+<item><emphasis effect="italics">A</emphasis><sub>1</sub> = <emphasis effect="italics">A</emphasis><sub>2</sub> = <emphasis effect="italics">A</emphasis><sub>3</sub></item>
+<item><emphasis effect="italics">A</emphasis><sub>1</sub> = <emphasis effect="italics">A</emphasis><sub>2</sub> &gt; <emphasis effect="italics">A</emphasis><sub>3</sub></item>
+<item><emphasis effect="italics">A</emphasis><sub>1</sub> &gt; <emphasis effect="italics">A</emphasis><sub>2</sub> = <emphasis effect="italics">A</emphasis><sub>3</sub></item>
+</list>
+</problem>
+</exercise><exercise id="eip-id1166849880392" class="os-exercise">
+<problem id="eip-id1166850149682">
+<!--<para id="eip-id1166850149684">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch07-ot003"/>
+</para>-->
+<para id="fs-id1164559105261">A moon orbits a planet in an elliptical orbit. The foci of the ellipse are 50, 000 km apart. The closest approach of the moon to the planet is 400, 000 km. What is the length of the major axis of the orbit?</para>
+<list id="fs-id1164566545175" list-type="enumerated" number-style="lower-alpha"><item>400, 000 km</item>
+<item>450, 000, km</item>
+<item>800, 000 km</item>
+<item>850, 000 km</item>
+</list></problem>
+</exercise>
+<exercise id="eip-id1166850023538" class="os-exercise"><problem id="eip-id1166850023542">
+<!--<para id="eip-id1166849395854">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch07-ot011"/>
+</para>-->
+<para id="eip-idm525330224">In this figure, if <emphasis effect="italics">f</emphasis><sub>1</sub> represents the parent body, which set of statements holds true?
+</para>
+<media id="fs-id1169830619088" alt="no alt text">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_07_01_kep.jpg"/>
+</media>
+<list id="fs-id1169833130485" list-type="enumerated" number-style="lower-alpha"><item>Area X &lt; Area Y; the speed is greater for area X.</item>
+<item>Area X &gt; Area Y; the speed is greater for area Y.</item>
+<item>Area X = Area Y; the speed is greater for area X.</item>
+<item>Area X = Area Y; the speed is greater for area Y.</item>
+</list></problem>
+</exercise></section><section id="fs-id1167064951062" class="problems">
+<title>Problems</title>
+<exercise id="fs-id1167066097209" class="os-exercise">
+<problem id="fs-id1167066097212">
+<!--<para id="fs-id1167065971641">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch07-ex013"/>
+</para>-->
+
+<para id="fs-id1164564966676">The closest Earth comes to the sun is 1.47×10<sup>8</sup> km, and Earths farthest distance from the sun is 1.52×10<sup>8</sup> km. What is the area inside Earths orbit?</para><list id="fs-id1164561194381" list-type="enumerated" number-style="lower-alpha">
+<item>2.23×10<sup>16</sup> km<sup>2</sup></item>
+<item>6.79×10<sup>16</sup> km<sup>2</sup></item>
+<item>7.02×10<sup>16</sup> km<sup>2</sup></item>
+<item>7.26×10<sup>16</sup> km<sup>2</sup></item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167065742906" class="os-exercise">
+<problem id="fs-id1167065742909">
+<!--<para id="fs-id1167065742911">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch07-ex014"/>
+</para>-->
+<para id="fs-id1164560953396">Earth is 1.496×10<sup>8</sup> km from the sun, and Neptune is 4.490×10<sup>9</sup> km from the sun. What best represents the number of Earth years it takes for Neptune to complete one orbit around the sun?
+</para><list id="fs-id1164566575427" list-type="enumerated" number-style="lower-alpha"><item>10 years</item>
+<item>30 years</item>
+<item>160 years</item>
+<item>900 years</item>
+</list></problem>
+</exercise>
+</section>
+
+<section id="fs-id1167064894598" class="multiple-choice"><title>Test Prep Multiple Choice</title>
+<exercise id="fs-id1167064894605" class="os-exercise"><problem id="fs-id1167064904238">
+<para id="fs-id1167064904240">
+A planet of mass m circles a sun of mass M. Which distance changes throughout the planet’s orbit?
+</para>
+<list id="eip-idm246285632" list-type="enumerated" number-style="lower-alpha"><item> <m:math>
+    <m:mrow>
+  <m:mover accent="true">
+   <m:mrow>
+    <m:msub>
+     <m:mi>f</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+     <m:mi>f</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    </m:mrow>
+   <m:mo stretchy="true">¯</m:mo>
+  </m:mover>
+  </m:mrow>
+  </m:math> </item>
+<item> <m:math>
+ <m:mrow>
+  <m:mover accent="true">
+   <m:mrow>
+     <m:mi>m</m:mi>
+     <m:mi>M</m:mi>
+    </m:mrow>
+   <m:mo stretchy="true">¯</m:mo>
+  </m:mover>
+  </m:mrow>
+  </m:math> </item>
+<item> <m:math>
+    <m:mrow>
+  <m:mover accent="true">
+   <m:mrow>
+     <m:mi>M</m:mi>
+    <m:msub>
+     <m:mi>f</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    </m:mrow>
+   <m:mo stretchy="true">¯</m:mo>
+  </m:mover>
+  </m:mrow>
+  </m:math> </item>
+<item> <m:math>
+    <m:mrow>
+  <m:mover accent="true">
+   <m:mrow>
+     <m:mi>M</m:mi>
+    <m:msub>
+     <m:mi>f</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    </m:mrow>
+   <m:mo stretchy="true">¯</m:mo>
+  </m:mover>
+  </m:mrow>
+  </m:math> </item>
+
+</list></problem>
+</exercise><exercise id="fs-id1167065968564" class="os-exercise">
+<problem id="fs-id1167065949146">
+<para id="fs-id1167065949148">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch07-ex016"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166851384887" class="os-exercise">
+<problem id="eip-id1166848813212">
+<!--<para id="eip-id1166851385567">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch07-ot014"/>
+</para>-->
+<para id="fs-id1164562351320">An artificial satellite orbits the Earth at a distance of 1.45×10<sup>4</sup> km from Earths center. The moon orbits the Earth at a distance of 3.84×10<sup>5</sup> km once every 27.3 days. How long does it take the satellite to orbit the Earth?</para>
+<list id="fs-id1164563046833" list-type="enumerated" number-style="lower-alpha">
+<item>0.200 days</item>
+<item>3.07 days</item>
+<item>243 days</item>
+<item>3721 days</item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-id1166849856717" class="os-exercise"><problem id="eip-id1166847412575">
+<para id="eip-id1166847412577">
+Earth is 1.496×10<sup>8</sup> km from the sun, and Venus is 1.08×10<sup>8</sup> km from the sun. One day on Venus is 243 Earth days long. What best represents the number of Venusian days in a Venusian year?
+</para>
+<list id="eip-idm468392416" list-type="enumerated" number-style="lower-alpha"><item>0.78 days</item>
+<item>0.92 days</item>
+<item>1.08 days</item>
+<item>1.21 days</item>
+</list></problem>
+</exercise></section><section id="fs-id1167062305753" class="short-answer">
+<title>Test Prep Short Answer</title>
+<exercise id="fs-id1167066156731" class="os-exercise">
+<problem id="fs-id1167066156734">
+<para id="fs-id1167066156736">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch07-ex017"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065878968" class="os-exercise">
+<problem id="fs-id1167065878971">
+<para id="fs-id1167065878973">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch07-ex018"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167064818969" class="os-exercise">
+<problem id="fs-id1167065013735">
+<para id="fs-id1167065013737">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch07-ex019"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167064902325" class="os-exercise">
+<problem id="fs-id1167064902328">
+<para id="fs-id1167065846558">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch07-ex020"/>
+</para>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167066145365" class="extended-response">
+<title>Test Prep Extended Response</title>
+<exercise id="fs-id1167064819285" class="os-exercise"><problem id="fs-id1167064819288">
+<!--<para id="fs-id1167064819290">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch07-ex021"/>
+</para>-->
+<para id="fs-id1164562417436">The orbit of Halley's Comet has an eccentricity of 0.967 and stretches to the edge of the solar system.
+<newline/>Part A. Describe the shape of the comets orbit.
+<newline/>Part B. Compare the distance traveled per day when it is near the sun to the distance traveled per day when it is at the edge of the solar system.
+<newline/>Part C. Describe variations in the comet's speed as it completes an orbit. Explain the variations in terms of Kepler's second law of planetary motion.
+</para>
+<list id="eip-idm301040688" list-type="enumerated" number-style="lower-alpha"><item>Part A. The orbit is circular, with the sun at the center. Part B. The comet travels much farther when it is near the sun than when it is at the edge of the solar system. Part C. The comet decelerates as it approaches the sun and accelerates as it leaves the sun.
+</item>
+<item>Part A. The orbit is circular, with the sun at the center. Part B. The comet travels much farther when it is near the sun than when it is at the edge of the solar system. Part C. The comet accelerates as it approaches the sun and decelerates as it leaves the sun.</item>
+<item>Part A. The orbit is very elongated, with the sun near one end. Part B. The comet travels much farther when it is near the sun than when it is at the edge of the solar system. Part C. The comet decelerates as it approaches the sun and accelerates as it moves away from the sun.
+</item>
+
+</list></problem>
+</exercise><exercise id="fs-id1167064906921" class="os-exercise">
+<problem id="fs-id1167066095792">
+<!--<para id="fs-id1167066095794">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch07-ex022"/>
+</para>-->
+<para id="fs-id1164557704451">For convenience, astronomers often use astronomical units (AU) to measure distances within the solar system. One AU equals the average distance from Earth to the sun. Halleys Comet returns once every 75.3 years. What is the average radius of the orbit of Halleys Comet in AU?</para>
+<list id="fs-id1164564756679" list-type="enumerated" number-style="lower-alpha">
+<item>0.002 AU</item>
+<item>0.056 AU</item>
+<item>17.8 AU</item>
+<item>653 AU</item>
+</list>
+</problem>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1167065908503">
+<term>aphelion</term><meaning id="fs-id1167065908508">furthest distance between a planet and the sun (called apoapsis for other celestial bodies)</meaning></definition>
+<definition id="fs-id1167065942203">
+<term>Copernican model</term><meaning id="fs-id1167065942207">the model of the solar system where the sun is at the center of the solar system and all the planets orbit around it; this is also called the heliocentric model</meaning></definition>
+<definition id="fs-id1167066029095">
+<term>eccentricity</term><meaning id="fs-id1167066029099">a measure of the separation of the foci of an ellipse</meaning></definition>
+<definition id="fs-id1167066029102"><term>Kepler’s laws of planetary motion</term><meaning id="fs-id1167065842210">three laws derived by Johannes Kepler that describe the properties of all orbiting satellites</meaning></definition>
+<definition id="fs-id1167065842213"><term>perihelion</term><meaning id="fs-id1167065821504">closest distance between a planet and the sun (called periapsis for other celestial bodies)</meaning></definition>
+<definition id="fs-id1167065821507"><term>Ptolemaic model</term><meaning id="fs-id1167065821510">the model of the solar system where Earth is at the center of the solar system and the sun and all the planets orbit around it; this is also called the geocentric model</meaning></definition>
+</glossary>
+</document>

@@ -1,0 +1,2203 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Elastic and Inelastic Collisions</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54209</md:content-id>
+  <md:title>Elastic and Inelastic Collisions</md:title>
+  <md:abstract/>
+  <md:uuid>ce41ca24-b8e9-4652-89c5-969fd2780918</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167064845753" class="learning-objectives">
+<label/>
+<title>Section Learning Objectives</title>
+<para id="eip-id1167067159611">By the end of this section, you will be able to do the following:</para>
+<list id="fs-id1167065677177">
+<item>Distinguish between elastic and inelastic collisions</item>
+<item>Solve collision problems by applying the law of conservation of momentum</item>
+</list></note>
+<note id="fs-id1167064841933" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065856870">The learning objectives in this section will help your students master the following standards:</para><list id="fs-id1167062305742">
+<item>(6) Science concepts. The student knows that changes occur within a physical system and applies the laws of conservation of energy and momentum. The student is expected to:
+<list id="fs-id1167065775408"><item><span>(C)</span> <span class="oat-standards-description">calculate the mechanical energy of, power generated within, impulse applied to, and momentum of a physical system;</span></item>
+<item><span>(D)</span><span class="oat-standards-description"> demonstrate and apply the laws of conservation of energy and conservation of momentum in one dimension.</span></item>
+</list></item>
+</list>
+</note>
+<section id="keyterms"><title>Section Key Terms</title>
+<table id="fs-id1167064906840" class="unnumbered unstyled section-key-terms" summary="The list of Key Terms includes: elastic collision, inelastic collision, point masses, and recoil.">
+<label/>
+<tgroup cols="3">
+<tbody>
+<row>
+<entry>elastic collision</entry>
+<entry>inelastic collision</entry>
+<entry>point masses</entry>
+<entry>recoil</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section><section id="fs-id1167066108300"><title>Elastic and Inelastic Collisions</title><para id="fs-id1167065942246">When objects collide, they can either stick together or bounce off one another, remaining separate. In this section, we’ll cover these two different types of <term class="no-emphasis">collisions</term>, first in one dimension and then in two dimensions. </para>
+<para id="fs-id1167065718111">In an <term>elastic collision</term>, the objects separate after impact and don’t lose any of their <term class="no-emphasis">kinetic energy</term>. Kinetic energy is the energy of motion and is covered in detail elsewhere. The <term class="no-emphasis">law of conservation of momentum</term> is very useful here, and it can be used whenever the net external force on a system is zero. <link target-id="Figure_08_03_Elastic"/> shows an elastic collision where <term class="no-emphasis">momentum</term> is conserved.</para>
+<figure id="Figure_08_03_Elastic">
+<media id="fs-id1167065844002" alt="An illustration shows before and after diagrams of two boxes moving toward each other on a frictionless surface. The box on the left is labeled m one and the box on the right is labeled m two. Both diagrams are labeled System of Interest. In the before diagram, a velocity vector, v one, points from m one toward m two. A second, shorter velocity vector, v two, points from the left side of m two toward m one. Two equations are shown: p one plus p one equals p total and net F equals zero. In the after diagram, both velocity vectors point away from each mass, m one and m two. The vector on the left is shorter than the one on the right. The equation p one prime plus p one prime equals p total is shown.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_08_03_Elastic-2510.jpg"/>
+</media>
+<caption>The diagram shows a one-dimensional elastic collision between two objects.</caption>
+</figure>
+<para id="fs-id1167065822974">An animation of an elastic collision between balls can be seen by watching this <link url="http://openstax.org/l/28elasticball">video</link>. It replicates the elastic collisions between balls of varying masses.</para>
+<para id="fs-id1167065768944">Perfectly elastic collisions can happen only with subatomic particles. Everyday observable examples of perfectly elastic collisions don’t exist—some kinetic energy is always lost, as it is converted into heat transfer due to friction. However, collisions between everyday objects are almost perfectly elastic when they occur with objects and surfaces that are nearly frictionless, such as with two steel blocks on ice.</para>
+<para id="fs-id1167066095219">Now, to solve problems involving one-dimensional elastic collisions between two objects, we can use the equation for conservation of momentum. First, the equation for conservation of momentum for two objects in a one-dimensional collision is</para>
+
+<equation id="fs-id1167066056398" class="unnumbered"><label/>
+ <m:math>
+<m:mrow>
+<m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle>
+<m:mn>1</m:mn>
+</m:msub>
+<m:mo>+</m:mo><m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mo>=</m:mo><m:msup>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle>
+<m:mo>′</m:mo>
+</m:msup>
+<m:msub>
+<m:mrow/>
+<m:mn>1</m:mn>
+</m:msub>
+<m:mo>+</m:mo><m:msup>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle>
+<m:mo>′</m:mo>
+</m:msup>
+<m:msub>
+<m:mrow/>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mo stretchy="false">(</m:mo><m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+<m:mrow>
+<m:mtext>net</m:mtext>
+</m:mrow>
+</m:msub>
+<m:mo>=</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo>
+<m:mtext>.</m:mtext>
+</m:mrow>
+</m:math>
+</equation><para id="fs-id1167065867804">Substituting the definition of momentum <emphasis>p</emphasis><emphasis effect="italics"> = m</emphasis><emphasis>v</emphasis> for each initial and final momentum, we get</para>
+
+<equation id="fs-id1167065893425" class="unnumbered"><label/>
+ <m:math>
+<m:mrow>
+<m:msub>
+<m:mi>m</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
+<m:mn>1</m:mn>
+</m:msub>
+<m:mo>+</m:mo><m:msub>
+<m:mi>m</m:mi>
+<m:mn>2</m:mn>
+</m:msub>
+<m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mo>=</m:mo><m:msub>
+<m:mi>m</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:msub>
+<m:msup>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
+<m:mo>′</m:mo>
+</m:msup>
+
+<m:mn>1</m:mn>
+</m:msub>
+<m:mo>+</m:mo><m:msub>
+<m:mi>m</m:mi>
+<m:mn>2</m:mn>
+</m:msub>
+<m:msub>
+<m:msup>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
+<m:mo>′</m:mo>
+</m:msup>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mtext>,</m:mtext>
+</m:mrow>
+</m:math>
+</equation>
+
+<para id="fs-id1167064893375">where the primes (') indicate values after the collision; In some texts, you may see <emphasis effect="italics">i</emphasis> for initial (before collision) and <emphasis effect="italics">f</emphasis> for final (after collision). The equation assumes that the mass of each object does not change during the collision.</para>
+
+<note id="fs-id1167065737591" class="watch-physics">
+
+<title>Momentum: Ice Skater Throws a Ball</title>
+<para id="fs-id1167065772677">This video covers an elastic collision problem in which we find the <emphasis effect="italics"><term>recoil</term> velocity</emphasis> of an ice skater who throws a ball straight forward. To clarify, Sal is using the equation </para>
+<para id="fs-id1167064895166"> <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>m</m:mi>
+   <m:mrow>
+    <m:mtext>ball</m:mtext></m:mrow>
+  </m:msub>
+  <m:msub>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>V</m:mi></m:mstyle>
+   <m:mrow>
+    <m:mtext>ball</m:mtext></m:mrow>
+  </m:msub>
+  <m:mtext>+</m:mtext><m:msub>
+   <m:mi>m</m:mi>
+   <m:mrow>
+    <m:mtext>skater</m:mtext></m:mrow>
+  </m:msub>
+  <m:msub>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>V</m:mi></m:mstyle>
+   <m:mrow>
+    <m:mtext>skater</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>m</m:mi>
+   <m:mrow>
+    <m:mtext>ball</m:mtext></m:mrow>
+  </m:msub>
+  <m:msub>
+   <m:msup>
+    <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+    <m:mo>′</m:mo>
+   </m:msup>
+
+   <m:mrow>
+    <m:mtext>ball</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>m</m:mi>
+   <m:mrow>
+    <m:mtext>skater</m:mtext></m:mrow>
+  </m:msub>
+  <m:msub>
+   <m:msup>
+    <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+    <m:mo>′</m:mo>
+   </m:msup>
+
+   <m:mrow>
+    <m:mtext>skater</m:mtext></m:mrow>
+  </m:msub>
+  </m:mrow>
+</m:math> .</para><media id="fs-id1167065862393" alt="This video provides an explanation of momentum by exploring the problem of an ice skater throwing a ball." class="os-embed">
+<iframe width="660" height="371.4" src="https://www.khanacademy.org/embed_video?v=vPkkCOlGND4"/>
+</media>
+<exercise id="fs-id1167065961031" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167065948843">
+<para id="fs-id1167064914995">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex038"/>
+</para>
+</problem>
+</exercise>
+</note>
+<para id="fs-id1167065828234">Now, let us turn to the second type of collision. An <term>inelastic collision</term> is one in which objects stick together after impact, and kinetic energy is <emphasis effect="italics">not</emphasis> conserved. This lack of conservation means that the forces between colliding objects may convert kinetic energy to other forms of energy, such as potential energy or thermal energy. The concepts of energy are discussed more thoroughly elsewhere. For inelastic collisions, kinetic energy may be lost in the form of heat. <link target-id="Figure_08_03_Inelastic"/> shows an example of an inelastic collision. Two objects that have equal masses head toward each other at equal speeds and then stick together. The two objects come to rest after sticking together, conserving momentum but not kinetic energy after they collide. Some of the energy of motion gets converted to thermal energy, or heat.</para>
+<figure id="Figure_08_03_Inelastic">
+<media id="fs-id1167065775230" alt="An illustration shows before and after diagrams of two boxes moving toward each other on a frictionless surface. Both boxes are labeled m. Both diagrams are labeled System of Interest. In the before diagram, a velocity vector, v, points from the left box to the right box. A second vector of equal magnitude, negative v, points from right box toward the left box. Two equations are shown: p one plus p two equals zero and net F equals zero. In the after diagram, the boxes are touching. The equations p one prime plus p two prime equals zero and v equals zero are shown.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_08_03_Inelastic.jpg"/>
+</media>
+<caption>A one-dimensional inelastic collision between two objects. Momentum is conserved, but kinetic energy is not conserved. (a) Two objects of equal mass initially head directly toward each other at the same speed. (b) The objects stick together, creating a perfectly inelastic collision. In the case shown in this figure, the combined objects stop; This is not true for all inelastic collisions.</caption>
+</figure>
+<para id="fs-id1167065978526">Since the two objects stick together after colliding, they move together at the same speed. This lets us simplify the conservation of momentum equation from</para>
+<equation id="fs-id1167065941901" class="unnumbered"><label/>
+ <m:math>
+<m:mrow>
+<m:msub>
+<m:mi>m</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
+<m:mn>1</m:mn>
+</m:msub>
+<m:mo>+</m:mo><m:msub>
+<m:mi>m</m:mi>
+<m:mn>2</m:mn>
+</m:msub>
+<m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mo>=</m:mo><m:msub>
+<m:mi>m</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:msub>
+<m:msup>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
+<m:mo>′</m:mo>
+</m:msup>
+
+<m:mn>1</m:mn>
+</m:msub>
+<m:mo>+</m:mo><m:msub>
+<m:mi>m</m:mi>
+<m:mn>2</m:mn>
+</m:msub>
+<m:msub>
+<m:msup>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
+<m:mo>′</m:mo>
+</m:msup>
+
+<m:mn>2</m:mn>
+</m:msub>
+</m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1167065854298">to</para>
+<equation id="fs-id1167065800800" class="unnumbered"><label/>
+ <m:math>
+<m:mrow>
+<m:msub>
+<m:mi>m</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
+<m:mn>1</m:mn>
+</m:msub>
+<m:mo>+</m:mo><m:msub>
+<m:mi>m</m:mi>
+<m:mn>2</m:mn>
+</m:msub>
+<m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mo>=</m:mo><m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:msub>
+<m:mi>m</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:mo>+</m:mo><m:msub>
+<m:mi>m</m:mi>
+<m:mn>2</m:mn>
+</m:msub>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:msup>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
+<m:mo>′</m:mo>
+</m:msup>
+
+</m:mrow>
+</m:math>
+
+</equation>
+<para id="fs-id1167065071210">for inelastic collisions, where <emphasis>v</emphasis>′ is the final velocity for both objects as they are stuck together, either in motion or at rest.</para>
+<note id="fs-id1167065852687" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167064775408"><span>[BL]</span><span>[OL]</span> Review the concept of internal energy. Ask students what they understand by the words elastic and inelastic.</para><para id="fs-id1167065913594"><span>[AL]</span> Start a discussion about collisions. Ask students to give examples of elastic and inelastic collisions.</para></note>
+<note id="fs-id1167065762054" class="watch-physics">
+
+<title>Introduction to Momentum</title> <para id="fs-id1167065881814">This video reviews the definitions of momentum and impulse. It also covers an example of using conservation of momentum to solve a problem involving an inelastic collision between a car with constant velocity and a stationary truck. Note that Sal accidentally gives the unit for impulse as Joules; it is actually N <m:math>
+<m:mo>⋅</m:mo>
+</m:math> s or k <m:math>
+<m:mo>⋅</m:mo>
+</m:math> gm/s. </para>
+<media id="fs-id1167066102904" alt="This video introduces the concept of momentum through an explanation of a simple problem." class="os-embed">
+<iframe width="660" height="371.4" src="https://www.khanacademy.org/embed_video?v=XFhntPxow0U"/>
+</media>
+<exercise id="fs-id1167066031025" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167064902454">
+<!--<para id="fs-id1167066027183">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex039"/>
+</para>-->
+<para id="fs-id1164567182847">How would the final velocity of the car-plus-truck system change if the truck had some initial velocity moving in the same direction as the car? What if the truck were moving in the opposite direction of the car initially? Why?</para>
+<list id="fs-id1164565552316" list-type="enumerated" number-style="lower-alpha">
+<item>If the truck was initially moving in the same direction as the car, the final velocity would be greater. If the truck was initially moving in the opposite direction of the car, the final velocity would be smaller.</item>
+<item>If the truck was initially moving in the same direction as the car, the final velocity would be smaller. If the truck was initially moving in the opposite direction of the car, the final velocity would be greater.</item>
+<item>The direction in which the truck was initially moving would not matter. If the truck was initially moving in either direction, the final velocity would be smaller.</item>
+<item>The direction in which the truck was initially moving would not matter. If the truck was initially moving in either direction, the final velocity would be greater.</item>
+</list>
+</problem>
+</exercise>
+</note>
+<note id="fs-id1167065700833" class="snap-lab">
+
+<title>Ice Cubes and Elastic Collisions</title>
+<para id="fs-id1167065978058">In this activity, you will observe an elastic collision by sliding an ice cube into another ice cube on a smooth surface, so that a negligible amount of energy is converted to heat.</para>
+<list id="fs-id1167065788267" class="materials">
+<item>Several ice cubes (The ice must be in the form of cubes.)</item>
+<item>A smooth surface</item>
+</list>
+<list id="fs-id1167065856835" list-type="enumerated" number-style="arabic">
+<title>Procedure</title>
+<item>Find a few ice cubes that are about the same size and a smooth kitchen tabletop or a table with a glass top.</item>
+<item>Place the ice cubes on the surface several centimeters away from each other.</item>
+<item>Flick one ice cube toward a stationary ice cube and observe the path and velocities of the ice cubes after the collision. Try to avoid edge-on collisions and collisions with rotating ice cubes.</item>
+<item>Explain the speeds and directions of the ice cubes using momentum.</item>
+
+</list>
+<exercise id="fs-id1167065058513" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167065737910">
+<para id="fs-id1167066141014">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex040"/>
+</para>
+</problem>
+</exercise>
+</note>
+<note id="fs-id1167065896202" class="tips-for-success">
+
+<para id="fs-id1167066040506">Here’s a trick for remembering which collisions are elastic and which are inelastic: Elastic is a bouncy material, so when objects <emphasis effect="italics">bounce</emphasis> off one another in the collision and separate, it is an elastic collision. When they don’t, the collision is inelastic.</para>
+
+</note>
+</section><section id="fs-id1167065803138">
+<title>Solving Collision Problems</title>
+<para id="fs-id1167065700896">The Khan Academy videos referenced in this section show examples of elastic and inelastic collisions in one dimension. In one-dimensional collisions, the incoming and outgoing velocities are all along the same line. But what about collisions, such as those between billiard balls, in which objects scatter to the side? These are two-dimensional collisions, and just as we did with two-dimensional forces, we will solve these problems by first choosing a coordinate system and separating the motion into its <emphasis effect="italics">x</emphasis> and <emphasis effect="italics">y</emphasis> components.</para>
+<para id="fs-id1167065840947">One complication with two-dimensional collisions is that the objects might rotate before or after their collision. For example, if two ice skaters hook arms as they pass each other, they will spin in circles. We will not consider such rotation until later, and so for now, we arrange things so that no rotation is possible. To avoid rotation, we consider only the scattering of <term>point masses</term>—that is, structureless particles that cannot rotate or spin.</para>
+<para id="fs-id1167065867750">We start by assuming that <emphasis>F</emphasis><sub>net</sub> = 0, so that momentum <emphasis>p </emphasis>is conserved. The simplest collision is one in which one of the particles is initially at rest. The best choice for a coordinate system is one with an axis parallel to the velocity of the incoming particle, as shown in <link target-id="Figure_08_03_dimension"/>. Because momentum is conserved, the components of momentum along the <emphasis effect="italics">x</emphasis>- and <emphasis effect="italics">y</emphasis>-axes, displayed as <emphasis>p</emphasis><emphasis effect="italics"><sub>x</sub> </emphasis>and <emphasis>p</emphasis><emphasis effect="italics"><sub>y</sub></emphasis>, will also be conserved. With the chosen coordinate system, <emphasis>p</emphasis><emphasis effect="italics"><sub>y</sub> </emphasis>is initially zero and <emphasis>p</emphasis><emphasis effect="italics"><sub>x</sub> </emphasis>is the momentum of the incoming particle.</para>
+<figure id="Figure_08_03_dimension"><media id="fs-id1167065801348" alt="An illustration shows before and after diagrams of two balls, one moving toward the other. The first ball is labeled m one and the second ball is labeled m two. Both diagrams are labeled System of Interest, but the diagram on the left specifies before collision and the diagram on the right specifies after collision. In the before diagram, a velocity vector, v one, points from m one to m two. The following are also shown: v two equals zero, net F equals zero, and p one equals p total. In the after diagram, m one is moving in an upward direction and m two is moving in a downward direction. Vectors labeled v one prime and v two prime show their directional movements. M one and m two are shown forming angles with the x-axis. The equation p one prime plus p one prime equals p total is shown.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_08_03_dimension.jpg"/>
+</media>
+
+<caption>A two-dimensional collision with the coordinate system chosen so that <emphasis effect="italics">m</emphasis><sub>2</sub> is initially at rest and <emphasis>v</emphasis><sub>1</sub> is parallel to the <emphasis effect="italics">x</emphasis>-axis.</caption></figure><para id="fs-id1167065842363">Now, we will take the conservation of momentum equation, <emphasis>p</emphasis><sub>1</sub> + <emphasis>p</emphasis><sub>2</sub> = <emphasis>p</emphasis>′<sub>1</sub> + <emphasis>p</emphasis>′<sub>2</sub>  and break it into its <emphasis effect="italics">x</emphasis> and <emphasis effect="italics">y</emphasis> components.</para>
+<para id="fs-id1167064769903">Along the <emphasis effect="italics">x</emphasis>-axis, the equation for conservation of momentum is</para>
+<equation id="eip-245" class="unnumbered"><label/>
+ <m:math>
+<m:mrow>
+<m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle>
+<m:mtext>1x</m:mtext>
+</m:msub>
+<m:mo>+</m:mo><m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle>
+<m:mtext>2x</m:mtext>
+</m:msub>
+<m:mo>=</m:mo><m:msup>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle>
+<m:mo>′</m:mo>
+</m:msup>
+<m:msub>
+<m:mrow/>
+<m:mtext>1x</m:mtext>
+</m:msub>
+<m:mo>+</m:mo><m:msup>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle>
+<m:mo>′</m:mo>
+</m:msup>
+<m:msub>
+<m:mrow/>
+<m:mtext>2x</m:mtext>
+</m:msub>
+<m:mtext>.</m:mtext>
+</m:mrow>
+</m:math> </equation>
+<para id="fs-id1167066112717">In terms of masses and velocities, this equation is</para>
+
+<equation id="fs-id1167061315134"><label/>
+ <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>m</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:msub>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+   <m:mrow>
+    <m:mn>1</m:mn><m:mspace width="0.3em"/><m:mtext>x</m:mtext>
+   </m:mrow>
+  </m:msub>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>m</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:msub>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mspace width="0.3em"/><m:mtext>x</m:mtext>
+   </m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>m</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:msub>
+   <m:msup>
+    <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+    <m:mo>′</m:mo>
+   </m:msup>
+
+   <m:mrow>
+    <m:mn>1</m:mn><m:mspace width="0.3em"/><m:mtext>x</m:mtext>
+   </m:mrow>
+  </m:msub>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>m</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:msub>
+   <m:msup>
+    <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+    <m:mo>′</m:mo>
+   </m:msup>
+
+   <m:mrow>
+    <m:mn>2</m:mn><m:mspace width="0.3em"/><m:mtext>x</m:mtext>
+   </m:mrow>
+  </m:msub>
+  <m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math>
+</equation><para id="fs-id1167066139459">But because particle 2 is initially at rest, this equation becomes</para>
+<equation id="fs-id1167067293818"><label/>
+ <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>m</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:msub>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+   <m:mrow>
+    <m:mn>1</m:mn><m:mspace width="0.3em"/><m:mtext>x</m:mtext>
+   </m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>m</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:msub>
+   <m:msup>
+    <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+    <m:mo>′</m:mo>
+   </m:msup>
+
+   <m:mrow>
+    <m:mn>1</m:mn><m:mspace width="0.3em"/><m:mtext>x</m:mtext>
+   </m:mrow>
+  </m:msub>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>m</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:msub>
+  <m:msup>
+     <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+    <m:mo>′</m:mo>
+   </m:msup>
+
+   <m:mrow>
+    <m:mn>2</m:mn><m:mspace width="0.3em"/><m:mtext>x</m:mtext>
+   </m:mrow>
+  </m:msub>
+  <m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math>
+
+</equation><para id="fs-id1167065696248">The components of the velocities along the <emphasis effect="italics">x</emphasis>-axis have the form <emphasis>v</emphasis> cos <emphasis effect="italics">θ </emphasis>. Because particle 1 initially moves along the <emphasis effect="italics">x</emphasis>-axis, we find <emphasis>v</emphasis><sub>1</sub><emphasis effect="italics"><sub>x</sub> </emphasis>= <emphasis>v</emphasis><sub>1</sub>. Conservation of momentum along the <emphasis effect="italics">x</emphasis>-axis gives the equation</para>
+<equation id="fs-id1167065066627" class="unnumbered"><label/>
+ <m:math>
+<m:mrow>
+<m:msub>
+<m:mi>m</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle></m:mstyle>
+<m:mn>1</m:mn>
+</m:msub>
+<m:mo>=</m:mo><m:msub>
+<m:mi>m</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:msub>
+<m:msup>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle></m:mstyle>
+<m:mo>′</m:mo>
+</m:msup>
+
+<m:mn>1</m:mn>
+</m:msub>
+<m:mi>cos</m:mi><m:msub>
+<m:mi>θ</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:mo>+</m:mo><m:msub>
+<m:mi>m</m:mi>
+<m:mn>2</m:mn>
+</m:msub>
+<m:msub>
+<m:msup>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle></m:mstyle>
+<m:mo>′</m:mo>
+</m:msup>
+
+<m:mn>2</m:mn>
+</m:msub>
+<m:mi>cos</m:mi><m:msub>
+<m:mi>θ</m:mi>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mtext>,</m:mtext>
+</m:mrow>
+</m:math>
+
+
+
+</equation>
+<para id="fs-id1167065722022">where <m:math>
+<m:mrow>
+<m:msub>
+<m:mi>θ</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+
+</m:mrow>
+</m:math> and <m:math>
+<m:mrow>
+<m:msub>
+<m:mi>θ</m:mi>
+<m:mn>2</m:mn>
+</m:msub>
+
+</m:mrow>
+</m:math> are as shown in <link target-id="Figure_08_03_dimension"/>.</para>
+<para id="fs-id1167066137847">Along the <emphasis effect="italics">y</emphasis>-axis, the equation for conservation of momentum is</para>
+<equation id="fs-id1167067251961"><label/> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle>
+   <m:mrow>
+    <m:mn>1</m:mn><m:mspace width="0.3em"/><m:mtext>y</m:mtext>
+   </m:mrow>
+  </m:msub>
+  <m:mo>+</m:mo><m:msub>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mspace width="0.3em"/><m:mtext>y</m:mtext>
+   </m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+  <m:msup>
+     <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle>
+    <m:mo>′</m:mo>
+   </m:msup>
+
+   <m:mrow>
+    <m:mn>1</m:mn><m:mspace width="0.3em"/><m:mtext>y</m:mtext>
+   </m:mrow>
+  </m:msub>
+  <m:mo>+</m:mo><m:msub>
+   <m:msup>
+    <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle>
+    <m:mo>′</m:mo>
+   </m:msup>
+
+   <m:mrow>
+    <m:mn>2</m:mn><m:mspace width="0.3em"/><m:mtext>y</m:mtext>
+   </m:mrow>
+  </m:msub>
+  <m:mtext>,</m:mtext>
+ </m:mrow>
+</m:math>
+
+</equation><para id="fs-id1167065658788">or</para>
+<equation id="fs-id1167066958602"><label/> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>m</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:msub>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+   <m:mrow>
+    <m:mn>1</m:mn><m:mspace width="0.3em"/><m:mtext>y</m:mtext>
+   </m:mrow>
+  </m:msub>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>m</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:msub>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mspace width="0.3em"/><m:mtext>y</m:mtext>
+   </m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>m</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:msub>
+  <m:msup>
+     <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+    <m:mo>′</m:mo>
+   </m:msup>
+
+   <m:mrow>
+    <m:mn>1</m:mn><m:mspace width="0.3em"/><m:mtext>y</m:mtext>
+   </m:mrow>
+  </m:msub>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>m</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:msub>
+   <m:msup>
+    <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+    <m:mo>′</m:mo>
+   </m:msup>
+
+   <m:mrow>
+    <m:mn>2</m:mn><m:mspace width="0.3em"/><m:mtext>y</m:mtext>
+   </m:mrow>
+  </m:msub>
+  <m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math>
+
+</equation><para id="fs-id1167065971907">But <emphasis>v</emphasis><sub>1</sub><emphasis effect="italics">y </emphasis>is zero, because particle 1 initially moves along the <emphasis effect="italics">x</emphasis>-axis. Because particle 2 is initially at rest, <emphasis>v</emphasis><sub>2</sub><emphasis effect="italics">y </emphasis>is also zero. The equation for conservation of momentum along the <emphasis effect="italics">y</emphasis>-axis becomes</para>
+<equation id="fs-id1167067240093"><label/> <m:math display="block">
+ <m:mrow>
+  <m:mn>0</m:mn><m:mspace width="0.3em"/><m:mtext> </m:mtext><m:mo>=</m:mo><m:msub>
+   <m:mi>m</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:msub>
+   <m:msup>
+    <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+    <m:mo>′</m:mo>
+   </m:msup>
+
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mi>y</m:mi><m:mo>+</m:mo><m:msub>
+   <m:mi>m</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:msub>
+   <m:msup>
+    <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+    <m:mo>′</m:mo>
+   </m:msup>
+
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mi>y</m:mi>
+<m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math>
+
+
+</equation><para id="fs-id1167065711687">The components of the velocities along the <emphasis effect="italics">y</emphasis>-axis have the form <emphasis>v</emphasis> sin  <m:math>
+<m:mi>θ</m:mi>
+</m:math> . Therefore, conservation of momentum along the <emphasis effect="italics">y</emphasis>-axis gives the following equation:</para>
+<equation id="fs-id1167065885696" class="unnumbered"><label/>
+ <m:math>
+<m:mrow>
+<m:mn>0</m:mn><m:mo>=</m:mo><m:msub>
+<m:mi>m</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:msub>
+<m:msup>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
+<m:mo>′</m:mo>
+</m:msup>
+
+<m:mn>1</m:mn>
+</m:msub>
+<m:mi>sin</m:mi><m:msub>
+<m:mi>θ</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:mo>+</m:mo><m:msub>
+<m:mi>m</m:mi>
+<m:mn>2</m:mn>
+</m:msub>
+<m:msub>
+<m:msup>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
+<m:mo>′</m:mo>
+</m:msup>
+
+<m:mn>2</m:mn>
+</m:msub>
+<m:mi>sin</m:mi><m:msub>
+<m:mi>θ</m:mi>
+<m:mn>2</m:mn>
+</m:msub>
+
+</m:mrow>
+</m:math>
+
+</equation>
+<note id="fs-id1167067211088" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065874146">Review conservation of momentum and the equations derived in the previous sections of this chapter. Say that in the problems of this section, all objects are assumed to be point masses. Explain point masses.</para>
+</note>
+
+<note id="fs-id1167065871105" class="virtual-physics"><title>Collision Lab</title>
+<para id="fs-id1167064747088">In this simulation, you will investigate collisions on an air hockey table. Place checkmarks next to the momentum vectors and momenta diagram options. Experiment with changing the masses of the balls and the initial speed of ball 1. How does this affect the momentum of each ball? What about the total momentum? Next, experiment with changing the elasticity of the collision. You will notice that collisions have varying degrees of elasticity, ranging from perfectly elastic to perfectly inelastic.  </para>
+<media id="fs-id1167067199002" alt="This simulation allows you to experiment with an online air hockey table in order to investigate simple collisions.">
+<iframe width="660" height="371.4" src="https://openstax.org/l/28collisionlab"/></media>
+<exercise id="fs-id1167065663486" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167065848969">
+<!--<para id="fs-id1167065826828">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex041"/>
+</para>-->
+<para id="fs-id1164567970491">If you wanted to maximize the velocity of ball 2 after impact, how would you change the settings for the masses of the balls, the initial speed of ball 1, and the elasticity setting? Why? HintPlacing a checkmark next to the velocity vectors and removing the momentum vectors will help you visualize the velocity of ball 2, and pressing the More Data button will let you take readings.</para>
+<list id="fs-id1164564513527" list-type="enumerated" number-style="lower-alpha">
+<item>Maximize the mass of ball 1 and initial speed of ball 1; minimize the mass of ball 2; and set elasticity to 50 percent.</item>
+<item>Maximize the mass of ball 2 and initial speed of ball 1; minimize the mass of ball 1; and set elasticity to 100 percent.</item>
+<item>Maximize the mass of ball 1 and initial speed of ball 1; minimize the mass of ball 2; and set elasticity to 100 percent.</item>
+<item>Maximize the mass of ball 2 and initial speed of ball 1; minimize the mass of ball 1; and set elasticity to 50 percent.</item>
+</list>
+</problem>
+</exercise>
+</note>
+<note id="fs-id1167065794617" class="worked-example">
+<title>Calculating Velocity: Inelastic Collision of a Puck and a Goalie</title>
+<exercise id="fs-id1167065654469" class="08-ex042 unnumbered"><label/>
+
+<problem id="fs-id1167065855845">
+<para id="fs-id1167065984124">Find the recoil velocity of a 70 kg ice hockey goalie who catches a 0.150-kg hockey puck slapped at him at a velocity of 35 m/s. Assume that the goalie is at rest before catching the puck, and friction between the ice and the puck-goalie system is negligible (see <link target-id="Figure_08_03_Goalie"/>).</para>
+<figure id="Figure_08_03_Goalie">
+<media id="fs-id1167065788535" alt="An illustration shows before and after diagrams of a hockey puck and an ice hockey player on a frictionless ice surface. The hockey puck is labeled m one and the hockey player is labeled m two. Both diagrams are labeled System of Interest. In the before diagram, a velocity vector, v one, points from the puck to the player. The following are shown: p one equals p total, v two equals zero, and net F equals zero. In the after diagram, the hockey puck has made contact with the player. A velocity vector, v prime, points from the hockey player to the right. The equation p one prime plus p two prime equals p total is shown. The equation v one prime plus v two prime equals v prime is also shown.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_08_03_Goalie.jpg"/>
+</media>
+<caption>An ice hockey goalie catches a hockey puck and recoils backward in an inelastic collision.</caption>
+</figure>
+<note id="fs-id1167065872629"><label/><title>Strategy</title>
+<para id="fs-id1167066104488">Momentum is conserved because the net external force on the puck-goalie system is zero. Therefore, we can use conservation of momentum to find the final velocity of the puck and goalie system. Note that the initial velocity of the goalie is zero and that the final velocity of the puck and goalie are the same.</para>
+</note>
+</problem>
+<solution id="fs-id1167065979999">
+<label/><title>Solution</title>
+<para id="fs-id1167066046517">For an inelastic collision, conservation of momentum is</para>
+<equation id="fs-id1167067042824"><label/> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>m</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:msub>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>m</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:msub>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msub>
+     <m:mi>m</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo><m:msub>
+     <m:mi>m</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:msup>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+   <m:mo>′</m:mo>
+  </m:msup>
+  <m:mtext>,</m:mtext>
+ </m:mrow>
+</m:math>
+
+</equation>
+<para id="fs-id1167065823281">where <emphasis>v</emphasis>′ is the velocity of both the goalie and the puck after impact. Because the goalie is initially at rest, we know <emphasis>v</emphasis><sub>2</sub> = 0. This simplifies the equation to </para>
+<equation id="fs-id1167066993921"><label/> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>m</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:msub>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msub>
+     <m:mi>m</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo><m:msub>
+     <m:mi>m</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:msup>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+   <m:mo>′</m:mo>
+  </m:msup>
+ <m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math>
+
+</equation><para id="fs-id1167065891140">Solving for <emphasis>v</emphasis>′ yields</para>
+<equation id="fs-id1167065882049"><label/> <m:math>
+<m:mrow>
+<m:msup>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle></m:mstyle>
+<m:mo>′</m:mo>
+</m:msup>
+<m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+  <m:mfrac>
+    <m:mrow>
+      <m:msub>
+        <m:mi>m</m:mi>
+        <m:mn>1</m:mn>
+      </m:msub>
+
+    </m:mrow>
+    <m:mrow>
+      <m:msub>
+        <m:mi>m</m:mi>
+        <m:mn>1</m:mn>
+      </m:msub>
+      <m:mo>+</m:mo><m:msub>
+        <m:mi>m</m:mi>
+        <m:mn>2</m:mn>
+      </m:msub>
+
+    </m:mrow>
+  </m:mfrac>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:msub>
+  <m:mstyle mathvariant="bold" mathsize="normal"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle></m:mstyle>
+  <m:mn>1</m:mn>
+</m:msub>
+<m:mtext>.</m:mtext>
+</m:mrow>
+</m:math>
+
+</equation><para id="fs-id1167066041915">Entering known values in this equation, we get</para>
+<equation id="fs-id1167065855180"><label/> <m:math>
+<m:mrow>
+<m:mtable>
+<m:mtr rowalign="center">
+  <m:mtd rowalign="center" columnalign="right">
+    <m:msup>
+      <m:mstyle mathvariant="bold" mathsize="normal"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle></m:mstyle>
+      <m:mo>′</m:mo>
+    </m:msup>
+
+  </m:mtd>
+  <m:mtd rowalign="center">
+    <m:mo>=</m:mo>
+  </m:mtd>
+  <m:mtd columnalign="left" rowalign="center">
+    <m:mrow>
+      <m:mrow><m:mo>(</m:mo>
+        <m:mrow>
+          <m:mfrac>
+            <m:mrow>
+              <m:mn>0.150</m:mn><m:mspace width="0.3em"/><m:mtext>kg</m:mtext>
+            </m:mrow>
+            <m:mrow>
+              <m:mn>70.0</m:mn><m:mspace width="0.3em"/><m:mtext>kg</m:mtext><m:mo>+</m:mo><m:mn>0.150</m:mn><m:mspace width="0.3em"/><m:mtext>kg</m:mtext>
+            </m:mrow>
+          </m:mfrac>
+
+        </m:mrow>
+        <m:mo>)</m:mo></m:mrow><m:mo stretchy="false">(</m:mo><m:mn>35</m:mn><m:mspace width="0.3em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo>
+    </m:mrow>
+  </m:mtd>
+</m:mtr>
+<m:mtr rowalign="center">
+  <m:mtd rowalign="center"/>
+  <m:mtd rowalign="center">
+    <m:mo>=</m:mo>
+  </m:mtd>
+  <m:mtd columnalign="left" rowalign="center">
+    <m:mrow>
+      <m:mn>7.48</m:mn><m:mo>×</m:mo><m:msup>
+        <m:mrow>
+          <m:mn>10</m:mn>
+        </m:mrow>
+        <m:mrow>
+          <m:mo>−</m:mo><m:mn>2</m:mn>
+        </m:mrow>
+      </m:msup>
+      <m:mtext>m/s.</m:mtext>
+    </m:mrow>
+  </m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:mrow>
+</m:math>
+
+</equation></solution>
+<commentary id="fs-id1167065843651">
+<title>Discussion</title>
+<para id="fs-id1167064932135">This recoil velocity is small and in the same direction as the puck’s original velocity.</para>
+</commentary>
+</exercise></note><note id="fs-id1167065857953" class="worked-example">
+<title>Calculating Final Velocity: Elastic Collision of Two Carts </title>
+<exercise id="fs-id1167065967076" class="08-ex043 unnumbered"><label/>
+
+<problem id="fs-id1167062343003">
+<para id="fs-id1167064905118">Two hard, steel carts collide head-on and then ricochet off each other in opposite directions on a frictionless surface (see <link target-id="Figure_08_03_Carts"/>). Cart 1 has a mass of 0.350 kg and an initial velocity of 2 m/s. Cart 2 has a mass of 0.500 kg and an initial velocity of −0.500 m/s. After the collision, cart 1 recoils with a velocity of −4 m/s. What is the final velocity of cart 2?</para>
+<figure id="Figure_08_03_Carts">
+<media id="fs-id1167066038762" alt="An illustration shows before and after diagrams of two carts moving toward each other on a frictionless surface. The cart on the left is labeled m one and the car on the right is labeled m two. Both diagrams are labeled System of Interest. In the before diagram, a velocity vector, v one, points from the cart on the left to the cart on the right. A second, shorter velocity vector, v two, points from the cart on the right to the cart on the left. Two equations are shown: p one plus p one equals p total and net F equals zero. In the after diagram, the velocity vectors are equal in magnitude and point away from the carts. They are labeled v one prime and v two prime. The equation p one prime plus p one prime equals p total is shown.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_08_03_Carts.jpg"/>
+</media>
+<caption>Two carts collide with each other in an elastic collision. </caption>
+</figure>
+<note id="fs-id1167064876516"><label/><title>Strategy</title>
+<para id="fs-id1167065915300">Since the track is frictionless, <emphasis>F</emphasis><sub>net</sub> = 0 and we can use conservation of momentum to find the final velocity of cart 2.</para>
+</note>
+</problem>
+<solution id="fs-id1167066054555">
+<label/><title>Solution</title>
+<para id="fs-id1167066054556">As before, the equation for conservation of momentum for a one-dimensional elastic collision in a two-object system is</para>
+<equation id="fs-id1167066809787"><label/> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>m</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:msub>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>m</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:msub>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>m</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:msup>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+   <m:mo>′</m:mo>
+  </m:msup>
+  <m:msub>
+   <m:mrow/>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>m</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:msub>
+   <m:msup>
+    <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+    <m:mo>′</m:mo>
+   </m:msup>
+
+   <m:mn>2</m:mn>
+  </m:msub>
+<m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math>
+</equation><para id="fs-id1167064932117">The only unknown in this equation is <emphasis>v</emphasis>′<sub>2</sub>. Solving for <emphasis>v</emphasis>′<sub>2</sub> and substituting known values into the previous equation yields</para>
+<equation id="fs-id1167065826037"><label/> <m:math>
+<m:mrow>
+<m:mtable>
+  <m:mtr rowalign="center">
+    <m:mtd rowalign="center" columnalign="right">
+      <m:mrow>
+        <m:msubsup>
+          <m:msup>
+            <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
+            <m:mo>′</m:mo>
+          </m:msup>
+
+          <m:mtext>2</m:mtext>
+          <m:mrow/>
+        </m:msubsup>
+
+      </m:mrow>
+    </m:mtd>
+    <m:mtd rowalign="center">
+      <m:mtext>=</m:mtext>
+    </m:mtd>
+    <m:mtd rowalign="center" columnalign="left">
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:msub>
+              <m:mi>m</m:mi>
+              <m:mtext>1</m:mtext>
+            </m:msub>
+            <m:msub>
+              <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
+              <m:mtext>1</m:mtext>
+            </m:msub>
+            <m:mtext>+</m:mtext><m:msub>
+              <m:mi>m</m:mi>
+              <m:mtext>2</m:mtext>
+            </m:msub>
+            <m:msub>
+              <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
+              <m:mtext>2</m:mtext>
+            </m:msub>
+            <m:mo>−</m:mo><m:msub>
+              <m:mi>m</m:mi>
+              <m:mtext>1</m:mtext>
+            </m:msub>
+            <m:msubsup>
+              <m:mstyle mathvariant="bold" mathsize="normal"><m:msup>
+                <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
+                <m:mo>′</m:mo>
+              </m:msup>
+              </m:mstyle>
+              <m:mtext>1</m:mtext>
+              <m:mrow/>
+            </m:msubsup>
+
+          </m:mrow>
+          <m:mrow>
+            <m:msub>
+              <m:mi>m</m:mi>
+              <m:mtext>2</m:mtext>
+            </m:msub>
+
+          </m:mrow>
+        </m:mfrac>
+
+      </m:mrow>
+    </m:mtd>
+  </m:mtr>
+  <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center">
+      <m:mtext>=</m:mtext>
+    </m:mtd>
+    <m:mtd rowalign="center" columnalign="left">
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:mrow><m:mo>(</m:mo>
+              <m:mrow>
+                <m:mtext>0</m:mtext><m:mtext>.350</m:mtext><m:mtext>kg</m:mtext>
+              </m:mrow>
+              <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+                <m:mrow>
+                  <m:mtext>2</m:mtext><m:mtext>.00</m:mtext><m:mtext>m/s</m:mtext>
+                </m:mrow>
+                <m:mo>)</m:mo></m:mrow><m:mtext>+</m:mtext><m:mrow><m:mo>(</m:mo>
+                  <m:mrow>
+                    <m:mtext>0</m:mtext><m:mtext>.500 kg</m:mtext>
+                  </m:mrow>
+                  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+                    <m:mrow>
+                      <m:mo>−</m:mo><m:mtext>0</m:mtext><m:mtext>.500 m/s</m:mtext>
+                    </m:mrow>
+                    <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo>
+                      <m:mrow>
+                        <m:mtext>0</m:mtext><m:mtext>.350</m:mtext><m:mtext>kg</m:mtext>
+                      </m:mrow>
+                      <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+                        <m:mrow>
+                          <m:mo>−</m:mo><m:mtext>4</m:mtext><m:mtext>.00</m:mtext><m:mtext>m/s</m:mtext>
+                        </m:mrow>
+                        <m:mo>)</m:mo></m:mrow>
+          </m:mrow>
+          <m:mrow>
+            <m:mtext>0</m:mtext><m:mtext>.500</m:mtext><m:mtext>kg</m:mtext>
+          </m:mrow>
+        </m:mfrac>
+
+      </m:mrow>
+    </m:mtd>
+  </m:mtr>
+  <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center">
+      <m:mtext>=</m:mtext>
+    </m:mtd>
+    <m:mtd rowalign="center" columnalign="left">
+      <m:mrow>
+        <m:mtext>3</m:mtext><m:mtext>.70</m:mtext><m:mtext>m/s.</m:mtext>
+      </m:mrow>
+    </m:mtd>
+  </m:mtr>
+
+</m:mtable>
+</m:mrow>
+</m:math>
+</equation></solution>
+<commentary id="fs-id1167064825637">
+<title>Discussion</title>
+<para id="fs-id1167062305223">The final velocity of cart 2 is large and positive, meaning that it is moving to the right after the collision.</para>
+</commentary>
+</exercise></note><note id="fs-id1167066123715" class="worked-example">
+<title>Calculating Final Velocity in a Two-Dimensional Collision </title>
+<exercise id="fs-id1167066103669" class="08-ex044 unnumbered"><label/>
+
+<problem id="fs-id1167064914649">
+<para id="fs-id1167065862662">Suppose the following experiment is performed (<link target-id="Figure_08_03_Scattered"/>). An object of mass 0.250 kg (<emphasis effect="italics">m</emphasis><sub>1</sub>) is slid on a frictionless surface into a dark room, where it strikes an initially stationary object of mass 0.400 kg (<emphasis effect="italics">m</emphasis><sub>2</sub>). The 0.250 kg object emerges from the room at an angle of 45º with its incoming direction. The speed of the 0.250 kg object is originally 2 m/s and is 1.50 m/s after the collision. Calculate the magnitude and direction of the velocity (<emphasis effect="italics">v</emphasis>′<sub>2</sub> and  <m:math>
+<m:mrow>
+<m:msub>
+<m:mi>θ</m:mi>
+<m:mn>2</m:mn>
+</m:msub>
+</m:mrow>
+</m:math> ) of the 0.400 kg object after the collision.</para><figure id="Figure_08_03_Scattered">
+<media id="fs-id1167065788360" alt="An illustration shows before and after diagrams of two balls, one moving toward the other. The first ball is labeled m one and the second ball is labeled m two and point four kilograms. In the before diagram, a velocity vector, v one, points from m one to m two. In the after diagram, m one is moving in an upward direction with a velocity vector, v one prime, indicating its direction. It forms an angle of forty-five degrees with the x-axis. The following are also shown: before, p one equal p total; after, prime plus p two prime equals p total; net F equals zero; v two equals zero; v two prime is unknown; angle two is unknown.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_08_03_Scattered.jpg"/>
+</media>
+<caption>The incoming object of mass <emphasis effect="italics">m</emphasis><sub>1</sub> is scattered by an initially stationary object. Only the stationary object’s mass <emphasis effect="italics">m</emphasis><sub>2</sub> is known. By measuring the angle and speed at which the object of mass <emphasis effect="italics">m</emphasis><sub>1</sub> emerges from the room, it is possible to calculate the magnitude and direction of the initially stationary object’s velocity after the collision.</caption>
+</figure>
+<note id="fs-id1167064994211"><label/><title>Strategy</title>
+<para id="fs-id1167065893680">Momentum is conserved because the surface is frictionless. We chose the coordinate system so that the initial velocity is parallel to the <emphasis effect="italics">x</emphasis>-axis, and conservation of momentum along the <emphasis effect="italics">x</emphasis>- and <emphasis effect="italics">y</emphasis>-axes applies.</para>
+<para id="fs-id1167065864190">Everything is known in these equations except <emphasis>v</emphasis>′<sub>2</sub> and <emphasis effect="italics">θ</emphasis><sub>2</sub>, which we need to find. We can find two unknowns because we have two independent equations—the equations describing the conservation of momentum in the <emphasis effect="italics">x </emphasis>and <emphasis effect="italics">y </emphasis>directions.</para>
+</note>
+</problem>
+<solution id="fs-id1167065942368">
+<label/><title>Solution</title>
+<para id="fs-id1167065942370">First, we’ll solve both conservation of momentum equations ( <m:math>
+<m:mrow>
+<m:msub>
+<m:mi>m</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle></m:mstyle>
+<m:mn>1</m:mn>
+</m:msub>
+<m:mo>=</m:mo><m:msub>
+<m:mi>m</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:msup>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle></m:mstyle>
+<m:mo>′</m:mo>
+</m:msup>
+<m:msub>
+<m:mrow/>
+<m:mn>1</m:mn>
+</m:msub>
+<m:mi>cos</m:mi><m:msub>
+<m:mi>θ</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:mo>+</m:mo><m:msub>
+<m:mi>m</m:mi>
+<m:mn>2</m:mn>
+</m:msub>
+<m:msup>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle></m:mstyle>
+<m:mo>′</m:mo>
+</m:msup>
+<m:msub>
+<m:mrow/>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mi>cos</m:mi><m:msub>
+<m:mi>θ</m:mi>
+<m:mn>2</m:mn>
+</m:msub>
+
+</m:mrow>
+</m:math>  and   <m:math>
+<m:mrow>
+<m:mn>0</m:mn><m:mo>=</m:mo><m:msub>
+<m:mi>m</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:msup>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle></m:mstyle>
+<m:mo>′</m:mo>
+</m:msup>
+<m:msub>
+<m:mrow/>
+<m:mn>1</m:mn>
+</m:msub>
+<m:mi>sin</m:mi><m:msub>
+<m:mi>θ</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:mo>+</m:mo><m:msub>
+<m:mi>m</m:mi>
+<m:mn>2</m:mn>
+</m:msub>
+<m:msup>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle></m:mstyle>
+<m:mo>′</m:mo>
+</m:msup>
+<m:msub>
+<m:mrow/>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mi>sin</m:mi><m:msub>
+<m:mi>θ</m:mi>
+<m:mn>2</m:mn>
+</m:msub>
+
+</m:mrow>
+</m:math> ) for <emphasis>v</emphasis>′<sub>2</sub> sin   <m:math>
+<m:mrow>
+<m:msub>
+<m:mi>θ</m:mi>
+<m:mn>2</m:mn>
+</m:msub>
+
+</m:mrow>
+</m:math> .</para>
+<para id="fs-id1167065032742">For conservation of momentum along x-axis, let’s substitute sin  <m:math>
+<m:mrow>
+<m:msub>
+<m:mi>θ</m:mi>
+<m:mn>2</m:mn>
+</m:msub>
+
+</m:mrow>
+</m:math> /tan  <m:math>
+<m:mrow>
+<m:msub>
+<m:mi>θ</m:mi>
+<m:mn>2</m:mn>
+</m:msub>
+
+</m:mrow>
+</m:math>  for cos  <m:math>
+<m:mrow>
+<m:msub>
+<m:mi>θ</m:mi>
+<m:mn>2</m:mn>
+</m:msub>
+
+</m:mrow>
+</m:math>  so that terms may cancel out later on. This comes from rearranging the definition of the trigonometric identity tan  <m:math>
+<m:mi>θ</m:mi>
+</m:math>  = sin  <m:math>
+<m:mi>θ</m:mi>
+</m:math> /cos  <m:math>
+<m:mi>θ</m:mi>
+</m:math> . This gives us</para>
+<equation id="fs-id1167065852340"><label/> <m:math>
+<m:mrow>
+<m:msub>
+<m:mi>m</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+<m:mn>1</m:mn>
+</m:msub>
+<m:mo>=</m:mo><m:msub>
+<m:mi>m</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:msup>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+<m:mo>′</m:mo>
+</m:msup>
+<m:msub>
+<m:mrow/>
+<m:mn>1</m:mn>
+</m:msub>
+<m:mi>cos</m:mi><m:msub>
+<m:mi>θ</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:mo>+</m:mo><m:msub>
+<m:mi>m</m:mi>
+<m:mn>2</m:mn>
+</m:msub>
+<m:msup>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+<m:mo>′</m:mo>
+</m:msup>
+<m:msub>
+<m:mrow/>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mfrac>
+<m:mrow>
+  <m:mi>sin</m:mi><m:msub>
+    <m:mi>θ</m:mi>
+    <m:mn>2</m:mn>
+  </m:msub>
+
+</m:mrow>
+<m:mrow>
+  <m:mi>tan</m:mi><m:msub>
+    <m:mi>θ</m:mi>
+    <m:mn>2</m:mn>
+  </m:msub>
+
+</m:mrow>
+</m:mfrac>
+<m:mtext>.</m:mtext>
+</m:mrow>
+</m:math>
+
+
+</equation>
+<para id="fs-id1167065853480">Solving for <emphasis>v</emphasis>′<sub>2</sub> sin <m:math>
+<m:mrow>
+<m:msub>
+<m:mi>θ</m:mi>
+<m:mn>2</m:mn>
+</m:msub>
+
+</m:mrow>
+</m:math>  yields</para>
+<equation id="fs-id1167064818900"><label/> <m:math>
+<m:mrow>
+<m:msup>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+<m:mo>′</m:mo>
+</m:msup>
+<m:msub>
+<m:mrow/>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mi>sin</m:mi><m:msub>
+<m:mi>θ</m:mi>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mo>=</m:mo><m:mfrac>
+<m:mrow>
+  <m:mo stretchy="false">(</m:mo><m:msub>
+    <m:mi>m</m:mi>
+    <m:mn>1</m:mn>
+  </m:msub>
+  <m:msub>
+    <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+    <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>−</m:mo><m:msub>
+    <m:mi>m</m:mi>
+    <m:mn>1</m:mn>
+  </m:msub>
+  <m:msup>
+    <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+    <m:mo>′</m:mo>
+  </m:msup>
+  <m:msub>
+    <m:mrow/>
+    <m:mn>1</m:mn>
+  </m:msub>
+  <m:mi>cos</m:mi><m:msub>
+    <m:mi>θ</m:mi>
+    <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>tan</m:mi><m:msub>
+    <m:mi>θ</m:mi>
+    <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo stretchy="false">)</m:mo>
+</m:mrow>
+<m:mrow>
+  <m:msub>
+    <m:mi>m</m:mi>
+    <m:mn>2</m:mn>
+  </m:msub>
+
+</m:mrow>
+</m:mfrac>
+<m:mtext>.</m:mtext>
+</m:mrow>
+</m:math>
+
+</equation><para id="fs-id1167065071606">For conservation of momentum along <emphasis effect="italics">y</emphasis>-axis, solving for <emphasis>v</emphasis>′<sub>2</sub> sin  <m:math>
+<m:mrow>
+<m:msub>
+<m:mi>θ</m:mi>
+<m:mn>2</m:mn>
+</m:msub>
+</m:mrow>
+</m:math>  yields</para><equation id="fs-id1167065939006"><label/> <m:math>
+<m:mrow>
+<m:msup>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+<m:mo>′</m:mo>
+</m:msup>
+<m:msub>
+<m:mrow/>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mi>sin</m:mi><m:msub>
+<m:mi>θ</m:mi>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mo>=</m:mo><m:mfrac>
+<m:mrow>
+  <m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:msub>
+    <m:mi>m</m:mi>
+    <m:mn>1</m:mn>
+  </m:msub>
+  <m:msup>
+    <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+    <m:mo>′</m:mo>
+  </m:msup>
+  <m:msub>
+    <m:mrow/>
+    <m:mn>1</m:mn>
+  </m:msub>
+  <m:mi>sin</m:mi><m:msub>
+    <m:mi>θ</m:mi>
+    <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo stretchy="false">)</m:mo>
+</m:mrow>
+<m:mrow>
+  <m:msub>
+    <m:mi>m</m:mi>
+    <m:mn>2</m:mn>
+  </m:msub>
+
+</m:mrow>
+</m:mfrac>
+<m:mtext>.</m:mtext>
+</m:mrow>
+</m:math>
+
+</equation><para id="fs-id1167065896708">Since both equations equal <emphasis>v</emphasis>′<sub>2</sub> sin  <m:math>
+<m:mrow>
+<m:msub>
+<m:mi>θ</m:mi>
+<m:mn>2</m:mn>
+</m:msub>
+
+</m:mrow>
+</m:math>, we can set them equal to one another, yielding</para>
+<equation id="fs-id1167066015324"><label/> <m:math>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+  <m:mo stretchy="false">(</m:mo><m:msub>
+    <m:mi>m</m:mi>
+    <m:mn>1</m:mn>
+  </m:msub>
+  <m:msub>
+    <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+    <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>−</m:mo><m:msub>
+    <m:mi>m</m:mi>
+    <m:mn>1</m:mn>
+  </m:msub>
+  <m:msup>
+    <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+    <m:mo>′</m:mo>
+  </m:msup>
+  <m:msub>
+    <m:mrow/>
+    <m:mn>1</m:mn>
+  </m:msub>
+  <m:mi>cos</m:mi><m:msub>
+    <m:mi>θ</m:mi>
+    <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>tan</m:mi><m:msub>
+    <m:mi>θ</m:mi>
+    <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo stretchy="false">)</m:mo>
+</m:mrow>
+<m:mrow>
+  <m:msub>
+    <m:mi>m</m:mi>
+    <m:mn>2</m:mn>
+  </m:msub>
+
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo><m:mfrac>
+<m:mrow>
+  <m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:msub>
+    <m:mi>m</m:mi>
+    <m:mn>1</m:mn>
+  </m:msub>
+  <m:msup>
+    <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+    <m:mo>′</m:mo>
+  </m:msup>
+  <m:msub>
+    <m:mrow/>
+    <m:mn>1</m:mn>
+  </m:msub>
+  <m:mi>sin</m:mi><m:msub>
+    <m:mi>θ</m:mi>
+    <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo stretchy="false">)</m:mo>
+</m:mrow>
+<m:mrow>
+  <m:msub>
+    <m:mi>m</m:mi>
+    <m:mn>2</m:mn>
+  </m:msub>
+
+</m:mrow>
+</m:mfrac>
+<m:mtext>.</m:mtext>
+</m:mrow>
+</m:math>
+</equation><para id="fs-id1167065941226">Solving this equation for tan  <m:math>
+<m:mrow>
+<m:msub>
+<m:mi>θ</m:mi>
+<m:mn>2</m:mn>
+</m:msub>
+
+</m:mrow>
+</m:math>, we get</para>
+<equation id="fs-id1167064794621"><label/> <m:math>
+<m:mrow>
+<m:mi>tan</m:mi><m:msub>
+<m:mi>θ</m:mi>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mo>=</m:mo><m:mfrac>
+<m:mrow>
+  <m:msup>
+    <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+    <m:mo>′</m:mo>
+  </m:msup>
+  <m:msub>
+    <m:mrow/>
+    <m:mn>1</m:mn>
+  </m:msub>
+  <m:mi>sin</m:mi><m:msub>
+    <m:mi>θ</m:mi>
+    <m:mn>1</m:mn>
+  </m:msub>
+
+</m:mrow>
+<m:mrow>
+  <m:msup>
+    <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+    <m:mo>′</m:mo>
+  </m:msup>
+  <m:msub>
+    <m:mrow/>
+    <m:mn>1</m:mn>
+  </m:msub>
+  <m:mi>cos</m:mi><m:msub>
+    <m:mi>θ</m:mi>
+    <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>−</m:mo><m:msub>
+    <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+    <m:mn>1</m:mn>
+  </m:msub>
+
+</m:mrow>
+</m:mfrac>
+<m:mtext>.</m:mtext>
+</m:mrow>
+</m:math>
+
+</equation><para id="fs-id1167064929729">Entering known values into the previous equation gives</para>
+<equation id="fs-id1167066020886"><label/> <m:math>
+<m:mrow>
+<m:mi>tan</m:mi><m:msub>
+<m:mi>θ</m:mi>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mo>=</m:mo><m:mfrac>
+<m:mrow>
+  <m:mo stretchy="false">(</m:mo><m:mn>1.50</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.707</m:mn><m:mo stretchy="false">)</m:mo>
+</m:mrow>
+<m:mrow>
+  <m:mo stretchy="false">(</m:mo><m:mn>1.50</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.707</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>2.00</m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo><m:mo>−</m:mo><m:mn>1.129</m:mn><m:mspace width="0.3em"/><m:mtext>.</m:mtext>
+</m:mrow>
+</m:math>
+</equation><para id="fs-id1167066012807">Therefore,</para>
+<equation id="fs-id1167066169995"><label/> <m:math>
+<m:mrow>
+<m:msub>
+<m:mi>θ</m:mi>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mo>=</m:mo><m:msup>
+<m:mrow>
+  <m:mi>tan</m:mi>
+</m:mrow>
+<m:mrow>
+  <m:mo>−</m:mo><m:mn>1</m:mn>
+</m:mrow>
+</m:msup>
+<m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>1.129</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mrow>
+  <m:mn>312</m:mn>
+</m:mrow>
+<m:mn>0</m:mn>
+</m:msup>
+<m:mtext>.</m:mtext>
+</m:mrow>
+</m:math>
+</equation><para id="fs-id1167065941846">Since angles are defined as positive in the counterclockwise direction, <emphasis effect="italics">m</emphasis><sub>2</sub> is scattered to the right. </para>
+<para id="fs-id1167064899955">We’ll use the conservation of momentum along the y-axis equation to solve for <emphasis>v</emphasis>′<sub>2</sub>.</para>
+<equation id="fs-id1167066102988"><label/> <m:math>
+<m:mrow>
+<m:msup>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+<m:mo>′</m:mo>
+</m:msup>
+<m:msub>
+<m:mrow/>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+<m:mrow>
+  <m:msub>
+    <m:mi>m</m:mi>
+    <m:mn>1</m:mn>
+  </m:msub>
+
+</m:mrow>
+<m:mrow>
+  <m:msub>
+    <m:mi>m</m:mi>
+    <m:mn>2</m:mn>
+  </m:msub>
+
+</m:mrow>
+</m:mfrac>
+<m:msup>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+<m:mo>′</m:mo>
+</m:msup>
+<m:msub>
+<m:mrow/>
+<m:mn>1</m:mn>
+</m:msub>
+<m:mfrac>
+<m:mrow>
+  <m:mi>sin</m:mi><m:msub>
+    <m:mi>θ</m:mi>
+    <m:mn>1</m:mn>
+  </m:msub>
+
+</m:mrow>
+<m:mrow>
+  <m:mi>sin</m:mi><m:msub>
+    <m:mi>θ</m:mi>
+    <m:mn>2</m:mn>
+  </m:msub>
+
+</m:mrow>
+</m:mfrac>
+
+</m:mrow>
+</m:math>
+
+</equation><para id="fs-id1167066089167">Entering known values into this equation gives</para>
+<equation id="fs-id1167066089170"><label/> <m:math>
+<m:mrow>
+<m:msub>
+<m:msup>
+  <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
+  <m:mo>′</m:mo>
+</m:msup>
+
+<m:mn>2</m:mn>
+</m:msub>
+<m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+<m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+      <m:mn>0.250</m:mn>
+    </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+</m:mrow>
+<m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+      <m:mn>0.400</m:mn>
+    </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+</m:mrow>
+</m:mfrac>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+  <m:mn>1.50</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>0.7071</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>−</m:mo><m:mn>0.7485</m:mn>
+      </m:mrow>
+    </m:mfrac>
+
+  </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+<m:mtext>.</m:mtext>
+</m:mrow>
+</m:math>
+</equation><para id="fs-id1167064532208">Therefore,</para>
+<equation id="fs-id1167065049569"><label/> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+  <m:msup>
+     <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+    <m:mo>′</m:mo>
+   </m:msup>
+
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>0.886</m:mn><m:mspace width="0.3em"/><m:mtext> m/s</m:mtext><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </equation></solution>
+<commentary id="fs-id1167064737861">
+<title>Discussion</title>
+<para id="fs-id1167065688919">Either equation for the <emphasis effect="italics">x</emphasis>- or <emphasis effect="italics">y</emphasis>-axis could have been used to solve for <emphasis>v</emphasis>′<sub>2</sub>, but the equation for the <emphasis effect="italics">y</emphasis>-axis is easier because it has fewer terms.</para>
+</commentary>
+</exercise></note></section>
+<section id="fs-id1167066094993" class="practice-problems"><title>Practice Problems</title><exercise id="fs-id1167062315876">
+<problem id="fs-id1167064881665">
+<para id="fs-id1167064881668">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex045"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065979709">
+<problem id="fs-id1167065979715">
+<!--<para id="fs-id1167066187193">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex046"/>
+</para>-->
+<para id="fs-id1164568063183">In an elastic collision, an object with momentum 25 kg ⋅ m/s collides with another that has a momentum 35 kg ⋅ m/s. The first object’s momentum changes to 10 kg ⋅ m/s. What is the final momentum of the second object?</para>
+<list id="fs-id1164567313092" list-type="enumerated" number-style="lower-alpha">
+<item>10 kg ⋅ m/s</item>
+<item>20 kg ⋅ m/s</item>
+<item>35 kg ⋅ m/s</item>
+<item>50 kg ⋅ m/s</item>
+</list>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167065847746" class="check-understanding"><title>Check Your Understanding</title>
+<exercise id="fs-id1167065847752" class="os-exercise">
+<problem id="fs-id1167065938460">
+<!--<para id="fs-id1167065938463">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex047"/>
+</para>-->
+<para id="fs-id1164567810377">What is an elastic collision?</para>
+<list id="fs-id1164565448093" list-type="enumerated" number-style="lower-alpha">
+<item>An elastic collision is one in which the objects after impact are deformed permanently.</item>
+<item>An elastic collision is one in which the objects after impact lose some of their internal kinetic energy.</item>
+<item>An elastic collision is one in which the objects after impact do not lose any of their internal kinetic energy.</item>
+<item>An elastic collision is one in which the objects after impact become stuck together and move with a common velocity.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167065790393" class="os-exercise">
+<problem id="fs-id1167066136959">
+<para id="fs-id1167066136961">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex048"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166848721024" class="os-exercise">
+<problem id="eip-id1166848721027">
+<!--<para id="eip-id1166848859610">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch08-ot037"/>
+</para>-->
+
+<para id="fs-id1164567622312">What is the equation for conservation of momentum for two objects in a one-dimensional collision?</para>
+<list id="fs-id1164566044567" list-type="enumerated" number-style="lower-alpha">
+<item><emphasis>p</emphasis><sub>1</sub> + <emphasis>p</emphasis><sub>1</sub>′ = <emphasis>p</emphasis><sub>2</sub> + <emphasis>p</emphasis><sub>2</sub>′</item>
+<item><emphasis>p</emphasis><sub>1</sub> + <emphasis>p</emphasis><sub>2</sub> = <emphasis>p</emphasis><sub>1</sub>′ + <emphasis>p</emphasis><sub>2</sub>′</item>
+<item><emphasis>p</emphasis><sub>1</sub> − <emphasis>p</emphasis><sub>2</sub> = <emphasis>p</emphasis><sub>1</sub>′ − <emphasis>p</emphasis><sub>2</sub>′</item>
+<item><emphasis>p</emphasis><sub>1</sub> + <emphasis>p</emphasis><sub>2</sub> + <emphasis>p</emphasis><sub>1</sub>′ + <emphasis>p</emphasis><sub>2</sub>′ = 0</item>
+</list>
+</problem>
+</exercise>
+<note id="fs-id1167065046777" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167064994369">Use the Check Your Understanding questions to assess whether students master the learning objectives of this section. If students are struggling with a specific objective, the assessment will help identify which objective is causing the problem and direct students to the relevant content.</para></note>
+</section><section id="fs-id1167064892052" class="summary">
+<title>Section Summary</title>
+<list id="fs-id1167064799427">
+<item>If objects separate after impact, the collision is elastic; If they stick together, the collision is inelastic.</item>
+<item>Kinetic energy is conserved in an elastic collision, but not in an inelastic collision.</item>
+<item>The approach to two-dimensional collisions is to choose a convenient coordinate system and break the motion into components along perpendicular axes. Choose a coordinate system with the <emphasis effect="italics">x</emphasis>-axis parallel to the velocity of the incoming particle.</item>
+<item>Two-dimensional collisions of point masses, where mass 2 is initially at rest, conserve momentum along the initial direction of mass 1, or the <emphasis effect="italics">x</emphasis>-axis, and along the direction perpendicular to the initial direction, or the <emphasis effect="italics">y</emphasis>-axis.</item>
+<item>Point masses are structureless particles that cannot spin.</item>
+</list>
+</section>
+<section id="fs-id1167064734947" class="key-equations"><title>Key Equations</title><table id="fs-id1167066037222" class="unnumbered unstyled" summary="The list of Key Equations includes the formulas for the conservation of momentum in an elastic collision, an inelastic collision, along the x-axis for 2D collisions, and along the y-axis for 2D collisions.">
+<label/>
+<tgroup cols="2"><colspec colnum="1" align="left" colname="c1"/>
+<colspec colnum="2" align="left" colname="c2"/>
+<tbody>
+<row>
+<entry>conservation of momentum in an elastic collision</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>m</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:msub>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>m</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:msub>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>m</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:msub>
+   <m:msup>
+    <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+    <m:mo>′</m:mo>
+   </m:msup>
+
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>m</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:msub>
+   <m:msup>
+    <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+    <m:mo>′</m:mo>
+   </m:msup>
+
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>,</m:mo>
+ </m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>conservation of momentum in an inelastic collision</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>m</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:msub>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>m</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:msub>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msub>
+     <m:mi>m</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo><m:msub>
+     <m:mi>m</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:msup>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+   <m:mo>′</m:mo>
+  </m:msup>
+
+ </m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>conservation of momentum along <emphasis effect="italics">x</emphasis>-axis for 2D collisions</entry>
+<entry> <m:math>
+<m:mrow>
+<m:msub>
+  <m:mi>m</m:mi>
+  <m:mn>1</m:mn>
+</m:msub>
+<m:msub>
+  <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
+  <m:mn>1</m:mn>
+</m:msub>
+<m:mo>=</m:mo><m:msub>
+  <m:mi>m</m:mi>
+  <m:mn>1</m:mn>
+</m:msub>
+<m:msub>
+  <m:msup>
+    <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
+    <m:mo>′</m:mo>
+  </m:msup>
+
+  <m:mn>1</m:mn>
+</m:msub>
+<m:mi>cos</m:mi><m:msub>
+  <m:mi>θ</m:mi>
+  <m:mn>1</m:mn>
+</m:msub>
+<m:mo>+</m:mo><m:msub>
+  <m:mi>m</m:mi>
+  <m:mn>2</m:mn>
+</m:msub>
+<m:msub>
+  <m:msup>
+    <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
+    <m:mo>′</m:mo>
+  </m:msup>
+
+  <m:mn>2</m:mn>
+</m:msub>
+<m:mi>cos</m:mi><m:msub>
+  <m:mi>θ</m:mi>
+  <m:mn>2</m:mn>
+</m:msub>
+
+</m:mrow>
+</m:math> </entry>
+</row>
+<row>
+<entry>conservation of momentum along <emphasis effect="italics">y</emphasis>-axis for 2D collisions</entry>
+<entry> <m:math>
+<m:mrow>
+<m:mn>0</m:mn><m:mo>=</m:mo><m:msub>
+  <m:mi>m</m:mi>
+  <m:mn>1</m:mn>
+</m:msub>
+<m:msup>
+  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+  <m:mo>′</m:mo>
+</m:msup>
+<m:msub>
+  <m:mrow/>
+  <m:mn>1</m:mn>
+</m:msub>
+<m:mi>sin</m:mi><m:msub>
+  <m:mi>θ</m:mi>
+  <m:mn>1</m:mn>
+</m:msub>
+<m:mo>+</m:mo><m:msub>
+  <m:mi>m</m:mi>
+  <m:mn>2</m:mn>
+</m:msub>
+<m:msup>
+  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+  <m:mo>′</m:mo>
+</m:msup>
+<m:msub>
+  <m:mrow/>
+  <m:mn>2</m:mn>
+</m:msub>
+<m:mi>sin</m:mi><m:msub>
+  <m:mi>θ</m:mi>
+  <m:mn>2</m:mn>
+</m:msub>
+
+</m:mrow>
+</m:math>
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table></section><section id="fs-id1167065977616" class="concept"><title>Concept Items</title><exercise id="fs-id1167065977623" class="os-exercise">
+<problem id="fs-id1167064895328">
+<!--<para id="fs-id1167064895330">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex049"/>
+</para>-->
+<para id="fs-id1164568048707">In the equation <emphasis>p</emphasis><sub>1</sub> + <emphasis>p</emphasis><sub>2</sub> = <emphasis>p</emphasis>'<sub>1</sub> + <emphasis>p</emphasis>'<sub>2</sub> for the collision of two objects, what is the assumption made regarding the friction acting on the objects?</para>
+<list id="fs-id1164567965060" list-type="enumerated" number-style="lower-alpha">
+<item>Friction is zero.</item>
+<item>Friction is nearly zero.</item>
+<item>Friction acts constantly.</item>
+<item>Friction before and after the impact remains the same.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-id1166851200502" class="os-exercise">
+<problem id="eip-id1166851426134">
+<!--<para id="eip-id1166851426136">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch08-ot038"/>
+</para>-->
+<para id="fs-id1164567872909">What is an inelastic collision?</para>
+<list id="fs-id1164567304069" list-type="enumerated" number-style="lower-alpha">
+<item>when objects stick together after impact, and their internal energy is not conserved</item>
+<item>when objects stick together after impact, and their internal energy is conserved</item>
+<item>when objects stick together after impact, and always come to rest instantaneously after collision</item>
+<item>when objects stick together after impact, and their internal energy increases</item>
+</list>
+</problem>
+</exercise></section><section id="fs-id1167066045613" class="critical-thinking"><title>Critical Thinking</title><exercise id="fs-id1167062339941" class="os-exercise"><problem id="fs-id1167062339943"><para id="fs-id1167062339944"><link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex050"/></para></problem></exercise>
+</section><section id="fs-id1167065762534" class="problems">
+<title>Problems</title>
+<exercise id="fs-id1167066164974" class="os-exercise">
+<problem id="fs-id1167066164977">
+<!--<para id="fs-id1167064894485">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex051"/>
+</para>-->
+<para id="fs-id1164567247745">In an elastic collision, an object with momentum 25 kg⋅m/s collides with another that has a momentum 35 kg⋅m/s. The first object’s momentum changes to 15 kg⋅m/s. What is the momentum of the second object after the collision?</para><list id="fs-id1164567107712" list-type="enumerated" number-style="lower-alpha"><item>5 kg⋅m/s</item>
+<item>10 kg⋅m/s</item>
+<item>25 kg⋅m/s</item>
+<item>75 kg⋅m/s</item></list></problem>
+</exercise>
+<exercise id="fs-id1167065034062" class="os-exercise">
+<problem id="fs-id1167065034065">
+<para id="fs-id1167065034068">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex052"/>
+</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167062544162" class="performance"><title>Performance Task</title><exercise id="eip-799"><problem id="eip-180">
+<para id="eip-idm501055648">You will need the following:</para>
+   <list id="eip-idm225849008"><item>balls of different weights</item>
+<item>a ruler or wooden strip</item>
+<item>some books</item>
+<item>a paper cup</item>
+</list>
+<para id="eip-idm210676112">Make an inclined plane by resting one end of a ruler on a stack of books. Place a paper cup on the other end. Roll a ball from the top of the ruler so that it hits the paper cup. Measure the displacement of the paper cup due to the collision. Now use increasingly heavier balls for this activity and see how that affects the displacement of the cup. Plot a graph of mass vs. displacement. Now repeat the same activity, but this time, instead of using different balls, change the incline of the ruler by varying the height of the stack of books. This will give you different velocities of the ball. See how this affects the displacement of the paper cup.</para>
+</problem></exercise></section>
+<section id="fs-id1167064996601" class="multiple-choice"><title>Test Prep Multiple Choice</title>
+
+<exercise id="fs-id1167064996607" class="os-exercise"><problem id="fs-id1167065828172"><!--<para id="fs-id1167065828173"><link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex053"/></para>-->
+
+<para id="fs-id1164567978374">In which type of collision is kinetic energy conserved?</para>
+<list id="fs-id1164567789466" list-type="enumerated" number-style="lower-alpha">
+<item>Elastic</item>
+<item>Inelastic</item>
+</list>
+</problem></exercise>
+
+<exercise id="fs-id1167065828178" class="os-exercise"><problem id="fs-id1167064906448"><!--<para id="fs-id1167064906449"><link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex054"/></para>-->
+<para id="fs-id1164567977317">In physics, what are structureless particles that cannot rotate or spin called?</para>
+<list id="fs-id1164565516099" list-type="enumerated" number-style="lower-alpha">
+<item>Elastic particles</item>
+<item>Point masses</item>
+<item>Rigid masses</item>
+</list>
+</problem></exercise>
+
+<exercise id="eip-id1166851286030" class="os-exercise">
+<problem id="eip-id1166848716751">
+<!--<para id="eip-id1166848716753">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch08-ot041"/>
+</para>-->
+<para id="fs-id1164567216909">Two objects having equal masses and velocities collide with each other and come to a rest. What type of a collision is this and why?</para>
+<list id="fs-id1164567272452" list-type="enumerated" number-style="lower-alpha">
+<item>Elastic collision, because internal kinetic energy is conserved</item>
+<item>Inelastic collision, because internal kinetic energy is not conserved</item>
+<item>Elastic collision, because internal kinetic energy is not conserved</item>
+<item>Inelastic collision, because internal kinetic energy is conserved</item>
+</list>
+</problem>
+</exercise>
+
+<exercise id="eip-id1166851333159" class="os-exercise">
+<problem id="eip-id1166851303516">
+<para id="eip-id1166851301511">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch08-ot042"/>
+</para>
+</problem>
+</exercise>
+</section><section id="fs-id1167064906455" class="short-answer">
+<title>Test Prep Short Answer</title>
+
+<exercise id="fs-id1167066098102" class="os-exercise"><problem id="fs-id1167066098104"><!--<para id="fs-id1167062410924"><link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex055"/></para>-->
+
+<para id="fs-id1164565585393">Two objects collide with each other and come to a rest. How can you use the equation of conservation of momentum to describe this situation?</para>
+<list id="fs-id1164567613336" list-type="enumerated" number-style="lower-alpha">
+<item><emphasis effect="italics">m</emphasis><sub>1</sub><emphasis>v</emphasis><sub>1</sub> + <emphasis effect="italics">m</emphasis><sub>2</sub><emphasis>v</emphasis><sub>2</sub> = 0</item>
+<item><emphasis effect="italics">m</emphasis><sub>1</sub><emphasis>v</emphasis><sub>1</sub> − <emphasis effect="italics">m</emphasis><sub>2</sub><emphasis>v</emphasis><sub>2</sub> = 0</item>
+<item><emphasis effect="italics">m</emphasis><sub>1</sub><emphasis>v</emphasis><sub>1</sub> + <emphasis effect="italics">m</emphasis><sub>2</sub><emphasis>v</emphasis><sub>2</sub> = <emphasis effect="italics">m</emphasis><sub>1</sub><emphasis>v</emphasis><sub>1</sub>′</item>
+<item><emphasis effect="italics">m</emphasis><sub>1</sub><emphasis>v</emphasis><sub>1</sub> + <emphasis effect="italics">m</emphasis><sub>2</sub><emphasis>v</emphasis><sub>2</sub> = <emphasis effect="italics">m</emphasis><sub>1</sub><emphasis>v</emphasis><sub>2</sub></item>
+</list>
+</problem></exercise>
+
+<exercise id="fs-id1167062410929" class="os-exercise"><problem id="fs-id1167062410931"><para id="fs-id1167066105738"><link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex056"/></para></problem></exercise>
+
+<exercise id="fs-id1167066105743" class="os-exercise"><problem id="fs-id1167066105745"><!--<para id="fs-id1167065970018"><link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex057"/></para>-->
+
+<para id="fs-id1164567539578">What is the equation for conservation of momentum along the <emphasis effect="italics">x</emphasis>-axis for 2D collisions in terms of mass and velocity, where one of the particles is initially at rest?</para>
+<list id="fs-id1164565777235" list-type="enumerated" number-style="lower-alpha">
+<item><emphasis effect="italics">m</emphasis><sub>1</sub><emphasis>v</emphasis><sub>1</sub> = <emphasis effect="italics">m</emphasis><sub>1</sub><emphasis>v</emphasis><sub>1</sub>′cos⁡<emphasis effect="italics">θ</emphasis><sub>1</sub></item>
+<item><emphasis effect="italics">m</emphasis><sub>1</sub><emphasis>v</emphasis><sub>1</sub> = <emphasis effect="italics">m</emphasis><sub>1</sub><emphasis>v</emphasis><sub>1</sub>′cos⁡<emphasis effect="italics">θ</emphasis><sub>1</sub> + <emphasis effect="italics">m</emphasis><sub>2</sub><emphasis>v</emphasis><sub>2</sub>′cos⁡<emphasis effect="italics">θ</emphasis><sub>2</sub></item>
+<item><emphasis effect="italics">m</emphasis><sub>1</sub><emphasis>v</emphasis><sub>1</sub> = <emphasis effect="italics">m</emphasis><sub>1</sub><emphasis>v</emphasis><sub>1</sub>′cos⁡<emphasis effect="italics">θ</emphasis><sub>1</sub> − <emphasis effect="italics">m</emphasis><sub>2</sub><emphasis>v</emphasis><sub>2</sub>′cos⁡<emphasis effect="italics">θ</emphasis><sub>2</sub></item>
+<item><emphasis effect="italics">m</emphasis><sub>1</sub><emphasis>v</emphasis><sub>1</sub> = <emphasis effect="italics">m</emphasis><sub>1</sub><emphasis>v</emphasis><sub>1</sub>′sin⁡<emphasis effect="italics">θ</emphasis><sub>1</sub> + <emphasis effect="italics">m</emphasis><sub>2</sub><emphasis>v</emphasis><sub>2</sub>′sin⁡<emphasis effect="italics">θ</emphasis><sub>2</sub></item>
+</list>
+</problem></exercise>
+
+<exercise id="fs-id1167065970023" class="os-exercise"><problem id="fs-id1167065970025"><!--<para id="fs-id1167066086062"><link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex058"/></para>-->
+<para id="fs-id1164566110734">What is the equation for conservation of momentum along the <emphasis effect="italics">y</emphasis>-axis for 2D collisions in terms of mass and velocity, where one of the particles is initially at rest?</para>
+<list id="fs-id1164565671175" list-type="enumerated" number-style="lower-alpha">
+<item>0 = <emphasis effect="italics">m</emphasis><sub>1</sub><emphasis>v</emphasis><sub>1</sub>′sin⁡<emphasis effect="italics">θ</emphasis><sub>1</sub></item>
+<item>0 = <emphasis effect="italics">m</emphasis><sub>1</sub><emphasis>v</emphasis><sub>1</sub>′sin⁡<emphasis effect="italics">θ</emphasis><sub>1</sub> + <emphasis effect="italics">m</emphasis><sub>2</sub><emphasis>v</emphasis><sub>2</sub>′sin⁡<emphasis effect="italics">θ</emphasis><sub>2</sub></item>
+<item>0 = <emphasis effect="italics">m</emphasis><sub>1</sub><emphasis>v</emphasis><sub>1</sub>′sin⁡<emphasis effect="italics">θ</emphasis><sub>1</sub> − <emphasis effect="italics">m</emphasis><sub>2</sub><emphasis>v</emphasis><sub>2</sub>′sin⁡<emphasis effect="italics">θ</emphasis><sub>2</sub></item>
+<item>0 = <emphasis effect="italics">m</emphasis><sub>1</sub><emphasis>v</emphasis><sub>1</sub>′cos⁡<emphasis effect="italics">θ</emphasis><sub>1</sub> + <emphasis effect="italics">m</emphasis><sub>2</sub><emphasis>v</emphasis><sub>2</sub>′cos⁡<emphasis effect="italics">θ</emphasis><sub>2</sub></item>
+</list>
+</problem></exercise>
+
+</section>
+<section id="fs-id1167066086069" class="extended-response">
+<title>Test Prep Extended Response</title>
+<exercise id="fs-id1167065776054" class="os-exercise"><problem id="fs-id1167065776056"><para id="fs-id1167065776057"><link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex059"/></para></problem></exercise>
+<exercise id="fs-id1167065764622" class="os-exercise"><problem id="fs-id1167065764624"><!--<para id="fs-id1167065764625"><link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex060"/></para>-->
+<para id="fs-id1164567617669">What approach would you use to solve problems involving 2D collisions?</para>
+<list id="fs-id1164567216061" list-type="enumerated" number-style="lower-alpha">
+<item>Break the momenta into components and then choose a coordinate system.</item>
+<item>Choose a coordinate system and then break the momenta into components.</item>
+<item>Find the total momenta in the x and y directions, and then equate them to solve for the unknown.</item>
+<item>Find the sum of the momenta in the x and y directions, and then equate it to zero to solve for the unknown.</item>
+</list>
+</problem></exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1167064876594"><term>elastic collision</term> <meaning id="fs-id1167066091116">collision in which objects separate after impact and kinetic energy is conserved</meaning></definition>
+<definition id="fs-id1167066091119"><term>inelastic collision</term> <meaning id="fs-id1167065852236">collision in which objects stick together after impact and kinetic energy is not conserved</meaning></definition>
+<definition id="fs-id1167065852240"><term>point masses</term> <meaning id="fs-id1167065852126">structureless particles that cannot rotate or spin</meaning></definition>
+<definition id="fs-id1167065852129"><term>recoil</term> <meaning id="fs-id1167064994027">backward movement of an object caused by the transfer of momentum from another object in a collision</meaning></definition>
+
+</glossary>
+</document>

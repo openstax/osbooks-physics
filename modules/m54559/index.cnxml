@@ -1,0 +1,682 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Einstein and the Photoelectric Effect</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54559</md:content-id>
+  <md:title>Einstein and the Photoelectric Effect</md:title>
+  <md:abstract/>
+  <md:uuid>25711e6d-8cd3-447e-9cfb-644e0bf361ae</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1164355844283" class="learning-objectives">
+<label/>
+<title>Section Learning Objectives</title>
+<para id="fs-id1167062348754">By the end of this section, you will be able to do the following:</para>
+<list id="fs-id1164355611214">
+<item>Describe Einstein’s explanation of the photoelectric effect</item>
+<item>Describe how the photoelectric effect could not be explained by classical physics</item>
+<item>Calculate the energy of a photoelectron under given conditions</item>
+<item>Describe use of the photoelectric effect in biological applications, photoelectric devices and movie soundtracks</item>
+</list>
+</note>
+<note id="fs-id1167064824485" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065970124">The learning objectives in this section will help your students master the following standards:</para><list id="fs-id1164354596876"><item>(3) Scientific processes. The student uses critical thinking, scientific reasoning, and problem solving to make informed decisions within and outside the classroom. The student is expected to:
+<list id="fs-id1167066095986"><item>
+<span>(D)</span><span class="ost‐standards-­discard">:</span>
+<span>explain the impacts of the scientific contributions of a variety of historical and contemporary scientists on scientific thought and society.</span></item>
+</list></item>
+<item>(8) Science concepts. The student knows simple examples of atomic, nuclear, and quantum phenomena. The student is expected to:
+<list id="fs-id1167065025570"><item>
+<span>(A)</span><span class="ost‐standards-­discard">:</span>
+<span>describe the photoelectric effect and the dual nature of light.</span></item>
+</list></item>
+</list></note>
+<section id="keyterms"><title>Section Key Terms</title>
+<table id="fs-id1164354601564" class="unnumbered unstyled section-key-terms" summary="Key Terms is a three column table. The first row reads electric eye, photoelectric effect, photoelectron. The second row reads photon."><label/>
+<tgroup cols="1">
+<tbody>
+<row>
+<entry>electric eye</entry>
+<entry>photoelectric effect</entry>
+<entry>photoelectron</entry>
+<entry>photon</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section id="fs-id1167064532181">
+<title>The Photoelectric Effect</title>
+<note id="fs-id1167065943603" class="os‐teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065855769">[EL]Ask the students what they think the term <emphasis effect="italics">photoelectric</emphasis> means. How does the term relate to its definition?</para>
+</note>
+<para id="fs-id1167066000940">When light strikes certain materials, it can eject electrons from them. This is called the <term>photoelectric effect</term>, meaning that light (<emphasis effect="italics">photo</emphasis>) produces electricity. One common use of the photoelectric effect is in light meters, such as those that adjust the automatic iris in various types of cameras. Another use is in solar cells, as you probably have in your calculator or have seen on a rooftop or a roadside sign. These make use of the photoelectric effect to convert light into electricity for running different devices.</para>
+<note id="fs-id1167065919591" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167064983688"><span>[BL]</span><span>[OL]</span>Discuss with students what may cause light to eject electrons from a material. Are there certain materials that are more susceptible to having electrons ejected?</para>
+<para id="fs-id1167064948559"><span>[AL]</span>Ask students why a light meter would be useful in a camera. How could the number of electrons emitted from the light meter control the camera’s iris? Have students draw a diagram of the camera that may demonstrate this effect.</para>
+</note>
+
+
+<figure id="Figure_21_02_LightMeter">
+<media id="fs-id1167065927016" alt="A picture of a lightmeter is shown. There is a clear bulb placed on top of a black base. Inside the bulb is a metal plate attached to a wire. The wire drops into the black base and is no longer visible to the viewer.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_21_02_LightMeter.jpg"/>
+</media>
+<caption>The photoelectric effect can be observed by allowing light to fall on the metal plate in this evacuated tube. Electrons ejected by the light are collected on the collector wire and measured as a current. A retarding voltage between the collector wire and plate can then be adjusted so as to determine the energy of the ejected electrons. (credit: P. P. Urone)</caption>
+</figure>
+</section>
+<section id="fs-id1167065849582">
+<title>Revolutionary Properties of the Photoelectric Effect</title>
+<para id="fs-id1167066051295">When Max Planck theorized that energy was quantized in a blackbody radiator, it is unlikely that he would have recognized just how revolutionary his idea was. Using tools similar to the light meter in <link target-id="Figure_21_02_LightMeter"/>, it would take a scientist of Albert <term class="no-emphasis">Einstein</term>’s stature to fully discover the implications of Max Planck’s radical concept.</para>
+<para id="fs-id1167065872521">Through careful observations of the photoelectric effect, Albert Einstein realized that there were several characteristics that could be explained only if <emphasis effect="italics">EM radiation is itself quantized</emphasis>. While these characteristics will be explained a bit later in this section, you can already begin to appreciate why Einstein’s idea is very important. It means that the apparently continuous stream of energy in an EM wave is actually not a continuous stream at all. In fact, the EM wave itself is actually composed of tiny quantum packets of energy called <term>photons</term>.</para>
+<para id="fs-id1167065791797">In equation form, Einstein found the energy of a photon or <term>photoelectron</term> to be</para>
+<equation id="fs-id1167065849536" class="unnumbered"><label/> <m:math> <m:mrow> <m:mi>E</m:mi><m:mo>=</m:mo><m:mi>h</m:mi><m:mi>f,</m:mi></m:mrow></m:math> </equation><para id="fs-id1167064897008">where <emphasis effect="italics">E </emphasis>is the energy of a photon of frequency <emphasis effect="italics">f </emphasis>and <emphasis effect="italics">h </emphasis>is Planck’s constant. A beam from a flashlight, which to this point had been considered a wave, instead could now be viewed as a series of photons, each providing a specific amount of energy see <link target-id="Figure_21_02_Flashlight"/>. Furthermore, the amount of energy within each individual photon is based upon its individual frequency, as dictated by  <m:math> <m:mrow> <m:mi>E</m:mi><m:mo>=</m:mo><m:mi>h</m:mi><m:mi>f</m:mi><m:mo>.</m:mo></m:mrow></m:math>  As a result, the total amount of energy provided by the beam could now be viewed as the sum of all frequency-dependent photon energies added together.</para><figure id="Figure_21_02_Flashlight">
+<media id="fs-id1167064848771" alt="A drawing is shown of a flashlight with a beam projected out of it. Within the beam are a series of ovals that have wavelengths drawn within them. Each of these ovals corresponds to a photon. Near some of the photons is written the equation E = hf  while near other photons is written the equation E' = hf' . The symbols f and f' correspond to different frequencies (or colors) of light. The visible white light from the flashlight is a result of the combination of these different frequencies.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_21_02_Flashlight.jpg"/>
+</media>
+<caption>An EM wave of frequency <emphasis effect="italics">f </emphasis>is composed of photons, or individual quanta of EM radiation. The energy of each photon is  <m:math> <m:mrow> <m:mi>E</m:mi><m:mo>=</m:mo><m:mi>h</m:mi><m:mi>f</m:mi></m:mrow></m:math>, where <emphasis effect="italics">h </emphasis>is Planck’s constant and <emphasis effect="italics">f </emphasis>is the frequency of the EM radiation. Higher intensity means more photons per unit area per second. The flashlight emits large numbers of photons of many different frequencies, hence others have energy  <m:math> <m:mrow> <m:msup> <m:mi>E</m:mi> <m:mo>′</m:mo> </m:msup> <m:mo>=</m:mo><m:mi>h</m:mi><m:msup> <m:mi>f</m:mi> <m:mo>′</m:mo> </m:msup> </m:mrow></m:math>, and so on.</caption></figure>
+
+<note id="fs-id1167066050673" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065857871">It is important for students to be comfortable with the material to this point before moving forward. To ensure that they are, one task that you may have them do is to draw a few pictures similar to <link target-id="Figure_21_02_Flashlight"/>. Have the students draw photons leaving a low intensity flashlight vs. a high intensity flashlight, a high frequency flashlight vs. a low frequency flashlight, and a high wavelength flashlight vs. a low wavelength flashlight. These diagrams will help ensure the students understand fundamental concepts before moving to the difficult proofs that follow.</para>
+</note>
+<para id="fs-id1167066113489">Just as with Planck’s blackbody radiation, Einstein’s concept of the photon could take hold in the scientific community only if it could succeed where classical physics failed. The photoelectric effect would be a key to demonstrating Einstein’s brilliance.</para>
+<para id="fs-id1167064817841">Consider the following five properties of the photoelectric effect. All of these properties are consistent with the idea that individual photons of EM radiation are absorbed by individual electrons in a material, with the electron gaining the photon’s energy. Some of these properties are inconsistent with the idea that EM radiation is a simple wave. For simplicity, let us consider what happens with monochromatic EM radiation in which all photons have the same energy <emphasis effect="italics">hf</emphasis>.</para>
+
+<figure id="Figure_21_02_PE-Effect">
+<media id="fs-id1167066086108" alt="Four arrows representing ‘incoming radiation’ are shown striking a metal surface full of negative electrons. The metal surface is labeled ‘Sea of electrons inside the metal waiting to be set free.’ Leaving the metal surface are two new arrows, traveling upward and in the direction opposite the radiation strike. These arrows show the trajectory of two ejected electrons and are accompanied by the label ‘Electrons knocked out.’">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_21_02_PE-Effect.jpg"/>
+</media>
+<caption>Incident radiation strikes a clean metal surface, ejecting multiple electrons from it. The manner in which the frequency and intensity of the incoming radiation affect the ejected electrons strongly suggests that electromagnetic radiation is quantized. This event, called the photoelectric effect, is strong evidence for the existence of photons.</caption></figure>
+
+<list id="fs-id1167065947633" list-type="enumerated" number-style="arabic">
+<item>If we vary the frequency of the EM radiation falling on a clean metal surface, we find the following: For a given material, there is a threshold frequency <emphasis effect="italics">f</emphasis><sub>0</sub> for the EM radiation below which no electrons are ejected, regardless of intensity. Using the photon model, the explanation for this is clear. Individual photons interact with individual electrons. Thus if the energy of an individual photon is too low to break an electron away, no electrons will be ejected. However, if EM radiation were a simple wave, sufficient energy could be obtained simply by increasing the intensity.</item>
+<item><emphasis effect="italics">Once EM radiation falls on a material, electrons are ejected without delay</emphasis>. As soon as an individual photon of sufficiently high frequency is absorbed by an individual electron, the electron is ejected. If the EM radiation were a simple wave, several minutes would be required for sufficient energy to be deposited at the metal surface in order to eject an electron.</item>
+<item>The number of electrons ejected per unit time is proportional to the intensity of the EM radiation and to no other characteristic. High-intensity EM radiation consists of large numbers of photons per unit area, with all photons having the same characteristic energy, <emphasis effect="italics">hf</emphasis>. The increased number of photons per unit area results in an increased number of electrons per unit area ejected.</item>
+<item>If we vary the intensity of the EM radiation and measure the energy of ejected electrons, we find the following: <emphasis effect="italics">The maximum kinetic energy of ejected electrons is independent of the intensity of the EM radiation</emphasis>. Instead, as noted in point 3 above, increased intensity results in more electrons of the same energy being ejected. If EM radiation were a simple wave, a higher intensity could transfer more energy, and higher-energy electrons would be ejected.</item>
+<item>The kinetic energy KE of an ejected electron equals the photon energy minus the <term class="no-emphasis">binding energy</term> BE of the electron in the specific material. An individual photon can give all of its energy to an electron. The photon’s energy is partly used to break the electron away from the material. The remainder goes into the ejected electron’s kinetic energy. In equation form, this is given by</item>
+</list>
+<equation id="fs-id1164567516604"> <m:math display="block"> <m:mrow> <m:mi>K</m:mi><m:msub> <m:mi>E</m:mi> <m:mi>e</m:mi> </m:msub> <m:mo>=</m:mo><m:mi>h</m:mi><m:mi>f</m:mi><m:mo>−</m:mo><m:mi>B</m:mi><m:mi>E,</m:mi> </m:mrow></m:math> </equation>
+<para id="fs-id1167066032371">where  <m:math> <m:mrow> <m:mi>K</m:mi><m:msub> <m:mi>E</m:mi> <m:mi>e</m:mi> </m:msub> </m:mrow></m:math>  is the maximum kinetic energy of the ejected electron,  <m:math> <m:mrow> <m:mi>h</m:mi><m:mi>f</m:mi> </m:mrow></m:math>  is the photon’s energy, and BE is the binding energy of the electron to the particular material. This equation explains the properties of the photoelectric effect quantitatively and demonstrates that BE is the minimum amount of energy necessary to eject an electron. If the energy supplied is less than BE, the electron cannot be ejected. The binding energy can also be written as  <m:math> <m:mrow> <m:mi>B</m:mi><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>h</m:mi><m:msub> <m:mi>f</m:mi> <m:mn>0</m:mn> </m:msub> <m:mo>,</m:mo> </m:mrow></m:math>  where  <m:math> <m:mrow> <m:msub> <m:mi>f</m:mi> <m:mn>0</m:mn> </m:msub> </m:mrow></m:math>  is the threshold frequency for the particular material. <link target-id="Figure_21_02_Graph"/> shows a graph of maximum  <m:math> <m:mrow> <m:mi>K</m:mi><m:msub> <m:mi>E</m:mi> <m:mi>e</m:mi> </m:msub> </m:mrow></m:math>  versus the frequency of incident EM radiation falling on a particular material.</para>
+
+<figure id="Figure_21_02_Graph">
+<media id="fs-id1167062547820" alt="A graph shows the maximum kinetic energy of an electron plotted against the frequency of light. On the graph is a diagonal line, leaving the horizontal axis at a non-zero x-intercept labeled f0. The label f0 is accompanied with the equation f0 = BE/h. Also on the graph is the equation KEe = hf - BE. This equation explains the diagonal line, showing that as frequency increases, the electron's maximum kinetic energy does as well. However, this takes place only when the frequency is greater than f0, or BE/h.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_21_02_Graph.jpg"/>
+</media>
+<caption>A graph of the kinetic energy of an ejected electron, KE<emphasis effect="italics"><sub>e</sub></emphasis>, versus the frequency of EM radiation impinging on a certain material. There is a threshold frequency below which no electrons are ejected, because the individual photon interacting with an individual electron has insufficient energy to break it away. Above the threshold energy, KE<emphasis effect="italics"><sub>e</sub> </emphasis>increases linearly with <emphasis effect="italics">f</emphasis>, consistent with KE<emphasis effect="italics"><sub>e</sub> </emphasis>= <emphasis effect="italics">hf </emphasis>− BE. The slope of this line is <emphasis effect="italics">h</emphasis>, so the data can be used to determine Planck’s constant experimentally.</caption></figure>
+<note id="fs-id1167066190418" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167062343327">Show students <link target-id="Figure_21_02_Graph"/>. What would be the kinetic energy of an electron if <emphasis effect="italics">f</emphasis> is less than <emphasis effect="italics">f<sub>0</sub></emphasis>? What does this mean? Why would this be the case? These questions aim to help students internalize the concept of binding energy.</para>
+</note>
+
+<note id="fs-id1167064619976" class="tips-for-success">
+<para id="fs-id1167066088768">The following five pieces of information can be difficult to follow without some organization. It may be useful to create a table of expected results of each of the five properties, with one column showing the classical wave model result and one column showing the modern photon model result.</para>
+<para id="fs-id1167062332098">The table may look something like <link target-id="Table_21_01"/></para>
+
+<table id="Table_21_01" summary="This table has three columns and six rows. The first row is a header row that labels each column. The first column header is blank, the second says &quot;Classical Wave Model&quot;, and the third says &quot;Modern Photon Model&quot;. The first column has the following categories: &quot;Threshold Frequency&quot;, &quot;Electron Ejection Delay&quot;, &quot;Intensity of EM Radiation&quot;, &quot;Speed of Ejected Electrons&quot;, and &quot;Relationship between KE and BE&quot;. The other two columns are blank below the headers.">
+<title>Table of Expected Results</title>
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row>
+<entry/>
+<entry>Classical Wave Model</entry>
+<entry>Modern Photon Model</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>Threshold Frequency</entry>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry>Electron Ejection Delay</entry>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry>Intensity of EM Radiation </entry>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry>Speed of Ejected Electrons</entry>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry>Relationship between Kinetic Energy and Binding Energy</entry>
+<entry/>
+<entry/>
+</row>
+</tbody>
+</tgroup>
+</table>
+</note><note id="fs-id1167066112235" class="os-teacher"><title>Teacher Support</title>
+<para id="fs-id1167062968747">It may be useful to complete the table above as a class. This material takes some time to interpret, so encourage students to move slowly. Once completed, your table may look like <link target-id="Table_21_02"/>.</para>
+<table id="Table_21_02" summary="This table has three columns and six rows. The first row is a header row that labels each column. The first column header is blank, the second says &quot;Classical Wave Model&quot;, and the third says &quot;Modern Photon Model&quot;. The first column has the following categories: &quot;Threshold Frequency&quot;, &quot;Electron Ejection Delay&quot;, &quot;Intensity of EM Radiation&quot;, &quot;Speed of Ejected Electrons&quot;, and &quot;Relationship between KE and BE&quot;. Under the column &quot;Classical Wave Model&quot;, the following statements are given: &quot;No threshold frequency. Increasing intensity is enough to provide the energy needed to free electrons&quot;; &quot;Electrons are ejected once enough energy has been supplied. Therefore, a delay may occur&quot;; &quot;Increased intensity will result in more electrons ejected, or electrons ejected with higher energy&quot;; &quot;As intensity is increased, electrons may leave the surface at a greater ejection speed&quot;; and &quot;No relationship specified, as BE is not linked to frequency&quot;.  Under the column &quot;Modern Photon Model&quot;, the following four statements and one equation are given: &quot;Threshold frequency exists, below which no electrons are emitted regardless of energy intensity&quot;; &quot;No ejection delay exists&quot;; &quot;Increased intensity will result in more electrons ejected&quot;; &quot;An increase in intensity will not influence the ejection speed of the electron&quot;; and the equation &quot;KE subscript e equals h f minus BE.&quot;">
+<title>Completed Table</title>
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row>
+<entry/>
+<entry>Classical Wave Model</entry>
+<entry>Modern Photon Model</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>Threshold Frequency</entry>
+<entry>No threshold frequency. Increasing intensity is enough to provide the energy needed to free electrons.</entry>
+<entry>Threshold frequency exists, below which no electrons are emitted regardless of energy intensity.</entry>
+</row>
+<row>
+<entry>Electron Ejection Delay</entry>
+<entry>Electrons are ejected once enough energy has been supplied. Therefore, a delay may occur.</entry>
+<entry>No ejection delay exists. </entry>
+</row>
+<row>
+<entry>Intensity of EM Radiation </entry>
+<entry>Increased intensity will result in more electrons ejected, or electrons ejected with higher energy.</entry>
+<entry>Increased intensity will result in more electrons ejected.</entry>
+</row>
+<row>
+<entry>Speed of Ejected Electrons</entry>
+<entry>As intensity is increased, electrons may leave the surface at a greater ejection speed.</entry>
+<entry>An increase in intensity will not influence the ejection speed of the electron.</entry>
+</row>
+<row>
+<entry>Relationship between KE and BE</entry>
+<entry>No relationship specified, as BE is not linked to frequency.</entry>
+<entry> <m:math> <m:mrow> <m:mi>K</m:mi><m:msub> <m:mi>E</m:mi> <m:mi>e</m:mi> </m:msub> <m:mo>=</m:mo><m:mi>h</m:mi><m:mi>f</m:mi><m:mo>−</m:mo><m:mi>B</m:mi><m:mi>E</m:mi> </m:mrow></m:math> </entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</note><note id="fs-id1167064819593" class="virtual-physics"><title>Photoelectric Effect</title>
+<media id="fs-id1167066060245" alt="This simulation allows you to see how light knocks electrons off a metal target, and recreate the experiment that spawned the field of quantum mechanics.">
+<iframe width="660" height="371.4" src="https://openstax.org/l/28photoelectric"/>
+</media>
+<para id="eip-id1167063320901">In this demonstration, see how light knocks electrons off a metal target, and recreate the experiment that spawned the field of quantum mechanics.</para>
+
+<exercise id="fs-id1167064861142" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167064877024">
+<!--<para id="fs-id1167062548553"><link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex035"/></para>-->
+<para id="fs-id1169828347112">In the circuit provided, what are the three ways to increase the current?</para>
+<list id="fs-id1169831835357" list-type="enumerated" number-style="lower-alpha"><item>increase the intensity, increase the wavelength, alter the target  
+</item><item>decrease the intensity, increase the wavelength, alter the target
+</item><item>decrease the intensity, decrease the wavelength, alter the target  
+</item><item>increase the intensity, decrease the wavelength, alter the target</item></list></problem>
+</exercise>
+</note><note id="fs-id1167065937518" class="worked-example">
+
+<title>Photon Energy and the Photoelectric Effect: A Violet Light</title>
+<exercise id="fs-id1167065971362" class="21-ex036 unnumbered"><label/>
+<problem id="fs-id1167065788740">
+<para id="fs-id1167064876813">(a) What is the energy in joules and electron volts of a photon of 420-nm violet light? (b) What is the maximum kinetic energy of electrons ejected from calcium by 420 nm violet light, given that the binding energy of electrons for calcium metal is 2.71 eV?</para>
+<note id="fs-id1167065894494"><label/><title>Strategy</title>
+<para id="fs-id1167065774523">To solve part (a), note that the energy of a photon is given by  <m:math> <m:mrow> <m:mi>E</m:mi><m:mo>=</m:mo><m:mi>h</m:mi><m:mi>f</m:mi> </m:mrow></m:math> . For part (b), once the energy of the photon is calculated, it is a straightforward application of  <m:math> <m:mrow> <m:mi>K</m:mi><m:msub> <m:mi>E</m:mi> <m:mi>e</m:mi> </m:msub> <m:mo>=</m:mo><m:mi>h</m:mi><m:mi>f</m:mi><m:mo>−</m:mo><m:mi>B</m:mi><m:mi>E</m:mi> </m:mrow></m:math>  to find the ejected electron’s maximum kinetic energy, since BE is given.</para>
+</note></problem>
+<solution id="fs-id1167066058636"><label/>
+<title>Solution for (a)</title>
+<para id="fs-id1167065070135">Photon energy is given by</para>
+<para id="fs-id1167064876562"> <m:math display="block"> <m:mrow> <m:mi>E</m:mi><m:mo>=</m:mo><m:mi>h</m:mi><m:mi>f</m:mi><m:mtext>.</m:mtext> </m:mrow></m:math> </para>
+<para id="fs-id1167064908633">Since we are given the wavelength rather than the frequency, we solve the familiar relationship  <m:math> <m:mrow> <m:mi>c</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mi>λ</m:mi> </m:mrow></m:math>  for the frequency, yielding </para>
+<equation id="fs-id1164565429519"> <m:math display="block"> <m:mrow> <m:mi>f</m:mi><m:mo>=</m:mo><m:mfrac> <m:mi>c</m:mi> <m:mi>λ</m:mi> </m:mfrac> </m:mrow></m:math> </equation><para id="fs-id1167066036964">Combining these two equations gives the useful relationship</para>
+<equation id="fs-id1164567604063"> <m:math display="block"> <m:mrow> <m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac> <m:mrow> <m:mi>h</m:mi><m:mi>c</m:mi> </m:mrow> <m:mi>λ</m:mi> </m:mfrac> <m:mo>.</m:mo> </m:mrow></m:math> </equation>
+<para id="fs-id1167062443841">Now substituting known values yields</para>
+<equation id="fs-id1164565539306"> <m:math display="block"> <m:mrow> <m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac> <m:mrow> <m:mo>(</m:mo><m:mn>6.63</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup> <m:mrow> <m:mn>10</m:mn> </m:mrow> <m:mrow> <m:mo>−</m:mo><m:mn>34</m:mn> </m:mrow> </m:msup> <m:mtext>J</m:mtext><m:mo>⋅</m:mo><m:mtext>s</m:mtext><m:mo>)</m:mo><m:mo>(</m:mo><m:mn>3.00</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup> <m:mrow> <m:mn>10</m:mn> </m:mrow> <m:mn>8</m:mn> </m:msup> <m:mi>m</m:mi><m:mo>/</m:mo><m:mi>s</m:mi><m:mo>)</m:mo> </m:mrow> <m:mrow> <m:mn>4.20</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup> <m:mrow> <m:mn>10</m:mn> </m:mrow> <m:mrow> <m:mo>−</m:mo><m:mn>7</m:mn> </m:mrow> </m:msup> <m:mi>m</m:mi> </m:mrow> </m:mfrac> <m:mo>=</m:mo><m:mn>4.74</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup> <m:mrow> <m:mn>10</m:mn> </m:mrow> <m:mrow> <m:mn>−19</m:mn> </m:mrow> </m:msup> <m:mtext>J</m:mtext><m:mo>.</m:mo> </m:mrow></m:math> </equation>
+<para id="fs-id1167065979412">Converting to eV, the energy of the photon is</para>
+<equation id="fs-id1164567283734"> <m:math display="block"> <m:mrow> <m:mi>E</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4.74</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup> <m:mrow> <m:mn>10</m:mn> </m:mrow> <m:mrow> <m:mo>−</m:mo><m:mn>19</m:mn> </m:mrow> </m:msup> <m:mtext>J</m:mtext><m:mo>⋅</m:mo><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo><m:mfrac> <m:mrow> <m:mn>1</m:mn><m:mspace width="0.3em"/><m:mtext>e</m:mtext><m:mtext>V</m:mtext> </m:mrow> <m:mrow> <m:mn>1.60</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup> <m:mrow> <m:mn>10</m:mn> </m:mrow> <m:mrow> <m:mo>−</m:mo><m:mn>19</m:mn> </m:mrow> </m:msup> <m:mtext>J</m:mtext> </m:mrow> </m:mfrac> <m:mo>=</m:mo><m:mn>2.96</m:mn><m:mspace width="0.3em"/><m:mtext>e</m:mtext><m:mtext>V</m:mtext><m:mo>.</m:mo> </m:mrow></m:math> </equation></solution>
+<solution id="fs-id1167064634810"><label/>
+<title>Solution for (b)</title>
+<para id="fs-id1167066120444">Finding the kinetic energy of the ejected electron is now a simple application of the equation  <m:math> <m:mrow> <m:mi>K</m:mi><m:msub> <m:mi>E</m:mi> <m:mi>e</m:mi> </m:msub> <m:mo>=</m:mo><m:mi>h</m:mi><m:mi>f</m:mi><m:mo>−</m:mo><m:mi>B</m:mi><m:mi>E</m:mi> </m:mrow></m:math> . Substituting the photon energy and binding energy yields</para>
+<equation id="fs-id1164566317933"> <m:math display="block"> <m:mrow> <m:mi>K</m:mi><m:msub> <m:mi>E</m:mi> <m:mi>e</m:mi> </m:msub> <m:mo>=</m:mo><m:mi>h</m:mi><m:mi>f</m:mi><m:mo>−</m:mo><m:mi>B</m:mi><m:mi>E</m:mi><m:mo>=</m:mo><m:mn>2.96</m:mn><m:mspace width="0.3em"/><m:mtext>e</m:mtext><m:mtext>V</m:mtext><m:mo>−</m:mo><m:mn>2.71</m:mn><m:mspace width="0.3em"/><m:mtext>e</m:mtext><m:mtext>V</m:mtext><m:mo>=</m:mo><m:mn>0.25</m:mn><m:mspace width="0.3em"/><m:mtext>e</m:mtext><m:mtext>V</m:mtext><m:mo>.</m:mo> </m:mrow></m:math> </equation></solution>
+<commentary id="fs-id1167064585259">
+<title>Discussion</title>
+<para id="fs-id1167064930352">The energy of this 420 nm photon of violet light is a tiny fraction of a joule, and so it is no wonder that a single photon would be difficult for us to sense directly—humans are more attuned to energies on the order of joules. But looking at the energy in electron volts, we can see that this photon has enough energy to affect atoms and molecules. A DNA molecule can be broken with about 1 eV of energy, for example, and typical atomic and molecular energies are on the order of eV, so that the photon in this example could have biological effects, such as sunburn. The ejected electron has rather low energy, and it would not travel far, except in a vacuum. The electron would be stopped by a retarding potential of only 0.26 eV, a slightly larger KE than calculated above. In fact, if the photon wavelength were longer and its energy less than 2.71 eV, then the formula would give a negative kinetic energy, an impossibility. This simply means that the 420 nm photons with their 2.96 eV energy are not much above the frequency threshold. You can see for yourself that the threshold wavelength is 458 nm (blue light). This means that if calcium metal were used in a light meter, the meter would be insensitive to wavelengths longer than those of blue light. Such a light meter would be completely insensitive to red light, for example.</para>
+</commentary>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167065060637" class="practice-problems">
+<title>Practice Problems</title>
+<exercise id="fs-id1167065931476">
+<problem id="fs-id1167065010935">
+<!--<para id="fs-id1167065010937">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex037"/>
+</para>-->
+<para id="fs-id1169832045778">What is the longest-wavelength EM radiation that can eject a photoelectron from silver, given that the bonding energy is 4.73 eV ? Is this radiation in the visible range?</para>
+<list id="fs-id1169827348892" list-type="enumerated" number-style="lower-alpha">
+<item>2.63 × 10<sup>−7</sup> m; No, the radiation is in microwave region.</item>
+<item>2.63 × 10<sup>−7</sup> m; No, the radiation is in visible region.</item>
+<item>2.63 × 10<sup>−7</sup> m; No, the radiation is in infrared region.</item>
+<item>2.63 × 10<sup>-7</sup> m; No, the radiation is in ultraviolet region.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167064541450">
+<problem id="fs-id1167062312104">
+<!--<para id="fs-id1167066145892">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex038"/>
+</para>-->
+<para id="fs-id1164567604656">What is the maximum kinetic energy in eV of electrons ejected from sodium metal by 450-nm EM radiation, given that the binding energy is 2.28 eV?</para>
+<list id="fs-id1164567272181" list-type="enumerated" number-style="lower-alpha">
+<item>0.48 V</item>
+<item>0.82 eV</item>
+<item>1.21 eV</item>
+<item>0.48 eV</item>
+</list>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167066014603">
+<title>Technological Applications of the Photoelectric Effect</title>
+<para id="fs-id1167065974562">While Einstein’s understanding of the photoelectric effect was a transformative discovery in the early 1900s, its presence is ubiquitous today. If you have watched streetlights turn on automatically in response to the setting sun, stopped elevator doors from closing simply by putting your hands between them, or turned on a water faucet by sliding your hands near it, you are familiar with the <term>electric eye</term>, a name given to a group of devices that use the photoelectric effect for detection.</para>
+<para id="fs-id1167065872186">All these devices rely on photoconductive cells. These cells are activated when light is absorbed by a semi-conductive material, knocking off a free electron. When this happens, an electron void is left behind, which attracts a nearby electron. The movement of this electron, and the resultant chain of electron movements, produces a current. If electron ejection continues, further holes are created, thereby increasing the electrical conductivity of the cell. This current can turn switches on and off and activate various familiar mechanisms.</para>
+<para id="fs-id1167066136930">One such mechanism takes place where you may not expect it. Next time you are at the movie theater, pay close attention to the sound coming out of the speakers. This sound is actually created using the photoelectric effect! The audiotape in the projector booth is a transparent piece of film of varying width. This film is fed between a photocell and a bright light produced by an exciter lamp. As the transparent portion of the film varies in width, the amount of light that strikes the photocell varies as well. As a result, the current in the photoconductive circuit changes with the width of the filmstrip. This changing current is converted to a changing frequency, which creates the soundtrack commonly heard in the theater.</para>
+<note id="fs-id1167066121148" class="work-in-physics"><title>Solar Energy Physicist</title>
+
+<para id="fs-id1167062355242">According to the U.S. Department of Energy, Earth receives enough sunlight each hour to power the entire globe for a year. While converting all of this energy is impossible, the job of the solar energy physicist is to explore and improve upon solar energy conversion technologies so that we may harness more of this abundant resource.</para>
+<para id="fs-id1167066046747">The field of solar energy is not a new one. For over half a century, satellites and spacecraft have utilized <term class="no-emphasis">photovoltaic cells</term> to create current and power their operations. As time has gone on, scientists have worked to adapt this process so that it may be used in homes, businesses, and full-scale power stations using solar cells like the one shown in <link target-id="Figure_21_02_Photocell"/>.</para>
+
+<figure id="Figure_21_02_Photocell">
+<media id="fs-id1167063629171" alt="There is an image of a blue solar cell. The solar cell is square, with diagonal notches removed from each corner.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_21_02_Photocell.jpg"/>
+</media>
+<caption>A solar cell is an example of a photovoltaic cell. As light strikes the cell, the cell absorbs the energy of the photons. If this energy exceeds the binding energy of the electrons, then electrons will be forced to move in the cell, thereby producing a current. This current may be used for a variety of purposes. (credit: U.S. Department of Energy)</caption></figure>
+<para id="fs-id1167066103554">Solar energy is converted to electrical energy in one of two manners: direct transfer through photovoltaic cells or thermal conversion through the use of a CSP, concentrating solar power, system. Unlike electric eyes, which trip a mechanism when current is lost, photovoltaic cells utilize semiconductors to directly transfer the electrons released through the photoelectric effect into a directed current. The energy from this current can then be converted for storage, or immediately used in an electric process. A CSP system is an indirect method of energy conversion. In this process, light from the Sun is channeled using parabolic mirrors. The light from these mirrors strikes a thermally conductive material, which then heats a pool of water. This water, in turn, is converted to steam, which turns a turbine and creates electricity. While indirect, this method has long been the traditional means of large-scale power generation.</para>
+<para id="fs-id1167065067419">There are, of course, limitations to the efficacy of solar power. Cloud cover, nightfall, and incident angle strike at high altitudes are all factors that directly influence the amount of light energy available. Additionally, the creation of photovoltaic cells requires rare-earth minerals that can be difficult to obtain. However, the major role of a solar energy physicist is to find ways to improve the efficiency of the solar energy conversion process. Currently, this is done by experimenting with new semi conductive materials, by refining current energy transfer methods, and by determining new ways of incorporating solar structures into the current power grid.</para>
+<para id="fs-id1167065067422">Additionally, many solar physicists are looking into ways to allow for increased solar use in impoverished, more remote locations. Because solar energy conversion does not require a connection to a large-scale power grid, research into thinner, more mobile materials will permit remote cultures to use solar cells to convert sunlight collected during the day into stored energy that can then be used at night.</para>
+<para id="fs-id1167065809905">Regardless of the application, solar energy physicists are an important part of the future in responsible energy growth. While a doctoral degree is often necessary for advanced research applications, a bachelor's or master's degree in a related science or engineering field is typically enough to gain access into the industry. Computer skills are very important for energy modeling, including knowledge of CAD software for design purposes. In addition, the ability to collaborate and communicate with others is critical to becoming a solar energy physicist.</para>
+</note>
+<exercise id="fs-id1167065742803" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167064853313">
+<!-- <para id="fs-id1167064853315">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex039"/>
+</para> -->
+<para id="fs-id1164565311343">What role does the photoelectric effect play in the research of a solar energy physicist?</para>
+<list id="fs-id1164567268425" list-type="enumerated" number-style="lower-alpha">
+<item>The understanding of photoelectric effect allows the physicist to understand the generation of light energy when using photovoltaic cells.</item>
+<item>The understanding of photoelectric effect allows the physicist to understand the generation of electrical energy when using photovoltaic cells.</item>
+<item>The understanding of photoelectric effect allows the physicist to understand the generation of electromagnetic energy when using photovoltaic cells.</item>
+<item>The understanding of photoelectric effect allows the physicist to understand the generation of magnetic energy when using photovoltaic cells.</item>
+</list>
+</problem>
+</exercise></section>
+
+
+<section id="fs-id1167064728835" class="check-understanding"><title>Check Your Understanding</title><exercise id="fs-id1167063095762" class="os-exercise">
+<problem id="fs-id1167063095765">
+<para id="fs-id1167064899439"><link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex040"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065894866" class="os-exercise">
+<problem id="fs-id1167065894869">
+<!-- <para id="fs-id1167065055436"><link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex041"/></para> -->
+<para id="fs-id1164567951233">True or false—Visible light is the only type of electromagnetic radiation that can cause the photoelectric effect.</para>
+<list id="fs-id1164567185398" list-type="enumerated" number-style="lower-alpha">
+<item>false</item>
+<item>true</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167065979332" class="os-exercise">
+<problem id="fs-id1167065979335">
+<para id="fs-id1167065927140"><link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex042"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167064832674" class="os-exercise">
+<problem id="fs-id1167064832677">
+<!-- <para id="fs-id1167066042130"><link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex043"/></para> -->
+<para id="fs-id1164568077185">Which aspects of the photoelectric effect can only be explained using photons?</para>
+<list id="fs-id1164567229313" list-type="enumerated" number-style="lower-alpha">
+<item>aspects 1, 2, and 3</item>
+<item>aspects 1, 2, and 4</item>
+<item>aspects 1, 2, 4 and 5</item>
+<item>aspects 1, 2, 3, 4 and 5</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167062308177" class="os-exercise">
+<problem id="fs-id1167064996555">
+<para id="fs-id1167064996557"><link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex044"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065972348" class="os-exercise">
+<problem id="fs-id1167064848360">
+<!-- <para id="fs-id1167064533139"><link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex045"/></para> -->
+<para id="fs-id1164566007629">True or false—A current is created in a photoconductive cell, even if only one electron is expelled from a photon strike.</para>
+<list id="fs-id1164567620496" list-type="enumerated" number-style="lower-alpha">
+<item>false</item>
+<item>true</item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-id1166851384857" class="os-exercise">
+<problem id="eip-id1166851286026">
+<para id="eip-id1166851347773">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ot037"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167062312031" class="summary">
+<title>Section Summary</title>
+<list id="fs-id1167062805440">
+<item>The photoelectric effect is the process in which EM radiation ejects electrons from a material.</item>
+<item>Einstein proposed photons to be quanta of EM radiation having energy  <m:math> <m:mrow> <m:mi>E</m:mi><m:mo>=</m:mo><m:mi>h</m:mi><m:mi>f</m:mi><m:mo>,</m:mo> </m:mrow></m:math>  where <emphasis effect="italics">f </emphasis>is the frequency of the radiation.</item>
+<item>All EM radiation is composed of photons. As Einstein explained, all characteristics of the photoelectric effect are due to the interaction of individual photons with individual electrons.</item>
+<item>The maximum kinetic energy KE<emphasis effect="italics"><sub>e</sub></emphasis> of ejected electrons (photoelectrons) is given by  <m:math> <m:mrow> <m:mi>K</m:mi><m:msub> <m:mi>E</m:mi> <m:mi>e</m:mi> </m:msub> <m:mo>=</m:mo><m:mi>h</m:mi><m:mi>f</m:mi><m:mo>−</m:mo><m:mi>B</m:mi><m:mi>E</m:mi><m:mo>,</m:mo> </m:mrow></m:math>  where <emphasis effect="italics">hf </emphasis>is the photon energy and BE is the binding energy (or work function) of the electron in the particular material.</item>
+</list>
+</section>
+
+<section id="fs-id1167064875209" class="key-equations"><title>Key Equations</title><table id="fs-id1167066024440" class="unnumbered unstyled" summary="The table has three rows. The first row is for the ‘Energy of a photon,’ which is E = hf . The second row is for the ‘Kinetic energy of a photoelectron,’ which is KEe = hf - BE . The third row is for the ‘Binding energy of an electron’, which is BE = hfo ."><label/>
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry>energy of a photon</entry>
+<entry> <m:math> <m:mrow> <m:mi>E</m:mi><m:mo>=</m:mo><m:mi>h</m:mi><m:mi>f</m:mi> </m:mrow></m:math> </entry>
+</row>
+<row>
+<entry>maximum kinetic energy of a photoelectron</entry>
+<entry> <m:math> <m:mrow> <m:mi>K</m:mi><m:msub> <m:mi>E</m:mi> <m:mi>e</m:mi> </m:msub> <m:mo>=</m:mo><m:mi>h</m:mi><m:mi>f</m:mi><m:mo>−</m:mo><m:mi>B</m:mi><m:mi>E</m:mi> </m:mrow></m:math> </entry>
+</row>
+<row>
+<entry>binding energy of an electron</entry>
+<entry> <m:math> <m:mrow> <m:mi>B</m:mi><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>h</m:mi><m:msub> <m:mi>f</m:mi> <m:mi>O</m:mi> </m:msub> </m:mrow></m:math> </entry>
+</row>
+</tbody>
+
+</tgroup>
+</table></section>
+
+
+
+<section id="fs-id1167062976690" class="concept">
+<title>Concept Items</title>
+<exercise id="fs-id1167065028523" class="os-exercise">
+<problem id="fs-id1167065941703">
+<para id="fs-id1167066136968">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex046"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167062511479" class="os-exercise">
+<problem id="fs-id1167065851355">
+<!-- <para id="fs-id1167064540897">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex047"/>
+</para> -->
+<para id="fs-id1164565937926">True or false—The concept of a work function (or binding energy) is permissible under the classical wave model.</para>
+<list id="fs-id1164567275149" list-type="enumerated" number-style="lower-alpha">
+<item>false</item>
+<item>true</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167065773202" class="os-exercise"><problem id="fs-id1167065937681">
+<para id="fs-id1167065937684">Can a single microwave photon cause cell damage?</para>
+<list id="eip-idm329331584" list-type="enumerated" number-style="lower-alpha">
+<item>No, there is not enough energy associated with a single microwave photon to result in cell damage.</item>
+<item>No, there is zero energy associated with a single microwave photon, so it does not result in cell damage.</item>
+<item>Yes, a single microwave photon causes cell damage because it does not have high energy.</item>
+<item>Yes, a single microwave photon causes cell damage because it has enough energy.</item></list>
+</problem>
+</exercise></section>
+
+<section id="fs-id1167065075833" class="critical-thinking"><title>Critical Thinking</title><exercise id="fs-id1167064696692" class="os-exercise"><problem id="fs-id1167065919846">
+<para id="fs-id1167065919848">
+Light is projected onto a semi-conductive surface. If the intensity is held constant but the frequency of light is increased, what will happen?</para>
+<list id="eip-idm322591568" list-type="enumerated" number-style="lower-alpha">
+<item>As frequency is increased, electrons will stop being ejected from the surface.</item>
+<item>As frequency is increased, electrons will begin to be ejected from the surface.</item>
+<item>As frequency is increased, it will have no effect on the electrons being ejected as the intensity is the same.</item>
+<item>As frequency is increased, the rate at which the electrons are being ejected will increase.</item></list>
+</problem>
+</exercise><exercise id="fs-id1167064910500" class="os-exercise">
+<problem id="fs-id1167065843477">
+<!--<para id="fs-id1167062349896">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex050"/>
+</para>-->
+<para id="fs-id1169828369800">Why is it important to consider what material to use when designing a light meter? Consider the worked example from Section 21-2 for assistance.</para>
+<list id="fs-id1169831830174" list-type="enumerated" number-style="lower-alpha">
+<item>A light meter should contain material that responds only to high frequency light.</item>
+<item>A light meter should contain material that responds to low frequency light.</item>
+<item>A light meter should contain material that has high binding energy.</item>
+<item>A light meter should contain a material that does not show any photoelectric effect.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167062343028" class="os-exercise">
+<problem id="fs-id1167066113239">
+<!--<para id="fs-id1167065849875">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex051"/>
+</para>-->
+<para id="fs-id1169831816311">Why does overexposure to UV light often result in sunburn when overexposure to visible light does not? This is why you can get burnt even on a cloudy day.</para>
+<list id="fs-id1169827299792" list-type="enumerated" number-style="lower-alpha">
+<item>UV light carries less energy than visible light and can penetrate our body.</item>
+<item>UV light carries more energy than visible light, so it cannot break bonds at the cellular level.</item>
+<item>UV light carries more energy than visible light and can break bonds at the cellular level.</item>
+<item>UV light carries less energy than visible light and cannot penetrate the human body.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-id1166846437846" class="os-exercise">
+<problem id="eip-id1166848801328">
+<!-- <para id="eip-id1166851324105">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ot055"/>
+</para> -->
+<para id="fs-id1164565502560">If you pick up and shake a piece of metal that has electrons in it free to move as a current, no electrons fall out. Yet if you heat the metal, electrons can be boiled off. Explain both of these facts as they relate to the amount and distribution of energy involved with shaking the object as compared with heating it.</para>
+<list id="fs-id1164567368150" list-type="enumerated" number-style="lower-alpha"><item>Thermal energy is added to the metal at a much higher rate than energy added due to shaking.</item>
+<item>Thermal energy is added to the metal at a much lower rate than energy added due to shaking.</item>
+<item>If the thermal energy added is below the binding energy of the electrons, they may be <emphasis effect="italics">boiled off.</emphasis></item>
+<item>If the mechanical energy added is below the binding energy of the electrons, they may be <emphasis effect="italics">boiled off.</emphasis></item>
+</list></problem>
+</exercise></section><section id="fs-id1167066045808" class="problems">
+<title>Problems</title>
+<exercise id="fs-id1167064638928" class="os-exercise">
+<problem id="fs-id1167064686571">
+<!-- <para id="fs-id1167064686574">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex052"/>
+</para> -->
+<para id="fs-id1164567871873">What is the binding energy in eV of electrons in magnesium, if the longest-wavelength photon that can eject electrons is 337 nm?</para>
+<list id="fs-id1164565545349" list-type="enumerated" number-style="lower-alpha">
+<item>7.44 × 10<sup>−19</sup> J</item>
+<item>7.44 × 10<sup>−49</sup> J</item>
+<item>5.90 × 10<sup>−17</sup> J</item>
+<item>5.90 × 10<sup>−19</sup> J</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167065712964" class="os-exercise">
+<problem id="fs-id1167066051447">
+<!--<para id="fs-id1167066051449"><link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex053"/>
+</para>-->
+<para id="fs-id1169831666996">Photoelectrons from a material with a binding energy of 2.71 eV are ejected by 420-nm photons. Once ejected, how long does it take these electrons to travel 2.50 cm to a detection device?</para>
+<list id="fs-id1169831811292" list-type="enumerated" number-style="lower-alpha">
+<item>8.5 × 10<sup>−6</sup> s</item>
+<item>3.5 × 10<sup>−7</sup> s</item>
+<item>43.5 × 10<sup>−9</sup> s</item>
+<item>8.5 × 10<sup>−8</sup> s</item>
+</list>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167066042346" class="multiple-choice"><title>Test Prep Multiple Choice</title><exercise id="fs-id1167066137505" class="os-exercise">
+<problem id="fs-id1167064901387">
+<!-- <para id="fs-id1167064901389">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex054"/>
+</para> -->
+<para id="fs-id1164567282835">What is a quantum of light called?</para>
+<list id="fs-id1164568007716" list-type="enumerated" number-style="lower-alpha">
+<item>electron</item>
+<item>neutron</item>
+<item>photon</item>
+<item>proton</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167064534956" class="os-exercise">
+<problem id="fs-id1167064894617">
+<para id="fs-id1167064638954">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex055"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167064916405" class="os-exercise">
+<problem id="fs-id1167063013644">
+<para id="fs-id1167065979325">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex056"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065967871" class="os-exercise">
+<problem id="fs-id1167064911457">
+<!-- <para id="fs-id1167064911459">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex057"/>
+</para> -->
+<para id="fs-id1164567121381">Which of the following terms translates to <emphasis effect="italics">light-producing voltage</emphasis>?</para>
+<list id="fs-id1164568059351" list-type="enumerated" number-style="lower-alpha">
+<item>photoelectric</item>
+<item>quantum mechanics</item>
+<item>photoconductive</item>
+<item>photovoltaic</item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-id1166849104759" class="os-exercise">
+<problem id="eip-id1166848957370">
+<para id="eip-id1166848957372">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ot039"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166848883931" class="os-exercise">
+<problem id="eip-id1166851319712">
+<para id="eip-id1166851319714">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ot040"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167066024970" class="short-answer">
+<title>Test Prep Short Answer</title>
+<exercise id="fs-id1167062342436" class="os-exercise"><problem id="fs-id1167065888224">
+<para id="fs-id1167065000344">According to wave theory, what is necessary to eject electrons from a surface?</para>
+<list id="eip-idm213880352" list-type="enumerated" number-style="lower-alpha">
+<item>Enough energy to overcome the binding energy of the electrons at the surface</item>
+<item>A frequency that is higher than that of the electrons at the surface</item>
+<item>Energy that is lower than the binding energy of the electrons at the surface</item>
+<item>A very small number of photons</item></list>
+</problem>
+</exercise><exercise id="fs-id1167064766259" class="os-exercise">
+<problem id="fs-id1167065986108">
+<!--<para id="fs-id1167065986110">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex061"/>
+</para>-->
+<para id="fs-id1169831864916">What is the wavelength of EM radiation that ejects 2.00-eV electrons from calcium metal, given that the binding energy is 2.71 eV?</para>
+<list id="fs-id1169831805975" list-type="enumerated" number-style="lower-alpha">
+<item>16.1 × 10<sup>5</sup> m</item>
+<item>6.21 × 10<sup>−5</sup> m</item>
+<item>9.94 × 10<sup>−26</sup> m</item>
+<item>2.63 × 10<sup>-7</sup> m</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167065965172" class="os-exercise">
+<problem id="fs-id1167065914612">
+<para id="fs-id1167065955587">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex063"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065897028" class="os-exercise">
+<problem id="fs-id1167062814564">
+<para id="fs-id1167065684030">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex064"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065957855" class="os-exercise">
+<problem id="fs-id1167065911669">
+<para id="fs-id1167065911671">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex065"/>
+</para>
+</problem>
+</exercise>
+</section>
+
+
+<section id="fs-id1167064930535" class="extended-response">
+<title>Test Prep Extended Response</title>
+<exercise id="fs-id1167062488238" class="os-exercise">
+<problem id="fs-id1167064766072">
+<para id="fs-id1167064766074">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex066"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167064916374" class="os-exercise">
+<problem id="fs-id1167062309692">
+<para id="fs-id1167066030214">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex067"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167062373259" class="os-exercise">
+<problem id="fs-id1167065849365">
+<!-- <para id="fs-id1167065033971">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex068"/>
+</para> -->
+<para id="fs-id1164567092936">A 500 nm photon of light strikes a semi-conductive surface with a binding energy of 2 eV. With what velocity will an electron be emitted from the semi-conductive surface?</para>
+<list id="fs-id1164567327659" list-type="enumerated" number-style="lower-alpha">
+<item>8.38 × 10<sup>5</sup> m/s</item>
+<item>9.33 × 10<sup>5</sup> m/s</item>
+<item>3 × 10<sup>8</sup> m/s</item>
+<item>4.11 × 10<sup>5</sup> m/s</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167062939568" class="os-exercise">
+<problem id="fs-id1167065919797">
+<!-- <para id="fs-id1167065919800">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex069"/>
+</para> -->
+<para id="fs-id1164567870441">True or false—Treating food with ionizing radiation helps keep it from spoiling.</para>
+<list id="fs-id1164564339378" list-type="enumerated" number-style="lower-alpha">
+<item>true</item>
+<item>false</item>
+</list>
+</problem>
+</exercise>
+</section>
+
+</content>
+<glossary>
+<definition id="fs-id1167066096442">
+<term>electric eye</term>
+<meaning id="fs-id1167066012599">group of devices that use the photoelectric effect for detection</meaning>
+</definition>
+<definition id="fs-id1167064929877">
+<term>photoelectric effect</term>
+<meaning id="fs-id1167062361818">phenomenon whereby some materials eject electrons when exposed to light</meaning>
+</definition>
+<definition id="fs-id1167066032931">
+<term>photoelectron</term>
+<meaning id="fs-id1167064905074">electron that has been ejected from a material by a photon of light</meaning>
+</definition>
+<definition id="fs-id1167066086051">
+<term>photon</term>
+<meaning id="fs-id1167065938472">a quantum, or particle, of electromagnetic radiation</meaning>
+</definition>
+</glossary>
+</document>

@@ -1,0 +1,1057 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Uniform Circular Motion</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54181</md:content-id>
+  <md:title>Uniform Circular Motion</md:title>
+  <md:abstract/>
+  <md:uuid>ebda9705-aec8-45ec-8ee6-b4f52e9664c0</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167066057932" class="learning-objectives"><label/><title>Section Learning Objectives</title>
+
+<para id="fs-id1167065846123">By the end of this section, you will be able to do the following:</para><list id="fs-id1167066037947">
+<item>Describe centripetal acceleration and relate it to linear acceleration</item>
+<item>Describe centripetal force and relate it to linear force</item>
+<item>Solve problems involving centripetal acceleration and centripetal force</item>
+</list>
+</note><note id="fs-id1167062385691" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167064957422">The learning objectives in this section will help your students master the following standards:</para><list id="fs-id1167065785249">
+<item>(4) Science concepts. The student knows and applies the laws governing motion in a variety of situations. The student is expected to:
+    <list id="fs-id1167064982551"><item>
+<span>(C)</span> <span>analyze and describe accelerated motion in two dimensions using equations, including projectile and circular examples.</span></item>
+<item>
+<span>(D)</span> <span>calculate the effect of forces on objects, including the law of inertia, the relationship between force and acceleration, and the nature of force pairs between objects.</span></item>
+    </list></item>
+</list>
+<para id="fs-id1169316408877">In addition, the High School Physics Laboratory Manual addresses content in this section in the lab titled: Circular and Rotational Motion, as well as the following standards:</para><list id="fs-id1169314950746">
+<item>(4) Science concepts. The student knows and applies the laws governing motion in a variety of situations. The student is expected to:
+<list id="fs-id1169316123808">
+<item>
+<span>(C)</span> <span>analyze and describe accelerated motion in two dimensions using equations, including projectile and circular examples.</span>
+</item>
+</list>
+</item>
+</list>
+</note>
+<section id="keyterms"><title>Section Key Terms</title>
+<table id="fs-id1167064932156" summary="The list of Key Terms includes: centrifugal force, centripetal acceleration, centripetal force, and uniform circular motion." class="unnumbered unstyled section-key-terms"><label/>
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+<row>
+<entry>centrifugal force</entry>
+<entry>centripetal acceleration</entry>
+<entry>centripetal force</entry>
+<entry>uniform circular motion</entry>
+</row>
+</tbody>
+
+</tgroup>
+</table></section>
+
+<section id="fs-id1167065016102"><title>Centripetal Acceleration</title><note id="fs-id1167065898749" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065866449"><span>[BL]</span><span>[OL]</span> Review uniform circular motion. Ask students to give examples of circular motion. Review linear acceleration.</para>
+</note>
+
+<para id="fs-id1167066145293">In the previous section, we defined <term class="no-emphasis">circular motion</term>. The simplest case of circular motion is <term>uniform circular motion</term>, where an object travels a circular path <emphasis effect="italics">at a constant speed</emphasis>. Note that, unlike speed, the linear velocity of an object in circular motion is constantly changing because it is always changing direction. We know from kinematics that <term class="no-emphasis">acceleration</term> is a change in <term class="no-emphasis">velocity</term>, either in magnitude or in direction or both. Therefore, an object undergoing uniform circular motion is always accelerating, even though the magnitude of its velocity is constant.</para>
+
+<para id="fs-id1167062536674">You experience this acceleration yourself every time you ride in a car while it turns a corner. If you hold the steering wheel steady during the turn and move at a constant speed, you are executing uniform circular motion. What you notice is a feeling of sliding (or being flung, depending on the speed) away from the center of the turn. This isn’t an actual force that is acting on you—it only happens because your body wants to continue moving in a straight line (as per Newton’s first law) whereas the car is turning off this straight-line path. Inside the car it appears as if you are forced away from the center of the turn. This fictitious force is known as the <term>centrifugal force</term>. The sharper the curve and the greater your speed, the more noticeable this effect becomes.</para>
+
+<note id="fs-id1167065950366" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167062308434"><span>[BL]</span><span>[OL]</span><span>[AL]</span> Demonstrate circular motion by tying a weight to a string and twirling it around. Ask students what would happen if you suddenly cut the string? In which direction would the object travel? Why? What does this say about the direction of acceleration? Ask students to give examples of when they have come across centripetal acceleration.</para>
+</note>
+<para id="fs-id1167062385320"><link target-id="Figure_06_02_Centripetal"/> shows an object moving in a circular path at constant speed. The direction of the instantaneous tangential velocity is shown at two points along the path. Acceleration is in the direction of the change in velocity; in this case it points roughly toward the center of rotation. (The center of rotation is at the center of the circular path). If we imagine  <m:math>
+ <m:mrow>
+  <m:mtext>Δ</m:mtext><m:mi>s</m:mi></m:mrow>
+</m:math>  becoming smaller and smaller, then the acceleration would point <emphasis effect="italics">exactly</emphasis> toward the center of rotation, but this case is hard to draw. We call the acceleration of an object moving in uniform circular motion the <term>centripetal acceleration</term> <emphasis>a</emphasis><sub>c</sub> because centripetal means <emphasis effect="italics">center seeking</emphasis>.</para><figure id="Figure_06_02_Centripetal"><media id="fs-id1167066037844" alt="The diagram shows a formula: change in v is equal to v2 minus v1. There are three rays positioned on a triangle with points P, Q, and R. The ray between P and Q is labeled v1. The ray between P and R is labeled v2 and the ray opposite P between Q and R is labeled change in v. Below the formula and triangle is a circle with center A and two radii labeled r with the angle between them labeled change in theta. The points on the circumference for the two radii are labeled B and C with a line segment of change in r indicated for the distance between the two points. The arc going from B to C along the circumference is labeled change of s and the velocity arrow at point B is labeled v1 and at C is labeled v2.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_06_02_Centripita.jpg"/>
+</media>
+
+<caption>The directions of the velocity of an object at two different points are shown, and the change in velocity  <m:math>
+ <m:mrow>
+  <m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle></m:mrow>
+</m:math>  is seen to point approximately toward the center of curvature (see small inset). For an extremely small value of  <m:math>
+ <m:mrow>
+  <m:mtext>Δ</m:mtext><m:mi>s</m:mi></m:mrow>
+</m:math>,  <m:math>
+ <m:mrow>
+  <m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle></m:mrow>
+</m:math>  points exactly toward the center of the circle (but this is hard to draw). Because  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>a</m:mi></m:mstyle>
+   <m:mtext>c</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle><m:mo>/</m:mo><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow>
+</m:math>, the acceleration is also toward the center, so <emphasis>a</emphasis><sub><emphasis effect="italics">c</emphasis></sub> is called centripetal acceleration.</caption></figure><note id="fs-id1167062305352" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065919116">Consider <link target-id="Figure_06_02_Centripetal"/>. The figure shows an object moving in a circular path at constant speed and the direction of the instantaneous velocity of two points along the path. Acceleration is in the direction of the change in velocity and points toward the center of rotation. This is strictly true only as  <m:math>
+ <m:mrow>
+  <m:mtext>Δ</m:mtext><m:mi>s</m:mi></m:mrow>
+</m:math>  tends to zero.</para></note>
+
+<para id="fs-id1167065837666">Now that we know that the direction of centripetal acceleration is toward the center of rotation, let’s discuss the magnitude of centripetal acceleration. For an object traveling at speed <emphasis effect="italics">v</emphasis> in a circular path with radius <emphasis effect="italics">r</emphasis>, the magnitude of centripetal acceleration is</para>
+
+<equation id="fs-id1167065858756" class="unnumbered"><label/>
+ <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>a</m:mi></m:mstyle>
+   <m:mtext>c</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msup>
+     <m:mi>v</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    </m:mrow>
+   <m:mi>r</m:mi>
+  </m:mfrac>
+<m:mtext>.</m:mtext>
+  </m:mrow>
+</m:math>
+</equation><para id="fs-id1167064904439">Centripetal acceleration is greater at high speeds and in sharp curves (smaller radius), as you may have noticed when driving a car, because the car actually pushes you toward the center of the turn. But it is a bit surprising that <emphasis>a</emphasis><sub>c</sub> is proportional to the speed squared. This means, for example, that the acceleration is four times greater when you take a curve at 100 km/h than at 50 km/h. </para>
+
+<para id="fs-id1167062299236">We can also express <emphasis>a</emphasis><sub>c</sub> in terms of the magnitude of <term class="no-emphasis">angular velocity</term>. Substituting  <m:math>
+ <m:mrow>
+  <m:mi>v</m:mi><m:mo>=</m:mo><m:mi>r</m:mi><m:mi>ω</m:mi></m:mrow>
+</m:math>  into the equation above, we get  <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msub>
+    <m:mi>a</m:mi>
+    <m:mi>c</m:mi>
+   </m:msub>
+   <m:mo>=</m:mo><m:mfrac>
+    <m:mrow>
+     <m:msup>
+      <m:mrow>
+       <m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mi>ω</m:mi><m:mo stretchy="false">)</m:mo>
+      </m:mrow>
+      <m:mn>2</m:mn>
+     </m:msup>
+
+    </m:mrow>
+    <m:mi>r</m:mi>
+   </m:mfrac>
+   <m:mo>=</m:mo><m:mi>r</m:mi><m:msup>
+    <m:mi>ω</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+
+  </m:mrow>
+ </m:semantics>
+</m:math> . Therefore, the magnitude of centripetal acceleration in terms of the magnitude of angular velocity is <equation id="fs-id1167065820320"> <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msub>
+    <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>a</m:mi></m:mstyle>
+    <m:mi>c</m:mi>
+   </m:msub>
+   <m:mo>=</m:mo><m:mi>r</m:mi><m:msup>
+    <m:mi>ω</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mo>.</m:mo>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</equation></para><note id="fs-id1167064892349" class="tips-for-success">
+
+<para id="fs-id1167062315588">The equation expressed in the form <emphasis effect="italics">a</emphasis><sub>c</sub> = <emphasis effect="italics">rω</emphasis><sup>2</sup> is useful for solving problems where you know the angular velocity rather than the tangential velocity.</para>
+</note>
+
+<note id="fs-id1167064850602" class="virtual-physics os-interactive"><title>Ladybug Motion in 2D</title>
+
+<para id="fs-id1167065965047">In this simulation, you experiment with the position, velocity, and acceleration of a ladybug in circular and elliptical motion. Switch the type of motion from linear to circular and observe the velocity and acceleration vectors. Next, try elliptical motion and notice how the velocity and acceleration vectors differ from those in circular motion.</para>
+<media id="fs-id1167062339457" alt="This simulation allows you to adjust position, velocity, and acceleration of a ladybug.">
+<iframe width="660" height="371.4" src="https://openstax.org/l/28ladybug"/></media>
+
+<exercise id="fs-id1167066020743" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167066034487">
+<!--<para id="fs-id1167066127471"><link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex031"/>
+</para>-->
+
+<para id="fs-id1164565427595">In uniform circular motion, what is the angle between the acceleration and the velocity? What type of acceleration does a body experience in the uniform circular motion?</para>
+<list id="fs-id1164564403739" list-type="enumerated" number-style="lower-alpha">
+<item>The angle between acceleration and velocity is 0°, and the body experiences linear acceleration.</item>
+<item>The angle between acceleration and velocity is 0°, and the body experiences centripetal acceleration.</item>
+<item>The angle between acceleration and velocity is 90°, and the body experiences linear acceleration.</item>
+<item>The angle between acceleration and velocity is 90°, and the body experiences centripetal acceleration.</item>
+</list>
+</problem>
+</exercise>
+</note></section><section id="fs-id1167065774987"><title>Centripetal Force</title><note id="fs-id1167065851553" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065827754"><span>[BL]</span><span>[OL]</span><span>[AL]</span> Using the same demonstration as before, ask students to predict the relationships between the quantities of angular velocity, centripetal acceleration, mass, centripetal force. Invite students to experiment by using various lengths of string and different weights.</para>
+</note>
+
+<para id="fs-id1167066051057">Because an object in uniform circular motion undergoes constant acceleration (by changing direction), we know from Newton’s second law of motion that there must be a constant net external force acting on the object.</para>
+
+<para id="fs-id1167066047091">Any force or combination of forces can cause a centripetal acceleration. Just a few examples are the tension in the rope on a tether ball, the force of Earth’s gravity on the Moon, the friction between a road and the tires of a car as it goes around a curve, or the normal force of a roller coaster track on the cart during a loop-the-loop.</para>
+
+<para id="fs-id1167065772688">Any net force causing uniform circular motion is called a <term>centripetal force</term>. The direction of a centripetal force is toward the center of rotation, the same as for centripetal acceleration. According to Newton’s second law of motion, a net force causes the acceleration of mass according to <emphasis>F</emphasis><sub>net</sub> = <emphasis effect="italics">m</emphasis><emphasis>a</emphasis>. For uniform circular motion, the acceleration is centripetal acceleration: <emphasis>a</emphasis> = <emphasis>a</emphasis><sub>c</sub>. Therefore, the magnitude of centripetal force, <emphasis>F</emphasis><sub>c</sub>, is  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+   <m:mtext>c</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:mi>m</m:mi><m:msub>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>a</m:mi></m:mstyle>
+   <m:mtext>c</m:mtext>
+  </m:msub>
+  </m:mrow>
+</m:math> .</para><para id="fs-id1167066183003">By using the two different forms of the equation for the magnitude of centripetal acceleration,  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>a</m:mi></m:mstyle>
+   <m:mtext>c</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:mrow><m:mrow>
+   <m:msup>
+    <m:mi>v</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   </m:mrow><m:mo>/</m:mo><m:mi>r</m:mi></m:mrow>
+  </m:mrow>
+</m:math>  and  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>a</m:mi></m:mstyle>
+   <m:mi>c</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mi>r</m:mi><m:msup>
+   <m:mi>ω</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math>, we get two expressions involving the magnitude of the centripetal force <emphasis>F</emphasis><sub>c</sub>. The first expression is in terms of tangential speed, the second is in terms of angular speed:  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+   <m:mtext>c</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:mi>m</m:mi><m:mfrac>
+   <m:mrow>
+    <m:msup>
+     <m:mi>v</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    </m:mrow>
+   <m:mi>r</m:mi>
+  </m:mfrac>
+  </m:mrow>
+</m:math>  and  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+   <m:mtext>c</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:mi>m</m:mi><m:mi>r</m:mi><m:msup>
+   <m:mi>ω</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math> .</para><para id="fs-id1167066091164">Both forms of the equation depend on mass, velocity, and the radius of the circular path. You may use whichever expression for centripetal force is more convenient. Newton’s second law also states that the object will accelerate in the same direction as the net force. By definition, the centripetal force is directed towards the center of rotation, so the object will also accelerate towards the center. A straight line drawn from the circular path to the center of the circle will always be perpendicular to the tangential velocity. Note that, if you solve the first expression for <emphasis effect="italics">r</emphasis>, you get</para>
+
+<equation id="fs-id1167064850065" class="unnumbered"><label/>
+ <m:math>
+ <m:mrow>
+  <m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>m</m:mi><m:msup>
+     <m:mi>v</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+     <m:mtext>c</m:mtext>
+    </m:msub>
+    </m:mrow>
+  </m:mfrac>
+<m:mtext>.</m:mtext>
+  </m:mrow>
+</m:math>
+</equation><para id="fs-id1167066189097">From this expression, we see that, for a given mass and velocity, a large centripetal force causes a small radius of curvature—that is, a tight curve.</para>
+
+<figure id="Figure_06_02_CircularMotion"><media id="fs-id1167065808558" alt="The figure shows a semicircle with an arrow indicating a counterclockwise Path with radius labeled r, and arrow pointing from the outside of the circle towards the radius arrow. The arrow opposite the radius is labeled large r and has an f indicating force. The arrow tangential to the circle between the radius and large r arrows is labeled v (velocity). Below the first semicircle is a formula: f equals Fc is parallel to ac since Fc equals m times a alpha. Another semicircle with the same directional path is drawn below formula with a radius r prime, velocity v, large Fc pointing toward the r prime radius arrow and a label below the large Fc showing smaller r prime and same v.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_06_02_Circular.jpg"/>
+</media>
+
+<caption>In this figure, the frictional force <emphasis effect="italics"><emphasis>f</emphasis></emphasis> serves as the centripetal force <emphasis>F</emphasis><sub>c</sub>. Centripetal force is perpendicular to tangential velocity and causes uniform circular motion. The larger the centripetal force <emphasis>F</emphasis><sub>c</sub>, the smaller is the radius of curvature <emphasis effect="italics">r</emphasis> and the sharper is the curve. The lower curve has the same velocity <emphasis>v</emphasis>, but a larger centripetal force <emphasis>F</emphasis><sub>c</sub> produces a smaller radius  <m:math>
+ <m:msup>
+  <m:mi>r</m:mi>
+  <m:mo>′</m:mo>
+ </m:msup>
+
+</m:math> .</caption></figure><note id="fs-id1167065941582" class="watch-physics"><title>Centripetal Force and Acceleration Intuition</title>
+
+<para id="fs-id1167065770178">This video explains why a centripetal force creates centripetal acceleration and uniform circular motion. It also covers the difference between speed and velocity and shows examples of uniform circular motion.</para>
+
+<media id="fs-id1167065707865" alt="This tutorial explains the direction of the force in the cases of circular motion at constant speeds.">
+<iframe width="660" height="371.4" src="https://www.youtube.com/embed/vZOk8NnjILg"/>
+</media>
+
+<note id="fs-id1167067098478" class="os-teacher">
+<title>Teacher Support</title>
+<note id="fs-id1167062372002" class="misconception">
+
+<para id="fs-id1167065854431">Some students might be confused between centripetal force and centrifugal force. Centrifugal force is not a real force but the result of an accelerating reference frame, such as a turning car or the spinning Earth. Centrifugal force refers to a fictional <emphasis effect="italics">center fleeing</emphasis> force.</para>
+</note>
+</note>
+<exercise id="fs-id1167065039885" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167065859273">
+<para id="fs-id1167065877635">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex032"/>
+</para>
+</problem>
+</exercise>
+</note></section><section id="fs-id1167065012460">
+<title>Solving Centripetal Acceleration and Centripetal Force Problems</title>
+<para id="fs-id1167065897724">To get a feel for the typical magnitudes of centripetal acceleration, we’ll do a lab estimating the centripetal acceleration of a tennis racket and then, in our first Worked Example, compare the centripetal acceleration of a car rounding a curve to gravitational acceleration. For the second Worked Example, we’ll calculate the force required to make a car round a curve.</para>
+
+<note id="fs-id1167064825732" class="snap-lab"><title>Estimating Centripetal Acceleration</title>
+
+<para id="fs-id1167064892017">In this activity, you will measure the swing of a golf club or tennis racket to estimate the centripetal acceleration of the end of the club or racket. You may choose to do this in slow motion. Recall that the equation for centripetal acceleration is  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>a</m:mi></m:mstyle>
+   <m:mtext>c</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msup>
+     <m:mi>v</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    </m:mrow>
+   <m:mi>r</m:mi>
+  </m:mfrac>
+  </m:mrow>
+</m:math>  or  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>a</m:mi></m:mstyle>
+   <m:mi>c</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mi>r</m:mi><m:msup>
+   <m:mi>ω</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math> .</para><list id="fs-id1167064541431" class="materials">
+
+<item>One tennis racket or golf club</item>
+<item>One timer</item>
+<item>One ruler or tape measure</item>
+</list>
+
+<list id="fs-id1167065762901" list-type="enumerated" number-style="arabic">
+<title>Procedure</title>
+<item>Work with a partner. Stand a safe distance away from your partner as he or she swings the golf club or tennis racket.</item>
+<item>Describe the motion of the swing—is this uniform circular motion? Why or why not?</item>
+<item>Try to get the swing as close to uniform circular motion as possible. What adjustments did your partner need to make?</item>
+<item>Measure the radius of curvature. What did you physically measure?</item>
+<item>By using the timer, find either the linear or angular velocity, depending on which equation you decide to use.</item>
+<item>What is the approximate centripetal acceleration based on these measurements? How accurate do you think they are? Why? How might you and your partner make these measurements more accurate?</item>
+</list>
+
+<note id="fs-id1167066012512" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167062400309">The swing of the golf club or racket can be made very close to uniform circular motion. For this, the person would have to move it at a constant speed, without bending their arm. The length of the arm plus the length of the club or racket is the radius of curvature. Accuracy of measurements of angular velocity and angular acceleration will depend on resolution of the timer used and human observational error. The swing of the golf club or racket can be made very close to uniform circular motion. For this, the person would have to move it at a constant speed, without bending their arm. The length of the arm plus the length of the club or racket is the radius of curvature. Accuracy of measurements of angular velocity and angular acceleration will depend on resolution of the timer used and human observational error.</para>
+</note>
+
+<exercise id="fs-id1167064881608" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167065914542">
+<!--<para id="fs-id1167065733924">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex033"/>
+</para>-->
+<para id="fs-id1164567920186">Was it more useful to use the equation  <m:math display="block"> <m:semantics>  <m:mrow>   <m:msub>    <m:mi>a</m:mi>    <m:mi>c</m:mi>   </m:msub>   <m:mo>=</m:mo><m:mfrac>    <m:mrow>     <m:msup>      <m:mi>v</m:mi>      <m:mn>2</m:mn>     </m:msup>   </m:mrow>   <m:mi>r</m:mi>   </m:mfrac>  </m:mrow> </m:semantics></m:math>  or  <m:math display="block"> <m:semantics>  <m:mrow>   <m:msub>    <m:mi>a</m:mi>    <m:mi>c</m:mi>   </m:msub>   <m:mo>=</m:mo><m:mi>r</m:mi><m:msup>    <m:mi>ω</m:mi>    <m:mn>2</m:mn>   </m:msup>     </m:mrow> </m:semantics></m:math>  in this activity? Why?</para>
+<list id="fs-id1164564287765" list-type="enumerated" number-style="lower-alpha">
+<item>It should be simpler to use  <m:math display="block"> <m:semantics>  <m:mrow>   <m:msub>    <m:mi>a</m:mi>    <m:mi>c</m:mi>   </m:msub>   <m:mo>=</m:mo><m:mi>r</m:mi><m:msup>    <m:mi>ω</m:mi>    <m:mn>2</m:mn>   </m:msup>   </m:mrow> </m:semantics></m:math>  because measuring angular velocity through observation would be easier.</item>
+<item>It should be simpler to use  <m:math display="block"> <m:semantics>  <m:mrow>   <m:msub>    <m:mi>a</m:mi>    <m:mi>c</m:mi>   </m:msub>   <m:mo>=</m:mo><m:mfrac>    <m:mrow>     <m:msup>      <m:mi>v</m:mi>      <m:mn>2</m:mn>     </m:msup>   </m:mrow>   <m:mi>r</m:mi>   </m:mfrac>  </m:mrow> </m:semantics></m:math>  because measuring tangential velocity through observation would be easier.</item>
+<item>It should be simpler to use  <m:math display="block"> <m:semantics>  <m:mrow>   <m:msub>    <m:mi>a</m:mi>    <m:mi>c</m:mi>   </m:msub>   <m:mo>=</m:mo><m:mi>r</m:mi><m:msup>    <m:mi>ω</m:mi>    <m:mn>2</m:mn>   </m:msup>    </m:mrow> </m:semantics></m:math>  because measuring angular velocity through observation would be difficult.</item>
+<item>It should be simpler to use  <m:math display="block"> <m:semantics>  <m:mrow>   <m:msub>    <m:mi>a</m:mi>    <m:mi>c</m:mi>   </m:msub>   <m:mo>=</m:mo><m:mfrac>    <m:mrow>     <m:msup>      <m:mi>v</m:mi>      <m:mn>2</m:mn>     </m:msup>   </m:mrow>   <m:mi>r</m:mi>   </m:mfrac>  </m:mrow> </m:semantics></m:math>  because measuring tangential velocity through observation would be difficult.</item>
+</list>
+
+</problem>
+</exercise>
+</note><note id="fs-id1167065711498" class="worked-example">
+
+<title>Comparing Centripetal Acceleration of a Car Rounding a Curve with Acceleration Due to Gravity</title>
+<exercise id="fs-id1167065762394" class="06-ex034"><label/>
+<problem id="fs-id1167064903952"><para id="fs-id1167066141965">A car follows a curve of radius 500 m at a speed of 25.0 m/s (about 90 km/h). What is the magnitude of the car’s centripetal acceleration? Compare the centripetal acceleration for this fairly gentle curve taken at highway speed with acceleration due to gravity (<emphasis effect="italics">g</emphasis>).</para>
+
+
+<media id="fs-id1167064928921" alt="The diagram shows an illustration of a car driving clockwise around a circle with a radius r and an arrow pointing in the direction of the car labeled v and an arrow pointing opposite toward the radius labeled ac (centripetal acceleration). The point at the center of the circle and start of radius is labeled Center of rotation.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_06_02_CarCurve_img.jpg"/>
+</media>
+
+<note id="fs-id1167066029823">
+<label/>
+<title>Strategy</title>
+<para id="fs-id1167064894974">Because linear rather than angular speed is given, it is most convenient to use the expression  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>a</m:mi></m:mstyle>
+   <m:mtext>c</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msup>
+     <m:mi>v</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    </m:mrow>
+   <m:mi>r</m:mi>
+  </m:mfrac>
+  </m:mrow>
+</m:math>  to find the magnitude of the centripetal acceleration.</para></note>
+</problem>
+<solution id="fs-id1167065838303">
+<label/>
+<title>Solution</title>
+<para id="fs-id1167065735108">Entering the given values of <emphasis effect="italics">v </emphasis>= 25.0 m/s and <emphasis effect="italics">r </emphasis>= 500 m into the expression for <emphasis>a</emphasis><sub>c</sub> gives</para>
+<equation id="fs-id1167064907892" class="unnumbered"><label/>
+ <m:math>
+ <m:mrow>
+  <m:mtable>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center" columnalign="right">
+     <m:mrow>
+      <m:msub>
+       <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>a</m:mi></m:mstyle>
+       <m:mtext>c</m:mtext>
+      </m:msub>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd rowalign="center" columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:msup>
+         <m:mi>v</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+        </m:mrow>
+       <m:mi>r</m:mi>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd rowalign="center" columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:msup>
+         <m:mrow>
+          <m:mrow><m:mo>(</m:mo>
+           <m:mrow>
+            <m:mn>25.0</m:mn><m:mspace width="0.3em"/><m:mtext>m/s</m:mtext></m:mrow>
+          <m:mo>)</m:mo></m:mrow></m:mrow>
+         <m:mn>2</m:mn>
+        </m:msup>
+        </m:mrow>
+       <m:mrow>
+        <m:mn>500</m:mn><m:mspace width="0.3em"/><m:mtext>m</m:mtext></m:mrow>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd rowalign="center" columnalign="left">
+     <m:mrow>
+      <m:mn>1.25</m:mn><m:msup>
+       <m:mrow>
+        <m:mtext>m/s</m:mtext></m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+<m:mtext>.</m:mtext>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable></m:mrow>
+</m:math> </equation></solution>
+<commentary id="fs-id1167065823435">
+<title>Discussion</title>
+<para id="fs-id1167065944125">To compare this with the acceleration due to gravity (<emphasis effect="italics">g </emphasis>= 9.80 m/s<sup>2</sup>), we take the ratio  <m:math>
+ <m:mrow>
+  <m:mrow><m:mrow>
+   <m:msub>
+    <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>a</m:mi></m:mstyle>
+    <m:mtext>c</m:mtext>
+   </m:msub>
+   </m:mrow><m:mo>/</m:mo><m:mi>g</m:mi></m:mrow>
+  <m:mo>=</m:mo><m:mrow><m:mrow>
+   <m:mo stretchy="false">(</m:mo><m:mn>1.25</m:mn><m:msup>
+    <m:mrow>
+     <m:mtext> m/s</m:mtext></m:mrow>
+    <m:mtext>2</m:mtext>
+   </m:msup>
+   <m:mo stretchy="false">)</m:mo></m:mrow><m:mo>/</m:mo><m:mrow>
+   <m:mo stretchy="false">(</m:mo><m:mn>9.80</m:mn><m:msup>
+    <m:mrow>
+     <m:mtext>m/s</m:mtext></m:mrow>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mo stretchy="false">)</m:mo></m:mrow></m:mrow>
+  <m:mo>=</m:mo><m:mn>0.128</m:mn></m:mrow>
+</m:math> . Therefore,  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>a</m:mi></m:mstyle>
+   <m:mtext>c</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>0.128</m:mn><m:mi>g</m:mi></m:mrow>
+</m:math>, which means that the centripetal acceleration is about one tenth the acceleration due to gravity.</para></commentary>
+</exercise></note>
+
+<note id="fs-id1167065971426" class="worked-example"><title>Frictional Force on Car Tires Rounding a Curve</title>
+
+<exercise id="fs-id1167064948691" class="06-ex035"><label/>
+<problem id="fs-id1167062314895">
+<list id="fs-id1167065715123" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>Calculate the centripetal force exerted on a 900 kg car that rounds a 600-m-radius curve on horizontal ground at 25.0 m/s.</item>
+<item>Static friction prevents the car from slipping. Find the magnitude of the frictional force between the tires and the road that allows the car to round the curve without sliding off in a straight line.</item>
+</list>
+
+<media id="fs-id1167065824509" alt="The diagram shows an illustration of a car and a red dot. An arrow pointing up from the red dot is labeled N. An arrow pointing down is labeled w and an arrow pointing to the left is labeled f. Below the car is another arrow pointing down labeled w and an arrow pointing from the ground to the car labeled N. On the right back tire is a left arrow pointing toward the wheel with the formula f equals Fc equals mu s times N.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_06_02_CentForce_img.jpg"/>
+</media>
+<note id="fs-id1167065704404">
+<label/>
+<title>Strategy and Solution for (a)</title>
+<para id="fs-id1167065757898">We know that  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+   <m:mtext>c</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:mi>m</m:mi><m:mfrac>
+   <m:mrow>
+    <m:msup>
+     <m:mi>v</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    </m:mrow>
+   <m:mi>r</m:mi>
+  </m:mfrac>
+  </m:mrow>
+</m:math> . Therefore,</para><equation id="fs-id1167066145476" class="unnumbered"><label/>
+ <m:math>
+ <m:mrow>
+  <m:mtable>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center" columnalign="right">
+     <m:mrow>
+      <m:msub>
+       <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+       <m:mtext>c</m:mtext>
+      </m:msub>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd rowalign="center" columnalign="left">
+     <m:mrow>
+      <m:mi>m</m:mi><m:mfrac>
+       <m:mrow>
+        <m:msup>
+         <m:mi>v</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+        </m:mrow>
+       <m:mi>r</m:mi>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd rowalign="center" columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mrow><m:mo>(</m:mo>
+         <m:mrow>
+          <m:mn>900</m:mn><m:mspace width="0.3em"/><m:mtext>kg</m:mtext></m:mrow>
+        <m:mo>)</m:mo></m:mrow><m:msup>
+         <m:mrow>
+          <m:mrow><m:mo>(</m:mo>
+           <m:mrow>
+            <m:mn>25.0</m:mn><m:mspace width="0.3em"/><m:mtext>m/s</m:mtext></m:mrow>
+          <m:mo>)</m:mo></m:mrow></m:mrow>
+         <m:mn>2</m:mn>
+        </m:msup>
+        </m:mrow>
+       <m:mrow>
+        <m:mn>600</m:mn><m:mspace width="0.3em"/><m:mtext>m</m:mtext></m:mrow>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd rowalign="center" columnalign="left">
+     <m:mrow>
+      <m:mn>938</m:mn><m:mspace width="0.3em"/><m:mtext>N.</m:mtext></m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable></m:mrow>
+</m:math> </equation></note>
+
+<note id="fs-id1167062315417">
+<label/>
+<title>Strategy and Solution for (b)</title>
+<para id="fs-id1167066173235">The image above shows the forces acting on the car while rounding the curve. In this diagram, the car is traveling into the page as shown and is turning to the left. Friction acts toward the left, accelerating the car toward the center of the curve. Because friction is the only horizontal force acting on the car, it provides all of the centripetal force in this case. Therefore, the force of friction is the centripetal force in this situation and points toward the center of the curve.</para>
+<equation id="fs-id1167064910740" class="unnumbered"><label/>
+ <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo>=</m:mo><m:msub>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+   <m:mtext>c</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>938</m:mn><m:mspace width="0.3em"/><m:mtext>N</m:mtext></m:mrow>
+</m:math>
+</equation></note>
+</problem>
+
+<commentary id="fs-id1167065736686">
+<title>Discussion</title>
+<para id="fs-id1167062342818">Since we found the force of friction in part (b), we could also solve for the coefficient of friction, since  <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo>=</m:mo><m:msub>
+   <m:mi>μ</m:mi>
+   <m:mtext>s</m:mtext>
+  </m:msub>
+  <m:mtext>N</m:mtext><m:mo>=</m:mo><m:msub>
+   <m:mi>μ</m:mi>
+   <m:mtext>s</m:mtext>
+  </m:msub>
+  <m:mi>m</m:mi><m:mi>g</m:mi></m:mrow>
+</m:math> .</para></commentary>
+</exercise></note></section>
+
+<section id="fs-id1167065866432" class="practice-problems"><title>Practice Problems</title><exercise id="fs-id1167065955117">
+<problem id="fs-id1167066057848">
+<para id="fs-id1167065976177">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex036"/>
+</para>
+</problem>
+</exercise>
+
+<exercise id="fs-id1167065878051">
+<problem id="fs-id1167065792384">
+<!--<para id="fs-id1167066056615">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex037"/>
+</para>-->
+<para id="fs-id1164565356875">Calculate the centripetal acceleration of an object following a path with a radius of a curvature of 0.2 m and at an angular velocity of 5 rad/s.</para>
+<list id="fs-id1164565870998" list-type="enumerated" number-style="lower-alpha">
+<item>1 m/s</item>
+<item>5 m/s</item>
+<item>1 m/s<sup>2</sup></item>
+<item>5 m/s<sup>2</sup></item>
+</list>
+</problem>
+</exercise>
+</section><section id="fs-id1167065029098" class="check-understanding">
+<title>Check Your Understanding</title>
+<exercise id="fs-id1167064916151" class="os-exercise">
+<problem id="fs-id1167065968370">
+<para id="fs-id1167064979743">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex038"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167062602242" class="os-exercise">
+<problem id="fs-id1167064770270">
+<!--<para id="fs-id1167064824437">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex039"/>
+</para>-->
+<para id="fs-id1164568077326">What is centripetal acceleration?</para>
+<list id="fs-id1164566236765" list-type="enumerated" number-style="lower-alpha">
+<item>The acceleration of an object moving in a circular path and directed radially toward the center of the circular orbit</item>
+<item>The acceleration of an object moving in a circular path and directed tangentially along the circular path</item>
+<item>The acceleration of an object moving in a linear path and directed in the direction of motion of the object</item>
+<item>The acceleration of an object moving in a linear path and directed in the direction opposite to the motion of the object</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167065792783" class="os-exercise">
+<problem id="fs-id1167065843009">
+<para id="fs-id1167065763197">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex040"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065699905" class="os-exercise">
+<problem id="fs-id1167066104567">
+<!--<para id="fs-id1167066040962">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex041"/>
+</para>-->
+
+<para id="fs-id1164567240672">Identify two examples of forces that can cause centripetal acceleration.</para>
+<list id="fs-id1164565375981" list-type="enumerated" number-style="lower-alpha">
+<item>The force of Earths gravity on the moon and the normal force</item>
+<item>The force of Earths gravity on the moon and the tension in the rope on an orbiting tetherball</item>
+<item>The normal force and the force of friction acting on a moving car</item>
+<item>The normal force and the tension in the rope on a tetherball</item>
+</list>
+</problem>
+</exercise>
+
+<note id="fs-id1167065871468" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065720622">Use the Check Your Understanding questions to assess whether students master the learning objectives of this section. If students are struggling with a specific objective, the formative assessment will help identify which objective is causing the problem and direct students to the relevant content.</para></note>
+</section>
+
+<section id="fs-id1167065712628" class="summary">
+<title>Section Summary</title>
+<list id="fs-id1167065974122"><item>Centripetal acceleration <emphasis>a</emphasis><sub>c</sub> is the acceleration experienced while in uniform circular motion.</item>
+<item>Centripetal acceleration force is a <emphasis effect="italics">center-seeking</emphasis> force that always points toward the center of rotation, perpendicular to the linear velocity, in the same direction as the net force, and in the direction opposite that of the radius vector.</item>
+<item>The standard unit for centripetal acceleration is m/s<sup>2</sup>.</item>
+<item>Centripetal force <emphasis>F</emphasis><sub>c</sub> is any net force causing uniform circular motion.</item>
+</list></section>
+
+<section id="fs-id1167065968295" class="key-equations"><title>Key Equations</title><table id="fs-id1167065974908" class="unnumbered unstyled" summary="The list of Key Equations includes equations for centripetal acceleration and centripetal force.">
+<label/>
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry>Centripetal acceleration</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>a</m:mi></m:mstyle>
+   <m:mtext>c</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msup>
+     <m:mi>v</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    </m:mrow>
+   <m:mi>r</m:mi>
+  </m:mfrac>
+  </m:mrow>
+</m:math>  or  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>a</m:mi></m:mstyle>
+   <m:mi>c</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mi>r</m:mi><m:msup>
+   <m:mi>ω</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math> </entry>
+</row>
+<row>
+<entry>Centripetal force</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+   <m:mi>c</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mi>m</m:mi><m:msub>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>a</m:mi></m:mstyle>
+   <m:mi>c</m:mi>
+  </m:msub>
+  </m:mrow>
+</m:math>,  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+   <m:mtext>c</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:mi>m</m:mi><m:mfrac>
+   <m:mrow>
+    <m:msup>
+     <m:mi>v</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    </m:mrow>
+   <m:mi>r</m:mi>
+  </m:mfrac>
+  </m:mrow>
+</m:math>,  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+   <m:mtext>c</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:mi>m</m:mi><m:mi>r</m:mi><m:msup>
+   <m:mi>ω</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math> </entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table></section><section id="fs-id1167065949153" class="concept"><title>Concept Items</title><exercise id="fs-id1167064914696" class="os-exercise">
+<problem id="fs-id1167066055880">
+<para id="fs-id1167065702982">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex042"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167064872633" class="os-exercise">
+<problem id="fs-id1167065947893">
+<para id="fs-id1167065034581">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex043"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166846580500" class="os-exercise">
+<problem id="eip-id1166851215284">
+<para id="eip-id1166851215286">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch06-ot029"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167064876948" class="critical-thinking"><title>Critical Thinking</title><exercise id="fs-id1167065956344" class="os-exercise">
+<problem id="fs-id1167066034516">
+<para id="fs-id1167065771968">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex044"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065966922" class="os-exercise">
+<problem id="fs-id1167062355517">
+<para id="fs-id1167064649360">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex045"/>
+</para>
+</problem>
+</exercise>
+</section><section id="fs-id1167065683670" class="problems">
+<title>Problems</title>
+<exercise id="fs-id1167064738188" class="os-exercise">
+<problem id="fs-id1167064691897">
+<!--<para id="fs-id1167066098548">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex046"/>
+</para>-->
+<para id="fs-id1164564449071">What is the centripetal force exerted on a 1,600 kg car that rounds a 100 m radius curve at 12 m/s?</para>
+<list id="fs-id1164566066733" list-type="enumerated" number-style="lower-alpha">
+<item>192 N</item>
+<item>1, 111 N</item>
+<item>2, 300 N</item>
+<item>13, 333 N</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167066127930" class="os-exercise">
+<problem id="fs-id1167065683833">
+<!--<para id="fs-id1167062314820">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex047"/>
+</para>-->
+
+<para id="fs-id1164567304191">Find the frictional force between the tires and the road that allows a 1,000 kg car traveling at 30 m/s to round a 20 m radius curve.</para>
+<list id="fs-id1164565529593" list-type="enumerated" number-style="lower-alpha">
+<item>22 N</item>
+<item>667 N</item>
+<item>1, 500 N</item>
+<item>45, 000 N</item>
+</list>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167066127961" class="multiple-choice"><title>Test Prep Multiple Choice</title><exercise id="fs-id1167065053186" class="os-exercise">
+<problem id="fs-id1167066111971">
+<!--<para id="fs-id1167065875845">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex048"/>
+</para>-->
+
+<para id="fs-id1164567107308">Which of these quantities is constant in uniform circular motion?</para>
+<list id="fs-id1164567441354" list-type="enumerated" number-style="lower-alpha">
+<item>Speed</item>
+<item>Velocity</item>
+<item>Acceleration</item>
+<item>Displacement</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167066139366" class="os-exercise">
+<problem id="fs-id1167066038549">
+<!--<para id="fs-id1167064906480">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex049"/>
+</para>-->
+
+<para id="fs-id1164567078540">Which of these quantities impact centripetal force?</para>
+<list id="fs-id1164565390348" list-type="enumerated" number-style="lower-alpha">
+<item>Mass and speed only</item>
+<item>Mass and radius only</item>
+<item>Speed and radius only</item>
+<item>Mass, speed, and radius all impact centripetal force</item>
+</list>
+
+</problem>
+</exercise>
+<exercise id="fs-id1167064533354" class="os-exercise">
+<problem id="fs-id1167064824440">
+<!--<para id="fs-id1167065047068">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex050"/>
+</para>-->
+<para id="fs-id1164565320361">An increase in the magnitude of which of these quantities causes a reduction in centripetal force?</para>
+<list id="fs-id1164566387627" list-type="enumerated" number-style="lower-alpha">
+<item>Mass</item>
+<item>Radius of curvature</item>
+<item>Speed</item>
+</list>
+
+</problem>
+</exercise>
+<exercise id="eip-id1166849412816" class="os-exercise">
+<problem id="eip-id1166849781701">
+<para id="eip-id1166849781703">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch06-ot037"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166849868061" class="os-exercise">
+<problem id="eip-id1166847245934">
+<para id="eip-id1166847245936">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch06-ot040"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167066140807" class="short-answer">
+<title>Test Prep Short Answer</title>
+<exercise id="fs-id1167066141041" class="os-exercise">
+<problem id="fs-id1167065853510">
+<!--<para id="fs-id1167064937811">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex051"/>
+</para>-->
+
+<para id="fs-id1164565536661">What type of quantity is centripetal acceleration?</para>
+<list id="fs-id1164567433161" list-type="enumerated" number-style="lower-alpha">
+<item>Scalar quantity; centripetal acceleration has magnitude only but no direction</item>
+<item>Scalar quantity; centripetal acceleration has magnitude as well as direction</item>
+<item>Vector quantity; centripetal acceleration has magnitude only but no direction</item>
+<item>Vector quantity; centripetal acceleration has magnitude as well as direction</item>
+</list>
+
+</problem>
+</exercise>
+<exercise id="fs-id1167065958915" class="os-exercise">
+<problem id="fs-id1167065824405">
+<para id="fs-id1167065999544">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex052"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167064825666" class="os-exercise">
+<problem id="fs-id1167065949118">
+<para id="fs-id1167065911018">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex053"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167064907983" class="os-exercise">
+<problem id="fs-id1167066154303">
+<para id="fs-id1167065954740">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex054"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167066155808" class="os-exercise">
+<problem id="fs-id1167062547752">
+<!--<para id="fs-id1167065952686">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex055"/>
+</para>-->
+<para id="fs-id1164566938055">What are the standard units for centripetal force?</para>
+<list id="fs-id1164563485892" list-type="enumerated" number-style="lower-alpha"><item>m</item>
+<item>m/s</item>
+<item>m/s<sup>2</sup></item>
+<item>newtons</item></list>
+</problem>
+</exercise>
+<exercise id="fs-id1167065808864" class="os-exercise">
+<problem id="fs-id1167065976312">
+<para id="fs-id1167066015091">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex056"/>
+</para>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167065840953" class="extended-response">
+<title>Test Prep Extended Response</title>
+<exercise id="fs-id1167066020649" class="os-exercise">
+<problem id="fs-id1167065024168">
+<para id="fs-id1167065066818">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex057"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065978418" class="os-exercise">
+<problem id="fs-id1167062408012">
+<!--<para id="fs-id1167064927702">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex058"/>
+</para>-->
+
+<para id="fs-id1164567313932">An object is in uniform circular motion. Suppose the centripetal force was removed. In which direction would the object now travel?</para>
+<list id="fs-id1164567321542" list-type="enumerated" number-style="lower-alpha">
+<item>In the direction of the centripetal force</item>
+<item>In the direction opposite to the direction of the centripetal force</item>
+<item>In the direction of the tangential velocity</item>
+<item>In the direction opposite to the direction of the tangential velocity</item>
+</list>
+
+</problem>
+</exercise>
+<exercise id="fs-id1167065775974" class="os-exercise">
+<problem id="fs-id1167065684358">
+<para id="fs-id1167065909667">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex059"/>
+</para>
+</problem>
+</exercise>
+</section>
+
+</content>
+<glossary>
+<definition id="fs-id1167065670817"><term>centrifugal force</term><meaning id="fs-id1167064529840"> a fictitious force that acts in the direction opposite the centripetal acceleration</meaning></definition>
+<definition id="fs-id1167066027979"><term>centripetal acceleration </term><meaning id="fs-id1167066042371">the acceleration of an object moving in a circle, directed toward the center of the circle</meaning></definition>
+<definition id="fs-id1167064818809"><term>centripetal force </term><meaning id="fs-id1167062966489">any force causing uniform circular motion</meaning></definition>
+<definition id="fs-id1167065880644"><term>uniform circular motion </term><meaning id="fs-id1167066152389">the motion of an object in a circular path at constant speed</meaning></definition>
+</glossary>
+</document>

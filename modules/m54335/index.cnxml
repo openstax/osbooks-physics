@@ -1,0 +1,1023 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Sound Interference and Resonance</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54335</md:content-id>
+  <md:title>Sound Interference and Resonance</md:title>
+  <md:abstract/>
+  <md:uuid>f7e87217-8219-4ad2-b485-a5ba056170ff</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167064591069" class="learning-objectives"><label/><title>Section Learning Objectives</title>
+<para id="fs-id1167065792560">By the end of this section, you will be able to do the following:</para>
+<list id="fs-id1167065850204">
+<item>Describe resonance and beats</item>
+<item>Define fundamental frequency and harmonic series</item>
+<item>Contrast an open-pipe and closed-pipe resonator</item>
+<item>Solve problems involving harmonic series and beat frequency</item>
+</list>
+</note><note id="fs-id1167065948042" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065909864">The learning objectives in this section will help your students master the following standards:</para>
+<list id="fs-id1167062409084"><item>(7) Science concepts. The student knows the characteristics and behavior of waves. The student is expected to:
+<list id="fs-id1167066032113"><item>
+<span>(D)</span>
+<span>investigate behaviors of waves, including reflection, refraction, diffraction, interference, resonance, and the Doppler effect.</span>
+</item>
+</list></item>
+</list>
+<para id="fs-id1169316254713">In addition, the High School Physics Laboratory Manual addresses content in this section in the lab titled: Sound Waves, as well as the following standards:</para><list id="fs-id1169316463301">
+<item>(7) Science concepts. The student knows the characteristics and behavior of waves. The student is expected to:
+<list id="fs-id1169316138780"><item>
+<span>(D)</span>
+ <span>investigate behaviors of waves, including reflection, refraction, diffraction, interference, resonance, and the Doppler effect.</span>
+</item>
+</list></item>
+</list>
+</note>
+<section id="keyterms"><title>Section Key Terms</title>
+<table id="fs-id1167066037847" class="unnumbered unstyled section-key-terms" summary="The list of key terms includes: beat, beat frequency, damping, fundamental, harmonics, natural frequency, overtones, resonance, and resonate.">
+<label/>
+<tgroup cols="3">
+<tbody>
+<row>
+<entry>beat</entry>
+<entry>beat frequency</entry>
+<entry>damping</entry>
+<entry>fundamental</entry>
+<entry>harmonics</entry>
+</row>
+<row>
+<entry>natural frequency</entry>
+<entry>overtones</entry>
+<entry>resonance</entry>
+<entry>resonate</entry>
+<entry/>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<note id="fs-id1167066186357" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167064876904"><span>[BL]</span>Before the start of this section, it would be useful to review the properties of sound waves and how they are related to each other, standing waves, superposition and interference of waves.</para>
+</note>
+
+<section id="fs-id1167065895787">
+<title>Resonance and Beats</title>
+<para id="fs-id1167062325840">Sit in front of a piano sometime and sing a loud brief note at it while pushing down on the sustain pedal. It will sing the same note back at you—the strings that have the same frequencies as your voice, are resonating in response to the forces from the sound waves that you sent to them. This is a good example of the fact that objects—in this case, piano strings—can be forced to oscillate but oscillate best at their natural frequency. </para>
+<para id="fs-id1167065826634">A driving force (such as your voice in the example) puts energy into a system at a certain frequency, which is not necessarily the same as the natural frequency of the system. Over time the energy dissipates, and the amplitude gradually reduces to zero- this is called <term>damping</term>. The <term>natural frequency</term> is the frequency at which a system would oscillate if there were no driving and no damping force. The phenomenon of driving a system with a frequency equal to its natural frequency is called <term>resonance</term>, and a system being driven at its natural frequency is said to <term>resonate</term>.</para>
+<para id="fs-id1167064696613">Most of us have played with toys where an object bobs up and down on an elastic band, something like the paddle ball suspended from a finger in <link target-id="Figure_14_04_Finger"/>. At first you hold your finger steady, and the ball bounces up and down with a small amount of damping. If you move your finger up and down slowly, the ball will follow along without bouncing much on its own. As you increase the frequency at which you move your finger up and down, the ball will respond by oscillating with increasing amplitude. When you drive the ball at its natural frequency, the ball’s oscillations increase in amplitude with each oscillation for as long as you drive it. As the driving frequency gets progressively higher than the resonant or natural frequency, the amplitude of the oscillations becomes smaller, until the oscillations nearly disappear and your finger simply moves up and down with little effect on the ball.</para>
+
+<figure id="Figure_14_04_Finger">
+<media id="fs-id1167065049539" alt="A ball bobs up and down with the greatest amplitude when the finger drives its oscillation at the fundamental frequency.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_14_04_Finger.jpg"/></media>
+<caption>The paddle ball on its rubber band moves in response to the finger supporting it. If the finger moves with the natural frequency of the ball on the rubber band, then a resonance is achieved, and the amplitude of the ball’s oscillations increases dramatically. At higher and lower driving frequencies, energy is transferred to the ball less efficiently, and it responds with lower-amplitude oscillations.</caption>
+</figure>
+
+<para id="fs-id1167064563304">Another example is that when you tune a radio, you adjust its resonant frequency so that it oscillates only at the desired station’s broadcast (driving) frequency. Also, a child on a swing is driven (pushed) by a parent at the swing’s natural frequency to reach the maximum amplitude (height). In all of these cases, the efficiency of energy transfer from the driving force into the oscillator is best at resonance.</para>
+
+<figure id="Figure_14_04_Cancel"><media id="fs-id1167066035481" alt="Shown is a pair of adjustable, black, over-the-ear headphones."><image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_14_04_Cancel.jpg" width="300"/></media>
+<caption>Some types of headphones use the phenomena of constructive and destructive interference to cancel out outside noises.</caption>
+</figure>
+
+<note id="fs-id1167064774712" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065980149"><span>[BL]</span><span>[OL]</span><span>[AL]</span> Tuning forks and pipes may be used to demonstrate the concept of resonance. Use any pipe or tube closed at one end. Fix it so that it stands upright with the open end on top. Choose a tuning fork and strike it to make it vibrate. Place it near the mouth of the pipe and hear the sound. Now fill the pipe with some water and repeat. The changing water level changes the length of the resonating air column. Continue doing this. When a certain length is obtained, the sound of the tuning fork will resonate through the column.</para>
+</note>
+
+<para id="fs-id1167066145854">All sound resonances are due to constructive and destructive interference. Only the resonant frequencies interfere constructively to form standing waves, while others interfere destructively and are absent. From the toot made by blowing over a bottle to the recognizability of a great singer’s voice, resonance and standing waves play a vital role in sound.</para>
+<para id="fs-id1167062814219">Interference happens to all types of waves, including sound waves. In fact, one way to support that something <emphasis effect="italics">is a wave</emphasis> is to observe interference effects. <link target-id="Figure_14_04_Cancel"/> shows a set of headphones that employs a clever use of sound interference to cancel noise. To get destructive interference, a fast electronic analysis is performed, and a second sound is introduced with its maxima and minima exactly reversed from the incoming noise.</para>
+<para id="fs-id1167064879322">In addition to resonance, superposition of waves can also create beats. <term>Beats</term> are produced by the superposition of two waves with slightly different frequencies but the same amplitude. The waves alternate in time between constructive interference and destructive interference, giving the resultant wave an amplitude that varies over time. (See the resultant wave in <link target-id="Figure_14_04_Beats"/>).</para><para id="fs-id1167064706022">This wave fluctuates in amplitude, or beats, with a frequency called the <term>beat frequency</term>. The equation for beat frequency is</para>
+<equation id="fs-id1164567235003"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>f</m:mi>
+   <m:mi>B</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mrow><m:mo>|</m:mo> <m:mrow>
+   <m:msub>
+    <m:mi>f</m:mi>
+    <m:mn>1</m:mn>
+   </m:msub>
+   <m:mo>−</m:mo><m:msub>
+    <m:mi>f</m:mi>
+    <m:mn>2</m:mn>
+   </m:msub>
+   </m:mrow> <m:mo>|</m:mo></m:mrow><m:mtext>,</m:mtext></m:mrow>
+</m:math>
+</equation>
+
+<para id="fs-id1167065030668">where <emphasis effect="italics">f</emphasis><sub>1</sub> and <emphasis effect="italics">f</emphasis><sub>2</sub> are the frequencies of the two original waves. If the two frequencies of sound waves are similar, then what we hear is an average frequency that gets louder and softer at the beat frequency.</para>
+
+<note id="fs-id1167062557112" class="tips-for-success">
+
+<para id="fs-id1167062389900">Don’t confuse the beat frequency with the regular frequency of a wave resulting from superposition. While the beat frequency is given by the formula above, and describes the frequency of the beats, the actual frequency of the wave resulting from superposition is the average of the frequencies of the two original waves.</para>
+</note>
+
+<figure id="Figure_14_04_Beats">
+<media id="fs-id1167062458485" alt="Wave 1 and wave 2 have different frequencies, and produce a resultant wave with varying amplitude."><image mime-type="image/jpg" src="../../media/CNX_HSPhysics_14_04_Beats.jpg"/></media>
+<caption>Beats are produced by the superposition of two waves of slightly different frequencies but identical amplitudes. The waves alternate in time between constructive interference and destructive interference, giving the resulting wave a time-varying amplitude.</caption></figure>
+
+<note id="fs-id1167065858276" class="virtual-physics os-interactive"><title>Wave Interference</title><media id="fs-id1167067067106" alt="This simulation allows you to make waves with a dripping faucet, audio speaker, or laser. You can also add a second source to create an interference pattern, put up a barrier to explore single-slit diffraction and double-slit interference, and experiment with diffraction through elliptical, rectangular, or irregular apertures.">
+<iframe width="660" height="371.4" src="https://openstax.org/l/28interference"/>
+</media>
+<para id="fs-id1167060068950">For this activity, switch to the Sound tab. Turn on the Sound option, and experiment with changing the frequency and amplitude, and adding in a second speaker and a barrier.</para>
+
+<exercise id="fs-id1167066098496" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167064906377">
+<para id="fs-id1167062570775">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex094"/>
+</para>
+</problem>
+</exercise>
+</note></section>
+
+<section id="fs-id1167064781229">
+<title>Fundamental Frequency and Harmonics</title>
+<para id="fs-id1167062348188">Suppose we hold a tuning fork near the end of a tube that is closed at the other end, as shown in <link target-id="Figure_14_04_Resonance"/>, <link target-id="Figure_14_04_Resonance1"/>, and <link target-id="Figure_14_04_Resonance2"/>. If the tuning fork has just the right frequency, the air column in the tube resonates loudly, but at most frequencies it vibrates very little. This means that the air column has only certain natural frequencies. The figures show how a resonance at the lowest of these natural frequencies is formed. A disturbance travels down the tube at the speed of sound and bounces off the closed end. If the tube is just the right length, the reflected sound arrives back at the tuning fork exactly half a cycle later, and it interferes constructively with the continuing sound produced by the tuning fork. The incoming and reflected sounds form a standing wave in the tube as shown.</para>
+
+<figure id="Figure_14_04_Resonance"><media id="fs-id1167065053092" alt="The vibration from a tuning fork sends a wave disturbance through the air down the tube."><image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_14_04_Resonance.jpg"/></media>
+<caption>Resonance of air in a tube closed at one end, caused by a tuning fork. A disturbance moves down the tube.</caption>
+</figure>
+
+<figure id="Figure_14_04_Resonance1"><media id="fs-id1167065877772" alt="The vibration from a tuning fork reflects back off the closed end of the tube."><image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_14_04_Resonance1.jpg"/></media>
+<caption>Resonance of air in a tube closed at one end, caused by a tuning fork. The disturbance reflects from the closed end of the tube.</caption>
+</figure>
+
+<figure id="Figure_14_04_Resonance2"><media id="fs-id1167064875173" alt="The disturbance is at maximum displacement as it reaches the opening of the tube."><image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_14_04_Resonance2.jpg"/></media>
+
+<caption>Resonance of air in a tube closed at one end, caused by a tuning fork. If the length of the tube <emphasis effect="italics">L</emphasis> is just right, the disturbance gets back to the tuning fork half a cycle later and interferes constructively with the continuing sound from the tuning fork. This interference forms a standing wave, and the air column resonates.</caption></figure>
+
+<para id="fs-id1167065976368">The standing wave formed in the tube has its maximum air displacement (an <term class="no-emphasis">antinode</term>) at the open end, and no displacement (a <term class="no-emphasis">node</term>) at the closed end. Recall from the last chapter on waves that motion is unconstrained at the antinode, and halted at the node. The distance from a node to an antinode is one-fourth of a wavelength, and this equals the length of the tube; therefore,  <m:math>
+ <m:mrow>
+  <m:mi>λ</m:mi><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>4</m:mn><m:mi>L</m:mi></m:mrow>
+</m:math> . This same resonance can be produced by a vibration introduced at or near the closed end of the tube, as shown in <link target-id="Figure_14_04_ClosedEnd"/>.</para>
+
+<figure id="Figure_14_04_ClosedEnd"><media id="fs-id1167065013854" alt="When there is one node at the closed end, and one antinode at the open end, this forms one quarter of the complete wave cycle (and therefore, one quarter of the wavelength)."><image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_14_04_ClosedEnd.jpg"/></media>
+<caption>The same standing wave is created in the tube by a vibration introduced near its closed end.</caption>
+</figure>
+
+<para id="fs-id1167064982048">Since maximum air displacements are possible at the open end and none at the closed end, there are other, shorter wavelengths that can resonate in the tube see <link target-id="Figure_14_04_FirstOvert"/>). Here the standing wave has three-fourths of its wavelength in the tube, or  <m:math>
+ <m:mrow>
+  <m:mi>L</m:mi><m:mo>=</m:mo><m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>3</m:mn><m:mo>/</m:mo><m:mn>4</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mi>λ</m:mi><m:mo>′</m:mo></m:mrow>
+</m:math>, so that  <m:math>
+ <m:mrow>
+  <m:mi>λ</m:mi><m:mo>′</m:mo><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>4</m:mn><m:mi>L</m:mi><m:mo>/</m:mo><m:mn>3</m:mn></m:mrow>
+</m:math> . There is a whole series of shorter-wavelength and higher-frequency sounds that resonate in the tube.</para>
+
+<para id="fs-id1167065826154">We use specific terms for the resonances in any system. The lowest resonant frequency is called the <term>fundamental</term>, while all higher resonant frequencies are called <term>overtones</term>. All resonant frequencies are multiples of the fundamental, and are called <term>harmonics</term>. The fundamental is the first harmonic, the first overtone is the second harmonic, and so on. <link target-id="Figure_14_04_ClosedOver"/> shows the fundamental and the first three overtones (the first four harmonics) in a tube closed at one end.</para>
+
+<figure id="Figure_14_04_FirstOvert">
+<media id="fs-id1167065858906" alt="A closed pipe resonator with ¾ wavelength is shown. It has two nodes and two antinodes inside of the tube."><image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_14_04_FirstOvert.jpg"/></media>
+<caption>Another resonance for a tube closed at one end. This has maximum air displacements at the open end, and none at the closed end. The wavelength is shorter, with three-fourths  <m:math>
+ <m:mrow>
+  <m:mi>λ</m:mi><m:mo>′</m:mo></m:mrow>
+</m:math>  equaling the length of the tube, so that  <m:math>
+ <m:mrow>
+  <m:mi>λ</m:mi><m:mo>′</m:mo><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>4</m:mn><m:mi>L</m:mi><m:mo>/</m:mo><m:mn>3</m:mn></m:mrow>
+</m:math> . This higher-frequency vibration is the first overtone.</caption>
+</figure>
+
+<figure id="Figure_14_04_ClosedOver">
+<media id="fs-id1167066190587" alt="The fundamental has a wavelength of 4L, and a frequency of v/4L. The first overtone has a wavelength of 4L/3 and a frequency of 3v/4L. The second overtone has a wavelength of 4L/5 and a frequency of 5v/4L. The third overtone has a wavelength of 4L/7 and a frequency of 7v/4L."><image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_14_04_ClosedOver.jpg"/></media>
+<caption>The fundamental and three lowest overtones for a tube closed at one end. All have maximum air displacements at the open end and none at the closed end.</caption>
+</figure>
+
+<para id="fs-id1167065949906">The fundamental and overtones can be present at the same time in a variety of combinations. For example, the note middle C on a trumpet sounds very different from middle C on a clarinet, even though both instruments are basically modified versions of a tube closed at one end. The fundamental frequency is the same (and usually the most intense), but the overtones and their mix of intensities are different. This mix is what gives musical instruments (and human voices) their distinctive characteristics, whether they have air columns, strings, or drumheads. In fact, much of our speech is determined by shaping the cavity formed by the throat and mouth and positioning the tongue to adjust the fundamental and combination of overtones.</para>
+</section>
+
+<section id="fs-id1167065939846"><title>Open-Pipe and Closed-Pipe Resonators</title>
+<para id="fs-id1167065754644">The resonant frequencies of a tube closed at one end (known as a <term class="no-emphasis">closed-pipe resonator</term>) are  <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>f</m:mi>
+   <m:mi>n</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mi>n</m:mi><m:mfrac>
+   <m:mi>v</m:mi>
+   <m:mrow>
+    <m:mn>4</m:mn><m:mi>L</m:mi></m:mrow>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>5...</m:mn><m:mo>,</m:mo></m:mrow>
+</m:math> </para>
+<para id="fs-id1167065796099">where <emphasis effect="italics">f</emphasis><sub>1</sub> is the fundamental, <emphasis effect="italics">f</emphasis><sub>3</sub> is the first overtone, and so on. Note that the resonant frequencies depend on the speed of sound <emphasis effect="italics">v</emphasis> and on the length of the tube <emphasis effect="italics">L</emphasis>.</para>
+<para id="fs-id1167066028663">Another type of tube is one that is <emphasis effect="italics">open </emphasis>at both ends (known as an <term class="no-emphasis">open-pipe resonator</term>). Examples are some organ pipes, flutes, and oboes. The air columns in tubes open at both ends have maximum air displacements at both ends. (See <link target-id="Figure_14_04_OpenOver"/>). Standing waves form as shown.</para>
+
+<figure id="Figure_14_04_OpenOver">
+<media id="fs-id1167066045989" alt="The fundamental frequency is v/2L and has a wavelength of 2L. The first overtone has a wavelength of L and a frequency of v/L. The second overtone has a wavelength of 2L/3 and a frequency of 3v/2L. The third overtone has a wavelength of ½L and a frequency of 2v/L."><image mime-type="image/jpg" src="../../media/CNX_HSPhysics_14_04_OpenOver.jpg"/></media>
+<caption>The resonant frequencies of a tube open at both ends are shown, including the fundamental and the first three overtones. In all cases the maximum air displacements occur at both ends of the tube, giving it different natural frequencies than a tube closed at one end.</caption>
+</figure>
+
+<para id="fs-id1167066151172">The resonant frequencies of an open-pipe resonator are</para>
+<para id="fs-id1167067072169"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>f</m:mi>
+   <m:mi>n</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mi>n</m:mi><m:mfrac>
+   <m:mi>v</m:mi>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>L</m:mi></m:mrow>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3...,</m:mn></m:mrow>
+</m:math>
+</para>
+
+<para id="fs-id1167065790470">where <emphasis effect="italics">f</emphasis><sub>1</sub> is the fundamental, <emphasis effect="italics">f</emphasis><sub>2</sub> is the first overtone, <emphasis effect="italics">f</emphasis><sub>3</sub> is the second overtone, and so on. Note that a tube open at both ends has a fundamental frequency twice what it would have if closed at one end. It also has a different spectrum of overtones than a tube closed at one end. So if you had two tubes with the same fundamental frequency but one was open at both ends and the other was closed at one end, they would sound different when played because they have different overtones.</para>
+<para id="fs-id1167066027198">Middle C, for example, would sound richer played on an open tube since it has more overtones. An open-pipe resonator has more overtones than a closed-pipe resonator because it has even multiples of the fundamental as well as odd, whereas a closed tube has only odd multiples.</para>
+<para id="fs-id1167064646052">In this section we have covered resonance and standing waves for wind instruments, but vibrating strings on stringed instruments also resonate and have fundamentals and overtones similar to those for wind instruments.</para>
+
+<note id="fs-id1167065867904" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167062588012"><span>[BL]</span><span>[OL]</span><span>[AL]</span> Other instruments also use air resonance in different ways to amplify sound. For instance, a violin and a guitar both have sounding boxes but with different shapes, resulting in different overtone structures. The vibrating string creates a sound that resonates in the sounding box, greatly amplifying the sound and creating overtones that give the instrument its characteristic flavor. The more complex the shape of the sounding box, the greater its ability to resonate over a wide range of frequencies. The type and thickness of wood or other materials used to make the sounding box also affects the quality of sound. Ask students to give more examples of how different musical instruments use the phenomenon of resonance.</para>
+</note>
+</section>
+
+<section id="fs-id1167065938584">
+<title>Solving Problems Involving Harmonic Series and Beat Frequency</title>
+<note id="Worked_Example_14_05" class="worked-example">
+
+<title>Finding the Length of a Tube for a Closed-Pipe Resonator</title>
+<exercise id="fs-id1167064909326" class="14-ex095 unnumbered">
+<label/>
+<problem id="fs-id1167064688318">
+<para id="fs-id1167065892045">If sound travels through the air at a speed of 344 m/s, what should be the length of a tube closed at one end to have a fundamental frequency of 128 Hz?</para>
+<note id="fs-id1167066055648">
+<label/>
+<title>Strategy</title>
+<para id="fs-id1167065888359">The length <emphasis effect="italics">L </emphasis>can be found by rearranging the equation <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>f</m:mi>
+   <m:mi>n</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mi>n</m:mi><m:mfrac>
+   <m:mi>v</m:mi>
+   <m:mrow>
+    <m:mn>4</m:mn><m:mi>L</m:mi></m:mrow>
+  </m:mfrac>
+  </m:mrow>
+</m:math>
+.</para>
+</note>
+</problem>
+<solution id="fs-id1167065038092"><label/>
+<title>Solution</title>
+<para id="fs-id1167066044793">(1) Identify knowns.</para>
+<list id="fs-id1167064726977">
+<item>The fundamental frequency is 128 Hz.</item>
+<item>The speed of sound is 344 m/s.</item>
+</list>
+<para id="fs-id1167064979215">(2) Use  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>f</m:mi>
+   <m:mi>n</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mi>n</m:mi><m:mfrac>
+   <m:mrow>
+    <m:msub>
+     <m:mi>v</m:mi>
+     <m:mi>w</m:mi>
+    </m:msub>
+    </m:mrow>
+   <m:mrow>
+    <m:mn>4</m:mn><m:mi>L</m:mi></m:mrow>
+  </m:mfrac>
+  </m:mrow>
+</m:math>  to find the fundamental frequency (<emphasis effect="italics">n </emphasis>= 1).</para>
+<equation id="fs-id1164567016868"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>f</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mi>v</m:mi>
+   <m:mrow>
+    <m:mn>4</m:mn><m:mi>L</m:mi></m:mrow>
+  </m:mfrac>
+  </m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1167065792258">(3) Solve this equation for length.</para>
+<equation id="fs-id1164567521834"> <m:math display="block">
+ <m:mrow>
+  <m:mi>L</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mi>v</m:mi>
+   <m:mrow>
+    <m:mn>4</m:mn><m:msub>
+     <m:mi>f</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    </m:mrow>
+  </m:mfrac>
+  </m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1167064706417">(4) Enter the values of the speed of sound and frequency into the expression for <emphasis effect="italics">L</emphasis>.</para>
+<equation id="fs-id1164565428052"> <m:math display="block">
+ <m:mrow>
+  <m:mi>L</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mi>v</m:mi>
+   <m:mrow>
+    <m:mn>4</m:mn><m:msub>
+     <m:mi>f</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>344</m:mn><m:mspace width="0.3em"/><m:mtext> m/s</m:mtext></m:mrow>
+   <m:mrow>
+    <m:mn>4</m:mn><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mn>128</m:mn><m:mspace width="0.3em"/><m:mtext> Hz</m:mtext></m:mrow>
+    <m:mo>)</m:mo></m:mrow></m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>0.672</m:mn><m:mspace width="0.3em"/><m:mtext> m</m:mtext></m:mrow>
+</m:math>
+</equation>
+</solution>
+<commentary id="fs-id1167062352435">
+<title>Discussion</title>
+<para id="fs-id1167065023116">Many wind instruments are modified tubes that have finger holes, valves, and other devices for changing the length of the resonating air column and therefore, the frequency of the note played. Horns producing very low frequencies, such as tubas, require tubes so long that they are coiled into loops.</para>
+</commentary>
+</exercise>
+</note>
+
+<note id="Worked_Example_14_06" class="worked-example">
+
+<title>Finding the Third Overtone in an Open-Pipe Resonator</title>
+<exercise id="fs-id1167062349971" class="14-ex096 unnumbered">
+<label/>
+<problem id="fs-id1167062889819">
+<para id="fs-id1167066146791">If a tube that’s open at both ends has a fundamental frequency of 120 Hz, what is the frequency of its third overtone?</para>
+<note id="fs-id1167066012487">
+<label/>
+<title>Strategy</title>
+<para id="fs-id1167065658649">Since we already know the value of the fundamental frequency (n = 1), we can solve for the third overtone (n = 4) using the equation  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>f</m:mi>
+   <m:mi>n</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mi>n</m:mi><m:mfrac>
+   <m:mi>v</m:mi>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>L</m:mi></m:mrow>
+  </m:mfrac>
+  </m:mrow>
+</m:math> .</para>
+</note>
+</problem>
+<solution id="fs-id1167065712361"><label/>
+<title>Solution</title>
+<para id="fs-id1167065857973">Since fundamental frequency (n = 1) is</para>
+<equation id="fs-id1164567189795"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>f</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mi>v</m:mi>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>L</m:mi></m:mrow>
+  </m:mfrac>
+  </m:mrow>
+<m:mtext>,</m:mtext>
+</m:math>
+</equation>
+<para id="fs-id1167066091361">and</para>
+<equation id="fs-id1164568026514"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>f</m:mi>
+   <m:mn>4</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>4</m:mn><m:mfrac>
+   <m:mi>v</m:mi>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>L</m:mi></m:mrow>
+  </m:mfrac>
+  </m:mrow>
+<m:mtext>,</m:mtext>
+ <m:mrow>
+  <m:msub>
+   <m:mi>f</m:mi>
+   <m:mn>4</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>4</m:mn><m:msub>
+   <m:mi>f</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>4</m:mn><m:mo stretchy="false">(</m:mo><m:mtext>120 Hz)=480 Hz</m:mtext><m:mtext>.</m:mtext></m:mrow>
+</m:math>
+</equation>
+</solution>
+<commentary id="fs-id1167064990879">
+<title>Discussion</title>
+<para id="fs-id1167065872885">To solve this problem, it wasn’t necessary to know the length of the tube or the speed of the air because of the relationship between the fundamental and the third overtone. This example was of an open-pipe resonator; note that for a closed-pipe resonator, the third overtone has a value of n = 7 (not n = 4).</para>
+</commentary>
+</exercise>
+</note>
+
+<note id="Worked_Example_14_07" class="worked-example">
+
+<title>Using Beat Frequency to Tune a Piano</title>
+<exercise id="fs-id1167064867847" class="14-ex097 unnumbered">
+<label/>
+<problem id="fs-id1167065908328">
+<para id="fs-id1167064724268">Piano tuners use beats routinely in their work. When comparing a note with a tuning fork, they listen for beats and adjust the string until the beats go away (to zero frequency). If a piano tuner hears two beats per second, and the tuning fork has a frequency of 256 Hz, what are the possible frequencies of the piano? </para>
+<note id="fs-id1167065972098">
+<label/>
+<title>Strategy</title>
+<para id="fs-id1167065893300">Since we already know that the beat frequency <emphasis effect="italics">f<sub>B</sub></emphasis> is 2, and one of the frequencies (let’s say <emphasis effect="italics">f</emphasis><sub>2</sub>) is 256 Hz, we can use the equation  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>f</m:mi>
+   <m:mi>B</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mrow><m:mo>|</m:mo> <m:mrow>
+   <m:msub>
+    <m:mi>f</m:mi>
+    <m:mn>1</m:mn>
+   </m:msub>
+   <m:mo>−</m:mo><m:msub>
+    <m:mi>f</m:mi>
+    <m:mn>2</m:mn>
+   </m:msub>
+   </m:mrow> <m:mo>|</m:mo></m:mrow></m:mrow>
+</m:math>  to solve for the frequency of the piano <emphasis effect="italics">f</emphasis><sub>1</sub>.</para>
+</note>
+</problem>
+<solution id="fs-id1167065937462"><label/>
+<title>Solution</title>
+<para id="fs-id1167065865234">Since  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>f</m:mi>
+   <m:mi>B</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mrow><m:mo>|</m:mo> <m:mrow>
+   <m:msub>
+    <m:mi>f</m:mi>
+    <m:mn>1</m:mn>
+   </m:msub>
+   <m:mo>−</m:mo><m:msub>
+    <m:mi>f</m:mi>
+    <m:mn>2</m:mn>
+   </m:msub>
+   </m:mrow> <m:mo>|</m:mo></m:mrow></m:mrow>
+</m:math>,</para>
+<para id="fs-id1167066028058">we know that either  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>f</m:mi>
+   <m:mi>B</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>f</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>−</m:mo><m:msub>
+   <m:mi>f</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>  or  <m:math>
+ <m:mrow>
+  <m:mo>−</m:mo><m:msub>
+   <m:mi>f</m:mi>
+   <m:mi>B</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>f</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>−</m:mo><m:msub>
+   <m:mi>f</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math> .</para>
+<para id="fs-id1167065877111">Solving for <emphasis effect="italics">f</emphasis><sub>1</sub>,</para>
+<equation id="fs-id1164566979648"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>f</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>f</m:mi>
+   <m:mi>B</m:mi>
+  </m:msub>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>f</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+<m:mtext> or </m:mtext>
+  <m:msub>
+   <m:mi>f</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mo>−</m:mo><m:msub>
+   <m:mi>f</m:mi>
+   <m:mi>B</m:mi>
+  </m:msub>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>f</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+<m:mo>.</m:mo>
+  </m:mrow>
+</m:math> </equation>
+
+<para id="fs-id1167065940035">Substituting in values,</para>
+<equation id="fs-id1164567290525"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>f</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:mn>256</m:mn><m:mspace width="0.3em"/><m:mtext> Hz or </m:mtext><m:msub>
+   <m:mi>f</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mtext>=</m:mtext><m:mn>−2</m:mn><m:mo>+</m:mo><m:mn>256</m:mn><m:mspace width="0.3em"/><m:mtext> Hz</m:mtext></m:mrow>
+</m:math> </equation>
+<para id="fs-id1167065851505">So,</para>
+<equation id="fs-id1164567546022"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>f</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>258</m:mn><m:mspace width="0.3em"/><m:mtext> Hz or 254 Hz.</m:mtext></m:mrow>
+</m:math> </equation></solution>
+<commentary id="fs-id1167064734110">
+<title>Discussion</title>
+<para id="fs-id1167064909319">The piano tuner might not initially be able to tell simply by listening whether the frequency of the piano is too high or too low and must tune it by trial and error, making an adjustment and then testing it again. If there are even more beats after the adjustment, then the tuner knows that he went in the wrong direction.</para>
+</commentary>
+</exercise>
+</note>
+</section>
+
+<section id="fs-id1167065734280" class="practice-problems">
+<title>Practice Problems</title>
+<exercise id="fs-id1167066095822">
+<problem id="fs-id1167064743492">
+<para id="fs-id1167064956052">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex098"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167064899248">
+<problem id="fs-id1167065727540">
+<para id="fs-id1167065687516">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex099"/>
+</para>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167066108224" class="check-understanding"><title>Check Your Understanding</title><note id="fs-id1167065736315" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167064877629">Use these questions to assess student achievement of the section’s Learning Objectives. If students are struggling with a specific objective, these questions will help identify it and direct students to the relevant content.</para>
+</note>
+<exercise id="fs-id1167065894268" class="os-exercise">
+<problem id="fs-id1167066188562">
+<para id="fs-id1167065956184">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex100"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167066069231" class="os-exercise">
+<problem id="fs-id1167064775068">
+<para id="fs-id1167066037774">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex101"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167064824915" class="os-exercise">
+<problem id="fs-id1167065849184">
+<!--<para id="fs-id1167066134616">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex102"/>
+</para>-->
+<para id="fs-id1164567487409">In the tuning fork and tube experiment, in case a standing wave is formed, at what point on the tube is the maximum disturbance from the tuning fork observed? Recall that the tube has one open end and one closed end.</para>
+<list id="fs-id1164564464813" list-type="enumerated" number-style="lower-alpha">
+<item>At the midpoint of the tube</item>
+<item>Both ends of the tube</item>
+<item>At the closed end of the tube</item>
+<item>At the open end of the tube</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167066057430" class="os-exercise">
+<problem id="fs-id1167065913783">
+<!--<para id="fs-id1167065885730">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex103"/>
+</para>-->
+<para id="fs-id1164567790078">In the tuning fork and tube experiment, when will the air column produce the loudest sound?</para>
+<list id="fs-id1164567025972" list-type="enumerated" number-style="lower-alpha">
+<item>If the tuning fork vibrates at a frequency twice that of the natural frequency of the air column.</item>
+<item>If the tuning fork vibrates at a frequency lower than the natural frequency of the air column.</item>
+<item>If the tuning fork vibrates at a frequency higher than the natural frequency of the air column.</item>
+<item>If the tuning fork vibrates at a frequency equal to the natural frequency of the air column.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167065877567" class="os-exercise">
+<problem id="fs-id1167065862524">
+<!--<para id="fs-id1167065764722">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex104"/>
+</para>-->
+<para id="fs-id1164567285905">What is a closed-pipe resonator?</para>
+<list id="fs-id1164565942621" list-type="enumerated" number-style="lower-alpha">
+<item>A pipe or cylindrical air column closed at both ends</item>
+<item>A pipe with an antinode at the closed end</item>
+<item>A pipe with a node at the open end</item>
+<item>A pipe or cylindrical air column closed at one end</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167065033167" class="os-exercise">
+<problem id="fs-id1167065884545">
+<!--<para id="fs-id1167064982346">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex105"/>
+</para>-->
+<para id="fs-id1164564477059">Give two examples of open-pipe resonators.</para>
+<list id="fs-id1164568032226" list-type="enumerated" number-style="lower-alpha">
+<item>piano, violin</item>
+<item>drum, tabla</item>
+<item>rlectric guitar, acoustic guitar</item>
+<item>flute, oboe</item>
+</list>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167066035583" class="summary">
+<title>Section Summary</title>
+<list id="fs-id1167065872767">
+<item>A system’s natural frequency is the frequency at which the system will oscillate if not affected by driving or damping forces.</item>
+<item>A periodic force driving a harmonic oscillator at its natural frequency produces resonance. The system is said to resonate.</item>
+<item>Beats occur when waves of slightly different frequencies are superimposed.</item>
+<item>In air columns, the lowest-frequency resonance is called the fundamental, whereas all higher resonant frequencies are called overtones. Collectively, they are called harmonics.</item>
+<item>The resonant frequencies of a tube closed at one end are  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>f</m:mi>
+   <m:mi>n</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mi>n</m:mi><m:mfrac>
+   <m:mi>v</m:mi>
+   <m:mrow>
+    <m:mn>4</m:mn><m:mi>L</m:mi></m:mrow>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>5...</m:mn></m:mrow>
+</m:math>, where <emphasis effect="italics">f<sub>1</sub></emphasis> is the fundamental and L is the length of the tube.</item>
+<item>The resonant frequencies of a tube open at both ends are  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>f</m:mi>
+   <m:mi>n</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mi>n</m:mi><m:mfrac>
+   <m:mi>v</m:mi>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>L</m:mi></m:mrow>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3...</m:mn></m:mrow>
+</m:math> </item>
+</list>
+</section>
+
+<section id="fs-id1167064695685" class="key-equations">
+<title>Key Equations</title>
+<table class="unnumbered unstyled" id="fs-id1167065897668" summary="This table gives three equations. The first equation is for the beat frequency, the second is for resonant frequencies of a closed-pipe resonator, and the third is for resonant frequencies of an open-pipe resonator.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" align="left" colname="c1"/>
+<colspec colnum="2" align="left" colname="c2"/>
+<tbody>
+<row>
+<entry>beat frequency</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>f</m:mi>
+   <m:mi>B</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mrow><m:mo>|</m:mo> <m:mrow>
+   <m:msub>
+    <m:mi>f</m:mi>
+    <m:mn>1</m:mn>
+   </m:msub>
+   <m:mo>−</m:mo><m:msub>
+    <m:mi>f</m:mi>
+    <m:mn>2</m:mn>
+   </m:msub>
+   </m:mrow> <m:mo>|</m:mo></m:mrow></m:mrow>
+</m:math> </entry>
+</row>
+<row>
+<entry>resonant frequencies of a closed-pipe resonator</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>f</m:mi>
+   <m:mi>n</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mi>n</m:mi><m:mfrac>
+   <m:mi>v</m:mi>
+   <m:mrow>
+    <m:mn>4</m:mn><m:mi>L</m:mi></m:mrow>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>5...</m:mn></m:mrow>
+</m:math> </entry>
+</row>
+<row>
+<entry>resonant frequencies of an open-pipe resonator</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>f</m:mi>
+   <m:mi>n</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mi>n</m:mi><m:mfrac>
+   <m:mi>v</m:mi>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>L</m:mi></m:mrow>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3...</m:mn></m:mrow>
+</m:math> </entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+
+
+<section id="fs-id1167062408027" class="concept"><title>Concept Items</title>
+<exercise id="fs-id1167065938369" class="os-exercise"><problem id="fs-id1167064951931">
+<para id="eip-idm191943856">When does a yo-yo travel the farthest from the finger?</para>
+
+<list id="eip-idm191943472" list-type="enumerated" number-style="lower-alpha">
+<item>when the amplitude of the finger moving up and down is greater than the amplitude of the yo-yo</item>
+<item>when the amplitude of the finger moving up and down is less than the amplitude of the yo-yo</item>
+<item>when the frequency of the finger moving up and down is equal to the resonant frequency of the yo-yo</item>
+<item>when the frequency of the finger moving up and down is different from the resonant frequency of the yo-yo</item>
+</list>
+</problem>
+</exercise><exercise id="fs-id1167065017723" class="os-exercise">
+<problem id="fs-id1167062305648">
+<para id="fs-id1167066138778">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex107"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065825298" class="os-exercise">
+<problem id="fs-id1167065785045">
+<!--<para id="fs-id1167065892879">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex108"/>
+</para>-->
+<para id="fs-id1164565446002">What kind of waves form in pipe resonators?</para>
+<list id="fs-id1164567482257" list-type="enumerated" number-style="lower-alpha">
+<item>damped waves</item>
+<item>propagating waves</item>
+<item>high-frequency waves</item>
+<item>standing waves</item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-id1166850919314" class="os-exercise">
+<problem id="eip-id1166848665034">
+<para id="eip-id1166848716350">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ot085"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167066089191" class="critical-thinking">
+<title>Critical Thinking</title>
+<exercise id="fs-id1167065972888" class="os-exercise">
+<problem id="fs-id1167062889512">
+<!--<para id="fs-id1167066045841">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex109"/>
+</para>-->
+
+<para id="fs-id1164567411794">When does the amplitude of an oscillating system become maximum?</para>
+<list id="fs-id1164567350865" list-type="enumerated" number-style="lower-alpha"><item>When two sound waves interfere destructively.</item>
+<item>When the driving force produces a transverse wave in the system.</item>
+<item>When the driving force of the oscillator to the oscillating system is at a maximum amplitude.</item>
+<item>When the frequency of the oscillator equals the natural frequency of the oscillating system.</item>
+</list></problem>
+</exercise>
+<exercise id="fs-id1167062403807" class="os-exercise">
+<problem id="fs-id1167064648326">
+<para id="fs-id1167066123229">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex110"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065946138" class="os-exercise">
+<problem id="fs-id1167065895924">
+<para id="fs-id1167065020995">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex111"/>
+</para>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167064749420" class="problems">
+<title>Problems</title>
+<exercise id="fs-id1167063010414" class="os-exercise">
+<problem id="fs-id1167066098390">
+<para id="fs-id1167065792944">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex112"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167062853869" class="os-exercise">
+<problem id="fs-id1167065821878">
+<para id="fs-id1167064819623">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex113"/>
+</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167066112655" class="performance"><title>Performance Task</title><exercise id="fs-id1167067100846">
+<problem id="fs-id1167067100848">
+<para id="fs-id1167065838594">Design and make an open air resonator capable of playing at least three different pitches (frequencies) of sound using a selection of bamboo of varying widths and lengths, which can be obtained at a local hardware store. Choose a piece of bamboo for creating a musical pipe. Calculate the length required for a certain frequency to resonate and then mark the locations where holes should be placed in the pipe to achieve their desired pitches. Use a simple hand drill or ask your wood shop department for help drilling holes. Use tuning forks to test and calibrate your instrument. Demonstrate your pipe for the class.</para></problem>
+</exercise>
+</section>
+<section id="fs-id1167066102872" class="multiple-choice">
+<title>Test Prep Multiple Choice</title>
+<exercise id="fs-id1167065847442" class="os-exercise">
+<problem id="fs-id1167064990389">
+<!--<para id="fs-id1167065067361">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex114"/>
+</para>-->
+<para id="fs-id1164567004421">Observation of which phenomenon can be considered proof that something is a wave?</para>
+<list id="fs-id1164565365224" list-type="enumerated" number-style="lower-alpha">
+<item>interference</item>
+<item>noise</item>
+<item>reflection</item>
+<item>conduction</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167064649316" class="os-exercise">
+<problem id="fs-id1167062347802">
+<!--<para id="fs-id1167064692428">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex115"/>
+</para>-->
+<para id="fs-id1164566099747">Which of the resonant frequencies has the greatest amplitude?</para>
+<list id="fs-id1164565362778" list-type="enumerated" number-style="lower-alpha">
+<item>The first harmonic</item>
+<item>The second harmonic</item>
+<item>The first overtone</item>
+<item>The second overtone</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167064573289" class="os-exercise">
+<problem id="fs-id1167062536212">
+<para id="fs-id1167065848433">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex116"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167062509633" class="os-exercise">
+<problem id="fs-id1167065869128">
+<para id="fs-id1167062411072">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex117"/>
+</para>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167064873243" class="short-answer">
+<title>Test Prep Short Answer</title>
+<exercise id="fs-id1167064832944" class="os-exercise">
+<problem id="fs-id1167065799116">
+<para id="fs-id1167065809406">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex118"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167064905132" class="os-exercise">
+<problem id="fs-id1167064894877">
+<para id="fs-id1167065741609">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex119"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167062950036" class="os-exercise"><problem id="fs-id1167064769380">
+<para id="fs-id1167066105207">
+How is human speech produced?</para>
+<list id="eip-idm483571952" list-type="enumerated" number-style="lower-alpha">
+<item>Human speech is produced by shaping the cavity formed by the throat and mouth, the vibration of vocal cords, and using the tongue to adjust the
+fundamental frequency and combination of overtones.</item>
+<item>Human speech is produced by shaping the cavity formed by the throat and mouth into a closed pipe and using tongue to adjust the fundamental frequency and combination of overtones.</item>
+
+<item>Human speech is produced only by the vibrations of the tongue.</item>
+
+<item>Human speech is produced by elongating the vocal cords.</item>
+</list>
+</problem>
+</exercise><exercise id="fs-id1167065683669" class="os-exercise">
+<problem id="fs-id1167064571099">
+<para id="fs-id1167064743668">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex121"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065859622" class="os-exercise">
+<problem id="fs-id1167066057038">
+<para id="fs-id1167065915954">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex122"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065927172" class="os-exercise">
+<problem id="fs-id1167062371036">
+<para id="fs-id1167065838231">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex123"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065873026" class="os-exercise">
+<problem id="fs-id1167065039418">
+<para id="fs-id1167066031456">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex124"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167064706274" class="os-exercise">
+<problem id="fs-id1167066000842">
+<para id="fs-id1167064990911">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex125"/>
+</para>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167065808707" class="extended-response">
+<title>Test Prep Extended Response</title>
+<exercise id="fs-id1167065954356" class="os-exercise">
+<problem id="fs-id1167065948710">
+<para id="fs-id1167065774316">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex126"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167064817899" class="os-exercise">
+<problem id="fs-id1167065879559">
+<para id="fs-id1167065867111">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex127"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167066165997" class="os-exercise">
+<problem id="fs-id1167065827072">
+<!--<para id="fs-id1167062814494">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex128"/>
+</para>-->
+<para id="fs-id1164566099400">True or false—An open-pipe resonator has more overtones than a closed-pipe resonator.</para>
+<list id="fs-id1164565433960" list-type="enumerated" number-style="lower-alpha">
+<item>False</item>
+<item>True</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167064905128" class="os-exercise">
+<problem id="fs-id1167064534899">
+<para id="fs-id1167066148870">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex129"/>
+</para>
+</problem>
+</exercise>
+</section>
+
+</content>
+<glossary>
+<definition id="fs-id1167064945338"><term>beat </term><meaning id="fs-id1167065938967">a phenomenon produced by the superposition of two waves with slightly different frequencies but the same amplitude</meaning></definition>
+<definition id="fs-id1167062461356"><term>beat frequency </term><meaning id="fs-id1167065070298">the frequency of the amplitude fluctuations of a wave</meaning></definition>
+<definition id="fs-id1167064916398"><term>damping</term><meaning id="fs-id1167066136962"> the reduction in amplitude over time as the energy of an oscillation dissipates</meaning></definition>
+<definition id="fs-id1167065807995"><term>fundamental </term><meaning id="fs-id1167065870096">the lowest-frequency resonance</meaning></definition>
+<definition id="fs-id1167064696586"><term>harmonics </term><meaning id="fs-id1167062968733">the term used to refer to the fundamental and its overtones</meaning></definition>
+<definition id="fs-id1167065919329"><term>natural frequency </term><meaning id="fs-id1167065857777">the frequency at which a system would oscillate if there were no driving and no damping forces</meaning></definition>
+<definition id="fs-id1167066205416"><term>overtones </term><meaning id="fs-id1167064848441">all resonant frequencies higher than the fundamental</meaning></definition>
+<definition id="fs-id1167065880044"><term>resonance </term><meaning id="fs-id1167064541018">the phenomenon of driving a system with a frequency equal to the system's natural frequency</meaning></definition>
+<definition id="fs-id1167064638938"><term>resonate </term><meaning id="fs-id1167065734603">to drive a system at its natural frequency</meaning></definition>
+</glossary>
+</document>

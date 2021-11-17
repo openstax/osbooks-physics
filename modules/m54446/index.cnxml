@@ -1,0 +1,1328 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Electric Power</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54446</md:content-id>
+  <md:title>Electric Power</md:title>
+  <md:abstract/>
+  <md:uuid>b3bcdccb-d23d-4316-920a-fa81bdb1bca4</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167065083286" class="learning-objectives">
+<label/>
+<title>Section Learning Objectives</title>
+<para id="fs-id1167064881638">By the end of this section, you will be able to do the following:</para>
+<list id="fs-id1167064978800">
+<item>Define electric power and describe the electric power equation</item>
+<item>Calculate electric power in circuits of resistors in series, parallel, and complex arrangements</item>
+</list>
+</note>
+
+<note id="fs-id1167065899306" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167061380909">The learning objectives in this section will help your students master the following standards:</para>
+<list id="fs-id1167063719308"><item>(5) Science concepts. The student knows the nature of forces in the physical world. The student is expected to:
+<list id="fs-id1167066966223"><item><span>(F)</span>
+<span>design, construct, and calculate in terms of current through, potential difference across, resistance of, and power used by electric circuit elements connected in both series and parallel combinations.</span></item>
+</list></item>
+</list><para id="fs-id1169313842926">In addition, the High School Physics Laboratory Manual addresses content in this section in the lab titled: Work, Energy and Power in Circuits, as well as the following standards:</para><list id="fs-id1169313950461"><item>(6) Science concepts. The student knows that changes occur within a physical system and applies the laws of conservation of energy and momentum. The student is expected to:
+<list id="fs-id1169317471879">
+<item>
+<span>(C)</span>
+<span>calculate the mechanical energy of, power generated within, impulse applied to, and momentum of a physical system.</span>
+</item>
+</list>
+</item>
+</list></note>
+<section id="keyterms"><title>Section Key Terms</title>
+<table id="fs-id1167066058765" class="unnumbered unstyled section-key-terms" summary="Section Key Terms is a one term box reading electric power.">
+<label/>
+<tgroup cols="1">
+<colspec colnum="1" colname="c1"/>
+<tbody>
+<row>
+<entry>electric power</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<para id="fs-id1167066165189">Power is associated by many people with electricity. Every day, we use electric power to run our modern appliances. Electric power transmission lines are visible examples of electricity providing power. We also use electric power to start our cars, to run our computers, or to light our homes. Power is the rate at which energy of any type is transferred; <term>electric power</term> is the rate at which electric energy is transferred in a circuit. In this section, we’ll learn not only what this means, but also what factors determine electric power. </para>
+<para id="fs-id1167063009907">To get started, let’s think of light bulbs, which are often characterized in terms of their power ratings in watts. Let us compare a 25-W bulb with a 60-W bulb (see <link target-id="Figure_19_04_Light_bulb"/>). Although both operate at the same voltage, the 60-W bulb emits more light intensity than the 25-W bulb. This tells us that something other than voltage determines the power output of an electric circuit. </para>
+<para id="fs-id1167062698770">Incandescent light bulbs, such as the two shown in <link target-id="Figure_19_04_Light_bulb"/>, are essentially resistors that heat up when current flows through them and they get so hot that they emit visible and invisible light. Thus the two light bulbs in the photo can be considered as two different resistors. In a simple circuit such as a light bulb with a voltage applied to it, the resistance determines the current by Ohm’s law, so we can see that current as well as voltage must determine the power.</para>
+
+<figure id="Figure_19_04_Light_bulb">
+<media id="fs-id1167065860368" alt="The left image shows a 25-W light bulb, whereas the right image shows a 60-W light bulb.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_19_04_Light_bulb.jpg"/></media>
+<caption>On the left is a 25-W light bulb, and on the right is a 60-W light bulb. Why are their power outputs different despite their operating on the same voltage?</caption>
+</figure>
+
+<para id="fs-id1167064928529">The formula for power may be found by dimensional analysis. Consider the units of power. In the SI system, power is given in watts (W), which is energy per unit time, or J/s</para>
+<equation id="fs-id1164562364799"> <m:math display="block">
+ <m:mrow>
+  <m:mtext>W</m:mtext><m:mo>=</m:mo><m:mfrac>
+   <m:mtext>J</m:mtext>
+   <m:mtext>s</m:mtext>
+  </m:mfrac>
+  <m:mtext>.</m:mtext></m:mrow>
+</m:math> </equation>
+<para id="fs-id1167065870643">Recall now that a voltage is the potential energy per unit charge, which means that voltage has units of J/C</para>
+<equation id="fs-id1164563146848"> <m:math display="block">
+ <m:mrow>
+  <m:mtext>V</m:mtext><m:mo>=</m:mo><m:mfrac>
+   <m:mtext>J</m:mtext>
+   <m:mtext>C</m:mtext>
+  </m:mfrac>
+ <m:mtext>.</m:mtext></m:mrow>
+</m:math> 
+</equation>
+<para id="fs-id1167064547443">We can rewrite this equation as  <m:math>
+ <m:mrow>
+  <m:mtext>J</m:mtext><m:mo>=</m:mo><m:mtext>V</m:mtext><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:mtext>C</m:mtext></m:mrow>
+</m:math>  and substitute this into the equation for watts to get</para>
+
+<equation id="fs-id1167065985657" class="unnumbered">
+<label/>
+ <m:math display="block">
+ <m:mrow>
+  <m:mtext>W</m:mtext><m:mo>=</m:mo><m:mfrac>
+   <m:mtext>J</m:mtext>
+   <m:mtext>s</m:mtext>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mtext>V</m:mtext><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:mtext>C</m:mtext></m:mrow>
+   <m:mtext>s</m:mtext>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mtext>V</m:mtext><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:mfrac>
+   <m:mtext>C</m:mtext>
+   <m:mtext>s</m:mtext>
+  </m:mfrac>
+  <m:mtext>.</m:mtext></m:mrow>
+</m:math> </equation>
+
+<para id="fs-id1167065013804">But a Coulomb per second (C/s) is an electric current, which we can see from the definition of electric current,  <m:math>
+ <m:mrow>
+  <m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>Δ</m:mi><m:mi>Q</m:mi></m:mrow>
+   <m:mrow>
+    <m:mi>Δ</m:mi><m:mi>t</m:mi></m:mrow>
+  </m:mfrac>
+  </m:mrow>
+</m:math>, where  <m:math>
+ <m:mi>Δ</m:mi>
+</m:math>  <emphasis effect="italics">Q</emphasis> is the charge in coulombs and  <m:math>
+ <m:mi>Δ</m:mi>
+</m:math>  <emphasis effect="italics">t</emphasis> is time in seconds. Thus, equation above tells us that electric power is voltage times current, or</para>
+
+<equation id="fs-id1167062551057" class="unnumbered">
+<label/>
+ <m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>V</m:mi><m:mtext>.</m:mtext></m:mrow>
+</m:math> 
+</equation>
+
+<para id="fs-id1167065865625">This equation gives the electric power consumed by a circuit with a voltage drop of <emphasis effect="italics">V</emphasis> and a current of <emphasis effect="italics">I</emphasis>.</para>
+<para id="fs-id1167062314981">For example, consider the circuit in <link target-id="Figure_19_04_Circuit15"/>. From Ohm’s law, the current running through the circuit is</para>
+<equation id="fs-id1164564906771"> <m:math display="block">
+ <m:mrow>
+  <m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mi>V</m:mi>
+   <m:mi>R</m:mi>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>12</m:mn><m:mspace width="0.3em"/><m:mtext>V</m:mtext></m:mrow>
+   <m:mrow>
+    <m:mn>100</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext></m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>0.12</m:mn><m:mspace width="0.3em"/><m:mtext>A.</m:mtext></m:mrow>
+</m:math> 
+</equation>
+<para id="fs-id1167062814511">Thus, the power consumed by the circuit is</para>
+<equation id="fs-id1164562444295"> <m:math display="block">
+ <m:mrow>
+  <m:mi>P</m:mi><m:mo>=</m:mo><m:mi>V</m:mi><m:mi>I</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>12</m:mn><m:mspace width="0.3em"/><m:mtext>V</m:mtext></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>0.12</m:mn><m:mspace width="0.3em"/><m:mtext>A</m:mtext></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1.4</m:mn><m:mspace width="0.3em"/><m:mtext>W.</m:mtext></m:mrow>
+</m:math> 
+</equation><para id="fs-id1167065875354">Where does this power go? In this circuit, the power goes primarily into heating the resistor in this circuit.</para>
+
+<figure id="Figure_19_04_Circuit15">
+<media id="fs-id1167066029173" alt="A circuit diagram with one resistor and one battery is shown.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_19_04_circuit15.jpg"/></media>
+<caption>A simple circuit that consumes electric power.</caption>
+</figure>
+
+<para id="fs-id1167065738719">In calculating the power in the circuit of <link target-id="Figure_19_04_Circuit15"/>, we used the resistance and Ohm’s law to find the current. Ohm’s law gives the current: <m:math>
+ <m:mrow>
+  <m:mi>I</m:mi><m:mo>=</m:mo><m:mrow><m:mi>V</m:mi><m:mo>/</m:mo><m:mi>R</m:mi></m:mrow>
+  </m:mrow>
+</m:math>, which we can insert into the equation for electric power to obtain</para>
+<equation id="fs-id1167063010368" class="unnumbered">
+<label/>
+ <m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mi>V</m:mi>
+     <m:mi>R</m:mi>
+    </m:mfrac>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msup>
+     <m:mi>V</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    </m:mrow>
+   <m:mi>R</m:mi>
+  </m:mfrac>
+  <m:mtext>.</m:mtext>
+  </m:mrow>
+</m:math> 
+</equation>
+<para id="fs-id1167065909801">This gives the power in terms of only the voltage and the resistance. </para>
+<para id="fs-id1167064947687">We can also use Ohm’s law to eliminate the voltage in the equation for electric power and obtain an expression for power in terms of just the current and the resistance. If we write Ohm’s law as  <m:math>
+ <m:mrow>
+  <m:mi>V</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>R</m:mi></m:mrow>
+</m:math> 
+ and use this to eliminate <emphasis effect="italics">V</emphasis> in the equation  <m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>V</m:mi></m:mrow>
+</m:math>, we obtain</para>
+<equation id="fs-id1167064749730" class="unnumbered">
+<label/>
+ <m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>I</m:mi><m:mi>R</m:mi></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup>
+   <m:mi>I</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>R</m:mi><m:mtext>.</m:mtext></m:mrow>
+</m:math> 
+</equation>
+
+<para id="fs-id1167064721302">This gives the power in terms of only the current and the resistance.</para>
+<para id="fs-id1167062867924">Thus, by combining Ohm’s law with the equation  <m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>V</m:mi></m:mrow>
+</m:math>  for electric power, we obtain two more expressions for power: one in terms of voltage and resistance and one in terms of current and resistance. Note that only resistance (not capacitance or anything else), current, and voltage enter into the expressions for electric power. This means that the physical characteristic of a circuit that determines how much power it dissipates is its resistance. Any capacitors in the circuit do not dissipate electric power—on the contrary, capacitors either store electric energy or release electric energy back to the circuit.</para>
+<para id="fs-id1167066104689">To clarify how voltage, resistance, current, and power are all related, consider <link target-id="Figure_19_04_Wheel"/>, which shows the <emphasis effect="italics">formula wheel</emphasis>. The quantities in the center quarter circle are equal to the quantities in the corresponding outer quarter circle. For example, to express a potential V in terms of power and current, we see from the formula wheel that  <m:math>
+ <m:mrow>
+  <m:mi>V</m:mi><m:mo>=</m:mo><m:mrow><m:mi>P</m:mi><m:mo>/</m:mo><m:mi>I</m:mi></m:mrow>
+  </m:mrow>
+</m:math> .</para>
+
+<figure id="Figure_19_04_Wheel"><media id="fs-id1167064832963" alt="A formula wheel relating power, voltage, current, and resistance.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_19_04_wheel.jpg"/></media>
+<caption>The formula wheel shows how volts, resistance, current, and power are related. The quantities in the inner quarter circles equal the quantities in the corresponding outer quarter circles.</caption>
+</figure>
+
+<note id="Worked_Example_19_04_01" class="worked-example">
+
+<title>Find the Resistance of a Lightbulb</title>
+<exercise id="fs-id1167065852149" class="19-ex079 unnumbered">
+<label/>
+<problem id="fs-id1167062475876">
+<para id="fs-id1167062975358">A typical older incandescent lightbulb was 60 W. Assuming that 120 V is applied across the lightbulb, what is the current through the lightbulb?</para>
+<note id="fs-id1167064956703">
+<label/><title>Strategy</title>
+<para id="fs-id1167064871531">We are given the voltage and the power output of a simple circuit containing a lightbulb, so we can use the equation  <m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>V</m:mi></m:mrow>
+</m:math>  to find the current <emphasis effect="italics">I</emphasis> that flows through the lightbulb.</para>
+</note>
+</problem>
+<solution id="fs-id1167064541388">
+<label/>
+<title>Solution</title>
+<para id="fs-id1167065826836">Solving  <m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>V</m:mi></m:mrow>
+</m:math>  for the current and inserting the given values for voltage and power gives</para>
+<equation id="fs-id1164564808996"> <m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr>
+    <m:mtd columnalign="right">
+     <m:mi>P</m:mi>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mi>I</m:mi><m:mi>V</m:mi></m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="right">
+     <m:mi>I</m:mi>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mi>P</m:mi>
+       <m:mi>V</m:mi>
+      </m:mfrac>
+      <m:mo>=</m:mo><m:mfrac>
+       <m:mrow>
+        <m:mn>60</m:mn><m:mspace width="0.3em"/><m:mtext>W</m:mtext></m:mrow>
+       <m:mrow>
+        <m:mn>120</m:mn><m:mspace width="0.3em"/><m:mtext>V</m:mtext></m:mrow>
+      </m:mfrac>
+      <m:mo>=</m:mo><m:mn>0.50</m:mn><m:mspace width="0.3em"/><m:mtext>A.</m:mtext></m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable></m:mrow>
+</m:math> 
+</equation>
+<para id="fs-id1167064980054">Thus, a half ampere flows through the lightbulb when 120 V is applied across it.</para>
+</solution>
+<commentary id="fs-id1167064952796">
+<title>Discussion</title>
+<para id="fs-id1167065848314">This is a significant current. Recall that household power is AC and not DC, so the 120 V supplied by household sockets is an alternating power, not a constant power. The 120 V is actually the time-averaged power provided by such sockets. Thus, the average current going through the light bulb over a period of time longer than a few seconds is 0.50 A.</para>
+</commentary>
+</exercise>
+</note>
+
+<note id="Worked_Example_19_04_02" class="worked-example">
+
+<title>Boot Warmers</title>
+<exercise id="fs-id1167066096927" class="19-ex080 unnumbered">
+<label/>
+<problem id="fs-id1167062308398">
+<para id="fs-id1167065704727">To warm your boots on cold days, you decide to sew a circuit with some resistors into the insole of your boots. You want 10 W of heat output from the resistors in each insole, and you want to run them from two 9-V batteries (connected in series). What total resistance should you put in each insole?</para>
+<note id="fs-id1167062536509"><label/><title>Strategy</title>
+
+<para id="fs-id1167064917232">We know the desired power and the voltage (18 V, because we have two 9-V batteries connected in series), so we can use the equation  <m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mo>=</m:mo><m:mrow><m:mrow>
+   <m:msup>
+    <m:mi>V</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   </m:mrow><m:mo>/</m:mo><m:mi>R</m:mi></m:mrow>
+  </m:mrow>
+</m:math>  to find the requisite resistance.</para>
+</note></problem>
+
+<solution id="fs-id1167065851878">
+<label/>
+<title>Solution</title>
+<para id="fs-id1167065864751">Solving  <m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mo>=</m:mo><m:mrow><m:mrow>
+   <m:msup>
+    <m:mi>V</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   </m:mrow><m:mo>/</m:mo><m:mi>R</m:mi></m:mrow>
+  </m:mrow>
+</m:math>  for the resistance and inserting the given voltage and power, we obtain</para>
+<equation id="fs-id1164561085868"> <m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr>
+    <m:mtd columnalign="right">
+     <m:mi>P</m:mi>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:msup>
+         <m:mi>V</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+        </m:mrow>
+       <m:mi>R</m:mi>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="right">
+     <m:mi>R</m:mi>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:msup>
+         <m:mi>V</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+        </m:mrow>
+       <m:mi>P</m:mi>
+      </m:mfrac>
+      <m:mo>=</m:mo><m:mfrac>
+       <m:mrow>
+        <m:msup>
+         <m:mrow>
+          <m:mrow><m:mo>(</m:mo>
+           <m:mrow>
+            <m:mn>18</m:mn><m:mspace width="0.3em"/><m:mtext>V</m:mtext></m:mrow>
+          <m:mo>)</m:mo></m:mrow></m:mrow>
+         <m:mn>2</m:mn>
+        </m:msup>
+        </m:mrow>
+       <m:mrow>
+        <m:mn>10</m:mn><m:mspace width="0.3em"/><m:mtext>W</m:mtext></m:mrow>
+      </m:mfrac>
+      <m:mo>=</m:mo><m:mn>32</m:mn><m:mspace width="0.3em"/><m:mtext>Ω.</m:mtext></m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable></m:mrow>
+</m:math> 
+</equation>
+<para id="fs-id1167065030572">Thus, the total resistance in each insole should be 32  <m:math>
+ <m:mtext>Ω.</m:mtext>
+</m:math> 
+</para>
+</solution>
+
+<commentary id="fs-id1167064635214">
+<title>Discussion</title>
+<para id="fs-id1167064741484">Let’s see how much current would run through this circuit. We have 18 V applied across a resistance of 32  <m:math>
+ <m:mtext>Ω</m:mtext>
+</m:math>, so Ohm’s law gives</para>
+<equation id="fs-id1164562234603"> <m:math display="block">
+ <m:mrow>
+  <m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mi>V</m:mi>
+   <m:mi>R</m:mi>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>18</m:mn><m:mspace width="0.3em"/><m:mtext>V</m:mtext></m:mrow>
+   <m:mrow>
+    <m:mn>32</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext></m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>0.56</m:mn><m:mspace width="0.3em"/><m:mtext>A.</m:mtext></m:mrow>
+</m:math> 
+</equation>
+<para id="fs-id1167064686218">All batteries have labels that say how much charge they can deliver (in terms of a current multiplied by a time). A typical 9-V alkaline battery can deliver a charge of 565  <m:math>
+ <m:mrow>
+  <m:mtext>mA</m:mtext><m:mo>⋅</m:mo><m:mtext>h</m:mtext></m:mrow>
+</m:math> 
+ (so two 9 V batteries deliver 1,130  <m:math>
+ <m:mrow>
+  <m:mtext>mA</m:mtext><m:mo>⋅</m:mo><m:mtext>h</m:mtext></m:mrow>
+</m:math> ), so this heating system would function for a time of</para>
+<equation id="fs-id1164565103211"> <m:math display="block">
+ <m:mrow>
+  <m:mi>t</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>1130</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn></m:mrow>
+     <m:mrow>
+      <m:mn>−3</m:mn></m:mrow>
+    </m:msup>
+    <m:mtext>A</m:mtext><m:mo>⋅</m:mo><m:mtext>h</m:mtext></m:mrow>
+   <m:mrow>
+    <m:mn>0.56</m:mn><m:mspace width="0.3em"/><m:mtext>A</m:mtext></m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>2.0</m:mn><m:mspace width="0.3em"/><m:mtext>h.</m:mtext></m:mrow>
+</m:math> 
+</equation></commentary>
+</exercise>
+</note>
+
+<note id="fs-id1167064861191" class="worked-example"><title>Power through a Branch of a Circuit</title>
+
+<exercise id="fs-id1167064956632" class="19-ex081 unnumbered">
+<label/>
+<problem id="fs-id1167064875471">
+<para id="fs-id1167064736254">Each resistor in the circuit below is 30  <m:math>
+ <m:mtext>Ω</m:mtext>
+</m:math> . What power is dissipated by the middle branch of the circuit?</para>
+
+<media id="fs-id1167062370208" alt="A complex circuit diagram with six resistors and multiple branches is shown." display="block">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_19_04_circuit16_img.jpg"/>
+</media>
+
+<note id="fs-id1167065000886">
+<label/><title>Strategy</title>
+<para id="fs-id1167065875781">The middle branch of the circuit contains resistors  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mtext>3</m:mtext>
+  </m:msub>
+  <m:mtext> and </m:mtext><m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>5</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>  in series. The voltage across this branch is 12 V. We will first find the equivalent resistance in this branch, and then use  <m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mo>=</m:mo><m:mrow><m:mrow>
+   <m:msup>
+    <m:mi>V</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   </m:mrow><m:mo>/</m:mo><m:mi>R</m:mi></m:mrow>
+  </m:mrow>
+</m:math>  to find the power dissipated in the branch.</para>
+</note>
+</problem>
+
+<solution id="fs-id1167065893154">
+<label/>
+<title>Solution</title>
+<para id="fs-id1167065941690">The equivalent resistance is  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mrow>
+    <m:mtext>middle</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>3</m:mn>
+  </m:msub>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>5</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>30</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext><m:mo>+</m:mo><m:mn>30</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext><m:mo>=</m:mo><m:mn>60</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext></m:mrow>
+</m:math> . The power dissipated by the middle branch of the circuit is</para>
+<equation id="fs-id1164566511235"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>P</m:mi>
+   <m:mrow>
+    <m:mtext>middle</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msup>
+     <m:mi>V</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mi>R</m:mi>
+     <m:mrow>
+      <m:mtext>middle</m:mtext></m:mrow>
+    </m:msub>
+    </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msup>
+     <m:mrow>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mn>12</m:mn><m:mspace width="0.3em"/><m:mtext>V</m:mtext></m:mrow>
+      <m:mo>)</m:mo></m:mrow></m:mrow>
+     <m:mn>2</m:mn>
+    </m:msup>
+    </m:mrow>
+   <m:mrow>
+    <m:mn>60</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext></m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>2.4</m:mn><m:mspace width="0.3em"/><m:mtext>W.</m:mtext></m:mrow>
+</m:math> 
+</equation></solution>
+
+<commentary id="fs-id1167064596509">
+<title>Discussion</title>
+<para id="fs-id1167065979333">Let’s see if energy is conserved in this circuit by comparing the power dissipated in the circuit to the power supplied by the battery. First, the equivalent resistance of the left branch is</para>
+<equation id="fs-id1164563178688"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mrow>
+    <m:mtext>left</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+     <m:msub>
+      <m:mi>R</m:mi>
+      <m:mn>1</m:mn>
+     </m:msub>
+     <m:mo>+</m:mo><m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+      <m:msub>
+       <m:mi>R</m:mi>
+       <m:mn>2</m:mn>
+      </m:msub>
+      </m:mrow></m:mrow>
+     </m:mrow></m:mrow>
+    </m:mrow>
+  </m:mfrac>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>4</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+     <m:mn>30</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext></m:mrow></m:mrow>
+    <m:mo>+</m:mo><m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mrow>
+     <m:mn>30</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext></m:mrow></m:mrow>
+    </m:mrow>
+  </m:mfrac>
+  <m:mo>+</m:mo><m:mn>30</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext><m:mo>=</m:mo><m:mn>45</m:mn><m:mspace width="0.3em"/><m:mtext>Ω.</m:mtext></m:mrow>
+</m:math> 
+</equation>
+<para id="fs-id1167064985530">The power through the left branch is</para>
+<equation id="fs-id1164564855938"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>P</m:mi>
+   <m:mrow>
+    <m:mtext>left</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msup>
+     <m:mi>V</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mi>R</m:mi>
+     <m:mrow>
+      <m:mtext>left</m:mtext></m:mrow>
+    </m:msub>
+    </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msup>
+     <m:mrow>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mn>12</m:mn><m:mspace width="0.3em"/><m:mtext>V</m:mtext></m:mrow>
+      <m:mo>)</m:mo></m:mrow></m:mrow>
+     <m:mn>2</m:mn>
+    </m:msup>
+    </m:mrow>
+   <m:mrow>
+    <m:mn>45</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext></m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>3.2</m:mn><m:mspace width="0.3em"/><m:mtext>W.</m:mtext></m:mrow>
+</m:math> 
+</equation>
+<para id="fs-id1167065774000">The right branch contains only  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>6</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>, so the equivalent resistance is  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mrow>
+    <m:mtext>right</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>R</m:mi>
+   <m:mn>6</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>30</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext></m:mrow>
+</m:math> . The power through the right branch is</para>
+<equation id="fs-id1164566914310"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>P</m:mi>
+   <m:mrow>
+    <m:mtext>right</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msup>
+     <m:mi>V</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mi>R</m:mi>
+     <m:mrow>
+      <m:mtext>right</m:mtext></m:mrow>
+    </m:msub>
+    </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msup>
+     <m:mrow>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mn>12</m:mn><m:mspace width="0.3em"/><m:mtext>V</m:mtext></m:mrow>
+      <m:mo>)</m:mo></m:mrow></m:mrow>
+     <m:mn>2</m:mn>
+    </m:msup>
+    </m:mrow>
+   <m:mrow>
+    <m:mn>30</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext></m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>4.8</m:mn><m:mspace width="0.3em"/><m:mtext>W.</m:mtext></m:mrow>
+</m:math> 
+</equation>
+<para id="fs-id1167065874961">The total power dissipated by the circuit is the sum of the powers dissipated in each branch.</para>
+<equation id="fs-id1164559108583"> <m:math display="block">
+ <m:mrow>
+  <m:mi>P</m:mi><m:mo>=</m:mo><m:msub>
+   <m:mi>P</m:mi>
+   <m:mrow>
+    <m:mtext>left</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>P</m:mi>
+   <m:mrow>
+    <m:mtext>middle</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>P</m:mi>
+   <m:mrow>
+    <m:mtext>right</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>2.4</m:mn><m:mspace width="0.3em"/><m:mtext>W</m:mtext><m:mo>+</m:mo><m:mn>3.2</m:mn><m:mspace width="0.3em"/><m:mtext>W</m:mtext><m:mo>+</m:mo><m:mn>4.8</m:mn><m:mspace width="0.3em"/><m:mtext>W</m:mtext><m:mo>=</m:mo><m:mn>10.4</m:mn><m:mspace width="0.3em"/><m:mtext>W</m:mtext></m:mrow>
+</m:math> 
+</equation>
+<para id="fs-id1167065033259">The power provided by the battery is</para>
+<equation id="fs-id1164566435985"> <m:math display="block">
+ <m:mrow>
+  <m:mi>P</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>V.</m:mi></m:mrow>
+</m:math> 
+</equation>
+<para id="fs-id1167064734699">where <emphasis effect="italics">I</emphasis> is the total current flowing through the battery. We must therefore add up the currents going through each branch to obtain <emphasis effect="italics">I</emphasis>. The branches contributes currents of</para>
+
+<equation id="fs-id1164563486643"> <m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr>
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:msub>
+       <m:mi>I</m:mi>
+       <m:mrow>
+        <m:mtext>left</m:mtext></m:mrow>
+      </m:msub>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mi>V</m:mi>
+       <m:mrow>
+        <m:msub>
+         <m:mi>R</m:mi>
+         <m:mrow>
+          <m:mtext>left</m:mtext></m:mrow>
+        </m:msub>
+        </m:mrow>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mn>12</m:mn><m:mspace width="0.3em"/><m:mtext>V</m:mtext></m:mrow>
+       <m:mrow>
+        <m:mn>45</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext></m:mrow>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>0.2667</m:mn><m:mspace width="0.3em"/><m:mtext>A</m:mtext></m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:msub>
+       <m:mtext>I</m:mtext>
+       <m:mrow>
+        <m:mtext>middle</m:mtext></m:mrow>
+      </m:msub>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mi>V</m:mi>
+       <m:mrow>
+        <m:msub>
+         <m:mi>R</m:mi>
+         <m:mrow>
+          <m:mtext>middle</m:mtext></m:mrow>
+        </m:msub>
+        </m:mrow>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mn>12</m:mn><m:mspace width="0.3em"/><m:mtext>V</m:mtext></m:mrow>
+       <m:mrow>
+        <m:mn>60</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext></m:mrow>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>0.20</m:mn><m:mspace width="0.3em"/><m:mtext>A</m:mtext></m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:msub>
+       <m:mtext>I</m:mtext>
+       <m:mrow>
+        <m:mtext>right</m:mtext></m:mrow>
+      </m:msub>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mi>V</m:mi>
+       <m:mrow>
+        <m:msub>
+         <m:mi>R</m:mi>
+         <m:mrow>
+          <m:mtext>right</m:mtext></m:mrow>
+        </m:msub>
+        </m:mrow>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mn>12</m:mn><m:mspace width="0.3em"/><m:mtext>V</m:mtext></m:mrow>
+       <m:mrow>
+        <m:mn>30</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext></m:mrow>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>0.40</m:mn><m:mspace width="0.3em"/><m:mtext>A.</m:mtext></m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable></m:mrow>
+</m:math> </equation>
+<para id="fs-id1167064769468">The total current is</para>
+<equation id="fs-id1164566551988"> <m:math display="block">
+ <m:mrow>
+  <m:mi>I</m:mi><m:mo>=</m:mo><m:msub>
+   <m:mi>I</m:mi>
+   <m:mrow>
+    <m:mtext>left</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>I</m:mi>
+   <m:mrow>
+    <m:mtext>middle</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>I</m:mi>
+   <m:mrow>
+    <m:mtext>right</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>0.2667</m:mn><m:mspace width="0.3em"/><m:mtext>A</m:mtext><m:mo>+</m:mo><m:mn>0.20</m:mn><m:mspace width="0.3em"/><m:mtext>A</m:mtext><m:mo>+</m:mo><m:mn>0.40</m:mn><m:mspace width="0.3em"/><m:mtext>A</m:mtext><m:mo>=</m:mo><m:mn>0.87</m:mn><m:mspace width="0.3em"/><m:mtext>A.</m:mtext></m:mrow>
+</m:math> 
+</equation>
+<para id="fs-id1167065007889">and the power provided by the battery is</para>
+<equation id="fs-id1164564949982"> <m:math display="block">
+ <m:mrow>
+  <m:mi>P</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>0.87</m:mn><m:mspace width="0.3em"/><m:mtext>A</m:mtext></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>12</m:mn><m:mspace width="0.3em"/><m:mtext>V</m:mtext></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>10.4</m:mn><m:mspace width="0.3em"/><m:mtext>W.</m:mtext></m:mrow>
+</m:math> 
+</equation>
+<para id="fs-id1167065007835">This is the same power as is dissipated in the resistors of the circuit, which shows that energy is conserved in this circuit.</para>
+</commentary>
+</exercise>
+</note>
+<section id="fs-id1167064899541" class="practice-problems"><title>Practice Problems</title><exercise id="fs-id1167064976820">
+<problem id="fs-id1167064589337">
+<!--<para id="fs-id1167064843683">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex082"/>
+</para>-->
+
+<para id="fs-id1164564775101">What is the formula for the power dissipated in a resistor?</para>
+<list id="fs-id1164560954210" list-type="enumerated" number-style="lower-alpha">
+<item>The formula for the power dissipated in a resistor is  <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac>
+    <m:mi>I</m:mi>
+    <m:mi>V</m:mi>
+   </m:mfrac>
+   <m:mtext>.</m:mtext>
+  </m:mrow>
+   </m:semantics>
+</m:math> </item>
+<item>The formula for the power dissipated in a resistor is  <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac>
+    <m:mi>V</m:mi>
+    <m:mi>I</m:mi>
+   </m:mfrac>
+   <m:mtext>.</m:mtext>
+  </m:mrow>
+   </m:semantics>
+</m:math> </item>
+<item>The formula for the power dissipated in a resistor is <emphasis effect="italics">P</emphasis> = <emphasis effect="italics">IV</emphasis>.</item>
+<item>The formula for the power dissipated in a resistor is <emphasis effect="italics">P</emphasis> = <emphasis effect="italics">I</emphasis><sup>2</sup><emphasis effect="italics">V</emphasis>.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167065975455">
+<problem id="fs-id1167062712194">
+<!--<para id="fs-id1167066012059">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex083"/>
+</para>-->
+<para id="fs-id1164565085189">What is the formula for power dissipated by a resistor given its resistance and the voltage across it?</para>
+<list id="fs-id1164566547076" list-type="enumerated" number-style="lower-alpha">
+<item>The formula for the power dissipated in a resistor is  <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac>
+    <m:mi>R</m:mi>
+    <m:mrow>
+     <m:msup>
+      <m:mi>V</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+
+    </m:mrow>
+   </m:mfrac>
+
+  </m:mrow>
+ </m:semantics>
+</m:math> </item>
+<item>The formula for the power dissipated in a resistor is  <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>P</m:mi><m:mo>=</m:mo><m:msup>
+    <m:mi>V</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mi>R</m:mi>
+  </m:mrow>
+ </m:semantics>
+</m:math> </item>
+<item>The formula for the power dissipated in a resistor is  <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac>
+    <m:mrow>
+     <m:msup>
+      <m:mi>V</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+
+    </m:mrow>
+    <m:mi>R</m:mi>
+   </m:mfrac>
+
+  </m:mrow>
+   </m:semantics>
+</m:math> </item>
+<item>The formula for the power dissipated in a resistor is  <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>P</m:mi><m:mo>=</m:mo><m:msup>
+    <m:mi>I</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mi>R</m:mi>
+  </m:mrow>
+ </m:semantics>
+</m:math> </item>
+</list>
+
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167065985107" class="check-understanding">
+<title>Check your Understanding</title>
+<exercise id="fs-id1167064983691" class="os-exercise">
+<problem id="fs-id1167065894899">
+<!-- <para id="fs-id1167062811211">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex084"/>
+</para> -->
+<para id="fs-id1164559112622">Which circuit elements dissipate power?</para>
+<list id="fs-id1164566899862" list-type="enumerated" number-style="lower-alpha">
+<item>capacitors</item>
+<item>inductors</item>
+<item>ideal switches</item>
+<item>resistors</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167065870627" class="os-exercise">
+<problem id="fs-id1167062407936">
+<para id="fs-id1167065794189">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex085"/>
+</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167064598340" class="summary">
+<title>Section Summary</title>
+<list id="fs-id1167065714283"><item>Electric power is dissipated in the resistances of a circuit. Capacitors do not dissipate electric power.</item>
+<item>Electric power is proportional to the voltage and the current in a circuit.</item>
+<item>Ohm’s law provides two extra expressions for electric power: one that does not involve current and one that does not involve voltage.</item>
+</list></section>
+
+<section id="fs-id1167065702696" class="key-equations"><title>Key Equations</title><table id="fs-id1167064981080" class="unnumbered unstyled" summary="Table showing two columns and three rows. The first row defines the dissipated electric power of a current flowing through a potential difference; the second row defines dissipated electric power of a current flowing through a resistance; and the third row defines dissipated electric power of a given voltage difference across a resistor.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" align="left" colname="c1"/>
+<colspec colnum="2" align="left" colname="c2"/>
+<tbody>
+<row>
+<entry>for a given current <emphasis effect="italics">I</emphasis> flowing through a potential difference<emphasis effect="italics"> V</emphasis>, the electric power dissipated</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>V</m:mi></m:mrow>
+</m:math> 
+</entry>
+</row>
+<row>
+<entry>for a given current <emphasis effect="italics">I</emphasis> flowing through a resistance <emphasis effect="italics">R</emphasis>, the electric power dissipated</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mo>=</m:mo><m:msup>
+   <m:mi>I</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>R</m:mi></m:mrow>
+</m:math> 
+</entry>
+</row>
+<row>
+<entry>for a given voltage difference <emphasis effect="italics">V</emphasis> across a resistor <emphasis effect="italics">R</emphasis>, the electric power dissipated</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msup>
+     <m:mi>V</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    </m:mrow>
+   <m:mi>R</m:mi>
+  </m:mfrac>
+  </m:mrow>
+</m:math> 
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+
+
+
+
+<section id="fs-id1167065951225" class="concept"><title>Concept Items</title>
+<exercise id="fs-id1167064811785" class="os-exercise">
+<problem id="fs-id1167065044838">
+<!--<para id="fs-id1167064895687">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex088"/>
+</para>-->
+<para id="fs-id1164566545229">To draw the most power from a battery, should you connect a small or a large resistance across its terminals? Explain.</para>
+<list id="fs-id1164566436336" list-type="enumerated" number-style="lower-alpha">
+<item>Small resistance, because smaller resistance will lead to the largest power</item>
+<item>Large resistance, because smaller resistance will lead to the largest power</item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-id1166849664867" class="os-exercise">
+<problem id="eip-id1166847545150">
+<!--<para id="eip-id1166850137667">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ot069"/>
+</para>-->
+<para id="fs-id1169830852641">If you double the current through a resistor, by what factor does the power dissipated by the resistor change?</para>
+<list id="fs-id1169832913126" list-type="enumerated" number-style="lower-alpha">
+<item>Power increases by a factor of two.</item>
+<item>Power increases by a factor of four.</item>
+<item>Power increases by a factor of eight.</item>
+<item>Power increases by a factor of 16.</item>
+</list>
+</problem>
+</exercise></section><section id="fs-id1167065007945" class="critical-thinking"><title>Critical Thinking</title>
+<exercise id="fs-id1167062401247" class="os-exercise">
+<problem id="fs-id1167065960960">
+<!-- <para id="fs-id1167062315348">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex089"/>
+</para> -->
+<para id="fs-id1164563079957">Two lamps have different resistances. (a) If the lamps are connected in parallel, which one is brighter, the lamp with greater resistance or the lamp with less resistance? (b) If the lamps are connected in series, which one is brighter? Note that the brighter lamp dissipates more power.</para>
+<list id="fs-id1164566903422" list-type="enumerated" number-style="lower-alpha">
+<item>(a) lamp with greater resistance; (b) lamp with less resistance</item>
+<item>(a) lamp with greater resistance; (b) lamp with greater resistance</item>
+<item>(a) lamp with less resistance; (b) lamp with less resistance</item>
+<item>(a) lamp with less resistance; (b) lamp with greater resistance</item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-id1166850929841" class="os-exercise">
+<problem id="eip-id1166850929845">
+<!--<para id="eip-id1166848798695">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ot080"/>
+</para>-->
+<para id="fs-id1164562148350">To measure the power consumed by your laptop computer, you place an ammeter (a device that measures electric current) in series with its DC power supply. When the screen is off, the computer draws 0.40 A of current. <newline/> When the screen is on at full brightness, it draws 0.90 A of current. Knowing the DC power supply delivers 16 V, how much power is used by the screen? </para><list id="fs-id1164563124825" list-type="enumerated" number-style="lower-alpha"><item>The power used by the screen is −8.0 W.</item>
+<item>The power used by the screen is 0.3 W.</item>
+<item>The power used by the screen is 3.2 W.</item>
+<item>The power used by the screen is 8.0 W.</item>
+</list></problem>
+</exercise></section><section id="fs-id1167064917629" class="problems">
+<title>Problems</title>
+<exercise id="fs-id1167066037895" class="os-exercise">
+<problem id="fs-id1167065852157">
+<!-- <para id="fs-id1167062401347">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex086"/>
+</para> -->
+<para id="fs-id1169831667272">When 12 V are applied across a resistor, it dissipates 120 W of power. What is the current through the resistor?</para>
+<list id="fs-id1169832024606" list-type="enumerated" number-style="lower-alpha">
+<item>The current is 1,440 A.</item>
+<item>The current is 10 A.</item>
+<item>The current is 0.1 A.</item>
+<item>The current is 0.01 A.</item></list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067248945" class="os-exercise">
+<problem id="fs-id1167066954381">
+<!--<para id="fs-id1167067013826">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex087"/>
+</para>-->
+<para id="fs-id1169831811447">Warming 1 g of water requires 1 J of energy per . How long would it take to warm 1 L of water from 20 to 40 °C
+if you immerse in the water a 1-kW resistor connected across a 9.0-V batteries aligned in series?</para>
+<list id="fs-id1169831904811" list-type="enumerated" number-style="lower-alpha">
+<item>10 min</item>
+<item>20 min</item>
+<item>30 min</item>
+<item>40 min</item></list>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167062811239" class="multiple-choice"><title>Test Prep Multiple Choice</title>
+<exercise id="fs-id1167064979628" class="os-exercise">
+<problem id="fs-id1167064981483">
+<para id="fs-id1167065762172">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex090"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167064905249" class="os-exercise">
+<problem id="fs-id1167064589368">
+<para id="fs-id1167064922510">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex091"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166851081813" class="os-exercise">
+<problem id="eip-id1166851386422">
+<para id="eip-id1166851386424">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ot071"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166849161730" class="os-exercise">
+<problem id="eip-id1166849081968">
+<!-- <para id="eip-id1166849081970">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ot072"/>
+</para> -->
+<para id="fs-id1164563517565">What power is dissipated in a circuit through which 0.12 A flows across a potential drop of 3.0 V?</para>
+<list id="fs-id1164562048563" list-type="enumerated" number-style="lower-alpha"><item>0.36 W</item>
+<item>0.011 W</item>
+<item>5 V</item>
+<item>2.5 W</item>
+</list></problem>
+</exercise>
+</section><section id="fs-id1167065886616" class="short-answer">
+<title>Test Prep Short Answer</title>
+<exercise id="fs-id1167063178156" class="os-exercise">
+<problem id="fs-id1167062971575">
+<!-- <para id="fs-id1167065984818">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex092"/>
+</para> -->
+<para id="fs-id1164564863943">You want to increase the power dissipated in a circuit. You have the choice between doubling the current or doubling the resistance, with the voltage remaining constant. Which one would you choose?</para>
+<list id="fs-id1164564893156" list-type="enumerated" number-style="lower-alpha">
+<item>doubling the resistance</item>
+<item>doubling the current</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167062469196" class="os-exercise">
+<problem id="fs-id1167065870249">
+<!-- <para id="fs-id1167065946740">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex093"/>
+</para> -->
+<para id="fs-id1164566891019">You want to increase the power dissipated in a circuit. You have the choice between reducing the voltage or reducing the resistance, with the current remaining constant. Which one would you choose?</para>
+<list id="fs-id1164563528506" list-type="enumerated" number-style="lower-alpha">
+<item>reduce the voltage to increase the power</item>
+<item>reduce the resistance to increase the power</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167065955581" class="os-exercise">
+<problem id="fs-id1167064825511">
+<!-- <para id="fs-id1167064825513">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex094"/>
+</para> -->
+<para id="fs-id1164566535146">What power is dissipated in the circuit consisting of 310-Ω resistors connected in series across a 9.0-V battery?</para>
+<list id="fs-id1164564841173" list-type="enumerated" number-style="lower-alpha">
+<item>The power dissipated is 2430 W.</item>
+<item>The power dissipated is 270 W.</item>
+<item>The power dissipated is 2.7 W.</item>
+<item>The power dissipated is 0.37 W.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167064979699" class="os-exercise">
+<problem id="fs-id1167064829726">
+<!-- <para id="fs-id1167066030316">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex095"/>
+</para> -->
+<para id="fs-id1164565217282">What power is dissipated in a circuit consisting of three 10-Ω resistors connected in parallel across a 9.0-V battery?</para>
+<list id="fs-id1164559099609" list-type="enumerated" number-style="lower-alpha">
+<item>The power dissipated is 270 W.</item>
+<item>The power dissipated is 30 W.</item>
+<item>The power dissipated is 24 W.</item>
+<item>The power dissipated is 1/24 W.</item>
+</list>
+</problem>
+</exercise>
+</section>
+
+
+<section id="fs-id1167066153968" class="performance"><title>Performance Task</title>
+<exercise id="fs-id1167065940813"><problem id="fs-id1167062312071">
+<list id="fs-id1167062312073" list-type="enumerated" number-style="arabic">
+<item>An incandescent light bulb (i.e., an old-fashioned light bulb with a little wire in it)</item>
+<item>A lightbulb socket to hold the light bulb</item>
+<item>A variable voltage source</item>
+<item>An ammeter</item></list><list id="eip-id1167064910501"><title>Procedure</title><item id="fs-id1167065067732">Screw the lightbulb into its socket. Connect the positive terminal of the voltage source to the input of the ammeter. Connect the output of the ammeter to one connection of the socket. Connect the other connection of the socket to the negative terminal of the voltage source. Ensure that the voltage source is set to supply DC voltage and that the ammeter is set to measure DC amperes. The desired circuit is shown below.
+<media id="fs-id1167064928581" alt="A voltage source shows a reading of 6.8 volts. Its position terminal is connected to an ammeter. The other end of the ammeter is connected to a lightbulb, which in turn is connected to the negative terminal of the voltage source." display="block"><image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_19_04_PT.jpg"/></media>
+</item>
+
+<item id="fs-id1167062443285">On a piece of paper, make a two-column table with 10 rows. Label the left column <emphasis effect="italics">volts</emphasis> and the right column <emphasis effect="italics">current.</emphasis> Adjust the voltage source so that it supplies from between 1 and 10 volts DC. For each voltage, write the voltage in the volts column and the corresponding amperage measured by the ammeter in the current column. Make a plot of volts versus current, that is, a plot with volts on the vertical axis and current on the horizontal axis. Use this data and the plot to answer the following questions:</item>
+</list><list id="fs-id1167065071873" list-type="enumerated" number-style="arabic">
+<item>What is the resistance of the lightbulb?</item>
+<item>What is the range of possible error in your result for the resistance?</item>
+<item>In a single word, how would you describe the curve formed by the data points?</item>
+</list>
+
+<note id="fs-id1167063010152" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065837832">This performance task supports </para>
+<list id="fs-id1167065985588"><item>
+<span>NGSS Practice 4</span>
+<span>:</span>
+<span>Analyzing and interpreting data, and</span>
+</item>
+<item><span>Standard 2K</span><span>:</span> <span class="description">Communicate valid conclusions supported by the data through various methods such as lab reports, labeled drawings, graphic organizers, journals, summaries, oral reports, and technology-based reports.</span></item>
+</list><para id="fs-id1167065955379">Once collected, data must be presented in a form that can reveal any patterns and relationships and that allows results to be communicated to others. Because raw data as such have little meaning, a major practice of scientists is to organize and interpret data through tabulating, graphing, or statistical analysis. Such analysis can bring out the meaning of data and their relevance so that they may be used as evidence.</para>
+<para id="fs-id1167063320857">Engineers, too, make decisions based on evidence that a given design will work; they rarely rely on trial and error. Engineers often analyze a design by creating a model or prototype and collecting extensive data on how it performs, including under extreme conditions. Analysis of this kind of data not only informs design decisions and enables the prediction or assessment of performance but also helps define or clarify problems, determine economic feasibility, evaluate alternatives, and investigate failures.</para>
+<para id="fs-id1167066112068">The curve should be linear and approximately go through the origin of the plot. The resistance of a 100-W, 120-V incandescent lightbulb should be around 144  <m:math>
+ <m:mtext>Ω</m:mtext>
+</m:math> .</para>
+</note>
+</problem>
+</exercise></section>
+
+
+<section id="fs-id1167062477050" class="extended-response">
+<title>Test Prep Extended Response</title>
+<exercise id="fs-id1167066198317" class="os-exercise">
+<problem id="fs-id1167062372034">
+<para id="fs-id1167064984581">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex096"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167062555538" class="os-exercise">
+<problem id="fs-id1167062601414">
+<para id="fs-id1167066170518">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex097"/>
+</para>
+</problem>
+</exercise>
+</section>
+
+</content>
+<glossary>
+<definition id="fs-id1167064922320"><term>electric power</term><meaning id="fs-id1167064909166"> rate at which electric energy is transferred in a circuit</meaning></definition>
+</glossary>
+</document>

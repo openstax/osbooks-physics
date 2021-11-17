@@ -1,0 +1,1310 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Newton's Law of Universal Gravitation and Einstein's Theory of General Relativity</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54189</md:content-id>
+  <md:title>Newton's Law of Universal Gravitation and Einstein's Theory of General Relativity</md:title>
+  <md:abstract/>
+  <md:uuid>cef1f320-df42-4181-af2b-bd17bfd3b60c</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167067153391" class="learning-objectives">
+<label/>
+<title>Section  Learning Objectives</title>
+<para id="fs-id1167063525431">By the end of this section, you will be able to do the following:</para>
+<list id="fs-id1167067105654" list-type="bulleted"><item>Explain Newton’s law of universal gravitation and compare it to Einstein’s theory of general relativity</item>
+<item>Perform calculations using Newton’s law of universal gravitation</item>
+</list></note>
+
+<note id="fs-id1167063518770" class="os-teacher"><title>Teacher Support</title>
+<para id="eip-id1167063747661">The learning objectives in this section will help your students master the following standards:</para>
+<list id="fs-id1164565019953">
+<item>(4)  Science concepts. The student knows and applies the laws governing motion in a variety of situations. The student is expected to:
+<list id="fs-id1167067272303"><item>
+<span class="oat-standards-name">(D)</span> <span>calculate the effect of forces on objects, including the law of inertia, the relationship between force and acceleration, and the nature of force pairs between objects;</span>
+</item></list>
+</item>
+</list>
+<list id="fs-id1164564974658">
+<item>(5)  Science concepts. The student knows the nature of forces in the physical world. The student is expected to:
+<list id="fs-id1164562024191">
+<item>
+<span class="oat-standards-name">(A)</span> <span>research and describe the historical development of the concepts of gravitational, electromagnetic, weak nuclear, and strong nuclear forces;</span>
+</item>
+<item>
+<span class="oat-standards-name">(B)</span> <span>describe and calculate how the magnitude of the gravitational force between two objects depends on their masses and the distance between their centers.</span>
+</item>
+</list></item></list></note>
+<section id="keyterms"><title>Section Key Terms</title>
+<table id="fs-id1167067007992" class="unnumbered unstyled section-key-terms" summary="The list of Key Terms includes: gravitational constant, Einstein’s theory of general relativity, and Newton’s universal law of gravitation.">
+<label/>
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+<row>
+<entry>Einstein’s theory of general relativity</entry>
+<entry>gravitational constant</entry>
+<entry>Newton’s universal law of gravitation</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<note id="fs-id1167067145782" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067050697">In this section, students will apply Newton’s law of universal gravitation to objects close at hand and far off in the depths of the solar system.</para>
+<para id="fs-id1167066778771"><span>[BL]</span><span>[OL]</span> Compare the contributions of Kepler, Newton, and Einstein. Place them historically with dates.</para>
+<para id="fs-id1167063535377"><span>[AL]</span> Ask if anyone knows the difference between special relativity and general relativity. Special relativity is a theory of spacetime and applies to observers moving at constant velocity. General relativity is a theory of gravity and applies to observers that are accelerating. General relativity is broader and includes special relativity, which was published first.</para>
+</note>
+<section id="fs-id1167066805582">
+<title>Concepts Related to Newton’s Law of Universal Gravitation</title>
+<para id="fs-id1167066858565">Sir Isaac Newton was the first scientist to precisely define the gravitational force, and to show that it could explain both falling bodies and astronomical motions. See <link target-id="Figure_07_02_apple"/>. But Newton was not the first to suspect that the same force caused both our weight and the motion of planets. His forerunner, Galileo Galilei, had contended that falling bodies and planetary motions had the same cause. Some of Newton’s contemporaries, such as Robert Hooke, Christopher Wren, and Edmund Halley, had also made some progress toward understanding gravitation. But Newton was the first to propose an exact mathematical form and to use that form to show that the motion of heavenly bodies should be conic sections—circles, ellipses, parabolas, and hyperbolas. This theoretical prediction was a major triumph. It had been known for some time that moons, planets, and comets follow such paths, but no one had been able to propose an explanation of the mechanism that caused them to follow these paths and not others.</para>
+
+<figure id="Figure_07_02_apple"><media id="fs-id1167066793712" alt="A painting shows a man sitting under a tree, from which an apple is falling.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_07_02_apple.jpg"/>
+</media>
+
+<caption>The popular legend that Newton suddenly discovered the law of universal gravitation when an apple fell from a tree and hit him on the head has an element of truth in it. A more probable account is that he was walking through an orchard and wondered why all the apples fell in the same direction with the same acceleration. Great importance is attached to it because Newton’s universal law of gravitation and his laws of motion answered very old questions about nature and gave tremendous support to the notion of underlying simplicity and unity in nature. Scientists still expect underlying simplicity to emerge from their ongoing inquiries into nature.</caption></figure><note id="fs-id1167066844617" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066874580"><span>[BL]</span><span>[OL]</span>Ask students if it really is obvious why all things fall straight down. Ask them to back up their reasons. Ask if the name Halley rings a bell.</para>
+<para id="fs-id1167067111904"><span>[OL]</span><span>[AL]</span>Ask if anyone thinks it is strange or even mysterious that a force can act at a distance across empty space. Ask the students to compare and contrast gravitational force with magnetic and electrostatic forces. Note how much force at a distance is like magic or having superpowers.</para>
+</note>
+
+<para id="fs-id1167066850157">The gravitational force is relatively simple. It is always attractive, and it depends only on the masses involved and the distance between them. Expressed in modern language, <term>Newton’s universal law of gravitation</term> states that every object in the universe attracts every other object with a force that is directed along a line joining them. The force is directly proportional to the product of their masses and inversely proportional to the square of the distance between them. This attraction is illustrated by <link target-id="Figure_07_02_gravity"/>.</para>
+
+<figure id="Figure_07_02_gravity"><media id="fs-id1167067032646" alt="A figure shows a small circle and a large circle. A black line goes from one circle to the other. A red line with an arrow extends outward from each circle. The red lines have arrows on one end, pointing away from the circles, towards the midpoint of the space in between the circles.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_07_02_gravity.jpg"/>
+</media>
+
+<caption>Gravitational attraction is along a line joining the centers of mass (CM) of the two bodies. The magnitude of the force on each body is the same, consistent with Newton’s third law (action-reaction).</caption></figure><para id="fs-id1167066790167">For two bodies having masses <emphasis effect="italics">m</emphasis> and <emphasis effect="italics">M</emphasis> with a distance <emphasis effect="italics">r</emphasis> between their centers of mass, the equation for Newton’s universal law of gravitation is</para>
+<equation id="fs-id1167067165973" class="unnumbered"><label/>
+ <m:math>
+ <m:mrow>
+  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle><m:mo>=</m:mo><m:mi>G</m:mi><m:mfrac>
+   <m:mrow>
+    <m:mi>m</m:mi><m:mi>M</m:mi></m:mrow>
+   <m:mrow>
+    <m:msup>
+     <m:mi>r</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    </m:mrow>
+  </m:mfrac>
+  </m:mrow>
+</m:math>
+</equation><para id="fs-id1167067033630">where <emphasis>F</emphasis> is the magnitude of the gravitational force and <emphasis effect="italics">G</emphasis> is a proportionality factor called the <term>gravitational constant</term>. <emphasis effect="italics">G</emphasis> is a universal constant, meaning that it is thought to be the same everywhere in the universe. It has been measured experimentally to be  <m:math>
+ <m:mrow>
+  <m:mi>G</m:mi><m:mo>=</m:mo><m:mn>6.673</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>11</m:mn></m:mrow>
+  </m:msup>
+  <m:mtext>N</m:mtext><m:mo>⋅</m:mo><m:msup>
+   <m:mtext>m</m:mtext>
+   <m:mtext>2</m:mtext>
+  </m:msup>
+  <m:msup>
+   <m:mrow>
+    <m:mtext>/kg</m:mtext></m:mrow>
+   <m:mtext>2</m:mtext>
+  </m:msup>
+  </m:mrow>
+</m:math> .</para><para id="fs-id1167066829501">If a person has a mass of 60.0 kg, what would be the force of gravitational attraction on him at Earth’s surface? <emphasis effect="italics">G</emphasis> is given above, Earth’s mass <emphasis effect="italics">M</emphasis> is 5.97 × 10<sup>24</sup> kg, and the radius <emphasis effect="italics">r</emphasis> of Earth is 6.38 × 10<sup>6</sup> m. Putting these values into Newton’s universal law of gravitation gives</para>
+<equation id="fs-id1167066867048" class="unnumbered"><label/>
+ <m:math>
+ <m:mrow>
+  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle><m:mo>=</m:mo><m:mi>G</m:mi><m:mfrac>
+   <m:mrow>
+    <m:mi>m</m:mi><m:mi>M</m:mi></m:mrow>
+   <m:mrow>
+    <m:msup>
+     <m:mi>r</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>6.673</m:mn><m:mo>×</m:mo><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn></m:mrow>
+     <m:mrow>
+      <m:mo>−</m:mo><m:mn>11</m:mn></m:mrow>
+    </m:msup>
+    <m:mfrac>
+     <m:mrow>
+      <m:mtext>N</m:mtext><m:mo>⋅</m:mo><m:msup>
+       <m:mtext>m</m:mtext>
+       <m:mn>2</m:mn>
+      </m:msup>
+      </m:mrow>
+     <m:mrow>
+      <m:msup>
+       <m:mrow>
+        <m:mtext>kg</m:mtext></m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mn>60.0</m:mn><m:mspace width="0.3em"/><m:mtext> kg</m:mtext></m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mn>5.97</m:mn><m:mo>×</m:mo><m:msup>
+         <m:mrow>
+          <m:mn>10</m:mn></m:mrow>
+         <m:mrow>
+          <m:mn>24</m:mn></m:mrow>
+        </m:msup>
+        <m:mtext> kg</m:mtext></m:mrow>
+      <m:mo>)</m:mo></m:mrow></m:mrow>
+     <m:mrow>
+      <m:msup>
+       <m:mrow>
+        <m:mrow><m:mo>(</m:mo>
+         <m:mrow>
+          <m:mn>6.38</m:mn><m:mo>×</m:mo><m:msup>
+           <m:mrow>
+            <m:mn>10</m:mn></m:mrow>
+           <m:mn>6</m:mn>
+          </m:msup>
+          <m:mtext> m</m:mtext></m:mrow>
+        <m:mo>)</m:mo></m:mrow></m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>584</m:mn><m:mspace width="0.3em"/><m:mtext> N</m:mtext></m:mrow>
+</m:math>
+</equation><para id="fs-id1167066836697">We can check this result with the relationship:  <m:math>
+ <m:mrow>
+  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle><m:mo>=</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>g</m:mi></m:mstyle><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>60</m:mn><m:mspace width="0.3em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>9.8</m:mn><m:msup>
+   <m:mrow>
+    <m:mtext>m/s</m:mtext></m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>588</m:mn><m:mspace width="0.3em"/><m:mtext>N</m:mtext></m:mrow>
+</m:math> </para><para id="fs-id1167067008242">You may remember that <emphasis>g</emphasis>, the acceleration due to gravity, is another important constant related to gravity. By substituting <emphasis>g</emphasis> for <emphasis>a</emphasis> in the equation for Newton’s second law of motion we get  <m:math>
+ <m:mrow>
+  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle><m:mo>=</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>g</m:mi></m:mstyle></m:mrow>
+</m:math> . Combining this with the equation for universal gravitation gives</para><equation id="fs-id1167066967155" class="unnumbered"><label/>
+ <m:math>
+ <m:mrow>
+  <m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>g</m:mi></m:mstyle><m:mo>=</m:mo><m:mi>G</m:mi><m:mfrac>
+   <m:mrow>
+    <m:mi>m</m:mi><m:mi>M</m:mi></m:mrow>
+   <m:mrow>
+    <m:msup>
+     <m:mi>r</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    </m:mrow>
+  </m:mfrac>
+  </m:mrow>
+</m:math>
+</equation><para id="fs-id1167066959685">Cancelling the mass <emphasis effect="italics">m</emphasis> on both sides of the equation and filling in the values for the gravitational constant and mass and radius of the Earth, gives the value of <emphasis effect="italics">g, </emphasis>which may look familiar.</para>
+
+<equation id="fs-id1167066833624" class="unnumbered"><label/>
+ <m:math>
+ <m:mrow>
+  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>g</m:mi></m:mstyle><m:mo>=</m:mo><m:mi>G</m:mi><m:mfrac>
+   <m:mi>M</m:mi>
+   <m:mrow>
+    <m:msup>
+     <m:mi>r</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>6.67</m:mn><m:mo>×</m:mo><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn></m:mrow>
+     <m:mrow>
+      <m:mo>−</m:mo><m:mn>11</m:mn></m:mrow>
+    </m:msup>
+    <m:mfrac>
+     <m:mrow>
+      <m:mtext>N</m:mtext><m:mo>⋅</m:mo><m:msup>
+       <m:mtext>m</m:mtext>
+       <m:mn>2</m:mn>
+      </m:msup>
+      </m:mrow>
+     <m:mrow>
+      <m:msup>
+       <m:mrow>
+        <m:mtext>kg</m:mtext></m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mn>5.98</m:mn><m:mo>×</m:mo><m:msup>
+       <m:mrow>
+        <m:mn>10</m:mn></m:mrow>
+       <m:mrow>
+        <m:mn>24</m:mn></m:mrow>
+      </m:msup>
+      <m:mtext>kg</m:mtext></m:mrow>
+     <m:mrow>
+      <m:msup>
+       <m:mrow>
+        <m:mrow><m:mo>(</m:mo>
+         <m:mrow>
+          <m:mn>6.38</m:mn><m:mo>×</m:mo><m:msup>
+           <m:mrow>
+            <m:mn>10</m:mn></m:mrow>
+           <m:mn>6</m:mn>
+          </m:msup>
+          <m:mtext>m</m:mtext></m:mrow>
+        <m:mo>)</m:mo></m:mrow></m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>9.80</m:mn><m:msup>
+   <m:mrow>
+    <m:mtext>m/s</m:mtext></m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math>
+</equation><para id="fs-id1167066827045">This is a good point to recall the difference between mass and weight. Mass is the amount of matter in an object; weight is the force of attraction between the mass within two objects. Weight can change because <emphasis effect="italics">g</emphasis> is different on every moon and planet. An object’s mass <emphasis effect="italics">m</emphasis> does not change but its weight <emphasis effect="italics">m</emphasis><emphasis>g</emphasis> can.</para><note id="fs-id1167067005480" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066868201"><span>[BL]</span><span>[OL]</span>Be sure no one is confusing <emphasis effect="italics">G</emphasis> with <emphasis>g</emphasis>.</para><para id="fs-id1167067108620"><span>[AL]</span>Ask if anyone can explain why <emphasis effect="italics">G</emphasis> is a universal constant that applies anywhere in the universe. Have them discuss the idea that the laws of physics are the same everywhere and that, at one time, people were not so sure about this. Emphasize that <emphasis>g</emphasis> is <emphasis effect="italics">not</emphasis> a universal constant.</para></note>
+
+<note id="fs-id1167066838209" class="virtual-physics os-interactive"><title>Gravity and Orbits</title>
+<para id="fs-id1167066854039">Move the sun, Earth, moon and space station in this simulation to see how it affects their gravitational forces and orbital paths. Visualize the sizes and distances between different heavenly bodies. Turn off gravity to see what would happen without it!</para>
+<media id="fs-id1167067106073" alt="This simulation allows you to move the sun, earth, moon and space station to see how it affects their gravitational forces and orbital paths">
+<iframe width="660" height="371.4" src="https://openstax.org/l/28gravityorbit"/></media>
+<exercise id="fs-id1167066833066" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167066972250">
+<para id="fs-id1167067054019">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch07-ex023"/>
+</para>
+</problem>
+</exercise>
+</note><note id="fs-id1167066833554" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066807291">This is a good animation of the Earth-Moon-Sun system. Have the students try all of the buttons. This will show the paths of the Earth and the moon separately and together. Explain the gravitational force and velocity vectors. Point out the interesting shape of the moon’s path around the sun. Explain that the velocity vector of the moon changes because sometimes the moon is traveling in the direction of Earth’s orbit and sometimes it is traveling in the opposite direction.</para>
+</note>
+
+<note id="fs-id1167067053988" class="snap-lab"><title>Take-Home Experiment: Falling Objects</title>
+
+<para id="fs-id1167066860714">In this activity you will study the effects of mass and air resistance on the acceleration of falling objects. Make predictions (hypotheses) about the outcome of this experiment. Write them down to compare later with results.</para>
+<list id="fs-id1167066800290" class="materials">
+<item>Four sheets of  <m:math>
+<m:mrow>
+<m:mn>8</m:mn><m:mspace width="0.3em"/><m:mtext>-</m:mtext><m:mrow><m:mtext>1</m:mtext><m:mo>/</m:mo><m:mn>2</m:mn></m:mrow>
+<m:mo>×</m:mo><m:mn>11</m:mn>
+</m:mrow></m:math> -inch paper</item>
+</list><list id="fs-id1167066846842" list-type="labeled-item">
+<title>Procedure</title>
+<item>Take four identical pieces of paper.
+    <list id="fs-id1167066778266" list-type="bulleted">
+    <item>Crumple one up into a small ball.</item>
+    <item>Leave one uncrumpled.</item>
+    <item>Take the other two and crumple them up together, so that they make a ball of exactly twice the mass of the other crumpled ball.</item>
+    <item>Now compare which ball of paper lands first when dropped simultaneously from the same height.
+        <list id="fs-id1167067007554" list-type="enumerated" number-style="arabic">
+        <item>Compare crumpled one-paper ball with crumpled two-paper ball.</item>
+        <item>Compare crumpled one-paper ball with uncrumpled paper.</item>
+        </list>
+    </item>
+    </list>
+</item>
+</list>
+<exercise id="fs-id1167066875236" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167066862251">
+<para id="fs-id1167066831207">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch07-ex024"/>
+</para>
+</problem>
+</exercise>
+<note id="fs-id1167067142014" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067041220">Ask for predictions (hypotheses) about the outcome of this experiment. Have the students write them down to compare later with results.</para>
+</note>
+</note>
+
+<para id="fs-id1167066994450">It is possible to derive Kepler’s third law from Newton’s law of universal gravitation. Applying Newton’s second law of motion to angular motion gives an expression for centripetal force, which can be equated to the expression for force in the universal gravitation equation. This expression can be manipulated to produce the equation for Kepler’s third law. We saw earlier that the expression <emphasis effect="italics">r<sup>3</sup>/T<sup>2</sup></emphasis> is a constant for satellites orbiting the same massive object. The derivation of Kepler’s third law from Newton’s law of universal gravitation and Newton’s second law of motion yields that constant:</para><equation id="fs-id1167067175246" class="unnumbered">
+<label/>
+ <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:msup>
+     <m:mi>r</m:mi>
+     <m:mn>3</m:mn>
+    </m:msup>
+    </m:mrow>
+   <m:mrow>
+    <m:msup>
+     <m:mi>T</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>G</m:mi><m:mi>M</m:mi></m:mrow>
+   <m:mrow>
+    <m:mn>4</m:mn><m:msup>
+     <m:mi>π</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    </m:mrow>
+  </m:mfrac>
+  </m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1167066856564">where <emphasis effect="italics">M</emphasis> is the mass of the central body about which the satellites orbit (for example, the sun in our solar system). The usefulness of this equation will be seen later.</para>
+
+<note id="fs-id1167067100729" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067080144"><span>[OL]</span>This equation illustrates the difference between Kepler’s and Newton’s work. Ask the students to explain why this is so.</para>
+<para id="fs-id1167066861155"><span>[AL]</span>Ask the students what the attraction would be between two 10 kg balls separated by a distance of 1.0 m. Could they feel it? Later, ask them to calculate it after they have done some similar calculations. Solution:</para><equation id="fs-id1167063526661" class="unnumbered"><label/> <m:math>
+ <m:mrow>
+  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle><m:mo>=</m:mo><m:mi>G</m:mi><m:mfrac>
+   <m:mrow>
+    <m:mi>m</m:mi><m:mi>M</m:mi></m:mrow>
+   <m:mrow>
+    <m:msup>
+     <m:mi>r</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>6.67</m:mn><m:mo>×</m:mo><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn></m:mrow>
+     <m:mrow>
+      <m:mo>−</m:mo><m:mn>11</m:mn></m:mrow>
+    </m:msup>
+    <m:mfrac>
+     <m:mrow>
+      <m:mtext>N</m:mtext><m:mo>⋅</m:mo><m:msup>
+       <m:mtext>m</m:mtext>
+       <m:mn>2</m:mn>
+      </m:msup>
+      </m:mrow>
+     <m:mrow>
+      <m:msup>
+       <m:mrow>
+        <m:mtext>kg</m:mtext></m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mn>10</m:mn><m:mspace width="0.3em"/><m:mtext> kg</m:mtext><m:mo>×</m:mo><m:mn>10</m:mn><m:mspace width="0.3em"/><m:mtext> kg</m:mtext></m:mrow>
+     <m:mrow>
+      <m:msup>
+       <m:mrow>
+        <m:mrow><m:mo>(</m:mo>
+         <m:mrow>
+          <m:mn>1</m:mn><m:mspace width="0.3em"/><m:mtext> m</m:mtext></m:mrow>
+        <m:mo>)</m:mo></m:mrow></m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>6.67</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>9</m:mn></m:mrow>
+  </m:msup>
+  <m:mtext> N</m:mtext></m:mrow>
+</m:math>
+</equation></note>
+
+<para id="fs-id1167067103747">The universal gravitational constant <emphasis effect="italics">G </emphasis>is determined experimentally. This definition was first done accurately in 1798 by English scientist Henry Cavendish (1731–1810), more than 100 years after Newton published his universal law of gravitation. The measurement of <emphasis effect="italics">G </emphasis>is very basic and important because it determines the strength of one of the four forces in nature. Cavendish’s experiment was very difficult because he measured the tiny gravitational attraction between two ordinary-sized masses (tens of kilograms at most) by using an apparatus like that in <link target-id="Figure_07_02_sphere"/>. Remarkably, his value for <emphasis effect="italics">G </emphasis>differs by less than 1% from the modern value.</para>
+
+<figure id="Figure_07_02_sphere"><media id="fs-id1167066809101" alt="Apparatus consisting of two large spheres, one on each end of a horizontal rod centered on a pivot. Two smaller spheres are at the extremity of a smaller horizontal rod also centered on same pivot point. Light source shines laser beam that hits mirror and reflects onto scale to show pivot angle of spheres.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_07_02_sphere.jpg"/>
+</media>
+
+<caption>Cavendish used an apparatus like this to measure the gravitational attraction between two suspended spheres (<emphasis effect="italics">m</emphasis>) and two spheres on a stand (<emphasis effect="italics">M</emphasis>) by observing the amount of torsion (twisting) created in the fiber. The distance between the masses can be varied to check the dependence of the force on distance. Modern experiments of this type continue to explore gravity.</caption></figure><section id="fs-id1167066823699">
+<title>Einstein’s Theory of General Relativity</title>
+<para id="fs-id1167067226780">Einstein’s theory of general relativity explained some interesting properties of gravity not covered by Newton’s theory. Einstein based his theory on the postulate that acceleration and gravity have the same effect and cannot be distinguished from each other. He concluded that light must fall in both a gravitational field and in an accelerating reference frame. <link target-id="Figure_07_02_light"/> shows this effect (greatly exaggerated) in an accelerating elevator. In <link target-id="Figure_07_02_light"/> <emphasis>(a)</emphasis>, the elevator accelerates upward in zero gravity. In <link target-id="Figure_07_02_light"/> <emphasis>(b)</emphasis>, the room is not accelerating but is subject to gravity. The effect on light is the same: it “falls” downward in both situations. The person in the elevator cannot tell whether the elevator is accelerating in zero gravity or is stationary and subject to gravity. Thus, gravity affects the path of light, even though we think of gravity as acting between masses, while photons are massless.</para><note id="fs-id1167067049591" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067028586"><span>[BL]</span><span>[OL]</span>Ask the students to discuss the postulate. Can they relate the identity of gravity and acceleration to experience?</para>
+</note>
+
+<figure id="Figure_07_02_light"><media id="fs-id1167067300278" alt="Left panel shows a person in an elevator who shines a light beam on the wall. Beam of light bends down. Elevator is labelled “accelerated up.” Right panel shows same picture, but person is in a room on Earth.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_07_02_light.jpg"/>
+</media>
+
+<caption>(a) A beam of light emerges from a flashlight in an upward-accelerating elevator. Since the elevator moves up during the time the light takes to reach the wall, the beam strikes lower than it would if the elevator were not accelerated. (b) Gravity must have the same effect on light, since it is not possible to tell whether the elevator is accelerating upward or is stationary and acted upon by gravity.</caption></figure><para id="fs-id1167067133706">Einstein’s theory of general relativity got its first verification in 1919 when starlight passing near the sun was observed during a solar eclipse. (See <link target-id="Figure_07_02_sun"/>.) During an eclipse, the sky is darkened and we can briefly see stars. Those on a line of sight nearest the sun should have a shift in their apparent positions. Not only was this shift observed, but it agreed with Einstein’s predictions well within experimental uncertainties. This discovery created a scientific and public sensation. Einstein was now a folk hero as well as a very great scientist. The bending of light by matter is equivalent to a bending of space itself, with light following the curve. This is another radical change in our concept of space and time. It is also another connection that any particle with mass <emphasis effect="italics">or</emphasis> energy (e.g., massless photons) is affected by gravity.</para>
+
+<figure id="Figure_07_02_sun"><media id="fs-id1167067199332" alt="Schematic drawing of sun at left and Earth at right. A person is standing on Earth. Two stars to left of sun. Lines drawn from starts to person’s eyes. Lower star has curved solid line, and upper star has straight dashed line.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_07_02_sun.jpg"/>
+</media>
+
+<caption>This schematic shows how light passing near a massive body like the sun is curved toward it. The light that reaches the Earth then seems to be coming from different locations than the known positions of the originating stars. Not only was this effect observed, but the amount of bending was precisely what Einstein predicted in his general theory of relativity.</caption></figure><para id="fs-id1167067191378">To summarize the two views of gravity, Newton envisioned gravity as a tug of war along the line connecting any two objects in the universe. In contrast, Einstein envisioned gravity as a bending of space-time by mass.</para>
+
+<note id="fs-id1167067025043" class="boundless-physics">
+
+<title>NASA gravity probe B</title>
+<para id="fs-id1167066854738">NASA’s Gravity Probe B (GP-B) mission has confirmed two key predictions derived from Albert Einstein’s general theory of relativity. The probe, shown in <link target-id="Figure_07_02_NASA"/> was launched in 2004. It carried four ultra-precise gyroscopes designed to measure two effects hypothesized by Einstein’s theory:</para>
+<list id="fs-id1167063754943" list-type="bulleted">
+<item>The <term class="no-emphasis">geodetic effect</term>, which is the warping of space and time by the gravitational field of a massive body (in this case, Earth)</item>
+<item>The <term class="no-emphasis">frame-dragging effect</term>, which is the amount by which a spinning object pulls space and time with it as it rotates</item>
+</list>
+
+<figure id="Figure_07_02_NASA"><media id="fs-id1167066791137" alt="Photo shows satellite in space.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_07_02_NASA.jpg"/>
+</media>
+
+<caption>Artist concept of Gravity Probe B spacecraft in orbit around the Earth. (credit: NASA/MSFC)</caption></figure><para id="fs-id1167066825770">Both effects were measured with unprecedented precision. This was done by pointing the gyroscopes at a single star while orbiting Earth in a polar orbit. As predicted by relativity theory, the gyroscopes experienced very small, but measureable, changes in the direction of their spin caused by the pull of Earth’s gravity.</para>
+<para id="fs-id1167066826584">The principle investigator suggested imagining Earth spinning in honey. As Earth rotates it drags space and time with it as it would a surrounding sea of honey.</para>
+
+<exercise id="fs-id1167066790526" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167067103120">
+<para id="fs-id1167066952760"><link class="os-embed" url="#ost/api/ex/k12phys-ch07-ex025"/></para>
+</problem>
+</exercise>
+</note>
+
+<note id="fs-id1167066997945" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066833382">Explain that it is very exciting when a prediction of relativity theory is tested successfully. Some of the predictions were in doubt because they sounded so bizarre.</para>
+</note>
+</section>
+</section>
+
+<section id="fs-id1167066807561">
+<title>Calculations Based on Newton’s Law of Universal Gravitation</title>
+<note id="fs-id1167067143092" class="tips-for-success">
+
+<para id="fs-id1167067144067">When performing calculations using the equations in this chapter, use units of kilograms for mass, meters for distances, newtons for force, and seconds for time.</para>
+</note>
+
+<para id="fs-id1167066876506">The mass of an object is constant, but its weight varies with the strength of the gravitational field. This means the value of <emphasis>g</emphasis> varies from place to place in the universe. The relationship between force, mass, and acceleration from the second law of motion can be written in terms of <emphasis>g</emphasis>.</para><equation id="fs-id1167066839153" class="unnumbered"><label/>
+ <m:math>
+ <m:mrow>
+  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle><m:mo>=</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>a</m:mi></m:mstyle><m:mo>=</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>g</m:mi></m:mstyle></m:mrow>
+</m:math>
+</equation><para id="fs-id1167067108005">In this case, the force is the weight of the object, which is caused by the gravitational attraction of the planet or moon on which the object is located. We can use this expression to compare weights of an object on different moons and planets.</para>
+
+<note id="fs-id1167063422220" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067042378"><span>[BL]</span> Check to make sure students are clear about the distinction between mass and weight.</para>
+<para id="fs-id1167066809443"><span>[OL]</span> Recall the antics of astronauts of on the moon performed to illustrate the effect of a different value for <emphasis>g</emphasis>.</para></note>
+
+<note id="fs-id1167066805290" class="watch-physics"><title>Mass and Weight Clarification</title>
+<para id="fs-id1167066849846">This video shows the mathematical basis of the relationship between mass and weight. The distinction between mass and weight are clearly explained. The mathematical relationship between mass and weight are shown mathematically in terms of the equation for Newton’s law of universal gravitation and in terms of his second law of motion.
+</para>
+
+<media id="fs-id1167066877122" alt="This video provides a tutorial that clarifies the difference between mass and weight." class="os-embed">
+<iframe width="660" height="371.4" src="https://www.khanacademy.org/embed_video?v=IuBoeDihLUc"/>
+</media>
+
+<exercise id="fs-id1167066869649" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167066858675">
+<!-- <para id="fs-id1167067198278"><link class="os-embed" url="#ost/api/ex/k12phys-ch07-ex026"/></para> -->
+<para id="fs-id1164565187531">Would you have the same mass on the moon as you do on Earth? Would you have the same weight?</para>
+<list id="fs-id1164560814721" list-type="enumerated" number-style="lower-alpha">
+<item>You would weigh more on the moon than on Earth because gravity on the moon is stronger than gravity on Earth.</item>
+<item>You would weigh less on the moon than on Earth because gravity on the moon is weaker than gravity on Earth.</item>
+<item>You would weigh less on the moon than on Earth because gravity on the moon is stronger than gravity on Earth.</item>
+<item>You would weigh more on the moon than on Earth because gravity on the moon is weaker than gravity on Earth.</item>
+</list>
+</problem>
+</exercise></note>
+<note id="fs-id1167063608828" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067076339">This may be a rather long-winded explanation of the mass-weight distinction, but it should drive home the point.</para>
+</note>
+
+<para id="fs-id1167066805127">Two equations involving the gravitational constant, <emphasis effect="italics">G</emphasis>, are often useful. The first is Newton’s equation,  <m:math>
+ <m:mrow>
+  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle><m:mo>=</m:mo><m:mi>G</m:mi><m:mfrac>
+   <m:mrow>
+    <m:mi>m</m:mi><m:mi>M</m:mi></m:mrow>
+   <m:mrow>
+    <m:msup>
+     <m:mi>r</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    </m:mrow>
+  </m:mfrac>
+  </m:mrow>
+</m:math> . Several of the values in this equation are either constants or easily obtainable. <emphasis>F</emphasis> is often the weight of an object on the surface of a large object with mass <emphasis effect="italics">M</emphasis>, which is usually known. The mass of the smaller object, <emphasis effect="italics">m</emphasis>, is often known, and <emphasis effect="italics">G</emphasis> is a universal constant with the same value anywhere in the universe. This equation can be used to solve problems involving an object on or orbiting Earth or other massive celestial object. Sometimes it is helpful to equate the right-hand side of the equation to <emphasis effect="italics">m</emphasis><emphasis>g</emphasis> and cancel the <emphasis effect="italics">m</emphasis> on both sides.</para><para id="fs-id1167066805150">The equation  <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:msup>
+     <m:mi>r</m:mi>
+     <m:mn>3</m:mn>
+    </m:msup>
+    </m:mrow>
+   <m:mrow>
+    <m:msup>
+     <m:mi>T</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>G</m:mi><m:mi>M</m:mi></m:mrow>
+   <m:mrow>
+    <m:mn>4</m:mn><m:msup>
+     <m:mi>π</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    </m:mrow>
+  </m:mfrac>
+  </m:mrow>
+</m:math>  is also useful for problems involving objects in orbit. Note that there is no need to know the mass of the object. Often, we know the radius <emphasis effect="italics">r</emphasis> or the period <emphasis effect="italics">T</emphasis> and want to find the other. If these are both known, we can use the equation to calculate the mass of a planet or star.</para>
+
+<note id="fs-id1167066821907" class="watch-physics"><title>Mass and Weight Clarification</title>
+
+<para id="fs-id1167066838890">This video demonstrates calculations involving Newton’s universal law of gravitation.</para>
+
+<media id="fs-id1167066804810" alt="This video tutorial provides basic information on gravity through a discussion of Newton’s law of gravity." class="os-embed">
+<iframe width="660" height="371.4" src="https://www.khanacademy.org/embed_video?v=391txUI76gM"/>
+</media>
+
+<exercise id="fs-id1167066867076" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167066835562">
+<para id="fs-id1167067252754"><link class="os-embed" url="#ost/api/ex/k12phys-ch07-ex027"/></para>
+</problem>
+</exercise>
+</note><note id="fs-id1167066783938" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066832241">This video is a thorough demonstration of many of the calculations to be learned in this subsection.</para>
+</note>
+
+<note id="Example_07_04" class="worked-example"><title>Change in <emphasis>g</emphasis></title>
+
+<exercise id="fs-id1167064724043" class="07-ex028 unnumbered"><label/>
+<problem id="fs-id1167066858880"><para id="fs-id1167066858881">The value of <emphasis>g</emphasis> on the planet Mars is 3.71 m/s<sup>2</sup>. If you have a mass of 60.0 kg on Earth, what would be your mass on Mars? What would be your weight on Mars?</para>
+
+<note id="fs-id1167063599742">
+<label/>
+<title>Strategy</title>
+<para id="fs-id1167067041850">Weight equals acceleration due to gravity times mass:  <m:math>
+ <m:mrow>
+  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>W</m:mi></m:mstyle><m:mo>=</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>g</m:mi></m:mstyle></m:mrow>
+</m:math> . An object’s mass is constant. Call acceleration due to gravity on Mars <emphasis>g</emphasis><emphasis effect="italics"><sub>M</sub></emphasis> and weight on Mars <emphasis>W</emphasis><emphasis effect="italics"><sub>M</sub></emphasis>.</para></note>
+</problem>
+<solution id="fs-id1167067042581">
+<label/>
+<title>Solution</title>
+<para id="fs-id1167066841434">Mass on Mars would be the same, 60 kg.</para>
+<equation id="fs-id1164565253577"> <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>W</m:mi></m:mstyle>
+   <m:mi>M</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mi>m</m:mi><m:msub>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>g</m:mi></m:mstyle>
+   <m:mi>M</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>60.0</m:mn><m:mspace width="0.3em"/><m:mtext>kg</m:mtext></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>3.71</m:mn><m:msup>
+     <m:mrow>
+      <m:mtext>m/s</m:mtext></m:mrow>
+     <m:mn>2</m:mn>
+    </m:msup>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>223</m:mn><m:mspace width="0.3em"/><m:mtext>N</m:mtext></m:mrow>
+</m:math> </equation></solution>
+<commentary id="fs-id1167067226853"><title>Discussion</title>
+<para id="fs-id1167067035284">The value of <emphasis>g</emphasis> on any planet depends on the mass of the planet and the distance from its center. If the material below the surface varies from point to point, the value of <emphasis>g</emphasis> will also vary slightly.</para></commentary>
+</exercise></note><note id="fs-id1167066865030" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067079083">This is a typical mass-weight calculation.</para>
+</note>
+
+<note id="Example_07_05" class="worked-example"><title>Earth’s g at the Moon</title>
+
+<exercise id="fs-id1167066094529" class="07-ex029 unnumbered">
+<label/>
+
+<problem id="fs-id1167063525796">
+<para id="fs-id1167067293707">Find the acceleration due to Earth’s gravity at the distance of the moon.</para>
+<equation id="fs-id1164564819438">
+ <m:math display="block">
+ <m:mtable columnalign="left">
+  <m:mtr>
+   <m:mtd>
+    <m:mi>G</m:mi><m:mtext> = 6</m:mtext><m:mtext>.67 </m:mtext><m:mo>×</m:mo><m:msup>
+     <m:mtext> 10</m:mtext>
+     <m:mrow>
+      <m:mtext>–11</m:mtext>
+     </m:mrow>
+    </m:msup>
+    <m:msup>
+     <m:mtext> N · m</m:mtext>
+     <m:mtext>2</m:mtext>
+    </m:msup>
+    <m:msup>
+     <m:mtext> /kg</m:mtext>
+     <m:mtext>2</m:mtext>
+    </m:msup>
+
+   </m:mtd>
+  </m:mtr>
+  <m:mtr>
+   <m:mtd>
+    <m:mtext>Earth-moon distance = </m:mtext><m:mn>3.84</m:mn><m:mspace width="0.3em"/><m:mtext> </m:mtext><m:mo>×</m:mo><m:mtext> </m:mtext><m:msup>
+     <m:mn>10</m:mn>
+     <m:mn>8</m:mn>
+    </m:msup>
+    <m:mo> </m:mo><m:mtext>m</m:mtext>
+   </m:mtd>
+  </m:mtr>
+  <m:mtr>
+   <m:mtd>
+    <m:mtext>Earth’s mass = </m:mtext><m:mn>5.98</m:mn><m:mspace width="0.3em"/><m:mtext> </m:mtext><m:mo>×</m:mo><m:mtext> </m:mtext><m:msup>
+     <m:mn>10</m:mn>
+     <m:mrow>
+      <m:mn>24</m:mn>
+     </m:mrow>
+    </m:msup>
+    <m:mo> </m:mo><m:mtext>kg</m:mtext>
+   </m:mtd>
+  </m:mtr>
+ </m:mtable>
+
+</m:math>
+</equation>
+
+
+
+<para id="fs-id1167067085421">Express the force of gravity in terms of <emphasis effect="italics">g</emphasis>.</para>
+<equation id="fs-id1164565234198">
+ <m:math display="block">
+ <m:mtext>F = W = </m:mtext><m:mi>m</m:mi><m:mtext>a = </m:mtext><m:mi>m</m:mi><m:mtext>g</m:mtext>
+</m:math>
+</equation>
+<para id="fs-id1167063445023">Combine with the equation for universal gravitation.</para>
+<equation id="fs-id1164563524434"> <m:math>
+ <m:mrow>
+  <m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>g</m:mi></m:mstyle><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>G</m:mi><m:mfrac>
+   <m:mi>M</m:mi>
+   <m:mrow>
+    <m:msup>
+     <m:mi>r</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    </m:mrow>
+  </m:mfrac>
+  </m:mrow>
+</m:math> </equation>
+</problem>
+<solution id="fs-id1167067275589"><label/>
+<title>Solution</title>
+<para id="fs-id1167066939416">Cancel <emphasis effect="italics">m</emphasis> and substitute.</para>
+<equation id="fs-id1164566540259">
+ <m:math>
+ <m:mrow>
+  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>g</m:mi></m:mstyle><m:mo>=</m:mo><m:mi>G</m:mi><m:mfrac>
+   <m:mi>M</m:mi>
+   <m:mrow>
+    <m:msup>
+     <m:mi>r</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>6.67</m:mn><m:mo>×</m:mo><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn></m:mrow>
+     <m:mrow>
+      <m:mo>−</m:mo><m:mn>11</m:mn></m:mrow>
+    </m:msup>
+    <m:mfrac>
+     <m:mrow>
+      <m:mtext>N</m:mtext><m:mo>⋅</m:mo><m:msup>
+       <m:mtext>m</m:mtext>
+       <m:mn>2</m:mn>
+      </m:msup>
+      </m:mrow>
+     <m:mrow>
+      <m:msup>
+       <m:mrow>
+        <m:mtext>kg</m:mtext></m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mn>5.98</m:mn><m:mo>×</m:mo><m:msup>
+       <m:mrow>
+        <m:mn>10</m:mn></m:mrow>
+       <m:mrow>
+        <m:mn>24</m:mn></m:mrow>
+      </m:msup>
+      <m:mtext> kg</m:mtext></m:mrow>
+     <m:mrow>
+      <m:msup>
+       <m:mrow>
+        <m:mrow><m:mo>(</m:mo>
+         <m:mrow>
+          <m:mn>3.84</m:mn><m:mo>×</m:mo><m:msup>
+           <m:mrow>
+            <m:mn>10</m:mn></m:mrow>
+           <m:mn>8</m:mn>
+          </m:msup>
+          <m:mtext> m</m:mtext></m:mrow>
+        <m:mo>)</m:mo></m:mrow></m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2.70</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>3</m:mn></m:mrow>
+  </m:msup>
+  <m:msup>
+   <m:mrow>
+    <m:mtext>m/s</m:mtext></m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math> </equation></solution>
+<commentary id="fs-id1167063449039">
+<title>Discussion</title>
+<para id="fs-id1167066966863">The value of <emphasis>g</emphasis> for the moon is 1.62 m/s<sup>2</sup>. Comparing this value to the answer, we see that Earth’s gravitational influence on an object on the moon’s surface would be insignificant.</para></commentary>
+</exercise>
+</note><note id="fs-id1167066983987" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067197497"><span>[BL]</span><span>[OL]</span> Review the meanings of all the symbols in these equations: <emphasis>F</emphasis>, <emphasis effect="italics">G</emphasis>, <emphasis effect="italics">m</emphasis>, <emphasis effect="italics">M</emphasis>, <emphasis effect="italics">r</emphasis>, <emphasis effect="italics">T</emphasis>, and  <m:math><m:mi>π</m:mi></m:math> .</para><para id="fs-id1167063651781"><span>[OL]</span><span>[AL]</span> Have the students memorize the values of <emphasis effect="italics">G</emphasis>, <emphasis>g</emphasis>, and π to three significant figures.</para></note>
+</section>
+
+<section id="fs-id1167067068018" class="practice-problems"><title>Practice Problems</title><exercise id="fs-id1167066854507">
+<problem id="fs-id1167067084942">
+<para id="fs-id1167063503526">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch07-ex030"/>
+</para>
+</problem>
+</exercise>
+
+<exercise id="fs-id1167067226632">
+<problem id="fs-id1167066850726">
+<para id="fs-id1167063694128">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch07-ex031"/>
+</para>
+</problem>
+</exercise>
+</section><section id="fs-id1167067311546" class="check-understanding"><title>Check Your Understanding</title><exercise id="fs-id1167067053632" class="os-exercise">
+<problem id="fs-id1167063525875">
+<para id="fs-id1167067086842">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch07-ex032"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167067261938" class="os-exercise">
+<problem id="fs-id1167067106161">
+<para id="fs-id1167067105362">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch07-ex033"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166851098005" class="os-exercise">
+<problem id="eip-id1166848886428">
+<!-- <para id="eip-id1166848886431">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch07-ot021"/>
+</para> -->
+<para id="fs-id1164566845115">Newtons law of universal gravitation explains the paths of what?</para>
+<list id="fs-id1164560875145" list-type="enumerated" number-style="lower-alpha">
+<item>A charged particle</item>
+<item>A ball rolling on a plane surface</item>
+<item>A planet moving around the sun</item>
+<item>A stone tied to a string and whirled at constant speed in a horizontal circle</item>
+</list>
+</problem>
+</exercise>
+<note id="fs-id1167067041655" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067104768">Use the <emphasis effect="italics">Check Your Answers</emphasis> questions to assess whether students master the learning objectives for this section. If students are struggling with a specific objective, the <emphasis effect="italics">Check Your Answers</emphasis> will help identify which objective is causing the problem and direct students to the relevant content.</para></note>
+</section><section id="fs-id1167067316828" class="summary">
+<title>Section Summary</title>
+<list id="fs-id1167063514647" list-type="bulleted"><item>Newton’s law of universal gravitation provides a mathematical basis for gravitational force and Kepler’s laws of planetary motion.</item>
+<item>Einstein’s theory of general relativity shows that gravitational fields change the path of light and warp space and time.</item>
+<item>An object’s mass is constant, but its weight changes when acceleration due to gravity, <emphasis>g</emphasis>, changes.</item>
+</list></section>
+
+<section id="fs-id1167067217366" class="key-equations"><title>Key Equations</title><table id="fs-id1167066870437" class="unnumbered unstyled" summary="The list of Key Equations includes Newton’s second law of motion, Newton’s universal law of gravitation, the formula for acceleration due to gravity, and the constant for satellites orbiting the same massive object.">
+<label/>
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry>Newton’s second law of motion</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle><m:mo>=</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>a</m:mi></m:mstyle><m:mo>=</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>g</m:mi></m:mstyle></m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>Newton’s universal law of gravitation</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle><m:mo>=</m:mo><m:mi>G</m:mi><m:mfrac>
+   <m:mrow>
+    <m:mi>m</m:mi><m:mi>M</m:mi></m:mrow>
+   <m:mrow>
+    <m:msup>
+     <m:mi>r</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    </m:mrow>
+  </m:mfrac>
+  </m:mrow>
+</m:math> </entry>
+</row>
+<row>
+<entry>acceleration due to gravity</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>g</m:mi></m:mstyle><m:mo>=</m:mo><m:mi>G</m:mi><m:mfrac>
+   <m:mi>M</m:mi>
+   <m:mrow>
+    <m:msup>
+     <m:mi>r</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    </m:mrow>
+  </m:mfrac>
+  </m:mrow>
+</m:math> </entry>
+</row>
+<row>
+<entry>constant for satellites orbiting the same massive object</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:msup>
+     <m:mi>r</m:mi>
+     <m:mn>3</m:mn>
+    </m:msup>
+    </m:mrow>
+   <m:mrow>
+    <m:msup>
+     <m:mi>T</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>G</m:mi><m:mi>M</m:mi></m:mrow>
+   <m:mrow>
+    <m:mn>4</m:mn><m:msup>
+     <m:mi>π</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    </m:mrow>
+  </m:mfrac>
+  </m:mrow>
+</m:math> </entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table></section><section id="fs-id1167063512034" class="concept"><title>Concept Items</title><exercise id="fs-id1167067029525" class="os-exercise">
+<problem id="fs-id1167067147870">
+<para id="fs-id1167067147872"><link class="os-embed" url="#ost/api/ex/k12phys-ch07-ex035"/>
+</para></problem>
+</exercise>
+
+<exercise id="fs-id1167067236117" class="os-exercise">
+<problem id="fs-id1167067236120">
+<para id="fs-id1167067077314">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch07-ex036"/>
+</para>
+</problem>
+</exercise>
+
+<exercise id="fs-id1167065957246" class="os-exercise">
+<problem id="fs-id1167062971482">
+<!-- <para id="fs-id1167062971484">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch07-ex037"/>
+</para> -->
+<para id="fs-id1164562322462">Saturns moon Titan has an orbital period of 15.9 days. If Saturn has a mass of 5.68×10<sup>23</sup> kg, what is the average distance from Titan to the center of Saturn?</para>
+<list id="fs-id1164566578294" list-type="enumerated" number-style="lower-alpha">
+<item>1.22×10<sup>6</sup> m</item>
+<item>4.26×10<sup>7</sup> m</item>
+<item>5.25×10<sup>4</sup> km</item>
+<item>4.26×10<sup>10</sup> km</item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-id1166848717794" class="os-exercise">
+<problem id="eip-id1166848780542">
+<para id="eip-id1166848780544">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch07-ot023"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166849189261" class="os-exercise">
+<problem id="eip-id1166851398703">
+<para id="eip-id1166851398705">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch07-ot024"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166848837653" class="os-exercise"><problem id="eip-id1166851081170">
+<!-- <para id="eip-id1166851081172">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch07-ot028"/>
+</para> -->
+<para id="fs-id1164563133916">The Cavendish experiment marked a milestone in the study of gravity.
+<newline/>
+Part A. What important value did the experiment determine?
+<newline/>
+Part B. Why was this so difficult in terms of the masses used in the apparatus and the strength of the gravitational force?
+</para>
+<list id="fs-id1164563487476" list-type="enumerated" number-style="lower-alpha"><item>Part A. The experiment measured the acceleration due to gravity, g.
+Part B. Gravity is a very weak force but despite this limitation, Cavendish was able to measure the attraction between very massive objects.
+</item>
+<item>Part A. The experiment measured the gravitational constant, G.
+Part B. Gravity is a very weak force but, despite this limitation, Cavendish was able to measure the attraction between very massive objects.</item>
+<item>Part A. The experiment measured the acceleration due to gravity, g.
+Part B. Gravity is a very weak force but despite this limitation, Cavendish was able to measure the attraction between less massive objects.</item>
+<item>Part A. The experiment measured the gravitational constant, G.
+Part B. Gravity is a very weak force but despite this limitation, Cavendish was able to measure the attraction between less massive objects.</item>
+</list></problem>
+</exercise></section><section id="eip-803" class="critical-thinking"><title>Critical Thinking</title>
+<exercise id="eip-id1166851229488" class="os-exercise">
+<problem id="eip-id1166851210618">
+<!-- <para id="eip-id1166851210620">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch07-ot029"/>
+</para> -->
+<para id="fs-id1164564949030">Rhea, with a radius of 7.63×10<sup>5</sup> m, is the second-largest moon of the planet Saturn. If the mass of Rhea is 2.31×10<sup>21</sup> kg, what is the acceleration due to gravity on the surface of this moon?</para>
+<list id="fs-id1164566946758" list-type="enumerated" number-style="lower-alpha">
+<item>2.65×10<sup>−1</sup> m/s</item>
+<item>2.02×10<sup>5</sup> m/s</item>
+<item>2.65×10<sup>−1</sup> m/s<sup>2</sup></item>
+<item>2.02×10<sup>5</sup> m/s<sup>2</sup></item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-id1166851451290" class="os-exercise">
+<problem id="eip-id1166851283683">
+<!-- <para id="eip-id1166851283685">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch07-ot030"/>
+</para> -->
+<para id="fs-id1164562395463">Earth has a mass of 5.971×10<sup>24</sup> kg and a radius of 6.371×10<sup>6</sup> m. Use the data to check the value of the gravitational constant.</para>
+<list id="fs-id1164566857402" list-type="enumerated" number-style="lower-alpha"><item> <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>6.66</m:mn><m:mo>×</m:mo><m:msup>
+    <m:mrow>
+     <m:mn>10</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mo>−</m:mo><m:mn>11</m:mn>
+    </m:mrow>
+   </m:msup>
+   <m:mo> </m:mo><m:mfrac>
+    <m:mrow>
+     <m:mtext>N</m:mtext><m:mo> </m:mo><m:mo>·</m:mo><m:mo> </m:mo><m:mtext>m</m:mtext>
+    </m:mrow>
+    <m:mrow>
+     <m:mtext>k</m:mtext><m:msup>
+      <m:mtext>g</m:mtext>
+      <m:mn>2</m:mn>
+     </m:msup>
+
+    </m:mrow>
+   </m:mfrac>
+   <m:mo>,</m:mo>
+  </m:mrow>
+ </m:semantics>
+</m:math>  it matches the value of the gravitational constant G.</item>
+<item> <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>1.05</m:mn><m:mo>×</m:mo><m:msup>
+    <m:mrow>
+     <m:mn>10</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mo>−</m:mo><m:mn>17</m:mn>
+    </m:mrow>
+   </m:msup>
+   <m:mo> </m:mo><m:mfrac>
+    <m:mrow>
+     <m:mtext>N</m:mtext><m:mo> </m:mo><m:mo>·</m:mo><m:mo> </m:mo><m:mtext>m</m:mtext>
+    </m:mrow>
+    <m:mrow>
+     <m:mtext>k</m:mtext><m:msup>
+      <m:mtext>g</m:mtext>
+      <m:mn>2</m:mn>
+     </m:msup>
+
+    </m:mrow>
+   </m:mfrac>
+   <m:mo>,</m:mo>
+  </m:mrow>
+ </m:semantics>
+</m:math>  it matches the value of the gravitational constant G.</item>
+<item> <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>6.66</m:mn><m:mo>×</m:mo><m:msup>
+    <m:mrow>
+     <m:mn>10</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mo>−</m:mo><m:mn>11</m:mn>
+    </m:mrow>
+   </m:msup>
+   <m:mo> </m:mo><m:mfrac>
+    <m:mrow>
+     <m:mtext>N</m:mtext><m:mo> </m:mo><m:mo>·</m:mo><m:mo> </m:mo><m:msup>
+      <m:mtext>m</m:mtext>
+      <m:mn>2</m:mn>
+     </m:msup>
+
+    </m:mrow>
+    <m:mrow>
+     <m:mtext>k</m:mtext><m:msup>
+      <m:mtext>g</m:mtext>
+      <m:mn>2</m:mn>
+     </m:msup>
+
+    </m:mrow>
+   </m:mfrac>
+   <m:mo>,</m:mo>
+  </m:mrow>
+ </m:semantics>
+</m:math>  it matches the value of the gravitational constant G.</item>
+<item> <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>1.05</m:mn><m:mo>×</m:mo><m:msup>
+    <m:mrow>
+     <m:mn>10</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mo>−</m:mo><m:mn>17</m:mn>
+    </m:mrow>
+   </m:msup>
+   <m:mo> </m:mo><m:mfrac>
+    <m:mrow>
+     <m:mtext>N</m:mtext><m:mo> </m:mo><m:mo>·</m:mo><m:mo> </m:mo><m:msup>
+      <m:mtext>m</m:mtext>
+      <m:mn>2</m:mn>
+     </m:msup>
+
+    </m:mrow>
+    <m:mrow>
+     <m:mtext>k</m:mtext><m:msup>
+      <m:mtext>g</m:mtext>
+      <m:mn>2</m:mn>
+     </m:msup>
+
+    </m:mrow>
+   </m:mfrac>
+   <m:mo>,</m:mo>
+  </m:mrow>
+ </m:semantics>
+</m:math>  it matches the value of the gravitational constant G.</item>
+</list></problem>
+</exercise>
+<exercise id="eip-id1166848956950" class="os-exercise">
+<problem id="eip-id1166848956953">
+<!-- <para id="eip-id1166851195335">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch07-ot032"/>
+</para> -->
+<para id="fs-id1164563061805">The orbit of the planet Mercury has a period of 88.0 days and an average radius of 5.791×10<sup>10</sup> m. What is the mass of the sun?</para>
+<list id="fs-id1164566540041" list-type="enumerated" number-style="lower-alpha">
+<item>3.43×10<sup>19</sup> kg</item>
+<item>1.99×10<sup>30</sup> kg</item>
+<item>2.56×10<sup>29</sup> kg</item>
+<item>1.48×10<sup>40</sup> kg</item>
+</list>
+</problem>
+</exercise></section><section id="fs-id1167066974293" class="performance"><title>Performance Task</title><exercise id="eip-idm1026588032"><problem id="eip-idm1026587904">
+<para id="fs-id1167066048381">Design an experiment to test whether magnetic force is inversely proportional to the square of distance. Gravitational, magnetic, and electrical fields all act at a distance, but do they all follow the inverse square law? One difference in the forces related to these fields is that gravity is only attractive, but the other two can repel as well. In general, the inverse square law says that force <emphasis effect="italics">F</emphasis> equals a constant <emphasis effect="italics">C</emphasis> divided by the distance between objects, <emphasis effect="italics">d</emphasis>, squared:  <m:math>
+ <m:mrow>
+  <m:mi>F</m:mi><m:mo>=</m:mo><m:mrow><m:mi>C</m:mi><m:mo>/</m:mo><m:mrow>
+   <m:msup>
+    <m:mi>d</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   </m:mrow></m:mrow>
+  </m:mrow>
+</m:math> .</para>
+<para id="fs-id1167067255514">Incorporate these materials into your design:
+<list id="eip-id1167066958460" list-type="bulleted"><item>Two strong, permanent bar magnets</item>
+<item>A spring scale that can measure small forces</item>
+<item>A short ruler calibrated in millimeters</item></list></para>
+<para id="eip-id1167066874576">Use the magnets to study the relationship between attractive force and distance.</para>
+<list id="fs-id1167063514028" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>What will be the independent variable?</item>
+<item>What will be the dependent variable?</item>
+<item>How will you measure each of these variables?</item>
+<item>If you plot the independent variable versus the dependent variable and the inverse square law is upheld, will the plot be a straight line? Explain.</item>
+<item>Which plot would be a straight line if the inverse square law were upheld?</item>
+</list></problem></exercise>
+<note id="fs-id1167066799128" class="os-teacher">
+<para id="fs-id1167067108228">Magnets must be strong, such as neodymium magnets or cow magnets (ask a veterinarian). Suggest that they could either measure distance versus attractive force or repulsive force. Attractive force at various distances can be measured with the spring scale. Repulsive force could be measured by dropping the magnets into a transparent tube oriented so that they repel each other. The distance will be the distance between the magnets. Ask what the force will be. Ask how they could change the force and thereby change the distance.</para>
+</note>
+</section><section id="fs-id1167063557117" class="multiple-choice"><title>Test Prep Multiple Choice</title><exercise id="fs-id1167063558407" class="os-exercise">
+<problem id="fs-id1167067025964">
+<!-- <para id="fs-id1167067025966">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch07-ex038"/>
+</para> -->
+<para id="fs-id1164565026391">What did the Cavendish experiment measure?</para>
+<list id="fs-id1164565049180" list-type="enumerated" number-style="lower-alpha">
+<item>The mass of Earth</item>
+<item>The gravitational constant</item>
+<item>Acceleration due to gravity</item>
+<item>The eccentricity of Earths orbit</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067146207" class="os-exercise">
+<problem id="fs-id1167067146951">
+<para id="fs-id1167066994020">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch07-ex039"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166848824672" class="os-exercise">
+<problem id="eip-id1166848824677">
+<para id="eip-id1166848904099">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch07-ot027"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167067012645" class="short-answer">
+<title>Test Prep Short Answer</title>
+<exercise id="fs-id1167066992525" class="os-exercise">
+<problem id="fs-id1167066994013">
+<!-- <para id="fs-id1167066994015">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch07-ex040"/>
+</para> -->
+<para id="fs-id1164565212022">Newtons third law of motion says that, for every action force, there is a reaction force equal in magnitude but that acts in the opposite direction. Apply this law to gravitational forces acting between the Washington Monument and Earth.</para>
+<list id="fs-id1164565078511" list-type="enumerated" number-style="lower-alpha">
+<item>The monument is attracted to Earth with a force equal to its weight, and Earth is attracted to the monument with a force equal to Earths weight. The situation can be represented with two force vectors of unequal magnitude and pointing in the same direction.</item>
+<item>The monument is attracted to Earth with a force equal to its weight, and Earth is attracted to the monument with a force equal to Earths weight. The situation can be represented with two force vectors of unequal magnitude but pointing in opposite directions.</item>
+<item>The monument is attracted to Earth with a force equal to its weight, and Earth is attracted to the monument with an equal force. The situation can be represented with two force vectors of equal magnitude and pointing in the same direction.</item>
+<item>The monument is attracted to Earth with a force equal to its weight, and Earth is attracted to the monument with an equal force. The situation can be represented with two force vectors of equal magnitude but pointing in opposite directions.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167063519445" class="os-exercise">
+<problem id="fs-id1167067193237">
+<!-- <para id="fs-id1167067016241">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch07-ex041"/>
+</para> -->
+<para id="fs-id1164564886062">True or false—Gravitational force is the attraction of the mass of one object to the mass of another. Light, either as a particle or a wave, has no rest mass. Despite this fact gravity bends a beam of light.</para>
+<list id="fs-id1164566576201" list-type="enumerated" number-style="lower-alpha">
+<item>True</item>
+<item>False</item>
+</list>
+</problem>
+</exercise>
+
+<exercise id="fs-id1167063826273" class="os-exercise">
+<problem id="fs-id1167067061518">
+<para id="fs-id1167066876058">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch07-ex042"/>
+</para>
+</problem>
+</exercise>
+
+<exercise id="fs-id1167067215676" class="os-exercise">
+<problem id="fs-id1167067231418">
+<para id="fs-id1167067069883">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch07-ex043"/>
+</para>
+</problem>
+</exercise>
+
+</section>
+
+<section id="fs-id1167067035997" class="extended-response">
+<title>Test Prep Extended Response</title>
+<exercise id="fs-id1167067308224" class="os-exercise"><problem id="fs-id1167067308227">
+<para id="fs-id1167067107904">
+It took scientists a long time to arrive at the understanding of gravity as explained by Galileo and Newton. They were hindered by two ideas that
+seemed like common sense but were serious misconceptions. First was the fact that heavier things fall faster than light things. Second, it was
+believed impossible that forces could act at a distance. Explain why these ideas persisted and why they prevented advances.
+</para>
+<list id="eip-idm329790096" list-type="enumerated" number-style="lower-alpha"><item>Heavier things fall faster than light things if they have less surface area and greater mass density. In the Renaissance and before, forces that
+acted at a distance were considered impossible, so people were skeptical about scientific theories that invoked such forces.</item>
+<item>Heavier things fall faster than light things because they have greater surface area and less mass density. In the Renaissance and before, forces that
+act at a distance were considered impossible, so people were skeptical about scientific theories that invoked such forces.</item>
+<item>Heavier things fall faster than light things because they have less surface area and greater mass density. In the Renaissance and before, forces that
+act at a distance were considered impossible, so people were quick to accept scientific theories that invoked such forces.</item>
+<item>Heavier things fall faster than light things because they have larger surface area and less mass density. In the Renaissance and before, forces that act
+at a distance were considered impossible because of people’s faith in scientific theories.</item>
+</list></problem>
+</exercise><exercise id="fs-id1167066959776" class="os-exercise">
+<problem id="fs-id1167067272230">
+<!-- <para id="fs-id1167067272232">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch07-ex045"/>
+</para> -->
+<para id="fs-id1164560884984">The masses of Earth and the moon are 5.97×10<sup>24</sup> kg and 7.35×10<sup>22</sup> kg, respectively. The distance from Earth to the moon is 3.80×10<sup>5</sup> km. At what point between the Earth and the moon are the opposing gravitational forces equal? (Use subscripts e and m to represent Earth and moon.)</para>
+<list id="fs-id1164562171244" list-type="enumerated" number-style="lower-alpha">
+<item>3.42×10<sup>5</sup> km from the center of Earth</item>
+<item>3.80×10<sup>5</sup> km from the center of Earth</item>
+<item>3.42×10<sup>6</sup> km from the center of Earth</item>
+<item>3.10×10<sup>7</sup> km from the center of Earth</item>
+</list>
+</problem>
+</exercise>
+</section>
+
+</content>
+<glossary>
+<definition id="fs-id1167067026637"><term>Einstein’s theory of general relativity</term><meaning id="fs-id1167066945511">the theory that gravitational force results from the bending of spacetime by an object’s mass</meaning></definition>
+<definition id="fs-id1167066945516"><term>gravitational constant</term><meaning id="fs-id1167067043079">the proportionality constant in Newton’s law of universal gravitation</meaning></definition>
+<definition id="fs-id1167067266261"><term>Newton’s universal law of gravitation</term><meaning id="fs-id1167067266264">states that gravitational force between two objects is directly proportional to the product of their masses and inversely proportional to the square of the distance between them.</meaning></definition>
+</glossary>
+</document>

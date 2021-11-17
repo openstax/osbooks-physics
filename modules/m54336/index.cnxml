@@ -1,0 +1,37 @@
+<document xmlns="http://cnx.rice.edu/cnxml" class="introduction">
+
+<title>Introduction</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54336</md:content-id>
+  <md:title>Introduction</md:title>
+  <md:abstract>In this chapter you will learn about:
+<list>
+<item>The electromagnetic spectrum</item>
+<item>The behavior of electromagnetic radiation</item>
+</list></md:abstract>
+  <md:uuid>29cd402a-1669-4939-96b5-9cfb148cfcec</md:uuid>
+</metadata>
+
+<content>
+<figure id="Figure_15_00_Coralreef" class="splash">
+<media id="fs-id1167064848846" alt="The figure is a photograph of small, colorful fish swimming around a coral reef.">
+<image src="../../media/CNX_HSPhysics_15_00_Coralreef.jpg" mime-type="image/jpg"/>
+</media>
+<caption>Human eyes detect these orange <emphasis effect="italics">sea goldie</emphasis> fish swimming over a coral reef in the blue waters of the Gulf of Eilat, in the Red Sea, using visible light. (credit: David Darom, Wikimedia Commons)</caption>
+</figure>
+<note id="fs-id1167064774360" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065023946">Review the concepts about waves learned in earlier chapters. Ask students to compare and contrast light waves and sound waves. Dispel any misconceptions about relative speed of light and sound. Ask students to describe the path of light that allows them to see the colors of the fish and the coral. Ask if anyone can define light. Explain that it is just one form of electromagnetic radiation and that the other forms are invisible. Ask them to name other forms of electromagnetic radiation and fill in the ones they miss.</para>
+</note>
+<para id="fs-id1167065809723">The beauty of a coral reef, the warm radiance of sunshine, the sting of sunburn, the X-ray revealing a broken bone, even microwave popcorn—all are brought to us by electromagnetic waves. The list of the various types of electromagnetic waves, ranging from radio transmission waves to nuclear gamma-ray (γ-ray) emissions, is interesting in itself.</para>
+<para id="fs-id1167066059012">Even more intriguing is that all of these different phenomena are manifestations of the same thing—electromagnetic waves (see <link target-id="Figure_15_00_Coralreef"/>). What are electromagnetic waves? How are they created, and how do they travel? How can we understand their widely varying properties? What is the relationship between electric and magnetic effects? These and other questions will be explored.</para>
+<note id="fs-id1167065980066" class="os-teacher"><title>Teacher Support</title>
+<para id="fs-id1167062954878">Before students begin this chapter, it would be useful to review the following concepts:</para>
+<list id="fs-id1167065062187">
+<item>Significant figures—demonstrate how to obtain the proper number of significant figures when adding and multiplying</item>
+<item>Scientific notation and how it expresses significant figures</item>
+<item>Converting units—demonstrate how to convert from km/h to m/s; review metric length units, including nanometers, meters, and kilometers; and, show how units cancel in calculations</item>
+<item>Wave propagation, including wavelength, frequency, and amplitude</item>
+</list>
+</note></content>
+</document>

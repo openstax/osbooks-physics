@@ -1,0 +1,276 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+
+<title>Force</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54135</md:content-id>
+  <md:title>Force</md:title>
+  <md:abstract/>
+  <md:uuid>47f50c14-db77-440c-a178-464af55ae244</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-idp19882368" class="learning-objectives">
+<label/>
+<title>Section Learning Objectives</title>
+<para id="fs-idp89347824">By the end of this section, you will be able to do the following:</para>
+<list id="fs-idp39093408">
+<item>Differentiate between force, net force, and dynamics</item>
+<item>Draw a free-body diagram</item>
+</list>
+</note>
+
+<note id="fs-idm14107600" class="os-teacher"><title>Teacher Support</title>
+<para id="fs-idp35685648">The learning objectives in this section will help your students master the following standards:</para><list id="fs-idp23952512">
+<item>(4) Science concepts. The student knows and applies the laws governing motion in a variety of situations. The student is expected to:
+<list id="fs-idp63398192"><item><span>(C)</span> <span>analyze and describe accelerated motion in two dimensions using equations, including projectile and circular examples;</span></item>
+<item><span>(E)</span> <span>develop and interpret free-body diagrams.</span></item>
+</list></item>
+</list>
+<para id="fs-id1167064573239"><span>[BL]</span><span>[OL]</span> Point out that objects at rest tend to stay at rest. A ball, for example, moves only when pushed or pulled. The action of pushing or pulling is the application of force. Force applied to an object changes its motion.</para>
+<para id="fs-id1167065944408"><span>[AL]</span> Start a discussion about force and motion. Ask students what would happen if more than one force is applied to an object. Take a heavy object such as a desk for demonstration. Ask one student to push it from one side. Explain how force and motion work. Now ask a second student to push it in the opposite direction. Ask students why no motion occurs, even though the first student applies the same amount of force. Introduce the concept of adding forces.</para></note>
+<section id="keyterms"><title>Section Key Terms</title>
+<table id="fs-idp79036064" summary="The list of Key Terms includes: dynamics, external force, force, free-body diagram, net external force, and net force." class="unnumbered unstyled section-key-terms"><label/>
+<tgroup cols="3"><tbody>
+<row>
+<entry>dynamics</entry>
+<entry>external force</entry>
+<entry>force</entry>
+</row>
+<row>
+<entry>free-body diagram</entry>
+<entry>net external force</entry>
+<entry>net force</entry>
+</row>
+</tbody>
+
+</tgroup>
+</table></section>
+<section id="fs-idp77010448">
+<title>Defining Force and Dynamics</title>
+<note id="fs-idp21859680" class="os-teacher"><title>Teacher Support</title>
+<para id="fs-idp78457184"><span>[OL]</span> Explain that the word <emphasis effect="italics">dynamics</emphasis> comes from a Greek word meaning <emphasis effect="italics">power</emphasis>. Also point out that the word <emphasis effect="italics">dynamics</emphasis> is singular, like the word <emphasis effect="italics">physics</emphasis>.</para><para id="fs-idp37673664"><span>[BL]</span><span>[OL]</span> You may want to introduce the terms <emphasis effect="italics">system, external force</emphasis>, and <emphasis effect="italics">internal force</emphasis>.</para>
+<para id="fs-idp81793616"><span>[AL]</span> Explain that both magnitude and direction must be considered when talking about forces.</para>
+<note id="fs-idp38906128" class="teacher-demonstration">
+
+<para id="fs-idp97512544">By using physical objects, demonstrate how different forces acting together can be additive if they act in the same direction or cancel one another if they act in opposite directions. Explain the terms <emphasis effect="italics">acting on</emphasis> and <emphasis effect="italics">being acted on</emphasis>.</para>
+</note>
+</note><para id="fs-idp9533696"><term>Force</term> is the cause of motion, and motion draws our attention. Motion itself can be beautiful, such as a dolphin jumping out of the water, the flight of a bird, or the orbit of a satellite. The study of motion is called <term class="no-emphasis">kinematics</term>, but kinematics describes only the way objects move—their <term class="no-emphasis">velocity</term> and their <term class="no-emphasis">acceleration</term>. <term>Dynamics</term> considers the forces that affect the motion of moving objects and <term class="no-emphasis">systems</term>. <term class="no-emphasis">Newton’s laws of motion</term> are the foundation of dynamics. These laws describe the way objects speed up, slow down, stay in motion, and interact with other objects. They are also <term class="no-emphasis">universal laws</term>: they apply everywhere on Earth as well as in space.</para><para id="fs-idp7754992">A force pushes or pulls an object. The object being moved by a force could be an inanimate object, a table, or an animate object, a person. The pushing or pulling may be done by a person, or even the gravitational pull of Earth. Forces have different magnitudes and directions; this means that some forces are stronger than others and can act in different directions. For example, a cannon exerts a strong force on the cannonball that is launched into the air. In contrast, a mosquito landing on your arm exerts only a small force on your arm.</para>
+<para id="fs-idp81273376">When multiple forces act on an object, the forces combine. Adding together all of the forces acting on an object gives the total force, or <term>net force</term>. An <term>external force</term> is a force that acts on an object within the system <emphasis effect="italics">from outside</emphasis> the system. This type of force is different than an internal force, which acts between two objects that are both within the system. <term>The net external force</term> combines these two definitions; it is the total combined external force. We discuss further details about net force, external force, and net external force in the coming sections.</para>
+<para id="fs-idp97585392">In mathematical terms, two forces acting in opposite directions have opposite <emphasis effect="italics">signs</emphasis> (positive or negative). By convention, the negative sign is assigned to any movement to the left or downward. If two forces pushing in opposite directions are added together, the larger force will be somewhat canceled out by the smaller force pushing in the opposite direction. It is important to be consistent with your chosen coordinate system within a problem; for example, if negative values are assigned to the downward direction for velocity, then distance, force, and acceleration should also be designated as being negative in the downward direction.</para></section>
+<section id="fs-idp78620656">
+<title>Free-Body Diagrams and Examples of Forces</title>
+<note id="fs-idp78697696" class="os-teacher"><title>Teacher Support</title>
+<para id="fs-idp35081616"><span>[BL]</span> Review vectors and how they are represented. Review vector addition.</para>
+<para id="fs-idp5779520"><span>[AL]</span> Ask students to give everyday examples of situations where multiple forces act together. Draw free-body diagrams for some of these situations.</para>
+</note><para id="fs-idp91670112">For our first example of force, consider an object hanging from a rope. This example gives us the opportunity to introduce a useful tool known as a <term>free-body diagram</term>. A free-body diagram represents the object being acted upon—that is, the free body—as a single point. Only the forces acting <emphasis effect="italics">on</emphasis> the body (that is, external forces) are shown and are represented by vectors (which are drawn as arrows). These forces are the only ones shown because only external forces acting on the body affect its motion. We can ignore any internal forces within the body because they cancel each other out, as explained in the section on Newton’s third law of motion. Free-body diagrams are very useful for analyzing forces acting on an object.</para>
+<figure id="Figure_04_01_tension">
+<media id="fs-idm13112864" alt="An object labeled m for mass is attached to a rope. A force vector labeled T for tension is pointing upward from the object and a force vector labeled W for weight of the object is pointing downward from the object. A free body diagram illustrates the T and W force vectors.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_04_01_tension.jpg"/>
+</media>
+<caption>An object of mass, <emphasis effect="italics">m</emphasis>, is held up by the force of tension.</caption>
+</figure>
+<para id="fs-idp54443872"><link target-id="Figure_04_01_tension"/> shows the force of tension in the rope acting in the upward direction, opposite the force of gravity. The forces are indicated in the free-body diagram by an arrow pointing up, representing tension, and another arrow pointing down, representing gravity. In a free-body diagram, the lengths of the arrows show the relative magnitude (or strength) of the forces. Because forces are vectors, they add just like other vectors. Notice that the two arrows have equal lengths in <link target-id="Figure_04_01_tension"/>, which means that the forces of tension and weight are of equal magnitude. Because these forces of equal magnitude act in opposite directions, they are perfectly balanced, so they add together to give a net force of zero.</para>
+<para id="fs-idp78223856">Not all forces are as noticeable as when you push or pull on an object. Some forces act without physical contact, such as the pull of a magnet (in the case of magnetic force) or the gravitational pull of Earth (in the case of gravitational force).</para>
+<para id="fs-idp97728880">In the next three sections discussing Newton’s laws of motion, we will learn about three specific types of forces: friction, the <term class="no-emphasis">normal force</term>, and the <term class="no-emphasis">gravitational force</term>. To analyze situations involving forces, we will create free-body diagrams to organize the framework of the mathematics for each individual situation.</para><note id="fs-idp19085904" class="tips-for-success">
+
+<para id="fs-idm1533328">Correctly drawing and labeling a free-body diagram is an important first step for solving a problem. It will help you visualize the problem and correctly apply the mathematics to solve the problem.</para>
+</note>
+</section>
+<section id="fs-idp41640128" class="summary">
+<title>Section Summary</title>
+<list id="fs-idp5999440">
+<item>Dynamics is the study of how forces affect the motion of objects and systems.</item>
+<item>Force is a push or pull that can be defined in terms of various standards. It is a vector and so has both magnitude and direction.</item>
+<item>External forces are any forces outside of a body that act on the body. A free-body diagram is a drawing of all external forces acting on a body.</item>
+</list>
+</section>
+<section id="fs-idp62123392" class="check-understanding">
+<title>Check Your Understanding</title>
+<note id="fs-idp30301824" class="os-teacher"><title>Teacher Support</title>
+<para id="fs-idp30324640">Use the questions in <emphasis effect="italics">Check Your Understanding</emphasis> to assess whether students have mastered the learning objectives of this section. If students are struggling with a specific objective, the <emphasis effect="italics">Check Your Understanding</emphasis> assessment will help identify which objective is causing the problem and direct students to the relevant content.</para>
+</note>
+<exercise id="fs-idp149776" class="os-exercise"><problem id="fs-idp4092784"><para id="fs-idm53453472"><link class="os-embed" url="#ost/api/ex/k12phys-ch04-ex001"/></para></problem></exercise>
+
+<exercise id="fs-idp86096448" class="os-exercise"><problem id="fs-idp78703056"><!--<para id="fs-idp39774416"><link class="os-embed" url="#ost/api/ex/k12phys-ch04-ex002"/></para>-->
+<para id="fs-id1164566169158">Do two bodies have to be in physical contact to exert a force upon one another?</para>
+<list id="fs-id1164564415373" list-type="enumerated" number-style="lower-alpha">
+<item>No, the gravitational force is a field force and does not require physical contact to exert a force.</item>
+<item>No, the gravitational force is a contact force and does not require physical contact to exert a force.</item>
+<item>Yes, the gravitational force is a field force and requires physical contact to exert a force.</item>
+<item>Yes, the gravitational force is a contact force and requires physical contact to exert a force.</item>
+</list>
+</problem></exercise>
+
+<exercise id="fs-idp63678384" class="os-exercise"><problem id="fs-idm249888"><para id="fs-idp40584624"><link class="os-embed" url="#ost/api/ex/k12phys-ch04-ex003"/></para></problem></exercise>
+<exercise id="fs-idp41989680" class="os-exercise">
+<problem id="fs-idp48326400">
+<!--<para id="fs-idm17177312"><link class="os-embed" url="#ost/api/ex/k12phys-ch04-ex004"/></para>-->
+<para id="fs-id1164564529638">Which forces can be represented in a free-body diagram?</para>
+<list id="fs-id1164567951549" list-type="enumerated" number-style="lower-alpha">
+<item>Internal forces</item>
+<item>External forces</item>
+<item>Both internal and external forces</item>
+<item>A body that is not influenced by any force</item>
+</list>
+</problem></exercise>
+</section>
+<section id="fs-idp40417728" class="concept"><title>Concept Items</title>
+<exercise id="fs-idp98963232" class="os-exercise"><problem id="fs-idp30917232">
+<!--<para id="fs-idm10674272"><link class="os-embed" url="#ost/api/ex/k12phys-ch04-ex005"/></para>-->
+<para id="fs-id1164567499056">What is dynamics?</para>
+<list id="fs-id1164567106138" list-type="enumerated" number-style="lower-alpha">
+<item>Dynamics is the study of internal forces.</item>
+<item>Dynamics is the study of forces and their effect on motion.</item>
+<item>Dynamics describes the motion of points, bodies, and systems without consideration of the cause of motion.</item>
+<item>Dynamics describes the effect of forces on each other.</item>
+</list>
+</problem></exercise>
+<exercise id="fs-idm5179520" class="os-exercise"><problem id="fs-idp79016048"><!--<para id="fs-idp12524624"><link class="os-embed" url="#ost/api/ex/k12phys-ch04-ex006"/></para>-->
+<para id="fs-id1164565941988">Two forces acting on an object are perpendicular to one another. How would you draw these in a free-body diagram?</para>
+<list id="fs-id1164565574248" list-type="enumerated" number-style="lower-alpha">
+<item>The two force arrows will be drawn at a right angle to one another.</item>
+<item>The two force arrows will be pointing in opposite directions.</item>
+<item>The two force arrows will be at a 45° angle to one another.</item>
+<item>The two force arrows will be at a 180° angle to one another.</item>
+</list>
+</problem></exercise>
+<exercise id="eip-id1166851246933" class="os-exercise">
+<problem id="eip-id1166851334676">
+<!--<para id="eip-id1166851352596">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch04-ot005"/>
+</para>-->
+
+<para id="fs-id1164567200313">A free-body diagram shows the forces acting on an object. How is that object represented in the diagram?</para>
+<list id="fs-id1164565478900" list-type="enumerated" number-style="lower-alpha">
+<item>A single point</item>
+<item>A square box</item>
+<item>A unit circle</item>
+<item>The object as it is</item>
+</list>
+</problem>
+</exercise></section><section id="fs-idp13561424" class="critical-thinking"><title>Critical Thinking</title>
+<exercise id="fs-idp41742048" class="os-exercise"><problem id="fs-idm13192464">
+<!--<para id="fs-idm19480496"><link class="os-embed" url="#ost/api/ex/k12phys-ch04-ex007"/></para>-->
+<para id="fs-id1164565622645">Only two forces are acting on an object: force A to the left and force B to the right. If force B is greater than force A, in which direction will the object move, given that the object starts from rest?</para><list id="fs-id1164567895335" list-type="enumerated" number-style="lower-alpha">
+<item>To the right</item>
+<item>To the left</item>
+<item>Upward</item>
+<item>The object does not move</item>
+</list>
+</problem></exercise>
+<exercise id="fs-idp36032720" class="os-exercise"><problem id="fs-idp85774192"><!--<para id="fs-idp22242944"><link class="os-embed" url="#ost/api/ex/k12phys-ch04-ex008"/></para>-->
+<para id="fs-id1164567640498">In a free-body diagram, the arrows representing tension and weight have the same length but point away from one another. What does this indicate?</para>
+<list id="fs-id1164564434389" list-type="enumerated" number-style="lower-alpha">
+<item>They are equal in magnitude and act in the same direction.</item>
+<item>They are equal in magnitude and act in opposite directions.</item>
+<item>They are unequal in magnitude and act in the same direction.</item>
+<item>They are unequal in magnitude and act in opposite directions.</item>
+</list>
+</problem></exercise>
+<exercise id="eip-id1166850222565" class="os-exercise">
+<problem id="eip-id1166847242567">
+<!--<para id="eip-id1166849801488">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch04-ot013"/>
+</para>-->
+
+<para id="fs-id1164565495739">An object is at rest. Two forces, X and Y, are acting on it. Force X has a magnitude of <emphasis effect="italics">x</emphasis> and acts in the downward direction. What is the magnitude and direction of Y, given that the object starts from rest?</para><list id="fs-id1164567351905" list-type="enumerated" number-style="lower-alpha">
+<item>The magnitude is <emphasis effect="italics">x</emphasis> and points in the upward direction.</item>
+<item>The magnitude is 2<emphasis effect="italics">x</emphasis> and points in the upward direction.</item>
+<item>The magnitude is <emphasis effect="italics">x</emphasis> and points in the downward direction.</item>
+<item>The magnitude is 2<emphasis effect="italics">x</emphasis> and points in the downward direction.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-id1166849933507" class="os-exercise">
+<problem id="eip-id1166849966867">
+<!--<para id="eip-id1166850268666">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch04-ot014"/>
+</para>-->
+
+<para id="fs-id1164566196026">Three forces, A, B, and C, are acting on the same object with magnitudes <emphasis effect="italics">a, b</emphasis>, and <emphasis effect="italics">c</emphasis>, respectively. Force A acts to the right, force B acts to the left, and force C acts downward. What is a necessary condition for the object to move straight down?</para>
+<list id="fs-id1164568016093" list-type="enumerated" number-style="lower-alpha">
+<item>The magnitude of force A must be greater than the magnitude of force B, so a &gt; b.</item>
+<item>The magnitude of force A must be equal to the magnitude of force B, so a = b.</item>
+<item>The magnitude of force A must be greater than the magnitude of force C, so A &gt; C.</item>
+<item>The magnitude of force C must be greater than the magnitude of forces A or B, so A &lt; C &gt; B.</item>
+</list>
+</problem>
+</exercise></section><section id="fs-idp78449424" class="multiple-choice">
+<title>Test Prep Multiple Choice</title>
+<exercise id="fs-idp7481504" class="os-exercise"><problem id="fs-idp91815472"><!--<para id="fs-idp31682480"><link class="os-embed" url="#ost/api/ex/k12phys-ch04-ex009"/></para>-->
+<para id="fs-id1164567022909">Which of the following is a physical quantity that can be described by dynamics but not by kinematics?</para>
+<list id="fs-id1164565467221" list-type="enumerated" number-style="lower-alpha">
+<item>Velocity</item>
+<item>Acceleration</item>
+<item>Force</item>
+</list>
+</problem></exercise>
+<exercise id="fs-idp54387872" class="os-exercise"><problem id="fs-idp38674288"><!--<para id="fs-idp73261264"><link class="os-embed" url="#ost/api/ex/k12phys-ch04-ex010"/></para>-->
+<para id="fs-id1164567883667">Which of the following is used to represent an object in a free-body diagram?</para>
+<list id="fs-id1164567295964" list-type="enumerated" number-style="lower-alpha">
+<item>A point</item>
+<item>A line</item>
+<item>A vector</item>
+</list>
+</problem></exercise>
+</section>
+<section id="fs-idm8453488" class="short-answer">
+<title>Test Prep Short Answer</title>
+<exercise id="fs-idp54306832" class="os-exercise"><problem id="fs-idp3928224"><!--<para id="fs-idp36899824"><link class="os-embed" url="#ost/api/ex/k12phys-ch04-ex011"/></para>-->
+
+<para id="fs-id1164567198246">True or FalseAn external force is defined as a force generated outside the system of interest that acts on an object inside the system.</para>
+<list id="fs-id1164567626919" list-type="enumerated" number-style="lower-alpha">
+<item>True</item>
+<item>False</item>
+</list>
+</problem></exercise>
+<exercise id="fs-idp2156448" class="os-exercise"><problem id="fs-idp91666064"><para id="fs-idp18289424"><link class="os-embed" url="#ost/api/ex/k12phys-ch04-ex012"/></para></problem></exercise>
+<exercise id="fs-idp5719552" class="os-exercise"><problem id="fs-idp19377520"><!--<para id="fs-idm15096208"><link class="os-embed" url="#ost/api/ex/k12phys-ch04-ex013"/></para>-->
+<para id="fs-id1164567519971">A body is pushed downward by a force of 5 units and upward by a force of 2 units. How would you draw a free-body diagram to represent this?</para>
+<list id="fs-id1164567487391" list-type="enumerated" number-style="lower-alpha">
+<item>Two force vectors acting at a point, both pointing up with lengths of 5 units and 2 units</item>
+<item>Two force vectors acting at a point, both pointing down with lengths of 5 units and 2 units</item>
+<item>Two force vectors acting at a point, one pointing up with a length of 5 units and the other pointing down with a length of 2 units</item>
+<item>Two force vectors acting at a point, one pointing down with a length of 5 units and the other pointing up with a length of 2 units</item>
+</list>
+</problem></exercise>
+<exercise id="fs-idp19848160" class="os-exercise"><problem id="fs-idp95823120"><!--<para id="fs-idp79051728"><link class="os-embed" url="#ost/api/ex/k12phys-ch04-ex014"/></para>-->
+<para id="fs-id1164565470640">A body is pushed eastward by a force of four units and southward by a force of three units. How would you draw a free-body diagram to represent this?</para>
+<list id="fs-id1164567387506" list-type="enumerated" number-style="lower-alpha">
+<item>Two force vectors acting at a point, one pointing left with a length of 4 units and the other pointing down with a length of 3 units</item>
+<item>Two force vectors acting at a point, one pointing left with a length of 4 units and the other pointing up with a length of 3 units</item>
+<item>Two force vectors acting at a point, one pointing right with a length of 4 units and the other pointing down with a length of 3 units</item>
+<item>Two force vectors acting at a point, one pointing right with a length of 4 units and the other pointing up with a length of 3 units</item>
+</list>
+</problem></exercise>
+</section>
+<section id="fs-idp112026304" class="extended-response">
+<title>Test Prep Extended Response</title>
+<exercise id="fs-idp19716928" class="os-exercise"><problem id="fs-idp19836816"><!--<para id="fs-idp12659840"><link class="os-embed" url="#ost/api/ex/k12phys-ch04-ex015"/></para>-->
+<para id="fs-id1164567409462">True or FalseWhen two unequal forces act on a body, the body will not move in the direction of the weaker force.</para><list id="fs-id1164564404254" list-type="enumerated" number-style="lower-alpha">
+<item>True</item>
+<item>False</item>
+</list>
+</problem></exercise>
+<exercise id="fs-idm10865536" class="os-exercise"><problem id="fs-idp16755696"><!--<para id="fs-idp45638624"><link class="os-embed" url="#ost/api/ex/k12phys-ch04-ex016"/></para>-->
+<para id="fs-id1164567124806">In the figure given, what is F<sub>restore</sub>? What is its magnitude?</para>
+<media id="fs-id1164566008214" alt="Image a shows a spring with a handle connected to a weight. The length of the spring is x. Image b shows a hand pulling on the spring. The length that the spring extends after being pulled is labeled Triangle x. An arrow pointing from the hand to the weight is labeled F subscript restore. Image c shows a scale with a measurement of 6. The length from 0 to 6 is labeled triangle x. An arrow pointing from the tip of the scale to 6 is labeled F subscript restore.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_04_01_spring_img.jpg"/>
+</media>
+
+<list id="fs-id1164567561579" list-type="enumerated" number-style="lower-alpha"><item>F<sub>restore</sub> is the force exerted by the hand on the spring, and it pulls to the right.</item>
+<item>F<sub>restore</sub> is the force exerted by the spring on the hand, and it pulls to the left.</item>
+<item>F<sub>restore</sub> is the force exerted by the hand on the spring, and it pulls to the left.</item>
+<item>F<sub>restore</sub> is the force exerted by the spring on the hand, and it pulls to the right.</item>
+</list></problem></exercise></section>
+</content>
+<glossary>
+<definition id="fs-idp3273600"><term>dynamics</term> <meaning id="fs-idm1032784">the study of how forces affect the motion of objects and systems</meaning></definition>
+<definition id="fs-idp19824016"><term>external force</term> <meaning id="fs-idp19277920">a force acting on an object or system that originates outside of the object or system</meaning></definition>
+<definition id="fs-idp48410960"><term>force</term> <meaning id="fs-idm6605664">a push or pull on an object with a specific magnitude and direction; can be represented by vectors; can be expressed as a multiple of a standard force</meaning></definition>
+<definition id="fs-idp22194096"><term>free-body diagram</term> <meaning id="fs-idp55222432">a diagram showing all external forces acting on a body</meaning></definition>
+<definition id="fs-idp23442656"><term>net external force</term> <meaning id="fs-idp6847456">the sum of all external forces acting on an object or system</meaning></definition>
+<definition id="fs-idp38628416"><term>net force</term> <meaning id="fs-idp51119856">the sum of all forces acting on an object or system</meaning></definition>
+</glossary>
+
+</document>

@@ -1,0 +1,1647 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Representing Acceleration with Equations and Graphs</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54116</md:content-id>
+  <md:title>Representing Acceleration with Equations and Graphs</md:title>
+  <md:abstract/>
+  <md:uuid>e83ad5af-9be3-4288-93db-960ddd87f11e</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-idm254736" class="learning-objectives">
+<label/>
+<title>Section Learning Objectives</title>
+<para id="fs-idp37274960">By the end of this section, you will be able to do the following:</para>
+<list id="fs-idp9734704">
+<item>Explain the kinematic equations related to acceleration and illustrate them with graphs</item>
+<item>Apply the kinematic equations and related graphs to problems involving acceleration</item>
+</list>
+</note>
+
+<note id="fs-idp13564336" class="os-teacher"><title>Teacher Support</title>
+<para id="fs-idp5402128">The Learning Objectives in this section will help your students master the following standards:</para>
+<list id="fs-id1164566873209">
+<item>(4) Science concepts. The student knows and applies the laws governing motion in a variety of situations. The student is expected to:
+<list id="fs-idp45700976">
+<item><span>(A)</span> <span>generate and interpret graphs and charts describing different types of motion, including the use of real-time technology such as motion detectors or photogates;</span></item>
+<item><span>(B)</span> <span>describe and analyze motion in one dimension using equations with the concepts of distance, displacement, speed, average velocity, instantaneous velocity, and acceleration.</span></item>
+</list></item>
+</list>
+<para id="fs-id1169317600831">In addition, the High School Physics Laboratory Manual addresses content in this section in the lab titled: Acceleration, as well as the following standards:</para>
+<list id="fs-id1169314057700">
+<item>(4) Science concepts. The student knows and applies the laws governing motion in a variety of situations. The student is expected to:
+<list id="fs-id1169317365387">
+<item>
+<span>(A)</span> <span>generate and interpret graphs and charts describing different types of motion, including the use of real-time technology such as motion detectors or photogates.</span>
+</item>
+</list>
+</item>
+</list>
+</note>
+<section id="keyterms"><title>Section Key Terms</title>
+<table id="fs-idp5115072" summary="The list of Key Terms includes: acceleration due to gravity, kinematic equations, and uniform acceleration." class="unnumbered unstyled section-key-terms"><label/>
+<tgroup cols="3"><tbody>
+<row>
+<entry>acceleration due to gravity</entry>
+<entry>kinematic equations</entry>
+<entry>uniform acceleration</entry>
+</row>
+</tbody>
+
+</tgroup>
+</table><note id="fs-idm39794096" class="os-teacher"><title>Teacher Support</title>
+<para id="fs-idm19461376"><span>[BL]</span> Briefly review displacement, time, velocity, and acceleration; their variables, and their units.</para>
+<para id="fs-idp12605072"><span>[OL]</span><span>[AL]</span> Explain that this section introduces five equations that allow us to solve a wider range of problems than just finding acceleration from time and velocity. Review graphical analysis, including axes, algebraic signs, how to designate points on a coordinate plane, i.e., (<emphasis effect="italics">x</emphasis>, <emphasis effect="italics">y</emphasis>), slopes, and intercepts. Explain that these equations can also be represented graphically.</para>
+</note></section>
+
+<section id="fs-idm57946960"><title>How the Kinematic Equations are Related to Acceleration</title><para id="fs-idm7760528">We are studying concepts related to motion: time, displacement, <term class="no-emphasis">velocity</term>, and especially acceleration. We are only concerned with motion in one dimension. The <term>kinematic equations</term> apply to conditions of constant acceleration and show how these concepts are related. <term>Constant acceleration</term> is acceleration that does not change over time. The first kinematic equation relates displacement <emphasis effect="italics">d</emphasis>, average velocity  <m:math>
+<m:mover accent="true">
+<m:mi>v</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+</m:math>, and time <emphasis effect="italics">t</emphasis>.</para>
+<para id="fs-idp25918192"><equation id="eip-idm475968992"> <m:math>
+		<m:mrow>
+			<m:mi>d</m:mi><m:mo>=</m:mo><m:msub><m:mi>d</m:mi><m:mn>0</m:mn></m:msub>
+			<m:mo>+</m:mo><m:mover accent="true">   <m:mi>v</m:mi><m:mo>¯</m:mo></m:mover><m:mi>t</m:mi></m:mrow></m:math> </equation>
+The initial displacement  <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math>
+
+ is often 0, in which case the equation can be written as  <m:math><m:mrow>
+  <m:mover accent="true">
+   <m:mi>v</m:mi>
+   <m:mo>¯</m:mo>
+  </m:mover>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mi>d</m:mi>
+   <m:mi>t</m:mi>
+  </m:mfrac>
+ </m:mrow>
+</m:math>
+</para><para id="fs-idp18709056">This equation says that average velocity is <term class="no-emphasis">displacement</term> per unit time. We will express velocity in meters per second. If we graph displacement versus time, as in <link target-id="Figure_03_02_displace"/>, the slope will be the velocity. Whenever a rate, such as velocity, is represented graphically, time is usually taken to be the independent variable and is plotted along the <emphasis effect="italics">x</emphasis> axis.</para>
+<figure id="Figure_03_02_displace">
+<media id="fs-idp23485472" alt=" A line graph is shown. The x-axis is labeled time and includes a directional arrow pointing to the right. The y-axis is labeled displacement and includes a directional arrow pointing upward. The graphed line shows a directly proportional relationship between time and displacement.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_03_02_displace.jpg"/>
+</media>
+<caption>The slope of displacement versus time is velocity.</caption>
+</figure>
+
+<para id="fs-idp23524752">The second kinematic equation, another expression for average velocity  <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mover accent="true">
+    <m:mi>v</m:mi>
+    <m:mo stretchy="true">¯</m:mo>
+   </m:mover>
+   <m:mo>,</m:mo>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+ is simply the initial velocity plus the final velocity divided by two.</para>
+
+<equation id="fs-idp18271280"><label/> <m:math><m:mrow><m:mover accent="true">
+<m:mi>v</m:mi>
+<m:mo>¯</m:mo></m:mover>
+<m:mo>=</m:mo><m:mfrac><m:mrow>
+<m:msub><m:mi>v</m:mi>
+     <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo><m:msub>
+     <m:mi>v</m:mi>
+     <m:mtext>f</m:mtext>
+    </m:msub>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+ </m:mrow>
+</m:math>
+</equation>
+
+<para id="fs-idp49944064">Now we come to our main focus of this chapter; namely, the kinematic equations that describe motion with constant acceleration. In the third kinematic equation, acceleration is the rate at which velocity increases, so velocity at any point equals initial velocity plus acceleration multiplied by time</para>
+
+<equation id="fs-idp72729168"><label/> <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:msub>
+<m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:mi>a</m:mi><m:mi>t</m:mi><m:mspace width="0.2em"/>
+<m:mtext>Also</m:mtext><m:mo>,</m:mo><m:mtext> if we start from rest (</m:mtext><m:msub><m:mi>v</m:mi>
+<m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.3em"/><m:mtext>), we can write </m:mtext><m:mspace width="0.2em"/>
+
+
+<m:mi>a</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>v</m:mi>
+<m:mi>t</m:mi></m:mfrac></m:mrow></m:math> </equation>
+
+<para id="fs-idp10605632">Note that this third kinematic equation does not have displacement in it. Therefore, if you do not know the displacement and are not trying to solve for a displacement, this equation might be a good one to use.</para><para id="fs-idp57783040">The third kinematic equation is also represented by the graph in <link target-id="Figure_03_02_time"/>.</para><figure id="Figure_03_02_time">
+<media id="fs-idp32841888" alt="A line graph is shown. The x-axis is labeled time in seconds and the y-axis is labeled velocity in meters per second. The graphed line shows a directly proportional relationship between time and velocity.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_03_02_time.jpg"/>
+</media>
+<caption> The slope of velocity versus time is acceleration.</caption>
+</figure>
+
+<para id="fs-idp4485920">The fourth kinematic equation shows how displacement is related to acceleration</para>
+<equation id="fs-idm16932944"><label/> <m:math>
+ <m:mrow>
+  <m:mi>d</m:mi><m:mo>=</m:mo><m:msub>
+   <m:mi>d</m:mi>
+   <m:mn>0</m:mn>
+  </m:msub>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>v</m:mi>
+   <m:mn>0</m:mn>
+  </m:msub>
+  <m:mi>t</m:mi><m:mo>+</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mi>a</m:mi><m:msup>
+   <m:mi>t</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+<m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math>
+</equation>
+
+<para id="fs-idm20907648">When starting at the origin,  <m:math><m:mrow><m:msub>
+<m:mi>d</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>  and, when starting from rest,  <m:math><m:mrow><m:msub>
+<m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow>
+</m:math>, in which case the equation can be written as</para>
+
+<equation id="fs-idp3355616" class="unnumbered"><label/> <m:math>
+ <m:mrow>
+  <m:mi>a</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>d</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:msup>
+     <m:mi>t</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+   </m:mrow>
+  </m:mfrac>
+<m:mtext>.</m:mtext>
+</m:mrow>
+</m:math>
+</equation><para id="fs-idp53023216">This equation tells us that, for constant acceleration, the slope of a plot of 2<emphasis effect="italics">d</emphasis> versus <emphasis effect="italics">t</emphasis><sup>2</sup> is acceleration, as shown in <link target-id="Figure_03_02_line"/>.</para>
+
+<figure id="Figure_03_02_line">
+<media id="fs-idm11377424" alt="A line graph is shown. The x-axis is labeled t squared and the y-axis is labeled two d in meters. The graphed line shows that the slope of two d versus t squared equals constant acceleration.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_03_02_line.jpg"/>
+</media>
+<caption>When acceleration is constant, the slope of 2<emphasis effect="italics">d</emphasis> versus <emphasis effect="italics">t</emphasis><sup>2</sup> gives the acceleration.</caption>
+</figure>
+
+<para id="fs-idm2619680">The fifth kinematic equation relates velocity, acceleration, and displacement</para>
+<equation id="fs-idm2879632"><label/> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mi>v</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>=</m:mo><m:msubsup>
+   <m:mi>v</m:mi>
+   <m:mn>0</m:mn>
+   <m:mn>2</m:mn>
+  </m:msubsup>
+  <m:mo>+</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>d</m:mi><m:mo>−</m:mo><m:msub>
+     <m:mi>d</m:mi>
+     <m:mn>0</m:mn>
+    </m:msub>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+<m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math> </equation>
+
+<para id="fs-idm974640">This equation is useful for when we do not know, or do not need to know, the time.</para>
+<para id="fs-idm28176944">When starting from rest, the fifth equation simplifies to</para>
+
+<equation id="fs-idm6121936" class="unnumbered"><label/> <m:math><m:mrow>
+  <m:mi>a</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msup>
+     <m:mi>v</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>d</m:mi>
+   </m:mrow>
+  </m:mfrac>
+<m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math> </equation><para id="fs-idm3041104">According to this equation, a graph of velocity squared versus twice the displacement will have a slope equal to acceleration.</para>
+
+<figure id="Figure_03_02_slope">
+<media id="fs-idm61803632" alt="A line graph is shown. The x-axis is labeled two d in meters and the y-axis is labeled v squared in meters per second squared. The graphed line shows a directly proportional relationship between two d, twice the displacement, and v squared, velocity squared.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_03_02_slope.jpg"/>
+</media>
+<caption/>
+</figure>
+
+<para id="fs-idp41442160">Note that, in reality, knowns and unknowns will vary. Sometimes you will want to rearrange a kinematic equation so that the knowns are the values on the axes and the unknown is the slope. Sometimes the intercept will not be at the origin (0,0). This will happen when <emphasis effect="italics">v</emphasis><sub>0</sub> or <emphasis effect="italics">d</emphasis><sub>0</sub> is not zero. This will be the case when the object of interest is already in motion, or the motion begins at some point other than at the origin of the coordinate system.</para>
+
+<note id="fs-idm31593824" class="os-teacher"><title>Teacher Support</title>
+<para id="fs-idm51551200"><span>[BL]</span> Be sure everyone is completely comfortable with the idea that velocity is displacement divided by the time during which the displacement occurs. Use everyday examples.</para>
+<para id="fs-idp24526560"><span>[OL]</span> Remind students that they studied velocity in earlier chapters. Relate the simplified equation  <m:math display="block">
+ <m:mrow>
+  <m:mover accent="true">
+   <m:mi>v</m:mi>
+   <m:mo>¯</m:mo>
+  </m:mover>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mi>d</m:mi>
+   <m:mi>t</m:mi>
+  </m:mfrac>
+ </m:mrow>
+</m:math>  to a graph of displacement versus time. Point out that the plot starts at (0,0) because the initial velocity is zero. Pick a segment on the graph and explain how to find the slope at this segment. Explain that <link target-id="Figure_03_02_displace"/> would show a straight line if velocity were changing; that is, if the object were accelerating. Show how the graph would change for both negative and positive acceleration.</para>
+<para id="fs-idp12981728"><span>[OL]</span> Build on the understanding of velocity to introduce acceleration. Contrast constant velocity with changing velocity. Use everyday examples from transportation, sports, or amusement park rides. Explain that <link target-id="Figure_03_02_time"/> represents constant acceleration because it is a straight line. Give examples of increasing, decreasing, and constant acceleration, and explain how each affects the shape of plots of velocity versus time.</para>
+<para id="fs-idm34792576"><span>[OL]</span><span>[AL]</span> Ask students why all three of the plots are straight lines. Refer to the graph of 2<emphasis effect="italics">d</emphasis> vs <emphasis effect="italics">t</emphasis><sup>2</sup> and explain why this is a straight line, whereas <emphasis effect="italics">d</emphasis> vs <emphasis effect="italics">t</emphasis> would be nonlinear.</para>
+</note><note id="fs-idm32468704" class="virtual-physics"><title>The Moving Man (Part 2)</title>
+<para id="fs-idm45013808">Look at the Moving Man simulation again and this time use the <emphasis effect="italics">Charts</emphasis> view. Again, vary the velocity and acceleration by sliding the red and green markers along the scales. Keeping the velocity marker near zero will make the effect of acceleration more obvious. Observe how the graphs of position, velocity, and acceleration vary with time. Note which are linear plots and which are not.</para>
+
+<media id="fs-id1167063891961" alt="no alt text">
+<iframe width="660" height="371.4" src="https://openstax.org/l/02moving_man"/></media>
+<note id="fs-idm52419216" class="os-teacher"><title>Teacher Support</title>
+<para id="fs-idp41409936">Ask the students to click the <emphasis effect="italics">Charts</emphasis> option and adjust the settings for the animation to reproduce the plots found in <link target-id="Figure_03_02_displace"/> and <link target-id="Figure_03_02_time"/>.</para>
+</note><exercise id="fs-idm41529072" class="os-exercise grasp-check">
+
+<problem id="fs-idm57837136">
+<!--<para id="fs-idm8832224">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch03-ex023"/>
+</para>-->
+<para id="fs-id1164566022061">On a velocity versus time plot, what does the slope represent?</para>
+<list id="fs-id1164565441771" list-type="enumerated" number-style="lower-alpha">
+<item>Acceleration</item>
+<item>Displacement</item>
+<item>Distance covered</item>
+<item>Instantaneous velocity</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-idm107895344" class="os-exercise grasp-check">
+
+<problem id="fs-idm8115248">
+<!--<para id="fs-idm44820512">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch03-ex024"/>
+</para>-->
+<para id="fs-id1164567296196">On a position versus time plot, what does the slope represent?</para>
+<list id="fs-id1164567954957" list-type="enumerated" number-style="lower-alpha">
+<item>Acceleration</item>
+<item>Displacement</item>
+<item>Distance covered</item>
+<item>Instantaneous velocity</item>
+</list>
+</problem>
+</exercise>
+</note><para id="fs-idm4712672">The kinematic equations are applicable when you have constant acceleration.</para>
+<list id="fs-idm58620608" list-type="enumerated" number-style="arabic"><item> <m:math>
+ <m:mrow>
+  <m:mi>d</m:mi><m:mo>=</m:mo><m:msub>
+   <m:mi>d</m:mi>
+   <m:mn>0</m:mn>
+  </m:msub>
+  <m:mo>+</m:mo><m:mover accent="true">
+   <m:mi>v</m:mi>
+   <m:mo>¯</m:mo>
+  </m:mover>
+  <m:mi>t</m:mi>
+ </m:mrow>
+</m:math>, or  <m:math>
+ <m:mrow>
+  <m:mover accent="true">
+   <m:mi>v</m:mi>
+   <m:mo>¯</m:mo>
+  </m:mover>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mi>d</m:mi>
+   <m:mi>t</m:mi>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>  when <emphasis effect="italics">d</emphasis><sub>0</sub> = 0</item>
+<item> <m:math>
+ <m:mrow>
+  <m:mover accent="true">
+   <m:mi>v</m:mi>
+   <m:mo>¯</m:mo>
+  </m:mover>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msub>
+     <m:mi>v</m:mi>
+     <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo><m:msub>
+     <m:mi>v</m:mi>
+     <m:mtext>f</m:mtext>
+    </m:msub>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+ </m:mrow>
+</m:math> </item>
+<item> <m:math>
+ <m:mrow>
+  <m:mi>v</m:mi><m:mo>=</m:mo><m:msub>
+   <m:mi>v</m:mi>
+   <m:mn>0</m:mn>
+  </m:msub>
+  <m:mo>+</m:mo><m:mi>a</m:mi><m:mi>t</m:mi>
+ </m:mrow>
+</m:math>, or  <m:math>
+ <m:mrow>
+  <m:mi>a</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mi>v</m:mi>
+   <m:mi>t</m:mi>
+  </m:mfrac>
+ </m:mrow>
+</m:math>  when <emphasis effect="italics">v</emphasis><sub>0</sub> = 0</item>
+<item> <m:math>
+ <m:mrow>
+  <m:mi>d</m:mi><m:mo>=</m:mo><m:msub>
+   <m:mi>d</m:mi>
+   <m:mn>0</m:mn>
+  </m:msub>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>v</m:mi>
+   <m:mn>0</m:mn>
+  </m:msub>
+  <m:mi>t</m:mi><m:mo>+</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mi>a</m:mi><m:msup>
+   <m:mi>t</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+ </m:mrow>
+</m:math>, or  <m:math>
+ <m:mrow>
+  <m:mi>a</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>d</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:msup>
+     <m:mi>t</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+   </m:mrow>
+  </m:mfrac>
+ </m:mrow>
+</m:math>  when <emphasis effect="italics">d</emphasis><sub>0</sub> = 0 and <emphasis effect="italics">v</emphasis><sub>0</sub> = 0</item>
+<item> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mi>v</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>=</m:mo><m:msubsup>
+   <m:mi>v</m:mi>
+   <m:mn>0</m:mn>
+   <m:mn>2</m:mn>
+  </m:msubsup>
+  <m:mo>+</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>d</m:mi><m:mo>−</m:mo><m:msub>
+     <m:mi>d</m:mi>
+     <m:mn>0</m:mn>
+    </m:msub>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math>, or  <m:math>
+ <m:mrow>
+  <m:mi>a</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>d</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:msup>
+     <m:mi>t</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+   </m:mrow>
+  </m:mfrac>
+ </m:mrow>
+</m:math>  when <emphasis effect="italics">d</emphasis><sub>0</sub> = 0 and <emphasis effect="italics">v</emphasis><sub>0</sub> = 0</item>
+</list><note id="fs-idm66414192" class="os-teacher"><title>Teacher Support</title>
+<para id="fs-idp19573024"><span>[OL]</span> Go through the algebra to show how the kinematic equations can be simplified when some of the values are zero. Note that any motion starting or ending in a motionless state will simplify the equations.</para>
+</note></section><section id="fs-idp37432544">
+<title>Applying Kinematic Equations to Situations of Constant Acceleration</title>
+<para id="fs-idp26479312">Problem-solving skills are essential to success in a science and life in general. The ability to apply broad physical principles, which are often represented by equations, to specific situations is a very powerful form of knowledge. It is much more powerful than memorizing a list of facts. Analytical skills and problem-solving abilities can be applied to new situations, whereas a list of facts cannot be made long enough to contain every possible circumstance. Essential analytical skills will be developed by solving problems in this text and will be useful for understanding physics and science in general throughout your life.</para>
+
+<section id="fs-idp28583888">
+<title>Problem-Solving Steps</title>
+<para id="fs-idm22192080">While no single step-by-step method works for every problem, the following general procedures facilitate problem solving and make the answers more meaningful. A certain amount of creativity and insight are required as well.</para>
+<list id="fs-idm73161552" list-type="enumerated" number-style="arabic"><item><emphasis effect="italics">Examine the situation to determine which physical principles are involved. It is vital to draw a simple sketch at the outset.</emphasis> Decide which direction is positive and note that on your sketch.</item>
+<item><emphasis effect="italics">Identify the knowns: Make a list of what information is given or can be inferred from the problem statement.</emphasis> Remember, not all given information will be in the form of a number with units in the problem. If something starts <emphasis effect="italics">from rest</emphasis>, we know the initial velocity is zero. If something <emphasis effect="italics">stops</emphasis>, we know the final velocity is zero.</item>
+<item><emphasis effect="italics">Identify the unknowns: Decide exactly what needs to be determined in the problem.</emphasis></item>
+<item><emphasis effect="italics">Find an equation or set of equations that can help you solve the problem.</emphasis> Your list of knowns and unknowns can help here. For example, if time is not needed or not given, then the fifth kinematic equation, which does not include time, could be useful.</item>
+<item><emphasis effect="italics">Insert the knowns along with their units into the appropriate equation and obtain numerical solutions complete with units.</emphasis> This step produces the numerical answer; it also provides a check on units that can help you find errors. If the units of the answer are incorrect, then an error has been made.</item>
+<item><emphasis effect="italics">Check the answer to see if it is reasonable: Does it make sense?</emphasis> This final step is extremely important because the goal of physics is to accurately describe nature. To see if the answer is reasonable, check its magnitude, its sign, and its units. Are the significant figures correct?</item>
+</list></section>
+
+<section id="fs-idm39262368">
+<title>Summary of Problem Solving</title><list id="fs-idm37158080">
+<item>Determine the knowns and unknowns.</item>
+<item>Find an equation that expresses the unknown in terms of the knowns. More than one unknown means more than one equation is needed.</item>
+<item>Solve the equation or equations.</item>
+<item>Be sure units and significant figures are correct.</item>
+<item>Check whether the answer is reasonable.</item>
+</list>
+<note id="fs-idm6473872" class="os-teacher"><title>Teacher Support</title>
+<para id="fs-idp16569024"><span>[BL]</span><span>[OL]</span><span>[AL]</span> Consider starting with the simplified summary of problem solving and then expand it to the more wordy description above. Stress that this is <emphasis effect="italics">not</emphasis> a strict recipe that can solve all problems. Applying analytical skills is still required. If the preliminary analysis is correct and the knowns and unknowns are correctly sorted, the rest should be correct. Try applying the method to some non-mathematical everyday problems. Ask for suggestions.</para>
+</note></section>
+
+<note id="fs-idp25143152" class="fun-in-physics"><title>Drag Racing</title>
+
+<figure id="Figure_03_02_Dragster"><media id="fs-idm59625648" alt="Smoke is coming from the tires of a race car as the car accelerates at the beginning of a drag race.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_03_02_Dragster.jpg"/>
+</media>
+
+<caption>Smoke rises from the tires of a dragster at the beginning of a drag race. (Lt. Col. William Thurmond. Photo courtesy of U.S. Army.)</caption></figure><para id="fs-idm31070688">The object of the sport of drag racing is acceleration. Period! The races take place from a standing start on a straight one-quarter-mile (402 m) track. Usually two cars race side by side, and the winner is the driver who gets the car past the quarter-mile point first. At the finish line, the cars may be going more than 300 miles per hour (134 m/s). The driver then deploys a parachute to bring the car to a stop because it is unsafe to brake at such high speeds. The cars, called dragsters, are capable of accelerating at 26 m/s<sup>2</sup>. By comparison, a typical sports car that is available to the general public can accelerate at about 5 m/s<sup>2</sup>.</para>
+<para id="fs-idm27080016">Several measurements are taken during each drag race:</para>
+<list id="fs-idp34805232">
+<item>Reaction time is the time between the starting signal and when the front of the car crosses the starting line.</item>
+<item>Elapsed time is the time from when the vehicle crosses the starting line to when it crosses the finish line. The record is a little over 3 s.</item>
+<item>Speed is the average speed during the last 20 m before the finish line. The record is a little under 400 mph.</item>
+</list>
+<para id="fs-idm25554848">The video shows a race between two dragsters powered by jet engines. The actual race lasts about four seconds and is near the end of the <link url="https://openstax.org/l/28dragsters">video</link>.</para>
+
+<note id="fs-idm8689280" class="os-teacher"><title>Teacher Support</title>
+<para id="fs-idp18797536">Explain the direction and magnitude of acceleration and velocity vectors before and after the braking chute is deployed. Explain that ¼ mile is 440 yards. If any students are on the track team, you might ask them to describe this distance. Compare record times for this track event to 4 seconds.</para>
+</note><exercise id="fs-idm13108496" class="os-exercise grasp-check">
+
+<problem id="fs-idp17447440">
+<para id="fs-idm4770848">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch03-ex025"/>
+</para>
+</problem>
+</exercise>
+</note><note id="fs-idm6769824" class="worked-example"><title>Acceleration of a Dragster</title>
+
+<exercise id="fs-idp27353104" class="03-ex026"><label/>
+<problem id="fs-idm121221360"><para id="fs-idp40223664">The time it takes for a dragster to cross the finish line is unknown. The dragster accelerates from rest at 26 m/s<sup>2</sup> for a quarter mile (0.250 mi). What is the final velocity of the dragster?</para>
+<note id="fs-idm14242928"><label/><title>Strategy</title>
+<para id="fs-idm14720688">The equation  <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mi>v</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>=</m:mo><m:msubsup>
+   <m:mi>v</m:mi>
+   <m:mn>0</m:mn>
+   <m:mn>2</m:mn>
+  </m:msubsup>
+  <m:mo>+</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>d</m:mi><m:mo>−</m:mo><m:msub>
+     <m:mi>d</m:mi>
+     <m:mn>0</m:mn>
+    </m:msub>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math>  is ideally suited to this task because it gives the velocity from acceleration and displacement, without involving the time.</para></note>
+</problem>
+<solution id="fs-idp13712">
+<label/>
+<title>Solution</title>
+<list id="fs-idm51451984" list-type="enumerated" number-style="arabic">
+<item>Convert miles to meters.
+<equation id="fs-id1164563054757"> <m:math display="block">
+ <m:mrow>
+  <m:mo stretchy="false">(</m:mo><m:mn>0.250</m:mn><m:mspace width="0.3em"/><m:mtext> mi</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>×</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>1609</m:mn><m:mspace width="0.3em"/><m:mtext> m</m:mtext>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>1</m:mn><m:mspace width="0.3em"/><m:mtext> mi</m:mtext>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>402</m:mn><m:mspace width="0.3em"/><m:mtext> m</m:mtext>
+ </m:mrow>
+</m:math> </equation>
+</item>
+<item>Identify the known values. We know that <emphasis effect="italics">v</emphasis><sub>0</sub> = 0 since the dragster starts from rest, and we know that the distance traveled, <emphasis effect="italics">d</emphasis> − <emphasis effect="italics">d</emphasis><sub>0</sub> is 402 m. Finally, the acceleration is constant at <emphasis effect="italics">a</emphasis> = 26.0 m/s<sup>2</sup>.</item>
+<item>Insert the knowns into the equation  <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mi>v</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>=</m:mo><m:msubsup>
+   <m:mi>v</m:mi>
+   <m:mn>0</m:mn>
+   <m:mn>2</m:mn>
+  </m:msubsup>
+  <m:mo>+</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>d</m:mi><m:mo>−</m:mo><m:msub>
+     <m:mi>d</m:mi>
+     <m:mn>0</m:mn>
+    </m:msub>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math>  and solve for <emphasis effect="italics">v</emphasis>.
+<equation id="fs-id1164561228814"> <m:math display="block">
+ <m:mrow>
+  <m:msup>
+   <m:mi>v</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>=</m:mo><m:mn>0</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>26.0</m:mn><m:mfrac>
+     <m:mtext>m</m:mtext>
+     <m:mrow>
+      <m:msup>
+       <m:mtext>s</m:mtext>
+       <m:mtext>2</m:mtext>
+      </m:msup>
+
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo stretchy="false">(</m:mo><m:mn>402</m:mn><m:mspace width="0.3em"/><m:mtext> m</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2.09</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mn>4</m:mn>
+  </m:msup>
+  <m:mfrac>
+   <m:mrow>
+    <m:msup>
+     <m:mtext>m</m:mtext>
+     <m:mtext>2</m:mtext>
+    </m:msup>
+
+   </m:mrow>
+   <m:mrow>
+    <m:msup>
+     <m:mtext>s</m:mtext>
+     <m:mtext>2</m:mtext>
+    </m:msup>
+
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </equation></item>
+</list>
+<para id="fs-idp16634640">Taking the square root gives us  <m:math>
+ <m:mrow>
+  <m:mi>v</m:mi><m:mo>=</m:mo><m:msqrt>
+   <m:mrow>
+    <m:mn>2.09</m:mn><m:mo>×</m:mo><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn>
+     </m:mrow>
+     <m:mn>4</m:mn>
+    </m:msup>
+    <m:mfrac>
+     <m:mrow>
+      <m:msup>
+       <m:mtext>m</m:mtext>
+       <m:mtext>2</m:mtext>
+      </m:msup>
+
+     </m:mrow>
+     <m:mrow>
+      <m:msup>
+       <m:mtext>s</m:mtext>
+       <m:mtext>2</m:mtext>
+      </m:msup>
+
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  </m:msqrt>
+  <m:mo>=</m:mo><m:mn>145</m:mn><m:mfrac>
+   <m:mtext>m</m:mtext>
+   <m:mtext>s</m:mtext>
+  </m:mfrac>
+<m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math> </para>
+</solution>
+<commentary id="fs-idm25551824">
+<title>Discussion</title>
+<para id="fs-idm2626944">145 m/s is about 522 km/hour or about 324 mi/h, but even this breakneck speed is short of the record for the quarter mile. Also, note that a square root has two values. We took the positive value because we know that the velocity must be in the same direction as the acceleration for the answer to make physical sense.</para>
+<para id="fs-idm8167392">An examination of the equation  <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mi>v</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>=</m:mo><m:msubsup>
+   <m:mi>v</m:mi>
+   <m:mn>0</m:mn>
+   <m:mn>2</m:mn>
+  </m:msubsup>
+  <m:mo>+</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>d</m:mi><m:mo>−</m:mo><m:msub>
+     <m:mi>d</m:mi>
+     <m:mn>0</m:mn>
+    </m:msub>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math>  can produce further insights into the general relationships among physical quantities:</para>
+<list id="fs-idp749632">
+<item>The final velocity depends on the magnitude of the acceleration and the distance over which it applies.</item>
+<item>For a given acceleration, a car that is going twice as fast does not stop in twice the distance—it goes much further before it stops. This is why, for example, we have reduced speed zones near schools.</item>
+</list>
+<note id="fs-idp17279648" class="os-teacher"><title>Teacher Support</title>
+<para id="fs-idm32914560"><span>[OL]</span> Work through the problem-solving steps with the student.</para>
+<list id="fs-idp19259200" list-type="enumerated" number-style="arabic">
+<item>What is the goal?</item>
+<item>What is known and unknown?</item>
+<item>Which equation expresses the unknown in terms of the knowns?</item>
+<item>Solve for the unknown.</item>
+<item>Insert known values.</item>
+<item>Calculate.</item>
+<item>Checking that answer is reasonable and has the correct units, sign, and significant figures.</item>
+</list>
+<para id="fs-idm100217248">Repeat for the second sample problem.</para>
+<para id="fs-idm14384624"><span>[AL]</span> Initiate a discussion on variation in gravity. Compare gravity on Earth to gravity on the moon. Explain the difference between g and constants that are the same everywhere in the universe, such as the speed of light.</para>
+</note></commentary>
+</exercise></note></section><section id="fs-id1167067011540" class="practice-problems"><title>Practice Problems</title>
+<exercise id="fs-id1167066955525" class="os-exercise">
+<problem id="fs-id1167063947630">
+<!--<para id="fs-id1167067205692">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch03-ex031"/>
+</para>-->
+<para id="fs-id1164565649995">Dragsters can reach a top speed of 145 m/s in only 4.45 s. Calculate the average acceleration for such a dragster.</para>
+<list id="fs-id1164567573177" list-type="enumerated" number-style="lower-alpha">
+<item>−32.6 m/s<sup>2</sup></item>
+<item>0 m/s<sup>2</sup></item>
+<item>32.6 m/s<sup>2</sup></item>
+<item>145 m/s<sup>2</sup></item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067087927" class="os-exercise">
+<problem id="fs-id1167063723578">
+<!--<para id="fs-id1167066954915">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch03-ex047"/>
+</para>-->
+<para id="fs-id1164564523783">An Olympic-class sprinter starts a race with an acceleration of 4.50 m/s<sup>2</sup>. Assuming she can maintain that acceleration, what is her speed 2.40 s later?</para>
+<list id="fs-id1164565286486" list-type="enumerated" number-style="lower-alpha">
+<item>4.50 m/s</item>
+<item>10.8 m/s</item>
+<item>19.6 m/s</item>
+<item>44.1 m/s</item>
+</list>
+</problem>
+</exercise></section>
+
+<section id="fs-idm21387216">
+<title>Constant Acceleration</title>
+<para id="fs-idp71584384">In many cases, <term class="no-emphasis">acceleration</term> is not uniform because the force acting on the accelerating object is not constant over time. A situation that gives constant acceleration is the acceleration of falling objects. When air resistance is not a factor, all objects near Earth’s surface fall with an acceleration of about 9.80 m/s<sup>2</sup>. Although this value decreases slightly with increasing altitude, it may be assumed to be essentially constant. The value of 9.80 m/s<sup>2</sup> is labeled <emphasis effect="italics">g</emphasis> and is referred to as <term>acceleration due to gravity</term>. <term class="no-emphasis">Gravity</term> is the force that causes nonsupported objects to accelerate downward—or, more precisely, toward the center of Earth. The magnitude of this force is called the weight of the object and is given by <emphasis effect="italics">mg</emphasis> where <emphasis effect="italics">m</emphasis> is the mass of the object (in kg). In places other than on Earth, such as the Moon or on other planets, <emphasis effect="italics">g</emphasis> is not 9.80 m/s<sup>2</sup>, but takes on other values. When using <emphasis effect="italics">g</emphasis> for the acceleration <emphasis effect="italics">a</emphasis> in a kinematic equation, it is usually given a negative sign because the acceleration due to gravity is downward.</para><note id="fs-idm28250976" class="work-in-physics"><title>Effects of Rapid Acceleration</title>
+
+<figure id="Figure_03_02_GForce"><media id="fs-idm29574496" alt="An astronaut is strapped into a G-Force simulator.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_03_02_GForce.jpg"/>
+</media>
+
+<caption>Astronauts train using G Force Simulators. (NASA)
+</caption></figure><para id="fs-idm10704400">When in a vehicle that accelerates rapidly, you experience a force on your entire body that accelerates your body. You feel this force in automobiles and slightly more on amusement park rides. For example, when you ride in a car that turns, the car applies a force on your body to make you accelerate in the direction in which the car is turning. If enough force is applied, you will accelerate at 9.80 m/s<sup>2</sup>. This is the same as the acceleration due to gravity, so this force is called one G.</para><para id="fs-idm22722864">One G is the force required to accelerate an object at the acceleration due to gravity at Earth’s surface. Thus, one G for a paper cup is much less than one G for an elephant, because the elephant is much more massive and requires a greater force to make it accelerate at 9.80 m/s<sup>2</sup>. For a person, a G of about 4 is so strong that his or her face will distort as the bones accelerate forward through the loose flesh. Other symptoms at extremely high Gs include changes in vision, loss of consciousness, and even death. The space shuttle produces about 3 Gs during takeoff and reentry. Some roller coasters and dragsters produce forces of around 4 Gs for their occupants. A fighter jet can produce up to 12 Gs during a sharp turn.</para>
+<para id="fs-idm39538640">Astronauts and fighter pilots must undergo G-force training in simulators. <link url="https://www.youtube.com/watch?v=n-8QHOUWECU">The video</link> shows the experience of several people undergoing this training.</para><para id="fs-idp11854048">People, such as astronauts, who work with G forces must also be trained to experience zero G—also called free fall or weightlessness—which can cause queasiness. NASA has an aircraft that allows it occupants to experience about 25 s of free fall. The aircraft is nicknamed the <emphasis effect="italics">Vomit Comet</emphasis>.</para>
+<note id="fs-idp17643104" class="os-teacher"><title>Teacher Support</title>
+<para id="fs-idm27183744">Mention that, later in this course, students will encounter some interesting concepts related to gravity and acceleration when studying the general theory of relativity. In part, the theory is based on the idea that gravity cannot be distinguished from acceleration, either experientially or mathematically. When in an upward-bound elevator, can you really tell whether you are accelerating or whether gravity has suddenly become stronger?</para>
+</note><exercise id="fs-idm35852528" class="os-exercise grasp-check">
+
+<problem id="fs-idp14552352">
+<!--<para id="fs-idp4557312">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch03-ex027"/>
+</para>-->
+<para id="fs-id1164567980662">A common way to describe acceleration is to express it in multiples of <emphasis effect="italics">g</emphasis>, Earth's gravitational acceleration. If a dragster accelerates at a rate of 39.2 m/s<sup>2</sup>, how many <emphasis effect="italics">g</emphasis>'s does the driver experience?</para>
+<list id="fs-id1164567797180" list-type="enumerated" number-style="lower-alpha">
+<item>1.5 <emphasis effect="italics">g</emphasis></item>
+<item>4.0 <emphasis effect="italics">g</emphasis></item>
+<item>10.5 <emphasis effect="italics">g</emphasis></item>
+<item>24.5 <emphasis effect="italics">g</emphasis></item>
+</list>
+</problem>
+</exercise>
+</note><note id="fs-idp9874960" class="worked-example">
+<title>Falling Objects</title>
+<exercise id="fs-idp27857504" class="03-ex028">
+<label/>
+<problem id="fs-idp9073360"><para id="fs-idp27662160">A person standing on the edge of a high cliff throws a rock straight up with an initial velocity <emphasis effect="italics">v</emphasis><sub>0</sub> of 13 m/s.</para>
+<para id="fs-idp50387920">(a) Calculate the position and velocity of the rock at 1.00, 2.00, and 3.00 seconds after it is thrown. Ignore the effect of air resistance.</para>
+<note id="fs-idp25205616"><label/><title>Strategy</title>
+<para id="fs-idp25933696">Sketch the initial velocity and acceleration vectors and the axes.</para>
+<figure id="Figure_03_02_rock">
+<media id="fs-idp25878112" alt="An upward-pointing original velocity vector is shown and is labeled thirteen meters per second. Next to it, a downward, shorter acceleration vector is shown and is labeled negative nine point eight meters per second squared. Unlabeled x and y-axes are shown for reference.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_03_02_rock_img.jpg"/>
+</media>
+<caption>Initial conditions for rock thrown straight up.</caption>
+</figure>
+<para id="fs-idp39305744">List the knowns: time <emphasis effect="italics">t</emphasis> = 1.00 s, 2.00 s, and 3.00 s; initial velocity <emphasis effect="italics">v</emphasis><sub>0</sub> = 13 m/s; acceleration <emphasis effect="italics">a</emphasis> = <emphasis effect="italics">g</emphasis> = –9.80 m/s<sup>2</sup>; and position <emphasis effect="italics">y</emphasis><sub>0</sub> = 0 m</para>
+<para id="fs-idp103439792">List the unknowns: <emphasis effect="italics">y</emphasis><sub>1</sub>, <emphasis effect="italics">y</emphasis><sub>2</sub>, and <emphasis effect="italics">y</emphasis><sub>3</sub>; <emphasis effect="italics">v</emphasis><sub>1</sub>, <emphasis effect="italics">v</emphasis><sub>2</sub>, and <emphasis effect="italics">v</emphasis><sub>3</sub>—where 1, 2, 3 refer to times 1.00 s, 2.00 s, and 3.00 s</para>
+<para id="fs-idm1373856">Choose the equations.</para>
+<equation id="fs-id1164566840202"> <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>d</m:mi><m:mo>=</m:mo><m:msub>
+    <m:mi>d</m:mi>
+    <m:mn>0</m:mn>
+   </m:msub>
+   <m:mo>+</m:mo><m:msub>
+    <m:mi>v</m:mi>
+    <m:mn>0</m:mn>
+   </m:msub>
+   <m:mi>t</m:mi><m:mo>+</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+   <m:mi>a</m:mi><m:msup>
+    <m:mi>t</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+<m:mspace width="0.25em"/><m:mtext>becomes</m:mtext><m:mspace width="0.25em"/><m:mi>y</m:mi><m:mo>=</m:mo><m:msub>
+    <m:mi>y</m:mi>
+    <m:mn>0</m:mn>
+   </m:msub>
+   <m:mo>+</m:mo><m:msub>
+    <m:mi>v</m:mi>
+    <m:mn>0</m:mn>
+   </m:msub>
+   <m:mi>t</m:mi><m:mo>−</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+   <m:mi>g</m:mi><m:msup>
+    <m:mi>t</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+
+  </m:mrow>
+ </m:semantics>
+</m:math> </equation>
+<equation id="fs-id1164565022570"> <m:math>
+ <m:mrow>
+  <m:mi>v</m:mi><m:mo>=</m:mo><m:msub>
+   <m:mi>v</m:mi>
+   <m:mn>0</m:mn>
+  </m:msub>
+  <m:mo>+</m:mo><m:mi>a</m:mi><m:mi>t</m:mi>
+<m:mspace width="0.25em"/><m:mtext>becomes</m:mtext><m:mspace width="0.25em"/>
+   <m:mi>v</m:mi><m:mo>=</m:mo><m:msub>
+   <m:mi>v</m:mi>
+   <m:mn>0</m:mn>
+  </m:msub>
+  <m:mo>+</m:mo><m:mo>−</m:mo><m:mi>g</m:mi><m:mi>t</m:mi>
+ </m:mrow>
+</m:math>
+</equation>
+<para id="fs-idp12930192">These equations describe the unknowns in terms of knowns only.</para></note>
+</problem>
+<solution id="fs-idp11872720">
+<label/>
+<title>Solution</title>
+<para id="fs-idp24812464"> <m:math>
+ <m:mtable>
+  <m:mtr>
+   <m:mtd columnalign="left">
+    <m:msub>
+     <m:mi>y</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo><m:mn>0</m:mn><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mn>13.0</m:mn><m:mspace width="0.3em"/><m:mtext>m/s</m:mtext>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mn>1.00</m:mn><m:mspace width="0.3em"/><m:mtext>s</m:mtext>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mfrac>
+     <m:mrow>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mo>−</m:mo><m:mn>9.80</m:mn><m:msup>
+         <m:mrow>
+          <m:mtext>m/s</m:mtext>
+         </m:mrow>
+         <m:mn>2</m:mn>
+        </m:msup>
+
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:msup>
+       <m:mrow>
+        <m:mrow><m:mo>(</m:mo>
+         <m:mrow>
+          <m:mn>1.00</m:mn><m:mspace width="0.3em"/><m:mtext>s</m:mtext>
+         </m:mrow>
+        <m:mo>)</m:mo></m:mrow>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+
+     </m:mrow>
+     <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo><m:mn>8.10</m:mn><m:mspace width="0.3em"/><m:mtext>m</m:mtext>
+   </m:mtd>
+  </m:mtr>
+  <m:mtr>
+   <m:mtd columnalign="left">
+    <m:msub>
+     <m:mi>y</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo><m:mn>0</m:mn><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mn>13.0</m:mn><m:mspace width="0.3em"/><m:mtext>m/s</m:mtext>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mn>2.00</m:mn><m:mspace width="0.3em"/><m:mtext>s</m:mtext>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mfrac>
+     <m:mrow>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mo>−</m:mo><m:mn>9.80</m:mn><m:msup>
+         <m:mrow>
+          <m:mtext>m/s</m:mtext>
+         </m:mrow>
+         <m:mn>2</m:mn>
+        </m:msup>
+
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:msup>
+       <m:mrow>
+        <m:mrow><m:mo>(</m:mo>
+         <m:mrow>
+          <m:mn>2.00</m:mn><m:mspace width="0.3em"/><m:mtext>s</m:mtext>
+         </m:mrow>
+        <m:mo>)</m:mo></m:mrow>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+
+     </m:mrow>
+     <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo><m:mn>6.40</m:mn><m:mspace width="0.3em"/><m:mtext>m</m:mtext>
+   </m:mtd>
+  </m:mtr>
+  <m:mtr>
+   <m:mtd columnalign="left">
+    <m:msub>
+     <m:mi>y</m:mi>
+     <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo><m:mn>0</m:mn><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mn>13.0</m:mn><m:mspace width="0.3em"/><m:mtext>m/s</m:mtext>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mn>3.00</m:mn><m:mspace width="0.3em"/><m:mtext>s</m:mtext>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mfrac>
+     <m:mrow>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mo>−</m:mo><m:mn>9.80</m:mn><m:msup>
+         <m:mrow>
+          <m:mtext>m/s</m:mtext>
+         </m:mrow>
+         <m:mn>2</m:mn>
+        </m:msup>
+
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:msup>
+       <m:mrow>
+        <m:mrow><m:mo>(</m:mo>
+         <m:mrow>
+          <m:mn>3.00</m:mn><m:mspace width="0.3em"/><m:mtext>s</m:mtext>
+         </m:mrow>
+        <m:mo>)</m:mo></m:mrow>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+
+     </m:mrow>
+     <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo><m:mo>−</m:mo><m:mn>5.10</m:mn><m:mspace width="0.3em"/><m:mtext>m</m:mtext>
+   </m:mtd>
+  </m:mtr>
+  <m:mtr>
+   <m:mtd columnalign="left">
+    <m:msub>
+     <m:mi>v</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo><m:mn>13.0</m:mn><m:mspace width="0.3em"/><m:mtext>m/s</m:mtext><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mo>−</m:mo><m:mn>9.80</m:mn><m:msup>
+       <m:mrow>
+        <m:mtext>m/s</m:mtext>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mn>1.00</m:mn><m:mspace width="0.3em"/><m:mtext>s</m:mtext>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3.20</m:mn><m:mspace width="0.3em"/><m:mtext>m/s</m:mtext>
+   </m:mtd>
+  </m:mtr>
+  <m:mtr>
+   <m:mtd columnalign="left">
+    <m:msub>
+     <m:mi>v</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo><m:mn>13.0</m:mn><m:mspace width="0.3em"/><m:mtext>m/s</m:mtext><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mo>−</m:mo><m:mn>9.80</m:mn><m:msup>
+       <m:mrow>
+        <m:mtext>m/s</m:mtext>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mn>2.00</m:mn><m:mspace width="0.3em"/><m:mtext>s</m:mtext>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>6.60</m:mn><m:mspace width="0.3em"/><m:mtext>m/s</m:mtext>
+   </m:mtd>
+  </m:mtr>
+  <m:mtr>
+   <m:mtd columnalign="left">
+    <m:msub>
+     <m:mi>v</m:mi>
+     <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo><m:mn>13.0</m:mn><m:mspace width="0.3em"/><m:mtext>m/s</m:mtext><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mo>−</m:mo><m:mn>9.80</m:mn><m:msup>
+       <m:mrow>
+        <m:mtext>m/s</m:mtext>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mn>3.00</m:mn><m:mspace width="0.3em"/><m:mtext>s</m:mtext>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>16.4</m:mn><m:mspace width="0.3em"/><m:mtext>m/s</m:mtext>
+   </m:mtd>
+  </m:mtr>
+ </m:mtable>
+</m:math> </para></solution>
+<commentary id="fs-idp43502000">
+<title>Discussion</title>
+<para id="fs-idp67436112">The first two positive values for y show that the rock is still above the edge of the cliff, and the third negative y value shows that it has passed the starting point and is below the cliff. Remember that we set <emphasis effect="italics">up</emphasis> to be positive. Any position with a positive value is above the cliff, and any velocity with a positive value is an upward velocity. The first value for v is positive, so the rock is still on the way up. The second and third values for v are negative, so the rock is on its way down.</para>
+</commentary>
+</exercise>
+
+<exercise id="fs-idm2176720" class="03-ex029">
+<label/>
+<problem id="fs-idp50689728">
+<para id="fs-idp32276560">(b) Make graphs of position versus time, velocity versus time, and acceleration versus time. Use increments of 0.5 s in your graphs.</para>
+<note id="fs-idm4334176"><label/><title>Strategy</title>
+<para id="fs-idp1224640">Time is customarily plotted on the <emphasis effect="italics">x</emphasis>-axis because it is the independent variable. Position versus time will not be linear, so calculate points for 0.50 s, 1.50 s, and 2.50 s. This will give a curve closer to the true, smooth shape.</para></note>
+</problem>
+<solution id="fs-idp23177616">
+<label/>
+<title>Solution</title>
+<para id="fs-idp45676304">The three graphs are shown in <link target-id="Figure_03_02_position_img"/>.</para>
+<figure id="Figure_03_02_position_img">
+<media id="fs-idp39158816" alt="Three line graphs are shown: position versus time, velocity versus time, and acceleration versus time. In position versus time, the x-axis is labeled time in seconds and the scale is zero through four in increments of one. The y-axis is labeled vertical position in meters and the scale is negative six through ten in increments of two. The graphed line curves upward starting at position zero, zero. It then curves and slopes downward from about one point five, eight and ends at position three, negative five. In velocity versus time, the x-axis is labeled time in seconds and the scale is zero through four in increments of one. The y-axis is labeled velocity in meters per second and the scale is negative twenty through fifteen in increments of five. The graphed line is straight and slopes downward. Plotted data points are approximately zero thirteen, one four, two negative six, and three negative sixteen. In acceleration versus time, the x-axis is labeled time in seconds and the scale is zero through four in increments of one. The y-axis is labeled acceleration in meters per second squared and the scale is negative twelve to zero in increments of two. The graphed line is straight and horizontal at y equals negative ten.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_03_02_position_img.jpg"/>
+</media>
+<caption/>
+</figure>
+</solution>
+<commentary id="fs-idp23979072">
+<title>Discussion</title>
+<list id="fs-idp28501328">
+<item><emphasis effect="italics">y</emphasis> vs. <emphasis effect="italics">t</emphasis> does <emphasis effect="italics">not</emphasis> represent the two-dimensional parabolic path of a trajectory. The path of the rock is straight up and straight down. The slope of a line tangent to the curve at any point on the curve equals the velocity at that point—i.e., the instantaneous velocity.</item>
+<item>Note that the <emphasis effect="italics">v</emphasis> vs. <emphasis effect="italics">t</emphasis> line crosses the vertical axis at the initial velocity and crosses the horizontal axis at the time when the rock changes direction and begins to fall back to Earth. This plot is linear because acceleration is constant.</item>
+<item>The <emphasis effect="italics">a</emphasis> vs. <emphasis effect="italics">t</emphasis> plot also shows that acceleration is constant; that is, it does not change with time.</item>
+</list>
+<note id="fs-idp12611184" class="os-teacher"><title>Teacher Support</title>
+<para id="fs-idp57626512">Prior to solving the problem, have students consider the following questions:</para>
+<list id="fs-idp52857568" list-type="enumerated" number-style="arabic"><item>What is the goal?</item>
+<item>What is known and unknown?</item>
+<item>Which equation expresses the unknown in terms of the knowns?</item>
+</list><para id="fs-idp28149312">After solving the problem, have students check that the answer is reasonable and has the correct units, sign, and significant figures.</para>
+</note></commentary>
+</exercise></note></section>
+
+<section id="fs-idp54407008" class="practice-problems"><title>Practice Problems</title><exercise id="fs-idp59208496" class="os-exercise">
+<problem id="fs-idp51740416">
+<para id="fs-idp13065664">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch03-ex030"/>
+</para>
+</problem>
+</exercise><exercise id="fs-idp24857200" class="os-exercise">
+<problem id="fs-idp50727056">
+<para id="fs-idp62917680">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch03-ex046"/>
+</para>
+</problem>
+</exercise></section><section id="fs-idm66356304" class="check-understanding"><title>Check Your Understanding</title><note id="fs-idm41927376" class="os-teacher"><title>Teacher Support</title>
+<para id="fs-idm314976">Use these questions to assess students’ achievement of the sections Learning Objectives. If students are struggling with a specific objective, the formative assessment will help identify which objective is the problem so that you can direct students to the relevant content.</para>
+</note><exercise id="fs-idm78831712" class="os-exercise">
+<problem id="fs-idm121343136">
+<!--<para id="fs-idm76014400">
+<link class="os&#x2010;embed" url="#ost/api/ex/k12phys-ch03-ex032"/>
+</para>-->
+<para id="fs-id1164566384193">Identify the four variables found in the kinematic equations.</para>
+<list id="fs-id1164565297446" list-type="enumerated" number-style="lower-alpha">
+<item>Displacement, Force, Mass, and Time</item>
+<item>Acceleration, Displacement, Time, and Velocity</item>
+<item>Final Velocity, Force, Initial Velocity, and Mass</item>
+<item>Acceleration, Final Velocity, Force, and Initial Velocity</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-idm71779728" class="os-exercise">
+<problem id="fs-idm72850416">
+<para id="fs-idm68829264">
+<link class="os‐embed" url="#ost/api/ex/k12phys-ch03-ex033"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166849129794" class="os-exercise">
+<problem id="eip-id1166848741304">
+<para id="eip-id1166848741306">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch03-ot021"/>
+</para>
+</problem>
+</exercise></section><section id="fs-idp44340096" class="summary">
+<title>Section Summary</title>
+<list id="fs-idp35440112">
+<item>The kinematic equations show how time, displacement, velocity, and acceleration are related for objects in motion.</item>
+<item>In general, kinematic problems can be solved by identifying the kinematic equation that expresses the unknown in terms of the knowns.</item>
+<item>Displacement, velocity, and acceleration may be displayed graphically versus time.</item>
+</list>
+</section>
+
+<section id="fs-idm31787760" class="key-equations"><title>Key Equations</title><table id="eip-106" class="unnumbered unstyled" summary="The list of Key Equations includes the equations for average velocity, velocity, displacement, and acceleration."><label/>
+<tgroup cols="2"><colspec colnum="1" align="left" colname="c1"/>
+<colspec colnum="2" align="left" colname="c2"/>
+<tbody>
+  <row>
+    <entry>Average velocity</entry>
+    <entry> <m:math>
+ <m:mrow>
+  <m:mi>d</m:mi><m:mo>=</m:mo><m:msub>
+   <m:mi>d</m:mi>
+   <m:mn>0</m:mn>
+  </m:msub>
+  <m:mo>+</m:mo><m:mover accent="true">
+   <m:mi>v</m:mi>
+   <m:mo>¯</m:mo>
+  </m:mover>
+  <m:mi>t</m:mi>
+ </m:mrow>
+</m:math>, or  <m:math>
+ <m:mrow>
+  <m:mover accent="true">
+   <m:mi>v</m:mi>
+   <m:mo>¯</m:mo>
+  </m:mover>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mi>d</m:mi>
+   <m:mi>t</m:mi>
+  </m:mfrac>
+ </m:mrow>
+</m:math>  when <emphasis effect="italics">d</emphasis><sub>0</sub> = 0</entry>
+  </row>
+  <row>
+    <entry>Average velocity</entry>
+    <entry> <m:math>
+ <m:mrow>
+  <m:mover accent="true">
+   <m:mi>v</m:mi>
+   <m:mo>¯</m:mo>
+  </m:mover>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msub>
+     <m:mi>v</m:mi>
+     <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo><m:msub>
+     <m:mi>v</m:mi>
+     <m:mtext>f</m:mtext>
+    </m:msub>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+ </m:mrow>
+</m:math> </entry>
+  </row>
+  <row>
+    <entry>Velocity</entry>
+    <entry> <m:math>
+ <m:mrow>
+  <m:mi>v</m:mi><m:mo>=</m:mo><m:msub>
+   <m:mi>v</m:mi>
+   <m:mn>0</m:mn>
+  </m:msub>
+  <m:mo>+</m:mo><m:mi>a</m:mi><m:mi>t</m:mi>
+ </m:mrow>
+</m:math>, or  when <emphasis effect="italics">v</emphasis><sub>0</sub> = 0</entry>
+  </row>
+  <row>
+    <entry>Displacement</entry>
+    <entry> <m:math>
+ <m:mrow>
+  <m:mi>d</m:mi><m:mo>=</m:mo><m:msub>
+   <m:mi>d</m:mi>
+   <m:mn>0</m:mn>
+  </m:msub>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>v</m:mi>
+   <m:mn>0</m:mn>
+  </m:msub>
+  <m:mi>t</m:mi><m:mo>+</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mi>a</m:mi><m:msup>
+   <m:mi>t</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+</m:mrow>
+</m:math>, or  <m:math>
+ <m:mrow>
+  <m:mi>a</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>d</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:msup>
+     <m:mi>t</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+   </m:mrow>
+  </m:mfrac>
+ </m:mrow>
+</m:math>  when <emphasis effect="italics">d</emphasis><sub>0</sub> = 0 and <emphasis effect="italics">v</emphasis><sub>0</sub> = 0</entry>
+  </row>
+  <row>
+    <entry>Acceleration</entry>
+    <entry> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mi>v</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>=</m:mo><m:msubsup>
+   <m:mi>v</m:mi>
+   <m:mn>0</m:mn>
+   <m:mn>2</m:mn>
+  </m:msubsup>
+  <m:mo>+</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>d</m:mi><m:mo>−</m:mo><m:msub>
+     <m:mi>d</m:mi>
+     <m:mn>0</m:mn>
+    </m:msub>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math>, or  <m:math>
+ <m:mrow>
+  <m:mi>a</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msup>
+     <m:mi>v</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>d</m:mi>
+   </m:mrow>
+  </m:mfrac>
+ </m:mrow>
+</m:math>  when <emphasis effect="italics">d</emphasis><sub>0</sub> = 0 and <emphasis effect="italics">v</emphasis><sub>0</sub> = 0</entry>
+  </row>
+</tbody>
+
+
+
+
+
+
+</tgroup>
+</table></section><section id="fs-id1168439842220" class="concept"><title>Concept Items</title>
+<exercise id="fs-id1168439816328" class="os-exercise">
+<problem id="fs-id1168439950830">
+<!--<para id="fs-id1168439950832">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch03-ex034"/>
+</para>-->
+<para id="fs-id1164565355060">A student calculated the final velocity of a train that decelerated from 30.5 m/s and got an answer of −43.34 m/s. Which of the following might indicate that he made a mistake in his calculation?</para>
+<list id="fs-id1164565490384" list-type="enumerated" number-style="lower-alpha">
+<item>The sign of the final velocity is wrong.</item>
+<item>The magnitude of the answer is too small.</item>
+<item>There are too few significant digits in the answer.</item>
+<item>The units in the initial velocity are incorrect.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-id1166848824546" class="os-exercise">
+<problem id="eip-id1166848824550">
+<!--<para id="eip-id1166848824552">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch03-ot023"/>
+</para>-->
+<para id="fs-id1164564299942">Create your own kinematics problem. Then, create a flow chart showing the steps someone would need to take to solve the problem.</para>
+<list id="fs-id1164566979789" list-type="enumerated" number-style="lower-alpha">
+<item>Acceleration</item>
+<item>Distance</item>
+<item>Displacement</item>
+<item>Force</item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-id1166851452009" class="os-exercise">
+<problem id="eip-id1166851452013">
+<para id="eip-id1166851452015">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch03-ot026"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1168439875247" class="critical-thinking"><title>Critical Thinking</title><exercise id="fs-id1168440248103" class="os-exercise">
+<problem id="fs-id1168437763466">
+<!--<para id="fs-id1168437763468">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch03-ex035"/>
+</para>-->
+<para id="fs-id1164568053538">A student is asked to solve a problem:</para>
+<para id="fs-id1164566272670">An object falls from a height for 2.0 s, at which point it is still 60 m above the ground. What will be the velocity of the object when it hits the ground?</para>
+<para id="fs-id1164567162591">Which of the following provides the correct order of kinematic equations that can be used to solve the problem?</para>
+<list id="fs-id1164566183631" list-type="enumerated" number-style="lower-alpha"><item>First use  <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mi>v</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mo>=</m:mo><m:msub>
+    <m:mi>v</m:mi>
+    <m:mn>0</m:mn>
+   </m:msub>
+   <m:msup>
+    <m:mrow/>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mo>+</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mi> </m:mi><m:mo stretchy="false">(</m:mo><m:mi>d</m:mi><m:mo>-</m:mo><m:msub>
+    <m:mi>d</m:mi>
+    <m:mn>0</m:mn>
+   </m:msub>
+   <m:mo stretchy="false">)</m:mo>
+  <m:mtext>,</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math>  then use  <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>v</m:mi><m:mo>=</m:mo><m:msub>
+    <m:mi>v</m:mi>
+    <m:mn>0</m:mn>
+   </m:msub>
+   <m:mo>+</m:mo><m:mi>a</m:mi><m:mi>t</m:mi><m:mo>.</m:mo>
+  </m:mrow>
+ </m:semantics>
+</m:math> </item>
+<item>First use  <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>v</m:mi><m:mo>=</m:mo><m:msub>
+    <m:mi>v</m:mi>
+    <m:mn>0</m:mn>
+   </m:msub>
+   <m:mo>+</m:mo><m:mi>a</m:mi><m:mi>t</m:mi><m:mo>,</m:mo>
+  </m:mrow>
+ </m:semantics>
+</m:math>   then use  <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mi>v</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mo>=</m:mo><m:msub>
+    <m:mi>v</m:mi>
+    <m:mn>0</m:mn>
+   </m:msub>
+   <m:msup>
+    <m:mrow/>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mo>+</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mi> </m:mi><m:mo stretchy="false">(</m:mo><m:mi>d</m:mi><m:mo>-</m:mo><m:msub>
+    <m:mi>d</m:mi>
+    <m:mn>0</m:mn>
+   </m:msub>
+   <m:mo stretchy="false">)</m:mo>
+   <m:mtext>.</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math> </item>
+<item>First use  <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>d</m:mi><m:mo>=</m:mo><m:msub>
+    <m:mi>d</m:mi>
+    <m:mn>0</m:mn>
+   </m:msub>
+   <m:mo>+</m:mo><m:msub>
+    <m:mi>v</m:mi>
+    <m:mn>0</m:mn>
+   </m:msub>
+   <m:mi>t</m:mi><m:mo>+</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+   <m:mi>a</m:mi><m:msup>
+    <m:mi>t</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mo>,</m:mo>
+  </m:mrow>
+ </m:semantics>
+</m:math>  then use  <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>v</m:mi><m:mo>=</m:mo><m:msub>
+    <m:mi>v</m:mi>
+    <m:mn>0</m:mn>
+   </m:msub>
+   <m:mo>+</m:mo><m:mi>a</m:mi><m:mi>t</m:mi><m:mo>.</m:mo>
+  </m:mrow>
+ </m:semantics>
+</m:math> </item>
+<item>First use  <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>v</m:mi><m:mo>=</m:mo><m:msub>
+    <m:mi>v</m:mi>
+    <m:mn>0</m:mn>
+   </m:msub>
+   <m:mo>+</m:mo><m:mi>a</m:mi><m:mi>t</m:mi><m:mo>,</m:mo>
+  </m:mrow>
+ </m:semantics>
+</m:math>   then use  <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>d</m:mi><m:mo>-</m:mo><m:msub>
+    <m:mi>d</m:mi>
+    <m:mn>0</m:mn>
+   </m:msub>
+   <m:mo>=</m:mo><m:msub>
+    <m:mi>v</m:mi>
+    <m:mn>0</m:mn>
+   </m:msub>
+   <m:mi>t</m:mi><m:mo>+</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+   <m:mi>a</m:mi><m:msup>
+    <m:mi>t</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mo>.</m:mo>
+  </m:mrow>
+ </m:semantics>
+</m:math> </item>
+</list></problem>
+</exercise>
+<exercise id="eip-id1166847120244" class="os-exercise"><problem id="eip-id1166847120247">
+<!--<para id="eip-id1166847120250">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch03-ot027"/>
+</para>-->
+<para id="fs-id1164567632731">Skydivers are affected by acceleration due to gravity and by air resistance. Eventually, they reach a speed where the force of gravity is almost equal to the force of air resistance. As they approach that point, their acceleration decreases in magnitude to near zero.</para>
+<para id="eip-idm488435536">Part A. Describe the shape of the graph of the magnitude of the acceleration versus time for a falling skydiver.</para>
+<para id="eip-idm205443392">Part B. Describe the shape of the graph of the magnitude of the velocity versus time for a falling skydiver.</para>
+<para id="eip-idm205442880">Part C. Describe the shape of the graph of the magnitude of the displacement versus time for a falling skydiver.
+</para>
+<list id="fs-id1164567955932" list-type="enumerated" number-style="lower-alpha"><item>Part A. Begins with a nonzero y-intercept with a downward slope that levels off at zero; Part B. Begins at zero with an upward slope that decreases in magnitude until the curve levels off; Part C. Begins at zero with an upward slope that increases in magnitude until it becomes a positive constant</item>
+<item>Part A. Begins with a nonzero y-intercept with an upward slope that levels off at zero; Part B. Begins at zero with an upward slope that decreases in magnitude until the curve levels off; Part C. Begins at zero with an upward slope that increases in magnitude until it becomes a positive constant
+</item>
+<item>Part A. Begins with a nonzero y-intercept with a downward slope that levels off at zero; Part B. Begins at zero with a downward slope that decreases in magnitude until the curve levels off; Part C. Begins at zero with an upward slope that increases in magnitude until it becomes a positive constant
+</item>
+<item>Part A. Begins with a nonzero y-intercept with an upward slope that levels off at zero; Part B. Begins at zero with a downward slope that decreases in magnitude until the curve levels off; Part C. Begins at zero with an upward slope that increases in magnitude until it becomes a positive constant
+</item></list></problem>
+</exercise><exercise id="eip-id1166849473582" class="os-exercise">
+<problem id="eip-id1166849473585">
+<!--<para id="eip-id1166849473587">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch03-ot028"/>
+</para>-->
+<para id="fs-id1164567912081">Which graph in the previous problem has a positive slope?</para><list id="fs-id1164565663674" list-type="enumerated" number-style="lower-alpha">
+<item>Displacement versus time only</item>
+<item>Acceleration versus time and velocity versus time</item>
+<item>Velocity versus time and displacement versus time</item>
+<item>Acceleration versus time and displacement versus time</item>
+</list>
+
+</problem>
+</exercise>
+</section><section id="fs-id1168439757202" class="problems">
+<title>Problems</title>
+<exercise id="fs-id1168439787100" class="os-exercise">
+<problem id="fs-id1168439804487">
+<!--<para id="fs-id1168439804489">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch03-ex036"/>
+</para>-->
+<para id="fs-id1164567071175">A swan on a lake gets airborne by flapping its wings and running on top of the water. If the swan must reach a velocity of 6.00 m/s to take off and it accelerates from rest at an average rate of 0.350 m/s<sup>2</sup>, how far will it travel before becoming airborne?</para>
+<list id="fs-id1164567401889" list-type="enumerated" number-style="lower-alpha">
+<item>−8.60 m</item>
+<item>8.60 m</item>
+<item>−51.4 m</item>
+<item>51.4 m</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1168437906802" class="os-exercise">
+<problem id="fs-id1168437906805">
+<para id="fs-id1168437906783">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch03-ex037"/>
+</para>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-idm70386528" class="performance"><title>Performance Task</title>
+<exercise id="fs-idm32697104"><label/><problem id="eip-id1168439840820"><para id="eip-id1168440061737">Design an experiment to measure displacement and elapsed time. Use the data to calculate final velocity, average velocity, acceleration, and acceleration.</para>
+<list id="fs-idm61049760">
+<title>Materials</title>
+<item>a small marble or ball bearing</item>
+<item>a garden hose</item>
+<item>a measuring tape</item>
+<item>a stopwatch or stopwatch software download</item>
+<item>a sloping driveway or lawn as long as the garden hose with a level area beyond</item>
+</list>
+<para id="fs-idm59773888">(a) How would you use the garden hose, stopwatch, marble, measuring tape, and slope to measure displacement and elapsed time? Hint—The marble is the accelerating object, and the length of the hose is total displacement.</para>
+<para id="fs-idm11487120">(b) How would you use the displacement and time data to calculate velocity, average velocity, and acceleration? Which kinematic equations would you use?</para>
+<para id="fs-idm15362624">(c) How would you use the materials, the measured and calculated data, and the flat area below the slope to determine the negative acceleration? What would you measure, and which kinematic equation would you use?</para></problem></exercise>
+<note id="fs-idm66650912" class="os-teacher"><title>Teacher Support</title>
+<para id="fs-idm27666672">This performance task supports NGSS HS-PS2-1: Analyze data to support the claim that Newton’s second law of motion describes the mathematical relationship among the net force on a macroscopic object, its mass, and its acceleration.</para>
+<para id="fs-idm20907504"><emphasis>Performance Task Rubric</emphasis></para><para id="fs-idm20907120">(a) Insert the marble—without a push—into the end of the hose at the top of the slope. With the stopwatch, measure the time, <emphasis effect="italics">t</emphasis>, from when the marble was introduced at the top until it appears at the bottom. The length of the hose is displacement, <emphasis effect="italics">x</emphasis>.</para>
+<para id="fs-idm20905424">(b) Use Equation 1 to calculate average velocity; use Equation 2 to calculate velocity; and use Equation 3 to calculate acceleration.</para><para id="fs-idm32726720">(c) Measure the time from when the marble comes out of the hose until it stops to get <emphasis effect="italics">t</emphasis>. You will not need <emphasis effect="italics">x</emphasis>. Use the average <emphasis effect="italics">v</emphasis> measurement from above for <emphasis effect="italics">v</emphasis><sub>0</sub>. The value of <emphasis effect="italics">v</emphasis> is zero. Use Equation 3 to calculate deceleration. The sign of <emphasis effect="italics">a</emphasis> will be minus.</para></note></section><section id="fs-idp32299520" class="multiple-choice">
+<title>Test Prep Multiple Choice</title>
+<exercise id="fs-idm26263872" class="os-exercise">
+<problem id="fs-idm26263488">
+<!--<para id="fs-idm40734016">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch03-ex038"/>
+</para>-->
+<para id="fs-id1164566056796">For the motion of a falling object, which graphs are straight lines?</para>
+<list id="fs-id1164565636625" list-type="enumerated" number-style="lower-alpha">
+<item>Acceleration versus time only</item>
+<item>Displacement versus time only</item>
+<item>Displacement versus time and acceleration versus time</item>
+<item>Velocity versus time and acceleration versus time</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-idm29166176" class="os-exercise">
+<problem id="fs-idp34392320">
+<!--<para id="fs-idp34392576">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch03-ex039"/>
+</para>-->
+<para id="fs-id1164564412137">A bullet in a gun is accelerated from the firing chamber to the end of the barrel at an average rate of 6.30×10<sup>5</sup> m/s<sup>2</sup> for 8.10×10<sup>−4</sup> s. What is the bullet’s final velocity when it leaves the barrel, commonly known as the muzzle velocity?</para>
+<list id="fs-id1164568056402" list-type="enumerated" number-style="lower-alpha">
+<item>7.79 m/s</item>
+<item>51.0 m/s</item>
+<item>510 m/s</item>
+<item>1020 m/s</item>
+</list>
+</problem>
+</exercise>
+</section>
+
+
+<section id="fs-idp17224192" class="short-answer">
+<title>Test Prep Short Answer</title>
+
+<exercise id="fs-id1168439952886" class="os-exercise">
+<problem id="fs-id1168439952889">
+<!--<para id="fs-id1168439952892">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch03-ex040"/>
+</para>-->
+
+<para id="fs-id1164567283738">If a plot of displacement versus time is linear, what can be said about the acceleration?</para>
+<list id="fs-id1164566965044" list-type="enumerated" number-style="lower-alpha">
+<item>Acceleration is 0.</item>
+<item>Acceleration is a non-zero constant.</item>
+<item>Acceleration is positive.</item>
+<item>Acceleration is negative.</item>
+</list>
+</problem>
+</exercise>
+
+<exercise id="fs-idp35049024" class="os-exercise">
+<problem id="fs-idp40191648">
+<!--<para id="fs-idm46020480">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch03-ex041"/>
+</para>-->
+<media id="fs-id1164567473857" alt="A graph titled velocity vs. time plots time (s) on the x axis and velocity (m/s) on the y-axis. At time zero, the velocity is about 15 meters per second. The line extends at a constant rate and reaches a velocity of 170 at a time of 30 seconds.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_03_02_jet_img.jpg"/>
+</media>
+<para id="fs-id1164565852687">True or False: The image shows a velocity vs. time graph for a jet car. If you take the slope at any point on the graph, the jet cars acceleration will be 5.0 m/s<sup>2</sup>.</para>
+<list id="fs-id1164565408025" list-type="enumerated" number-style="lower-alpha">
+<item>True</item>
+<item>False</item>
+</list>
+</problem>
+</exercise>
+
+<exercise id="fs-idm26422928" class="os-exercise">
+<problem id="fs-idm1119616">
+<!--<para id="fs-idm8194544">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch03-ex042"/>
+</para>-->
+
+<para id="fs-id1164564379655">When plotted on the blank plots, which answer choice would show the motion of an object that has uniformly accelerated from 2 m/s to 8 m/s in 3 s?</para>
+<media id="fs-id1164565931920" alt="Two blank graphs are shown. The horizontal axis of graph a is labeled Time, s and is numbered from 0 to 4 in increments of 1. The vertical axis of graph a is labeled Velocity, m/s and is numbered from 0 to 8 in increments of 2. The horizontal axis of graph b is labeled Time, s and is numbered from 0 to 4 in increments of 1. The vertical axis of graph b is labeled Acceleration, m/s^2 and is numbered from 0 to 4 in increments of 1.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_03_02_blank_img.jpg"/>
+</media>
+<list id="fs-id1164567415970" list-type="enumerated" number-style="lower-alpha">
+<item>The plot on the left shows a line from (0,2) to (3,8) while the plot on the right shows a line from (0,2) to (3,2).</item>
+<item>The plot on the left shows a line from (0,2) to (3,8) while the plot on the right shows a line from (0,3) to (3,3).</item>
+<item>The plot on the left shows a line from (0,8) to (3,2) while the plot on the right shows a line from (0,2) to (3,2).</item>
+<item>The plot on the left shows a line from (0,8) to (3,2) while the plot on the right shows a line from (0,3) to (3,3).</item>
+</list>
+</problem>
+</exercise>
+
+<exercise id="fs-idm14542320" class="os-exercise">
+<problem id="fs-idm59242752">
+<!--<para id="fs-idp15864912">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch03-ex043"/>
+</para>-->
+
+<para id="fs-id1164567158979">When is a plot of velocity versus time a straight line and when is it a curved line?</para>
+<list id="fs-id1164565741316" list-type="enumerated" number-style="lower-alpha">
+<item>It is a straight line when acceleration is changing and is a curved line when acceleration is constant.</item>
+<item>It is a straight line when acceleration is constant and is a curved line when acceleration is changing.</item>
+<item>It is a straight line when velocity is constant and is a curved line when velocity is changing.</item>
+<item>It is a straight line when velocity is changing and is a curved line when velocity is constant.</item>
+</list>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-idp36044672" class="extended-response">
+<title>Test Prep Extended Response</title>
+<exercise id="fs-idp36045440" class="os-exercise">
+<problem id="fs-idp36045824">
+<!--<para id="fs-idp36046080">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch03-ex044"/>
+</para>-->
+<para id="fs-id1164565660502">True or False: Consider an object moving with constant acceleration. The plot of displacement versus time for such motion is a curved line while the plot of displacement versus time squared is a straight line.</para>
+<list id="fs-id1164566021040" list-type="enumerated" number-style="lower-alpha">
+<item>True</item>
+<item>False</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-idp66955584" class="os-exercise">
+<problem id="fs-idp66955968">
+<para id="fs-idp66956224">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch03-ex045"/>
+</para>
+</problem>
+</exercise>
+</section>
+
+</content>
+
+<glossary>
+<definition id="fs-idp6316192">
+<term>acceleration due to gravity</term><meaning id="fs-idp37588128">acceleration of an object that is subject only to the force of gravity; near Earth’s surface this acceleration is 9.80 m/s<sup>2</sup></meaning>
+</definition>
+<definition id="fs-idm5429952">
+<term>constant acceleration</term><meaning id="fs-idp48805648">acceleration that does not change with respect to time</meaning>
+</definition>
+<definition id="fs-idp6209888">
+<term>kinematic equations</term><meaning id="fs-idp29475632">the five equations that describe motion in terms of time, displacement, velocity, and acceleration</meaning>
+</definition>
+</glossary>
+
+</document>

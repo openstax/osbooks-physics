@@ -1,0 +1,980 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Simple Machines</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54274</md:content-id>
+  <md:title>Simple Machines</md:title>
+  <md:abstract/>
+  <md:uuid>6a0522fd-8320-42ec-b961-ab9857f3bb00</md:uuid>
+</metadata>
+
+<content>
+    <note id="fs-id1167063502525" class="learning-objectives">
+      <label/>
+      <title>Section Learning Objectives</title>
+<para id="fs-id1167063466383">By the end of this section, you will be able to do the following:</para>
+      <list id="fs-id1167066881433"><item>Describe simple and complex machines</item>
+<item>Calculate mechanical advantage and efficiency of simple and complex machines</item>
+      </list></note>
+    <note id="fs-id1167067034386" class="os-teacher">
+      <title>Teacher Support</title>
+      <para id="fs-id1167067144462">The learning objectives in this section will help your students master the following standards:</para>
+<list id="fs-id1164565313501">
+<item>(6) Science concepts. The student knows that changes occur within a physical system and applies the laws of conservation of energy and momentum. The student is expected to:
+<list id="fs-id1167063518775">
+            <item><span>(C)</span> <span>describe simple and complex machines and solve problems involving simple machines;</span></item>
+            <item><span>(D)</span> <span>define input work, output work, mechanical advantage, and efficiency of machines.</span></item>
+          </list>
+     </item></list>
+<para id="fs-id1169316134295">In addition, the High School Physics Laboratory Manual addresses content in this section in the lab titled: Work and Energy, as well as the following standards:</para><list id="fs-id1169316321812">
+<item>(6) Science concepts. The student knows that changes occur within a physical system and applies the laws of conservation of energy and momentum. The student is expected to:
+<list id="fs-id1169316480352"><item>
+<span>(D)</span>
+ <span>demonstrate and apply the laws of conservation of energy and conservation of momentum in one dimension.</span>
+</item>
+</list></item>
+</list>
+</note>
+<section id="keyterms"><title>Section Key Terms</title>
+<table id="fs-id1167067276657" class="unnumbered unstyled section-key-terms" summary="The list of Key Terms includes: complex machine, efficiency output, ideal mechanical, advantage, inclined plane, input work, lever, mechanical advantage, output work, pulley, screw, simple machine, wedge, and wheel and axle."><label/>
+<tgroup cols="5"><tbody>
+          <row>
+            <entry>complex machine</entry>
+            <entry>efficiency output</entry>
+            <entry>ideal mechanical advantage</entry>
+            <entry>inclined plane</entry>
+            <entry>input work</entry>
+          </row>
+          <row>
+            <entry>lever</entry>
+            <entry>mechanical advantage</entry>
+            <entry>output work</entry>
+            <entry>pulley</entry>
+            <entry>screw</entry>
+          </row>
+          <row>
+            <entry>simple machine</entry>
+            <entry>wedge</entry>
+            <entry>wheel and axle</entry>
+            <entry/>
+            <entry/>
+          </row>
+        </tbody>
+      
+</tgroup>
+</table></section>
+    <note id="fs-id1167067074051" class="os-teacher">
+      <title>Teacher Support</title>
+      <para id="fs-id1167067082850">In this section you will apply what you have learned about work to find the mechanical advantage and efficiency of simple machines.</para>
+      <para id="fs-id1167067037987"><span>[BL]</span><span>[OL]</span> Ask the students what they know about machines and work. Dispel any misconceptions that machines reduce the amount of work. Be sure students do not equate machines and motors by asking for (and, if necessary, providing) examples of machines that are not motorized. Explain that simple machines are often hand-held, and that they reduce force, not work.</para>
+      <para id="fs-id1167066793905"><span>[AL]</span> Ask for recall of the formula <emphasis effect="italics">W = </emphasis><emphasis>f</emphasis><emphasis effect="italics">d</emphasis>. Explain that the product of force and distance is critical to understanding simple machines. Because the amount of work is not changed, the term <emphasis>f</emphasis><emphasis effect="italics">d</emphasis> does not change, but force can decrease if distance increases. This is the underlying principle of all simple machines.</para>
+    </note>
+  <section id="fs-id1167067105624">
+    <title>Simple Machines</title>
+    <para id="fs-id1167066832715"><term>Simple machines</term> make work easier, but they do not decrease the amount of work you have to do. Why can’t simple machines change the amount of work that you do? Recall that in closed systems the total amount of energy is conserved. A machine cannot increase the amount of energy you put into it. So, why is a simple machine useful? Although it cannot change the amount of work you do, a simple machine can change the amount of force you must apply to an object, and the distance over which you apply the force. In most cases, a simple machine is used to reduce the amount of force you must exert to do work. The down side is that you must exert the force over a greater distance, because the product of force and distance, <emphasis>f</emphasis><emphasis effect="italics">d</emphasis>, (which equals work) does not change.</para>
+    <para id="fs-id1167066791981">Let’s examine how this works in practice. In <link target-id="Figure_09_03_lever"/>(a), the worker uses a type of <term>lever</term> to exert a small force over a large distance, while the pry bar pulls up on the nail with a large force over a small distance. <link target-id="Figure_09_03_lever"/>(b) shows the how a lever works mathematically. The effort force, applied at <emphasis>F<sub>e</sub></emphasis>, lifts the load (the resistance force) which is pushing down at <emphasis>F</emphasis><sub><emphasis effect="italics">r</emphasis></sub>. The triangular pivot is called the <term class="no-emphasis">fulcrum</term>; the part of the lever between the fulcrum and <emphasis>F</emphasis><sub><emphasis effect="italics">e</emphasis></sub> is the effort arm, <emphasis effect="italics">L<sub>e</sub></emphasis>; and the part to the left is the resistance arm, <emphasis effect="italics">L<sub>r</sub></emphasis>. The <term>mechanical advantage</term> is a number that tells us how many times a simple machine multiplies the effort force. The <term>ideal mechanical advantage</term>, <emphasis effect="italics">IMA</emphasis>, is the mechanical advantage of a perfect machine with no loss of useful work caused by friction between moving parts. The equation for <emphasis effect="italics">IMA</emphasis> is shown in <link target-id="Figure_09_03_lever"/>(b).</para><figure id="Figure_09_03_lever">
+      <media id="fs-id1167066809531" alt="Two diagrams are shown side by side. The diagram on the left shows a drawing of a hand pulling a mail out of wood using a lever. The diagram on the right shows an illustration of a lever and a fulcrum. The fulcrum is closer to the left side of the lever than the right side. The distance of the left side of the lever is labeled L subscript r and the distance of the right side is labeled L subscript e. A force vector is pointing down on the left side and is labeled F subscript r, and a force vector is pointing down on the right side and is labeled F subscript e. The equation IMA equals L subscript e over L subscript r is also shown.">
+        <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_09_03_levers.jpg"/>
+      </media>
+      <caption>(a) A pry bar is a type of lever. (b) The ideal mechanical advantage equals the length of the effort arm divided by the length of the resistance arm of a lever.</caption>
+    </figure>
+    <para id="fs-id1167067025655">In general, the <emphasis effect="italics">IMA</emphasis> = the resistance force, <emphasis>F</emphasis><sub><emphasis effect="italics">r</emphasis></sub>, divided by the effort force, <emphasis>F</emphasis><sub><emphasis effect="italics">e</emphasis></sub>.<emphasis effect="italics"> IMA</emphasis> also equals the distance over which the effort is applied, <emphasis effect="italics">d<sub>e</sub></emphasis>, divided by the distance the load travels, <emphasis effect="italics">d<sub>r</sub></emphasis>.</para>
+    <equation id="fs-id1167067150829" class="unnumbered"><label/>
+       <m:math display="block">
+        <m:mrow>
+          <m:mi>I</m:mi><m:mi>M</m:mi><m:mi>A</m:mi><m:mo>=</m:mo><m:mfrac>
+            <m:mrow>
+              <m:msub>
+                <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+                <m:mi>r</m:mi>
+              </m:msub>
+
+            </m:mrow>
+            <m:mrow>
+              <m:msub>
+                <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+                <m:mi>e</m:mi>
+              </m:msub>
+
+            </m:mrow>
+          </m:mfrac>
+          <m:mo>=</m:mo><m:mfrac>
+            <m:mrow>
+              <m:msub>
+                <m:mi>d</m:mi>
+                <m:mi>e</m:mi>
+              </m:msub>
+
+            </m:mrow>
+            <m:mrow>
+              <m:msub>
+                <m:mi>d</m:mi>
+                <m:mi>r</m:mi>
+              </m:msub>
+
+            </m:mrow>
+          </m:mfrac>
+
+        </m:mrow>
+      </m:math>
+
+    </equation>
+
+    <para id="fs-id1167066880418">Getting back to conservation of energy, for any simple machine, the work put into the machine, <emphasis effect="italics">W<sub>i</sub></emphasis>, equals the work the machine puts out, <emphasis effect="italics">W<sub>o</sub></emphasis>. Combining this with the information in the paragraphs above, we can write </para>
+    <equation id="fs-id1167066784672" class="unnumbered"><label/>
+       <m:math display="block">
+        <m:mtable columnalign="left">
+          <m:mtr>
+            <m:mtd>
+              <m:msub>
+                <m:mi>W</m:mi>
+                <m:mi>i</m:mi>
+              </m:msub>
+              <m:mo>=</m:mo><m:msub>
+                <m:mi>W</m:mi>
+                <m:mi>o</m:mi>
+              </m:msub>
+
+            </m:mtd>
+          </m:mtr>
+          <m:mtr>
+            <m:mtd>
+              <m:msub>
+                <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+                <m:mi>e</m:mi>
+              </m:msub>
+              <m:msub>
+                <m:mi>d</m:mi>
+                <m:mi>e</m:mi>
+              </m:msub>
+              <m:mo>=</m:mo><m:msub>
+                <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+                <m:mi>r</m:mi>
+              </m:msub>
+              <m:msub>
+                <m:mi>d</m:mi>
+                <m:mi>r</m:mi>
+              </m:msub>
+
+            </m:mtd>
+          </m:mtr>
+          <m:mtr>
+            <m:mtd>
+              <m:mtext>If  </m:mtext><m:msub>
+                <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+                <m:mi>e</m:mi>
+              </m:msub>
+              <m:mo>&lt;</m:mo><m:msub>
+                <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+                <m:mi>r</m:mi>
+              </m:msub>
+              <m:mtext>, then </m:mtext><m:msub>
+                <m:mi>d</m:mi>
+                <m:mi>e</m:mi>
+              </m:msub>
+              <m:mo>&gt;</m:mo><m:msub>
+                <m:mi>d</m:mi>
+                <m:mi>r</m:mi>
+              </m:msub>
+<m:mtext>.</m:mtext>
+            </m:mtd>
+          </m:mtr>
+        </m:mtable>
+
+      </m:math>
+
+    </equation>
+    <para id="fs-id1167067039809">The equations show how a simple machine can output the same amount of work while reducing the amount of effort force by increasing the distance over which the effort force is applied.</para>
+    <note id="fs-id1167066885564" class="watch-physics"><title>Introduction to Mechanical Advantage </title>
+
+      <para id="fs-id1167066809024">This video shows how to calculate the <emphasis effect="italics">IMA</emphasis> of a lever by three different methods: (1) from effort force and resistance force; (2) from the lengths of the lever arms, and; (3) from the distance over which the force is applied and the distance the load moves.</para>
+      <media id="fs-id1167067250534" alt="This tutorial introduces simple machines, mechanical advantage, and moments." class="os-embed">
+        <iframe width="660" height="371.4" src="https://www.youtube.com/embed/pfzJ-z5Ij48"/>
+      </media>
+      <note id="fs-id1167066975948" class="os-teacher">
+        <title>Teacher Support</title>
+        <para id="fs-id1167066825589">The beginning of this video may cause more confusion than illumination. It shows a derivation using trig functions that is beyond the scope of this chapter. Interested students may want to work their way through it. Most students should skip to the final two or three minutes which explain the basics of calculating <emphasis effect="italics">IMA</emphasis> of a lever from different ratios. Review <emphasis effect="italics">W</emphasis> = <emphasis>f</emphasis><emphasis effect="italics">d</emphasis>.</para>
+      </note>
+      <exercise id="fs-id1167067142639" class="os-exercise grasp-check unnumbered">
+
+        <problem id="fs-id1167067145374">
+          <para id="fs-id1167067090864">
+            <link class="os-embed" url="#ost/api/ex/k12phys-ch09-ex040"/>
+          </para>
+        </problem>
+      </exercise>
+    </note><para id="fs-id1167067057624">Some levers exert a large force to a short effort arm. This results in a smaller force acting over a greater distance at the end of the resistance arm. Examples of this type of lever are baseball bats, hammers, and golf clubs. In another type of lever, the fulcrum is at the end of the lever and the load is in the middle, as in the design of a wheelbarrow.</para>
+    <note id="fs-id1167067254426" class="os-teacher">
+      <title>Teacher Support</title>
+      <para id="fs-id1167066766530"><span>[AL]</span>Tell students there are two other classes of levers with different arrangements of load, fulcrum, and effort. Ask them first to try to sketch these. After they have discovered the three kinds, with or without your help, ask if they can think of examples of the types not shown in <link target-id="Figure_09_03_lever"/>.</para></note>
+    <para id="fs-id1167066770467">The simple machine shown in <link target-id="Figure_09_03_axle"/> is called a <term>wheel and axle</term><emphasis>.</emphasis> It is actually a form of lever. The difference is that the effort arm can rotate in a complete circle around the fulcrum, which is the center of the axle. Force applied to the outside of the wheel causes a greater force to be applied to the rope that is wrapped around the axle. As shown in the figure, the ideal mechanical advantage is calculated by dividing the radius of the wheel by the radius of the axle. Any crank-operated device is an example of a wheel and axle.</para>
+    <figure id="Figure_09_03_axle">
+      <media id="fs-id1167067084955" alt="A diagram of a wheel is shown. The equation IMA equals capital R over lowercase r. A small grey circle is inside a larger blue circle. An arrow labeled lowercase r points from the center of the smaller circle to its edge. An arrow labeled capital R points from the center of the smaller circle to the edge of the larger circle. A mass is attached to the smaller circle and has a force vector, F subscript r, pointing downward from it. Another force vector, F subscript e, points downward and to the right from the edge of the larger circle.">
+        <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_09_03_wheel.jpg"/>
+      </media>
+      <caption>Force applied to a wheel exerts a force on its axle.</caption>
+    </figure>
+    <note id="fs-id1167063422161" class="os-teacher">
+      <title>Teacher Support</title>
+      <para id="fs-id1167067143086"><span>[BL]</span><span>[OL]</span> See if the students grasp the idea that a wheel and axle is really a type of lever. Show them that it looks more like a lever if the wheel is replaced by a crank. Give some examples: hand-powered windlass, steering wheel, door knob, and so on. Ask them why steering wheels had a greater diameter before power steering was invented.</para>
+      <para id="fs-id1167066820970"><span>[AL]</span> Explain that wheels on vehicles are not really simple machines in the same sense as the one in <link target-id="Figure_09_03_axle"/>. The axle on a vehicle does not do work on a load. Energy loss to friction is reduced, but nothing is lifted.</para>
+    </note>
+    <para id="fs-id1167066861155">An <term>inclined plane</term> and a <term>wedge</term> are two forms of the same simple machine. A wedge is simply two inclined planes back to back. <link target-id="Figure_09_03_inclined"/> shows the simple formulas for calculating the <emphasis effect="italics">IMA</emphasis>s of these machines. All sloping, paved surfaces for walking or driving are inclined planes. Knives and axe heads are examples of wedges.</para>
+    <figure id="Figure_09_03_inclined">
+      <media id="fs-id1167066783636" alt="Two diagrams are shown side-by-side. On the left, an inclined plane is shown. Its horizontal surface distance is labeled L and its height is labeled h. A box is shown on the surface with a force vector that points up the plane. The equation IMA equals L over h is shown. On the right, a wedge is shown. Its horizontal surface distance is labeled L. Its height is labeled t. The equation IMA equals L over t is also shown.">
+        <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_09_03_wedge.jpg"/>
+      </media>
+      <caption>An inclined plane is shown on the left, and a wedge is shown on the right.</caption>
+    </figure>
+    <note id="fs-id1167066874865" class="os-teacher">
+      <title>Teacher Support</title>
+      <para id="fs-id1167067025578"><span>[BL]</span><span>[OL]</span> Talk about how inclined planes and wedges are similar and different. Note that, when using an inclined plane the load moves, but when using a wedge the load is stationary and the machine moves. Explain why more energy is usually lost to friction with these machines than with other simple machines.</para>
+    </note>
+   <para id="fs-id1167067204853">The <term>screw</term> shown in <link target-id="Figure_09_03_screw"/> is actually a lever attached to a circular inclined plane. Wood screws (of course) are also examples of screws. The lever part of these screws is a screw driver. In the formula for <emphasis effect="italics">IMA</emphasis>, the distance between screw threads is called <emphasis effect="italics">pitch</emphasis> and has the symbol <emphasis effect="italics">P</emphasis>. </para>
+    <figure id="Figure_09_03_screw"><media id="fs-id1167067158213" alt="An illustration of a screw is shown. It has a long lever, labeled L. P is pitch, the distance between the threads.">
+        <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_09_03_screw.jpg"/>
+      </media>
+
+    <caption>The screw shown here is used to lift very heavy objects, like the corner of a car or a house a short distance.</caption></figure><note id="fs-id1167067086222" class="os-teacher">
+      <title>Teacher Support</title>
+      <para id="fs-id1167067206580"><span>[BL]</span><span>[OL]</span> Suggest that a screw is classified as a separate type of simple machine perhaps because it looks so different from what it really is—an inclined plane which sometimes is turned by a lever. Explain that the combined mechanical advantage can be great. Devices like the one shown in <link target-id="Figure_09_03_inclined"/> are used to lift cars and even houses. Have the students compare this screw to a wood screw and a circular stairway.</para>
+      <para id="fs-id1167066794527"><span>[AL]</span> Ask students how the forces exerted by a wood screw are different from those exerted by the screw in <link target-id="Figure_09_03_inclined"/>. Ask for an explanation of the 2 <m:math>
+ <m:mtext>π</m:mtext>
+</m:math>  in the equation for <emphasis effect="italics">IMA</emphasis>.</para>
+    </note>
+    <para id="fs-id1167066810201"><link target-id="Figure_09_03_pulley"/> shows three different <term>pulley</term> systems. Of all simple machines, mechanical advantage is easiest to calculate for pulleys. Simply count the number of ropes supporting the load. That is the <emphasis effect="italics">IMA</emphasis>. Once again we have to exert force over a longer distance to multiply force. To raise a load 1 meter with a pulley system you have to pull <emphasis effect="italics">N</emphasis> meters of rope. Pulley systems are often used to raise flags and window blinds and are part of the mechanism of construction cranes.</para>
+    <figure id="Figure_09_03_pulley">
+      <media id="fs-id1167067090823" alt="Three pulley systems are shown in side-by-side diagrams. The first consists of a single pulley and is shown holding a mass. The mass is labeled with a force vector, F r, that also points downward. Another force vector, F e, is shown pointing downward from the pulley. N equals one is also shown. The second pulley system consists of a single pulley holding a mass. A force vector, F e, points upward from the pulley. N equals two is shown. The last pulley system shows four pulleys holding a mass with a hook. A force vector, F e, points downward from the pulley. N equals four is shown.">
+        <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_09_03_pulleys.jpg"/>
+      </media>
+      <caption>Three pulley systems are shown here.</caption>
+    </figure>
+    <note id="fs-id1167066865245" class="os-teacher">
+      <title>Teacher Support</title>
+      <para id="fs-id1167063466253"><span>[BL]</span><span>[OL]</span> The calculation for <emphasis effect="italics">IMA</emphasis> of a pulley seems too easy to be true, but it is. Ask students to try to understand why <emphasis effect="italics">IMA</emphasis> is simply <emphasis effect="italics">N</emphasis>. Tell them that watching the video should make this point clear. Pulleys were once seen on sailing ships and farms, where they were used lift heavy loads. The overhang you may have seen on the end of old barn roofs is where a pulley was once attached. This way bales of hay could be lifted into the hay loft without getting wet. Pulleys can still be seen in use, most commonly on large building cranes.</para></note>
+    <note id="fs-id1167066869648" class="watch-physics">
+
+      <title>Mechanical Advantage of Inclined Planes and Pulleys</title>
+      <para id="fs-id1167066783060">The first part of this video shows how to calculate the <emphasis effect="italics">IMA</emphasis> of pulley systems. The last part shows how to calculate the <emphasis effect="italics">IMA</emphasis> of an inclined plane. </para>
+      <media id="fs-id1167063526915" alt="This tutorial introduces pulleys and wedges." class="os-embed">
+        <iframe width="660" height="371.4" src="https://www.khanacademy.org/embed_video?v=vSsK7Rfa3yA"/>
+      </media>
+      <note id="fs-id1167067154187" class="os-teacher">
+        <title>Teacher Support</title>
+        <para id="fs-id1167066839153">Review what was learned about the <emphasis effect="italics">IMA</emphasis> of inclined planes and pulley systems before watching the video. Remind the students that, for an ideal machine, work in = work out and that <emphasis effect="italics">W</emphasis> = <emphasis>f</emphasis><emphasis effect="italics">d</emphasis>. The video shows how to find the <emphasis>f</emphasis>s and the <emphasis effect="italics">d</emphasis>s.</para>
+      </note>
+        <exercise id="fs-id1167066783143" class="os-exercise grasp-check unnumbered">
+
+          <problem id="fs-id1167066971072">
+<para id="fs-id1164567899656">How could you use a pulley system to lift a light load to great height?</para>
+<list id="fs-id1164567132306" list-type="enumerated" number-style="lower-alpha">
+<item>Reduce the radius of the pulley.</item>
+<item>Increase the number of pulleys.</item>
+<item>Decrease the number of ropes supporting the load.</item>
+<item>Increase the number of ropes supporting the load.</item></list>
+    <!--        <para id="fs-id1167066843963">
+              <link class="os-embed" url="#ost/api/ex/k12phys-ch09-ex041"/>
+            </para>-->
+          </problem>
+        </exercise>
+    </note>
+    <para id="fs-id1167067090620">A <term>complex machine</term> is a combination of two or more simple machines. The wire cutters in <link target-id="Figure_09_03_wire"/> combine two levers and two wedges. Bicycles include wheel and axles, levers, screws, and pulleys. Cars and other vehicles are combinations of many machines.</para>
+    <figure id="Figure_09_03_wire">
+      <media id="fs-id1167066839319" alt="An illustration shows a pair of hand-held wire cutters.">
+        <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_09_03_wirecutter.jpg"/>
+      </media>
+      <caption>Wire cutters are a common complex machine.</caption>
+    </figure>
+    <note id="fs-id1167066782853" class="os-teacher">
+      <title>Teacher Support</title>
+      <para id="fs-id1167066793007"><span>[BL]</span><span>[OL]</span> Be sure students understand that a complex machine is just a combination of simple machines and is still fairly <emphasis effect="italics">simple</emphasis>. Don’t let them confuse the term with complicated machines such as computers. Note that the IMAs of the individual simple machines in a complex machine usually multiply because the output force of one machine becomes the input force of the other machine. For an additional fun activity, have the students search the Internet for <emphasis effect="italics">Rube Goldberg machine</emphasis>.</para>
+    </note>
+  </section>
+  <section id="fs-id1167066836650">
+    <title>Calculating Mechanical Advantage and Efficiency of Simple Machines</title>
+    <para id="fs-id1167067191293">In general, the <emphasis effect="italics">IMA</emphasis> = the resistance force, <emphasis>F</emphasis><sub>r</sub>, divided by the effort force, <emphasis>F</emphasis><sub>e</sub>. <emphasis effect="italics">IMA</emphasis> also equals the distance over which the effort is applied, <emphasis effect="italics">d<sub>e</sub></emphasis>, divided by the distance the load travels, <emphasis effect="italics">d<sub>r</sub></emphasis>.</para>
+    <equation id="fs-id1167066973850" class="unnumbered">
+      <label/>
+       <m:math display="block">
+        <m:mrow>
+          <m:mi>I</m:mi><m:mi>M</m:mi><m:mi>A</m:mi><m:mo>=</m:mo><m:mfrac>
+            <m:mrow>
+              <m:msub>
+                <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+                <m:mi>r</m:mi>
+              </m:msub>
+
+            </m:mrow>
+            <m:mrow>
+              <m:msub>
+                <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+                <m:mi>e</m:mi>
+              </m:msub>
+
+            </m:mrow>
+          </m:mfrac>
+          <m:mo>=</m:mo><m:mfrac>
+            <m:mrow>
+              <m:msub>
+                <m:mi>d</m:mi>
+                <m:mi>e</m:mi>
+              </m:msub>
+
+            </m:mrow>
+            <m:mrow>
+              <m:msub>
+                <m:mi>d</m:mi>
+                <m:mi>r</m:mi>
+              </m:msub>
+
+            </m:mrow>
+          </m:mfrac>
+
+        </m:mrow>
+      </m:math>
+
+    </equation>
+    <para id="fs-id1167067067711">Refer back to the discussions of each simple machine for the specific equations for the <emphasis effect="italics">IMA</emphasis> for each type of machine.</para>
+    <para id="fs-id1167066952747">No simple or complex machines have the actual mechanical advantages calculated by the <emphasis effect="italics">IMA</emphasis> equations. In real life, some of the applied work always ends up as wasted heat due to friction between moving parts. Both the <term>input work</term> (<emphasis effect="italics">W<sub>i</sub></emphasis>) and <term>output work</term> (<emphasis effect="italics">W<sub>o</sub></emphasis>) are the result of a force, <emphasis>F</emphasis>, acting over a distance, <emphasis effect="italics">d</emphasis>.</para>
+    <equation id="fs-id1167067068730" class="unnumbered"><label/>
+       <m:math display="block">
+        <m:mrow>
+          <m:msub>
+            <m:mi>W</m:mi>
+            <m:mi>i</m:mi>
+          </m:msub>
+          <m:mo>=</m:mo><m:msub>
+            <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+            <m:mi>i</m:mi>
+          </m:msub>
+          <m:msub>
+            <m:mi>d</m:mi>
+            <m:mi>i</m:mi>
+          </m:msub>
+          <m:mtext>and</m:mtext><m:msub>
+            <m:mi>W</m:mi>
+            <m:mi>o</m:mi>
+          </m:msub>
+          <m:mo>=</m:mo><m:msub>
+            <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+            <m:mi>o</m:mi>
+          </m:msub>
+          <m:msub>
+            <m:mi>d</m:mi>
+            <m:mi>o</m:mi>
+          </m:msub>
+
+        </m:mrow>
+      </m:math>
+    </equation>
+    <para id="fs-id1167066953557">The <term>efficiency output</term> of a machine is simply the output work divided by the input work, and is usually multiplied by 100 so that it is expressed as a percent.</para>
+    <equation id="fs-id1167063801671" class="unnumbered"><label/>
+       <m:math display="block">
+        <m:mrow>
+          <m:mi>%</m:mi><m:mtext> efficiency</m:mtext><m:mo>=</m:mo><m:mfrac>
+            <m:mrow>
+              <m:msub>
+                <m:mi>W</m:mi>
+                <m:mi>o</m:mi>
+              </m:msub>
+
+            </m:mrow>
+            <m:mrow>
+              <m:msub>
+                <m:mi>W</m:mi>
+                <m:mi>i</m:mi>
+              </m:msub>
+
+            </m:mrow>
+          </m:mfrac>
+          <m:mo>×</m:mo><m:mn>100</m:mn>
+        </m:mrow>
+      </m:math>
+
+    </equation>
+    <para id="fs-id1167067240272">Look back at the pictures of the simple machines and think about which would have the highest efficiency. Efficiency is related to friction, and friction depends on the smoothness of surfaces and on the area of the surfaces in contact. How would lubrication affect the efficiency of a simple machine?</para>
+    <note id="fs-id1167066829797" class="os-teacher">
+      <title>Teacher Support</title>
+      <para id="fs-id1167067105692"><span>[BL]</span><span>[OL]</span> Review the material on loss of mechanical energy to heat and the law of conservation of energy. Explain how heat lost because of friction assures that <emphasis effect="italics">W<sub>o</sub></emphasis> will always be less than <emphasis effect="italics">W<sub>i</sub></emphasis> preventing efficiency from ever reaching 100%.</para>
+    </note>
+    <note id="fs-id1167063947659" class="worked-example"><title>Efficiency of a Lever</title>
+
+      <exercise id="fs-id1167063556560" class="09-ex042 unnumbered"><label/>
+
+        <problem id="fs-id1167067064632">
+          <para id="fs-id1167066881346">The input force of 11 N acting on the effort arm of a lever moves 0.4 m, which lifts a 40 N weight resting on the resistance arm a distance of 0.1 m. What is the efficiency of the machine?
+          </para>
+          <note id="fs-id1167063878446"><label/><title>Strategy</title>
+            <para id="fs-id1167067070782">State the equation for efficiency of a simple machine,  <m:math>
+              <m:mrow>
+                <m:mi>%</m:mi><m:mtext> efficiency</m:mtext><m:mo>=</m:mo><m:mfrac>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>W</m:mi>
+                      <m:mi>o</m:mi>
+                    </m:msub>
+
+                  </m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>W</m:mi>
+                      <m:mi>i</m:mi>
+                    </m:msub>
+
+                  </m:mrow>
+                </m:mfrac>
+                <m:mo>×</m:mo><m:mn>100</m:mn>
+<m:mtext>,</m:mtext>
+              </m:mrow>
+            </m:math>  and calculate <emphasis effect="italics">W<sub>o</sub></emphasis> and <emphasis effect="italics">W<sub>i</sub></emphasis>. <sub> </sub>Both work values are the product <emphasis effect="italics">Fd</emphasis>.</para>
+          </note>
+        </problem>
+        <solution id="fs-id1167067107299">
+<label/>
+<title>Solution</title>
+          <para id="fs-id1167063630582"> <m:math>
+            <m:mrow>
+              <m:msub>
+                <m:mi>W</m:mi>
+                <m:mi>i</m:mi>
+              </m:msub>
+              <m:mo>=</m:mo><m:msub>
+                <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+                <m:mi>i</m:mi>
+              </m:msub>
+              <m:msub>
+                <m:mi>d</m:mi>
+                <m:mi>i</m:mi>
+              </m:msub>
+
+            </m:mrow>
+          </m:math>  = (11)(0.4) = 4.4 J and  <m:math>
+            <m:mrow>
+              <m:msub>
+                <m:mi>W</m:mi>
+                <m:mi>o</m:mi>
+              </m:msub>
+              <m:mo>=</m:mo><m:msub>
+                <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+                <m:mi>o</m:mi>
+              </m:msub>
+              <m:msub>
+                <m:mi>d</m:mi>
+                <m:mi>o</m:mi>
+              </m:msub>
+
+            </m:mrow>
+          </m:math>  = (40)(0.1) = 4.0 J, then  <m:math>
+            <m:mrow>
+              <m:mi>%</m:mi><m:mtext> efficiency</m:mtext><m:mo>=</m:mo><m:mfrac>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>W</m:mi>
+                    <m:mi>o</m:mi>
+                  </m:msub>
+
+                </m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>W</m:mi>
+                    <m:mi>i</m:mi>
+                  </m:msub>
+
+                </m:mrow>
+              </m:mfrac>
+              <m:mo>×</m:mo><m:mn>100</m:mn><m:mo>=</m:mo><m:mfrac>
+                <m:mrow>
+                  <m:mn>4.0</m:mn>
+                </m:mrow>
+                <m:mrow>
+                  <m:mn>4.4</m:mn>
+                </m:mrow>
+              </m:mfrac>
+              <m:mo>×</m:mo><m:mn>100</m:mn><m:mo>=</m:mo><m:mn>91</m:mn><m:mi>%</m:mi><m:mtext> </m:mtext>
+            </m:mrow>
+          </m:math> </para></solution>
+        <commentary id="fs-id1167063556686">
+          <title>Discussion</title>
+          <para id="fs-id1167067049964">Efficiency in real machines will always be less than 100 percent because of work that is converted to unavailable heat by friction and air resistance. <emphasis effect="italics">W<sub>o</sub></emphasis> and <emphasis effect="italics">W<sub>i</sub></emphasis> can always be calculated as a force multiplied by a distance, although these quantities are not always as obvious as they are in the case of a lever.</para>
+          <note id="fs-id1167063430185" class="os-teacher">
+            <title>Teacher Support</title>
+            <para id="fs-id1167063499059">Teaching tip—When calculating efficiency, it is easy enough to understand what force in and force out are: the force you apply is force in and the weight of the object that is being lifted is force out. The input and output distances are easier to see for the lever, inclined plane and wedge. The other three are not as obvious. For a pulley system, the input distance is how far you pull the rope, and the output distance is the distance the load rises. For a wheel and axle, the input distance is the circumference of the wheel, and the output distance is the circumference of the axle. For a screw, the input distance is the circumference of the circle over which the force is applied, and the output distance is the distance between the screw threads.</para>
+          </note>
+        </commentary>
+      </exercise>
+    </note></section>
+  <section id="fs-id1167066809073" class="practice-problems"><title>Practice Problems</title><exercise id="fs-id1167066864978">
+      <problem id="fs-id1167067034753">
+        <para id="fs-id1167067108188">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch09-ex043"/>
+        </para>
+      </problem>
+    </exercise>
+    <exercise id="fs-id1167067251931">
+      <problem id="fs-id1167063527937">
+<para id="fs-id1164566044566">If a pulley system can lift a 200N load with an effort force of 52 N and has an efficiency of almost 100 percent, how many ropes are supporting the load?</para>
+<list id="fs-id1164565343388" list-type="enumerated" number-style="lower-alpha">
+<item>1 rope is required because the actual mechanical advantage is 0.26.</item>
+<item>1 rope is required because the actual mechanical advantage is 3.80.</item>
+<item>4 ropes are required because the actual mechanical advantage is 0.26.</item>
+<item>4 ropes are required because the actual mechanical advantage is 3.80.</item></list>
+<!--        <para id="fs-id1167067200320">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch09-ex044"/>
+        </para>-->
+      </problem>
+    </exercise>
+  </section><section id="fs-id1167063958012" class="check-understanding">
+    <title>Check Your Understanding</title>
+    <exercise id="fs-id1167067296819" class="os-exercise">
+      <problem id="fs-id1167067296749">
+<para id="fs-id1164565515272">True or falseThe efficiency of a simple machine is always less than 100 percent because some small fraction of the input work is always converted to heat energy due to friction.</para>
+<list id="fs-id1164566347808" list-type="enumerated" number-style="lower-alpha">
+<item>True</item>
+<item>False</item></list>
+<!--        <para id="fs-id1167067043779">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch09-ex045"/>
+        </para>-->
+      </problem>
+    </exercise>
+    <exercise id="fs-id1167066847645" class="os-exercise">
+      <problem id="fs-id1167067267984">
+<para id="fs-id1164567494063">The circular handle of a faucet is attached to a rod that opens and closes a valve when the handle is turned. If the rod has a diameter of 1 cm and the IMA of the machine is 6, what is the radius of the handle?</para>
+<list id="fs-id1164567846480" list-type="enumerated" number-style="upper-alpha">
+<item>0.08 cm</item>
+<item>0.17 cm</item>
+<item>3.0 cm</item>
+<item>6.0 cm</item></list>
+
+<!--        <para id="fs-id1167067039075">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch09-ex046"/>
+        </para>-->
+      </problem>
+    </exercise>
+    <note id="fs-id1167063589050" class="os-teacher">
+      <title>Teacher Support</title>
+      <para id="fs-id1167063419811">Use the Check Your Understanding questions to assess students’ achievement of the section’s learning objectives. If students are struggling with a specific objective, the Check Your Understanding will help identify which one and direct students to the relevant content.</para></note>
+  </section>
+    <section id="fs-id1167066953844" class="summary">
+      <title>Section Summary</title>
+      <list id="fs-id1167063801721">
+        <item>The six types of simple machines make work easier by changing the <emphasis>f</emphasis><emphasis effect="italics">d</emphasis> term so that force is reduced at the expense of increased distance. </item>
+        <item>The ratio of output force to input force is a machine’s mechanical advantage.</item>
+        <item>Combinations of two or more simple machines are called complex machines.</item>
+        <item>The ratio of output work to input work is a machine’s efficiency.</item>
+
+      </list>
+    </section>
+  <section id="fs-id1167067194147" class="key-equations"><title>Key Equations</title><table id="fs-id1167066791133" class="unnumbered unstyled" summary="The list of Key Equations includes the formulas for calculating the ideal mechanical advantage in general and for specific simple machines such as a level, wheel and axle, inclined plane, wedge, pulley, and screw. It also includes equations for calculating input work, output work, and efficiency output."><label/>
+<tgroup cols="2"><colspec colnum="1" align="left" colname="c1"/>
+        <colspec colnum="2" align="left" colname="c2"/>
+        <tbody>
+          <row>
+            <entry>ideal mechanical advantage (general)</entry>
+            <entry> <m:math>
+              <m:mrow>
+                <m:mi>I</m:mi><m:mi>M</m:mi><m:mi>A</m:mi><m:mo>=</m:mo><m:mfrac>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>F</m:mtext></m:mstyle>
+                      <m:mi>r</m:mi>
+                    </m:msub>
+
+                  </m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>F</m:mtext></m:mstyle>
+                      <m:mi>e</m:mi>
+                    </m:msub>
+
+                  </m:mrow>
+                </m:mfrac>
+                <m:mo>=</m:mo><m:mfrac>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>d</m:mi>
+                      <m:mi>e</m:mi>
+                    </m:msub>
+
+                  </m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>d</m:mi>
+                      <m:mi>r</m:mi>
+                    </m:msub>
+
+                  </m:mrow>
+                </m:mfrac>
+
+              </m:mrow>
+            </m:math>
+</entry>
+</row>
+<row>
+<entry>ideal mechanical advantage (lever)</entry>
+<entry>
+ <m:math>
+               <m:mi>I</m:mi><m:mi>M</m:mi><m:mi>A</m:mi><m:mo>=</m:mo>
+               <m:mfrac>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>L</m:mi>
+                          <m:mi>e</m:mi>
+                        </m:msub>
+
+                      </m:mrow>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>L</m:mi>
+                          <m:mi>r</m:mi>
+                        </m:msub>
+
+                      </m:mrow>
+                    </m:mfrac>
+                    
+                  </m:math></entry>
+                </row>
+                <row>
+                  <entry>ideal mechanical advantage (wheel and axle)</entry>
+                <entry><m:math><m:mi>I</m:mi><m:mi>M</m:mi><m:mi>A</m:mi><m:mo>=</m:mo><m:mfrac>
+                      <m:mi>R</m:mi>
+                      <m:mi>r</m:mi>
+                    </m:mfrac>
+                    </m:math>
+                  </entry>
+                </row>
+                <row>
+                  <entry>ideal mechanical advantage (inclined plane)</entry>
+                    <entry><m:math><m:mi>I</m:mi><m:mi>M</m:mi><m:mi>A</m:mi><m:mo>=</m:mo><m:mfrac>
+                      <m:mi>L</m:mi>
+                      <m:mi>h</m:mi>
+                    </m:mfrac>
+                    </m:math>
+                  </entry>
+                </row>
+                <row>
+                  <entry>ideal mechanical advantage (wedge)</entry>
+                  <entry><m:math><m:mi>I</m:mi><m:mi>M</m:mi><m:mi>A</m:mi><m:mo>=</m:mo><m:mfrac>
+                      <m:mi>L</m:mi>
+                      <m:mi>t</m:mi>
+                    </m:mfrac>
+                   </m:math></entry>
+                 </row>
+                 <row>
+                  <entry>ideal mechanical advantage (pulley)</entry>
+                  <entry><m:math>
+                    <m:mi>I</m:mi><m:mi>M</m:mi><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>N</m:mi><m:mtext> </m:mtext>
+                  </m:math>
+                </entry>
+              </row>
+               <row>
+                <entry>ideal mechanical advantage (screw)</entry>
+                    <entry><m:math><m:mi>I</m:mi><m:mi>M</m:mi><m:mi>A</m:mi><m:mo>=</m:mo><m:mfrac>
+                      <m:mrow>
+                        <m:mn>2</m:mn><m:mi>π</m:mi><m:mi>L</m:mi>
+                      </m:mrow>
+                      <m:mi>P</m:mi>
+                    </m:mfrac>
+                   </m:math>
+            </entry>
+          </row>
+          <row>
+            <entry>input work</entry>
+            <entry> <m:math>
+              <m:mrow>
+                <m:msub>
+                  <m:mi>W</m:mi>
+                  <m:mi>i</m:mi>
+                </m:msub>
+                <m:mo>=</m:mo><m:msub>
+                  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+                  <m:mi>i</m:mi>
+                </m:msub>
+                <m:msub>
+                  <m:mi>d</m:mi>
+                  <m:mi>i</m:mi>
+                </m:msub>
+
+              </m:mrow>
+            </m:math>
+            </entry>
+          </row>
+          <row>
+            <entry>output work</entry>
+            <entry> <m:math>
+              <m:mrow>
+                <m:msub>
+                  <m:mi>W</m:mi>
+                  <m:mi>o</m:mi>
+                </m:msub>
+                <m:mo>=</m:mo><m:msub>
+                  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+                  <m:mi>o</m:mi>
+                </m:msub>
+                <m:msub>
+                  <m:mi>d</m:mi>
+                  <m:mi>o</m:mi>
+                </m:msub>
+
+              </m:mrow>
+            </m:math>
+            </entry>
+          </row>
+          <row>
+            <entry>efficiency output</entry>
+            <entry> <m:math>
+              <m:mrow>
+                <m:mi>%</m:mi><m:mtext> efficiency</m:mtext><m:mo>=</m:mo><m:mfrac>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>W</m:mi>
+                      <m:mi>o</m:mi>
+                    </m:msub>
+
+                  </m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>W</m:mi>
+                      <m:mi>i</m:mi>
+                    </m:msub>
+
+                  </m:mrow>
+                </m:mfrac>
+                <m:mo>×</m:mo><m:mn>100</m:mn>
+              </m:mrow>
+            </m:math>
+            </entry>
+          </row>
+        </tbody>
+
+
+</tgroup>
+</table></section><section id="fs-id1167066793601" class="concept"><title>Concept Items</title><exercise id="fs-id1167066799305" class="os-exercise">
+      <problem id="fs-id1167067075103">
+        <para id="fs-id1167067247956">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch09-ex047"/>
+        </para>
+      </problem>
+    </exercise>
+
+<exercise id="eip-id1166849847722" class="os-exercise">
+<problem id="eip-id1166849935777">
+<para id="fs-id1164565903995">Which type of simple machine is a knife?</para>
+<list id="fs-id1164566024229" list-type="enumerated" number-style="lower-alpha">
+<item>A ramp</item>
+<item>A wedge</item>
+<item>A pulley</item>
+<item>A screw</item></list>
+<!--<para id="eip-id1166847254654">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch09-ot038"/>
+</para>-->
+</problem>
+</exercise></section><section id="fs-id1167067108256" class="critical-thinking"><title>Critical Thinking</title><exercise id="fs-id1167067140297" class="os-exercise"><problem id="fs-id1167066875644"><para id="fs-id1167066875645"><link class="os-embed" url="#ost/api/ex/k12phys-ch09-ex048"/></para></problem></exercise>
+
+<exercise id="eip-id1166849665188" class="os-exercise">
+<problem id="eip-id1166850224153">
+<para id="eip-id1166850224155">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch09-ot043"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167067153386" class="problems">
+    <title>Problems</title>
+    <exercise id="fs-id1167067069696" class="os-exercise">
+      <problem id="fs-id1167066844300">
+<para id="fs-id1164567239226">A man is using a wedge to split a block of wood by hitting the wedge with a hammer. This drives the wedge into the wood creating a crack in the wood. When he hits the wedge with a force of 400 N it travels 4 cm into the wood. This caused the wedge to exert a force of 1,400 N sideways increasing the width of the crack by 1 cm . What is the efficiency of the wedge?</para>
+<list id="fs-id1164567811538" list-type="enumerated" number-style="lower-alpha">
+<item>0.875 percent</item>
+<item>0.14</item>
+<item>0.751</item>
+<item>87.5 percent</item></list>
+<!--        <para id="fs-id1167066800390">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch09-ex049"/>
+        </para>-->
+      </problem>
+    </exercise>
+    <exercise id="fs-id1167063798774" class="os-exercise"><problem id="fs-id1167066879482">
+<para id="fs-id1164567976652">
+An electrician grips the handles of a wire cutter, like the one shown, 10 cm from the pivot and places a wire between the jaws 2 cm from the pivot. If the cutter blades are 2 cm wide and 0.3 cm thick, what is the overall IMA of this complex machine?
+<media id="fs-id1164564453495" alt="The image is a picture of wire cutters with red handles. The pinchers are closed.">
+        <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_09_03_wirecutter.jpg"/>
+      </media>
+</para>
+<list id="fs-id1164567568305" list-type="enumerated" number-style="lower-alpha">
+<item>1.34</item>
+<item>1.53</item>
+<item>33.3</item>
+<item>33.5</item></list>
+        <!--<para id="fs-id1167067200249">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch09-ex050"/>
+        </para>-->
+      </problem>
+    </exercise></section>
+<section id="fs-id1167067024620" class="performance"><title>Performance Task</title><exercise id="fs-id1167061381753"><problem id="fs-id1167061381754">
+    <para id="fs-id1167063509574">Conservation of Energy and Energy Transfer; Cause and Effect; and S&amp;EP, Planning and Carrying Out Investigations</para>
+    <para id="fs-id1167063715420">Plan an investigation to measure the mechanical advantage of simple machines and compare to the <emphasis effect="italics">IMA</emphasis> of the machine. Also measure the efficiency of each machine studied. Design an investigation to make these measurements for these simple machines: lever, inclined plane, wheel and axle and a pulley system. In addition to these machines, include a spring scale, a tape measure, and a weight with a loop on top that can be attached to the hook on the spring scale. A spring scale is shown in the image.</para>
+<media id="fs-id1167063785811" alt="An illustration of a spring scale is shown. The left side shows grams and the right side shows Newtons.">
+        <image mime-type="image/jpeg" width="150px" src="../../media/CNX_HSPhysics_09_03_scale_img.jpg"/>
+      </media>
+    <para id="caption">A spring scale measures weight, not mass.</para>
+    <para id="fs-id1167067020429">LEVER: Beginning with the lever, explain how you would measure input force, output force, effort arm, and resistance arm. Also explain how you would find the distance the load travels and the distance over which the effort force is applied. Explain how you would use this data to determine <emphasis effect="italics">IMA</emphasis> and efficiency.</para>
+    <para id="fs-id1167063786115">INCLINED PLANE: Make measurements to determine <emphasis effect="italics">IMA</emphasis> and efficiency of an inclined plane. Explain how you would use the data to calculate these values. Which property do you already know? Note that there are no effort and resistance arm measurements, but there are height and length measurements.</para>
+    <para id="fs-id1167063563497">WHEEL AND AXLE: Again, you will need two force measurements and four distance measurements. Explain how you would use these to calculate <emphasis effect="italics">IMA</emphasis> and efficiency.</para>
+    <para id="fs-id1167063429026">SCREW: You will need two force measurements, two distance traveled measurements, and two length measurements. You may describe a screw like the one shown in <link target-id="Figure_09_03_screw"/> or you could use a screw and screw driver. (Measurements would be easier for the former). Explain how you would use these to calculate <emphasis effect="italics">IMA</emphasis> and efficiency.</para>
+    <para id="fs-id1167067012834">PULLEY SYSTEM: Explain how you would determine the <emphasis effect="italics">IMA</emphasis> and efficiency of the four-pulley system shown in <link target-id="Figure_09_03_pulley"/>. Why do you only need two distance measurements for this machine?</para><para id="fs-id1167067048558">Design a table that compares the efficiency of the five simple machines. Make predictions as to the most and least efficient machines.</para></problem></exercise></section><section id="fs-id1167063715385" class="multiple-choice"><title>Test Prep Multiple Choice</title>
+<exercise id="fs-id1167066820750" class="os-exercise">
+<problem id="fs-id1167063852312">
+<para id="fs-id1164568017170">A large radius divided by a small radius is the expression used to calculate the IMA of what?</para>
+<list id="fs-id1164567410943" list-type="enumerated" number-style="lower-alpha">
+<item>A screw</item>
+<item>A pulley</item>
+<item>A wheel and axle</item>
+<item>An inclined plane.</item></list>
+<!--<para id="fs-id1167063901553">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch09-ex051"/></para>-->
+</problem>
+</exercise>
+    <exercise id="fs-id1167063852276" class="os-exercise"><problem id="fs-id1167067021282"><para id="fs-id1167063524731"><link class="os-embed" url="#ost/api/ex/k12phys-ch09-ex052"/></para></problem></exercise>
+
+<exercise id="eip-id1166850157365" class="os-exercise"><problem id="eip-id1166849372528">
+<para id="eip-id1166849372530">Which statement correctly describes the simple machines, like the crank in the image, that make up an Archimedes screw and the forces it applies?</para>
+<media id="eip-idm276679808" alt="no alt text">
+<image mime-type="image/jpeg" src="../../media/CNX_Archimedes_screw.jpg"/>
+</media>
+<list id="eip-idm204681728" list-type="enumerated" number-style="lower-alpha"><item>The crank is a wedge in which the IMA is the length of the tube divided by the radius of the tube. The applied force is the effort force and the
+weight of the water is the resistance force.</item>
+<item>The crank is an inclined plane in which the IMA is the length of the tube divided by the radius of the tube. The applied force is the effort force and
+the weight of the water is the resistance force.</item>
+<item>The crank is a wheel and axle. The effort force of the crank becomes the resistance force of the screw.</item>
+<item>The crank is a wheel and axle. The resistance force of the crank becomes the effort force of the screw.</item>
+</list></problem>
+</exercise><exercise id="eip-id1166849749527" class="os-exercise"><problem id="eip-id1166849850263">
+<para id="fs-id1164566996564">
+Refer to the pulley system on right in the image. Assume this pulley system is an ideal machine.
+<newline/>How hard would you have to pull on the rope to lift a 120 N load?
+<newline/>How many meters of rope would you have to pull out of the system to lift the load 1 m?
+<media id="fs-id1164567622143" alt="A series of 3 pulley systems are shown in this image. At the top of the image there is a formula I M A equals N. The first pulley on the left is shown. A red arrow is following diagonally down and to the right from the top of the pulley labeled F sub e. A weight is shown on the left side of the pulley with a red arrow from the weight denoted F sub r. A dotted line goes across the line from the weight to the pulley that reads N equals 1. The pulley in the center  has a red arrow on the right side of the pulley going directly up labeled F sub e. A dotted line goes between the pulley and the fixed portion labeled N equals 2. A weight is suspended straight down from the pulley. The pulley system on the right has four pulleys in vertical succession. The top pulley and bottom pulley are larger than the pulleys in the middle.  A red arrow is following diagonally down and to the right from the top of the pulley labeled F sub e. A dotted line goes between the two smaller pulleys in the middle labeled N equals 4. A hook on the bottom of the second pulley from the top starts a line that winds under the second smaller pulley, over the first smaller pulley, under the bottom larger pulley and over the top larger pulley. A weight is suspended from the bottom of the larger pulley.">
+        <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_09_03_pulleys.jpg"/>
+      </media></para>
+
+<list id="fs-id1164565406566" list-type="enumerated" number-style="lower-alpha">
+<item>480 N<newline/>
+4 m</item>
+
+<item>480 N<newline/>
+ <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>4</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+ m</item>
+
+<item>30 N<newline/>
+4 m</item>
+
+<item>30 N<newline/>
+ <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>4</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>  m</item></list>
+<!--<para id="eip-id1166850215316">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch09-ot046"/>
+</para>-->
+</problem>
+</exercise></section><section id="fs-id1167067068298" class="short-answer">
+    <title>Test Prep Short Answer</title>
+    <exercise id="fs-id1167066945029" class="os-exercise"><problem id="fs-id1167067239638"><para id="fs-id1167067239640">Why would you expect the lever shown in the top image to have a greater efficiency than the inclined plane shown in the bottom image?
+<media id="eip-idm192465088" alt="no alt text">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_09_03_levers.jpg"/>
+</media>
+<media id="eip-idm217253744" alt="no alt text">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_09_03_wedge.jpg"/>
+</media>
+</para><list id="eip-idm524481200" list-type="enumerated" number-style="lower-alpha"><item>The resistance arm is shorter in case of the inclined plane.</item>
+<item>The effort arm is shorter in case of the inclined plane.</item>
+<item>The area of contact is greater in case of the inclined plane.</item>
+</list></problem></exercise><exercise id="fs-id1167067184207" class="os-exercise"><problem id="fs-id1167067145697"><para id="fs-id1167067145698">Why is the wheel on a wheelbarrow <emphasis effect="bold">not</emphasis> a simple machine in the same sense as the simple machine in the image?</para>
+<media id="eip-idm223568960" alt="no alt text">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_09_03_wheel.jpg"/>
+</media>
+<list id="eip-idm242267232" list-type="enumerated" number-style="lower-alpha"><item>The wheel on the wheelbarrow has no fulcrum.</item>
+<item>The center of the axle is not the fulcrum for the wheels of a wheelbarrow.</item>
+<item>The wheelbarrow differs in the way in which load is attached to the axle.</item>
+<item>The wheelbarrow has less resistance force than a wheel and axle design.</item>
+</list></problem></exercise><exercise id="fs-id1167067204652" class="os-exercise">
+<problem id="fs-id1167067038960">
+<!--<para id="fs-id1167067038961"><link class="os-embed" url="#ost/api/ex/k12phys-ch09-ex055"/></para>-->
+<para id="fs-id1169831514849">A worker pulls down on one end of the rope of a pulley system with a force of 75 N to raise a hay bale tied to the other end of the rope. If she pulls the rope down 2.0 m and the bale raises 1.0 m, what else would you have to know to calculate the efficiency of the pulley system?</para>
+<list id="fs-id1169832829129" list-type="enumerated" number-style="lower-alpha">
+<item>the weight of the worker</item>
+<item>the weight of the hay bale</item>
+<item>the radius of the pulley</item>
+<item>the height of the pulley from ground</item>
+</list>
+</problem></exercise>
+
+<exercise id="fs-id1167067184144" class="os-exercise"><problem id="fs-id1167067210660">
+<para id="fs-id1164567606319">True or falseA boy pushed a box with a weight of 300 N up a ramp. He said that, because the ramp was 1.0 m high and 3.0 m long, he must have been pushing with force of exactly 100 N.</para>
+<list id="fs-id1164567816739" list-type="enumerated" number-style="lower-alpha">
+<item>True</item>
+<item>False</item></list>
+<!--<para id="fs-id1167067210661"><link class="os-embed" url="#ost/api/ex/k12phys-ch09-ex056"/></para>-->
+</problem></exercise>
+  </section>
+    <section id="fs-id1167067200697" class="extended-response">
+      <title>Test Prep Extended Response</title>
+      <exercise id="fs-id1167063582653" class="os-exercise"><problem id="fs-id1167067316900">
+<para id="fs-id1164566373153">To dig a hole, one holds the handles together and thrusts the blades of a posthole digger, like the one in the image, into the ground. Next, the handles are pulled apart, which squeezes the dirt between them, making it possible to remove the dirt from the hole. This complex machine is composed of two pairs of two different simple machines. Identify and describe the parts that are simple machines and explain how you would find the IMA of each type of simple machine.
+<media id="fs-id1164567184711" alt="A post hole digger is shown with yellow and black handles. The digging apparatus is to the right and the post hole digger is closed.">
+        <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_09_03_digger_img.jpg"/>
+      </media>
+</para><list id="fs-id1164565524933" list-type="enumerated" number-style="lower-alpha">
+<item>Each handle and its attached blade is a lever with the fulcrum at the hinge. Each blade is a wedge.<newline/>
+The IMA of a lever would be the length of the handle divided by the length of the blade. The IMA of the wedges would be the length of the blade divided by its width.</item>
+
+<item>Each handle and its attached to blade is a lever with the fulcrum at the end. Each blade is a wedge.<newline/>
+The IMA of a lever would be the length of the handle divided by the length of the blade. The IMA of the wedges would be the length of the blade divided by its width.</item>
+
+<item>Each handle and its attached blade is a lever with the fulcrum at the hinge. Each blade is a wedge.<newline/>
+The IMA of a lever would be the length of the handle multiplied by the length of the blade. The IMA of the wedges would be the length of the blade multiplied by its width.</item>
+
+<item>Each handle and its attached blade is a lever with the fulcrum at the end. Each blade is a wedge.<newline/>
+The IMA of a lever would be the length of the handle multiplied by the length of the blade. The IMA of the wedges would be the length of the blade multiplied by its width.</item></list>
+<!--<para id="fs-id1167067316901"><link class="os-embed" url="#ost/api/ex/k12phys-ch09-ex057"/></para>-->
+</problem></exercise><exercise id="fs-id1167067114879" class="os-exercise"><problem id="fs-id1167067070900">
+<!--<para id="fs-id1167067070901"><link class="os-embed" url="#ost/api/ex/k12phys-ch09-ex058"/></para>-->
+<para id="fs-id1164567818110">A wooden crate is pulled up a ramp that is 1.0 m high and 6.0 m long. The crate is attached to a rope that is wound around an axle with a radius of 0.020 m . The axle is turned by a 0.20 m long handle. What is the overall IMA of the complex machine?</para>
+<list id="fs-id1164567395183" list-type="enumerated" number-style="upper-alpha">
+<item>6</item>
+<item>10</item>
+<item>16</item>
+<item>60</item></list>
+</problem></exercise>
+
+    </section>
+
+</content>
+<glossary>
+  <definition id="fs-id1167063520375"><term>complex machine</term> <meaning id="fs-id1167066967274">a machine that combines two or more simple machines</meaning></definition>
+  <definition id="fs-id1167067227729"><term>efficiency</term> <meaning id="fs-id1167066993064">output work divided by input work</meaning></definition>
+  <definition id="fs-id1167067210007"><term>ideal mechanical advantage</term> <meaning id="fs-id1167063878406">the mechanical advantage of an idealized machine that loses no energy to friction</meaning></definition>
+  <definition id="fs-id1167061185885"><term>inclined plane</term> <meaning id="fs-id1167063651825">a simple machine consisting of a slope</meaning></definition>
+  <definition id="fs-id1167063687535"><term>input work</term> <meaning id="fs-id1167067261993">effort force multiplied by the distance over which it is applied</meaning></definition>
+  <definition id="fs-id1167067137793"><term>lever</term> <meaning id="fs-id1167066946709">a simple machine consisting of a rigid arm that pivots on a fulcrum</meaning></definition>
+  <definition id="fs-id1167063518891"><term>mechanical advantage</term> <meaning id="fs-id1167066851275">the number of times the input force is multiplied</meaning></definition>
+  <definition id="fs-id1167067061047"><term>output work</term> <meaning id="fs-id1167067206203">output force multiplied by the distance over which it acts</meaning></definition>
+  <definition id="fs-id1167063727637"><term>pulley</term> <meaning id="fs-id1167067165889">a simple machine consisting of a rope that passes over one or more grooved wheels</meaning></definition>
+  <definition id="fs-id1167067257805"><term>screw</term> <meaning id="fs-id1167063588630">a simple machine consisting of a spiral inclined plane</meaning></definition>
+  <definition id="fs-id1167063582582"><term>simple machine</term> <meaning id="fs-id1167067215840">a machine that makes work easier by changing the amount or direction of force required to move an object</meaning></definition>
+  <definition id="fs-id1167066875538"><term>wedge</term> <meaning id="fs-id1167067106109">a simple machine consisting of two back-to-back inclined planes</meaning></definition>
+  <definition id="fs-id1167066868641"><term>wheel and axle</term> <meaning id="fs-id1167067206362">a simple machine consisting of a rod fixed to the center of a wheel</meaning></definition>
+
+</glossary>
+</document>

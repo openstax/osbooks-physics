@@ -1,0 +1,37 @@
+<document xmlns="http://cnx.rice.edu/cnxml" class="introduction">
+
+<title>Introduction</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54268</md:content-id>
+  <md:title>Introduction</md:title>
+  <md:abstract/>
+  <md:uuid>2c3118ee-1433-437d-89f2-be43c5855452</md:uuid>
+</metadata>
+
+<content><note id="fs-id1167067066338" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167063448982">Physics learning objectives come from 112.39 (c) Knowledge and Skills</para>
+</note>
+
+<figure id="Figure_09_00_coaster" class="splash"><media id="fs-id1167066867489" alt="A photograph shows a roller coaster cart in an upside down position inside a roller coaster loop of a track">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_09_00_coaster.jpg"/>
+</media>
+
+<caption>People on a roller coaster experience thrills caused by changes in types of energy. (Jonrev, Wikimedia Commons)</caption></figure><note id="fs-id1167067196987" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067100439">Before students begin this chapter, it is useful to review the following concepts:</para>
+<list id="fs-id1167067272782">
+<item>Using significant figures in calculations—Demonstrate how to use the proper number of significant figures when adding and multiplying.</item>
+<item>Converting units—Demonstrate how to convert from km/h to m/s.</item>
+<item>Calculating average—Demonstrate how to average two numbers by dividing their sum by two.</item>
+<item>Commonly used terms—Explain that constant means <emphasis effect="italics">unchanging</emphasis>, so constant speed refers to speed that is not changing. Explain that initial means <emphasis effect="italics">starting</emphasis>, so initial time is the time at which the action of a problem begins. Explain that an object that is not moving is often described in physics as being at rest.</item>
+<item>Review the difference between mass and weight.</item>
+<item>Review the force of gravity and acceleration due to gravity.</item>
+</list>
+<para id="fs-id1167067008588">Initiate a discussion about how speed changes at different points in a roller coaster ride. Also discuss acceleration and deceleration. Ask students to try to describe the physical experience of these changes.</para>
+</note>
+<para id="fs-id1167063505319">Roller coasters have provided thrills for daring riders around the world since the nineteenth century. Inventors of roller coasters used simple physics to build the earliest examples using railroad tracks on mountainsides and old mines. Modern roller coaster designers use the same basic laws of physics to create the latest amusement park favorites. Physics principles are used to engineer the machines that do the work to lift a roller coaster car up its first big incline before it is set loose to roll. Engineers also have to understand the changes in the car’s energy that keep it speeding over hills, through twists, turns, and even loops.</para>
+
+<para id="fs-id1167066790156">What exactly is energy? How can changes in force, energy, and simple machines move objects like roller coaster cars? How can machines help us do work? In this chapter, you will discover the answer to this question and many more, as you learn about work, energy, and simple machines.</para>
+</content>
+</document>

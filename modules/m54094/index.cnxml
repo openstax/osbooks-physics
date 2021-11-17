@@ -1,0 +1,661 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Velocity vs. Time Graphs</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54094</md:content-id>
+  <md:title>Velocity vs. Time Graphs</md:title>
+  <md:abstract/>
+  <md:uuid>f9ee275f-d930-436a-b90f-0c8f9be53677</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167066108145" class="learning-objectives"><label/><title> Section Learning Objectives</title>
+<para id="fs-id1167064876212">By the end of this section, you will be able to do the following:</para>
+<list id="fs-id1167065960646">
+<item>Explain the meaning of slope and area in velocity vs. time graphs</item>
+<item>Solve problems using velocity vs. time graphs</item>
+</list>
+</note><note id="fs-id1167065774089" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167064649213">The learning objectives in this section will help your students master the following standards:</para><list id="fs-id1167066024718">
+<item>
+<span>(4)</span>
+<span>Science concepts. The student knows and applies the laws governing motion in a variety of situations. The student is expected to:</span>
+    <list id="fs-id1167066141319" list-type="bulleted"><item><span>(A)</span> <span>generate and interpret graphs and charts describing different types of motion, including the use of real-time technology such as motion detectors or photogates.</span></item>
+    </list></item>
+</list>
+</note>
+<section id="keyterms"><title>Section Key Terms</title>
+<table id="fs-id1167065697886" class="unnumbered unstyled section-key-terms" summary="The list of Key Terms includes the word acceleration.">
+<label/>
+<tgroup cols="1">
+<tbody>
+<row>
+<entry>acceleration</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<note id="fs-id1167065764749" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066048242">Ask students to use their knowledge of position graphs to construct velocity vs. time graphs. Alternatively, provide an example of a velocity vs. time graph and ask students what information can be derived from the graph. Ask—Is it the same information as in a position vs. time graph? How is the information portrayed differently? Is there any new information in a velocity vs. time graph?</para>
+</note>
+
+<section id="fs-id1167066037628">
+<title>Graphing Velocity as a Function of Time</title>
+<para id="fs-id1167065820518">Earlier, we examined <term class="no-emphasis">graph</term>s of <term class="no-emphasis">position</term> versus <term class="no-emphasis">time</term>. Now, we are going to build on that information as we look at graphs of <term class="no-emphasis">velocity</term> vs. time. Velocity is the rate of change of <term class="no-emphasis">displacement</term>. <term>Acceleration</term> is the rate of change of velocity; we will discuss acceleration more in another chapter. These concepts are all very interrelated.</para>
+
+<note id="fs-id1167066188879" class="virtual-physics os-interactive"><title>Maze Game</title>
+
+<para id="fs-id1167064914995">In this simulation you will use a vector diagram to manipulate a ball into a certain location without hitting a wall. You can manipulate the ball directly with position or by changing its velocity. Explore how these factors change the motion. If you would like, you can put it on the <emphasis effect="italics">a</emphasis> setting, as well. This is acceleration, which measures the rate of change of velocity. We will explore acceleration in more detail later, but it might be interesting to take a look at it here.</para>
+<media id="fs-id1167067104720" alt="In this game, students will use a vector arrow to explore position and velocity. The task is to get a ball into the pinpointed location without it hitting a wall.">
+<iframe width="660" height="371.4" src="https://openstax.org/l/28mazegame"/></media>
+
+<exercise id="fs-id1167065773080" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167066156469">
+<para id="fs-id1167066025914">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex068"/>
+</para>
+</problem>
+</exercise>
+</note><para id="fs-id1167065939188">What can we learn about motion by looking at velocity vs. time graphs? Let’s return to our drive to school, and look at a graph of position versus time as shown in <link target-id="Figure_02_04_drive"/>.</para>
+
+<figure id="Figure_02_04_drive"><media id="fs-id1167066012169" alt="A line graph titled Position versus Time is shown. The x-axis is labeled time in minutes and has a scale from zero to twenty in increments of one. The y-axis is labeled position, d, in kilometers and has a scale from zero to twelve in increments of one. The line intersects the following data points to form a line that slopes upward and then downward: zero, zero; two, one; four, two; ten, five; twelve, four; fourteen, three; twenty, zero.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_02_04_drive.jpg"/>
+</media>
+
+<caption>A graph of position versus time for the drive to and from school is shown.</caption></figure><para id="fs-id1167066055063">We assumed for our original calculation that your parent drove with a constant velocity to and from school. We now know that the car could not have gone from rest to a constant velocity without speeding up. So the actual graph would be curved on either end, but let’s make the same approximation as we did then, anyway.</para>
+
+<note id="fs-id1167064541094" class="tips-for-success">
+
+<para id="fs-id1167065878215">It is common in physics, especially at the early learning stages, for certain things to be <emphasis effect="italics">neglected</emphasis>, as we see here. This is because it makes the concept clearer or the calculation easier. Practicing physicists use these kinds of short-cuts, as well. It works out because usually the thing being <emphasis effect="italics">neglected</emphasis> is small enough that it does not significantly affect the answer. In the earlier example, the amount of time it takes the car to speed up and reach its cruising velocity is very small compared to the total time traveled.</para>
+</note>
+
+<para id="fs-id1167064746552">Looking at this graph, and given what we learned, we can see that there are two distinct periods to the car’s motion—the way to school and the way back. The average velocity for the drive to school is 0.5 km/minute. We can see that the average velocity for the drive back is –0.5 km/minute. If we plot the data showing velocity versus time, we get another graph (<link target-id="Figure_02_04_velocity"/>):</para>
+
+<figure id="Figure_02_04_velocity"><media id="fs-id1167065046778" alt="A graph that shows time in minutes on the x-axis and velocity in kilometers per minute on the y axis. A horizontal line is show at a velocity of 0.5 that runs from 0 to 10 minutes. Another horizontal line is shown at a velocity of –0.5 that runs from 10 to 20 minutes.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_02_04_velocity.jpg"/>
+</media>
+
+<caption>Graph of velocity versus time for the drive to and from school.</caption></figure><para id="fs-id1167065852951">We can learn a few things. First, we can derive a <emphasis>v</emphasis> versus <emphasis effect="italics">t</emphasis> graph from a <emphasis>d</emphasis> versus <emphasis effect="italics">t</emphasis> graph. Second, if we have a straight-line position–time graph that is positively or negatively sloped, it will yield a horizontal velocity graph. There are a few other interesting things to note. Just as we could use a position vs. time graph to determine velocity, we can use a velocity vs. time graph to determine position. We know that <emphasis>v</emphasis> = <emphasis>d</emphasis>/<emphasis effect="italics">t</emphasis>. If we use a little algebra to re-arrange the equation, we see that <emphasis>d</emphasis> = <emphasis>v</emphasis>  <m:math><m:mo>×</m:mo></m:math>  <emphasis effect="italics">t</emphasis>. In <link target-id="Figure_02_04_velocity"/>, we have velocity on the <emphasis effect="italics">y</emphasis>-axis and time along the <emphasis effect="italics">x</emphasis>-axis. Let’s take just the first half of the motion. We get 0.5 km/minute  <m:math><m:mo>×</m:mo></m:math>  10 minutes. The units for <emphasis effect="italics">minutes</emphasis> cancel each other, and we get 5 km, which is the displacement for the trip to school. If we calculate the same for the return trip, we get –5 km. If we add them together, we see that the net displacement for the whole trip is 0 km, which it should be because we started and ended at the same place.</para><note id="fs-id1167065895883" class="tips-for-success">
+
+<para id="fs-id1167065852654">You can treat units just like you treat numbers, so a km/km=1 (or, we say, it cancels out). This is good because it can tell us whether or not we have calculated everything with the correct units. For instance, if we end up with m × s for velocity instead of m/s, we know that something has gone wrong, and we need to check our math. This process is called dimensional analysis, and it is one of the best ways to check if your math makes sense in physics.</para>
+</note>
+
+<para id="fs-id1167066160434">The area under a velocity curve represents the displacement. The velocity curve also tells us whether the car is speeding up. In our earlier example, we stated that the velocity was constant. So, the car is not speeding up. Graphically, you can see that the slope of these two lines is 0. This slope tells us that the car is not speeding up, or accelerating. We will do more with this information in a later chapter. For now, just remember that the area under the graph and the slope are the two important parts of the graph. Just like we could define a linear equation for the motion in a position vs. time graph, we can also define one for a velocity vs. time graph. As we said, the slope equals the acceleration, <emphasis>a</emphasis>. And in this graph, the <emphasis effect="italics">y</emphasis>-intercept is <emphasis>v</emphasis><sub>0</sub>. Thus,  <m:math>
+ <m:mrow>
+  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle><m:mo>=</m:mo><m:msub>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+   <m:mn>0</m:mn>
+  </m:msub>
+  <m:mo>+</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>a</m:mi></m:mstyle><m:mi>t</m:mi></m:mrow>
+</m:math> .</para><para id="fs-id1167065870659">But what if the velocity is not constant? Let’s look back at our jet-car example. At the beginning of the motion, as the car is speeding up, we saw that its position is a curve, as shown in <link target-id="Figure_02_04_car"/>.</para>
+
+<figure id="Figure_02_04_car"><media id="fs-id1167064948425" alt="A line graph titled Jet Car Displacement is shown. The x-axis is labeled time, t, in seconds and has a scale from zero to forty on increments of ten. The y-axis is labeled displacement, x, in meters and has a scale from zero to three thousand five hundred in increments of five hundred. The following approximate data points are plotted, resulting in a line that curves upward: eight, two hundred fifty; ten, five hundred; fifteen, one thousand; twenty, one thousand five hundred; twenty-five, two thousand; thirty, three thousand. A right triangle is drawn at points eight, two hundred fifty; twelve, two hundred fifty, and twelve seven hundred fifty. The legs are labeled change in tp and change in dp. Point ten, five hundred is labeled P. Another right triangle is drawn at points twenty, one thousand five hundred; thirty, one thousand five hundred, and thirty, three thousand. The legs are labeled change in tq and change in dq. Point twenty-five, two thousand is labeled Q.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_02_04_car.jpg"/>
+</media>
+
+<caption>A graph is shown of the position of a jet-powered car during the time span when it is speeding up. The slope of a d vs. t graph is velocity. This is shown at two points. Instantaneous velocity at any point is the slope of the tangent at that point.</caption></figure><para id="fs-id1167065808654">You do not have to do this, but you could, theoretically, take the instantaneous velocity at each point on this graph. If you did, you would get <link target-id="Figure_02_04_power"/>, which is just a straight line with a positive slope.</para>
+
+<figure id="Figure_02_04_power"><media id="fs-id1167065864880" alt="A line graph titled Jet Car Velocity is shown. The x-axis is labeled time, t, in seconds and has a scale from zero to forty on increments of ten. The y-axis is labeled velocity, v, in meters per second and has a scale from zero to one hundred eighty in increments of twenty. A straight line with a positive slope is plotted that intersects the following approximate points: zero, eighteen; ten, sixty (labeled P); fifteen, ninety; twenty, one hundred twenty; twenty five, one hundred fifty (labeled Q); thirty, one hundred sixty. Slope equals a is shown above the graphed lined.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_02_04_power.jpg"/>
+</media>
+
+<caption>The graph shows the velocity of a jet-powered car during the time span when it is speeding up.</caption></figure><para id="fs-id1167062355411">Again, if we take the slope of the velocity vs. time graph, we get the acceleration, the rate of change of the velocity. And, if we take the area under the slope, we get back to the displacement.</para>
+
+<note id="fs-id1167066183003" class="os-teacher"><title>Teacher Support</title>
+<note id="eip-id1167067294836" class="teacher-demonstration">
+<para id="fs-id1167066032875">Return to the scenario of the drive to and from school. Re-draw the V-shaped position graph. Ask the students what the velocity is at different times on that graph. Students should then be able to see that the corresponding velocity graph is a horizontal line at 0.5km/minute and then a horizontal line at –0.5 km/minute. Then draw a few velocity graphs and see if they can get the corresponding position graph.</para>
+<para id="fs-id1167066027183"><span>[OL]</span><span>[AL]</span> Have students describe the relationship between the velocity and the position on these graphs. Ask—Can a velocity graph be used to find the position? Can a velocity graph be used to find anything else?</para>
+<para id="fs-id1167066096612"><span>[AL]</span> What is wrong with this graph? Ask students whether the velocity could actually be constant from rest or shift to negative so quickly. What would more realistic graphs look like? How inaccurate is it to ignore the non-constant portion of the motion?</para>
+<para id="fs-id1167065774538"><span>[OL]</span> Students should be able to see that if a position graph is a straight line, then the velocity graph will be a horizontal line. Also, the instantaneous velocity can be read off the velocity graph at any moment, but more steps are needed to calculate the average velocity.</para>
+<para id="fs-id1167065949263"><span>[AL]</span> Guide students in seeing that the area under the velocity curve is actually the position and the slope represents the rate of change of the velocity, just as the slope of the position line represents the rate of change of the position.</para>
+</note></note></section>
+
+<section id="fs-id1167066025160">
+<title>Solving Problems using Velocity–Time Graphs</title>
+<para id="fs-id1167065853839">Most velocity vs. time graphs will be straight lines. When this is the case, our calculations are fairly simple.</para>
+
+<note id="fs-id1167065772688" class="worked-example"><title>Using Velocity Graph to Calculate Some Stuff: Jet Car</title>
+
+<exercise id="fs-id1167066032665" class="02-ex069 unnumbered"><label/>
+<problem id="fs-id1167066141981">
+<para id="fs-id1167065851553">Use this figure to (a) find the displacement of the jet car over the time shown (b) calculate the rate of change (acceleration) of the velocity. (c) give the instantaneous velocity at 5 s, and (d) calculate the average velocity over the interval shown.</para>
+
+<note id="fs-id1167065844371">
+<label/>
+<title>Strategy</title>
+<list id="fs-id1167065034069" mark-prefix="(" mark-suffix=")" list-type="enumerated" number-style="lower-alpha"><item>The displacement is given by finding the area under the line in the velocity vs. time graph.</item>
+<item>The acceleration is given by finding the slope of the velocity graph.</item>
+<item>The instantaneous velocity can just be read off of the graph.</item>
+<item>To find the average velocity, recall that  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+   <m:mrow>
+    <m:mtext>avg</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>Δ</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>d</m:mi></m:mstyle></m:mrow>
+   <m:mrow>
+    <m:mi>Δ</m:mi><m:mi>t</m:mi></m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msub>
+     <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>d</m:mi></m:mstyle>
+     <m:mtext>f</m:mtext>
+    </m:msub>
+    <m:mo>−</m:mo><m:msub>
+     <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>d</m:mi></m:mstyle>
+     <m:mn>0</m:mn>
+    </m:msub>
+    </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mi>t</m:mi>
+     <m:mtext>f</m:mtext>
+    </m:msub>
+    <m:mo>−</m:mo><m:msub>
+     <m:mi>t</m:mi>
+     <m:mn>0</m:mn>
+    </m:msub>
+    </m:mrow>
+  </m:mfrac>
+  </m:mrow>
+</m:math> </item>
+</list></note>
+</problem>
+
+<solution id="fs-id1167065849758"><label/>
+<title>Solution</title>
+<list id="fs-id1167065722546" mark-prefix="(" mark-suffix=")" list-type="enumerated" number-style="lower-alpha"><item>
+    <list id="fs-id1167065984266" list-type="enumerated" number-style="arabic">
+    <item>Analyze the shape of the area to be calculated. In this case, the area is made up of a rectangle between 0 and 20 m/s stretching to 30 s. The area of a rectangle is length  <m:math><m:mo>×</m:mo></m:math>  width. Therefore, the area of this piece is 600 m.</item>
+<item>Above that is a triangle whose base is 30 s and height is 140 m/s. The area of a triangle is 0.5  <m:math><m:mo>×</m:mo></m:math>  length  <m:math><m:mo>×</m:mo></m:math>  width. The area of this piece, therefore, is 2,100 m.</item>
+    <item>Add them together to get a net displacement of 2,700 m.</item>
+    </list>
+</item>
+<item>
+    <list id="fs-id1167066155974" list-type="enumerated" number-style="arabic"><item>Take two points on the velocity line. Say, <emphasis effect="italics">t</emphasis> = 5 s and <emphasis effect="italics">t</emphasis> = 25 s. At <emphasis effect="italics">t</emphasis> = 5 s, the value of <emphasis>v</emphasis> = 40 m/s.<newline/> At <emphasis effect="italics">t</emphasis> = 25 s, <emphasis>v</emphasis> = 140 m/s.</item>
+    <item>Find the slope. <m:math>
+ <m:mrow>
+  <m:mtable>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center" columnalign="right">
+     <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>a</m:mi></m:mstyle>
+    </m:mtd>
+    <m:mtd rowalign="center"><m:mo>=</m:mo></m:mtd>
+    <m:mtd rowalign="center" columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mi>Δ</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle></m:mrow>
+       <m:mrow>
+        <m:mi>Δ</m:mi><m:mi>t</m:mi></m:mrow>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd rowalign="center" columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mn>100</m:mn><m:mspace width="0.3em"/><m:mtext> m/s</m:mtext></m:mrow>
+       <m:mrow>
+        <m:mn>20</m:mn><m:mspace width="0.3em"/><m:mtext> s</m:mtext></m:mrow>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd rowalign="center" columnalign="left">
+     <m:mrow>
+      <m:mn>5</m:mn><m:msup>
+       <m:mrow>
+        <m:mtext> m/s</m:mtext></m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable></m:mrow>
+</m:math> </item>    </list></item>
+<item>The instantaneous velocity at <emphasis effect="italics">t</emphasis> = 5 s, as we found in part (b) is just 40 m/s.</item>
+<item>
+<list id="fs-id1167066140943" list-type="enumerated" number-style="arabic">
+<item>Find the net displacement, which we found in part (a) was 2,700 m.</item>
+<item>Find the total time which for this case is 30 s.</item>
+<item>Divide 2,700 m/30 s = 90 m/s.</item>
+</list>
+</item>
+</list></solution>
+<commentary id="fs-id1167066138915">
+<title>Discussion</title>
+<para id="fs-id1167066095565">The average velocity we calculated here makes sense if we look at the graph. 100m/s falls about halfway across the graph and since it is a straight line, we would expect about half the velocity to be above and half below.</para>
+</commentary>
+</exercise></note><note id="fs-id1167065948067" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066046192">The quantities solved for are slightly different in the different kinds of graphs, but students should begin to see that the process of analyzing or breaking down any of these graphs is similar. Ask—Where are the turning points in the motion? When is the object moving forward? What does a curve in the graph mean? Also, students should start to have an intuitive understanding of the relationship between position and velocity graphs.</para>
+</note>
+
+<note id="fs-id1167065942181" class="tips-for-success">
+
+<para id="fs-id1167065712988">You can have negative position, velocity, and acceleration on a graph that describes the way the object is moving. You should never see a graph with negative time on an axis. Why?</para>
+</note>
+
+<para id="fs-id1167065734105">Most of the velocity vs. time graphs we will look at will be simple to interpret. Occasionally, we will look at curved graphs of velocity vs. time. More often, these curved graphs occur when something is speeding up, often from rest. Let’s look back at a more realistic velocity vs. time graph of the jet car’s motion that takes this <emphasis effect="italics">speeding up</emphasis> stage into account.</para>
+
+<figure id="Figure_02_04_accurate"><media id="fs-id1167065733764" alt="A line graph titled Jet Car Velocity is shown. The x-axis is labeled time, t, in seconds and has a scale from zero to eighty on increments of ten. The y-axis is labeled velocity, v, in meters per second and has a scale from one hundred sixty to two hundred sixty in increments of ten. The following approximate data points are plotted and connected to form a line that curves upward, and then becomes flat: zero, one hundred sixty five; ten, two hundred ten; twenty, two hundred thirty; thirty, two hundred forty; forty, two hundred forty-five; fifty, two hundred forty-five; sixty, two hundred forty-five; seventy, two hundred forty-five. A right triangle is drawn, with a hypotenuse that intersects points twenty, two hundred thirty and thirty, two hundred forty. The bottom leg of the triangle has ends at points zero, two hundred ten and fifty, two hundred ten and is labeled change in t. The upright leg has ends at points fifty, two hundred ten and fifty, two hundred sixty and is labeled change in v.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_02_04_accurate.jpg"/>
+</media>
+
+<caption>The graph shows a more accurate graph of the velocity of a jet-powered car during the time span when it is speeding up.</caption></figure><note id="fs-id1167065822408" class="worked-example"><title>Using Curvy Velocity Graph to Calculate Some Stuff: jet car, Take Two</title>
+
+
+<exercise id="fs-id1167065729949" class="02-ex070 unnumbered"><label/>
+<problem id="fs-id1167065770291">
+<para id="fs-id1167065894110">Use <link target-id="Figure_02_04_accurate"/> to (a) find the approximate displacement of the jet car over the time shown, (b) calculate the instantaneous acceleration at <emphasis effect="italics">t</emphasis> = 30 s, (c) find the instantaneous velocity at 30 s, and (d) calculate the approximate average velocity over the interval shown.</para><note id="fs-id1167065769339"><label/><title>Strategy</title>
+
+<list id="fs-id1167065878285" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>Because this graph is an undefined curve, we have to estimate shapes over smaller intervals in order to find the areas.</item>
+<item>Like when we were working with a curved displacement graph, we will need to take a tangent line at the instant we are interested and use that to calculate the instantaneous acceleration.</item>
+<item>The instantaneous velocity can still be read off of the graph.</item>
+<item>We will find the average velocity the same way we did in the previous example.</item>
+</list>
+</note>
+</problem>
+<solution id="fs-id1167066029853"><label/>
+<title>Solution</title>
+<list id="fs-id1167065728740" mark-prefix="(" mark-suffix=")" list-type="enumerated" number-style="lower-alpha"><item>
+    <list id="fs-id1167066138820" list-type="enumerated" number-style="arabic">
+    <item>This problem is more complicated than the last example. To get a good estimate, we should probably break the curve into four sections. 0 → 10 s, 10 → 20 s, 20 → 40 s, and 40 → 70 s.</item>
+    <item>Calculate the bottom rectangle (common to all pieces). 165 m/s  <m:math>
+     <m:mo>×</m:mo>
+    </m:math>  70 s = 11,550 m.</item>
+    <item>Estimate a triangle at the top, and calculate the area for each section. Section 1 = 225 m; section 2 = 100 m + 450 m = 550 m; section 3 = 150 m + 1,300 m = 1,450 m; section 4 = 2,550 m.</item>
+    <item>Add them together to get a net displacement of 16,325 m.</item>
+    </list>
+</item>
+<item>Using the tangent line given, we find that the slope is 1 m/s<sup>2</sup>.</item>
+<item>The instantaneous velocity at <emphasis effect="italics">t</emphasis> = 30 s, is 240 m/s.</item>
+<item>
+<list id="fs-id1167066156379" list-type="enumerated" number-style="arabic">
+<item>Find the net displacement, which we found in part (a), was 16,325 m.</item>
+<item>Find the total time, which for this case is 70 s.</item>
+<item>Divide <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mn>16,325</m:mn><m:mspace width="0.3em"/><m:mtext> m</m:mtext></m:mrow>
+   <m:mrow>
+    <m:mn>70</m:mn><m:mspace width="0.3em"/><m:mtext> s</m:mtext></m:mrow>
+  </m:mfrac>
+  <m:mo>∼</m:mo><m:mn>233</m:mn><m:mspace width="0.3em"/><m:mtext> m/s</m:mtext></m:mrow>
+</m:math> </item>
+</list>
+</item>
+</list></solution>
+<commentary id="fs-id1167064531243">
+<title>Discussion</title>
+<para id="fs-id1167065980209">This is a much more complicated process than the first problem. If we were to use these estimates to come up with the average velocity over just the first 30 s we would get about 191 m/s. By approximating that curve with a line, we get an average velocity of 202.5 m/s. Depending on our purposes and how precise an answer we need, sometimes calling a curve a straight line is a worthwhile approximation.</para>
+</commentary>
+</exercise></note><note id="fs-id1167066055957" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167064626661">Finding the tangent line can be a challenging concept for high school students, and they need to understand it theoretically. If you drew a regular curve inside of the curve at the point you are interested in, you could draw a radius of that curve. The tangent line would be the line perpendicular to that radius.</para>
+<para id="fs-id1167065823325"><span>[OL]</span> Have the students compare this problem and the last one. Ask—What is the difference? When would you care about the more accurate picture of the motion? And when would it really not matter? Why would you ever want to look at a less accurate depiction of motion?</para>
+</note>
+</section>
+
+<section id="fs-id1167065853790" class="practice-problems"><title>Practice Problems</title><exercise id="fs-id1167066069168">
+<label/>
+<problem id="fs-id1167065713507">
+<!--<para id="fs-id1167065844590">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex071"/>
+</para>-->
+<figure id="fs-id1169830667228">
+<media id="fs-id1169832910346" alt="no alt text">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_02_04_ve.jpg"/>
+</media>
+<caption/>
+</figure>
+<para id="fs-id1169832912002">Consider the velocity vs. time graph shown below of a person in an elevator. Suppose the elevator is initially at rest. It then speeds up for 3 seconds, maintains that velocity for 15 seconds, then slows down for 5 seconds until it stops. Find the instantaneous velocity at <emphasis effect="italics">t</emphasis> = 10 s and <emphasis effect="italics">t</emphasis> = 23 s.</para>
+<list id="fs-id1169830626665" list-type="enumerated" number-style="lower-alpha">
+<item>Instantaneous velocity at <emphasis effect="italics">t</emphasis> = 10 s and <emphasis effect="italics">t</emphasis> = 23 s are 0 m/s and 0 m/s.</item>
+<item>Instantaneous velocity at <emphasis effect="italics">t</emphasis> = 10 s and <emphasis effect="italics">t</emphasis> = 23 s are 0 m/s and 3 m/s.</item>
+<item>Instantaneous velocity at <emphasis effect="italics">t</emphasis> = 10 s and <emphasis effect="italics">t</emphasis> = 23 s are 3 m/s and 0 m/s.</item>
+<item>Instantaneous velocity at <emphasis effect="italics">t</emphasis> = 10 s and <emphasis effect="italics">t</emphasis> = 23 s are 3 m/s and 1.5 m/s.</item>
+</list>
+</problem>
+</exercise>
+
+<exercise id="fs-id1167065854993">
+<label/>
+<problem id="fs-id1167066112598">
+<!--<para id="fs-id1167065658788">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex072"/>
+</para>-->
+<figure id="fs-id1169832945716">
+<media id="fs-id1169831643166" alt="no alt text">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_02_04_ve.jpg"/>
+</media>
+<caption/>
+</figure>
+<para id="fs-id1169833255316">Calculate the net displacement and the average velocity of the elevator over the time interval shown.</para>
+<list id="fs-id1169830746309" list-type="enumerated" number-style="lower-alpha">
+<item>Net displacement is 45 m and average velocity is 2.10 m/s.</item>
+<item>Net displacement is 45 m and average velocity is 2.28 m/s.</item>
+<item>Net displacement is 57 m and average velocity is 2.66 m/s.</item>
+<item>Net displacement is 57 m and average velocity is 2.48 m/s.</item>
+</list>
+</problem>
+</exercise>
+
+<note id="fs-id1167065770361" class="snap-lab"><title>Graphing Motion, Take Two</title>
+
+<para id="fs-id1167065886210">In this activity, you will graph a moving ball’s velocity vs. time.</para>
+
+<list id="fs-id1167065882468" class="materials">
+
+<item>your graph from the earlier Graphing Motion Snap Lab!</item>
+<item>1 piece of graph paper</item>
+<item>1 pencil</item>
+</list>
+
+<list id="fs-id1167066155851" list-type="enumerated" number-style="arabic"><title>Procedure</title>
+<item>Take your graph from the earlier Graphing Motion Snap Lab! and use it to create a graph of velocity vs. time.</item>
+<item>Use your graph to calculate the displacement.</item>
+</list><exercise id="fs-id1167065747608" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167065968421">
+<para id="fs-id1167065911716">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex073"/>
+</para>
+</problem>
+</exercise>
+</note><note id="fs-id1167065802396" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065796295">In this lab, students will use the displacement graph they drew in the last snap lab to create a velocity graph. If the rolling ball slowed down in the last snap lab, perhaps due to the ramp being too low, then the graph may not show constant velocity.</para>
+</note>
+</section><section id="fs-id1167065791413" class="check-understanding">
+<title>Check Your Understanding</title>
+<exercise id="fs-id1167065948563" class="os-exercise">
+<problem id="fs-id1167065865383">
+<para id="fs-id1167065891557">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex074"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167064994334" class="os-exercise">
+<problem id="fs-id1167065847229">
+<para id="fs-id1167066015013">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex075"/>
+</para>
+</problem>
+</exercise>
+<note id="fs-id1167065651473" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065949537">Use the <emphasis effect="italics">Check Your Understanding</emphasis> questions to assess students’ achievement of the section’s learning objectives. If students are struggling with a specific objective, the <emphasis effect="italics">Check Your Understanding</emphasis> will help direct students to the relevant content.</para></note>
+</section>
+
+<section id="fs-id1167066091922" class="summary">
+<title>Section Summary</title>
+<list id="fs-id1167065801770">
+<item>The slope of a velocity vs. time graph is the acceleration.</item>
+<item>The area under a velocity vs. time curve is the displacement.</item>
+<item>Average velocity can be found in a velocity vs. time graph by taking the weighted average of all the velocities.</item>
+</list>
+</section>
+
+<section id="fs-id1167065046896" class="key-equations"><title>Key Equations</title><table id="fs-id1167064962173" class="unnumbered unstyled" summary="The list of Key Equations includes equations for velocity and acceleration.">
+<label/>
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry>Velocity</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle><m:mo>=</m:mo><m:msub>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+   <m:mn>0</m:mn>
+  </m:msub>
+  <m:mo>+</m:mo><m:mi>a</m:mi><m:mi>t</m:mi></m:mrow>
+</m:math> </entry>
+</row>
+<row>
+<entry>Acceleration</entry>
+<entry> <m:math>
+ <m:mrow>
+ <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>a</m:mi></m:mstyle><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>Δ</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle></m:mrow>
+   <m:mrow>
+    <m:mi>Δ</m:mi><m:mi>t</m:mi></m:mrow>
+  </m:mfrac>
+  </m:mrow>
+</m:math> </entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table></section><section id="fs-id1167064876735" class="concept">
+<title>Concept Items</title>
+<exercise id="fs-id1167066056614" class="os-exercise"><problem id="fs-id1167064905099">
+<para id="fs-id1167064845687">A graph of velocity vs. time of a ship coming into a harbor is shown.
+
+</para>
+<media id="graphy" alt="no alt text">
+
+  <image mime-type="image/jpeg" src="../../media/TEA_HSPhysics_02 ML_SR-14ae.jpg"/>
+
+</media>
+<para id="eip-idm214550256">Describe the acceleration of the ship based on the graph.</para>
+<list id="eip-idm471227472" list-type="enumerated" number-style="lower-alpha"><item>The ship is moving in the forward direction at a steady rate. Then it accelerates in the forward direction and then decelerates.</item>
+<item>The ship is moving in the forward direction at a steady rate. Then it turns around and starts decelerating, while traveling in the reverse direction. It then accelerates, but slowly.</item>
+<item>The ship is moving in the forward direction at a steady rate. Then it decelerates in the forward direction, and then continues to slow down in the forward direction, but with more deceleration.</item>
+<item>The ship is moving in the forward direction at a steady rate. Then it decelerates in the forward direction, and then continues to slow down in the forward direction, but with less deceleration.</item></list></problem>
+</exercise></section>
+
+<section id="fs-id1167066045545" class="critical-thinking"><title>Critical Thinking</title><exercise id="fs-id1167065926855" class="os-exercise"><problem id="fs-id1167065769633">
+<!--<para id="fs-id1167062536688">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex077"/>
+</para>--><para id="eip-idm513643456">Identify the time, or times, at which the instantaneous velocity is greatest, and the time, or times, at which it is negative. A sketch of velocity vs. time derived from the figure will aid in arriving at the correct answers.</para>
+
+<media id="fs-id1164567036428" alt="A graph plots time t on the x axis and position x on the y axis. The graph resembles a sine wave, beginning by going downward, then gradually sloping upward, then slightly downward, and more upward again. Points along the line are labeled a, b, c, d, e, f, g, h, I, j, k, and l.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_02_04_pos_vs_time.jpg"/>
+</media>
+
+<list id="fs-id1164565860684" list-type="enumerated" number-style="lower-alpha">
+<item>The instantaneous velocity is greatest at <emphasis effect="italics">f</emphasis>, and it is negative at <emphasis effect="italics">d</emphasis>, <emphasis effect="italics">h</emphasis>, <emphasis effect="italics">I</emphasis>, <emphasis effect="italics">j</emphasis>, and <emphasis effect="italics">k</emphasis>.</item>
+<item>The instantaneous velocity is greatest at <emphasis effect="italics">e</emphasis>, and it is negative at <emphasis effect="italics">a</emphasis>, <emphasis effect="italics">b</emphasis>, and <emphasis effect="italics">f</emphasis>.</item>
+<item>The instantaneous velocity is greatest at <emphasis effect="italics">f</emphasis>, and it is negative at <emphasis effect="italics">d</emphasis>, <emphasis effect="italics">h</emphasis>, <emphasis effect="italics">I</emphasis>, <emphasis effect="italics">j</emphasis>, and <emphasis effect="italics">k</emphasis></item>
+<item>The instantaneous velocity is greatest at <emphasis effect="italics">d</emphasis>, and it is negative at <emphasis effect="italics">a</emphasis>, <emphasis effect="italics">b</emphasis>, and <emphasis effect="italics">f</emphasis>.</item>
+</list>
+</problem>
+</exercise></section>
+<section id="fs-id1167064825600" class="problems">
+<title>Problems</title>
+<exercise id="fs-id1163727017481">
+<problem id="fs-id1163727032869">
+<para id="fs-id1163727084296">You are characterizing the motion of an object by measuring the location of the object at discrete moments in time. What is the minimum number of data points you would need to estimate the average acceleration of the object?</para>
+<list id="fs-id1163727012582" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>1</item>
+<item>2</item>
+<item>3</item>
+<item>4</item>
+</list>
+</problem>
+<solution id="fs-id1163727429308">
+<para id="fs-id1163727036183">The correct answer is (c). A single point tells you only the object’s location at a particular time. Two points allow calculation of the average speed during that time interval, but do not provide information about the acceleration. Three data points are sufficient to provide information on the average acceleration, since they allow determination of average velocities for two different intervals in time.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167065874716" class="os-exercise"><problem id="fs-id1167064875744">
+<!--<para id="fs-id1167065914883">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex078"/>
+</para>--><para id="fs-id1169829708740">Which option best describes the average acceleration from 40 to 70 s?</para><media id="fs-id1169833140253" alt="A graph titled velocity vs. time plots time (s) on the x axis and velocity (m/s) on the y-axis. The line begins around 160 meters per second and approaches 250 meters per second as the time approaches 60 seconds.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_02_04_flat_img.jpg"/>
+</media><list id="fs-id1169833249566" list-type="enumerated" number-style="lower-alpha"><item>It is negative and smaller in magnitude than the initial acceleration.</item>
+<item>It is negative and larger in magnitude than the initial acceleration.</item>
+<item>It is positive and smaller in magnitude than the initial acceleration.</item>
+<item>It is positive and larger in magnitude than the initial acceleration.</item>
+</list></problem>
+</exercise><exercise id="fs-id1167065879719" class="os-exercise"><problem id="fs-id1167065800809">
+<!--<para id="fs-id1167066152184">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex079"/>
+</para>--><para id="eip-idm205406080">The graph shows velocity vs. time.</para>
+<media id="fs-id1164566987507" alt="A graph titled velocity vs. time plots time (s) on the x axis and velocity (m/s) on the y-axis. The line begins around 160 meters per second and approaches 250 meters per second as the time approaches 60 seconds.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_02_04_flat_img.jpg"/>
+</media>
+<para id="fs-id1164567395801">Calculate the net displacement using seven different divisions. Calculate it again using two divisions: 0 → 40 s and 40 → 70 s . Compare. Using both, calculate the average velocity.</para>
+<list id="fs-id1164565661766" list-type="enumerated" number-style="lower-alpha">
+<item>Displacement and average velocity using seven divisions are 14,312.5 m and 204.5 m/s while with two divisions are 15,500 m and 221.4 m/s respectively.</item>
+<item>Displacement and average velocity using seven divisions are 15,500 m and 221.4 m/s while with two divisions are 14,312.5 m and 204.5 m/s respectively.</item>
+<item>Displacement and average velocity using seven divisions are 15,500 m and 204.5 m/s while with two divisions are 14,312.5 m and 221.4 m/s respectively.</item>
+<item>Displacement and average velocity using seven divisions are 14,312.5 m and 221.4 m/s while with two divisions are 15,500 m and 204.5 m/s respectively.</item>
+</list>
+</problem>
+</exercise></section>
+
+<section id="fs-id1167065822246" class="performance"><title>Performance Task</title><exercise id="fs-id1167064909696"><problem id="fs-id1167064909698"><para id="fs-id1167066095421">The National Mall in Washington, DC, is a national park containing most of the highly treasured memorials and museums of the United States. However, the National Mall also hosts many events and concerts. The map below shows the area for a benefit concert during which the president will speak. The concert stage is near the Lincoln Memorial. The seats and standing room for the crowd will stretch from the stage east to near the Washington Monument, as shown on the map. You are planning the logistics for the concert. Use the map scale to measure any distances needed to make the calculations below.</para>
+
+<media id="fs-id1167065865867" alt="A map drawing of the National Mall area of Washington, DC is shown. A red line is drawn on the map to show the presidential motorcade route from the White House at the top right of the map to a concert stage near the Lincoln Memorial at the bottom left of the map.  Three points, one, two, and three, are plotted in the center of the map. Points one and two are directly across from each other. Point three is in between and slightly above points one and two.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_02_04_map_img.jpg"/>
+</media>
+<para id="fs-id1167065945596">The park has three new long-distance speakers. They would like to use these speakers to broadcast the concert audio to other parts of the National Mall. The speakers can project sound up to 0.35 miles away but they must be connected to one of the power supplies within the concert area. What is the minimum amount of wire needed for each speaker, in miles, in order to project the audio to the following areas? Assume that wire cannot be placed over buildings or any memorials.</para><para id="eip-id1166847697297">Part A. The center of the Jefferson Memorial using power supply 1 (This will involve an elevated wire that can travel over water.)</para><para id="eip-id1166847277612">Part B. The center of the Ellipse using power supply 3 (This wire cannot travel over water.)</para><para id="eip-id1166849855980">Part C. The president’s motorcade will be traveling to the concert from the White House. To avoid concert traffic, the motorcade travels from the White House west down E Street and then turns south on 23rd Street to reach the Lincoln memorial. What minimum speed, in miles per hour to the nearest tenth, would the motorcade have to travel to make the trip in 5 minutes?</para><para id="eip-id1166850274856">Part D. The president could also simply fly from the White House to the Lincoln Memorial using the presidential helicopter, Marine 1. How long would it take Marine 1, traveling slowly at 30 mph, to travel from directly above the White House landing zone (LZ) to directly above the Lincoln Memorial LZ? Disregard liftoff and landing times and report the travel time in minutes to the nearest minute.</para><note id="fs-id1167062361848" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167062452928">The content in this chapter will help your students master the following NGSS:</para>
+<para id="fs-id1167066029265">HS-PS2-1: Analyze data to support the claim that Newton's second law of motion describes the mathematical relationship among the net force on a macroscopic object, its mass, and its acceleration.</para>
+</note>
+</problem></exercise></section>
+
+<section id="fs-id1167065762853" class="multiple-choice">
+<title>Test Prep Multiple Choice</title>
+<exercise id="fs-id1167065792383" class="os-exercise">
+<problem id="fs-id1167065671452">
+<para id="fs-id1167065765390">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex080"/>
+</para>
+</problem>
+</exercise>
+
+<exercise id="fs-id1167065941054" class="os-exercise">
+<problem id="fs-id1167064819148">
+<para id="fs-id1167065957231">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex081"/>
+</para>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167065959467" class="short-answer">
+<title>Test Prep Short Answer</title>
+<exercise id="fs-id1167065947259" class="os-exercise"><problem id="fs-id1167065853948">
+<!--<para id="fs-id1167065965275">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex082"/>
+</para>--><para id="eip-idm322086144">What would the velocity vs. time graph of the object whose position is shown in the graph look like?</para>
+<media id="fs-id1169832876953" alt="no alt text">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_02_04_pos_img.jpg"/>
+</media>
+<list id="fs-id1169829487901" list-type="enumerated" number-style="lower-alpha">
+<item>It is a straight line with negative slope.</item>
+<item>It is a straight line with positive slope.</item>
+<item>It is a horizontal line at some negative value.</item>
+<item>It is a horizontal line at some positive value.</item>
+</list>
+</problem>
+</exercise><exercise id="fs-id1167062339456" class="os-exercise"><problem id="fs-id1167065740440">
+<!--<para id="fs-id1167065838533">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex083"/>
+</para>--><para id="eip-idm211795744">Which statement correctly describes the object’s speed, as well as what a graph of acceleration vs. time would look like?</para>
+<media id="fs-id1169829453924" alt="A graph titled velocity vs. time plots time (s) on the x axis and velocity (m/s) on the y-axis. At time zero, the velocity is about 15 meters per second. The line extends at a constant rate and reaches a velocity of 170 at a time of 30 seconds.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_02_04_vel_t_img.jpg"/>
+</media>
+
+<list id="fs-id1169829504276" list-type="enumerated" number-style="lower-alpha">
+<item>The object is not speeding up, and the acceleration vs. time graph is a horizontal line at some negative value.</item>
+<item>The object is not speeding up, and the acceleration vs. time graph is a horizontal line at some positive value.</item>
+<item>The object is speeding up, and the acceleration vs. time graph is a horizontal line at some negative value.</item>
+<item>The object is speeding up, and the acceleration vs. time graph is a horizontal line at some positive value.</item>
+</list>
+</problem>
+</exercise><exercise id="fs-id1167065894206" class="os-exercise"><problem id="fs-id1167066139509">
+<!--<para id="fs-id1167066123188">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex084"/>
+</para>--><para id="eip-idm255198176">Calculate that object’s net displacement over the time shown.</para>
+<media id="fs-id1164567912619" alt="A graph titled velocity vs. time plots time (s) on the x axis and velocity (m/s) on the y-axis. At time zero, the velocity is about 15 meters per second. The line extends at a constant rate and reaches a velocity of 170 at a time of 30 seconds.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_02_04_vel_t_img.jpg"/>
+</media>
+
+<list id="fs-id1164567840258" list-type="enumerated" number-style="lower-alpha">
+<item>540 m</item>
+<item>2,520 m</item>
+<item>2,790 m</item>
+<item>5,040 m</item>
+</list>
+</problem>
+</exercise><exercise id="fs-id1167066104876" class="os-exercise"><problem id="fs-id1167064871760">
+<para id="fs-id1167065885349">What is the object’s average velocity?
+
+</para>
+<media id="eip-idm657774256" alt="A graph titled velocity vs. time plots time (s) on the x axis and velocity (m/s) on the y-axis. At time zero, the velocity is about 15 meters per second. The line extends at a constant rate and reaches a velocity of 170 at a time of 30 seconds.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_02_04_vel_t_img.jpg"/>
+</media>
+<list id="eip-idm392308800" list-type="enumerated" number-style="lower-alpha"><item>18 m/s</item>
+<item>84 m/s</item>
+<item>93 m/s</item>
+<item>168 m/s</item></list></problem>
+</exercise></section>
+
+<section id="fs-id1167065823636" class="extended-response">
+    <title>Test Prep Extended Response</title>
+<exercise id="fs-id1167065872640" class="os-exercise"><problem id="fs-id1167064620056">
+<!--<para id="fs-id1167065864920">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex086"/>
+</para>--><para id="eip-idm392418992">Consider the motion of the object whose velocity is charted in the graph.</para>
+<media id="fs-id1164565471831" alt="A graph plots time t on the x axis and velocity v on the y axis. The line extends from the origin upward and to the right and plots points a, b, c, and d. At point d, the line begins to slope downward to point e. At point e, the line then begins to slope gradually upward through points f, g, and h, then drops off sharply through points I, j, k, and land on point l on the x axis again.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_02_04_v_t_img.jpg"/>
+</media>
+<para id="fs-id1164567839675">During which points is the object slowing down and speeding up?</para><list id="fs-id1164565546672" list-type="enumerated" number-style="lower-alpha">
+<item>It is slowing down between <emphasis effect="italics">d</emphasis> and <emphasis effect="italics">e</emphasis>. It is speeding up between <emphasis effect="italics">a</emphasis> and <emphasis effect="italics">d</emphasis> and <emphasis effect="italics">e</emphasis> and <emphasis effect="italics">h</emphasis></item>
+<item>It is slowing down between <emphasis effect="italics">a</emphasis> and <emphasis effect="italics">d</emphasis> and <emphasis effect="italics">e</emphasis> and <emphasis effect="italics">h</emphasis>. It is speeding up between <emphasis effect="italics">d</emphasis> and <emphasis effect="italics">e</emphasis> and then after <emphasis effect="italics">i</emphasis>.</item>
+<item>It is slowing down between <emphasis effect="italics">d</emphasis> and <emphasis effect="italics">e</emphasis> and then after <emphasis effect="italics">h</emphasis>. It is speeding up between <emphasis effect="italics">a</emphasis> and <emphasis effect="italics">d</emphasis> and <emphasis effect="italics">e</emphasis> and <emphasis effect="italics">h</emphasis>.</item>
+<item>It is slowing down between <emphasis effect="italics">a</emphasis> and <emphasis effect="italics">d</emphasis> and <emphasis effect="italics">e</emphasis> and <emphasis effect="italics">h</emphasis>. It is speeding up between <emphasis effect="italics">d</emphasis> and <emphasis effect="italics">e</emphasis> and then after <emphasis effect="italics">i</emphasis>.</item>
+</list>
+</problem>
+</exercise><exercise id="fs-id1167066021140" class="os-exercise"><problem id="fs-id1167065846310">
+<para id="fs-id1167065772464">
+<!--<link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex087"/><newline/>-->
+Divide the graph into approximate sections, and use those sections to graph the velocity vs. time of the object.
+</para>
+<media id="end" alt="no alt text">
+  <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_02_04_pvst_img.jpg"/>
+</media>
+<para id="eip-idm240278992">Then calculate the acceleration during each section, and calculate the approximate average velocity.</para>
+<list id="eip-idm252809344" list-type="enumerated" number-style="lower-alpha"><item>Acceleration is zero and average velocity is 1.25 m/s.</item>
+<item>Acceleration is constant with some positive value and average velocity is 1.25 m/s.</item>
+<item>Acceleration is zero and average velocity is 0.25 m/s.</item>
+<item>Acceleration is constant with some positive value and average velocity is 0.25 m/s.</item></list></problem>
+</exercise></section>
+
+</content>
+<glossary>
+<definition id="fs-id1167065821569"><term>acceleration</term>
+<meaning id="fs-id1167064825385">the rate at which velocity changes</meaning>
+</definition>
+</glossary>
+</document>

@@ -1,0 +1,973 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Motors, Generators, and Transformers</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54467</md:content-id>
+  <md:title>Motors, Generators, and Transformers</md:title>
+  <md:abstract/>
+  <md:uuid>bf9a08b1-664a-4576-948b-1b75fec4cf18</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167062867773" class="learning-objectives">
+<label/>
+<title>Section Learning Objectives</title>
+<para id="fs-id1167066165014">By the end of this section, you will be able to do the following:</para>
+<list id="fs-id1169833241110" list-type="bulleted">
+<item>Explain how electric motors, generators, and transformers work</item>
+<item>Explain how commercial electric power is produced, transmitted, and distributed</item>
+</list>
+</note>
+
+<note id="fs-id1167066097497" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167064529227">The learning objectives in this section will help your students master the following standards:</para>
+<list id="fs-id1167062348150"><item>(5) The student knows the nature of forces in the physical world. The student is expected to:
+<list id="fs-id1167064755502"><item>
+<span>(G)</span>
+<span>investigate and describe the relationship between electric and magnetic fields in applications such as generators, motors, and transformers.</span>
+</item>
+</list></item>
+</list></note>
+<section id="keyterms"><title>Section Key Terms</title>
+<table id="fs-id1167066026028" class="unnumbered unstyled section-key-terms" summary="Section Key Terms is a one row table reading electric motor, generator, transformer. "><label/>
+<tgroup cols="3"><tbody>
+<row>
+<entry>electric motor</entry>
+<entry>generator</entry>
+<entry>transformer</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section id="fs-id1167065851778">
+<title>Electric Motors, Generators, and Transformers</title>
+<para id="fs-id1167064937413">As we learned previously, a current-carrying wire in a magnetic field experiences a force—recall  <m:math>
+<m:mrow>
+<m:mi>F</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>ℓ</m:mi><m:mi>B</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi>
+</m:mrow>
+</m:math> . <term>Electric motors</term>, which convert electrical energy into mechanical energy, are the most common application of magnetic force on current-carrying wires. Motors consist of loops of wire in a magnetic field. When current is passed through the loops, the magnetic field exerts a torque on the loops, which rotates a shaft. Electrical energy is converted to mechanical work in the process. <link target-id="Figure_20_03_elecmotor"/> shows a schematic drawing of an electric motor.</para>
+
+<figure id="Figure_20_03_elecmotor">
+<media id="fs-id1167064933153" alt="Schematic drawing of an electric motor, including a horizontal magnetic field and a vertical loop of wire through which a current is passed. Torque is exerted on the wire, turning the shaft to which the magnetic field is attached.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_20_03_elecmotor.jpg"/>
+</media>
+<caption>Torque on a current loop. A vertical loop of wire in a horizontal magnetic field is attached to a vertical shaft. When current is passed through the wire loop, torque is exerted on it, making it turn the shaft.</caption>
+</figure>
+
+<para id="fs-id1167065950332">Let us examine the force on each segment of the loop in <link target-id="Figure_20_03_elecmotor"/> to find the torques produced about the axis of the vertical shaft—this will lead to a useful equation for the torque on the loop. We take the magnetic field to be uniform over the rectangular loop, which has width <emphasis effect="italics">w</emphasis> and height  <m:math>
+<m:mrow>
+<m:mi>ℓ</m:mi>
+<m:mtext/>
+<m:mtext>,</m:mtext>
+</m:mrow>
+</m:math>  as shown in the figure. First, consider the force on the top segment of the loop. To determine the direction of the force, we use the right-hand rule. The current goes from left to right into the page, and the magnetic field goes from left to right in the plane of the page. Curl your right fingers from the current vector to the magnetic field vector and your right thumb points down. Thus, the force on the top segment is downward, which produces no torque on the shaft. Repeating this analysis for the bottom segment—neglect the small gap where the lead wires go out—shows that the force on the bottom segment is upward, again producing no torque on the shaft.</para>
+<para id="fs-id1167064669256">Consider now the left vertical segment of the loop. Again using the right-hand rule, we find that the force exerted on this segment is perpendicular to the magnetic field, as shown in <link target-id="Figure_20_03_elecmotor"/>. This force produces a torque on the shaft. Repeating this analysis on the right vertical segment of the loop shows that the force on this segment is in the direction opposite that of the force on the left segment, thereby producing an equal torque on the shaft. The total torque on the shaft is thus twice the toque on one of the vertical segments of the loop.</para>
+<para id="fs-id1167062351093">To find the magnitude of the torque as the wire loop spins, consider <link target-id="Figure_20_03_toploop"/>, which shows a view of the wire loop from above. Recall that torque is defined as  <m:math>
+<m:mrow>
+<m:mi>τ</m:mi><m:mo>=</m:mo><m:mi>r</m:mi><m:mi>F</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi>
+<m:mtext>,</m:mtext>
+</m:mrow>
+</m:math>  where <emphasis effect="italics">F</emphasis> is the applied force, <emphasis effect="italics">r</emphasis> is the distance from the pivot to where the force is applied, and <emphasis effect="italics">θ</emphasis> is the angle between <emphasis effect="italics">r</emphasis> and <emphasis effect="italics">F</emphasis>. Notice that, as the loop spins, the current in the vertical loop segments is always perpendicular to the magnetic field. Thus, the equation  <m:math>
+<m:mrow>
+<m:mi>F</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>ℓ</m:mi><m:mi>B</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi>
+</m:mrow>
+</m:math>  gives the magnitude of the force on each vertical segment as  <m:math>
+<m:mrow>
+<m:mi>F</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>ℓ</m:mi><m:mi>B</m:mi>
+<m:mtext>.</m:mtext>
+</m:mrow>
+</m:math>  The distance <emphasis effect="italics">r</emphasis> from the shaft to where this force is applied is <emphasis effect="italics">w</emphasis>/2, so the torque created by this force is</para>
+<equation id="fs-id1164566213959"> <m:math display="block">
+<m:mrow>
+<m:msub>
+<m:mi>τ</m:mi>
+<m:mrow>
+<m:mtext>segment</m:mtext>
+</m:mrow>
+</m:msub>
+<m:mo>=</m:mo><m:mi>r</m:mi><m:mi>F</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi><m:mo>=</m:mo><m:mrow><m:mi>w</m:mi><m:mo>/</m:mo><m:mn>2</m:mn></m:mrow>
+<m:mi>I</m:mi><m:mi>ℓ</m:mi><m:mi>B</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mrow><m:mi>w</m:mi><m:mo>/</m:mo><m:mn>2</m:mn></m:mrow>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mi>I</m:mi><m:mi>ℓ</m:mi><m:mi>B</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi>
+<m:mtext>.</m:mtext>
+</m:mrow>
+</m:math> </equation><para id="fs-id1167065969986">Because there are two vertical segments, the total torque is twice this, or</para>
+<equation id="fs-id1164565406686"> <m:math display="block">
+<m:mrow>
+<m:mi>τ</m:mi><m:mo>=</m:mo><m:mi>w</m:mi><m:mi>I</m:mi><m:mi>ℓ</m:mi><m:mi>B</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi>
+<m:mtext>.</m:mtext>
+</m:mrow>
+</m:math> </equation><para id="fs-id1167064901871">If we have a multiple loop with <emphasis effect="italics">N</emphasis> turns, we get <emphasis effect="italics">N</emphasis> times the torque of a single loop. Using the fact that the area of the loop is  <m:math>
+<m:mrow>
+<m:mi>A</m:mi><m:mo>=</m:mo><m:mi>w</m:mi><m:mi>ℓ</m:mi>
+<m:mtext>;</m:mtext>
+</m:mrow>
+</m:math>  the expression for the torque becomes</para>
+<equation id="fs-id1164567452337"> <m:math display="block">
+<m:mrow>
+<m:mi>τ</m:mi><m:mo>=</m:mo><m:mi>N</m:mi><m:mi>I</m:mi><m:mi>A</m:mi><m:mi>B</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi>
+<m:mtext>.</m:mtext>
+</m:mrow>
+</m:math> </equation><para id="fs-id1167064737805">This is the torque on a current-carrying loop in a uniform magnetic field. This equation can be shown to be valid for a loop of any shape.</para>
+<figure id="Figure_20_03_toploop">
+<media id="fs-id1167065764178" alt="View of the wire loop from the previous figure from above.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_20_03_toploop.jpg"/>
+</media>
+<caption>View from above of the wire loop from <link target-id="Figure_20_03_elecmotor"/>. The magnetic field generates a force <emphasis effect="italics">F</emphasis> on each vertical segment of the wire loop, which generates a torque on the shaft. Notice that the currents  <m:math>
+<m:mrow>
+<m:msub>
+<m:mi>I</m:mi>
+<m:mrow>
+<m:mtext>in</m:mtext>
+</m:mrow>
+</m:msub>
+<m:mtext> and </m:mtext><m:msub>
+<m:mi>I</m:mi>
+<m:mrow>
+<m:mtext>out</m:mtext>
+</m:mrow>
+</m:msub>
+
+</m:mrow>
+</m:math>  have the same magnitude because they both represent the current flowing in the wire loop, but  <m:math>
+<m:mrow>
+<m:msub>
+<m:mi>I</m:mi>
+<m:mrow>
+<m:mtext>in</m:mtext>
+</m:mrow>
+</m:msub>
+
+</m:mrow>
+</m:math>  flows into the page and  <m:math>
+<m:mrow>
+<m:msub>
+<m:mi>I</m:mi>
+<m:mrow>
+<m:mtext>out</m:mtext>
+</m:mrow>
+</m:msub>
+
+</m:mrow>
+</m:math>  flows out of the page.</caption>
+</figure>
+
+<para id="fs-id1167065688458">From the equation  <m:math>
+<m:mrow>
+<m:mi>τ</m:mi><m:mo>=</m:mo><m:mi>N</m:mi><m:mi>I</m:mi><m:mi>A</m:mi><m:mi>B</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi>
+<m:mtext>,</m:mtext>
+</m:mrow>
+</m:math>  we see that the torque is zero when  <m:math>
+<m:mrow>
+<m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>
+<m:mtext>.</m:mtext>
+</m:mrow>
+</m:math>  As the wire loop rotates, the torque increases to a maximum positive torque of  <m:math>
+<m:mrow>
+<m:mi>w</m:mi><m:mi>ℓ</m:mi><m:mi>B</m:mi>
+</m:mrow>
+</m:math>  when  <m:math>
+<m:mrow>
+<m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>90°</m:mn><m:mo/>
+<m:mtext>.</m:mtext>
+</m:mrow>
+</m:math>  The torque then decreases back to zero as the wire loop rotates to  <m:math>
+<m:mrow>
+<m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>180°</m:mn><m:mo/>
+<m:mtext>.</m:mtext>
+</m:mrow>
+</m:math>  From  <m:math>
+<m:mrow>
+<m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>180°</m:mn><m:mo/>
+</m:mrow>
+</m:math>  to  <m:math>
+<m:mrow>
+<m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>360°</m:mn><m:mo/>
+<m:mtext>,</m:mtext>
+</m:mrow>
+</m:math>  the torque is negative. Thus, the torque changes sign every half turn, so the wire loop will oscillate back and forth.</para>
+<para id="fs-id1167062410480">For the coil to continue rotating in the same direction, the current is reversed as the coil passes through  <m:math>
+<m:mrow>
+<m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.3em"/><m:mtext>and</m:mtext><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>180°</m:mn><m:mo/>
+</m:mrow>
+</m:math>  using automatic switches called <emphasis effect="italics">brushes</emphasis>, as shown in <link target-id="Figure_20_03_brushes"/>.</para>
+
+<figure id="Figure_20_03_brushes">
+<media id="fs-id1167065793310" alt="Part (a) shows the torque remaining clockwise when the brushes reverse the current as the coil passes through 0. Part (b) shows the coil rotating continuously in a clockwise direction with the current reversing each one-half revolution.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_20_03_brushes.jpg"/>
+</media>
+<caption>(a) As the angular momentum of the coil carries it through  <m:math>
+ <m:mrow>
+  <m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>
+ <m:mtext>,</m:mtext>
+ </m:mrow>
+</m:math>  the brushes reverse the current and the torque remains clockwise. (b) The coil rotates continuously in the clockwise direction, with the current reversing each half revolution to maintain the clockwise torque.</caption>
+</figure>
+
+<para id="fs-id1167063183921">Consider now what happens if we run the motor in reverse; that is, we attach a handle to the shaft and mechanically force the coil to rotate within the magnetic field, as shown in <link target-id="Figure_20_03_generator"/>. As per the equation  <m:math>
+<m:mrow>
+<m:mi>F</m:mi><m:mo>=</m:mo><m:mi>q</m:mi><m:mi>v</m:mi><m:mi>B</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi>
+</m:mrow>
+</m:math> —where  <m:math>
+ <m:mi>θ</m:mi>
+</m:math>  is the angle between the vectors  <m:math>
+<m:mover accent="true">
+<m:mi>v</m:mi>
+<m:mo>→</m:mo>
+</m:mover>
+
+</m:math>  and  <m:math>
+<m:mover accent="true">
+<m:mi>B</m:mi>
+<m:mo>→</m:mo>
+</m:mover>
+<m:mrow>
+ <m:mtext>—charges</m:mtext>
+  </m:mrow>
+</m:math>  in the wires of the loop experience a magnetic force because they are moving in a magnetic field. Again using the right-hand rule, where we curl our fingers from vector  <m:math>
+<m:mover accent="true">
+<m:mi>v</m:mi>
+<m:mo>→</m:mo>
+</m:mover>
+
+</m:math>  to vector  <m:math>
+<m:mover accent="true">
+<m:mi>B</m:mi>
+<m:mo>→</m:mo>
+</m:mover>
+
+</m:math>, we find that charges in the top and bottom segments feel a force perpendicular to the wire, which does not cause a current. However, charges in the vertical wires experience forces parallel to the wire, causing a current to flow through the wire and through an external circuit if one is connected. A device such as this that converts mechanical energy into electrical energy is called a <term>generator</term>.</para>
+
+<figure id="Figure_20_03_generator">
+<media id="fs-id1167065838947" alt="Image of a generator, including a coil that rotates and changes the magnetic flux, which induces an emf and drives current through an external circuit.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_20_03_generator.jpg"/>
+</media>
+<caption>When this coil is rotated through one-fourth of a revolution, the magnetic flux Φ changes from its maximum to zero, inducing an emf, which drives a current through an external circuit.</caption>
+</figure>
+
+<para id="fs-id1167064928983">Because current is induced only in the side wires, we can find the induced emf by only considering these wires. As explained in <link document="m54456" target-id="fs-id1167061628540">Induced Current in a Wire</link>, motional emf in a straight wire moving at velocity <emphasis effect="italics">v</emphasis> through a magnetic field <emphasis effect="italics">B</emphasis> is  <m:math>
+<m:mrow>
+<m:mi>E</m:mi><m:mo>=</m:mo><m:mi>B</m:mi><m:mi>ℓ</m:mi><m:mi>v</m:mi>
+<m:mtext>,</m:mtext>
+</m:mrow>
+</m:math>  where the velocity is perpendicular to the magnetic field. In the generator, the velocity makes an angle  <m:math>
+<m:mi>θ</m:mi>
+</m:math>  with <emphasis effect="italics">B</emphasis> (see <link target-id="Figure_20_03_3dgen"/>), so the velocity component perpendicular to <emphasis effect="italics">B</emphasis> is  <m:math>
+<m:mrow>
+<m:mi>v</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi>
+<m:mtext>.</m:mtext>
+</m:mrow>
+</m:math>  Thus, in this case, the emf induced on each vertical wire segment is  <m:math>
+<m:mrow>
+<m:mi>E</m:mi><m:mo>=</m:mo><m:mi>B</m:mi><m:mi>ℓ</m:mi><m:mi>v</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi>
+<m:mtext>,</m:mtext>
+</m:mrow>
+</m:math>  and they are in the same direction. The total emf around the loop is then</para><equation id="fs-id1164568047102"> <m:math display="block">
+<m:mrow>
+<m:mi>E</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>B</m:mi><m:mi>ℓ</m:mi><m:mi>v</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi>
+<m:mtext>.</m:mtext>
+</m:mrow>
+</m:math> </equation><para id="fs-id1167064534859">Although this expression is valid, it does not give the emf as a function of time. To find how the emf evolves in time, we assume that the coil is rotated at a constant angular velocity  <m:math>
+<m:mrow>
+<m:mi>ω</m:mi>
+<m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math>  The angle  <m:math>
+<m:mi>θ</m:mi>
+</m:math>  is related to the angular velocity by  <m:math>
+<m:mrow>
+<m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi>
+<m:mtext>,</m:mtext>
+</m:mrow>
+</m:math>  so that</para>
+<equation id="fs-id1164567163427"> <m:math display="block">
+<m:mrow>
+<m:mi>E</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>B</m:mi><m:mi>ℓ</m:mi><m:mi>v</m:mi><m:mi>sin</m:mi><m:mi>ω</m:mi><m:mi>t</m:mi>
+<m:mtext>.</m:mtext>
+</m:mrow>
+</m:math> </equation><para id="fs-id1167066122553">Recall that tangential velocity <emphasis effect="italics">v</emphasis> is related to angular velocity  <m:math>
+<m:mi>ω</m:mi>
+</m:math>  by  <m:math>
+<m:mrow>
+<m:mi>v</m:mi><m:mo>=</m:mo><m:mi>r</m:mi><m:mi>ω</m:mi>
+<m:mtext>.</m:mtext>
+</m:mrow>
+</m:math>  Here,  <m:math>
+<m:mrow>
+<m:mi>r</m:mi><m:mo>=</m:mo><m:mrow><m:mi>w</m:mi><m:mn>/2</m:mn></m:mrow>
+
+</m:mrow>
+</m:math>, so that  <m:math>
+<m:mrow>
+<m:mi>v</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mrow><m:mi>w</m:mi><m:mo>/2</m:mo><m:mn/></m:mrow>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mi>ω</m:mi>
+</m:mrow>
+</m:math>  and</para>
+<equation id="fs-id1164567872417"> <m:math display="block">
+<m:mrow>
+<m:mi>E</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>B</m:mi><m:mi>ℓ</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mfrac>
+<m:mi>w</m:mi>
+<m:mn>2</m:mn>
+</m:mfrac>
+<m:mi>ω</m:mi>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mi>sin</m:mi><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>=</m:mo><m:mi>B</m:mi><m:mi>ℓ</m:mi><m:mi>w</m:mi><m:mi>ω</m:mi><m:mi>sin</m:mi><m:mi>ω</m:mi><m:mi>t</m:mi>
+<m:mtext>.</m:mtext>
+</m:mrow>
+</m:math> </equation><para id="fs-id1167064817847">Noting that the area of the loop is  <m:math>
+<m:mrow>
+<m:mi>A</m:mi><m:mo>=</m:mo><m:mi>ℓ</m:mi><m:mi>w</m:mi>
+</m:mrow>
+</m:math>  and allowing for <emphasis effect="italics">N</emphasis> wire loops, we find that</para>
+<equation id="fs-id1164567983060"> <m:math display="block">
+<m:mrow>
+<m:mi>E</m:mi><m:mo>=</m:mo><m:mi>N</m:mi><m:mi>A</m:mi><m:mi>B</m:mi><m:mi>ω</m:mi><m:mi>sin</m:mi><m:mi>ω</m:mi><m:mi>t</m:mi>
+</m:mrow>
+</m:math> </equation><para id="fs-id1167065967241">is the emf induced in a generator coil of <emphasis effect="italics">N</emphasis> turns and area <emphasis effect="italics">A</emphasis> rotating at a constant angular velocity  <m:math>
+<m:mi>ω</m:mi>
+</m:math>  in a uniform magnetic field <emphasis effect="italics">B</emphasis>. This can also be expressed as</para>
+<equation id="fs-id1164567015914"> <m:math display="block">
+<m:mrow>
+<m:mi>E</m:mi><m:mo>=</m:mo><m:msub>
+<m:mi>E</m:mi>
+<m:mn>0</m:mn>
+</m:msub>
+<m:mi>sin</m:mi><m:mi>ω</m:mi><m:mi>t</m:mi>
+</m:mrow>
+</m:math> </equation><para id="fs-id1167062372590">where</para>
+<equation id="fs-id1164567420614"> <m:math display="block">
+<m:mrow>
+<m:msub>
+<m:mi>E</m:mi>
+<m:mn>0</m:mn>
+</m:msub>
+<m:mo>=</m:mo><m:mi>N</m:mi><m:mi>A</m:mi><m:mi>B</m:mi><m:mi>ω</m:mi>
+</m:mrow>
+</m:math> </equation><para id="fs-id1167065883423">is the maximum (peak) emf.</para>
+<figure id="Figure_20_03_3dgen">
+<media id="fs-id1167064648188" alt="The emf in a straight wire moving at velocity v through a magnetic field B, where the velocity is perpendicular to the magnetic field.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_20_03_3dgen.jpg"/>
+</media>
+<caption>The instantaneous velocity of the vertical wire segments makes an angle  <m:math>
+<m:mi>θ</m:mi>
+</m:math>  with the magnetic field. The velocity is shown in the figure by the green arrow, and the angle  <m:math>
+<m:mi>θ</m:mi>
+</m:math>  is indicated.</caption>
+</figure>
+<para id="fs-id1167066057525"><link target-id="Figure_20_03_Light"/> shows a generator connected to a light bulb and a graph of the emf vs. time. Note that the emf oscillates from a positive maximum of  <m:math>
+<m:mrow>
+<m:msub>
+<m:mi>E</m:mi>
+<m:mn>0</m:mn>
+</m:msub>
+
+</m:mrow>
+</m:math>  to a negative maximum of  <m:math>
+<m:mrow><m:msub>
+<m:mi>−E</m:mi>
+<m:mn>0</m:mn>
+</m:msub>
+<m:mtext>.</m:mtext>
+</m:mrow>
+</m:math>  In between, the emf goes through zero, which means that zero current flows through the light bulb at these times. Thus, the light bulb actually flickers on and off at a frequency of 2<emphasis effect="italics">f</emphasis>, because there are two zero crossings per period. Since alternating current such as this is used in homes around the world, why do we not notice the lights flickering on and off? In the United States, the frequency of alternating current is 60 Hz, so the lights flicker on and off at a frequency of 120 Hz. This is faster than the refresh rate of the human eye, so you don’t notice the flicker of the lights. Also, other factors prevent various different types of light bulbs from switching on and off so fast, so the light output is <emphasis effect="italics">smoothed out</emphasis> a bit.</para>
+<figure id="Figure_20_03_Light">
+<media id="fs-id1167062579393" alt="A generator connected to a light bulb and a graph of the emf vs. time.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_20_03_light.jpg"/>
+</media>
+<caption>The emf of a generator is sent to a light bulb with the system of rings and brushes shown. The graph gives the emf of the generator as a function of time.  <m:math>
+<m:mrow>
+<m:msub>
+<m:mi>E</m:mi>
+<m:mn>0</m:mn>
+</m:msub>
+
+</m:mrow>
+</m:math>  is the peak emf. The period is  <m:math>
+<m:mrow>
+<m:mi>T</m:mi><m:mo>=</m:mo><m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mi>f</m:mi></m:mrow>
+<m:mo>=</m:mo><m:mrow><m:mrow>
+<m:mn>2</m:mn><m:mi>π</m:mi>
+</m:mrow><m:mo>/</m:mo><m:mi>ω</m:mi></m:mrow>
+ <m:mtext>,</m:mtext>
+</m:mrow>
+</m:math>  where <emphasis effect="italics">f</emphasis> is the frequency at which the coil is rotated in the magnetic field.</caption>
+</figure>
+
+<note id="fs-id1167065859998" class="virtual-physics os-interactive"><title>Generator</title>
+<media id="eip-id1167066993771" alt="This simulation explores generating electricity with a bar magnet.">
+<iframe width="660" height="371.4" src="https://openstax.org/l/28gen"/>
+</media>
+<para id="eip-id1167065047158">Use this simulation to discover how an electrical generator works. Control the water supply that makes a water wheel turn a magnet. This induces an emf in a nearby wire coil, which is used to light a light bulb. You can also replace the light bulb with a voltmeter, which allows you to see the polarity of the voltage, which changes from positive to negative.</para>
+<exercise id="fs-id1167064835437" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167062303782">
+<!--<para id="fs-id1167062303784">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch20-ex054"/>
+</para>-->
+<para id="fs-id1164567271267">Set the number of wire loops to three, the bar-magnet strength to about 50 percent, and the loop area to 100 percent. Note the maximum voltage on the voltmeter. Assuming that one major division on the voltmeter is 5V, what is the maximum voltage when using only a single wire loop instead of three wire loops?</para>
+<list id="fs-id1164567988151" list-type="enumerated" number-style="lower-alpha">
+<item>5 V</item>
+<item>15 V</item>
+<item>125 V</item>
+<item>53 V</item>
+</list>
+</problem>
+</exercise>
+</note><para id="fs-id1167065874651">In real life, electric generators look a lot different than the figures in this section, but the principles are the same. The source of mechanical energy that turns the coil can be falling water—hydropower—steam produced by the burning of fossil fuels, or the kinetic energy of wind. <link target-id="Figure_20_03_Turbine"/> shows a cutaway view of a steam turbine; steam moves over the blades connected to the shaft, which rotates the coil within the generator.</para>
+
+<figure id="Figure_20_03_Turbine">
+<media id="fs-id1167064951682" alt="Steam turbine.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_20_03_turbine.jpg"/>
+</media>
+<caption>Steam turbine generator. The steam produced by burning coal impacts the turbine blades, turning the shaft which is connected to the generator. (credit: Nabonaco, Wikimedia Commons)</caption>
+</figure>
+<para id="fs-id1167062461374">Another very useful and common device that exploits magnetic induction is called a <term>transformer</term>. Transformers do what their name implies—they transform voltages from one value to another; the term voltage is used rather than emf because transformers have internal resistance. For example, many cell phones, laptops, video games, power tools, and small appliances have a transformer built into their plug-in unit that changes 120 V or 240 V AC into whatever voltage the device uses. <link target-id="Figure_20_03_Trans"/> shows two different transformers. Notice the wire coils that are visible in each device. The purpose of these coils is explained below.</para>
+
+<figure id="Figure_20_03_Trans">
+<media id="fs-id1167064769441" alt="Part (a) shows a laminated-core transformer. Part (b) shows a toroidal transformer.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_20_03_trans.jpg"/>
+</media>
+<caption>On the left is a common laminated-core transformer, which is widely used in electric power transmission and electrical appliances. On the right is a toroidal transformer, which is smaller than the laminated-core transformer for the same power rating but is more expensive to make because of the equipment required to wind the wires in the doughnut shape.</caption>
+</figure>
+
+<para id="fs-id1167065944266"><link target-id="Figure_20_03_Lam_coil"/> shows a <term class="no-emphasis">laminated-coil transformer</term>, which is based on Faraday’s law of induction and is very similar in construction to the apparatus Faraday used to demonstrate that magnetic fields can generate electric currents. The two wire coils are called the <term class="no-emphasis">primary and secondary coils</term>. In normal use, the input voltage is applied across the primary coil, and the secondary produces the transformed output voltage. Not only does the iron core trap the magnetic field created by the primary coil, but also its magnetization increases the field strength, which is analogous to how a dielectric increases the electric field strength in a capacitor. Since the input voltage is AC, a time-varying magnetic flux is sent through the secondary coil, inducing an AC output voltage.</para>
+
+<figure id="Figure_20_03_Lam_coil">
+<media id="fs-id1167065028460" alt="Schematic of a simple transformer with two coils wound around a laminated ferromagnetic core.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_20_03_lamcoil.jpg"/>
+</media>
+<caption>A typical construction of a simple transformer has two coils wound on a ferromagnetic core. The magnetic field created by the primary coil is mostly confined to and increased by the core, which transmits it to the secondary coil. Any change in current in the primary coil induces a current in the secondary coil.</caption>
+</figure>
+
+<note id="fs-id1167062967478" class="links-to-physics"><title>Magnetic Rope Memory</title>
+
+<para id="fs-id1167062586941">To send men to the moon, the Apollo program had to design an onboard computer system that would be robust, consume little power, and be small enough to fit onboard the spacecraft. In the 1960s, when the Apollo program was launched, entire buildings were regularly dedicated to housing computers whose computing power would be easily outstripped by today’s most basic handheld calculator.</para>
+<para id="fs-id1167064996538">To address this problem, engineers at MIT and a major defense contractor turned to <emphasis effect="italics">magnetic rope memory</emphasis>, which was an offshoot of a similar technology used prior to that time for creating random access memories. Unlike random access memory, magnetic rope memory was read-only memory that contained not only data but instructions as well. Thus, it was actually more than memory: It was a hard-wired computer program.</para>
+<para id="fs-id1167064996541">The components of magnetic rope memory were wires and iron rings—which were called <emphasis effect="italics">cores</emphasis>. The iron cores served as transformers, such as that shown in the previous figure. However, instead of looping the wires multiple times around the core, individual wires passed only a single time through the cores, making these single-turn transformers. Up to 63 <emphasis effect="italics">word</emphasis> wires could pass through a single core, along with a single <emphasis effect="italics">bit</emphasis> wire. If a word wire passed through a given core, a voltage pulse on this wire would induce an emf in the bit wire, which would be interpreted as a <emphasis effect="italics">one</emphasis>. If the word wire did not pass through the core, no emf would be induced on the bit wire, which would be interpreted as a <emphasis effect="italics">zero</emphasis>.</para>
+<para id="fs-id1167065023822">Engineers would create programs that would be hard wired into these magnetic rope memories. The wiring process could take as long as a month to complete as workers painstakingly threaded wires through some cores and around others. If any mistakes were made either in the programming or the wiring, debugging would be extraordinarily difficult, if not impossible.</para>
+<para id="fs-id1167065870193">These modules did their job quite well. They are credited with correcting an astronaut mistake in the lunar landing procedure, thereby allowing Apollo 11 to land on the moon. It is doubtful that Michael Faraday ever imagined such an application for magnetic induction when he discovered it.</para>
+<exercise id="fs-id1167062315281" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167064695675">
+<para id="fs-id1167064695677">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch20-ex055"/>
+</para>
+</problem>
+</exercise>
+</note><para id="fs-id1167064871637">For the transformer shown in <link target-id="Figure_20_03_Lam_coil"/>, the output voltage  <m:math>
+<m:mrow>
+<m:msub>
+<m:mi>V</m:mi>
+<m:mtext>S</m:mtext>
+</m:msub>
+
+</m:mrow>
+</m:math>  from the secondary coil depends almost entirely on the input voltage  <m:math>
+<m:mrow>
+<m:msub>
+<m:mi>V</m:mi>
+<m:mtext>P</m:mtext>
+</m:msub>
+
+</m:mrow>
+</m:math>  across the primary coil and the number of loops in the primary and secondary coils. Faraday’s law of induction for the secondary coil gives its induced output voltage  <m:math>
+<m:mrow>
+<m:msub>
+<m:mi>V</m:mi>
+<m:mtext>S</m:mtext>
+</m:msub>
+
+</m:mrow>
+</m:math>  to be</para>
+<equation id="fs-id1164565548885"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>V</m:mi>
+   <m:mi>S</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mo>−</m:mo><m:msub>
+   <m:mi>N</m:mi>
+   <m:mi>S</m:mi>
+  </m:msub>
+  <m:mfrac>
+   <m:mrow>
+    <m:mi>Δ</m:mi><m:mi>Φ</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mi>Δ</m:mi><m:mi>t</m:mi>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>,</m:mo>
+ </m:mrow>
+</m:math>
+</equation><para id="fs-id1167065037830">where  <m:math>
+<m:mrow>
+<m:msub>
+<m:mi>N</m:mi>
+<m:mtext>S</m:mtext>
+</m:msub>
+
+</m:mrow>
+</m:math>  is the number of loops in the secondary coil and  <m:math>
+<m:mrow>
+<m:mrow><m:mrow>
+<m:mtext>Δ</m:mtext><m:mtext>Φ</m:mtext>
+</m:mrow><m:mo>/</m:mo><m:mrow>
+<m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+</m:mrow></m:mrow>
+
+</m:mrow>
+</m:math>  is the rate of change of magnetic flux. The output voltage equals the induced emf  <m:math>
+<m:mrow>
+<m:mtext>(</m:mtext>
+<m:msub>
+<m:mi>V</m:mi>
+<m:mtext>S</m:mtext>
+</m:msub>
+<m:mo>=</m:mo><m:msub>
+<m:mi>E</m:mi>
+<m:mtext>S</m:mtext>
+</m:msub>
+<m:mtext>),</m:mtext>
+</m:mrow>
+</m:math>  provided coil resistance is small—a reasonable assumption for transformers. The cross-sectional area of the coils is the same on each side, as is the magnetic field strength, and so  <m:math>
+<m:mrow>
+<m:mrow><m:mrow>
+<m:mtext>Δ</m:mtext><m:mtext>Φ/Δ</m:mtext><m:mi>t</m:mi>
+</m:mrow></m:mrow>
+
+</m:mrow>
+</m:math>  is the same on each side. The input primary voltage  <m:math>
+<m:mrow>
+<m:msub>
+<m:mi>V</m:mi>
+<m:mtext>P</m:mtext>
+</m:msub>
+
+</m:mrow>
+</m:math>  is also related to changing flux by</para>
+<equation id="fs-id1164566106708"> <m:math display="block">
+<m:mrow>
+<m:msub>
+<m:mi>V</m:mi>
+<m:mtext>P</m:mtext>
+</m:msub>
+<m:mo>=</m:mo><m:mo>−</m:mo><m:msub>
+<m:mi>N</m:mi>
+<m:mtext>P</m:mtext>
+</m:msub>
+<m:mfrac>
+<m:mrow>
+<m:mtext>Δ</m:mtext><m:mtext>Φ</m:mtext>
+</m:mrow>
+<m:mrow>
+<m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mtext>.</m:mtext>
+</m:mrow>
+</m:math> </equation><para id="fs-id1167064945211">Taking the ratio of these last two equations yields the useful relationship</para>
+<equation id="fs-id1164568022418"> <m:math display="block">
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi>V</m:mi>
+<m:mtext>S</m:mtext>
+</m:msub>
+
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi>V</m:mi>
+<m:mtext>P</m:mtext>
+</m:msub>
+
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo><m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi>N</m:mi>
+<m:mtext>S</m:mtext>
+</m:msub>
+
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi>N</m:mi>
+<m:mtext>P</m:mtext>
+</m:msub>
+
+</m:mrow>
+</m:mfrac>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mtext>3</m:mtext><m:mtext>.07</m:mtext>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+<m:mtext>.</m:mtext>
+</m:mrow>
+</m:math> </equation><para id="fs-id1167063105033">This is known as the transformer equation. It simply states that the ratio of the secondary voltage to the primary voltage in a transformer equals the ratio of the number of loops in secondary coil to the number of loops in the primary coil.</para>
+</section>
+
+<section id="fs-id1167064650733">
+<title>Transmission of Electrical Power</title>
+<para id="fs-id1167065939868">Transformers are widely used in the electric power industry to increase voltages—called <emphasis effect="italics">step-up</emphasis> transformers—before long-distance transmission via high-voltage wires. They are also used to decrease voltages—called <emphasis effect="italics">step-down</emphasis> transformers—to deliver power to homes and businesses. The overwhelming majority of electric power is generated by using magnetic induction, whereby a wire coil or copper disk is rotated in a magnetic field. The primary energy required to rotate the coils or disk can be provided by a variety of means. Hydroelectric power plants use the kinetic energy of water to drive electric generators. Coal or nuclear power plants create steam to drive steam turbines that turn the coils. Other sources of primary energy include wind, tides, or waves on water.</para>
+<para id="fs-id1167065939871">Once power is generated, it must be transmitted to the consumer, which often means transmitting power over hundreds of kilometers. To do this, the voltage of the power plant is increased by a step-up transformer, that is stepped up, and the current decreases proportionally because</para>
+<equation id="fs-id1164567936282"> <m:math display="block">
+<m:mrow>
+<m:msub>
+<m:mi>P</m:mi>
+<m:mrow>
+<m:mtext>transmitted</m:mtext>
+</m:mrow>
+</m:msub>
+<m:mo>=</m:mo><m:msub>
+<m:mi>I</m:mi>
+<m:mrow>
+<m:mtext>transmitted</m:mtext>
+</m:mrow>
+</m:msub>
+<m:msub>
+<m:mi>V</m:mi>
+<m:mrow>
+<m:mtext>transmitted</m:mtext>
+</m:mrow>
+</m:msub>
+<m:mo>⋅</m:mo>
+</m:mrow>
+</m:math> </equation><para id="fs-id1167064743376">The lower current  <m:math>
+<m:mrow>
+<m:msub>
+<m:mi>I</m:mi>
+<m:mrow>
+<m:mtext>transmitted</m:mtext>
+</m:mrow>
+</m:msub>
+
+</m:mrow>
+</m:math>  in the transmission wires reduces the <emphasis effect="italics">Joule losses</emphasis>, which is heating of the wire due to a current flow. This heating is caused by the small, but nonzero, resistance  <m:math>
+<m:mrow>
+<m:msub>
+<m:mi>R</m:mi>
+<m:mrow>
+<m:mtext>wire</m:mtext>
+</m:mrow>
+</m:msub>
+
+</m:mrow>
+</m:math>  of the transmission wires. The power lost to the environment through this heat is</para>
+<equation id="fs-id1164567967021"> <m:math display="block">
+<m:mrow>
+<m:msub>
+<m:mi>P</m:mi>
+<m:mrow>
+<m:mtext>lost</m:mtext>
+</m:mrow>
+</m:msub>
+<m:mo>=</m:mo><m:msubsup>
+<m:mi>I</m:mi>
+<m:mrow>
+<m:mtext>transmitted</m:mtext>
+</m:mrow>
+<m:mn>2</m:mn>
+</m:msubsup>
+<m:msub>
+<m:mi>R</m:mi>
+<m:mrow>
+<m:mtext>wire</m:mtext>
+</m:mrow>
+</m:msub>
+<m:mo>,</m:mo>
+</m:mrow>
+</m:math> </equation><para id="fs-id1167065915149">which is proportional to the current <emphasis effect="italics">squared</emphasis> in the transmission wire. This is why the transmitted current  <m:math>
+<m:mrow>
+<m:msub>
+<m:mi>I</m:mi>
+<m:mrow>
+<m:mtext>transmitted</m:mtext>
+</m:mrow>
+</m:msub>
+
+</m:mrow>
+</m:math>  must be as small as possible and, consequently, the voltage must be large to transmit the power  <m:math>
+<m:mrow>
+<m:msub>
+<m:mi>P</m:mi>
+<m:mrow>
+<m:mtext>transmitted</m:mtext>
+</m:mrow>
+</m:msub>
+<m:mtext>⋅</m:mtext>
+</m:mrow>
+</m:math> </para>
+<para id="fs-id1167066051384">Voltages ranging from 120 to 700 kV are used for transmitting power over long distances. The voltage is stepped up at the exit of the power station by a step-up transformer, as shown in <link target-id="Figure_20_03_Grid"/>.</para>
+
+<figure id="Figure_20_03_Grid">
+<media id="fs-id1167065927082" alt="Cartoon of the electric grid, from power plant to a home, travelling through transformers and over transmission lines.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_20_03_grid.jpg"/>
+</media>
+<caption>Transformers change voltages at several points in a power distribution system. Electric power is usually generated at greater than 10 kV, and transmitted long distances at voltages ranging from 120 kV to 700 kV to limit energy losses. Local power distribution to neighborhoods or industries goes through a substation and is sent short distances at voltages ranging from 5 to 13 kV. This is reduced to 120, 240, or 480 V for safety at the individual user site.</caption>
+</figure>
+<para id="fs-id1167065737996">Once the power has arrived at a population or industrial center, the voltage is stepped down at a substation to between 5 and 30 kV. Finally, at individual homes or businesses, the power is stepped down again to 120, 240, or 480 V. Each step-up and step-down transformation is done with a transformer designed based on Faradays law of induction. We’ve come a long way since Queen Elizabeth asked Faraday what possible use could be made of electricity.</para>
+</section>
+
+<section id="fs-id1167062405339" class="check-understanding">
+<title>Check Your Understanding</title>
+<exercise id="fs-id1167064635742" class="os-exercise">
+<problem id="fs-id1167064635745">
+<para id="fs-id1167065704816">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch20-ex056"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167064748783" class="os-exercise">
+<problem id="fs-id1167064748786">
+<para id="fs-id1167064748788">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch20-ex057"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167064550046" class="os-exercise">
+<problem id="fs-id1167064818397">
+<para id="fs-id1167064818399">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch20-ex058"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065704157" class="os-exercise">
+<problem id="fs-id1167064961147">
+<!-- <para id="fs-id1167064961149">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch20-ex059"/>
+</para> -->
+<para id="fs-id1169832820681">What should be the ratio of the number of output coils to the number of input coil in a step-up transformer to increase the voltage fivefold?</para>
+<list id="fs-id1169833068041" list-type="enumerated" number-style="lower-alpha">
+<item>The ratio is five times.</item>
+<item>The ratio is 10 times.</item>
+<item>The ratio is 15 times.</item>
+<item>The ratio is 20 times.</item></list>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167065738000" class="summary">
+<title>Section Summary</title>
+<list id="fs-id1167065947163">
+<item>Electric motors contain wire loops in a magnetic field. Current is passed through the wire loops, which forces them to rotate in the magnetic field. The current is reversed every half rotation so that the torque on the loop is always in the same direction.</item>
+<item>Electric generators contain wire loops in a magnetic field. An external agent provides mechanical energy to force the loops to rotate in the magnetic field, which produces an AC voltage that drives an AC current through the loops.</item>
+<item>Transformers contain a ring made of magnetic material and, on opposite sides of the ring, two windings of wire wrap around the ring. A changing current in one wire winding creates a changing magnetic field, which is trapped in the ring and thus goes through the second winding and induces an emf in the second winding. The voltage in the second winding is proportional to the ratio of the number of loops in each winding.</item>
+<item>Transformers are used to step up and step down the voltage for power transmission.</item>
+<item>Over long distances, electric power is transmitted at high voltage to minimize the current and thereby minimize the Joule losses due to resistive heating.</item>
+</list>
+</section>
+
+
+
+<section id="fs-id1167065980324" class="concept"><title>Concept Items</title>
+<exercise id="fs-id1167064716019" class="os-exercise">
+<problem id="fs-id1167064716023">
+<para id="fs-id1167064716025">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch20-ex060"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166848797613" class="os-exercise"><problem id="eip-id1166848872405">
+<para id="eip-id1166849159723">What is a voltage transformer?</para>
+<list id="eip-idm206410512" list-type="enumerated" number-style="lower-alpha">
+<item>A transformer is a device that transforms current to voltage.</item>
+<item>A transformer is a device that transforms voltages from one value to another.</item>
+<item>A transformer is a device that transforms resistance of wire to voltage.</item></list>
+</problem>
+</exercise><exercise id="eip-id1166846436366" class="os-exercise">
+<problem id="eip-id1166848817832">
+<!-- <para id="eip-id1166851111873">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch20-ot047"/>
+</para> -->
+<para id="fs-id1164565402913">Why is electric power transmitted at high voltage?</para>
+<list id="fs-id1164566037149" list-type="enumerated" number-style="lower-alpha">
+<item>To increase the current for the transmission</item>
+<item>To reduce energy loss during transmission</item>
+<item>To increase resistance during transmission</item>
+<item>To reduce resistance during transmission</item>
+</list>
+
+</problem>
+</exercise></section><section id="fs-id1167066036461" class="critical-thinking">
+<title>Critical Thinking</title>
+<exercise id="fs-id1167064780558" class="os-exercise">
+<problem id="fs-id1167064780561">
+<para id="fs-id1167064780563">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch20-ex062"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167066159070" class="os-exercise">
+<problem id="fs-id1167062308116">
+<!--<para id="fs-id1167062308118">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch20-ex063"/>
+</para>-->
+<para id="fs-id1164565641145">Explain why power is transmitted over long distances at high voltages.</para>
+<list id="fs-id1164564176447" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">P</emphasis><sub>lost</sub> = <emphasis effect="italics">I</emphasis><sub>transmitted</sub> <emphasis effect="italics">V</emphasis><sub>transmitted</sub>, so to maximize current, the voltage must be maximized</item>
+<item><emphasis effect="italics">P</emphasis><sub>transmitted</sub> = <emphasis effect="italics">I</emphasis><sub>transmitted</sub> <emphasis effect="italics">V</emphasis><sub>transmitted</sub>, so to maximize current, the voltage must be maximized</item>
+<item><emphasis effect="italics">P</emphasis><sub>lost</sub> = <emphasis effect="italics">I</emphasis><sub>transmitted</sub> <emphasis effect="italics">V</emphasis><sub>transmitted</sub>, so to minimize current, the voltage must be maximized</item>
+<item><emphasis effect="italics">P</emphasis><sub>transmitted</sub> = <emphasis effect="italics">I</emphasis><sub>transmitted</sub> <emphasis effect="italics">V</emphasis><sub>transmitted</sub>, so to minimize current, the voltage must be maximized</item>
+</list></problem>
+</exercise>
+</section>
+
+<section id="fs-id1167064899873" class="multiple-choice"><title>Test Prep Multiple Choice</title><exercise id="fs-id1167065964879" class="os-exercise">
+<problem id="fs-id1167065964882">
+<!-- <para id="fs-id1167065964884">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch20-ex064"/>
+</para> -->
+<para id="fs-id1169831304513">An electrical generator ________.</para>
+<list id="fs-id1169833271800" list-type="enumerated" number-style="lower-alpha"><item>is a generator powered by electricity</item>
+<item>must be turned by hand</item>
+<item>converts other sources of power into electrical power</item>
+<item>uses magnetism to create electrons</item></list></problem>
+</exercise>
+<exercise id="fs-id1167064948237" class="os-exercise">
+<problem id="fs-id1167064948240">
+<!-- <para id="fs-id1167064686163">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch20-ex065"/>
+</para> -->
+<para id="fs-id1169830907307">A step-up transformer increases the</para><list id="fs-id1169831046379" list-type="enumerated" number-style="lower-alpha"><item>voltage from power lines for use in homes</item>
+<item>current from the power lines for use in homes</item>
+<item>current from the electrical generator for transmission along power lines</item>
+<item>voltage from the electrical power plant for transmission along power lines</item></list></problem>
+</exercise>
+<exercise id="eip-id1166848893975" class="os-exercise">
+<problem id="eip-id1166851181881">
+<!--<para id="eip-id1166848912257">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch20-ot044"/>
+</para>-->
+<para id="fs-id1164567954382">What would be the effect on the torque of an electric motor of doubling the width of the current loop in the motor?</para>
+<list id="fs-id1164567295597" list-type="enumerated" number-style="lower-alpha">
+<item>Torque remains the same.</item>
+<item>Torque is doubled.</item>
+<item>Torque is quadrupled.</item>
+<item>Torque is halved.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-id1166851379679" class="os-exercise">
+<problem id="eip-id1166851245673">
+<para id="eip-id1166851307698">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch20-ot045"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167064961157" class="short-answer">
+<title>Test Prep Short Answer</title>
+<exercise id="fs-id1167064961163" class="os-exercise">
+<problem id="fs-id1167064961166">
+<!--<para id="fs-id1167065927071">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch20-ex066"/>
+</para>-->
+<para id="fs-id1164567108282">A laminated-coil transformer has a wire coiled 12 times around one of its sides. How many coils should you wrap around the opposite side to get a voltage output that is one half of the input voltage? Explain.</para>
+<list id="fs-id1164568025284" list-type="enumerated" number-style="lower-alpha"><item>six output coils because the ratio of output to input voltage is the same as the ratio of number of output coils to input coils</item>
+<item>12 output coils because the ratio of output to input voltage is the same as the ratio of number of output coils to input coils</item>
+<item>24 output coils because the ratio of output to input voltage is half the ratio of the number of output coils to input coils</item>
+<item>36 output coils because the ratio of output to input voltage is three times the ratio of the number of output coils to input coils</item>
+</list></problem>
+</exercise>
+<exercise id="fs-id1167064529215" class="os-exercise">
+<problem id="fs-id1167064529218">
+<!--<para id="fs-id1167064529220">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch20-ex067"/>
+</para>-->
+<para id="fs-id1164567076578">Explain why long-distance electrical power lines are designed to carry very high voltages.</para>
+<list id="fs-id1164566351172" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">P</emphasis><sub>transmitted</sub> = <emphasis effect="italics">I</emphasis><sub>transmitted&gt;</sub><sup>2</sup> <emphasis effect="italics">R</emphasis><sub>wire</sub> and <emphasis effect="italics">P</emphasis><sub>lost</sub> = <emphasis effect="italics">I</emphasis><sub>transmitted</sub> <emphasis effect="italics">V</emphasis><sub>transmitted</sub>, so <emphasis effect="italics">V</emphasis> must be low to make the current transmitted as high as possible.</item>
+<item><emphasis effect="italics">P</emphasis><sub>transmitted</sub> = <emphasis effect="italics">I</emphasis><sub>transmitted&gt;</sub><sup>2</sup> <emphasis effect="italics">R</emphasis><sub>wire</sub> and <emphasis effect="italics">P</emphasis><sub>lost</sub> = <emphasis effect="italics">I</emphasis><sub>lost</sub> <emphasis effect="italics">V</emphasis><sub>lost</sub>, so <emphasis effect="italics">V</emphasis> must be low to make the current transmitted as high as possible.</item>
+<item><emphasis effect="italics">P</emphasis><sub>transmitted</sub> = <emphasis effect="italics">I</emphasis><sub>transmitted&gt;</sub><sup>2</sup> <emphasis effect="italics">R</emphasis><sub>wire</sub> and <emphasis effect="italics">P</emphasis><sub>lost</sub> = <emphasis effect="italics">I</emphasis><sub>transmitted</sub> <emphasis effect="italics">V</emphasis><sub>transmitted</sub>, so <emphasis effect="italics">V</emphasis> must be high to make the current transmitted as low as possible</item>
+<item><emphasis effect="italics">P</emphasis><sub>lost</sub> = <emphasis effect="italics">I</emphasis><sub>transmitted</sub><sup>2</sup> <emphasis effect="italics">R</emphasis><sub>wire</sub> and <emphasis effect="italics">P</emphasis><sub>transmitted</sub> = <emphasis effect="italics">I</emphasis><sub>transmitted</sub> <emphasis effect="italics">V</emphasis><sub>transmitted</sub>, so <emphasis effect="italics">V</emphasis> must be high to make the current transmitted as low as possible.</item>
+</list></problem>
+</exercise>
+<exercise id="fs-id1167065871066" class="os-exercise">
+<problem id="fs-id1167065871070">
+<para id="fs-id1167065871072">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch20-ex068"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065944561" class="os-exercise">
+<problem id="fs-id1167062967320">
+<para id="fs-id1167062967322">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch20-ex069"/>
+</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167063010052" class="performance">
+<title>Performance Task</title>
+<exercise id="fs-id1167065964867">
+<problem id="fs-id1167065964869">
+<para id="fs-id1167065964871">Your family takes a trip to Cuba, and rents an old car to drive into the countryside to see the sights. Unfortunately, the next morning you find yourself deep in the countryside and the car won’t start because the battery is too weak. Wanting to jump-start the car, you open the hood and find that you can’t tell which battery terminal is positive and which is negative. However, you do have a bar magnet with the north and south poles labeled and you manage to find a short wire. How do you use these to determine which terminal is which? For starters, how do you determine the direction of a magnetic field around a current-carrying wire? And in which direction will the force be on another magnet placed in this field? Do you need to worry about the sign of the mobile charge carriers in the wire?</para>
+
+<note id="fs-id1167064875830" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065949587">This experiment can be done by using typical AAA batteries or similar batteries, a short length of flexible wire, and normal magnets, for example a good refrigerator magnet. The magnet should have the north and south poles labeled. Place the magnet near the wire so that the magnetic field of the magnet will be roughly parallel or antiparallel to the magnet field created by current in the wire. Upon briefly connecting the wire across the terminals of the battery, the wire will be attracted or repelled, respectively, from the magnet. By using the right-hand rule, you can determine in which the direction the current is flowing in the wire and thereby determine the polarity of the battery.</para>
+</note>
+
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167062950369" class="extended-response">
+<title>Test Prep Extended Response</title>
+<exercise id="fs-id1167064757971" class="os-exercise">
+<problem id="fs-id1167064757975">
+<para id="fs-id1167064757977">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch20-ex070"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065029197" class="os-exercise">
+<problem id="fs-id1167065704163">
+<!--<para id="fs-id1167065704165">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch20-ex071"/>
+</para>-->
+<para id="fs-id1164567368044">Your friend tells you that power lines must carry a maximum current because <emphasis effect="italics">P</emphasis> = <emphasis effect="italics">I</emphasis><sup>2</sup><emphasis effect="italics">R</emphasis>, where R is the resistance of the transmission line. What do you tell her?</para>
+<list id="fs-id1164565589411" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">P</emphasis><sub>transmitted</sub> = <emphasis effect="italics">I</emphasis><sub>transmitted</sub><sup>2</sup><emphasis effect="italics">R</emphasis><sub>wire</sub> and <emphasis effect="italics">P</emphasis><sub>lost</sub> = <emphasis effect="italics">I</emphasis><sub>transmitted</sub> <emphasis effect="italics">V</emphasis><sub>transmitted</sub>, so <emphasis effect="italics">I</emphasis> must be high to reduce power lost due to transmission.</item>
+<item><emphasis effect="italics">P</emphasis><sub>lost</sub> = <emphasis effect="italics">I</emphasis><sub>transmitted</sub><sup>2</sup><emphasis effect="italics">R</emphasis><sub>wire</sub> and <emphasis effect="italics">P</emphasis><sub>lost</sub> = <emphasis effect="italics">I</emphasis><sub>transmitted</sub> <emphasis effect="italics">V</emphasis><sub>transmitted</sub>, so <emphasis effect="italics">I</emphasis> must be high to reduce power lost due to transmission.</item>
+<item><emphasis effect="italics">P</emphasis><sub>transmitted</sub> = <emphasis effect="italics">I</emphasis><sub>transmitted</sub><sup>2</sup><emphasis effect="italics">R</emphasis><sub>wire</sub> and <emphasis effect="italics">P</emphasis><sub>lost</sub> = <emphasis effect="italics">I</emphasis><sub>transmitted</sub> <emphasis effect="italics">V</emphasis><sub>transmitted</sub>, so <emphasis effect="italics">I</emphasis> must be low to reduce power lost due to transmission.</item>
+<item><emphasis effect="italics">P</emphasis><sub>lost</sub> = <emphasis effect="italics">I</emphasis><sub>transmitted</sub><sup>2</sup><emphasis effect="italics">R</emphasis><sub>wire</sub> and <emphasis effect="italics">P</emphasis><sub>lost</sub> = <emphasis effect="italics">I</emphasis><sub>transmitted</sub> <emphasis effect="italics">V</emphasis><sub>transmitted</sub>, so <emphasis effect="italics">I</emphasis> must be low to reduce power lost due to transmission.</item>
+</list></problem>
+</exercise>
+</section>
+
+
+
+
+
+
+
+
+
+
+</content>
+<glossary>
+<definition id="fs-id1167065980336">
+<term>electric motor</term>
+<meaning id="fs-id1167064920573">device that transforms electrical energy into mechanical energy</meaning>
+</definition>
+<definition id="fs-id1167064920577">
+<term>generator</term>
+<meaning id="fs-id1167064920582">device that transforms mechanical energy into electrical energy</meaning>
+</definition>
+<definition id="fs-id1167062803210">
+<term>transformer</term>
+<meaning id="fs-id1167062803215">device that transforms voltages from one value to another</meaning>
+</definition>
+</glossary>
+</document>

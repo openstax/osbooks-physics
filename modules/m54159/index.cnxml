@@ -1,0 +1,1430 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+  <title>Inclined Planes</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54159</md:content-id>
+  <md:title>Inclined Planes</md:title>
+  <md:abstract/>
+  <md:uuid>85235cd3-2d31-4684-9919-3011afa86696</md:uuid>
+</metadata>
+
+<content>
+      <note id="fs-id1167067024761" class="learning-objectives">
+        <label/>
+        <title>Section Learning Objectives</title>
+<para id="fs-id1167063102234">By the end of this section, you will be able to do the following:</para>
+        <list id="fs-id1167067181154"><item>Distinguish between static friction and kinetic friction</item>
+<item>Solve problems involving inclined planes</item>
+        </list></note>
+      <note id="fs-id1167067040819" class="os-teacher"><title>Teacher Support</title>
+        <para id="fs-id1167067101601">The learning objectives in this section will help your students master the following standards:</para><list id="fs-id1167067055825">
+          <item>
+            (4) Science concepts. The student knows and applies the laws governing motion in two dimensions for a variety of situations. The student is expected to:
+            <list id="fs-id1167066976440"><item><span>(D)</span> <span>calculate the effect of forces on objects, including the law of inertia, the relationship between force and acceleration, and the nature of force pairs between objects.</span></item>
+            </list></item>
+        </list>
+        </note>
+<section id="keyterms"><title>Section Key Terms</title><table id="fs-id1167067077755" summary="The list of Key Terms includes: kinetic friction and static friction." class="unnumbered unstyled section-key-terms"><label/>
+<tgroup cols="2"><tbody>
+              <row>
+                <entry>kinetic friction</entry>
+                <entry>static friction</entry>
+              </row>
+            </tbody>
+
+
+</tgroup>
+</table>
+</section>
+      <section id="fs-id1167066946202">
+        <title>Static Friction and Kinetic Friction</title>
+        <para id="fs-id1167067184786">Recall from the previous chapter that friction is a force that opposes motion, and is around us all the time. Friction allows us to move, which you have discovered if you have ever tried to walk on ice.</para>
+        <para id="fs-id1167066811244">There are different types of friction—kinetic and static. <term>Kinetic friction</term> acts on an object in motion, while <term>static friction</term> acts on an object or system at rest. The maximum static friction is usually greater than the kinetic friction between the objects.</para>
+        <note id="fs-id1167067040886" class="os-teacher">
+          <title>Teacher Support</title>
+          <para id="fs-id1167067074318"><span>[BL]</span><span>[OL]</span> Review the concept of friction.</para>
+          <para id="fs-id1167067189973"><span>[AL]</span> Start a discussion about the two kinds of friction: static and kinetic. Ask students which one they think would be greater for two given surfaces. Explain the concept of coefficient of friction and what the number would imply in practical terms. Look at the table of static and kinetic friction and ask students to guess which other systems would have higher or lower coefficients.</para>
+        </note>
+        <para id="fs-id1167067100951">Imagine, for example, trying to slide a heavy crate across a concrete floor. You may push harder and harder on the crate and not move it at all. This means that the static friction responds to what you do—it increases to be equal to and in the opposite direction of your push. But if you finally push hard enough, the crate seems to slip suddenly and starts to move. Once in motion, it is easier to keep it in motion than it was to get it started because the kinetic friction force is less than the static friction force. If you were to add mass to the crate, (for example, by placing a box on top of it) you would need to push even harder to get it started and also to keep it moving. If, on the other hand, you oiled the concrete you would find it easier to get the crate started and keep it going.</para>
+        <para id="fs-id1167067025589"><link target-id="Figure_05_04_surface"/> shows how friction occurs at the interface between two objects. Magnifying these surfaces shows that they are rough on the microscopic level. So when you push to get an object moving (in this case, a crate), you must raise the object until it can skip along with just the tips of the surface hitting, break off the points, or do both. The harder the surfaces are pushed together (such as if another box is placed on the crate), the more force is needed to move them.</para>
+        <figure id="Figure_05_04_surface"><media id="fs-id1167067023978" alt="A box is shown sitting on a floor. A vector labeled f points to the left from the area where the bottom of the box meets the floor. A zoom-in diagram shows the bottom surface of the box and the surface of the floor as rough.">
+            <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_05_04_surface.jpg"/>
+          </media>
+
+        <caption>Frictional forces, such as <emphasis>f</emphasis>, always oppose motion or attempted motion between objects in contact. Friction arises in part because of the roughness of the surfaces in contact, as seen in the expanded view.</caption></figure><para id="fs-id1167067036387">The magnitude of the frictional force has two forms: one for static friction, the other for kinetic friction. When there is no motion between the objects, the magnitude of static friction <emphasis>f<sub>s</sub></emphasis> is</para>
+        <equation id="fs-id1167067038351" class="unnumbered"><label/>
+           <m:math>
+            <m:mrow>
+              <m:msub>
+                <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>f</m:mi></m:mstyle>
+                <m:mtext>s</m:mtext>
+              </m:msub>
+              <m:mo>≤</m:mo><m:msub>
+                <m:mi>μ</m:mi>
+                <m:mtext>s</m:mtext>
+              </m:msub>
+              <m:msub>
+                <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>N</m:mi></m:mstyle>
+                <m:mtext>s</m:mtext>
+              </m:msub>
+              <m:mtext>,</m:mtext>
+            </m:mrow>
+          </m:math>
+
+        </equation><para id="fs-id1167067112302">where <m:math>
+          <m:mrow>
+            <m:msub>
+              <m:mi>μ</m:mi>
+              <m:mtext>s</m:mtext>
+            </m:msub>
+
+          </m:mrow>
+        </m:math> is the coefficient of static friction and <emphasis>N</emphasis> is the magnitude of the normal force. Recall that the normal force opposes the force of gravity and acts perpendicular to the surface in this example, but not always.</para><para id="fs-id1167066879604">Since the symbol <m:math>
+          <m:mrow>
+            <m:mo>≤</m:mo>
+          </m:mrow>
+        </m:math> means less than or equal to, this equation says that static friction can have a maximum value of <m:math>
+          <m:mrow>
+            <m:msub>
+              <m:mi>μ</m:mi>
+              <m:mtext>s</m:mtext>
+            </m:msub>
+            <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>N</m:mi></m:mstyle><m:mo>.</m:mo>
+          </m:mrow>
+        </m:math> That is,</para><equation id="fs-id1167066843213" class="unnumbered"><label/>
+           <m:math>
+            <m:mrow>
+              <m:msub>
+                <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>f</m:mi></m:mstyle>
+                <m:mtext>s</m:mtext>
+              </m:msub>
+              <m:mtext>(max)</m:mtext><m:mo>=</m:mo><m:msub>
+                <m:mi>μ</m:mi>
+                <m:mtext>s</m:mtext>
+              </m:msub>
+              <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>N.</m:mi></m:mstyle>
+            </m:mrow>
+          </m:math>
+        </equation><para id="fs-id1167066836088">Static friction is a responsive force that increases to be equal and opposite to whatever force is exerted, up to its maximum limit. Once the applied force exceeds <emphasis>f</emphasis>s(max), the object will move. Once an object is moving, the magnitude of kinetic friction <emphasis>f</emphasis><sub>k</sub> is given by</para><equation id="fs-id1167066860392" class="unnumbered"><label/>
+           <m:math display="block">
+            <m:mrow>
+              <m:msub>
+                <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>f</m:mi></m:mstyle>
+                <m:mtext>k</m:mtext>
+              </m:msub>
+              <m:mo>=</m:mo><m:msub>
+                <m:mi>μ</m:mi>
+                <m:mtext>k</m:mtext>
+              </m:msub>
+              <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>N.</m:mi></m:mstyle>
+            </m:mrow>
+          </m:math>
+        </equation><para id="fs-id1167066959572">where  <m:math>
+          <m:mrow>
+            <m:msub>
+              <m:mi>μ</m:mi>
+              <m:mtext>k</m:mtext>
+            </m:msub>
+          </m:mrow>
+        </m:math>  is the coefficient of kinetic friction.</para><para id="fs-id1167066834970">Friction varies from surface to surface because different substances are rougher than others. <link target-id="Table_05_02"/> compares values of static and kinetic friction for different surfaces. The coefficient of the friction depends on the two surfaces that are in contact.</para>
+
+        <table id="Table_05_02" summary=".."><title>Coefficients of Static and Kinetic Friction</title>
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+<thead> <row>
+                <entry>System</entry>
+                <entry>Static Friction <m:math>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>μ</m:mi>
+                      <m:mtext>s</m:mtext>
+                    </m:msub>
+
+                  </m:mrow>
+                </m:math> </entry>
+                <entry>Kinetic Friction <m:math>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>μ</m:mi>
+                      <m:mtext>k</m:mtext>
+                    </m:msub>
+
+                  </m:mrow>
+                </m:math> </entry>
+              </row>
+
+</thead>
+               <tbody>
+
+              <row>
+                <entry>Rubber on dry concrete</entry>
+                <entry>1.0</entry>
+                <entry>0.7</entry>
+              </row>
+              <row>
+                <entry>Rubber on wet concrete</entry>
+                <entry>0.7</entry>
+                <entry>0.5</entry>
+              </row>
+              <row>
+                <entry>Wood on wood</entry>
+                <entry>0.5</entry>
+                <entry>0.3</entry>
+              </row>
+              <row>
+                <entry>Waxed wood on wet snow</entry>
+                <entry>0.14</entry>
+                <entry>0.1</entry>
+              </row>
+              <row>
+                <entry>Metal on wood</entry>
+                <entry>0.5</entry>
+                <entry>0.3</entry>
+              </row>
+              <row>
+                <entry>Steel on steel (dry)</entry>
+                <entry>0.6</entry>
+                <entry>0.3</entry>
+              </row>
+              <row>
+                <entry>Steel on steel (oiled)</entry>
+                <entry>0.05</entry>
+                <entry>0.03</entry>
+              </row>
+              <row>
+                <entry>Teflon on steel</entry>
+                <entry>0.04</entry>
+                <entry>0.04</entry>
+              </row>
+              <row>
+                <entry>Bone lubricated by synovial fluid</entry>
+                <entry>0.016</entry>
+                <entry>0.015</entry>
+              </row>
+              <row>
+                <entry>Shoes on wood</entry>
+                <entry>0.9</entry>
+                <entry>0.7</entry>
+              </row>
+              <row>
+                <entry>Shoes on ice</entry>
+                <entry>0.1</entry>
+                <entry>0.05</entry>
+              </row>
+              <row>
+                <entry>Ice on ice</entry>
+                <entry>0.1</entry>
+                <entry>0.03</entry>
+              </row>
+              <row>
+                <entry>Steel on ice</entry>
+                <entry>0.4</entry>
+                <entry>0.02</entry>
+              </row>
+            </tbody>
+
+</tgroup>
+</table><para id="fs-id1167066838720">Since the direction of friction is always opposite to the direction of motion, friction runs parallel to the surface between objects and perpendicular to the normal force. For example, if the crate you try to push (with a force parallel to the floor) has a mass of 100 kg, then the normal force would be equal to its weight</para>
+        <equation id="fs-id1167066858565" class="unnumbered"><label/>
+           <m:math display="block">
+            <m:mrow>
+              <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>W</m:mi></m:mstyle><m:mo>=</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>g</m:mi></m:mstyle><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>100</m:mn><m:mspace width="0.3em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>9.80</m:mn><m:msup>
+                <m:mrow>
+                  <m:mtext>m/s</m:mtext>
+                </m:mrow>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>980</m:mn><m:mspace width="0.3em"/><m:mtext> N</m:mtext><m:mo>,</m:mo>
+            </m:mrow>
+          </m:math>
+
+        </equation><para id="fs-id1167066860060">perpendicular to the floor. If the coefficient of static friction is 0.45, you would have to exert a force parallel to the floor greater than</para>
+        <equation id="fs-id1167066846366" class="unnumbered"><label/>
+           <m:math>
+            <m:mrow>
+              <m:msub>
+                <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>f</m:mi></m:mstyle>
+                <m:mtext>s</m:mtext>
+              </m:msub>
+              <m:mtext>(max)</m:mtext><m:mo>=</m:mo><m:msub>
+                <m:mi>μ</m:mi>
+                <m:mtext>s</m:mtext>
+              </m:msub>
+              <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>N</m:mi></m:mstyle><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.45</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>980</m:mn><m:mspace width="0.3em"/><m:mtext> N)</m:mtext><m:mo>=</m:mo><m:mn>440</m:mn><m:mspace width="0.3em"/><m:mtext> N</m:mtext>
+            </m:mrow>
+          </m:math>
+
+        </equation><para id="fs-id1167066793263">to move the crate. Once there is motion, friction is less and the coefficient of kinetic friction might be 0.30, so that a force of only 290 N </para>
+        <equation id="fs-id1167066840167" class="unnumbered"><label/>
+           <m:math display="block">
+            <m:mrow>
+              <m:msub>
+                <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>f</m:mi></m:mstyle>
+                <m:mtext>k</m:mtext>
+              </m:msub>
+              <m:mo>=</m:mo><m:msub>
+                <m:mi>μ</m:mi>
+                <m:mtext>k</m:mtext>
+              </m:msub>
+              <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>N</m:mi></m:mstyle><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.30</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>980</m:mn><m:mspace width="0.3em"/><m:mtext> N)</m:mtext><m:mo>=</m:mo><m:mn>290</m:mn><m:mspace width="0.3em"/><m:mtext> N</m:mtext>
+            </m:mrow>
+          </m:math>
+        </equation><para id="fs-id1167067082956">would keep it moving at a constant speed. If the floor were lubricated, both coefficients would be much smaller than they would be without lubrication. The coefficient of friction is unitless and is a number usually between 0 and 1.0. </para>
+      </section>
+    <section id="fs-id1167067194746"><title>Working with Inclined Planes</title><para id="fs-id1167066874236">We discussed previously that when an object rests on a horizontal surface, there is a normal force supporting it equal in magnitude to its weight. Up until now, we dealt only with normal force in one dimension, with gravity and normal force acting perpendicular to the surface in opposing directions (gravity downward, and normal force upward). Now that you have the skills to work with forces in two dimensions, we can explore what happens to weight and the normal force on a tilted surface such as an inclined plane. For inclined plane problems, it is easier breaking down the forces into their components if we rotate the coordinate system, as illustrated in <link target-id="Figure_05_04_weight"/>. The first step when setting up the problem is to break down the force of weight into components.</para>
+      <figure id="Figure_05_04_weight">
+        <media id="fs-id1167066859356" alt="A diagram shows perpendicular and horizontal components of weight. The weight is on an inclined plane that slopes downward to the right.">
+          <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_05_04_weight.jpg"/>
+        </media>
+        <caption>The diagram shows perpendicular and horizontal components of weight on an inclined plane.</caption>
+      </figure>
+      <note id="fs-id1167066825762" class="os-teacher">
+        <title>Teacher Support</title>
+        <para id="fs-id1167066821179"><span>[BL]</span> Review the concepts of mass, weight, gravitation and normal force.</para>
+        <para id="fs-id1167066968408"><span>[OL]</span> Review vectors and components of vectors.</para>
+      </note>
+      <para id="fs-id1167066846733">When an object rests on an incline that makes an angle <m:math>
+        <m:mrow>
+          <m:mi>θ</m:mi>
+        </m:mrow>
+      </m:math> with the horizontal, the force of gravity acting on the object is divided into two components: A force acting perpendicular to the plane, <m:math>
+        <m:mrow>
+          <m:msub>
+            <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>w</m:mi></m:mstyle>
+            <m:mo>⊥</m:mo>
+          </m:msub>
+
+        </m:mrow>
+      </m:math>, and a force acting parallel to the plane, <m:math>
+        <m:mrow>
+          <m:msub>
+            <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>w</m:mi></m:mstyle>
+            <m:mrow>
+              <m:mo>|</m:mo><m:mo>|</m:mo>
+            </m:mrow>
+          </m:msub>
+
+        </m:mrow>
+      </m:math> . The perpendicular force of weight, <m:math>
+        <m:mrow>
+          <m:msub>
+            <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>w</m:mi></m:mstyle>
+            <m:mo>⊥</m:mo>
+          </m:msub>
+
+        </m:mrow>
+      </m:math>, is typically equal in magnitude and opposite in direction to the normal force, <m:math>
+        <m:mrow>
+          <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>N</m:mi></m:mstyle><m:mo>.</m:mo>
+        </m:mrow>
+      </m:math> The force acting parallel to the plane, <m:math>
+        <m:mrow>
+          <m:msub>
+            <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>w</m:mi></m:mstyle>
+            <m:mrow>
+              <m:mo>|</m:mo><m:mo>|</m:mo>
+            </m:mrow>
+          </m:msub>
+
+        </m:mrow>
+      </m:math>, causes the object to accelerate down the incline. The force of friction, <m:math>
+        <m:mrow>
+          <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>f</m:mi></m:mstyle>
+        </m:mrow>
+      </m:math>, opposes the motion of the object, so it acts upward along the plane.</para><para id="fs-id1167066806956">It is important to be careful when resolving the weight of the object into components. If the angle of the incline is at an angle <m:math>
+        <m:mrow>
+          <m:mi>θ</m:mi>
+        </m:mrow>
+      </m:math> to the horizontal, then the magnitudes of the weight components are</para>
+      <equation id="fs-id1167066860762" class="unnumbered"><label/>
+         <m:math display="block">
+          <m:mrow>
+            <m:msub>
+              <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>w</m:mi></m:mstyle>
+              <m:mrow>
+                <m:mo>|</m:mo><m:mo>|</m:mo>
+              </m:mrow>
+            </m:msub>
+            <m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>w</m:mi></m:mstyle><m:mi>s</m:mi><m:mi>i</m:mi><m:mi>n</m:mi><m:mo stretchy="false">(</m:mo><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>g</m:mi></m:mstyle><m:mi>s</m:mi><m:mi>i</m:mi><m:mi>n</m:mi><m:mo stretchy="false">(</m:mo><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> and</m:mtext>
+          </m:mrow>
+        </m:math>
+      </equation><equation id="fs-id1167067045831" class="unnumbered"><label/>
+         <m:math display="block">
+          <m:mrow>
+            <m:msub>
+              <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>w</m:mi></m:mstyle>
+              <m:mo>⊥</m:mo>
+            </m:msub>
+            <m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>w</m:mi></m:mstyle><m:mi>c</m:mi><m:mi>o</m:mi><m:mi>s</m:mi><m:mo stretchy="false">(</m:mo><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>g</m:mi></m:mstyle><m:mi>c</m:mi><m:mi>o</m:mi><m:mi>s</m:mi><m:mo stretchy="false">(</m:mo><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo><m:mtext>.</m:mtext>
+          </m:mrow>
+        </m:math>
+      </equation><para id="fs-id1167066773833">Instead of memorizing these equations, it is helpful to be able to determine them from reason. To do this, draw the right triangle formed by the three weight vectors. Notice that the angle   of the incline is the same as the angle formed between <m:math>
+          <m:mrow>
+            <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>w</m:mi></m:mstyle>
+          </m:mrow>
+        </m:math> and <m:math>
+          <m:mrow>
+            <m:msub>
+              <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>w</m:mi></m:mstyle>
+              <m:mo>⊥</m:mo>
+            </m:msub>
+
+          </m:mrow>
+        </m:math> . Knowing this property, you can use trigonometry to determine the magnitude of the weight components</para>
+
+      <equation id="fs-id1167067031952" class="unnumbered"><label/>
+         <m:math display="block">
+          <m:mtable columnalign="left">
+            <m:mtr>
+              <m:mtd>
+                <m:mi>c</m:mi><m:mi>o</m:mi><m:mi>s</m:mi><m:mo stretchy="false">(</m:mo><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>w</m:mi></m:mstyle>
+                      <m:mo>⊥</m:mo>
+                    </m:msub>
+
+                  </m:mrow>
+                  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>w</m:mi></m:mstyle>
+                </m:mfrac>
+
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd>
+                <m:msub>
+                  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>w</m:mi></m:mstyle>
+                  <m:mo>⊥</m:mo>
+                </m:msub>
+                <m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>w</m:mi></m:mstyle><m:mi>c</m:mi><m:mi>o</m:mi><m:mi>s</m:mi><m:mo stretchy="false">(</m:mo><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>g</m:mi></m:mstyle><m:mi>c</m:mi><m:mi>o</m:mi><m:mi>s</m:mi><m:mo stretchy="false">(</m:mo><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+
+        </m:math>
+
+      </equation><equation id="fs-id1167066790355" class="unnumbered"><label/>
+         <m:math display="block">
+          <m:mtable columnalign="left">
+            <m:mtr>
+              <m:mtd>
+                <m:mi>s</m:mi><m:mi>i</m:mi><m:mi>n</m:mi><m:mo stretchy="false">(</m:mo><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>w</m:mi></m:mstyle>
+                      <m:mrow>
+                        <m:mo>|</m:mo><m:mo>|</m:mo>
+                      </m:mrow>
+                    </m:msub>
+
+                  </m:mrow>
+                  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>w</m:mi></m:mstyle>
+                </m:mfrac>
+
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd>
+                <m:msub>
+                  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>w</m:mi></m:mstyle>
+                  <m:mrow>
+                    <m:mo>|</m:mo><m:mo>|</m:mo>
+                  </m:mrow>
+                </m:msub>
+                <m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>w</m:mi></m:mstyle><m:mi>s</m:mi><m:mi>i</m:mi><m:mi>n</m:mi><m:mo stretchy="false">(</m:mo><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>g</m:mi></m:mstyle><m:mi>s</m:mi><m:mi>i</m:mi><m:mi>n</m:mi><m:mo stretchy="false">(</m:mo><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo><m:mtext>.</m:mtext>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+
+        </m:math>
+      </equation><note id="fs-id1167066843089" class="os-teacher">
+        <title>Teacher Support</title>
+        <para id="fs-id1167067070985"><span>[BL]</span><span>[OL]</span><span>[AL]</span> Experiment with sliding different objects on inclined planes to understand static and kinetic friction. Which objects need a larger angle to slide down? What does this say about the coefficients of friction of those systems? Is a greater force required to start the motion of an object than to keep it in motion? What does this say about static and kinetic friction? When does an object slide down at constant velocity? What does this say about friction and normal force?</para>
+      </note>
+      <note id="fs-id1167066862852" class="watch-physics"><title>Inclined Plane Force Components</title>
+
+        <para id="fs-id1167066835562">This <link url="https://www.khanacademy.org/embed_video?v=TC23wD34C7k">video</link> shows how the weight of an object on an inclined plane is broken down into components perpendicular and parallel to the surface of the plane. It explains the geometry for finding the angle in more detail. </para>
+
+        <exercise id="fs-id1167066946770" class="os-exercise grasp-check unnumbered">
+
+          <problem id="fs-id1167066793985">
+            <para id="fs-id1167067031045">
+              <link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex069"/>
+            </para>
+          </problem>
+        </exercise>
+      </note><note id="fs-id1167067025994" class="tips-for-success">
+
+        <para id="fs-id1167066846950">Normal force is represented by the variable <m:math>
+          <m:mrow>
+            <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>N</m:mi></m:mstyle><m:mo>.</m:mo>
+          </m:mrow>
+        </m:math> This should not be confused with the symbol for the newton, which is also represented by the letter N. It is important to tell apart these symbols, especially since the units for normal force ( <m:math>
+          <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>N</m:mi></m:mstyle>
+        </m:math> ) happen to be newtons (N). For example, the normal force, <m:math>
+          <m:mrow>
+            <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>N</m:mi></m:mstyle>
+          </m:mrow>
+        </m:math>, that the floor exerts on a chair might be <m:math>
+          <m:mrow>
+            <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>N</m:mi></m:mstyle><m:mo>=</m:mo><m:mn>100</m:mn><m:mspace width="0.3em"/><m:mtext> N</m:mtext><m:mtext>.</m:mtext>
+          </m:mrow>
+        </m:math> One important difference is that normal force is a vector, while the newton is simply a unit. Be careful not to confuse these letters in your calculations!</para>
+      </note>
+      <para id="fs-id1167066783128">To review, the process for solving inclined plane problems is as follows:</para>
+      <list id="fs-id1167066848233" list-type="enumerated" number-style="arabic"><item>Draw a sketch of the problem.</item>
+        <item>Identify known and unknown quantities, and identify the system of interest.</item>
+        <item>Draw a free-body diagram (which is a sketch showing all of the forces acting on an object) with the coordinate system rotated at the same angle as the inclined plane. Resolve the vectors into horizontal and vertical components and draw them on the free-body diagram.</item>
+        <item>Write Newton’s second law in the horizontal and vertical directions and add the forces acting on the object. If the object does not accelerate in a particular direction (for example, the <emphasis effect="italics">x</emphasis> -direction) then <emphasis>F</emphasis>net <emphasis effect="italics">x</emphasis> = 0. If the object does accelerate in that direction, <emphasis>F</emphasis>net <emphasis effect="italics">x</emphasis> = <emphasis effect="italics">m</emphasis><emphasis>a</emphasis>.</item>
+        <item>Check your answer. Is the answer reasonable? Are the units correct?</item>
+      </list><note id="Worked_Example_05_04_02" class="worked-example">
+          <title>Finding the Coefficient of Kinetic Friction on an Inclined Plane</title>
+        <exercise id="fs-id1167066828367" class="05-ex070 unnumbered"><label/>
+          <problem id="fs-id1167066807884">
+            <para id="fs-id1167066799356">A skier, illustrated in <link target-id="Figure_05_04_skiera"/><link target-id="Figure_05_04_skiera">(a)</link>, with a mass of 62 kg is sliding down a snowy slope at an angle of 25 degrees. Find the coefficient of kinetic friction for the skier if friction is known to be 45.0 N.</para>
+            <figure id="Figure_05_04_skiera">
+              <media id="fs-id1167066842678" alt="A skier is moving down a slope with an angle measure of twenty-five degrees to the ground. Force vectors are shown: N points upward from the skier, f points to the right of the skis, w points at a downward left angle from the skiers' feet, forming an angle with vector w that has a measure of twenty-five degrees. A free-body diagram illustrates the right triangle formed by these vectors.">
+                <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_05_04_skier(a).jpg"/>
+              </media>
+              <caption>Use the diagram to help find the coefficient of kinetic friction for the skier.</caption>
+            </figure>
+            <note id="fs-id1167066783636"><label/><title>Strategy</title>
+              <para id="fs-id1167066877121">The magnitude of kinetic friction was given as 45.0 N. Kinetic friction is related to the normal force <emphasis>N</emphasis> as  <m:math>
+                <m:mrow>
+                  <m:msub>
+                    <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>f</m:mi></m:mstyle>
+                    <m:mtext>k</m:mtext>
+                  </m:msub>
+                  <m:mo>=</m:mo><m:msub>
+                    <m:mi>μ</m:mi>
+                    <m:mtext>k</m:mtext>
+                  </m:msub>
+                  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>N</m:mi></m:mstyle>
+                </m:mrow>
+              </m:math> . Therefore, we can find the coefficient of kinetic friction by first finding the normal force of the skier on a slope. The normal force is always perpendicular to the surface, and since there is no motion perpendicular to the surface, the normal force should equal the component of the skier’s weight perpendicular to the slope.</para><para id="fs-id1167066851693">That is,</para>
+              <equation id="fs-id1167066811109" class="unnumbered"><label/>
+                 <m:math display="block">
+                <m:mrow>
+                  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>N</m:mi></m:mstyle><m:mo>=</m:mo><m:msub>
+                    <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>w</m:mi></m:mstyle>
+                    <m:mo>⊥</m:mo>
+                  </m:msub>
+                  <m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>w</m:mi></m:mstyle><m:mtext> cos</m:mtext><m:mo stretchy="false">(</m:mo><m:msup>
+                    <m:mrow>
+                      <m:mn>25</m:mn>
+                    </m:mrow>
+                    <m:mo>∘</m:mo>
+                  </m:msup>
+                  <m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>g</m:mi></m:mstyle><m:mtext> cos</m:mtext><m:mo stretchy="false">(</m:mo><m:msup>
+                    <m:mrow>
+                      <m:mn>25</m:mn>
+                    </m:mrow>
+                    <m:mo>∘</m:mo>
+                  </m:msup>
+                  <m:mo stretchy="false">)</m:mo>
+<m:mtext>.</m:mtext>
+                </m:mrow>
+              </m:math>
+              </equation><para id="fs-id1167066841824">Substituting this into our expression for kinetic friction, we get</para>
+              <equation id="fs-id1167066867310" class="unnumbered"><label/> <m:math display="block">
+                <m:mrow>
+                  <m:msub>
+                    <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>f</m:mi></m:mstyle>
+                    <m:mtext>k</m:mtext>
+                  </m:msub>
+                  <m:mo>=</m:mo><m:msub>
+                    <m:mi>μ</m:mi>
+                    <m:mtext>k</m:mtext>
+                  </m:msub>
+                  <m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>g</m:mi></m:mstyle><m:msup>
+                    <m:mrow>
+                      <m:mtext> cos 25</m:mtext>
+                    </m:mrow>
+                    <m:mo>∘</m:mo>
+                  </m:msup>
+                  <m:mo>,</m:mo>
+                </m:mrow>
+              </m:math>
+              </equation><para id="fs-id1167066783059">which can now be solved for the coefficient of kinetic friction <emphasis effect="italics">μ</emphasis><sub>k</sub>.</para></note>
+          </problem>
+              <solution id="fs-id1167066847029"><label/><title>Solution</title>
+                <para id="fs-id1167067041370">Solving for <m:math>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>μ</m:mi>
+                      <m:mtext>k</m:mtext>
+                    </m:msub>
+
+                  </m:mrow>
+                </m:math> gives</para>
+                <para id="fs-id1167066863175"> <m:math>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>μ</m:mi>
+                      <m:mtext>k</m:mtext>
+                    </m:msub>
+                    <m:mo>=</m:mo><m:mfrac>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>f</m:mi></m:mstyle>
+                          <m:mtext>k</m:mtext>
+                        </m:msub>
+
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>w</m:mi></m:mstyle><m:msup>
+                          <m:mrow>
+                            <m:mtext> cos 25</m:mtext>
+                          </m:mrow>
+                          <m:mo>∘</m:mo>
+                        </m:msup>
+
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mo>=</m:mo><m:mfrac>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>f</m:mi></m:mstyle>
+                          <m:mtext>k</m:mtext>
+                        </m:msub>
+
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>g</m:mi></m:mstyle><m:msup>
+                          <m:mrow>
+                            <m:mtext> cos 25</m:mtext>
+                          </m:mrow>
+                          <m:mo>∘</m:mo>
+                        </m:msup>
+
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mtext>.</m:mtext>
+                  </m:mrow>
+                </m:math>
+                </para><para id="fs-id1167067031723">Substituting known values on the right-hand side of the equation,</para>
+                <para id="fs-id1167067054927"> <m:math>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>μ</m:mi>
+                      <m:mtext>k</m:mtext>
+                    </m:msub>
+                    <m:mo>=</m:mo><m:mfrac>
+                      <m:mrow>
+                        <m:mn>45.0</m:mn><m:mspace width="0.3em"/><m:mtext> N</m:mtext>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">(</m:mo><m:mn>62</m:mn><m:mspace width="0.3em"/><m:mtext> kg)(9</m:mtext><m:msup>
+                          <m:mrow>
+                            <m:mtext>.80 m/s</m:mtext>
+                          </m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                        <m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.906</m:mn><m:mo stretchy="false">)</m:mo>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mo>=</m:mo><m:mn>0.082</m:mn>
+<m:mtext>.</m:mtext>
+</m:mrow>
+                </m:math> </para>
+              </solution>
+          <commentary id="fs-id1167067024544">
+            <title>Discussion</title>
+            <para id="fs-id1167066876188">This result is a little smaller than the coefficient listed in <link target-id="Table_05_02"/> for waxed wood on snow, but it is still reasonable since values of the coefficients of friction can vary greatly. In situations like this, where an object of mass <emphasis effect="italics">m</emphasis> slides down a slope that makes an angle <emphasis effect="italics">θ</emphasis> with the horizontal, friction is given by <m:math>
+              <m:mrow>
+                <m:msub>
+                  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>f</m:mi></m:mstyle>
+                  <m:mtext>k</m:mtext>
+                </m:msub>
+                <m:mo>=</m:mo><m:msub>
+                  <m:mi>μ</m:mi>
+                  <m:mtext>k</m:mtext>
+                </m:msub>
+                <m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>g</m:mi></m:mstyle><m:mtext> cos</m:mtext><m:mi>θ</m:mi><m:mo>.</m:mo>
+              </m:mrow>
+            </m:math> </para></commentary></exercise></note><note id="fs-id1167066774448" class="worked-example">
+<title>Weight on an Incline, a Two-Dimensional Problem</title>
+        <exercise id="fs-id1167067042479" class="05-ex071 unnumbered"><label/>
+
+          <problem id="fs-id1167066845080">
+            <para id="fs-id1167067100357">The skier’s mass, including equipment, is 60.0 kg. (See <link target-id="Figure_05_04_skierb"/><link target-id="Figure_05_04_skierb">(b)</link>.) (a) What is her acceleration if friction is negligible? (b) What is her acceleration if the frictional force is 45.0 N?</para>
+            <figure id="Figure_05_04_skierb">
+              <media id="fs-id1167066970776" alt="A skier is moving down a slope with an angle measure of twenty-five degrees to the ground. Force vectors are shown: N points upward from the skier, f points to the right of the skis, w points at a downward left angle from the skiers' feet, forming an angle with vector w that has a measure of twenty-five degrees. A free-body diagram illustrates the right triangle formed by these vectors.">
+                <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_05_04_skier(b).jpg"/>
+              </media>
+              <caption>Now use the diagram to help find the skier's acceleration if friction is negligible and if the frictional force is 45.0 N.</caption>
+            </figure>
+            <note id="fs-id1167067092327"><label/><title>Strategy</title>
+              <para id="fs-id1167066835755">The most convenient coordinate system for motion on an incline is one that has one coordinate parallel to the slope and one perpendicular to the slope. Remember that motions along perpendicular axes are independent. We use the symbol <m:math>
+                <m:mrow>
+                  <m:mo>⊥</m:mo>
+                </m:mrow>
+              </m:math> to mean perpendicular, and <m:math>
+                <m:mrow>
+                  <m:mo>|</m:mo><m:mo>|</m:mo>
+                </m:mrow>
+              </m:math> to mean parallel.</para>
+              <para id="fs-id1167066827700">The only external forces acting on the system are the skier’s weight, friction, and the normal force exerted by the ski slope, labeled <m:math>
+                <m:mrow>
+                  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>w</m:mi></m:mstyle>
+                </m:mrow>
+              </m:math>, <m:math>
+                <m:mrow>
+                  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>f</m:mi></m:mstyle>
+                </m:mrow>
+              </m:math>, and <m:math>
+                <m:mrow>
+                  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>N</m:mi></m:mstyle>
+                </m:mrow>
+              </m:math> in the free-body diagram. <m:math>
+                <m:mrow>
+                  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>N</m:mi></m:mstyle>
+                </m:mrow>
+              </m:math> is always perpendicular to the slope and <m:math>
+                <m:mrow>
+                  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>f</m:mi></m:mstyle>
+                </m:mrow>
+              </m:math> is parallel to it. But <m:math>
+                <m:mrow>
+                  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>w</m:mi></m:mstyle>
+                </m:mrow>
+              </m:math> is not in the direction of either axis, so we must break it down into components along the chosen axes. We define <m:math>
+                <m:mrow>
+                  <m:msub>
+                    <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>w</m:mi></m:mstyle>
+                    <m:mrow>
+                      <m:mo>|</m:mo><m:mo>|</m:mo>
+                    </m:mrow>
+                  </m:msub>
+
+                </m:mrow>
+              </m:math> to be the component of weight parallel to the slope and <m:math>
+                <m:mrow>
+                  <m:msub>
+                    <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>w</m:mi></m:mstyle>
+                    <m:mo>⊥</m:mo>
+                  </m:msub>
+
+                </m:mrow>
+              </m:math> the component of weight perpendicular to the slope. Once this is done, we can consider the two separate problems of forces parallel to the slope and forces perpendicular to the slope.</para>
+            </note>
+          </problem>
+          <solution id="fs-id1167067076577"><label/><title>Solution</title>
+            <para id="fs-id1167067132287">The magnitude of the component of the weight parallel to the slope is <m:math>
+              <m:mrow>
+                <m:msub>
+                  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>w</m:mi></m:mstyle>
+                  <m:mrow>
+                    <m:mo>|</m:mo><m:mo>|</m:mo>
+                  </m:mrow>
+                </m:msub>
+                <m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>w</m:mi></m:mstyle><m:mtext>sin</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>25</m:mn><m:mo>°</m:mo><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>g</m:mi></m:mstyle><m:mtext>sin</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>25</m:mn><m:mo>°</m:mo><m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math>, and the magnitude of the component of the weight perpendicular to the slope is <m:math>
+              <m:mrow>
+                <m:msub>
+                  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>w</m:mi></m:mstyle>
+                  <m:mo>⊥</m:mo>
+                </m:msub>
+                <m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>w</m:mi></m:mstyle><m:mtext>cos</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>25</m:mn><m:mo>°</m:mo><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>g</m:mi></m:mstyle><m:mtext>cos</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>25</m:mn><m:mo>°</m:mo><m:mo stretchy="false">).</m:mo>
+              </m:mrow>
+            </m:math> </para><para id="fs-id1167066946073">(a) Neglecting friction: Since the acceleration is parallel to the slope, we only need to consider forces parallel to the slope. Forces perpendicular to the slope add to zero, since there is no acceleration in that direction. The forces parallel to the slope are the amount of the skier’s weight parallel to the slope <m:math>
+              <m:mrow>
+                <m:msub>
+                  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>w</m:mi></m:mstyle>
+                  <m:mrow>
+                    <m:mo>|</m:mo><m:mo>|</m:mo>
+                  </m:mrow>
+                </m:msub>
+
+              </m:mrow>
+            </m:math> and friction <m:math>
+              <m:mrow>
+                <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>f</m:mi></m:mstyle>
+              </m:mrow>
+            </m:math> . Assuming no friction, by Newton’s second law the acceleration parallel to the slope is</para><equation id="fs-id1167067103024" class="unnumbered"><label/>
+               <m:math display="block">
+                <m:mrow>
+                  <m:msub>
+                    <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>a</m:mi></m:mstyle>
+                    <m:mrow>
+                      <m:mo>|</m:mo><m:mo>|</m:mo>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo>=</m:mo><m:mfrac>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+                        <m:mrow>
+                          <m:mtext>net ||</m:mtext>
+                        </m:mrow>
+                      </m:msub>
+
+                    </m:mrow>
+                    <m:mi>m</m:mi>
+                  </m:mfrac>
+                  <m:mo>,</m:mo>
+                </m:mrow>
+              </m:math>
+
+            </equation><para id="fs-id1167067049563">Where the net force parallel to the slope <m:math>
+              <m:mrow>
+                <m:msub>
+                  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+                  <m:mrow>
+                    <m:mtext>net ||</m:mtext>
+                  </m:mrow>
+                </m:msub>
+                <m:mo>=</m:mo><m:msub>
+                  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>w</m:mi></m:mstyle>
+                  <m:mrow>
+                    <m:mo>|</m:mo><m:mo>|</m:mo>
+                  </m:mrow>
+                </m:msub>
+                <m:mo>=</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>g</m:mi></m:mstyle><m:mtext>sin</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>25</m:mn><m:mo>°</m:mo><m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math>, so that</para><equation id="fs-id1167067108050" class="unnumbered"><label/>
+               <m:math display="block">
+                <m:mrow>
+                  <m:mtable>
+                    <m:mtr rowalign="center">
+                      <m:mtd rowalign="center" columnalign="right">
+                        <m:mrow>
+                          <m:msub>
+                            <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>a</m:mi></m:mstyle>
+                            <m:mrow>
+                              <m:mo>|</m:mo><m:mo>|</m:mo>
+                            </m:mrow>
+                          </m:msub>
+
+                        </m:mrow>
+                      </m:mtd>
+                      <m:mtd rowalign="center">
+                        <m:mo>=</m:mo>
+                      </m:mtd>
+                      <m:mtd rowalign="center" columnalign="left">
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:msub>
+                                <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+                                <m:mrow>
+                                  <m:mtext>net ||</m:mtext>
+                                </m:mrow>
+                              </m:msub>
+
+                            </m:mrow>
+                            <m:mi>m</m:mi>
+                          </m:mfrac>
+                          <m:mo>=</m:mo><m:mfrac>
+                            <m:mrow>
+                              <m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>g</m:mi></m:mstyle><m:mtext>sin</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>25</m:mn><m:mo>°</m:mo><m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                            <m:mi>m</m:mi>
+                          </m:mfrac>
+                          <m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>g</m:mi></m:mstyle><m:mtext>sin</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>25</m:mn><m:mo>°</m:mo><m:mo stretchy="false">)</m:mo>
+                        </m:mrow>
+                      </m:mtd>
+                    </m:mtr>
+                    <m:mtr rowalign="center">
+                      <m:mtd rowalign="center"/>
+                      <m:mtd rowalign="center">
+                        <m:mo>=</m:mo>
+                      </m:mtd>
+                      <m:mtd rowalign="center" columnalign="left">
+                        <m:mrow>
+                          <m:mo stretchy="false">(</m:mo><m:mn>9.80</m:mn><m:msup>
+                            <m:mrow>
+                              <m:mtext> m/s</m:mtext>
+                            </m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:msup>
+                          <m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.423</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>4.14</m:mn><m:msup>
+                            <m:mrow>
+                              <m:mtext> m/s</m:mtext>
+                            </m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:msup>
+
+                        </m:mrow>
+                      </m:mtd>
+                    </m:mtr>
+
+                  </m:mtable>
+                </m:mrow>
+              </m:math> </equation><para id="fs-id1167066948195">is the acceleration.</para>
+            <para id="fs-id1167067067034">(b) Including friction: Here we now have a given value for friction, and we know its direction is parallel to the slope and it opposes motion between surfaces in contact. So the net external force is now </para>
+            <equation id="fs-id1167067105520" class="unnumbered"><label/>
+               <m:math display="block">
+                <m:mrow>
+                  <m:msub>
+                    <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+                    <m:mrow>
+                      <m:mtext>net </m:mtext><m:mo>|</m:mo><m:mo>|</m:mo>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo>=</m:mo><m:msub>
+                    <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>w</m:mi></m:mstyle>
+                    <m:mrow>
+                      <m:mo>|</m:mo><m:mo>|</m:mo>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo>−</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>f</m:mi></m:mstyle><m:mo>,</m:mo>
+                </m:mrow>
+              </m:math>
+
+            </equation><para id="fs-id1167067093167">and substituting this into Newton’s second law, <m:math>
+              <m:mrow>
+                <m:msub>
+                  <m:mi>a</m:mi>
+                  <m:mrow>
+                    <m:mo>|</m:mo><m:mo>|</m:mo>
+                  </m:mrow>
+                </m:msub>
+                <m:mo>=</m:mo><m:mfrac>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+                      <m:mrow>
+                        <m:mtext>net ||</m:mtext>
+                      </m:mrow>
+                    </m:msub>
+
+                  </m:mrow>
+                  <m:mi>m</m:mi>
+                </m:mfrac>
+
+              </m:mrow>
+            </m:math> gives </para><equation id="fs-id1167066824841" class="unnumbered"><label/>
+               <m:math display="block">
+                <m:mrow>
+                  <m:msub>
+                    <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>a</m:mi></m:mstyle>
+                    <m:mrow>
+                      <m:mo>|</m:mo><m:mo>|</m:mo>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo>=</m:mo><m:mfrac>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+                        <m:mrow>
+                          <m:mtext>net ||</m:mtext>
+                        </m:mrow>
+                      </m:msub>
+
+                    </m:mrow>
+                    <m:mi>m</m:mi>
+                  </m:mfrac>
+                  <m:mo>=</m:mo><m:mfrac>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>w</m:mi></m:mstyle>
+                        <m:mrow>
+                          <m:mo>|</m:mo><m:mo>|</m:mo>
+                        </m:mrow>
+                      </m:msub>
+                      <m:mo>−</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>f</m:mi></m:mstyle>
+                    </m:mrow>
+                    <m:mi>m</m:mi>
+                  </m:mfrac>
+                  <m:mo>=</m:mo><m:mfrac>
+                    <m:mrow>
+                      <m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>g</m:mi></m:mstyle><m:mtext>sin</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>25</m:mn><m:mo>°</m:mo><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>f</m:mi></m:mstyle>
+                    </m:mrow>
+                    <m:mi>m</m:mi>
+                  </m:mfrac>
+                  <m:mo>.</m:mo>
+                </m:mrow>
+              </m:math> </equation><para id="fs-id1167066825401">We substitute known values to get</para>
+            <equation id="fs-id1167066821215" class="unnumbered"><label/>
+               <m:math display="block">
+                <m:mrow>
+                  <m:msub>
+                    <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>a</m:mi></m:mstyle>
+                    <m:mrow>
+                      <m:mo>|</m:mo><m:mo>|</m:mo>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo>=</m:mo><m:mfrac>
+                    <m:mrow>
+                      <m:mtext>(60</m:mtext><m:mtext>.0 kg)(9</m:mtext><m:msup>
+                        <m:mrow>
+                          <m:mtext>.80 m/s</m:mtext>
+                        </m:mrow>
+                        <m:mtext>2</m:mtext>
+                      </m:msup>
+                      <m:mtext>)(0</m:mtext><m:mtext>.423)</m:mtext><m:mo>−</m:mo><m:mtext>45</m:mtext><m:mtext>.0 N</m:mtext>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mtext>60</m:mtext><m:mtext>.0 kg</m:mtext>
+                    </m:mrow>
+                  </m:mfrac>
+                  <m:mo>,</m:mo>
+                </m:mrow>
+              </m:math>
+
+            </equation><para id="fs-id1167067103142">or</para>
+            <equation id="fs-id1167066955191" class="unnumbered"><label/>
+               <m:math display="block">
+                <m:mrow>
+                  <m:msub>
+                    <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>a</m:mi></m:mstyle>
+                    <m:mrow>
+                      <m:mo>|</m:mo><m:mo>|</m:mo>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo>=</m:mo><m:mtext>3</m:mtext><m:msup>
+                    <m:mrow>
+                      <m:mtext>.39 m/s</m:mtext>
+                    </m:mrow>
+                    <m:mtext>2</m:mtext>
+                  </m:msup>
+                  <m:mo>,</m:mo>
+                </m:mrow>
+              </m:math>
+
+            </equation><para id="fs-id1167067080122">which is the acceleration parallel to the incline when there is 45 N opposing friction.</para>
+          </solution>
+          <commentary id="fs-id1167066956386">
+            <title>Discussion</title>
+            <para id="fs-id1167066863300">Since friction always opposes motion between surfaces, the acceleration is smaller when there is friction than when there is not.</para>
+
+          </commentary>
+        </exercise></note>
+      </section>
+      <section id="fs-id1167067108074" class="practice-problems"><title>Practice Problems</title><exercise id="fs-id1167066825236">
+          <problem id="fs-id1167067043909">
+            <!--<para id="fs-id1167067043911">
+              <link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex072"/>
+            </para>-->
+<para id="fs-id1164565478528">When an object sits on an inclined plane that makes an angle <emphasis effect="italics">θ</emphasis> with the horizontal, what is the expression for the component of the objects weight force that is parallel to the incline?</para>
+<list id="fs-id1164566392898" list-type="enumerated" number-style="lower-alpha"><item> <m:math><m:mrow><m:msub><m:mi>w</m:mi><m:mtext>||</m:mtext></m:msub><m:mo>=</m:mo><m:mi>w</m:mi><m:mtext>cos</m:mtext><m:mi>θ</m:mi></m:mrow></m:math> </item>
+<item> <m:math><m:mrow><m:msub><m:mi>w</m:mi><m:mtext>||</m:mtext></m:msub><m:mo>=</m:mo><m:mi>w</m:mi><m:mtext>sin</m:mtext><m:mi>θ</m:mi></m:mrow></m:math> </item>
+<item> <m:math><m:mrow><m:msub><m:mi>w</m:mi><m:mtext>||</m:mtext></m:msub><m:mo>=</m:mo><m:mi>w</m:mi><m:mtext>sin</m:mtext><m:mi>θ</m:mi><m:mo>−</m:mo><m:mtext>cos</m:mtext><m:mi>θ</m:mi></m:mrow></m:math> </item>
+<item> <m:math><m:mrow><m:msub><m:mi>w</m:mi><m:mtext>||</m:mtext></m:msub><m:mo>=</m:mo><m:mi>w</m:mi><m:mtext>cos</m:mtext><m:mi>θ</m:mi><m:mo>−</m:mo><m:mtext>sin</m:mtext><m:mi>θ</m:mi></m:mrow></m:math> </item>
+</list></problem>
+        </exercise>
+        <exercise id="fs-id1167067195746">
+          <problem id="fs-id1167067040780">
+            <para id="fs-id1167067040782">
+              <link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex073"/>
+            </para>
+          </problem>
+        </exercise>
+      </section>
+      <section id="denesting"><note id="fs-id1167066953223" class="snap-lab">
+
+        <title>Friction at an Angle: Sliding a Coin</title>
+        <para id="fs-id1167066970957">An object will slide down an inclined plane at a constant velocity if the net force on the object is zero. We can use this fact to measure the coefficient of kinetic friction between two objects. As shown in the first <link target-id="Worked_Example_05_04_02">Worked Example</link>, the kinetic friction on a slope <m:math>
+          <m:mrow>
+            <m:msub>
+              <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>f</m:mi></m:mstyle>
+              <m:mtext>k</m:mtext>
+            </m:msub>
+            <m:mo>=</m:mo><m:msub>
+              <m:mi>μ</m:mi>
+              <m:mtext>k</m:mtext>
+            </m:msub>
+            <m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>g</m:mi></m:mstyle><m:mtext> cos</m:mtext><m:mi>θ</m:mi>
+          </m:mrow>
+        </m:math>, and the component of the weight down the slope is equal to <m:math>
+          <m:mrow>
+            <m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>g</m:mi></m:mstyle><m:mtext> sin</m:mtext><m:mi>θ</m:mi>
+          </m:mrow>
+        </m:math> . These forces act in opposite directions, so when they have equal magnitude, the acceleration is zero. Writing these out</para><equation id="fs-id1167067132265" class="unnumbered"><label/>
+           <m:math display="block">
+            <m:mrow>
+              <m:mtable>
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mrow>
+                      <m:msub>
+                        <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>f</m:mi></m:mstyle>
+                        <m:mtext>k</m:mtext>
+                      </m:msub>
+
+                    </m:mrow>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle><m:msub>
+                        <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>g</m:mi></m:mstyle>
+                        <m:mi>x</m:mi>
+                      </m:msub>
+
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>μ</m:mi>
+                        <m:mtext>k</m:mtext>
+                      </m:msub>
+                      <m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>g</m:mi></m:mstyle><m:mtext> cos</m:mtext><m:mi>θ</m:mi>
+                    </m:mrow>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>g</m:mi></m:mstyle><m:mtext> sin</m:mtext><m:mi>θ.</m:mi>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+
+              </m:mtable>
+            </m:mrow>
+          </m:math>
+
+        </equation><para id="fs-id1167067055622">Solving for <m:math>
+          <m:mrow>
+            <m:msub>
+              <m:mi>μ</m:mi>
+              <m:mtext>k</m:mtext>
+            </m:msub>
+
+          </m:mrow>
+        </m:math>, since <m:math>
+          <m:mrow>
+            <m:mtext>tan</m:mtext><m:mi>θ</m:mi><m:mo>=</m:mo><m:mtext>sin</m:mtext><m:mi>θ</m:mi><m:mtext>/cos</m:mtext><m:mi>θ</m:mi>
+          </m:mrow>
+        </m:math> we find that </para>
+        <para id="fs-id1167067077358"><equation id="fs-id1164566883891"> <m:math>
+          <m:mrow>
+            <m:msub>
+              <m:mi>μ</m:mi>
+              <m:mtext>k</m:mtext>
+            </m:msub>
+            <m:mo>=</m:mo><m:mfrac>
+              <m:mrow>
+                <m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>g</m:mi></m:mstyle><m:mtext> sin</m:mtext><m:mi>θ</m:mi>
+              </m:mrow>
+              <m:mrow>
+                <m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>g</m:mi></m:mstyle><m:mtext> cos</m:mtext><m:mi>θ</m:mi>
+              </m:mrow>
+            </m:mfrac>
+            <m:mo>=</m:mo><m:mtext> tan</m:mtext><m:mi>θ.</m:mi>
+          </m:mrow>
+        </m:math> </equation>
+        </para><list id="fs-id1167067188542" class="materials">
+          <item>1 coin</item>
+          <item>1 book</item>
+          <item>1 protractor
+          <list id="fs-id1167067045848" list-type="enumerated" number-style="arabic">
+            <item>Put a coin flat on a book and tilt it until the coin slides at a constant velocity down the book. You might need to tap the book lightly to get the coin to move.</item>
+            <item>Measure the angle of tilt relative to the horizontal and find <m:math>
+              <m:mrow>
+                <m:msub>
+                  <m:mi>μ</m:mi>
+                  <m:mtext>k</m:mtext>
+                </m:msub>
+
+              </m:mrow>
+            </m:math> .</item>
+
+          </list>
+          </item>
+
+
+        </list>
+        <exercise id="fs-id1167067045747" class="os-exercise grasp-check unnumbered">
+
+          <problem id="fs-id1167067070186">
+            <!--<para id="fs-id1167067075021">
+              <link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex047"/>
+            </para>-->
+<para id="fs-id1164565476942">True or FalseIf only the angles of two vectors are known, we can find the angle of their resultant addition vector.</para>
+<list id="fs-id1164566281581" list-type="enumerated" number-style="lower-alpha">
+<item>True</item>
+<item>False</item>
+</list>
+          </problem>
+        </exercise>
+        </note>
+    </section><section id="fs-id1167067188636" class="summary">
+      <title>Section Summary</title>
+      <list id="fs-id1167067088207"><item>Friction is a contact force between systems that opposes the motion or attempted motion between them. Simple friction is proportional to the normal force <emphasis>N</emphasis> pushing the systems together. A normal force is always perpendicular to the contact surface between systems. Friction depends on both of the materials involved.</item>
+        <item>µ<sub>s</sub> is the coefficient of static friction, which depends on both of the materials.</item>
+        <item>µ<sub>k</sub> is the coefficient of kinetic friction, which also depends on both materials.</item>
+        <item>When objects rest on an inclined plane that makes an angle <m:math>
+          <m:mrow>
+            <m:mi>θ</m:mi>
+          </m:mrow>
+        </m:math> with the horizontal surface, the weight of the object can be broken into components that act perpendicular  <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo stretchy="false">(</m:mo><m:msub>
+    <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>w</m:mi></m:mstyle>
+    <m:mo>⊥</m:mo>
+   </m:msub>
+   <m:mo stretchy="false">)</m:mo>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+ and parallel ( <m:math>
+          <m:mrow>
+            <m:msub>
+              <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>w</m:mi></m:mstyle>
+              <m:mrow>
+                <m:mo>|</m:mo><m:mo>|</m:mo>
+              </m:mrow>
+            </m:msub>
+
+          </m:mrow>
+        </m:math> ) to the surface of the plane. </item>
+      </list></section>
+    <section id="fs-id1167066971764" class="key-equations"><title>Key Equations</title><table id="fs-id1167067043343" class="unnumbered unstyled" summary="The list of Key Equations includes the formulas for the force of static friction, force of kinetic friction, perpendicular component of a weight on an inclined plane, and the parallel component of a weight on an inclined plane.">
+<label/>
+<tgroup cols="2"><colspec colnum="1" align="left" colname="c1"/>
+          <colspec colnum="2" align="left" colname="c2"/>
+          <tbody>
+            <row>
+              <entry>force of static friction</entry>
+              <entry> <m:math>
+                <m:mrow>
+                  <m:msub>
+                    <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>f</m:mi></m:mstyle>
+                    <m:mtext>s</m:mtext>
+                  </m:msub>
+                  <m:mo>≤</m:mo><m:msub>
+                    <m:mi>μ</m:mi>
+                    <m:mtext>s</m:mtext>
+                  </m:msub>
+                  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>N</m:mi></m:mstyle>
+                </m:mrow>
+              </m:math> </entry>
+            </row>
+            <row>
+              <entry>force of kinetic friction</entry>
+              <entry> <m:math>
+                <m:mrow>
+                  <m:msub>
+                    <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>f</m:mi></m:mstyle>
+                    <m:mtext>k</m:mtext>
+                  </m:msub>
+                  <m:mo>=</m:mo><m:msub>
+                    <m:mi>μ</m:mi>
+                    <m:mtext>k</m:mtext>
+                  </m:msub>
+                  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>N</m:mi></m:mstyle>
+                </m:mrow>
+              </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>perpendicular component of weight on an inclined plane</entry>
+              <entry> <m:math>
+                <m:mrow>
+                  <m:msub>
+                    <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>w</m:mi></m:mstyle>
+                    <m:mo>⊥</m:mo>
+                  </m:msub>
+                  <m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>w</m:mi></m:mstyle><m:mtext>cos</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>g</m:mi></m:mstyle><m:mtext>cos</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:math>
+
+
+              </entry>
+            </row>
+            <row>
+              <entry>parallel component of weight on an inclined plane</entry>
+              <entry> <m:math>
+                <m:mrow>
+                  <m:msub>
+                    <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>w</m:mi></m:mstyle>
+                    <m:mrow>
+                      <m:mo>|</m:mo><m:mo>|</m:mo>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>w</m:mi></m:mstyle><m:mtext>sin</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>g</m:mi></m:mstyle><m:mtext>sin</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:math>
+
+              </entry>
+            </row>
+          </tbody>
+
+
+</tgroup>
+</table></section><section id="fs-id1167066828816" class="check-understanding"><title>Check Your Understanding</title><exercise id="fs-id1167067176387" class="os-exercise">
+        <problem id="fs-id1167067176390">
+          <para id="fs-id1167067058707">
+            <link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex075"/>
+          </para>
+        </problem>
+      </exercise>
+      <exercise id="fs-id1167067079051" class="os-exercise">
+        <problem id="fs-id1167067044021">
+          <para id="fs-id1167067044023">
+            <link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex076"/>
+          </para>
+        </problem>
+      </exercise>
+
+<exercise id="eip-id1166849868061" class="os-exercise">
+<problem id="eip-id1166849840873">
+<para id="eip-id1166849840876">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch05-ot061"/>
+</para>
+</problem>
+</exercise>
+      <note id="fs-id1167067150862" class="os-teacher">
+        <title>Teacher Support</title>
+        <para id="fs-id1167067166621">Use the <emphasis effect="italics">Check Your Understanding</emphasis> questions to assess whether students achieve the learning objectives for this section. If students are struggling with a specific objective, the <emphasis effect="italics">Check Your Understanding</emphasis> will help identify which objective is causing the problem and direct students to the relevant content.</para></note>
+    </section><section id="fs-id1167067103930" class="concept"><title>Concept Items</title><exercise id="fs-id1167067015184" class="os-exercise">
+        <problem id="fs-id1167067015187">
+          <!--<para id="fs-id1167067179244">
+            <link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex077"/>
+          </para>-->
+
+<para id="fs-id1164565468630">True or FalseKinetic friction is less than the limiting static friction because once an object is moving, there are fewer points of contact, and the friction is reduced. For this reason, more force is needed to start moving an object than to keep it in motion.</para><list id="fs-id1164567542512" list-type="enumerated" number-style="lower-alpha">
+<item>True</item>
+<item>False</item>
+</list>
+        </problem>
+      </exercise>
+    <exercise id="eip-id1166849159463" class="os-exercise">
+<problem id="eip-id1166848763197">
+<para id="eip-id1166848763199">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch05-ot062"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166848893438" class="os-exercise">
+<problem id="eip-id1166851318331">
+<para id="eip-id1166851318333">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch05-ot065"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167066960152" class="problems">
+      <title>Problems</title>
+      <exercise id="fs-id1167066948131" class="os-exercise">
+        <problem id="fs-id1167066948134">
+          <para id="fs-id1167067179564">
+            <link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex078"/>
+          </para>
+        </problem>
+      </exercise>
+      <exercise id="fs-id1167067179222" class="os-exercise">
+        <problem id="fs-id1167066808922">
+          <!--<para id="fs-id1167066808924">
+            <link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex079"/>
+          </para>-->
+
+<para id="fs-id1164566986043">A skier with a mass of 55 kg is skiing down a snowy slope that has an incline of 30°. Find the coefficient of kinetic friction for the skier if friction is known to be 25 N .</para>
+<list id="fs-id1164567106793" list-type="enumerated" number-style="lower-alpha">
+<item> <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>μ</m:mi><m:mi>k</m:mi><m:mi> </m:mi><m:mo>=</m:mo><m:mi> </m:mi><m:mn>0</m:mn>
+  </m:mrow>
+ </m:semantics>
+</m:math> </item>
+<item> <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>μ</m:mi><m:mi>k</m:mi><m:mi> </m:mi><m:mo>=</m:mo><m:mi> </m:mi><m:mn>0.05</m:mn>
+  </m:mrow>
+ </m:semantics>
+</m:math> </item>
+<item> <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>μ</m:mi><m:mi>k</m:mi><m:mi> </m:mi><m:mo>=</m:mo><m:mi> </m:mi><m:mn>0.09</m:mn>
+  </m:mrow>
+ </m:semantics>
+</m:math> </item>
+<item> <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>μ</m:mi><m:mi>k</m:mi><m:mi> </m:mi><m:mo>=</m:mo><m:mi> </m:mi><m:mn>∞</m:mn>
+  </m:mrow>
+ </m:semantics>
+</m:math> </item>
+</list>
+
+        </problem>
+      </exercise>
+    </section>
+    <section id="fs-id1167067014390" class="critical-thinking"><title>Critical Thinking</title><exercise id="fs-id1167067080135" class="os-exercise"><problem id="fs-id1167067080137"><para id="fs-id1167067080138"><link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex080"/></para></problem></exercise>
+    <exercise id="eip-id1166851245775" class="os-exercise">
+<problem id="eip-id1166851245779">
+<para id="eip-id1166851245781">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch05-ot059"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167066962369" class="multiple-choice"><title>Test Prep Multiple Choice</title>
+<exercise id="fs-id1167067075011" class="os-exercise"><problem id="fs-id1167067075013"><!--<para id="fs-id1167066959472"><link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex081"/></para>-->
+<para id="fs-id1164568030688">For objects of identical masses but made of different materials, which of the following experiences the most static friction?</para>
+<list id="fs-id1164567354090" list-type="enumerated" number-style="lower-alpha">
+<item>Shoes on ice</item>
+<item>Metal on wood</item>
+<item>Teflon on steel</item>
+</list>
+</problem></exercise>
+      <exercise id="fs-id1167066959478" class="os-exercise"><problem id="fs-id1167067045688"><!--<para id="fs-id1167067045689"><link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex082"/></para>-->
+<para id="fs-id1164565369750">If an object sits on an inclined plane and no other object makes contact with the object, what is typically equal in magnitude to the component of the weight perpendicular to the plane?</para>
+<list id="fs-id1164567389264" list-type="enumerated" number-style="lower-alpha">
+<item>The normal force</item>
+<item>The total weight</item>
+<item>The parallel force of weight</item>
+</list>
+</problem></exercise>
+    <exercise id="eip-id1166849973741" class="os-exercise">
+<problem id="eip-id1166849973745">
+<!--<para id="eip-id1166849807879">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch05-ot068"/>
+</para>-->
+<para id="fs-id1164565408156">A 5 kg box is at rest on the floor. The coefficient of static friction between the box and the floor is 0.4. A horizontal force of 50 N is applied to the box. Will it move?</para>
+<list id="fs-id1164567343103" list-type="enumerated" number-style="lower-alpha">
+<item>No, because the applied force is less than the maximum limiting static friction.</item>
+<item>No, because the applied force is more than the maximum limiting static friction.</item>
+<item>Yes, because the applied force is less than the maximum limiting static friction.</item>
+<item>Yes, because the applied force is more than the maximum limiting static friction.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-id1166849927556" class="os-exercise">
+<problem id="eip-id1166850207072">
+<!--<para id="eip-id1166850207074">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch05-ot070"/>
+</para>-->
+<para id="fs-id1164567295188">A skier with a mass of 67 kg is skiing down a snowy slope with an incline of 37°. Find the friction if the coefficient of kinetic friction is 0.07.</para>
+<list id="fs-id1164567188142" list-type="enumerated" number-style="lower-alpha">
+<item>27.66 N</item>
+<item>34.70 N</item>
+<item>36.71 N</item>
+<item>45.96 N</item>
+</list>
+</problem>
+</exercise></section><section id="fs-id1167066961154" class="short-answer">
+      <title>Test Prep Short Answer</title>
+      <exercise id="fs-id1167067061808" class="os-exercise"><problem id="fs-id1167067061810"><para id="fs-id1167067061811"><link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex083"/></para></problem></exercise>
+      <exercise id="fs-id1167066960819" class="os-exercise"><problem id="fs-id1167066829427"><para id="fs-id1167066829428"><link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex084"/></para></problem></exercise>
+      <exercise id="fs-id1167067074288" class="os-exercise"><problem id="fs-id1167067074291"><para id="fs-id1167067074292"><link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex085"/></para></problem></exercise>
+      <exercise id="fs-id1167066852155" class="os-exercise"><problem id="fs-id1167066852158"><para id="fs-id1167066852159"><link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex086"/></para></problem></exercise>
+    </section>
+    <section id="fs-id1167067007409" class="extended-response">
+      <title>Test Prep Extended Response</title>
+      <exercise id="fs-id1167066880642" class="os-exercise"><problem id="fs-id1167067190002"><!--<para id="fs-id1167067190003"><link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex087"/></para>-->
+<para id="fs-id1164564378356">True or False—Friction varies from surface to surface because different substances have different degrees of roughness or smoothness.</para>
+<list id="fs-id1164567321783" list-type="enumerated" number-style="lower-alpha">
+<item>True</item>
+<item>False</item>
+</list>
+</problem></exercise>
+      <exercise id="fs-id1167067045069" class="os-exercise"><problem id="fs-id1167067045071"><para id="fs-id1167067045072"><link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex088"/></para></problem></exercise>
+
+    </section>
+  </content>
+    <glossary><definition id="fs-id1167067144673"><term>kinetic friction</term> <meaning id="fs-id1167067144677">a force that opposes the motion of two systems that are in contact and moving relative to one another</meaning></definition>
+    <definition id="fs-id1167067084860"><term>static friction</term> <meaning id="fs-id1167067084865">a force that opposes the motion of two systems that are in contact and are not moving relative to one another</meaning></definition></glossary>
+  </document>

@@ -1,0 +1,25 @@
+<document xmlns="http://cnx.rice.edu/cnxml" class="introduction">
+
+<title>Introduction</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54144</md:content-id>
+  <md:title>Introduction</md:title>
+  <md:abstract/>
+  <md:uuid>438c5976-3406-42c5-a216-fe7463df48ad</md:uuid>
+</metadata>
+
+<content>
+<figure id="fs-idp21910704" class="splash"><media id="fs-idp25920288" alt="A dolphin is jumping out of water in a curved path over the water.">
+<image src="../../media/CNX_HSPhysics_04_00_dolphin.jpg" mime-type="image/jpg"/>
+</media>
+
+<caption>Newton’s laws of motion describe the motion of the dolphin’s path. (Credit: Jin Jang)</caption></figure>
+<note id="fs-idp19921888" class="os-teacher"><title>Teacher Support</title>
+<para id="fs-idp10827968">Before students begin this chapter, they may wish to review the concepts of distance, displacement, speed, velocity, acceleration, scalars, vectors, representing vectors, units of acceleration, and acceleration due to gravity. Explain that an object that is not moving is often described in physics as being at rest.</para>
+</note>
+<note id="fs-idp9408096" class="os-teacher"><title>Teacher Support</title>
+<para id="fs-idp22829680">Point out that we come across motion in our everyday lives; for instance, a dolphin jumping out of water as shown in the photo. There are simple laws of physics that govern motion. These laws are universal; that is, they apply to every object in the universe. Much of the work done in describing motion was done by Sir Isaac Newton. This chapter is about motion, the causes of motion, and the universal laws of motion.</para>
+</note><para id="fs-idm34961152">Isaac <term class="no-emphasis">Newton</term> (1642–1727) was a natural philosopher; a great thinker who combined science and philosophy to try to explain the workings of nature on Earth and in the universe. His laws of motion were just one part of the monumental work that has made him legendary. The development of Newton’s laws marks the transition from the Renaissance period of history to the modern era. This transition was characterized by a revolutionary change in the way people thought about the physical universe. Drawing upon earlier work by scientists Galileo <term class="no-emphasis">Galilei</term> and Johannes <term class="no-emphasis">Kepler</term>, <term class="no-emphasis">Newton’s laws of motion</term> allowed motion on Earth and in space to be predicted mathematically. In this chapter you will learn about force as well as Newton’s first, second, and third laws of motion.</para>
+</content>
+
+</document>

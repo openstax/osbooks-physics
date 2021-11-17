@@ -1,0 +1,20 @@
+<document xmlns="http://cnx.rice.edu/cnxml" class="introduction">
+
+<title>Introduction</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54450</md:content-id>
+  <md:title>Introduction</md:title>
+  <md:abstract/>
+  <md:uuid>9eb96e66-2550-40b4-bdbf-c281e9df2103</md:uuid>
+</metadata>
+
+<content>
+<figure id="Figure_19_00_Hydro" class="splash"><media id="fs-id1167063727445" alt="Water is shown flowing through a hydroelectric facility.">
+       <image src="../../media/CNX_HSPhysics_19_00_Hydro_N.jpg" mime-type="image/jpg"/>
+      </media><caption>Electric energy in massive quantities is transmitted from this hydroelectric facility, the Srisailam power station located along the Krishna River in India, by the movement of charge—that is, by electric current. (credit: Chintohere, Wikimedia Commons)</caption></figure>
+<note id="fs-id1167063707326" class="os-teacher">
+      <title>Teacher Support</title>
+      <para id="fs-id1167067203636">Ask students if they know what sort of facility is shown in the opening photograph and what purpose it serves. The answer is it generates electric power. Discuss how the power provided by water is used to push and pull electrons inside conductors and that this force can be harnessed at the other end of the conductor by using the electrons to push and pull on other devices, such as electrical appliances, or to make light or heat.</para></note>
+      <para id="fs-id1167063763644">The flicker of numbers on a handheld calculator, nerve impulses carrying signals of vision to the brain, an ultrasound device sending a signal to a computer screen, the brain sending a message for a baby to twitch its toes, an electric train pulling into a station, a hydroelectric plant sending energy to metropolitan and rural users—these and many other examples of electricity involve electric current, which is the movement of charge. Humanity has harnessed electricity, the basis of this technology, to improve our quality of life. Whereas the previous chapter concentrated on static electricity and the fundamental force underlying its behavior, the next two chapters will be devoted to electric and magnetic phenomena involving current. In addition to exploring applications of electricity, we shall gain new insights into the workings of nature.</para>
+    </content>
+  </document>

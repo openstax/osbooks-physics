@@ -1,0 +1,1495 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Quarks</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54595</md:content-id>
+  <md:title>Quarks</md:title>
+  <md:abstract/>
+  <md:uuid>81cd5a50-4b4e-45af-a341-e4b3c4433d6e</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167067317407" class="learning-objectives">
+<label/>
+<title>Section Learning Objectives</title>
+<para id="fs-id1167066880408">By the end of the section, you will be able to do the following:</para>
+<list id="fs-id1167066963538"><item>Describe quarks and their relationship to other particles</item>
+<item>Distinguish hadrons from leptons</item>
+<item>Distinguish matter from antimatter</item>
+<item>Describe the standard model of the atom</item>
+<item>Define a Higgs boson and its importance to particle physics</item>
+</list></note>
+
+<note id="fs-id1167067007681" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067185858">The learning objectives in this section will help your students master the following standards:</para>
+<list id="fs-id1167066104240"><item>(5) Science concepts. The student knows the nature of forces in the physical world. The student is expected to:
+<list id="fs-id1167067038663"><item>(H) describe evidence for and effects of the strong and weak nuclear forces in nature.</item>
+</list></item></list></note>
+<section id="keyterms"><title>Section Key Terms</title>
+<table id="fs-id1167063954215" class="unnumbered unstyled section-key-terms" summary="The list of Key Terms includes: annihilation, antimatter, baryon, bottom quark, charmed quark, color, down quark, flavor, gluon, hadron, Higgs boson, Higgs field, lepton, meson, pair production, positron, quantum chromodynamics, quark, Standard Model, strange quark, top quark, and up quark">
+<label/>
+<tgroup cols="3">
+<tbody>
+<row>
+<entry>annihilation</entry>
+<entry>antimatter</entry>
+<entry>baryon</entry>
+<entry>bottom quark</entry>
+<entry>charmed quark</entry>
+</row>
+<row>
+<entry>color</entry>
+<entry>down quark</entry>
+<entry>flavor</entry>
+<entry>gluon</entry>
+<entry>hadron</entry>
+</row>
+<row>
+<entry>Higgs boson</entry>
+<entry>Higgs field</entry>
+<entry>lepton</entry>
+<entry>meson</entry>
+<entry>pair production</entry>
+</row>
+<row>
+<entry>positron</entry>
+<entry>quantum chromodynamics</entry>
+<entry>quark</entry>
+<entry>Standard Model</entry>
+<entry>strange quark</entry>
+</row>
+<row>
+<entry>top quark</entry>
+<entry>up quark</entry>
+<entry/>
+<entry/>
+<entry/>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<note id="fs-id1167067007984" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067039548">Prior to the section, it may be valuable to review the following terms and concepts: electron scattering, discrete quantities, color theory, and particle decay.</para>
+</note>
+
+<section id="fs-id1167067049994"><title>Quarks</title><para id="fs-id1167067210825">“The first principles of the universe are atoms and empty space. Everything else is merely thought to exist…”</para>
+<para id="fs-id1167067189050">“… Further, the atoms are unlimited in size and number, and they are borne along with the whole universe in a vortex, and thereby generate all composite things—fire, water, air, earth. For even these are conglomerations of given atoms. And it because of their solidity that these atoms are impassive and unalterable.”</para>
+<para id="fs-id1167066845477">Diogenes Laertius (summarizing the views of Democritus, circa 460–370 B.C.)</para>
+<para id="fs-id1167067066989">The search for fundamental particles is nothing new. Atomists of the Greek and Indian empires, like Democritus of fifth century B.C., openly wondered about the most finite components of our universe. Though dormant for centuries, curiosity about the atomic nature of matter was reinvigorated by Rutherford’s gold foil experiment and the discovery of the nucleus. By the early 1930s, scientists believed they had fully determined the tiniest constituents of matter—in the form of the proton, neutron, and electron.</para>
+
+<note id="fs-id1167066946078" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067068217"><span>[AL]</span>Have interested students read the texts of Democritus and Empedocles to see how atomism was viewed in the Greek era. Have the students compare and contrast these theories to our current scientific model.</para>
+</note>
+
+<para id="fs-id1167063730479">This would be only partially true. At present, scientists know that there are hundreds of particles not unlike our electron and nucleons, all making up what some have termed the <emphasis effect="italics">particle zoo</emphasis>. While we are confident that the electron remains fundamental, it is surrounded by a plethora of similar sounding terms, like leptons, hadrons, baryons, and mesons. Even though not every particle is considered fundamental, they all play a vital role in understanding the intricate structure of our universe.</para>
+<para id="fs-id1167067269151">A fundamental particle is defined as a particle with no substructure and no finite size. According to the <term>Standard Model</term>, there are three types of fundamental particles: leptons, quarks, and carrier particles. As you may recall, carrier particles are responsible for transmitting fundamental forces between their interacting masses. <term>Leptons</term> are a group of six particles not bound by the strong nuclear force, of which the electron is one. As for quarks, they are the fundamental building blocks of a group of particles called <term>hadrons</term>, a group that includes both the proton and the neutron.</para>
+
+<note id="fs-id1167066971353" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167063865965"><span>[BL]</span>It may be helpful to construct a graphical organizer, like a family tree, to show the relationship between various particles within the Standard Model. While this will eventually take place when the Standard Model is introduced, constructing a graphical organizer while moving through the unit will help provide structure to the students’ knowledge.</para>
+</note>
+<para id="fs-id1167067292346">Now for a brief history of <term>quarks</term>. Quarks were first proposed independently by American physicists <term class="no-emphasis">Murray Gell-Mann</term> and <term class="no-emphasis">George Zweig</term> in 1963. Originally, three quark types—or <term>flavors</term>—were proposed with the names <term>up</term> (<emphasis effect="italics">u</emphasis>), <term>down</term> (<emphasis effect="italics">d</emphasis>), and <term>strange</term> (<emphasis effect="italics">s</emphasis>).</para>
+<para id="fs-id1167063707423">At first, physicists expected that, with sufficient energy, we should be able to free quarks and observe them directly. However, this has not proved possible, as the current understanding is that the force holding quarks together is incredibly great and, much like a spring, increases in magnitude as the quarks are separated. As a result, when large energies are put into collisions, other particles are created—but no quarks emerge. With that in mind, there is compelling evidence for the existence of quarks. By 1967, experiments at the SLAC National Accelerator Laboratory scattering 20-GeV electrons from protons produced results like Rutherford had obtained for the nucleus nearly 60 years earlier. The SLAC scattering experiments showed unambiguously that there were three point-like (meaning they had sizes considerably smaller than the probe’s wavelength) charges inside the proton as seen in <link target-id="Figure_23_02_SLAC"/>. This evidence made all but the most skeptical admit that there was validity to the quark substructure of hadrons.</para>
+
+<note id="fs-id1167063556838" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067227413">Students should reflect on the idea that quarks have not been observed directly. Help them recognize that the lack of direct evidence does not mean that the evidence for quarks is weak. As will be seen in the discussion on fractional charge and color, the reason an individual quark has not been exposed may be more complex than expected.</para>
+</note>
+
+<figure id="Figure_23_02_SLAC">
+<media id="fs-id1167067275298" alt="The image shows a large blue sphere representing a proton with three small spheres within it. The three small spheres are labeled ‘u’, ‘u’, and ‘d’, and are colored blue, green, and red, respectively. These three smaller spheres represent up and down quarks. From the left to the right of the image are arrows representing the trajectory of electrons. Some of the electrons pass through the proton, while others are shown striking the quarks and scattering away."><image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_23_02_SLAC.jpg"/></media>
+<caption>Scattering of high-energy electrons from protons at facilities like SLAC produces evidence of three point-like charges consistent with proposed quark properties. This experiment is analogous to Rutherford’s discovery of the small size of the nucleus by scattering α particles. High-energy electrons are used so that the probe wavelength is small enough to see details smaller than the proton.</caption>
+</figure>
+<para id="fs-id1167067191207">The inclusion of the strange quark with Zweig and Gell-Mann’s model concerned physicists. While the up and down quarks demonstrated fairly clear symmetry and were present in common fundamental particles like protons and neutrons, the strange quark did not have a counterpart of its own. This thought, coupled with the four known leptons at the time, caused scientists to predict that a fourth quark, yet to be found, also existed. </para>
+<para id="fs-id1167067066829">In 1974, two groups of physicists independently discovered a particle with this new quark, labeled <term>charmed</term>. This completed the second <emphasis effect="italics">exotic</emphasis> quark pair, strange (s) and charmed (c). A final pair of quarks was proposed when a third pair of leptons was discovered in 1975. The existence of the <term>bottom</term> (b) quark and the <term>top</term> (t) quark was verified through experimentation in 1976 and 1995, respectively. While it may seem odd that so much time would elapse between the original quark discovery in 1967 and the verification of the top quark in 1995, keep in mind that each quark discovered had a progressively larger mass. As a result, each new quark has required more energy to discover.</para>
+<note id="fs-id1167061391912" class="tips-for-success">
+
+<para id="fs-id1167067200801">Note that a very important tenet of science occurred throughout the period of quark discovery. The charmed, bottom, and top quarks were all speculated on, and then were discovered some time later. Each of their discoveries helped to verify and strengthen the quark model. This process of speculation and verification continues to take place today and is part of what drives physicists to search for evidence of the graviton and Grand Unified Theory.</para>
+</note>
+
+<para id="fs-id1167063473947">One of the most confounding traits of quarks is their electric charge. Long assumed to be discrete, and specifically a multiple of the elementary charge of the electron, the electric charge of an individual quark is fractional and thus seems to violate a presumed tenet of particle physics. The fractional charge of quarks, which are  <m:math>
+ <m:mrow>
+  <m:mo>±</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>2</m:mn>
+     <m:mn>3</m:mn>
+    </m:mfrac>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:msub>
+   <m:mi>q</m:mi>
+   <m:mi>e</m:mi>
+  </m:msub>
+  </m:mrow>
+</m:math>  and  <m:math>
+ <m:mrow>
+  <m:mo>±</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mn>3</m:mn>
+    </m:mfrac>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:msub>
+   <m:mi>q</m:mi>
+   <m:mi>e</m:mi>
+  </m:msub>
+  </m:mrow>
+</m:math>, are the only structures found in nature with a nonintegral number of charge  <m:math>
+ <m:mi>q</m:mi>
+</m:math> . However, note that despite this odd construction, the fractional value of the quark does not violate the quantum nature of the charge. After all, free quarks cannot be found in nature, and all quarks are bound into arrangements in which an integer number of charge is constructed. <link target-id="Table_23_03"/> shows the six known quarks, in addition to their antiquark components, as will be discussed later in this section.</para>
+
+<table id="Table_23_03" summary="The table consists of four columns and seven rows. The first row, which is the header row, labels the columns as Flavor, Symbol, Antiparticle, and Charge. The first column on the left, under the header Flavor, has the names of six quarks in six rows. The quarks are in pairs: Up and Down; Strange and Charmed; Bottom and Top. The other three columns give the symbol for each quark, the symbol for its antiparticle, and the possible charge on the particle."><title>Quarks and Antiquarks</title>
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<thead>
+<row>
+<entry>Flavor</entry>
+<entry>Symbol</entry>
+<entry>Antiparticle</entry>
+<entry>Charge<sup>[1][2]</sup></entry>
+</row>
+</thead>
+<tfoot>
+<row><entry namest="c1" nameend="c4"><sup>[1]</sup>The lower of the  <m:math>
+ <m:mo>±</m:mo>
+</m:math>  symbols are the values for antiquarks.</entry></row>
+<row><entry namest="c1" nameend="c4"><sup>[2]</sup>There are further qualities that differentiate between quarks. However, they are beyond the discussion in this text.</entry></row>
+</tfoot>
+
+
+
+<tbody>
+<row>
+<entry>Up</entry>
+<entry> <m:math>
+ <m:mi>u</m:mi>
+</m:math>
+</entry>
+<entry> <m:math>
+ <m:mover accent="true">
+  <m:mi>u</m:mi>
+  <m:mo>¯</m:mo>
+ </m:mover>
+
+</m:math>
+</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mo>±</m:mo><m:mfrac>
+   <m:mn>2</m:mn>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mi>e</m:mi>
+  </m:msub>
+  </m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>Down</entry>
+<entry> <m:math>
+ <m:mi>d</m:mi>
+</m:math>
+</entry>
+<entry> <m:math>
+ <m:mover accent="true">
+  <m:mi>d</m:mi>
+  <m:mo>¯</m:mo>
+ </m:mover>
+
+</m:math>
+</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mo>∓</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mi>e</m:mi>
+  </m:msub>
+  </m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>Strange</entry>
+<entry> <m:math>
+ <m:mi>s</m:mi>
+</m:math>
+</entry>
+<entry> <m:math>
+ <m:mover accent="true">
+  <m:mi>s</m:mi>
+  <m:mo>¯</m:mo>
+ </m:mover>
+
+</m:math>
+</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mo>∓</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mi>e</m:mi>
+  </m:msub>
+  </m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>Charmed</entry>
+<entry> <m:math>
+ <m:mi>c</m:mi>
+</m:math>
+</entry>
+<entry> <m:math>
+ <m:mover accent="true">
+  <m:mi>c</m:mi>
+  <m:mo>¯</m:mo>
+ </m:mover>
+
+</m:math>
+</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mo>±</m:mo><m:mfrac>
+   <m:mn>2</m:mn>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mi>e</m:mi>
+  </m:msub>
+  </m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>Bottom </entry>
+<entry> <m:math>
+ <m:mi>b</m:mi>
+</m:math>
+</entry>
+<entry> <m:math>
+ <m:mover accent="true">
+  <m:mi>b</m:mi>
+  <m:mo>¯</m:mo>
+ </m:mover>
+
+</m:math>
+</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mo>∓</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mi>e</m:mi>
+  </m:msub>
+  </m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>Top</entry>
+<entry> <m:math>
+ <m:mi>t</m:mi>
+</m:math>
+</entry>
+<entry> <m:math>
+ <m:mover accent="true">
+  <m:mi>t</m:mi>
+  <m:mo>¯</m:mo>
+ </m:mover>
+
+</m:math>
+</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mo>±</m:mo><m:mfrac>
+   <m:mn>2</m:mn>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mi>e</m:mi>
+  </m:msub>
+  </m:mrow>
+</m:math>
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table><para id="fs-id1167067272765">While the term <emphasis effect="italics">flavor</emphasis> is used to differentiate between types of quarks, the concept of <term>color</term> is more analogous to the electric charge in that it is primarily responsible for the force interactions between quarks. Note—Take a moment to think about the electrostatic force. It is the electric charge that causes attraction and repulsion. It is the same case here but with a <emphasis effect="italics">color</emphasis> charge. The three colors available to a quark are red, green, and blue, with antiquarks having colors of anti-red (or cyan), anti-green (or magenta), and anti-blue (or yellow).</para>
+<para id="fs-id1167066962535">Why use colors when discussing quarks? After all, the quarks are not actually colored with visible light. The reason colors are used is because the properties of a quark are analogous to the three primary and secondary colors mentioned above. Just as different colors of light can be combined to create white, different <emphasis effect="italics">colors</emphasis> of quark may be combined to construct a particle like a proton or neutron. In fact, for each hadron, the quarks must combine such that their color sums to white! Recall that two up quarks and one down quark construct a proton, as seen in <link target-id="Figure_23_02_SLAC"/>. The sum of the three quarks’ colors—red, green, and blue—yields the color white. This theory of color interaction within particles is called <term>quantum chromodynamics</term>, or QCD. As part of QCD, the strong nuclear force can be explained using color. In fact, some scientists refer to the color force, not the strong force, as one of the four fundamental forces. <link target-id="Figure_23_02_Color"/> is a Feynman diagram showing the interaction between two quarks by using the transmission of a colored <term>gluon</term>. Note that the gluon is also considered the charge carrier for the strong nuclear force.</para>
+
+<note id="fs-id1167067143185" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167063865115"><span>[BL]</span><span>[OL]</span>Review color theory with students to help them understand the usefulness of the color concept. When combined, what three colors create a white quark? When combined what three anticolors create a white antiquark? How does the combination of a color and anticolor create a white quark? Furthermore, move slowly through <link target-id="Figure_23_02_Color"/>. Why does the down quark turn from red to green? Why does this cause the strange quark to turn from green to red? What color is the gluon? Is color conserved in this interaction?</para>
+</note>
+
+<figure id="Figure_23_02_Color">
+<media id="fs-id1167066783814" alt="The diagram shows two quarks, a down quark and a strange quark, traveling toward each other. As the down quark expels a gluon, it changes color from red to green. As the strange quark receives the gluon, it changes color from green to red. The gluon is colored red and magenta and is labeled ‘red-antigreen’.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_23_02_Color.jpg"/></media>
+<caption>The exchange of gluons between quarks carries the strong force and may change the color of the interacting quarks. While the colors of the individual quarks change, their flavors do not.</caption>
+</figure>
+<para id="fs-id1167067188796">Note that quark flavor may have any color. For instance, in <link target-id="Figure_23_02_Color"/>, the down quark has a red color and a green color. In other words, colors are not specific to a particle quark flavor.</para>
+
+
+</section><section id="fs-id1167066972373"><title>Hadrons and Leptons</title><para id="fs-id1167067217918">Particles can be revealingly grouped according to what forces they feel between them. All particles (even those that are massless) are affected by gravity since gravity affects the space and time in which particles exist. All charged particles are affected by the electromagnetic force, as are neutral particles that have an internal distribution of charge (such as the neutron with its magnetic moment). Special names are given to particles that feel the strong and weak nuclear forces. Hadrons are particles that feel the strong nuclear force, whereas leptons are particles that do not. All particles feel the weak nuclear force. This means that hadrons are distinguished by being able to feel both the strong and weak nuclear forces. Leptons and hadrons are distinguished in other ways as well. Leptons are fundamental particles that have no measurable size, while hadrons are composed of quarks and have a diameter on the order of 10<sup>–15</sup> m. Six particles, including the electron and <term class="no-emphasis">neutrino</term>, make up the list of known leptons. There are hundreds of complex particles in the hadron class, a few of which (including the proton and neutron) are listed in <link target-id="Table_23_04"/>.</para><table id="Table_23_04" summary="The table categorizes a variety of leptons, mesons, and baryons by particle name, symbol, antiparticle, rest mass, and mean lifetime. There are six leptons, three mesons, and four baryons listed in the table, though many more mesons and baryons exist."><title>List of Leptons and Hadrons.</title><tgroup cols="6">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<colspec colnum="6" colname="c6"/>
+<thead>
+<row>
+<entry>Category</entry>
+<entry>Particle Name</entry>
+<entry>Symbol</entry>
+<entry>Antiparticle</entry>
+<entry>Rest Mass  <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mo>M</m:mo><m:mo>e</m:mo><m:mo>V</m:mo><m:mo>/</m:mo><m:msup>
+     <m:mo>c</m:mo>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math>
+</entry>
+<entry>Mean Lifetime (s)</entry>
+</row>
+</thead>
+<tfoot>
+<row>
+<entry namest="c1" nameend="c6"><sup>[1]</sup>Neutrino masses may be zero. Experimental upper limits are given in parentheses.</entry>
+</row>
+<row>
+<entry namest="c1" nameend="c6"><sup>[2]</sup>Many other mesons known</entry>
+</row>
+<row>
+<entry namest="c1" nameend="c6"><sup>[3]</sup>Many other baryons known</entry>
+</row>
+</tfoot>
+<tbody>
+<row>
+<entry morerows="5"><emphasis effect="bold">Leptons</emphasis></entry>
+<entry>Electron</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mi>e</m:mi>
+   <m:mo>−</m:mo>
+  </m:msup>
+  </m:mrow>
+</m:math>
+</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mi>e</m:mi>
+   <m:mo>+</m:mo>
+  </m:msup>
+  </m:mrow>
+</m:math>
+</entry>
+<entry>0.511</entry>
+<entry>Stable</entry>
+</row>
+<row>
+<entry>Neutrino (e)</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>v</m:mi>
+   <m:mi>e</m:mi>
+  </m:msub>
+  </m:mrow>
+</m:math>
+</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mover accent="true">
+    <m:mi>v</m:mi>
+    <m:mo>¯</m:mo>
+   </m:mover>
+
+   <m:mi>e</m:mi>
+  </m:msub>
+  </m:mrow>
+</m:math>
+</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mn>0</m:mn><m:mrow><m:mspace width="0.25em"/><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>7.0</m:mn><m:mo>eV</m:mo>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math>
+<sup>[1]</sup>
+</entry>
+<entry>Stable</entry>
+</row>
+<row>
+<entry>Muon</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mi>μ</m:mi>
+   <m:mo>−</m:mo>
+  </m:msup>
+  </m:mrow>
+</m:math>
+</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mi>μ</m:mi>
+   <m:mo>+</m:mo>
+  </m:msup>
+  </m:mrow>
+</m:math>
+</entry>
+<entry>105.7</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mn>2.20</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>6</m:mn></m:mrow>
+  </m:msup>
+  </m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>Neutrino (μ)</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>v</m:mi>
+   <m:mi>μ</m:mi>
+  </m:msub>
+  </m:mrow>
+</m:math>
+</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mover accent="true">
+    <m:mi>v</m:mi>
+    <m:mo>¯</m:mo>
+   </m:mover>
+
+   <m:mi>μ</m:mi>
+  </m:msub>
+  </m:mrow>
+</m:math>
+</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mn>0</m:mn><m:mrow><m:mspace width="0.25em"/><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mtext>&lt;</m:mtext><m:mn>0.27</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math>
+<sup>[1]</sup>
+</entry>
+<entry>Stable</entry>
+</row>
+<row>
+<entry>Tau</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mi>τ</m:mi>
+   <m:mo>−</m:mo>
+  </m:msup>
+  </m:mrow>
+</m:math>
+</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mi>τ</m:mi>
+   <m:mo>+</m:mo>
+  </m:msup>
+  </m:mrow>
+</m:math>
+</entry>
+<entry>1,777</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mn>2.91</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>−6</m:mn></m:mrow>
+  </m:msup>
+  </m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>Neutrino (τ)</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>v</m:mi>
+   <m:mi>τ</m:mi>
+  </m:msub>
+  </m:mrow>
+</m:math>
+</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mover accent="true">
+    <m:mi>v</m:mi>
+    <m:mo>¯</m:mo>
+   </m:mover>
+
+   <m:mi>τ</m:mi>
+  </m:msub>
+  </m:mrow>
+</m:math>
+</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mn>0</m:mn><m:mrow><m:mspace width="0.25em"/><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mtext>&lt;</m:mtext><m:mn>31</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math>
+<sup>[1]</sup>
+</entry>
+<entry>Stable</entry>
+</row>
+<row>
+<entry morerows="4"><emphasis effect="bold">Hadrons – Mesons<sup>[2]</sup></emphasis></entry>
+<entry morerows="1">Pion</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mi>π</m:mi>
+   <m:mo>+</m:mo>
+  </m:msup>
+  </m:mrow>
+</m:math>
+</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mi>π</m:mi>
+   <m:mo>−</m:mo>
+  </m:msup>
+  </m:mrow>
+</m:math>
+</entry>
+<entry>139.6</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mn>2.60</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>−8</m:mn></m:mrow>
+  </m:msup>
+  </m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mi>π</m:mi>
+   <m:mn>0</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math>
+</entry>
+<entry>Self</entry>
+<entry>135.0</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mn>8.40</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>−17</m:mn></m:mrow>
+  </m:msup>
+  </m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry morerows="1">Kaon</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mi>K</m:mi>
+   <m:mo>+</m:mo>
+  </m:msup>
+  </m:mrow>
+</m:math>
+</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mi>K</m:mi>
+   <m:mo>−</m:mo>
+  </m:msup>
+  </m:mrow>
+</m:math>
+</entry>
+<entry>493.7</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mn>1.24</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>−8</m:mn></m:mrow>
+  </m:msup>
+  </m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mi>K</m:mi>
+   <m:mn>0</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math>
+</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mi>K</m:mi>
+   <m:mn>0</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math>
+</entry>
+<entry>497.6</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mn>0.90</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>−10</m:mn></m:mrow>
+  </m:msup>
+  </m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>Eta</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mi>η</m:mi>
+   <m:mn>0</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math>
+</entry>
+<entry>Self</entry>
+<entry>547.9</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mn>2.53</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>−19</m:mn></m:mrow>
+  </m:msup>
+  </m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry morerows="3"><emphasis effect="bold">Hadrons – Baryons<sup>[3]</sup></emphasis></entry>
+<entry>Proton</entry>
+<entry><emphasis effect="italics">p</emphasis></entry>
+<entry> <m:math>
+ <m:mover accent="true">
+  <m:mi>p</m:mi>
+  <m:mo>¯</m:mo>
+ </m:mover>
+
+</m:math>
+</entry>
+<entry>938.3</entry>
+<entry>Stable</entry>
+</row>
+<row>
+<entry>Neutron</entry>
+<entry><emphasis effect="italics">n</emphasis></entry>
+<entry> <m:math>
+ <m:mover accent="true">
+  <m:mi>n</m:mi>
+  <m:mo>¯</m:mo>
+ </m:mover>
+
+</m:math>
+</entry>
+<entry>939.6</entry>
+<entry>882</entry>
+</row>
+<row>
+<entry>Lambda</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mtext>Λ</m:mtext>
+   <m:mn>0</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math>
+</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mover accent="true">
+    <m:mtext>Λ</m:mtext>
+    <m:mo>¯</m:mo>
+   </m:mover>
+
+   <m:mn>0</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math>
+</entry>
+<entry>1,115.7</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mn>2.63</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>10</m:mn></m:mrow>
+  </m:msup>
+  </m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>Omega</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mtext>Ω</m:mtext>
+   <m:mo>−</m:mo>
+  </m:msup>
+  </m:mrow>
+</m:math>
+</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mtext>Ω</m:mtext>
+   <m:mo>+</m:mo>
+  </m:msup>
+  </m:mrow>
+</m:math>
+</entry>
+<entry>1,672.5</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mn>0.82</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>−10</m:mn></m:mrow>
+  </m:msup>
+  </m:mrow>
+</m:math>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+<para id="fs-id1167063756204">There are many more leptons, mesons, and baryons yet to be discovered and measured. The purpose of trying to uncover the smallest indivisible things in existence is to explain the world around us through forces and the interactions between particles, galaxies and objects. This is why a handful of scientists devote their life’s work to smashing together small particles.</para>
+
+<note id="fs-id1167063497008" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067030638">As a review of the four fundamental forces, place a particle on the board and have students identify which forces interact with it (electron: gravity, electromagnetic, weak; proton: all four). Then show that the electron is a type of lepton, while a proton is a type of hadron. Now have the students identify what forces act on the broad categories of particles of hadrons and leptons. Note that this concept will be reinforced during discussion of the Standard Model.</para>
+</note>
+
+<para id="fs-id1167066862730">What internal structure makes a proton so different from an electron? The proton, like all hadrons, is made up of quarks. A few examples of hadron quark composition can be seen in <link target-id="Figure_23_02_Hadron"/>. As shown, each hadron is constructed of multiple quarks. As mentioned previously, the fractional quark charge in all four hadrons sums to the particle’s integral value. Also, notice that the color composition for each of the four particles adds to white. Each of the particles shown is constructed of up, down, and their antiquarks. This is not surprising, as the quarks strange, charmed, top, and bottom are found in only our most exotic particles.</para>
+
+<figure id="Figure_23_02_Hadron">
+<media id="fs-id1167067132571" alt="There are four pictures in this figure, each showing the structure of a hadron. The proton on the left is composed of three quarks (two up and one down). The colors of the quarks are blue, green, and red. The second picture is of a neutron, which is composed of three quarks (one up and two down). The colors of its quarks are green, blue, and red. The third image is of a positive pion, which is composed of two quarks (up and anti-down). The colors of its quarks are red and anti-red. The final picture is of a negative pion, which is composed of two quarks (anti-up and down). The colors of its quarks are green and anti-green. Underneath each quark is a summation of the quarks fractional charge. The summation of quark charges for both the proton and positive pion is +1. The summation of quark charges for the neutron is zero. The summation of quark charges for the negative pion is -1.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_23_02_Hadron.jpg"/></media>
+<caption>All baryons, such as the proton and neutron shown here, are composed of three quarks. All mesons, such as the pions shown here, are composed of a quarkantiquark pair. Arrows represent the spins of the quarks. The colors are such that they need to add to white for any possible combination of quarks.</caption>
+</figure>
+
+<para id="fs-id1167067007912">You may have noticed that while the proton and neutron in <link target-id="Figure_23_02_Hadron"/> are composed of three quarks, both pions are comprised of only two quarks. This refers to a final delineation in particle structure. Particles with three quarks are called <term>baryons</term>. These are heavy particles that can decay into another baryon. Particles with only two quarks—a-quarkanti-quark pair—are called <term>mesons</term>. These are particles of moderate mass that cannot decay into the more massive baryons.</para>
+<para id="fs-id1167063699203">Before continuing, take a moment to view <link target-id="Figure_23_02_Strong"/>. In this figure, you can see the strong force reimagined as a color force. The particles interacting in this figure are the proton and neutron, just as they were in <link document="m54593" target-id="Figure_23_01_FeynYuk"/>. This reenvisioning of the strong force as an interaction between colored quarks is the critical concept behind quantum chromodynamics.</para><figure id="Figure_23_02_Strong"><media id="fs-id1167067139262" alt="This is a complex picture of the relationship between individually colored quarks in the strong nuclear force, during the interaction between a proton and a neutron."><image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_23_02_Strong.jpg"/></media>
+
+<caption>This Feynman diagram shows the interaction between a proton and a neutron, corresponding to the interaction shown in <link document="m54593" target-id="Figure_23_01_FeynYuk"/>. This diagram, however, shows the quark and gluon details of the strong nuclear force interaction.</caption></figure></section><section id="fs-id1167067049061">
+<title>Matter and Antimatter</title>
+<para id="fs-id1167063519769"><term>Antimatter</term> was first discovered in the form of the <term>positron</term>, the positively charged electron. In 1932, American physicist Carl Anderson discovered the positron in cosmic ray studies. Through a cloud chamber modified to curve the trajectories of cosmic rays, Anderson noticed that the curves of some particles followed that of a negative charge, while others curved like a positive charge. However, the positive curve showed not the mass of a proton but the mass of an electron. This outcome is shown in <link target-id="Figure_23_02_Positron"/> and suggests the existence of a positively charged version of the electron, created by the destruction of solar photons.</para>
+
+<figure id="Figure_23_02_Positron"><media id="fs-id1167067088105" alt="The image shows two spirals originating from the same spot, with one directed upward and one directed downward. The spot from which the spirals originate is labeled ‘incident photon.’ The upward spiral is the positron, while the downward spiral is labeled ‘electron.’"><image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_23_02_Positron.jpg"/></media>
+<caption>The image above is from the Fermilab <emphasis effect="italics">15 foot bubble chamber</emphasis> and shows the production of an electron and positron (or antielectron) from an incident photon. This event is titled <term>pair production</term> and provides evidence of antimatter, as the two repel each other.</caption>
+</figure>
+
+<para id="fs-id1167067133621">Antimatter is considered the opposite of matter. For most antiparticles, this means that they share the same properties as their original particles with the exception of their charge. This is why the positron can be considered a positive electron while the antiproton is considered a negative proton. The idea of an opposite charge for neutral particles (like the neutron) can be confusing, but it makes sense when considered from the quark perspective. Just as the neutron is composed of one up quark and two down quarks (of charge
+ <m:math>
+ <m:mrow>
+  <m:mo>+</m:mo><m:mfrac>
+   <m:mn>2</m:mn>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  </m:mrow>
+</m:math>
+and
+ <m:math>
+ <m:mrow>
+  <m:mo>-</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  </m:mrow>
+</m:math>
+, respectively), the antineutron is composed of one antiup quark and two antidown quarks (of charge  <m:math>
+ <m:mrow>
+  <m:mo>-</m:mo><m:mfrac>
+   <m:mn>2</m:mn>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  </m:mrow>
+</m:math>  and
+ <m:math>
+ <m:mrow>
+  <m:mo>+</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  </m:mrow>
+</m:math>
+, respectively). While the overall charge of the neutron remains the same, its constituent particles do not!</para><para id="fs-id1167063863100">A word about antiparticles: Like regular particles, antiparticles could function just fine on their own. In fact, a universe made up of antimatter may operate just as our own matter-based universe does. However, we do not know fully whether this is the case. The reason for this is <term>annihilation</term>. Annihilation is the process of destruction that occurs when a particle and its antiparticle interact. As soon as two particles (like a positron and an electron) coincide, they convert their masses to energy through the equation  <m:math>
+ <m:mrow>
+  <m:mi>E</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:msup>
+   <m:mi>c</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math> . This mass-to-energy conversion, which typically results in photon release, happens instantaneously and makes it very difficult for scientists to study antimatter. That said, scientists have had success creating antimatter through high-energy particle collisions. Both antineutrons and antiprotons were created through accelerator experiments in 1956, and an antihydrogen atom was even created at CERN in 1995! As referenced in <link document="m54578" target-id="Figure_22_05_PET"/>, the annihilation of antiparticles is currently used in medical studies to determine the location of radioisotopes.</para><note id="fs-id1167066957419" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066939058"><span>[AL]</span>What would have occurred in the Big Bang if the numbers of matter and antimatter were the same? Students may likely be curious about why there is more matter than antimatter in the universe. Advanced students can be pointed toward research into charge parity violation.</para>
+</note>
+</section>
+
+<section id="fs-id1167067009736"><title>Completing the Standard Model of the Atom</title><para id="fs-id1167067200763">The Standard Model of the atom refers to the current scientific view of the fundamental components and interacting forces of matter. The Standard Model (<link target-id="Figure_23_02_Standard"/>) shows the six quarks that bind to form all hadrons, the six lepton particles already considered fundamental, the four carrier particles (or gauge bosons) that transmit forces between the leptons and quarks, and the recently added <term>Higgs boson</term> (which will be discussed shortly). This totals 17 fundamental particles, combinations of which are responsible for all known matter in our entire universe! When adding the antiquarks and antileptons, 31 components make up the Standard Model.</para><figure id="Figure_23_02_Standard">
+<media id="fs-id1167066870741" alt="The image is of seventeen boxes, sixteen of which are in a four-by-four grid. (The seventeenth box, in yellow and off to the side, is of the Higgs boson.) Spheres in purple are quarks, spheres in green are leptons, and spheres in red are gauge bosons.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_23_02_Standard.jpg"/></media>
+<caption>The Standard Model of elementary particles shows an organized view of all fundamental particles, as currently known: six quarks, six leptons, and four gauge bosons (or carrier particles). The Higgs boson, first observed in 2012, is a new addition to the Standard Model.</caption>
+</figure>
+
+<para id="fs-id1167067126845"><link target-id="Figure_23_02_Standard"/> shows all particles within the Standard Model of the atom. Not only does this chart divide all known particles by color-coded group, but it also provides information on particle stability. Note that the color-coding system in this chart is separate from the red, green, and blue color labeling system of quarks. The first three columns represent the three <emphasis effect="italics">families</emphasis> of matter. The first column, considered Family 1, represents particles that make up normal matter, constructing the protons, neutrons, and electrons that make up the common world. Family 2, represented from the charm quark to the muon neutrino, is comprised of particles that are more massive. The leptons in this group are less stable and more likely to decay. Family 3, represented by the third column, are more massive still and decay more quickly. The order of these families also conveniently represents the order in which these particles were discovered.</para>
+
+<note id="fs-id1167066847712" class="tips-for-success">
+
+<para id="fs-id1167060123410">Look for trends that exist within the Standard Model. Compare the charge of each particle. Compare the spin. How does mass relate to the model structure? Recognizing each of these trends and asking questions will yield more insight into the organization of particles and the forces that dictate particle relationships. Our understanding of the Standard Model is still young, and the questions you may have in analyzing the Standard Model may be some of the same questions that particle physicists are searching for answers to today!</para>
+</note>
+
+<para id="fs-id1167067007582">The Standard Model also summarizes the fundamental forces that exist as particles interact. A closer look at the Standard Model, as shown in <link target-id="Figure_23_02_Revised"/>, reveals that the arrangement of carrier particles describes these interactions.</para>
+
+<figure id="Figure_23_02_Revised"><media id="fs-id1167067218014" alt="The sixteen boxes shown before are now shaded due to force. A red shade extends from the gluon and colors all purple quarks. A blue shade extends from the photon and colors all quarks and the first row of leptons (the electron, muon, and tau). A green shade extends from the Z and W bosons and colors all quarks and leptons. As the background colors overlap, the red shade appears brown, and the blue shade appears dark green."><image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_23_02_Revised.jpg"/></media>
+<caption>The revised Standard Model shows the interaction between gauge bosons and other fundamental particles. These interactions are responsible for the fundamental forces, three of which are described through the chart’s shaded areas.</caption>
+</figure>
+
+<para id="fs-id1167066844970">Each of the shaded areas represents a fundamental force and its constituent particles. The red shaded area shows all particles involved in the strong nuclear force, which we now know is due to quantum chromodynamics. The blue shaded area corresponds to the electromagnetic force, while the green shaded area corresponds to the weak nuclear force, which affects all quarks and leptons. The electromagnetic force and weak nuclear force are considered united by the electroweak force within the Standard Model. Also, because definitive evidence of the graviton is yet to be found, it is not included in the Standard Model.</para>
+
+
+<section id="fs-id1167067209815">
+<title>The Higgs Boson</title>
+<para id="fs-id1167067117773">One interesting feature of the Standard Model shown in <link target-id="Figure_23_02_Revised"/> is that, while the gluon and photon have no mass, the Z and W bosons are very massive. What supplies these quickly moving particles with mass and not the gluons and photons? Furthermore, what causes some quarks to have more mass than others?</para>
+<para id="fs-id1167063652341">In the 1960s, British physicist <term class="no-emphasis">Peter Higgs</term> and others speculated that the W and Z bosons were actually just as massless as the gluon and photon. However, as the W and Z bosons traveled from one particle to another, they were slowed down by the presence of a <term>Higgs field</term>, much like a fish swimming through water. The thinking was that the existence of the Higgs field would slow down the bosons, causing them to decrease in energy and thereby transfer this energy to mass. Under this theory, all particles pass through the Higgs field, which exists throughout the universe. The gluon and photon travel through this field as well but are able to do so unaffected.</para>
+<para id="fs-id1167063837661">The presence of a force from the Higgs field suggests the existence of its own carrier particle, the Higgs boson. This theorized boson interacts with all particles but gluons and photons, transferring force from the Higgs field. Particles with large mass (like the top quark) are more likely to receive force from the Higgs boson.</para>
+<para id="fs-id1167067090093">While it is difficult to examine a field, it is somewhat simpler to find evidence of its carrier. On July 4, 2012, two groups of scientists at the LHC independently confirmed the existence of a Higgs-like particle. By examining trillions of proton–proton collisions at energies of 7 to 8 TeV, LHC scientists were able to determine the constituent particles that created the protons. In this data, scientists found a particle with similar mass, spin, parity, and interactions with other particles that matched the Higgs boson predicted decades prior. On March 13, 2013, the existence of the Higgs boson was tentatively confirmed by CERN. Peter Higgs and Francois Englert received the Nobel Prize in 2013 for the “theoretical discovery of a mechanism that contributes to our understanding of the origin and mass of subatomic particles.”</para>
+
+<note id="fs-id1167067165898" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067039224">Reinforce to students that the identification of the Higgs particle was similar to the process used to find evidence of many fundamental particles. Contrast this process with the indirect process used to locate the individual quark.</para>
+</note>
+
+<note id="fs-id1167063771916" class="work-in-physics">
+
+<title>Particle Physicist</title>
+<para id="fs-id1167061628540">If you have an innate desire to unravel life’s great mysteries and further understand the nature of the physical world, a career in particle physics may be for you!</para>
+<para id="fs-id1167067204644">Particle physicists have played a critical role in much of society’s technological progress. From lasers to computers, televisions to space missions, splitting the atom to understanding the DNA molecule to MRIs and PET scans, much of our modern society is based on the work done by particle physicists.</para>
+<para id="fs-id1167066946346">While many particle physicists focus on specialized tasks in the fields of astronomy and medicine, the main goal of particle physics is to further scientists’ understanding of the Standard Model. This may mean work in government, industry, or academics. Within the government, jobs in particle physics can be found within the National Institute for Standards and Technology, Department of Energy, NASA, and Department of Defense. Both the electronics and computer industries rely on the expertise of particle physicists. College teaching and research positions can also be potential career opportunities for particle physicists, though they often require some postgraduate work as a prerequisite. In addition, many particle physicists are employed to work on high-energy colliders. Domestic collider labs include the Brookhaven National Laboratory in New York, the Fermi National Accelerator Laboratory near Chicago, and the SLAC National Accelerator Laboratory operated by Stanford University. For those who like to travel, work at international collider labs can be found at the CERN facility in Switzerland in addition to institutes like the Budker Institute of Nuclear Physics in Russia, DESY in Germany, and KEK in Japan.</para>
+<para id="fs-id1167067012413">Shirley Jackson became the first African American woman to earn a Ph.D. from MIT back in 1973, and she went on to lead a highly successful career in the field of particle physics. Like Dr. Jackson, successful students of particle physics grow up with a strong curiosity in the world around them and a drive to continually learn more. If you are interested in exploring a career in particle physics, work to achieve good grades and SAT scores, and find time to read popular books on physics topics that interest you. While some math may be challenging, recognize that this is only a tool of physics and should not be considered prohibitive to the field. High-level work in particle physics often requires a Ph.D.; however, it is possible to find work with a master’s degree. Additionally, jobs in industry and teaching can be achieved with solely an undergraduate degree.</para>
+
+<exercise id="fs-id1167066840054" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167067078916">
+<para id="fs-id1167067083019">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex026"/>
+</para>
+</problem>
+</exercise>
+</note>
+</section>
+</section><section id="fs-id1167066825577" class="check-understanding"><title>Check Your Understanding</title><note id="eip-id1167067052838" class="os-teacher">
+<title>Teacher Support</title>
+<para id="eip-id1167063890316">Use these questions to assess student achievement of the section’s learning objectives. If students are struggling with a specific objective, these questions will help identify which and direct students to the relevant content.</para>
+</note>
+<exercise id="fs-id1167067253541" class="os-exercise">
+<problem id="fs-id1167066850842">
+<!--<para id="fs-id1167067070146">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex027"/>
+</para>-->
+<para id="fs-id1164557664455">In what particle were quarks originally discovered?</para>
+<list id="fs-id1164559108487" list-type="enumerated" number-style="lower-alpha">
+<item>the electron</item>
+<item>the neutron</item>
+<item>the proton</item>
+<item>the photon</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167061214671" class="os-exercise">
+<problem id="fs-id1167066800588">
+<para id="fs-id1167067214385">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex028"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167066833056" class="os-exercise">
+<problem id="fs-id1167063449201">
+<para id="fs-id1167067251931">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex029"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167067007522" class="os-exercise">
+<problem id="fs-id1167067192833">
+<para id="fs-id1167067067248">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex030"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167063599486" class="os-exercise">
+<problem id="fs-id1167067143465">
+<!--<para id="fs-id1167063512622">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex031"/>
+</para>-->
+<para id="fs-id1164559088880">Does antimatter exist?</para>
+<list id="fs-id1164562259483" list-type="enumerated" number-style="lower-alpha">
+<item>no</item>
+<item>yes</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167066852492" class="os-exercise">
+<problem id="fs-id1167063503987">
+<para id="fs-id1167066958109">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex032"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167067215864" class="os-exercise">
+<problem id="fs-id1167066999971">
+<para id="fs-id1167066839320">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex033"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167066770347" class="os-exercise">
+<problem id="fs-id1167063513884">
+<para id="fs-id1167067276995">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex034"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167066783790" class="os-exercise">
+<problem id="fs-id1167066860747">
+<!--<para id="fs-id1167063436197">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex035"/>
+</para>-->
+<para id="fs-id1164563559140">What fundamental property is provided by particle interaction with the Higgs boson?</para>
+<list id="fs-id1164561958583" list-type="enumerated" number-style="lower-alpha">
+<item>charge</item>
+<item>mass</item>
+<item>spin</item>
+<item>color</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167063520115" class="os-exercise">
+<problem id="fs-id1167067272643">
+<para id="fs-id1167067199071">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex036"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166851026039" class="os-exercise">
+<problem id="eip-id1166850979861">
+<!--<para id="eip-id1166851092069">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ot025"/>
+</para>-->
+<para id="fs-id1164565171765">What particles were launched into the proton during the original discovery of the quark?</para>
+<list id="fs-id1164559112287" list-type="enumerated" number-style="lower-alpha">
+<item>bosons</item>
+<item>electrons</item>
+<item>neutrons</item>
+<item>photons</item>
+</list>
+</problem>
+</exercise></section><section id="fs-id1167066035988" class="summary">
+<title>Section Summary</title>
+<list id="fs-id1167065971983">
+<item>There are three types of fundamental particles—leptons, quarks, and carrier particles.</item>
+<item>Quarks come in six flavors and three colors and occur only in combinations that produce white.</item>
+<item>Hadrons are thought to be composed of quarks, with baryons having three quarks and mesons having a quark and an antiquark.</item>
+<item>Known particles can be divided into three major groups—leptons, hadrons, and carrier particles (gauge bosons).</item>
+<item>All particles of matter have an antimatter counterpart that has the opposite charge and certain other quantum numbers. These matterantimatter pairs are otherwise very similar but will annihilate when brought together.</item>
+<item>The strong force is carried by eight proposed particles called gluons, which are intimately connected to a quantum number called color—their governing theory is thus called quantum chromodynamics (QCD). Taken together, QCD and the electroweak theory are widely accepted as the Standard Model of particle physics.</item>
+</list>
+</section>
+
+<section id="fs-id1167061295147" class="concept"><title>Concept Items</title><exercise id="fs-id1167061202767" class="os-exercise"><problem id="fs-id1167067202622">
+<para id="fs-id1167067023567">How does the charge of an individual quark determine hadron structure?</para>
+<list id="eip-idm231040784" list-type="enumerated" number-style="lower-alpha">
+<item>Since the hadron must have an integral value, the individual quarks must be combined such that the average of their charges results in the value of a quark.</item>
+<item>Since the hadron must have an integral value, the individual atoms must be combined such that the sum of their charges is less than zero.</item>
+<item>The individual quarks must be combined such that the product of their charges is equal to the total charge of the hadron structure.</item>
+<item>Since the hadron must have an integral value of charge, the individual quarks must be combined such that the sum of their charges results in an integral value.</item></list>
+</problem>
+</exercise><exercise id="fs-id1167063837786" class="os-exercise"><problem id="fs-id1167063687592">
+<para id="eip-idm242321104">Why do leptons not feel the strong nuclear force?</para>
+<list id="eip-idm242320720" list-type="enumerated" number-style="lower-alpha"><item>Gluons are the carriers of the strong nuclear force that interacts between quarks through color interactions, but leptons are constructed of quarks that do not have gluons.</item>
+<item>Gluons are the carriers of the strong nuclear force that interacts between quarks through mass interactions, but leptons are not constructed of quarks and are not massive.</item>
+<item>Gluons are the carriers of the strong nuclear force that interacts between quarks through mass interactions, but leptons are constructed of the quarks that are not massive.</item>
+<item>Gluons are the carriers of the strong nuclear force that interacts between quarks through color interactions, but leptons are not constructed of quarks, nor do they have color constituents.</item>
+</list></problem>
+</exercise><exercise id="fs-id1167063894582" class="os-exercise">
+<problem id="fs-id1167063522931">
+<!--<para id="fs-id1167067076447">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex039"/>
+</para>-->
+<para id="fs-id1164561115000">What property commonly distinguishes antimatter from its matter analogue?</para>
+<list id="fs-id1164565137281" list-type="enumerated" number-style="lower-alpha">
+<item>mass</item>
+<item>charge</item>
+<item>energy</item>
+<item>speed</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167063577811" class="os-exercise">
+<problem id="fs-id1167067140593">
+<!--<para id="fs-id1167063474031">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex040"/>
+</para>-->
+<para id="fs-id1164563353102">Can the Standard Model change as new information is gathered?</para>
+<list id="fs-id1164565125037" list-type="enumerated" number-style="lower-alpha">
+<item>yes</item>
+<item>no</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067202185" class="os-exercise"><problem id="fs-id1167063659495">
+<para id="fs-id1167063817541">What is the relationship between the Higgs field and the Higgs boson?</para>
+<list id="eip-idm247904800" list-type="enumerated" number-style="lower-alpha">
+<item>The Higgs boson is the carrier that transfers force for the Higgs field.</item>
+<item>The Higgs field is the time duration over which the Higgs particles transfer force to the other particles.</item>
+<item>The Higgs field is the magnitude of momentum transferred by the Higgs particles to the other particles.</item>
+<item>The Higgs field is the magnitude of torque transfers by the Higgs particles on the other particles.</item>
+</list></problem>
+</exercise><exercise id="eip-id1166848780483" class="os-exercise">
+<problem id="eip-id1166851328216">
+<!--<para id="eip-id1166851328218">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ot026"/>
+</para>-->
+<para id="fs-id1164564860338">What were the original three flavors of quarks discovered?</para>
+<list id="fs-id1164565101087" list-type="enumerated" number-style="lower-alpha">
+<item>up, down, and charm</item>
+<item>up, down, and bottom</item>
+<item>up, down, and strange</item>
+<item>up, down, and top</item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-id1166851278174" class="os-exercise">
+<problem id="eip-id1166848807336">
+<!--<para id="eip-id1166848757644">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ot031"/>
+</para>-->
+<para id="fs-id1164566528672">Protons are more massive than electrons. The three quarks in the proton account for only a small amount of this mass difference. What accounts for the remaining excess mass in protons compared to electrons?</para>
+<list id="fs-id1164566521373" list-type="enumerated" number-style="lower-alpha">
+<item>The highly energetic gluons connecting the quarks account for the remaining excess mass in protons compared to electrons.</item>
+<item>The highly energetic photons connecting the quarks account for the remaining excess mass in protons compared to electrons.</item>
+<item>The antiparallel orientation of the quarks present in a proton accounts for the remaining excess mass in protons compared to electrons.</item>
+<item>The parallel orientation of the quarks present in a proton accounts for the remaining excess mass in protons compared to electrons.</item>
+</list>
+</problem>
+</exercise></section><section id="fs-id1167061615217" class="critical-thinking"><title>Critical Thinking</title><exercise id="fs-id1167063712296" class="os-exercise">
+<problem id="fs-id1167063862790">
+<para id="fs-id1167067226467">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex042"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167067034338" class="os-exercise"><problem id="fs-id1167063626537">
+<para id="fs-id1167067036969">Why are mesons considered unstable?</para>
+<list id="eip-idm247914880" list-type="enumerated" number-style="lower-alpha">
+<item>Mesons are composites of two antiparticles that quickly annihilate each other.</item>
+<item>Mesons are composites of two particles that quickly annihilate each other.</item>
+<item>Mesons are composites of a particle and antiparticle that quickly annihilate each other.</item>
+<item>Mesons are composites of two particles and one antiparticle that quickly annihilate each other.</item></list>
+</problem>
+</exercise><exercise id="fs-id1167066806591" class="os-exercise">
+<problem id="fs-id1167063515684">
+<!--<para id="fs-id1167067027973">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex044"/>
+</para>-->
+<para id="fs-id1164566836961">Does antimatter have a negative mass?</para>
+<list id="fs-id1164558705417" list-type="enumerated" number-style="lower-alpha">
+<item>No, antimatter does not have a negative mass.</item>
+<item>Yes, antimatter does have a negative mass.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167061706096" class="os-exercise">
+<problem id="fs-id1167067157852">
+<para id="fs-id1167067158260">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex045"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167063914801" class="os-exercise"><problem id="fs-id1167067102263">
+<para id="fs-id1167067149612">
+How were particle collisions used to provide evidence of the Higgs boson?
+</para>
+<list id="eip-idm225402176" list-type="enumerated" number-style="lower-alpha">
+<item>Because some particles do not contain the Higgs boson, the collisions of such particles will cause their destruction.</item>
+<item>Because only the charged particles contain the Higgs boson, the collisions of such particles will cause their destruction and will expel the Higgs boson.</item>
+<item>Because all particles with mass contain the Higgs boson, the collisions of such particles will cause their destruction and will absorb the Higgs boson.</item>
+<item>Because all particles with mass contain the Higgs boson, the collisions of such particles will cause their destruction and will expel the Higgs boson.</item></list>
+</problem>
+</exercise><exercise id="eip-id1166851317235" class="os-exercise"><problem id="eip-id1166848877486">
+<para id="eip-id1166850970325">Explain how the combination of a quark and antiquark can result in the creation of a hadron.</para>
+<list id="eip-idm247933184" list-type="enumerated" number-style="lower-alpha">
+<item>The combination of a quark and antiquark can result in a particle with an integer charge and color of white, therefore satisfying the properties for a hadron.</item>
+<item>The combination of a quark and antiquark must result in a particle with a negative charge and color of white, therefore satisfying the properties for a hadron.</item>
+<item>The combination of a quark and antiquark can result in a particle with an integer charge and color that is not white, therefore satisfying the properties for a hadron.</item>
+<item>The combination of a quark and antiquark can result in particle with a fractional charge and color that is not white, therefore satisfying the properties for a hadron.</item>
+</list>
+</problem>
+</exercise></section><section id="fs-id1167066860971" class="multiple-choice"><title>Test Prep Multiple Choice</title><exercise id="fs-id1167067157951" class="os-exercise">
+<problem id="fs-id1167067199242">
+<!--<para id="fs-id1167063786391">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex047"/>
+</para>-->
+<para id="fs-id1164564948958">To what color must quarks combine for a particle to be constructed?</para>
+<list id="fs-id1164562395183" list-type="enumerated" number-style="lower-alpha">
+<item>black</item>
+<item>green</item>
+<item>red</item>
+<item>white</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067145996" class="os-exercise">
+<problem id="fs-id1167066848725">
+<!--<para id="fs-id1167067073136">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex048"/>
+</para>-->
+<para id="fs-id1164564961160">What type of hadron is always constructed partially of an antiquark?</para>
+<list id="fs-id1164562117502" list-type="enumerated" number-style="lower-alpha">
+<item>baryon</item>
+<item>lepton</item>
+<item>meson</item>
+<item>photno</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167063589633" class="os-exercise">
+<problem id="fs-id1167063480593">
+<!--<para id="fs-id1167067050299">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex049"/>
+</para>-->
+<para id="fs-id1164563447634">What particle is typically released when two particles annihilate?</para>
+<list id="fs-id1164566549404" list-type="enumerated" number-style="lower-alpha">
+<item>graviton</item>
+<item>antimatter</item>
+<item>pion</item>
+<item>photno</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167063693100" class="os-exercise">
+<problem id="fs-id1167063693717">
+<!--<para id="fs-id1167063939064">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex050"/>
+</para>-->
+<para id="fs-id1164561269702">Which of the following categories is not one of the three main categories of the Standard Model?</para>
+<list id="fs-id1164561013936" list-type="enumerated" number-style="lower-alpha">
+<item>gauge bosons</item>
+<item>hadrons</item>
+<item>leptons</item>
+<item>quarks</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067032745" class="os-exercise">
+<problem id="fs-id1167067211192">
+<!--<para id="fs-id1167063489130">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex051"/>
+</para>-->
+<para id="fs-id1164557822753">Analysis of what particles began the search for the Higgs boson?</para>
+<list id="fs-id1164563080921" list-type="enumerated" number-style="lower-alpha">
+<item>W and Z bosons</item>
+<item>up and down quarks</item>
+<item>mesons and baryons</item>
+<item>neutrinos and photons</item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-id1166849074599" class="os-exercise">
+<problem id="eip-id1166849108635">
+<para id="eip-id1166846630783">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ot027"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167066792435" class="short-answer">
+<title>Test Prep Short Answer</title>
+<exercise id="fs-id1167067086834" class="os-exercise">
+<problem id="fs-id1167063719554">
+<!--<para id="fs-id1167066939412">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex052"/>
+</para>-->
+<para id="fs-id1164566477830">What two features of quarks determine the structure of a particle?</para>
+<list id="fs-id1164563550583" list-type="enumerated" number-style="lower-alpha">
+<item>the color and charge of individual quarks</item>
+<item>the color and size of individual quarks</item>
+<item>the charge and size of individual quarks</item>
+<item>the charge and mass of individual quarks</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067174757" class="os-exercise">
+<problem id="fs-id1167066966048">
+<!--<para id="fs-id1167063629447">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex053"/>
+</para>-->
+<para id="fs-id1164562361166">What fundamental force does quantum chromodynamics describe?</para>
+<list id="fs-id1164565110522" list-type="enumerated" number-style="lower-alpha">
+<item>the weak nuclear force</item>
+<item>the strong nuclear force</item>
+<item>the electromagnetic force</item>
+<item>the gravitational force</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167063463872" class="os-exercise">
+<problem id="fs-id1167067041542">
+<!--<para id="fs-id1167067052717">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex054"/>
+</para>-->
+<para id="fs-id1164565080683">Is it possible for a baryon to be constructed of two quarks and an antiquark?</para>
+<list id="fs-id1164565010782" list-type="enumerated" number-style="lower-alpha">
+<item>Yes, the color of the three particles would be able to sum to white.</item>
+<item>No, the color of the three particles would not be able to sum to white.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067273077" class="os-exercise">
+<problem id="fs-id1167063901857">
+<!--<para id="fs-id1167067043916">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex055"/>
+</para>-->
+<para id="fs-id1164566558864">Can baryons be more massive than mesons?</para>
+<list id="fs-id1164562275026" list-type="enumerated" number-style="lower-alpha">
+<item>no</item>
+<item>yes</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167061705786" class="os-exercise">
+<problem id="fs-id1167061611621">
+<para id="fs-id1167063641959">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex056"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167066870760" class="os-exercise">
+<problem id="fs-id1167067254135">
+<!--<para id="fs-id1167067198203">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex057"/>
+</para>-->
+<para id="fs-id1164564823966">Does a neutron have an antimatter counterpart?</para>
+<list id="fs-id1164565249117" list-type="enumerated" number-style="lower-alpha">
+<item>No, the antineutron does not exist.</item>
+<item>Yes, the antineutron does exist.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167066808442" class="os-exercise">
+<problem id="fs-id1167067314145">
+<para id="fs-id1167063873210">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex058"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167066810056" class="os-exercise">
+<problem id="fs-id1167067274785">
+<!--<para id="fs-id1167067137996">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex059"/>
+</para>-->
+<para id="fs-id1164566899660">Which particles in the Standard Model account for the majority of matter with which we are familiar?</para>
+<list id="fs-id1164560824016" list-type="enumerated" number-style="lower-alpha">
+<item>particles in fourth column of the Standard Model</item>
+<item>particles in third column of the Standard Model</item>
+<item>particles in the second column of the Standard Model</item>
+<item>particles in the first column of the Standard Model</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067208672" class="os-exercise">
+<problem id="fs-id1167067208837">
+<para id="fs-id1167063505622">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex060"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167063888029" class="os-exercise">
+<problem id="fs-id1167063675147">
+<para id="fs-id1167067254231">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex061"/>
+</para>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167067260798" class="extended-response">
+<title>Test Prep Extended Response</title>
+<exercise id="fs-id1167066787347" class="os-exercise">
+<problem id="fs-id1167067035996">
+<!--<para id="fs-id1167066863865">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex062"/>
+</para>-->
+<para id="fs-id1164564744730">In this image, how does the emission of the gluon cause the down quark to change from a red color to a green color?<newline/>
+<media id="fs-id1164565008746" alt="The figure has two equations R right arrow G plus R G and R G plus G right arrow R. A vertical time axis and horizontal x-axis or distance is in the bottom left hand corner of the schematic relating to these equations. Inside of the axis are five spheres, three in a diagonal pattern are red with two green ones on either side of the filled diagonal. The two equations are showing the process by which the R, red d sphere, and G, green s sphere, react with a creation of the R G, red g sphere, by the R, red d sphere, to create G, green d sphere. The other initial G, green s sphere, reacts with the newly created R G sphere to create R, red s sphere.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_23_02_Color.jpg"/>
+</media>
+</para><list id="fs-id1164563549753" list-type="enumerated" number-style="lower-alpha">
+<item>The emitted red gluon is made up of a green and a red color. As a result, the down quark changes from a red color to a green color.</item>
+<item>The emitted red gluon is made up of an anti-green and an anti-red color. As a result, the down quark changes from a red color to a green color.</item>
+<item>The emitted red gluon is made up of a green and an anti-red color. As a result, the down quark changes from a red color to a green color.</item>
+<item>The emitted red gluon is made up of an anti-green and a red color. As a result, the down quark changes from a red color to a green color.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067123854" class="os-exercise">
+<problem id="fs-id1167063882451">
+<!--<para id="fs-id1167067147038">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex063"/>
+</para>-->
+<para id="fs-id1164560868556">Neutrinos are much more difficult for scientists to find when compared to other hadrons and leptons. Why is this?</para>
+<list id="fs-id1164564775768" list-type="enumerated" number-style="lower-alpha">
+<item>Neutrinos are hadrons, and they lack charge.</item>
+<item>Neutrinos are not hadrons, and they lack charge.</item>
+<item>Neutrinos are hadrons, and they have positive charge.</item>
+<item>Neutrinos are not hadrons, and they have a positive charge.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067293867" class="os-exercise">
+<problem id="fs-id1167067255110">
+<para id="fs-id1167067139840">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex064"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167066808777" class="os-exercise">
+<problem id="fs-id1167066946949">
+<para id="fs-id1167067191362">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex065"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167063836416" class="os-exercise">
+<problem id="fs-id1167066804575">
+<!--<para id="fs-id1167066859805">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex066"/>
+</para>-->
+<para id="fs-id1164562477222">The term <emphasis effect="italics">force carrier particle</emphasis> is shorthand for the scientific term <emphasis effect="italics">vector gauge boson</emphasis>. From that perspective, can the Higgs boson truly be considered a <emphasis effect="italics">force carrier particle</emphasis>?</para>
+<list id="fs-id1164566539353" list-type="enumerated" number-style="lower-alpha">
+<item>No, the mass quality provided by the Higgs boson is a scalar quantity.</item>
+<item>Yes, the mass quality provided by the Higgs boson results in a change of particles direction.</item>
+</list>
+</problem>
+</exercise>
+</section>
+
+</content>
+<glossary>
+<definition id="fs-id1167066874185"><term>annihilation </term><meaning id="fs-id1167067159520">the process of destruction that occurs when a particle and antiparticle interact</meaning></definition>
+<definition id="fs-id1167067208894"><term>antimatter </term><meaning id="fs-id1167063938100">matter constructed of antiparticles; antimatter shares most of the same properties of regular matter, with charge being the only difference between many particles and their antiparticle analogues</meaning></definition>
+<definition id="fs-id1167063717312"><term>baryon </term><meaning id="fs-id1167067266867">hadrons that always decay to another baryon</meaning></definition>
+<definition id="fs-id1167067123902"><term>bottom quark </term><meaning id="fs-id1167063412037">a quark flavor</meaning></definition>
+<definition id="fs-id1167066784939"><term>charmed quark</term><meaning id="fs-id1167063720901"> a quark flavor, which is the counterpart of the strange quark</meaning></definition>
+<definition id="fs-id1167066811327"><term>color </term><meaning id="fs-id1167067150111">a property of quarks the relates to their interactions through the strong force</meaning></definition>
+<definition id="fs-id1167067085158"><term>down quark</term><meaning id="fs-id1167066820276"> the second lightest of all quarks</meaning></definition>
+<definition id="fs-id1167067277049"><term>flavor</term><meaning id="fs-id1167066957376"> quark type</meaning></definition>
+<definition id="fs-id1167063789026"><term>gluons </term><meaning id="fs-id1167067203392">exchange particles of the nuclear strong force</meaning></definition>
+<definition id="fs-id1167066871299"><term>hadron</term><meaning id="fs-id1167067056552"> particles composed of quarks that feel the strong and weak nuclear force</meaning></definition>
+<definition id="fs-id1167061202917"><term>Higgs boson </term><meaning id="fs-id1167067068212">a massive particle that provides mass to the weak bosons and provides validity to the theory that carrier particles are identical under certain circumstances</meaning></definition>
+<definition id="fs-id1167067103489"><term>Higgs field </term><meaning id="fs-id1167067255425">the field through which all fundamental particles travel that provides them varying mass through the transport of the Higgs boson</meaning></definition>
+<definition id="fs-id1167067211150"><term>lepton </term><meaning id="fs-id1167066972260">fundamental particles that do not feel the nuclear strong force</meaning></definition>
+<definition id="fs-id1167067061414"><term>meson </term><meaning id="fs-id1167063599194">hadrons that can decay to leptons and leave no hadrons</meaning></definition>
+<definition id="fs-id1167063606155"><term>pair production </term><meaning id="fs-id1167063519517">the creation of a particle and antiparticle, commonly an electron and positron, due to the annihilation of a photon</meaning></definition>
+<definition id="fs-id1167067033608"><term>positron </term><meaning id="fs-id1167063583287">a particle of antimatter that has the properties of a positively charged electron</meaning></definition>
+<definition id="fs-id1167067104742"><term>quantum chromodynamics </term><meaning id="fs-id1167066946808">the theory of color interaction between quarks that leads to understanding of the nuclear strong force</meaning></definition>
+<definition id="fs-id1167067013016"><term>quark </term><meaning id="fs-id1167063739509">an elementary particle and fundamental constituent of matter that is a substructure of hadrons</meaning></definition>
+<definition id="fs-id1167067055580"><term>Standard Model</term><meaning id="fs-id1167066954262"> an organization of fundamental particles and forces that is a result of quantum chromodynamics and electroweak theory</meaning></definition>
+<definition id="fs-id1167063415435"><term>strange quark </term><meaning id="fs-id1167063588553">the third lightest of all quarks</meaning></definition>
+<definition id="fs-id1167066973700"><term>top quark</term><meaning id="fs-id1167061376689"> a quark flavor</meaning></definition>
+<definition id="fs-id1167061391879"><term>up quark</term><meaning id="fs-id1167067174350"> the lightest of all quarks</meaning></definition>
+</glossary>
+</document>

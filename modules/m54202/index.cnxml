@@ -1,0 +1,509 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+  <title>Conservation of Momentum</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54202</md:content-id>
+  <md:title>Conservation of Momentum</md:title>
+  <md:abstract/>
+  <md:uuid>d22f87ef-eae4-4e96-8335-4c506092eb93</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167066792550" class="learning-objectives">
+<label/>
+<title>Section Learning Objectives</title>
+<para id="fs-id1164563427300">By the end of this section, you will be able to do the following:</para>
+<list id="fs-id1167067311550">
+<item>Describe the law of conservation of momentum verbally and mathematically</item>
+</list>
+</note>
+<note id="fs-id1167067100230" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067199574">The learning objectives in this section will help your students master the following standards:</para><list id="fs-id1167063581002">
+<item>(6) Science concepts. The student knows that changes occur within a physical system and applies the laws of conservation of energy and momentum. The student is expected to:
+<list id="eip-id1167064982304" list-type="bulleted"><item><span>(C)</span> <span class="oat-standards-description">calculate the mechanical energy of, power generated within, impulse applied to, and momentum of a physical system</span></item>
+<item><span>(D)</span> <span class="oat-standards-description">demonstrate and apply the laws of conservation of energy and conservation of momentum in one dimension</span></item>
+</list></item>
+</list>
+</note>
+<section id="keyterms"><title>Section Key Terms</title>
+<table id="fs-id1167066868238" class="unnumbered unstyled section-key-terms" summary="The list of Key Terms includes: angular momentum, isolated system, and the law of conservation of momentum.">
+<label/>
+<tgroup cols="3">
+<tbody>
+<row>
+<entry>angular momentum</entry>
+<entry>isolated system</entry>
+<entry>law of conservation of momentum</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section><note id="fs-id1167063512324" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067150032">In this section, students will apply what they have learned about momentum, impulse, and force.</para>
+<para id="fs-id1167067211013"><span>[BL]</span><span>[OL]</span> Before students read the section, ask them what they understand by the word <emphasis effect="italics">conservation</emphasis>. Have they come across it in any other law of physics?</para>
+</note>
+
+<section id="fs-id1167067275596">
+<title>Conservation of Momentum</title>
+<para id="fs-id1167066835076">It is important we realize that <term class="no-emphasis">momentum</term> is conserved during collisions, explosions, and other events involving objects in motion. To say that a quantity is conserved means that it is constant throughout the event. In the case of <term class="no-emphasis">conservation</term> of momentum, the total momentum in the system remains the same before and after the collision.</para>
+<para id="fs-id1167066992987">You may have noticed that momentum was <emphasis effect="italics">not</emphasis> conserved in some of the examples previously presented in this chapter. where forces acting on the objects produced large changes in momentum. Why is this? The systems of interest considered in those problems were not inclusive enough. If the systems were expanded to include more objects, then momentum would in fact be conserved in those sample problems. It is always possible to find a larger system where momentum is conserved, even though momentum changes for individual objects within the system.</para><note id="fs-id1167066827108" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066874594"><span>[OL]</span><span>[AL]</span> Caution students that momentum is only conserved when the entire system affected is taken into account. Explain isolated system. Ask students to give examples of isolated systems. Ask them if these are perfectly isolated. Would it be possible to have perfectly isolated systems on Earth?</para>
+</note>
+<para id="fs-id1167067070834">For example, if a football player runs into the goalpost in the end zone, a force will cause him to bounce backward. His momentum is obviously greatly changed, and considering only the football player, we would find that momentum is not conserved. However, the system can be expanded to contain the entire Earth. Surprisingly, Earth also recoils—conserving momentum—because of the force applied to it through the goalpost. The effect on Earth is not noticeable because it is so much more massive than the player, but the effect is real.</para>
+<para id="fs-id1167067043785">Next, consider what happens if the masses of two colliding objects are more similar than the masses of a football player and Earth—in the example shown in <link target-id="Figure_08_02_collision"/> of one car bumping into another. Both cars are coasting in the same direction when the lead car, labeled <emphasis effect="italics">m</emphasis><sub>2</sub>, is bumped by the trailing car, labeled <emphasis effect="italics">m</emphasis><sub>1</sub>. The only unbalanced force on each car is the force of the collision, assuming that the effects due to friction are negligible. Car <emphasis effect="italics">m</emphasis>1 slows down as a result of the collision, losing some momentum, while car <emphasis effect="italics">m</emphasis>2 speeds up and gains some momentum. If we choose the system to include both cars and assume that friction is negligible, then the momentum of the two-car system should remain constant. Now we will prove that the total momentum of the two-car system does in fact remain constant, and is therefore conserved.</para><figure id="Figure_08_02_collision"><media id="fs-id1167066876103" alt="Revise alt text to: An illustration shows before and after diagrams of two cars, one in front of the other. The car in the back is labeled m one and the car in the front is labeled m two. Both diagrams are labeled System of Interest. In the before diagram, a velocity vector points from the car in the back to the car in the front. A second velocity vector of equal magnitude points from the car in the front to the right. Two equations are shown: p one plus p two equals p total and net F equals zero. In the after diagram, the velocity vector pointing from the car in the back is shorter. The velocity vector pointing from the car in the front is longer. They are labeled v one prime and v two prime. The equation p one prime plus p two prime equals p total is shown.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_08_02_collision.jpg"/>
+</media>
+
+<caption>Car of mass <emphasis effect="italics">m</emphasis><sub>1</sub> moving with a velocity of <emphasis>v</emphasis><sub>1</sub> bumps into another car of mass <emphasis effect="italics">m</emphasis><sub>2</sub> and velocity <emphasis>v</emphasis><sub>2</sub>. As a result, the first car slows down to a velocity of <emphasis>v</emphasis>′<sub>1</sub> and the second speeds up to a velocity of <emphasis>v</emphasis>′<sub>2</sub>. The momentum of each car is changed, but the total momentum <emphasis>p</emphasis><sub>tot</sub> of the two cars is the same before and after the collision if you assume friction is negligible.</caption></figure><para id="fs-id1167066790763">Using the impulse-momentum theorem, the change in momentum of car 1 is given by</para>
+<equation id="eip-167" class="unnumbered"><label/>
+ <m:math>
+<m:mrow>
+<m:mtext>Δ</m:mtext><m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle>
+<m:mn>1</m:mn>
+</m:msub>
+<m:mo>=</m:mo><m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+<m:mn>1</m:mn>
+</m:msub>
+<m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+<m:mtext>,</m:mtext>
+</m:mrow>
+</m:math> </equation><para id="fs-id1167067006387">where <emphasis>F</emphasis><sub>1</sub> is the force on car 1 due to car 2, and  <m:math>
+<m:mrow>
+<m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+</m:mrow>
+</m:math>  is the time the force acts, or the duration of the collision.</para>
+<para id="fs-id1167066967155">Similarly, the change in momentum of car 2 is  <m:math>
+<m:mrow>
+<m:mtext>Δ</m:mtext><m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mo>=</m:mo><m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+</m:mrow>
+</m:math>  where <emphasis>F</emphasis><sub>2</sub> is the force on car 2 due to car 1, and we assume the duration of the collision  <m:math>
+<m:mrow>
+<m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+</m:mrow>
+</m:math>  is the same for both cars. We know from Newton’s third law of motion that <emphasis>F</emphasis><sub>2</sub> = –<emphasis>F</emphasis><sub>1</sub>, and so  <m:math>
+<m:mrow>
+<m:mtext>Δ</m:mtext><m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mo>=</m:mo><m:mo>−</m:mo><m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+<m:mn>1</m:mn>
+</m:msub>
+<m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mtext>Δ</m:mtext><m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle>
+<m:mn>1</m:mn>
+</m:msub>
+
+</m:mrow>
+</m:math> .</para>
+<para id="fs-id1167066854057">Therefore, the changes in momentum are equal and opposite, and  <m:math>
+<m:mrow>
+<m:mtext>Δ</m:mtext><m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle>
+<m:mn>1</m:mn>
+</m:msub>
+<m:mo>+</m:mo><m:mtext>Δ</m:mtext><m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mo>=</m:mo><m:mn>0</m:mn>
+</m:mrow>
+</m:math> .</para>
+<para id="fs-id1167067110948">Because the changes in momentum add to zero, the total momentum of the two-car system is constant. That is,</para>
+
+<equation id="fs-id1167066874701" class="unnumbered"><label/>
+ <m:math>
+<m:mrow>
+<m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>p</m:mtext></m:mstyle>
+<m:mn>1</m:mn>
+</m:msub>
+<m:mo>+</m:mo><m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>p</m:mtext></m:mstyle>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mo>=</m:mo><m:mtext>constant</m:mtext>
+</m:mrow>
+</m:math> 
+</equation>
+
+<equation id="fs-id1167067066930" class="unnumbered"><label/>
+ <m:math>
+<m:mrow>
+<m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle>
+<m:mn>1</m:mn>
+</m:msub>
+<m:mo>+</m:mo><m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mo>=</m:mo><m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:msup>
+<m:mi>p</m:mi>
+<m:mo>′</m:mo>
+</m:msup>
+</m:mstyle>
+<m:mn>1</m:mn>
+</m:msub>
+<m:mo>+</m:mo><m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:msup>
+<m:mi>p</m:mi>
+<m:mo>′</m:mo>
+</m:msup>
+</m:mstyle>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mtext>,</m:mtext>
+</m:mrow>
+</m:math> 
+</equation>
+
+<para id="fs-id1167067258822">where <emphasis>p</emphasis>′<sub>1</sub> and <emphasis>p</emphasis>′<sub>2</sub> are the momenta of cars 1 and 2 after the collision.</para>
+<para id="fs-id1167066867155">This result that momentum is conserved is true not only for this example involving the two cars, but for any system where the net external force is zero, which is known as an <term>isolated system</term>. The <term>law of conservation of momentum</term> states that for an isolated system with any number of objects in it, the total momentum is conserved. In equation form, the law of conservation of momentum for an isolated system is written as </para>
+
+<equation id="fs-id1167067038344" class="unnumbered"><label/>
+ <m:math>
+<m:mrow>
+<m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>p</m:mtext></m:mstyle>
+<m:mrow>
+<m:mtext>tot</m:mtext>
+</m:mrow>
+</m:msub>
+<m:mo>=</m:mo><m:mtext>constant</m:mtext>
+</m:mrow>
+</m:math> 
+</equation>
+
+<para id="fs-id1167067033887">or</para>
+
+<equation id="fs-id1167066971379" class="unnumbered"><label/>
+ <m:math>
+<m:mrow>
+<m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle>
+<m:mrow>
+<m:mtext>tot</m:mtext>
+</m:mrow>
+</m:msub>
+<m:mo>=</m:mo><m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:msup>
+<m:mi>p</m:mi>
+<m:mo>′</m:mo>
+</m:msup>
+</m:mstyle>
+<m:mrow>
+<m:mtext>tot</m:mtext>
+</m:mrow>
+</m:msub>
+<m:mtext>,</m:mtext>
+</m:mrow>
+</m:math> 
+</equation>
+
+<para id="fs-id1167066825231">where <emphasis>p</emphasis><sub>tot</sub> is the total momentum, or the sum of the momenta of the individual objects in the system at a given time, and <emphasis>p</emphasis>′<sub>tot</sub> is the total momentum some time later.</para>
+<para id="fs-id1167065794271">The conservation of momentum principle can be applied to systems as diverse as a comet striking the Earth or a gas containing huge numbers of atoms and molecules. Conservation of momentum appears to be violated only when the net external force is not zero. But another larger system can always be considered in which momentum is conserved by simply including the source of the external force. For example, in the collision of two cars considered above, the two-car system conserves momentum while each one-car system does not.</para>
+
+<note id="fs-id1167066879349" class="tips-for-success">
+
+<para id="fs-id1167066983333">Momenta is the plural form of the word momentum. One object is said to have momentum, but two or more objects are said to have <emphasis effect="italics">momenta</emphasis>.</para>
+</note>
+
+<note id="fs-id1167067174684" class="fun-in-physics"><title>Angular Momentum in Figure Skating</title>
+
+<para id="fs-id1167066846752">So far we have covered linear momentum, which describes the inertia of objects traveling in a straight line. But we know that many objects in nature have a curved or circular path. Just as linear motion has linear momentum to describe its tendency to move forward, circular motion has the equivalent <term>angular momentum</term> to describe how rotational motion is carried forward.</para>
+<para id="fs-id1167067196857">This is similar to how <term class="no-emphasis">torque</term> is analogous to force, <term class="no-emphasis">angular acceleration</term> is analogous to <term class="no-emphasis">translational acceleration</term>, and <emphasis effect="italics">mr</emphasis><sup>2</sup> is analogous to mass or inertia. You may recall learning that the quantity <emphasis effect="italics">mr</emphasis><sup>2</sup> is called the <term class="no-emphasis">rotational inertia</term> or <term class="no-emphasis">moment of inertia</term> of a point mass <emphasis effect="italics">m </emphasis>at a distance <emphasis effect="italics">r </emphasis>from the center of rotation.</para>
+<para id="fs-id1167067068577">We already know the equation for linear momentum, <emphasis>p</emphasis> = <emphasis effect="italics">m</emphasis><emphasis>v</emphasis>. Since angular momentum is analogous to linear momentum, the moment of inertia (<emphasis effect="italics">I</emphasis>) is analogous to mass, and angular velocity  <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo stretchy="false">(</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>ω</m:mtext></m:mstyle><m:mo stretchy="false">)</m:mo>
+  </m:mrow>
+ </m:semantics>
+</m:math>  is analogous to linear velocity, it makes sense that angular momentum (<emphasis>L</emphasis>) is defined as </para>
+
+<equation id="fs-id1167067058676" class="unnumbered"><label/>
+ <m:math>
+<m:mrow>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mi>L</m:mi></m:mstyle><m:mo>=</m:mo><m:mi>I</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>ω</m:mtext></m:mstyle>
+</m:mrow>
+</m:math> 
+</equation>
+<para id="fs-id1167066850764">Angular momentum is conserved when the net external torque ( <m:math>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mi>τ</m:mi></m:mstyle>
+</m:math> ) is zero, just as linear momentum is conserved when the net external force is zero.</para>
+
+<para id="fs-id1167066972632">Figure skaters take advantage of the conservation of angular momentum, likely without even realizing it. In <link target-id="Figure_08_02_iceskater"/>, a figure skater is executing a spin. The net torque on her is very close to zero, because there is relatively little friction between her skates and the ice, and because the friction is exerted very close to the pivot point. Both <emphasis>F</emphasis> and <emphasis effect="italics">r </emphasis>are small, and so  <m:math>
+<m:mrow>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mi>τ</m:mi></m:mstyle>
+</m:mrow>
+</m:math>  is negligibly small.</para>
+<figure id="Figure_08_02_iceskater">
+<media id="fs-id1167067072515" alt="An illustration shows an ice skater in two positions. She is spinning on the tip of her skate with her arms extended in the first position. In the second position, her arms are pulled in as she is spinning. In the first position, an arrow labeled w shows the direction of her spin and the equation L equals I times w is shown. In the second position, an arrow labeled w prime shows the direction of her spin and the equation L equals I prime times w prime is shown.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_08_02_iceskater.jpg"/>
+</media>
+<caption>(a) An ice skater is spinning on the tip of her skate with her arms extended. In the next image, (b), her rate of spin increases greatly when she pulls in her arms.</caption>
+</figure>
+<para id="fs-id1167067154289">Consequently, she can spin for quite some time. She can do something else, too. She can increase her rate of spin by pulling her arms and legs in. Why does pulling her arms and legs in increase her rate of spin? The answer is that her angular momentum is constant, so that <emphasis>L</emphasis> = <emphasis>L</emphasis>′.</para>
+<para id="fs-id1167067077748">Expressing this equation in terms of the moment of inertia,</para>
+
+<equation id="fs-id1167067044452" class="unnumbered"><label/>
+ <m:math>
+<m:mrow>
+  <m:mi>I</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>ω</m:mi></m:mstyle><m:mo>=</m:mo><m:msup>
+    <m:mi>I</m:mi>
+    <m:mo>′</m:mo>
+  </m:msup>
+  <m:mstyle mathvariant="bold" mathsize="normal"><m:msup>
+    <m:mi>ω</m:mi>
+    <m:mo>′</m:mo>
+  </m:msup>
+  </m:mstyle>
+<m:mtext>,</m:mtext>
+</m:mrow>
+</m:math> 
+</equation>
+
+<para id="fs-id1167067077424">where the primed quantities refer to conditions after she has pulled in her arms and reduced her moment of inertia. Because <emphasis effect="italics">I</emphasis>′ is smaller, the angular velocity  <m:math>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:msup>
+<m:mi>ω</m:mi>
+<m:mo>′</m:mo>
+</m:msup>
+</m:mstyle>
+</m:math>  must increase to keep the angular momentum constant. This allows her to spin much faster without exerting any extra torque.</para><para id="fs-id1167066784672">A <link url="http://openstax.org/l/28figureskater">video</link> is also available that shows a real figure skater executing a spin. It discusses the physics of spins in figure skating.</para>
+
+<note id="fs-id1167067099079" class="os-teacher">
+<title>Teacher Support</title>
+<note id="fs-id1167067068730" class="os-teacher-demonstration">
+
+<para id="fs-id1167066975967">You can demonstrate a similar exercise in class using a revolving stool or chair. Ask a student to sit on the stool with outstretched arms, holding some weight in each hand. Rotate the stool and once a good speed is achieved, ask him to bring his hands in close to his body. He will start spinning faster.</para>
+</note></note>
+
+<exercise id="fs-id1167067031784" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167066858988">
+<!--<para id="fs-id1167067183958">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex029"/>
+</para>-->
+<para id="fs-id1164566702848">Based on the equation <emphasis>L</emphasis> = <emphasis effect="italics">Iω</emphasis>, how would you expect the moment of inertia of an object to affect angular momentum? How would angular velocity affect angular momentum?</para><list id="fs-id1164564899416" list-type="enumerated" number-style="lower-alpha">
+<item>Large moment of inertia implies large angular momentum, and large angular velocity implies large angular momentum.</item>
+<item>Large moment of inertia implies small angular momentum, and large angular velocity implies small angular momentum.</item>
+<item>Large moment of inertia implies large angular momentum, and large angular velocity implies small angular momentum.</item>
+<item>Large moment of inertia implies small angular momentum, and large angular velocity implies large angular momentum.</item>
+</list>
+</problem>
+</exercise>
+</note></section>
+
+<section id="fs-id1167066861899" class="check-understanding"><title>Check Your Understanding</title><exercise id="fs-id1167066845423" class="os-exercise">
+        <problem id="fs-id1167067190493">
+          <!--<para id="fs-id1167066869745">
+            <link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex030"/>
+          </para>-->
+<para id="fs-id1164564881790">When is momentum said to be conserved?</para>
+<list id="fs-id1164564950490" list-type="enumerated" number-style="lower-alpha">
+<item>When momentum is changing during an event</item>
+<item>When momentum is increasing during an event</item>
+<item>When momentum is decreasing during an event</item>
+<item>When momentum is constant throughout an event</item>
+</list>
+        </problem>
+      </exercise>
+      <exercise id="fs-id1167063525323" class="os-exercise">
+        <problem id="fs-id1167067066052">
+          <para id="fs-id1167066848171">
+            <link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex031"/>
+          </para>
+        </problem>
+      </exercise>
+<exercise id="eip-id1166849941538" class="os-exercise">
+<problem id="eip-id1166849475174">
+<para id="eip-id1166847288474">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch08-ot025"/>
+</para>
+</problem>
+</exercise>
+      <note id="fs-id1167066877578" class="os-teacher">
+        <title>Teacher Support</title>
+        <para id="fs-id1167067083310">Use the Check Your Understanding questions to assess whether students master the learning objectives of this section. If students are struggling with a specific objective, the assessment will help identify which objective is causing the problem and direct students to the relevant content.</para></note>
+    </section><section id="fs-id1167066770062" class="summary">
+<title>Section Summary</title>
+<list id="fs-id1167066974425"><item>The law of conservation of momentum is written <emphasis>p</emphasis><sub>tot</sub> = constant or <emphasis>p</emphasis><sub>tot</sub> = <emphasis>p</emphasis>′<sub>tot</sub> (isolated system), where <emphasis>p</emphasis><sub>tot</sub> is the initial total momentum and <emphasis>p</emphasis>′<sub>tot</sub> is the total momentum some time later.</item>
+<item>In an isolated system, the net external force is zero.</item>
+<item>Conservation of momentum applies only when the net external force is zero, within the defined system.</item>
+</list></section>
+
+<section id="fs-id1167066885693" class="key-equations"><title>Key Equations</title><table id="fs-id1167066869547" class="unnumbered unstyled" summary="The list of Key Equations includes the formulas for the law of conservation of momentum, the conservation of momentum for two objects, and angular momentum.">
+<label/>
+<tgroup cols="2"><colspec colnum="1" align="left" colname="c1"/>
+<colspec colnum="2" align="left" colname="c2"/>
+<tbody>
+<row>
+<entry>law of conservation of momentum</entry>
+<entry><emphasis>p</emphasis><sub>tot</sub> = constant, or <emphasis>p</emphasis><sub>tot</sub> = <emphasis>p</emphasis>′<sub>tot</sub></entry>
+</row>
+<row>
+<entry>conservation of momentum for two objects</entry>
+<entry><emphasis> p</emphasis><sub>1</sub> + <emphasis>p</emphasis><sub>2</sub> = constant, or <emphasis>p</emphasis><sub>1</sub> + <emphasis>p</emphasis><sub>2</sub> = <emphasis>p</emphasis>′<sub>1</sub> + <emphasis>p</emphasis>′<sub>2</sub></entry>
+</row>
+<row>
+<entry>angular momentum</entry>
+<entry><emphasis>L</emphasis> = <emphasis effect="italics">I </emphasis> <m:math>
+<m:mrow>
+  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>ω</m:mi></m:mstyle>
+</m:mrow>
+</m:math> </entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table></section><section id="fs-id1167067143086" class="concept"><title>Concept Items</title><exercise id="fs-id1167066767793" class="os-exercise">
+<problem id="fs-id1167066864532">
+<!--<para id="fs-id1167066809124">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex032"/>
+</para>-->
+<para id="fs-id1164566493658">What is angular momentum?</para>
+<list id="fs-id1164564855624" list-type="enumerated" number-style="lower-alpha">
+<item>The sum of moment of inertia and angular velocity</item>
+<item>The ratio of moment of inertia to angular velocity</item>
+<item>The product of moment of inertia and angular velocity</item>
+<item>Half the product of moment of inertia and square of angular velocity</item>
+</list>
+
+</problem>
+</exercise>
+<exercise id="eip-id1166848739767" class="os-exercise">
+<problem id="eip-id1166848798924">
+<!--<para id="eip-id1166848873608">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch08-ot027"/>
+</para>-->
+<para id="fs-id1164565143370">What is an isolated system?</para>
+<list id="fs-id1164563482037" list-type="enumerated" number-style="lower-alpha">
+<item>A system in which the net internal force is zero</item>
+<item>A system in which the net external force is zero</item>
+<item>A system in which the net internal force is a nonzero constant</item>
+<item>A system in which the net external force is a nonzero constant</item>
+</list>
+</problem>
+</exercise></section><section id="fs-id1167066867329" class="critical-thinking"><title>Critical Thinking</title>
+<exercise id="fs-id1167067014403" class="os-exercise"><problem id="fs-id1167067086736"><!--<para id="fs-id1167066863209"><link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex033"/></para>-->
+
+<para id="fs-id1164562111627">A billiards ball rolling on the table has momentum <emphasis>p</emphasis><sub>1</sub>. It hits another stationary ball, which then starts rolling. Considering friction to be negligible, what will happen to the momentum of the first ball?</para>
+<list id="fs-id1164559075538" list-type="enumerated" number-style="lower-alpha">
+<item>It will decrease.</item>
+<item>It will increase.</item>
+<item>It will become zero.</item>
+<item>It will remain the same.</item>
+</list>
+</problem></exercise>
+<exercise id="eip-id1166847943577" class="os-exercise">
+<problem id="eip-id1166849330982">
+<!--<para id="eip-id1166850241089">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch08-ot031"/>
+</para>-->
+<para id="fs-id1164565226116">A ball rolling on the floor with momentum <emphasis>p</emphasis><sub>1</sub> collides with a stationary ball and sets it in motion. The momentum of the first ball becomes <emphasis>p</emphasis>'<sub>1</sub>, and that of the second becomes <emphasis>p</emphasis>'<sub>2</sub>. Compare the magnitudes of <emphasis>p</emphasis><sub>1</sub> and <emphasis>p</emphasis>'<sub>2</sub>.</para>
+<list id="fs-id1164566486622" list-type="enumerated" number-style="lower-alpha">
+<item>Momenta <emphasis>p</emphasis><sub>1</sub> and <emphasis>p</emphasis>'<sub>2</sub> are the same in magnitude.</item>
+<item>The sum of the magnitudes of <emphasis>p</emphasis><sub>1</sub> and <emphasis>p</emphasis>'<sub>2</sub> is zero.</item>
+<item>The magnitude of <emphasis>p</emphasis><sub>1</sub> is greater than that of <emphasis>p</emphasis>'<sub>2</sub>.</item>
+<item>The magnitude of <emphasis>p</emphasis>'<sub>2</sub> is greater than that of <emphasis>p</emphasis><sub>1</sub>.</item>
+</list>
+
+</problem>
+</exercise>
+<exercise id="eip-id1166849878111" class="os-exercise">
+<problem id="eip-id1166847272790">
+<!--<para id="eip-id1166850008351">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch08-ot032"/>
+</para>-->
+<para id="fs-id1164564997134">Two cars are moving in the same direction. One car with momentum <emphasis>p</emphasis><sub>1</sub> collides with another, which has momentum <emphasis>p</emphasis><sub>2</sub>. Their momenta become <emphasis>p</emphasis>'<sub>1</sub> and <emphasis>p</emphasis>'<sub>2</sub> respectively. Considering frictional losses, compare (<emphasis>p</emphasis>'<sub>1</sub> + <emphasis>p</emphasis>'<sub>2</sub> ) with (<emphasis>p</emphasis><sub>1</sub> + <emphasis>p</emphasis><sub>2</sub>).</para>
+<list id="fs-id1164560830860" list-type="enumerated" number-style="lower-alpha">
+<item>The value of (<emphasis>p</emphasis>'<sub>1</sub> + <emphasis>p</emphasis>'<sub>2</sub> ) is zero.</item>
+<item>The values of (<emphasis>p</emphasis><sub>1</sub> + <emphasis>p</emphasis><sub>2</sub>) and (<emphasis>p</emphasis>'<sub>1</sub> + <emphasis>p</emphasis>'<sub>2</sub> ) are equal.</item>
+<item>The value of (<emphasis>p</emphasis><sub>1</sub> + <emphasis>p</emphasis><sub>2</sub>) will be greater than (<emphasis>p</emphasis>'<sub>1</sub> + <emphasis>p</emphasis>'<sub>2</sub> ).</item>
+<item>The value of (<emphasis>p</emphasis>'<sub>1</sub> + <emphasis>p</emphasis>'<sub>2</sub> ) will be greater than (<emphasis>p</emphasis><sub>1</sub> + <emphasis>p</emphasis><sub>2</sub>).</item>
+</list>
+</problem>
+</exercise></section><section id="fs-id1167063444949" class="multiple-choice"><title>Test Prep Multiple Choice</title>
+<exercise id="fs-id1167067049596" class="os-exercise"><problem id="fs-id1167066800757"><!--<para id="fs-id1167067030897"><link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex034"/></para>-->
+
+<para id="fs-id1164561132803">In the equation <emphasis>L</emphasis> = <emphasis effect="italics">I</emphasis><emphasis>ω</emphasis>, what is <emphasis effect="italics">I</emphasis>?</para>
+<list id="fs-id1164562404324" list-type="enumerated" number-style="lower-alpha">
+<item>Linear momentum</item>
+<item>Angular momentum</item>
+<item>Torque</item>
+<item>Moment of inertia</item>
+</list>
+</problem></exercise>
+
+<exercise id="eip-id1166850265480" class="os-exercise">
+<problem id="eip-id1166849883206">
+<!--<para id="eip-id1166849300824">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch08-ot028"/>
+</para>-->
+<para id="fs-id1164564903534">Give an example of an isolated system.</para>
+<list id="fs-id1164564968539" list-type="enumerated" number-style="lower-alpha">
+<item>A cyclist moving along a rough road</item>
+<item>A figure skater gliding in a straight line on an ice rink</item>
+<item>A baseball player hitting a home run</item>
+<item>A man drawing water from a well</item>
+</list>
+</problem>
+</exercise>
+</section><section id="fs-id1167066809024" class="short-answer"><title>Test Prep Short Answer</title>
+
+<exercise id="fs-id1167067070754" class="os-exercise"><problem id="fs-id1167066880913"><!--<para id="fs-id1167067153323"><link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex035"/></para>-->
+<para id="fs-id1164566893934">Under what condition(s) is the angular momentum of a system conserved?</para>
+<list id="fs-id1164564856357" list-type="enumerated" number-style="lower-alpha">
+<item>When net torque is zero</item>
+<item>When net torque is not zero</item>
+<item>When moment of inertia is constant</item>
+<item>When both moment of inertia and angular momentum are constant</item>
+</list>
+</problem></exercise>
+
+<exercise id="fs-id1167067078052" class="os-exercise"><problem id="fs-id1167066826308"><para id="fs-id1167066840514"><link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex036"/></para></problem></exercise>
+
+<exercise id="eip-id1166850215823" class="os-exercise">
+<problem id="eip-id1166849937762">
+<para id="eip-id1166849413196">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch08-ot030"/>
+</para>
+</problem>
+</exercise>
+</section><section id="fs-id1167067026616" class="extended-response">
+<title>Test Prep Extended Response</title>
+<exercise id="fs-id1167067132955" class="os-exercise"><problem id="fs-id1167067031224"><!--<para id="fs-id1167066992435"><link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex037"/></para>-->
+
+<para id="fs-id1164562442064">Why does a figure skater spin faster if he pulls his arms and legs in?</para>
+<list id="fs-id1164561205436" list-type="enumerated" number-style="lower-alpha">
+<item>Due to an increase in moment of inertia</item>
+<item>Due to an increase in angular momentum</item>
+<item>Due to conservation of linear momentum</item>
+<item>Due to conservation of angular momentum</item>
+</list>
+</problem></exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1167067036232"><term>angular momentum</term> <meaning id="fs-id1167066863076">the product of the moment of inertia and angular velocity</meaning></definition>
+<definition id="fs-id1167066851277"><term>isolated system</term> <meaning id="fs-id1167066852861">system in which the net external force is zero</meaning></definition>
+<definition id="fs-id1167066864800"><term>law of conservation of momentum</term> <meaning id="fs-id1167066835423">when the net external force is zero, the total momentum of the system is conserved or constant</meaning></definition>
+
+</glossary>
+</document>

@@ -1,0 +1,263 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+
+<title>Zeroth Law of Thermodynamics: Thermal Equilibrium</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54302</md:content-id>
+  <md:title>Zeroth Law of Thermodynamics: Thermal Equilibrium</md:title>
+  <md:abstract/>
+  <md:uuid>cae3efc8-440a-4f61-a12e-aa4c7c9cc20a</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167067144193" class="learning-objectives">
+<label/>
+<title>Section Learning Objectives</title>
+<para id="fs-id1167066852203">By the end of this section, you will be able to do the following:</para>
+<list id="fs-id1167063491403">
+<item>Explain the zeroth law of thermodynamics</item>
+</list>
+</note>
+
+<note id="fs-id1167061306226" class="os-teacher"><title>Teacher Support</title>
+<para id="fs-id1167067142068">The learning objectives in this section will help your students master the following standards:</para>
+<list id="fs-id1167066770431"><item>(6) Science concepts. The student knows that changes occur within a physical system and applies the laws of conservation of energy and momentum. The student is expected to:
+<list id="fs-id1167063470288"><item>
+<span>(G)</span>
+<span>analyze and explain everyday examples that illustrate the laws of thermodynamics, including the law of conservation of energy and the law of entropy.</span></item>
+</list></item>
+</list></note>
+<section id="keyterms"><title>Section Key Terms</title>
+<table id="fs-id1167066844704" class="unnumbered unstyled section-key-terms" summary="..">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" align="left" colname="c1"/>
+<colspec colnum="2" align="left" colname="c2"/>
+<tbody>
+<row>
+<entry>thermal equilibrium</entry>
+<entry>zeroth law of thermodynamics</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+
+<note id="fs-id1167063730283" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067199375"><span>[BL]</span><span>[OL]</span> Review the concept of heat as the transfer of energy due to a temperature difference.</para>
+<para id="fs-id1167066984053"><span>[OL]</span> Ask students what the direction of heat flow would be if an ice cube were melting in a glass of soda or if a glass of hot water were placed in a room. Give a few more examples. Ask students how long the heat transfer would take place. What causes the heat transfer to occur?</para>
+</note>
+<para id="fs-id1167063730445">We learned in the previous chapter that when two objects (or <emphasis effect="italics">systems</emphasis>) are in contact with one another, heat will transfer thermal energy from the object at higher temperature to the one at lower temperature until they both reach the same temperature. The objects are then in <term>thermal equilibrium</term>, and no further temperature changes will occur if they are isolated from other systems. The systems interact and change because their temperatures are different, and the changes stop once their temperatures are the same. Thermal equilibrium is established when two bodies are in <emphasis effect="italics">thermal contact</emphasis> with each other—meaning heat transfer (i.e., the transfer of energy by heat) can occur between them. If two systems cannot freely exchange energy, they will not reach thermal equilibrium. (It is fortunate that empty space stands between Earth and the sun, because a state of thermal equilibrium with the sun would be too toasty for life on this planet!)</para>
+<para id="fs-id1167066866191">If two systems, A and B, are in thermal equilibrium with each another, and B is in thermal equilibrium with a third system, C, then A is also in thermal equilibrium with C. This statement may seem obvious, because all three have the same temperature, but it is basic to thermodynamics. It is called the <term>zeroth law of thermodynamics</term>.</para>
+
+<note id="fs-id1167067050691" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167063961418"><span>[AL]</span> Ask students how we receive the energy of the sun, and yet the sun and Earth never reach thermal equilibrium.</para>
+</note>
+
+<note id="fs-id1167067139572" class="tips-for-success">
+<para id="fs-id1167063668076">The zeroth law of thermodynamics is very similar to the transitive property of equality in mathematics: If a = b and b = c, then a = c.</para>
+</note><para id="fs-id1167063567753">You may be wondering at this point, why the wacky name? Shouldn’t this be called the <emphasis effect="italics">first</emphasis> law of thermodynamics rather than the <emphasis effect="italics">zeroth</emphasis>? The explanation is that this law was discovered after the first and second laws of thermodynamics but is so fundamental that scientists decided it should logically come first.</para>
+<para id="fs-id1167067038610">As an example of the zeroth law in action, consider newborn babies in neonatal intensive-care units in hospitals. Prematurely born or sick newborns are placed in special incubators. These babies have very little covering while in the incubators, so to an observer, they look as though they may not be warm enough. However, inside the incubator, the temperature of the air, the cot, and the baby are all the same—that is, they are in thermal equilibrium. The ambient temperature is just high enough to keep the baby safe and comfortable.</para>
+
+<note id="fs-id1167061433244" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167061216248"><span>[OL]</span><span>[AL]</span> Ask students to come up with more everyday examples of heat transfer that demonstrate the zeroth law of thermodynamics.</para>
+</note>
+
+<note id="fs-id1167067139507" class="work-in-physics"><title>Thermodynamics Engineer</title>
+
+<para id="fs-id1167061325870">Thermodynamics engineers apply the principles of thermodynamics to mechanical systems so as to create or test products that rely on the interactions between heat, work, pressure, temperature, and volume. This type of work typically takes place in the aerospace industry, chemical manufacturing companies, industrial manufacturing plants, power plants (<link target-id="Figure_12_01_engineer"/>), engine manufacturers, or electronics companies.</para>
+
+<figure id="Figure_12_01_engineer"><media id="fs-id1167066944808" alt="A woman wearing a hardhat walks between steaming pipes.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_12_01_engineer.jpg"/>
+</media>
+<caption>An engineer makes a site visit to the Baghdad South power plant.</caption>
+</figure>
+
+<para id="fs-id1167063706068">The need for energy creates quite a bit of demand for thermodynamics engineers, because both traditional energy companies and alternative (<emphasis effect="italics">green</emphasis>) energy startups rely on interactions between heat and work and so require the expertise of thermodynamics engineers. Traditional energy companies use mainly nuclear energy and energy from burning fossil fuels, such as coal. Alternative energy is finding new ways to harness renewable and, often, more readily available energy sources, such as solar, water, wind, and bio-energy.</para>
+<para id="fs-id1167063448828">A thermodynamics engineer in the energy industry can find the most efficient way to turn the burning of a biofuel or fossil fuel into energy, store that energy for times when it’s needed most, or figure out how to best deliver that energy from where it’s produced to where it’s used: in homes, factories, and businesses. Additionally, he or she might also design pollution-control equipment to remove harmful pollutants from the smoke produced as a by-product of burning fuel. For example, a thermodynamics engineer may develop a way to remove mercury from burning coal in a coal-fired power plant.</para>
+<para id="fs-id1167067150067">Thermodynamics engineering is an expanding field, where employment opportunities are expected to grow by as much as 27 percent between 2012 and 2022, according to the U.S. Bureau of Labor Statistics. To become a thermodynamics engineer, you must have a college degree in chemical engineering, mechanical engineering, environmental engineering, aerospace engineering, civil engineering, or biological engineering (depending on which type of career you wish to pursue), with coursework in physics and physical chemistry that focuses on thermodynamics.</para>
+
+<exercise id="fs-id1167063687472" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167067110375">
+<!--<para id="fs-id1167067041645"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex001"/></para>-->
+<para id="fs-id1164567282930">What would be an example of something a thermodynamics engineer would do in the aeronautics industry?</para>
+<list id="fs-id1164567064115" list-type="enumerated" number-style="lower-alpha">
+<item>Test the fuel efficiency of a jet engine</item>
+<item>Test the functioning of landing gear</item>
+<item>Test the functioning of a lift control device</item>
+<item>Test the autopilot functions</item>
+</list>
+</problem>
+</exercise>
+</note><section id="fs-id1167066773548" class="check-understanding">
+<title>Check Your Understanding</title>
+<note id="fs-id1167067149813" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167061699571">Use these questions to assess student achievement of the section’s Learning Objectives. If students are struggling with a specific objective, these questions will help identify which and direct students to the relevant content.</para>
+</note>
+<exercise id="fs-id1167063484097" class="os-exercise">
+<problem id="fs-id1167067142420">
+<para id="fs-id1167067145976"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex002"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167066766808" class="os-exercise">
+<problem id="fs-id1167067039854">
+<!--<para id="fs-id1167067217086"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex003"/></para>-->
+<para id="fs-id1164564284279">What is the zeroth law of thermodynamics?</para>
+<list id="fs-id1164565858862" list-type="enumerated" number-style="lower-alpha">
+<item>Energy can neither be created nor destroyed in a chemical reaction.</item>
+<item>If two systems, A and B, are in thermal equilibrium with each another, and B is in thermal equilibrium with a third system, C, then A is also in thermal equilibrium with C.</item>
+<item>Entropy of any isolated system not in thermal equilibrium always increases.</item>
+<item>Entropy of a system approaches a constant value as temperature approaches absolute zero.</item>
+</list>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167067217364" class="summary">
+<title>Section Summary</title>
+<list id="fs-id1167067272112">
+<item>Systems are in thermal equilibrium when they have the same temperature.</item>
+<item>Thermal equilibrium occurs when two bodies are in contact with each other and can freely exchange energy.</item>
+<item>The zeroth law of thermodynamics states that when two systems, A and B, are in thermal equilibrium with each other, and B is in thermal equilibrium with a third system, C, then A is also in thermal equilibrium with C.</item>
+</list>
+</section>
+
+
+
+<section id="fs-id1167063429291" class="concept"><title>Concept Items</title>
+<exercise id="fs-id1167063596454" class="os-exercise">
+<problem id="fs-id1167063576692">
+<!--<para id="fs-id1167066809968"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex004"/></para>-->
+
+<para id="fs-id1164565770989">When are two bodies in thermal equilibrium?</para>
+<list id="fs-id1164567294421" list-type="enumerated" number-style="lower-alpha">
+<item>When they are in thermal contact and are at different pressures</item>
+<item>When they are not in thermal contact but are at the same pressure</item>
+<item>When they are not in thermal contact but are at different temperatures</item>
+<item>When they are in thermal contact and are at the same temperature</item>
+</list>
+</problem>
+</exercise>
+
+<exercise id="eip-id1166847269008" class="os-exercise">
+<problem id="eip-id1166849325347">
+<!--<para id="eip-id1166849453313">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch12-ot001"/>
+</para>-->
+<para id="fs-id1164566052305">What is thermal contact?</para>
+<list id="fs-id1164567372342" list-type="enumerated" number-style="lower-alpha">
+<item>Two objects are said to be in thermal contact when they are in contact with each other in such a way that the transfer of energy by heat can occur between them.</item>
+<item>Two objects are said to be in thermal contact when they are in contact with each other in such a way that the transfer of energy by mass can occur between them.</item>
+<item>Two objects are said to be in thermal contact when they neither lose nor gain energy by heat. There is no transfer of energy between them.</item>
+<item>Two objects are said to be in thermal contact when they only gain energy by heat. There is transfer of energy between them.</item>
+</list>
+</problem>
+</exercise>
+
+<exercise id="eip-id1166850143864" class="os-exercise">
+<problem id="eip-id1166849766563">
+<!--<para id="eip-id1166849958148">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch12-ot002"/>
+</para>-->
+<para id="fs-id1164566360739">To which mathematical property is the zeroth law of thermodynamics similar?</para>
+<list id="fs-id1164565914618" list-type="enumerated" number-style="lower-alpha">
+<item>Associative property</item>
+<item>Commutative property</item>
+<item>Distributive property</item>
+<item>Transitive property</item>
+</list>
+</problem>
+</exercise></section><section id="fs-id1167061381753" class="critical-thinking"><title>Critical Thinking</title>
+<exercise id="fs-id1167067218019" class="os-exercise"><problem id="fs-id1167063901471">
+
+<para id="eip-idm375089376">What are the necessary conditions for energy transfer by heat to occur between two bodies through the process of conduction?</para><list id="eip-idm361100352" list-type="enumerated" number-style="lower-alpha">
+<item>They should be at the same temperature, and they should be in thermal contact.</item>
+<item>They should be at the same temperature, and they should not be in thermal contact.</item>
+<item>They should be at different temperatures, and they should be in thermal contact.</item>
+<item>They should be at different temperatures, and they should not be in thermal contact.</item>
+</list>
+</problem>
+</exercise><exercise id="eip-id1166849882852" class="os-exercise">
+<problem id="eip-id1166849840903">
+<!--<para id="eip-id1166849835000">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch12-ot007"/>
+</para>-->
+
+<para id="fs-id1164567341540">Oil is heated in a pan on a hot plate. The pan is in thermal equilibrium with the hot plate and also with the oil. The temperature of the hot plate is 150 °C . What is the temperature of the oil?</para>
+<list id="fs-id1164566183203" list-type="enumerated" number-style="lower-alpha">
+<item>160 °C</item>
+<item>150 °C</item>
+<item>140 °C</item>
+<item>130 °C</item>
+</list>
+</problem>
+</exercise></section><section id="fs-id1167067144742" class="multiple-choice"><title>Test Prep Multiple Choice</title><exercise id="fs-id1167067205973" class="os-exercise">
+<problem id="fs-id1167067011344">
+<para id="fs-id1167067135389"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex006"/></para>
+</problem>
+</exercise>
+
+<exercise id="eip-id1166847361075" class="os-exercise">
+<problem id="eip-id1166849694948">
+<!--<para id="eip-id1166849408814">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch12-ot003"/>
+</para>-->
+<para id="fs-id1164567055177">Name any two industries in which the principles of thermodynamics are used.</para>
+<list id="fs-id1164567480446" list-type="enumerated" number-style="lower-alpha">
+<item>aerospace and information technology (IT) industries</item>
+<item>industrial manufacturing and aerospace</item>
+<item>mining and textile industries</item>
+<item>mining and agriculture industries</item>
+</list>
+</problem>
+</exercise></section><section id="fs-id1167067283907" class="short-answer">
+<title>Test Prep Short Answer</title>
+<exercise id="fs-id1167067231417" class="os-exercise">
+<problem id="fs-id1167066834806">
+<!--<para id="fs-id1167063530201"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex007"/></para>-->
+
+<para id="fs-id1164567979161">What does <emphasis effect="italics">green</emphasis> energy development entail?</para>
+<list id="fs-id1164566224859" list-type="enumerated" number-style="lower-alpha"><item>Green energy involves finding new ways to harness clean and renewable alternative energy sources.</item>
+<item>Green energy involves finding new ways to conserve alternative energy sources.</item>
+<item>Green energy involves decreasing the efficiency of nonrenewable energy resources.</item>
+<item>Green energy involves finding new ways to harness nonrenewable energy resources.</item>
+</list></problem>
+</exercise>
+<exercise id="fs-id1167063710476" class="os-exercise">
+<problem id="fs-id1167067044525">
+<!--<para id="fs-id1167067233849"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex008"/></para>-->
+
+<para id="fs-id1164565458234">Why are the sun and Earth not in thermal equilibrium?</para>
+<list id="fs-id1164565678998" list-type="enumerated" number-style="lower-alpha"><item>The mass of the sun is much greater than the mass of Earth.</item>
+<item>There is a vast amount of empty space between the sun and Earth.</item>
+<item>The diameter of the sun is much greater than the diameter of Earth.</item>
+<item>The sun is in thermal contact with Earth.</item>
+</list></problem>
+</exercise>
+</section>
+
+<section id="fs-id1167066792077" class="extended-response">
+<title>Test Prep Extended Response</title>
+<exercise id="fs-id1167063471662" class="os-exercise">
+<problem id="fs-id1167066834733">
+<para id="fs-id1167067195953"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex009"/></para>
+</problem>
+</exercise>
+</section>
+</content>
+
+<glossary>
+<definition id="fs-id1167067200298">
+<term>thermal equilibrium</term>
+<meaning id="fs-id1167063647290">condition in which heat no longer transfers energy between two objects that are in contact; the two objects have the same temperature</meaning>
+</definition>
+<definition id="fs-id1167063852322">
+<term>zeroth law of thermodynamics</term>
+<meaning id="fs-id1167067111711">states that if two objects are in thermal equilibrium, and a third object is in thermal equilibrium with one of those objects, it is also in thermal equilibrium with the other object</meaning>
+</definition>
+</glossary>
+</document>

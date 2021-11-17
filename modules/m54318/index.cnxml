@@ -1,0 +1,566 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Wave Interaction: Superposition and Interference</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54318</md:content-id>
+  <md:title>Wave Interaction: Superposition and Interference</md:title>
+  <md:abstract/>
+  <md:uuid>114edd5e-db22-4a5f-b82e-dcd2a15feb11</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167067072080" class="learning-objectives"><label/>
+<title>Section Learning Objectives</title>
+<para id="fs-id1167061226514">By the end of this section, you will be able to do the following:</para>
+<list id="fs-id1167067316290"><item>Describe superposition of waves</item>
+<item>Describe interference of waves and distinguish between constructive and destructive interference of waves</item>
+<item>Describe the characteristics of standing waves</item>
+<item>Distinguish reflection from refraction of waves</item>
+</list></note>
+
+<note id="fs-id1167060189900" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066841936">The learning objectives in this section will help your students master the following standards:</para>
+<list id="fs-id1167063483279"><item>(7) Science concepts. The student knows the characteristics and behavior of waves. The student is expected to:
+<list id="fs-id1167066827663"><item>
+<span>(D) </span><span>investigate the behaviors of waves, including reflection, refraction, diffraction, interference, resonance, and the Doppler effect.</span>
+</item>
+</list></item>
+</list>
+<para id="fs-id1169315060494">In addition, the High School Physics Laboratory Manual addresses content in this section in the lab titled: Waves, as well as the following standards:</para><list id="fs-id1169315277789">
+<item>(7) Science concepts. The student knows the characteristics and behavior of waves. The student is expected to:
+<list id="fs-id1169316247653"><item>
+<span>(D) </span><span>investigate behaviors of waves, including reflection, refraction, diffraction, interference, resonance, and the Doppler effect.</span>
+</item>
+</list></item>
+</list>
+</note>
+<section id="keyterms"><title>Section Key Terms</title>
+<table id="fs-id1167066954020" class="unnumbered unstyled section-key-terms" summary="Section key terms is a 3 column table. The first row reads antinode, constructive interference, destructive interference. The second row reads inversion, nodes, reflection. The third row reads refraction, standing wave, superposition.">
+<label/>
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+<row>
+<entry>antinode</entry>
+<entry>constructive interference</entry>
+<entry>destructive interference</entry>
+<entry>inversion</entry>
+<entry>nodes</entry>
+</row>
+<row>
+<entry>reflection</entry>
+<entry>refraction</entry>
+<entry>standing wave</entry>
+<entry>superposition</entry>
+<entry/>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section><note id="fs-id1167063649073" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066793512"><span>[BL]</span><span>[OL]</span> Review waves, their types, and their properties, as covered in the previous sections.</para>
+</note>
+
+<section id="fs-id1167063419050">
+<title>Superposition of Waves</title>
+<para id="fs-id1167063412120">Most waves do not look very simple. They look more like the waves in <link target-id="Figure_13_03_Superposit"/>, rather than the simple water wave considered in the previous sections, which has a perfect sinusoidal shape.</para>
+<figure id="Figure_13_03_Superposit">
+<media id="fs-id1167067230885" alt="Waves ripple across a lake by the mountains.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_13_03_Superposit.jpg"/>
+</media>
+<caption>These waves result from the superposition of several waves from different sources, producing a complex pattern. (Waterborough, Wikimedia Commons)</caption>
+</figure>
+
+<note id="fs-id1167067074999" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167063801846">The horizontal waves in the picture bounce off the wall of the lake seen in the front part of the picture. These superimpose or combine with waves moving in a different direction. When they combine, their energies get added, forming higher peaks and lower crests in specific places. This is why the water has a crisscross pattern.</para>
+</note>
+
+<para id="fs-id1167067137773">Most waves appear complex because they result from two or more simple waves that combine as they come together at the same place at the same time—a phenomenon called <term>superposition</term>.</para>
+<para id="fs-id1167064876700">Waves superimpose by adding their disturbances; each disturbance corresponds to a force, and all the forces add. If the disturbances are along the same line, then the resulting wave is a simple addition of the disturbances of the individual waves, that is, their amplitudes add.</para>
+</section>
+
+<section id="fs-id1167063534954"><title>Wave Interference</title><para id="fs-id1167063729891">The two special cases of superposition that produce the simplest results are pure constructive interference and pure destructive interference.</para>
+<para id="fs-id1167066960883">Pure <term>constructive interference</term> occurs when two identical waves arrive at the same point exactly in phase. When waves are exactly in phase, the crests of the two waves are precisely aligned, as are the troughs. Refer to <link target-id="Figure_13_03_Construct"/>. Because the disturbances add, the pure constructive interference of two waves with the same amplitude produces a wave that has twice the amplitude of the two individual waves, but has the same wavelength.</para>
+
+<figure id="Figure_13_03_Construct">
+<media id="fs-id1167063473771" alt="Wave 1 and wave 2 are perfectly in phase, and their resultant has twice the amplitude of each individual wave.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_13_03_Construct.jpg"/>
+</media>
+<caption>The pure constructive interference of two identical waves produces a wave with twice the amplitude but the same wavelength.</caption>
+</figure>
+
+<para id="fs-id1167066811305"><link target-id="Figure_13_03_Destruct"/> shows two identical waves that arrive exactly <emphasis effect="italics">out</emphasis> of phase—that is, precisely aligned crest to trough—producing pure <term>destructive interference</term>. Because the disturbances are in opposite directions for this superposition, the resulting amplitude is zero for pure destructive interference; that is, the waves completely cancel out each other.</para>
+
+<figure id="Figure_13_03_Destruct">
+<media id="fs-id1167063481018" alt="Wave 1 and wave 2 are perfectly out of phase, and their resultant has zero amplitude.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_13_03_Destruct.jpg"/>
+</media>
+<caption>The pure destructive interference of two identical waves produces zero amplitude, or complete cancellation.</caption>
+</figure>
+
+<para id="fs-id1167063526646">While pure constructive interference and pure destructive interference can occur, they are not very common because they require precisely aligned identical waves. The superposition of most waves that we see in nature produces a combination of constructive and destructive interferences.</para>
+<para id="fs-id1167061305982">Waves that are not results of pure constructive or destructive interference can vary from place to place and time to time. The sound from a stereo, for example, can be loud in one spot and soft in another. The varying loudness means that the sound waves add partially constructively and partially destructively at different locations. A stereo has at least two speakers that create sound waves, and waves can reflect from walls. All these waves superimpose.</para>
+<para id="fs-id1167066871047">An example of sounds that vary over time from constructive to destructive is found in the combined whine of jet engines heard by a stationary passenger. The volume of the combined sound can fluctuate up and down as the sound from the two engines varies in time from constructive to destructive.</para>
+	<para id="fs-id1167063876646">The two previous examples considered waves that are similar—both stereo speakers generate sound waves with the same amplitude and wavelength, as do the jet engines. But what happens when two waves that are not similar, that is, having different amplitudes and wavelengths, are superimposed? An example of the superposition of two dissimilar waves is shown in <link target-id="Figure_13_03_Dissimilar"/>. Here again, the disturbances add and subtract, but they produce an even more complicated-looking wave. The resultant wave from the combined disturbances of two dissimilar waves looks much different than the idealized sinusoidal shape of a periodic wave.</para>
+
+<figure id="Figure_13_03_Dissimilar">
+<media id="fs-id1167067194400" alt="Wave 1 has a large amplitude and a low frequency. Wave 2 has a small amplitude and a high frequency. The resultant is squiggly, without a perfect sinusoidal shape.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_13_03_Dissimilar.jpg"/>
+</media>
+<caption>The superposition of nonidentical waves exhibits both constructive and destructive interferences.</caption>
+</figure>
+<note id="fs-id1167063616755" class="virtual-physics"><title>Wave Interference</title>
+<media id="fs-id1167067067106" alt="This simulation allows you to make waves with a dripping faucet, audio speaker, or laser. You can also add a second source to create an interference pattern, put up a barrier to explore single-slit diffraction and double-slit interference, and experiment with diffraction through elliptical, rectangular, or irregular apertures.">
+<iframe width="660" height="371.4" src="https://openstax.org/l/28interference"/>
+</media>
+<para id="eip-id1167063415346">In this simulation, make waves with a dripping faucet, an audio speaker, or a laser by switching between the water, sound, and light tabs. Contrast and compare how the different types of waves behave. Try rotating the view from top to side to make observations. Then experiment with adding a second source or a pair of slits to create an interference pattern.
+</para><exercise id="fs-id1167067132250" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167063520031">
+<para id="fs-id1167067206639">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex057"/>
+</para>
+</problem>
+</exercise>
+</note></section><section id="fs-id1167067069364">
+<title>Standing Waves</title>
+<para id="fs-id1167067240299">Sometimes waves do not seem to move and they appear to just stand in place, vibrating. Such waves are called <term>standing waves</term> and are formed by the superposition of two or more waves moving in opposite directions. The waves move through each other with their disturbances adding as they go by. If the two waves have the same amplitude and wavelength, then they alternate between constructive and destructive interference. Standing waves created by the superposition of two identical waves moving in opposite directions are illustrated in <link target-id="Figure_13_03_Standing"/>.</para>
+
+<figure id="Figure_13_03_Standing">
+<media id="fs-id1167066974327" alt="Two identical waves moving in opposite directions alternate between creating no disturbance during destructive interference and doubling the disturbance during constructive interference.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_13_03_Standing.jpg"/>
+</media>
+<caption>A standing wave is created by the superposition of two identical waves moving in opposite directions. The oscillations are at fixed locations in space and result from alternating constructive and destructive interferences.</caption>
+</figure>
+
+<para id="fs-id1167067051662">As an example, standing waves can be seen on the surface of a glass of milk in a refrigerator. The vibrations from the refrigerator motor create waves on the milk that oscillate up and down but do not seem to move across the surface. The two waves that produce standing waves may be due to the reflections from the side of the glass.</para>
+<para id="fs-id1167067051874">Earthquakes can create standing waves and cause constructive and destructive interferences. As the earthquake waves travel along the surface of Earth and reflect off denser rocks, constructive interference occurs at certain points. As a result, areas closer to the epicenter are not damaged while areas farther from the epicenter are damaged.</para>
+<para id="fs-id1167067085587">Standing waves are also found on the strings of musical instruments and are due to reflections of waves from the ends of the string. <link target-id="Figure_13_03_Antinode"/> and <link target-id="Figure_13_03_Antinodes"/> show three standing waves that can be created on a string that is fixed at both ends. When the wave reaches the fixed end, it has nowhere else to go but back where it came from, causing the reflection. The <term>nodes</term> are the points where the string does not move; more generally, the nodes are the points where the wave disturbance is zero in a standing wave. The fixed ends of strings must be nodes, too, because the string cannot move there.</para>
+<para id="fs-id1167067038594">The <term>antinode</term> is the location of maximum amplitude in standing waves. The standing waves on a string have a frequency that is related to the propagation speed  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>v</m:mi>
+   <m:mi>w</m:mi>
+  </m:msub>
+  </m:mrow>
+</m:math>  of the disturbance on the string. The wavelength  <m:math>
+ <m:mi>λ</m:mi>
+</m:math>  is determined by the distance between the points where the string is fixed in place.</para>
+
+<figure id="Figure_13_03_Antinode">
+<media id="fs-id1167063564014" alt="One antinode and two nodes are created by a single standing wave.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_13_03_Antinode.jpg"/>
+</media>
+<caption>The figure shows a string oscillating with its maximum disturbance as the antinode.</caption>
+</figure>
+
+<figure id="Figure_13_03_Antinodes">
+<media id="fs-id1167067251762" alt="Two antinodes and three nodes are created by two standing waves. Three antinodes and four nodes are created by three standing waves.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_13_03_Antinodes.jpg"/>
+</media>
+<caption>The figure shows a string oscillating with multiple nodes.</caption>
+</figure>
+</section>
+
+<section id="fs-id1167067192761">
+<title>Reflection and Refraction of Waves</title>
+<para id="fs-id1167066974358">As we saw in the case of standing waves on the strings of a musical instrument, <term>reflection</term> is the change in direction of a wave when it bounces off a barrier, such as a fixed end. When the wave hits the fixed end, it changes direction, returning to its source. As it is reflected, the wave experiences an <term>inversion</term>, which means that it flips vertically. If a wave hits the fixed end with a crest, it will return as a trough, and vice versa (Henderson 2015). Refer to <link target-id="Figure_13_03_Inversion"/>.</para>
+
+<figure id="Figure_13_03_Inversion">
+<media id="fs-id1167067036571" alt="A wave travels to the right, hits the fixed end, flips vertically, and travels to the left.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_13_03_Inversion.jpg"/>
+</media>
+<caption>A wave is inverted after reflection from a fixed end.</caption>
+</figure>
+
+<note id="fs-id1167067075895" class="tips-for-success">
+
+<para id="fs-id1167067142430">If the end is not fixed, it is said to be a <emphasis effect="italics">free end</emphasis>, and no inversion occurs. When the end is loosely attached, it reflects without inversion, and when the end is not attached to anything, it does not reflect at all. You may have noticed this while changing the settings from Fixed End to Loose End to No End in the Waves on a String PhET simulation.</para>
+</note>
+
+<para id="fs-id1167063810871">Rather than encountering a fixed end or barrier, waves sometimes pass from one medium into another, for instance, from air into water. Different types of media have different properties, such as density or depth, that affect how a wave travels through them. At the boundary between media, waves experience <term>refraction</term>—they change their path of propagation. As the wave bends, it also changes its speed and wavelength upon entering the new medium. Refer to <link target-id="Figure_13_03_Refraction"/>.</para>
+
+<figure id="Figure_13_03_Refraction">
+<media id="fs-id1167063526214" alt="A wave bends slightly to the right of its original path as it crosses the line into another medium.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_13_03_Refraction.jpg"/>
+</media>
+<caption>A wave refracts as it enters a different medium.</caption>
+</figure>
+
+<para id="fs-id1167067196107">For example, water waves traveling from the deep end to the shallow end of a swimming pool experience refraction. They bend in a path closer to perpendicular to the surface of the water, propagate slower, and decrease in wavelength as they enter shallower water.</para>
+</section>
+
+<section id="fs-id1167067098105" class="check-understanding">
+<title>Check Your Understanding</title>
+<note id="fs-id1167063530166" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066876949">Use these questions to assess students’ achievement of the section’s learning objectives. If students are struggling with a specific objective, these questions will help identify such objective and direct them to the relevant content.
+</para>
+</note>
+<exercise id="fs-id1167063694023" class="os-exercise">
+<problem id="fs-id1167063471526">
+<!--<para id="fs-id1167061447004">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex058"/></para>-->
+
+<para id="fs-id1164562203329">What is the superposition of waves?</para>
+<list id="fs-id1164565116200" list-type="enumerated" number-style="lower-alpha">
+<item>When a single wave splits into two different waves at a point</item>
+<item>When two waves combine at the same place at the same time</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167065877584" class="os-exercise">
+<problem id="fs-id1167064818097">
+<!--<para id="fs-id1167061216296">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex059"/></para>-->
+<para id="fs-id1164565159099">How do waves superimpose on one another?</para>
+<list id="fs-id1164562440228" list-type="enumerated" number-style="lower-alpha">
+<item>By adding their frequencies</item>
+<item>By adding their wavelengths</item>
+<item>By adding their disturbances</item>
+<item>By adding their speeds</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167062901331" class="os-exercise">
+<problem id="fs-id1167065877396">
+<para id="fs-id1167067055933">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex060"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167066145951" class="os-exercise">
+<problem id="fs-id1167065888765">
+<!--<para id="fs-id1167067133586">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex061"/></para>-->
+
+<para id="fs-id1164564760426">Is the following statement true or false? The two types of interference are constructive and destructive interferences.</para>
+<list id="fs-id1164566582134" list-type="enumerated" number-style="lower-alpha">
+<item>True</item>
+<item>False</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167066026802" class="os-exercise">
+<problem id="fs-id1167064876203">
+<!--<para id="fs-id1167066975644">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex062"/></para>-->
+<para id="fs-id1164561118823">What are standing waves?</para>
+<list id="fs-id1164565166096" list-type="enumerated" number-style="lower-alpha">
+<item>Waves that appear to remain in one place and do not seem to move</item>
+<item>Waves that seem to move along a trajectory</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167065886218" class="os-exercise">
+<problem id="fs-id1167062461062">
+<para id="fs-id1167063574055">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex063"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065871444" class="os-exercise">
+<problem id="fs-id1167065879692">
+<para id="fs-id1167067184156">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex064"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167066142064" class="os-exercise">
+<problem id="fs-id1167065769235">
+<para id="fs-id1167063526840">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex065"/></para>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167061358797" class="summary">
+<title>Section Summary</title>
+<list id="fs-id1167063531278">
+<item>Superposition is the combination of two waves at the same location.</item>
+<item>Constructive interference occurs when two identical waves are superimposed exactly in phase.</item>
+<item>Destructive interference occurs when two identical waves are superimposed exactly out of phase.</item>
+<item>A standing wave is a wave produced by the superposition of two waves. It varies in amplitude but does not propagate.</item>
+<item>The nodes are the points where there is no motion in standing waves.</item>
+<item>An antinode is the location of maximum amplitude of a standing wave.</item>
+<item>Reflection causes a wave to change direction.</item>
+<item>Inversion occurs when a wave reflects from a fixed end.</item>
+<item>Refraction causes a wave’s path to bend and occurs when a wave passes from one medium into another medium with a different density.</item>
+</list>
+</section>
+
+
+
+
+
+
+
+<section id="fs-id1167066992321" class="concept"><title>Concept Items</title>
+<exercise id="fs-id1167063484113" class="os-exercise">
+<problem id="fs-id1167063515606">
+<para id="fs-id1167067193230"><link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex066"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167062547768" class="os-exercise">
+<problem id="fs-id1167065788219">
+<para id="fs-id1167067222655"><link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex067"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065065640" class="os-exercise">
+<problem id="fs-id1167064736363">
+<para id="fs-id1167063486356"><link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex068"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065843985" class="os-exercise">
+<problem id="fs-id1167065857420">
+<!--<para id="fs-id1167061376814"><link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex069"/></para>-->
+<para id="fs-id1164562313255">Is the following statement true or false? Refraction is useful in fiber optic cables for transmitting signals.</para>
+<list id="fs-id1164564954038" list-type="enumerated" number-style="lower-alpha">
+<item>False</item>
+<item>True</item>
+</list>
+
+</problem>
+</exercise>
+<exercise id="eip-id1166848023801" class="os-exercise">
+<problem id="eip-id1166850213966">
+<para id="eip-id1166850123602">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch13-ot061"/>
+</para>
+</problem>
+</exercise></section>
+<section id="fs-id1167067183626" class="critical-thinking">
+<title>Critical Thinking</title>
+<exercise id="fs-id1167063863053" class="os-exercise">
+<problem id="fs-id1167067236262">
+<para id="fs-id1167060081331"><link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex071"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065790570" class="os-exercise">
+<problem id="fs-id1167066058661">
+<para id="fs-id1167067147500"><link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex072"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065927022" class="os-exercise">
+<problem id="fs-id1167062910305">
+<para id="fs-id1167063515614"><link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex073"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167066061168" class="os-exercise">
+<problem id="fs-id1167066141673">
+<!--<para id="fs-id1167063912204"><link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex074"/></para>-->
+<para id="fs-id1164563205973">What is added together when two waves superimpose?</para>
+<list id="fs-id1164563167984" list-type="enumerated" number-style="lower-alpha">
+<item>Amplitudes</item>
+<item>Wavelengths</item>
+<item>Velocities</item>
+</list>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167063883224" class="multiple-choice"><title>Test Prep Multiple Choice</title>
+<exercise id="fs-id1167067153829" class="os-exercise">
+<problem id="fs-id1167061192540">
+<!--<para id="fs-id1167061192542"><link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex074"/></para>-->
+
+<para id="fs-id1164564754295">What is added together when two waves superimpose?</para>
+<list id="fs-id1164559111944" list-type="enumerated" number-style="lower-alpha">
+<item>amplitudes</item>
+<item>wavelengths</item>
+<item>velocities</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167065821620" class="os-exercise">
+<problem id="fs-id1167065770347">
+<!--<para id="fs-id1167067149554"><link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex075"/></para>-->
+<para id="fs-id1164565012780">Pure constructive interference occurs between two waves when they have the same _____.</para><list id="fs-id1164566879448" list-type="enumerated" number-style="lower-alpha">
+<item>frequency and are in phase</item>
+<item>frequency and are out of phase</item>
+<item>amplitude and are in phase</item>
+<item>amplitude and are out of phase</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167065866776" class="os-exercise">
+<problem id="fs-id1167065848895">
+<!--<para id="fs-id1167067276807"><link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex076"/></para>-->
+
+<para id="fs-id1164557714972">What kind(s) of interference can occur between two identical waves moving in opposite directions?</para>
+<list id="fs-id1164566869894" list-type="enumerated" number-style="lower-alpha">
+<item>Constructive interference only</item>
+<item>Destructive interference only</item>
+<item>Both constructive and destructive interference</item>
+<item>Neither constructive nor destructive interference</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167066038274" class="os-exercise">
+<problem id="fs-id1167065980830">
+<!--<para id="fs-id1167067222624"><link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex077"/></para>-->
+<para id="fs-id1164566455977">What term refers to the bending of light at the junction of two media?</para>
+<list id="fs-id1164561061175" list-type="enumerated" number-style="lower-alpha">
+<item>interference</item>
+<item>diffraction</item>
+<item>scattering</item>
+<item>refraction</item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-id1166847548042" class="os-exercise">
+<problem id="eip-id1166850221445">
+<!--<para id="eip-id1166847362254">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch13-ot049"/>
+</para>-->
+<para id="fs-id1164561099005">Which parameter of a wave gets affected after superposition?</para>
+<list id="fs-id1164565249756" list-type="enumerated" number-style="lower-alpha">
+<item>wavelength</item>
+<item>direction</item>
+<item>amplitude</item>
+<item>frequency</item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-id1166850265432" class="os-exercise">
+<problem id="eip-id1166849358560">
+<!--<para id="eip-id1166850191660">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch13-ot051"/>
+</para>-->
+<para id="fs-id1164563420697">When do the amplitudes of two waves get added?</para>
+<list id="fs-id1164566955518" list-type="enumerated" number-style="lower-alpha">
+<item>When their amplitudes are the same</item>
+<item>When their amplitudes are different</item>
+<item>When they propagate in perpendicular directions</item>
+<item>When they are propagating along the same line in opposite directions</item>
+</list>
+</problem>
+</exercise></section><section id="fs-id1167066949555" class="short-answer">
+<title>Test Prep Short Answer</title>
+<exercise id="fs-id1167066953226" class="os-exercise">
+<problem id="fs-id1167063527254">
+<para id="fs-id1167063527256"><link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex078"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065747084" class="os-exercise">
+<problem id="fs-id1167065895191">
+<para id="fs-id1167063715324"><link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex079"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167066042466" class="os-exercise">
+<problem id="fs-id1167064736259">
+<!--<para id="fs-id1167065809364"><link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex080"/></para>-->
+<para id="fs-id1169832952568">When does pure destructive interference occur?</para>
+<list id="fs-id1169833213664" list-type="enumerated" number-style="lower-alpha">
+<item>When two waves with equal frequencies that are perfectly in phase and propagating along the same line superimpose.</item>
+<item>When two waves with unequal frequencies that are perfectly in phase and propagating along the same line superimpose.</item>
+<item>When two waves with unequal frequencies that are perfectly out of phase and propagating along the same line superimpose.</item>
+<item>When two waves with equal frequencies that are perfectly out of phase and propagating along the same line superimpose.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167064583720" class="os-exercise">
+<problem id="fs-id1167065916377">
+<!--<para id="fs-id1167067165370"><link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex081"/></para>-->
+<para id="fs-id1164562191635">Is this statement true or false? The amplitude of one wave is affected by the amplitude of another wave only when they
+are precisely aligned.</para>
+<list id="fs-id1164563561463" list-type="enumerated" number-style="lower-alpha">
+<item>True</item>
+<item>False</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167065680507" class="os-exercise">
+<problem id="fs-id1167065895064">
+<para id="fs-id1167066974656"><link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex082"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167064546132" class="os-exercise">
+<problem id="fs-id1167064895082">
+<!--<para id="fs-id1167063634572"><link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex083"/></para>-->
+<para id="fs-id1164563514685">Is the following statement true or false? A standing wave is a superposition of two identical waves that are in phase
+and propagating in the same direction.</para>
+<list id="fs-id1164565008276" list-type="enumerated" number-style="lower-alpha">
+<item>True</item>
+<item>False</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167065894171" class="os-exercise">
+<problem id="fs-id1167065034592">
+<para id="fs-id1167067032554"><link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex084"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065953905" class="os-exercise">
+<problem id="fs-id1167064738073">
+<!--<para id="fs-id1167067140506"><link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex085"/></para>-->
+
+<para id="fs-id1164562185516">Is the statement true or false? Waves propagate faster in a less dense medium if the stiffness is the same.</para>
+<list id="fs-id1164562243080" list-type="enumerated" number-style="lower-alpha">
+<item>True</item>
+<item>False</item>
+</list>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167065824350" class="performance">
+<title>Performance Task</title>
+<exercise id="fs-id1167065851002">
+<problem id="fs-id1167066056326">
+<para id="fs-id1167065968114">Ocean waves repeatedly crash against beaches and coasts. Their energy can lead to erosion and collapse of land. Scientists and engineers need to study how waves interact with beaches in order to assess threats to coastal communities and construct breakwater systems.</para>
+<para id="fs-id1167064770016">In this task, you will construct a wave tank and fill it with water. Simulate a beach by placing sand at one end. Create waves by moving a piece of wood or plastic up and down in the water. Measure or estimate the wavelength, period, frequency, and amplitude of the wave, and observe the effect of the wave on the sand. Produce waves of different amplitudes and frequencies, and record your observations each time. Use mathematical representations to demonstrate the relationships between different wave properties. Change the position of the sand to create a steeper beach and record your observations. Give a qualitative analysis of the effects of the waves on the beach. What kind of wave causes the most damage? At what height, wavelength, and frequency do waves <emphasis effect="italics">break</emphasis>? How does the steepness of the beach affect the waves?</para>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167066831995" class="extended-response">
+<title>Test Prep Extended Response</title>
+<exercise id="fs-id1167064754567" class="os-exercise">
+<problem id="fs-id1167064892656">
+<para id="fs-id1167063524932"><link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex086"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065893598" class="os-exercise">
+<problem id="fs-id1167065661776">
+<para id="fs-id1167067013903"><link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex087"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167063014640" class="os-exercise">
+<problem id="fs-id1167064626507">
+<para id="fs-id1167067104829"><link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex088"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167064792106" class="os-exercise">
+<problem id="fs-id1167064902499">
+<para id="fs-id1167067043216"><link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex089"/></para>
+</problem>
+</exercise>
+</section>
+
+
+</content>
+
+<glossary>
+<definition id="fs-id1167067072506"><term>antinode</term>
+<meaning id="fs-id1167063472109">location of maximum amplitude in standing waves</meaning></definition>
+<definition id="fs-id1167066792512"><term>constructive interference</term>
+<meaning id="fs-id1167067217029">when two waves arrive at the same point exactly in phase; that is, the crests of the two waves are precisely aligned, as are the troughs</meaning></definition>
+<definition id="fs-id1167063622027"><term>destructive interference</term>
+<meaning id="fs-id1167063459396">when two identical waves arrive at the same point exactly out of phase that is precisely aligned crest to trough</meaning></definition>
+<definition id="fs-id1167067305249"><term>inversion</term>
+<meaning id="fs-id1167063490496">vertical flipping of a wave after reflection from a fixed end</meaning></definition>
+<definition id="fs-id1167063667078"><term>nodes</term>
+<meaning id="fs-id1167063574000">points where the string does not move; more generally, points where the wave disturbance is zero in a standing wave</meaning></definition>
+<definition id="fs-id1167067317495"><term>reflection</term>
+<meaning id="fs-id1167063574336">change in direction of a wave at a boundary or fixed end</meaning></definition>
+<definition id="fs-id1167067269129"><term>refraction</term>
+<meaning id="fs-id1167067205158">bending of a wave as it passes from one medium to another medium with a different density</meaning></definition>
+<definition id="fs-id1167063850992"><term>standing wave</term>
+<meaning id="fs-id1167063503946">wave made by the superposition of two waves of the same amplitude and wavelength moving in opposite directions and which appears to vibrate in place</meaning></definition>
+<definition id="fs-id1167063634996"><term>superposition</term>
+<meaning id="fs-id1167061391912">phenomenon that occurs when two or more waves arrive at the same point</meaning></definition>
+</glossary>
+</document>

@@ -1,0 +1,2537 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>The Language of Physics: Physical Quantities and Units</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54599</md:content-id>
+  <md:title>The Language of Physics: Physical Quantities and Units</md:title>
+  <md:abstract/>
+  <md:uuid>9ef016d1-21ef-46e2-9eac-dea694a1de40</md:uuid>
+</metadata>
+
+<content>
+
+<note id="fs-id1167065853398" class="learning-objectives"><label/><title> Section Learning Objectives</title>
+<para id="fs-id1167065734654">By the end of this section, you will be able to do the following:</para>
+<list id="fs-id1167065774936"><item>Associate physical quantities with their International System of Units (SI)and perform conversions among SI units using scientific notation</item>
+<item>Relate measurement uncertainty to significant figures and apply the rules for using significant figures in calculations</item>
+<item>Correctly create, label, and identify relationships in graphs using mathematical relationships (e.g., slope, <emphasis effect="italics">y</emphasis>-intercept, inverse, quadratic and logarithmic)</item>
+</list></note><note id="fs-id1167065722531" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065866061">The learning objectives in this section will help your students master the following standards:</para>
+<list id="fs-id1167065865188" list-type="bulleted">
+<item>
+<span>(2)  Scientific processes. The student uses a systematic approach to answer scientific laboratory and field investigative questions. The student is expected to</span>
+<list id="fs-id1164567305835">
+<item>
+<span>(H)</span> <span>make measurements with accuracy and precision and record data using scientific notation and International System (SI) units;</span>
+</item>
+<item>
+<span>(L)</span> <span>express and manipulate relationships among physical variables quantitatively, including the use of graphs, charts, and equations.</span>
+</item>
+</list>
+</item></list>
+<para id="fs-id1169313831898">In addition, the High School Physics Laboratory Manual addresses content in this section in the lab titled: Measurement, Precision and Accuracy, as well as the following standards:</para><list id="fs-id1169317686269">
+<item>(2) Scientific processes. The student uses a systematic approach to answer scientific laboratory and field investigative questions. The student is expected to:
+<list id="fs-id1169317505250">
+<item>
+<span>(H)</span> <span>make measurements with accuracy and precision and record data using scientific notation and International System (SI) units;</span>
+</item>
+<item>
+<span>(I)</span>
+
+ <span>identify and quantify causes and effects of uncertainties in measured data;</span>
+</item>
+<item>
+<span>(J)</span>
+ <span>organize and evaluate data and make inferences from data, including the use of tables, charts, and graphs.</span>
+</item>
+</list>
+</item>
+</list>
+</note>
+<section id="keyterms"><title>Section Key Terms</title>
+<table id="fs-id1167065947428" class="unnumbered unstyled section-key-terms" summary="The list of Key Terms includes: accuracy, ampere, constant, conversion factor, dependent variable, derived units, English units, exponential relationship, fundamental physical units, independent variable, inverse relationship, inversely proportional, kilogram, linear relationship, logarithmic (log) scale, log-log plot, meter, method of adding percents, order of magnitude, precision, quadratic relationship, scientific notation, second, semi-log plot, SI units, significant figures, slope, uncertainty, variable, and y-intercept.">
+<label/>
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+<row>
+<entry>accuracy</entry>
+<entry>ampere</entry>
+<entry>constant</entry>
+<entry>conversion factor </entry>
+<entry>dependent variable</entry>
+</row>
+<row>
+<entry>derived units</entry>
+<entry>English units </entry>
+<entry>exponential relationship</entry>
+<entry>fundamental physical units </entry>
+<entry>independent variable </entry>
+</row>
+<row>
+<entry>inverse relationship</entry>
+<entry>inversely proportional</entry>
+<entry>kilogram </entry>
+<entry>linear relationship</entry>
+<entry>logarithmic (log) scale</entry>
+</row>
+<row>
+<entry>log-log plot</entry>
+<entry>meter </entry>
+<entry>method of adding percents </entry>
+<entry>order of magnitude </entry>
+<entry>precision </entry>
+</row>
+<row>
+<entry>quadratic relationship</entry>
+<entry>scientific notation </entry>
+<entry>second </entry>
+<entry>semi-log plot</entry>
+<entry>SI units </entry>
+</row>
+<row>
+<entry>significant figures </entry>
+<entry>slope</entry>
+<entry>uncertainty </entry>
+<entry>variable</entry>
+<entry><emphasis effect="italics">y</emphasis>-intercept</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+
+<note id="fs-id1167065822909" class="os-teacher"><title>Teacher Support</title>
+<para id="fs-id1167065913202"><span>[OL]</span>Pre-assessment for this section could involve asking students what experience they have had with the four fundamental units in their daily lives. One could also poll the class for what they think accuracy, precision, and uncertainty refer to. For graphing, students could make a quick graph of some data and then edit their graph after reading to note ways they could improve the clarity of their graph.</para>
+</note><section id="fs-id1167065854298">
+<title>The Role of Units</title>
+<para id="fs-id1167066123363">Physicists, like other scientists, make observations and ask basic questions. For example, how big is an object? How much mass does it have? How far did it travel? To answer these questions, they make measurements with various instruments (e.g., meter stick, balance, stopwatch, etc.).</para>
+
+<para id="fs-id1167065861733">The measurements of physical quantities are expressed in terms of units, which are standardized values. For example, the length of a race, which is a physical quantity, can be expressed in meters (for sprinters) or kilometers (for long distance runners). Without standardized units, it would be extremely difficult for scientists to express and compare measured values in a meaningful way (<link target-id="Figure_01_03_map"/>).</para><figure id="Figure_01_03_map"><media id="fs-id1167065808804" alt="A person is standing in front of a map that has cable as units. The person is confused and is wondering how big a cable is.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_01_03_map.jpg"/>
+</media>
+
+<caption>Distances given in unknown units are maddeningly useless.</caption></figure><para id="fs-id1167065712567">All physical quantities in the International System of Units (SI) are expressed in terms of combinations of seven <term>fundamental physical</term> units, which are units for: length, mass, time, electric current, temperature, amount of a substance, and luminous intensity.</para></section>
+
+<section id="fs-id1167065763733">
+<title>SI Units: Fundamental and Derived Units</title>
+<para id="fs-id1167065837905">In any system of units, the units for some physical quantities must be defined through a measurement process. These are called the <term>base quantities</term> for that system and their units are the system’s <term>base units</term>. All other physical quantities can then be expressed as algebraic combinations of the base quantities. Each of these physical quantities is then known as a <term>derived quantity</term> and each unit is called a <term>derived unit</term>. The choice of base quantities is somewhat arbitrary, as long as they are independent of each other and all other quantities can be derived from them. Typically, the goal is to choose physical quantities that can be measured accurately to a high precision as the base quantities. The reason for this is simple. Since the derived units can be expressed as algebraic combinations of the base units, they can only be as accurate and precise as the base units from which they are derived.</para><note id="fs-id1167065884693" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065838958"><span>[OL]</span>As a clarification, certain countries use the British system for a few of their measurements. For example, Britain still uses the pint to measure beer, miles to measure road distances, and pounds to measure body weight (although weight must be reported in kg in British medical records). The British people still use the British system extensively in their everyday lives, but the metric system is the official standard for the government. Likewise, many oil-producing countries measure oil in British gallons.</para>
+</note>
+
+<para id="fs-id1167066029986">Based on such considerations, the International Standards Organization recommends using seven base quantities, which form the International System of Quantities (ISQ). These are the base quantities used to define the SI base units. (<link target-id="Table_01_03_SIUnits"/>) lists these seven ISQ base quantities and the corresponding SI base units.</para><table id="Table_01_03_SIUnits" summary="A three column, nine row table is shown. The header row contains the following column titles: blank, SI Base Unit, and blank. The first data row contains Quantity, Name, and Symbol. The second data row contains length, meter, and m. the third data row contains mass, kilogram, and kg. the fourth data row contains time, second, and s. the fifth data row contains electric current, ampere, and a. the sixth data row contains temperature, kelvin, and k. the seventh data row contains amount of substance, mole, and mol. The final data row contains luminous intensity, candela, and cd."><title>SI Base Units</title>
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead><row>
+<entry>Quantity</entry>
+<entry>Name</entry>
+<entry>Symbol</entry>
+</row></thead>
+<tbody>
+
+<row>
+<entry>Length</entry>
+<entry>Meter</entry>
+<entry>m</entry>
+</row>
+<row>
+<entry>Mass</entry>
+<entry>Kilogram</entry>
+<entry>kg</entry>
+</row>
+<row>
+<entry>Time</entry>
+<entry>Second</entry>
+<entry>s</entry>
+</row>
+<row>
+<entry>Electric current</entry>
+<entry>Ampere</entry>
+<entry>a</entry>
+</row>
+<row>
+<entry>Temperature</entry>
+<entry>Kelvin</entry>
+<entry>k</entry>
+</row>
+<row>
+<entry>Amount of substance</entry>
+<entry>Mole</entry>
+<entry>mol</entry>
+</row>
+<row>
+<entry>Luminous intensity</entry>
+<entry>Candela</entry>
+<entry>cd</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table><section id="fs-id1167065800662">
+<title>The Meter</title>
+<para id="fs-id1167065860859">The SI unit for length is the <emphasis effect="bold">meter</emphasis> (m). The definition of the meter has changed over time to become more accurate and precise. The meter was first defined in 1791 as 1/10,000,000 of the distance from the equator to the North Pole. This measurement was improved in 1889 by redefining the meter to be the distance between two engraved lines on a platinum-iridium bar. (The bar is now housed at the International Bureau of Weights and Meaures, near Paris). By 1960, some distances could be measured more precisely by comparing them to wavelengths of light. The meter was redefined as 1,650,763.73 wavelengths of orange light emitted by krypton atoms. In 1983, the meter was given its present definition as the distance light travels in a vacuum in 1/ 299,792,458 of a second (<link target-id="Figure_01_03_flashlight"/>).</para><figure id="Figure_01_03_flashlight"><media id="fs-id1167065824041" alt="A shining flashlight is placed over top a meter stick to illustrate that the meter is defined as the distance light travels in 1/299,792,458 of a second through a vacuum.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_01_03_flashlight.jpg"/>
+</media>
+
+<caption>The meter is defined to be the distance light travels in 1/299,792,458 of a second through a vacuum. Distance traveled is speed multiplied by time.</caption></figure></section>
+
+<section id="fs-id1167065838960">
+<title>The Kilogram</title>
+<para id="fs-id1167065882588">The SI unit for mass is the <emphasis effect="bold">kilogram</emphasis> (kg). It is defined to be the mass of a platinum-iridium cylinder, housed at the International Bureau of Weights and Measures near Paris. Exact replicas of the standard kilogram cylinder are kept in numerous locations throughout the world, such as the National Institute of Standards and Technology in Gaithersburg, Maryland. The determination of all other masses can be done by comparing them with one of these standard kilograms.</para>
+</section>
+
+<section id="fs-id1167065770264">
+<title>The Second</title>
+<para id="fs-id1167065845467">The SI unit for time, the <emphasis effect="bold">second</emphasis> (s) also has a long history. For many years it was defined as 1/86,400 of an average solar day. However, the average solar day is actually very gradually getting longer due to gradual slowing of Earth’s rotation. Accuracy in the fundamental units is essential, since all other measurements are derived from them. Therefore, a new standard was adopted to define the second in terms of a non-varying, or constant, physical phenomenon. One constant phenomenon is the very steady vibration of Cesium atoms, which can be observed and counted. This vibration forms the basis of the <term class="no-emphasis">cesium atomic clock</term>. In 1967, the second was redefined as the time required for 9,192,631,770 Cesium atom vibrations (<link target-id="Figure_01_03_clock"/>).</para><figure id="Figure_01_03_clock"><media id="fs-id1167066057171" alt="A photograph shows an atomic clock. The image is taken looking downward from the top of an atomic clock.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_01_03_clock.jpg"/>
+</media>
+
+<caption>An atomic clock such as this one uses the vibrations of cesium atoms to keep time to a precision of one microsecond per year. The fundamental unit of time, the second, is based on such clocks. This image is looking down from the top of an atomic clock. (Steve Jurvetson/Flickr)</caption></figure><note id="fs-id1167065762710" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065824610"><span>[BL]</span>An average solar day was used to originally define the second because the length of a solar day varies throughout the year due to Earth’s tilt of its axis as well as its elliptical orbit. The accumulation of these variations could result in a day length difference of up to 16 minutes during different seasons. Using an average solar day resolves these variations in day length.</para>
+</note>
+</section>
+<section id="fs-id1167065970285">
+<title>The Ampere</title>
+<para id="fs-id1167065860248">Electric current is measured in the <emphasis effect="bold">ampere</emphasis> (A), named after Andre Ampere. You have probably heard of amperes, or <emphasis effect="italics">amps</emphasis>, when people discuss electrical currents or electrical devices. Understanding an ampere requires a basic understanding of electricity and magnetism, something that will be explored in depth in later chapters of this book. Basically, two parallel wires with an electric current running through them will produce an attractive force on each other. One ampere is defined as the amount of electric current that will produce an attractive force of 2.7  <m:math><m:mo>×</m:mo></m:math>  10<sup>–7</sup> newton per meter of separation between the two wires (the newton is the derived unit of force).</para><note id="fs-id1167065718198" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065887936"><span>[BL]</span>Some students may not know that a vacuum is a region of space that contains no air.</para>
+</note>
+</section>
+
+<section id="fs-id1167065736438">
+<title>Kelvins</title>
+<para id="fs-id1167065875814">The SI unit of temperature is the <term>kelvin</term> (or kelvins, but not degrees kelvin). This scale is named after physicist William Thomson, Lord Kelvin, who was the first to call for an absolute temperature scale. The Kelvin scale is based on absolute zero. This is the point at which all thermal energy has been removed from all atoms or molecules in a system. This temperature, 0 K, is equal to −273.15 °C and −459.67 °F. Conveniently, the Kelvin scale actually changes in the same way as the Celsius scale. For example, the freezing point (0 °C) and boiling points of water (100 °C) are 100 degrees apart on the Celsius scale. These two temperatures are also 100 kelvins apart (freezing point = 273.15 K; boiling point = 373.15 K).</para>
+</section>
+
+<section id="fs-id1167065979898"><title>Metric Prefixes</title><para id="fs-id1167065681627">Physical objects or phenomena may vary widely. For example, the size of objects varies from something very small (like an atom) to something very large (like a star). Yet the standard metric unit of length is the meter. So, the metric system includes many prefixes that can be attached to a unit. Each prefix is based on factors of 10 (10, 100, 1,000, etc., as well as 0.1, 0.01, 0.001, etc.). <link target-id="Table_01_03_Metrics"/> gives the metric prefixes and symbols used to denote the different various factors of 10 in the metric system.</para>
+<table id="Table_01_03_Metrics" summary="A seven column, eighteen row table is shown. In the header row, the fourth, fifth, sixth, and seventh cells are merged. The values in the header row are prefix, symbol, value[1], and the merged cell contains Example (some are approximate). The first data row contains exa, E, 10 superscript 18, exameter, em, 10 superscript 18 m, and distance light travels in a century. The second data row contains peta, P, 10 superscript 15, petasecond, ps, 10 superscript 15 s, and 30 million years. The third data row contains tera, t, 10 superscript 12, terawatt, tw, 10 superscript 12 W, and powerful laser output. The fourth data row contains giga, G, 10 superscript 9, gigahertz, GHz, 10 superscript 9 Hz, and a microwave frequency. The fifth data row contains mega, M, 10 superscript 6, megacurie, MCi, 10 superscript 6, Ci, and high radioactivity. The sixth data row contains kilo, k, 10 superscript 3, kilometer, km, 10 superscript 3 m, and about 6/10 mile. The seventh data row contains hector, h, 10 superscript 2, hectoliter, hL, 10 superscript 2 L, and 26 gallons. The eighth data row contains deka, da, 10 superscript 1, dekagram, dag, 10 superscript 1 g, and teaspoon of butter. The ninth data row contains blank, blank, 10 superscript 0 =1, blank, blank, blank, and blank. The tenth data row contains deci, d, 10 superscript -1, deciliter, dL, 10 superscript -1 L, less than half a soda. The eleventh data row contains centi, c, 10 superscript -2, centimeter, Cm, 10 superscript -2 m, and fingertip thickness. The twelfth data row contains mili, m, 10 superscript -3, millimeter, Mm, 10 superscript -3 m, and flea at its shoulder. The thirteenth data row contains micro, mau, 10 superscript -6, micrometer, mau m, 10 superscript -6 m, and detail in microscope. The fourteenth data row contains nano, n, 10 superscript -9, nanogram, Ng, 10 superscript -9 G, and small speck of dust. The fifteenth data row contains pico, p, 10 superscript -12, picofarad, pF, 10 superscript -12 F, and small capacitor in radio. The sixteenth data row contains femto, f, 10 superscript -15, femtometer, Fm, 10 superscript -15 m, and size of a proton. The final data row contains atto, a, 10 superscript -18, attosecond, as, 10 superscript -18 s, and time light takes to cross an atom."><title>Metric Prefixes for Powers of 10 and Their Symbols</title>
+<tgroup cols="7"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<colspec colnum="6" colname="c6"/>
+<colspec colnum="7" colname="c7"/>
+<thead>
+<row>
+<entry>Prefix</entry>
+<entry>Symbol</entry>
+<entry>Value[1]</entry>
+<entry align="center">Example Name</entry>
+<entry>Example Symbol</entry>
+<entry>Example Value</entry>
+<entry>Example Description</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>exa</entry>
+<entry>E</entry>
+<entry>10<sup>18</sup></entry>
+<entry>Exameter</entry>
+<entry>Em</entry>
+<entry>10<sup>18</sup> m</entry>
+<entry>Distance light travels in a century</entry>
+</row>
+<row>
+<entry>peta</entry>
+<entry>P</entry>
+<entry>10<sup>15</sup></entry>
+<entry>Petasecond</entry>
+<entry>Ps</entry>
+<entry>10<sup>15</sup> s</entry>
+<entry>30 million years</entry>
+</row>
+<row>
+<entry>tera</entry>
+<entry>T</entry>
+<entry>10<sup>12</sup></entry>
+<entry>Terawatt</entry>
+<entry>TW</entry>
+<entry>10<sup>12</sup> W</entry>
+<entry>Powerful laser output</entry>
+</row>
+<row>
+<entry>giga</entry>
+<entry>G</entry>
+<entry>10<sup>9</sup></entry>
+<entry>Gigahertz</entry>
+<entry>GHz</entry>
+<entry>10<sup>9</sup> Hz</entry>
+<entry>A microwave frequency</entry>
+</row>
+<row>
+<entry>mega</entry>
+<entry>M</entry>
+<entry>10<sup>6</sup></entry>
+<entry>Megacurie</entry>
+<entry>MCi</entry>
+<entry>10<sup>6</sup> Ci</entry>
+<entry>High radioactivity</entry>
+</row>
+<row>
+<entry>kilo</entry>
+<entry>k</entry>
+<entry>10<sup>3</sup></entry>
+<entry>Kilometer</entry>
+<entry>km</entry>
+<entry>10<sup>3</sup> m</entry>
+<entry>About 6/10 mile</entry>
+</row>
+<row>
+<entry>hector</entry>
+<entry>h</entry>
+<entry>10<sup>2</sup></entry>
+<entry>Hectoliter</entry>
+<entry>hL</entry>
+<entry>10<sup>2</sup> L</entry>
+<entry>26 gallons</entry>
+</row>
+<row>
+<entry>deka</entry>
+<entry>da</entry>
+<entry>10<sup>1</sup></entry>
+<entry>Dekagram</entry>
+<entry>dag</entry>
+<entry>10<sup>1</sup> g</entry>
+<entry>Teaspoon of butter</entry>
+</row>
+<row>
+<entry>____</entry>
+<entry>____</entry>
+<entry>10<sup>0</sup> (=1)</entry>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry>deci</entry>
+<entry>d</entry>
+<entry>10<sup>–1</sup></entry>
+<entry>Deciliter</entry>
+<entry>dL</entry>
+<entry>10<sup>–1</sup> L</entry>
+<entry>Less than half a soda</entry>
+</row>
+<row>
+<entry>centi</entry>
+<entry>c</entry>
+<entry>10<sup>–2</sup></entry>
+<entry>Centimeter</entry>
+<entry>cm</entry>
+<entry>10<sup>–2</sup> m</entry>
+<entry>Fingertip thickness</entry>
+</row>
+<row>
+<entry>milli</entry>
+<entry>m</entry>
+<entry>10<sup>–3</sup></entry>
+<entry>Millimeter</entry>
+<entry>mm</entry>
+<entry>10<sup>–3</sup> m</entry>
+<entry>Flea at its shoulder</entry>
+</row>
+<row>
+<entry>micro</entry>
+<entry>µ</entry>
+<entry>10<sup>–6</sup></entry>
+<entry>Micrometer</entry>
+<entry>µm</entry>
+<entry>10<sup>–6</sup> m</entry>
+<entry>Detail in microscope</entry>
+</row>
+<row>
+<entry>nano</entry>
+<entry>n</entry>
+<entry>10<sup>–9</sup></entry>
+<entry>Nanogram</entry>
+<entry>ng</entry>
+<entry>10<sup>–9</sup> g</entry>
+<entry>Small speck of dust</entry>
+</row>
+<row>
+<entry>pico</entry>
+<entry>p</entry>
+<entry>10<sup>–12</sup></entry>
+<entry>Picofarad</entry>
+<entry>pF</entry>
+<entry>10<sup>–12</sup> F</entry>
+<entry>Small capacitor in radio</entry>
+</row>
+<row>
+<entry>femto</entry>
+<entry>f</entry>
+<entry>10<sup>–15</sup></entry>
+<entry>Femtometer</entry>
+<entry>fm</entry>
+<entry>10<sup>–15</sup> m</entry>
+<entry>Size of a proton</entry>
+</row>
+<row>
+<entry>atto</entry>
+<entry>a</entry>
+<entry>10<sup>–18</sup></entry>
+<entry>Attosecond</entry>
+<entry>as</entry>
+<entry>10<sup>–18</sup> s</entry>
+<entry>Time light takes to cross an atom</entry>
+</row>
+</tbody>
+
+</tgroup><caption>[1]See <link document="m54602">Appendix A</link> for a discussion of powers of 10.
+<newline/>Note—Some examples are approximate.</caption>
+</table><para id="fs-id1167065764041">The <term class="no-emphasis">metric system</term> is convenient because conversions between <term class="no-emphasis">metric units</term> can be done simply by moving the decimal place of a number. This is because the metric prefixes are sequential powers of 10. There are 100 centimeters in a meter, 1000 meters in a kilometer, and so on. In nonmetric systems, such as <term class="no-emphasis">U.S. customary units</term>, the relationships are less simple—there are 12 inches in a foot, 5,280 feet in a mile, 4 quarts in a gallon, and so on. Another advantage of the metric system is that the same unit can be used over extremely large ranges of values simply by switching to the most-appropriate metric prefix. For example, distances in meters are suitable for building construction, but kilometers are used to describe road construction. Therefore, with the metric system, there is no need to invent new units when measuring very small or very large objects—you just have to move the decimal point (and use the appropriate prefix).</para>
+
+</section><section id="fs-id1167065864478">
+<title>Known Ranges of Length, Mass, and Time</title>
+<para id="fs-id1167065875885"><link target-id="Table_01_03_Units"/> lists known lengths, masses, and time measurements. You can see that scientists use a range of measurement units. This wide range demonstrates the vastness and complexity of the universe, as well as the breadth of phenomena physicists study. As you examine this table, note how the metric system allows us to discuss and compare an enormous range of phenomena, using one system of measurement (<link target-id="Figure_01_03_plankton"/> and <link target-id="Figure_01_03_stars"/>).</para><table id="Table_01_03_Units" summary="A six column, seventeen row table is shown. In the header row, the first two cells are merged, the third and fourth cells are merged, and the fifth and sixth cells are merged. They contain Lengths in Meters, Masses in Kilogram (more precise values in parentheses), and Times in Seconds (more precise values in parentheses. The first data row contains 10 to the negative eighteenth power, present experimental limit to smallest observable detail, 10 to the negative thirtieth power, mass of an electron (9.11 times 10 to the negative thirty-first kilograms), 10 to the negative twenty-third power, and time for light to cross a proton. The second data row contains 10 to the negative fifteenth power, Diameter of a proton, 10 to the negative twenty-seventh power, mass of an hydrogen atom (1.67 times 10 to the negative twenty-seventh kilograms), 10 to the negative twenty-second power, and mean life of an extremely unstable nucleus. The third data row contains 10 to the negative fourteenth power, diameter of a uranium nucleus, 10 to the negative fifteenth power, mass of a bacterium, 10 to the negative fifteenth power, and time for one oscillation of a visible light. The fourth data row contains 10 to the negative tenth power, diameter of a hydrogen atom, 10 to the negative fifth power, mass of a mosquito, 10 to the negative thirteenth power, and time for one vibration of an atom in a solid. The fifth data row contains 10 to the negative eighth power, thickness of membranes in cell of living organism, 10 to the negative second power, mass of a hummingbird, 10 to the negative eighth, and time for one oscillation of an FM radio wave. The sixth data row contains 10 to the negative sixth power, wavelength of visible light, 1, mass of a liter of water (about a quart), 10 to the negative third, and duration of a nerve impulse. The seventh data row contains 10 to the negative third power, size of a grain of sand, 10 to the second power, mass of a person, 1, and time for one heartbeat. The eighth data row contains 1, height of a 4 year-old child, 10 to the third power, mass of a car, 10 to the fifth power, and one day (8.64 times 10 to the fourth power s). The ninth data row contains 10 to the second power, length of a football field, 10 to the eighth power, mass of a large ship, 10 to the seventh power, and one year (y) (3.16 times 10 to the seventh s). The tenth data row contains 10 to the fourth power, greatest ocean depth, 10 to the twelfth power, mass of a large iceberg, 10 to the ninth power, and about half the life expectancy of a human. The eleventh data row contains 10 to the seventh power, diameter of the earth, 10 to the fifteenth power, mass of the nucleus of a comet, 10 to the eleventh power, and recorded history. The twelfth data row contains 10 to the eleventh power, distance from the earth to the sun, 10 to the twenty-third power, mass of the moon (7.35 times 10 to the twenty-second kg), 10 to the seventeenth power, and age of the Earth. The thirteenth data row contains 10 to the sixteenth power, distance traveled by light in 1 year (a light year), 10 to the twenty-fifth power, mass of earth (5.97 times 10 to the twenty-fourth kg), 10 to the eighteenth power, and age of the universe. The fourteenth data row contains 10 to the twenty-first power, diameter of the milky way galaxy, 10 to the thirtieth power, mass of the sun (1.99 times 10 to the twenty-fourth kg), blank, and blank. The fifteenth data row contains 10 to the twenty-second power, distance from Earth to the nearest large galaxy (Andromeda), 10 to the forty-second power, mass of the Milky Way galaxy (current upper limit), blank, and blank. The final data row contains 10 to the twenty-sixth power, distance from the Earth to the edges of the known universe, 10 to the fifty-third power, mass of the known universe (current upper limit), blank, and blank."><title>Approximate Values of Length, Mass, and Time</title>
+<tgroup cols="6"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<colspec colnum="6" colname="c6"/>
+<thead>
+<row>
+<entry namest="c1">Length (m)</entry>
+<entry>Phenomenon Measured</entry>
+<entry>Mass (Kg)</entry>
+<entry>Phenomenon Measured<sup>[1]</sup></entry>
+<entry>Time (s)</entry>
+<entry>Phenomenon Measured<sup>[1]</sup></entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>10<sup>–18</sup></entry>
+<entry>Present experimental limit to smallest observable detail</entry>
+<entry>10<sup>–30</sup></entry>
+<entry>Mass of an electron (9.11  <m:math><m:mo>×</m:mo></m:math>  10<sup>–31</sup> kg)</entry>
+<entry>10<sup>–23</sup></entry>
+<entry>Time for light to cross a proton</entry>
+</row>
+<row>
+<entry>10<sup>–15</sup></entry>
+<entry>Diameter of a proton</entry>
+<entry>10<sup>–27</sup></entry>
+<entry>Mass of a hydrogen atom (1.67  <m:math><m:mo>×</m:mo></m:math>  10<sup>–27</sup> kg)</entry>
+<entry>10<sup>–22</sup></entry>
+<entry>Mean life of an extremely unstable nucleus</entry>
+</row>
+<row>
+<entry>10<sup>–14</sup></entry>
+<entry>Diameter of a uranium nucleus</entry>
+<entry>10<sup>–15</sup></entry>
+<entry>Mass of a bacterium</entry>
+<entry>10<sup>–15</sup></entry>
+<entry>Time for one oscillation of a visible light</entry>
+</row>
+<row>
+<entry>10<sup>–10</sup></entry>
+<entry>Diameter of a hydrogen atom</entry>
+<entry>10<sup>–5</sup></entry>
+<entry>Mass of a mosquito</entry>
+<entry>10<sup>–13</sup></entry>
+<entry>Time for one vibration of an atom in a solid</entry>
+</row>
+<row>
+<entry>10<sup>–8</sup></entry>
+<entry>Thickness of membranes in cell of living organism</entry>
+<entry>10<sup>–2</sup></entry>
+<entry>Mass of a hummingbird</entry>
+<entry>10<sup>–8</sup></entry>
+<entry>Time for one oscillation of an FM radio wave</entry>
+</row>
+<row>
+<entry>10<sup>–6</sup></entry>
+<entry>Wavelength of visible light</entry>
+<entry>1</entry>
+<entry>Mass of a liter of water (about a quart)</entry>
+<entry>10<sup>–3</sup></entry>
+<entry>Duration of a nerve impulse</entry>
+</row>
+<row>
+<entry>10<sup>–3</sup></entry>
+<entry>Size of a grain of sand</entry>
+<entry>10<sup>2</sup></entry>
+<entry>Mass of a person</entry>
+<entry>1</entry>
+<entry>Time for one heartbeat</entry>
+</row>
+<row>
+<entry>1</entry>
+<entry>Height of a 4-year-old child</entry>
+<entry>10<sup>3</sup></entry>
+<entry>Mass of a car</entry>
+<entry>10<sup>5</sup></entry>
+<entry>One day (8.64  <m:math><m:mo>×</m:mo></m:math>  10<sup>4</sup> s)</entry>
+</row>
+<row>
+<entry>10<sup>2</sup></entry>
+<entry>Length of a football field</entry>
+<entry>10<sup>8</sup></entry>
+<entry>Mass of a large ship</entry>
+<entry>10<sup>7</sup></entry>
+<entry>One year (3.16  <m:math><m:mo>×</m:mo></m:math>  10<sup>7</sup> s)</entry>
+</row>
+<row>
+<entry>10<sup>4</sup></entry>
+<entry>Greatest ocean depth</entry>
+<entry>10<sup>12</sup></entry>
+<entry>Mass of a large iceberg</entry>
+<entry>10<sup>9</sup></entry>
+<entry>About half the life expectancy of a human</entry>
+</row>
+<row>
+<entry>10<sup>7</sup></entry>
+<entry>Diameter of Earth</entry>
+<entry>10<sup>15</sup></entry>
+<entry>Mass of the nucleus of a comet</entry>
+<entry>10<sup>11</sup></entry>
+<entry>Recorded history</entry>
+</row>
+<row>
+<entry>10<sup>11</sup></entry>
+<entry>Distance from Earth to the sun</entry>
+<entry>10<sup>23</sup></entry>
+<entry>Mass of the moon (7.35  <m:math><m:mo>×</m:mo></m:math>  10<sup>22</sup> kg)</entry>
+<entry>10<sup>17</sup></entry>
+<entry>Age of Earth</entry>
+</row>
+<row>
+<entry>10<sup>16</sup></entry>
+<entry>Distance traveled by light in 1 year (a light year)</entry>
+<entry>10<sup>25</sup></entry>
+<entry>Mass of Earth (5.97  <m:math><m:mo>×</m:mo></m:math>  10<sup>24</sup> kg)</entry>
+<entry>10<sup>18</sup></entry>
+<entry>Age of the universe</entry>
+</row>
+<row>
+<entry>10<sup>21</sup></entry>
+<entry>Diameter of the Milky Way Galaxy</entry>
+<entry>10<sup>30</sup></entry>
+<entry>Mass of the Sun (1.99  <m:math><m:mo>×</m:mo></m:math>  10<sup>24</sup> kg)</entry>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry>10<sup>22</sup></entry>
+<entry>Distance from Earth to the nearest large galaxy (Andromeda)</entry>
+<entry>10<sup>42</sup></entry>
+<entry>Mass of the Milky Way galaxy (current upper limit)</entry>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry>10<sup>26</sup></entry>
+<entry>Distance from Earth to the edges of the known universe</entry>
+<entry>10<sup>53</sup></entry>
+<entry>Mass of the known universe (current upper limit)</entry>
+<entry/>
+<entry/>
+</row>
+</tbody>
+
+
+</tgroup><caption>[1] More precise values are in parentheses.</caption>
+</table><figure id="Figure_01_03_plankton"><media id="fs-id1167065838147" alt="A photograph shows tiny plankton floating in water. They range in shape and size, from a few micrometers to as much as 2 millimeters in length.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_01_03_plankton.jpg"/>
+</media>
+
+<caption>Tiny phytoplankton float among crystals of ice in the Antarctic Sea. They range from a few micrometers to as much as 2 millimeters in length. (Prof. Gordon T. Taylor, Stony Brook University; NOAA Corps Collections)</caption></figure><figure id="Figure_01_03_stars"><media id="fs-id1167065878824" alt="An image of colliding galaxies is shown, with bright stars and colors ranging from blue to purple to pink surrounding the galaxies.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_01_03_stars.jpg"/>
+</media>
+
+<caption>Galaxies collide 2.4 billion light years away from Earth. The tremendous range of observable phenomena in nature challenges the imagination. (NASA/CXC/UVic./A. Mahdavi et al. Optical/lensing: CFHT/UVic./H. Hoekstra et al.)</caption></figure></section>
+</section>
+
+<section id="fs-id1167065859418">
+<title>Using Scientific Notation with Physical Measurements</title>
+<para id="fs-id1167065734158"><term>Scientific notation</term> is a way of writing numbers that are too large or small to be conveniently written as a decimal. For example, consider the number 840,000,000,000,000. It’s a rather large number to write out. The scientific notation for this number is 8.40  <m:math><m:mo>×</m:mo></m:math>  10<sup>14</sup>. Scientific notation follows this general format</para>
+<equation id="fs-id1167065873893" class="unnumbered"><label/> <m:math display="block">
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo> </m:mo><m:mtext> </m:mtext><m:mo>×</m:mo><m:mo> </m:mo><m:mtext> </m:mtext><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mi>y</m:mi>
+  </m:msup>
+  <m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</equation><para id="fs-id1167065688865">In this format <emphasis effect="italics">x</emphasis> is the value of the measurement with all placeholder zeros removed. In the example above, <emphasis effect="italics">x</emphasis> is 8.4. The <emphasis effect="italics">x</emphasis> is multiplied by a factor, 10<emphasis effect="italics"><sup>y</sup></emphasis>, which indicates the number of placeholder zeros in the measurement. Placeholder zeros are those at the end of a number that is 10 or greater, and at the beginning of a decimal number that is less than 1. In the example above, the factor is 10<sup>14</sup>. This tells you that you should move the decimal point 14 positions to the right, filling in placeholder zeros as you go. In this case, moving the decimal point 14 places creates only 13 placeholder zeros, indicating that the actual measurement value is 840,000,000,000,000.</para>
+
+<para id="fs-id1167064990356">Numbers that are fractions can be indicated by scientific notation as well. Consider the number 0.0000045. Its scientific notation is 4.5  <m:math><m:mo>×</m:mo></m:math>  10<sup>–6</sup>. Its scientific notation has the same format</para><equation id="fs-id1167065864894" class="unnumbered"><label/> <m:math display="block">
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo> </m:mo><m:mtext> </m:mtext><m:mo>×</m:mo><m:mo> </m:mo><m:mtext> </m:mtext><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mi>y</m:mi>
+  </m:msup>
+  <m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+
+</equation><para id="fs-id1167065955216">Here, <emphasis effect="italics">x</emphasis> is 4.5. However, the value of <emphasis effect="italics">y</emphasis> in the 10<sup><emphasis effect="italics">y</emphasis></sup> factor is negative, which indicates that the measurement is a fraction of 1. Therefore, we move the decimal place to the left, for a negative <emphasis effect="italics">y</emphasis>. In our example of 4.5  <m:math><m:mo>×</m:mo></m:math>  10<sup>–6</sup>, the decimal point would be moved to the left six times to yield the original number, which would be 0.0000045.</para><para id="fs-id1167065985768">The term <term>order of magnitude</term> refers to the power of 10 when numbers are expressed in scientific notation. Quantities that have the same power of 10 when expressed in scientific notation, or come close to it, are said to be of the same order of magnitude. For example, the number 800 can be written as 8  <m:math><m:mo>×</m:mo></m:math>  10<sup>2</sup>, and the number 450 can be written as 4.5  <m:math><m:mo>×</m:mo></m:math>  10<sup>2</sup>. Both numbers have the same value for <emphasis effect="italics">y</emphasis>. Therefore, 800 and 450 are of the same order of magnitude. Similarly, 101 and 99 would be regarded as the same order of magnitude, 10<sup>2</sup>. Order of magnitude can be thought of as a ballpark estimate for the scale of a value. The diameter of an atom is on the order of 10<sup>−9</sup> m, while the diameter of the sun is on the order of 10<sup>9</sup> m. These two values are 18 orders of magnitude apart.</para><para id="fs-id1167066039514">Scientists make frequent use of scientific notation because of the vast range of physical measurements possible in the universe, such as the distance from Earth to the moon (<link target-id="Figure_01_03_world"/>), or to the nearest star.</para><figure id="Figure_01_03_world"><media id="fs-id1167065979933" alt="A photograph taken from the moon shows Earth in the distance.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_01_03_world.jpg"/>
+</media>
+
+<caption>The distance from Earth to the moon may seem immense, but it is just a tiny fraction of the distance from Earth to our closest neighboring star. (NASA)</caption></figure><section id="fs-id1167065739737">
+<title>Unit Conversion and Dimensional Analysis</title>
+<para id="fs-id1167065972575">It is often necessary to convert from one type of unit to another. For example, if you are reading a European cookbook in the United States, some quantities may be expressed in liters and you need to convert them to cups. A Canadian tourist driving through the United States might want to convert miles to kilometers, to have a sense of how far away his next destination is. A doctor in the United States might convert a patient’s weight in pounds to kilograms.</para><para id="fs-id1167065848457">Let’s consider a simple example of how to convert units within the metric system. How can we convert 1 hour to seconds?</para><para id="fs-id1167065823461">First, we need to determine a conversion factor. A <term>conversion factor</term> is a ratio expressing how many of one unit are equal to another unit. A conversion factor is simply a fraction which equals 1. You can multiply any number by 1 and get the same value. When you multiply a number by a conversion factor, you are simply multiplying it by one. For example, the following are conversion factors: (1 foot)/(12 inches) = 1 to convert inches to feet, (1 meter)/(100 centimeters) = 1 to convert centimeters to meters, (1 minute)/(60 seconds) = 1 to convert seconds to minutes.</para><para id="fs-id1167064911606">Now we can set up our unit conversion. We will write the units that we have and then multiply them by the conversion factor (1 km/1,000m) = 1, so we are simply multiplying 80m by 1:</para>
+
+<equation id="fs-id1167065765414"><label/> <m:math display="block">
+ <m:mrow>
+  <m:mtext>1 </m:mtext><m:menclose notation="updiagonalstrike">
+   <m:mtext>h</m:mtext>
+  </m:menclose>
+  <m:mtext> × </m:mtext><m:mfrac>
+   <m:mrow>
+    <m:mtext>60 </m:mtext><m:menclose notation="updiagonalstrike">
+     <m:mrow>
+      <m:mtext>min</m:mtext>
+     </m:mrow>
+    </m:menclose>
+
+   </m:mrow>
+   <m:mrow>
+    <m:mtext>1 </m:mtext><m:menclose notation="updiagonalstrike">
+     <m:mtext>h</m:mtext>
+    </m:menclose>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:mtext> × </m:mtext><m:mfrac>
+   <m:mrow>
+    <m:mtext>60 s</m:mtext>
+   </m:mrow>
+   <m:mrow>
+    <m:mtext>1 </m:mtext><m:menclose notation="updiagonalstrike">
+     <m:mrow>
+      <m:mtext>min</m:mtext>
+     </m:mrow>
+    </m:menclose>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:mtext>=3600 s = 3</m:mtext><m:msup>
+   <m:mrow>
+    <m:mtext>.6 × 10</m:mtext>
+   </m:mrow>
+   <m:mtext>2</m:mtext>
+  </m:msup>
+  <m:mtext> s</m:mtext>
+ </m:mrow>
+</m:math>
+
+</equation><para id="fs-id1167065887163">When there is a unit in the original number, and a unit in the denominator (bottom) of the conversion factor, the units cancel. In this case, hours and minutes cancel and the value in seconds remains.</para>
+
+<para id="fs-id1167066145450">You can use this method to convert between any types of unit, including between the U.S. customary system and metric system. Notice also that, although you can multiply and divide units algebraically, you cannot add or subtract different units. An expression like <emphasis effect="italics">10 km + 5 kg</emphasis> makes no sense. Even adding two lengths in different units, such as <emphasis effect="italics">10 km + 20 m</emphasis> does not make sense. You express both lengths in the same unit. See Appendix C for a more complete list of conversion factors.</para>
+
+<note id="fs-id1167065892266" class="worked-example">
+
+<title>Unit Conversions: A Short Drive Home</title>
+<exercise id="fs-id1167066031085" class="01-ex051 unnumbered"><label/>
+<problem id="fs-id1167065826144"><para id="fs-id1167065843271">Suppose that you drive the 10.0 km from your university to home in 20.0 min. Calculate your average speed (a) in kilometers per hour (km/h) and (b) in meters per second (m/s). (Note—Average speed is distance traveled divided by time of travel.)</para>
+<note id="fs-id1167065871414">
+<label/>
+<title>Strategy</title>
+<para id="fs-id1167065850460">First we calculate the average speed using the given units. Then we can get the average speed into the desired units by picking the correct conversion factor and multiplying by it. The correct conversion factor is the one that cancels the unwanted unit and leaves the desired unit in its place.</para>
+</note>
+</problem>
+<solution id="fs-id1167065770710"><label/>
+<title>Solution for (a)</title>
+<list id="fs-id1167065882786" list-type="enumerated" number-style="arabic">
+<item><para id="fs-id1167065746896">Calculate average speed. Average speed is distance traveled divided by time of travel. (Take this definition as a given for now—average speed and other motion concepts will be covered in a later module.) In equation form,</para>
+
+<equation id="fs-id1167065950563" class="unnumbered"><label/> <m:math>
+ <m:mrow>
+  <m:mtext>average speed = </m:mtext><m:mfrac>
+   <m:mrow>
+    <m:mtext>distance</m:mtext>
+   </m:mrow>
+   <m:mrow>
+    <m:mtext>time</m:mtext>
+   </m:mrow>
+  </m:mfrac>
+  <m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math>
+
+</equation></item>
+<item><para id="fs-id1167066036151">Substitute the given values for distance and time.</para>
+<equation id="fs-id1167065687764" class="unnumbered"><label/> <m:math>
+ <m:mrow>
+  <m:mtext>average speed = </m:mtext><m:mfrac>
+   <m:mrow>
+    <m:mn>10.0</m:mn><m:mspace width="0.3em"/><m:mtext> km</m:mtext></m:mrow>
+   <m:mrow>
+    <m:mn>20.0</m:mn><m:mspace width="0.3em"/><m:mtext> min</m:mtext></m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>0.500</m:mn><m:mspace width="0.3em"/><m:mtext> </m:mtext><m:mfrac>
+   <m:mrow>
+    <m:mtext>km</m:mtext></m:mrow>
+   <m:mrow>
+    <m:mtext>min</m:mtext></m:mrow>
+  </m:mfrac>
+  </m:mrow>
+</m:math>
+</equation></item>
+<item><para id="fs-id1167065821657">Convert km/min to km/h: multiply by the conversion factor that will cancel minutes and leave hours. That conversion factor is  <m:math>
+ <m:mrow>
+  <m:mn>60</m:mn><m:mspace width="0.3em"/><m:mtext>min/1</m:mtext><m:mtext>h</m:mtext></m:mrow>
+</m:math> . Thus,</para>
+    <equation id="fs-id1167065757893" class="unnumbered"><label/> <m:math display="block">
+ <m:mrow>
+  <m:mtext>average speed = </m:mtext><m:mn>0.500</m:mn><m:mspace width="0.3em"/><m:mtext> </m:mtext><m:mfrac>
+   <m:mrow>
+    <m:mtext>km</m:mtext></m:mrow>
+   <m:mrow>
+    <m:mtext>min</m:mtext></m:mrow>
+  </m:mfrac>
+  <m:mo>×</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>60</m:mn><m:mspace width="0.3em"/><m:mtext> min</m:mtext></m:mrow>
+   <m:mrow>
+    <m:mn>1</m:mn><m:mspace width="0.3em"/><m:mtext> h</m:mtext></m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>30.0</m:mn><m:mspace width="0.3em"/><m:mtext> </m:mtext><m:mfrac>
+   <m:mrow>
+    <m:mtext>km</m:mtext></m:mrow>
+   <m:mtext>h</m:mtext>
+  </m:mfrac>
+  <m:mo>.</m:mo></m:mrow>
+</m:math>
+    </equation></item>
+</list>
+</solution>
+<commentary id="fs-id1167065885406">
+<title>Discussion for (a)</title>
+<para id="fs-id1167065684415">To check your answer, consider the following:</para>
+<list id="fs-id1167065859688" list-type="enumerated" number-style="arabic">
+<item><para id="fs-id1167065953813">Be sure that you have properly cancelled the units in the unit conversion. If you have written the unit conversion factor upside down, the units will not cancel properly in the equation. If you accidentally get the ratio upside down, then the units will not cancel; rather, they will give you the wrong units as follows</para>
+<equation id="fs-id1167065882598" class="unnumbered"><label/> <m:math display="block">
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mtext>km</m:mtext>
+   </m:mrow>
+   <m:mrow>
+    <m:mtext>min</m:mtext>
+   </m:mrow>
+  </m:mfrac>
+  <m:mtext> × </m:mtext><m:mfrac>
+   <m:mrow>
+    <m:mtext>1 hr</m:mtext>
+   </m:mrow>
+   <m:mrow>
+    <m:mtext>60 min</m:mtext>
+   </m:mrow>
+  </m:mfrac>
+  <m:mtext> = </m:mtext><m:mfrac>
+   <m:mtext>1</m:mtext>
+   <m:mrow>
+    <m:mtext>60</m:mtext>
+   </m:mrow>
+  </m:mfrac>
+  <m:mfrac>
+   <m:mrow>
+    <m:mtext>km·h</m:mtext>
+   </m:mrow>
+   <m:mrow>
+    <m:msup>
+     <m:mrow>
+      <m:mtext>min</m:mtext>
+     </m:mrow>
+     <m:mtext>2</m:mtext>
+    </m:msup>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>,</m:mo>
+ </m:mrow>
+</m:math>
+
+</equation><para id="fs-id1167066085456">which are obviously not the desired units of km/h.</para>
+</item>
+<item>Check that the units of the final answer are the desired units. The problem asked us to solve for average speed in units of km/h and we have indeed obtained these units.</item>
+<item>Check the significant figures. Because each of the values given in the problem has three significant figures, the answer should also have three significant figures. The answer 30.0 km/h does indeed have three significant figures, so this is appropriate. Note that the significant figures in the conversion factor are not relevant because an hour is <emphasis effect="italics">defined</emphasis> to be 60 min, so the precision of the conversion factor is perfect.</item>
+<item>Next, check whether the answer is reasonable. Let us consider some information from the problem—if you travel 10 km in a third of an hour (20 min), you would travel three times that far in an hour. The answer does seem reasonable.</item>
+</list>
+</commentary>
+
+</exercise>
+<exercise id="fs-id1167065851296" class="unnumbered"><label/>
+<problem id="fs-id1167065739602"><para id="fs-id1167065739603"/></problem>
+<solution id="fs-id1167065976319"><label/>
+<title>Solution (b)</title>
+<para id="fs-id1167065863376">There are several ways to convert the average speed into meters per second.</para>
+<list id="fs-id1167065919410" list-type="enumerated" number-style="arabic">
+<item>Start with the answer to (a) and convert km/h to m/s. Two conversion factors are needed—one to convert hours to seconds, and another to convert kilometers to meters.</item>
+<item><para id="fs-id1167065840971">Multiplying by these yields</para>
+<equation id="fs-id1167065863455" class="unnumbered"><label/> <m:math>
+ <m:mrow>
+  <m:mtext>Average</m:mtext><m:mtext>speed</m:mtext><m:mo>=</m:mo><m:mn>30.0</m:mn><m:mfrac>
+   <m:mrow>
+    <m:mtext>km</m:mtext></m:mrow>
+   <m:mtext>h</m:mtext>
+  </m:mfrac>
+  <m:mo>×</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>1</m:mn><m:mspace width="0.3em"/><m:mtext> h</m:mtext></m:mrow>
+   <m:mrow>
+    <m:mtext>3,600 s</m:mtext></m:mrow>
+  </m:mfrac>
+  <m:mo>×</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>1</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mspace width="0.3em"/><m:mtext> m</m:mtext></m:mrow>
+   <m:mrow>
+    <m:mtext>1 km</m:mtext></m:mrow>
+  </m:mfrac>
+  </m:mrow>
+</m:math>
+</equation><equation id="fs-id1167065893818" class="unnumbered"><label/>
+ <m:math>
+ <m:mrow>
+  <m:mtext>Average</m:mtext><m:mtext>speed</m:mtext><m:mo>=</m:mo><m:mn>8.33</m:mn><m:mfrac>
+   <m:mtext>m</m:mtext>
+   <m:mtext>s</m:mtext>
+  </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</equation>
+</item>
+
+</list>
+</solution>
+<commentary id="fs-id1167065738642">
+<title>Discussion for (b)</title>
+<para id="fs-id1167066040946">If we had started with 0.500 km/min, we would have needed different conversion factors, but the answer would have been the same: 8.33 m/s.</para>
+<para id="fs-id1167065763102">You may have noted that the answers in the worked example just covered were given to three digits. Why? When do you need to be concerned about the number of digits in something you calculate? Why not write down all the digits your calculator produces?</para>
+</commentary>
+</exercise>
+</note>
+<note id="fs-id1169313892196" class="worked-example">
+
+<title>Using Physics to Evaluate Promotional Materials</title>
+<para id="fs-id1169317640833">A commemorative coin that is 2″ in diameter is advertised to be plated with 15 mg of gold. If the density of gold is 19.3 g/cc, and the amount of gold around the edge of the coin can be ignored, what is the thickness of the gold on the top and bottom faces of the coin?</para>
+<exercise id="fs-id1169316255554" class="01-ex052 unnumbered"><label/>
+<problem id="fs-id1169317387135">
+<note id="fs-id1169317493694">
+<label/>
+<title>Strategy</title>
+<para id="fs-id1169317350280">To solve this problem, the volume of the gold needs to be determined using the gold’s mass and density. Half of that volume is distributed on each face of the coin, and, for each face, the gold can be represented as a cylinder that is 2″ in diameter with a height equal to the thickness. Use the volume formula for a cylinder to determine the thickness.</para>
+</note>
+</problem>
+<solution id="fs-id1169317523426">
+<label/>
+<title>Solution</title>
+<para id="fs-id1169317507498">The mass of the gold is given by the formula  <m:math display="block">
+<m:mrow>
+  <m:mi>m</m:mi><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mn>15</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>3</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mspace width="0.5em"/><m:mtext>g,</m:mtext>
+ </m:mrow>
+</m:math>
+ where  <m:math display="block">
+ <m:mrow>
+  <m:mi>ρ</m:mi><m:mo>=</m:mo><m:mn>19.3</m:mn><m:mspace width="0.5em"/><m:mtext>g/cc</m:mtext>
+ </m:mrow>
+</m:math>
+ and <emphasis effect="italics">V</emphasis> is the volume. Solving for the volume gives  <m:math display="block">
+ <m:mrow>
+  <m:mi>V</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mi>m</m:mi>
+   <m:mi>ρ</m:mi>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>15</m:mn><m:mo>×</m:mo><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn>
+     </m:mrow>
+     <m:mrow>
+      <m:mo>−</m:mo><m:mn>3</m:mn>
+     </m:mrow>
+    </m:msup><m:mspace width="0.5em"/>
+    <m:mtext>g</m:mtext>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>19.3</m:mn><m:mspace width="0.5em"/><m:mtext>g/cc</m:mtext>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>≅</m:mo><m:mn>7.8</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>4</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mspace width="0.5em"/><m:mtext>cc.</m:mtext>
+ </m:mrow>
+</m:math> </para><para id="fs-id1169314296925">If <emphasis effect="italics">t</emphasis> is the thickness, the volume corresponding to half the gold is  <m:math display="block">
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>7.8</m:mn><m:mo>×</m:mo><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn>
+     </m:mrow>
+     <m:mrow>
+      <m:mo>−</m:mo><m:mn>4</m:mn>
+     </m:mrow>
+    </m:msup>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>π</m:mi><m:msup>
+   <m:mi>r</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>t</m:mi><m:mo>=</m:mo><m:mi>π</m:mi><m:msup>
+   <m:mrow>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mn>2.54</m:mn>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>t,</m:mi>
+ </m:mrow>
+</m:math>
+ where the 1″ radius has been converted to cm. Solving for the thickness gives  <m:math display="block">
+ <m:mrow>
+  <m:mi>t</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mn>3.9</m:mn><m:mo>×</m:mo><m:msup>
+       <m:mrow>
+        <m:mn>10</m:mn>
+       </m:mrow>
+       <m:mrow>
+        <m:mo>−</m:mo><m:mn>4</m:mn>
+       </m:mrow>
+      </m:msup>
+
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+   <m:mrow>
+    <m:mi>π</m:mi><m:msup>
+     <m:mrow>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mn>2.54</m:mn>
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow>
+     </m:mrow>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>≅</m:mo><m:mn>1.9</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>5</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mspace width="0.5em"/><m:mtext>cm</m:mtext><m:mo>=</m:mo><m:mn>0.00019 mm.</m:mn>
+ </m:mrow>
+</m:math> </para></solution>
+<commentary id="fs-id1169317492564">
+<title>Discussion</title>
+<para id="fs-id1169317330449">The amount of gold used is stated to be 15 mg, which is equivalent to a thickness of about 0.00019 mm. The mass figure may make the amount of gold sound larger, both because the number is much bigger (15 versus 0.00019), and because people may have a more intuitive feel for how much a millimeter is than for how much a milligram is. A simple analysis of this sort can clarify the significance of claims made by advertisers.</para>
+</commentary>
+</exercise>
+</note>
+<note id="fs-id1169317495618" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1169314179073">Ask students to find other promotional materials that make claims that can be analyzed using physics principles. Compile any items that come in for later use at appropriate points in the course. For example, after covering power consumption in electric circuits, compare the performance of electric fireplaces advertised as <emphasis effect="italics">revolutionary</emphasis> to the performance of standard space heaters.</para>
+</note>
+</section>
+</section>
+<section id="fs-id1167066086197">
+<title>Accuracy, Precision and Significant Figures</title>
+<para id="fs-id1167066032989">Science is based on experimentation that requires good measurements. The validity of a measurement can be described in terms of its accuracy and its precision (see <link target-id="Figure_01_03_pan"/> and <link target-id="Figure_01_03_balance"/>). <term>Accuracy</term> is how close a measurement is to the correct value for that measurement. For example, let us say that you are measuring the length of standard piece of printer paper. The packaging in which you purchased the paper states that it is 11 inches long, and suppose this stated value is correct. You measure the length of the paper three times and obtain the following measurements: 11.1 inches, 11.2 inches, and 10.9 inches. These measurements are quite accurate because they are very close to the correct value of 11.0 inches. In contrast, if you had obtained a measurement of 12 inches, your measurement would not be very accurate. This is why measuring instruments are calibrated based on a known measurement. If the instrument consistently returns the correct value of the known measurement, it is safe for use in finding unknown values.</para>
+
+<figure id="Figure_01_03_pan"><media id="fs-id1167066086034" alt="A double-pan mechanical balance is shown. A metal mass is sitting in the left pan.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_01_03_pan.jpg"/>
+</media>
+
+<caption>A double-pan mechanical balance is used to compare different masses. Usually an object with unknown mass is placed in one pan and objects of known mass are placed in the other pan. When the bar that connects the two pans is horizontal, then the masses in both pans are equal. The known masses are typically metal cylinders of standard mass such as 1 gram, 10 grams, and 100 grams. (Serge Melki)</caption></figure><figure id="Figure_01_03_balance"><media id="fs-id1167065897826" alt="A plastic pen cap is sitting on a digital scale and has a measured mass of 0.98 grams.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_01_03_balance.jpg"/>
+</media>
+
+<caption>Whereas a mechanical balance may only read the mass of an object to the nearest tenth of a gram, some digital scales can measure the mass of an object up to the nearest thousandth of a gram. As in other measuring devices, the precision of a scale is limited to the last measured figures. This is the hundredths place in the scale pictured here. (Splarka, Wikimedia Commons)</caption></figure><para id="fs-id1167065938277"><term>Precision</term> states how well repeated measurements of something generate the same or similar results. Therefore, the precision of measurements refers to how close together the measurements are when you measure the same thing several times. One way to analyze the precision of measurements would be to determine the range, or difference between the lowest and the highest measured values. In the case of the printer paper measurements, the lowest value was 10.9 inches and the highest value was 11.2 inches. Thus, the measured values deviated from each other by, at most, 0.3 inches. These measurements were reasonably precise because they varied by only a fraction of an inch. However, if the measured values had been 10.9 inches, 11.1 inches, and 11.9 inches, then the measurements would not be very precise because there is a lot of variation from one measurement to another.</para>
+
+<para id="fs-id1167065859470">The measurements in the paper example are both accurate and precise, but in some cases, measurements are accurate but not precise, or they are precise but not accurate. Let us consider a GPS system that is attempting to locate the position of a restaurant in a city. Think of the restaurant location as existing at the center of a bull’s-eye target. Then think of each GPS attempt to locate the restaurant as a black dot on the bull’s eye.</para>
+
+<para id="fs-id1167065771045">In <link target-id="Figure_01_03_target_accuracy"/>, you can see that the GPS measurements are spread far apart from each other, but they are all relatively close to the actual location of the restaurant at the center of the target. This indicates a low precision, high accuracy measuring system. However, in <link target-id="Figure_01_03_target_precision"/>, the GPS measurements are concentrated quite closely to one another, but they are far away from the target location. This indicates a high precision, low accuracy measuring system. Finally, in <link target-id="Figure_01_03_target_both"/>, the GPS is both precise and accurate, allowing the restaurant to be located.</para>
+
+<figure id="Figure_01_03_target_accuracy"><media id="fs-id1167065961078" alt="A red target is shown with four dots that are spread out around the outer center ring, or bull's eye. The dots represent attempts by a GPS system to locate a restaurant at the center of the bull’s-eye. The dots are spread out quite far apart from one another, indicating low precision, but they are each rather close to the actual location of the restaurant, indicating high accuracy.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_01_03_targetaccu.jpg"/>
+</media>
+
+<caption>A GPS system attempts to locate a restaurant at the center of the bull’s-eye. The black dots represent each attempt to pinpoint the location of the restaurant. The dots are spread out quite far apart from one another, indicating low precision, but they are each rather close to the actual location of the restaurant, indicating high accuracy. (Dark Evil)</caption></figure><figure id="Figure_01_03_target_precision"><media id="fs-id1167066030036" alt="A red target is shown with four dots that represent attempts by a GPS system to locate a restaurant at the center of the bull’s-eye. The dots are concentrated close to one another, indicating high precision, but they are rather far away from the actual location of the restaurant, indicating low accuracy.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_01_03_targetprec.jpg"/>
+</media>
+
+<caption>In this figure, the dots are concentrated close to one another, indicating high precision, but they are rather far away from the actual location of the restaurant, indicating low accuracy. (Dark Evil)</caption></figure>
+
+<figure id="Figure_01_03_target_both"><media id="fs-id1167065848157" alt="A red target is shown with four dots that represent attempts by a GPS system to locate a restaurant at the center of the bull’s-eye. The dots are concentrated close to one another, indicating high precision, and they are very close to the actual location of the restaurant, indicating high accuracy.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_01_03_targetboth.jpg"/>
+</media>
+
+<caption>In this figure, the dots are concentrated close to one another, indicating high precision, and they are very close to the actual location of the restaurant, indicating high accuracy. (Dark Evil)</caption></figure><section id="fs-id1167066057188">
+<title>Uncertainty</title>
+<para id="fs-id1167066089234">The accuracy and precision of a measuring system determine the <term>uncertainty</term> of its measurements. Uncertainty is a way to describe how much your measured value deviates from the actual value that the object has. If your measurements are not very accurate or precise, then the uncertainty of your values will be very high. In more general terms, uncertainty can be thought of as a disclaimer for your measured values. For example, if someone asked you to provide the mileage on your car, you might say that it is 45,000 miles, plus or minus 500 miles. The plus or minus amount is the uncertainty in your value. That is, you are indicating that the actual mileage of your car might be as low as 44,500 miles or as high as 45,500 miles, or anywhere in between. All measurements contain some amount of uncertainty. In our example of measuring the length of the paper, we might say that the length of the paper is 11 inches plus or minus 0.2 inches or 11.0 ± 0.2 inches. The uncertainty in a measurement, <emphasis effect="italics">A</emphasis>, is often denoted as <emphasis effect="italics">δA</emphasis> ("delta <emphasis effect="italics">A</emphasis>"),</para>
+<para id="fs-id1167065861362">The factors contributing to uncertainty in a measurement include the following:</para>
+<list id="fs-id1167065822481" list-type="enumerated" number-style="arabic">
+<item>Limitations of the measuring device</item>
+<item>The skill of the person making the measurement</item>
+<item>Irregularities in the object being measured</item>
+<item>Any other factors that affect the outcome (highly dependent on the situation)</item>
+</list>
+<para id="fs-id1167065773751">In the printer paper example uncertainty could be caused by: the fact that the smallest division on the ruler is 0.1 inches, the person using the ruler has bad eyesight, or uncertainty caused by the paper cutting machine (e.g., one side of the paper is slightly longer than the other.) It is good practice to carefully consider all possible sources of uncertainty in a measurement and reduce or eliminate them,</para>
+</section>
+
+<section id="fs-id1167065823046">
+<title>Percent Uncertainty</title>
+<para id="fs-id1167066033689">One method of expressing uncertainty is as a percent of the measured value. If a measurement, <emphasis effect="italics">A</emphasis>, is expressed with uncertainty, δ<emphasis effect="italics">A</emphasis>, the percent uncertainty is</para><equation id="fs-id1167066054845"><label/>
+ <m:math display="block">
+ <m:mrow>
+  <m:mtext>% uncertainty =  </m:mtext><m:mfrac>
+   <m:mrow>
+    <m:mi>δ</m:mi><m:mtext>A</m:mtext>
+   </m:mrow>
+   <m:mtext>A</m:mtext>
+  </m:mfrac>
+  <m:mtext> × 100%</m:mtext><m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math>
+
+</equation>
+
+<note id="fs-id1167066050627" class="worked-example">
+<title>Calculating Percent Uncertainty: A Bag of Apples</title>
+<exercise id="Example_01_02" class="01-ex052 unnumbered"><label/>
+<problem id="fs-id1167065774315">
+<para id="fs-id1167065839569">A grocery store sells 5-lb bags of apples. You purchase four bags over the course of a month and weigh the apples each time. You obtain the following measurements:</para>
+<list id="fs-id1167065848802">
+<item>Week 1 weight:  <m:math>
+ <m:mrow>
+  <m:mn>4.</m:mn><m:mspace width="0.3em"/><m:mtext>8</m:mtext><m:mtext>lb</m:mtext></m:mrow>
+</m:math>
+</item>
+<item>Week 2 weight:  <m:math>
+ <m:mrow>
+  <m:mn>5.3</m:mn><m:mspace width="0.3em"/><m:mtext>lb</m:mtext></m:mrow>
+</m:math> </item>
+<item>Week 3 weight:  <m:math>
+ <m:mrow>
+  <m:mn>4.</m:mn><m:mspace width="0.3em"/><m:mtext>9</m:mtext><m:mtext>lb</m:mtext></m:mrow>
+</m:math>
+</item>
+<item>Week 4 weight:  <m:math>
+ <m:mrow>
+  <m:mn>5.4</m:mn><m:mspace width="0.3em"/><m:mtext>lb</m:mtext></m:mrow>
+</m:math> </item>
+</list>
+<para id="fs-id1167065949526">You determine that the weight of the 5 lb bag has an uncertainty of ±0.4 lb. What is the percent uncertainty of the bag’s weight?</para><note id="fs-id1167065850982"><label/><title>Strategy</title>
+<para id="fs-id1167065866955">First, observe that the expected value of the bag’s weight,  <m:math><m:mi>A</m:mi></m:math>, is 5 lb. The uncertainty in this value,  <m:math><m:mrow><m:mi>δ</m:mi><m:mi>A</m:mi></m:mrow></m:math>, is 0.4 lb. We can use the following equation to determine the percent uncertainty of the weight</para>
+<equation id="fs-id1167065916500" class="unnumbered"><label/> <m:math>
+ <m:mrow>
+  <m:mtext>% uncertainty  =  </m:mtext><m:mfrac>
+   <m:mrow>
+    <m:mi>δ</m:mi><m:mtext>A</m:mtext>
+   </m:mrow>
+   <m:mtext>A</m:mtext>
+  </m:mfrac>
+  <m:mtext> × 100%</m:mtext><m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math>
+</equation>
+</note></problem>
+<solution id="fs-id1167065823153"><label/>
+<title>Solution</title>
+<para id="fs-id1167065852425">Plug the known values into the equation</para>
+<equation id="fs-id1167065881369" class="unnumbered"><label/> <m:math>
+ <m:mrow>
+  <m:mi>%</m:mi><m:mtext> uncertainty = </m:mtext><m:mfrac>
+   <m:mrow>
+    <m:mn>0.4</m:mn><m:mspace width="0.3em"/><m:mtext> lb</m:mtext></m:mrow>
+   <m:mrow>
+    <m:mn>5</m:mn><m:mspace width="0.3em"/><m:mtext> lb</m:mtext></m:mrow>
+  </m:mfrac>
+  <m:mo>×</m:mo><m:mn>100</m:mn><m:mi>%</m:mi><m:mo>=</m:mo><m:mn>8</m:mn><m:mi>%</m:mi><m:mo>.</m:mo></m:mrow>
+</m:math>
+</equation>
+</solution>
+<commentary id="fs-id1167065968162">
+<title>Discussion</title>
+<para id="fs-id1167065769947">We can conclude that the weight of the apple bag is 5 lb ± 8 percent. Consider how this percent uncertainty would change if the bag of apples were half as heavy, but the uncertainty in the weight remained the same. Hint for future calculations: when calculating percent uncertainty, always remember that you must multiply the fraction by 100 percent. If you do not do this, you will have a decimal quantity, not a percent value.</para></commentary>
+</exercise></note></section>
+<section id="fs-id1167066102954">
+<title>Uncertainty in Calculations</title>
+<para id="fs-id1167065879809">There is an uncertainty in anything calculated from measured quantities. For example, the area of a floor calculated from measurements of its length and width has an uncertainty because the both the length and width have uncertainties. How big is the uncertainty in something you calculate by multiplication or division? If the measurements in the calculation have small uncertainties (a few percent or less), then the <term>method of adding percents</term> can be used. This method says that the percent uncertainty in a quantity calculated by multiplication or division is the sum of the percent uncertainties in the items used to make the calculation. For example, if a floor has a length of 4.00 m and a width of 3.00 m, with uncertainties of 2 percent and 1 percent, respectively, then the area of the floor is 12.0 m<sup>2</sup> and has an uncertainty of 3 percent (expressed as an area this is 0.36 m<sup>2</sup>, which we round to 0.4 m<sup>2</sup> since the area of the floor is given to a tenth of a square meter).</para>
+<para id="fs-id1167066096796">For a quick demonstration of the accuracy, precision, and uncertainty of measurements based upon the units of measurement, try <link url="http://openstax.org/l/28precision">this simulation</link>. You will have the opportunity to measure the length and weight of a desk, using milli- versus centi- units. Which do you think will provide greater accuracy, precision and uncertainty when measuring the desk and the notepad in the simulation? Consider how the nature of the hypothesis or research question might influence how precise of a measuring tool you need to collect data.</para>
+</section>
+
+<section id="fs-id1167065740447">
+<title>Precision of Measuring Tools and Significant Figures</title>
+<para id="fs-id1167065968516">An important factor in the accuracy and precision of measurements is the precision of the measuring tool. In general, a precise measuring tool is one that can measure values in very small increments. For example, consider measuring the thickness of a coin. A standard ruler can measure thickness to the nearest millimeter, while a micrometer can measure the thickness to the nearest 0.005 millimeter. The micrometer is a more precise measuring tool because it can measure extremely small differences in thickness. The more precise the measuring tool, the more precise and accurate the measurements can be.</para>
+<para id="fs-id1167065859019">When we express measured values, we can only list as many digits as we initially measured with our measuring tool (such as the rulers shown in <link target-id="Figure_01_03_rulers"/>). For example, if you use a standard ruler to measure the length of a stick, you may measure it with a decimeter ruler as 3.6 cm. You could not express this value as 3.65 cm because your measuring tool was not precise enough to measure a hundredth of a centimeter. It should be noted that the last digit in a measured value has been estimated in some way by the person performing the measurement. For example, the person measuring the length of a stick with a ruler notices that the stick length seems to be somewhere in between 36 mm and 37 mm. He or she must estimate the value of the last digit. The rule is that the last digit written down in a measurement is the first digit with some uncertainty. For example, the last measured value 36.5 mm has three digits, or three significant figures. The number of <term>significant figures</term> in a measurement indicates the precision of the measuring tool. The more precise a measuring tool is, the greater the number of significant figures it can report.</para><figure id="Figure_01_03_rulers"><media id="fs-id1167065794516" alt="The stick can be measured with increasing accuracy as we use smaller and smaller scales of measurement.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_01_03_rulers.jpg"/>
+</media>
+
+<caption>Three metric rulers are shown. The first ruler is in decimeters and can measure point three decimeters. The second ruler is in centimeters long and can measure three point six centimeters. The last ruler is in millimeters and can measure thirty-six point five millimeters.</caption></figure></section>
+
+<section id="fs-id1167065848796">
+<title>Zeros</title>
+<para id="fs-id1167065747812">Special consideration is given to zeros when counting significant figures. For example, the zeros in 0.053 are not significant because they are only placeholders that locate the decimal point. There are two significant figures in 0.053—the 5 and the 3. However, if the zero occurs between other significant figures, the zeros are significant. For example, both zeros in 10.053 are significant, as these zeros were actually measured. Therefore, the 10.053 placeholder has five significant figures. The zeros in 1300 may or may not be significant, depending on the style of writing numbers. They could mean the number is known to the last zero, or the zeros could be placeholders. So 1300 could have two, three, or four significant figures. To avoid this ambiguity, write 1300 in scientific notation as 1.3 × 10<sup>3</sup>. Only significant figures are given in the <emphasis effect="italics">x</emphasis> factor for a number in scientific notation (in the form  <m:math><m:mrow><m:mi>x</m:mi><m:mo>×</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mi>y</m:mi></m:msup></m:mrow></m:math> ). Therefore, we know that 1 and 3 are the only significant digits in this number. In summary, zeros are significant except when they serve only as placeholders. <link target-id="Table_10_03_sigfigs"/> provides examples of the number of significant figures in various numbers.</para><table id="Table_10_03_sigfigs" summary="A three column, nine row table is shown The header row contains the following column titles: number, significant figures, and rationale. The first data row contains 1.657, 4, and there are no zeros and all non-zero numbers are always significant. The second data row contains 0.4578, 4, and the first zero is only a placeholder for the decimal point. The third data row contains 0.000458, 3, and the first four zeros are placeholders needed to report the data to the ten-thousandths place. The fourth data row contains 2000.56, 6, and the three zeros are significant here because they occur between other significant figures. The fifth data row contains 45600, 3, and with no underlines or scientific notation, we assume that the last two zeros are placeholders and are not significant. The sixth data row contains 15895000 (with the third-to-last and second-to-last zeros underlined, 7, and the two underlined zeros are significant, while the last zero is not, as it is not underlined. The seventh data row contains 5.456 times ten to the thirteenth, 4, and in scientific notation, all numbers reported in front of the multiplication sign are significant. The final data row contains 6.520 times 10 to the negative twenty-third, 4, and in scientific notation, all numbers reported in front of the multiplication sign are significant, including zeros.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row>
+<entry>Number</entry>
+<entry>Significant Figures</entry>
+<entry>Rationale</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>1.657</entry>
+<entry>4</entry>
+<entry>There are no zeros and all non-zero numbers are always significant.</entry>
+</row>
+<row>
+<entry>0.4578</entry>
+<entry>4</entry>
+<entry>The first zero is only a placeholder for the decimal point.</entry>
+</row>
+<row>
+<entry>0.000458</entry>
+<entry>3</entry>
+<entry>The first four zeros are placeholders needed to report the data to the ten-thoudsandths place.</entry>
+</row>
+<row>
+<entry>2000.56</entry>
+<entry>6</entry>
+<entry>The three zeros are significant here because they occur between other significant figures.</entry>
+</row>
+<row>
+<entry>45,600</entry>
+<entry>3</entry>
+<entry>With no underlines or scientific notation, we assume that the last two zeros are placeholders and are not significant.</entry>
+</row>
+<row>
+<entry>15895<emphasis effect="underline">00</emphasis>0</entry>
+<entry>7</entry>
+<entry>The two underlined zeros are significant, while the last zero is not, as it is not underlined.</entry>
+</row>
+<row>
+<entry>5.457  <m:math><m:mo>×</m:mo></m:math>  10<sup>13</sup></entry>
+<entry>4</entry>
+<entry>In scientific notation, all numbers reported in front of the multiplication sign are significant</entry>
+</row>
+<row>
+<entry>6.520  <m:math><m:mo>×</m:mo></m:math>  10<sup>–23</sup></entry>
+<entry>4</entry>
+<entry>In scientific notation, all numbers reported in front of the multiplication sign are significant, including zeros.</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table></section>
+
+<section id="fs-id1167065853519">
+<title>Significant Figures in Calculations</title>
+<para id="fs-id1167065853403">When combining measurements with different degrees of accuracy and precision, the number of significant digits in the final answer can be no greater than the number of significant digits in the least precise measured value. There are two different rules, one for multiplication and division and another rule for addition and subtraction, as discussed below.</para>
+<list id="fs-id1167065853405" list-type="enumerated" number-style="arabic">
+<item><para id="fs-id1167065837998"><emphasis effect="bold">For multiplication and division:</emphasis> The answer should have the same number of significant figures as the starting value with the fewest significant figures. For example, the area of a circle can be calculated from its radius using  <m:math>
+ <m:mrow>
+  <m:mi>A</m:mi><m:mo>=</m:mo><m:mi>π</m:mi><m:msup>
+   <m:mi>r</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math> . Let us see how many significant figures the area will have if the radius has only two significant figures, for example, <emphasis effect="italics">r</emphasis> = 2.0 m. Then, using a calculator that keeps eight significant figures, you would get</para>
+<equation id="fs-id1167065790574" class="unnumbered"><label/> <m:math>
+ <m:mrow>
+  <m:mi>A</m:mi><m:mo>=</m:mo><m:mtext> π</m:mtext><m:msup>
+   <m:mi>r</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>=</m:mo><m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>3.1415927...</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext><m:mo>×</m:mo><m:mtext> </m:mtext><m:msup>
+   <m:mrow>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mn>2.0</m:mn><m:mspace width="0.3em"/><m:mtext> m</m:mtext></m:mrow>
+    <m:mo>)</m:mo></m:mrow></m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>4.5238934</m:mn><m:msup>
+   <m:mrow>
+    <m:mtext> m</m:mtext></m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>.</m:mo></m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1167065766091">But because the radius has only two significant figures, the area calculated is meaningful only to two significant figures or</para>
+<equation id="fs-id1167065766096" class="unnumbered"><label/> <m:math display="block">
+ <m:mrow>
+  <m:mi>A</m:mi><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>4.5</m:mn><m:msup>
+   <m:mrow>
+    <m:mtext> m</m:mtext></m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1167065944290">even though the value of  <m:math><m:mi>π</m:mi></m:math>  is meaningful to at least eight digits.</para>
+</item>
+<item>
+<para id="fs-id1167065855299"><emphasis>For addition and subtraction</emphasis>: The answer should have the same number places (e.g. tens place, ones place, tenths place, etc.) as the least-precise starting value. Suppose that you buy 7.56 kg of potatoes in a grocery store as measured with a scale having a precision of 0.01 kg. Then you drop off 6.052 kg of potatoes at your laboratory as measured by a scale with a precision of 0.001 kg. Finally, you go home and add 13.7 kg of potatoes as measured by a bathroom scale with a precision of 0.1 kg. How many kilograms of potatoes do you now have, and how many significant figures are appropriate in the answer? The mass is found by simple addition and subtraction:<newline count="2"/></para><equation id="fs-id1167065726483" class="unnumbered"><label/> <m:math display="block">
+ <m:mtable columnalign="left">
+  <m:mtr>
+   <m:mtd>
+    <m:munder accentunder="true">
+     <m:mrow>
+      <m:mtable>
+       <m:mtr>
+        <m:mtd columnalign="right">
+         <m:mrow>
+          <m:mn>7.56</m:mn></m:mrow>
+        </m:mtd>
+        <m:mtd columnalign="left">
+         <m:mrow>
+          <m:mtext>kg</m:mtext></m:mrow>
+        </m:mtd>
+       </m:mtr>
+       <m:mtr>
+        <m:mtd columnalign="right">
+         <m:mrow>
+          <m:mn>−6.052</m:mn></m:mrow>
+        </m:mtd>
+        <m:mtd columnalign="left">
+         <m:mrow>
+          <m:mtext>kg</m:mtext></m:mrow>
+        </m:mtd>
+       </m:mtr>
+       <m:mtr>
+        <m:mtd columnalign="right">
+         <m:mrow>
+          <m:mo>+</m:mo><m:mn>13.7</m:mn></m:mrow>
+        </m:mtd>
+        <m:mtd columnalign="left">
+         <m:mrow>
+          <m:mtext>kg</m:mtext></m:mrow>
+        </m:mtd>
+       </m:mtr>
+
+      </m:mtable></m:mrow>
+     <m:mo stretchy="true">_</m:mo>
+    </m:munder>
+
+   </m:mtd>
+  </m:mtr>
+  <m:mtr>
+   <m:mtd>
+    <m:mtable>
+     <m:mtr>
+      <m:mtd columnalign="right">
+       <m:mrow>
+        <m:mn> 15.208</m:mn></m:mrow>
+      </m:mtd>
+      <m:mtd columnalign="left">
+       <m:mrow>
+        <m:mtext>kg</m:mtext></m:mrow>
+      </m:mtd>
+     </m:mtr>
+
+    </m:mtable>
+   </m:mtd>
+  </m:mtr>
+ </m:mtable>
+
+</m:math> </equation><para id="fs-id1167065865017">The least precise measurement is 13.7 kg. This measurement is expressed to the 0.1 decimal place, so our final answer must also be expressed to the 0.1 decimal place. Thus, the answer should be rounded to the tenths place, giving 15.2 kg. The same is true for non-decimal numbers. For example,</para>
+<equation id="fs-id1167065861317" class="unnumbered"><label/> <m:math display="block">
+ <m:mrow>
+  <m:mn>6527.23</m:mn><m:mtext/><m:mo>+</m:mo><m:mtext/><m:mn>2</m:mn><m:mtext/><m:mo>=</m:mo><m:mtext/><m:mn>6528.23</m:mn><m:mtext/><m:mo>=</m:mo><m:mtext/><m:mn>6528</m:mn><m:mspace width="0.3em"/><m:mtext>.</m:mtext></m:mrow>
+</m:math>
+</equation><para id="fs-id1167065867046">We cannot report the decimal places in the answer because <emphasis effect="italics">2</emphasis> has no decimal places that would be significant. Therefore, we can only report to the ones place.</para>
+<para id="fs-id1167065957441">It is a good idea to keep extra significant figures while calculating, and to round off to the correct number of significant figures only in the final answers. The reason is that small errors from rounding while calculating can sometimes produce significant errors in the final answer. As an example, try calculating  <m:math>
+ <m:mrow>
+  <m:mn>5,098</m:mn><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>5.000</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>×</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>1,010</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow></m:mrow>
+</m:math>  to obtain a final answer to only two significant figures. Keeping all significant during the calculation gives 48. Rounding to two significant figures in the middle of the calculation changes it to  <m:math>
+ <m:mrow>
+  <m:mtext>5,100 – (5</m:mtext><m:mtext>.000) × (1,000) = 100,</m:mtext>
+ </m:mrow>
+</m:math>  which is way off. You would similarly avoid rounding in the middle of the calculation in counting and in doing accounting, where many small numbers need to be added and subtracted accurately to give possibly much larger final numbers.</para>
+</item>
+</list>
+
+<note id="fs-id1167066098198" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065977390">Remind students that they will be expected to report the proper number of significant figures on assignment and test problems.</para>
+</note>
+</section>
+
+<section id="fs-id1167066031007">
+<title>Significant Figures in this Text</title>
+<para id="fs-id1167065887422">In this textbook, most numbers are assumed to have three significant figures. Furthermore, consistent numbers of significant figures are used in all worked examples. You will note that an answer given to three digits is based on input good to at least three digits. If the input has fewer significant figures, the answer will also have fewer significant figures. Care is also taken that the number of significant figures is reasonable for the situation posed. In some topics, such as optics, more than three significant figures will be used. Finally, if a number is exact, such as the <emphasis effect="italics">2</emphasis> in the formula,  <m:math>
+ <m:mrow>
+  <m:mi>c</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi></m:mrow>
+</m:math>, it does not affect the number of significant figures in a calculation.</para>
+
+<note id="fs-id1167065847878" class="worked-example"><title>Approximating Vast Numbers: a Trillion Dollars</title>
+
+<exercise id="Example_01_03_03" class="01-ex053 unnumbered"><label/>
+<problem id="fs-id1167066015063">
+<para id="fs-id1167065943319">The U.S. federal deficit in the 2008 fiscal year was a little greater than $10 trillion. Most of us do not have any concept of how much even one trillion actually is. Suppose that you were given a trillion dollars in $100 bills. If you made 100-bill stacks, like that shown in <link target-id="Figure_01_03_money"/>, and used them to evenly cover a football field (between the end zones), make an approximation of how high the money pile would become. (We will use feet/inches rather than meters here because football fields are measured in yards.) One of your friends says 3 in., while another says 10 ft. What do you think?</para><figure id="Figure_01_03_money"><media id="fs-id1167065860802" alt="A stack of United States paper money is shown with one hundred hundred-dollar bills.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_01_03_money.jpg"/>
+</media>
+<caption>A bank stack contains one hundred $100 bills, and is worth $10,000. How many bank stacks make up a trillion dollars? (Andrew Magill)</caption>
+</figure><note id="fs-id1167065865357">
+<label/>
+<title>Strategy</title>
+<para id="fs-id1167065743055">When you imagine the situation, you probably envision thousands of small stacks of 100 wrapped $100 bills, such as you might see in movies or at a bank. Since this is an easy-to-approximate quantity, let us start there. We can find the volume of a stack of 100 bills, find out how many stacks make up one trillion dollars, and then set this volume equal to the area of the football field multiplied by the unknown height.</para>
+</note>
+</problem>
+
+<solution id="fs-id1167065919227"><label/>
+<title>Solution</title>
+<list id="fs-id1167065919230" list-type="enumerated" number-style="arabic"><item>Calculate the volume of a stack of 100 bills. The dimensions of a single bill are approximately 3 in. by 6 in. A stack of 100 of these is about 0.5 in. thick. So the total volume of a stack of 100 bills is
+<equation id="fs-id1167065949320" class="unnumbered"><label/>
+ <m:math>
+ <m:mtable columnalign="left">
+  <m:mtr>
+   <m:mtd>
+    <m:mtext>volume of stack</m:mtext><m:mo>=</m:mo><m:mtext>length</m:mtext><m:mo>×</m:mo><m:mtext>width</m:mtext><m:mo>×</m:mo><m:mtext>height,</m:mtext>
+   </m:mtd>
+  </m:mtr>
+  <m:mtr>
+   <m:mtd>
+    <m:mtext>volume of stack</m:mtext><m:mo>=</m:mo><m:mtext>6 in</m:mtext><m:mtext>.</m:mtext><m:mo>×</m:mo><m:mtext>3 in</m:mtext><m:mtext>.</m:mtext><m:mo>×</m:mo><m:mtext>0</m:mtext><m:mtext>.5 in</m:mtext><m:mtext>.,</m:mtext>
+   </m:mtd>
+  </m:mtr>
+  <m:mtr>
+   <m:mtd>
+    <m:mtext>volume of stack</m:mtext><m:mo>=</m:mo><m:mtext>9 in</m:mtext><m:msup>
+     <m:mtext>.</m:mtext>
+     <m:mtext>3</m:mtext>
+    </m:msup>
+    <m:mo>.</m:mo>
+   </m:mtd>
+  </m:mtr>
+ </m:mtable>
+
+</m:math>
+</equation>
+</item>
+<item><para id="fs-id1167065968140">Calculate the number of stacks. Note that a trillion dollars is equal to  <m:math>
+ <m:mrow>
+  <m:mtext>$</m:mtext><m:mn>1</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>12</m:mn></m:mrow>
+  </m:msup>
+  </m:mrow>
+</m:math>, and a stack of one-hundred  <m:math>
+ <m:mrow>
+  <m:mtext>$</m:mtext><m:mn>100</m:mn></m:mrow>
+</m:math>  bills is equal to  <m:math>
+ <m:mrow>
+  <m:mtext>$</m:mtext><m:mn>10</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mo>,</m:mo></m:mrow>
+</m:math>  or  <m:math>
+ <m:mrow>
+  <m:mtext>$</m:mtext><m:mn>1</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mn>4</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math> . The number of stacks you will have is</para>
+
+<para id="fs-id1167065938226"><equation id="fs-id1164566544021"> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mtext>$1 × 10</m:mtext>
+   </m:mrow>
+   <m:mrow>
+    <m:mtext>12</m:mtext>
+   </m:mrow>
+  </m:msup>
+  <m:msup>
+   <m:mrow>
+    <m:mtext> (a trillion dollars) / $1 × 10</m:mtext>
+   </m:mrow>
+   <m:mtext>4</m:mtext>
+  </m:msup>
+  <m:msup>
+   <m:mrow>
+    <m:mtext> per stack = 1 × 10</m:mtext>
+   </m:mrow>
+   <m:mtext>8</m:mtext>
+  </m:msup>
+  <m:mtext> stacks</m:mtext><m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math>
+</equation></para>
+</item>
+<item><para id="fs-id1167066086117">Calculate the area of a football field in square inches. The area of a football field is  <m:math>
+ <m:mrow>
+  <m:mn>100</m:mn><m:mspace width="0.3em"/><m:mtext> yd</m:mtext><m:mo>×</m:mo><m:mtext> 50</m:mtext><m:mtext>yd</m:mtext></m:mrow>
+</m:math>, which gives  <m:math>
+ <m:mrow>
+  <m:mn>5</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:msup>
+   <m:mrow>
+    <m:mtext> yd</m:mtext></m:mrow>
+   <m:mtext>2</m:mtext>
+  </m:msup>
+  </m:mrow>
+</m:math> . Because we are working in inches, we need to convert square yards to square inches<newline count="2"/></para>
+
+<equation id="fs-id1167065876785" class="unnumbered"><label/>
+ <m:math display="block">
+ <m:mrow>
+  <m:mtable columnalign="left">
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:msup>
+       <m:mrow>
+        <m:mtext>Area = 5,000 yd</m:mtext>
+       </m:mrow>
+       <m:mtext>2</m:mtext>
+      </m:msup>
+      <m:mtext> × </m:mtext><m:mfrac>
+       <m:mrow>
+        <m:mtext>3 ft</m:mtext>
+       </m:mrow>
+       <m:mrow>
+        <m:mtext>1yd</m:mtext>
+       </m:mrow>
+      </m:mfrac>
+      <m:mtext> × </m:mtext><m:mfrac>
+       <m:mrow>
+        <m:mtext>3 ft</m:mtext>
+       </m:mrow>
+       <m:mrow>
+        <m:mtext>1yd</m:mtext>
+       </m:mrow>
+      </m:mfrac>
+      <m:mtext> × </m:mtext><m:mfrac>
+       <m:mrow>
+        <m:mtext>12 in</m:mtext><m:mtext>.</m:mtext>
+       </m:mrow>
+       <m:mrow>
+        <m:mtext>1 foot</m:mtext>
+       </m:mrow>
+      </m:mfrac>
+      <m:mtext> × </m:mtext><m:mfrac>
+       <m:mrow>
+        <m:mtext>12 in</m:mtext><m:mtext>.</m:mtext>
+       </m:mrow>
+       <m:mrow>
+        <m:mtext>1 foot</m:mtext>
+       </m:mrow>
+      </m:mfrac>
+      <m:mtext> = 6,480,000 in</m:mtext><m:msup>
+       <m:mtext>.</m:mtext>
+       <m:mtext>2</m:mtext>
+      </m:msup>
+      <m:mtext>,</m:mtext>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>Area</m:mtext><m:mo>≈</m:mo><m:msup>
+       <m:mrow>
+        <m:mtext>6 × 10</m:mtext>
+       </m:mrow>
+       <m:mtext>6</m:mtext>
+      </m:msup>
+      <m:mtext> in</m:mtext><m:msup>
+       <m:mtext>.</m:mtext>
+       <m:mtext>2</m:mtext>
+      </m:msup>
+      <m:mtext>.</m:mtext>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+
+
+
+</equation><para id="fs-id1167065742251">This conversion gives us  <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mtext>6 × 10</m:mtext>
+   </m:mrow>
+   <m:mtext>6</m:mtext>
+  </m:msup>
+  <m:mtext> in</m:mtext><m:msup>
+   <m:mtext>.</m:mtext>
+   <m:mtext>2</m:mtext>
+  </m:msup>
+
+ </m:mrow>
+</m:math>
+ for the area of the field. (Note that we are using only one significant figure in these calculations.)</para>
+</item>
+<item>Calculate the total volume of the bills. The volume of all the  $100-bill stacks is  <m:math display="block">
+ <m:mrow>
+  <m:mtext>9 in</m:mtext><m:msup>
+   <m:mtext>.</m:mtext>
+   <m:mtext>3</m:mtext>
+  </m:msup>
+  <m:msup>
+   <m:mrow>
+    <m:mtext> / stack × 10</m:mtext>
+   </m:mrow>
+   <m:mtext>8</m:mtext>
+  </m:msup>
+  <m:msup>
+   <m:mrow>
+    <m:mtext> stacks = 9 × 10</m:mtext>
+   </m:mrow>
+   <m:mtext>8</m:mtext>
+  </m:msup>
+  <m:mtext> in</m:mtext><m:msup>
+   <m:mtext>.</m:mtext>
+   <m:mtext>3</m:mtext>
+  </m:msup>
+
+ </m:mrow>
+</m:math>
+</item>
+<item>Calculate the height. To determine the height of the bills, use the following equation
+<equation id="fs-id1167066145516" class="unnumbered"><label/>
+ <m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr>
+    <m:mtd>
+     <m:mrow>
+      <m:mtext>volume of bills</m:mtext>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd>
+     <m:mtext>=</m:mtext>
+    </m:mtd>
+    <m:mtd>
+     <m:mrow>
+      <m:mtext>area of field × height of money</m:mtext>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd>
+     <m:mrow>
+      <m:mtext>Height of money</m:mtext>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd>
+     <m:mtext>=</m:mtext>
+    </m:mtd>
+    <m:mtd>
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mtext>volume of bills</m:mtext>
+       </m:mrow>
+       <m:mrow>
+        <m:mtext>area of field</m:mtext>
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd>
+     <m:mrow>
+      <m:mtext>Height of money</m:mtext>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd>
+     <m:mtext>=</m:mtext>
+    </m:mtd>
+    <m:mtd>
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:msup>
+         <m:mrow>
+          <m:mtext>9 × 10</m:mtext>
+         </m:mrow>
+         <m:mtext>8</m:mtext>
+        </m:msup>
+        <m:mtext> in</m:mtext><m:msup>
+         <m:mtext>.</m:mtext>
+         <m:mtext>3</m:mtext>
+        </m:msup>
+
+       </m:mrow>
+       <m:mrow>
+        <m:msup>
+         <m:mrow>
+          <m:mtext>6 × 10</m:mtext>
+         </m:mrow>
+         <m:mtext>6</m:mtext>
+        </m:msup>
+        <m:mtext> in</m:mtext><m:msup>
+         <m:mtext>.</m:mtext>
+         <m:mtext>2</m:mtext>
+        </m:msup>
+
+       </m:mrow>
+      </m:mfrac>
+      <m:mtext> = 1</m:mtext><m:msup>
+       <m:mrow>
+        <m:mtext>.33 × 10</m:mtext>
+       </m:mrow>
+       <m:mtext>2</m:mtext>
+      </m:msup>
+      <m:mtext> in</m:mtext><m:mtext>.</m:mtext>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd>
+     <m:mrow>
+      <m:mtext>Height of money</m:mtext>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd>
+     <m:mtext>=</m:mtext>
+    </m:mtd>
+    <m:mtd>
+     <m:mrow>
+      <m:msup>
+       <m:mrow>
+        <m:mtext>1×10</m:mtext>
+       </m:mrow>
+       <m:mtext>2</m:mtext>
+      </m:msup>
+      <m:mtext> in</m:mtext><m:mtext>. = 100 in</m:mtext><m:mtext>.</m:mtext>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+
+</equation><para id="fs-id1167065726573">The height of the money will be about 100 in. high. Converting this value to feet gives</para>
+<equation id="fs-id1167065726576" class="unnumbered"><label/>
+ <m:math display="block">
+ <m:mrow>
+  <m:mn>100</m:mn><m:mspace width="0.3em"/><m:mtext> in</m:mtext><m:mtext>.</m:mtext><m:mo>×</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mtext>1ft</m:mtext></m:mrow>
+   <m:mrow>
+    <m:mtext>12 in</m:mtext><m:mtext>.</m:mtext></m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>8.33</m:mn><m:mspace width="0.3em"/><m:mtext> ft</m:mtext><m:mo>≈</m:mo><m:mtext>8 ft</m:mtext><m:mtext>.</m:mtext></m:mrow>
+</m:math>
+</equation>
+</item>
+
+</list></solution>
+<commentary id="fs-id1167066030374">
+<title>Discussion</title>
+<para id="fs-id1167066030379">The final approximate value is much higher than the early estimate of 3 in., but the other early estimate of 10 ft (120 in.) was roughly correct. How did the approximation measure up to your first guess? What can this exercise tell you in terms of rough <emphasis effect="italics">guesstimates</emphasis> versus carefully calculated approximations?</para>
+</commentary>
+</exercise>
+</note><para id="fs-id1167065799118">In the example above, the final approximate value is much higher than the first friend’s early estimate of 3 in. However, the other friend’s early estimate of 10 ft. (120 in.) was roughly correct. How did the approximation measure up to your first guess? What can this exercise suggest about the value of rough <emphasis effect="italics">guesstimates</emphasis> versus carefully calculated approximations?</para>
+
+<note id="fs-id1167065847508" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065957458">In <link target-id="Example_01_03_03"/>, point out to students the importance of precision in their measurements. Greater precision allows measurements to be less uncertain, and therefore, a close approximation rather than a <emphasis effect="italics">guesstimate.</emphasis></para>
+</note>
+</section>
+</section>
+
+<section id="fs-id1167065847557">
+<title>Graphing in Physics</title>
+<para id="fs-id1167066039109">Most results in science are presented in scientific journal articles using graphs. Graphs present data in a way that is easy to visualize for humans in general, especially someone unfamiliar with what is being studied. They are also useful for presenting large amounts of data or data with complicated trends in an easily-readable way.</para>
+<para id="fs-id1167065847579">One commonly-used graph in physics and other sciences is the <term class="no-emphasis">line graph</term>, probably because it is the best graph for showing how one quantity changes in response to the other. Let’s build a line graph based on the data in <link target-id="Table_01_03_train"/>, which shows the measured distance that a train travels from its station versus time. Our two <term>variables</term>, or things that change along the graph, are time in minutes, and distance from the station, in kilometers. Remember that measured data may not have perfect accuracy.</para>
+
+<table id="Table_01_03_train" summary="A two column, nine row table is shown. The header row contains the following column titles: time (min) and distance from station (km). The first data row contains 0 and 0. The second data row contains 10 and 24. The third data row contains 20 and 36. The fourth data row contains 30 and 60. The fifth data row contains 40 and 84. The seventh data row contains 50 and 97. The eighth data row contains 60 and 116. The final data row contains 70 and 140.">
+<title/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1" align="center"/>
+<colspec colnum="2" colname="c2" align="center"/>
+<thead>
+<row>
+<entry>Time (min)</entry>
+<entry>Distance from Station (km)</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>0</entry>
+<entry>0</entry>
+</row>
+<row>
+<entry>10</entry>
+<entry>24</entry>
+</row>
+<row>
+<entry>20</entry>
+<entry>36</entry>
+</row>
+<row>
+<entry>30</entry>
+<entry>60</entry>
+</row>
+<row>
+<entry>40</entry>
+<entry>84</entry>
+</row>
+<row>
+<entry>50</entry>
+<entry>97</entry>
+</row>
+<row>
+<entry>60</entry>
+<entry>116</entry>
+</row>
+<row>
+<entry>70</entry>
+<entry>140</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+<list id="fs-id1167066103979" list-type="enumerated" number-style="arabic"><item>Draw the two axes. The horizontal axis, or <emphasis effect="italics">x</emphasis>-axis, shows the <term>independent variable</term>, which is the variable that is controlled or manipulated. The vertical axis, or <emphasis effect="italics">y</emphasis>-axis, shows the <term>dependent variable</term>, the non-manipulated variable that changes with (or is dependent on) the value of the independent variable. In the data above, time is the independent variable and should be plotted on the <emphasis effect="italics">x</emphasis>-axis. Distance from the station is the dependent variable and should be plotted on the <emphasis effect="italics">y</emphasis>-axis.</item>
+<item>Label each axes on the graph with the name of each variable, followed by the symbol for its units in parentheses. Be sure to leave room so that you can number each axis. In this example, use <emphasis effect="italics">Time (min)</emphasis> as the label for the <emphasis effect="italics">x</emphasis>-axis.</item>
+<item>
+<para id="fs-id1167066089075">Next, you must determine the best scale to use for numbering each axis. Because the time values on the <emphasis effect="italics">x</emphasis>-axis are taken every 10 minutes, we could easily number the <emphasis effect="italics">x</emphasis>-axis from 0 to 70 minutes with a tick mark every 10 minutes. Likewise, the <emphasis effect="italics">y</emphasis>-axis scale should start low enough and continue high enough to include all of the <emphasis effect="italics">distance from station</emphasis> values. A scale from 0 km to 160 km should suffice, perhaps with a tick mark every 10 km.</para>
+<para id="fs-id1167065860896">In general, you want to pick a scale for both axes that 1) shows all of your data, and 2) makes it easy to identify trends in your data. If you make your scale too large, it will be harder to see how your data change. Likewise, the smaller and more fine you make your scale, the more space you will need to make the graph. The number of significant figures in the axis values should be coarser than the number of significant figures in the measurements.</para>
+</item>
+<item>Now that your axes are ready, you can begin plotting your data. For the first data point, count along the <emphasis effect="italics">x</emphasis>-axis until you find the 10 min tick mark. Then, count up from that point to the 10 km tick mark on the <emphasis effect="italics">y</emphasis>-axis, and approximate where 22 km is along the <emphasis effect="italics">y</emphasis>-axis. Place a dot at this location. Repeat for the other six data points (<link target-id="Figure_01_03_point"/>).
+<figure id="Figure_01_03_point"><media id="fs-id1167066095643" alt="A graph titled Train Motion with plotted points is shown. The x-axis is labeled Time in minutes and has a scale from zero to seventy in increments of ten. The y-axis is labeled Distance from station in kilometers and has a scale from zero to one hundred sixty in increments of twenty. The following points are plotted: zero, zero; ten, twenty-two; twenty, thirty-eight; thirty, sixty; forty, eighty-two; fifty, ninety-eight; sixty, one-hundred eighteen; seventy, one-hundred forty.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_01_03_point.jpg"/>
+</media>
+
+<caption>The graph of the train’s distance from the station versus time from the exercise above.</caption></figure></item>
+<item>Add a title to the top of the graph to state what the graph is describing, such as the <emphasis effect="italics">y</emphasis>-axis parameter vs. the <emphasis effect="italics">x</emphasis>-axis parameter. In the graph shown here, the title is <emphasis effect="italics">train motion</emphasis>. It could also be titled distance of the train from the station vs. time.
+</item>
+<item>Finally, with data points now on the graph, you should draw a trend line (<link target-id="Figure_01_03_trendline"/>). The trend line represents the dependence you think the graph represents, so that the person who looks at your graph can see how close it is to the real data. In the present case, since the data points look like they ought to fall on a straight line, you would draw a straight line as the trend line. Draw it to come closest to all the points. Real data may have some inaccuracies, and the plotted points may not all fall on the trend line. In some cases, none of the data points fall exactly on the trend line.
+<figure id="Figure_01_03_trendline"><media id="fs-id1167066090994" alt="A graph titled Train Motion with a trend line is shown. The x-axis is labeled Time in minutes and has a scale from zero to seventy in increments of ten. The y-axis is labeled Distance from station in kilometers and has a scale from zero to one hundred sixty in increments of twenty. The following points are plotted along the trend line: zero, zero; ten, twenty-two; twenty, thirty-eight; thirty, sixty; forty, eighty-two; fifty, ninety-eight; sixty, one-hundred eighteen; seventy, one-hundred forty.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_01_03_trendline.jpg"/>
+</media>
+
+<caption>The completed graph with the trend line included.</caption></figure></item>
+</list><note id="fs-id1167065763179" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065847613"><span>[OL]</span>The importance of bar graphs should also be mentioned as a useful way to show data relations when one variable is not continuous, such as in a frequency histogram, which compares how many data points fall into discrete categories.</para>
+<para id="fs-id1167066029377"><span>[OL]</span>If students have difficulty understanding the difference between dependent and independent variables in the train example, explain that time is independent because it will continue to move forward at the same rate whether the train leaves the station or not.</para>
+</note>
+
+<section id="fs-id1167066037840">
+<title>Analyzing a Graph Using Its Equation</title>
+<para id="fs-id1167066029382">One way to get a quick snapshot of a dataset is to look at the equation of its <term class="no-emphasis">trend line</term>. If the graph produces a straight line, the equation of the trend line takes the form</para>
+<equation id="fs-id1167065827193" class="unnumbered"><label/>
+ <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math>
+
+</equation>
+<para id="fs-id1167065879679">The <emphasis effect="italics">b</emphasis> in the equation is the <emphasis effect="italics">y</emphasis>-intercept while the <emphasis effect="italics">m</emphasis> in the equation is the <term>slope</term>. The <emphasis effect="italics">y</emphasis>-intercept tells you at what <emphasis effect="italics">y</emphasis> value the line intersects the <emphasis effect="italics">y</emphasis>-axis. In the case of the graph above, the <emphasis effect="italics">y</emphasis>-intercept occurs at 0, at the very beginning of the graph. The <emphasis effect="italics">y</emphasis>-intercept, therefore, lets you know immediately where on the <emphasis effect="italics">y</emphasis>-axis the plot line begins.</para>
+
+<para id="fs-id1167065938703">The <emphasis effect="italics">m </emphasis>in the equation is the slope. This value describes how much the line on the graph moves up or down on the <emphasis effect="italics">y</emphasis>-axis along the line’s length. The slope is found using the following equation</para>
+
+<equation id="fs-id1167065949450" class="unnumbered"><label/>
+ <m:math display="block">
+ <m:mrow>
+  <m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msub>
+     <m:mi>Y</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo><m:msub>
+     <m:mi>Y</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+
+   </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mi>X</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo><m:msub>
+     <m:mi>X</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+
+</equation>
+
+<para id="fs-id1167066039145">In order to solve this equation, you need to pick two points on the line (preferably far apart on the line so the slope you calculate describes the line accurately). The quantities <emphasis effect="italics">Y</emphasis><sub>2</sub> and <emphasis effect="italics">Y</emphasis><sub>1</sub> represent the <emphasis effect="italics">y</emphasis>-values from the two points on the line (not data points) that you picked, while <emphasis effect="italics">X</emphasis><sub>2</sub> and <emphasis effect="italics">X</emphasis><sub>1</sub> represent the two <emphasis effect="italics">x</emphasis>-values of the those points.</para>
+
+<para id="fs-id1167065838557">What can the slope value tell you about the graph? The slope of a perfectly horizontal line will equal zero, while the slope of a perfectly vertical line will be undefined because you cannot divide by zero. A positive slope indicates that the line moves up the <emphasis effect="italics">y</emphasis>-axis as the <emphasis effect="italics">x</emphasis>-value increases while a negative slope means that the line moves down the <emphasis effect="italics">y</emphasis>-axis. The more negative or positive the slope is, the steeper the line moves up or down, respectively. The slope of our graph in <link target-id="Figure_01_03_point"/> is calculated below based on the two endpoints of the line<newline count="2"/></para><equation id="fs-id1167065854464" class="unnumbered"><label/>
+ <m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr>
+    <m:mtd>
+     <m:mi>m</m:mi>
+    </m:mtd>
+    <m:mtd>
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd>
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:msub>
+         <m:mi>Y</m:mi>
+         <m:mn>2</m:mn>
+        </m:msub>
+        <m:mo>−</m:mo><m:msub>
+         <m:mi>Y</m:mi>
+         <m:mn>1</m:mn>
+        </m:msub>
+
+       </m:mrow>
+       <m:mrow>
+        <m:msub>
+         <m:mi>X</m:mi>
+         <m:mn>2</m:mn>
+        </m:msub>
+        <m:mo>−</m:mo><m:msub>
+         <m:mi>X</m:mi>
+         <m:mn>1</m:mn>
+        </m:msub>
+
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd>
+     <m:mi>m</m:mi>
+    </m:mtd>
+    <m:mtd>
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd>
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mtext>(80 km) – (20 km)</m:mtext>
+       </m:mrow>
+       <m:mrow>
+        <m:mtext>(40 min) – (10 min)</m:mtext>
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd>
+     <m:mi>m</m:mi>
+    </m:mtd>
+    <m:mtd>
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd>
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mtext>60 km</m:mtext>
+       </m:mrow>
+       <m:mrow>
+        <m:mtext>30 min</m:mtext>
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd>
+     <m:mi>m</m:mi>
+    </m:mtd>
+    <m:mtd>
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd>
+     <m:mrow>
+      <m:mtext>2</m:mtext><m:mtext>.0 km/min</m:mtext><m:mtext>.</m:mtext>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+
+</equation>
+
+<para id="fs-id1167065847537">Equation of line: <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>2.0</m:mn><m:mspace width="0.3em"/><m:mtext> km/min</m:mtext></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>0</m:mn></m:mrow>
+</m:math> </para>
+
+<para id="fs-id1167066089796">Because the <emphasis effect="italics">x </emphasis>axis is time in minutes, we would actually be more likely to use the time <emphasis effect="italics">t </emphasis>as the independent (<emphasis effect="italics">x-</emphasis>axis) variable and write the equation as</para>
+<equation id="fs-id1167066091028"><label/> <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>2.0</m:mn><m:mspace width="0.3em"/><m:mtext> km/min</m:mtext></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>0.</m:mn></m:mrow>
+</m:math>
+</equation>
+
+<para id="fs-id1167066122391">The formula  <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow>
+</m:math>  only applies to <term>linear relationships</term>, or ones that produce a straight line. Another common type of line in physics is the <term>quadratic relationship</term>, which occurs when one of the variables is squared. One quadratic relationship in physics is the relation between the speed of an object its centripetal acceleration, which is used to determine the force needed to keep an object moving in a circle. Another common relationship in physics is the <term>inverse relationship</term>, in which one variable decreases whenever the other variable increases. An example in physics is Coulomb’s law. As the distance between two charged objects increases, the electrical force between the two charged objects decreases. <term>Inverse proportionality</term>, such the relation between <emphasis effect="italics">x</emphasis> and <emphasis effect="italics">y</emphasis> in the equation </para>
+<equation id="fs-id1167066028568" class="unnumbered"><label/>
+ <m:math display="block">
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>k</m:mi><m:mo>/</m:mo><m:mi>x</m:mi><m:mtext>,</m:mtext>
+ </m:mrow>
+</m:math>
+
+</equation>
+<para id="fs-id1167066164050">for some number <emphasis effect="italics">k</emphasis>, is one particular kind of inverse relationship. A third commonly-seen relationship is the <term>exponential relationship</term>, in which a change in the independent variable produces a proportional change in the dependent variable. As the value of the dependent variable gets larger, its rate of growth also increases. For example, bacteria often reproduce at an exponential rate when grown under ideal conditions. As each generation passes, there are more and more bacteria to reproduce. As a result, the growth rate of the bacterial population increases every generation (<link target-id="Figure_01_03_line"/>).</para><figure id="Figure_01_03_line"><media id="fs-id1167066142139" alt="Four line graphs are shown. All graphs have x-axis and y-axis scales from zero to ten in increments of two. Graph a is a linear relationship between x and y, where y equals m times x plus b, with a positive and a negative slope shown. Graph b is a quadratic relationship where y equals a times x squared plus b x plus c. The line curves upward. Graph c is a an inverse relationship where y equals a over x. The line curves downward. And graph d is an exponential relationship where y equals a to the power of x and the line curves upward, and where y equals a to the negative power of x and the line curves downward.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_01_03_line.jpg"/>
+</media>
+
+<caption>Examples of (a) linear, (b) quadratic, (c) inverse, and (d) exponential relationship graphs.</caption></figure></section>
+
+<section id="fs-id1167066037609"><title>Using Logarithmic Scales in Graphing</title><para id="fs-id1167066096687">Sometimes a variable can have a very large range of values. This presents a problem when you’re trying to figure out the best scale to use for your graph’s axes. One option is to use a <term>logarithmic (log) scale</term>. In a logarithmic scale, the value each mark labels is the previous mark’s value multiplied by some constant. For a log base 10 scale, each mark labels a value that is 10 times the value of the mark before it. Therefore, a base 10 logarithmic scale would be numbered: 0, 10, 100, 1,000, etc. You can see how the logarithmic scale covers a much larger range of values than the corresponding linear scale, in which the marks would label the values 0, 10, 20, 30, and so on.</para>
+
+<para id="fs-id1167065863184">If you use a logarithmic scale on one axis of the graph and a linear scale on the other axis, you are using a <term>semi-log plot</term>. The Richter scale, which measures the strength of earthquakes, uses a semi-log plot. The degree of ground movement is plotted on a logarithmic scale against the assigned intensity level of the earthquake, which ranges linearly from 1-10 (<link target-id="Figure_01_03_richter"/> <emphasis>(a)</emphasis>). </para>
+<para id="fs-id1167065688915">If a graph has both axes in a logarithmic scale, then it is referred to as a <term>log-log plot</term>. The relationship between the wavelength and frequency of electromagnetic radiation such as light is usually shown as a log-log plot (<link target-id="Figure_01_03_richter"/> <emphasis>(b)</emphasis>). Log-log plots are also commonly used to describe exponential functions, such as radioactive decay.</para>
+<figure id="Figure_01_03_richter"><media id="fs-id1167065970415" alt="Two line graphs are shown. Graph a shows a graphical representation the Richter scale and uses a log base 10 scale on its y-axis in microns of amplified maximum ground motion. The x-axis has a scale from negative one through nine and indicates categories of earthquakes. Negative one to two is categorized as “Not felt.” Two to four is “Minor”, four to five is “Small”, five to six is “Moderate”, six to seven is “Strong”, seven to eight is “Major”, and above eight is “Great.” Graph b shows the relationship between the frequency and wavelength of electromagnetic radiation, plotted as a straight line using a log-log plot. The x-axis is labeled Wavelength in centimeters and has a scale from ten to the power of negative six through ten to the power of negative eight. The y-axis is labeled Frequency with units in s to the power of negative one. Using these units, the y-axis scale is from ten to the power of sixteen through ten to the power of nineteen. The plotted line shows an inverse relationship between frequency and wavelength.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_01_03_richter.jpg"/>
+</media>
+
+<caption>(a) The Richter scale uses a log base 10 scale on its <emphasis effect="italics">y-axis</emphasis> (microns of amplified maximum ground motion). (b) The relationship between the frequency and wavelength of electromagnetic radiation can be plotted as a straight line if a log-log plot is used.</caption></figure>
+<note id="eip-idm486857776" class="worked-example"><label/><title>Method of Adding Percents: Shingling Your Roof</title><exercise id="eip-idm283962720" class="unnumbered"><label/><problem id="eip-idm503094816"><para id="eip-idm262954048">A series of shingles are used to protect the roof of a home. Using a measuring tape, you measure one shingle
+and find its dimensions to be 44 cm by 100 cm. Knowing that your measurements are not perfect, you
+estimate an uncertainty of ±0.5 cm. Following the method of adding percents, what is the area of the shingle,
+including uncertainty?</para>
+<note id="eip-idm280428128"><label/><title>Strategy</title><para id="eip-idm280427744">While calculating the area of the shingle is straightforward (44 cm x 100 cm = 4400 cm<sup>2</sup>), determining the
+percent uncertainty is more challenging. In order to use the method of adding percents, you must first
+calculate the percent uncertainty of each measurement.</para></note>
+</problem>
+<solution id="eip-idm504999904"><label/><title>Solution</title><para id="eip-idm254505136">Length % Uncertainty: 𝜹A/A x 100% = 0.5/44 x 100% = 1.1%<newline/>
+Width % Uncertainty: 𝜹A/A x 100% = 0.5/100 x 100% = 0.5%</para>
+<para id="eip-idm212740400">Adding Percents: 1.1% + 0.5% = 1.6% uncertainty</para>
+<para id="eip-idm1169044592">Area of the Shingle: 4400 cm<sup>2</sup> ± 1.6%</para>
+<para id="eip-idm238572256">Note that this uncertainty can also be expressed in metric terms.</para>
+<para id="eip-idm932864176">1.6% x 4400 cm<sup>2</sup> = 70.4 cm<sup>2</sup></para>
+<para id="eip-idm252548480">Area of the Shingle: 4400 ± 70.4 cm<sup>2</sup></para>
+</solution><commentary id="eip-idm1046775136"><title>Discussion</title><para id="eip-idm1046848160">
+Knowing the percent uncertainty of a shingle can help a contractor determine the number of shingles needed, and therefore the cost, of roofing a new home. Consider how using smaller shingles would affect this uncertainty, and what role this would play in the cost estimation process.</para></commentary></exercise></note><note id="fs-id1167065861327" class="virtual-physics os-interactive">
+
+<title>Graphing Lines</title>
+<para id="fs-id1167065861337">In this simulation you will examine how changing the slope and <emphasis effect="italics">y</emphasis>-intercept of an equation changes the appearance of a plotted line. Select slope-intercept form and drag the blue circles along the line to change the line’s characteristics. Then, play the line game and see if you can determine the slope or <emphasis effect="italics">y</emphasis>-intercept of a given line.</para>
+  <media id="fs-id1167067251763" alt="This simulation allows you to learn about the connection between slope and y-intercept through experimentation and play.">
+<iframe width="660" height="371.4" src="https://openstax.org/l/28graphlines"/></media>
+
+<exercise id="fs-id1167065951095" class="os-exercise grasp-check">
+<problem id="fs-id1167065951102">
+<!--<para id="fs-id1167065951104">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex054"/>
+</para>-->
+
+<para id="fs-id1164567593150">How would the following changes affect a line that is neither horizontal nor vertical and has a  positive slope?</para>
+<list id="fs-id1164566129264" list-type="enumerated" number-style="arabic">
+<item>increase the slope but keeping the <emphasis effect="italics">y</emphasis>-intercept constant</item>
+<item>increase the <emphasis effect="italics">y</emphasis>-intercept but keeping the slope constant
+<list id="fs-id1164567560357" list-type="enumerated" number-style="lower-alpha">
+<item>Increasing the slope will cause the line to rotate clockwise around the <emphasis effect="italics">y</emphasis>-intercept. Increasing the <emphasis effect="italics">y</emphasis>-intercept will cause the line to move vertically up on the graph without changing the lines slope.</item>
+<item>Increasing the slope will cause the line to rotate counter-clockwise around the <emphasis effect="italics">y</emphasis>-intercept. Increasing the <emphasis effect="italics">y</emphasis>-intercept will cause the line to move vertically up on the graph without changing the lines slope.</item>
+<item>Increasing the slope will cause the line to rotate clockwise around the <emphasis effect="italics">y</emphasis>-intercept. Increasing the <emphasis effect="italics">y</emphasis>-intercept will cause the line to move horizontally right on the graph without changing the lines slope.</item>
+<item>Increasing the slope will cause the line to rotate counter-clockwise around the <emphasis effect="italics">y</emphasis>-intercept. Increasing the <emphasis effect="italics">y</emphasis>-intercept will cause the line to move horizontally right on the graph without changing the lines slope.</item>
+</list>
+</item>
+</list>
+</problem>
+</exercise>
+</note>
+
+</section></section>
+
+<section id="fs-id1167066152478" class="check-understanding"><title>Check Your Understanding</title><exercise id="fs-id1167066152485" class="os-exercise">
+<problem id="fs-id1167066091190">
+<para id="fs-id1167066091192">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex055"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167066091204" class="os-exercise">
+<problem id="fs-id1167066169904">
+<para id="fs-id1167066169906">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex056"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166849250709" class="os-exercise">
+<problem id="eip-id1166849547079">
+<para id="eip-id1166849547081">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch01-ot052"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166848775161" class="os-exercise">
+<problem id="eip-id1166848775165">
+<para id="eip-id1166848775167">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch01-ot053"/>
+</para>
+</problem>
+</exercise>
+
+<note id="fs-id1167066169918" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065848032">Use the Check Your Understanding questions to assess students’ achievement of the sections learning objectives. If students are struggling with a specific objective, the Check Your Understanding will help identify which and direct students to the relevant content.</para></note>
+</section><section id="fs-id1167065848043" class="summary">
+<title>Section Summary</title>
+<list id="fs-id1167065848050" list-type="bulleted">
+<item>Physical quantities are a characteristic or property of an object that can be measured or calculated from other measurements.</item>
+<item>The four fundamental units we will use in this textbook are the meter (for length), the kilogram (for mass), the second (for time), and the ampere (for electric current). These units are part of the metric system, which uses powers of 10 to relate quantities over the vast ranges encountered in nature.</item>
+<item>Unit conversions involve changing a value expressed in one type of unit to another type of unit. This is done by using conversion factors, which are ratios relating equal quantities of different units.</item>
+<item>Accuracy of a measured value refers to how close a measurement is to the correct value. The uncertainty in a measurement is an estimate of the amount by which the measurement result may differ from this value.</item>
+<item>Precision of measured values refers to how close the agreement is between repeated measurements.</item>
+<item>Significant figures express the precision of a measuring tool.</item>
+<item>When multiplying or dividing measured values, the final answer can contain only as many significant figures as the least precise value.</item>
+<item>When adding or subtracting measured values, the final answer cannot contain more decimal places than the least precise value.</item>
+</list>
+</section>
+
+<section id="fs-id1167065865205" class="key-equations"><title>Key Equations</title><table id="fs-id1167065865213" class="unnumbered unstyled" summary="The list of Key Equations includes the slope intercept form (equation for a straight line), the quadratic formula, the positive exponential formula, and the negative exponential formula.">
+<label/>
+<tgroup cols="2"><colspec colnum="1" align="left" colname="c1"/>
+<colspec colnum="2" align="left" colname="c2"/>
+<tbody>
+<row>
+<entry>slope intercept form</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>quadratic formula</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>positive exponential formula</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:msup>
+   <m:mi>a</m:mi>
+   <m:mi>x</m:mi>
+  </m:msup>
+  </m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>negative exponential formula</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:msup>
+   <m:mi>a</m:mi>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mi>x</m:mi></m:mrow>
+  </m:msup>
+  </m:mrow>
+</m:math>
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table></section>
+<section id="fs-id1167065661494" class="concept"><title>Concept Items</title>
+<exercise id="fs-id1167065661501" class="os-exercise">
+<problem id="fs-id1167065661505">
+<para id="fs-id1167065661508">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex057"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065661519" class="os-exercise"><problem id="fs-id1167066173471">
+<para id="fs-id1167066173474">How does the independent variable in a graph differ from the dependent variable?
+</para><list id="eip-idm319575488" list-type="enumerated" number-style="lower-alpha"><item>The dependent variable varies linearly with the independent variable.</item>
+<item>The dependent variable depends on the scale of the axis chosen while independent variable does not.</item>
+<item>The independent variable is directly manipulated or controlled by the person doing the experiment, while dependent variable is the one that changes
+as a result.</item>
+<item>The dependent and independent variables are fixed by a convention and hence they are the same.</item></list></problem>
+</exercise><exercise id="fs-id1167066173485" class="os-exercise">
+<problem id="fs-id1167066173489">
+<para id="fs-id1167066173491">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex059"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167066173503" class="os-exercise">
+<problem id="fs-id1167065954853">
+<!--<para id="fs-id1167065954856">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex060"/>
+</para>-->
+
+<para id="fs-id1164566503682">Velocity, or speed, is measured using the following formula:  <m:math>
+ <m:mrow>
+  <m:mi>v</m:mi><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mfrac>
+   <m:mi>d</m:mi>
+   <m:mi>t</m:mi>
+  </m:mfrac>
+  <m:mtext>,</m:mtext>
+ </m:mrow>
+</m:math>
+ where <emphasis effect="italics">v</emphasis> is velocity, <emphasis effect="italics">d</emphasis> is the distance travelled, and <emphasis effect="italics">t</emphasis> is the time the object took to travel the distance. If the velocity-time data are plotted on a graph, which variable will be on which axis? Why?</para>
+<list id="fs-id1164567082082" list-type="enumerated" number-style="lower-alpha">
+<item>Time would be on the x-axis and velocity on the y-axis, because time is an independent variable and velocity is a dependent variable.</item>
+<item>Velocity would be on the x-axis and time on the y-axis, because time is the independent variable and velocity is the dependent variable.</item>
+<item>Time would be on the x-axis and velocity on the y-axis, because time is a dependent variable and velocity is a independent variable.</item>
+<item>Velocity would be on x-axis and time on the y-axis, because time is a dependent variable and velocity is a independent variable.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-id1166849257127" class="os-exercise">
+<problem id="eip-id1166849257131">
+<para id="eip-id1166849854869">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch01-ot054"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166849972575" class="os-exercise">
+<problem id="eip-id1166849857440">
+<para id="eip-id1166849857442">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch01-ot055"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167065954867" class="problems">
+<title>Problems</title>
+
+<exercise id="fs-id1163723685297">
+<problem id="fs-id1163723685299">
+<para id="fs-id1163723685301">A commemorative coin that sells for $40 is advertised to be plated with 15 mg of gold. Suppose gold is worth about $1,300 per ounce. Which of the following best represents the value of the gold in the coin?</para>
+<list id="fs-id1163723685306" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>$0.33</item>
+<item>$0.69</item>
+<item>$3.30</item>
+<item>$6.90</item>
+</list>
+</problem>
+<solution id="fs-id1163723685331">
+<para id="fs-id1163723685333">The correct answer is (b). There are 28.3 grams per ounce, so  <m:math display="block">
+ <m:mrow>
+  <m:mn>15</m:mn><m:mo> </m:mo><m:mtext>mg</m:mtext><m:mo>=</m:mo><m:mn>15</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>3</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mtext>g</m:mtext>
+ </m:mrow>
+</m:math>  corresponds to  <m:math display="block">
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mn>15</m:mn><m:mo>×</m:mo><m:msup>
+       <m:mrow>
+        <m:mn>10</m:mn>
+       </m:mrow>
+       <m:mrow>
+        <m:mo>−</m:mo><m:mn>3</m:mn>
+       </m:mrow>
+      </m:msup>
+      <m:mtext>g</m:mtext>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+   <m:mrow>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mn>28.3</m:mn><m:mo> </m:mo><m:mtext>g/oz</m:mtext>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>5.3</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>4</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mtext>oz</m:mtext>
+ </m:mrow>
+</m:math> . At $1,300 per ounce, the cost of  <m:math display="block">
+ <m:mrow>
+  <m:mn>5.3</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>4</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mtext>oz</m:mtext>
+ </m:mrow>
+</m:math>  is  <m:math display="block">
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>5.3</m:mn><m:mo>×</m:mo><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn>
+     </m:mrow>
+     <m:mrow>
+      <m:mo>−</m:mo><m:mn>4</m:mn>
+     </m:mrow>
+    </m:msup>
+    <m:mtext>oz</m:mtext>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>$</m:mi><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>300</m:mn><m:mspace width="0.3em"/><m:mtext>/oz</m:mtext>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>≅</m:mo><m:mi>$</m:mi><m:mn>0.69</m:mn>
+ </m:mrow>
+</m:math> .</para>
+</solution>
+</exercise>
+
+<exercise id="fs-id1167065954874" class="os-exercise">
+<problem id="fs-id1167065954879">
+<para id="fs-id1167065954881">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex061"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065954892" class="os-exercise">
+<problem id="fs-id1167065967869">
+<para id="fs-id1167065967871">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex062"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065967882" class="os-exercise">
+<problem id="fs-id1167065967886">
+<para id="fs-id1167065967889">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex063"/>
+</para>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167065967901" class="critical-thinking"><title>Critical Thinking</title>
+<exercise id="fs-id1167065967819" class="os-exercise">
+<problem id="fs-id1167065967823">
+<para id="fs-id1167065967825">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex064"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065967836" class="os-exercise">
+<problem id="fs-id1167065967841">
+<para id="fs-id1167065967843">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex065"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065967854" class="os-exercise">
+<problem id="fs-id1167065967858">
+<para id="fs-id1167065967860">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex066"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166851318042" class="os-exercise">
+<problem id="eip-id1166851318046">
+<para id="eip-id1166851318048">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch01-ot068"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166851318060" class="os-exercise">
+<problem id="eip-id1166851318064">
+<!--<para id="eip-id1166851318066">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch01-ot070"/>
+</para>-->
+<para id="fs-id1164567801654">Calculate the approximate number of atoms in a bacterium. Assume that the average mass of an atom in the bacterium is ten times the mass of a hydrogen atom. (HintThe mass of a hydrogen atom is on the order of 10<sup>−27</sup> kg and the mass of a bacterium is on the order of 10<sup>−15</sup> kg .)</para>
+<list id="fs-id1164567897944" list-type="enumerated" number-style="lower-alpha">
+<item>10<sup>10</sup> atoms</item>
+<item>10<sup>11</sup> atoms</item>
+<item>10<sup>12</sup> atoms</item>
+<item>10<sup>13</sup> atoms</item>
+</list>
+</problem>
+</exercise></section><section id="fs-id1167064701932" class="performance">
+<title>Performance Task</title><exercise id="fs-id1167065944918"><problem id="fs-id1167065944919">
+<list id="fs-id1167062890258" list-type="enumerated" number-style="lower-alpha" mark-suffix=")">
+<item>Create a new system of units to describe something that interests you. Your unit should be described using at least two subunits. For example, you can decide to measure the quality of songs using a new unit called <emphasis effect="italics">song awesomeness</emphasis>. Song awesomeness is measured by: the number of songs downloaded and the number of times the song was used in movies.</item>
+<item>Create an equation that shows how to calculate your unit. Then, using your equation, create a sample dataset that you could graph. Are your two subunits related linearly, quadratically, or inversely?</item>
+</list></problem></exercise>
+</section>
+
+<section id="fs-id1167066048037" class="multiple-choice"><title>Test Prep Multiple Choice</title>
+<exercise id="fs-id1167066048044" class="os-exercise">
+<problem id="fs-id1167066048048">
+<para id="fs-id1167066048050">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex067"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167066048062" class="os-exercise">
+<problem id="fs-id1167066048066">
+<!--<para id="fs-id1167066048068">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex068"/>
+</para>-->
+
+<para id="fs-id1164565850187">Suppose that a bathroom scale reads a persons mass as 65 kg with a 3 percent uncertainty. What is the uncertainty in their mass in kilograms?</para>
+<list id="fs-id1164564470173" list-type="enumerated" number-style="lower-alpha">
+<item>a. 2 kg</item>
+<item>b. 98 kg</item>
+<item>c. 5 kg</item>
+<item>d. 0</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167065977559" class="os-exercise">
+<problem id="fs-id1167065977562">
+<para id="fs-id1167065977564">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex069"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166849821941" class="os-exercise">
+<problem id="eip-id1166849821945">
+<!--<para id="eip-id1166849370842">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch01-ot075"/>
+</para>-->
+<para id="fs-id1164566032483">A high school track coach has just purchased a new stopwatch that has an uncertainty of ±0.05 s . Runners on the team regularly clock 100-m sprints in 12.49 s to 15.01 s . At the schools last track meet, the first-place sprinter came in at 12.04 s and the second-place sprinter came in at 12.07 s . Will the coachs new stopwatch be helpful in timing the sprint team? Why or why not?</para>
+<list id="fs-id1164565625856" list-type="enumerated" number-style="lower-alpha">
+<item>No, the uncertainty in the stopwatch is too large to effectively differentiate between the sprint times.</item>
+<item>No, the uncertainty in the stopwatch is too small to effectively differentiate between the sprint times.</item>
+<item>Yes, the uncertainty in the stopwatch is too large to effectively differentiate between the sprint times.</item>
+<item>Yes, the uncertainty in the stopwatch is too small to effectively differentiate between the sprint times.</item>
+</list>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167065977577" class="short-answer">
+<title>Test Prep Short Answer</title>
+<exercise id="fs-id1167065977584" class="os-exercise">
+<problem id="fs-id1167065977588">
+<para id="fs-id1167065977590">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex070"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065977602" class="os-exercise">
+<problem id="fs-id1167065977606">
+<!--<para id="fs-id1167065977608">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex071"/>
+</para>-->
+
+<para id="fs-id1164567179420">Describe the main difference between the metric system and the U.S. Customary System.</para>
+<list id="fs-id1164565937755" list-type="enumerated" number-style="lower-alpha">
+<item>In the metric system, unit changes are based on powers of 10, while in the U.S. customary system, each unit conversion has unrelated conversion factors.</item>
+<item>In the metric system, each unit conversion has unrelated conversion factors, while in the U.S. customary system, unit changes are based on powers of 10.</item>
+<item>In the metric system, unit changes are based on powers of 2, while in the U.S. customary system, each unit conversion has unrelated conversion factors.</item>
+<item>In the metric system, each unit conversion has unrelated conversion factors, while in the U.S. customary system, unit changes are based on powers of 2.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167065847980" class="os-exercise">
+<problem id="fs-id1167065847985">
+<para id="fs-id1167065847987">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex072"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065847998" class="os-exercise">
+<problem id="fs-id1167065848002">
+<para id="fs-id1167065848004">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex073"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065848016" class="os-exercise">
+<problem id="fs-id1167065848020">
+<para id="fs-id1167065848022">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex074"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065968026" class="os-exercise"><problem id="fs-id1167065968030">
+<para id="fs-id1167065968033">
+The graph shows the temperature change over time of a heated cup of water.
+</para>
+<media id="graph" alt="no alt text">
+  <image mime-type="image/jpg" src="../../media/graph.jpg"/>
+</media>
+<para id="eip-idm313300976">What is the slope of the graph between the time period 2 min and 5 min?</para>
+<list id="eip-idm294495408" list-type="enumerated" number-style="lower-alpha"><item>–15 ºC/min</item>
+<item>–0.07 ºC/min</item>
+<item>0.07 ºC/min</item>
+<item>15 ºC/min</item></list></problem>
+</exercise></section>
+
+
+
+<section id="fs-id1167065968045" class="extended-response">
+<title>Test Prep Extended Response</title>
+<exercise id="fs-id1167065968052" class="os-exercise">
+<problem id="fs-id1167065968057">
+<para id="fs-id1167065968059">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch01-ex076"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167066170908" class="os-exercise"><problem id="fs-id1167066170912">
+<para id="fs-id1167066170914">
+At x = 3, a function f(x) has a positive value, with a positive slope that is decreasing in magnitude with increasing x. Which option could correspond to f(x)?
+</para>
+
+<list id="eip-idm302219184" list-type="enumerated" number-style="lower-alpha"><item> <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>13</m:mn><m:mi>x</m:mi></m:mrow></m:math> </item>
+<item> <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> </item>
+<item> <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mtext>log</m:mtext><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:math> </item>
+<item> <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mi>x</m:mi></m:mfrac></m:mrow></m:math> </item></list></problem>
+</exercise></section>
+
+</content>
+<glossary>
+<definition id="fs-id1167066170930"><term>accuracy </term><meaning id="fs-id1167066170933">how close a measurement is to the correct value for that measurement</meaning></definition>
+<definition id="fs-id1167066170936"><term>ampere</term><meaning id="fs-id1167066170939"> the SI unit for electrical current</meaning></definition>
+<definition id="fs-idm1038377536"><term>base quantity</term><meaning id="fs-idm1017872080"> physical quantity chosen by convention and practical considerations such that all other physical quantities can be expressed as algebraic combinations of them</meaning></definition>
+
+<definition id="fs-idm340692816"><term>base unit</term><meaning id="fs-idm974377312"> standard for expressing the measurement of a base quantity within a particular system of units; defined by a particular procedure used to measure the corresponding base quantity</meaning></definition>
+
+
+<definition id="fs-id1167066170942"><term>constant</term><meaning id="fs-id1167066170946"> a quantity that does not change</meaning></definition>
+<definition id="fs-id1167066170949"><term>conversion factor</term><meaning id="fs-id1167066170952"> a ratio expressing how many of one unit are equal to another unit</meaning></definition>
+<definition id="fs-id1167066113508"><term>dependent variable</term><meaning id="fs-id1167066113511"> the vertical, or <emphasis effect="italics">y</emphasis>-axis, variable, which changes with (or is dependent on) the value of the independent variable</meaning></definition>
+
+
+<definition id="fs-id1167066113527"><term>derived quantity</term><meaning id="fs-id1167066113530"> physical quantity defined using algebraic combinations of base quantities</meaning></definition>
+
+<definition id="fs-id1167066113521"><term>derived units </term><meaning id="fs-id1167066113524">units that are derived by combining the fundamental physical units </meaning></definition>
+<definition id="fs-id1167066113535"><term>exponential relationship</term><meaning id="fs-id1167066113538"> relation between variables in which a constant change in the independent variable is accompanied by change in the dependent variable that is proportional to the value it already had</meaning></definition>
+<definition id="fs-id1167066113543"><term>fundamental physical units</term><meaning id="fs-id1167066113546"> the seven fundamental physical units in the SI system of units are length, mass, time, electric current, temperature, amount of a substance, and luminous intensity</meaning></definition>
+<definition id="fs-id1167066113551"><term>independent variable </term><meaning id="fs-id1167066113554">the horizontal, or <emphasis effect="italics">x</emphasis>-axis, variable, which is not influence by the second variable on the graph, the dependent variable </meaning></definition>
+<definition id="fs-id1167066113564"><term>inverse proportionality </term><meaning id="fs-id1167066113567">a relation between two variables expressible by an equation of the form  <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>k</m:mi><m:mo>/</m:mo><m:mi>x</m:mi></m:mrow></m:math>  where <emphasis effect="italics">k </emphasis>stays constant when <emphasis effect="italics">x </emphasis>and <emphasis effect="italics">y </emphasis>change; the special form of inverse relationship that satisfies this equation</meaning></definition>
+<definition id="fs-id1167066057004"><term>inverse relationship </term><meaning id="fs-id1167066057007">any relation between variables where one variable decreases as the other variable increases</meaning></definition>
+<definition id="fs-id1167066057011"><term>kilogram</term><meaning id="fs-id1167066057014"> the SI unit for mass, abbreviated (kg)</meaning></definition>
+<definition id="fs-id1167066057017"><term>linear relationships</term><meaning id="fs-id1167066057020"> relation between variables that produce a straight line when graphed </meaning></definition>
+<definition id="fs-id1167066057024"><term>logarithmic scale </term><meaning id="fs-id1167066057027">a graphing scale in which each tick on an axis is the previous tick multiplied by some value</meaning></definition>
+<definition id="fs-id1167066121890"><term>log-log plot </term><meaning id="fs-id1167066121893">a plot that uses a logarithmic scale in both axes </meaning></definition>
+<definition id="fs-id1167066121896"><term>meter</term><meaning id="fs-id1167066121899"> the SI unit for length, abbreviated (m)</meaning></definition>
+<definition id="fs-id1167066121902"><term>method of adding percents</term><meaning id="fs-id1167066121906"> calculating the percent uncertainty of a quantity in multiplication or division by adding the percent uncertainties in the quantities being added or divided</meaning></definition>
+<definition id="fs-id1167066121910"><term>order of magnitude</term><meaning id="fs-id1167066121914"> the size of a quantity in terms of its power of 10 when expressed in scientific notation</meaning></definition>
+<definition id="fs-id1167066121918"><term>precision</term><meaning id="fs-id1167066121921"> how well repeated measurements generate the same or closely similar results</meaning></definition>
+<definition id="fs-id1167066121924"><term>quadratic relationship</term><meaning id="fs-id1167066121927"> relation between variables that can be expressed in the form  <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow>
+</m:math>, which produces a curved line when graphed </meaning></definition>
+<definition id="fs-id1167066121932"><term>scientific notation</term><meaning id="fs-id1167066121935"> way of writing numbers that are too large or small to be conveniently written in simple decimal form; the measurement is multiplied by a power of 10, which indicates the number of placeholder zeros in the measurement </meaning></definition>
+<definition id="fs-id1167066121940"><term>second</term><meaning id="fs-id1167066121943"> the SI unit for time, abbreviated (s)</meaning></definition>
+<definition id="fs-id1167066121946"><term>semi-log plot </term><meaning id="fs-id1167066025930">A plot that uses a logarithmic scale on one axis of the graph and a linear scale on the other axis. </meaning></definition>
+
+
+<definition id="fs-id1167066025942"><term>significant figures</term><meaning id="fs-id1167066025946"> when writing a number, the digits, or number of digits, that express the precision of a measuring tool used to measure the number</meaning></definition>
+<definition id="fs-id1167066025950"><term>slope</term><meaning id="fs-id1167066025953"> the ratio of the change of a graph on the <emphasis effect="italics">y </emphasis>axis to the change along the <emphasis effect="italics">x-</emphasis>axis, the value of <emphasis effect="italics">m </emphasis>in the equation of a line,  <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow>
+</m:math> </meaning></definition>
+<definition id="fs-id1167066025972"><term>uncertainty</term><meaning id="fs-id1167066025975"> a quantitative measure of how much measured values deviate from a standard or expected value</meaning></definition>
+<definition id="fs-id1167066025979"><term><emphasis effect="italics">y</emphasis>-intercept</term> <meaning id="fs-id1167066025988">the point where a plot line intersects the <emphasis effect="italics">y</emphasis>-axis</meaning></definition>
+</glossary>
+</document>

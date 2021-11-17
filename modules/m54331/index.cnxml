@@ -1,0 +1,751 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Speed of Sound, Frequency, and Wavelength</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54331</md:content-id>
+  <md:title>Speed of Sound, Frequency, and Wavelength</md:title>
+  <md:abstract/>
+  <md:uuid>9f862e6d-b699-4622-bd6c-fe3bc3034515</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167067127649" class="learning-objectives"><label/><title>Section Learning Objectives</title>
+
+<para id="fs-id1167067210825">By the end of this section, you will be able to do the following:</para>
+<list id="fs-id1167067264826">
+<item>Relate the characteristics of waves to properties of sound waves</item>
+<item>Describe the speed of sound and how it changes in various media</item>
+<item>Relate the speed of sound to frequency and wavelength of a sound wave</item>
+</list>
+</note><note id="fs-id1167063528691" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167063808118">The learning objectives in this section will help your students master the following standards:</para>
+<list id="fs-id1167067217096">
+<item>(7) Science concepts. The student knows the characteristics and behavior of waves. The student is expected to:
+<list id="fs-id1167063933245">
+<item>
+<span>(A)</span> <span>examine and describe oscillatory motion and wave propagation in various types of media;</span>
+</item>
+<item>
+<span>(B)</span>
+<span>investigate and analyze characteristics of waves, including velocity, frequency, amplitude, and wavelength, and calculate using the relationship between wave speed, frequency, and wavelength;</span>
+</item>
+<item>
+<span>(C)</span>
+<span>compare characteristics and behaviors of transverse waves, including electromagnetic waves and the electromagnetic spectrum, and characteristics and behaviors of longitudinal waves, including sound waves;</span>
+</item>
+<item>
+<span>(F)</span>
+<span>describe the role of wave characteristics and behaviors in medical and industrial applications.</span>
+</item>
+</list>
+</item>
+</list>
+<para id="fs-id1169316120350">In addition, the High School Physics Laboratory Manual addresses content in this section in the lab titled: Waves, as well as the following standards:</para><list id="fs-id1169315130701">
+<item>(7) Science concepts. The student knows the characteristics and behavior of waves. The student is expected to:
+<list id="fs-id1169316376395"><item>
+<span>(B)</span>
+ <span>investigate and analyze characteristics of waves, including velocity, frequency, amplitude, and wavelength, and calculate using the relationship between wave speed, frequency, and wavelength.</span>
+</item>
+</list></item>
+</list>
+</note>
+<section id="keyterms"><title>Section Key Terms</title>
+<table id="fs-id1167066808792" summary="The list of Key Terms includes: rarefaction, sound" class="unnumbered unstyled section-key-terms"><label/>
+<tgroup cols="2"><tbody>
+<row>
+<entry>rarefaction</entry>
+<entry>sound</entry>
+</row>
+</tbody>
+
+</tgroup>
+</table></section>
+
+<note id="fs-id1167066973960" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067078939"><span>[BL]</span><span>[OL]</span> Review waves and types of waves—mechanical and non-mechanical, transverse and longitudinal, pulse and periodic. Review properties of waves—amplitude, period, frequency, velocity and their inter-relations.</para>
+</note>
+
+<section id="fs-id1167067036472">
+<title>Properties of Sound Waves</title>
+<para id="fs-id1167066875159"><term>Sound</term> is a wave. More specifically, sound is defined to be a disturbance of matter that is transmitted from its source outward. A disturbance is anything that is moved from its state of equilibrium. Some sound waves can be characterized as periodic waves, which means that the atoms that make up the matter experience simple <term class="no-emphasis">harmonic motion</term>.</para>
+<para id="fs-id1167063514041">A vibrating string produces a sound wave as illustrated in <link target-id="Figure_14_01_StringR"/>, <link target-id="Figure_14_01_StringL"/>, and <link target-id="Figure_14_01_Vibrations"/>. As the string oscillates back and forth, part of the string’s energy goes into compressing and expanding the surrounding air. This creates slightly higher and lower pressures. The higher pressure... regions are compressions, and the low pressure regions are <term>rarefactions</term>. The pressure disturbance moves through the air as <term class="no-emphasis">longitudinal waves</term> with the same <term class="no-emphasis">frequency</term> as the string. Some of the energy is lost in the form of thermal energy transferred to the air. You may recall from the chapter on waves that areas of compression and rarefaction in longitudinal waves (such as sound) are analogous to crests and troughs in <term class="no-emphasis">transverse waves</term>.</para>
+
+<figure id="Figure_14_01_StringR">
+<media id="fs-id1167063517281" alt="A string bulges to the right, creating compression ahead of it and rarefaction behind it."><image mime-type="image/jpg" src="../../media/CNX_HSPhysics_14_01_StringR.jpg"/></media>
+<caption>A vibrating string moving to the right compresses the air in front of it and expands the air behind it.</caption>
+</figure>
+
+<figure id="Figure_14_01_StringL">
+<media id="fs-id1167063699203" alt="A string bulges to the left, creating compression ahead of it and rarefaction behind it."><image mime-type="image/jpg" src="../../media/CNX_HSPhysics_14_01_StringL.jpg"/></media>
+<caption>As the string moves to the left, it creates another compression and rarefaction as the particles on the right move away from the string.</caption>
+</figure>
+
+<figure id="Figure_14_01_Vibrations">
+<media id="fs-id1167067165375" alt="A string vibrates back and forth from left to right. The graph of its position is sinusoidal in shape, with amplitude decreasing over time.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_14_01_Vibrations.jpg"/>
+</media>
+<caption>After many vibrations, there is a series of compressions and rarefactions that have been transmitted from the string as a sound wave. The graph shows gauge pressure (P<sub>gauge</sub>) versus distance <emphasis effect="italics">x</emphasis> from the source. Gauge pressure is the pressure relative to atmospheric pressure; it is positive for pressures above atmospheric pressure, and negative for pressures below it. For ordinary, everyday sounds, pressures vary only slightly from average atmospheric pressure.</caption>
+</figure>
+
+<para id="fs-id1167067086648">The <term class="no-emphasis">amplitude</term> of a sound wave decreases with distance from its source, because the energy of the wave is spread over a larger and larger area. But some of the energy is also absorbed by objects, such as the eardrum in <link target-id="Figure_14_01_Eardrum"/>, and some of the energy is converted to thermal energy in the air. <link target-id="Figure_14_01_Vibrations"/> shows a graph of <term class="no-emphasis">gauge pressure</term> versus distance from the vibrating string. From this figure, you can see that the compression of a longitudinal wave is analogous to the peak of a transverse wave, and the rarefaction of a longitudinal wave is analogous to the trough of a transverse wave. Just as a transverse wave alternates between peaks and troughs, a longitudinal wave alternates between compression and rarefaction.</para>
+
+<figure id="Figure_14_01_Eardrum">
+<media id="fs-id1167063629448" alt="A sound wave with areas of alternating compression and rarefaction enter an ear canal and eardrum."><image mime-type="image/jpg" src="../../media/CNX_HSPhysics_14_01_Eardrum.jpg"/></media>
+<caption>Sound wave compressions and rarefactions travel up the ear canal and force the eardrum to vibrate. There is a net force on the eardrum, since the sound wave pressures differ from the atmospheric pressure found behind the eardrum. A complicated mechanism converts the vibrations to nerve impulses, which are then interpreted by the brain.</caption>
+</figure>
+</section>
+
+<section id="fs-id1167061596218"><title>The Speed of Sound</title><note id="fs-id1167067075138" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067009556"><span>[BL]</span> Review the fact that sound is a mechanical wave and requires a medium through which it is transmitted.</para>
+<para id="fs-id1167067196663"><span>[OL]</span><span>[AL]</span> Ask students if they know the speed of sound and if not, ask them to take a guess. Ask them why the sound of thunder is heard much after the lightning is seen during storms. This phenomenon is also observed during a display of fireworks. Through this discussion, develop the concept that the speed of sound is finite and measurable and is much slower than that of light.</para>
+</note>
+
+<para id="fs-id1167063525272">The <term class="no-emphasis">speed</term> of sound varies greatly depending upon the medium it is traveling through. The speed of sound in a medium is determined by a combination of the medium’s rigidity (or compressibility in gases) and its density. The more rigid (or less compressible) the medium, the faster the speed of sound. The greater the density of a medium, the slower the speed of sound. The speed of sound in air is low, because air is compressible. Because liquids and solids are relatively rigid and very difficult to compress, the speed of sound in such media is generally greater than in gases. <link target-id="Table_14_01"/> shows the speed of sound in various media. Since temperature affects density, the speed of sound varies with the temperature of the medium through which it’s traveling to some extent, especially for gases.</para>
+<note id="fs-add" class="os-teacher"><title>Teacher Support</title>
+
+<note id="fs-id1167063588559" class="misconception">
+
+<para id="fs-id1167066778212">Students might be confused between rigidity and density and how they affect the speed of sound. The speed of sound is slower in denser media. Solids are denser than gases. However, they are also very rigid, and hence sound travels faster in solids. Stress on the fact that the speed of sound always depends on a <emphasis effect="italics">combination</emphasis> of these two properties of any medium.</para>
+</note>
+</note>
+
+<table id="Table_14_01" summary="This table gives the speed of sound in different media. It has two columns. The left column gives a list of media, classified as gases, liquids and solids. The right column gives the speed of sound in each given medium."><title>Speed of Sound in Various Media</title><tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row>
+<entry>Medium</entry>
+<entry>v<sub>w</sub> (m/s)</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry namest="c1" nameend="c2"><emphasis effect="bold"><emphasis effect="italics">Gases at 0 °C</emphasis></emphasis></entry>
+</row>
+<row>
+<entry>Air</entry>
+<entry>331</entry>
+</row>
+<row>
+<entry>Carbon dioxide</entry>
+<entry>259</entry>
+</row>
+<row>
+<entry>Oxygen</entry>
+<entry>316</entry>
+</row>
+<row>
+<entry>Helium</entry>
+<entry>965</entry>
+</row>
+<row>
+<entry>Hydrogen</entry>
+<entry>1290</entry>
+</row>
+<row>
+<entry namest="c1" nameend="c2"><emphasis effect="bold"><emphasis effect="italics">Liquids at 20 °C</emphasis></emphasis></entry>
+</row>
+<row>
+<entry>Ethanol</entry>
+<entry>1160</entry>
+</row>
+<row>
+<entry>Mercury</entry>
+<entry>1450</entry>
+</row>
+<row>
+<entry>Water, fresh</entry>
+<entry>1480</entry>
+</row>
+<row>
+<entry>Sea water</entry>
+<entry>1540</entry>
+</row>
+<row>
+<entry>Human tissue</entry>
+<entry>1540</entry>
+</row>
+<row>
+<entry namest="c1" nameend="c2"><emphasis effect="bold"><emphasis effect="italics">Solids (longitudinal or bulk)</emphasis></emphasis></entry>
+</row>
+<row>
+<entry>Vulcanized rubber</entry>
+<entry>54</entry>
+</row>
+<row>
+<entry>Polyethylene</entry>
+<entry>920</entry>
+</row>
+<row>
+<entry>Marble</entry>
+<entry>3810</entry>
+</row>
+<row>
+<entry>Glass, Pyrex</entry>
+<entry>5640</entry>
+</row>
+<row>
+<entry>Lead</entry>
+<entry>1960</entry>
+</row>
+<row>
+<entry>Aluminum</entry>
+<entry>5120</entry>
+</row>
+<row>
+<entry>Steel</entry>
+<entry>5960</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+<note id="fs-id1167066983606" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167063851026"><span>[BL]</span> Note that in the table, the speed of sound in very rigid materials such as glass, aluminum, and steel ... is quite high, whereas the speed in rubber, which is considerably less rigid, is quite low.</para>
+</note>
+</section><section id="fs-id1167067215769"><title>The Relationship Between the Speed of Sound and the Frequency and Wavelength of a Sound Wave</title><figure id="Figure_14_01_fireworks">
+<media id="fs-id1167067023115" alt="The photograph shows fireworks exploding in the night sky."><image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_14_01_Fireworks.jpg"/></media>
+<caption>When fireworks explode in the sky, the light energy is perceived before the sound energy. Sound travels more slowly than light does. (Dominic Alves, Flickr)</caption>
+</figure>
+
+<para id="fs-id1167067010130">Sound, like all waves, travels at certain speeds through different media and has the properties of frequency and <term class="no-emphasis">wavelength</term>. Sound travels much slower than light—you can observe this while watching a fireworks display (see <link target-id="Figure_14_01_fireworks"/>), since the flash of an explosion is seen before its sound is heard.</para>
+<para id="fs-id1167067010457">The relationship between the speed of sound, its frequency, and wavelength is the same as for all waves:</para>
+<equation id="fs-id1164566579266"> <m:math display="block">
+ <m:mrow>
+  <m:mi>v</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mi>λ</m:mi><m:mo>,</m:mo></m:mrow>
+</m:math> </equation><para id="fs-id1167067215682">where <emphasis effect="italics">v</emphasis> is the speed of sound (in units of m/s), <emphasis effect="italics">f </emphasis>is its frequency (in units of hertz), and  <m:math>
+ <m:mi>λ</m:mi>
+</m:math>  is its wavelength (in units of meters). Recall that wavelength is defined as the distance between adjacent identical parts of a wave. The wavelength of a sound, therefore, is the distance between adjacent identical parts of a sound wave. Just as the distance between adjacent crests in a transverse wave is one wavelength, the distance between adjacent compressions in a sound wave is also one wavelength, as shown in <link target-id="Figure_14_01_tuningFork"/>. The frequency of a sound wave is the same as that of the source. For example, a tuning fork vibrating at a given frequency would produce sound waves that oscillate at that same frequency. The frequency of a sound is the number of waves that pass a point per unit time.</para>
+
+<figure id="Figure_14_01_tuningFork"><media id="fs-id1167067202805" alt="A tuning fork vibrates back and forth, creating sound waves."><image mime-type="image/jpg" src="../../media/CNX_HSPhysics_14_01_TuningFork.jpg"/></media>
+
+<caption>A sound wave emanates from a source vibrating at a frequency <emphasis effect="italics">f</emphasis>, propagates at <emphasis effect="italics">v</emphasis>, and has a wavelength  <m:math>
+ <m:mi>λ</m:mi>
+</m:math> .</caption></figure>
+
+<note id="fs-id1167066967642" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066774415"><span>[BL]</span><span>[OL]</span><span>[AL]</span> In musical instruments, shorter strings vibrate faster and hence produce sounds at higher pitches. Fret placements on instruments such as guitars, banjos, and mandolins, are mathematically determined to give the correct interval or change in pitch. When the string is pushed against the fret wire, the string is effectively shortened, changing its pitch. Ask students to experiment with strings of different lengths and observe how the pitch changes in each case.</para>
+</note>
+
+<para id="fs-id1167067226319">One of the more important properties of sound is that its speed is nearly independent of frequency. If this were not the case, and high-frequency sounds traveled faster, for example, then the farther you were from a band in a football stadium, the more the sound from the low-pitch instruments would lag behind the high-pitch ones. But the music from all instruments arrives in cadence independent of distance, and so all frequencies must travel at nearly the same speed.</para>
+
+<para id="fs-id1167066825974">Recall that  <m:math>
+ <m:mrow>
+  <m:mi>v</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mi>λ</m:mi></m:mrow>
+</m:math>, and in a given medium under fixed temperature and humidity, <emphasis effect="italics">v</emphasis> is constant. Therefore, the relationship between <emphasis effect="italics">f </emphasis>and  <m:math>
+ <m:mi>λ</m:mi>
+</m:math>  is inverse: The higher the frequency, the shorter the wavelength of a sound wave. </para>
+<note id="fs-add2" class="os-teacher"><title>Teacher Support</title>
+<note id="fs-id1167067174895" class="teacher-demonstration">
+<para id="fs-id1167067194253">Hold a meter stick flat on a desktop, with about 80 cm sticking out over the edge of the desk. Make the meter stick vibrate by pulling the tip down and releasing, while holding the meter stick tight to the desktop. While it is vibrating, move the stick back onto the desktop, shortening the part that is sticking out. Students will see the shortening of the vibrating part of the meter stick, and hear the pitch or number of vibrations go up—an increase in frequency.</para>
+</note>
+</note>
+<para id="fs-id1167067142149">The speed of sound can change when sound travels from one medium to another. However, the frequency usually remains the same because it is like a driven oscillation and maintains the frequency of the original source. If <emphasis effect="italics">v</emphasis> changes and <emphasis effect="italics">f </emphasis>remains the same, then the wavelength  <m:math>
+ <m:mi>λ</m:mi>
+</m:math>  must change. Since  <m:math>
+ <m:mrow>
+  <m:mi>v</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mi>λ</m:mi></m:mrow>
+</m:math>, the higher the speed of a sound, the greater its wavelength for a given frequency.</para>
+
+<note id="fs-id1167067007913" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067294306"><span>[AL]</span> Ask students to predict what would happen if the speeds of sound in air varied by frequency.</para>
+</note>
+
+<note id="fs-id1167063855939" class="virtual-physics os-interactive"><title>Sound</title>
+<media id="fs-id1167061330647" alt="This simulation lets you see sound waves." display="block">
+<iframe width="660" height="371.4" src="https://openstax.org/l/28sound"/></media>
+<para id="fs-id1167064547349">This simulation lets you see sound waves. Adjust the frequency or amplitude (volume) and you can see and hear how the wave changes. Move the listener around and hear what she hears. Switch to the Two Source Interference tab or the Interference by Reflection tab to experiment with interference and reflection.</para>
+
+<note id="fs-id1167067203606" class="tips-for-success">
+
+<para id="fs-id1167067080058">Make sure to have audio enabled and set to Listener rather than Speaker, or else the sound will not vary as you move the listener around.</para>
+</note>
+
+<exercise id="fs-id1167061220866" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167063798710">
+<para id="fs-id1167067109955">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex001"/>
+</para>
+</problem>
+</exercise>
+
+<exercise id="fs-id1167061220867" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167063798711">
+<para id="fs-id1167061295146">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex002"/>
+</para>
+</problem>
+</exercise>
+</note>
+<note id="fs-id1167067179300" class="snap-lab"><title>Voice as a Sound Wave</title>
+
+<para id="fs-id1167067013017">In this lab you will observe the effects of blowing and speaking into a piece of paper in order to compare and contrast different sound waves.</para>
+
+<list id="fs-id1167066835678" class="materials">
+<item>sheet of paper</item>
+<item>tape</item>
+<item>table</item>
+</list>
+<para id="fs-id1164566570197">Instructions</para>
+<list id="fs-id1167061253251" list-type="enumerated"><title>Procedure</title>
+<item>Suspend a sheet of paper so that the top edge of the paper is fixed and the bottom edge is free to move. You could tape the top edge of the paper to the edge of a table, for example.</item>
+<item>Gently blow air near the edge of the bottom of the sheet and note how the sheet moves.</item>
+<item>Speak softly and then louder such that the sounds hit the edge of the bottom of the paper, and note how the sheet moves.</item>
+<item>Interpret the results.</item>
+</list><exercise id="fs-id1167063512276" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167063514009">
+<!--<para id="fs-id1167067255569">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex003"/>
+</para>-->
+
+<para id="fs-id1164565187966">Which sound wave property increases when you are speaking more loudly than softly?</para>
+<list id="fs-id1164562446303" list-type="enumerated" number-style="lower-alpha">
+<item>amplitude of the wave</item>
+<item>frequency of the wave</item>
+<item>speed of the wave</item>
+<item>wavelength of the wave</item>
+</list>
+</problem>
+</exercise>
+</note><note id="Worked_Example_14_01" class="worked-example">
+
+<title>What Are the Wavelengths of Audible Sounds?</title>
+
+<exercise id="fs-id1167067194074" class="14-ex004 unnumbered">
+<label/>
+<problem id="fs-id1167067075271">
+<para id="fs-id1167066875529">Calculate the wavelengths of sounds at the extremes of the audible range, 20 and 20,000 Hz, in conditions where sound travels at 348.7 m/s.</para>
+<note id="fs-id1167067232515">
+<label/>
+<title>Strategy</title>
+<para id="fs-id1167066972889">To find wavelength from frequency, we can use  <m:math>
+ <m:mrow>
+  <m:mi>v</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mi>λ</m:mi></m:mrow>
+</m:math> .</para>
+</note>
+</problem>
+<solution id="fs-id1167066939163">
+<label/>
+<title>Solution</title>
+<para id="fs-id1167063735332">(1) Identify the knowns. The values for <emphasis effect="italics">v</emphasis> and <emphasis effect="italics">f</emphasis> are given.</para>
+<para id="fs-id1167067253209">(2) Solve the relationship between speed, frequency and wavelength for  <m:math>
+ <m:mi>λ</m:mi>
+</m:math> .</para>
+<equation id="fs-id1164565109279"> <m:math display="block">
+ <m:mrow>
+  <m:mi>λ</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mi>v</m:mi>
+   <m:mi>f</m:mi>
+  </m:mfrac>
+<m:mtext>.</m:mtext>
+  </m:mrow>
+</m:math>
+</equation><para id="fs-id1167063687600">(3) Enter the speed and the minimum frequency to give the maximum wavelength.</para>
+<equation id="fs-id1164565123933"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>λ</m:mi>
+   <m:mrow>
+    <m:mi>max</m:mi></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>348.7</m:mn><m:mspace width="0.3em"/><m:mtext> m/s</m:mtext></m:mrow>
+   <m:mrow>
+    <m:mn>20</m:mn><m:mspace width="0.3em"/><m:mtext> Hz</m:mtext></m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>17</m:mn><m:mspace width="0.3em"/><m:mtext> m</m:mtext><m:mo>≈</m:mo><m:mtext>20 m (1 sig</m:mtext><m:mtext>. figure)</m:mtext></m:mrow>
+</m:math> </equation>
+<para id="fs-id1167067029534">(4) Enter the speed and the maximum frequency to give the minimum wavelength.</para>
+<equation id="fs-id1164561234289"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>λ</m:mi>
+   <m:mrow>
+    <m:mi>min</m:mi></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>348.7</m:mn><m:mspace width="0.3em"/><m:mtext> m/s</m:mtext></m:mrow>
+   <m:mrow>
+    <m:mn>20</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mspace width="0.3em"/><m:mtext> Hz</m:mtext></m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>0.017</m:mn><m:mspace width="0.3em"/><m:mtext> m</m:mtext><m:mo>≈</m:mo><m:mtext>2 cm (1 sig</m:mtext><m:mtext>. figure)</m:mtext></m:mrow>
+</m:math>
+</equation></solution>
+<commentary id="fs-id1167067233576">
+<title>Discussion</title>
+<para id="fs-id1167067055973">Because the product of <emphasis effect="italics">f </emphasis>multiplied by  <m:math>
+ <m:mi>λ</m:mi>
+</m:math>  equals a constant velocity in unchanging conditions, the smaller <emphasis effect="italics">f </emphasis>is, the larger  <m:math>
+ <m:mi>λ</m:mi>
+</m:math>  must be, and vice versa. Note that you can also easily rearrange the same formula to find frequency or velocity.</para>
+</commentary>
+</exercise>
+</note>
+</section><section id="fs-id1167067123769" class="practice-problems"><title>Practice Problems</title><exercise id="fs-id1167066844933">
+<problem id="fs-id1167063895525">
+<para id="fs-id1167063938929">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex005"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167061202556">
+<problem id="fs-id1167067039580">
+<para id="fs-id1167063890248">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex006"/>
+</para>
+</problem>
+</exercise>
+</section><note id="fs-id1167063519803" class="links-to-physics">
+
+<title>Echolocation</title>
+
+<figure id="Figure_14_01_Bat">
+<media id="fs-id1167067126844" alt="A bat produces sound waves that bounce off of a fly and back to the bat.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_14_01_Bat.jpg"/></media>
+<caption>A bat uses sound echoes to find its way about and to catch prey. The time for the echo to return is directly proportional to the distance.</caption>
+</figure>
+
+<para id="fs-id1167063947634">Echolocation is the use of reflected sound waves to locate and identify objects. It is used by animals such as bats, dolphins and whales, and is also imitated by humans in SONAR—Sound Navigation and Ranging—and echolocation technology.</para>
+<para id="fs-id1167063582821">Bats, dolphins and whales use echolocation to navigate and find food in their environment. They locate an object (or obstacle) by emitting a sound and then sensing the reflected sound waves. Since the speed of sound in air is constant, the time it takes for the sound to travel to the object and back gives the animal a sense of the distance between itself and the object. This is called <emphasis effect="italics">ranging</emphasis>. <link target-id="Figure_14_01_Bat"/> shows a bat using echolocation to sense distances.</para>
+<para id="fs-id1167063887770">Echolocating animals identify an object by comparing the relative intensity of the sound waves returning to each ear to figure out the angle at which the sound waves were reflected. This gives information about the direction, size and shape of the object. Since there is a slight distance in position between the two ears of an animal, the sound may return to one of the ears with a bit of a delay, which also provides information about the position of the object. For example, if a bear is directly to the right of a bat, the echo will return to the bat’s left ear later than to its right ear. If, however, the bear is directly ahead of the bat, the echo would return to both ears at the same time. For an animal without a sense of sight such as a bat, it is important to know <emphasis effect="italics">where</emphasis> other animals are as well as <emphasis effect="italics">what</emphasis> they are; their survival depends on it.</para>
+<para id="fs-id1167067157856">Principles of echolocation have been used to develop a variety of useful sensing technologies. SONAR, is used by submarines to detect objects underwater and measure water depth. Unlike animal echolocation, which relies on only one transmitter (a mouth) and two receivers (ears), manmade SONAR uses many transmitters and beams to get a more accurate reading of the environment. Radar technologies use the echo of radio waves to locate clouds and storm systems in weather forecasting, and to locate aircraft for air traffic control. Some new cars use echolocation technology to sense obstacles around the car, and warn the driver who may be about to hit something (or even to automatically parallel park). Echolocation technologies and training systems are being developed to help visually impaired people navigate their everyday environments.</para>
+
+<exercise id="fs-id1167067039003" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167067279962">
+<para id="fs-id1167067123854">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex007"/>
+</para>
+</problem>
+</exercise>
+</note>
+
+<section id="fs-id1167063867583" class="check-understanding"><title>Check Your Understanding</title><note id="fs-id1167067216991" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067015472">Use these questions to assess student achievement of the section’s Learning Objectives. If students are struggling with a specific objective, these questions will help identify which and direct students to the relevant content.</para>
+</note>
+<exercise id="fs-id1167066793123" class="os-exercise">
+<problem id="fs-id1167063515101">
+<para id="fs-id1167063914974">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex008"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167063518963" class="os-exercise">
+<problem id="fs-id1167066984200">
+<!--<para id="fs-id1167067174341">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex009"/>
+</para>-->
+
+<para id="fs-id1164563054995">What sort of motion do the particles of a medium experience when a sound wave passes through it?</para>
+<list id="fs-id1164562261274" list-type="enumerated" number-style="lower-alpha">
+<item>Simple harmonic motion</item>
+<item>Circular motion</item>
+<item>Random motion</item>
+<item>Translational motion</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067070336" class="os-exercise">
+<problem id="fs-id1167067024181">
+<!--<para id="fs-id1167063616878">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex010"/>
+</para>-->
+<para id="fs-id1164564965900">What does the speed of sound depend on?</para>
+<list id="fs-id1164566502481" list-type="enumerated" number-style="lower-alpha">
+<item>The wavelength of the wave</item>
+<item>The size of the medium</item>
+<item>The frequency of the wave</item>
+<item>The properties of the medium</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167066992751" class="os-exercise">
+<problem id="fs-id1167063622090">
+<!--<para id="fs-id1167066991692">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex011"/>
+</para>-->
+<para id="fs-id1164565124552">What property of a gas would affect the speed of sound traveling through it?</para>
+<list id="fs-id1164565209539" list-type="enumerated" number-style="lower-alpha">
+<item>The volume of the gas</item>
+<item>The flammability of the gas</item>
+<item>The mass of the gas</item>
+<item>The compressibility of the gas</item>
+</list>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167066875996" class="summary">
+<title>Section Summary</title>
+<list id="fs-id1167066843446">
+<item>Sound is one type of wave.</item>
+<item>Sound is a disturbance of matter that is transmitted from its source outward in the form of longitudinal waves.</item>
+<item>The relationship of the speed of sound <emphasis effect="italics">v</emphasis>, its frequency <emphasis effect="italics">f</emphasis>, and its wavelength  <m:math>
+ <m:mi>λ</m:mi>
+</m:math>  is given by  <m:math>
+ <m:mrow>
+  <m:mi>v</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mi>λ</m:mi></m:mrow>
+</m:math>, which is the same relationship given for all waves.</item>
+<item>The speed of sound depends upon the medium through which the sound wave is travelling.</item>
+<item>In a given medium at a specific temperature (or density), the speed of sound <emphasis effect="italics">v</emphasis> is the same for all frequencies and wavelengths.</item>
+</list>
+</section>
+
+<section id="fs-id1167063496517" class="key-equations"><title>Key Equations</title><table id="fs-id1167066956059" class="unnumbered unstyled" summary="This table gives the equation for the speed of sound.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" align="left" colname="c1"/>
+<colspec colnum="2" align="left" colname="c2"/>
+<tbody>
+<row>
+<entry>speed of sound</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mi>v</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mi>λ</m:mi></m:mrow>
+</m:math>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+
+<section id="fs-id1167063599724" class="concept">
+<title>Concept Items</title>
+
+<exercise id="fs-id1167066875611" class="os-exercise">
+<problem id="fs-id1167063486681">
+<!--<para id="fs-id1167063491267">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex012"/>
+</para>-->
+<para id="fs-id1164561965332">What is the amplitude of a sound wave perceived by the human ear?</para>
+<list id="fs-id1164562478812" list-type="enumerated" number-style="lower-alpha">
+<item>loudness</item>
+<item>pitch</item>
+<item>intensity</item>
+<item>timbre</item>
+</list>
+
+</problem>
+</exercise>
+<exercise id="fs-id1167063788627" class="os-exercise"><problem id="fs-id1167063582802">
+<para id="eip-idm344471792">The compressibility of air and hydrogen is almost the same. Which factor is the reason that sound travels faster in hydrogen than in air?</para>
+
+<list id="eip-idm373122160" list-type="enumerated" number-style="lower-alpha">
+<item>Hydrogen is more dense than air.</item>
+<item>Hydrogen is less dense than air.</item>
+<item>Hydrogen atoms are heavier than air molecules.</item>
+<item>Hydrogen atoms are lighter than air molecules.</item>
+</list>
+</problem>
+</exercise></section>
+
+<section id="fs-id1167067038671" class="critical-thinking">
+<title>Critical Thinking</title>
+<exercise id="fs-id1167066799051" class="os-exercise">
+<problem id="fs-id1167063690138">
+<para id="fs-id1167066963120">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex014"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167067146332" class="os-exercise">
+<problem id="fs-id1167067013495">
+<para id="fs-id1167066961437">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex015"/>
+</para>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167067039637" class="problems">
+<title>Problems</title>
+<exercise id="fs-id1167063938972" class="os-exercise">
+<problem id="fs-id1167060078844">
+<para id="fs-id1167061193243">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex016"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167061706144" class="os-exercise">
+<problem id="fs-id1167066811090">
+<para id="fs-id1167067226541">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex017"/>
+</para>
+</problem>
+</exercise>
+</section>
+
+
+<section id="fs-id1167063642440" class="multiple-choice"><title>Test Prep Multiple Choice</title><exercise id="fs-id1167061315126" class="os-exercise">
+<problem id="fs-id1167067153399">
+<!--<para id="fs-id1167066820275">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex018"/>
+</para>-->
+<para id="fs-id1164563568584">What properties does a loud, shrill whistle have?</para>
+<list id="fs-id1164564849206" list-type="enumerated" number-style="lower-alpha">
+<item>high amplitude, high frequency</item>
+<item>high amplitude, low frequency</item>
+<item>low amplitude, high frequency</item>
+<item>low amplitude, low frequency</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167066992606" class="os-exercise">
+<problem id="fs-id1167066874186">
+<para id="fs-id1167067055580">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex019"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167061252037" class="os-exercise">
+<problem id="fs-id1167067013035">
+<para id="fs-id1167067231988">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex020"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166848782346" class="os-exercise">
+<problem id="eip-id1166851406662">
+<para id="eip-id1166851406664">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ot008"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166849099184" class="os-exercise">
+<problem id="eip-id1166851055655">
+<para id="eip-id1166849165141">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ot012"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167063693363" class="short-answer">
+<title>Test Prep Short Answer</title>
+<exercise id="fs-id1167061190377" class="os-exercise">
+<problem id="fs-id1167067153293">
+<!--<para id="fs-id1167061193230">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex021"/>
+</para>-->
+<para id="fs-id1164564773776">What component of a longitudinal sound wave is analogous to a trough of a transverse wave?</para>
+<list id="fs-id1164565250006" list-type="enumerated" number-style="lower-alpha">
+<item>compression</item>
+<item>rarefaction</item>
+<item>node</item>
+<item>antinode</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067045688" class="os-exercise">
+<problem id="fs-id1167066844858">
+<!--<para id="fs-id1167067227426">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex022"/>
+</para>-->
+<para id="fs-id1164561211743">What is the frequency of a sound wave as perceived by the human ear?</para>
+<list id="fs-id1164566508122" list-type="enumerated" number-style="lower-alpha">
+<item>timbre</item>
+<item>loudness</item>
+<item>intensity</item>
+<item>pitch</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167061706252" class="os-exercise">
+<problem id="fs-id1167067261816">
+<!--<para id="fs-id1167067083879">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex023"/>
+</para>-->
+
+<para id="fs-id1164565044143">What properties of a solid determine the speed of sound traveling through it?</para>
+<list id="fs-id1164564892161" list-type="enumerated" number-style="lower-alpha">
+<item>mass and density</item>
+<item>rigidity and density</item>
+<item>volume and density</item>
+<item>shape and rigidity</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067054070" class="os-exercise">
+<problem id="fs-id1167066774558">
+<!--<para id="fs-id1167067132571">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex024"/>
+</para>-->
+<para id="fs-id1164562112834">Does the density of a medium affect the speed of sound?</para>
+<list id="fs-id1164562340632" list-type="enumerated" number-style="lower-alpha">
+<item>No</item>
+<item>Yes</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067145274" class="os-exercise">
+<problem id="fs-id1167067099992">
+<!--<para id="fs-id1167067260798">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex025"/>
+</para>-->
+<para id="fs-id1164565167425">Does a bat make use of the properties of sound waves to locate its prey?</para>
+<list id="fs-id1164564941145" list-type="enumerated" number-style="lower-alpha">
+<item>No</item>
+<item>Yes</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167063573010" class="os-exercise">
+<problem id="fs-id1167063726384">
+<!--<para id="fs-id1167063564009">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex026"/>
+</para>-->
+<para id="fs-id1164564895335">Do the properties of a sound wave change when it travels from one medium to another?</para>
+<list id="fs-id1164563062529" list-type="enumerated" number-style="lower-alpha">
+<item>No</item>
+<item>Yes</item>
+</list>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167067013919" class="extended-response">
+<title>Test Prep Extended Response</title>
+<exercise id="fs-id1167067156886" class="os-exercise">
+<problem id="fs-id1167067033792">
+<para id="fs-id1167067312896">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex027"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167063852326" class="os-exercise">
+<problem id="fs-id1167066803715">
+<para id="fs-id1167067016192">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex028"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167066946956" class="os-exercise">
+<problem id="fs-id1167066868818">
+<!--<para id="fs-id1167063506470">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex029"/>
+</para>-->
+<para id="fs-id1164562239732">Is the speed of sound dependent on its frequency?</para>
+<list id="fs-id1164564899534" list-type="enumerated" number-style="lower-alpha">
+<item>No</item>
+<item>Yes</item>
+</list>
+</problem>
+</exercise>
+</section>
+
+</content>
+<glossary>
+<definition id="fs-id1167066967059"><term>rarefaction </term><meaning id="fs-id1167063673588">a low-pressure region in a sound wave</meaning></definition>
+<definition id="fs-id1167063720067"><term>sound </term><meaning id="fs-id1167066789925">a disturbance of matter that is transmitted from its source outward by longitudinal waves</meaning></definition>
+</glossary>
+</document>

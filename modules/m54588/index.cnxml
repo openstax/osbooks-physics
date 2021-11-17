@@ -1,0 +1,648 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>The Unification of Forces</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54588</md:content-id>
+  <md:title>The Unification of Forces</md:title>
+  <md:abstract/>
+  <md:uuid>3a190ae7-dc4b-4ff0-86f2-90773ef10cb1</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167067121779" class="learning-objectives">
+<label/>
+<title>Section Learning Objectives</title>
+<para id="fs-id1167066773979">By the end of the section, you will be able to do the following:</para>
+<list id="fs-id1167063624662"><item>Define a grand unified theory and its importance</item>
+<item>Explain the evolution of the four fundamental forces from the Big Bang onward</item>
+<item>Explain how grand unification theories can be tested</item>
+</list></note>
+
+<note id="fs-id1167067180064" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066974416">The learning objectives in this section will help your students master the following standards:</para>
+<list id="fs-id1167066104240"><item>(5) Science concepts. The student knows the nature of forces in the physical world. The student is expected to:
+<list id="fs-id1167066839244"><item>(H) describe evidence for and effects of the strong and weak nuclear forces in nature.</item>
+</list></item></list></note>
+<section id="keyterms"><title>Section Key Terms</title>
+<table id="fs-id1167067204233" class="unnumbered unstyled section-key-terms" summary="The list of Key Terms includes: Big Bang, Electroweak Epoch, electroweak theory, Grand Unification Epoch, Grand Unified Theory, Inflationary Epoch, Planck Epoch, Quark Era, superforce, and Theory of Everything.">
+<label/>
+<tgroup cols="3">
+<tbody>
+<row>
+<entry>Big Bang</entry>
+<entry>Electroweak Epoch</entry>
+<entry>electroweak theory</entry>
+<entry>Grand Unification Epoch</entry>
+<entry>Grand Unified Theory</entry>
+</row>
+<row>
+<entry>Inflationary Epoch</entry>
+<entry>Planck Epoch</entry>
+<entry>Quark Era</entry>
+<entry>superforce</entry>
+<entry>Theory of Everything</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section id="fs-id1167063709447"><title>Understanding the Grand Unified Theory</title><para id="fs-id1167067049638">Present quests to show that the four basic forces are different manifestations of a single unified force that follow a long tradition. In the nineteenth century, the distinct electric and magnetic forces were shown to be intimately connected and are now collectively called the electromagnetic force. More recently, the weak nuclear force was united with the electromagnetic force. As shown in <link target-id="Figure_23_03_WeakFeyn"/>, carrier particles transmit three of the four fundamental forces in very similar ways. With these considerations in mind, it is natural to suggest that a theory may be constructed in which the strong nuclear, weak nuclear, and electromagnetic forces are all unified. The search for a correct theory linking the forces, called the <term>Grand Unified Theory (GUT)</term>, is explored in this section.</para>
+
+<para id="fs-id1167063528692">In the 1960s, the <term>electroweak theory</term> was developed by Steven Weinberg, Sheldon Glashow, and Abdus Salam. This theory proposed that the electromagnetic and weak nuclear forces are identical at sufficiently high energies. At lower energies, like those in our present-day universe, the two forces remain united but manifest themselves in different ways. One of the main consequences of the electroweak theory was the prediction of three short-range carrier particles, now known as the  <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mi>W</m:mi>
+   <m:mo>+</m:mo>
+  </m:msup>
+  <m:mo>,</m:mo>
+ </m:mrow>
+</m:math>   <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mi>W</m:mi>
+   <m:mo>−</m:mo>
+  </m:msup>
+  <m:mo>,</m:mo>
+ </m:mrow>
+</m:math>
+ and  <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mtext>Z</m:mtext>
+   <m:mn>0</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math>  bosons. Not only were three particles predicted, but the mass of each  <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mtext>W</m:mtext>
+   <m:mo>+</m:mo>
+  </m:msup>
+  </m:mrow>
+</m:math>  and  <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mtext>W</m:mtext>
+   <m:mo>−</m:mo>
+  </m:msup>
+  </m:mrow>
+</m:math>  boson was predicted to be 81 GeV/<emphasis effect="italics">c</emphasis><sup>2</sup>, and that of the  <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mtext>Z</m:mtext>
+   <m:mn>0</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math>  boson was predicted to be 90 GeV/<emphasis effect="italics">c</emphasis><sup>2</sup>. In 1983, these carrier particles were observed at CERN with the predicted characteristics, including masses having those predicted values as given in <link document="m54595" target-id="Figure_23_02_Standard"/>.</para><para id="fs-id1167067275361">How can forces be unified? They are definitely distinct under most circumstances. For example, they are carried by different particles and have greatly different strengths. But experiments show that at extremely short distances and at extremely high energies, the strengths of the forces begin to become more similar, as seen in <link target-id="Figure_23_03_GUT"/>.</para>
+<figure id="Figure_23_03_WeakFeyn"><media id="fs-id1167063659712" alt="The diagram shows an electron and electron neutrino traveling upward toward each other. As the electron expels a Z boson to the right, it is projected upward and to the left. The boson is received by the electron neutrino on the right. As a result, this particle is projected upward and to the right."><image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_23_03_WeakFeyn.jpg"/></media>
+
+<caption>The exchange of a virtual  <m:math><m:mrow><m:msup><m:mtext>Z</m:mtext>
+   <m:mn>0</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math>  particle (boson) carries the weak nuclear force between an electron and a neutrino in this Feynman diagram. This diagram is similar to the diagrams in <link document="m54593" target-id="Figure_23_01_FeynYuk"/> and <link document="m54593" target-id="Figure_23_01_Feynman"/> for the electromagnetic and strong nuclear forces.</caption></figure>
+<para id="fs-id1167066783815">As discussed earlier, the short ranges and large masses of the weak carrier bosons require correspondingly high energies to create them. Thus, the energy scale on the horizontal axis of <link target-id="Figure_23_03_GUT"/> also corresponds to shorter and shorter distances (going from left to right), with 100 GeV corresponding to approximately 10<sup>−18</sup> m, for example. At that distance, the strengths of the electromagnetic and weak nuclear forces are the same. To test this, energies of about 100 GeV are put into the system. When this occurs, the  <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mtext>W</m:mtext>
+   <m:mo>+</m:mo>
+  </m:msup>
+  </m:mrow>
+</m:math>,  <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mtext>W</m:mtext>
+   <m:mo>−</m:mo>
+  </m:msup>
+  </m:mrow>
+</m:math>, and  <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mtext>Z</m:mtext>
+   <m:mn>0</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math>  carrier particles are created and released. At those and higher energies, the masses of the carrier particles become less and less relevant, and the  <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mtext>Z</m:mtext>
+   <m:mn>0</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math>  boson in particular resembles the massless, chargeless photon. As further energy is added, the  <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mtext>W</m:mtext>
+   <m:mo>+</m:mo>
+  </m:msup>
+  </m:mrow>
+</m:math>,  <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mtext>W</m:mtext>
+   <m:mo>−</m:mo>
+  </m:msup>
+  </m:mrow>
+</m:math>, and  <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mtext>Z</m:mtext>
+   <m:mn>0</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math>  particles are further transformed into massless carrier particles even more similar to photons and gluons.</para>
+
+<note id="fs-id1167063958040" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067087545"><span>[BL]</span><span>[OL]</span><span>[AL]</span>Given the discussion in the prior paragraph, what should scientists expect to see as they probe the Grand Unified Theory? What characteristics should the gluon have at this energy?</para>
+</note>
+
+<figure id="Figure_23_03_GUT"><media id="fs-id1167067317741" alt="This graph plots the strengths of different forces (on the vertical axis) against their energies (on the horizontal axis). The graph shows a series of distinct lines, labeled gravity, weak nuclear, electromagnetic (EM), and strong nuclear, converging from the left to the right. The lines labeled EM and weak nuclear converge at an energy of 100 GeV and form a new line labeled electroweak. The lines labeled electroweak and strong nuclear converge at 1015 GeV. The location of their convergence is labeled GUT. The lines labeled strong nuclear and gravity converge at 1019 GeV. The location of their convergence is labeled TOE (Theory of Everything). The gravity line always trends upward as energy increases, while the line labeled strong nuclear always trends downward. Prior to their convergence, the EM line trended downward while the weak nuclear line trended upward. After their convergence, the electroweak line remained relatively horizontal."><image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_23_03_GUT.jpg"/></media>
+<caption>The relative strengths of the four basic forces vary with distance, and, hence, energy is needed to probe small distances. At ordinary energies (a few eV or less), the forces differ greatly. However, at energies available in accelerators, the weak nuclear and electromagnetic (EM) forces become unified. Unfortunately, the energies at which the strong nuclear and electroweak forces become the same are unreachable in any conceivable accelerator. The universe may provide a laboratory, and nature may show effects at ordinary energies that give us clues about the validity of this graph.</caption>
+</figure>
+
+<para id="fs-id1167066808929">The extremely short distances and high energies at which the electroweak force becomes identical with the strong nuclear force are not reachable with any conceivable human-built accelerator. At energies of about 10<sup>14</sup> GeV (16,000 J per particle), distances of about 10 to 30 m can be probed. Such energies are needed to test the theory directly, but these are about 10<sup>10</sup> times higher than the maximum energy associated with the LHC, and the distances are about 10 to 12 smaller than any structure we have direct knowledge of. This would be the realm of various GUTs, of which there are many, since there is no constraining evidence at these energies and distances. Past experience has shown that anytime you probe so many orders of magnitude further, you find the unexpected.</para><para id="fs-id1167067105871">While direct evidence of a GUT is not presently possible, that does not rule out the ability to assess a GUT through an indirect process. Current GUTs require various other events as a consequence of their theory. Some GUTs require the existence of magnetic monopoles, very massive individual north- and south-pole particles, which have not yet been proven to exist, while others require the use of extra dimensions. However, not all theories result in the same consequences. For example, disproving the existence of magnetic monopoles will not disprove all GUTs. Much of the science we accept in our everyday lives is based on different models, each with their own strengths and limitations. Although a particular model may have drawbacks, that does not necessarily mean that it should be discounted completely.</para>
+<para id="fs-id1167067133570">One consequence of GUTs that can theoretically be assessed is <term class="no-emphasis">proton decay</term>. Multiple current GUTs hypothesize that the stable proton should actually decay at a lifetime of 10<sup>31</sup> years. While this time is incredibly large (keep in mind that the age of the universe is less than 14 billion years), scientists at the <term class="no-emphasis">Super-Kamiokande</term> in Japan have used a 50,000-ton tank of water to search for its existence. The decay of a single proton in the Super-Kamiokande tank would be observed by a detector, thereby providing support for the predicting GUT model. However, as of 2014, 17 years into the experiment, decay is yet to be found. This time span equates to a minimum limit on proton life of  <m:math>
+ <m:mrow>
+  <m:mn>5.9</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>33</m:mn></m:mrow>
+  </m:msup>
+  </m:mrow>
+</m:math> years. While this result certainly does not support many grand unifying theories, an acceptable model may still exist.</para>
+
+<note id="fs-id1167067041864" class="tips-for-success">
+
+<para id="fs-id1167063589360">The Super-Kamiokande experiment is a clever use of proportional reasoning. Because it is not feasible to test for 10<sup>31</sup> years in order for a single proton to decay, scientists chose instead to manipulate the protontime ratio. If one proton decays in 10<sup>31</sup> years, then in one year 10<sup>−31</sup> protons will decay. With this in mind, if scientists wanted to test the proton decay theory in one year, they would need 10<sup>31</sup> protons. While this is also unfeasible, the use of a 50,000-ton tank of water helps to bring both the wait time and proton number to within reason.</para></note>
+</section><section id="fs-id1167067210122"><title>The Standard Model and the Big Bang</title><para id="fs-id1167067088797">Nature is full of examples where the macroscopic and microscopic worlds intertwine. Newton realized that the nature of gravity on Earth that pulls an apple to the ground could explain the motion of the moon and planets so much farther away. Decays of tiny nuclei explain the hot interior of the Earth. Fusion of nuclei likewise explains the energy of stars. Today, the patterns in particle physics seem to be explaining the evolution and character of the universe. And the nature of the universe has implications for unexplored regions of particle physics.</para>
+<para id="fs-id1167063716451">In 1929, <term class="no-emphasis">Edwin Hubble</term> observed that all but the closest galaxies surrounding our own had a red shift in their hydrogen spectra that was proportional to their distance from us. Applying the Doppler Effect, Hubble recognized that this meant that all galaxies were receding from our own, with those farther away receding even faster. Knowing that our place in the universe was no more unique than any other, the implication was clear: The space within the universe itself was expanding. Just like pen marks on an expanding balloon, everything in the universe was accelerating away from everything else.</para>
+
+<note id="fs-id1167063519723" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067098922"><span>[BL]</span><span>[OL]</span><span>[AL]</span>Modeling the Big Bang through an expanding balloon is a good demonstration to show that our perspective on the universe is not unique, that all places are expanding equally from all others, and to provide basis for the Big Bang. This will also be useful to help students understand that while parts of the universe may be expanding from us at speeds greater than the speed of light, they are not violating relativity.</para>
+</note>
+
+
+
+<para id="fs-id1167063772250"><link target-id="Figure_23_03_Expansion"/> shows how the recession of galaxies looks like the remnants of a gigantic explosion, the famous <term>Big Bang</term>. Extrapolating backward in time, the Big Bang would have occurred between 13 and 15 billion years ago, when all matter would have been at a single point. From this, questions instantly arise. What caused the explosion? What happened before the Big Bang? Was there a before, or did time start then? For our purposes, the biggest question relating to the Big Bang is this: How does the Big Bang relate to the unification of the fundamental forces?</para>
+
+<figure id="Figure_23_03_Expansion"><media id="fs-id1167063476434" alt="The drawing shows galaxies fleeing from the center of the image, labeled MW for Milky Way. Galaxies further from the center have longer arrows pointing outward than galaxies near the center. This shows that the universe is expanding.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_23_03_Expansion.jpg"/></media>
+<caption>Galaxies are flying apart from one another, with the more distant ones moving faster, as if a primordial explosion expelled the matter from which they formed. The most distant known galaxies move nearly at the speed of light relative to us.</caption>
+</figure>
+<para id="fs-id1167063518710">To fully understand the conditions of the very early universe, recognize that as the universe contracts to the size of the Big Bang, changes will occur. The density and temperature of the universe will increase dramatically. As particles become closer together, they will become too close to exist as we know them. The high energies will create other, more unusual particles to exist in greater abundance. Knowing this, let’s move forward from the start of the universe, beginning with the Big Bang, as illustrated in <link target-id="Figure_23_03_Timeline"/>.</para>
+
+<figure id="Figure_23_03_Timeline"><media id="fs-id1167067075540" alt="The timeline runs left to right, from 10-43 seconds to 15x1010 years (labeled as ‘now’). Concurrent with the timeline are energy levels, which begin at 1019 GeV. Additional information includes eras of evolution and the types of particles that are produced within each era. The right side of the image shows small galaxies, corresponding to a time period on the order of 109 years."><image mime-type="image/jpg" src="../../media/CNX_HSPhysics_23_03_Timeline.jpg"/></media>
+<caption>The evolution of the universe from the Big Bang onward (from left to right) is intimately tied to the laws of physics, especially those of particle physics at the earliest stages. Theories of the unification of forces at high energies may be verified by their shaping of the universe and its evolution.</caption>
+</figure>
+
+<note id="fs-id1167063821016" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167063458306">The discussion of the universe evolution in this text stops at the Quark Era. Have students consider why various other eras took place after the Quark Era. How did temperature, density, and pressure play a role in further evolution?</para>
+</note>
+
+<para id="fs-id1167066998041">The <term>Planck Epoch</term>  <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>0</m:mn><m:mrow><m:mo>→</m:mo></m:mrow><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn></m:mrow>
+     <m:mrow>
+      <m:mn>−43</m:mn></m:mrow>
+    </m:msup>
+    <m:mo>s</m:mo></m:mrow>
+  <m:mo>)</m:mo></m:mrow></m:mrow>
+</m:math> —Though scientists are unable to model the conditions of the Planck Epoch in the laboratory, speculation is that at this time compressed energy was great enough to reach the immense  <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>19</m:mn></m:mrow>
+  </m:msup>
+  </m:mrow>
+</m:math>  GeV necessary to unify gravity with all other forces. As a result, modern cosmology suggests that all four forces would have existed as one force, a hypothetical <term>superforce</term> as suggested by the <term>Theory of Everything</term>.</para><para id="fs-id1167063828463">The <term>Grand Unification Epoch</term>  <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn></m:mrow>
+     <m:mrow>
+      <m:mn>−43</m:mn></m:mrow>
+    </m:msup>
+    <m:mrow><m:mo>→</m:mo></m:mrow><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn></m:mrow>
+     <m:mrow>
+      <m:mn>−36</m:mn></m:mrow>
+    </m:msup>
+    <m:mo>s</m:mo></m:mrow>
+  <m:mo>)</m:mo></m:mrow></m:mrow>
+</m:math> —As the universe expands, the temperatures necessary to maintain the superforce decrease. As a result, gravity separates, leaving the electroweak and strong nuclear forces together. At this time, the electromagnetic, weak, and strong forces are identical, matching the conditions requested in the Grand Unification Theory.</para><para id="fs-id1167066823830">The <term>Inflationary Epoch</term>  <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn></m:mrow>
+     <m:mrow>
+      <m:mo>−</m:mo><m:mn>36</m:mn></m:mrow>
+    </m:msup>
+    <m:mrow><m:mo>→</m:mo></m:mrow><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn></m:mrow>
+     <m:mrow>
+      <m:mo>−</m:mo><m:mn>32</m:mn></m:mrow>
+    </m:msup>
+    <m:mo>s</m:mo></m:mrow>
+  <m:mo>)</m:mo></m:mrow></m:mrow>
+</m:math> —The separation of the strong nuclear force from the electroweak force during this time is thought to have been responsible for the massive inflation of the universe. Corresponding to the steep diagonal line on the left side of <link target-id="Figure_23_03_Timeline"/>, the universe may have expanded by a factor of  <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>50</m:mn></m:mrow>
+  </m:msup>
+  </m:mrow>
+</m:math>  or more in size. In fact, the expansion was so great during this time that it actually occurred faster than the speed of light! Unfortunately, there is little hope that we may be able to test the inflationary scenario directly since it occurs at energies near  <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>14</m:mn></m:mrow>
+  </m:msup>
+  </m:mrow>
+</m:math>  GeV, vastly greater than the limits of modern accelerators.</para><para id="fs-id1167063901188">The <term>Electroweak Epoch</term>  <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn></m:mrow>
+     <m:mrow>
+      <m:mn>−32</m:mn></m:mrow>
+    </m:msup>
+    <m:mrow><m:mo>→</m:mo></m:mrow><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn></m:mrow>
+     <m:mrow>
+      <m:mn>−11</m:mn></m:mrow>
+    </m:msup>
+    <m:mo>s</m:mo></m:mrow>
+  <m:mo>)</m:mo></m:mrow></m:mrow>
+</m:math> —Now separated from both gravity and the strong nuclear force, the electroweak force exists as a singular force during this time period. As stated earlier, scientists are able to create the energies at this stage in the universe’s expansion, needing only 100 GeV, as shown in <link target-id="Figure_23_03_GUT"/>. W and Z bosons, as well as the Higgs boson, are released during this time.</para><para id="fs-id1167067194522">The <term>Quark Era</term>  <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn></m:mrow>
+     <m:mrow>
+      <m:mn>−11</m:mn></m:mrow>
+    </m:msup>
+    <m:mrow><m:mo>→</m:mo></m:mrow><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn></m:mrow>
+     <m:mrow>
+      <m:mn>−6</m:mn></m:mrow>
+    </m:msup>
+    <m:mo>s</m:mo></m:mrow>
+  <m:mo>)</m:mo></m:mrow></m:mrow>
+</m:math> —During the Quark Era, the universe has expanded and temperatures have decreased to the point at which all four fundamental forces have separated. Additionally, quarks began to take form as energies decreased.</para><para id="fs-id1167063855938">As the universe expanded, further eras took place, allowing for the existence of hadrons, leptons, and photons, the fundamental particles of the standard model. Eventually, in nucleosynthesis, nuclei would be able to form, and the basic building blocks of atomic matter could take place. Using particle accelerators, we are very much working backwards in an attempt to understand the universe. It is encouraging to see that the macroscopic conditions of the Big Bang align nicely with our submicroscopic particle theory.</para>
+</section><section id="fs-id1167066832082" class="check-understanding"><title>Check Your Understanding</title><note id="eip-id1167063466445" class="os-teacher">
+<title>Teacher Support</title>
+<para id="eip-id1167067216205">Use these questions to assess student achievement of the section’s learning objectives. If students are struggling with a specific objective, these questions will help identify which and direct students to the relevant content.</para>
+</note>
+<exercise id="fs-id1167067183611" class="os-exercise">
+<problem id="fs-id1167066954270">
+<!--<para id="fs-id1167066844560">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex067"/>
+</para>-->
+<para id="fs-id1164564878114">Is there one grand unified theory or multiple grand unifying theories?</para>
+<list id="fs-id1164563450494" list-type="enumerated" number-style="lower-alpha">
+<item>one grand unifying theory</item>
+<item>multiple grand unifying theories</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067179931" class="os-exercise">
+<problem id="fs-id1167067231633">
+<para id="fs-id1167067060966">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex068"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167063877564" class="os-exercise">
+<problem id="fs-id1167067068573">
+<para id="fs-id1167067076457">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex069"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167066849170" class="os-exercise">
+<problem id="fs-id1167067092711">
+<para id="fs-id1167063557677">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex070"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167063716578" class="os-exercise">
+<problem id="fs-id1167061220651">
+<para id="fs-id1167067041651">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex071"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167063938110" class="os-exercise">
+<problem id="fs-id1167066999398">
+<para id="fs-id1167063642257">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex072"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166848776047" class="os-exercise">
+<problem id="eip-id1166848982140">
+<!--<para id="eip-id1166851006608">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ot065"/>
+</para>-->
+<para id="fs-id1164565119181">The existence of what particles were predicted as a consequence of the electroweak theory?</para>
+<list id="fs-id1164561099763" list-type="enumerated" number-style="lower-alpha">
+<item>fermions</item>
+<item>Higgs bosons</item>
+<item>leptons</item>
+<item>W<sup>+</sup>, W<sup>-</sup>, and Z<sup>0</sup> bosons</item>
+</list>
+</problem>
+</exercise></section><section id="fs-id1167067247701" class="summary">
+<title>Section Summary</title>
+<list id="fs-id1167061420276">
+<item>Attempts to show unification of the four forces are called Grand Unified Theories (GUTs) and have been partially successful, with connections proven between EM and weak forces in electroweak theory.</item>
+<item>Unification of the strong force is expected at such high energies that it cannot be directly tested, but it may have observable consequences in the as-yet-unobserved decay of the proton. Although unification of forces is generally anticipated, much remains to be done to prove its validity.</item>
+</list>
+</section>
+
+<section id="fs-id1167066958390" class="concept"><title>Concept Items</title><exercise id="fs-id1167063411935" class="os-exercise">
+<problem id="fs-id1167066879808">
+<para id="fs-id1167061403699">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex073"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167067011348" class="os-exercise">
+<problem id="fs-id1167067259576">
+<!--<para id="fs-id1167067042178">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex074"/>
+</para>-->
+<para id="fs-id1164566912008">Why are scientists unable to model the conditions of the universe at time periods shortly after the Big Bang?</para>
+<list id="fs-id1164563562706" list-type="enumerated" number-style="lower-alpha">
+<item>The amount of energy necessary to replicate the Planck Epoch is too high.</item>
+<item>The amount of energy necessary to replicate the Planck Epoch is too low.</item>
+<item>The volume of setup necessary to replicate the Planck Epoch is too high.</item>
+<item>The volume of setup necessary to replicate the Planck Epoch is too low.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067253582" class="os-exercise">
+<problem id="fs-id1167067209634">
+<para id="fs-id1167066959910">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex075"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166851419922" class="os-exercise">
+<problem id="eip-id1166851066407">
+<!--<para id="eip-id1166851049621">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ot066"/>
+</para>-->
+<para id="fs-id1164566555859">What is the name for the theory of unification of all four fundamental forces?</para>
+<list id="fs-id1164563561515" list-type="enumerated" number-style="lower-alpha">
+<item>the theory of everything</item>
+<item>the theory of energy-to-mass conversion</item>
+<item>the theory of relativity</item>
+<item>the theory of the Big Bang</item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-id1166850970113" class="os-exercise">
+<problem id="eip-id1166851215399">
+<para id="eip-id1166850953525">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ot076"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167067197463" class="critical-thinking"><title>Critical Thinking</title><exercise id="fs-id1167067075843" class="os-exercise">
+<problem id="fs-id1167063596786">
+<para id="fs-id1167066870760">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex076"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167063626667" class="os-exercise">
+<problem id="fs-id1167063693944">
+<!--<para id="fs-id1167063947634">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex077"/>
+</para>-->
+<para id="fs-id1164563056644">If some unknown cause of the red shift, such as light becoming <emphasis effect="italics">tired</emphasis> from traveling long distances through empty space, is discovered, what effect would there be on cosmology?</para>
+<list id="fs-id1164566557764" list-type="enumerated" number-style="lower-alpha">
+<item>The effect would be substantial, as the Big Bang is based on the idea that the red shift is evidence that galaxies are moving toward one another.</item>
+<item>The effect would be substantial, as the Big Bang is based on the idea that the red shift is evidence that the galaxies are moving away from one another.</item>
+<item>The effect would be substantial, as the Big Bang is based on the idea that the red shift is evidence that galaxies are neither moving away from nor moving toward one another.</item>
+<item>The effect would be substantial, as the Big Bang is based on the idea that the red shift is evidence that galaxies are sometimes moving away from and sometimes moving toward one another.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067115039" class="os-exercise">
+<problem id="fs-id1167066864598">
+<para id="fs-id1167067055599">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex078"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166849568624" class="os-exercise">
+<problem id="eip-id1166849369651">
+<para id="eip-id1166849921606">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ot083"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167063938929" class="multiple-choice"><title>Test Prep Multiple Choice</title><exercise id="fs-id1167066972995" class="os-exercise">
+<problem id="fs-id1167067204977">
+<!--<para id="fs-id1167063497488">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex080"/>
+</para>-->
+<para id="fs-id1164566900324">Which two forces were first combined, signifying the eventual desire for a Grand Unified Theory?</para>
+<list id="fs-id1164564792790" list-type="enumerated" number-style="lower-alpha">
+<item>electric force and magnetic forces</item>
+<item>electric force and weak nuclear force</item>
+<item>gravitational force and the weak nuclear force</item>
+<item>electroweak force and strong nuclear force</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067088247" class="os-exercise">
+<problem id="fs-id1167067150630">
+<!--<para id="fs-id1167067158023">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex081"/>
+</para>-->
+<para id="fs-id1164565092232">After the Big Bang, what was the first force to separate from the others?</para>
+<list id="fs-id1164562341143" list-type="enumerated" number-style="lower-alpha">
+<item>electromagnetic force</item>
+<item>gravity</item>
+<item>strong nuclear force</item>
+<item>weak nuclear force</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067231162" class="os-exercise">
+<problem id="fs-id1167061226696">
+<!--<para id="fs-id1167063504360">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex082"/>
+</para>-->
+<para id="fs-id1164566542672">What is the name of the device used by scientists to check for proton decay?</para>
+<list id="fs-id1164564732481" list-type="enumerated" number-style="lower-alpha">
+<item>the cyclotron</item>
+<item>the Large Hadron Collider</item>
+<item>the Super-Kamiokande</item>
+<item>the synchrotron</item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-id1166846436367" class="os-exercise">
+<problem id="eip-id1166851009711">
+<!--<para id="eip-id1166848850194">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ot067"/>
+</para>-->
+<para id="fs-id1164563519483">How do Feynman diagrams suggest the Grand Unified Theory?</para>
+<list id="fs-id1164563488935" list-type="enumerated" number-style="lower-alpha">
+<item>The electromagnetic, weak, and strong nuclear forces all have similar Feynman diagrams.</item>
+<item>The electromagnetic, weak, and gravitational forces all have similar Feynman diagrams.</item>
+<item>The electromagnetic, weak, and strong forces all have different Feynman diagrams.</item>
+</list>
+</problem>
+</exercise></section><section id="fs-id1167061376704" class="short-answer">
+<title>Test Prep Short Answer</title>
+<exercise id="fs-id1167067049061" class="os-exercise">
+<problem id="fs-id1167067174881">
+<para id="fs-id1167063822374">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex083"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167067308073" class="os-exercise">
+<problem id="fs-id1167066836885">
+<para id="fs-id1167066953509">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex084"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167067037644" class="os-exercise">
+<problem id="fs-id1167063554152">
+<para id="fs-id1167063790384">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex085"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167063798800" class="os-exercise"><problem id="fs-id1167063911053">
+<para id="fs-id1167067037194">
+How does the search for the Grand Unified Theory help test the standard cosmological model?
+</para>
+<list id="eip-idm219434432" list-type="enumerated" number-style="lower-alpha">
+<item>Scientists are increasing energy in the lab that models the energy in earlier, denser stages of the universe.</item>
+<item>Scientists are increasing energy in the lab that models the energy in earlier, less dense stages of the universe.</item>
+<item>Scientists are decreasing energy in the lab that models the energy in earlier, denser stages of the universe.</item>
+<item>Scientists are decreasing energy in the lab that models the energy in earlier, less dense stages of the universe.</item></list>
+</problem>
+</exercise><exercise id="fs-id1167067031062" class="os-exercise">
+<problem id="fs-id1167063717312">
+<para id="fs-id1167063429746">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex087"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167063483343" class="os-exercise">
+<problem id="fs-id1167063429685">
+<!--<para id="fs-id1167066820776">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex088"/>
+</para>-->
+<para id="fs-id1164564896929">When accelerating elementary particles in a particle accelerator, they quickly achieve a speed approaching the speed of light. However, as time continues, the particles maintain this speed yet continue to increase their kinetic energy. How is this possible?</para>
+<list id="fs-id1164563484920" list-type="enumerated" number-style="lower-alpha">
+<item>The speed remains the same, but the masses of the particles increase.</item>
+<item>The speed remains the same, but the masses of the particles decrease.</item>
+<item>The speed remains the same, and the masses of the particles remain the same.</item>
+<item>The speed and masses will remain the same, but temperature will increase.</item>
+</list>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167067209314" class="performance"><title>Performance Task</title><note id="fs-id1167067185678" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067297332">This performance task meets the following standard:</para>
+<para id="fs-id1164562257638"><span>NGSSHS-PS2-6</span><span>.</span> <span>Communicate scientific and technical information about why the molecular-level structure is important in the functioning of designed materials.</span></para>
+</note>
+<exercise id="eip-idm382844464"><problem id="eip-idm271309920">
+<para id="fs-id1167067100304">Communication is an often overlooked and useful skill for a scientist, especially in a competitive field where financial resources are limited. Scientists are often required to explain their findings or the relevance of their work to agencies within the government in order to maintain funding to continue their research. Let’s say you are an ambitious young particle physicist, heading an expensive project, and you need to justify its existence to the appropriate funding agency. Write a brief paper (about one page) explaining why molecular-level structure is important in the functioning of designed materials in a specific industry.</para>
+<list id="fs-id1167067233576">
+<item>First, think of an industry where molecular-level structure is important.</item>
+<item>Research what materials are used in that industry as well as what are the desired properties of the materials.</item>
+<item>What molecular-level characteristics lead to what properties?</item>
+</list>
+<para id="fs-id1167067071859">One example would be explaining how flexible but durable materials are made up of long-chained molecules and how this is useful for finding more environmentally friendly alternatives to plastics. Another example is explaining why electrically conductive materials are often made of metal and how this is useful for developing better batteries.</para></problem></exercise>
+</section><section id="fs-id1167063534898" class="extended-response">
+<title>Test Prep Extended Response</title>
+<exercise id="fs-id1167063807983" class="os-exercise">
+<problem id="fs-id1167067194884">
+<!--<para id="fs-id1167063673591">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex089"/>
+</para>-->
+<para id="fs-id1164557679814">If a Grand Unified Theory is proven and the four forces are unified, it will still be correct to say that the orbit of the Moon is determined by the gravitational force. Explain why.</para>
+<list id="fs-id1164559066894" list-type="enumerated" number-style="lower-alpha"><item>Gravity will not be a property of the unified force.</item>
+<item>Gravity will be one property of the unified force.</item>
+<item>Apart from gravity, no other force depends on the mass of the object.</item>
+<item>Apart from gravity, no other force can make an object move in a fixed orbit.</item>
+</list></problem>
+</exercise>
+<exercise id="fs-id1167063496225" class="os-exercise">
+<problem id="fs-id1167067150176">
+<!--<para id="fs-id1167066787448">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex090"/>
+</para>-->
+<para id="fs-id1164566943620">As the universe expanded and temperatures dropped, the strong nuclear force separated from the electroweak force. Is it likely that under cooler conditions, the force of electricity will separate from the force of magnetism?</para>
+<list id="fs-id1164562437480" list-type="enumerated" number-style="lower-alpha">
+<item>No, the electric force relies on the magnetic force and vice versa.</item>
+<item>Yes, the electric and magnetic forces can be separated from each other.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067103439" class="os-exercise">
+<problem id="fs-id1167066859804">
+<para id="fs-id1167067064649">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch23-ex091"/>
+</para>
+</problem>
+</exercise>
+</section>
+
+
+
+
+
+
+</content>
+<glossary>
+<definition id="fs-id1167067141971"><term>Big Bang</term><meaning id="fs-id1167066790853">a gigantic explosion that threw out matter a few billion years ago</meaning></definition>
+<definition id="fs-id1167066880808"><term>Electroweak Epoch</term><meaning id="fs-id1167061217473">the stage before 10<sup>−11</sup> back to 10<sup>−34</sup> seconds after the Big Bang</meaning></definition>
+<definition id="fs-id1167066867244"><term>electroweak theory</term><meaning id="fs-id1167067314145">theory showing connections between EM and weak forces</meaning></definition>
+<definition id="fs-id1167066971686"><term>Grand Unification Epoch</term><meaning id="fs-id1167067314416">the time period from 10<sup>−43</sup> to 10<sup>−34</sup> seconds after the Big Bang, when Grand Unification Theory, in which all forces except gravity are identical, governed the universe</meaning></definition>
+<definition id="fs-id1167063816922"><term>Grand Unified Theory</term><meaning id="fs-id1167063720067">theory that shows unification of the strong and electroweak forces</meaning></definition>
+<definition id="fs-id1167063583188"><term>Inflationary Epoch</term><meaning id="fs-id1167067069451">the rapid expansion of the universe by an incredible factor of 10<sup>−50</sup> for the brief time from 10<sup>−35</sup> to about 10<sup>−32</sup> seconds</meaning></definition>
+<definition id="fs-id1167067073155"><term>Planck Epoch</term><meaning id="fs-id1167066800711">the earliest era of the universe, before 10<sup>–43</sup> seconds after the Big Bang</meaning></definition>
+<definition id="fs-id1167067110124"><term>Quark Era</term><meaning id="fs-id1167067007582">the time period from 10<sup>–11</sup> to 10<sup>–6</sup> seconds at which all four fundamental forces are separated and quarks begin to exit</meaning></definition>
+<definition id="fs-id1167061608149"><term>superforce</term><meaning id="fs-id1167067023567">the unification of all four fundamental forces into one force</meaning></definition>
+<definition id="fs-id1167067019539"><term>Theory of Everything</term><meaning id="fs-id1167066879551">the theory that shows unification of all four fundamental forces</meaning></definition>
+</glossary>
+</document>

@@ -1,0 +1,898 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>First law of Thermodynamics: Thermal Energy and Work</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54305</md:content-id>
+  <md:title>First law of Thermodynamics: Thermal Energy and Work</md:title>
+  <md:abstract/>
+  <md:uuid>ab7ddcd9-932d-4ff8-b77a-eb9b24dfef39</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167065696844" class="learning-objectives"><label/><title>Section Learning Objectives</title>
+<para id="fs-id1167065850671">By the end of this section, you will be able to do the following:</para>
+<list id="fs-id1167065743318">
+<item>Describe how pressure, volume, and temperature relate to one another and to work, based on the ideal gas law</item>
+<item>Describe pressure–volume work</item>
+<item>Describe the first law of thermodynamics verbally and mathematically</item>
+<item>Solve problems involving the first law of thermodynamics</item>
+</list>
+</note><note id="fs-id1167065972620" class="os-teacher"><title>Teacher Support</title>
+<para id="fs-id1167064743392">The learning objectives in this section will help your students master the following standards:</para>
+<list id="fs-id1167065967283"><item>(6) Science concepts. The student knows that changes occur within a physical system and applies the laws of conservation of energy and momentum. The student is expected to:
+<list id="fs-id1167062536423"><item><span>(G)</span>
+<span> analyze and explain everyday examples that illustrate the laws of thermodynamics, including the law of conservation of energy and the law of entropy.</span></item>
+</list></item>
+</list></note>
+<section id="keyterms"><title>Section Key Terms</title>
+<table id="fs-id1167066103183" class="unnumbered unstyled section-key-terms" summary="Section key terms is a 3 column table. The first row reads Boltzmann constant, first law of thermodynamics, ideal gas law. The second row reads internal energy, pressure.">
+<label/>
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+<row>
+<entry>Boltzmann constant</entry>
+<entry>first law of thermodynamics</entry>
+<entry>ideal gas law</entry>
+<entry>internal energy</entry>
+<entry>pressure</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section><section id="fs-id1167064993477">
+<title>Pressure, Volume, Temperature, and the Ideal Gas Law</title>
+<note id="fs-id1167065688916" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065862031"><span>[BL]</span><span>[OL]</span><span>[AL]</span> Review the concept of force.</para>
+<para id="fs-id1167062400323"><span>[OL]</span> Ask students how much force it would take to hammer a nail into a wall. Would they achieve the same result if the nail were blunt instead of pointed? Why or why not?</para>
+</note>
+<para id="fs-id1167065878257">Before covering the first law of thermodynamics, it is first important to understand the relationship between <term>pressure</term>, volume, and temperature. Pressure, <emphasis effect="italics">P</emphasis>, is defined as</para>
+<equation id="fs-id1164563051950"> <m:math display="block">
+ <m:mrow>
+  <m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mi>F</m:mi>
+   <m:mi>A</m:mi>
+  </m:mfrac>
+  <m:mo>,</m:mo></m:mrow>
+</m:math>
+</equation><para id="fs-id1167062342414">where <emphasis effect="italics">F </emphasis>is a force applied to an area, <emphasis effect="italics">A</emphasis>, that is perpendicular to the force.</para>
+<para id="fs-id1167065853962">Depending on the area over which it is exerted, a given force can have a significantly different effect, as shown in <link target-id="Figure_12_02_Shot"/>.</para>
+
+<figure id="Figure_12_02_Shot">
+<media id="fs-id1167065872907" alt="In part (a), a finger pokes a man’s arm. In part (b), a needle pokes a man’s arm with the same force but over a smaller area, resulting in greater pressure.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_12_02_shot.jpg"/>
+</media>
+<caption>(a) Although the person being poked with the finger might be irritated, the force has little lasting effect. (b) In contrast, the same force applied to an area the size of the sharp end of a needle is great enough to break the skin.</caption></figure>
+
+<para id="fs-id1167064929676">The SI unit for pressure is the <emphasis effect="italics">pascal</emphasis>, where  <m:math>
+ <m:mrow>
+  <m:mtext>1 Pa</m:mtext><m:mo>=</m:mo><m:msup>
+   <m:mrow>
+    <m:mtext>1 N/m</m:mtext></m:mrow>
+   <m:mtext>2</m:mtext>
+  </m:msup>
+  <m:mo>.</m:mo></m:mrow>
+</m:math>
+</para>
+<para id="fs-id1167065997251">Pressure is defined for all states of matter but is particularly important when discussing fluids (such as air). You have probably heard the word <emphasis effect="italics">pressure</emphasis> being used in relation to blood (high or low blood pressure) and in relation to the weather (high- and low-pressure weather systems). These are only two of many examples of pressures in fluids.</para>
+<para id="fs-id1167063168011">The relationship between the pressure, volume, and temperature for an ideal gas is given by the <term>ideal gas law</term>. A gas is considered ideal at low pressure and fairly high temperature, and forces between its component particles can be ignored. The ideal gas law states that</para>
+<equation id="fs-id1164563465800"> <m:math display="block">
+ <m:mrow>
+  <m:mi>P</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>N</m:mi><m:mi>k</m:mi><m:mi>T</m:mi><m:mo>.</m:mo></m:mrow>
+</m:math> </equation><para id="fs-id1167066104764">where <emphasis effect="italics">P </emphasis>is the pressure of a gas, <emphasis effect="italics">V </emphasis>is the volume it occupies, <emphasis effect="italics">N </emphasis>is the number of particles (atoms or molecules) in the gas, and <emphasis effect="italics">T </emphasis>is its absolute temperature. The constant <emphasis effect="italics">k </emphasis>is called the <term>Boltzmann constant</term> and has the value  <m:math>
+ <m:mrow>
+  <m:mi>k</m:mi><m:mo>=</m:mo><m:mn>1.38</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>−23</m:mn></m:mrow>
+  </m:msup>
+  <m:mtext>J/K</m:mtext><m:mtext>,</m:mtext></m:mrow>
+</m:math>  For the purposes of this chapter, we will not go into calculations using the ideal gas law. Instead, it is important for us to notice from the equation that the following are true for a given mass of gas:</para>
+<list id="fs-id1167065861426">
+<item>When volume is constant, pressure is directly proportional to temperature.</item>
+<item>When temperature is constant, pressure is inversely proportional to volume.</item>
+<item>When pressure is constant, volume is directly proportional to temperature.</item>
+</list>
+<para id="fs-id1167064876169">This last point describes <emphasis effect="italics">thermal expansion</emphasis>—the change in size or volume of a given mass with temperature. What is the underlying cause of thermal expansion? An increase in temperature means that there’s an increase in the kinetic energy of the individual atoms. Gases are especially affected by thermal expansion, although liquids expand to a lesser extent with similar increases in temperature, and even solids have minor expansions at higher temperatures. This is why railroad tracks and bridges have expansion joints that allow them to freely expand and contract with temperature changes.</para>
+<note id="fs-id1167064994082" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065034622"><span>[BL]</span><span>[OL]</span><span>[AL]</span>Inform students that the ideal gas law is only strictly true for gases that are <emphasis effect="italics">ideal</emphasis>. Real gases differ from these in certain ways. For instance, it is assumed that in an ideal gas, there are no intermolecular forces, all collisions between molecules are perfectly elastic, and so on. However, the ideal gas law is useful in calculations, because under standard conditions of temperature and pressure, many real gases, such as oxygen, nitrogen, hydrogen, and noble gases exhibit qualitative behavior that is very close to the behavior of an ideal gas.</para>
+</note>
+<para id="fs-id1167066205403">To get some idea of how pressure, temperature, and volume of a gas are related to one another, consider what happens when you pump air into a deflated tire. The tire’s volume first increases in direct proportion to the amount of air injected, without much increase in the tire pressure. Once the tire has expanded to nearly its full size, the walls limit volume expansion. If you continue to pump air into tire (which now has a nearly constant volume), the pressure increases with increasing temperature (see <link target-id="Figure_12_02_TirePressure"/>).</para>
+
+<figure id="Figure_12_02_TirePressure">
+<media id="fs-id1167065931330" alt="In part (a), air is added to a tire, measured using a pressure gauge, and the tire increases in volume. In part (b), more air is added but the volume remains the same, resulting in greater pressure as indicated by the gauge. In part (c), the volume remains nearly constant, so that an increase in temperature increases the pressure.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_12_02_tirepressu.jpg"/>
+</media>
+
+<caption>(a) When air is pumped into a deflated tire, its volume first increases without much increase in pressure. (b) When the tire is filled to a certain point, the tire walls resist further expansion, and the pressure increases as more air is added. (c) Once the tire is inflated fully, its pressure increases with temperature.</caption></figure>
+</section>
+
+<section id="fs-id1167062349365"><title>Pressure–Volume Work</title><para id="fs-id1167065012441"><emphasis effect="italics">Pressure–volume work</emphasis> is the work that is done by the compression or expansion of a fluid. Whenever there is a change in volume and external pressure remains constant, pressure–volume work is taking place. During a compression, a decrease in volume increases the internal pressure of a system as work is done <emphasis effect="italics">on</emphasis> the system. During an expansion (<link target-id="Figure_12_03_Expansion"/>), an increase in volume decreases the internal pressure of a system as the system <emphasis effect="italics">does</emphasis> work.</para>
+
+<figure id="Figure_12_03_Expansion">
+<media id="fs-id1167065860198" alt="A piston in an engine cylinder with cross-sectional area A moves up a distance d as energy is added, causing the volume to expand by Ad.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_12_02_Expansion.jpg"/>
+</media>
+<caption>An expansion of a gas requires energy transfer to keep the pressure constant. Because pressure is constant, the work done is  <m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mi>Δ</m:mi><m:mi>V</m:mi></m:mrow>
+</m:math>
+.</caption>
+</figure>
+
+<para id="fs-id1167064907963">Recall that the formula for work is  <m:math>
+ <m:mrow>
+  <m:mi>W</m:mi><m:mo>=</m:mo><m:mi>F</m:mi><m:mi>d</m:mi><m:mo>.</m:mo></m:mrow>
+</m:math>  We can rearrange the definition of pressure,  <m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mi>F</m:mi>
+   <m:mi>A</m:mi>
+  </m:mfrac>
+  <m:mo>,</m:mo></m:mrow>
+</m:math>  to get an expression for force in terms of pressure.</para>
+<equation id="fs-id1164562387266"> <m:math display="block">
+ <m:mrow>
+  <m:mi>F</m:mi><m:mo>=</m:mo><m:mi>P</m:mi><m:mi>A</m:mi></m:mrow>
+</m:math> </equation><para id="fs-id1167064535298">Substituting this expression for force into the definition of work, we get</para>
+<equation id="fs-id1164561044147"> <m:math display="block">
+ <m:mrow>
+  <m:mi>W</m:mi><m:mo>=</m:mo><m:mi>P</m:mi><m:mi>A</m:mi><m:mi>d</m:mi><m:mtext>.</m:mtext></m:mrow>
+</m:math> </equation><para id="fs-id1167065983685">Because area multiplied by displacement is the change in volume,  <m:math>
+ <m:mrow>
+  <m:mi>W</m:mi><m:mo>=</m:mo><m:mi>P</m:mi><m:mi>Δ</m:mi><m:mi>V</m:mi></m:mrow>
+</m:math>
+, the mathematical expression for pressure–volume work is</para>
+<equation id="fs-id1164565174379"> <m:math display="block">
+ <m:mrow>
+  <m:mi>W</m:mi><m:mo>=</m:mo><m:mi>P</m:mi><m:mi>Δ</m:mi><m:mi>V</m:mi><m:mtext>.</m:mtext></m:mrow>
+</m:math> </equation>
+
+<para id="fs-id1167065737829">Just as we say that work is force acting over a distance, for fluids, we can say that work is the pressure acting through the change in volume. For pressure–volume work, pressure is analogous to force, and volume is analogous to distance in the traditional definition of work.</para>
+<note id="fs-id1167064993956" class="watch-physics"><title>Work from Expansion</title>
+
+<para id="fs-id1167065877983">This video describes work from expansion (or pressure–volume work). Sal combines the equations  <m:math>
+ <m:mrow>
+  <m:mi>W</m:mi><m:mo>=</m:mo><m:mi>P</m:mi><m:mi>Δ</m:mi><m:mi>V</m:mi></m:mrow>
+</m:math>
+ and  <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>U</m:mi><m:mo>=</m:mo><m:mi>Q</m:mi><m:mo>−</m:mo><m:mi>W</m:mi></m:mrow>
+</m:math>
+ to get  <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>U</m:mi><m:mo>=</m:mo><m:mi>Q</m:mi><m:mo>−</m:mo><m:mi>P</m:mi><m:mi>Δ</m:mi><m:mi>V</m:mi></m:mrow>
+</m:math>
+.</para>
+<media id="fs-id1167063009987" alt="..." class="os-embed">
+<iframe width="660" height="371.4" src="https://www.openstax.org/l/28expansionWork"/>
+</media>
+
+<exercise id="fs-id1167066098629" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167066051237">
+<!--<para id="fs-id1167065858970"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex010"/></para>-->
+<para id="fs-id1164564980971">If the volume of a system increases while pressure remains constant, is the value of work done by the system <emphasis><emphasis effect="italic">W</emphasis></emphasis> positive or negative? Will this increase or decrease the internal energy of the system?</para>
+<list id="fs-id1164564854839" list-type="enumerated" number-style="lower-alpha">
+<item>Positive; internal energy will decrease</item>
+<item>Positive; internal energy will increase</item>
+<item>Negative; internal energy will decrease</item>
+<item>Negative; internal energy will increase</item>
+</list>
+</problem>
+</exercise>
+</note></section><section id="fs-id1167065014037"><title>The First Law of Thermodynamics</title><note id="fs-id1167064892582" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065891212"><span>[BL]</span> Review heat transfer. When and how does heat transfer energy between two bodies? What happens when energy is transferred into or out of a system by heat?</para>
+</note>
+<para id="fs-id1167064649082">Heat (<emphasis effect="italics">Q</emphasis>) and work (<emphasis effect="italics">W</emphasis>) are the two ways to add or remove energy from a system. The processes are very different. Heat is driven by temperature differences, while work involves a force exerted through a distance. Nevertheless, heat and work can produce identical results. For example, both can cause a temperature increase. Heat transfers energy into a system, such as when the sun warms the air in a bicycle tire and increases the air’s temperature. Similarly, work can be done on the system, as when the bicyclist pumps air into the tire. Once the temperature increase has occurred, it is impossible to tell whether it was caused by heat or work. Heat and work are both energy in transit—neither is stored as such in a system. However, both can change the internal energy, <emphasis effect="italics">U</emphasis>, of a system.</para>
+<para id="fs-id1167065715361"><term>Internal energy</term> is the sum of the kinetic and potential energies of a system’s atoms and molecules. It can be divided into many subcategories, such as thermal and chemical energy, and depends only on the state of a system (that is, <emphasis effect="italics">P</emphasis>,<emphasis effect="italics"> V</emphasis>, and <emphasis effect="italics">T</emphasis>), not on how the energy enters or leaves the system.</para>
+<para id="fs-id1167065859858">In order to understand the relationship between heat, work, and internal energy, we use the <term>first law of thermodynamics</term>. The first law of thermodynamics applies the <emphasis effect="italics">conservation of energy</emphasis> principle to systems where heat and work are the methods of transferring energy into and out of the systems. It can also be used to describe how energy transferred by heat is converted and transferred again by work.</para>
+<note id="fs-id1167065911083" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167064915460"><span>[OL]</span><span>[AL]</span> Ask students to give examples of processes where energy is converted from one form into another. Analyze whether energy transfer by heat occurs in each case.</para>
+</note>
+<note id="fs-id1167065870481" class="tips-for-success">
+
+<para id="fs-id1167062811061">Recall that the principle of conservation of energy states that energy cannot be created or destroyed, but it can be altered from one form to another.</para>
+</note>
+<para id="fs-id1167062318612">The first law of thermodynamics states that the change in internal energy of a closed system equals the net heat transfer <emphasis effect="italics">into </emphasis>the system minus the net work done <emphasis effect="italics">by </emphasis>the system. In equation form, the first law of thermodynamics is</para>
+<equation id="fs-id1164562222011"> <m:math display="block">
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>U</m:mi><m:mo>=</m:mo><m:mi>Q</m:mi><m:mo>−</m:mo><m:mi>W</m:mi><m:mo>.</m:mo></m:mrow>
+</m:math> </equation><para id="fs-id1167064651016">Here,  <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>U</m:mi></m:mrow>
+</m:math>
+ is the <emphasis effect="italics">change in internal energy</emphasis>,<emphasis effect="italics"> U</emphasis>, of the system. As shown in <link target-id="Figure_12_02_FirstThermo"/>, <emphasis effect="italics">Q </emphasis>is the <emphasis effect="italics">net heat transferred into the system</emphasis>—that is, <emphasis effect="italics">Q </emphasis>is the sum of all heat transfers into and out of the system. <emphasis effect="italics">W </emphasis>is the <emphasis effect="italics">net work done by the system</emphasis>—that is, <emphasis effect="italics">W </emphasis>is the sum of all work done on or by the system. By convention, if <emphasis effect="italics">Q </emphasis>is positive, then there is a net heat transfer into the system; if <emphasis effect="italics">W </emphasis>is positive, then there is net work done by the system. So positive <emphasis effect="italics">Q </emphasis>adds energy to the system by heat, and positive <emphasis effect="italics">W </emphasis>takes energy from the system by work. Note that if heat transfers more energy into the system than that which is done by work, the difference is stored as internal energy.</para>
+<figure id="Figure_12_02_FirstThermo">
+<media id="fs-id1167065022930" alt="Q is shown adding energy to the system, while W causes energy to leave the system. For the system, the following equations are shown:">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_12_02_FirstTherm.jpg"/>
+</media>
+<caption>The first law of thermodynamics is the <emphasis effect="italics">conservation of energy</emphasis> principle stated for a system, where heat and work are the methods of transferring energy to and from a system. <emphasis effect="italics">Q</emphasis> represents the net heat transfer—it is the sum of all transfers of energy by heat into and out of the system. <emphasis effect="italics">Q</emphasis> is positive for net heat transfer <emphasis effect="italics">into</emphasis> the system.  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>W</m:mi>
+   <m:mrow>
+    <m:mtext>out</m:mtext></m:mrow>
+  </m:msub>
+  </m:mrow>
+</m:math>  is the work done <emphasis effect="italics">by</emphasis> the system, and  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>W</m:mi>
+   <m:mrow>
+    <m:mtext>in</m:mtext></m:mrow>
+  </m:msub>
+  </m:mrow>
+</m:math>  is the work done <emphasis effect="italics">on</emphasis> the system. <emphasis effect="italics">W</emphasis> is the total work done on or <emphasis effect="italics">by</emphasis> the system. <emphasis effect="italics">W</emphasis> is positive when more work is done <emphasis effect="italics">by</emphasis> the system than <emphasis effect="italics">on</emphasis> it. The change in the internal energy of the system,  <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>U</m:mi></m:mrow>
+</m:math>, is related to heat and work by the first law of thermodynamics:  <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>U</m:mi><m:mo>=</m:mo><m:mi>Q</m:mi><m:mo>−</m:mo><m:mi>W</m:mi><m:mo>.</m:mo></m:mrow>
+</m:math>
+</caption></figure>
+<para id="fs-id1167065844107">It follows also that negative <emphasis effect="italics">Q</emphasis> indicates that energy is transferred <emphasis effect="italics">away</emphasis> from the system by heat and so decreases the system’s internal energy, whereas negative <emphasis effect="italics">W</emphasis> is work done <emphasis effect="italics">on</emphasis> the system, which increases the internal energy.</para>
+<note id="fs-id1167065878579" class="watch-physics"><title>First Law of Thermodynamics/Internal Energy</title>
+
+<para id="fs-id1167066091866">This video explains the first law of thermodynamics, conservation of energy, and internal energy. It goes over an example of energy transforming between kinetic energy, potential energy, and heat transfer due to air resistance.</para>
+<media id="fs-id1167064825688" alt="..." class="os-embed">
+<iframe width="660" height="371.4" src="https://www.openstax.org/l/28FirstThermo"/>
+</media>
+<exercise id="fs-id1167066056362" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167064586138">
+<para id="fs-id1167065885659"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex011"/></para>
+</problem>
+</exercise>
+</note><note id="fs-id1167065882143" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065822573"><span>[BL]</span><span>[OL]</span> Demonstrate that the equation may be rearranged as  <m:math>
+ <m:mrow>
+  <m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>Δ</m:mi><m:mi>U</m:mi><m:mo>+</m:mo><m:mi>W</m:mi><m:mo>.</m:mo></m:mrow>
+</m:math>  This shows that any energy added by heat to a system is either converted into work or stored as internal energy.</para>
+</note>
+
+
+
+<note id="fs-id1167065898691" class="watch-physics"><title>More on Internal Energy</title>
+
+<para id="fs-id1167064824997">This video goes into further detail, explaining internal energy and how to use the equation  <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>U</m:mi><m:mo>=</m:mo><m:mi>Q</m:mi><m:mo>−</m:mo><m:mi>W</m:mi><m:mo>.</m:mo></m:mrow>
+</m:math>
+ Note that Sal uses the equation  <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>U</m:mi><m:mo>=</m:mo><m:mi>Q</m:mi><m:mo>+</m:mo><m:mi>W</m:mi></m:mrow>
+</m:math>
+, where <emphasis effect="italics">W</emphasis> is the work done <emphasis effect="italics">on</emphasis> the system, whereas we use <emphasis effect="italics">W</emphasis> to represent work done <emphasis effect="italics">by</emphasis> the system.</para>
+
+<media id="fs-id1167062541075" alt="..." class="os-embed">
+<iframe width="660" height="371.4" src="https://www.openstax.org/l/28IntrnEnergy"/>
+</media>
+<exercise id="fs-id1167065066899" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167062309680">
+<para id="fs-id1167065684006"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex012"/></para>
+</problem>
+</exercise>
+</note><note id="fs-id1167064799697" class="links-to-physics"><title>Biology: Biological Thermodynamics</title>
+
+
+<para id="fs-id1167065951248">We often think about thermodynamics as being useful for inventing or testing machinery, such as engines or steam turbines. However, thermodynamics also applies to living systems, such as our own bodies. This forms the basis of the biological thermodynamics (<link target-id="Figure_12_02_FoodEnergy"/>).</para>
+
+<figure id="Figure_12_02_FoodEnergy"><media id="fs-id1167062979109" alt="A man takes in energy from food, gives off heat, and does work in part (a). A flower absorbs heat from the Sun and gives off heat in part (b).">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_12_02_FoodEnergy.jpg"/>
+</media>
+<caption>(a) The first law of thermodynamics applies to metabolism. Heat transferred out of the body (Q) and work done by the body (W) remove internal energy, whereas food intake replaces it. (Food intake may be considered work done on the body.) (b) Plants convert part of the radiant energy in sunlight into stored chemical energy, a process called <emphasis effect="italics">photosynthesis</emphasis>.</caption></figure>
+
+<para id="fs-id1167065679746">Life itself depends on the biological transfer of energy. Through photosynthesis, plants absorb solar energy from the sun and use this energy to convert carbon dioxide and water into glucose and oxygen. Photosynthesis takes in one form of energy—light—and converts it into another form—chemical potential energy (glucose and other carbohydrates).</para>
+<para id="fs-id1167062967276"><emphasis effect="italics">Human metabolism</emphasis> is the conversion of food into energy given off by heat, work done by the body’s cells, and stored fat. Metabolism is an interesting example of the first law of thermodynamics in action. Eating increases the internal energy of the body by adding chemical potential energy; this is an unromantic view of a good burrito.</para>
+<para id="fs-id1167065787738">The body metabolizes all the food we consume. Basically, metabolism is an oxidation process in which the chemical potential energy of food is released. This implies that food input is in the form of work. Exercise helps you lose weight, because it provides energy transfer from your body by both heat and work and raises your metabolic rate even when you are at rest.</para>
+<para id="fs-id1167064794426">Biological thermodynamics also involves the study of transductions between cells and living organisms. <emphasis effect="italics">Transduction</emphasis> is a process where genetic material—DNA—is transferred from one cell to another. This often occurs during a viral infection (e.g., influenza) and is how the virus spreads, namely, by transferring its genetic material to an increasing number of previously healthy cells. Once enough cells become infected, you begin to feel the effects of the virus (flu symptoms—muscle weakness, coughing, and congestion).</para>
+<para id="fs-id1167064775137">Energy is transferred along with the genetic material and so obeys the first law of thermodynamics. Energy is transferred—not created or destroyed—in the process. When work is done on a cell or heat transfers energy to a cell, the cell’s internal energy increases. When a cell does work or loses heat, its internal energy decreases. If the amount of work done by a cell is the same as the amount of energy transferred in by heat, or the amount of work performed on a cell matches the amount of energy transferred out by heat, there will be no net change in internal energy.</para>
+<exercise id="fs-id1167066039575" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167065809712">
+<!--<para id="fs-id1167065071229"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex013"/></para>-->
+<para id="fs-id1164566555804">Based on what you know about heat transfer and the first law of thermodynamics, do you need to eat more or less to maintain a constant weight in colder weather? Explain why.</para>
+<list id="fs-id1164564926160" list-type="enumerated" number-style="lower-alpha">
+<item>more; as more energy is lost by the body in colder weather, the need to eat increases so as to maintain a constant weight</item>
+<item>more; eating more food means accumulating more fat, which will insulate the body from colder weather and will reduce the energy loss</item>
+<item>less; as less energy is lost by the body in colder weather, the need to eat decreases so as to maintain a constant weight</item>
+<item>less; eating less food means accumulating less fat, so less energy will be required to burn the fat, and, as a result, weight will remain constant</item>
+</list>
+</problem>
+</exercise>
+</note></section><section id="fs-id1167065966810">
+<title>Solving Problems Involving the First Law of Thermodynamics</title>
+
+<note id="Worked_Example_12_01" class="worked-example">
+
+<title>Calculating Change in Internal Energy</title>
+<exercise id="fs-id1167064993851" class="12-ex014 unnumbered"><label/>
+<problem id="fs-id1167064694728">
+<para id="fs-id1167065974413">Suppose 40.00 J of energy is transferred by heat to a system, while the system does 10.00 J of work. Later, heat transfers 25.00 J out of the system, while 4.00 J is done by work on the system. What is the net change in the system’s internal energy?</para>
+<note id="fs-id1167064829645"><label/>
+<title>Strategy</title>
+<para id="fs-id1167062889575">You must first calculate the net heat and net work. Then, using the first law of thermodynamics,  <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>U</m:mi><m:mo>=</m:mo><m:mi>Q</m:mi><m:mo>−</m:mo><m:mi>W</m:mi><m:mo>,</m:mo></m:mrow>
+</m:math>  find the change in internal energy.</para>
+</note>
+</problem>
+<solution id="fs-id1167065828652"><label/>
+<title>Solution</title>
+<para id="fs-id1167065983748">The net heat is the transfer into the system by heat minus the transfer out of the system by heat, or</para>
+<equation id="fs-id1164564834705"> <m:math display="block">
+ <m:mrow>
+  <m:mi>Q</m:mi><m:mo>=</m:mo><m:mtext>40</m:mtext><m:mtext>.00 J</m:mtext><m:mo>−</m:mo><m:mtext>25</m:mtext><m:mtext>.00 J</m:mtext><m:mo>=</m:mo><m:mtext>15</m:mtext><m:mtext>.00 J.</m:mtext></m:mrow>
+</m:math> </equation>
+<para id="fs-id1167065852400">The total work is the work done by the system minus the work done on the system, or</para>
+<equation id="fs-id1164561138626"> <m:math display="block">
+ <m:mrow>
+  <m:mi>W</m:mi><m:mo>=</m:mo><m:mtext>10</m:mtext><m:mtext>.00 J</m:mtext><m:mo>−</m:mo><m:mtext>4</m:mtext><m:mtext>.00 J</m:mtext><m:mo>=</m:mo><m:mtext>6</m:mtext><m:mtext>.00 J.</m:mtext></m:mrow>
+</m:math> </equation><para id="fs-id1167065927159">The change in internal energy is given by the first law of thermodynamics.</para>
+<equation id="fs-id1164557685609"> <m:math display="block">
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>U</m:mi><m:mo>=</m:mo><m:mi>Q</m:mi><m:mo>−</m:mo><m:mi>W</m:mi><m:mo>=</m:mo><m:mtext>15</m:mtext><m:mtext>.00 J</m:mtext><m:mo>−</m:mo><m:mtext>6</m:mtext><m:mtext>.00 J</m:mtext><m:mo>=</m:mo><m:mtext>9</m:mtext><m:mtext>.00 J</m:mtext></m:mrow>
+</m:math> </equation></solution>
+
+<commentary id="fs-id1167065859891">
+<title>Discussion</title>
+<para id="fs-id1167064931476">A different way to solve this problem is to find the change in internal energy for each of the two steps separately and then add the two changes to get the total change in internal energy. This approach would look as follows:</para>
+<para id="fs-id1167066047946">For 40.00 J of heat in and 10.00 J of work out, the change in internal energy is</para>
+<equation id="fs-id1164563514060"> <m:math display="block">
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:msub>
+   <m:mi>U</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>Q</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>−</m:mo><m:msub>
+   <m:mi>W</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mtext>40</m:mtext><m:mtext>.00 J</m:mtext><m:mo>−</m:mo><m:mtext>10</m:mtext><m:mtext>.00 J</m:mtext><m:mo>=</m:mo><m:mtext>30</m:mtext><m:mtext>.00 J.</m:mtext></m:mrow>
+</m:math> </equation><para id="fs-id1167066096020">For 25.00 J of heat out and 4.00 J of work in, the change in internal energy is</para>
+<equation id="fs-id1164561111848"> <m:math display="block">
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:msub>
+   <m:mi>U</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>Q</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>−</m:mo><m:msub>
+   <m:mi>W</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mo>−</m:mo><m:mn>25.</m:mn><m:mspace width="0.3em"/><m:mtext>00 J</m:mtext><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>4.00</m:mn><m:mspace width="0.3em"/><m:mtext> J)</m:mtext><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>21.</m:mn><m:mspace width="0.3em"/><m:mtext>00 J.</m:mtext></m:mrow>
+</m:math> </equation><para id="fs-id1167062329399">The total change is</para>
+<equation id="fs-id1164562177889"> <m:math display="block">
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>U</m:mi><m:mo>=</m:mo><m:mi>Δ</m:mi><m:msub>
+   <m:mi>U</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>+</m:mo><m:mi>Δ</m:mi><m:msub>
+   <m:mi>U</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>3</m:mn><m:mspace width="0.3em"/><m:mtext>0</m:mtext><m:mtext>.00 J</m:mtext><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>21.</m:mn><m:mspace width="0.3em"/><m:mtext>00 J)</m:mtext><m:mo>=</m:mo><m:mn>9.</m:mn><m:mspace width="0.3em"/><m:mtext>00 J.</m:mtext></m:mrow>
+</m:math> </equation><para id="fs-id1167064825871">No matter whether you look at the overall process or break it into steps, the change in internal energy is the same.</para>
+<note id="fs-id1167065713232" class="os-teacher"><title>Teacher Support</title>
+<para id="fs-id1167065895737"><span>[BL]</span> Make sure students are clear on the use of negative signs for heat transfer and work. Work done <emphasis effect="italics">by</emphasis> an isolated system means an increase in volume, so <emphasis effect="italics">W </emphasis>is positive and  <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>U</m:mi></m:mrow>
+</m:math>  decreases or is negative.</para>
+</note></commentary>
+</exercise>
+</note><note id="Worked_Example_12_02" class="worked-example"><title>Calculating Change in Internal Energy: The Same Change in <emphasis effect="italics">U</emphasis> is Produced by Two Different Processes</title>
+
+<exercise id="fs-id1167062368321" class="12-ex015 unnumbered"><label/>
+<problem id="fs-id1167062509442">
+<para id="fs-id1167062465536">What is the change in the internal energy of a system when a total of 150.00 J is transferred by heat from the system and 159.00 J is done by work on the system?</para>
+<note id="fs-id1167066031065"><label/>
+<title>Strategy</title>
+<para id="fs-id1167066051039">The net heat and work are already given, so simply use these values in the equation  <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>U</m:mi><m:mo>=</m:mo><m:mi>Q</m:mi><m:mo>−</m:mo><m:mi>W</m:mi><m:mo>.</m:mo></m:mrow>
+</m:math>
+</para>
+</note>
+</problem>
+<solution id="fs-id1167065887808"><label/>
+<title>Solution</title>
+<para id="fs-id1167064583694">Here, the net heat and total work are given directly as  <m:math>
+ <m:mrow>
+  <m:mi>Q</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mtext>150</m:mtext><m:mtext>.00 J and </m:mtext><m:mi>W</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mtext>159.00 J,</m:mtext></m:mrow>
+</m:math>  so that</para>
+<equation id="fs-id1164562384294"> <m:math display="block">
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>U</m:mi><m:mo>=</m:mo><m:mi>Q</m:mi><m:mo>−</m:mo><m:mi>W</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>150.</m:mn><m:mspace width="0.3em"/><m:mtext>00 J</m:mtext><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>159.</m:mn><m:mspace width="0.3em"/><m:mtext>00 J)</m:mtext><m:mo>=</m:mo><m:mn>9.</m:mn><m:mspace width="0.3em"/><m:mtext>00 J.</m:mtext></m:mrow>
+</m:math> </equation>
+</solution>
+<commentary id="fs-id1167065888947">
+<title>Discussion</title>
+<figure id="eip-idm379187600">
+<media id="fs-id1167062408031" alt="Two different processes produce the same change in a system. (a) Heat transfers a total of 15.00 J into the system, while work takes out a total of 6.00 J. The change in internal energy is ΔU = Q - W = 9.00 J. (b) Heat removes 150.00 J from the system while work puts 159.00 J into it, producing an increase in internal energy of 9.00 J." display="block">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_12_02_InternalEn_img.jpg"/>
+</media><caption>Two different processes produce the same change in a system. (a) A total
+of 15.00 J of heat transfer occurs into the system, while work takes out a total of 6.00 J.
+The change in internal energy is ΔU = Q – W = 9.00 J. (b) Heat transfer removes
+150.00 J from the system while work puts 159.00 J into it, producing an increase of 9.00
+J in internal energy. If the system starts out in the same state in (a) and (b), it will end
+up in the same final state in either case—its final state is related to internal energy, not
+how that energy was acquired.</caption>
+</figure>
+<para id="fs-id1167065774783">A very different process in this second worked example produces the same 9.00 J change in internal energy as in the first worked example. Note that the change in the system in both parts is related to  <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>U</m:mi></m:mrow>
+</m:math>  and not to the individual <emphasis effect="italics">Q</emphasis>’s or <emphasis effect="italics">W</emphasis>’s involved. The system ends up in the <emphasis effect="italics">same </emphasis>state in both problems. Note that, as usual, in <link target-id="eip-idm379187600"/> above,  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>W</m:mi>
+   <m:mrow>
+    <m:mtext>out</m:mtext></m:mrow>
+  </m:msub>
+  </m:mrow>
+</m:math>
+ is work done <emphasis effect="italics">by</emphasis> the system, and  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>W</m:mi>
+   <m:mrow>
+    <m:mtext>in</m:mtext></m:mrow>
+  </m:msub>
+  </m:mrow>
+</m:math>
+ is work done <emphasis effect="italics">on</emphasis> the system.</para></commentary>
+</exercise></note></section>
+
+<section id="fs-id1167065879893" class="practice-problems"><title>Practice Problems</title><exercise id="fs-id1167065658829">
+<problem id="fs-id1167065072016">
+<para id="fs-id1167065721284"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex016"/></para></problem></exercise>
+<exercise id="fs-id1167064927085">
+<problem id="fs-id1167065871130">
+<para id="fs-id1167065965175"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex017"/></para>
+</problem></exercise>
+</section>
+
+<section id="fs-id1167066187189" class="check-understanding"><title>Check Your Understanding</title>
+<note id="fs-id1167065891866" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167062971424">Use these questions to assess student achievement of the section’s learning objectives. If students are struggling with a specific objective, these questions will help identify which and direct students to the relevant content.</para>
+</note>
+<exercise id="fs-id1167065714141" class="os-exercise">
+<problem id="fs-id1167062967370"><para id="fs-id1167062967371"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex018"/></para>
+</problem>
+</exercise>
+
+<exercise id="fs-id1167065883806" class="os-exercise">
+<problem id="fs-id1167065838705">
+<!--<para id="fs-id1167065828299"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex019"/></para>-->
+<para id="fs-id1164562048885">What is the SI unit for pressure?</para>
+<list id="fs-id1164564795769" list-type="enumerated" number-style="lower-alpha">
+<item>pascal, or N/m<sup>3</sup></item>
+<item>coulomb</item>
+<item>newton</item>
+<item>pascal, or N/m<sup>2</sup></item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167065848240" class="os-exercise">
+<problem id="fs-id1167065791273"><para id="fs-id1167065791274"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex020"/></para>
+</problem>
+</exercise>
+
+<exercise id="fs-id1167065980384" class="os-exercise">
+<problem id="fs-id1167065867818"><!--<para id="fs-id1167065965130"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex021"/></para>-->
+
+<para id="fs-id1164562420101">When is pressure-volume work said to be done ON a system?</para>
+<list id="fs-id1164561191174" list-type="enumerated" number-style="lower-alpha">
+<item>When there is an increase in both volume and internal pressure.</item>
+<item>When there is a decrease in both volume and internal pressure.</item>
+<item>When there is a decrease in volume and an increase in internal pressure.</item>
+<item>When there is an increase in volume and a decrease in internal pressure.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167064537878" class="os-exercise">
+<problem id="fs-id1167066094473"><para id="fs-id1167066094474"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex022"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065869126" class="os-exercise">
+<problem id="fs-id1167065735128"><para id="fs-id1167065684354"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex023"/></para>
+</problem>
+</exercise></section><section id="fs-id1167064928318" class="summary">
+<title>Section Summary</title>
+<list id="fs-id1167065979640">
+<item>Pressure is the force per unit area over which the force is applied perpendicular to the area.</item>
+<item>Thermal expansion is the increase, or decrease, of the size (length, area, or volume) of a body due to a change in temperature.</item>
+<item>The ideal gas law relates the pressure and volume of a gas to the number of gas particles (atoms or molecules) and the absolute temperature of the gas.</item>
+<item>Heat and work are the two distinct methods of energy transfer.</item>
+<item>Heat is energy transferred solely due to a temperature difference.</item>
+<item>The first law of thermodynamics is given as  <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>U</m:mi><m:mo>=</m:mo><m:mi>Q</m:mi><m:mo>−</m:mo><m:mi>W</m:mi></m:mrow>
+</m:math>
+, where  <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>U</m:mi></m:mrow>
+</m:math>  is the change in internal energy of a system, <emphasis effect="italics">Q </emphasis>is the net energy transfer into the system by heat (the sum of all transfers by heat into and out of the system), and <emphasis effect="italics">W </emphasis>is the net work done by the system (the sum of all energy transfers by work out of or into the system).</item>
+<item>Both <emphasis effect="italics">Q </emphasis>and <emphasis effect="italics">W </emphasis>represent energy in transit; only  <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>U</m:mi></m:mrow>
+</m:math>  represents an independent quantity of energy capable of being stored.</item>
+<item>The internal energy <emphasis effect="italics">U </emphasis>of a system depends only on the state of the system, and not how it reached that state.</item>
+</list>
+</section>
+<section id="fs-id1167065000460" class="key-equations"><title>Key Equations</title><table id="fs-id1167066165901" class="unnumbered unstyled" summary="Table with two columns and four rows. The top left cell reads “Ideal gas law,” with the top right cell showing the equation for the product of an ideal gas’s pressure and volume as equal to the number of moles of gas, Boltzmann’s constant, and the gas’s absolute temperature. The second left cell reads “First law of thermodynamics,” with the right cell showing the equation for the change in a system’s internal energy as equal to the heat into the system minus the word done by the system. The third left cell reads “Pressure,” with the right cell showing the pressure of a gas as equal to the force it exerts on a perpendicular area, divided by that area. The lower left cell reads “Pressure–volume work,” with the lower right cell showing the equation for work as equal to the pressure of or on a gas times the change in its volume.">
+<label/>
+<tgroup cols="2"><colspec colname="c1" colnum="1"/>
+<colspec colname="c2" colnum="2"/>
+<tbody>
+<row>
+<entry>ideal gas law</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>N</m:mi><m:mi>k</m:mi><m:mi>T</m:mi></m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>first law of thermodynamics</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>U</m:mi><m:mo>=</m:mo><m:mi>Q</m:mi><m:mo>−</m:mo><m:mi>W</m:mi></m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>pressure</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mi>F</m:mi>
+   <m:mi>A</m:mi>
+  </m:mfrac>
+  </m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>pressure–volume work</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mi>W</m:mi><m:mo>=</m:mo><m:mi>P</m:mi><m:mi>Δ</m:mi><m:mi>V</m:mi></m:mrow>
+</m:math>
+</entry>
+</row>
+</tbody>
+
+</tgroup>
+</table>
+</section>
+
+
+
+<section id="fs-id1167066061218" class="concept"><title>Concept Items</title>
+<exercise id="fs-id1167064573712" class="os-exercise">
+<problem id="fs-id1167065825401">
+<para id="fs-id1167065737984"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex024"/></para>
+</problem>
+</exercise>
+
+<exercise id="fs-id1167067227637" class="os exercise"><problem id="fs-id1167067227640">
+<para id="fs-id1167064911536">How does pressure-volume work relate to heat and internal energy of a system?
+</para>
+<list id="eip-idm375062704" list-type="enumerated" number-style="lower-alpha">
+<item>The energy added to a system by heat minus the change in the internal energy of that system is equal to the pressure-volume work done by the
+system.</item>
+<item>The sum of the energy released by a system by heat and the change in the internal energy of that system is equal to the pressure-volume work done by
+the system.</item>
+<item>The product of the energy added to a system by heat and the change in the internal energy of that system is equal to the pressure-volume work done
+by the system.</item>
+<item>If the energy added to a system by heat is divided by the change in the internal energy of that system, the quotient is equal to the pressure-volume
+work done by the system.</item>
+</list>
+</problem></exercise><exercise id="fs-id1167067013925" class="os exercise">
+<problem id="fs-id1167063609054">
+<!--<para id="fs-id1167064979943"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex026"/></para>-->
+<para id="fs-id1164563499978">On what does internal energy depend?</para>
+<list id="fs-id1164566571028" list-type="enumerated" number-style="lower-alpha">
+<item>The path of energy changes in the system</item>
+<item>The state of the system</item>
+<item>The size of the system</item>
+<item>The shape of the system</item>
+</list>
+</problem></exercise>
+
+<exercise id="eip-id1166849882581" class="os-exercise">
+<problem id="eip-id1166847548923">
+<!--<para id="eip-id1166850144260">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch12-ot029"/>
+</para>-->
+<para id="fs-id1164562300536">The first law of thermodynamics helps us understand the relationships among which three quantities?</para>
+<list id="fs-id1164562251449" list-type="enumerated" number-style="lower-alpha">
+<item>Heat, work, and internal energy</item>
+<item>Heat, work, and external energy</item>
+<item>Heat, work, and enthalpy</item>
+<item>Heat, work, and entropy</item>
+</list>
+</problem>
+</exercise>
+</section><section id="fs-id1167062407410" class="critical-thinking"><title>Critical Thinking</title>
+<exercise id="fs-id1167065911673" class="os exercise">
+<problem id="fs-id1167064927228">
+<para id="fs-id1167066188828"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex027"/></para>
+</problem>
+</exercise>
+<exercise id="eip-155" class="os-exercise">
+<problem id="eip-id1167061367708">
+<para id="fs-id1167065879472"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex028"/></para>
+</problem>
+</exercise>
+<exercise id="eip-899" class="os exercise">
+<problem id="eip-id1167063964839">
+<para id="fs-id1167064876764"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex029"/></para>
+</problem></exercise>
+
+<exercise id="eip-id1166850235352" class="os-exercise">
+<problem id="eip-id1166849298798">
+<!--<para id="eip-id1166849750426">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch12-ot035"/>
+</para>-->
+<para id="fs-id1164566867037">Air is pumped into a car tire, causing its temperature to increase. In another tire, the temperature increase is due to exposure to the sun. Is it possible to tell what caused the temperature increase in each tire? Explain your answer.</para>
+<list id="fs-id1164561361067" list-type="enumerated" number-style="lower-alpha">
+<item>No, because it is a chemical change, and the cause of that change does not matter; the final state of both systems are the same.</item>
+<item>Although the final state of each system is identical, the source is different in each case.</item>
+<item>No, because the changes in energy for both systems are the same, and the cause of that change does not matter; the state of each system is identical.</item>
+<item>Yes, the changes in the energy for both systems are the same, but the causes of that change are different, so the states of each system are not identical.</item>
+</list>
+</problem>
+</exercise>
+
+<exercise id="eip-id1166850068047" class="os-exercise">
+<problem id="eip-id1166849842364">
+<!--<para id="eip-id1166850216319">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch12-ot036"/>
+</para>-->
+<para id="fs-id1164562459959">How does the transfer of energy from the sun help plants?</para>
+<list id="fs-id1164566489060" list-type="enumerated" number-style="lower-alpha">
+<item>Plants absorb solar energy from the sun and utilize it during the fertilization process.</item>
+<item>Plants absorb solar energy from the sun and utilize it during the process of photosynthesis to turn it into plant matter.</item>
+<item>Plants absorb solar energy from the sun and utilize it to increase the temperature inside them.</item>
+<item>Plants absorb solar energy from the sun and utilize it during the shedding of their leaves and fruits.</item>
+</list>
+</problem>
+</exercise></section><section id="fs-id1167062354515" class="problems">
+<title>Problems</title>
+<exercise id="fs-id1167064948100" class="os exercise">
+<problem id="fs-id1167064990172">
+<para id="fs-id1167065863387"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex030"/></para>
+</problem></exercise>
+<exercise id="fs-id1167064741127" class="os exercise">
+<problem id="fs-id1167066095886">
+<para id="fs-id1167066090869"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex031"/></para>
+</problem></exercise>
+</section>
+
+<section id="fs-id1167065861986" class="multiple-choice"><title>Test Prep Multiple Choice</title><exercise id="fs-id1167064914603" class="os-exercise">
+<problem id="fs-id1167062462485">
+<para id="fs-id1167065969234"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex032"/></para>
+</problem>
+</exercise>
+<exercise id="eip-798">
+<problem id="eip-id1167061628549">
+<para id="fs-id1167065944223"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex033"/></para>
+</problem>
+</exercise>
+<exercise id="eip-751">
+<problem id="eip-id1167065790225">
+<para id="fs-id1167066145799"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex034"/></para>
+</problem>
+</exercise>
+<exercise id="eip-118" class="os exercise">
+<problem id="eip-id1167064893413">
+<para id="fs-id1167065942129"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex035"/></para>
+</problem></exercise>
+
+<exercise id="eip-id1166849457715" class="os-exercise">
+<problem id="eip-id1166849630223">
+<para id="eip-id1166847271803">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch12-ot015"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167064993822" class="short-answer">
+<title>Test Prep Short Answer</title>
+<exercise id="fs-id1167064620290" class="os-exercise">
+<problem id="fs-id1167064869888">
+<!--<para id="fs-id1167066024733"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex036"/></para>-->
+<para id="fs-id1164566943764">If a fixed quantity of an ideal gas is held at a constant volume, which variable relates to pressure, and what is that relation?</para>
+<list id="fs-id1164563496607" list-type="enumerated" number-style="lower-alpha">
+<item>Temperature; inverse proportionality  <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+       <m:mi>P</m:mi><m:mspace width="0.25em"/><m:mo>∝</m:mo><m:mtext> </m:mtext><m:mfrac>
+      <m:mtext>1</m:mtext>
+      <m:mi>T</m:mi>
+     </m:mfrac>
+
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</item>
+<item>Temperature, direct proportionality to square root  <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mi>P</m:mi><m:mspace width="0.25em"/><m:mo>∝</m:mo><m:mtext> </m:mtext><m:msqrt>
+      <m:mi>T</m:mi>
+     </m:msqrt>
+
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow>
+  </m:mrow>
+ </m:semantics>
+</m:math> </item>
+<item>Temperature; direct proportionality  <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+<m:mi>P</m:mi><m:mspace width="0.25em"/><m:mo>∝</m:mo><m:mtext> </m:mtext>
+      <m:mi>T</m:mi>
+         </m:mrow>
+   <m:mo>)</m:mo></m:mrow>
+  </m:mrow>
+ </m:semantics>
+</m:math> </item>
+<item>Temperature; direct proportionality to square  <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+<m:mi>P</m:mi><m:mspace width="0.25em"/><m:mo>∝</m:mo><m:msup>
+      <m:mrow>
+<m:mspace width="0.25em"/><m:mi>T</m:mi>
+      </m:mrow>
+      <m:mtext>2</m:mtext>
+     </m:msup>
+
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow>
+  </m:mrow>
+ </m:semantics>
+</m:math> </item>
+</list>
+
+</problem>
+</exercise>
+
+<exercise id="eip-292" class="os exercise">
+<problem id="eip-id1167064915757">
+<para id="fs-id1167064905268"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex037"/></para>
+</problem>
+</exercise>
+
+<exercise id="eip-273"><problem id="eip-id1167066874152" class="os exercise">
+<para id="fs-id1167065897377"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex038"/></para>
+</problem>
+</exercise>
+<exercise id="eip-573" class="os exercise">
+<problem id="eip-id1167066121556">
+<para id="fs-id1167064895340"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex039"/></para>
+</problem>
+</exercise>
+
+<exercise id="eip-979" class="os exercise">
+<problem id="eip-id1167067184691">
+<!--<para id="fs-id1167064586229"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex040"/></para>-->
+<para id="fs-id1164564980957">By convention, if <emphasis effect="italics">Q</emphasis> is positive, what is the direction in which heat transfers energy with regard to the system?</para>
+<list id="fs-id1164565124224" list-type="enumerated" number-style="lower-alpha">
+<item>The direction of the heat transfer of energy depends on the changes in <emphasis effect="italics">W</emphasis>, regardless of the sign of <emphasis effect="italics">Q</emphasis>.</item>
+<item>The direction of <emphasis effect="italics">Q</emphasis> cannot be determined from just the sign of <emphasis effect="italics">Q</emphasis>.</item>
+<item>The direction of net heat transfer of energy will be out of the system.</item>
+<item>The direction of net heat transfer of energy will be into the system.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-692" class="os exercise">
+<problem id="eip-id1167067144799">
+<para id="fs-id1167064917052"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex041"/></para>
+</problem>
+</exercise>
+<exercise id="eip-581" class="os exercise"><problem id="eip-id1167067061448">
+<para id="fs-id1167064820772"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex042"/></para>
+</problem>
+</exercise><exercise id="eip-376" class="os exercise"><problem id="eip-id1167067231255">
+<para id="fs-id1167066036214"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex043"/></para>
+</problem></exercise></section>
+
+<section id="fs-id1167066141196" class="extended-response">
+<title>Test Prep Extended Response</title>
+<exercise id="fs-id1167067101920" class="os exercise">
+<problem id="fs-id1167066971352">
+<para id="fs-id1167066154060"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex044"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167063801287" class="os exercise">
+<problem id="fs-id1167067185857">
+<!--<para id="fs-id1167065847920"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex045"/></para>-->
+
+<para id="fs-id1164566553650">Under which conditions will the work done by the gas in a system increase?</para>
+<list id="fs-id1164566444220" list-type="enumerated" number-style="lower-alpha">
+<item>It will increase when a large amount of energy is added to the system, and that energy causes an increase in the gass volume, its pressure, or both.</item>
+<item>It will increase when a large amount of energy is extracted from the system, and that energy causes an increase in the gass volume, its pressure, or both.</item>
+<item>It will increase when a large amount of energy is added to the system, and that energy causes a decrease in the gass volume, its pressure, or both.</item>
+<item>It will increase when a large amount of energy is extracted from the system, and that energy causes a decrease in the gass volume, its pressure, or both.</item>
+</list>
+
+</problem>
+</exercise>
+<exercise id="fs-id1167066956169" class="os exercise">
+<problem id="fs-id1167061306236">
+<!--<para id="fs-id1167066050696"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex046"/></para>-->
+<para id="fs-id1164566564084">How does energy transfer by heat aid in body metabolism?</para>
+<list id="fs-id1164566527316" list-type="enumerated" number-style="lower-alpha"><item>The energy is given to the body through the work done by the body (<emphasis effect="italics">W</emphasis>) and through the intake of food, which may also be considered as the work done on the body. The transfer of energy out of the body is by heat (−<emphasis effect="italics">Q</emphasis>) .</item>
+<item>The energy given to the body is by the intake of food, which may also be considered as the work done on the body. The transfer of energy out of the body is by heat (−<emphasis effect="italics">Q</emphasis>) and the work done by the body (<emphasis effect="italics">W</emphasis>) .</item>
+<item>The energy given to the body is by the transfer of energy by heat (<emphasis effect="italics">Q</emphasis>) into the body, which may also be considered as the work done on the body. The transfer of energy out of the body is the work done by the body (<emphasis effect="italics">W</emphasis>) .</item>
+<item>The energy given to the body is by the transfer of energy by heat (<emphasis effect="italics">Q</emphasis>) inside the body. The transfer of energy out of the body is by the intake of food and the work done by the body (<emphasis effect="italics">W</emphasis>) .</item>
+</list></problem>
+</exercise>
+<exercise id="fs-id1167067214840" class="os exercise">
+<problem id="fs-id1167067214844">
+<!--<para id="fs-id1167066045158"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex047"/></para>-->
+
+<para id="fs-id1164562026439">Two distinct systems have the same amount of stored internal energy. Five hundred joules are added by heat to the first system, and 300 J are added by heat to the second system. What will be the change in internal energy of the first system if it does 200 J of work? How much work will the second system have to do in order to have the same internal energy?</para>
+<list id="fs-id1164566871866" list-type="enumerated" number-style="lower-alpha">
+<item>700 J; 0 J</item>
+<item>300 J; 300 J</item>
+<item>700 J; 300 J</item>
+<item>300 J; 0 J</item>
+</list>
+</problem>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1167065937404">
+<term>Boltzmann constant</term>
+<meaning id="fs-id1167066056328">constant with the value <emphasis effect="italics">k</emphasis> = 1.38×10<sup>−23</sup> J/K, which is used in the ideal gas law</meaning>
+</definition>
+<definition id="fs-id1167065869416">
+<term>first law of thermodynamics</term>
+<meaning id="fs-id1167064914658">states that the change in internal energy of a system equals the net energy transfer by heat <emphasis effect="italics">into </emphasis>the system minus the net work done <emphasis effect="italics">by </emphasis>the system</meaning>
+</definition>
+<definition id="fs-id1167065728540">
+<term>ideal gas law</term>
+<meaning id="fs-id1167065938640">physical law that relates the pressure and volume of a gas to the number of gas molecules or atoms, or number of moles of gas, and the absolute temperature of the gas</meaning>
+</definition>
+<definition id="fs-id1167065044291">
+<term>internal energy</term>
+<meaning id="fs-id1167064669786">sum of the kinetic and potential energies of a system’s constituent particles (atoms or molecules)</meaning>
+</definition>
+<definition id="fs-id1167062329297">
+<term>pressure</term>
+<meaning id="fs-id1167065944765">force per unit area perpendicular to the force, over which the force acts</meaning>
+</definition>
+</glossary>
+</document>

@@ -1,0 +1,860 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Doppler Effect and Sonic Booms</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54334</md:content-id>
+  <md:title>Doppler Effect and Sonic Booms</md:title>
+  <md:abstract/>
+  <md:uuid>caf00753-f63b-4b23-9468-25ddc8177407</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167063615556" class="learning-objectives"><label/><title>Section Learning Objectives</title>
+<para id="fs-id1167063582269">By the end of this section, you will be able to do the following:</para>
+<list id="fs-id1167067086087">
+<item>Describe the Doppler effect of sound waves</item>
+<item>Explain a sonic boom</item>
+<item>Calculate the frequency shift of sound from a moving object by the Doppler shift formula, and calculate the speed of an object by the Doppler shift formula</item>
+</list>
+</note><note id="fs-id1167063491394" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167060078555">The learning objectives in this section will help your students master the following standards:</para>
+<list id="fs-id1167063515644">
+<item>(7) Science concepts. The student knows the characteristics and behavior of waves. The student is expected to:
+<list id="fs-id1167066799202"><item>
+<span>(D)</span><span> investigate behaviors of waves, including reflection, refraction, diffraction, interference, resonance, and the Doppler effect.</span>
+</item>
+</list></item>
+</list>
+</note>
+<section id="keyterms"><title>Section Key Terms</title>
+<table id="fs-id1167063788589" class="unnumbered unstyled section-key-terms" summary="The list of Key Terms includes: Doppler effect, sonic boom"><label/>
+<tgroup cols="2">
+<tbody>
+<row>
+<entry>Doppler effect</entry>
+<entry>sonic boom</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<note id="fs-id1167061444343" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167063751869"><span>[BL]</span> Before the start of this section, it would be useful to review the properties of sound waves and how they are related to each other.</para>
+</note>
+
+<section id="fs-id1167066974594"><title>The Doppler Effect of Sound Waves</title><para id="fs-id1167066860321">The <term>Doppler effect</term> is a change in the observed pitch of a sound, due to relative motion between the source and the observer. An example of the Doppler effect due to the motion of a source occurs when you are standing still, and the sound of a siren coming from an ambulance shifts from high-pitch to low-pitch as it passes by. The closer the ambulance is to you, the more sudden the shift. The faster the ambulance moves, the greater the shift. We also hear this shift in frequency for passing race cars, airplanes, and trains. An example of the Doppler effect with a stationary source and moving observer is if you ride a train past a stationary warning bell, you will hear the bell’s frequency shift from high to low as you pass by.</para>
+
+<note id="fs-id1167063621705" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167063751789"><span>[BL]</span><span>[OL]</span><span>[AL]</span> Ask students if they have ever experienced the phenomenon where a car horn or siren appears to change its pitch as the vehicle passes them by. If so, when did it appear to be higher? And when was it lower? You can do a demonstration of the Doppler effect in class using a buzzer and a string. Tie the buzzer to one end of a string. A buzzer produces a monotonous sound. However, when you swing it around your head, its pitch appears to change. Ask students how they think this happens. What could be the reason for the changing pitch?</para>
+<para id="fs-id1167063820794">Safety warning: Make sure the buzzer is secured tightly to the string before swinging.</para>
+</note>
+
+<para id="fs-id1167063520278">What causes the Doppler effect? Let’s compare three different scenarios: Sound waves emitted by a stationary source (<link target-id="Figure_14_03_Stationary"/>), sound waves emitted by a moving source (<link target-id="Figure_14_03_MovingSrc"/>), and sound waves emitted by a stationary source but heard by moving observers (<link target-id="Figure_14_03_MovingObs"/>). In each case, the sound spreads out from the point where it was emitted.</para>
+
+<para id="fs-id1167066860752">If the source and observers are stationary, then observers on either side see the same wavelength and frequency as emitted by the source. But if the source is moving and continues to emit sound as it travels, then the air compressions (crests) become closer together in the direction in which it’s traveling and farther apart in the direction it’s traveling away from. Therefore, the wavelength is shorter in the direction the source is moving (on the right in <link target-id="Figure_14_03_MovingSrc"/>), and longer in the opposite direction (on the left in <link target-id="Figure_14_03_MovingSrc"/>).</para>
+
+<para id="fs-id1167063836052">Finally, if the observers move, as in <link target-id="Figure_14_03_MovingObs"/>, the frequency at which they receive the compressions changes. The observer moving toward the source receives them at a higher frequency (and therefore shorter wavelength), and the person moving away from the source receives them at a lower frequency (and therefore longer wavelength).</para>
+<note id="fs-add" class="os-teacher"><title>Teacher Support</title>
+
+<note id="fs-id1167063709897" class="misconception">
+
+<para id="fs-id1167063521298">Be sure to point out that the Doppler effect is only experienced due to the <emphasis effect="italics">relative</emphasis> motion between the source and the observer and does not depend on the actual speed of either.</para>
+<para id="fs-id1167067037989">Students might think that the Doppler effect occurs only with sound waves. This is not the case. It can occur with any kind of waves. In fact, we see it in the light waves that reach us from distant stars. Here, the effect is observed in the form of color change.</para>
+</note>
+</note>
+<figure id="Figure_14_03_Stationary">
+<media id="fs-id1167067199495" alt="Sounds emitted by a stationary car spread out in spherical waves as stationary observers listen on both sides."><image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_14_03_Stationary.jpg"/></media>
+<caption>Sounds emitted by a source spread out in spherical waves. Because the source, observers, and air are stationary, the wavelength and frequency are the same in all directions and to all observers.</caption>
+</figure>
+
+<figure id="Figure_14_03_MovingSrc">
+<media id="fs-id1167067074217" alt="Sound waves are compressed ahead of the motion of a car and stretched out in the wake of the motion of the car as stationary observers listen on both sides.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_14_03_MovingSrc.jpg"/></media>
+<caption>Sounds emitted by a source moving to the right spread out from the points at which they were emitted. The wavelength is reduced and, consequently, the frequency is increased in the direction of motion, so that the observer on the right hears a higher-pitch sound. The opposite is true for the observer on the left, where the wavelength is increased and the frequency is reduced.</caption>
+</figure>
+
+<figure id="Figure_14_03_MovingObs">
+<media id="fs-id1167067051451" alt="One observer runs away from the sound source (a car) while another runs toward it.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_14_03_MovingObs.jpg"/></media>
+<caption>The same effect is produced when the observers move relative to the source. Motion toward the source increases frequency as the observer on the right passes through more wave crests than she would if stationary. Motion away from the source decreases frequency as the observer on the left passes through fewer wave crests than he would if stationary.</caption>
+</figure>
+
+<para id="fs-id1167067189606">We know that wavelength and frequency are related by  <m:math>
+ <m:mrow>
+  <m:mi>v</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mi>λ</m:mi><m:mtext>,</m:mtext></m:mrow>
+</m:math>  where <emphasis effect="italics">v</emphasis> is the fixed speed of sound. The sound moves in a medium and has the same speed <emphasis effect="italics">v</emphasis> in that medium whether the source is moving or not. Therefore, <emphasis effect="italics">f </emphasis>multiplied by  <m:math>
+ <m:mi>λ</m:mi>
+</m:math>  is a constant. Because the observer on the right in <link target-id="Figure_14_03_MovingSrc"/> receives a shorter wavelength, the frequency she perceives must be higher. Similarly, the observer on the left receives a longer wavelength and therefore perceives a lower frequency.</para>
+<para id="fs-id1167063772054">The same thing happens in <link target-id="Figure_14_03_MovingObs"/>. A higher frequency is perceived by the observer moving toward the source, and a lower frequency is perceived by an observer moving away from the source. In general, then, relative motion of source and observer toward one another increases the perceived frequency. Relative motion apart decreases the perceived frequency. The greater the relative speed is, the greater the effect.</para>
+
+<note id="fs-id1167063687598" class="watch-physics"><title>Introduction to the Doppler Effect</title>
+
+<para id="fs-id1167063947440">This video explains the Doppler effect visually.</para>
+
+<media id="fs-id1167067127649" alt=" " class="os-embed">
+<iframe width="660" height="371.4" src="https://www.openstax.org/l/28doppler"/>
+</media>
+
+<exercise id="fs-id1167067189219" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167067033528">
+<!--<para id="fs-id1167067292290">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex066"/>
+</para>-->
+
+<para id="fs-id1164567504872">If you are standing on the sidewalk facing the street and an ambulance drives by with its siren blaring, at what point will the frequency that you observe most closely match the actual frequency of the siren?</para>
+<list id="fs-id1164564473739" list-type="enumerated" number-style="lower-alpha">
+<item>when it is coming toward you</item>
+<item>when it is going away from you</item>
+<item>when it is in front of you</item>
+</list>
+</problem>
+</exercise>
+</note><para id="fs-id1167067312946">For a stationary observer and a moving source of sound, the frequency (<emphasis effect="italics">f</emphasis><sub>obs</sub>) of sound perceived by the observer is</para>
+<equation id="fs-id1164565563692"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>f</m:mi>
+   <m:mrow>
+    <m:mi>o</m:mi><m:mi>b</m:mi><m:mi>s</m:mi></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>f</m:mi>
+   <m:mi>s</m:mi>
+  </m:msub>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:msub>
+       <m:mi>v</m:mi>
+       <m:mi>w</m:mi>
+      </m:msub>
+      </m:mrow>
+     <m:mrow>
+      <m:msub>
+       <m:mi>v</m:mi>
+       <m:mi>w</m:mi>
+      </m:msub>
+      <m:mo>±</m:mo><m:msub>
+       <m:mi>v</m:mi>
+       <m:mi>s</m:mi>
+      </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mtext>,</m:mtext></m:mrow>
+</m:math> 
+</equation>
+
+<para id="fs-id1167061608218">where <emphasis effect="italics">f</emphasis><sub>s</sub> is the frequency of sound from a source, <emphasis effect="italics">v</emphasis><sub>s</sub> is the speed of the source along a line joining the source and observer, and <emphasis effect="italics">v</emphasis><sub>w</sub> is the speed of sound. The minus sign is used for motion toward the observer and the plus sign for motion away from the observer.</para>
+
+<note id="fs-id1167063825031" class="tips-for-success">
+
+<para id="fs-id1167066878083">Rather than just memorizing rules, which are easy to forget, it is better to think about the rules of an equation intuitively. Using a minus sign in  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>f</m:mi>
+   <m:mrow>
+    <m:mi>o</m:mi><m:mi>b</m:mi><m:mi>s</m:mi></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>f</m:mi>
+   <m:mi>s</m:mi>
+  </m:msub>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:msub>
+       <m:mi>v</m:mi>
+       <m:mi>w</m:mi>
+      </m:msub>
+      </m:mrow>
+     <m:mrow>
+      <m:msub>
+       <m:mi>v</m:mi>
+       <m:mi>w</m:mi>
+      </m:msub>
+      <m:mo>±</m:mo><m:msub>
+       <m:mi>v</m:mi>
+       <m:mi>s</m:mi>
+      </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow></m:mrow>
+</m:math>  will decrease the denominator and increase the observed frequency, which is consistent with the expected outcome of the Doppler effect when the source is moving toward the observer. Using a plus sign will increase the denominator and decrease the observed frequency, consistent with what you would expect for the source moving away from the observer. This may be more helpful to keep in mind rather than memorizing the fact that “the minus sign is used for motion toward the observer and the plus sign for motion away from the observer.”</para>
+</note>
+
+<para id="fs-id1167066952910">Note that the greater the speed of the source, the greater the Doppler effect. Similarly, for a stationary source and moving observer, the frequency perceived by the observer <emphasis effect="italics">f</emphasis><sub>obs</sub> is given by</para>
+<equation id="fs-id1164567945744"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>f</m:mi>
+   <m:mrow>
+    <m:mi>o</m:mi><m:mi>b</m:mi><m:mi>s</m:mi></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>f</m:mi>
+   <m:mi>s</m:mi>
+  </m:msub>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:msub>
+       <m:mi>v</m:mi>
+       <m:mi>w</m:mi>
+      </m:msub>
+      <m:mo>±</m:mo><m:msub>
+       <m:mi>v</m:mi>
+       <m:mrow>
+        <m:mi>o</m:mi><m:mi>b</m:mi><m:mi>s</m:mi></m:mrow>
+      </m:msub>
+      </m:mrow>
+     <m:mrow>
+      <m:msub>
+       <m:mi>v</m:mi>
+       <m:mi>w</m:mi>
+      </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mtext>,</m:mtext></m:mrow>
+</m:math> 
+</equation>
+<para id="fs-id1167067112236">where <emphasis effect="italics">v</emphasis><sub>obs</sub> is the speed of the observer along a line joining the source and observer. Here the plus sign is for motion toward the source, and the minus sign is for motion away from the source.</para>
+</section><section id="fs-id1167066954661">
+<title>Sonic Booms</title>
+<para id="fs-id1167067297360">What happens to the sound produced by a moving source, such as a jet airplane, that approaches or even exceeds the speed of sound? Suppose a jet airplane is coming nearly straight at you, emitting a sound of frequency <emphasis effect="italics">f</emphasis><sub>s</sub>. The greater the plane’s speed, <emphasis effect="italics">v</emphasis><sub>s</sub>, the greater the Doppler shift and the greater the value of <emphasis effect="italics">f</emphasis><sub>obs</sub>. Now, as <emphasis effect="italics">v</emphasis><sub>s</sub> approaches the speed of sound, <emphasis effect="italics">v</emphasis><sub>w</sub>, <emphasis effect="italics">f</emphasis><sub>obs</sub> approaches infinity, because the denominator in  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>f</m:mi>
+   <m:mrow>
+    <m:mi>o</m:mi><m:mi>b</m:mi><m:mi>s</m:mi></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>f</m:mi>
+   <m:mi>s</m:mi>
+  </m:msub>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:msub>
+       <m:mi>v</m:mi>
+       <m:mi>w</m:mi>
+      </m:msub>
+      </m:mrow>
+     <m:mrow>
+      <m:msub>
+       <m:mi>v</m:mi>
+       <m:mi>w</m:mi>
+      </m:msub>
+      <m:mo>−</m:mo><m:msub>
+       <m:mi>v</m:mi>
+       <m:mi>s</m:mi>
+      </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow></m:mrow>
+</m:math>  approaches zero.</para>
+
+<note id="fs-id1167067051424" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067203369"><span>[BL]</span><span>[OL]</span><span>[AL]</span>The equation shows that a sonic boom is created as the observed frequency approaches infinity. Ask students what happens to the amplitude of the sound wave at this time. The Doppler effect only changes the frequency of the sound. However, when all the waves are superimposed on one another, and their crests match, the amplitude will also tend to infinity. This is what increases the intensity of the wave, creating the <emphasis effect="italics">boom</emphasis>.</para>
+</note>
+
+<para id="fs-id1167067025244">This result means that at the speed of sound, in front of the source, each wave is superimposed on the previous one because the source moves forward at the speed of sound. The observer gets them all at the same instant, and so the frequency is theoretically infinite. If the source exceeds the speed of sound, no sound is received by the observer until the source has passed, so that the sounds from the source when it was approaching are stacked up with those from it when receding, creating a <term>sonic boom</term>. A sonic boom is a constructive interference of sound created by an object moving faster than sound.</para>
+<para id="fs-id1167067195771">An aircraft creates two sonic booms, one from its nose and one from its tail (see <link target-id="Figure_14_03_SonicBoom"/>). During television coverage of space shuttle landings, two distinct booms could often be heard. These were separated by exactly the time it would take the shuttle to pass by a point. Observers on the ground often do not observe the aircraft creating the sonic boom, because it has passed by before the <term class="no-emphasis">shock wave</term> reaches them. If the aircraft flies close by at low altitude, pressures in the sonic boom can be destructive enough to break windows. Because of this, <term class="no-emphasis">supersonic</term> flights are banned over populated areas of the United States.</para>
+
+<figure id="Figure_14_03_SonicBoom">
+<media id="fs-id1167067276496" alt="The first sonic boom trails behind the nose of the aircraft and the second trails behind the tail.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_14_03_SonicBoom.jpg"/></media>
+<caption>Two sonic booms, created by the nose and tail of an aircraft, are observed on the ground after the plane has passed by.</caption>
+</figure>
+</section>
+
+<section id="fs-id1167063798612">
+<title>Solving Problems Using the Doppler Shift Formula</title>
+
+<note id="fs-id1167063842668" class="watch-physics"><title>Doppler Effect Formula for Observed Frequency</title>
+
+<para id="fs-id1167063756255">This video explains the Doppler effect formula for cases when the source is moving toward the observer.</para>
+
+<media id="fs-id1167061388197" alt="no alt text" class="os-embed">
+<iframe width="660" height="371.4" src="https://www.openstax.org/l/28dopplerform"/>
+</media>
+
+<exercise id="fs-id1167067189111" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167067066194">
+<!--<para id="fs-id1167066940222">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex067"/>
+</para>-->
+<para id="fs-id1164566034096">Lets say that you have a rare phobia where you are afraid of the Doppler effect. If you see an ambulance coming your way, what would be the best Strategy to minimize the Doppler effect and soothe your Doppleraphobia?</para>
+<list id="fs-id1164568030712" list-type="enumerated" number-style="lower-alpha">
+<item>Stop moving and become stationary till it passes by.</item>
+<item>Run toward the ambulance.</item>
+<item>Run alongside the ambulance.</item>
+</list>
+</problem>
+</exercise>
+</note><note id="fs-id1167063785826" class="watch-physics"><title>Doppler Effect Formula When Source is Moving Away</title>
+
+<para id="fs-id1167063939016">This video explains the Doppler effect formula for cases when the source is moving away from the observer.</para>
+
+<media id="fs-id1167066972914" alt="no alt text" class="os-embed">
+<iframe width="660" height="371.4" src="https://www.openstax.org/l/28doppleraway"/>
+</media>
+
+<exercise id="fs-id1167063515268" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167066828741">
+<para id="fs-id1167067231695">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex068"/>
+</para>
+</problem>
+</exercise>
+</note><note id="Worked_Example_14_04" class="worked-example">
+
+<title>Calculate Doppler Shift: A Train Horn</title>
+
+<exercise id="fs-id1167061189398" class="14-ex069 unnumbered">
+<label/>
+<problem id="fs-id1167063690525">
+<para id="fs-id1167063573328">Suppose a train that has a 150 Hz horn is moving at 35 m/s in still air on a day when the speed of sound is 340 m/s. What frequencies are observed by a stationary person at the side of the tracks as the train approaches and after it passes?</para>
+<note id="fs-id1167063483299">
+<label/>
+<title>Strategy</title>
+<para id="fs-id1167067204643">To find the observed frequency,  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>f</m:mi>
+   <m:mrow>
+    <m:mi>o</m:mi><m:mi>b</m:mi><m:mi>s</m:mi></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>f</m:mi>
+   <m:mi>s</m:mi>
+  </m:msub>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:msub>
+       <m:mi>v</m:mi>
+       <m:mi>w</m:mi>
+      </m:msub>
+      </m:mrow>
+     <m:mrow>
+      <m:msub>
+       <m:mi>v</m:mi>
+       <m:mi>w</m:mi>
+      </m:msub>
+      <m:mo>±</m:mo><m:msub>
+       <m:mi>v</m:mi>
+       <m:mi>s</m:mi>
+      </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow></m:mrow>
+</m:math>  must be used because the source is moving. The minus sign is used for the approaching train, and the plus sign for the receding train.</para>
+</note>
+</problem>
+<solution id="fs-id1167063517818"><label/>
+<title>Solution</title>
+<para id="fs-id1167063659262">(1) Enter known values into  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>f</m:mi>
+   <m:mrow>
+    <m:mi>o</m:mi><m:mi>b</m:mi><m:mi>s</m:mi></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>f</m:mi>
+   <m:mi>s</m:mi>
+  </m:msub>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:msub>
+       <m:mi>v</m:mi>
+       <m:mi>w</m:mi>
+      </m:msub>
+      </m:mrow>
+     <m:mrow>
+      <m:msub>
+       <m:mi>v</m:mi>
+       <m:mi>w</m:mi>
+      </m:msub>
+      <m:mo>−</m:mo><m:msub>
+       <m:mi>v</m:mi>
+       <m:mi>s</m:mi>
+      </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow></m:mrow>
+</m:math>  to calculate the frequency observed by a stationary person as the train approaches:</para>
+<para id="fs-id1167063535094"> <m:math display="block">
+  <m:msub>
+   <m:mi>f</m:mi>
+   <m:mrow>
+    <m:mi>o</m:mi><m:mi>b</m:mi><m:mi>s</m:mi></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>f</m:mi>
+   <m:mi>s</m:mi>
+  </m:msub>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:msub>
+       <m:mi>v</m:mi>
+       <m:mi>w</m:mi>
+      </m:msub>
+      </m:mrow>
+     <m:mrow>
+      <m:msub>
+       <m:mi>v</m:mi>
+       <m:mi>w</m:mi>
+      </m:msub>
+      <m:mo>−</m:mo><m:msub>
+       <m:mi>v</m:mi>
+       <m:mi>s</m:mi>
+      </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>150</m:mn><m:mspace width="0.3em"/><m:mtext> Hz</m:mtext></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mn>340</m:mn><m:mspace width="0.3em"/><m:mtext> m/s</m:mtext></m:mrow>
+     <m:mrow>
+      <m:mn>340</m:mn><m:mspace width="0.3em"/><m:mtext> m/s</m:mtext><m:mo>−</m:mo><m:mn>35</m:mn><m:mspace width="0.3em"/><m:mtext> m/s</m:mtext></m:mrow>
+    </m:mfrac>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow></m:math>  <m:math display="block"><m:mo>=</m:mo><m:mn>167</m:mn><m:mspace width="0.3em"/><m:mtext> Hz</m:mtext><m:mo>≈</m:mo><m:mn>170 </m:mn><m:mspace width="0.3em"/><m:mtext>Hz (2 sig. figs.)</m:mtext>
+</m:math> 
+</para><para id="fs-id1167063599300">(2) Use the same equation but with the plus sign to find the frequency heard by a stationary person as the train recedes.</para>
+<para id="fs-id1167061708996"> <m:math display="block">
+
+  <m:msub>
+   <m:mi>f</m:mi>
+   <m:mrow>
+    <m:mi>o</m:mi><m:mi>b</m:mi><m:mi>s</m:mi></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>f</m:mi>
+   <m:mi>s</m:mi>
+  </m:msub>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:msub>
+       <m:mi>v</m:mi>
+       <m:mi>w</m:mi>
+      </m:msub>
+      </m:mrow>
+     <m:mrow>
+      <m:msub>
+       <m:mi>v</m:mi>
+       <m:mi>w</m:mi>
+      </m:msub>
+      <m:mo>+</m:mo><m:msub>
+       <m:mi>v</m:mi>
+       <m:mi>s</m:mi>
+      </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>150</m:mn><m:mspace width="0.3em"/><m:mtext> Hz</m:mtext></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mn>340</m:mn><m:mspace width="0.3em"/><m:mtext> m/s</m:mtext></m:mrow>
+     <m:mrow>
+      <m:mn>340</m:mn><m:mspace width="0.3em"/><m:mtext> m/s</m:mtext><m:mo>+</m:mo><m:mn>35</m:mn><m:mspace width="0.3em"/><m:mtext> m/s</m:mtext></m:mrow>
+    </m:mfrac>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow></m:math>  <m:math display="block"><m:mo>=</m:mo><m:mn>136</m:mn><m:mspace width="0.3em"/><m:mtext> Hz</m:mtext><m:mo>≈</m:mo><m:mtext>140 Hz (2 sig. figs.)</m:mtext>
+</m:math> 
+</para></solution>
+<commentary id="fs-id1167067041800">
+<title>Discussion</title>
+<para id="fs-id1167067188748">The numbers calculated are valid when the train is far enough away that the motion is nearly along the line joining the train and the observer. In both cases, the shift is significant and easily noticed. Note that the shift is approximately 20 Hz for motion toward and approximately 10 Hz for motion away. The shifts are not symmetric.</para>
+</commentary>
+</exercise>
+</note></section>
+
+<section id="fs-id1167063938016" class="practice-problems">
+<title>Practice Problems</title>
+<exercise id="fs-id1167067071918">
+<problem id="fs-id1167066963466">
+<para id="fs-id1167063634623">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex070"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167067009677">
+<problem id="fs-id1167061400834">
+<para id="fs-id1167061400836">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex071"/>
+</para>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167063567607" class="check-understanding"><title>Check Your Understanding</title><note id="fs-id1167067158504" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067197152">Use these questions to assess student achievement of the section’s Learning Objectives. If students are struggling with a specific objective, these questions will help identify which and direct students to the relevant content.</para>
+</note>
+<exercise id="fs-id1167067197154" class="os-exercise">
+<problem id="fs-id1167067174613">
+<para id="fs-id1167067174615">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex072"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167067123827" class="os-exercise">
+<problem id="fs-id1167067123830">
+<!--<para id="fs-id1167067153734">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex073"/>
+</para>-->
+<para id="fs-id1164567437850">Give an example of the Doppler effect caused by motion of the source.</para>
+<list id="fs-id1164566981984" list-type="enumerated" number-style="lower-alpha">
+<item>The sound of a vehicle horn shifts from low-pitch to high-pitch as we move towards it.</item>
+<item>The sound of a vehicle horn shifts from low-pitch to high-pitch as we move away from it.</item>
+<item>The sound of a vehicle horn shifts from low-pitch to high-pitch as it passes by.</item>
+<item>The sound of a vehicle horn shifts from high-pitch to low-pitch as it passes by.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167063429830" class="os-exercise">
+<problem id="fs-id1167063773156">
+<para id="fs-id1167063773158">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex074"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167067181078" class="os-exercise">
+<problem id="fs-id1167066983349">
+<para id="fs-id1167066983351">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex075"/>
+</para>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167067183598" class="summary">
+<title>Section Summary</title>
+<list id="fs-id1167066948349">
+<item>The Doppler effect is a shift in the observed frequency of a sound due to motion of either the source or the observer.</item>
+<item>The observed frequency is greater than the actual source’s frequency when the source and the observer are moving closer together, either by the source moving toward the observer or the observer moving toward the source.</item>
+<item>A sonic boom is constructive interference of sound created by an object moving faster than sound.</item>
+</list>
+</section>
+
+<section id="fs-id1167066810145" class="key-equations">
+<title>Key Equations</title>
+<table class="unnumbered unstyled" id="fs-id1167067106606" summary="This table gives two equations. The first equation is for the Doppler effect observed frequency for a moving source, and the second equation is for the Doppler effect observed frequency for a moving observer.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" align="left" colname="c1"/>
+<colspec colnum="2" align="left" colname="c2"/>
+<tbody>
+<row>
+<entry>Doppler effect observed frequency (moving source)</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>f</m:mi>
+   <m:mrow>
+    <m:mi>o</m:mi><m:mi>b</m:mi><m:mi>s</m:mi></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>f</m:mi>
+   <m:mi>s</m:mi>
+  </m:msub>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:msub>
+       <m:mi>v</m:mi>
+       <m:mi>w</m:mi>
+      </m:msub>
+      </m:mrow>
+     <m:mrow>
+      <m:msub>
+       <m:mi>v</m:mi>
+       <m:mi>w</m:mi>
+      </m:msub>
+      <m:mo>±</m:mo><m:msub>
+       <m:mi>v</m:mi>
+       <m:mi>s</m:mi>
+      </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow></m:mrow>
+</m:math> 
+</entry>
+</row>
+<row>
+<entry>Doppler effect observed frequency (moving observer)</entry>
+<entry> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>f</m:mi>
+   <m:mrow>
+    <m:mi>o</m:mi><m:mi>b</m:mi><m:mi>s</m:mi></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>f</m:mi>
+   <m:mi>s</m:mi>
+  </m:msub>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:msub>
+       <m:mi>v</m:mi>
+       <m:mi>w</m:mi>
+      </m:msub>
+      <m:mo>±</m:mo><m:msub>
+       <m:mi>v</m:mi>
+       <m:mrow>
+        <m:mi>o</m:mi><m:mi>b</m:mi><m:mi>s</m:mi></m:mrow>
+      </m:msub>
+      </m:mrow>
+     <m:mrow>
+      <m:msub>
+       <m:mi>v</m:mi>
+       <m:mi>w</m:mi>
+      </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow></m:mrow>
+</m:math> 
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+
+<section id="fs-id1167063485095" class="concept"><title>Concept Items</title>
+<exercise id="fs-id1167067279953" class="os-exercise">
+<problem id="fs-id1167067279956">
+<!--<para id="fs-id1167067165389">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex076"/>
+</para>-->
+<para id="fs-id1164567986712">Two sources of sound producing the same frequency are moving towards you at different speeds. Which one would sound more high-pitched?</para>
+<list id="fs-id1164565602020" list-type="enumerated" number-style="lower-alpha">
+<item>the one moving slower</item>
+<item>the one moving faster</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067148176" class="os-exercise">
+<problem id="fs-id1167067115207">
+<para id="fs-id1167067115209">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex077"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166849859389" class="os-exercise">
+<problem id="eip-id1166849457480">
+<para id="eip-id1166849304797">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ot061"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167066973637" class="critical-thinking"><title>Critical Thinking</title>
+<exercise id="fs-id1167063544083" class="os-exercise">
+<problem id="fs-id1167063544086">
+<!--<para id="fs-id1167063833167">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex078"/>
+</para>-->
+<para id="fs-id1164567604086">When the source of sound is moving through the air, does the speed of sound change with respect to a stationary person standing nearby?</para><list id="fs-id1164567543402" list-type="enumerated" number-style="lower-alpha">
+<item>Yes</item>
+<item>No</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167063751814" class="os-exercise">
+<problem id="fs-id1167061325753">
+<para id="fs-id1167061325755">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex079"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166850235602" class="os-exercise">
+<problem id="eip-id1166849883516">
+<para id="eip-id1166849952698">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ot073"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167066946535" class="problems">
+<title>Problems</title>
+<exercise id="fs-id1167063663455" class="os-exercise">
+<problem id="fs-id1167063663458">
+<para id="fs-id1167063663460">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex080"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167061403883" class="os-exercise">
+<problem id="fs-id1167061403886">
+<para id="fs-id1167067040950">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex081"/>
+</para>
+</problem>
+</exercise>
+</section>
+
+
+<section id="fs-id1167067024297" class="multiple-choice"><title>Test Prep Multiple Choice</title><exercise id="fs-id1167063535717" class="os-exercise">
+<problem id="fs-id1167067052970">
+<para id="fs-id1167067052972">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex082"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167066983438" class="os-exercise">
+<problem id="fs-id1167066983441">
+<para id="fs-id1167067158054">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex083"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167067217280" class="os-exercise">
+<problem id="fs-id1167067275851">
+<para id="fs-id1167067275853">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex084"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166848689459" class="os-exercise">
+<problem id="eip-id1166848666311">
+<para id="eip-id1166851230028">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ot063"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167067166183" class="short-answer">
+<title>Test Prep Short Answer</title>
+<exercise id="fs-id1167063522637" class="os-exercise">
+<problem id="fs-id1167063522640">
+<para id="fs-id1167063522642">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex085"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167061220883" class="os-exercise">
+<problem id="fs-id1167061220886">
+<!--<para id="fs-id1167067307662">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex086"/>
+</para>-->
+<para id="fs-id1164568032128">True or false—The Doppler effect also occurs with waves other than sound waves.</para>
+<list id="fs-id1164567632791" list-type="enumerated" number-style="lower-alpha">
+<item>False</item>
+<item>True</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167063892311" class="os-exercise">
+<problem id="fs-id1167063730176">
+<para id="fs-id1167063730178">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex087"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167067055020" class="os-exercise">
+<problem id="fs-id1167067055024">
+<para id="fs-id1167067055026">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex088"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167066966552" class="os-exercise">
+<problem id="fs-id1167066966555">
+<para id="fs-id1167067065789">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex089"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167063629514" class="os-exercise"><problem id="fs-id1167063509594">
+<para id="fs-id1167063509596">
+What is the frequency of a stationary sound source if you hear it at 1200.0 Hz while moving towards it at a speed of 50.0 m/s? (Assume speed of sound to be 331 m/s.)
+</para>
+<list id="eip-idm244962464" list-type="enumerated" number-style="lower-alpha">
+<item>1410 Hz</item>
+<item>1380 Hz</item>
+<item>1020 Hz</item>
+<item>1042 Hz</item>
+</list>
+</problem>
+</exercise></section>
+
+<section id="fs-id1167063470211" class="extended-response">
+<title>Test Prep Extended Response</title>
+<exercise id="fs-id1167067186132" class="os-exercise">
+<problem id="fs-id1167067186135">
+<!--<para id="fs-id1167067255524">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex091"/>
+</para>-->
+<para id="fs-id1164566276094">True or false—The Doppler effect occurs only when the sound source is moving.</para>
+<list id="fs-id1164567445718" list-type="enumerated" number-style="lower-alpha">
+<item>False</item>
+<item>True</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067025435" class="os-exercise">
+<problem id="fs-id1167067108817">
+<!--<para id="fs-id1167067108819">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch14-ex092"/>
+</para>-->
+<para id="fs-id1164564529596">True or false—The observed frequency becomes infinite when the source is moving at the speed of sound.</para>
+<list id="fs-id1164567421866" list-type="enumerated" number-style="lower-alpha">
+<item>False</item>
+<item>True</item>
+</list>
+
+</problem>
+</exercise>
+<exercise id="fs-id1167063443653" class="os-exercise"><problem id="fs-id1167063593675">
+<para id="eip-idm212881360">You are driving alongside a train. You hear its horn at a pitch that is lower than the actual frequency. What should you do to match the speed of the train? Why?</para>
+
+<list id="eip-idm481310752" list-type="enumerated" number-style="lower-alpha">
+<item>In order to match the speed of the train, one would need to increase or decrease the speed of his/her car because a lower pitch means that either the train (the source) is moving away or that you (the observer) are moving away.</item>
+<item>In order to match the speed of the train, one would need to drive at a constant speed because a lower pitch means that the train and the car are at the same speed.</item>
+
+</list>
+</problem>
+</exercise></section>
+
+</content>
+<glossary>
+<definition id="fs-id1167067044426"><term>Doppler effect </term><meaning id="fs-id1167063505483">an alteration in the observed frequency of a sound due to relative motion between the source and the observer</meaning></definition>
+<definition id="fs-id1167067166627"><term>sonic boom </term><meaning id="fs-id1167067166630">a constructive interference of sound created by an object moving faster than sound</meaning></definition>
+</glossary>
+</document>

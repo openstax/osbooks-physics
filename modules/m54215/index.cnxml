@@ -1,0 +1,1482 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Linear Momentum, Force, and Impulse</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54215</md:content-id>
+  <md:title>Linear Momentum, Force, and Impulse</md:title>
+  <md:abstract/>
+  <md:uuid>1ce9856e-7cbb-460a-9799-650f29b0c23f</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167066983657" class="learning-objectives">
+<label/>
+<title>Section Learning Objectives</title>
+<para id="fs-id1167066839432">By the end of this section, you will be able to do the following:</para>
+<list id="fs-id1167067103972"><item>Describe momentum, what can change momentum,  impulse, and the impulse-momentum theorem</item>
+<item>Describe Newton’s second law in terms of momentum </item>
+<item>Solve problems using the impulse-momentum theorem </item>
+</list></note>
+<note id="fs-id1167066829196" class="os-teacher"><title>Teacher Support</title>
+<para id="fs-id1167067293660">The learning objectives in this section will help your students master the following standards:</para><list id="fs-id1167066844931">
+<item>(6) Science concepts. The student knows that changes occur within a physical system and applies the laws of conservation of energy and momentum. The student is expected to:
+<list id="eip-id1167067179928" list-type="bulleted">
+<item><span>(C)</span> <span>calculate the mechanical energy of, power generated within, impulse applied to, and momentum of a physical system.</span></item>
+</list>
+</item>
+</list>
+</note>
+<section id="keyterms"><title>Section Key Terms</title>
+<table id="fs-id1167067045843" class="unnumbered unstyled section-key-terms" summary="The list of Key Terms includes: change in momentum, impulse, impulse–momentum theorem, and linear momentum.">
+<label/>
+<tgroup cols="3">
+<tbody>
+<row>
+<entry>change in momentum</entry>
+<entry>impulse</entry>
+<entry>impulse–momentum theorem</entry>
+<entry>linear momentum</entry>
+</row>
+
+</tbody>
+</tgroup>
+</table>
+</section>
+<note id="fs-id1167066971444" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066821128"><span>[BL]</span><span>[OL]</span> Review inertia and Newton’s laws of motion.</para>
+<para id="fs-id1167067259180"><span>[AL]</span> Start a discussion about movement and collision. Using the example of football players, point out that both the mass and the velocity of an object are important considerations in determining the impact of collisions. The direction as well as the magnitude of velocity is very important.</para>
+</note>
+<section id="fs-id1167066868278">
+<title>Momentum, Impulse, and the Impulse-Momentum Theorem</title>
+<para id="fs-id1167067093303"><term>Linear momentum</term> is the product of a system’s <term class="no-emphasis">mass</term> and its <term class="no-emphasis">velocity</term>. In equation form, linear momentum <emphasis>p</emphasis> is</para>
+<equation id="fs-id1167067100471" class="unnumbered"><label/>
+ <m:math>
+<m:mrow>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle><m:mo>=</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+<m:mtext>.</m:mtext>
+</m:mrow>
+</m:math>
+</equation><para id="fs-id1167067031089">You can see from the equation that momentum is directly proportional to the object’s mass (<emphasis effect="italics">m</emphasis>) and velocity (<emphasis>v</emphasis>). Therefore, the greater an object’s mass or the greater its velocity, the greater its momentum. A large, fast-moving object has greater momentum than a smaller, slower object. </para>
+<para id="fs-id1167066829441">Momentum is a <term class="no-emphasis">vector</term> and has the same direction as velocity <emphasis>v</emphasis>. Since mass is a <term class="no-emphasis">scalar</term>, when velocity is in a negative direction (i.e., opposite the direction of motion), the momentum will also be in a negative direction; and when velocity is in a positive direction, momentum will likewise be in a positive direction. The SI unit for momentum is kg m/s.</para>
+<para id="fs-id1167067089120">Momentum is so important for understanding motion that it was called the <emphasis effect="italics">quantity of motion</emphasis> by physicists such as Newton. <term class="no-emphasis">Force</term> influences momentum, and we can rearrange Newton’s second law of motion to show the relationship between force and momentum.</para>
+<para id="fs-id1167067193246">Recall our study of Newton’s second law of motion (<emphasis>F</emphasis><sub>net</sub> = <emphasis effect="italics">m</emphasis><emphasis>a</emphasis>). Newton actually stated his second law of motion in terms of momentum: The net external force equals the <term>change in momentum</term> of a system divided by the time over which it changes. The change in momentum is the difference between the final and initial values of momentum.</para>
+<para id="fs-id1167066804974">In equation form, this law is</para>
+<equation id="fs-id1167066804663" class="unnumbered"><label/>
+ <m:math>
+<m:mrow>
+<m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+<m:mrow>
+<m:mtext>net</m:mtext>
+</m:mrow>
+</m:msub>
+<m:mo>=</m:mo><m:mfrac>
+<m:mrow>
+<m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle>
+</m:mrow>
+<m:mrow>
+<m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mtext>,</m:mtext>
+</m:mrow>
+</m:math>
+</equation><para id="fs-id1167067209092">where <emphasis>F</emphasis><sub>net</sub> is the net external force,  <m:math>
+<m:mrow>
+<m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle>
+</m:mrow>
+</m:math>  is the change in momentum, and  <m:math>
+<m:mrow>
+<m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+</m:mrow>
+</m:math>  is the change in time.</para>
+<para id="fs-id1167066863831">We can solve for  <m:math>
+<m:mrow>
+<m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle>
+</m:mrow>
+</m:math>  by rearranging the equation  </para>
+<equation id="fs-id1167067042198" class="unnumbered"><label/>
+ <m:math>
+<m:mrow>
+<m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+<m:mrow>
+<m:mtext>net</m:mtext>
+</m:mrow>
+</m:msub>
+<m:mo>=</m:mo><m:mfrac>
+<m:mrow>
+<m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle>
+</m:mrow>
+<m:mrow>
+<m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mrow>
+</m:math>
+</equation><para id="fs-id1167066954782">to be</para>
+<equation id="fs-id1167066856469" class="unnumbered"><label/>
+ <m:math>
+<m:mrow>
+<m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>p</m:mtext></m:mstyle><m:mo>=</m:mo><m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>F</m:mtext></m:mstyle>
+<m:mrow>
+<m:mtext>net</m:mtext>
+</m:mrow>
+</m:msub>
+<m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+<m:mtext>.</m:mtext>
+</m:mrow>
+</m:math> </equation>
+<para id="fs-id1167067020626">
+ <m:math>
+<m:mrow>
+<m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>F</m:mtext></m:mstyle>
+<m:mrow>
+<m:mtext>net</m:mtext>
+</m:mrow>
+</m:msub>
+<m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+</m:mrow>
+</m:math>
+is known as <term>impulse</term> and this equation is known as the <term>impulse-momentum theorem</term>. From the equation, we see that the impulse equals the average net external force multiplied by the time this force acts. It is equal to the change in momentum. <emphasis effect="italics">The effect of a force on an object depends on how long it acts, as well as the strength of the force.</emphasis> Impulse is a useful concept because it quantifies the effect of a force. A very large force acting for a short time can have a great effect on the momentum of an object, such as the force of a racket hitting a tennis ball. A small force could cause the same change in momentum, but it would have to act for a much longer time. </para>
+<note id="fs-id1167067110948" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067006119"><span>[OL]</span><span>[AL]</span> Explain that a large, fast-moving object has greater momentum than a smaller, slower object. This quality is called momentum. </para>
+<para id="fs-id1167067013112"><span>[BL]</span><span>[OL]</span> Review the equation of Newton’s second law of motion. Point out the two different equations for the law.</para>
+</note>
+</section>
+<section id="fs-id1167067026774">
+<title>Newton’s Second Law in Terms of Momentum</title><para id="fs-id1167066775068">When Newton’s second law is expressed in terms of momentum, it can be used for solving problems where mass varies, since  <m:math>
+<m:mrow>
+<m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>p</m:mtext></m:mstyle><m:mo>=</m:mo><m:mtext>Δ</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle><m:mo stretchy="false">)</m:mo>
+</m:mrow>
+</m:math> . In the more traditional form of the law that you are used to working with, mass is assumed to be constant. In fact, this traditional form is a special case of the law, where mass is constant. <m:math>
+<m:mrow>
+<m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>F</m:mtext></m:mstyle>
+<m:mrow>
+<m:mtext>net</m:mtext>
+</m:mrow>
+</m:msub>
+<m:mo>=</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>a</m:mtext></m:mstyle>
+</m:mrow>
+</m:math>  is actually derived from the equation:</para>
+<equation id="fs-id1167066875890" class="unnumbered"><label/>
+ <m:math>
+<m:mrow>
+<m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+<m:mrow>
+<m:mtext>net</m:mtext>
+</m:mrow>
+</m:msub>
+<m:mo>=</m:mo><m:mfrac>
+<m:mrow>
+<m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle>
+</m:mrow>
+<m:mrow>
+<m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mrow>
+</m:math> </equation><para id="fs-id1167067086896">For the sake of understanding the relationship between Newton’s second law in its two forms, let’s recreate the derivation of  <m:math>
+<m:mrow>
+<m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>F</m:mtext></m:mstyle>
+<m:mrow>
+<m:mtext>net</m:mtext>
+</m:mrow>
+</m:msub>
+<m:mo>=</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>a</m:mtext></m:mstyle>
+</m:mrow>
+</m:math>  from</para>
+<equation id="fs-id1167066877060" class="unnumbered"><label/>
+ <m:math>
+<m:mrow>
+<m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+<m:mrow>
+<m:mtext>net</m:mtext>
+</m:mrow>
+</m:msub>
+<m:mo>=</m:mo><m:mfrac>
+<m:mrow>
+<m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle>
+</m:mrow>
+<m:mrow>
+<m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mrow>
+</m:math>
+</equation><para id="fs-id1167067066321">by substituting the definitions of acceleration and momentum.</para>
+<para id="fs-id1167066810370">The change in momentum  <m:math>
+<m:mrow>
+<m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>p</m:mtext></m:mstyle>
+</m:mrow>
+</m:math>  is given by</para>
+<equation id="fs-id1167066825993" class="unnumbered">
+<label/>
+ <m:math>
+<m:mrow>
+<m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>p</m:mtext></m:mstyle><m:mo>=</m:mo><m:mtext>Δ</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle><m:mo stretchy="false">)</m:mo>
+<m:mtext>.</m:mtext>
+</m:mrow>
+</m:math>
+
+</equation>
+<para id="fs-id1167066974466">If the mass of the system is constant, then</para>
+<equation id="fs-id1167066771089" class="unnumbered"><label/>
+ <m:math>
+<m:mrow>
+<m:mtext>Δ</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>m</m:mi><m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
+<m:mtext>.</m:mtext>
+</m:mrow>
+</m:math>
+</equation><para id="fs-id1167066843611">By substituting  <m:math>
+<m:mrow>
+<m:mi>m</m:mi><m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
+</m:mrow>
+</m:math>  for  <m:math>
+<m:mrow>
+<m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>p</m:mtext></m:mstyle>
+</m:mrow>
+</m:math>, Newton’s second law of motion becomes </para>
+<equation id="fs-id1167067041288" class="unnumbered"><label/>
+ <m:math>
+<m:mrow>
+<m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+<m:mrow>
+<m:mtext>net</m:mtext>
+</m:mrow>
+</m:msub>
+<m:mo>=</m:mo><m:mfrac>
+<m:mrow>
+<m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>p</m:mtext></m:mstyle></m:mstyle>
+</m:mrow>
+<m:mrow>
+<m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo><m:mfrac>
+<m:mrow>
+<m:mi>m</m:mi><m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
+</m:mrow>
+<m:mrow>
+<m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+</m:mrow>
+</m:mfrac>
+
+</m:mrow>
+</m:math>
+</equation><para id="fs-id1167066868364">for a constant mass.</para>
+<para id="fs-id1167066860762">Because</para>
+<equation id="fs-id1167067076464" class="unnumbered"><label/>
+ <m:math>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
+</m:mrow>
+<m:mrow>
+<m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>a</m:mtext></m:mstyle>
+<m:mtext>,</m:mtext>
+</m:mrow>
+</m:math>
+</equation><para id="fs-id1167066839080">we can substitute to get the familiar equation</para>
+<equation id="fs-id1167066809931" class="unnumbered"><label/>
+ <m:math>
+<m:mrow>
+<m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>F</m:mtext></m:mstyle>
+<m:mrow>
+<m:mtext>net</m:mtext>
+</m:mrow>
+</m:msub>
+<m:mo>=</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>a</m:mtext></m:mstyle>
+</m:mrow>
+</m:math>
+</equation><para id="fs-id1167067041417">when the mass of the system is constant.</para>
+<note id="fs-id1167066782907" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066860340"><span>[BL]</span><span>[OL]</span><span>[AL]</span> Show the two different forms of Newton’s second law and how one can be derived from the other.</para>
+</note>
+<note id="fs-id1167066825602" class="tips-for-success">
+
+<para id="fs-id1167066839649">We just showed how  <m:math>
+<m:mrow>
+<m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>F</m:mtext></m:mstyle>
+<m:mrow>
+<m:mtext>net</m:mtext>
+</m:mrow>
+</m:msub>
+<m:mo>=</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>a</m:mtext></m:mstyle>
+</m:mrow>
+</m:math>  applies only when the mass of the system is constant. An example of when this formula would not apply would be a moving rocket that burns enough fuel to significantly change the mass of the rocket. In this case, you would need to use Newton’s second law expressed in terms of momentum to account for the changing mass.</para>
+</note>
+<note id="fs-id1167066833066" class="snap-lab">
+
+<title>Hand Movement and Impulse</title>
+<para id="fs-id1167067194950">In this activity you will experiment with different types of hand motions to gain an intuitive understanding of the relationship between force, time, and impulse. </para>
+<list id="fs-id1167066974404">
+<item>one ball</item>
+<item>one tub filled with water</item>
+</list>
+<list id="fs-id1167067015189" list-type="enumerated" number-style="arabic">
+<title>Procedure:</title>
+<item>Try catching a ball while <emphasis effect="italics">giving</emphasis> with the ball, pulling your hands toward your body.</item>
+<item>Next, try catching a ball while keeping your hands still.</item>
+<item>Hit water in a tub with your full palm. Your full palm represents a swimmer doing a belly flop.</item>
+<item>After the water has settled, hit the water again by diving your hand with your fingers first into the water. Your diving hand represents a swimmer doing a dive.</item>
+<item>Explain what happens in each case and why.</item>
+</list>
+<exercise id="fs-id1167066804215" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167066803787">
+<para id="fs-id1167066808018">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex001"/>
+</para>
+</problem>
+</exercise>
+</note>
+<note id="fs-id1167066878122" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067078699"><span>[OL]</span><span>[AL]</span> Discuss the impact one feels when one falls or jumps. List the factors that affect this impact.</para>
+</note>
+<note id="fs-id1167066790572" class="links-to-physics">
+
+<title>Engineering: Saving Lives Using the Concept of Impulse</title>
+<para id="fs-id1167066970610">Cars during the past several decades have gotten much safer. Seat belts play a major role in automobile safety by preventing people from flying into the windshield in the event of a crash. Other safety features, such as airbags, are less visible or obvious, but are also effective at making auto crashes less deadly (see <link target-id="Figure_08_01_Airbag"/>). Many of these safety features make use of the concept of impulse from physics. Recall that impulse is the net force multiplied by the duration of time of the impact. This was expressed mathematically as  <m:math>
+<m:mrow>
+<m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>p</m:mtext></m:mstyle><m:mo>=</m:mo><m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>F</m:mtext></m:mstyle>
+<m:mrow>
+<m:mtext>net</m:mtext>
+</m:mrow>
+</m:msub>
+<m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+</m:mrow>
+</m:math> .</para>
+
+<figure id="Figure_08_01_Airbag">
+<media id="fs-id1167067042227" alt="An illustration is shown of a man sitting in a car seat behind the wheel, wearing a seat belt. An airbag has been deployed from the wheel. The illustration indicates that the man's body is moving toward the airbag.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_08_01_Airbag.jpg"/>
+</media>
+<caption>Vehicles have safety features like airbags and seat belts installed.</caption>
+</figure>
+<para id="fs-id1167066839088">Airbags allow the net force on the occupants in the car to act over a much longer time when there is a sudden stop. The momentum change is the same for an occupant whether an airbag is deployed or not. But the force that brings the occupant to a stop will be much less if it acts over a larger time. By rearranging the equation for impulse to solve for force  <m:math>
+<m:mrow>
+<m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+<m:mrow>
+<m:mtext>net</m:mtext>
+</m:mrow>
+</m:msub>
+<m:mo>=</m:mo><m:mfrac>
+<m:mrow>
+<m:mi>Δ</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle>
+</m:mrow>
+<m:mrow>
+<m:mi>Δ</m:mi><m:mi>t</m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo>,</m:mo>
+</m:mrow>
+</m:math>  you can see how increasing  <m:math>
+<m:mrow>
+<m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+</m:mrow>
+</m:math>  while  <m:math>
+<m:mrow>
+<m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle>
+</m:mrow>
+</m:math>  stays the same will decrease <emphasis>F</emphasis><sub>net</sub>. This is another example of an inverse relationship. Similarly, a padded dashboard increases the time over which the force of impact acts, thereby reducing the force of impact.</para>
+<para id="fs-id1167066847972">Cars today have many plastic components. One advantage of plastics is their lighter weight, which results in better gas mileage. Another advantage is that a car will crumple in a <term class="no-emphasis">collision</term>, especially in the event of a head-on collision. A longer collision time means the force on the occupants of the car will be less. Deaths during car races decreased dramatically when the rigid frames of racing cars were replaced with parts that could crumple or collapse in the event of an accident.</para>
+<exercise id="fs-id1167066845454" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167067084948">
+<!--<para id="fs-id1167067111148">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex002"/>
+</para>-->
+<para id="fs-id1164563553274">You may have heard the advice to bend your knees when jumping. In this example, a friend dares you to jump off of a park bench onto the ground without bending your knees. You, of course, refuse. Explain to your friend why this would be a foolish thing. Show it using the impulse-momentum theorem.</para>
+<list id="fs-id1164564899417" list-type="enumerated" number-style="lower-alpha">
+<item>Bending your knees increases the time of the impact, thus decreasing the force.</item>
+<item>Bending your knees decreases the time of the impact, thus decreasing the force.</item>
+<item>Bending your knees increases the time of the impact, thus increasing the force.</item>
+<item>Bending your knees decreases the time of the impact, thus increasing the force.</item>
+</list>
+</problem>
+</exercise>
+</note>
+</section><section id="fs-id1167067196331">
+<title>Solving Problems Using the Impulse-Momentum Theorem</title>
+<note id="fs-id1167067070924" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066876453">Talk about the different strategies to be used while solving problems. Make sure that students know the assumptions made in each equation regarding certain quantities being constant or some quantities being negligible.</para>
+</note>
+
+<note id="fs-id1167066873800" class="worked-example">
+
+<title>Calculating Momentum: A Football Player and a Football</title>
+<exercise id="fs-id1167066878736" class="08-ex003 unnumbered"><label/>
+<problem id="fs-id1167066805885">
+<para id="fs-id1167066840610">(a) Calculate the momentum of a 110 kg football player running at 8 m/s. (b) Compare the player’s momentum with the momentum of a 0.410 kg football thrown hard at a speed of 25 m/s.</para>
+<note id="fs-id1167066864800"><label/><title>Strategy</title>
+<para id="fs-id1167063506712">No information is given about the direction of the football player or the football, so we can calculate only the magnitude of the momentum, <emphasis effect="italics">p</emphasis>. (A symbol in italics represents magnitude.) In both parts of this example, the magnitude of momentum can be calculated directly from the definition of momentum:</para>
+<equation id="fs-id1167065681653" class="unnumbered"><label/> <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>p</m:mtext></m:mstyle><m:mo>=</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</equation>
+</note>
+</problem>
+<solution id="fs-id1167066962036">
+<label/>
+<title>Solution for (a)</title>
+<para id="fs-id1167066804173">To find the player’s momentum, substitute the known values for the player’s mass and speed into the equation.</para>
+<equation id="fs-id1167064778661" class="unnumbered"><label/> <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle>
+   <m:mrow>
+    <m:mtext>player</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>110</m:mn><m:mspace width="0.3em"/><m:mtext> kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>8</m:mn><m:mspace width="0.3em"/><m:mtext> m/s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>880</m:mn><m:mspace width="0.3em"/><m:mtext>k</m:mtext><m:mtext>g</m:mtext><m:mo>⋅</m:mo><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow>
+</m:math>
+</equation></solution>
+<solution id="eip-id1167064541077"><label/>
+<title>Solution for (b)</title>
+<para id="fs-id1167066806880">To find the ball’s momentum, substitute the known values for the ball’s mass and speed into the equation.</para>
+
+<equation id="fs-id1167065762151" class="unnumbered"><label/> <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle>
+   <m:mrow>
+    <m:mtext>ball</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.410</m:mn><m:mspace width="0.3em"/><m:mtext> kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>25</m:mn><m:mspace width="0.3em"/><m:mtext> m/s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>10.25</m:mn><m:mspace width="0.3em"/><m:mtext>k</m:mtext><m:mtext>g</m:mtext><m:mo>⋅</m:mo><m:mtext>m/s</m:mtext></m:mrow>
+</m:math>
+</equation><para id="fs-id1167066864039">The ratio of the player’s momentum to the ball’s momentum is</para>
+
+<equation id="fs-id1167065880147" class="unnumbered"><label/> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:msub>
+     <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle>
+     <m:mrow>
+      <m:mtext>player</m:mtext></m:mrow>
+    </m:msub>
+    </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle>
+     <m:mrow>
+      <m:mtext>ball</m:mtext></m:mrow>
+    </m:msub>
+    </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>880</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>10.3</m:mn></m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>85.9</m:mn><m:mspace width="0.3em"/><m:mtext>.</m:mtext></m:mrow>
+</m:math>
+</equation>
+</solution>
+<commentary id="fs-id1167066842230">
+<title>Discussion</title>
+<para id="fs-id1167066804068">Although the ball has greater velocity, the player has a much greater mass. Therefore, the momentum of the player is about 86 times greater than the momentum of the football.</para>
+</commentary>
+</exercise></note>
+
+<note id="fs-id1167067029733" class="worked-example">
+
+<title>Calculating Force: Venus Williams’ Racquet</title>
+<exercise id="fs-id1167067033666" class="08-ex004 unnumbered"><label/>
+<problem id="fs-id1167066792541">
+<para id="fs-id1167066846775">During the 2007 French Open, Venus Williams (<link target-id="Figure_08_01_Williams"/>) hit the fastest recorded serve in a premier women’s match, reaching a speed of 58 m/s (209 km/h). What was the average force exerted on the 0.057 kg tennis ball by Williams’ racquet? Assume that the ball’s speed just after impact was 58 m/s, the horizontal velocity before impact is negligible, and that the ball remained in contact with the racquet for 5 ms (milliseconds).</para>
+<figure id="Figure_08_01_Williams"><media id="fs-id1167066123153" alt="Serena Williams is a famous tennis player. In this image she is hitting a tennis ball with a tennis racket.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_08_01_Williams.jpg"/>
+</media>
+
+<caption>Venus Williams playing in the 2013 US Open (Edwin Martinez, Flickr)</caption></figure><note id="fs-id1167067143093"><label/><title>Strategy</title>
+<para id="fs-id1167066805126">Recall that Newton’s second law stated in terms of momentum is</para>
+
+<equation id="fs-id1167066972334" class="unnumbered"><label/>
+ <m:math>
+<m:mrow>
+<m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+<m:mrow>
+<m:mtext>net</m:mtext>
+</m:mrow>
+</m:msub>
+<m:mo>=</m:mo><m:mfrac>
+<m:mrow>
+<m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle>
+</m:mrow>
+<m:mrow>
+<m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mtext>.</m:mtext>
+</m:mrow>
+</m:math> </equation><para id="fs-id1167066778347">As noted above, when mass is constant, the change in momentum is given by</para>
+
+<equation id="fs-id1167066837203" class="unnumbered"><label/> <m:math>
+<m:mrow>
+<m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>p</m:mtext></m:mstyle><m:mo>=</m:mo><m:mi>m</m:mi><m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle><m:mo>=</m:mo><m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
+<m:mtext>f</m:mtext>
+</m:msub>
+<m:mo>−</m:mo><m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
+<m:mtext>i</m:mtext>
+</m:msub>
+<m:mo stretchy="false">)</m:mo>
+<m:mtext>,</m:mtext>
+</m:mrow>
+</m:math>
+</equation>
+
+<para id="fs-id1167067078963">where <emphasis>v</emphasis><sub>f</sub> is the final velocity and <emphasis>v</emphasis><sub>i</sub> is the initial velocity. In this example, the velocity just after impact and the change in time are given, so after we solve for  <m:math>
+<m:mrow>
+<m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>p</m:mtext></m:mstyle>
+</m:mrow>
+</m:math>, we can use  <m:math>
+<m:mrow>
+<m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+<m:mrow>
+<m:mtext>net</m:mtext>
+</m:mrow>
+</m:msub>
+<m:mo>=</m:mo><m:mfrac>
+<m:mrow>
+<m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle>
+</m:mrow>
+<m:mrow>
+<m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+</m:mrow>
+</m:mfrac>
+
+</m:mrow>
+</m:math>  to find the force.</para>
+</note>
+</problem>
+
+<solution id="fs-id1167066875339">
+<label/>
+<title>Solution</title>
+<para id="fs-id1167066773699">To determine the change in momentum, substitute the values for mass and the initial and final velocities into the equation above.</para>
+<equation id="fs-id1164563489389"> <m:math>
+<m:mrow>
+<m:mtable>
+<m:mtr rowalign="center">
+<m:mtd rowalign="center" columnalign="right">
+<m:mrow>
+<m:mtext>Δ</m:mtext> <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>p</m:mtext></m:mstyle>
+</m:mrow>
+</m:mtd>
+<m:mtd rowalign="center">
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd rowalign="center" columnalign="left">
+<m:mrow>
+<m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
+<m:mi>f</m:mi>
+</m:msub>
+<m:mo>−</m:mo><m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
+<m:mi>i</m:mi>
+</m:msub>
+<m:mo stretchy="false">)</m:mo>
+</m:mrow>
+</m:mtd>
+</m:mtr>
+<m:mtr rowalign="center">
+<m:mtd rowalign="center"/>
+<m:mtd rowalign="center">
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd rowalign="center" columnalign="left">
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+  <m:mtext>0</m:mtext><m:mtext>.057 kg</m:mtext>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+  <m:mrow>
+    <m:mtext>58 m/s – 0 m/s</m:mtext>
+  </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+</m:mrow>
+</m:mtd>
+</m:mtr>
+<m:mtr rowalign="center">
+<m:mtd rowalign="center"/>
+<m:mtd rowalign="center">
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd rowalign="center" columnalign="left">
+<m:mrow>
+<m:mtext>3</m:mtext><m:mtext>.306 kg·m/s </m:mtext><m:mo>≈</m:mo><m:mtext> 3</m:mtext><m:mtext>.3 kg·m/s</m:mtext>
+</m:mrow>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:mrow>
+</m:math>
+</equation>
+
+<para id="fs-id1167067098927">Now we can find the magnitude of the net external force using  <m:math>
+<m:mrow>
+<m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+<m:mrow>
+<m:mtext>net</m:mtext>
+</m:mrow>
+</m:msub>
+<m:mo>=</m:mo><m:mfrac>
+<m:mrow>
+<m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle>
+</m:mrow>
+<m:mrow>
+<m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+</m:mrow>
+</m:mfrac>
+
+</m:mrow>
+</m:math> </para>
+<equation id="fs-id1164564808861"> <m:math>
+<m:mrow>
+<m:mtable>
+<m:mtr rowalign="center">
+<m:mtd rowalign="center" columnalign="right">
+<m:mrow>
+<m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+<m:mrow>
+  <m:mtext>net</m:mtext>
+</m:mrow>
+</m:msub>
+
+</m:mrow>
+</m:mtd>
+<m:mtd rowalign="center">
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd rowalign="center" columnalign="left">
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+  <m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle>
+</m:mrow>
+<m:mrow>
+  <m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo><m:mfrac>
+<m:mrow>
+  <m:mn>3.306</m:mn>
+</m:mrow>
+<m:mrow>
+  <m:mn>5</m:mn><m:mo>×</m:mo><m:msup>
+    <m:mrow>
+      <m:mn>10</m:mn>
+    </m:mrow>
+    <m:mrow>
+      <m:mo>−</m:mo><m:mn>3</m:mn>
+    </m:mrow>
+  </m:msup>
+
+</m:mrow>
+</m:mfrac>
+
+</m:mrow>
+</m:mtd>
+</m:mtr>
+<m:mtr rowalign="center">
+<m:mtd rowalign="center"/>
+<m:mtd rowalign="center">
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd rowalign="center" columnalign="left">
+<m:mrow>
+<m:mn>661</m:mn><m:mspace width="0.3em"/><m:mtext> N</m:mtext>
+</m:mrow>
+</m:mtd>
+</m:mtr>
+<m:mtr rowalign="center">
+<m:mtd rowalign="center"/>
+<m:mtd rowalign="center">
+<m:mo>≈</m:mo>
+</m:mtd>
+<m:mtd rowalign="center" columnalign="left">
+<m:mrow>
+<m:mn>660</m:mn><m:mspace width="0.3em"/><m:mtext> N.</m:mtext>
+</m:mrow>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:mrow>
+</m:math>
+</equation>
+</solution>
+<commentary id="fs-id1167066850080">
+<title>Discussion</title>
+<para id="fs-id1167067083258">This quantity was the average force exerted by Venus Williams’ racquet on the tennis ball during its brief impact. This problem could also be solved by first finding the acceleration and then using <emphasis>F</emphasis><sub>net</sub> = <emphasis effect="italics">m</emphasis><emphasis>a</emphasis>, but we would have had to do one more step. In this case, using momentum was a shortcut.</para>
+</commentary>
+</exercise></note>
+
+
+</section>
+<section id="fs-id1167067073405" class="practice-problems"><title>Practice Problems</title><exercise id="fs-id1167067042742">
+<problem id="fs-id1167066861532">
+<para id="fs-id1167066946052">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex005"/>
+</para>
+</problem>
+</exercise><exercise id="fs-id1167067085892">
+<problem id="fs-id1167066845688">
+<para id="fs-id1167066866527">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex006"/>
+</para>
+</problem>
+</exercise></section>
+
+<section id="fs-id1167066983936" class="check-understanding">
+<title>Check Your Understanding</title>
+
+<exercise id="fs-id1167066805596" class="os-exercise">
+<problem id="fs-id1167066840554">
+<!--<para id="fs-id1167066800930">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex007"/>
+</para>-->
+<para id="fs-id1164565145987">What is linear momentum?</para>
+<list id="fs-id1164563162084" list-type="enumerated" number-style="lower-alpha">
+<item>the sum of a systems mass and its velocity</item>
+<item>the ratio of a systems mass to its velocity</item>
+<item>the product of a systems mass and its velocity</item>
+<item>the product of a systems moment of inertia and its velocity</item>
+</list>
+</problem>
+</exercise>
+
+<exercise id="fs-id1167067203175" class="os-exercise">
+<problem id="fs-id1167067133727">
+<!--<para id="fs-id1167066970722">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex008"/>
+</para>-->
+<para id="fs-id1164564867414">If an objects mass is constant, what is its momentum proportional to?</para>
+<list id="fs-id1164566905199" list-type="enumerated" number-style="lower-alpha">
+<item>Its velocity</item>
+<item>Its weight</item>
+<item>Its displacement</item>
+<item>Its moment of inertia</item>
+</list>
+</problem>
+</exercise>
+
+<exercise id="fs-id1167067153825" class="os-exercise">
+<problem id="fs-id1167067101435">
+<!--<para id="fs-id1167066855013">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex009"/>
+</para>-->
+<para id="fs-id1164565149559">What is the equation for Newtons second law of motion, in terms of mass, velocity, and time, when the mass of the system is constant?</para>
+<list id="fs-id1164564770994" list-type="enumerated" number-style="lower-alpha">
+<item> <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msub>
+    <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>F</m:mtext></m:mstyle>
+    <m:mrow>
+     <m:mtext>net</m:mtext>
+    </m:mrow>
+   </m:msub>
+   <m:mo>=</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mo>Δ</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
+    </m:mrow>
+    <m:mrow>
+     <m:mo>Δ</m:mo><m:mi>m</m:mi><m:mo>Δ</m:mo><m:mi>t</m:mi>
+    </m:mrow>
+   </m:mfrac>
+
+  </m:mrow>
+
+ </m:semantics>
+</m:math> </item>
+<item> <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msub>
+    <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>F</m:mtext></m:mstyle>
+    <m:mrow>
+     <m:mtext>net</m:mtext>
+    </m:mrow>
+   </m:msub>
+   <m:mo>=</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mi>m</m:mi><m:mo>Δ</m:mo><m:mi>t</m:mi>
+    </m:mrow>
+    <m:mrow>
+     <m:mo>Δ</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
+    </m:mrow>
+   </m:mfrac>
+
+  </m:mrow>
+   </m:semantics>
+</m:math> </item>
+<item> <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msub>
+    <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>F</m:mtext></m:mstyle>
+    <m:mrow>
+     <m:mtext>net</m:mtext>
+    </m:mrow>
+   </m:msub>
+   <m:mo>=</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mi>m</m:mi><m:mo>Δ</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
+    </m:mrow>
+    <m:mrow>
+     <m:mo>Δ</m:mo><m:mi>t</m:mi>
+    </m:mrow>
+   </m:mfrac>
+
+  </m:mrow>
+ </m:semantics>
+</m:math>
+
+</item>
+<item> <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msub>
+    <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>F</m:mtext></m:mstyle>
+    <m:mrow>
+     <m:mtext>net</m:mtext>
+    </m:mrow>
+   </m:msub>
+   <m:mo>=</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mo>Δ</m:mo><m:mi>m</m:mi><m:mo>Δ</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
+    </m:mrow>
+    <m:mrow>
+     <m:mo>Δ</m:mo><m:mi>t</m:mi>
+    </m:mrow>
+   </m:mfrac>
+
+  </m:mrow>
+
+ </m:semantics>
+</m:math> </item>
+</list>
+</problem>
+</exercise>
+
+<exercise id="fs-id1167067100038" class="os-exercise">
+<problem id="fs-id1167067205038">
+<!--<para id="fs-id1167067065754">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex010"/>
+</para>-->
+<para id="fs-id1164557512892">Give an example of a system whose mass is not constant.</para>
+<list id="fs-id1164563079966" list-type="enumerated" number-style="lower-alpha">
+<item>A spinning top</item>
+<item>A baseball flying through the air</item>
+<item>A rocket launched from Earth</item>
+<item>A block sliding on a frictionless inclined plane</item>
+</list>
+</problem>
+</exercise>
+
+<note id="fs-id1167067070270" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067053101">Use the Check Your Understanding questions to assess whether students master the learning objectives of this section. If students are struggling with a specific objective, the assessment will help identify which objective is causing the problem and direct students to the relevant content.</para></note>
+</section>
+
+<section id="fs-id1167066792410" class="summary">
+<title>Section Summary</title>
+<list id="fs-id1167067105172"><item>Linear momentum, often referenced as <emphasis effect="italics">momentum</emphasis> for short, is defined as the product of a system’s mass multiplied by its velocity, <emphasis>p</emphasis> = <emphasis effect="italics">m</emphasis><emphasis>v</emphasis>.</item>
+<item>The SI unit for momentum is kg m/s.</item>
+<item>Newton’s second law of motion in terms of momentum states that the net external force equals the change in momentum of a system divided by the time over which it changes,  <m:math>
+<m:mrow>
+<m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+<m:mrow>
+<m:mtext>net</m:mtext>
+</m:mrow>
+</m:msub>
+<m:mo>=</m:mo><m:mfrac>
+<m:mrow>
+<m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle>
+</m:mrow>
+<m:mrow>
+<m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+</m:mrow>
+</m:mfrac>
+
+</m:mrow>
+</m:math> .</item>
+<item>Impulse is the average net external force multiplied by the time this force acts, and impulse equals the change in momentum,  <m:math>
+<m:mrow>
+<m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle><m:mo>=</m:mo><m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+<m:mrow>
+<m:mtext>net</m:mtext>
+</m:mrow>
+</m:msub>
+<m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+</m:mrow>
+</m:math> .</item>
+<item>Forces are usually not constant over a period of time, so we use the average of the force over the time it acts.</item>
+
+</list></section>
+
+
+<section id="fs-id1167067077677" class="key-equations"><title>Key Equations</title><table id="fs-id1167066962963" class="unnumbered unstyled" summary="The list of Key Equations includes the formulas for impulse and linear momentum as well as the impulse–momentum theorem and Newton’s Second Law in terms of momentum.">
+<label/>
+<tgroup cols="2"><colspec colnum="1" align="left" colname="c1"/>
+<colspec colnum="2" align="left" colname="c2"/>
+<tbody>
+<row>
+<entry>impulse</entry>
+<entry> <m:math>
+<m:mrow>
+<m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+<m:mrow>
+<m:mtext>net</m:mtext>
+</m:mrow>
+</m:msub>
+<m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+</m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>impulse–momentum theorem</entry>
+<entry> <m:math>
+<m:mrow>
+<m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle><m:mo>=</m:mo><m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+<m:mrow>
+<m:mtext>net</m:mtext>
+</m:mrow>
+</m:msub>
+<m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+</m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>linear momentum</entry>
+<entry> <m:math>
+<m:mrow>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle><m:mo>=</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+</m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>Newton’s second law in terms of momentum</entry>
+<entry> <m:math>
+<m:mrow>
+<m:msub>
+<m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+<m:mrow>
+<m:mtext>net</m:mtext>
+</m:mrow>
+</m:msub>
+<m:mo>=</m:mo><m:mfrac>
+<m:mrow>
+<m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle>
+</m:mrow>
+<m:mrow>
+<m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mrow>
+</m:math>
+</entry>
+</row>
+</tbody>
+
+
+
+</tgroup>
+</table></section><section id="fs-id1167067216948" class="concept"><title>Concept Items</title><exercise id="fs-id1167066800664" class="os-exercise">
+<problem id="fs-id1167066868045">
+<!--<para id="fs-id1167067275528">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex011"/>
+</para>-->
+<para id="fs-id1164561323668">What is impulse?</para>
+<list id="fs-id1164566535589" list-type="enumerated" number-style="lower-alpha">
+<item>Change in velocity</item>
+<item>Change in momentum</item>
+<item>Rate of change of velocity</item>
+<item>Rate of change of momentum</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167066842937" class="os-exercise">
+<problem id="fs-id1167066967362">
+<!--<para id="fs-id1167067068430">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex012"/>
+</para>-->
+<para id="fs-id1164564847844">In which equation of Newtons second law is mass assumed to be constant?</para>
+<list id="fs-id1164562350064" list-type="enumerated" number-style="lower-alpha">
+<item> <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>F</m:mtext></m:mstyle><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>a</m:mi>
+  </m:mrow>
+   </m:semantics>
+</m:math> </item>
+<item> <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>F</m:mtext></m:mstyle><m:mo>=</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>p</m:mtext></m:mstyle>
+    </m:mrow>
+    <m:mrow>
+     <m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+    </m:mrow>
+   </m:mfrac>
+  </m:mrow>
+ </m:semantics>
+</m:math> </item>
+<item> <m:math>
+ <m:semantics>
+  <m:mrow>
+    <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>F</m:mtext></m:mstyle><m:mo>=</m:mo><m:mtext>Δ</m:mtext> <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>p</m:mtext></m:mstyle><m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+  </m:mrow>
+ </m:semantics>
+</m:math> </item>
+<item> <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>F</m:mtext></m:mstyle><m:mo>=</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mtext>Δ</m:mtext><m:mi>m</m:mi>
+    </m:mrow>
+    <m:mrow>
+     <m:mtext>Δ</m:mtext><m:mi>a</m:mi>
+    </m:mrow>
+   </m:mfrac>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</item>
+</list>
+
+</problem>
+</exercise>
+<exercise id="eip-id1166851228815" class="os-exercise">
+<problem id="eip-id1166851318301">
+<para id="eip-id1166851318303">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch08-ot005"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166851301342" class="os-exercise">
+<problem id="eip-id1166851379921">
+<!--<para id="eip-id1166851379924">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch08-ot006"/>
+</para>-->
+<para id="fs-id1164557700857">What is the equation for linear momentum?</para>
+<list id="fs-id1164564883122" list-type="enumerated" number-style="lower-alpha">
+<item> <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>p</m:mtext></m:mstyle><m:mo>=</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
+  </m:mrow>
+   </m:semantics>
+</m:math> </item>
+<item> <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>p</m:mtext></m:mstyle><m:mo>=</m:mo><m:mi>m</m:mi><m:mtext>/</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
+  </m:mrow>
+   </m:semantics>
+</m:math> </item>
+<item> <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>p</m:mtext></m:mstyle><m:mo>=</m:mo><m:mtext>m</m:mtext><m:msup>
+    <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
+    <m:mn>2</m:mn>
+   </m:msup>
+
+  </m:mrow>
+ </m:semantics>
+</m:math> </item>
+<item> <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>p</m:mtext></m:mstyle><m:mo>=</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>2</m:mn>
+   </m:mfrac><m:mtext>m</m:mtext><m:msup>
+    <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
+    <m:mn>2</m:mn>
+   </m:msup>
+
+  </m:mrow>
+ </m:semantics>
+</m:math> </item>
+</list>
+
+</problem>
+</exercise></section><section id="fs-id1167067074229" class="critical-thinking"><title>Critical Thinking</title>
+
+<exercise id="fs-id1167067099274" class="os-exercise"><problem id="fs-id1167067089142"><para id="fs-id1167066880113"><link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex013"/></para></problem></exercise>
+
+<exercise id="fs-id1167066867610" class="os-exercise"><problem id="fs-id1167066770185">
+<!-- <para id="fs-id1167067206844"><link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex014"/></para> -->
+<para id="fs-id1164565275649">Cars these days have parts that can crumple or collapse in the event of an accident. How does this help protect the passengers?</para><list id="fs-id1164564919196" list-type="enumerated" number-style="lower-alpha"><item>It reduces injury to the passengers by increasing the time of impact.</item>
+<item>It reduces injury to the passengers by decreasing the time of impact.</item>
+<item>It reduces injury to the passengers by increasing the change in momentum.</item>
+<item>It reduces injury to the passengers by decreasing the change in momentum.</item>
+</list></problem></exercise>
+
+<exercise id="eip-id1166847278269" class="os-exercise">
+<problem id="eip-id1166847278273">
+<!--<para id="eip-id1166847278275">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch08-ot003"/>
+</para>-->
+<para id="fs-id1164566933621">How much force would be needed to cause a 17 kg ⋅ m/s change in the momentum of an object, if the force acted for 5 seconds?</para>
+<list id="fs-id1164566958576" list-type="enumerated" number-style="lower-alpha">
+<item>3.4 N</item>
+<item>12 N</item>
+<item>22 N</item>
+<item>85 N</item>
+</list>
+</problem>
+</exercise>
+</section><section id="fs-id1167066868430" class="problems">
+<title>Problems</title>
+<exercise id="fs-id1167067197486" class="os-exercise">
+<problem id="fs-id1167066869927">
+<para id="fs-id1167067275466">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex015"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167066848333" class="os-exercise">
+<problem id="fs-id1167067015741">
+<!--<para id="fs-id1167066875221">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex016"/>
+</para>-->
+<para id="fs-id1164565165561">For how long should a force of 130 N be applied to an object of mass 50 kg to change its speed from 20 m/s to 60 m/s?</para>
+<list id="fs-id1164565043852" list-type="enumerated" number-style="lower-alpha">
+<item>0.031 s</item>
+<item>0.065 s</item>
+<item>15.4 s</item>
+<item>40 s</item>
+</list>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167066828755" class="multiple-choice"><title>Test Prep Multiple Choice</title>
+
+<exercise id="fs-id1167066799155" class="os-exercise"><problem id="fs-id1167066855898"><para id="fs-id1167066834716"><link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex017"/></para></problem></exercise>
+
+<exercise id="fs-id1167067295098" class="os-exercise"><problem id="fs-id1167067049615"><!--<para id="fs-id1167066793468"><link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex018"/></para>-->
+
+<para id="fs-id1164564828159">When does the net force on an object increase?</para>
+<list id="fs-id1164564904740" list-type="enumerated" number-style="lower-alpha">
+<item>When Δ<emphasis>p</emphasis> decreases</item>
+<item>When Δ<emphasis effect="italics">t</emphasis> increases</item>
+<item>When Δ<emphasis effect="italics">t</emphasis> decreases</item>
+</list>
+</problem></exercise>
+
+<exercise id="fs-id1167067198870" class="os-exercise"><problem id="fs-id1167066831125"><!--<para id="fs-id1167066783768"><link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex019"/></para>-->
+<para id="fs-id1164564743414">In the equation Δ<emphasis>p</emphasis> = <emphasis effect="italics">m</emphasis>(<emphasis>v</emphasis><sub>f</sub> − <emphasis>v</emphasis><sub>i</sub>), which quantity is considered to be constant?</para>
+<list id="fs-id1164566943624" list-type="enumerated" number-style="lower-alpha">
+<item>Initial velocity</item>
+<item>Final velocity</item>
+<item>Mass</item>
+<item>Momentum</item>
+</list>
+</problem></exercise>
+
+<exercise id="eip-id1166850011310" class="os-exercise">
+<problem id="eip-id1166850011314">
+<para id="eip-id1166850011316">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch08-ot004"/>
+</para>
+</problem>
+</exercise>
+</section><section id="fs-id1167066999484" class="short-answer"><title>Test Prep Short Answer</title>
+
+<exercise id="fs-id1167066836692" class="os-exercise"><problem id="fs-id1167066810903"><!--<para id="fs-id1167066810904"><link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex020"/></para>-->
+<para id="fs-id1164558897370">If an objects velocity is constant, what is its momentum proportional to?</para>
+<list id="fs-id1164559104479" list-type="enumerated" number-style="lower-alpha">
+<item>Its shape</item>
+<item>Its mass</item>
+<item>Its length</item>
+<item>Its breadth</item>
+</list>
+</problem></exercise>
+
+<exercise id="fs-id1167066844387" class="os-exercise"><problem id="fs-id1167066790418"><para id="fs-id1167066790419"><link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex021"/></para></problem></exercise>
+
+<exercise id="fs-id1167066880257" class="os-exercise"><problem id="fs-id1167066827408"><para id="fs-id1167066827409"><link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex022"/></para></problem></exercise>
+
+<exercise id="fs-id1167067074323" class="os-exercise"><problem id="fs-id1167066962991"><!--<para id="fs-id1167066962992"><link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex023"/></para>-->
+<para id="fs-id1164564966381">How can you express impulse in terms of mass and velocity when neither of those are constant?</para>
+<list id="fs-id1164562298892" list-type="enumerated" number-style="lower-alpha">
+<item> <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>Δ</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>p</m:mtext></m:mstyle><m:mo>=</m:mo><m:mtext>Δ</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle><m:mo stretchy="false">)</m:mo>
+  </m:mrow>
+   </m:semantics>
+</m:math> </item>
+<item> <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>p</m:mtext></m:mstyle>
+    </m:mrow>
+    <m:mrow>
+     <m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+    </m:mrow>
+   </m:mfrac>
+   <m:mo>=</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mtext>Δ</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle><m:mo stretchy="false">)</m:mo>
+    </m:mrow>
+    <m:mrow>
+     <m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+    </m:mrow>
+   </m:mfrac>
+
+  </m:mrow>
+ </m:semantics>
+</m:math> </item>
+<item> <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>p</m:mtext></m:mstyle><m:mo>=</m:mo><m:mtext>Δ</m:mtext><m:mo stretchy="false">(</m:mo><m:mfrac>
+    <m:mi>m</m:mi>
+    <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
+   </m:mfrac>
+   <m:mo stretchy="false">)</m:mo>
+  </m:mrow>
+ </m:semantics>
+</m:math> </item>
+<item> <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>p</m:mtext></m:mstyle>
+    </m:mrow>
+    <m:mrow>
+     <m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+    </m:mrow>
+   </m:mfrac>
+   <m:mo>=</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mrow>
+     <m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+    </m:mrow>
+   </m:mfrac>
+   <m:mtext>·</m:mtext><m:mtext>Δ</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle><m:mo stretchy="false">)</m:mo>
+  </m:mrow>
+ </m:semantics>
+</m:math> </item>
+</list>
+
+</problem></exercise>
+
+<exercise id="fs-id1167066793882" class="os-exercise"><problem id="fs-id1167066960135"><!--<para id="fs-id1167066960136"><link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex024"/></para>-->
+<para id="fs-id1164561123530">How can you express impulse in terms of mass and initial and final velocities?</para>
+<list id="fs-id1164564773133" list-type="enumerated" number-style="lower-alpha">
+<item> <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>p</m:mtext></m:mstyle><m:mtext> = </m:mtext><m:mi>m</m:mi><m:mtext>(</m:mtext><m:msub>
+    <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
+    <m:mtext>f</m:mtext>
+   </m:msub>
+   <m:mi> </m:mi><m:mo>−</m:mo><m:mi> </m:mi><m:msub>
+    <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
+    <m:mtext>i</m:mtext>
+   </m:msub>
+   <m:mtext>)</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math> </item>
+<item> <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>p</m:mtext></m:mstyle>
+    </m:mrow>
+    <m:mrow>
+     <m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+    </m:mrow>
+   </m:mfrac>
+   <m:mtext> = </m:mtext><m:mfrac>
+    <m:mrow>
+     <m:mi>m</m:mi><m:mtext>(</m:mtext><m:msub>
+      <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
+      <m:mtext>f</m:mtext>
+     </m:msub>
+     <m:mi> </m:mi><m:mo>−</m:mo><m:mi> </m:mi><m:msub>
+      <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
+      <m:mtext>i</m:mtext>
+     </m:msub>
+     <m:mtext>)</m:mtext>
+    </m:mrow>
+    <m:mrow>
+     <m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+    </m:mrow>
+   </m:mfrac>
+
+  </m:mrow>
+ </m:semantics>
+</m:math> </item>
+<item> <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>p</m:mtext></m:mstyle><m:mtext> = </m:mtext><m:mfrac>
+    <m:mrow>
+     <m:mtext>(</m:mtext><m:msub>
+      <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
+      <m:mtext>f</m:mtext>
+     </m:msub>
+     <m:mi> </m:mi><m:mo>−</m:mo><m:mi> </m:mi><m:msub>
+      <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
+      <m:mtext>i</m:mtext>
+     </m:msub>
+     <m:mtext>)</m:mtext>
+    </m:mrow>
+    <m:mi>m</m:mi>
+   </m:mfrac>
+
+  </m:mrow>
+ </m:semantics>
+</m:math> </item>
+<item> <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>p</m:mtext></m:mstyle>
+    </m:mrow>
+    <m:mrow>
+     <m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+    </m:mrow>
+   </m:mfrac>
+   <m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mi>m</m:mi>
+   </m:mfrac>
+   <m:mfrac>
+    <m:mrow>
+     <m:mo stretchy="false">(</m:mo><m:msub>
+      <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
+      <m:mtext>f</m:mtext>
+     </m:msub>
+     <m:mi> </m:mi><m:mo>−</m:mo><m:mi> </m:mi><m:msub>
+      <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
+      <m:mtext>i</m:mtext>
+     </m:msub>
+     <m:mo stretchy="false">)</m:mo>
+    </m:mrow>
+    <m:mrow>
+     <m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+    </m:mrow>
+   </m:mfrac>
+  </m:mrow>
+ </m:semantics>
+</m:math> </item>
+</list>
+</problem></exercise>
+
+<exercise id="eip-id1167066029274" class="os-exercise"><problem id="eip-id1167066140875"><!--<para id="eip-id1167066140876"><link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex025"/></para>-->
+<para id="fs-id1164565026418">Why do we use average force while solving momentum problems? How is net force related to the momentum of the object?</para>
+<list id="fs-id1164562033650" list-type="enumerated" number-style="lower-alpha">
+<item>Forces are usually constant over a period of time, and net force acting on the object is equal to the rate of change of the momentum.</item>
+<item>Forces are usually not constant over a period of time, and net force acting on the object is equal to the product of the momentum and the time interval.</item>
+<item>Forces are usually constant over a period of time, and net force acting on the object is equal to the product of the momentum and the time interval.</item>
+<item>Forces are usually not constant over a period of time, and net force acting on the object is equal to the rate of change of the momentum.</item>
+</list>
+</problem></exercise>
+
+</section>
+<section id="fs-id1167067091442" class="extended-response">
+<title>Test Prep Extended Response</title>
+
+<exercise id="fs-id1167066829793" class="os-exercise"><problem id="fs-id1167066939931"><para id="fs-id1167067216605"><link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex026"/></para></problem></exercise>
+
+<exercise id="fs-id1167067153842" class="os-exercise"><problem id="fs-id1167066821196"><para id="fs-id1167067077585"><link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex027"/></para></problem></exercise>
+
+<exercise id="fs-id1167067191384" class="os-exercise"><problem id="fs-id1167067217862"><!--<para id="fs-id1167066973884"><link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex028"/></para>-->
+<para id="fs-id1164566932362">Can we use the equation  <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msub>
+    <m:mtext>F</m:mtext>
+    <m:mrow>
+     <m:mtext>net</m:mtext>
+    </m:mrow>
+   </m:msub>
+   <m:mo>=</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mtext>Δ</m:mtext><m:mi>p</m:mi>
+    </m:mrow>
+    <m:mrow>
+     <m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+    </m:mrow>
+   </m:mfrac>
+
+  </m:mrow>
+ </m:semantics>
+</m:math>  when the mass is constant?</para>
+<list id="fs-id1164566481093" list-type="enumerated" number-style="lower-alpha">
+<item>No, because the given equation is applicable for the variable mass only.</item>
+<item>No, because the given equation is not applicable for the constant mass.</item>
+<item>Yes, and the resultant equation is F = <emphasis effect="italics">m</emphasis><emphasis>v</emphasis></item>
+<item>Yes, and the resultant equation is F = <emphasis effect="italics">ma</emphasis></item>
+</list>
+</problem></exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1167066999626"><term>change in momentum</term> <meaning id="fs-id1167066828351">the difference between the final and initial values of momentum; the mass times the change in velocity</meaning></definition>
+<definition id="fs-id1167066826968"><term>impulse</term> <meaning id="fs-id1167066851569">average net external force multiplied by the time the force acts; equal to the change in momentum</meaning></definition>
+<definition id="fs-id1167066849891"><term>impulse–momentum theorem</term> <meaning id="fs-id1167066840426">the impulse, or change in momentum, is the product of the net external force and the time over which the force acts</meaning></definition>
+<definition id="fs-id1167067035720"><term>linear momentum</term> <meaning id="fs-id1167067108062">the product of a system's mass and velocity</meaning></definition>
+
+</glossary>
+</document>

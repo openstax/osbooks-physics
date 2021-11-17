@@ -1,0 +1,1160 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Applications of Thermodynamics: Heat Engines, Heat Pumps, and Refrigerators</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54307</md:content-id>
+  <md:title>Applications of Thermodynamics: Heat Engines, Heat Pumps, and Refrigerators</md:title>
+  <md:abstract/>
+  <md:uuid>91a32222-7595-477c-9565-93f856973809</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167067055422" class="learning-objectives">
+<label/>
+<title>Section Learning Objectives</title>
+<para id="fs-id1167063709314">By the end of this section, you will be able to do the following:</para>
+<list id="fs-id1167067042492">
+<item>Explain how heat engines, heat pumps, and refrigerators work in terms of the laws of thermodynamics</item>
+<item>Describe thermal efficiency</item>
+<item>Solve problems involving thermal efficiency</item>
+</list>
+</note>
+<note id="fs-id1167066965849" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167063852564">The learning objectives in this section will help your students master the following standards:</para>
+<list id="fs-id1167067106193"><item>(6) Science concepts. The student knows that changes occur within a physical system and applies the laws of conservation of energy and momentum. The student is expected to:
+<list id="fs-id1167061192622"><item>
+<span>(G)</span> <span>analyze and explain everyday examples that illustrate the laws of thermodynamics, including the law of conservation of energy and the law of entropy.</span></item>
+</list></item>
+</list></note>
+<section id="keyterms"><title>Section Key Terms</title>
+<table id="fs-id1167063808054" class="unnumbered unstyled section-key-terms" summary="..">
+<label/>
+<tgroup cols="3">
+<colspec colnum="1" align="left" colname="c1"/>
+<colspec colnum="2" align="left" colname="c2"/>
+<colspec colnum="3" align="left" colname="c3"/>
+<tbody>
+<row>
+<entry>cyclical process</entry>
+<entry>heat engine</entry>
+<entry>heat pump</entry>
+</row>
+<row>
+<entry>thermal efficiency</entry>
+<entry/>
+<entry/>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<note id="fs-id1167067110040" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067204185"><span>[BL]</span><span>[OL]</span><span>[AL]</span>
+Return again to the discussion of efficiency that was begun at the start of the module. Review the ideal gas law, laws of thermodynamics, and entropy.</para>
+<para id="fs-id1167067099522"><span>[OL]</span> Ask students whether they can explain the limits on efficiency in terms of what they have now learned.</para>
+</note>
+<section id="fs-id1167067312931"><title>Heat Engines, Heat Pumps, and Refrigerators</title><para id="fs-id1167063642283">In this section, we’ll explore how heat engines, heat pumps, and refrigerators operate in terms of the laws of thermodynamics.</para>
+<para id="fs-id1167067148181">One of the most important things we can do with heat is to use it to do work for us. A <term>heat engine</term> does exactly this—it makes use of the properties of thermodynamics to transform heat into work. Gasoline and diesel engines, jet engines, and steam turbines that generate electricity are all examples of heat engines.</para>
+
+
+<para id="fs-id1167067083970"><link target-id="Figure_12_04_Cylinder"/> illustrates one of the ways in which heat transfers energy to do work. Fuel combustion releases chemical energy that heat transfers throughout the gas in a cylinder. This increases the gas temperature, which in turn increases the pressure of the gas and, therefore, the force it exerts on a movable piston. The gas does work on the outside world, as this force moves the piston through some distance. Thus, heat transfer of energy to the gas in the cylinder results in work being done.</para>
+<figure id="Figure_12_04_Cylinder">
+<media id="fs-id1167066955590" alt="In part (a), heat transfers energy into the gas in a cylinder. In part (b), force pushes the cylinder. In part (c), heat transfers energy out to the environment.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_12_04_Cylinder.jpg"/>
+</media>
+<caption>(a) Heat transfer to the gas in a cylinder increases the internal energy of the gas, creating higher pressure and temperature. (b) The force exerted on the movable cylinder does work as the gas expands. Gas pressure and temperature decrease during expansion, indicating that the gas’s internal energy has decreased as it does work. (c) Heat transfer of energy to the environment further reduces pressure in the gas, so that the piston can more easily return to its starting position.</caption>
+</figure>
+
+<para id="fs-id1167061193081">To repeat this process, the piston needs to be returned to its starting point. Heat now transfers energy from the gas to the surroundings, so that the gas’s pressure decreases, and a force is exerted by the surroundings to push the piston back through some distance.</para>
+<para id="fs-id1167066849659">A <term>cyclical process</term> brings a system, such as the gas in a cylinder, back to its original state at the end of every cycle. All heat engines use cyclical processes.</para>
+<para id="fs-id1167063517821">Heat engines do work by using part of the energy transferred by heat from some source. As shown in <link target-id="Figure_12_04_Reservoirs"/>, heat transfers energy,  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>Q</m:mi>
+   <m:mtext>h</m:mtext>
+  </m:msub>
+
+ </m:mrow>
+</m:math>, from the high-temperature object (or hot reservoir), whereas heat transfers unused energy,  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>Q</m:mi>
+   <m:mtext>c</m:mtext>
+  </m:msub>
+
+ </m:mrow>
+</m:math>, into the low-temperature object (or cold reservoir), and the work done by the engine is <emphasis effect="italics">W</emphasis>. In physics, a <emphasis effect="italics">reservoir</emphasis> is defined as an infinitely large mass that can take in or put out an unlimited amount of heat, depending upon the needs of the system. The temperature of the hot reservoir is  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>T</m:mi>
+   <m:mtext>h</m:mtext>
+  </m:msub>
+  <m:mtext>,</m:mtext>
+ </m:mrow>
+</m:math>  and the temperature of the cold reservoir is  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>T</m:mi>
+   <m:mtext>c</m:mtext>
+  </m:msub>
+
+ </m:mrow>
+</m:math> .</para>
+
+<figure id="Figure_12_04_Reservoirs">
+<media id="fs-id1167063663451" alt="In part (a), heat transfers energy from the hot reservoir to the cold reservoir. In part (b), work is produced as this heat transfers energy from the hot to the cold reservoir. The amount of work generated is Qh – Qc.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_12_04_Reservoirs.jpg"/>
+</media>
+<caption>(a) Heat transfers energy spontaneously from a hot object to a cold one, as is consistent with the second law of thermodynamics. (b) A heat engine, represented here by a circle, uses part of the energy transferred by heat to do work. The hot and cold objects are called the hot and cold reservoirs. <emphasis effect="italics">Q</emphasis><sub>h</sub> is the heat out of the hot reservoir, <emphasis effect="italics">W</emphasis> is the work output, and <emphasis effect="italics">Q</emphasis><sub>c</sub> is the unused heat into the cold reservoir.</caption>
+</figure>
+
+<para id="fs-id1167063710956">As noted, a cyclical process brings the system back to its original condition at the end of every cycle. Such a system’s internal energy, <emphasis effect="italics">U</emphasis>, is the same at the beginning and end of every cycle—that is,  <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>U</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math> 
+. The first law of thermodynamics states that  <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>U</m:mi><m:mo>=</m:mo><m:mi>Q</m:mi><m:mo>−</m:mo><m:mi>W</m:mi>
+<m:mtext>,</m:mtext>
+ </m:mrow>
+</m:math>  where <emphasis effect="italics">Q </emphasis>is the <emphasis effect="italics">net </emphasis>heat transfer during the cycle, and <emphasis effect="italics">W </emphasis>is the <emphasis effect="italics">net</emphasis> work done by the system. The net heat transfer is the energy transferred in by heat from the hot reservoir minus the amount that is transferred out to the cold reservoir ( <m:math>
+ <m:mrow>
+  <m:mi>Q</m:mi><m:mo>=</m:mo><m:msub>
+   <m:mi>Q</m:mi>
+   <m:mtext>h</m:mtext>
+  </m:msub>
+  <m:mo>−</m:mo><m:msub>
+   <m:mi>Q</m:mi>
+   <m:mtext>c</m:mtext>
+  </m:msub>
+
+ </m:mrow>
+</m:math> ). Because there is no change in internal energy for a complete cycle ( <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>U</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math> 
+), we have</para>
+<equation id="fs-id1164561106304"> <m:math display="block">
+ <m:mrow>
+  <m:mn>0</m:mn><m:mo>=</m:mo><m:mi>Q</m:mi><m:mo>−</m:mo><m:mi>W</m:mi><m:mo>,</m:mo></m:mrow>
+</m:math> 
+</equation>
+<para id="fs-id1167064534854">so that</para>
+<equation id="fs-id1164566407775"> <m:math display="block">
+ <m:mrow>
+  <m:mi>W</m:mi><m:mo>=</m:mo><m:mi>Q</m:mi>
+<m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math> </equation><para id="fs-id1167067052175">Therefore, the net work done by the system equals the net heat into the system, or</para>
+<equation id="fs-id1164563536045"> <m:math display="block">
+ <m:mrow>
+  <m:mi>W</m:mi><m:mo>=</m:mo><m:msub>
+   <m:mi>Q</m:mi>
+   <m:mtext>h</m:mtext>
+  </m:msub>
+  <m:mo>−</m:mo><m:msub>
+   <m:mi>Q</m:mi>
+   <m:mtext>c</m:mtext>
+  </m:msub>
+
+ </m:mrow>
+</m:math> </equation><para id="fs-id1167065855695">for a cyclical process.</para>
+
+<para id="fs-id1167066993933">Because the hot reservoir is heated externally, which is an energy-intensive process, it is important that the work be done as efficiently as possible. In fact, we want <emphasis effect="italics">W</emphasis> to equal  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>Q</m:mi>
+   <m:mtext>h</m:mtext>
+  </m:msub>
+
+ </m:mrow>
+</m:math>, and for there to be no heat to the environment (that is,  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>Q</m:mi>
+   <m:mtext>c</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math> ). Unfortunately, this is impossible. According to the second law of thermodynamics, heat engines cannot have perfect conversion of heat into work. Recall that entropy is a measure of the disorder of a system, which is also how much energy is unavailable to do work. The second law of thermodynamics requires that the total entropy of a system either increases or remains constant in any process. Therefore, there is a minimum amount of  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>Q</m:mi>
+   <m:mtext>h</m:mtext>
+  </m:msub>
+
+ </m:mrow>
+</m:math>  that cannot be used for work. The amount of heat rejected to the cold reservoir,  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>Q</m:mi>
+   <m:mtext>c</m:mtext>
+  </m:msub>
+  <m:mtext>,</m:mtext>
+ </m:mrow>
+</m:math>  depends upon the efficiency of the heat engine. The smaller the increase in entropy,  <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>S</m:mi>
+ </m:mrow>
+</m:math> 
+, the smaller the value of  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>Q</m:mi>
+   <m:mtext>c</m:mtext>
+  </m:msub>
+
+ </m:mrow>
+</m:math>, and the more heat energy is available to do work.</para><para id="fs-id1167067150182"><term>Heat pumps</term>, air conditioners, and refrigerators utilize heat transfer of energy from low to high temperatures, which is the opposite of what heat engines do. Heat transfers energy  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>Q</m:mi>
+   <m:mtext>c</m:mtext>
+  </m:msub>
+
+ </m:mrow>
+</m:math>  from a cold reservoir and delivers energy  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>Q</m:mi>
+   <m:mtext>h</m:mtext>
+  </m:msub>
+
+ </m:mrow>
+</m:math>  into a hot one. This requires work input, <emphasis effect="italics">W</emphasis>, which produces a transfer of energy by heat. Therefore, the total heat transfer to the hot reservoir is</para>
+<equation id="fs-id1164562417023"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>Q</m:mi>
+   <m:mtext>h</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>Q</m:mi>
+   <m:mtext>c</m:mtext>
+  </m:msub>
+  <m:mo>+</m:mo><m:mi>W</m:mi><m:mo>.</m:mo></m:mrow>
+</m:math> </equation>
+<para id="fs-id1167063412080">The purpose of a heat pump is to transfer energy by heat to a warm environment, such as a home in the winter. The great advantage of using a heat pump to keep your home warm rather than just burning fuel in a fireplace or furnace is that a heat pump supplies  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>Q</m:mi>
+   <m:mtext>h</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>Q</m:mi>
+   <m:mtext>c</m:mtext>
+  </m:msub>
+  <m:mo>+</m:mo><m:mi>W</m:mi>
+ </m:mrow>
+</m:math> . Heat  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>Q</m:mi>
+   <m:mtext>c</m:mtext>
+  </m:msub>
+
+ </m:mrow>
+</m:math>  comes from the outside air, even at a temperature below freezing, to the indoor space. You only pay for <emphasis effect="italics">W</emphasis>, and you get an additional heat transfer of  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>Q</m:mi>
+   <m:mtext>c</m:mtext>
+  </m:msub>
+
+ </m:mrow>
+</m:math>  from the outside at no cost. In many cases, at least twice as much energy is transferred to the heated space as is used to run the heat pump. When you burn fuel to keep warm, you pay for all of it. The disadvantage to a heat pump is that the work input (required by the second law of thermodynamics) is sometimes more expensive than simply burning fuel, especially if the work is provided by electrical energy.</para>
+
+<para id="fs-id1167066955405">The basic components of a heat pump are shown in <link target-id="Figure_12_04_HeatPump"/>. A working fluid, such as a refrigerant, is used. In the outdoor coils (the evaporator), heat  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>Q</m:mi>
+   <m:mtext>c</m:mtext>
+  </m:msub>
+
+ </m:mrow>
+</m:math>  enters the working fluid from the cold outdoor air, turning it into a gas.</para>
+
+<figure id="Figure_12_04_HeatPump">
+<media id="fs-id1167066876234" alt="A complete cycle from evaporator to compressor to condenser to expansion valve is shown. Qc is transferred to the evaporator from outdoors, and the condenser releases Qh indoors.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_12_04_HeatPump.jpg"/>
+</media>
+<caption>A simple heat pump has four basic components: (1) an evaporator, (2) a compressor, (3) a condenser, and (4) an expansion valve. In the heating mode, heat transfers  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>Q</m:mi>
+   <m:mtext>c</m:mtext>
+  </m:msub>
+
+ </m:mrow>
+</m:math>  to the working fluid in the evaporator (1) from the colder, outdoor air, turning it into a gas. The electrically driven compressor (2) increases the temperature and pressure of the gas and forces it into the condenser coils (3) inside the heated space. Because the temperature of the gas is higher than the temperature in the room, heat transfers energy from the gas to the room as the gas condenses into a liquid. The working fluid is then cooled as it flows back through an expansion valve (4) to the outdoor evaporator coils.</caption>
+</figure>
+
+<para id="fs-id1167067150096">The electrically driven compressor (work input <emphasis effect="italics">W</emphasis>) raises the temperature and pressure of the gas and forces it into the condenser coils that are inside the heated space. Because the temperature of the gas is higher than the temperature inside the room, heat transfers energy to the room, and the gas condenses into a liquid. The liquid then flows back through an expansion (pressure-reducing) valve. The liquid, having been cooled through expansion, returns to the outdoor evaporator coils to resume the cycle.</para>
+
+<para id="fs-id1167067089106">The quality of a heat pump is judged by how much energy is transferred by heat into the warm space ( <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>Q</m:mi>
+   <m:mtext>h</m:mtext>
+  </m:msub>
+
+ </m:mrow>
+</m:math> ) compared with how much input work (<emphasis effect="italics">W</emphasis>) is required.</para>
+<note id="fs-add" class="os-teacher"><title>Teacher Support</title>
+
+<note id="fs-id1167067275965" class="misconception">
+
+<para id="fs-id1167067013804">Remember that refrigerators and air conditioners do not <emphasis effect="italics">create</emphasis> cold. They merely transfer heat from the inside to the outside.</para><para id="fs-id1167067121125">Revisit the ideal gas law, laws of thermodynamics, and entropy. Use these to understand the workings of air conditioners and refrigerators. This will also give you the opportunity to assess your understanding of these concepts. Both refrigerators and air conditioners use chemicals that can easily change phase from liquid to gas and back. The chemical is present in a closed circuit of tubing. Initially, it is in a gaseous state. The compressor works to squeeze the gas particles of the chemical closer together, creating high pressure. Following the ideal gas law, as pressure increases, so does temperature. This hot, dense gas spreads out in the small pipes or fins of the condenser, which is located on the outside part of the air conditioner (and backside of a refrigerator). The fins come in contact with outside air, which is cooler than the compressed chemical, and hence, as entropy indicates, heat transfers energy from the hot condenser to the relatively cooler air. The result is that the gas cools and condenses into a liquid. This liquid is then allowed to go to an evaporator through a tiny, narrow hole. On the other side of the hole, the gas spreads out (entropy increases), and its pressure drops. Consequently, obeying the ideal gas law, its temperature decreases as well. A fan blows air over this now-cool evaporator and into the room or refrigerator (<link target-id="Figure_12_04_Fridge"/>).</para></note>
+</note>
+<figure id="Figure_12_04_Fridge">
+<media id="fs-id1167066837088" alt="In a refrigerator, there is heat transfer (Qc) into the system from a cold reservoir, and heat transfer (Qh) out of the system into a hot reservoir, caused by work (W) done on the system.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_12_04_Fridge.jpg"/>
+</media>
+<caption>Heat pumps, air conditioners, and refrigerators are heat engines operated backward. Almost every home contains a refrigerator. Most people don’t realize that they are also sharing their homes with a heat pump.</caption>
+</figure>
+
+<para id="fs-id1167067198119">Air conditioners and refrigerators are designed to cool substances by transferring energy by heat  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>Q</m:mi>
+   <m:mtext>c</m:mtext>
+  </m:msub>
+
+ </m:mrow>
+</m:math>  out of a cool environment to a warmer one, where heat  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>Q</m:mi>
+   <m:mtext>h</m:mtext>
+  </m:msub>
+
+ </m:mrow>
+</m:math>  is given up. In the case of a refrigerator, heat is moved out of the inside of the fridge into the surrounding room. For an air conditioner, heat is transferred outdoors from inside a home. Heat pumps are also often used in a reverse setting to cool rooms in the summer.</para>
+
+<para id="fs-id1167067271924">As with heat pumps, work input is required for heat transfer of energy from cold to hot. The quality of air conditioners and refrigerators is judged by how much energy is removed by heat  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>Q</m:mi>
+   <m:mtext>c</m:mtext>
+  </m:msub>
+
+ </m:mrow>
+</m:math>  from a cold environment, compared with how much work, <emphasis effect="italics">W</emphasis>, is required. So, what is considered the energy benefit in a heat pump, is considered waste heat in a refrigerator.</para>
+</section><section id="fs-id1167067100996">
+<title>Thermal Efficiency</title>
+<para id="fs-id1167066949837">In the conversion of energy into work, we are always faced with the problem of getting less out than we put in. The problem is that, in all processes, there is some heat  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>Q</m:mi>
+   <m:mtext>c</m:mtext>
+  </m:msub>
+
+ </m:mrow>
+</m:math>  that transfers energy to the environment—and usually a very significant amount at that. A way to quantify how efficiently a machine runs is through a quantity called <term>thermal efficiency</term>.</para>
+<para id="fs-id1167066810827">We define thermal efficiency, <emphasis effect="italics">Eff</emphasis>, to be the ratio of useful energy output to the energy input (or, in other words, the ratio of what we get to what we spend). The efficiency of a heat engine is the output of net work, <emphasis effect="italics">W</emphasis>, divided by heat-transferred energy,  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>Q</m:mi>
+   <m:mtext>h</m:mtext>
+  </m:msub>
+
+ </m:mrow>
+</m:math>, into the engine; that is</para>
+<para id="fs-id1167064911430"> <m:math display="block">
+ <m:mrow>
+  <m:mi>E</m:mi><m:mi>f</m:mi><m:mi>f</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mi>W</m:mi>
+   <m:mrow>
+    <m:msub>
+     <m:mi>Q</m:mi>
+     <m:mtext>h</m:mtext>
+    </m:msub>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math> </para>
+<para id="fs-id1167066957912">An efficiency of 1, or 100 percent, would be possible only if there were no heat to the environment ( <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>Q</m:mi>
+   <m:mtext>c</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math> 
+).</para>
+
+<note id="fs-id1167067073646" class="tips-for-success">
+
+<para id="fs-id1167067105266">All values of heat ( <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>Q</m:mi>
+   <m:mtext>h</m:mtext>
+  </m:msub>
+
+ </m:mrow>
+</m:math>  and  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>Q</m:mi>
+   <m:mtext>c</m:mtext>
+  </m:msub>
+
+ </m:mrow>
+</m:math> ) are positive; there is no such thing as negative heat. The <emphasis effect="italics">direction</emphasis> of heat is indicated by a plus or minus sign. For example,  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>Q</m:mi>
+   <m:mtext>c</m:mtext>
+  </m:msub>
+
+ </m:mrow>
+</m:math>  is out of the system, so it is preceded by a minus sign in the equation for net heat.</para>
+<equation id="fs-id1164566938913"> <m:math>
+ <m:mrow>
+  <m:mi>Q</m:mi><m:mo>=</m:mo><m:msub>
+   <m:mi>Q</m:mi>
+   <m:mtext>h</m:mtext>
+  </m:msub>
+  <m:mo>−</m:mo><m:msub>
+   <m:mi>Q</m:mi>
+   <m:mtext>c</m:mtext>
+  </m:msub>
+ </m:mrow>
+</m:math> 
+</equation>
+</note>
+</section>
+
+<section id="fs-id1167067035429">
+<title>Solving Thermal Efficiency Problems</title>
+<note id="Worked_Example_21_04" class="worked-example"><title>Daily Work Done by a Coal-Fired Power Station and Its Efficiency</title>
+
+<exercise id="fs-id1167066783002" class="12-ex073 unnumbered"><label/>
+<problem id="fs-id1167063734165">
+<para id="fs-id1167067069748">A coal-fired power station is a huge heat engine. It uses heat to transfer energy from burning coal to do work to turn turbines, which are used then to generate electricity. In a single day, a large coal power station transfers  <m:math>
+ <m:mrow>
+  <m:mn>2.50</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>14</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mtext>J</m:mtext>
+ </m:mrow>
+</m:math>  by heat from burning coal and transfers  <m:math>
+ <m:mrow>
+  <m:mn>1.48</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>14</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mtext>J</m:mtext>
+ </m:mrow>
+</m:math>  by heat into the environment. (a) What is the work done by the power station? (b) What is the efficiency of the power station?</para>
+
+<note id="fs-id1167067314810"><label/>
+<title>Strategy</title>
+<para id="fs-id1167067103728">We can use  <m:math>
+ <m:mrow>
+  <m:mi>W</m:mi><m:mo>=</m:mo><m:msub>
+   <m:mi>Q</m:mi>
+   <m:mtext>h</m:mtext>
+  </m:msub>
+  <m:mo>−</m:mo><m:msub>
+   <m:mi>Q</m:mi>
+   <m:mtext>c</m:mtext>
+  </m:msub>
+
+ </m:mrow>
+</m:math> 
+ to find the work output, <emphasis effect="italics">W</emphasis>, assuming a cyclical process is used in the power station. In this process, water is boiled under pressure to form high-temperature steam, which is used to run steam turbine-generators and then condensed back to water to start the cycle again.</para>
+</note>
+</problem>
+
+<solution id="fs-id1167066960208">
+<label/>
+<title>Solution</title>
+<para id="fs-id1167067144147">Work output is given by</para>
+<equation id="fs-id1164561118397"> <m:math display="block">
+ <m:mrow>
+  <m:mi>W</m:mi><m:mo>=</m:mo><m:msub>
+   <m:mi>Q</m:mi>
+   <m:mtext>h</m:mtext>
+  </m:msub>
+  <m:mo>−</m:mo><m:msub>
+   <m:mi>Q</m:mi>
+   <m:mtext>c</m:mtext>
+  </m:msub>
+<m:mtext>.</m:mtext>
+  </m:mrow>
+</m:math> 
+
+</equation><para id="fs-id1167067305250">Substituting the given values,</para>
+<equation id="fs-id1164561201849"> <m:math display="block">
+ <m:mrow>
+  <m:mi>W</m:mi><m:mo>=</m:mo><m:mn>2.50</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>14</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mtext>J</m:mtext><m:mo>−</m:mo><m:mn>1.48</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>14</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mtext>J</m:mtext><m:mo>=</m:mo><m:mn>1.02</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>14</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mtext>J.</m:mtext>
+ </m:mrow>
+</m:math> 
+</equation></solution>
+</exercise>
+
+<exercise id="fs-id1167066962380"><label/>
+<problem id="fs-id1167067252240">
+<note id="fs-id1167067020015">
+<label/>
+<title>Strategy</title>
+<para id="fs-id1167063790692">The efficiency can be calculated with  <m:math>
+ <m:mrow>
+  <m:mi>E</m:mi><m:mi>f</m:mi><m:mi>f</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mi>W</m:mi>
+   <m:mrow>
+    <m:msub>
+     <m:mi>Q</m:mi>
+     <m:mtext>h</m:mtext>
+    </m:msub>
+
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>, because  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>Q</m:mi>
+   <m:mtext>h</m:mtext>
+  </m:msub>
+
+ </m:mrow>
+</m:math>  is given, and work, <emphasis effect="italics">W</emphasis>, was calculated in the first part of this example.</para>
+</note>
+</problem>
+<solution id="fs-id1167063693100"><label/>
+<title>Solution</title>
+<para id="fs-id1167063535252">Efficiency is given by</para>
+<equation id="fs-id1164562049082"> <m:math display="block">
+ <m:mrow>
+  <m:mi>E</m:mi><m:mi>f</m:mi><m:mi>f</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mi>W</m:mi>
+   <m:mrow>
+    <m:msub>
+     <m:mi>Q</m:mi>
+     <m:mtext>h</m:mtext>
+    </m:msub>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math> 
+</equation><para id="fs-id1167067009778">The work, <emphasis effect="italics">W</emphasis>, is found to be  <m:math>
+ <m:mrow>
+  <m:mn>1.02</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>14</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mtext>J</m:mtext>
+ </m:mrow>
+</m:math>, and  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>Q</m:mi>
+   <m:mtext>h</m:mtext>
+  </m:msub>
+
+ </m:mrow>
+</m:math>  is given ( <m:math>
+ <m:mrow>
+  <m:mn>2.50</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>14</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mtext>J</m:mtext>
+ </m:mrow>
+</m:math> ), so the efficiency is</para>
+<equation id="fs-id1164563557356"> <m:math display="block">
+ <m:mrow>
+  <m:mi>E</m:mi><m:mi>f</m:mi><m:mi>f</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>1.02</m:mn><m:mo>×</m:mo><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn>
+     </m:mrow>
+     <m:mrow>
+      <m:mn>14</m:mn>
+     </m:mrow>
+    </m:msup>
+    <m:mtext>J</m:mtext>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>2.50</m:mn><m:mo>×</m:mo><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn>
+     </m:mrow>
+     <m:mrow>
+      <m:mn>14</m:mn>
+     </m:mrow>
+    </m:msup>
+    <m:mtext>J</m:mtext>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mtext>0</m:mtext><m:mtext>.408, or 40</m:mtext><m:mtext>.8%.</m:mtext>
+ </m:mrow>
+</m:math> 
+</equation></solution>
+
+<commentary id="fs-id1167066773711">
+<title>Discussion</title>
+<para id="fs-id1167066963399">The efficiency found is close to the usual value of 42 percent for coal-burning power stations. It means that fully 59.2 percent of the energy is transferred by heat to the environment, which usually results in warming lakes, rivers, or the ocean near the power station and is implicated in a warming planet generally. While the laws of thermodynamics limit the efficiency of such plants—including plants fired by nuclear fuel, oil, and natural gas—the energy transferred by heat to the environment could be, and sometimes is, used for heating homes or for industrial processes.</para>
+</commentary>
+</exercise></note></section>
+
+<section id="fs-id1167067111832" class="practice-problems"><title>Practice Problems</title><exercise id="fs-id1167067292543">
+<problem id="fs-id1167063504287">
+<para id="fs-id1167067042022"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex074"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167061322523">
+<problem id="fs-id1167061376704">
+<!--<para id="fs-id1167063644537"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex075"/>
+</para>-->
+<para id="fs-id1164564882539">A heat engine takes in 6.0 kJ from heat and produces waste heat of 4.8 kJ. What is its efficiency?</para>
+<list id="fs-id1164562411772" list-type="enumerated" number-style="lower-alpha">
+<item>25 percent</item>
+<item>2.50 percent</item>
+<item>2.00 percent</item>
+<item>20 percent</item>
+</list>
+</problem>
+</exercise>
+</section><section id="fs-id1167063779616" class="check-understanding">
+<title>Check Your Understanding</title>
+<note id="fs-id1167066803933" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067104229">Use these questions to assess student achievement of the section’s learning objectives. If students are struggling with a specific objective, these questions will help identify which and direct students to the relevant content.</para>
+</note>
+<exercise id="fs-id1167066851142" class="os-exercise">
+<problem id="fs-id1167063652327">
+<para id="fs-id1167063503673"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex076"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167067054289" class="os-exercise">
+<problem id="fs-id1167066809122">
+<!--<para id="fs-id1167066835367"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex077"/>
+</para>-->
+<para id="fs-id1164564734704">Give an example of a heat engine.</para>
+<list id="fs-id1164563502243" list-type="enumerated" number-style="lower-alpha">
+<item>A generator</item>
+<item>A battery</item>
+<item>A water pump</item>
+<item>A car engine</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067139346" class="os-exercise">
+<problem id="fs-id1167061253144">
+<para id="fs-id1167061625008"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex078"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167067233855" class="os-exercise">
+<problem id="fs-id1167063588082">
+<para id="fs-id1167063515032"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex079"/>
+</para>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167067232567" class="summary">
+<title>Section Summary</title>
+<list id="fs-id1167066956073">
+<item>Heat engines use the heat transfer of energy to do work.</item>
+<item>Cyclical processes are processes that return to their original	state at the end of every cycle.</item>
+<item>The thermal efficiency of a heat engine is the ratio of work output divided by the amount of energy input.</item>
+<item>The amount of work a heat engine can do is determined by the net heat transfer of energy during a cycle; more waste heat leads to less work output.</item>
+<item>Heat pumps draw energy by heat from cold outside air and use it to heat an interior room.</item>
+<item>A refrigerator is a type of heat pump; it takes energy from the warm air from the inside compartment and transfers it to warmer exterior air.</item>
+</list>
+</section>
+
+<section id="fs-id1167067206607" class="key-equations">
+<title>Key Equations</title>
+<table id="fs-id1167067209712" class="unnumbered unstyled" summary="Table with two columns and two rows. The top left cell reads “Thermal efficiency of a heat engine,” with the top right cell showing the equation for efficiency as the quotient of the work done by a system divided by the total energy transferred to the system by heat. The lower left cell reads “Work output for a cyclical process,” with the lower right cell showing the equation for work output of a system as equal to the total energy transferred into the system by heat minus the unused energy transferred away from the system by heat.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry>thermal efficiency of a heat engine</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mi>E</m:mi><m:mi>f</m:mi><m:mi>f</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mi>W</m:mi>
+   <m:mrow>
+    <m:msub>
+     <m:mi>Q</m:mi>
+     <m:mtext>h</m:mtext>
+    </m:msub>
+
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> 
+</entry>
+</row>
+<row>
+<entry>work output for a cyclical process</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mi>W</m:mi><m:mo>=</m:mo><m:msub>
+   <m:mi>Q</m:mi>
+   <m:mtext>h</m:mtext>
+  </m:msub>
+  <m:mo>−</m:mo><m:msub>
+   <m:mi>Q</m:mi>
+   <m:mtext>c</m:mtext>
+  </m:msub>
+
+ </m:mrow>
+</m:math> 
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+
+
+
+<section id="fs-id1167060068958" class="concept"><title>Concept Items</title>
+<exercise id="fs-id1167063506662" class="os-exercise">
+<problem id="fs-id1167067064463">
+<!--<para id="fs-id1167067038021"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex080"/></para>-->
+<para id="fs-id1164557687023">What is the quality by which air conditioners are judged?</para>
+<list id="fs-id1164557675059" list-type="enumerated" number-style="lower-alpha"><item>The amount of energy generated by heat from a hot environment, compared with the required work input</item>
+<item>The amount of energy transferred by heat from a cold environment, compared with the required work input</item>
+<item>The amount of energy transferred by heat from a hot environment, compared with the required work output</item>
+<item>The amount of energy transferred by heat from a cold environment, compared with the required work output</item>
+</list></problem>
+</exercise>
+<exercise id="fs-id1167063716308" class="os-exercise">
+<problem id="fs-id1167067088247">
+<!--<para id="fs-id1167063901605"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex081"/></para>-->
+<para id="fs-id1164563165072">Why is the efficiency of a heat engine never 100 percent?</para>
+<list id="fs-id1164560879582" list-type="enumerated" number-style="lower-alpha">
+<item>Some energy is always gained by heat from the environment.</item>
+<item>Some energy is always lost by heat to the environment.</item>
+<item>Work output is always greater than energy input.</item>
+<item>Work output is infinite for any energy input.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-id1166847362299" class="os-exercise">
+<problem id="eip-id1166849869721">
+<!--<para id="eip-id1166849797687">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch12-ot069"/>
+</para>-->
+<para id="fs-id1164566507811">What is a cyclic process?</para>
+<list id="fs-id1164562191587" list-type="enumerated" number-style="lower-alpha">
+<item>A process in which the system returns to its original state at the end of the cycle</item>
+<item>A process in which the system does not return to its original state at the end of the cycle</item>
+<item>A process in which the system follows the same path for every cycle</item>
+<item>A process in which the system follows a different path for every cycle</item>
+</list>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167066957460" class="critical-thinking"><title>Critical Thinking</title>
+<!--<exercise id="fs-id1167063855842" class="os-exercise">
+<problem id="fs-id1167067109694">
+<para id="fs-id1167063664179"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex082"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167067158429" class="os-exercise">
+<problem id="fs-id1167060071040">
+<para id="fs-id1167067197266"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex083"/></para>
+</problem>
+</exercise>
+
+<exercise id="eip-id1166850196137" class="os-exercise">
+<problem id="eip-id1166849249883">
+<para id="eip-id1166850032304">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch12-ot075"/>
+</para>
+</problem>
+</exercise>-->
+
+<exercise id="fs-id1164566700710" class="os-exercise">
+<problem id="fs-id1164563465705">
+<para id="fs-id1164564830271">What is the advantage of a heat pump as opposed to burning fuel (as in a fireplace) for keeping warm?</para>
+<list id="fs-id1164565165879" list-type="enumerated" number-style="lower-alpha">
+<item>A heat pump supplies energy by heat from the cold, outside air.</item>
+<item>A heat pump supplies energy generated by the work done.</item>
+<item>A heat pump supplies energy by heat from the cold, outside air and also from the energy generated by the work done.</item>
+<item>A heat pump supplies energy not by heat from the cold, outside air, nor from the energy generated by the work done, but from more accessible sources.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1164564999667" class="os-exercise">
+<problem id="fs-id1164564740085"><para id="fs-id1164564740086">What is thermal efficiency of an engine? Can it ever be 100 percent? Why or why not?</para>
+<list id="fs-id1164566575559" list-type="enumerated" number-style="lower-alpha">
+<item>Thermal efficiency is the ratio of the output (work) to the input (heat). It is always 100 percent.</item>
+<item>Thermal efficiency is the ratio of the output (heat) to the input (work). It is always 100 percent.</item>
+<item>Thermal efficiency is the ratio of the output (heat) to the input (work). It is never 100 percent.</item>
+<item>Thermal efficiency is the ratio of the output (work) to the input (heat). It is never 100 percent.</item>
+</list>
+</problem>
+</exercise>
+
+<exercise id="fs-id1164564895336" class="os-exercise">
+<problem id="fs-id1164566408281">
+<para id="fs-id1164565080112">When would 100 percent thermal efficiency be possible?</para>
+<list id="fs-id1164562445613" list-type="enumerated" number-style="lower-alpha">
+<item>When all energy is transferred by heat to the environment</item>
+<item>When mass transferred to the environment is zero</item>
+<item>When mass transferred to the environment is at a maximum</item>
+<item>When no energy is transferred by heat to the environment</item>
+</list>
+</problem>
+</exercise>
+</section><section id="fs-id1167067092880" class="problems">
+<title>Problems</title>
+<!--<exercise id="fs-id1167066940413" class="os-exercise">
+<problem id="fs-id1167067070616">
+<para id="fs-id1167067148102"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex084"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167067092110" class="os-exercise">
+<problem id="fs-id1167061444269">
+<para id="fs-id1167067251986"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex085"/></para>
+</problem>
+</exercise>-->
+<exercise id="fs-id1164564804101" class="os-exercise">
+<problem id="fs-id1164564852082">
+<para id="fs-id1164565211944">A coal power station functions at 40.0 percent efficiency. What is the amount of work it does if it takes in 1.20×10<sup>12</sup> J by heat?</para>
+<list id="fs-id1164564728280" list-type="enumerated" number-style="lower-alpha">
+<item>3×10<sup>10</sup> J</item>
+<item>4.8×10<sup>11</sup> J</item>
+<item>3×10<sup>12</sup> J</item>
+<item>4.8×10<sup>13</sup> J</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1164562202478" class="os-exercise">
+<problem id="fs-id1164564822277">
+<para id="fs-id1164565134580">A heat engine functions with 70.7 percent thermal efficiency and consumes 12.0 kJ from heat daily. If its efficiency were raised to 75.0 percent, how much energy from heat would be saved daily, while providing the same output?</para>
+<list id="fs-id1164566576240" list-type="enumerated" number-style="lower-alpha"><item>−10.8 kJ</item>
+<item>−1.08 kJ</item>
+<item>0.7 kJ</item>
+<item>7 kJ</item>
+</list></problem>
+</exercise>
+
+</section>
+
+<section id="fs-id1167061583281" class="multiple-choice"><title>Test Prep Multiple Choice</title>
+<exercise id="fs-id1167067077287" class="os-exercise">
+<problem id="fs-id1167067294884">
+<para id="fs-id1167067133751"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex086"/></para>
+</problem>
+</exercise>
+
+<exercise id="fs-id1167063730358" class="os-exercise">
+<problem id="fs-id1167067076016">
+<!--<para id="fs-id1167063644582"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex087"/></para>-->
+<para id="fs-id1164559093679">Which of these quantities needs to be zero for efficiency to be 100 percent?</para>
+<list id="fs-id1164560831050" list-type="enumerated" number-style="lower-alpha">
+<item>Δ<emphasis effect="italics">U</emphasis></item>
+<item><emphasis effect="italics">W</emphasis></item>
+<item><emphasis effect="italics">Q</emphasis><sub>h</sub></item>
+<item><emphasis effect="italics">Q</emphasis><sub>c</sub></item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067090257" class="os-exercise">
+<problem id="fs-id1167067202599">
+<!--<para id="fs-id1167067146125"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex088"/></para>-->
+<para id="fs-id1164562323158">Which of the following always has the greatest value in a system having 80 percent thermal efficiency?</para>
+<list id="fs-id1164564836717" list-type="enumerated" number-style="lower-alpha">
+<item>Δ<emphasis effect="italics">U</emphasis></item>
+<item><emphasis effect="italics">W</emphasis></item>
+<item><emphasis effect="italics">Q</emphasis><sub>h</sub></item>
+<item><emphasis effect="italics">Q</emphasis><sub>c</sub></item>
+</list>
+</problem>
+</exercise>
+
+<exercise id="eip-id1166848723677" class="os-exercise">
+<problem id="eip-id1166849099185">
+<!--<para id="eip-id1166851406663">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch12-ot076"/>
+</para>-->
+
+<para id="fs-id1164562410675">In the equation <emphasis effect="italics">Q</emphasis> = <emphasis effect="italics">Q</emphasis><sub>h</sub> − <emphasis effect="italics">Q</emphasis><sub>c</sub>, what does the negative sign indicate?</para>
+<list id="fs-id1164562377976" list-type="enumerated" number-style="lower-alpha"><item>Heat transfer of energy is always negative.</item>
+<item>Heat transfer can only occur in one direction.</item>
+<item>Heat is directed into the system from the surroundings outside the system.</item>
+<item>Heat is directed out of the system.</item>
+</list></problem>
+</exercise>
+
+<exercise id="eip-id1166848721120" class="os-exercise">
+<problem id="eip-id1166851021472">
+<!--<para id="eip-id1166848969587">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch12-ot077"/>
+</para>-->
+
+<para id="fs-id1164566945152">What is the purpose of a heat pump?</para>
+<list id="fs-id1164562389956" list-type="enumerated" number-style="lower-alpha">
+<item>A heat pump uses work to transfer energy by heat from a colder environment to a warmer environment.</item>
+<item>A heat pump uses work to transfer energy by heat from a warmer environment to a colder environment.</item>
+<item>A heat pump does work by using heat to convey energy from a colder environment to a warmer environment.</item>
+<item>A heat pump does work by using heat to convey energy from a warmer environment to a colder environment.</item>
+</list>
+</problem>
+</exercise></section><section id="fs-id1167066784635" class="short-answer">
+<title>Test Prep Short Answer</title>
+<exercise id="fs-id1167063525752" class="os-exercise">
+<problem id="fs-id1167067090772">
+<para id="fs-id1167067039190"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex089"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167066966799" class="os-exercise"><problem id="fs-id1167067058225">
+<para id="eip-idm378552720">Which component of an air conditioner converts gas into liquid?</para>
+
+<list id="eip-idm271491152" list-type="enumerated" number-style="lower-alpha"><item>the condenser</item>
+<item>the compressor</item>
+<item>the evaporator</item>
+<item>the thermostat</item>
+</list></problem>
+</exercise><exercise id="fs-id1167067201514" class="os-exercise">
+<problem id="fs-id1167067011191">
+<!--<para id="fs-id1167067231311"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex091"/></para>-->
+
+<para id="fs-id1164562118746">What is one example for which calculating thermal efficiency is of interest?</para><list id="fs-id1164563484838" list-type="enumerated" number-style="lower-alpha"><item>A wind turbine</item>
+<item>An electric pump</item>
+<item>A bicycle</item>
+<item>A car engine</item>
+</list></problem>
+</exercise>
+<exercise id="fs-id1167066952806" class="os-exercise"><problem id="fs-id1167063734534">
+<para id="fs-id1167067253209">How is the efficiency of a refrigerator or heat pump expressed?</para><list id="eip-idm367426000" list-type="enumerated" number-style="lower-alpha"><item> <m:math>
+ <m:mrow>
+  <m:mi>E</m:mi><m:mi>f</m:mi><m:mi>f</m:mi><m:mo>=</m:mo>
+
+  <m:mi>W</m:mi><m:msqrt><m:msub>
+     <m:mi>Q</m:mi>
+     <m:mtext>c</m:mtext>
+    </m:msub></m:msqrt>
+
+
+
+
+ </m:mrow>
+</m:math> </item>
+
+
+
+<item> <m:math>
+ <m:mrow>
+  <m:mi>E</m:mi><m:mi>f</m:mi><m:mi>f</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mi>W</m:mi>
+   <m:mrow>
+    <m:msub>
+     <m:mi>Q</m:mi>
+     <m:mtext>c</m:mtext>
+    </m:msub>
+
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </item>
+
+<item> <m:math>
+ <m:mrow>
+  <m:mi>E</m:mi><m:mi>f</m:mi><m:mi>f</m:mi><m:mo>=</m:mo>
+
+   <m:mrow>
+    <m:msub>
+     <m:mi>Q</m:mi>
+     <m:mtext>c</m:mtext>
+    </m:msub><m:mo>×</m:mo><m:mi>W</m:mi>
+
+   </m:mrow>
+
+
+ </m:mrow>
+</m:math> </item>
+
+<item> <m:math>
+ <m:mrow>
+  <m:mi>E</m:mi><m:mi>f</m:mi><m:mi>f</m:mi><m:mo>=</m:mo><m:mfrac>
+<m:mrow>
+    <m:msub>
+     <m:mi>Q</m:mi>
+     <m:mtext>c</m:mtext>
+    </m:msub>
+
+   </m:mrow>
+<m:mi>W</m:mi>
+
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </item></list></problem>
+</exercise><exercise id="fs-id1167063697117" class="os-exercise">
+<problem id="fs-id1167067049047">
+<para id="fs-id1167067008722"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex093"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167066963040" class="os-exercise">
+<problem id="fs-id1167061212607">
+<para id="fs-id1167067099558"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex094"/></para>
+</problem>
+</exercise>
+</section>
+
+
+
+<section id="fs-id1167067013394" class="performance">
+<title>Performance Task</title>
+<exercise id="fs-id1167066794232">
+<problem id="fs-id1167067292581">
+<para id="fs-id1167067056028">You have been tasked to design and construct a thermometer that works on the principle of thermal expansion. There are four materials available for you to test, each of which will find use under different sets of conditions and temperature ranges:</para>
+<list id="fs-id1167067276694" class="materials">
+<title>Materials</title>
+<item>Four sample materials with similar mass or volume: copper, steel, water, and alcohol (ethanol or isopropanol)</item>
+<item>Oven or similar heating source</item>
+<item>Instrument (e.g., meter ruler, Vernier calipers, or micrometer) for measuring changes in dimension</item>
+<item>Balance for measuring mass</item>
+</list>
+
+<list id="fs-id1167063851027" list-type="enumerated">
+<title>Procedure</title>
+<item>Design a safe experiment to analyze the thermal expansion properties of each material.</item>
+<item>Write down the materials needed for your experiment and the procedure you will follow. Make sure that you include every detail so that the experiment can be repeated by others.</item>
+<item>Select an appropriate material to measure temperature over a predecided temperature range, and give reasons for your choice.</item>
+<item>Calibrate your instrument to measure temperature changes accurately.</item>
+</list>
+
+<list id="fs-id1167060078387" list-type="enumerated" number-style="lower-alpha" mark-suffix=")" mark-prefix="(">
+<item>Which physical quantities are affected by temperature change and thermal expansion?</item>
+<item>How do such properties as specific heat and thermal conductivity affect the use of each material as a thermometer?</item>
+<item>Does a change of phase take place for any of the tested materials over the temperature range to be examined?</item>
+<item>What are your independent and dependent variables for this series of tests? Which variables need to be controlled in the experiment?</item>
+<item>What are your sources of error?</item>
+<item>Can all the tested materials be used effectively in the same ranges of temperature? Which applications might be suitable for one or more of the tested substances but not the others?</item>
+</list>
+
+
+<note id="fs-id1167061295116" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067010519">This performance task supports the following:</para>
+<para id="fs-id1167063102425"><span>NGSS HS-PS3-3</span><span>:</span> <span>Design, build, and refine a device that works within given constraints to convert one form of energy into another form of energy.</span></para>
+<list id="fs-id1167067206422" list-type="enumerated" number-style="lower-alpha" mark-suffix=")" mark-prefix="(">
+<item>Alcohol and water can be used effectively in a temperature range between  <m:math>
+ <m:mrow>
+  <m:mtext>0 °C and 100 °C</m:mtext><m:mo>.</m:mo></m:mrow>
+</m:math>  Copper and steel do not expand greatly at these temperatures. The experimental design needs to take this into account.</item>
+<item>During thermal expansion, the entire volume of the substance changes, with proportional expansion or contraction occurring in each dimension. Student designs should take this into account; if possible, students should design a means by which all but one dimension is constrained so that temperature may be related directly to linear change (i.e., expansion or contraction in one dimension only).</item>
+</list>
+</note>
+</problem>
+</exercise>
+</section>
+
+
+<section id="fs-id1167063504278" class="extended-response">
+<label/>
+<title>Test Prep Extended Response</title>
+<exercise id="fs-id1167061202574" class="os-exercise">
+<problem id="fs-id1167067055832">
+<!--<para id="fs-id1167067234393"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex095"/></para>-->
+
+<para id="fs-id1164563431907">In the equation <emphasis effect="italics">W</emphasis> = <emphasis effect="italics">Q</emphasis><sub>h</sub> − <emphasis effect="italics">Q</emphasis><sub>c</sub>, if the value of <emphasis effect="italics">Q</emphasis><sub>c</sub> were equal to zero, what would it signify?</para>
+<list id="fs-id1164563491858" list-type="enumerated" number-style="lower-alpha">
+<item>The efficiency of the engine is 75 percent.</item>
+<item>The efficiency of the engine is 25 percent.</item>
+<item>The efficiency of the engine is 0 percent.</item>
+<item>The efficiency of the engine is 100 percent.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167066871500" class="os-exercise">
+<problem id="fs-id1167067112387">
+<para id="fs-id1167063680180"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex096"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167067203188" class="os-exercise">
+<problem id="fs-id1167063466383">
+<!--<para id="fs-id1167063800735"><link class="os-embed" url="#ost/api/ex/k12phys-ch12-ex097"/></para>-->
+
+<para id="fs-id1164557707560">A coal power station transfers 3.0×10<sup>12</sup> J by heat from burning coal and transfers 1.5×10<sup>12</sup> J by heat into the environment. What is the efficiency of the power station?</para>
+<list id="fs-id1164564923733" list-type="enumerated" number-style="lower-alpha">
+<item>0.33</item>
+<item>0.5</item>
+<item>0.66</item>
+<item>1</item>
+</list>
+</problem>
+</exercise>
+</section>
+
+
+</content>
+<glossary>
+<definition id="fs-id1167063631906"><term>cyclical process</term><meaning id="fs-id1167061211448"> process in which a system is brought back to its original state at the end of every cycle</meaning></definition>
+<definition id="fs-id1167063877889"><term>heat engine</term><meaning id="fs-id1167067208975"> machine that uses energy transfer by heat to do work</meaning></definition>
+<definition id="fs-id1167063851210"><term>heat pump</term><meaning id="fs-id1167067015264"> machine that generates the heat transfer of energy from cold to hot</meaning></definition>
+<definition id="fs-id1167066944950"><term>thermal efficiency</term><meaning id="fs-id1167067189809"> ratio of useful energy output to the energy input</meaning></definition>
+</glossary>
+</document>

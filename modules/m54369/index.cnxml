@@ -1,0 +1,896 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Understanding Diffraction and Interference</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54369</md:content-id>
+  <md:title>Understanding Diffraction and Interference</md:title>
+  <md:abstract/>
+  <md:uuid>da4bb0d4-b00f-49f1-b46f-2bc4f7495e15</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167067083873" class="learning-objectives"><label/><title>Section Learning Objectives</title>
+<para id="fs-id1167067195824">By the end of this section, you will be able to do the following:</para>
+<list id="fs-id1167066858988"><item>Explain wave behavior of light, including diffraction and interference, including the role of constructive and destructive interference in Young’s single-slit and double-slit experiments</item>
+<item>Perform calculations involving diffraction and interference, in particular the wavelength of light using data from a two-slit interference pattern</item>
+</list></note><note id="fs-id1167067069540" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067316576">The learning objectives in this section will help your students master the following standards:</para>
+<list id="fs-id1167067114833"><item>(7) Science concepts. The student knows the characteristics and behavior of waves. The student is expected to:
+<list id="fs-id1167067308111"><item>
+<span>(D)</span>
+<span>investigate behaviors of waves, including reflection, refraction, diffraction, interference, resonance, and the Doppler effect</span>
+</item>
+</list></item>
+</list></note>
+<section id="keyterms"><title>Section Key Terms</title>
+<table id="fs-id1167063779397" class="unnumbered unstyled section-key-terms" summary="Section Key Terms is a 3 column table. The first row reads diffraction, Huygens’s principle, monochromatic. The second row reads wavefront.">
+<label/>
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+<row>
+<entry>diffraction</entry>
+<entry>Huygens’s principle</entry>
+<entry>monochromatic</entry>
+<entry>wavefront</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section><section id="fs-id1167063734494"><title>Diffraction and Interference</title><note id="fs-id1167063564290" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066959976"><span>[BL]</span>Explain constructive and destructive interference graphically on the board.</para>
+<para id="fs-id1167063438556"><span>[OL]</span>Ask students to look closely at a shadow. Ask why the edges are not sharp lines. Explain that this is caused by diffraction, one of the wave properties of electromagnetic radiation. Define the nanometer in relation to other metric length measurements.</para>
+<para id="fs-id1167066869503"><span>[AL]</span>Ask students which, among speed, frequency, and wavelength, stay the same, and which change, when a ray of light travels from one medium to another. Discuss those quantities in terms of colors (wavelengths) of visible light.</para>
+</note>
+<para id="fs-id1167063465992">We know that visible light is the type of electromagnetic wave to which our eyes responds. As we have seen previously, light obeys the equation</para>
+<equation id="fs-id1167063891721" class="unnumbered"><label/> <m:math>
+ <m:mrow>
+  <m:mi>c</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mi>λ</m:mi><m:mo>,</m:mo>
+ </m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1167067204693">where  <m:math>
+ <m:mrow>
+  <m:mi>c</m:mi><m:mo>=</m:mo><m:mn>3.00</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mn>8</m:mn>
+  </m:msup>
+ </m:mrow>
+</m:math>  m/s is the speed of light in vacuum, <emphasis effect="italics">f </emphasis>is the frequency of the electromagnetic wave in Hz (or s<sup>–1</sup>), and  <m:math>
+ <m:mi>λ</m:mi>
+</m:math>  is its wavelength in m. The range of visible wavelengths is approximately 380 to 750 nm. As is true for all waves, light travels in straight lines and acts like a ray when it interacts with objects several times as large as its wavelength. However, when it interacts with smaller objects, it displays its wave characteristics prominently. Interference is the identifying behavior of a wave.</para>
+<para id="fs-id1167066854507">In <link target-id="Figure_17_01_RayWave"/>, both the ray and wave characteristics of light can be seen. The laser beam emitted by the observatory represents ray behavior, as it travels in a straight line. Passing a pure, one-wavelength beam through vertical slits with a width close to the wavelength of the beam reveals the wave character of light. Here we see the beam spreading out horizontally into a pattern of bright and dark regions that are caused by systematic constructive and destructive interference. As it is characteristic of wave behavior, interference is observed for water waves, sound waves, and light waves.</para>
+
+<figure id="Figure_17_01_RayWave">
+<media id="fs-id1167063515329" alt="(a) Photo of a laser beam directed vertically from an observatory into a night sky. (b) Photo of a horizontal line of about twenty closely spaced red dots. The five dots in the center are much brighter than the others.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_17_01_RayWave.jpg"/>
+</media>
+<caption>(a) The light beam emitted by a laser at the Paranal Observatory (part of the European Southern Observatory in Chile) acts like a ray, traveling in a straight line. (credit: Yuri Beletsky, European Southern Observatory) (b) A laser beam passing through a grid of vertical slits produces an interference pattern—characteristic of a wave. (credit: Shim’on and Slava Rybka, Wikimedia Commons)</caption>
+</figure>
+
+<para id="fs-id1167067264609">That interference is a characteristic of energy propagation by waves is demonstrated more convincingly by water waves. <link target-id="Figure_17_01_Waterwave"/> shows water waves passing through gaps between some rocks. You can easily see that the gaps are similar in width to the wavelength of the waves and that this causes an interference pattern as the waves pass beyond the gaps. A cross-section across the waves in the foreground would show the crests and troughs characteristic of an interference pattern.</para>
+
+<figure id="Figure_17_01_Waterwave">
+<media id="fs-id1167067176426" alt="Drawing of two groups of rocks on a beach. Waves from the top of figure produce three sets of curved wavefronts that expand outward as they pass through gaps between the rocks.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_17_01_Waterwave.jpg"/>
+</media>
+<caption>Incoming waves (at the top of the picture) pass through the gaps in the rocks and create an interference pattern (in the foreground).</caption>
+</figure>
+
+<para id="fs-id1167066971591">Light has wave characteristics in various media as well as in a vacuum. When light goes from a vacuum to some medium, such as water, its speed and wavelength change, but its frequency, <emphasis effect="italics">f</emphasis>, remains the same. The speed of light in a medium is  <m:math>
+ <m:mrow>
+  <m:mi>v</m:mi><m:mo>=</m:mo><m:mi>c</m:mi><m:mo>/</m:mo><m:mi>n</m:mi>
+ </m:mrow>
+</m:math>, where <emphasis effect="italics">n </emphasis>is its index of refraction. If you divide both sides of the equation  <m:math>
+ <m:mrow>
+  <m:mi>c</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mi>λ</m:mi>
+ </m:mrow>
+</m:math>  by <emphasis effect="italics">n</emphasis>, you get  <m:math>
+ <m:mrow>
+  <m:mi>c</m:mi><m:mo>/</m:mo><m:mi>n</m:mi><m:mo>=</m:mo><m:mi>v</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mi>λ</m:mi><m:mo>/</m:mo><m:mi>n</m:mi>
+ </m:mrow>
+</m:math> . Therefore,  <m:math>
+ <m:mrow>
+  <m:mi>v</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:msub>
+   <m:mi>λ</m:mi>
+   <m:mi>n</m:mi>
+  </m:msub>
+
+ </m:mrow>
+</m:math>, where  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>λ</m:mi>
+   <m:mi>n</m:mi>
+  </m:msub>
+
+ </m:mrow>
+</m:math>  is the wavelength in a medium, and </para>
+<equation id="fs-id1167067140601" class="unnumbered"><label/>
+ <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>λ</m:mi>
+   <m:mi>n</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mi>λ</m:mi>
+   <m:mi>n</m:mi>
+  </m:mfrac>
+  <m:mtext>,</m:mtext>
+ </m:mrow>
+</m:math> </equation><para id="fs-id1167067049787">where  <m:math>
+ <m:mi>λ</m:mi>
+</m:math>  is the wavelength in vacuum and <emphasis effect="italics">n </emphasis>is the medium’s index of refraction. It follows that the wavelength of light is smaller in any medium than it is in vacuum. In water, for example, which has <emphasis effect="italics">n</emphasis> = 1.333, the range of visible wavelengths is (380 nm)/1.333 to (760 nm)/1.333, or  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>λ</m:mi>
+   <m:mi>n</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo>
+ </m:mrow>
+</m:math> 285–570 nm. Although wavelengths change while traveling from one medium to another, colors do not, since colors are associated with frequency.</para>
+<para id="fs-id1167063774912">The Dutch scientist Christiaan Huygens (1629–1695) developed a useful technique for determining in detail how and where waves propagate. He used <term>wavefronts</term>, which are the points on a wave’s surface that share the same, constant phase (such as all the points that make up the crest of a water wave). <term>Huygens’s principle</term> states, “Every point on a wavefront is a source of wavelets that spread out in the forward direction at the same speed as the wave itself. The new wavefront is a line tangent to all of the wavelets.”</para>
+<para id="fs-id1167066999924"><link target-id="Figure_17_01_Wavefront"/> shows how Huygens’s principle is applied. A wavefront is the long edge that moves; for example, the crest or the trough. Each point on the wavefront emits a semicircular wave that moves at the propagation speed <emphasis effect="italics">v</emphasis>. These are drawn later at a time, <emphasis effect="italics">t</emphasis>, so that they have moved a distance  <m:math>
+ <m:mrow>
+  <m:mi>s</m:mi><m:mo>=</m:mo><m:mi>v</m:mi><m:mi>t</m:mi>
+ </m:mrow>
+</m:math> . The new wavefront is a line tangent to the wavelets and is where the wave is located at time <emphasis effect="italics">t</emphasis>. Huygens’s principle works for all types of waves, including water waves, sound waves, and light waves. It will be useful not only in describing how light waves propagate, but also in how they interfere.</para>
+
+<figure id="Figure_17_01_Wavefront"><media id="fs-id1167063569990" alt="Drawing with vertical lines labeled “old wavefront” (on the left) and “new wavefront” (on the right). Semicircular wavelets expand to the right from points on the old wavefront. The new wavefront is the tangent to those circles. The two wavefronts are separated by a distance s. A formula states “s is the product of the wave speed v and time t.”">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_17_01_Wavefront.jpg"/>
+</media>
+
+<caption>Huygens’s principle applied to a straight wavefront. Each point on the wavefront emits a semicircular wavelet that moves a distance  <m:math>
+ <m:mrow>
+  <m:mi>s</m:mi><m:mo>=</m:mo><m:mi>v</m:mi><m:mi>t</m:mi></m:mrow>
+</m:math> . The new wavefront is a line tangent to the wavelets.</caption></figure>
+
+<para id="fs-id1167063505636">What happens when a wave passes through an opening, such as light shining through an open door into a dark room? For light, you expect to see a sharp shadow of the doorway on the floor of the room, and you expect no light to bend around corners into other parts of the room. When sound passes through a door, you hear it everywhere in the room and, thus, you understand that sound spreads out when passing through such an opening. What is the difference between the behavior of sound waves and light waves in this case? The answer is that the wavelengths that make up the light are very short, so that the light acts like a ray. Sound has wavelengths on the order of the size of the door, and so it bends around corners.</para>
+
+<note id="fs-id1167067092057" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067247969"><span>[OL]</span>Discuss the fact that, for a diffraction pattern to be visible, the width of a slit must be roughly the wavelength of the light. Try to give students an idea of the size of visible light wavelengths by noting that a human hair is roughly 100 times wider.</para>
+</note>
+
+<para id="fs-id1167063438833">If light passes through smaller openings, often called slits, you can use Huygens’s principle to show that light bends as sound does (see <link target-id="Figure_17_01_Diffractn"/>). The bending of a wave around the edges of an opening or an obstacle is called <term>diffraction</term>. Diffraction is a wave characteristic that occurs for all types of waves. If diffraction is observed for a phenomenon, it is evidence that the phenomenon is produced by waves. Thus, the horizontal diffraction of the laser beam after it passes through slits in <link target-id="Figure_17_01_RayWave"/> is evidence that light has the properties of a wave.</para>
+
+<figure id="Figure_17_01_Diffractn">
+<media id="fs-id1167063879901" alt="Three drawings of evenly spaced parallel vertical lines represent straight wavefronts moving to the right and passing through three openings in a barrier. The drawing on the left shows vertical straight lines to the left of a wide opening, overlaid with horizontal arrows pointing to the right, and three parallel lines to the right of the opening. The lines to the right of the opening are roughly the same length as the opening. The upper and lower ends of the lines to the right are swept to the left, forming small curves, but the lines are mostly straight. The small curves at the top are overlaid with an arrow pointing to the right and slightly upward; the small curves at the bottom are overlaid with an arrow pointing to the right and slightly downward. The drawing in the middle shows vertical straight lines to the left of a narrower opening and three parallel lines to the right of the opening. The lines to the right of the opening are roughly the same length as the opening, which is smaller than the opening in the drawing on the left. The upper and lower ends of the lines to the right of the opening are swept to the left, forming small curves, but the lines are mostly straight. The drawing on the right shows vertical straight lines to the left of a very narrow opening, overlaid with one horizontal arrows pointing to the right, and three concentric circular arcs to the right of the opening.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_17_01_Diffractn.jpg"/>
+</media>
+<caption>Huygens’s principle applied to a straight wavefront striking an opening. The edges of the wavefront bend after passing through the opening, a process called diffraction. The amount of bending is more extreme for a small opening, consistent with the fact that wave characteristics are most noticeable for interactions with objects about the same size as the wavelength.</caption>
+</figure>
+
+<para id="fs-id1167067023612">Once again, water waves present a familiar example of a wave phenomenon that is easy to observe and understand, as shown in <link target-id="Figure_17_01_diffractn2"/>.</para>
+<figure id="Figure_17_01_diffractn2">
+<media id="fs-id1167066835446" alt="Drawing of ocean waves passing through a narrow gap in a reef. The waves form semicircular wavelets on the beach, which are centered on the gap in the reef.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_17_01_diffractn2.jpg"/>
+</media>
+<caption>Ocean waves pass through an opening in a reef, resulting in a diffraction pattern. Diffraction occurs because the opening is similar in width to the wavelength of the waves.</caption>
+</figure>
+
+<note id="fs-id1167067228157" class="watch-physics"><title>Single-Slit Interference</title>
+
+
+<para id="fs-id1167067251180">This video works through the math needed to predict diffraction patterns that are caused by single-slit interference.</para>
+
+<media id="fs-id1167066949551" alt="..." display="block">
+<iframe width="660" height="371.4" src="https://www.openstax.org/l/28slit"/>
+</media>
+
+<!--<para id="fs-id1167063810913"><link class="os-embed" url="#ost/api/ex/k12phys-ch17-ex001"/></para>-->
+<para id="fs-id1164563488527">Which values of <emphasis effect="italics">m</emphasis> denote the location of destructive interference in a single-slit diffraction pattern?</para>
+<list id="fs-id1164566912256" list-type="enumerated" number-style="lower-alpha">
+<item>whole integers, excluding zero</item>
+<item>whole integers</item>
+<item>real numbers excluding zero</item>
+<item>real numbers</item>
+</list>
+</note><para id="fs-id1167066972664">The fact that Huygens’s principle worked was not considered enough evidence to prove that light is a wave. People were also reluctant to accept light’s wave nature because it contradicted the ideas of Isaac Newton, who was still held in high esteem. The acceptance of the wave character of light came after 1801, when the English physicist and physician Thomas Young (1773–1829) did his now-classic double-slit experiment (see <link target-id="Figure_17_01_2slit"/>).</para>
+
+<figure id="Figure_17_01_2slit">
+<media id="fs-id1167067061559" alt="Drawing of a beam of light diffracted by two slits. Two arrows pointing upward and to the right have their points at the vertical slits. A pattern is on a second screen, upward and to the right, consists of about 14 vertical bright bands that are the same height as the slits but have a horizontal spacing closer than the slits.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_17_01_2slit.jpg"/>
+</media>
+<caption>Young’s double-slit experiment. Here, light of a single wavelength passes through a pair of vertical slits and produces a diffraction pattern on the screen—numerous vertical light and dark lines that are spread out horizontally. Without diffraction and interference, the light would simply make two lines on the screen.</caption>
+</figure>
+
+<para id="fs-id1167060081143">When light passes through narrow slits, it is diffracted into semicircular waves, as shown in <link target-id="Figure_17_01_2slit2"/> (a). Pure constructive interference occurs where the waves line up crest to crest or trough to trough. Pure destructive interference occurs where they line up crest to trough. The light must fall on a screen and be scattered into our eyes for the pattern to be visible. An analogous pattern for water waves is shown in <link target-id="Figure_17_01_2slit2"/> (b). Note that regions of constructive and destructive interference move out from the slits at well-defined angles to the original beam. Those angles depend on wavelength and the distance between the slits, as you will see below.</para>
+
+<figure id="Figure_17_01_2slit2">
+<media id="fs-id1167063790669" alt="(a) Drawing of vertical lines to the left of a screen with two slits, labeled “S-one” and “S-two.” Vertical lines on the left are labeled “Wavefront.” They are overlaid with arrows labeled “Rays.” Two sets of overlapping circular arcs expand outward from the two slits to a screen at the right. The screen on the right is labeled “Screen.” Each set consists of alternating solid and dotted lines. A line from the point on the screen midway between the two slits extends to the center of the screen on the right, toward a label “Max.” Above the Max are other labels on the screen. They are “Min,” “Max,” and another “Min.” Lines run from the screen at the left to those labels at the right. The screen at the right also has a symmetrical arrangement of lines and labels “Min” and “Max” below the central Max. (b) Drawing of semicircles waves moving to the right from two points. (c) A vertical band of closely spaced horizontal red bands. There are about nine bands in the center with a dark space below, four bands that are somewhat dimmer, another dark space, and a still dimmer group of three bands. A symmetrical pattern of red bands and dark spaces and minima appears above the central maximum.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_17_01_2slit2.jpg"/>
+</media>
+<caption>Double slits produce two sources of waves that interfere. (a) Light spreads out (diffracts) from each slit, because the slits are narrow. The waves overlap and interfere constructively (bright lines) and destructively (dark regions). You can only see the effect if the light falls onto a screen and is scattered into your eyes. (b) The double-slit interference pattern for water waves is nearly identical to that for light. Wave action is greatest in regions of constructive interference and least in regions of destructive interference. (c) When light that has passed through double slits falls on a screen, we see a pattern such as this.</caption>
+</figure>
+
+<note id="fs-id1167061426181" class="virtual-physics os-interactive"><title>Wave Interference</title><media id="fs-id1167067067106" alt="This simulation allows you to make waves with a dripping faucet, audio speaker, or laser. You can also add a second source to create an interference pattern, put up a barrier to explore single-slit diffraction and double-slit interference, and experiment with diffraction through elliptical, rectangular, or irregular apertures.">
+<iframe width="660" height="371.4" src="https://openstax.org/l/28interference"/>
+</media>
+<para id="fs-id1167067261759">This simulation demonstrates most of the wave phenomena discussed in this section. First, observe interference between two sources of electromagnetic radiation without adding slits. See how water waves, sound, and light all show interference patterns. Stay with light waves and use only one source. Create diffraction patterns with one slit and then with two. You may have to adjust slit width to see the pattern.</para>
+<!--<para id="fs-id1167067111963"><link class="os-embed" url="#ost/api/ex/k12phys-ch17-ex002"/></para>-->
+<para id="fs-id1164566547914">Visually compare the slit width to the wavelength. When do you get the best-defined diffraction pattern?</para>
+<list id="fs-id1164564947317" list-type="enumerated" number-style="lower-alpha">
+<item>when the slit width is larger than the wavelength</item>
+<item>when the slit width is smaller than the wavelength</item>
+<item>when the slit width is comparable to the wavelength</item>
+<item>when the slit width is infinite</item>
+</list>
+</note></section><section id="fs-id1167063675281"><title>Calculations Involving Diffraction and Interference</title><note id="fs-id1167063480614" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066839244"><span>[BL]</span>The Greek letter  <m:math>
+ <m:mi>θ</m:mi>
+</m:math>  is spelled <emphasis effect="italics">theta</emphasis>. The Greek letter  <m:math>
+ <m:mi>λ</m:mi>
+</m:math>  is spelled <emphasis effect="italics">lamda</emphasis>. Both are pronounced the way you would expect from the spelling. The plurals of <emphasis effect="italics">maximum</emphasis> and <emphasis effect="italics">minimum</emphasis> are <emphasis effect="italics">maxima</emphasis> and <emphasis effect="italics">minima</emphasis>, respectively.</para>
+<para id="fs-id1167061190382"><span>[OL]</span>Explain that <emphasis effect="italics">monochromatic</emphasis> means <emphasis effect="italics">one color. Monochromatic</emphasis> also means <emphasis effect="italics">one frequency</emphasis>. The sine of an angle is the opposite side of a right triangle divided by the hypotenuse. <emphasis effect="italics">Opposite</emphasis> means opposite the given acute angle. Note that the sign of an angle is always ≥ 1.</para>
+</note>
+
+<para id="fs-id1167067038500">The fact that the wavelength of light of one color, or <term>monochromatic</term> light, can be calculated from its two-slit diffraction pattern in Young’s experiments supports the conclusion that light has wave properties. To understand the basis of such calculations, consider how two waves travel from the slits to the screen. Each slit is a different distance from a given point on the screen. Thus different numbers of wavelengths fit into each path. Waves start out from the slits in phase (crest to crest), but they will end up out of phase (crest to trough) at the screen if the paths differ in length by half a wavelength, interfering destructively. If the paths differ by a whole wavelength, then the waves arrive in phase (crest to crest) at the screen, interfering constructively. More generally, if the paths taken by the two waves differ by any half-integral number of wavelengths  <m:math>
+ <m:mrow>
+  <m:mo stretchy="false">(</m:mo><m:mstyle scriptlevel="+1">
+   <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+  </m:mstyle>
+  <m:mi>λ</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext><m:mstyle scriptlevel="+1">
+   <m:mfrac>
+    <m:mn>3</m:mn>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+  </m:mstyle>
+  <m:mi>λ</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext><m:mstyle scriptlevel="+1">
+   <m:mfrac>
+    <m:mn>5</m:mn>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+  </m:mstyle>
+  <m:mi>λ</m:mi><m:mo>,</m:mo><m:mtext> etc</m:mtext><m:mtext>.)</m:mtext>
+ </m:mrow>
+</m:math>, then destructive interference occurs. Similarly, if the paths taken by the two waves differ by any integral number of wavelengths  <m:math>
+ <m:mrow>
+  <m:mo stretchy="false">(</m:mo><m:mi>λ</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>2</m:mn><m:mi>λ</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn><m:mi>λ</m:mi><m:mo>,</m:mo><m:mtext> etc</m:mtext><m:mtext>.)</m:mtext>
+ </m:mrow>
+</m:math>, then constructive interference occurs.</para>
+
+<para id="fs-id1167067202891"><link target-id="Figure_17_01_2slit3"/> shows how to determine the path-length difference for waves traveling from two slits to a common point on a screen. If the screen is a large distance away compared with the distance between the slits, then the angle  <m:math>
+ <m:mi>θ</m:mi>
+</m:math>  between the path and a line from the slits perpendicular to the screen (see the figure) is nearly the same for each path. That approximation and simple trigonometry show the length difference,  <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>L</m:mi></m:mrow>
+</m:math>, to be  <m:math>
+ <m:mrow>
+  <m:mi>d</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi></m:mrow>
+</m:math>, where <emphasis effect="italics">d </emphasis>is the distance between the slits,</para>
+
+<equation id="fs-id1167067034075" class="unnumbered"><label/> <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>L</m:mi><m:mo>=</m:mo><m:mi>d</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi><m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1167060075175">To obtain constructive interference for a double slit, the path-length difference must be an integral multiple of the wavelength, or</para>
+<equation id="fs-id1167063577907" class="unnumbered"><label/>
+ <m:math>
+ <m:mrow>
+  <m:mi>d</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>λ</m:mi><m:mo>,</m:mo><m:mtext> for </m:mtext><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mo>…</m:mo><m:mtext>(constructive).</m:mtext>
+ </m:mrow>
+</m:math>
+
+</equation>
+<para id="fs-id1167067179386">Similarly, to obtain destructive interference for a double slit, the path-length difference must be a half-integral multiple of the wavelength, or</para>
+<equation id="fs-id1167063769633" class="unnumbered"><label/>
+ <m:math>
+ <m:mrow>
+  <m:mi>d</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>½</m:mn><m:mo stretchy="false">)</m:mo><m:mi>λ</m:mi><m:mo>,</m:mo><m:mtext> for </m:mtext><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mo>…</m:mo><m:mtext>(destructive).</m:mtext>
+ </m:mrow>
+</m:math>
+</equation><para id="fs-id1167067040184">The number <emphasis effect="italics">m</emphasis> is the <emphasis effect="italics">order</emphasis> of the interference. For example, <emphasis effect="italics">m </emphasis>= 4 is fourth-order interference.</para>
+
+<figure id="Figure_17_01_2slit3"><media id="fs-id1167067153749" alt="Drawing showing two vertical screens. The screen the left has two slits labeled “S-one” and “S-two.” The screen on the right is labeled “Screen.” Two arrows labeled “L-one” and “L-two” point upward and to the right. They begin at their respective slits and meet at the screen on the right. The distance between slits S-one and S-two is labeled “d,” and that distance is the hypotenuse of a right triangle. The shorter leg of the right triangle is labeled “delta-L.” It extends from the lower slit, S-two, upward and to the right along the arrow leaving slit S-two. The longer leg of the triangle is a line perpendicular to the two light rays and having one end at the upper slit, S-one. The angle of the vertex of the triangle located at slit S-one is labeled “theta.” A formula states  “the distance delta-L as the product of the distance d and the sine of the angle theta.”">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_17_01_2slit3.jpg"/>
+</media>
+
+<caption>The paths from each slit to a common point on the screen differ by an amount  <m:math>
+ <m:mrow>
+  <m:mi>d</m:mi><m:mi> sin </m:mi><m:mi>θ</m:mi></m:mrow>
+</m:math>, assuming the distance to the screen is much greater than the distance between the slits (not to scale here).</caption></figure>
+
+<para id="fs-id1167063667207"><link target-id="Figure_17_01_2slit4"/> shows how the intensity of the bands of constructive interference decreases with increasing angle.</para>
+<figure id="Figure_17_01_2slit4">
+<media id="fs-id1167067068901" alt="Two drawings showing diffraction by two slits. The first drawing, on the left shows, two vertical screens. The screen on the left has two slits separated by a vertical distance labeled “d.” A second screen is shown a to the right of the screen with the slits, separated by a horizontal distance labeled “x.” The vertical screen at the right shows a graph of a series of peaks and valleys that grow horizontally to the left. The tallest peak is at the center, with valleys and successively smaller peaks arranged symmetrically above and below it. A horizontal line runs from the point midway between the slits in the screen at the left through the central peak of the graph. A dotted line runs from that midway point through the first peak above the center. A second dotted line runs from the midway point through the second maximum. Those dotted lines make angles labeled “theta-one” and “theta-two” with the horizontal line. The peaks above the center are distances labeled “y-one” and “y-two” above the center. The second drawing, on the right shows, a vertical array of horizontal bright bands on a black background. They are aligned with the peaks of the graph in the first drawing. The bands are all of the same length but are of differing widths. The widest band is in the center and successively narrower bands are arranged symmetrically above and below it.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_17_01_2slit4.jpg"/>
+</media>
+<caption>The interference pattern for a double slit has an intensity that falls off with angle. The photograph shows multiple bright and dark lines, or fringes, formed by light passing through a double slit.</caption>
+</figure>
+<para id="fs-id1167066879666">Light passing through a single slit forms a diffraction pattern somewhat different from that formed by double slits. <link target-id="Figure_17_01_1slit"/> shows a single-slit diffraction pattern. Note that the central maximum is larger than those on either side, and that the intensity decreases rapidly on either side.</para>
+
+<figure id="Figure_17_01_1slit">
+<media id="fs-id1167067013970" alt="(a) A drawing of a single slit in a vertical screen. The slit has width labeled “D.” (b) Drawing showing two patterns. On the left, a graph has a series of peaks and valleys that grow horizontally to the left. The central peak is largest, with much smaller peaks arranged symmetrically above and below it. To the right of the graph, a second pattern is a vertical array of horizontal bright bands separated by dark bands. They are aligned with the peaks of the graph in the first drawing. The bands are all of the same length but are of differing widths. The widest band is in the center and narrower bands are arranged symmetrically above and below it. (c) A version of the graph of the pattern in drawing (b) rotated so that the peaks grow upward from a horizontal axis. The height of the peaks is labeled “Intensity,” and the central peak is much higher and wider than the other peaks. The horizontal axis is labeled as the “sine of theta,” and the largest, central peak is located at a point on the horizontal axis labeled “zero.” Three valleys are located to the right of the central maximum at distances that are labeled “lambda divided by D,” “two lambda divided by D,” and “three lambda divided by D.” Three other valleys are located to the left of the center at distances that are labeled “negative lambda divided by D,” “negative two lambda divided by D,” and “negative three lambda divided by D.”">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_17_01_1slit.jpg"/>
+</media>
+<caption>(a) Single-slit diffraction pattern. Monochromatic light passing through a single slit produces a central maximum and many smaller and dimmer maxima on either side. The central maximum is six times higher than shown. (b) The drawing shows the bright central maximum and dimmer and thinner maxima on either side. (c) The location of the minima are shown in terms of  <m:math>
+ <m:mi>λ</m:mi>
+</m:math>  and <emphasis effect="italics">D</emphasis>.</caption>
+</figure>
+
+<para id="fs-id1167063693577">The analysis of single-slit diffraction is illustrated in <link target-id="Figure_17_01_1slit2"/>. Assuming the screen is very far away compared with the size of the slit, rays heading toward a common destination are nearly parallel. That approximation allows a series of trigonometric operations that result in the equations for the minima produced by destructive interference.</para>
+<equation id="fs-id1167063644492" class="unnumbered"><label/> <m:math>
+ <m:mrow>
+  <m:mi>D</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>λ</m:mi>
+ </m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1167067106526">or</para>
+<equation id="fs-id1167066871047" class="unnumbered"><label/> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mi>D</m:mi><m:mi>y</m:mi>
+   </m:mrow>
+   <m:mi>L</m:mi>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mi>m</m:mi><m:mi>λ</m:mi> </m:mrow>
+</m:math>
+</equation>
+
+<para id="fs-id1167063579943">When rays travel straight ahead, they remain in phase and a central maximum is obtained. However, when rays travel at an angle  <m:math>
+ <m:mi>θ</m:mi>
+</m:math>  relative to the original direction of the beam, each ray travels a different distance to the screen, and they can arrive in or out of phase. Thus, a ray from the center travels a distance  <m:math>
+ <m:mrow>
+  <m:mi>λ</m:mi><m:mo>/</m:mo><m:mn>2</m:mn>
+ </m:mrow>
+</m:math>  farther than the ray from the top edge of the slit, they arrive out of phase, and they interfere destructively. Similarly, for every ray between the top and the center of the slit, there is a ray between the center and the bottom of the slit that travels a distance  <m:math>
+ <m:mrow>
+  <m:mi>λ</m:mi><m:mo>/</m:mo><m:mn>2</m:mn>
+ </m:mrow>
+</m:math>  farther to the common point on the screen, and so interferes destructively. Symmetrically, there will be another minimum at the same angle below the direct ray.</para>
+
+<figure id="Figure_17_01_1slit2">
+<media id="fs-id1167067315883" alt="Drawing entitled “Destructive interference.” It shows two screens, one on the left having a slit with width labeled “D.” The distance from the slit to the screen on the right is labeled “L.” It is represented as a dashed line that runs through the center of the slit and is perpendicular to both screens. A solid line extends upward and to the right from the center of the slit to strike the screen on the right. That line forms an angle labeled “theta” with the horizontal dashed line. A second solid line, from the top of the slit, extends upward and to the right to strike the same point as the first solid line. That point is a distance labeled “y” above the horizontal dashed line. A formula states that “D times the sine of the angle theta is equal to m times the wavelength lambda.” A second formula states that “D times y divided by L is equal to m times lambda.”">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_17_01_1slit2.jpg"/>
+</media>
+<caption>Equations for a single-slit diffraction pattern, where <emphasis effect="italics">λ</emphasis> is the wavelength of light, <emphasis effect="italics">D</emphasis> is the slit width,  <m:math>
+ <m:mi>θ</m:mi>
+</m:math>  is the angle between a line from the slit to a minimum and a line perpendicular to the screen, <emphasis effect="italics">L</emphasis> is the distance from the slit to the screen, <emphasis effect="italics">y</emphasis> is the distance from the center of the pattern to the minimum, and <emphasis effect="italics">m</emphasis> is a nonzero integer indicating the order of the minimum.</caption>
+</figure>
+
+<para id="fs-id1167066847591">Below we summarize the equations needed for the calculations to follow.</para>
+<para id="fs-id1167060123436">The speed of light in a vacuum, <emphasis effect="italics">c</emphasis>, the wavelength of the light,  <m:math>
+ <m:mi>λ</m:mi>
+</m:math>, and its frequency, <emphasis effect="italics">f</emphasis>, are related as follows.</para>
+
+<equation id="fs-id1167063747649" class="unnumbered"><label/> <m:math>
+ <m:mrow>
+  <m:mi>c</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mi>λ</m:mi>
+ </m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1167067115040">The wavelength of light in a medium,  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>λ</m:mi>
+   <m:mi>n</m:mi>
+  </m:msub>
+
+ </m:mrow>
+</m:math>, compared to its wavelength in a vacuum,  <m:math>
+ <m:mi>λ</m:mi>
+</m:math>, is given by</para>
+<equation id="fs-id1167067068148" class="unnumberd"><label/> <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>λ</m:mi>
+   <m:mi>n</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mi>λ</m:mi>
+   <m:mi>n</m:mi>
+  </m:mfrac>
+  <m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </equation>
+<para id="fs-id1167067174748">To calculate the positions of constructive interference for a double slit, the path-length difference must be an integral multiple, <emphasis effect="italics">m</emphasis>, of the wavelength.  <m:math>
+ <m:mi>λ</m:mi>
+</m:math> </para>
+<equation id="fs-id1167063734598" class="unnumbered"><label/> <m:math>
+ <m:mrow>
+  <m:mi>d</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>λ</m:mi><m:mo>,</m:mo><m:mtext> for </m:mtext><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mo>…</m:mo><m:mtext>(constructive),</m:mtext>
+ </m:mrow>
+</m:math> </equation><para id="fs-id1167063788973">where <emphasis effect="italics">d</emphasis> is the distance between the slits and  <m:math>
+ <m:mi>θ</m:mi>
+</m:math>  is the angle between a line from the slits to the maximum and a line perpendicular to the barrier in which the slits are located. To calculate the positions of destructive interference for a double slit, the path-length difference must be a half-integral multiple of the wavelength:</para>
+<equation id="fs-id1167063606018" class="unnumbered"><label/> <m:math>
+ <m:mrow>
+  <m:mi>d</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>½</m:mn><m:mo stretchy="false">)</m:mo><m:mi>λ</m:mi><m:mo>,</m:mo><m:mtext> for </m:mtext><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mo>…</m:mo><m:mtext>(destructive).</m:mtext>
+ </m:mrow>
+</m:math> </equation>
+
+<para id="fs-id1167063544056">For a single-slit diffraction pattern, the width of the slit, <emphasis effect="italics">D</emphasis>, the distance of the first (<emphasis effect="italics">m</emphasis> = 1) destructive interference minimum, <emphasis effect="italics">y</emphasis>, the distance from the slit to the screen, <emphasis effect="italics">L</emphasis>, and the wavelength,  <m:math>
+ <m:mi>λ</m:mi>
+</m:math>, are given by</para>
+
+<equation id="fs-id1167067250047" class="unnumbered"><label/> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mi>D</m:mi><m:mi>y</m:mi>
+   </m:mrow>
+   <m:mi>L</m:mi>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mi>λ</m:mi><m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math> </equation>
+
+<para id="fs-id1167067204154">Also, for single-slit diffraction,</para>
+<equation id="fs-id1167067193742" class="unnumbered"><label/> <m:math>
+ <m:mrow>
+  <m:mi>D</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>λ</m:mi><m:mtext>,</m:mtext>
+ </m:mrow>
+</m:math> </equation>
+<para id="fs-id1167066804990">where  <m:math>
+ <m:mi>θ</m:mi>
+</m:math>  is the angle between a line from the slit to the minimum and a line perpendicular to the screen, and <emphasis effect="italics">m</emphasis> is the order of the minimum.</para>
+
+<note id="Worked_Example_17_01" class="worked-example"><title>Two-Slit Interference</title>
+<exercise id="fs-id1167067196026" class="17-ex003 unnumbered">
+<label/>
+<problem id="fs-id1167063520740">
+<para id="fs-id1167063912540">Suppose you pass light from a He-Ne laser through two slits separated by 0.0100 mm, and you find that the third bright line on a screen is formed at an angle of 10.95º relative to the incident beam. What is the wavelength of the light?</para>
+
+<note id="fs-id1167063635190"><label/><title>Strategy</title>
+
+<para id="fs-id1167063826615">The third bright line is due to third-order constructive interference, which means that <emphasis effect="italics">m </emphasis>= 3. You are given <emphasis effect="italics">d </emphasis>= 0.0100 mm and  <m:math>
+ <m:mi>θ</m:mi>
+</m:math>  = 10.95º. The wavelength can thus be found using the equation  <m:math>
+ <m:mrow>
+  <m:mi>d</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>λ</m:mi>
+ </m:mrow>
+</m:math>  for constructive interference.</para></note></problem>
+
+<solution id="fs-id1167063885233">
+<label/>
+<title>Solution</title>
+<para id="fs-id1167063496224">The equation is  <m:math>
+ <m:mrow>
+  <m:mi>d</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>λ</m:mi>
+ </m:mrow>
+</m:math> . Solving for the wavelength,  <m:math>
+ <m:mi>λ</m:mi>
+</m:math>, gives</para>
+<equation id="fs-id1164566571027"> <m:math display="block">
+ <m:mrow>
+  <m:mi>λ</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>d</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi>
+   </m:mrow>
+   <m:mi>m</m:mi>
+  </m:mfrac><m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math> </equation>
+
+<para id="fs-id1167063524960">Substituting known values yields</para>
+<equation id="fs-id1164564962284"> <m:math display="block">
+ <m:mrow>
+  <m:mi>λ</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mn>0.0100</m:mn><m:mspace width="0.3em"/><m:mtext> mm</m:mtext>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mi>sin</m:mi><m:mtext> </m:mtext><m:mn>10.95°</m:mn>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>6.33</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>−4</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mtext> mm</m:mtext><m:mo>=</m:mo><m:mn>633</m:mn><m:mspace width="0.3em"/><m:mtext> nm</m:mtext><m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math> </equation></solution>
+<commentary id="fs-id1167067064323">
+<title>Discussion</title>
+<para id="fs-id1167067208949">To three digits, 633 nm is the wavelength of light emitted by the common He-Ne laser. Not by coincidence, this red color is similar to that emitted by neon lights. More important, however, is the fact that interference patterns can be used to measure wavelength. Young did that for visible wavelengths. His analytical technique is still widely used to measure electromagnetic spectra. For a given order, the angle for constructive interference increases with  <m:math>
+ <m:mi>λ</m:mi>
+</m:math>, so spectra (measurements of intensity versus wavelength) can be obtained.</para>
+</commentary>
+</exercise>
+</note><note id="Worked_Example_17_02" class="worked-example"><title>Single-Slit Diffraction</title>
+<exercise id="fs-id1167067316994" class="17-ex004 unnumbered">
+<label/>
+<problem id="fs-id1167067102105">
+<para id="fs-id1167063541097">Visible light of wavelength 550 nm falls on a single slit and produces its second diffraction minimum at an angle of 45.0° relative to the incident direction of the light. What is the width of the slit?</para><note id="fs-id1167067045578"><label/><title>Strategy</title>
+
+<para id="fs-id1167063517285">From the given information, and assuming the screen is far away from the slit, you can use the equation  <m:math>
+ <m:mrow>
+  <m:mi>D</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>λ</m:mi>
+ </m:mrow>
+</m:math>  to find <emphasis effect="italics">D</emphasis>.</para>
+</note></problem>
+
+<solution id="fs-id1167067144690">
+<label/>
+<title>Solution</title>
+<para id="fs-id1167067013974">Quantities given are  <m:math>
+ <m:mi>λ</m:mi>
+</m:math>  = 550 nm, <emphasis effect="italics">m </emphasis>= 2, and  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>θ</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+
+ </m:mrow>
+</m:math>  = 45.0°. Solving the equation  <m:math>
+ <m:mrow>
+  <m:mi>D</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>λ</m:mi>
+ </m:mrow>
+</m:math>  for <emphasis effect="italics">D </emphasis>and substituting known values gives</para><equation id="fs-id1164565217268"> <m:math display="block">
+ <m:mrow>
+  <m:mi>D</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>m</m:mi><m:mi>λ</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mtext>sin</m:mtext><m:mi>θ</m:mi>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>550</m:mn><m:mspace width="0.3em"/><m:mtext> nm</m:mtext><m:mo stretchy="false">)</m:mo>
+   </m:mrow>
+   <m:mrow>
+    <m:mtext>sin</m:mtext><m:mn>45.0°</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>1.56</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>−6</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mtext> m.</m:mtext>
+ </m:mrow>
+</m:math> </equation></solution>
+
+<commentary id="fs-id1167067199646">
+<title>Discussion</title>
+<para id="fs-id1167067088386">You see that the slit is narrow (it is only a few times greater than the wavelength of light). That is consistent with the fact that light must interact with an object comparable in size to its wavelength in order to exhibit significant wave effects, such as this single-slit diffraction pattern.</para>
+</commentary>
+</exercise>
+</note></section><section id="fs-id1167066783203" class="practice-problems">
+<title>Practice Problems</title>
+<exercise id="fs-id1167066811195" class="os-exercise">
+<problem id="fs-id1167066971486">
+<para id="fs-id1167066870589"><link class="os-embed" url="#ost/api/ex/k12phys-ch17-ex005"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167067010907" class="os-exercise">
+<problem id="fs-id1167061558497">
+<!--<para id="fs-id1167066804336"><link class="os-embed" url="#ost/api/ex/k12phys-ch17-ex006"/></para>-->
+<para id="fs-id1164564893199">What is the width of a single slit through which 610-nm orange light passes to form a first diffraction minimum at an angle of 30.0°?</para>
+<list id="fs-id1164564951106" list-type="enumerated" number-style="lower-alpha">
+<item>0.863 µm</item>
+<item>0.704 µm</item>
+<item>0.610 µm</item>
+<item>1.22 µm</item>
+</list>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167067185977" class="check-understanding"><title>Check Your Understanding</title><note id="fs-id1167066877153" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067084365">Use these problems to assess student achievement of the section’s learning objectives. If students are struggling with a specific objective, these problems will help identify which and direct students to the relevant topics.</para>
+</note>
+<exercise id="fs-id1167067145919" class="os-exercise">
+<problem id="fs-id1167063882492">
+<para id="fs-id1167067071671">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch17-ex007"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167063574288" class="os-exercise">
+<problem id="fs-id1167060080893">
+<para id="fs-id1167067074450">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch17-ex008"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166850247853" class="os-exercise">
+<problem id="eip-id1166847529146">
+<para id="eip-id1166850235292">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch17-ot006"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167067064804" class="summary">
+<title>Section Summary</title>
+<list id="fs-id1167066845341">
+<item>The wavelength of light varies with the refractive index of the medium.</item>
+<item>Slits produce a diffraction pattern if their width and separation are similar to the wavelength of light passing through them.</item>
+<item>Interference bands of a single-slit diffraction pattern can be predicted.</item>
+<item>Interference bands of a double-slit diffraction pattern can be predicted.</item>
+</list>
+</section>
+
+<section id="fs-id1167067202332" class="key-equations">
+<title>Key Equations</title>
+<table class="unnumbered unstyled" id="fs-id1167063506505" summary="Table with two columns and six rows. The top left cell reads “Speed of light, frequency, and wavelength,” with the top right cell showing the equation for the speed of light in vacuum as the product of frequency and wavelength. The second left cell reads “Change of wavelength with index of refraction,” with the right cell showing the equation for the wavelength of light in a medium as equal to the wavelength in vacuum divided by the index of refraction of the medium. The third left cell reads “Two-slit constructive interference,” with the right cell showing the product of slit separation and the sine of the angle to a given bright band as equal to the product of the bright-band order (0, 1, −1, 2, −2, …) and the wavelength of the light. The fourth left cell reads “Two-slit destructive interference,” with the right cell showing the product of slit separation and the sine of the angle to a given dark band as equal to the product of the dark-band order (0, 1, −1, 2, −2, …) plus ½ and the wavelength of the light. The fifth left cell reads “One-slit, first-order destructive interference; wavelength related to dimensions,” with the right cell showing the product of slit width and the distance between the central fringe and the first dark band, divided by the distance from the slit to the interference pattern, as equal to the wavelength of the light. The last left cell reads “One-slit destructive interference,” with the right cell showing the product of slit separation and the sine of the angle to a given dark band as equal to the product of the dark-band order (1, −1, 2, −2, …) and the wavelength of the light.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry>speed of light, frequency, and wavelength</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mi>c</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mi>λ</m:mi>
+ </m:mrow>
+</m:math> </entry>
+</row>
+<row>
+<entry>change of wavelength with index of refraction</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>λ</m:mi>
+   <m:mi>n</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mi>λ</m:mi>
+   <m:mi>n</m:mi>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </entry>
+</row>
+<row>
+<entry>two-slit constructive interference</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mi>d</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>λ</m:mi>
+ </m:mrow>
+</m:math>,
+for <emphasis effect="italics">m </emphasis>= 0, 1, −1, 2, −2, …</entry>
+</row>
+<row>
+<entry>two-slit destructive interference</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mi>d</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>½</m:mn><m:mo stretchy="false">)</m:mo><m:mi>λ</m:mi>
+ </m:mrow>
+</m:math>,
+for <emphasis effect="italics">m </emphasis>= 0, 1, −1, 2, −2, …</entry>
+</row>
+<row>
+<entry>one-slit, first-order destructive interference; wavelength related to dimensions</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mi>D</m:mi><m:mi>y</m:mi>
+   </m:mrow>
+   <m:mi>L</m:mi>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mi>λ</m:mi>
+ </m:mrow>
+</m:math> </entry>
+</row>
+<row>
+<entry>one-slit destructive interference</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mi>D</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>λ</m:mi>
+ </m:mrow>
+</m:math> </entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+
+<section id="fs-id1167067031904" class="concept"><title>Concept Items</title>
+<exercise id="fs-id1167066947419" class="os-exercise">
+<problem id="fs-id1167067091421">
+<!--<para id="fs-id1167063709455">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch17-ex009"/>
+</para>-->
+<para id="fs-id1164566552614">Which behavior of light is indicated by an interference pattern?</para>
+<list id="fs-id1164566413700" list-type="enumerated" number-style="lower-alpha">
+<item>ray behavior</item>
+<item>particle behavior</item>
+<item>corpuscular behavior</item>
+<item>wave behavior</item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-id1166849760723" class="os-exercise">
+<problem id="eip-id1166845376547">
+<!--<para id="eip-id1166849253720">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch17-ot009"/>
+</para>-->
+<para id="fs-id1164564793328">Which behavior of light is indicated by diffraction?</para>
+<list id="fs-id1164566912330" list-type="enumerated" number-style="lower-alpha">
+<item>wave behavior</item>
+<item>particle behavior</item>
+<item>ray behavior</item>
+<item>corpuscular behavior</item>
+</list>
+</problem>
+</exercise></section><section id="fs-id1167067276995" class="critical-thinking">
+<title>Critical Thinking</title>
+<exercise id="fs-id1167066770323" class="os-exercise">
+<problem id="fs-id1167061706190">
+<para id="fs-id1167067089115">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch17-ex010"/>
+</para>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167066960046" class="problems">
+<title>Problems</title>
+<exercise id="fs-id1167061444260" class="os-exercise">
+<problem id="fs-id1167063709337">
+<!--<para id="fs-id1167067048504">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch17-ex011"/>
+</para>-->
+<para id="fs-id1164557691340">What is the distance between two slits that produce a diffraction pattern with the first minimum at an angle of 45.0° when 410-nm violet light passes through the slits?</para>
+<list id="fs-id1164564764909" list-type="enumerated" number-style="lower-alpha">
+<item>2,030 nm</item>
+<item>1,450 nm</item>
+<item>410 nm</item>
+<item>290 nm</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067203697" class="os-exercise">
+<problem id="fs-id1167067090604">
+<!--<para id="fs-id1167063762483">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch17-ex012"/>
+</para>-->
+<para id="fs-id1169832952157">A breakwater at the entrance to a harbor consists of a rock barrier with a 50.0 − m -wide opening. Ocean waves with a 20.0-m wavelength approach the opening straight on. At what angle to the incident direction are the boats inside the harbor most protected against wave action?</para>
+<list id="fs-id1169831468808" list-type="enumerated" number-style="lower-alpha">
+<item>11.5°</item>
+<item>7.46°</item>
+<item>5.74°</item>
+<item>23.6°</item></list>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167063608770" class="multiple-choice"><title>Test Prep Multiple Choice</title><exercise id="fs-id1167067202897" class="os-exercise">
+<problem id="fs-id1167067231660">
+<!--<para id="fs-id1167067142460"><link class="os-embed" url="#ost/api/ex/k12phys-ch17-ex013"/>
+</para>-->
+<para id="fs-id1164563570157">Which remains unchanged when a monochromatic beam of light passes from air into water?</para>
+<list id="fs-id1164565147655" list-type="enumerated" number-style="lower-alpha">
+<item>the speed of the light</item>
+<item>the direction of the beam</item>
+<item>the frequency of the light</item>
+<item>the wavelength of the light</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067152803" class="os-exercise">
+<problem id="fs-id1167066945450">
+<!--<para id="fs-id1167063474361"><link class="os-embed" url="#ost/api/ex/k12phys-ch17-ex014"/>
+</para>-->
+<para id="fs-id1169833109791">Two slits are separated by a distance of 3500 nm . If light with a wavelength of 500 nm passes through the slits and produces an interference pattern, the m = ________ order minimum appears at an angle of 30.0°.</para>
+<list id="fs-id1169833238906" list-type="enumerated" number-style="lower-alpha">
+<item>0</item>
+<item>1</item>
+<item>2</item>
+<item>3</item></list>
+</problem>
+</exercise>
+<exercise id="eip-id1166850252492" class="os-exercise">
+<problem id="eip-id1166850222144">
+<!--<para id="eip-id1166847272257">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch17-ot008"/>
+</para>-->
+<para id="fs-id1169833154176">In the sunlight, the shadow of a building has fuzzy edges even if the building does not. Is this a refraction effect? Explain.</para>
+<list id="fs-id1169833176107" list-type="enumerated" number-style="lower-alpha">
+<item>Yes, this is a refraction effect, where every point on the building acts as the origin for a new wavefront.</item>
+<item>Yes, this is a refraction effect, where the whole building acts as the origin for a new wavefront.</item>
+<item>No, this is a diffraction effect, where every point on the edge of the buildings shadow acts as the origin for a new wavefront.</item>
+<item>No, this is a diffraction effect, where the whole building acts as the origin for a new wavefront.</item></list>
+</problem>
+</exercise></section><section id="fs-id1167067054642" class="short-answer">
+<title>Test Prep Short Answer</title>
+<exercise id="fs-id1167067036737" class="os-exercise">
+<problem id="fs-id1167067234421">
+<para id="fs-id1167063583075">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch17-ex015"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167066876963" class="os-exercise">
+<problem id="fs-id1167067019360">
+<para id="fs-id1167060081179">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch17-ex016"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167066959412" class="os-exercise">
+<problem id="fs-id1167067226623">
+<para id="fs-id1167061620081">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch17-ex017"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167063556871" class="os-exercise">
+<problem id="fs-id1167063630336">
+<!--<para id="fs-id1167066938370">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch17-ex018"/>
+</para>-->
+<para id="fs-id1169833060094">What is the longest wavelength of light passing through a single slit of width 1.20 μm for which there is a first-order minimum?</para>
+<list id="fs-id1169829710330" list-type="enumerated" number-style="lower-alpha"><item>1.04 µm</item>
+<item>0.849 µm</item>
+<item>0.600 µm</item>
+<item>2.40 µm</item></list></problem>
+</exercise>
+</section>
+
+<section id="fs-id1167063443950" class="extended-response">
+<title>Test Prep Extended Response</title>
+<exercise id="fs-id1167066878195" class="os-exercise">
+<problem id="fs-id1167067198204">
+<para id="fs-id1167067146630">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch17-ex019"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167063892006" class="os-exercise"><problem id="fs-id1167066875010">
+<para id="fs-id1167063631966">A double slit is located at a distance <emphasis effect="italics">x</emphasis> from a screen, with the distance along the screen from the center given by <emphasis effect="italics">y</emphasis> . When the distance <emphasis effect="italics">d</emphasis> between the slits is relatively large, there will be numerous bright bands.</para><para id="eip-idm303588032">
+For small angles (where sin<emphasis effect="italics">θ</emphasis> = <emphasis effect="italics">θ</emphasis>, with <emphasis effect="italics">θ</emphasis> in radians), what is the distance between fringes?
+</para>
+
+<list id="eip-idm648651024" list-type="enumerated" number-style="lower-alpha"><item> <m:math><m:mrow>
+<m:mi>Δ</m:mi><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>x</m:mi><m:mi>λ</m:mi></m:mrow></m:mfrac>
+</m:mrow></m:math> </item>
+
+<item> <m:math><m:mrow>
+<m:mi>Δ</m:mi><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mi>d</m:mi></m:mrow><m:mi>λ</m:mi></m:mfrac>
+</m:mrow></m:math> </item>
+
+<item> <m:math><m:mrow>
+<m:mi>Δ</m:mi><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>λ</m:mi><m:mrow><m:mi>x</m:mi><m:mi>d</m:mi></m:mrow></m:mfrac>
+</m:mrow></m:math> </item>
+
+<item> <m:math><m:mrow>
+<m:mi>Δ</m:mi><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mi>λ</m:mi></m:mrow><m:mi>d</m:mi></m:mfrac>
+</m:mrow></m:math> </item></list></problem>
+</exercise></section>
+</content>
+<glossary>
+<definition id="fs-id1167064737770"><term>diffraction</term>
+<meaning id="fs-id1167064737774">bending of a wave around the edges of an opening or an obstacle</meaning></definition>
+<definition id="fs-id1167064737778"><term>Huygens’s principle</term>
+<meaning id="fs-id1167064737782">Every point on a wavefront is a source of wavelets that spread out in the forward direction at the same speed as the wave itself; the new wavefront is a line tangent to all of the wavelets.</meaning></definition>
+<definition id="fs-id1167064690862"><term>monochromatic</term>
+<meaning id="fs-id1167064690866">one color</meaning></definition>
+<definition id="fs-id1167064690869"><term>wavefront</term>
+<meaning id="fs-id1167064690873">points on a wave surface that all share an identical, constant phase</meaning></definition>
+</glossary>
+</document>

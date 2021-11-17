@@ -1,0 +1,937 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Heat, Specific Heat, and Heat Transfer</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54290</md:content-id>
+  <md:title>Heat, Specific Heat, and Heat Transfer</md:title>
+  <md:abstract/>
+  <md:uuid>e0188041-53ac-4ab4-8a98-971fec4ea586</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167064945041" class="learning-objectives"><label/><title>Section Learning Objectives</title>
+<para id="fs-id1167066046271">By the end of this section, you will be able to do the following:</para>
+<list id="fs-id1167066089100">
+<item>Explain heat, heat capacity, and specific heat</item>
+<item>Distinguish between conduction, convection, and radiation</item>
+<item>Solve problems involving specific heat and heat transfer</item>
+</list>
+</note><note id="fs-id1167064829763" class="os-teacher"><title>Teacher Support</title>
+<para id="fs-id1167064927199">The learning objectives in this section will help your students master the following standards:</para>
+<list id="fs-id1167064896923">
+<item>(6) Science concepts. The student knows that changes occur within a physical system and applies the laws of conservation of energy and momentum. The student is expected to:
+<list id="fs-id1167062888083"><item>
+<span>(F)</span>
+<span>contrast and give examples of different processes of thermal energy transfer, including conduction, convection, and radiation.</span>
+</item>
+</list></item>
+</list>
+</note>
+<section id="keyterms"><title>Section Key Terms</title>
+<table id="fs-id1167064875272" class="unnumbered unstyled section-key-terms" summary="no alt text">
+<label/>
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+<row>
+<entry>conduction</entry>
+<entry>convection</entry>
+<entry>heat capacity</entry>
+<entry>radiation</entry>
+<entry>specific heat</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<note id="fs-id1167065086814" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065956324"><span>[BL]</span><span>[OL]</span><span>[AL]</span> Review concepts of heat, temperature, and mass.</para>
+<para id="fs-id1167065911580"><span>[AL]</span> Check prior knowledge of conduction and convection.</para>
+</note>
+<section id="fs-id1167065937889">
+<title>Heat Transfer, Specific Heat, and Heat Capacity</title>
+<para id="fs-id1167064914552">We learned in the previous section that temperature is proportional to the average kinetic energy of atoms and molecules in a substance, and that the average internal kinetic energy of a substance is higher when the substance’s temperature is higher.</para>
+<para id="fs-id1167065945168">If two objects at different temperatures are brought in contact with each other, energy is transferred from the hotter object (that is, the object with the greater temperature) to the colder (lower temperature) object, until both objects are at the same temperature. There is no net heat transfer once the temperatures are equal because the amount of heat transferred from one object to the other is the same as the amount of heat returned. One of the major effects of heat transfer is temperature change: Heating increases the temperature while cooling decreases it. Experiments show that the heat transferred to or from a substance depends on three factors—the change in the substance’s temperature, the mass of the substance, and certain physical properties related to the phase of the substance.</para>
+ <para id="fs-id1167065055402">The equation for heat transfer <emphasis effect="italics">Q</emphasis> is</para>
+<para id="fs-id1167065838692"><equation id="fs-id1164564492113"> <m:math display="block">
+ <m:mrow>
+  <m:mi>Q</m:mi><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mi>m</m:mi><m:mi>c</m:mi><m:mi>Δ</m:mi><m:mi>T</m:mi><m:mi>,</m:mi></m:mrow>
+</m:math> </equation></para>
+<para id="fs-id1167064892499">where <emphasis effect="italics">m </emphasis>is the mass of the substance and Δ<emphasis effect="italics">T </emphasis>is the change in its temperature, in units of Celsius or Kelvin. The symbol <emphasis effect="italics">c </emphasis>stands for <term>specific heat</term>, and depends on the material and phase. The specific heat is the amount of heat necessary to change the temperature of 1.00 kg of mass by 1.00 ºC. The specific heat <emphasis effect="italics">c </emphasis>is a property of the substance; its SI unit is J/(kg <m:math>
+ <m:mo>⋅</m:mo>
+</m:math> K) or J/(kg <m:math>
+ <m:mo>⋅</m:mo>
+</m:math>  <m:math>
+ <m:mrow>
+  <m:mtext>°C</m:mtext></m:mrow>
+</m:math> ). The temperature change ( <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>T</m:mi></m:mrow>
+</m:math> ) is the same in units of kelvins and degrees Celsius (but not degrees Fahrenheit). Specific heat is closely related to the concept of <term>heat capacity</term>. Heat capacity is the amount of heat necessary to change the temperature of a substance by 1.00 <m:math>
+ <m:mrow>
+  <m:mtext>°C</m:mtext></m:mrow>
+</m:math> . In equation form, heat capacity <emphasis effect="italics">C</emphasis> is  <m:math>
+<m:mrow>
+  <m:mi>C</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>c</m:mi></m:mrow>
+</m:math>, where <emphasis effect="italics">m</emphasis> is mass and <emphasis effect="italics">c</emphasis> is specific heat. Note that heat capacity is the same as specific heat, but without any dependence on mass. Consequently, two objects made up of the same material but with different masses will have different heat capacities. This is because the heat capacity is a property of an object, but specific heat is a property of <emphasis effect="italics">any</emphasis> object made of the same material.</para><para id="fs-id1167062325559">Values of specific heat must be looked up in tables, because there is no simple way to calculate them. <link target-id="Table_11_02"/> gives the values of specific heat for a few substances as a handy reference. We see from this table that the specific heat of water is five times that of glass, which means that it takes five times as much heat to raise the temperature of 1 kg of water than to raise the temperature of 1 kg of glass by the same number of degrees.</para><note id="fs-id1167065971868" class="os-teacher"><title>Teacher Support</title>
+<para id="fs-id1167065858700"><span>[BL]</span><span>[OL]</span><span>[AL]</span>Explain that this formula only works when there is no change in phase of the substance. The transfer of thermal energy, heat, and phase change will be covered later in the chapter.</para>
+<note id="fs-id1167064710278" class="misconception">
+
+<para id="fs-id1167065073044">The units of specific heat are J/(kg <m:math>
+ <m:mrow>
+  <m:mo>⋅</m:mo><m:mtext>°C</m:mtext></m:mrow>
+</m:math> ) and J/(kg <m:math>
+ <m:mo>⋅</m:mo>
+</m:math> K). However, degrees Celsius and Kelvins are not always interchangeable. The formula for specific heat uses a difference in temperature and not absolute temperature. This is the reason that degrees Celsius may be used in place of Kelvins.</para></note>
+</note><table id="Table_11_02" summary="Left column of table is headed “Substances,” while right column heading is “Specific Heat (c).” The left column lists twelve solids gases, five liquids, and six gases at 1 atm pressure. The right column lists each substance’s specific heat capacity in units of joules per kilogram-degree Celsius."><title>Specific Heats of Various Substances.</title>
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row>
+<entry>Substances</entry>
+<entry>Specific Heat (<emphasis effect="italics">c</emphasis>)</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry><emphasis effect="italics">Solids</emphasis></entry>
+<entry>J/(kg <m:math>
+ <m:mrow>
+  <m:mo>⋅</m:mo><m:mtext>°C</m:mtext></m:mrow>
+</m:math> )</entry>
+</row>
+<row>
+<entry>Aluminum</entry>
+<entry>900</entry>
+</row>
+<row>
+<entry>Asbestos</entry>
+<entry>800</entry>
+</row>
+<row>
+<entry>Concrete, granite (average)</entry>
+<entry>840</entry>
+</row>
+<row>
+<entry>Copper</entry>
+<entry>387</entry>
+</row>
+<row>
+<entry>Glass</entry>
+<entry>840</entry>
+</row>
+<row>
+<entry>Gold</entry>
+<entry>129</entry>
+</row>
+<row>
+<entry>Human body (average)</entry>
+<entry>3500</entry>
+</row>
+<row>
+<entry>Ice (average)</entry>
+<entry>2090</entry>
+</row>
+<row>
+<entry>Iron, steel</entry>
+<entry>452</entry>
+</row>
+<row>
+<entry>Lead</entry>
+<entry>128</entry>
+</row>
+<row>
+<entry>Silver</entry>
+<entry>235</entry>
+</row>
+<row>
+<entry>Wood</entry>
+<entry>1700</entry>
+</row>
+<row>
+<entry><emphasis effect="italics">Liquids</emphasis></entry>
+<entry/>
+</row>
+<row>
+<entry>Benzene</entry>
+<entry>1740</entry>
+</row>
+<row>
+<entry>Ethanol</entry>
+<entry>2450</entry>
+</row>
+<row>
+<entry>Glycerin</entry>
+<entry>2410</entry>
+</row>
+<row>
+<entry>Mercury</entry>
+<entry>139</entry>
+</row>
+<row>
+<entry>Water</entry>
+<entry>4186</entry>
+</row>
+<row>
+<entry><emphasis effect="italics">Gases (at 1 atm constant pressure)</emphasis></entry>
+<entry/>
+</row>
+<row>
+<entry>Air (dry)</entry>
+<entry>1015</entry>
+</row>
+<row>
+<entry>Ammonia</entry>
+<entry>2190</entry>
+</row>
+<row>
+<entry>Carbon dioxide</entry>
+<entry>833</entry>
+</row>
+<row>
+<entry>Nitrogen</entry>
+<entry>1040</entry>
+</row>
+<row>
+<entry>Oxygen</entry>
+<entry>913</entry>
+</row>
+<row>
+<entry>Steam</entry>
+<entry>2020</entry>
+</row>
+</tbody>
+
+
+
+</tgroup>
+</table><note id="fs-id1167065943303" class="snap-lab"><title>Temperature Change of Land and Water</title>
+
+<para id="fs-id1167065023853">What heats faster, land or water? You will answer this question by taking measurements to study differences in specific heat capacity.</para>
+<list id="fs-id1167063004276" class="warnings">
+<item>Open flame—Tie back all loose hair and clothing before igniting an open flame. Follow all of your teacher's instructions on how to ignite the flame. Never leave an open flame unattended. Know the location of fire safety equipment in the laboratory.</item>
+</list><list id="fs-id1167064922347" class="materials">
+
+<item>Sand or soil</item>
+<item>Water</item>
+<item>Oven or heat lamp</item>
+<item>Two small jars</item>
+<item>Two thermometers</item>
+</list>
+
+<para id="fs-id1164566013954">Instructions</para>
+<list id="fs-id1167065823034" list-type="enumerated">
+<title>Procedure</title>
+<item>Place equal masses of dry sand (or soil) and water at the same temperature into two small jars. (The average density of soil or sand is about 1.6 times that of water, so you can get equal masses by using 50 percent more water by volume.)</item>
+<item>Heat both substances (using an oven or a heat lamp) for the same amount of time.</item>
+<item>Record the final temperatures of the two masses.</item>
+<item>Now bring both jars to the same temperature by heating for a longer period of time.</item>
+<item>Remove the jars from the heat source and measure their temperature every 5 minutes for about 30 minutes.</item>
+</list>
+<exercise id="fs-id1167062572901" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167064875679">
+<para id="fs-id1167065773312">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex020"/>
+</para>
+</problem>
+</exercise>
+</note></section>
+<section id="fs-id1167066034749"><title>Conduction, Convection, and Radiation</title><para id="fs-id1167064903342">Whenever there is a temperature difference, heat transfer occurs. Heat transfer may happen rapidly, such as through a cooking pan, or slowly, such as through the walls of an insulated cooler.</para>
+<para id="fs-id1167064899898">There are three different heat transfer methods: <term>conduction</term>, <term>convection</term>, and <term>radiation</term>. At times, all three may happen simultaneously. See <link target-id="Figure_11_02_Fireplace"/>.</para>
+<figure id="Figure_11_02_Fireplace"><media id="fs-id1167065969893" alt="Hot air rises up the chimney, cold air comes in through the window, and heat radiates into the room from the fireplace.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_11_02_Fireplace.jpg"/>
+</media>
+
+<caption>In a fireplace, heat transfer occurs by all three methods: conduction, convection, and radiation. Radiation is responsible for most of the heat transferred into the room. Heat transfer also occurs through conduction into the room, but at a much slower rate. Heat transfer by convection also occurs through cold air entering the room around windows and hot air leaving the room by rising up the chimney.</caption></figure><para id="fs-id1167065035104">Conduction is heat transfer through direct physical contact. Heat transferred between the electric burner of a stove and the bottom of a pan is transferred by conduction. Sometimes, we try to control the conduction of heat to make ourselves more comfortable. Since the rate of heat transfer is different for different materials, we choose fabrics, such as a thick wool sweater, that slow down the transfer of heat away from our bodies in winter.</para>
+<para id="fs-id1167065969953">As you walk barefoot across the living room carpet, your feet feel relatively comfortable…until you step onto the kitchen’s tile floor. Since the carpet and tile floor are both at the same temperature, why does one feel colder than the other? This is explained by different rates of heat transfer: The tile material removes heat from your skin at a greater rate than the carpeting, which makes it <emphasis effect="italics">feel</emphasis> colder.</para>
+<note id="fs-id1167065820213" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167062890208"><span>[BL]</span><span>[OL]</span><span>[AL]</span> Ask students what the current temperature in the classroom is. Ask them if all the objects in the room are at the same temperature. Once this is established, ask them to place their hand on their desk or on a metal object. Does it feel colder? Why? If their desk is Formica laminate, then it will feel cool to their hand because the laminate is a good conductor of heat and draws heat from their hand creating a sensation of “cold” due to heat leaving the body.</para>
+</note>
+
+<para id="fs-id1167064993799">Some materials simply conduct thermal energy faster than others. In general, metals (like copper, aluminum, gold, and silver) are good heat conductors, whereas materials like wood, plastic, and rubber are poor heat conductors.</para>
+ <para id="fs-id1167065870586"><link target-id="Figure_11_02_Conduction"/> shows particles (either atoms or molecules) in two bodies at different temperatures. The (average) kinetic energy of a particle in the hot body is higher than in the colder body. If two particles collide, energy transfers from the particle with greater kinetic energy to the particle with less kinetic energy. When two bodies are in contact, many particle collisions occur, resulting in a net flux of heat from the higher-temperature body to the lower-temperature body. The heat flux depends on the temperature difference  <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>T</m:mi><m:mo>=</m:mo><m:msub>
+   <m:mi>T</m:mi>
+   <m:mrow>
+    <m:mtext>hot</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>−</m:mo><m:msub>
+   <m:mi>T</m:mi>
+   <m:mrow>
+    <m:mtext>cold</m:mtext></m:mrow>
+  </m:msub>
+  </m:mrow>
+</m:math> . Therefore, you will get a more severe burn from boiling water than from hot tap water.</para>
+
+<figure id="Figure_11_02_Conduction"><media id="fs-id1167064881979" alt="A particle in the lower-temperature region collides with a particle in the higher-temperature region. After the collision, the energy (represented by velocity vectors) of the particle in the higher-temperature region decreases, and the energy of the particle in the lower-temperature region increases.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_11_02_Conduction.jpg"/>
+</media>
+
+<caption>The particles in two bodies at different temperatures have different average kinetic energies. Collisions occurring at the contact surface tend to transfer energy from high-temperature regions to low-temperature regions. In this illustration, a particle in the lower-temperature region (right side) has low kinetic energy before collision, but its kinetic energy increases after colliding with the contact surface. In contrast, a particle in the higher-temperature region (left side) has more kinetic energy before collision, but its energy decreases after colliding with the contact surface.</caption>
+</figure>
+ <para id="fs-id1167065972910">Convection is heat transfer by the movement of a fluid. This type of heat transfer happens, for example, in a pot boiling on the stove, or in thunderstorms, where hot air rises up to the base of the clouds.</para>
+
+<note id="fs-id1167064686284" class="tips-for-success">
+<para id="fs-id1167065058190">In everyday language, the term <emphasis effect="italics">fluid</emphasis> is usually taken to mean liquid. For example, when you are sick and the doctor tells you to “push fluids,” that only means to drink more beverages—not to breath more air. However, in physics, fluid means a liquid <emphasis effect="italics">or a gas</emphasis>. Fluids move differently than solid material, and even have their own branch of physics, known as <emphasis effect="italics">fluid dynamics</emphasis>, that studies how they move.</para>
+</note><para id="fs-id1167066032304">As the temperature of fluids increase, they expand and become less dense. For example, <link target-id="Figure_11_02_Conduction"/> could represent the wall of a balloon with different temperature gases inside the balloon than outside in the environment.  The hotter and thus faster moving gas particles inside the balloon strike the surface with more force than the cooler air outside, causing the balloon to expand. This decrease in density relative to its environment creates buoyancy (the tendency to rise). Convection is driven by buoyancy—hot air rises because it is less dense than the surrounding air. </para>
+<para id="fs-id1167065073400">Sometimes, we control the temperature of our homes or ourselves by controlling air movement. Sealing leaks around doors with weather stripping keeps out the cold wind in winter. The house in <link target-id="Figure_11_02_ConvHouse"/> and the pot of water on the stove in <link target-id="Figure_11_02_ConvectPot"/> are both examples of convection and buoyancy by human design. Ocean currents and large-scale atmospheric circulation transfer energy from one part of the globe to another, and are examples of natural convection.</para>
+<figure id="Figure_11_02_ConvHouse"><media id="fs-id1167066104753" alt="Hot air rises from the furnace, circulates along the ceiling, cools, sinks, and returns to be heated again by the furnace, forming a convective loop in a house.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_11_02_ConvHouse.jpg"/>
+</media>
+
+<caption>Air heated by the so-called gravity furnace expands and rises, forming a convective loop that transfers energy to other parts of the room. As the air is cooled at the ceiling and outside walls, it contracts, eventually becoming denser than room air and sinking to the floor. A properly designed heating system like this one, which uses natural convection, can be quite efficient in uniformly heating a home.</caption>
+ </figure>
+ <figure id="Figure_11_02_ConvectPot"><media id="fs-id1167064540494" alt="Heating water circulates in a pot heated on top of a burner on the stove.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_11_02_ConvectPot.jpg"/>
+</media>
+
+<caption>Convection plays an important role in heat transfer inside this pot of water. Once conducted to the inside fluid, heat transfer to other parts of the pot is mostly by convection. The hotter water expands, decreases in density, and rises to transfer heat to other regions of the water, while colder water sinks to the bottom. This process repeats as long as there is water in the pot.</caption></figure><para id="fs-id1167066091544">Radiation is a form of heat transfer that occurs when electromagnetic radiation is emitted or absorbed. Electromagnetic radiation includes radio waves, microwaves, infrared radiation, visible light, ultraviolet radiation, X-rays, and gamma rays, all of which have different wavelengths and amounts of energy (shorter wavelengths have higher frequency and more energy).</para>
+
+<note id="fs-id1167065696858" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065845912"><span>[BL]</span><span>[OL]</span> Electromagnetic waves are also often referred to as EM waves. We perceive EM waves of different frequencies differently. Just as we are able to see certain frequencies as visible light, we perceive certain others as heat.</para>
+</note>
+
+<para id="fs-id1167062351113">You can feel the heat transfer from a fire and from the sun. Similarly, you can sometimes tell that the oven is hot without touching its door or looking inside—it may just warm you as you walk by. Another example is thermal radiation from the human body; people are constantly emitting infrared radiation, which is not visible to the human eye, but is felt as heat.</para>
+<para id="fs-id1167062890228">Radiation is the only method of heat transfer where no medium is required, meaning that the heat doesn’t need to come into direct contact with or be transported by any matter. The space between Earth and the sun is largely empty, without any possibility of heat transfer by convection or conduction. Instead, heat is transferred by radiation, and Earth is warmed as it absorbs electromagnetic radiation emitted by the sun.</para>
+
+<figure id="Figure_11_02_Fire"><media id="fs-id1167064850969" alt="Image of a raging fire..">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_11_02_Fire.jpg"/>
+</media>
+
+<caption>Most of the heat transfer from this fire to the observers is through infrared radiation. The visible light transfers relatively little thermal energy. Since skin is very sensitive to infrared radiation, you can sense the presence of a fire without looking at it directly. (Daniel X. O’Neil)</caption>
+</figure>
+ <para id="fs-id1167064818693">All objects absorb and emit electromagnetic radiation (see <link target-id="Figure_11_02_Fire"/>). The rate of heat transfer by radiation depends mainly on the color of the object. Black is the most effective absorber and radiator, and white is the least effective. People living in hot climates generally avoid wearing black clothing, for instance. Similarly, black asphalt in a parking lot will be hotter than adjacent patches of grass on a summer day, because black absorbs better than green. The reverse is also true—black radiates better than green. On a clear summer night, the black asphalt will be colder than the green patch of grass, because black radiates energy faster than green. In contrast, white is a poor absorber and also a poor radiator. A white object reflects nearly all radiation, like a mirror. </para>
+
+<note id="fs-id1167066034170" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065683983">Ask students to give examples of conduction, convection, and radiation.</para>
+</note>
+
+<note id="fs-id1167065001004" class="virtual-physics os-interactive"><title>Energy Forms and Changes</title>
+<media id="fs-id1167066051292" alt="This simulation allows you to explore how heating and cooling iron, brick, water, and olive oil adds or removes energy.">
+<iframe width="660" height="371.4" src="https://openstax.org/l/28energyForms"/></media>
+<para id="eip-id1167064541259">In this animation, you will explore heat transfer with different materials. Experiment with heating and cooling the iron, brick, and water. This is done by dragging and dropping the object onto the pedestal and then holding the lever either to Heat or Cool. Drag a thermometer beside each object to measure its temperature—you can watch how quickly it heats or cools in real time.</para>
+  <para id="fs-id1167065853364">Now let’s try transferring heat between objects. Heat the brick and then place it in the cool water. Now heat the brick again, but then place it on top of the iron. What do you notice?</para>
+<para id="fs-id1167064818907">Selecting the fast forward option lets you speed up the heat transfers, to save time.</para>
+<exercise id="fs-id1167066163340" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167062343002">
+<para id="fs-id1167065938751"><link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex021"/></para>
+</problem>
+</exercise>
+
+<note id="fs-id1167065983763" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065944136">Have students consider the differences in the interactive exercise results if different materials were used. For example, ask them whether the temperature change would be greater or smaller if the brick were replaced with a block of iron with the same mass as the brick. Ask students to consider identical masses of the metals aluminum, gold, and copper. After they have stated whether the temperature change is greater or less for each metal, have them refer to <link target-id="Table_11_02"/> and check whether their predictions were correct.</para>
+</note>
+</note></section><section id="fs-id1167064772527">
+<title>Solving Heat Transfer Problems</title>
+<note id="Worked_Example_11_03" class="worked-example"><title>Calculating the Required Heat: Heating Water in an Aluminum Pan</title>
+
+
+<exercise id="fs-id1167062570938" class="11-ex022 unnumbered">
+<label/>
+<problem id="fs-id1167065687533">
+ <para id="fs-id1167062377097">A 0.500 kg aluminum pan on a stove is used to heat 0.250 L of water from 20.0 <m:math>
+ <m:mrow>
+  <m:mtext>°C</m:mtext></m:mrow>
+</m:math>  to 80.0 <m:math>
+ <m:mrow>
+  <m:mtext>°C</m:mtext></m:mrow>
+</m:math> . (a) How much heat is required? What percentage of the heat is used to raise the temperature of (b) the pan and (c) the water?</para>
+
+<note id="fs-id1167066097544"><label/><title>Strategy</title>
+
+<para id="fs-id1167065942346">The pan and the water are always at the same temperature. When you put the pan on the stove, the temperature of the water and the pan is increased by the same amount. We use the equation for heat transfer for the given temperature change and masses of water and aluminum. The specific heat values for water and aluminum are given in the previous table.</para>
+</note></problem>
+
+<solution id="fs-id1167065039658">
+<label/>
+<title>Solution to (a)</title>
+<para id="fs-id1167066032206">Because the water is in thermal contact with the aluminum, the pan and the water are at the same temperature.</para>
+<list id="fs-id1167065956185" list-type="enumerated">
+<item>Calculate the temperature difference.
+<para id="fs-id1167066145954"><equation id="fs-id1164567618756"> <m:math display="block">
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>T</m:mi><m:mo>=</m:mo><m:msub>
+   <m:mi>T</m:mi>
+   <m:mi>f</m:mi>
+  </m:msub>
+  <m:mo>−</m:mo><m:msub>
+   <m:mi>T</m:mi>
+   <m:mi>i</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>60.0</m:mn><m:mspace width="0.3em"/><m:mtext>°C</m:mtext></m:mrow>
+</m:math> </equation></para></item>
+<item>Calculate the mass of water using the relationship between density, mass, and volume. Density is mass per unit volume, or  <m:math>
+ <m:mrow>
+  <m:mi>ρ</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mi>m</m:mi>
+   <m:mi>V</m:mi>
+  </m:mfrac>
+  </m:mrow>
+</m:math> . Rearranging this equation, solve for the mass of water.
+<para id="fs-id1167065061538"><equation id="fs-id1164567224149"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>m</m:mi>
+   <m:mi>w</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mi>ρ</m:mi><m:mo>⋅</m:mo><m:mi>V</m:mi><m:mo>=</m:mo><m:mn>1000</m:mn><m:msup>
+   <m:mrow>
+    <m:mtext> kg/m</m:mtext></m:mrow>
+   <m:mtext>3</m:mtext>
+  </m:msup>
+  <m:mtext>×</m:mtext><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mtext>0</m:mtext><m:mtext>.250 L×</m:mtext><m:mfrac>
+     <m:mrow>
+      <m:mtext>0</m:mtext><m:msup>
+       <m:mrow>
+        <m:mtext>.001 m</m:mtext></m:mrow>
+       <m:mtext>3</m:mtext>
+      </m:msup>
+      </m:mrow>
+     <m:mrow>
+      <m:mtext>1 L</m:mtext></m:mrow>
+    </m:mfrac>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mtext>=0</m:mtext><m:mtext>.250 kg</m:mtext></m:mrow>
+</m:math> </equation></para>
+</item>
+<item>Calculate the heat transferred to the water. Use the specific heat of water in the previous table.
+<para id="fs-id1167064982447"><equation id="fs-id1164567183729"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>Q</m:mi>
+   <m:mi>w</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>m</m:mi>
+   <m:mi>w</m:mi>
+  </m:msub>
+  <m:msub>
+   <m:mi>c</m:mi>
+   <m:mi>w</m:mi>
+  </m:msub>
+  <m:mi>Δ</m:mi><m:mi>T</m:mi><m:mo>=</m:mo><m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>0.250</m:mn><m:mspace width="0.3em"/><m:mtext> kg</m:mtext></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mtext>4186 J/kg</m:mtext><m:mtext>°C</m:mtext></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mtext>60</m:mtext><m:mtext>.0</m:mtext><m:mtext>°C</m:mtext></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mtext> = 62</m:mtext><m:mtext>.8 kJ</m:mtext></m:mrow>
+</m:math> </equation></para></item>
+<item>Calculate the heat transferred to the aluminum. Use the specific heat for aluminum in the previous table.
+<para id="fs-id1167065891189"><equation id="fs-id1164567257829"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>Q</m:mi>
+   <m:mrow>
+    <m:mi>A</m:mi><m:mi>l</m:mi></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>m</m:mi>
+   <m:mrow>
+    <m:mi>A</m:mi><m:mi>l</m:mi></m:mrow>
+  </m:msub>
+  <m:msub>
+   <m:mi>c</m:mi>
+   <m:mrow>
+    <m:mi>A</m:mi><m:mi>l</m:mi></m:mrow>
+  </m:msub>
+  <m:mi>Δ</m:mi><m:mi>T</m:mi><m:mo>=</m:mo><m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>0.500</m:mn><m:mspace width="0.3em"/><m:mtext> kg</m:mtext></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mtext>900 J/kg</m:mtext><m:mtext>°C</m:mtext></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mtext>60</m:mtext><m:mtext>.0</m:mtext><m:mtext>°C</m:mtext></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mtext> = 27</m:mtext><m:msup>
+   <m:mrow>
+    <m:mtext>.0 ×10</m:mtext></m:mrow>
+   <m:mn>3</m:mn>
+  </m:msup>
+  <m:mtext>J = 27</m:mtext><m:mtext>.0 kJ</m:mtext></m:mrow>
+</m:math> </equation></para></item>
+<item>Find the total transferred heat.
+<para id="fs-id1167064919701"><equation id="fs-id1164565391987"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>Q</m:mi>
+   <m:mrow>
+    <m:mi>T</m:mi><m:mi>o</m:mi><m:mi>t</m:mi><m:mi>a</m:mi><m:mi>l</m:mi></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>Q</m:mi>
+   <m:mi>w</m:mi>
+  </m:msub>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>Q</m:mi>
+   <m:mrow>
+    <m:mi>A</m:mi><m:mi>l</m:mi></m:mrow>
+  </m:msub>
+  <m:mtext>= 62</m:mtext><m:mtext>.8 kJ + 27</m:mtext><m:mtext>.0 kJ = 89</m:mtext><m:mtext>.8 kJ</m:mtext></m:mrow>
+</m:math> </equation></para></item>
+</list>
+</solution>
+
+<solution id="fs-id1167062509460">
+<label/>
+<title>Solution to (b)</title>
+<para id="fs-id1167064869632">The percentage of heat going into heating the pan is</para>
+<para id="fs-id1167064903608"><equation id="fs-id1164565408919"> <m:math display="block">
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mn>27.0</m:mn><m:mspace width="0.3em"/><m:mtext> kJ</m:mtext></m:mrow>
+   <m:mrow>
+    <m:mtext>89</m:mtext><m:mtext>.8 kJ</m:mtext></m:mrow>
+  </m:mfrac>
+  <m:mo>×</m:mo><m:mn>100</m:mn><m:mi>%</m:mi><m:mo>=</m:mo><m:mn>30.1</m:mn><m:mi>%</m:mi></m:mrow>
+</m:math> </equation></para>
+</solution>
+
+<solution id="fs-id1167062541969">
+<label/>
+<title>Solution to (c)</title>
+<para id="fs-id1167064585653">The percentage of heat going into heating the water is</para>
+<para id="fs-id1167064758047"><equation id="fs-id1164565292929"> <m:math display="block">
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mtext>62</m:mtext><m:mtext>.8 kJ</m:mtext></m:mrow>
+   <m:mrow>
+    <m:mtext>89</m:mtext><m:mtext>.8 kJ</m:mtext></m:mrow>
+  </m:mfrac>
+  <m:mo>×</m:mo><m:mn>100</m:mn><m:mi>%</m:mi><m:mo>=</m:mo><m:mtext>69</m:mtext><m:mtext>.9</m:mtext><m:mi>%</m:mi></m:mrow>
+</m:math> </equation></para>
+</solution>
+
+<commentary id="fs-id1167065914623">
+<title>Discussion</title>
+<para id="fs-id1167065970265">In this example, most of the total heat transferred is used to heat the water, even though the pan has twice as much mass. This is because the specific heat of water is over four times greater than the specific heat of aluminum. Therefore, it takes a bit more than twice as much heat to achieve the given temperature change for the water than for the aluminum pan.</para>
+<para id="fs-id1167062373065">Water can absorb a tremendous amount of energy with very little resulting temperature change. This property of water allows for life on Earth because it stabilizes temperatures. Other planets are less habitable because wild temperature swings make for a harsh environment. You may have noticed that climates closer to large bodies of water, such as oceans, are milder than climates landlocked in the middle of a large continent. This is due to the climate-moderating effect of water’s large heat capacity—water stores large amounts of heat during hot weather and releases heat gradually when it’s cold outside.</para></commentary>
+</exercise>
+</note><note id="fs-id1167062443795" class="worked-example"><title>Calculating Temperature Increase: Truck Brakes Overheat on Downhill Runs</title>
+<exercise id="fs-id1167064635155" class="11-ex023 unnumbered"><label/>
+<problem id="fs-id1167064767116">
+<para id="fs-id1167062368305">When a truck headed downhill brakes, the brakes must do work to convert the gravitational potential energy of the truck to internal energy of the brakes. This conversion prevents the gravitational potential energy from being converted into kinetic energy of the truck, and keeps the truck from speeding up and losing control. The increased internal energy of the brakes raises their temperature. When the hill is especially steep, the temperature increase may happen too quickly and cause the brakes to overheat.</para>
+
+<para id="fs-id1167064619904">Calculate the temperature increase of 100 kg of brake material with an average specific heat of 800 J/kg <m:math>
+ <m:mrow>
+  <m:mo>⋅</m:mo><m:mtext>°C</m:mtext></m:mrow>
+</m:math>  from a 10,000 kg truck descending 75.0 m (in vertical displacement) at a constant speed.</para>
+
+<media id="fs-id1167065874741" alt="A truck with smoking brakes barrels down a steep incline." display="block">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_11_02_BurnBrakes_img.jpg"/>
+</media>
+
+<note id="fs-id1167064941136"><label/><title>Strategy</title>
+
+<para id="fs-id1167062359074">We first calculate the gravitational potential energy (<emphasis effect="italics">Mgh</emphasis>) of the truck, and then find the temperature increase produced in the brakes.</para>
+</note></problem>
+
+<solution id="fs-id1167065909640">
+<label/>
+<title>Solution</title>
+<list id="fs-id1167064958757" list-type="enumerated"><item>Calculate the change in gravitational potential energy as the truck goes downhill.
+<para id="fs-id1167065975191"><equation id="fs-id1164566280971"> <m:math display="block">
+ <m:mrow>
+  <m:mi>M</m:mi><m:mi>g</m:mi><m:mi>h</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>10</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mspace width="0.3em"/><m:mtext> kg</m:mtext></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mtext>(9</m:mtext><m:msup>
+   <m:mrow>
+    <m:mtext>.80 m/s</m:mtext></m:mrow>
+   <m:mtext>2</m:mtext>
+  </m:msup>
+  <m:mtext>)</m:mtext><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mtext>75</m:mtext><m:mtext>.0 m</m:mtext></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>7.35</m:mn><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mn>6</m:mn>
+  </m:msup>
+  <m:mtext>J</m:mtext></m:mrow>
+</m:math> </equation></para></item>
+<item>Calculate the temperature change from the heat transferred by rearranging the equation  <m:math>
+ <m:mrow>
+  <m:mi>Q</m:mi><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mi>m</m:mi><m:mi>c</m:mi><m:mi>Δ</m:mi><m:mi>T</m:mi></m:mrow>
+</m:math>  to solve for  <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>Δ</m:mi><m:mi>T</m:mi><m:mtext>.</m:mtext></m:mrow>
+  <m:annotation encoding="MathType-MTEF">MathType@MTEF@5@5@+=
+  feaagKart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLn
+  hiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr
+  4rNCHbGeaGqiVCI8FfYJH8YrFfeuY=Hhbbf9v8qqaqFr0xc9pk0xbb
+  a9q8WqFfeaY=biLkVcLq=JHqpepeea0=as0Fb9pgeaYRXxe9vr0=vr
+  0=vqpWqaaeaabiGaciaacaqabeaadaqaaqaaaOqaaabaaaaaaaaape
+  GaeuiLdqKaamivaaaa@384A@
+  </m:annotation>
+ </m:semantics>
+</m:math>
+<para id="fs-id1167066096443"><equation id="fs-id1164567470630"> <m:math display="block">
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>T</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mi>Q</m:mi>
+   <m:mrow>
+    <m:mi>m</m:mi><m:mi>c</m:mi></m:mrow>
+  </m:mfrac>
+  </m:mrow>
+<m:mi>,</m:mi>
+</m:math> </equation></para>
+<para id="fs-id1167065016171">where <emphasis effect="italics">m </emphasis>is the mass of the brake material (not the entire truck). Insert the values <emphasis effect="italics">Q</emphasis> = 7.35×10<sup>6</sup> J (since the heat transfer is equal to the change in gravitational potential energy), <emphasis effect="italics">m</emphasis>  <m:math>
+ <m:mo>=</m:mo>
+</m:math>  100 kg, and <emphasis effect="italics">c</emphasis>  <m:math>
+ <m:mo>=</m:mo> </m:math>  800 J/kg <m:math>
+ <m:mo>⋅</m:mo>
+</m:math>   <m:math>
+ <m:mrow>
+  <m:mtext>°C</m:mtext></m:mrow>
+</m:math>  to find</para><para id="fs-id1167066134460"><equation id="fs-id1164565289947"> <m:math display="block">
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>T</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>7.35</m:mn><m:mo>×</m:mo><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn></m:mrow>
+     <m:mn>6</m:mn>
+    </m:msup>
+    <m:mtext>J</m:mtext></m:mrow>
+   <m:mrow>
+    <m:mo stretchy="false">(</m:mo><m:mn>100</m:mn><m:mspace width="0.3em"/><m:mtext>kg)(800 J</m:mtext><m:mo>/</m:mo><m:mtext>kg </m:mtext><m:mo>⋅</m:mo><m:mtext>°C</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>91.9</m:mn><m:mspace width="0.3em"/><m:mtext>°C</m:mtext><m:mtext>.</m:mtext></m:mrow>
+</m:math> </equation>
+</para></item>
+</list></solution>
+
+<commentary id="fs-id1167064877215">
+<title>Discussion</title>
+<para id="fs-id1167064908001">This temperature is close to the boiling point of water. If the truck had been traveling for some time, then just before the descent, the brake temperature would likely be higher than the ambient temperature. The temperature increase in the descent would likely raise the temperature of the brake material above the boiling point of water, which would be hard on the brakes. This is why truck drivers sometimes use a different technique for called “engine braking” to avoid burning their brakes during steep descents. Engine braking is using the slowing forces of an engine in low gear rather than brakes to slow down.</para></commentary>
+</exercise></note></section>
+
+<section id="fs-id1167066012216" class="practice-problems"><title>Practice Problems</title><exercise id="fs-id1167064899433">
+<problem id="fs-id1167066137387">
+<para id="fs-id1164567813188">How much heat does it take to raise the temperature of 10.0 kg of water by 1.0 °C ?</para>
+<list id="fs-id1164567217725" list-type="enumerated" number-style="lower-alpha">
+<item>84 J</item>
+<item>42 J</item>
+<item>84 kJ</item>
+<item>42 kJ</item></list>
+<!--<para id="fs-id1167065720732"><link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex024"/></para>-->
+</problem>
+</exercise>
+<exercise id="fs-id1167065849362">
+<problem id="fs-id1167065913218">
+<para id="fs-id1164567016752">Calculate the change in temperature of 1.0 kg of water that is initially at room temperature if 3.0 kJ of heat is added.</para>
+<list id="fs-id1164566363772" list-type="enumerated" number-style="lower-alpha">
+<item>358 °C</item>
+<item>716 °C</item>
+<item>0.36 °C</item>
+<item>0.72 °C</item></list>
+<!--<para id="fs-id1167065913220"><link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex025"/></para>-->
+</problem>
+</exercise>
+</section><section id="fs-id1167065023107" class="check-understanding"><title>Check Your Understanding</title>
+<note id="fs-id1167066098314" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065039818">Use these questions to assess student achievement of the section’s learning objectives. If students are struggling with a specific objective, these questions will help identify which and direct students to the relevant content.</para>
+</note>
+<exercise id="fs-id1167064919292" class="os-exercise">
+<problem id="fs-id1167065713975">
+<para id="fs-id1167065713977"><link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex026"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167064790663" class="os-exercise">
+<problem id="fs-id1167065948547">
+<para id="fs-id1167065948549"><link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex027"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065976028" class="os-exercise">
+<problem id="fs-id1167064540899">
+<para id="fs-id1167066033215"><link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex028"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167066137106" class="os-exercise">
+<problem id="fs-id1167064980019">
+<para id="fs-id1164565368893">True or falseConduction and convection cannot happen simultaneously</para>
+<list id="fs-id1164567884878" list-type="enumerated" number-style="lower-alpha">
+<item>True</item>
+<item>False</item></list>
+<!--<para id="fs-id1167065875189"><link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex029"/></para>-->
+</problem>
+</exercise>
+</section><section id="fs-id1167065943098" class="summary">
+<title>Section Summary</title>
+<list id="fs-id1167062359424"><item>Heat is thermal (internal) energy transferred due to a temperature difference.</item>
+<item>The transfer of heat <emphasis effect="italics">Q</emphasis> that leads to a change  <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>T</m:mi></m:mrow>
+</m:math>  in the temperature of a body with mass m is  <m:math>
+ <m:mrow>
+  <m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>c</m:mi><m:mi>Δ</m:mi><m:mi>T</m:mi></m:mrow>
+</m:math>, where <emphasis effect="italics">c</emphasis> is the specific heat of the material.</item>
+<item>Heat is transferred by three different methods: conduction, convection, and radiation.</item>
+<item>Heat conduction is the transfer of heat between two objects in direct contact with each other.</item>
+<item>Convection is heat transfer by the movement of mass.</item>
+<item>Radiation is heat transfer by electromagnetic waves.</item>
+</list></section>
+
+<section id="fs-id1167065773204" class="key-equations"><title>Key Equations</title><table id="fs-id1167062541049" class="unnumbered unstyled" summary="Table with two columns and two rows. The top left cell reads “Heat transfer,” with the top right cell showing the equation for heat equal to the product of a substance’s mass, its specific heat, and the change in its temperature. The lower left cell reads “Density,” with the lower right cell showing the equation for density as equal to the mass of a substance divided by its volume."><label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1" align="left"/>
+<colspec colnum="2" colname="c2" align="left"/>
+<tbody>
+<row>
+<entry>heat transfer</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mi>Q</m:mi><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mi>m</m:mi><m:mi>c</m:mi><m:mi>Δ</m:mi><m:mi>T</m:mi></m:mrow>
+</m:math> </entry>
+</row>
+<row>
+<entry>density</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mi>ρ</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mi>m</m:mi>
+   <m:mi>V</m:mi>
+  </m:mfrac>
+  </m:mrow>
+</m:math> </entry>
+</row>
+</tbody>
+
+
+
+</tgroup>
+</table></section>
+<section id="fs-id1167065880336" class="concept"><title>Concept Items</title>
+<exercise id="fs-id1167065869078" class="os-exercise">
+<problem id="fs-id1167062551443">
+<para id="fs-id1167062551446"><link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex030"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167064650807" class="os-exercise">
+<problem id="fs-id1167066000561">
+<para id="fs-id1167064928164"><link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex031"/></para>
+</problem>
+</exercise>
+
+
+</section><section id="fs-id1167065847792" class="critical-thinking"><title>Critical Thinking</title>
+<exercise id="fs-id1167064961016" class="os-exercise"><problem id="fs-id1167066098649"><para id="eip-idm298198144">The value of specific heat is the same whether the units are J/kg⋅K or J/kg⋅ºC. How?
+</para><list id="eip-idm324710256" list-type="enumerated" number-style="lower-alpha"><item>Temperature difference is dependent on the chosen temperature scale.</item>
+<item>Temperature change is different in units of kelvins and degrees Celsius.</item>
+<item>Reading of temperatures in kelvins and degree Celsius are the same.</item>
+<item>The temperature change is the same in units of kelvins and degrees Celsius.</item></list></problem>
+</exercise><exercise id="fs-id1167066096328" class="os-exercise">
+<problem id="fs-id1167064919682">
+<para id="fs-id1167064919684"><link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex033"/></para>
+</problem>
+</exercise>
+
+<exercise id="eip-id1166849955762" class="os-exercise">
+<problem id="eip-id1166845384654">
+<!--<para id="eip-id1166845384656">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch11-ot020"/>
+</para>-->
+
+<para id="fs-id1164564743002">What is the specific heat of a substance that requires 5.00 kJ of heat to raise the temperature of 3.00 kg by 5.00 °F?</para>
+<list id="fs-id1164561132886" list-type="enumerated" number-style="lower-alpha">
+<item>3.33×103 J/kg ⋅° C</item>
+<item>6.00×103 J/kg ⋅° C</item>
+<item>3.33×102 J/kg ⋅ ° C</item>
+<item>6.00×102 J/kg ⋅ ° C</item>
+</list>
+</problem>
+</exercise></section>
+<section id="fs-id1167062567217" class="problems"><title>Problems</title><exercise id="fs-id1167065979324" class="os-exercise">
+<problem id="fs-id1167064905449">
+<!--<para id="fs-id1167064905451"><link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex034"/></para>-->
+
+<para id="fs-id1164564393223">A certain quantity of water is given 4.0 kJ of heat. This raises its temperature by 30.0 °F. What is the mass of the water in grams?</para>
+<list id="fs-id1164564375159" list-type="enumerated" number-style="lower-alpha">
+<item>5.7 g</item>
+<item>570 g</item>
+<item>5700 g</item>
+<item>57 g</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167064915279" class="os-exercise">
+<problem id="fs-id1167065986175">
+<!--<para id="fs-id1167062410313"><link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex035"/></para>-->
+
+<para id="fs-id1164567810833">5290 J of heat is given to 0.500 kg water at 15.00 °C. What will its final temperature be?</para>
+<list id="fs-id1164568062534" list-type="enumerated" number-style="lower-alpha">
+<item>15.25° C</item>
+<item>12.47 ° C</item>
+<item>40.3° C</item>
+<item>17.53° C</item>
+</list>
+</problem>
+</exercise>
+</section><section id="fs-id1167062347682" class="multiple-choice"><title>Test Prep Multiple Choice</title><exercise id="fs-id1167065071174" class="os-exercise">
+<problem id="fs-id1167065796614">
+<para id="fs-id1164567601964">Which phase of water has the largest specific heat?</para>
+<list id="fs-id1164567292110" list-type="enumerated" number-style="lower-alpha">
+<item>solid</item>
+<item>liquid</item>
+<item>gas</item></list>
+<!--<para id="fs-id1167065796616"><link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex036"/></para>-->
+</problem>
+</exercise>
+<exercise id="fs-id1167064743595" class="os-exercise">
+<problem id="fs-id1167064743598">
+<para id="fs-id1164567273786">What kind of heat transfer requires no medium?</para>
+<list id="fs-id1164567451483" list-type="enumerated" number-style="lower-alpha">
+<item>conduction</item>
+<item>convection</item>
+<item>reflection</item>
+<item>radiation</item></list>
+<!--<para id="fs-id1167062586980"><link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex037"/></para>-->
+</problem>
+</exercise>
+<exercise id="fs-id1167065915070" class="os-exercise">
+<problem id="fs-id1167063087694">
+<para id="fs-id1164567637379">Which of these substances has the greatest specific heat?</para>
+<list id="fs-id1164567983446" list-type="enumerated" number-style="lower-alpha">
+<item>copper</item>
+<item>mercury</item>
+<item>aluminum</item>
+<item>wood</item></list>
+<!--<para id="fs-id1167064743718"><link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex038"/></para>-->
+</problem>
+</exercise>
+
+<exercise id="eip-id1166851099566" class="os-exercise">
+<problem id="eip-id1166851063875">
+<para id="fs-id1164567233473">Give an example of heat transfer through convection.</para>
+<list id="fs-id1164565417955" list-type="enumerated" number-style="lower-alpha">
+<item>The energy emitted from the filament of an electric bulb</item>
+<item>The energy coming from the sun</item>
+<item>A pan on a hot burner</item>
+<item>Water boiling in a pot</item></list>
+<!--<para id="eip-id1166848812376">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch11-ot028"/>
+</para>-->
+</problem>
+</exercise></section><section id="fs-id1167066152018" class="short-answer"><title>Test Prep Short Answer</title><exercise id="fs-id1167062477259" class="os-exercise">
+<problem id="fs-id1167062477262">
+<para id="fs-id1164565875935">In the specific heat equation what does <emphasis effect="italics">c</emphasis> stand for?</para>
+<list id="fs-id1164567270453" list-type="enumerated" number-style="lower-alpha">
+<item>Total heat</item>
+<item>Specific heat</item>
+<item>Specific temperature</item>
+<item>Specific mass</item></list>
+<!--<para id="fs-id1167066023802"><link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex039"/></para>-->
+</problem>
+</exercise>
+<exercise id="fs-id1167064549964" class="os-exercise">
+<problem id="fs-id1167064549967">
+<para id="fs-id1164568074273">Specific heat may be measured in J/kg · K, J/kg · °C. What other units can it be measured in?</para>
+<list id="fs-id1164564399955" list-type="enumerated" number-style="lower-alpha">
+<item>kg/kcal · °C</item>
+<item>kcal · °C/kg</item>
+<item>kg · °C/kcal</item>
+<item>kcal/kg · °C</item></list>
+<!--<para id="fs-id1167062348372"><link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex040"/></para>-->
+</problem>
+</exercise>
+<exercise id="fs-id1167064709454" class="os-exercise">
+<problem id="fs-id1167065727420">
+<para id="fs-id1167064533762"><link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex041"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167066197426" class="os-exercise">
+<problem id="fs-id1167066025049">
+<para id="fs-id1164565609611">Give an example of convection found in nature.</para>
+<list id="fs-id1164565523343" list-type="enumerated" number-style="lower-alpha">
+<item>heat transfer through metallic rod</item>
+<item>heat transfer from the sun to Earth</item>
+<item>heat transfer through ocean currents</item>
+<item>heat emitted by a light bulb into its environment</item></list>
+<!--<para id="fs-id1167064990032"><link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex042"/></para>-->
+</problem>
+</exercise>
+<exercise id="fs-id1167066118271" class="os-exercise">
+<problem id="fs-id1164567135160">
+<para id="fs-id1164566085007">Calculate the temperature change in a substance with specific heat 735 J/kg · °C when 14 kJ of heat is given to a 3.0-kg sample of that substance.</para>
+<list id="fs-id1164565446094" list-type="enumerated" number-style="lower-alpha">
+<item>57 °C</item>
+<item>63 °C</item>
+<item>1.8×10<sup>-2</sup> °C</item>
+<item>6.3 °C</item></list>
+<!--<problem id="fs-id1167062888031">
+<para id="fs-id1167065908432"><link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex043"/></para>
+</problem>-->
+</problem>
+</exercise>
+<exercise id="fs-id1167062867456" class="os-exercise"><problem id="fs-id1167065975555">
+<para id="fs-id1167062901233">Aluminum has a specific heat of 900 J/kg·ºC. How much energy would it take to change the temperature of 2 kg aluminum by 3 ºC?</para><list id="eip-idm389914240" list-type="enumerated" number-style="lower-alpha"><item>1.3 kJ</item>
+<item>0.60 kJ</item>
+<item>54 kJ</item>
+<item>5.4 kJ</item></list></problem>
+</exercise></section><section id="fs-id1167064944580" class="extended-response"><title>Test Prep Extended Response</title><exercise id="fs-id1167065883162" class="os-exercise">
+<problem id="fs-id1167064537792">
+<para id="fs-id1167064537794"><link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex045"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167062299394" class="os-exercise">
+<problem id="fs-id1167065980129">
+<para id="fs-id1167065980131"><link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex046"/></para>
+</problem>
+</exercise><exercise id="fs-id1167064910092" class="os-exercise">
+<problem id="fs-id1167064618259">
+<para id="fs-id1164565392467">Calculate the difference in heat required to raise the temperatures of 1.00 kg of gold and 1.00 kg of aluminum by 1.00 °C. (The specific heat of aluminum equals 900 J/kg · °C; the specific heat of gold equals 129 J/kg · °C.)</para>
+<list id="fs-id1164565614249" list-type="enumerated" number-style="lower-alpha">
+<item>771 J</item>
+<item>129 J</item>
+<item>90 J</item>
+<item>900 J</item></list>
+<!--<para id="fs-id1167064618261"><link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex047"/></para>-->
+</problem>
+</exercise>
+</section></content>
+
+<glossary>
+<definition id="fs-id1167064593689"><term>conduction</term>
+<meaning id="fs-id1167064593692">heat transfer through stationary matter by physical contact</meaning>
+</definition>
+<definition id="fs-id1167065789509">
+<term>convection</term>
+<meaning id="fs-id1167066057477">heat transfer by the movement of fluid</meaning></definition>
+<definition id="fs-id1167066057480">
+<term>heat capacity</term>
+<meaning id="fs-id1167065028500"> amount of heat necessary to change the temperature of a substance by 1.00 <m:math>
+ <m:mrow>
+  <m:mtext>°C</m:mtext></m:mrow>
+</m:math> </meaning></definition>
+<definition id="fs-id1167065684964"><term>radiation</term>
+<meaning id="fs-id1167065791267">energy transferred by electromagnetic waves</meaning>
+</definition>
+<definition id="fs-id1167065791270">
+<term>specific heat</term>
+<meaning id="fs-id1167064985375">amount of heat necessary to change the temperature of 1.00 kg of a substance by 1.00 <m:math>
+ <m:mrow>
+  <m:mtext>°C</m:mtext></m:mrow>
+</m:math> </meaning></definition>
+</glossary>
+</document>

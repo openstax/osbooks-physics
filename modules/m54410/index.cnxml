@@ -1,0 +1,1126 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Electrical Charges, Conservation of Charge, and Transfer of Charge</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54410</md:content-id>
+  <md:title>Electrical Charges, Conservation of Charge, and Transfer of Charge</md:title>
+  <md:abstract/>
+  <md:uuid>919851f0-fda1-4ffb-ba88-e3e3b3b45dec</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167063572514" class="learning-objectives">
+<label/>
+<title>Section Learning Objectives</title>
+<para id="fs-id1167067205298">By the end of this section, you will be able to do the following:</para>
+<list id="fs-id1167066991779">
+<item>Describe positive and negative electric charges</item>
+<item>Use conservation of charge to calculate quantities of charge transferred between objects</item>
+<item>Characterize materials as conductors or insulators based on their electrical properties</item>
+<item>Describe electric polarization and charging by induction</item>
+</list>
+</note>
+<note id="fs-id1167063762580" class="os-teacher"><title>Teacher Support</title>
+<para id="eip-id1167065924971">The learning objectives in this section will help your students master the following standards</para>
+<list id="eip-id1167064850106"><item>(5) The student knows the nature of forces in the physical world. The student is expected to:
+<list id="fs-id1167065743644"><item>
+<span>(C)</span>
+<span>describe and calculate how the magnitude of the electrical force between two objects depends on their charges and the distance between them; and</span></item>
+<item>
+<span>(E)</span>
+<span>characterize materials as conductors or insulators based on their electrical properties.</span>
+</item>
+</list></item>
+</list><para id="fs-id1169316134299">In addition, the High School Physics Laboratory Manual addresses content in this section in the lab titled Electric Charge as well as the following standards:</para><list id="fs-id1169316033985"><item>(5) The student knows the nature of forces in the physical world. The student is expected to:
+<list id="fs-id1169316199918"><item>
+<span>(C)</span>
+ <span>describe and calculate how the magnitude of the electrical force between two objects depends on their charges and the distance between them; and</span>
+</item>
+<item>
+<span>(E)</span>
+ <span>characterize materials as conductors or insulators based on their electrical properties.</span>
+</item>
+</list></item>
+</list></note>
+<section id="keyterms"><title>Section Key Terms</title>
+<table id="fs-id1167066948343" class="unnumbered unstyled section-key-terms" summary="no alt text">
+<label/>
+<tgroup cols="3">
+<tbody>
+<row>
+<entry>conduction</entry>
+<entry>conductor</entry>
+<entry>electron</entry>
+<entry>induction</entry>
+
+</row>
+<row>
+<entry>insulator</entry>
+<entry>law of conservation of charge</entry>
+<entry>polarization</entry>
+<entry>proton</entry>
+</row>
+</tbody>
+</tgroup>
+</table></section>
+<section id="fs-id1167067276175">
+<title>Electric Charge</title>
+<para id="fs-id1167067050748">You may know someone who has an <emphasis effect="italics">electric</emphasis> personality, which usually means that other people are attracted to this person. This saying is based on electric charge, which is a property of matter that causes objects to attract or repel each other. Electric charge comes in two varieties, which we call <emphasis effect="italics">positive</emphasis> and <emphasis effect="italics">negative.</emphasis> Like charges repel each other, and unlike charges attract each other. Thus, two <term class="no-emphasis">positive charges</term> repel each other, as do two <term class="no-emphasis">negative charges</term>. A positive charge and a negative charge attract each other.</para><para id="fs-id1167067149892">How do we know there are two types of electric charge? When various materials are rubbed together in controlled ways, certain combinations of materials always result in a net charge of one type on one material and a net charge of the opposite type on the other material. By convention, we call one type of charge positive and the other type negative. For example, when glass is rubbed with silk, the glass becomes positively charged and the silk negatively charged. Because the glass and silk have opposite charges, they attract one another like clothes that have rubbed together in a dryer. Two <term class="no-emphasis">glass rods</term> rubbed with silk in this manner will repel one another, because each rod has positive charge on it. Similarly, two silk cloths rubbed in this manner will repel each other, because both cloths have negative charge. <link target-id="Figure_18_01_Posnegcharg"/> shows how these simple materials can be used to explore the nature of the force between charges.</para><figure id="Figure_18_01_Posnegcharg">
+<media id="fs-id1167061226663" alt="This figure has three parts. Part a: It shows a glass rod suspended from its middle by a string and a nearby silk cloth held from its upper edge by a hand. The glass rod has a series of plus signs, and the silk cloth has many minus signs. There are several faded images of the glass rod and a downward pointing arrow, suggesting the rod's movement toward the cloth. The lower edge of the cloth bends toward the rod. Part b: It shows two glass rods near each other, each with a series of plus signs. One rod is held from one end by a hand, and the other rod is suspended from its middle by a string. There are several faded images of the suspended rod and an upward pointing arrow, suggesting its movement away from the handheld rod. Part c: It shows two silk cloths held by hand near each other, each with a number of minus signs. The lower edges of the cloths curve away from each other.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_18_01_Posnegchar.jpg"/>
+</media>
+<caption>A glass rod becomes positively charged when rubbed with silk, whereas the silk becomes negatively charged. (a) The glass rod is attracted to the silk, because their charges are opposite. (b) Two similarly charged glass rods repel. (c) Two similarly charged silk cloths repel.</caption>
+</figure>
+<note id="fs-add" class="os-teacher"><title>Teacher Support</title>
+
+<note id="fs-id1167066808833" class="teacher-demonstration">
+<para id="fs-id1167066953080">Prepare a demonstration of static electricity. A simple demonstration may be to charge a glass rod or comb by rubbing it with wool, silk, or other cloth and then charge an inflated balloon by rubbing it on your shirt or hair. Place the balloon on a nonconducting tabletop, and use the glass rod or comb to repel the balloon and make it roll across the tabletop. Amuse the students by pushing the balloon first in one direction and then quickly moving the glass rod or comb to the opposite side of the balloon to make it decelerate and then move in the opposite direction. Ask which type of force is at work between the balloon and the glass rod or comb (a repulsive force).</para>
+</note>
+</note>
+<para id="fs-id1167063922854">It took scientists a long time to discover what lay behind these two types of charges. The word <emphasis effect="italics">electric</emphasis> itself comes from the Greek word <emphasis effect="italics">elektron</emphasis> for amber, because the ancient Greeks noticed that amber, when rubbed by fur, attracts dry straw. Almost 2,000 years later, the English physicist William Gilbert proposed a model that explained the effect of electric charge as being due to a mysterious electrical fluid that would pass from one object to another. This model was debated for several hundred years, but it was finally put to rest in 1897 by the work of the English physicist J. J. <term class="no-emphasis">Thomson</term> and French physicist Jean Perrin. Along with many others, Thomson and Perrin were studying the mysterious <emphasis effect="italics">cathode rays</emphasis> that were known at the time to consist of particles smaller than the smallest atom. Perrin showed that cathode rays actually carried negative electrical charge. Later, Thomson’s work led him to declare, “I can see no escape from the conclusion that [cathode rays] are charges of negative electricity carried by particles of matter.”</para>
+<para id="fs-id1167067317587">It took several years of further experiments to confirm Thomson’s interpretation of the experiments, but science had in fact discovered the particle that carries the fundamental unit of negative electrical charge. We now know this particle as the <term>electron</term>.</para>
+
+<para id="fs-id1167063730324">Atoms, however, were known to be electrically neutral, which means that they carry the same amount of positive and negative charge, so their net charge is zero. Because electrons are negative, some other part of the atom must contain positive charge. Thomson put forth what is called the <emphasis effect="italics">plum pudding model</emphasis>, in which he described atoms as being made of thousands of electrons swimming around in a nebulous mass of positive charge, as shown by the left-side image of <link target-id="Figure_18_01_pp"/>. His student, Ernest <term class="no-emphasis">Rutherford</term>, originally believed that this model was correct and used it (along with other models) to try to understand the results of his experiments bombarding gold foils with <emphasis effect="italics">alpha</emphasis> particles (i.e., helium atoms stripped of their electrons). The results, however, did not confirm Thomson’s model but rather destroyed it! Rutherford found that most of the space occupied by the gold atoms was actually empty and that almost all of the matter of each atom was concentrated into a tiny, extremely dense nucleus, as shown by the right-side image of <link target-id="Figure_18_01_pp"/>. The atomic nucleus was later found to contain particles called <term>protons</term>, each of which carries a unit of positive electric charge.<footnote id="fs-id1167067238739">Protons were later found to contain sub particles called <emphasis effect="italics">quarks</emphasis>, which have fractional electric charge. But that is another story that we leave for subsequent physics courses.</footnote></para>
+
+<figure id="Figure_18_01_pp">
+<media id="fs-id1167067294467" alt="This figure has two drawings, side by side. The drawing on the left shows a large blue sphere, one-eighth of which has been cut out. A number of small red spheres are on the surface of the blue sphere and within the cut-away part of the blue sphere. Also, a number of faded red spheres lie within the blue sphere. The drawing on the right shows four ellipses evenly spaced around a common center, with a small blue sphere in each ellipse. Near the top is the word “Electrons,” with two lines connecting that word to two of the blue spheres. The common center contains a clump of four small red spheres and five small gray spheres. Near the top is another word, “Nucleus,” with a line connecting that word to the clump of spheres at the center.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_18_01_pp.jpg"/>
+</media>
+<caption>The left drawing shows Thompson’s plum-pudding model, in which the electrons swim around in a nebulous mass of positive charge. The right drawing shows Rutherford’s model, in which the electrons orbit around a tiny, massive nucleus. Note that the size of the nucleus is vastly exaggerated in this drawing. Were it drawn to scale with respect to the size of the electron orbits, the nucleus would not be visible to the naked eye in this drawing. Also, as far as science can currently detect, electrons are point particles, which means that they have no size at all!</caption>
+</figure>
+
+<para id="fs-id1167067058632">Protons and electrons are thus the fundamental particles that carry electric charge. Each proton carries one unit of positive charge, and each electron carries one unit of negative charge. To the best precision that modern technology can provide, the charge carried by a proton is <emphasis effect="italics">exactly</emphasis> the opposite of that carried by an electron. The SI unit for electric charge is the <emphasis effect="italics">coulomb</emphasis> (abbreviated as “C”), which is named after the French physicist Charles Augustin de Coulomb, who studied the force between charged objects. The proton carries  <m:math>
+ <m:mrow>
+  <m:mo>+</m:mo><m:mn>1.602</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>−19</m:mn></m:mrow>
+  </m:msup>
+  <m:mtext>C.</m:mtext></m:mrow>
+</m:math>  and the electron carries  <m:math>
+ <m:mrow>
+  <m:mn>−1.602</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>−19</m:mn></m:mrow>
+  </m:msup>
+  <m:mtext>C,</m:mtext></m:mrow>
+</m:math> . The number <emphasis effect="italics">n</emphasis> of protons required to make +1.00 C is</para><equation id="fs-id1167066846760"><label/>
+ <m:math>
+ <m:mrow>
+  <m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1.00</m:mn><m:mspace width="0.3em"/><m:mtext>C</m:mtext><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:mfrac>
+   <m:mrow>
+    <m:mn>1</m:mn><m:mspace width="0.3em"/><m:mtext>proton</m:mtext></m:mrow>
+   <m:mrow>
+    <m:mn>1.602</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn></m:mrow>
+     <m:mrow>
+      <m:mo>−</m:mo><m:mn>19</m:mn></m:mrow>
+    </m:msup>
+    <m:mtext>C</m:mtext></m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>6.25</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>18</m:mn></m:mrow>
+  </m:msup>
+  <m:mtext>protons.</m:mtext></m:mrow>
+</m:math>
+</equation><para id="fs-id1167066840297">The same number of electrons is required to make −1.00 C of electric charge. The fundamental unit of charge is often represented as <emphasis effect="italics">e</emphasis>. Thus, the charge on a proton is <emphasis effect="italics">e</emphasis>, and the charge on an electron is −<emphasis effect="italics">e</emphasis>. Mathematically,  <m:math>
+ <m:mrow>
+  <m:mi>e</m:mi><m:mo>=</m:mo><m:mo>+</m:mo><m:mn>1.602</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>−19</m:mn></m:mrow>
+  </m:msup>
+  <m:mtext>C</m:mtext><m:mtext>.</m:mtext></m:mrow>
+</m:math> </para><note id="fs-id1167063568835" class="links-to-physics">
+
+<title>Measuring the Fundamental Electric Charge</title>
+<para id="fs-id1167063496653">The American physicist Robert <term class="no-emphasis">Millikan</term> (1868–1953) and his student Harvey <term class="no-emphasis">Fletcher</term> (1884–1981) were the first to make a relatively accurate measurement of the fundamental unit of charge on the electron. They designed what is now a classic experiment performed by students. The Millikan <term class="no-emphasis">oil-drop</term> experiment is shown in <link target-id="Figure_18_01_Oildrop"/>. The experiment involves some concepts that will be introduced later, but the basic idea is that a fine oil mist is sprayed between two plates that can be charged with a known amount of opposite charge. Some oil drops accumulate some excess negative charge when being sprayed and are attracted to the positive charge of the upper plate and repelled by the negative charge on the lower plate. By tuning the charge on these plates until the weight of the oil drop is balanced by the electric forces, the net charge on the oil drop can be determined quite precisely.</para>
+
+<figure id="Figure_18_01_Oildrop">
+<media id="fs-id1167067324564" alt="This figure is a two-part drawing. One part consists of two circular plates held parallel to each other, with a beam of light shining between them. Each plate has a wire attached to it. The upper plate, with a tiny hole at its center, is marked with a plus sign, and the lower plate is marked with a minus sign. A small spray bottle, labeled “Atomizer,” is held by a hand near and just above the upper plate. The hand squeezes a bulb on the Atomizer, and a spray labeled “Oil” emerges just above the upper plate. The beam of light emerges from a source labeled “Bright light.” The drawing includes a telescope-like device aimed for viewing between the circular plates. The second part of the drawing, located slightly below the first part, shows an edge-on view of the two plates. A downward pointing arrow connects the plates in the first part of the drawing to those in the second part. In the latter drawing, four vertical blue arrows point from the upper to the lower plate, and the arrow on the extreme right is labeled as E. A gray sphere between the two plates is labeled “Oil droplet.” A short red arrow, labeled F subscript E, points from the sphere to the upper plate, and another short red arrow, labeled w, points from the sphere to the lower plate.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_18_01_Oildrop.jpg"/>
+</media>
+<caption>The oil-drop experiment involved spraying a fine mist of oil between two metal plates charged with opposite charges. By knowing the mass of the oil droplets and adjusting the electric charge on the plates, the charge on the oil drops can be determined with precision.</caption>
+</figure>
+
+<para id="fs-id1167066874101">Millikan and Fletcher found that the drops would accumulate charge in discrete units of about  <m:math>
+ <m:mrow>
+  <m:mn>−1.59</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>−19</m:mn></m:mrow>
+  </m:msup>
+  <m:mtext>C,</m:mtext></m:mrow>
+</m:math>  which is within 1 percent of the modern value of <m:math>
+ <m:mrow>
+  <m:mn>−1.60</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>−19</m:mn></m:mrow>
+  </m:msup>
+  <m:mtext>C.</m:mtext></m:mrow>
+</m:math>  Although this difference may seem quite small, it is actually five times greater than the possible error Millikan reported for his results!</para><para id="fs-id1167067053620">Because the charge on the electron is a fundamental constant of nature, determining its precise value is very important for all of science. This created pressure on Millikan and others after him that reveals some equally important aspects of human nature.</para>
+<para id="fs-id1167067140414">First, Millikan took sole credit for the experiment and was awarded the 1923 Nobel Prize in physics for this work, although his student Harvey Fletcher apparently contributed in significant ways to the work. Just before his death in 1981, Fletcher divulged that Millikan coerced him to give Millikan sole credit for the work, in exchange for which Millikan promoted Fletcher’s career at Bell Labs.</para>
+<para id="fs-id1167063734521">Another great scientist, Richard Feynman, points out that many scientists who measured the fundamental charge after Millikan were reluctant to report values that differed much from Millikan’s value. History shows that later measurements slowly crept up from Millikan’s value until settling on the modern value. Why did they not immediately find the error and correct the value, asks Feynman. Apparently, having found a value higher than the much-respected value found by Millikan, scientists would look for possible mistakes that might lower their value to make it agree better with Millikan’s value. This reveals the important psychological weight carried by preconceived notions and shows how hard it is to refute them. Scientists, however devoted to logic and data they may be, are apparently just as vulnerable to this aspect of human nature as everyone else. The lesson here is that, although it is good to be skeptical of new results, you should not discount them just because they do not agree with conventional wisdom. If your reasoning is sound and your data are reliable, the conclusion demanded by the data must be seriously considered, even if that conclusion disagrees with the commonly accepted <emphasis effect="italics">truth.</emphasis></para>
+
+<exercise id="fs-id1167061330644" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167063518992">
+<para id="fs-id1164567458415">Suppose that Millikan observed an oil drop carrying three fundamental units of charge. What would be the net charge on this oil drop?</para>
+<list id="fs-id1164565331042" list-type="enumerated" number-style="lower-alpha">
+<item>−4.81 × 10<sup>−19</sup> C</item>
+<item>−1.602 × 10<sup>−19</sup> C</item>
+<item>1.602 × 10<sup>−19</sup> C</item>
+<item>4.81 × 10<sup>−19</sup> C</item>
+</list>
+</problem>
+</exercise>
+</note>
+
+<note id="fs-id1167067293455" class="snap-lab">
+
+<title>Like and Unlike Charges</title>
+
+<para id="fs-id1167066962814">This activity investigates the repulsion and attraction caused by static electrical charge.</para>
+<list id="fs-id1167067147604" class="materials">
+
+<item>Adhesive tape</item>
+<item>Nonconducting surface, such as a plastic table or chair</item>
+</list>
+<para id="fs-id1164567471449">Instructions</para>
+<list id="fs-id1167066784499" list-type="enumerated">
+<title>Procedure for Part (a)</title>
+<item>Prepare two pieces of tape about 4 cm long. To make a handle, double over about 0.5 cm at one end so that the sticky side sticks together.</item>
+<item>Attach the pieces of tape side by side onto a nonmetallic surface, such as a tabletop or the seat of a chair, as shown in <link target-id="Figure_18_01_scotcha_img"/>(a).</item>
+<item>Peel off both pieces of tape and hang them downward, holding them by the handles, as shown in <link target-id="Figure_18_01_scotcha_img"/>(b). If the tape bends upward and sticks to your hand, try using a shorter piece of tape, or simply shake the tape so that it no longer sticks to your hand.</item>
+<item>Now slowly bring the two pieces of tape together, as shown in <link target-id="Figure_18_01_scotcha_img"/>(c). What happens?</item>
+</list><figure id="Figure_18_01_scotcha_img">
+<media id="fs-id1167063734271" alt="This image has three parts. Part a shows two pieces of sticky tape attached to the edge of an arc-shaped object, with someone's fingers near the end of one tape. Part b shows someone's fingers lifting one tape piece away from the arc-shaped object, while the other tape piece remains attached to the object. Part c shows a left hand and a right hand, each holding a piece of tape from one end. Two short red arrows, each starting from the free end of a piece of tape, point toward each other.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_18_01_scotcha_img.jpg"/>
+</media>
+</figure>
+<list id="fs-id1167066864520" start-value="5" list-type="enumerated">
+<title>Procedure for Part (b)</title>
+<item>Stick one piece of tape on the nonmetallic surface, and stick the second piece of tape on top of the first piece, as shown in <link target-id="Figure_18_01_scotchb_img"/>(a).</item>
+<item>Slowly peel off the two pieces by pulling on the handle of the bottom piece.</item>
+<item>Gently stroke your finger along the top of the second piece of tape (i.e., the nonsticky side), as shown in <link target-id="Figure_18_01_scotchb_img"/>(b).</item>
+<item>Peel the two pieces of tape apart by pulling on their handles, as shown in <link target-id="Figure_18_01_scotchb_img"/>(c).</item>
+<item>Slowly bring the two pieces of tape together. What happens?</item>
+</list>
+<figure id="Figure_18_01_scotchb_img">
+<media id="fs-id1167067179094" alt="This image has three parts. Part a shows two pieces of sticky tape, with one stuck over the other, and with the lower tape attached to the edge of an arc-shaped object. The two tapes are slightly separated from each other at one end. In part b, someone's hand holds the two pieces of tape from the end where they are separated, while a finger touches the other end. Part c shows two hands pulling the two pieces of tape apart.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_18_01_scotchb_img.jpg"/>
+</media>
+</figure>
+
+<exercise id="fs-id1167066867649" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167063416254">
+<para id="fs-id1164566049801">In step 4, why did the two pieces of tape repel each other? In step 9, why did they attract each other?</para>
+<list id="fs-id1164566075660" list-type="enumerated" number-style="lower-alpha">
+<item>Like charges attract, while unlike charges repel each other.</item>
+<item>Like charges repel, while unlike charges attract each other.</item>
+<item>Tapes having positive charge repel, while tapes having negative charge attract each other.</item>
+<item>Tapes having negative charge repel, while tapes having positive charge attract each other.</item>
+</list>
+</problem>
+</exercise>
+</note></section>
+<section id="fs-id1167066971826">
+<title>Conservation of Charge</title>
+<note id="fs-id1167067103685" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067036825"><span>[BL]</span><span>[OL]</span>Discuss what is meant by <emphasis effect="italics">conservation</emphasis> in the physics sense. Point out how conservation laws serve as accounting rules that allow us to keep track of certain quantities. This is similar to knowing how many students are on a field trip and using that information to ensure that no students go missing. Because students cannot vanish into thin air, counting the students allows the teacher to know whether any students are not present. If they are not present, then they must be elsewhere, and a search can begin.</para>
+<para id="fs-id1167066967338"><span>[AL]</span>Ask what other laws of conservation they have encountered in physics, and discuss how these laws are used.</para>
+</note>
+<para id="fs-id1167066805452">Because the fundamental positive and negative units of charge are carried on protons and electrons, we would expect that the total charge cannot change in any system that we define. In other words, although we might be able to move charge around, we cannot create or destroy it. This should be true provided that we do not create or destroy protons or electrons in our system. In the twentieth century, however, scientists learned how to create and destroy electrons and protons, but they found that charge is still conserved. Many experiments and solid theoretical arguments have elevated this idea to the status of a law. The <term>law of conservation of charge</term> says that electrical charge cannot be created or destroyed.</para>
+<para id="fs-id1167063678892">The law of conservation of charge is very useful. It tells us that the net charge in a system is the same before and after any interaction within the system. Of course, we must ensure that no external charge enters the system during the interaction and that no internal charge leaves the system. Mathematically, conservation of charge can be expressed as</para>
+<equation id="fs-id1167067000489"><label/>
+ <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mrow>
+    <m:mi>i</m:mi><m:mi>n</m:mi><m:mi>i</m:mi><m:mi>t</m:mi><m:mi>i</m:mi><m:mi>a</m:mi><m:mi>l</m:mi>
+   </m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>q</m:mi>
+   <m:mrow>
+    <m:mi>f</m:mi><m:mi>i</m:mi><m:mi>n</m:mi><m:mi>a</m:mi><m:mi>l</m:mi>
+   </m:mrow>
+  </m:msub>
+  <m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+
+</equation><para id="fs-id1167063706966">where  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mrow>
+    <m:mtext>initial</m:mtext></m:mrow>
+  </m:msub>
+  </m:mrow>
+</m:math>  is the net charge of the system before the interaction, and  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mrow>
+    <m:mtext>final,</m:mtext></m:mrow>
+  </m:msub>
+  </m:mrow>
+</m:math>  is the net charge after the interaction.</para><note id="Worked_Example_18_01" class="worked-example"><title>What is the missing charge?</title>
+
+<exercise id="fs-id1167067077679" class="unnumbered">
+<label/>
+<problem id="fs-id1167067021182">
+<para id="fs-id1167063424458"><link target-id="Figure_18_01_Conservati"/> shows two spheres that initially have +4 C and +8 C of charge. After an interaction (which could simply be that they touch each other), the blue sphere has +10 C of charge, and the red sphere has an unknown quantity of charge. Use the law of conservation of charge to find the final charge on the red sphere.</para><note id="eip-id1167061289420">
+<label/><title>Strategy</title>
+<para id="fs-id1167066866290">The net initial charge of the system is  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mrow>
+    <m:mtext>initial</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mo>+</m:mo><m:mn>4</m:mn><m:mspace width="0.3em"/><m:mtext>C</m:mtext><m:mo>+</m:mo><m:mn>8</m:mn><m:mspace width="0.3em"/><m:mtext>C</m:mtext><m:mo>=</m:mo><m:mo>+</m:mo><m:mn>12</m:mn><m:mspace width="0.3em"/><m:mtext>C</m:mtext></m:mrow>
+</m:math> . The net final charge of the system is  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mrow>
+    <m:mtext>final</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mo>+</m:mo><m:mn>10</m:mn><m:mspace width="0.3em"/><m:mtext>C</m:mtext><m:mo>+</m:mo><m:msub>
+   <m:mi>q</m:mi>
+   <m:mrow>
+    <m:mtext>red</m:mtext></m:mrow>
+  </m:msub>
+  </m:mrow>
+</m:math>, where  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mrow>
+    <m:mtext>red</m:mtext></m:mrow>
+  </m:msub>
+  </m:mrow>
+</m:math>  is the final charge on the red sphere. Conservation of charge tells us that  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mrow>
+    <m:mtext>initial</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>q</m:mi>
+   <m:mrow>
+    <m:mtext>final</m:mtext></m:mrow>
+  </m:msub>
+  </m:mrow>
+</m:math>, so we can solve for  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mrow>
+    <m:mtext>red</m:mtext></m:mrow>
+  </m:msub>
+  </m:mrow>
+</m:math> .</para></note>
+</problem>
+<solution id="fs-id1167066852154">
+<label/>
+<title>Solution</title>
+<para id="fs-id1167063837762">Equating  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mrow>
+    <m:mtext>initial</m:mtext></m:mrow>
+  </m:msub>
+  </m:mrow>
+</m:math>  and  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mrow>
+    <m:mtext>final</m:mtext></m:mrow>
+  </m:msub>
+  </m:mrow>
+</m:math>  and solving for  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mrow>
+    <m:mtext>red</m:mtext></m:mrow>
+  </m:msub>
+  </m:mrow>
+</m:math>  gives</para>
+<equation id="fs-id1164567020504"> <m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr>
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:msub>
+       <m:mi>q</m:mi>
+       <m:mrow>
+        <m:mtext>initial</m:mtext></m:mrow>
+      </m:msub>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:msub>
+       <m:mi>q</m:mi>
+       <m:mrow>
+        <m:mtext>final</m:mtext></m:mrow>
+      </m:msub>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:mo>+</m:mo><m:mn>12</m:mn><m:mspace width="0.3em"/><m:mtext>C</m:mtext></m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mo>+</m:mo><m:mn>10</m:mn><m:mspace width="0.3em"/><m:mtext>C</m:mtext><m:mo>+</m:mo><m:msub>
+       <m:mi>q</m:mi>
+       <m:mrow>
+        <m:mtext>red.</m:mtext></m:mrow>
+      </m:msub>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:mo>+</m:mo><m:mn>2</m:mn><m:mspace width="0.3em"/><m:mtext>C</m:mtext></m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:msub>
+       <m:mi>q</m:mi>
+       <m:mrow>
+        <m:mtext>red</m:mtext><m:mo>.</m:mo></m:mrow>
+      </m:msub>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable></m:mrow>
+</m:math> </equation><para id="fs-id1167067070752">The red sphere has +2 C of charge.</para>
+<figure id="Figure_18_01_Conservati"><media id="fs-id1167067023024" alt="This figure has two rows, one below the other. The upper row is labeled “Before interaction”, and the lower row is labeled “After interaction”. Each row has a blue sphere and a red sphere next to each other. In the upper row, the blue sphere is marked as “plus 4 C” and the red sphere is marked as “plus 8 C”. In the lower row, the blue sphere is marked as “plus 10 C” and the red sphere is marked as “q subscript red = ?”">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_18_01_Conservati.jpg"/>
+</media>
+
+<caption>Two spheres, one blue and one red, initially have +4 C and +8 C of charge, respectively. After the two spheres interact, the blue sphere has a charge of +10 C. The law of conservation of charge allows us to find the final charge  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mrow>
+    <m:mtext>red</m:mtext></m:mrow>
+  </m:msub>
+  </m:mrow>
+</m:math>  on the red sphere.</caption></figure></solution>
+
+<commentary id="fs-id1167067311014">
+<title>Discussion</title>
+<para id="fs-id1167067045063">Like all conservation laws, conservation of charge is an accounting scheme that helps us keep track of electric charge.</para>
+</commentary>
+</exercise>
+</note></section>
+<section id="fs-id1167067006285" class="practice-problems"><title>Practice Problems</title><exercise id="fs-id1167061216329">
+<problem id="fs-id1167066953212">
+<!--<para id="fs-id1167067039634"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex004"/></para>-->
+<para id="fs-id1164568014622">Which equation describes conservation of charge?</para>
+<list id="fs-id1164568060288" list-type="enumerated" number-style="lower-alpha">
+<item><emphasis effect="italics">q</emphasis><sub>initial</sub> = <emphasis effect="italics">q</emphasis><sub>final</sub> = constant</item>
+<item><emphasis effect="italics">q</emphasis><sub>initial</sub> = <emphasis effect="italics">q</emphasis><sub>final</sub> = 0</item>
+<item><emphasis effect="italics">q</emphasis><sub>initial</sub> − <emphasis effect="italics">q</emphasis><sub>final</sub> = 0</item>
+<item><emphasis effect="italics">q</emphasis><sub>initial</sub>/<emphasis effect="italics">q</emphasis><sub>final</sub> = constant</item></list>
+</problem>
+</exercise>
+<exercise id="fs-id1167066994233">
+<problem id="fs-id1167063605911">
+<para id="fs-id1167067074441"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex005"/></para>
+</problem>
+</exercise>
+</section><section id="fs-id1167067015223">
+<title>Conductors and Insulators</title>
+<note id="fs-id1167067019439" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167063880968"><span>[BL]</span>Have students define the meaning of <emphasis effect="italics">conductor</emphasis> and <emphasis effect="italics">insulator.</emphasis> Explain how these terms are used in physics to mean materials that allow a quantity to pass through and those that do not.</para>
+<para id="fs-id1167066784081"><span>[OL]</span>Ask students whether they have encountered conductors and insulators in their everyday lives. What are the properties of these materials? Be prepared to discuss and differentiate thermal conductors and insulators.</para>
+<para id="fs-id1167066766809"><span>[AL]</span>Ask whether students recall other conductors and insulators in physics. Discuss how thermal insulators and conductors function with regard to thermal energy.</para>
+</note>
+<para id="fs-id1167063895795">Materials can be classified depending on whether they allow charge to move. If charge can easily move through a material, such as metals, then these materials are called <term>conductors</term>. This means that charge can be conducted (i.e., move) through the material rather easily. If charge cannot move through a material, such as rubber, then this material is called an <term>insulator</term>.</para>
+<para id="fs-id1167067175282">Most materials are insulators. Their atoms and molecules hold on more tightly to their electrons, so it is difficult for electrons to move between atoms. However, it is not impossible. With enough energy, it is possible to force electrons to move through an insulator. However, the insulator is often physically destroyed in the process. In metals, the outer electrons are loosely bound to their atoms, so not much energy is required to make electrons move through metal. Such metals as copper, silver, and aluminum are good conductors. Insulating materials include plastics, glass, ceramics, and wood.</para>
+<para id="fs-id1167063505280">The conductivity of some materials is intermediate between conductors and insulators. These are called <emphasis effect="italics">semiconductors</emphasis>. They can be made conductive under the right conditions, which can involve temperature, the purity of the material, and the force applied to push electrons through them. Because we can control whether semiconductors are conductors or insulators, these materials are used extensively in computer chips. The most commonly used semiconductor is silicon. <link target-id="Figure_18_01_classifica"/> shows various materials arranged according to their ability to conduct electrons.</para>
+<figure id="Figure_18_01_classifica">
+<media id="fs-id1167067254090" alt="Thirteen materials are arranged in a horizontal series, according to their ability to conduct electric charge. The materials, ranging from the least conductive on the left to the most conductive on the right, are: “Dry air”, “Dry wood”, “Rubber8, “Glass”, “Silicon”, “Germanium”, “Sea water”, “Carbon”, “Mercury”, “Iron”, “Aluminum”, “Copper”, and “Silver”. Above the names of the materials is a long, horizontal arrow pointing rightward. The arrow is broken in two places, producing three segments. The left segment, labeled “Insulators”, is above the materials Dry air to Glass; the middle segment, labeled “Semiconductors”, is above Silicon and Germanium; and the right segment, labeled “Conductors”, is above the materials Sea water to Silver. Below the names of the materials are numbers that give the resistivity of each material in ohm-meter.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_18_01_classifica.jpg"/>
+</media>
+<caption>Materials can be arranged according to their ability to conduct electric charge. The slashes on the arrow mean that there is a very large gap in conducting ability between conductors, semiconductors, and insulators, but the drawing is compressed to fit on the page. The numbers below the materials give their <emphasis effect="italics">resistivity</emphasis> in Ω•m (which you will learn about below). The resistivity is a measure of how hard it is to make charge move through a given material.</caption>
+</figure>
+<note id="fs-id1167066885713" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067324396">Point out that the scale is not linear, which means that the conductivity of the insulators is much, much less than that of conductors. Also point out that semiconductors are often made to act as insulators or as conductors, but not as materials with a conductivity that is between that of insulators and conductors.</para>
+</note>
+<para id="fs-id1167066793601">What happens if an excess negative charge is placed on a conducting object? Because like charges repel each other, they will push against each other until they are as far apart as they can get. Because the charge can move in a conductor, it moves to the outer surfaces of the object. <link target-id="Figure_18_01_Conducting"/>(a) shows schematically how an excess negative charge spreads itself evenly over the outer surface of a metal sphere.</para>
+<para id="fs-id1167067023248">What happens if the same is done with an insulating object? The electrons still repel each other, but they are not able to move, because the material is an insulator. Thus, the excess charge stays put and does not distribute itself over the object. <link target-id="Figure_18_01_Conducting"/>(b) shows this situation.</para>
+<figure id="Figure_18_01_Conducting"><media id="fs-id1167067153399" alt="This figure has two parts, each consisting of a sphere. In Part a, there are minus signs distributed relatively evenly around the sphere. In Part b, there are minus signs concentrated in the upper right quadrant of the face of the sphere.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_18_01_Conducting.jpg"/>
+</media>
+
+<caption>(a) A conducting sphere with excess negative charge (i.e., electrons). The electrons repel each other and spread out to cover the outer surface of the sphere. (b) An insulating sphere with excess negative charge. The electrons cannot move, so they remain in their original positions.</caption></figure><note id="fs-id1167063625506" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066838570">Point out that static buildup does not remain forever on an object. Ask students how a static charge may escape from an object. Point out that this static buildup is dissipated faster on humid days than on dry days.</para>
+</note>
+</section>
+<section id="fs-id1167067107776"><title>Transfer and Separation of Charge</title><note id="fs-id1167066952572" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067153908"><span>[BL]</span><span>[OL]</span>Ask how the concept of <emphasis effect="italics">static</emphasis> electricity can be compatible with transfer of charge. Isn’t transfer of charge the movement of charge, which contradicts being static?</para>
+<para id="fs-id1167063589669"><span>[AL]</span>Ask students to define <emphasis effect="italics">separation of charge.</emphasis> Prepare to explain why this does not mean splitting electrons apart.</para>
+</note>
+<para id="fs-id1167067028695">Most objects we deal with are electrically neutral, which means that they have the same amount of positive and negative charge. However, transferring negative charge from one object to another is fairly easy to do. When negative charge is transferred from one object to another, an excess of positive charge is left behind. How do we know that the negative charge is the mobile charge? The positive charge is carried by the proton, which is stuck firmly in the nucleus of atoms, and the atoms are stuck in place in solid materials. Electrons, which carry the negative charge, are much easier to remove from their atoms or molecules and can therefore be transferred more easily.</para>
+<para id="fs-id1167067180651">Electric charge can be transferred in several manners. One of the simplest ways to transfer charge is charging by contact, in which the surfaces of two objects made of different materials are placed in close contact. If one of the materials holds electrons more tightly than the other, then it takes some electrons with it when the materials are separated. Rubbing two surfaces together increases the transfer of electrons, because it creates a closer contact between the materials. It also serves to present <emphasis effect="italics">fresh</emphasis> material with a full supply of electrons to the other material. Thus, when you walk across a carpet on a dry day, your shoes rub against the carpet, and some electrons are removed from the carpet by your shoes. The result is that you have an excess of negative charge on your shoes. When you then touch a doorknob, some of your excess of electrons transfer to the neutral doorknob, creating a small spark.</para>
+<para id="fs-id1167067006421">Touching the doorknob with your hand demonstrates a second way to transfer electric charge, which is charging by <term>conduction</term>. This transfer happens because like charges repel, and so the excess electrons that you picked up from the carpet want to be as far away from each other as possible. Some of them move to the doorknob, where they will distribute themselves over the outer surface of the metal. Another example of charging by conduction is shown in the top row of <link target-id="Figure_18_01_Transferel"/>. A metal sphere with 100 excess electrons touches a metal sphere with 50 excess electrons, so 25 electrons from the first sphere transfer to the second sphere. Each sphere finishes with 75 excess electrons.</para><para id="fs-id1167067199731">The same reasoning applies to the transfer of positive charge. However, because positive charge essentially cannot move in solids, it is transferred by moving negative charge in the opposite direction. For example, consider the bottom row of <link target-id="Figure_18_01_Transferel"/>. The first metal sphere has 100 excess protons and touches a metal sphere with 50 excess protons, so the second sphere transfers 25 electrons to the first sphere. These 25 extra electrons will electrically cancel 25 protons so that the first metal sphere is left with 75 excess protons. This is shown in the bottom row of <link target-id="Figure_18_01_Transferel"/>. The second metal sphere lost 25 electrons so it has 25 more excess protons, for a total of 75 excess protons. The end result is the same if we consider that the first ball transferred a net positive charge equal to that of 25 protons to the first ball.</para><figure id="Figure_18_01_Transferel"><media id="fs-id1167067031507" alt="This figure consists of two rows, and each row is divided into three columns labeled as “Before contact”, “At contact”, and “After contact”. Each column contains two small spheres. First consider the top row: In the “Before contact” column, the left sphere is labeled “100 e superscript minus”, the right sphere is labeled “50 e superscript minus”. In the “At contact” column, the left sphere is labeled “75 e superscript minus”, the right sphere is labeled “50 e superscript minus”. An arrow points from the left sphere to the right one and is labeled “25 e superscript minus”. In the “After contact” column, the left sphere is labeled “75 e superscript minus”, the right sphere is labeled “75 e superscript minus”. Next consider the bottom row: In the “Before contact” column, the left sphere is labeled “100 p superscript plus”, the right sphere is labeled “50 p superscript plus”. In the “At contact” column, the left sphere is labeled “100 p superscript plus”, the right sphere is labeled “75 p superscript plus”. An arrow points from the right sphere to the left one and is labeled “25 e superscript minus”. In the “After contact” column, the left sphere is labeled “75 p superscript plus”, the right sphere is labeled “75 p superscript plus”.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_18_01_Transferel.jpg"/>
+</media>
+
+<caption>In the top row, a metal sphere with 100 excess electrons transfers 25 electrons to a metal sphere with an excess of 50 electrons. After the transfer, both spheres have 75 excess electrons. In the bottom row, a metal sphere with 100 excess protons receives 25 electrons from a ball with 50 excess protons. After the transfer, both spheres have 75 excess protons.</caption></figure><note id="fs-id1167066844412" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066939057">Point out how the total charge at each instant is the same. Discuss how moving electrons to the right is equivalent to moving the same magnitude of positive charge to the left, but be sure to clarify that, in most situations, only negative charges actually move in solids.</para>
+
+<para id="fs-id1167066992858"><span>[BL]</span><span>[OL]</span>Discuss the meaning of <emphasis effect="italics">polarization</emphasis> in everyday language. For example, discuss what is meant by a polarizing debate or a polarized Congress. Compare and contrast the everyday meaning with the physics meaning.</para>
+<para id="fs-id1167067215901"><span>[AL]</span>Ask what other examples of polarization they can think of from everyday life.</para>
+</note>
+<para id="fs-id1167067099970">In this discussion, you may wonder how the excess electrons originally got from your shoes to your hand to create the spark when you touched the doorknob. The answer is that <emphasis effect="italics">no</emphasis> electrons actually traveled from your shoes to your hands. Instead, because like charges repel each other, the excess electrons on your shoe simply pushed away some of the electrons in your feet. The electrons thus dislodged from your feet moved up into your leg and in turn pushed away some electrons in your leg. This process continued through your whole body until a distribution of excess electrons covered the extremities of your body. Thus your head, your hands, the tip of your nose, and so forth all received their doses of excess electrons that had been pushed out of their normal positions. All this was the result of electrons being pushed out of your feet by the excess electrons on your shoes.</para>
+<para id="fs-id1167067104324">This type of charge separation is called <term>polarization</term>. As soon as the excess electrons leave your shoes (by rubbing off onto the floor or being carried away in humid air), the distribution of electrons in your body returns to normal. Every part of your body is again electrically neutral (i.e., zero excess charge).</para>
+<para id="fs-id1167067230896">The phenomenon of polarization is seen in <link document="m54417" target-id="Figure_18_00_Plasticsli"/>. The child has accumulated excess positive charge by sliding on the slide. This excess charge repels itself and so becomes distributed over the extremities of the child’s body, notably in his hair. As a result, the hair stands on end, because the excess negative charge on each strand repels the excess positive charge on neighboring strands.</para><para id="fs-id1167066952679">Polarization can be used to charge objects. Consider the two metallic spheres shown in <link target-id="Figure_18_01_induction"/>. The spheres are electrically neutral, so they carry the same amounts of positive and negative charge. In the top picture (<link target-id="Figure_18_01_induction"/>(a)), the two spheres are touching, and the positive and negative charge is evenly distributed over the two spheres. We then approach a glass rod that carries an excess positive charge, which can be done by rubbing the glass rod with silk, as shown in <link target-id="Figure_18_01_induction"/>(b). Because opposite charges attract each other, the negative charge is attracted to the glass rod, leaving an excess positive charge on the opposite side of the right sphere. This is an example of charging by <term>induction</term>, whereby a charge is created by approaching a charged object with a second object to create an unbalanced charge in the second object. If we then separate the two spheres, as shown in <link target-id="Figure_18_01_induction"/>(c), the excess charge is stuck on each sphere. The left sphere now has an excess negative charge, and the right sphere has an excess positive charge. Finally, in the bottom picture, the rod is removed, and the opposite charges attract each other, so they move as close together as they can get.</para>
+<figure id="Figure_18_01_induction"><media id="fs-id1167067324708" alt="This figure has four parts, each consisting of a pair of spheres adjacent to each other. Each sphere is on a short pedestal, and all spheres and pedestals are equal in size. In Parts (a) and (b), the pair of spheres are touching each other, but in Parts (c) and (d), the pair of spheres are slightly separated from each other. In Part (a), there is no charge on either sphere. In Part (b), a rod marked with plus signs is shown close to the left sphere, which in turn has minus signs along its left edge. The right sphere has plus signs along its right edge. Part (c) is similar to Part (b), except for separation between the pair of spheres. In Part (d), minus signs are aligned along the right edge of the left sphere, and plus signs are aligned along the left edge of the right sphere. There is no rod in Part (d).">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_18_01_induction.jpg"/>
+</media>
+
+<caption>(a) Two neutral conducting spheres are touching each other, so the charge is evenly spread over both spheres. (b) A positively charged rod approaches, which attracts negative charges, leaving excess positive charge on the right sphere. (c) The spheres are separated. Each sphere now carries an equal magnitude of excess charge. (d) When the positively charged rod is removed, the excess negative charge on the left sphere is attracted to the excess positive charge on the right sphere.</caption></figure><note id="fs-id1167067165558" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067235972">Discuss the analogous situation with insulating spheres. Point out how the spheres remain neutral despite being polarized in panels (b) and (c).</para>
+</note>
+<note id="fs-id1167067082930" class="fun-in-physics">
+
+<title>Create a Spark in a Science Fair</title>
+<para id="fs-id1167063514717"><term class="no-emphasis">Van de Graaff</term> generators are devices that are used not only for serious physics research but also for demonstrating the physics of static electricity at science fairs and in classrooms. Because they deliver relatively little electric current, they can be made safe for use in such environments. The first such generator was built by Robert Van de Graaff in 1931 for use in nuclear physics research. <link target-id="Figure_18_01_VDG"/> shows a simplified sketch of a Van de Graaff generator.</para>
+<para id="fs-id1167063868279">Van de Graaff generators use smooth and pointed surfaces and conductors and insulators to generate large static charges. In the version shown in <link target-id="Figure_18_01_VDG"/>, electrons are “sprayed” from the tips of the lower comb onto a moving belt, which is made of an insulating material like, such as rubber. This technique of charging the belt is akin to charging your shoes with electrons by walking across a carpet. The belt raises the charges up to the upper comb, where they transfer again, akin to your touching the doorknob and transferring your charge to it. Because like charges repel, the excess electrons all rush to the outer surface of the globe, which is made of metal (a conductor). Thus, the comb itself never accumulates too much charge, because any charge it gains is quickly depleted by the charge moving to the outer surface of the globe.</para>
+<figure id="Figure_18_01_VDG"><media id="fs-id1167066842547" alt="This is a diagram in which two small circles are arranged vertically and are labeled “Upper roller” and “Lower roller”. The two circles are connected by a band labeled “Rubber belt”. A comb-shaped structure touches each circle, and these structures are labeled “Upper comb” and “Lower comb”. The upper circle is in the center of a larger circle labeled “Metal sphere”, and the lower circle is enclosed in a rectangle. A bent line connects the upper comb to the larger circle, and another bent line connects the lower comb to the rectangle and to the ground below the rectangle. A series of minus signs, labeled “Electrons”, is accompanied by a series of arrows, suggesting the flow of electrons from within the rectangle and the lower circle to the upper circle and then to the larger circle.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_18_01_VDG.jpg"/>
+</media>
+
+<caption>Van de Graaff generators transfer electrons onto a metallic sphere, where the electrons distribute themselves uniformly over the outer surface.</caption></figure><para id="fs-id1167067193283">Van de Graaff generators are used to demonstrate many interesting effects caused by static electricity. By touching the globe, a person gains excess charge, so his or her hair stands on end, as shown in <link target-id="Figure_18_01_VDGman"/>. You can also create mini lightning bolts by moving a neutral conductor toward the globe. Another favorite is to pile up aluminum muffin tins on top of the uncharged globe, then turn on the generator. Being made of conducting material, the tins accumulate excess charge. They then repel each other and fly off the globe one by one. A quick Internet search will show many examples of what you can do with a Van de Graaff generator.</para>
+<figure id="Figure_18_01_VDGman"><media id="fs-id1167067090546" alt="This is a photograph of a man touching the large sphere of a Van de Graaff generator, causing his hair to stand on end. The picture also shows two observers, one of whom has extended his right arm toward the man touching the generator.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_18_01_VDGman.jpg"/>
+</media>
+
+<caption>The man touching the Van de Graaff generator has excess charge, which spreads over his hair and repels hair strands from his neighbors. (credit: Jon “ShakataGaNai” Davis)</caption></figure><exercise id="fs-id1167067202776" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167067271397">
+<!--<para id="fs-id1167067098434"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex006"/></para>-->
+<para id="fs-id1164565956633">Why don’t the electrons stay on the rubber belt when they reach the upper comb?</para>
+<list id="fs-id1164565681780" list-type="enumerated" number-style="lower-alpha">
+<item>The upper comb has no excess electrons, and the excess electrons in the rubber belt get transferred to the comb by contact.</item>
+<item>The upper comb has no excess electrons, and the excess electrons in the rubber belt get transferred to the comb by conduction.</item>
+<item>The upper comb has excess electrons, and the excess electrons in the rubber belt get transferred to the comb by conduction.</item>
+<item>The upper comb has excess electrons, and the excess electrons in the rubber belt get transferred to the comb by contact.</item>
+</list>
+</problem>
+</exercise>
+</note>
+
+<note id="fs-id1167067175967" class="virtual-physics os-interactive"><title>Balloons and Static Electricity</title>
+<media id="fs-id1167063779678" alt="This simulation allows you to explore concepts of static electricity such as charge transfer, attraction, repulsion, and induced charge.">
+<iframe width="660" height="371.4" src="https://openstax.org/l/28balloons"/></media>
+<para id="eip-id1167067007650">This simulation allows you to observe negative charge accumulating on a balloon as you rub it against a sweater. You can then observe how two charged balloons interact and how they cause polarization in a wall.</para>
+<exercise id="fs-id1167067042908" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167063515141">
+<!--<para id="fs-id1167067015129"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex007"/></para>-->
+<para id="fs-id1164565538706">Click the reset button, and start with two balloons. Charge a first balloon by rubbing it on the sweater, and then move it toward the second balloon. Why does the second balloon not move?</para>
+<list id="fs-id1164567098569" list-type="enumerated" number-style="lower-alpha">
+<item>The second balloon has an equal number of positive and negative charges.</item>
+<item>The second balloon has more positive charges than negative charges.</item>
+<item>The second balloon has more negative charges than positive charges.</item>
+<item>The second balloon is positively charged and has polarization.</item>
+</list>
+</problem>
+</exercise>
+</note><note id="fs-id1167067197058" class="snap-lab"><title>Polarizing Tap Water</title>
+
+<para id="fs-id1167066973002">This lab will demonstrate how water molecules can easily be polarized.</para>
+<list id="fs-id1167067205510" class="materials">
+<item>Plastic object of small dimensions, such as comb or plastic stirrer</item>
+<item>Source of tap water</item>
+</list>
+<para id="fs-id1164566380868">Instructions</para>
+<list id="fs-id1167063947618" list-type="enumerated">
+<title>Procedure</title>
+<item>Thoroughly rub the plastic object with a dry cloth.</item>
+<item>Open the faucet just enough to let a smooth filament of water run from the tap.</item>
+<item>Move an edge of the charged plastic object toward the filament of running water.</item>
+</list>
+<para id="fs-id1167066803835">What do you observe? What happens when the plastic object touches the water filament? Can you explain your observations?</para>
+<exercise id="fs-id1167067091395" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167067250044">
+<para id="fs-id1167067199195"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex008"/></para>
+</problem>
+</exercise>
+</note><note id="Worked_Example_18_02" class="worked-example"><title>Charging Ink Droplets</title>
+<exercise id="fs-id1167066984659" class="18-ex009 unnumbered">
+<label/>
+<problem id="fs-id1167067180476">
+<para id="fs-id1167067147870">Electrically neutral ink droplets in an ink-jet printer pass through an electron beam created by an electron gun, as shown in <link target-id="Figure_18_01_inkdrop"/>. Some electrons are captured by the ink droplet, so that it becomes charged. After passing through the electron beam, the net charge of the ink droplet is  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mrow>
+    <m:mtext>ink</m:mtext><m:mtext>drop</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>−1</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>−10</m:mn></m:mrow>
+  </m:msup>
+  <m:mtext>C</m:mtext></m:mrow>
+</m:math> . How many electrons are captured by the ink droplet?</para><figure id="Figure_18_01_inkdrop"><media id="fs-id1167066970903" alt="Six small purple spheres, each marked as “e superscript minus”, are arranged vertically and labeled as “electrons”. The three lowest spheres are enclosed in a rectangle, the fourth one above them is crossing the upper edge of the rectangle, and the two uppermost spheres are outside the rectangle. An arrow next to the two uppermost spheres is pointing upward, suggesting the direction of movement of the purple spheres. A much larger black sphere, labeled “Ink droplet”, is above and to the left of the column of purple spheres, and an arrow pointing toward the right suggests the direction of movement of the black sphere.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_18_01_inkdrop.jpg"/>
+</media>
+
+<caption>Electrons from an <emphasis effect="italics">electron gun</emphasis> charge a passing ink droplet.</caption></figure><note id="fs-id1167067194660">
+<label/><title>Strategy</title>
+<para id="fs-id1167067160010">A single electron carries a charge of  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mrow>
+    <m:msup>
+     <m:mi>e</m:mi>
+     <m:mo>−</m:mo>
+    </m:msup>
+    </m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>−1.602</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>−19</m:mn></m:mrow>
+  </m:msup>
+  <m:mtext>C</m:mtext></m:mrow>
+</m:math> . Dividing the net charge of the ink droplet by the charge  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>q</m:mi>
+   <m:mrow>
+    <m:msup>
+     <m:mi>e</m:mi>
+     <m:mo>−</m:mo>
+    </m:msup>
+    </m:mrow>
+  </m:msub>
+  </m:mrow>
+</m:math> of a single electron will give the number of electrons captured by the ink droplet.</para></note>
+</problem>
+<solution id="fs-id1167067255165">
+<label/>
+<title>Solution</title>
+<para id="fs-id1167067150654">The number <emphasis effect="italics">n</emphasis> of electrons captured by the ink droplet are</para>
+<equation id="fs-id1164567252399"> <m:math display="block">
+ <m:mrow>
+  <m:mi>n</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msub>
+     <m:mi>q</m:mi>
+     <m:mrow>
+      <m:mtext>ink</m:mtext><m:mtext>drop</m:mtext></m:mrow>
+    </m:msub>
+    </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mi>q</m:mi>
+     <m:mrow>
+      <m:msup>
+       <m:mi>e</m:mi>
+       <m:mo>−</m:mo>
+      </m:msup>
+      </m:mrow>
+    </m:msub>
+    </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>1</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn></m:mrow>
+     <m:mrow>
+      <m:mo>−</m:mo><m:mn>10</m:mn></m:mrow>
+    </m:msup>
+    <m:mtext>C</m:mtext></m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>1.602</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn></m:mrow>
+     <m:mrow>
+      <m:mo>−</m:mo><m:mn>19</m:mn></m:mrow>
+    </m:msup>
+    <m:mtext>C</m:mtext></m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>6</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+  </m:msup>
+   <m:mn>8.</m:mn>
+  </m:mrow>
+</m:math> </equation></solution>
+<commentary id="fs-id1167063855827">
+<title>Discussion</title>
+<para id="fs-id1167066875320">This is almost a billion electrons! It seems like a lot, but it is quite small compared to the number of atoms in an ink droplet, which number about  <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>16</m:mn></m:mrow>
+  </m:msup>
+<m:mn>.</m:mn>
+  </m:mrow>
+</m:math>  Thus, each extra electron is shared between about  <m:math>
+ <m:mrow>
+  <m:mrow><m:mrow>
+   <m:msup>
+    <m:mrow>
+     <m:mn>10</m:mn></m:mrow>
+    <m:mrow>
+     <m:mn>16</m:mn></m:mrow>
+   </m:msup>
+   </m:mrow><m:mo>/</m:mo><m:mrow>
+   <m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mn>6</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+      <m:mrow>
+       <m:mn>10</m:mn></m:mrow>
+      <m:mn>8</m:mn>
+     </m:msup>
+     </m:mrow>
+   <m:mo>)</m:mo></m:mrow></m:mrow></m:mrow>
+  <m:mo>≈</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mn>7</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math>  atoms.</para></commentary>
+</exercise>
+</note></section><section id="fs-id1167063447650" class="practice-problems"><title>Practice Problems</title><exercise id="fs-id1167063599285">
+<problem id="fs-id1167067103626">
+<!-- <para id="fs-id1167063496547"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex010"/></para> -->
+<para id="fs-id1169831981190">How many protons are needed to make 1 nC of charge? 1 nC = 10−9 C</para>
+<list id="fs-id1169831921024" list-type="enumerated" number-style="lower-alpha">
+<item>1.6 × 10<sup>−28</sup></item>
+<item>1.6 × 10<sup>−10</sup></item>
+<item>3 × 10<sup>9</sup></item>
+<item>6 × 10<sup>9</sup></item></list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067203898">
+<problem id="fs-id1167063855778">
+<para id="fs-id1167067090271"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex011"/></para>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167066960759" class="check-understanding">
+<title>Check Your Understanding</title>
+<exercise id="fs-id1167063624403" class="os-exercise">
+<problem id="fs-id1167063747247">
+<!--<para id="fs-id1167063892291"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex012"/></para>-->
+<para id="fs-id1164564359857">How many types of electric charge exist?</para>
+<list id="fs-id1164565957928" list-type="enumerated" number-style="lower-alpha">
+<item>one type</item>
+<item>two types</item>
+<item>three types</item>
+<item>four types</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067054982" class="os-exercise">
+<problem id="fs-id1167067266608">
+<!--<para id="fs-id1167066804282"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex013"/></para>-->
+<para id="fs-id1164567618218">Which are the two main electrical classifications of materials based on how easily charges can move through them?</para>
+<list id="fs-id1164567326090" list-type="enumerated" number-style="lower-alpha">
+<item>conductor and insulator</item>
+<item>semiconductor and insulator</item>
+<item>conductor and superconductor</item>
+<item>conductor and semiconductor</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167063424726" class="os-exercise">
+<problem id="fs-id1167067146729">
+<!--<para id="fs-id1167066790090"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex014"/></para>-->
+<para id="fs-id1164567263531">True or false—A polarized material must have a nonzero net electric charge.</para>
+<list id="fs-id1164565561622" list-type="enumerated" number-style="lower-alpha">
+<item>true</item>
+<item>false</item></list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067200728" class="os-exercise">
+<problem id="fs-id1167067143604">
+<!--<para id="fs-id1167066860349"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex015"/></para>-->
+<para id="fs-id1164565434347">Describe the force between two positive point charges that interact.</para>
+<list id="fs-id1164565330329" list-type="enumerated" number-style="lower-alpha">
+<item>The force is attractive and acts along the line joining the two point charges.</item>
+<item>The force is attractive and acts tangential to the line joining the two point charges.</item>
+<item>The force is repulsive and acts along the line joining the two point charges.</item>
+<item>The force is repulsive and acts tangential to the line joining the two point charges.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167066799463" class="os-exercise">
+<problem id="fs-id1167063478693">
+<!--<para id="fs-id1167063474071"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex016"/></para>-->
+<para id="fs-id1164568016170">How does a conductor differ from an insulator?</para>
+<list id="fs-id1164565778924" list-type="enumerated" number-style="lower-alpha">
+<item>Electric charges move easily in an insulator but not in a conducting material.</item>
+<item>Electric charges move easily in a conductor but not in an insulator.</item>
+<item>A conductor has a large number of electrons.</item>
+<item>More charges are in an insulator than in a conductor.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167063517236" class="os-exercise">
+<problem id="fs-id1167063635049">
+<!--<para id="fs-id1167067104090"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex017"/></para>-->
+<para id="fs-id1164567793353">True or false—Charging an object by polarization requires touching it with an object carrying excess charge.</para>
+<list id="fs-id1164566085022" list-type="enumerated" number-style="lower-alpha">
+<item>true</item>
+<item>false</item>
+</list>
+</problem>
+</exercise>
+</section>
+
+
+<section id="fs-id1167066997845" class="summary">
+<title>Section Summary</title>
+<list id="fs-id1167066874134">
+<item>Electric charge is a conserved quantity, which means it can be neither created nor destroyed.</item>
+<item>Electric charge comes in two varieties, which are called <emphasis effect="italics">positive</emphasis> and <emphasis effect="italics">negative</emphasis>.</item>
+<item>Charges with the same sign repel each other. Charges with opposite signs attract each other.</item>
+<item>Charges can move easily in conducting material. Charges cannot move easily in an insulating material.</item>
+<item>Objects can be charged in three ways: by contact, by conduction, and by induction.</item>
+<item>Although a polarized object may be neutral, its electrical charge is unbalanced, so one side of the object has excess negative charge and the other side has an equal magnitude of excess positive charge.</item>
+</list>
+</section>
+
+<section id="fs-id1167063587996" class="concept">
+<title>Concept Items</title>
+<exercise id="fs-id1167066836403" class="os-exercise">
+<problem id="fs-id1167063558218">
+<para id="fs-id1167067072699"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex020"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167063517169" class="os-exercise">
+<problem id="fs-id1167063537537">
+<para id="fs-id1167066973691"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex021"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167063697154" class="os-exercise">
+<problem id="fs-id1167066994193">
+<!--<para id="fs-id1167063649824"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex022"/></para>-->
+<para id="fs-id1164567815114">True or false—A liquid can be an insulating material.</para>
+<list id="fs-id1164565955808" list-type="enumerated" number-style="lower-alpha">
+<item>true</item>
+<item>false</item></list>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167063754903" class="critical-thinking">
+<title>Critical Thinking</title>
+<exercise id="fs-id1167063785854" class="os-exercise">
+<problem id="fs-id1167067202260">
+<!--<para id="fs-id1167067055822"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex023"/></para>-->
+<para id="fs-id1164565580218">If you dive into a pool of seawater through which an equal amount of positively and negatively charged particles is moving, will you receive an electric shock?</para>
+<list id="fs-id1164567612035" list-type="enumerated" number-style="lower-alpha">
+<item>Yes, because negatively charged particles are moving.</item>
+<item>No, because positively charged particles are moving.</item>
+<item>Yes, because positively and negatively charged particles are moving.</item>
+<item>No, because equal amounts of positively and negatively charged particles are moving.</item></list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067042629" class="os-exercise">
+<problem id="fs-id1167067150754">
+<!--<para id="fs-id1167067133738"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex024"/></para>-->
+<para id="fs-id1164565464925">True or false—The high-voltage wires that you see connected to tall metal-frame towers are held aloft by insulating connectors, and these wires are wrapped in an insulating material.</para>
+<list id="fs-id1164565335552" list-type="enumerated" number-style="lower-alpha">
+<item>true</item>
+<item>false</item></list>
+</problem>
+</exercise>
+<exercise id="fs-id1167066956865" class="os-exercise">
+<problem id="fs-id1167067148193">
+<!--<para id="fs-id1167063742006"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex025"/></para>-->
+<para id="fs-id1164565558483">By considering the molecules of an insulator, explain how an insulator can be overall neutral but carry a surface charge when polarized.</para>
+<list id="fs-id1164564178598" list-type="enumerated" number-style="lower-alpha">
+<item>Inside the insulator, the oppositely charged ends of the molecules cancel each other.</item>
+<item>Inside the insulator, the oppositely charged ends of the molecules do not cancel each other.</item>
+<item>The electron distribution in all the molecules shifts in every possible direction, leaving an excess of positive charge on the opposite end of each molecule.</item>
+<item>The electron distribution in all the molecules shifts in a given direction, leaving an excess of negative charge on the opposite end of each molecule.</item></list>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167063419010" class="problems">
+<title>Problems</title>
+<exercise id="fs-id1167067266769" class="os-exercise">
+<problem id="fs-id1167063583075">
+<!--<para id="fs-id1167063964867"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex018"/></para>-->
+<para id="fs-id1164567985427">A dust particle acquires a charge of −13 nC. How many excess electrons does it carry?</para>
+<list id="fs-id1164565308336" list-type="enumerated" number-style="lower-alpha">
+<item>20.8 × 10<sup>−28</sup> electrons</item>
+<item>20.8 × <sup>−19</sup> electrons</item>
+<item>8.1 × 10<sup>10</sup> electrons</item>
+<item>8.1 × 10<sup>19</sup> electrons</item></list>
+
+</problem>
+</exercise>
+<exercise id="fs-id1167067014283" class="os-exercise">
+<problem id="fs-id1167063505407">
+<!--<para id="fs-id1167066983477"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex019"/></para>-->
+<para id="fs-id1164567953976">Two identical conducting spheres are charged with a net charge of +5.0 <emphasis effect="italics">q</emphasis> on the first sphere and a net charge of −8.0 <emphasis effect="italics">q</emphasis> on the second sphere. The spheres are brought together, allowed to touch, and then separated. What is the net charge on each sphere now?</para>
+<list id="fs-id1164565425914" list-type="enumerated" number-style="lower-alpha">
+<item>−3.0<emphasis effect="italics">q</emphasis></item>
+<item>−1.5<emphasis effect="italics">q</emphasis></item>
+<item>+1.5<emphasis effect="italics">q</emphasis></item>
+<item>+3.0<emphasis effect="italics">q</emphasis></item></list>
+
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167067180234" class="multiple-choice"><title>Test Prep Multiple Choice</title><exercise id="fs-id1167063451818" class="os-exercise">
+<problem id="fs-id1167061322365">
+<!--<para id="fs-id1167066804347"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex026"/></para>-->
+<para id="fs-id1164566006555">A neutral hydrogen atom has one proton and one electron. If you remove the electron, what will be the leftover sign of the charge?</para>
+<list id="fs-id1164565432613" list-type="enumerated" number-style="lower-alpha">
+<item>negative</item>
+<item>positive</item>
+<item>zero</item>
+<item>neutral</item></list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067043395" class="os-exercise">
+<problem id="fs-id1167061226375">
+<!--<para id="fs-id1167063419565"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex027"/></para>-->
+<para id="fs-id1164564476972">What is the charge on a proton?</para>
+<list id="fs-id1164567129110" list-type="enumerated" number-style="lower-alpha">
+<item>+8.99 × 10<sup>–9</sup> C</item>
+<item>−8.99 × 10<sup>–9</sup> C</item>
+<item>+ 1.60 × 10<sup>–19</sup> C</item>
+<item>−1.60 × 10<sup>–19</sup> C</item></list>
+</problem>
+</exercise>
+<exercise id="fs-id1167063852664" class="os-exercise">
+<problem id="fs-id1167067257794">
+<!--<para id="fs-id1167066839077"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex028"/></para>-->
+<para id="fs-id1164567852320">True or false—Carbon is more conductive than pure water.</para>
+<list id="fs-id1164567876269" list-type="enumerated" number-style="lower-alpha">
+<item>true</item>
+<item>false</item></list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067115263" class="os-exercise">
+<problem id="fs-id1167066860367">
+<!--<para id="fs-id1167063791108"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex029"/></para>-->
+<para id="fs-id1164567272423">True or false—Two insulating objects are polarized. To cancel the polarization, it suffices to touch them together.</para>
+<list id="fs-id1164567915050" list-type="enumerated" number-style="lower-alpha">
+<item>true</item>
+<item>false</item></list>
+</problem>
+</exercise>
+<exercise id="eip-id1166848945673" class="os-exercise">
+<problem id="eip-id1166848882545">
+<!--<para id="eip-id1166848882548">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch18-ot015"/>
+</para>-->
+<para id="fs-id1164567841419">How is the charge of the proton related to the charge of the electron?</para>
+<list id="fs-id1164566031215" list-type="enumerated" number-style="lower-alpha">
+<item>The magnitudes of charge of the proton and the electron are equal, but the charge of the proton is positive, whereas the charge of the electron is negative.</item>
+<item>The magnitudes of charge of the proton and the electron are unequal, but the charge of the proton is positive, whereas the charge of the electron is negative.</item>
+<item>The magnitudes of charge of the proton and the electron are equal, but the charge of the proton is negative, whereas the charge of the electron is positive.</item>
+<item>The magnitudes of charge of the proton and the electron are unequal, but the charge of the proton is negative, whereas the charge of the electron is positive.</item></list>
+</problem>
+</exercise></section><section id="fs-id1167063466283" class="short-answer">
+<title>Test Prep Short Answer</title>
+<exercise id="fs-id1167067254022" class="os-exercise">
+<problem id="fs-id1167067165587">
+<!--<para id="fs-id1167067197715"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex030"/></para>-->
+<para id="fs-id1164567492300">Compare the mass of the electron with the mass of the proton.</para>
+<list id="fs-id1164567388043" list-type="enumerated" number-style="lower-alpha">
+<item>The mass of the electron is about 1,000 times that of the proton.</item>
+<item>The mass of the proton is about 1,000 times that of the electron.</item>
+<item>The mass of the electron is about 1,836 times that of the proton.</item>
+<item>The mass of the proton is about 1,836 times that of the electron.</item></list>
+</problem>
+</exercise>
+<exercise id="fs-id1167063688328" class="os-exercise">
+<problem id="fs-id1167067037715">
+<!--<para id="fs-id1167061396732"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex031"/></para>-->
+<para id="fs-id1164567413670">The positive terminal of a battery is connected to one connection of a lightbulb, and the other connection of the lightbulb is connected to the negative terminal of the battery. The battery pushes charge through the circuit but does not become charged itself. Does this violate the law of conservation of charge? Explain.</para>
+<list id="fs-id1164566220345" list-type="enumerated" number-style="lower-alpha">
+<item>No, because this is a closed circuit.</item>
+<item>No, because this is an open circuit.</item>
+<item>Yes, because this is a closed circuit.</item>
+<item>Yes, because this is an open circuit.</item></list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067101589" class="os-exercise">
+<problem id="fs-id1167067217271">
+<para id="fs-id1167063594313"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex032"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167067251333" class="os-exercise">
+<problem id="fs-id1167063864860">
+<!--<para id="fs-id1167067095672"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex033"/></para>-->
+<para id="fs-id1164566977903">The students in your class count off consecutively so each student has a number. The odd-numbered students are told to act as negative charge, and the even-numbered students are told to act as positive charge. How would you organize them to represent a polarized material?</para>
+<list id="fs-id1164567041682" list-type="enumerated" number-style="lower-alpha">
+<item>The even-numbered and odd-numbered students will be arranged one after the other.</item>
+<item>Two even-numbered will be followed by two odd-numbered, and so on.</item>
+<item>Even-numbered students will be asked to come to the front, whereas odd-numbered students will be asked to go to the back of the class.</item>
+<item>Half even-numbered and odd-numbered will come to the front, whereas half even-numbered and odd-numbered will go to the back.</item></list>
+</problem>
+</exercise>
+<exercise id="fs-id1167066793177" class="os-exercise">
+<problem id="fs-id1167066867081">
+<!--<para id="fs-id1167067188844"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex034"/></para>-->
+<para id="fs-id1164567271295">An ion of iron contains 56 protons. How many electrons must it contain if its net charge is +5<emphasis effect="italics">e</emphasis>?</para>
+<list id="fs-id1164567332198" list-type="enumerated" number-style="lower-alpha">
+<item>five electrons</item>
+<item>51 electrons</item>
+<item>56 electrons</item>
+<item>61 electrons</item></list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067073622" class="os-exercise">
+<problem id="fs-id1167067032126">
+<para id="fs-id1167063483516"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex035"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167067200434" class="os-exercise">
+<problem id="fs-id1167067225227">
+<!--<para id="fs-id1167066953179"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex036"/></para>-->
+<para id="fs-id1164565977644">A solid cube carries a charge of +8<emphasis effect="italics">e</emphasis>. You measure the charge on each face of the cube and find that each face carries +0.5<emphasis effect="italics">e</emphasis> of charge. Is the cube made of conducting or insulating material? Explain.</para>
+<list id="fs-id1164565480035" list-type="enumerated" number-style="lower-alpha">
+<item>The cube is made of insulating material, because all the charges are on the surface of the cube.</item>
+<item>The cube is made of conducting material, because some of the charges are inside the cube.</item>
+<item>The cube is made of insulating material, because all the charges are on the surface of the cube.</item>
+<item>The cube is made of insulating material, because some of the charges are inside the cube.</item></list>
+</problem>
+</exercise>
+<exercise id="fs-id1167061190362" class="os-exercise">
+<problem id="fs-id1167061444265">
+<!--<para id="fs-id1167067264246"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex037"/></para>-->
+<para id="fs-id1164565949354">You have four neutral conducting spheres and a charging device that allows you to place charge <emphasis effect="italics">q</emphasis> on any neutral object. You want to charge one sphere with a charge <emphasis effect="italics">q</emphasis>/2 and the other three with a charge <emphasis effect="italics">q</emphasis>6 . How do you proceed?</para>
+<list id="fs-id1164565392155" list-type="enumerated" number-style="lower-alpha">
+<item>Charge one sphere with charge <emphasis effect="italics">q</emphasis>. Touch it simultaneously to the three remaining neutral spheres.</item>
+<item>Charge one sphere with charge <emphasis effect="italics">q</emphasis>. Touch it to one other sphere to produce two spheres with charge  <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mi>q</m:mi>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+
+  </m:mrow>
+   </m:semantics>
+</m:math> . Touch one of these spheres to one other neutral sphere.</item>
+<item>Charge one sphere with charge <emphasis effect="italics">q</emphasis>. Touch it to one other sphere to produce two spheres with charge  <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mi>q</m:mi>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+
+  </m:mrow>
+   </m:semantics>
+</m:math> . Touch one of these spheres simultaneously to the two remaining neutral spheres.</item>
+<item>Charge one sphere with charge <emphasis effect="italics">q</emphasis>. Touch it simultaneously to two other neutral spheres to produce three spheres with charge <emphasis effect="italics">q</emphasis>/3. Touch one of these spheres to one other neutral sphere.</item></list>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167063715412" class="extended-response">
+<title>Test Prep Extended Response</title>
+<exercise id="fs-id1167063471504" class="os-exercise">
+<problem id="fs-id1167067267331">
+<para id="fs-id1167060070428"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex038"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167063426261" class="os-exercise">
+<problem id="fs-id1167063717300">
+<!--<para id="fs-id1167066865850"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex039"/></para>-->
+<para id="fs-id1164567233084">True or false—Conservation of charge is like balancing a budget.</para>
+<list id="fs-id1164565959144" list-type="enumerated" number-style="lower-alpha">
+<item>true</item>
+<item>false</item></list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067105305" class="os-exercise"><problem id="fs-id1167063480681">
+<!--<para id="fs-id1167066856669"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex040"/></para>-->
+<para id="fs-id1164565350511">True or false—Although wood is an insulator, lightning can travel through a tree to reach Earth.</para>
+<list id="fs-id1164567415152" list-type="enumerated" number-style="lower-alpha">
+<item>true</item>
+<item>false</item></list>
+</problem>
+</exercise><exercise id="fs-id1167063554122" class="os-exercise">
+<problem id="fs-id1167066953637">
+<!--<para id="fs-id1167063881145"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex041"/></para>-->
+<para id="fs-id1164564499452">True or false—An eccentric inventor attempts to levitate by first placing a large negative charge on himself and then putting a large positive charge on the ceiling of his workshop. Instead, while he attempts to place a large negative charge on himself, his clothes fly off.</para>
+<list id="fs-id1164567422504" list-type="enumerated" number-style="lower-alpha">
+<item>true</item>
+<item>false</item></list>
+</problem>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1167067197542"><term>conductor</term><meaning id="fs-id1167067073702">material through which electric charge can easily move, such as metals</meaning></definition>
+<definition id="fs-id1167067009812"><term>electron</term><meaning id="fs-id1167066851576">subatomic particle that carries one indivisible unit of negative electric charge</meaning></definition>
+<definition id="fs-id1167067078111"><term>induction</term><meaning id="fs-id1167067232359">creating an unbalanced charge distribution in an object by moving a charged object toward it (but without touching)</meaning></definition>
+<definition id="fs-id1167067101528"><term>insulator</term><meaning id="fs-id1167066848559">material through which a charge does not move, such as rubber</meaning></definition>
+<definition id="fs-id1167067111126"><term>law of conservation of charge</term><meaning id="fs-id1167067085646">states that total charge is constant in any process</meaning></definition>
+<definition id="fs-id1167067043011"><term>polarization</term><meaning id="fs-id1167067305327">separation of charge induced by nearby excess charge</meaning></definition>
+<definition id="fs-id1167067073474"><term>proton</term><meaning id="fs-id1167067064052">subatomic particle that carries the same magnitude charge as the electron, but its charge is positive</meaning></definition>
+</glossary>
+</document>

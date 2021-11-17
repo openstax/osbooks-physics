@@ -1,0 +1,689 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>The Dual Nature of Light</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54552</md:content-id>
+  <md:title>The Dual Nature of Light</md:title>
+  <md:abstract/>
+  <md:uuid>d5593b8e-c6c6-4224-b682-2b2d56b5b7be</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167067005892" class="learning-objectives"><label/><title>Section Learning Objectives</title>
+<para id="fs-id1167067109688">By the end of this section, you will be able to do the following:</para>
+<list id="fs-id1167063730152">
+<item>Describe the Compton effect</item>
+<item>Calculate the momentum of a photon</item>
+<item>Explain how photon momentum is used in solar sails</item>
+<item>Explain the particle-wave duality of light</item>
+</list>
+</note><note id="fs-id1167063582827" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167063547234">The learning objectives in this section will help your students master the following standards:</para><list id="fs-id1167067048425"><item>(3) Scientific processes. The student uses critical thinking, scientific reasoning, and problem solving to make informed decisions within and outside the classroom. The student is expected to:
+<list id="fs-id1167064547395"><item>
+<span>(D)</span>
+<span>explain the impacts of the scientific contributions of a variety of historical and contemporary scientists on scientific thought and society.</span></item>
+</list></item>
+<item>(8) Science concepts. The student knows simple examples of atomic, nuclear, and quantum phenomena. The student is expected to:
+<list id="fs-id1167065872366"><item>
+<span>(A)</span>
+<span>describe the photoelectric effect and the dual nature of light.</span></item>
+</list></item>
+</list></note>
+<section id="keyterms"><title>Section Key Terms</title>
+<table id="fs-id1167066953638" class="unnumbered unstyled section-key-terms" summary="Section Key Terms is a one row table reading Compton effect, particle wave duality, photon momentum."><label/>
+<tgroup cols="3"><tbody>
+<row>
+<entry>Compton effect</entry>
+<entry>particle-wave duality</entry>
+<entry>photon momentum</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section id="fs-id1167063416349">
+<title>Photon Momentum</title>
+<note id="fs-id1167066799033" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167063419279">Have students read the section heading. Ask them whether photons demonstrate momentum. They should answer yes, based on the photoelectric effect. Ask them what equation they would use to calculate this momentum. Push them on the idea that the momentum equation relies on mass, while photons are massless particles.</para>
+</note>
+<para id="fs-id1167066961841">Do photons abide by the fundamental properties of physics? Can packets of electromagnetic energy possibly follow the same rules as a ping-pong ball or an electron? Although strange to consider, the answer to both questions is yes.</para>
+<para id="fs-id1167067111798">Despite the odd nature of photons, scientists prior to Einstein had long suspected that the fundamental particle of electromagnetic radiation shared properties with our more macroscopic particles. This is no clearer than when considering the photoelectric effect, where photons knock electrons out of a substance. While it is strange to think of a massless particle exhibiting momentum, it is now a well-established fact within the scientific community. <link target-id="Figure_21_03_Comet"/> shows macroscopic evidence of <term>photon momentum</term>.</para>
+
+<figure id="Figure_21_03_Comet">
+<media id="fs-id1167063788791" alt="There are two images shown. The left image is a drawing of a comet’s path around the sun. The comet’s path is shown with a black line, while the comet is drawn in orange for nine successive moments in time. In each comet drawing, the tail of the comet is seen pointing away from the sun. The right image is a photograph of a comet. In the image, the comet is seen with two tails: one bright white and one a faint blue.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_21_03_Comet.jpg"/>
+</media>
+<caption>The tails of the Hale-Bopp comet point away from the Sun, evidence that light has momentum. Dust emanating from the body of the comet forms this tail. Particles of dust are pushed away from the Sun by light reflecting from them. The blue, ionized gas tail is also produced by photons interacting with atoms in the comet material. (credit: Geoff Chester, U.S. Navy, via Wikimedia Commons)</caption>
+</figure>
+
+<para id="fs-id1167063484194"><link target-id="Figure_21_03_Comet"/> shows a comet with two prominent tails. Comet tails are composed of gases and dust evaporated from the body of the comet and ionized gas. What most people do not know about the tails is that they always point <emphasis effect="italics">away </emphasis>from the Sun rather than trailing behind the comet. This can be seen in the diagram.</para>
+<para id="fs-id1167067139937">Why would this be the case? The evidence indicates that the dust particles of the comet are forced away from the Sun when photons strike them. Evidently, photons carry momentum in the direction of their motion away from the Sun, and some of this momentum is transferred to dust particles in collisions. The blue tail is caused by the solar wind, a stream of plasma consisting primarily of protons and electrons evaporating from the corona of the Sun.</para>
+</section>
+
+<section id="fs-id1167066960760">
+<title>Momentum, The Compton Effect, and Solar Sails</title>
+<para id="fs-id1167063444068">Momentum is conserved in quantum mechanics, just as it is in relativity and classical physics. Some of the earliest direct experimental evidence of this came from the scattering of X-ray photons by electrons in substances, a phenomenon discovered by American physicist Arthur H. <term class="no-emphasis">Compton</term> (1892–1962). Around 1923, Compton observed that X-rays reflecting from materials had decreased energy and correctly interpreted this as being due to the scattering of the X-ray photons by electrons. This phenomenon could be handled as a collision between two particles—a photon and an electron at rest in the material. After careful observation, it was found that both energy and momentum were conserved in the collision. See <link target-id="Figure_21_03_Compton"/>. For the discovery of this conserved scattering, now known as the <term>Compton effect</term>, Arthur Compton was awarded the Nobel Prize in 1929.</para>
+<para id="fs-id1167063687586">Shortly after the discovery of Compton scattering, the value of the photon momentum,  <m:math> <m:mrow> <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle><m:mo>=</m:mo><m:mfrac> <m:mi>h</m:mi> <m:mi>λ</m:mi> </m:mfrac> <m:mo>,</m:mo> </m:mrow></m:math> </para>
+<para id="fs-id1167067039172">was determined by Louis de Broglie. In this equation, called the de Broglie relation, <emphasis effect="italics">h </emphasis>represents Planck’s constant and <emphasis effect="italics">λ </emphasis>is the photon wavelength.</para>
+
+<figure id="Figure_21_03_Compton">
+<media id="fs-id1167063506467" alt="The image shows a collision between a photon of light and an electron. The photon of light is shown travelling downward and to the right toward a stationary electron, and then is shown rebounding upward and to the right after the drawn collision. The electron is shown stationary and the moving downward after the collision. Also in the image are the equations E = hf and E' = hf', which correspond to the energy of the photon before and after the collision. Near the electron is the equation KEe = E - E', showing the effect the collision has on the electron’s energy.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_21_03_Compton.jpg"/>
+</media>
+<caption>The Compton effect is the name given to the scattering of a photon by an electron. Energy and momentum are conserved, resulting in a reduction of both for the scattered photon.</caption>
+</figure>
+
+<note id="fs-id1167067159771" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067074455"><span>[BL]</span><span>[OL]</span>Can students think of an equivalent macroscopic event that models both momentum and energy? Discuss the difficulties in modeling this on the particle scale.</para>
+<para id="fs-id1167063811166"><span>[AL]</span>Have the students determine what information would need to be measured in order to show that both quantum energy and momentum were conserved. Additionally, the students could create a set of data that would fulfill the energy and momentum conservation equations used in <link target-id="Figure_21_03_Compton"/>.
+</para>
+</note>
+<para id="fs-id1167067024564">We can see that photon momentum is small, since  <m:math> <m:mrow> <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle><m:mo>=</m:mo><m:mi>h</m:mi><m:mo>/</m:mo><m:mi>λ</m:mi><m:mo>.</m:mo> </m:mrow></m:math>  and <emphasis effect="italics">h </emphasis>is very small. It is for this reason that we do not ordinarily observe photon momentum. Our mirrors do not recoil when light reflects from them, except perhaps in cartoons. Compton saw the effects of photon momentum because he was observing X-rays, which have a small wavelength and a relatively large momentum, interacting with the lightest of particles, the electron.</para>
+
+<note id="fs-id1167061228881" class="worked-example"><title>Electron and Photon Momentum Compared</title>
+
+<exercise id="fs-id1167063619347" class="unnumbered"><label/>
+<problem id="fs-id1167063876714">
+<para id="fs-id1167067276380">(a) Calculate the momentum of a visible photon that has a wavelength of 500 nm. (b) Find the velocity of an electron having the same momentum. (c) What is the energy of the electron, and how does it compare with the energy of the photon?</para>
+<note id="fs-id1167067232018">
+<label/><title>Strategy</title>
+<para id="fs-id1167063484153">Finding the photon momentum is a straightforward application of its definition:  <m:math> <m:mrow> <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle><m:mo>=</m:mo><m:mi>h</m:mi><m:mo>/</m:mo><m:mi>λ</m:mi><m:mo>.</m:mo> </m:mrow></m:math>  If we find the photon momentum is small, we can assume that an electron with the same momentum will be nonrelativistic, making it easy to find its velocity and kinetic energy from the classical formulas.</para>
+</note>
+</problem>
+<solution id="fs-id1167063484411"><label/>
+<title>Solution for (a)</title>
+<para id="fs-id1167067147870">Photon momentum is given by the de Broglie relation.</para>
+<equation id="fs-id1164561268166"> <m:math display="block">
+ <m:mrow>
+  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle><m:mo>=</m:mo><m:mfrac>
+   <m:mi>h</m:mi>
+   <m:mi>λ</m:mi>
+  </m:mfrac></m:mrow>
+</m:math> </equation>
+<para id="fs-id1167067266237">Entering the given photon wavelength yields</para>
+<equation id="fs-id1164566505155"> <m:math display="block"> <m:mrow> <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle><m:mo>=</m:mo><m:mfrac> <m:mrow> <m:mn>6.63</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup> <m:mrow> <m:mn>10</m:mn> </m:mrow> <m:mrow> <m:mn>−34</m:mn> </m:mrow> </m:msup> <m:mi>J</m:mi><m:mo>⋅</m:mo><m:mi>s</m:mi> </m:mrow> <m:mrow> <m:mn>5.00</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup> <m:mrow> <m:mn>10</m:mn> </m:mrow> <m:mrow> <m:mn>−7</m:mn> </m:mrow> </m:msup> <m:mtext>m</m:mtext> </m:mrow> </m:mfrac> <m:mo>=</m:mo><m:mn>1.33</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup> <m:mrow> <m:mn>10</m:mn> </m:mrow> <m:mrow> <m:mn>−27</m:mn> </m:mrow> </m:msup> <m:mtext>k</m:mtext><m:mtext>g</m:mtext><m:mo>⋅</m:mo><m:mtext>m</m:mtext><m:mo>/</m:mo><m:mtext>s</m:mtext><m:mo>.</m:mo> </m:mrow></m:math> </equation></solution>
+<solution id="fs-id1167067292451"><label/>
+<title>Solution for (b)</title>
+<para id="fs-id1167067193442">Since this momentum is indeed small, we will use the classical expression  <m:math> <m:mrow> <m:mi>p</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>v</m:mi> </m:mrow></m:math>  to find the velocity of an electron with this momentum. Solving for <emphasis effect="italics">v </emphasis>and using the known value for the mass of an electron gives</para>
+<equation id="fs-id1164564907178"> <m:math display="block"> <m:mrow> <m:mi>v</m:mi><m:mo>=</m:mo><m:mfrac> <m:mtext>p</m:mtext> <m:mi>m</m:mi> </m:mfrac> <m:mo>=</m:mo><m:mfrac> <m:mrow> <m:mn>1.33</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup> <m:mrow> <m:mn>10</m:mn> </m:mrow> <m:mrow> <m:mn>−27</m:mn> </m:mrow> </m:msup> <m:mtext>k</m:mtext><m:mtext>g</m:mtext><m:mo>⋅</m:mo><m:mtext>m</m:mtext><m:mo>/</m:mo><m:mtext>s</m:mtext> </m:mrow> <m:mrow> <m:mn>9.11</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup> <m:mrow> <m:mn>10</m:mn> </m:mrow> <m:mrow> <m:mn>−31</m:mn> </m:mrow> </m:msup> <m:mtext>k</m:mtext><m:mtext>g</m:mtext> </m:mrow> </m:mfrac> <m:mo>=</m:mo><m:mn>1,459.9</m:mn><m:mspace width="0.3em"/><m:mtext>m</m:mtext><m:mo>/</m:mo><m:mtext>s</m:mtext><m:mo>≈</m:mo><m:mn>1,460</m:mn><m:mspace width="0.25em"/><m:mtext> m</m:mtext><m:mo>/</m:mo><m:mtext>s</m:mtext><m:mo>.</m:mo> </m:mrow></m:math> </equation></solution>
+<solution id="fs-id1167066805045"><label/>
+<title>Solution for (c)</title>
+<para id="fs-id1167063490340">The electron has kinetic energy, which is classically given by</para>
+<equation id="fs-id1164561297970"> <m:math display="block"> <m:mrow> <m:mi>K</m:mi><m:msub> <m:mi>E</m:mi> <m:mi>e</m:mi> </m:msub> <m:mo>=</m:mo><m:mfrac> <m:mn>1</m:mn> <m:mn>2</m:mn> </m:mfrac> <m:mi>m</m:mi><m:msup> <m:mi>v</m:mi> <m:mn>2</m:mn> </m:msup> <m:mo>.</m:mo> </m:mrow></m:math> </equation>
+<para id="fs-id1167066806635">Thus,</para>
+<equation id="fs-id1164561139394"> <m:math display="block">
+ <m:mrow>
+  <m:mi>K</m:mi><m:msub>
+   <m:mi>E</m:mi>
+   <m:mi>e</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mo stretchy="false">(</m:mo><m:mn>9.11</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>−3</m:mn></m:mrow>
+  </m:msup>
+  <m:msup>
+   <m:mrow/>
+   <m:mtext>1</m:mtext>
+  </m:msup>
+  <m:msup>
+   <m:mrow>
+    <m:mtext>kg)(1,456m/s)</m:mtext></m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>=</m:mo><m:mn>9.64</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>−25</m:mn></m:mrow>
+  </m:msup>
+  <m:mtext>J</m:mtext><m:mtext>.</m:mtext></m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1167067053781">Converting this to eV by multiplying by  <m:math> <m:mrow> <m:mfrac> <m:mrow> <m:mrow><m:mo>(</m:mo> <m:mrow> <m:mn>1</m:mn><m:mspace width="0.3em"/><m:mtext> eV</m:mtext> </m:mrow> <m:mo>)</m:mo></m:mrow> </m:mrow> <m:mrow> <m:mrow><m:mo>(</m:mo> <m:mrow> <m:mn>1.602</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup> <m:mrow> <m:mn>10</m:mn> </m:mrow> <m:mrow> <m:mo>–</m:mo><m:mn>19</m:mn> </m:mrow> </m:msup> <m:mtext>J</m:mtext> </m:mrow> <m:mo>)</m:mo></m:mrow> </m:mrow> </m:mfrac> <m:mtext> </m:mtext> </m:mrow></m:math>  yields</para>
+<equation id="fs-id1164562446303"> <m:math display="block">
+ <m:mrow>
+  <m:mi>K</m:mi><m:msub>
+   <m:mi>E</m:mi>
+   <m:mi>e</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>6.02</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>−6</m:mn></m:mrow>
+  </m:msup>
+  <m:mtext>eV</m:mtext><m:mtext>.</m:mtext></m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1167067006313">The photon energy <emphasis effect="italics">E</emphasis> is</para>
+<equation id="fs-id1164563518218"> <m:math display="block"> <m:mrow> <m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac> <m:mrow> <m:mi>h</m:mi><m:mi>c</m:mi> </m:mrow> <m:mi>λ</m:mi> </m:mfrac> <m:mo>=</m:mo><m:mfrac> <m:mrow> <m:mrow><m:mo>(</m:mo> <m:mrow> <m:mn>6.63</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup> <m:mrow> <m:mn>10</m:mn> </m:mrow> <m:mrow> <m:mn>−34</m:mn> </m:mrow> </m:msup> <m:mtext>J</m:mtext><m:mo>⋅</m:mo><m:mtext>s</m:mtext> </m:mrow> <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo> <m:mrow> <m:mn>3.00</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup> <m:mrow> <m:mn>10</m:mn> </m:mrow> <m:mn>8</m:mn> </m:msup> <m:mtext> m/s</m:mtext> </m:mrow> <m:mo>)</m:mo></m:mrow> </m:mrow> <m:mrow> <m:mn>5.00</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup> <m:mrow> <m:mn>10</m:mn> </m:mrow> <m:mrow> <m:mn>−7</m:mn> </m:mrow> </m:msup> <m:mtext>m</m:mtext> </m:mrow> </m:mfrac> <m:mo>=</m:mo><m:mn>3.98</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup> <m:mrow> <m:mn>10</m:mn> </m:mrow> <m:mrow> <m:mn>−19</m:mn> </m:mrow> </m:msup> <m:mtext> J</m:mtext><m:mo>=</m:mo><m:mn>2.48</m:mn><m:mspace width="0.25em"/><m:mtext>eV,</m:mtext> </m:mrow></m:math> </equation>
+<para id="fs-id1167067204889">which is about five orders of magnitude greater.</para>
+</solution>
+<commentary id="fs-id1167067253802">
+<title>Discussion</title>
+<para id="fs-id1167061185781">Even in huge numbers, the total momentum that photons carry is small. An electron that carries the same momentum as a 500-nm photon will have a 1,460 m/s velocity, which is clearly nonrelativistic. This is borne out by the experimental observation that it takes far less energy to give an electron the same momentum as a photon. That said, for high-energy photons interacting with small masses, photon momentum may be significant. Even on a large scale, photon momentum can have an effect if there are enough of them and if there is nothing to prevent the slow recoil of matter. Comet tails are one example, but there are also proposals to build space sails that use huge low-mass mirrors (made of aluminized Mylar) to reflect sunlight. In the vacuum of space, the mirrors would gradually recoil and could actually accelerate spacecraft within the solar system. See the following figure.</para></commentary>
+</exercise><note id="fs-id1167067192725" class="tips-for-success">
+
+<para id="fs-id1167066983478">When determining energies in particle physics, it is more sensible to use the unit eV instead of Joules. Using eV will help you to recognize differences in magnitude more easily and will make calculations simpler. Also, eV is used by scientists to describe the binding energy of particles and their rest mass, so using eV will eliminate the need to convert energy quantities. Finally, eV is a convenient unit when linking electromagnetic forces to particle physics, as one eV is the amount energy given to an electron when placed in a field of 1-V potential difference.</para>
+</note>
+</note></section>
+<section id="fs-id1167067190548" class="practice-problems"><title>Practice Problems</title><exercise id="fs-id1167067106637">
+<problem id="fs-id1167067142590">
+<!--<para id="fs-id1167063535252">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex071"/>
+</para>-->
+<para id="fs-id1169831899502">Find the momentum of a 4.00-cm wavelength microwave photon.</para>
+<list id="fs-id1169828743371" list-type="enumerated" number-style="lower-alpha">
+<item>0.83 × 10<sup>−32</sup> kg ⋅ m/s</item>
+<item>1.66 × 10<sup>−34</sup> kg ⋅ m/s</item>
+<item>0.83 × 10<sup>−34</sup> kg ⋅ m/s</item>
+<item>1.66 × 10<sup>-32</sup> kg ⋅ m/s</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067140420">
+<problem id="fs-id1167067227421">
+<!-- <para id="fs-id1167067023628">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex072"/>
+</para> -->
+<para id="fs-id1164564773776">Calculate the wavelength of a photon that has the same momentum of a proton moving at 1.00 percent of the speed of light.</para>
+<list id="fs-id1164566704395" list-type="enumerated" number-style="lower-alpha">
+<item>2.43 × 10<sup>−10</sup> m</item>
+<item>2.43 × 10<sup>−12</sup> m</item>
+<item>1.32 × 10<sup>−15</sup> m</item>
+<item>1.32 × 10<sup>−13</sup> m</item>
+</list>
+</problem>
+</exercise>
+</section>
+<section id="denesting"><figure id="Figure_21_03_Cosmos1">
+<media id="fs-id1167067013076" alt="There are two images shown. The image on the left is a drawing of a solar sail, which looks like a large parachute carrying a payload (the spacecraft). The solar sail is moving to the left. Blue arrows show photons from the sun moving from the right and striking the solar sail. The image on the right is an overhead photo of the very large solar sail unfurled. There are four people shown at the bottom of the picture for scale. They are approximately one-sixth of the width of the sail.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_21_03_Cosmos1.jpg"/>
+</media>
+<caption>(a) Space sails have been proposed that use the momentum of sunlight reflecting from gigantic low-mass sails to propel spacecraft about the solar system. A Russian test model of this (the Cosmos 1) was launched in 2005, but did not make it into orbit due to a rocket failure. (b) A U.S. version of this, labeled LightSail-1, is scheduled for trial launches in 2016. It will have a 40 m2 sail. (credit: Kim Newton/NASA)</caption>
+</figure>
+
+<note id="fs-id1167063715131" class="links-to-physics">
+
+<title>LightSail-1 Project</title>
+<para id="fs-id1167067144810"><emphasis effect="italics">“Provide ships or sails adapted to the heavenly breezes, and there will be some who will brave even that void.”</emphasis></para>
+<para id="fs-id1167061394835"><emphasis effect="italics">— Johannes Kepler (in a letter to Galileo Galilei in 1608)</emphasis></para>
+
+<figure id="Figure_21_03_NanoSail">
+<media id="fs-id1167067174714" alt="An image of the NanoSail is shown. The sail is shown fully unfurled, with the satellite in the center. The width of the satellite is approximately one-eighth the width of the sail.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_21_03_NanoSail.jpg"/>
+</media>
+<caption>NASA’s NanoSail-D, a precursor to LightSail-1, with its sails deployed. The Planetary Society will be launching LightSail-1 in early 2016. (credit: NASA/MSFC/D, Wikimedia Commons)</caption>
+</figure>
+
+<para id="fs-id1167066835863">Traversing the Solar System using nothing but the Sun’s power has long been a fantasy of scientists and science fiction writers alike. Though physicists like Compton, Einstein, and Planck all provided evidence of light’s propulsive capacity, it is only recently that the technology has become available to truly put these visions into motion. In 2016, by sending a lightweight satellite into space, the <term class="no-emphasis">LightSail-1</term> project is designed to do just that.</para>
+<para id="fs-id1167066961065">A citizen-funded project headed by the Planetary Society, the 5.45-million-dollar LightSail-1 project is set to launch two crafts into orbit around the Earth. Each craft is equipped with a 32-square-meter solar sail prepared to unfurl once a rocket has launched it to an appropriate altitude. The sails are made of large mirrors, each a quarter of the thickness of a trash bag, which will receive an impulse from the Sun’s reflecting photons. Each time the Sun’s photon strikes the craft’s reflective surface and bounces off, it will provide a momentum to the sail much greater than if the photon were simply absorbed. </para>
+<para id="fs-id1167067083258">Attached to three tiny satellites called CubeSats, whose combined volume is no larger than a loaf of bread, the received momentum from the Sun’s photons should be enough to record a substantial increase in orbital speed. The intent of the LightSail-1 mission is to prove that the technology behind photon momentum travel is sound and can be done cheaply. A test flight in May 2015 showed that the craft’s Mylar sails could unfurl on command. With another successful result in 2016, the Planetary Society will be planning future versions of the craft with the hopes of eventually achieving interplanetary satellite travel. Though a few centuries premature, Kepler’s fantastic vision may not be that far away.</para>
+
+<exercise id="fs-id1167063526431" class="os-exercisegrasp-check unnumbered">
+
+<problem id="fs-id1167067152100">
+<para id="fs-id1167067217514">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex073"/>
+</para>
+</problem>
+</exercise>
+</note>
+</section>
+
+<section id="fs-id1167067035428">
+<title>Particle-Wave Duality</title>
+<note id="fs-id1167067231314" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067250449">Prior to this section, have the students create a chart of observations with columns that show that light is like a wave and light is like a particle. Reinforce that light is simply fulfilling both models and that we do not have a perfect model to describe its properties. Light does not <emphasis effect="italics">choose</emphasis> when to be like a particle and when to be like a wave.</para>
+</note>
+<para id="fs-id1167067203119">We have long known that EM radiation is like a wave, capable of interference and diffraction. We now see that light can also be modeled as particles—massless photons of discrete energy and momentum. We call this twofold nature the <term>particle-wave duality</term>, meaning that EM radiation has properties of both particles and waves. This may seem contradictory, since we ordinarily deal with large objects that never act like both waves and particles. An ocean wave, for example, looks nothing like a grain of sand. However, this so-called duality is simply a term for properties of the photon analogous to phenomena we can observe directly, on a macroscopic scale. See <link target-id="Figure_21_03_Properties"/>. If this term seems strange, it is because we do not ordinarily observe details on the quantum level directly, and our observations yield either particle-like <emphasis effect="italics">or </emphasis>wave-like properties, but never both simultaneously.</para>
+
+<figure id="Figure_21_03_Properties">
+<media id="fs-id1167066766672" alt="There are two drawings shown. On the left is a drawing of light striking a barrier with two slits. As the light passes through the slits, it creates an interference pattern. The interference pattern projects onto a screen, where the terms max and min are used to show the locations of constructive and destructive wave interference. On the right is an enlarged drawing of a grain of sand. There is an arrow pointing to the grain of sand, with a picture of a photon at the other end of the arrow.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_21_03_Properties.jpg"/>
+</media>
+<caption>(a) The interference pattern for light through a double slit is a wave property understood by analogy to water waves. (b) The properties of photons having quantized energy and momentum and acting as a concentrated unit are understood by analogy to macroscopic particles.</caption>
+</figure>
+
+<para id="fs-id1167067055831">Since we have a particle-wave duality for photons, and since we have seen connections between photons and matter in that both have momentum, it is reasonable to ask whether there is a particle-wave duality for matter as well. If the EM radiation we once thought to be a pure wave has particle properties, is it possible that matter has wave properties? The answer, strangely, is yes. The consequences of this are tremendous, as particle-wave duality has been a constant source of scientific wonder during the twentieth and twenty-first centuries.</para>
+</section>
+
+<section id="fs-id1167067166644" class="check-understanding"><title>Check Your Understanding</title><exercise id="fs-id1167067236259" class="os-exercise">
+<problem id="fs-id1167066862738">
+<!-- <para id="fs-id1167067012967">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex074"/>
+</para> -->
+<para id="fs-id1164566505868">What fundamental physics properties were found to be conserved in Compton scattering?</para>
+<list id="fs-id1164564789521" list-type="enumerated" number-style="lower-alpha">
+<item>energy and wavelength</item>
+<item>energy and momentum</item>
+<item>mass and energy</item>
+<item>energy and angle</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167066773756" class="os-exercise">
+<problem id="fs-id1167067317585">
+<!-- <para id="fs-id1167067226275">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex075"/>
+</para> -->
+<para id="fs-id1164565195676">Why do classical or relativistic momentum equations not work in explaining the conservation of momentum that occurs in Compton scattering?</para>
+<list id="fs-id1164560973663" list-type="enumerated" number-style="lower-alpha">
+<item>because neither classical nor relativistic momentum equations utilize mass as a variable in their equations</item>
+<item>because relativistic momentum equations utilize mass as a variable in their formulas but classical momentum equations do not</item>
+<item>because classical momentum equations utilize mass as a variable in their formulas but relativistic momentum equations do not</item>
+<item>because both classical and relativistic momentum equations utilize mass as a variable in their formulas</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167063474060" class="os-exercise">
+<problem id="fs-id1167067030419">
+<para id="fs-id1167063490253">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex076"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167066957443" class="os-exercise">
+<problem id="fs-id1167066868137">
+<!-- <para id="fs-id1167067250166">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex077"/>
+</para> -->
+<para id="fs-id1164565122064">True or false—It is possible to propel a solar sail craft using just particles within the solar wind.</para>
+<list id="fs-id1164566558137" list-type="enumerated" number-style="lower-alpha">
+<item>true</item>
+<item>false</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067188995" class="os-exercise">
+<problem id="fs-id1167067175282">
+<!-- <para id="fs-id1167066948492">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex078"/>
+</para> -->
+<para id="fs-id1164563529522">True or false—Photon momentum more directly supports the wave model of light.</para>
+<list id="fs-id1164566949890" list-type="enumerated" number-style="lower-alpha">
+<item>false</item>
+<item>true</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167063890068" class="os-exercise">
+<problem id="fs-id1167067102302">
+<!-- <para id="fs-id1167067085646">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex079"/>
+</para> -->
+<para id="fs-id1164563074784">True or false—wave-particle duality exists for objects on the macroscopic scale.</para>
+<list id="fs-id1164564873396" list-type="enumerated" number-style="lower-alpha">
+<item>false</item>
+<item>true</item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-id1166849843729" class="os-exercise">
+<problem id="eip-id1166849958155">
+<!-- <para id="eip-id1166849545782">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ot069"/>
+</para> -->
+<para id="fs-id1164565058611">What type of electromagnetic radiation was used in Compton scattering?</para>
+<list id="fs-id1164566571981" list-type="enumerated" number-style="lower-alpha">
+<item>visible light</item>
+<item>ultraviolet radiation</item>
+<item>radio waves</item>
+<item>X-rays</item>
+</list>
+</problem>
+</exercise></section><section id="fs-id1167067197678" class="summary">
+<title>Section Summary</title>
+<list id="fs-id1167067105259"><item>Compton scattering provided evidence that photon-electron interactions abide by the principles of conservation of momentum and conservation of energy.</item>
+<item>The momentum of individual photons, quantified by  <m:math> <m:mrow> <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle><m:mo>=</m:mo><m:mfrac> <m:mi>h</m:mi> <m:mi>λ</m:mi> </m:mfrac> </m:mrow></m:math>, can be used to explain observations of comets and may lead to future space technologies.</item>
+<item>Electromagnetic waves and matter have both wave-like and particle-like properties. This phenomenon is defined as particle-wave duality.</item>
+</list></section>
+
+<section id="fs-id1167067053382" class="key-equations"><title>Key Equations</title><table id="fs-id1167067024178" class="unnumbered unstyled" summary="The table has two columns and two rows. The first row is the header row that labels the columns as &quot;Description&quot; and &quot;Equation&quot;. The second row of the first column says, &quot;Momentum of a photon (deBroglie relation)&quot; The Equation column gives the corresponding equation.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" align="left" colname="c1"/>
+<colspec colnum="2" align="left" colname="c2"/>
+<tbody>
+<row>
+<entry>momentum of a photon (deBroglie relation)</entry>
+<entry> <m:math display="block"> <m:mrow> <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle><m:mo>=</m:mo><m:mfrac> <m:mi>h</m:mi> <m:mi>λ</m:mi> </m:mfrac> </m:mrow></m:math> </entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+
+
+
+<section id="fs-id1167063572617" class="concept">
+<title>Concept Items</title>
+<exercise id="fs-id1167067070395" class="os-exercise"><problem id="fs-id1167067020212">
+<para id="fs-id1167066994550">Why don’t we feel the momentum of sunlight when we are on the beach?</para><list id="eip-idm385838128" list-type="enumerated" number-style="lower-alpha">
+<item>The momentum of a singular photon is incredibly small.</item>
+<item>The momentum is not felt because very few photons strike us at any time, and not all have momentum.</item>
+<item>The momentum of a singular photon is large, but very few photons strike us at any time.</item>
+<item>A large number of photons strike us at any time, and so their combined momentum is incredibly large.</item></list>
+</problem>
+</exercise><exercise id="fs-id1167063734144" class="os-exercise">
+<problem id="fs-id1167066999924">
+<para id="fs-id1167067067472">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex082"/>
+</para>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167063557900" class="critical-thinking"><title>Critical Thinking</title><exercise id="fs-id1167067252958" class="os-exercise">
+<problem id="fs-id1167067146450">
+<para id="fs-id1167067021710">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex083"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167067111832" class="os-exercise">
+<problem id="fs-id1167067176658">
+<!-- <para id="fs-id1167067052866">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex084"/>
+</para> -->
+<para id="fs-id1164557669465">In what region of the electromagnetic spectrum will photons be most effective in accelerating a solar sail?</para>
+<list id="fs-id1164565030318" list-type="enumerated" number-style="lower-alpha">
+<item>ultraviolet rays</item>
+<item>infrared rays</item>
+<item>X-rays</item>
+<item>gamma rays</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167066793604" class="os-exercise">
+<problem id="fs-id1167066966059">
+<!-- <para id="fs-id1167067041818">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex085"/>
+</para> -->
+<para id="fs-id1164559081800">True or false—Electron microscopes can resolve images that are smaller than the images resolved by light microscopes.</para>
+<list id="fs-id1164564821985" list-type="enumerated" number-style="lower-alpha">
+<item>false</item>
+<item>true</item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-id1166848841868" class="os-exercise">
+<problem id="eip-id1166849114790">
+<para id="eip-id1166849114792">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ot087"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167066869305" class="problems">
+<title>Problems</title>
+<exercise id="fs-id1167066953803" class="os-exercise">
+<problem id="fs-id1167067144790">
+<!--<para id="fs-id1167066794620">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex086"/>
+</para>-->
+<para id="fs-id1169832068210">What is the momentum of a 0.0100-nm-wavelength photon that could detect details of an atom?</para>
+<list id="fs-id1169831898770" list-type="enumerated" number-style="lower-alpha">
+<item>6.626 × 10<sup>−27</sup> kg ⋅ m/s</item>
+<item>6.626 × 10<sup>−32</sup> kg ⋅ m/s</item>
+<item>6.626 × 10<sup>−34</sup> kg ⋅ m/s</item>
+<item>6.626 × 10<sup>-23</sup> kg ⋅ m/s</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167063891968" class="os-exercise">
+<problem id="fs-id1167067100132">
+<!--<para id="fs-id1167067317322">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex087"/>
+</para>-->
+<para id="fs-id1169831763319">The momentum of light is exactly reversed when reflected straight back from a mirror, assuming negligible recoil of the mirror. Thus the change in momentum is twice the initial photon momentum. Suppose light of intensity 1.00 kW/m2 reflectsfrom a mirror of area 2.00 m2 each second. Using the most general form of Newton’s second law, what is the force on the mirror?</para>
+<list id="fs-id1169831978608" list-type="enumerated" number-style="lower-alpha">
+<item>1.33 × 10<sup>-5</sup> N</item>
+<item>1.33 × 10<sup>−6</sup> N</item>
+<item>1.33 × 10<sup>−7</sup> N</item>
+<item>1.33 × 10<sup>−8</sup> N</item>
+</list>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167066999648" class="multiple-choice"><title>Test Prep Multiple Choice</title><exercise id="fs-id1167063525010" class="os-exercise">
+<problem id="fs-id1167067110410">
+<!-- <para id="fs-id1167067289799">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex088"/>
+</para> -->
+<para id="fs-id1164563159503">What two particles interact in Compton scattering?</para>
+<list id="fs-id1164565055330" list-type="enumerated" number-style="lower-alpha">
+<item>photon and electron</item>
+<item>proton and electron</item>
+<item>neutron and electron</item>
+<item>proton and neutron</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067138634" class="os-exercise">
+<problem id="fs-id1167067088451">
+<!--<para id="fs-id1167060069072">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex089"/>
+</para>-->
+<para id="fs-id1169828342983">What is the momentum of a 500-nm photon?</para>
+<list id="fs-id1169832046222" list-type="enumerated" number-style="lower-alpha">
+<item>8.35 × 10<sup>−26</sup> kg ⋅ m/s</item>
+<item>3.31 × 10<sup>−40</sup> kg ⋅ m/s</item>
+<item>7.55 × 10<sup>26</sup> kg ⋅ m/s</item>
+<item>1.33 × 10<sup>-27</sup> kg ⋅ m/s</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067051272" class="os-exercise">
+<problem id="fs-id1167067150920">
+<!-- <para id="fs-id1167066824813">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex090"/>
+</para> -->
+<para id="fs-id1164563484840">The conservation of what fundamental physics principle is behind the technology of solar sails?</para>
+<list id="fs-id1164563498116" list-type="enumerated" number-style="lower-alpha">
+<item>charge</item>
+<item>mass</item>
+<item>momentum</item>
+<item>angular momentum</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167066820393" class="os-exercise">
+<problem id="fs-id1167061709732">
+<!-- <para id="fs-id1167061211200">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex091"/>
+</para> -->
+<para id="fs-id1164564962285">Terms like frequency, amplitude, and period are tied to what component of wave-particle duality?</para>
+<list id="fs-id1164562187415" list-type="enumerated" number-style="lower-alpha">
+<item>neither the particle nor the wave model of light</item>
+<item>both the particle and wave models of light</item>
+<item>the particle model of light</item>
+<item>the wave model of light</item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-id1166851319896" class="os-exercise">
+<problem id="eip-id1166851327555">
+<!--<para id="eip-id1166851445895">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ot072"/>
+</para>-->
+<para id="fs-id1169831956576">Why was it beneficial for Compton to scatter electrons using X-rays and not another region of light like microwaves?</para>
+<list id="fs-id1169828398270" list-type="enumerated" number-style="lower-alpha">
+<item>because X-rays are more penetrating than microwaves</item>
+<item>because X-rays have lower frequency than microwaves</item>
+<item>because microwaves have shorter wavelengths than X-rays</item>
+<item>because X-rays have shorter wavelength than microwaves</item>
+</list>
+</problem>
+</exercise></section><section id="fs-id1167066774558" class="short-answer">
+<title>Test Prep Short Answer</title>
+<exercise id="fs-id1167067199955" class="os-exercise">
+<problem id="fs-id1167061391879">
+<para id="fs-id1167067032954">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex092"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167067150208" class="os-exercise">
+<problem id="fs-id1167067264764">
+<para id="fs-id1167063514472">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex093"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167066832594" class="os-exercise">
+<problem id="fs-id1167063727224">
+<!-- <para id="fs-id1167066774303">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex094"/>
+</para> -->
+<para id="fs-id1164565163341">A 500-nm photon strikes an electron and loses 20 percent of its energy. What is the new momentum of the photon?</para>
+<list id="fs-id1164559086464" list-type="enumerated" number-style="lower-alpha">
+<item>4.24 × 10<sup>−27</sup> kg ⋅ m/s</item>
+<item>3.18 × 10<sup>−27</sup> kg ⋅ m/s</item>
+<item>2.12 × 10<sup>−27</sup> kg ⋅ m/s</item>
+<item>1.06 × 10<sup>−27</sup> kg ⋅ m/s</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067069602" class="os-exercise">
+<problem id="fs-id1167063852862">
+<!-- <para id="fs-id1167067032571">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex095"/>
+</para> -->
+<para id="fs-id1164564841308">A 500-nm photon strikes an electron and loses 20 percent of its energy. What is the speed of the recoiling electron?</para>
+<list id="fs-id1164564942136" list-type="enumerated" number-style="lower-alpha">
+<item>7.18 × 10<sup>5</sup> m/s</item>
+<item>6.18 × 10<sup>5</sup> m/s</item>
+<item>5.18 × 10<sup>5</sup> m/s</item>
+<item>4.18 × 10<sup>5</sup> m/s</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167063855574" class="os-exercise">
+<problem id="fs-id1167067266632">
+<!-- <para id="fs-id1167067196821">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex096"/>
+</para> -->
+<para id="fs-id1164557705217">When a photon strikes a solar sail, what is the direction of impulse on the photon?</para>
+<list id="fs-id1164566466104" list-type="enumerated" number-style="lower-alpha">
+<item>parallel to the sail</item>
+<item>perpendicular to the sail</item>
+<item>tangential to the sail</item>
+<item>opposite to the sail</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167066839604" class="os-exercise">
+<problem id="fs-id1167067324772">
+<para id="fs-id1167063579343">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex097"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167067058275" class="os-exercise"><problem id="fs-id1167066939536">
+<para id="fs-id1167063821118">The wavelength of a particle is called the de Broglie wavelength, and it can be found with the equation  <m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>h</m:mi><m:mi>λ</m:mi></m:mfrac></m:mrow></m:math> .
+<newline/>Yes or no—Can the wavelength of an electron match that of a proton?
+</para>
+<list id="eip-idm211819664" list-type="enumerated" number-style="lower-alpha"><item>Yes, a slow-moving electron can achieve the same momentum as a slow-moving proton.</item>
+<item>No, a fast-moving electron cannot achieve the same momentum, and hence the same wavelength, as a proton.</item>
+<item>No, an electron can achieve the same momentum, and hence not the same wavelength, as a proton.</item>
+<item>Yes, a fast-moving electron can achieve the same momentum, and hence have the same wavelength, as a slow-moving proton.</item>
+</list></problem></exercise><exercise id="fs-id1167066946581" class="os-exercise">
+<problem id="fs-id1167063557960">
+<para id="fs-id1167067272834">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex099"/>
+</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167066858625" class="performance"><title>Performance Task</title><exercise id="eip-id1167067249865"><problem id="eip-id1167063855886"><para id="fs-id1167067034214">Our scientific understanding of light has changed over time. There is evidence to support the wave model of light, just as there is evidence to support the particle model of light.</para>
+<list id="fs-id1167067038168" list-type="enumerated" number-style="arabic" mark-suffix=")">
+<item>Construct a demonstration that supports the wave model of light. Note—One possible method is to use a piece of aluminum foil, razor blade, and laser to demonstrate wave interference. Can you arrange these materials to create an effective demonstration? In writing, explain how evidence from your demonstration supports the wave model of light.</item>
+<item>Construct a demonstration that supports the particle model of light. Note—One possible method is to use a negatively charged electroscope, zinc plate, and three light sources of different frequencies. A red laser, a desk lamp, and ultraviolet lamp are typically used. Can you arrange these materials to demonstrate the photoelectric effect? In writing, explain how evidence from your demonstration supports the particle model of light.</item>
+</list></problem></exercise>
+<note id="fs-id1167067271435" class="os-teacher">
+<title>Teacher Support</title>
+<list id="fs-id1167066121959">
+<item>Performance Task addresses <span>NGSS HS-PS4-3</span><span>—</span><span>Evaluate the claims, evidence, and reasoning behind the idea that electromagnetic radiation can be described either by a wave model or a particle model, and that for some situations one model is more useful than the other.</span></item>
+</list>
+<list id="fs-id1167067316958" mark-suffix=")" list-type="enumerated" number-style="arabic"><item>Demonstrations chosen will vary. However, the demonstration should show interference or diffraction of light using the wave model. The method suggested implies that the student should use the razor blade to cut two parallel slits within the aluminum foil. If the slit spacing is appropriate, and the slits are parallel, an interference pattern will be created when a laser light is made to shine through the aluminum foil. This demonstration works best in a completely dark room with a flat surface less than one meter behind the foil. A pie tin may be used in place of the foil to help create the parallel lines.</item>
+<item>Demonstrations chosen may vary, though it is likely easier for students to draw a picture for the particle model. The method suggested implies that the student should charge a zinc plate negatively and attach it to the top of the electroscope. The gold leaf of the electroscope should not fall when struck with the light from the red laser or desk lamp; however, it should fall when the UV light is incident. A coulomb meter may be used in place of the electroscope and zinc plate. More information can be found <link class="os-embed" url="http://www.openstax.org/l/28particlem">here</link>.
+</item>
+</list>
+</note>
+</section>
+<section id="fs-id1167063448976" class="extended-response">
+<title>Test Prep Extended Response</title>
+<exercise id="fs-id1167063715198" class="os-exercise">
+<problem id="fs-id1167067000189">
+<para id="fs-id1167066859461">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex100"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167066845643" class="os-exercise">
+<problem id="fs-id1167067292053">
+<!-- <para id="fs-id1167063817473">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex101"/>
+</para> -->
+<para id="fs-id1164562419985">Sunlight above the Earth’s atmosphere has an intensity of 1.30 kW/m2 . If this is reflected straight back from a mirror that has only a small recoil, the light’s momentum is exactly reversed, giving the mirror twice the incident momentum. If the mirror were attached to a solar sail craft, how fast would the craft be moving after 24 hr? Note—The average mass per square meter of the craft is 0.100 kg.</para>
+<list id="fs-id1164564952368" list-type="enumerated" number-style="lower-alpha">
+<item>8.67 × 10<sup>−5</sup> m/s<sup>2</sup></item>
+<item>8.67 × 10<sup>−6</sup> m/s<sup>2</sup></item>
+<item>94.2 m/s</item>
+<item>7.49 m/s</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167063588569" class="os-exercise">
+<problem id="fs-id1167063415089">
+<!-- <para id="fs-id1167067083241">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex102"/>
+</para> -->
+<para id="fs-id1164564800968">Consider the counter-clockwise motion of LightSail-1 around Earth. When will the satellite move the fastest?</para>
+<media id="fs-id1164562112849" alt="The image shows Earth labeled on four sides with the sun to the right, with three arrows pointing in the direction of Earth. Point A is on the top. Point B is on the left, farthest from the sun. Point C is on the bottom. Point D is on the right, closest to the sun.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_21_03_LightSail_img.jpg"/>
+</media>
+<list id="fs-id1164565173753" list-type="enumerated" number-style="lower-alpha">
+<item>point A</item>
+<item>point B</item>
+<item>point C</item>
+<item>point D</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067050237" class="os-exercise">
+<problem id="fs-id1167066955569">
+<para id="fs-id1167066793636">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch21-ex103"/>
+</para>
+</problem>
+</exercise>
+</section>
+
+
+</content>
+<glossary>
+<definition id="fs-id1167067132655">
+<term>Compton effect</term>
+<meaning id="fs-id1167067069787"> phenomenon whereby X-rays scattered from materials have decreased energy</meaning>
+</definition>
+<definition id="fs-id1167067058772">
+<term>particle-wave duality</term>
+<meaning id="fs-id1167067215839"> property of behaving like either a particle or a wave; the term for the phenomenon that all particles have wave-like characteristics and waves have particle-like characteristics</meaning>
+</definition>
+<definition id="fs-id1167063606106">
+<term>photon momentum</term>
+<meaning id="fs-id1167067039122"> amount of momentum of a photon, calculated by  <m:math> <m:mrow> <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle><m:mo>=</m:mo><m:mfrac> <m:mi>h</m:mi> <m:mi>λ</m:mi> </m:mfrac> </m:mrow></m:math> </meaning>
+</definition>
+</glossary>
+</document>

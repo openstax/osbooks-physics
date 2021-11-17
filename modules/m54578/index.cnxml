@@ -1,0 +1,431 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Medical Applications of Radioactivity: Diagnostic Imaging and Radiation</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54578</md:content-id>
+  <md:title>Medical Applications of Radioactivity: Diagnostic Imaging and Radiation</md:title>
+  <md:abstract/>
+  <md:uuid>3996d2c9-879b-42c6-b810-5fc9e3df7118</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167063443717" class="learning-objectives">
+<label/>
+<title>Section Learning Objectives</title>
+<para id="fs-id1167067073021">By the end of this section, you will be able to do the following:</para>
+<list id="fs-id1167067144031"><item>Describe how nuclear imaging works (e.g., radioisotope imaging, PET)</item>
+<item>Describe the ionizing effects of radiation and how they can be used for medical treatment</item>
+</list></note>
+
+<note id="fs-id1167063556572" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066865562">The learning objectives in this section will help your students master the following standards:</para>
+<list id="fs-id1167063419022"><item>(8) Science concepts. The student knows simple examples of atomic, nuclear, and quantum phenomena. The student is expected to:
+<list id="fs-id1167066971841">
+<item>
+<span>(C) describe the significance of mass-energy equivalence and apply it in explanations of phenomena such as nuclear stability, fission, and fusion.</span>
+</item>
+</list>
+</item>
+</list></note>
+<section id="keyterms"><title>Section Key Terms</title>
+<table id="fs-id1167066790192" class="unnumbered unstyled section-key-terms" summary="The list of Key terms includes: anger camera, radiation dose unit, radiopharmaceutical, relative biological effectiveness, Roentgen equivalent man, tagged, and therapeutic ratio.">
+<label/>
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+<row>
+<entry>Anger camera</entry>
+<entry>rad</entry>
+<entry>radiopharmaceutical</entry>
+<entry>therapeutic ratio</entry>
+
+</row>
+<row>
+<entry>relative biological effectiveness (RBE)</entry>
+<entry>roentgen equivalent man (rem)</entry>
+<entry>tagged</entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry/>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section id="fs-id1167067019043">
+<title>Medical Applications of Nuclear Physics</title>
+<para id="fs-id1167066832517">Applications of nuclear physics have become an integral part of modern life. From the bone scan that detects one cancer to the radioiodine treatment that cures another, nuclear radiation has diagnostic and therapeutic effects on medicine.</para>
+<section id="fs-id1167067012700">
+<title>Medical Imaging</title>
+<para id="fs-id1167067011989">A host of medical imaging techniques employ nuclear radiation. What makes nuclear radiation so useful? First,  <m:math>
+ <m:mi>γ</m:mi>
+</m:math>  radiation can easily penetrate tissue; hence, it is a useful probe to monitor conditions inside the body. Second, nuclear radiation depends on the nuclide and not on the chemical compound it is in, so that a radioactive nuclide can be put into a compound designed for specific purposes. When that is done, the compound is said to be <term>tagged</term>. A tagged compound used for medical purposes is called a <term>radiopharmaceutical</term>. Radiation detectors external to the body can determine the location and concentration of a radiopharmaceutical to yield medically useful information. For example, certain drugs are concentrated in inflamed regions of the body, and their locations can aid diagnosis and treatment as seen in <link target-id="Figure_22_05_Radiopharm"/>. Another application utilizes a radiopharmaceutical that the body sends to bone cells, particularly those that are most active, to detect cancerous tumors or healing points. Images can then be produced of such bone scans. Clever use of radioisotopes determines the functioning of body organs, such as blood flow, heart muscle activity, and iodine uptake in the thyroid gland. For instance, a radioactive form of iodine can be used to monitor the thyroid, a radioactive thallium salt can be used to follow the blood stream, and radioactive gallium can be used for cancer imaging.</para>
+
+<note id="fs-id1167067009663" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067118747"><span>[AL]</span>Have students investigate why radioactive iodine, radioactive thallium salt, and radioactive gallium are specifically used for their purposes.</para>
+</note>
+
+<figure id="Figure_22_05_Radiopharm">
+<media id="fs-id1167063798676" alt="The figure shows brain image of a patient with Alzheimer’s disease."><image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_22_05_Radiopharm.jpg"/></media>
+<caption>A radiopharmaceutical was used to produce this brain image of a patient with Alzheimer’s disease. Certain features are computer enhanced. (credit: National Institutes of Health)</caption>
+</figure>
+
+<note id="fs-id1167067201159" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067247353">Refer students to the explanation of how a scintillator works from earlier in this chapter.</para>
+</note>
+
+<para id="fs-id1167067087712">Once a radioactive compound has been ingested, a device like that shown in <link target-id="Figure_22_05_Anger"/> is used to monitor nuclear activity. The device, called an <term>Anger camera</term> or gamma camera uses a piece of lead with holes bored through it. The gamma rays are redirected through the collimator to narrow their beam, and are then interpreted using a device called a scintillator. The computer analysis of detector signals produces an image. One of the disadvantages of this detection method is that there is no depth information (i.e., it provides a two-dimensional view of the tumor as opposed to a three-dimensional view), because radiation from any location under that detector produces a signal.</para>
+
+<figure id="Figure_22_05_Anger"><media id="fs-id1167067087863" alt="The figure shows the working of an Anger camera (or gamma camera) with the input rays on the left, camera in the centre and output on the right (which is used for image construction)."><image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_22_05_Anger.jpg"/></media>
+<caption>An Anger or gamma camera consists of a lead collimator and an array of detectors. Gamma rays produce light flashes in the scintillators. The light output is converted to an electrical signal by the photomultipliers. A computer constructs an image from the detector output.</caption>
+</figure>
+
+<para id="fs-id1167067132672"><term class="no-emphasis">Single-photon-emission computer tomography</term> (SPECT) used in conjunction with a CT scanner improves on the process carried out by the gamma camera. <link target-id="Figure_22_05_SPECT"/> shows a patient in a circular array of SPECT detectors that may be stationary or rotated, with detector output used by a computer to construct a detailed image. The spatial resolution of this technique is poor, but the three-dimensional image created results in a marked improvement in contrast.</para>
+
+<figure id="Figure_22_05_SPECT">
+<media id="fs-id1167063520605" alt="A photo showing the equipment for Single-photon-emission computer tomography (SPECT)."><image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_22_05_SPECT.jpg"/></media>
+<caption>SPECT uses a rotating camera to form an image of the concentration of a radiopharmaceutical compound. (credit: Woldo, Wikimedia Commons)</caption>
+</figure>
+
+<para id="fs-id1167067053095"><term class="no-emphasis">Positron emission tomography</term> (or PET) scans utilize images produced by  <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mi>β</m:mi>
+   <m:mo>+</m:mo>
+  </m:msup>
+  </m:mrow>
+</m:math>  emitters. When the emitted positron <emphasis effect="italics">β</emphasis><sup>+</sup> encounters an electron, mutual annihilation occurs, producing two <emphasis effect="italics">γ </emphasis>rays. Those  <m:math>
+ <m:mi>γ</m:mi>
+</m:math>  rays have identical 0.511 MeV energies (the energy comes from the destruction of an electron or positron mass) and they move directly away from each other, allowing detectors to determine their point of origin accurately (as shown in <link target-id="Figure_22_05_PET"/>). It requires detectors on opposite sides to simultaneously (i.e., at the same time) detect photons of 0.511 MeV energy and utilizes computer imaging techniques similar to those in SPECT and CT scans. PET is used extensively for diagnosing brain disorders. It can note decreased metabolism in certain regions that accompany Alzheimer’s disease. PET can also locate regions in the brain that become active when a person carries out specific activities, such as speaking, closing his or her eyes, and so on.</para><figure id="Figure_22_05_PET">
+<media id="fs-id1167067036068" alt="The figure shows the equipment for Positron emission tomography (PET)."><image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_22_05_PET.jpg"/></media>
+<caption>A PET system takes advantage of the two identical  <m:math>
+ <m:mi>γ</m:mi>
+</m:math> -ray photons produced by positron-electron annihilation. The  <m:math>
+ <m:mi>γ</m:mi>
+</m:math>  rays are emitted in opposite directions, so that the line along which each pair is emitted is determined. Various events detected by several pairs of detectors are then analyzed by the computer to form an accurate image.</caption>
+</figure>
+</section>
+</section>
+
+<section id="fs-id1167063411680">
+<title>Ionizing Radiation on the Body</title>
+<para id="fs-id1167066966588">We hear many seemingly contradictory things about the biological effects of <term class="no-emphasis">ionizing radiation</term>. It can cause cancer, burns, and hair loss, and yet it is used to treat and even cure cancer. How do we understand such effects? Once again, there is an underlying simplicity in nature, even in complicated biological organisms. All the effects of ionizing radiation on biological tissue can be understood by knowing that ionizing radiation affects molecules within cells, particularly DNA molecules. Let us take a brief look at molecules within cells and how cells operate. Cells have long, double-helical DNA molecules containing chemical patterns called genetic codes that govern the function and processes undertaken by the cells. Damage to DNA consists of breaks in chemical bonds or other changes in the structural features of the DNA chain, leading to changes in the genetic code. In human cells, we can have as many as a million individual instances of damage to DNA per cell per day. The repair ability of DNA is vital for maintaining the integrity of the genetic code and for the normal functioning of the entire organism. A cell with a damaged ability to repair DNA, which could have been induced by ionizing radiation, can do one of the following:</para>
+
+<list id="fs-id1167067082798">
+<item>The cell can go into an irreversible state of dormancy, known as senescence.</item>
+<item>The cell can commit suicide, known as programmed cell death.</item>
+<item>The cell can go into unregulated cell division, leading to tumors and cancers.</item>
+</list>
+
+<note id="fs-id1167066984894" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067264239"><span>[BL]</span><span>[OL]</span>Why does radiation cause damage to DNA? Have students view the disruption due to the energy that radiation carries. Emphasize that ionizing radiation is just radiation with enough energy to affect the structural makeup of a cell (i.e., to ionize means to effect electrons).</para>
+</note>
+
+<para id="fs-id1167061444290">Since ionizing radiation damages the DNA, ionizing radiation has its greatest effect on cells that rapidly reproduce, including most types of cancer. Thus, cancer cells are more sensitive to radiation than normal cells and can be killed by it easily. Cancer is characterized by a malfunction of cell reproduction, and can also be caused by ionizing radiation. There is no contradiction to say that ionizing radiation can be both a cure and a cause.</para>
+
+
+<section id="fs-id1167067150095">
+<title>Radiotherapy</title>
+<para id="fs-id1167061683228"><term class="no-emphasis">Radiotherapy</term> is effective against cancer because cancer cells reproduce rapidly and, consequently, are more sensitive to radiation. The central problem in radiotherapy is to make the dose for cancer cells as high as possible while limiting the dose for normal cells. The ratio of abnormal cells killed to normal cells killed is called the <term>therapeutic ratio</term>, and all radiotherapy techniques are designed to enhance that ratio. Radiation can be concentrated in cancerous tissue by a number of techniques. One of the most prevalent techniques for well-defined tumors is a geometric technique shown in <link target-id="Figure_22_05_Radio"/>. A narrow beam of radiation is passed through the patient from a variety of directions with a common crossing point in the tumor. The technique concentrates the dose in the tumor while spreading it out over a large volume of normal tissue.</para>
+
+<figure id="Figure_22_05_Radio"><media id="fs-id1167067184600" alt="The figure shows the use of radiotherapy for treating tumors. A patient is lying and gamma rays are passed through him from several directions and concentrated on the tumor point."><image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_22_05_Radio.jpg"/></media>
+<caption>The <sup>60</sup>Co source of  <m:math>
+ <m:mi>γ</m:mi>
+</m:math> -radiation is rotated around the patient so that the common crossing point is in the tumor, concentrating the dose there. This geometric technique works for well-defined tumors.</caption>
+</figure>
+
+<para id="fs-id1167063537722">Another use of radiation therapy is through radiopharmaceuticals. Cleverly, radiopharmaceuticals are used in cancer therapy by tagging antibodies with radioisotopes. Those antibodies are extracted from the patient, cultured, loaded with a radioisotope, and then returned to the patient. The antibodies are then concentrated almost entirely in the tissue they developed to fight, thus localizing the radiation in abnormal tissue. This method is used with radioactive iodine to fight thyroid cancer. While the therapeutic ratio can be quite high for such short-range radiation, there can be a significant dose for organs that eliminate radiopharmaceuticals from the body, such as the liver, kidneys, and bladder. As with most radiotherapy, the technique is limited by the tolerable amount of damage to the normal tissue.</para>
+</section>
+
+<section id="fs-id1167063636653">
+<title>Radiation Dosage</title>
+<para id="fs-id1167061706174">
+To quantitatively discuss the biological effects of ionizing radiation, we need a radiation dose unit that is directly related to those effects. To do define such a unit, it is important to consider both the biological organism and the radiation itself. Knowing that the amount of ionization is proportional to the amount of deposited energy, we define a radiation dose unit called the <term>rad</term>. It 1/100 of a joule of ionizing energy deposited per kilogram of tissue, which is</para>
+<equation id="fs-id1164566578110"> <m:math display="block">
+ <m:mrow>
+  <m:mn>1</m:mn><m:mspace width="0.3em"/><m:mtext>rad</m:mtext><m:mo>=</m:mo><m:mn>0.01</m:mn><m:mspace width="0.3em"/><m:mtext>J</m:mtext><m:mo>/</m:mo><m:mtext>kg</m:mtext><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1167063649355">For example, if a 50.0-kg person is exposed to ionizing radiation over her entire body and she absorbs 1.00 J, then her whole-body radiation dose is</para>
+<equation id="fs-id1164560862596"> <m:math display="block">
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>1.00</m:mn><m:mspace width="0.3em"/><m:mtext>J</m:mtext>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>/</m:mo><m:mo stretchy="false">(</m:mo><m:mn>50.0</m:mn><m:mspace width="0.3em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0.0200</m:mn><m:mspace width="0.3em"/><m:mtext>J</m:mtext><m:mo>/</m:mo><m:mtext>kg</m:mtext><m:mo>=</m:mo><m:mn>2.00</m:mn><m:mspace width="0.3em"/><m:mtext>rad</m:mtext><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1167063556576">If the same 1.00 J of ionizing energy were absorbed in her 2.00-kg forearm alone, then the dose to the forearm would be</para>
+<equation id="fs-id1164559079609"> <m:math display="block">
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>1.00</m:mn><m:mspace width="0.3em"/><m:mtext>J</m:mtext>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>/</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2.00</m:mn><m:mspace width="0.3em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0.500</m:mn><m:mspace width="0.3em"/><m:mtext>J</m:mtext><m:mo>/</m:mo><m:mtext>kg</m:mtext><m:mo>=</m:mo><m:mn>50.0</m:mn><m:mspace width="0.3em"/><m:mtext>rad</m:mtext><m:mo>,</m:mo>
+ </m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1167066952817">and the unaffected tissue would have a zero rad dose. When calculating radiation doses, you divide the energy absorbed by the mass of affected tissue. You must specify the affected region, such as the whole body or forearm in addition to giving the numerical dose in rads. Although the energy per kilogram in 1 rad is small, it can still have significant effects. Since only a few eV cause ionization, just 0.01 J of ionizing energy can create a huge number of ion pairs and have an effect at the cellular level.</para>
+<para id="fs-id1167067227570">The effects of ionizing radiation may be directly proportional to the dose in rads, but they also depend on the type of radiation and the type of tissue. That is, for a given dose in rads, the effects depend on whether the radiation is  <m:math>
+ <m:mi>α</m:mi>
+</m:math>,  <m:math>
+ <m:mi>β</m:mi>
+</m:math>,  <m:math>
+ <m:mi>γ</m:mi>
+</m:math>, X-ray, or some other type of ionizing radiation. The <term>relative biological effectiveness</term> (RBE) relates to the amount of biological damage that can occur from a given type of radiation and is given in <link target-id="Table_22_04"/> for several types of ionizing radiation.</para>
+
+<table id="Table_22_04" summary="Table with Type and energy of radiation and Relative Biological Effectiveness.">
+<title>Relative Biological Effectiveness</title>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row>
+<entry align="center">Type and energy of radiation</entry>
+<entry align="center">RBE</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>X-rays</entry>
+<entry>1</entry>
+</row>
+<row>
+<entry> <m:math>
+ <m:mi>γ</m:mi>
+</m:math>  rays</entry>
+<entry>1</entry>
+</row>
+<row>
+<entry> <m:math>
+ <m:mi>β</m:mi>
+</m:math>  rays greater than 32 keV</entry>
+<entry>1</entry>
+</row>
+<row>
+<entry> <m:math>
+ <m:mi>β</m:mi>
+</m:math>  rays less than 32 keV</entry>
+<entry>1.7</entry>
+</row>
+<row>
+<entry>Neutrons, thermal to slow (&lt; 20 keV)</entry>
+<entry>2–5</entry>
+</row>
+<row>
+<entry>Neutrons, fast (1–10 MeV)</entry>
+<entry>10 (body), 32 (eyes)</entry>
+</row>
+<row>
+<entry>Protons (1–10 MeV)</entry>
+<entry>10 (body), 32 (eyes)</entry>
+</row>
+<row>
+<entry> <m:math>
+ <m:mi>α</m:mi>
+</m:math>  rays from radioactive decay</entry>
+<entry>10–20</entry>
+</row>
+<row>
+<entry>Heavy ions from accelerators</entry>
+<entry>10–20</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+<note id="fs-id1167067151267" class="tips-for-success">
+
+<para id="fs-id1167067087518">The RBEs given in <link target-id="Table_22_04"/> are approximate, but they yield certain valuable insights.</para>
+<list id="fs-id1167063412142">
+<item>The eyes are more sensitive to radiation, because the cells of the lens do not repair themselves.</item>
+<item>Though both are neutral and have large ranges, neutrons cause more damage than  <m:math>
+ <m:mi>γ</m:mi>
+</m:math>  rays because neutrons often cause secondary radiation when they are captured.</item>
+<item>Short-range particles such as  <m:math>
+ <m:mi>α</m:mi>
+</m:math>  rays have a severely damaging effect to internal anatomy,  as their damage is concentrated and more difficult for the biological organism to repair. However, the skin can usually block alpha particles from entering the body.</item>
+</list>
+<para id="fs-id1167067277689">Can you think of any other insights from the table?</para>
+</note>
+
+<para id="fs-id1167066966022">A final dose unit more closely related to the effect of radiation on biological tissue is called the <term>roentgen equivalent man</term>, or rem. A combination of all factors mentioned previously, the roentgen equivalent man is defined to be the dose in rads multiplied by the relative biological effectiveness.</para>
+
+<equation id="fs-id1164563173128"> <m:math display="block">
+ <m:mrow>
+  <m:mtext>rem</m:mtext><m:mo>=</m:mo><m:mtext>rad</m:mtext><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:mtext>RBE</m:mtext></m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1167063540941">The large-scale effects of radiation on humans can be divided into two categories: immediate effects and long-term effects. <link target-id="Table_22_05"/> gives the immediate effects of whole-body exposures received in less than one day. If the radiation exposure is spread out over more time, greater doses are needed to cause the effects listed. Any dose less than 10 rem is called a low dose, a dose 10 to 100 rem is called a moderate dose, and anything greater than 100 rem is called a high dose.</para>
+
+<table id="Table_22_05" summary="Table with dose of radiation and its effect.">
+<title>Immediate Effects of Radiation (Adults, Whole Body, Single Exposure)</title>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row>
+<entry align="center">Dose (rem)</entry>
+<entry align="center">Effect</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>0–10</entry>
+<entry>No observable effect</entry>
+</row>
+<row>
+<entry>10–100</entry>
+<entry>Slight to moderate decrease in white blood cell counts</entry>
+</row>
+<row>
+<entry>50</entry>
+<entry>Temporary sterility </entry>
+</row>
+<row>
+<entry>100–200</entry>
+<entry>Significant reduction in blood cell counts, brief nausea, and vomiting; rarely fatal</entry>
+</row>
+<row>
+<entry>200–500</entry>
+<entry>Nausea, vomiting, hair loss, severe blood damage, hemorrhage, fatalities</entry>
+</row>
+<row>
+<entry>450</entry>
+<entry>LD50/32; lethal to 50% of the population within 32 days after exposure if untreated</entry>
+</row>
+<row>
+<entry>500–2,000</entry>
+<entry>Worst effects due to malfunction of small intestine and blood systems; limited survival</entry>
+</row>
+<row>
+<entry>&gt; 2,000</entry>
+<entry>Fatal within hours due to collapse of central nervous system</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+<note id="fs-id1167067247230" class="work-in-physics">
+
+<title>Health Physicist</title>
+<para id="fs-id1167063730306">Are you interested in learning more about radiation? Are you curious about studying radiation dosage levels and ensuring the safety of the environment and people that are most closely affected by it? If so, you may be interested in becoming a health physicist.</para>
+<para id="fs-id1167067031456">The field of health physics draws from a variety of science disciplines with the central aim of mitigating radiation concerns. Those that work as health physicists have a diverse array of potential jobs available to them, including those in research, industry, education, environmental protection, and governmental regulation. Furthermore, while the term <emphasis effect="italics">health physicist</emphasis> may lead many to think of the medical field, there are plenty of applications within the military, industrial, and energy fields as well.</para><para id="fs-id1167067074837">As a researcher, a health physicist can further environmental studies on the effects of radiation, design instruments for more accurate measurements, and assist in establishing valuable radiation standards. Within the energy field, a health physicsist often acts as a manager, closely tied to all operations at all levels, from procuring appropirate equipment to monitoring health data. Within industry, the health physicist acts as a consultant, assisting industry management in important decisions, designing facilities, and choosing appropriate detection tools. The health physicist possesses a unique knowledge base that allows him or her to operate in a wide variety of interesting disciplines!</para>
+<para id="fs-id1167066823831">To become a health physicist, it is necessary to have a background in the physical sciences. Understanding the fields of biology, physiology, biochemistry, and genetics are all important as well. The ability to analyze and solve new problems is critical, and a natural aptitude for science and mathematics will assist in the continued necessary training. There are two possible certifications for health physicists: from the American Board of Health Physicists (ABHP) and the National Registry of Radiation Protection Technologists (NRRPT).</para>
+
+</note>
+</section>
+</section>
+
+<section id="fs-id1167063810880" class="summary">
+<title>Section Summary</title>
+<list id="fs-id1167066799869">
+<item>Medical imaging occurs when a radiopharmaceutical placed in the body provides information to an array of radiation detectors outside the body.</item>
+<item>Devices utilizing medical imaging include the Anger camera, SPECT detector, and PET scan.</item>
+<item>Ionizing radiation can both cure and cause cancer through the manipulation of DNA molecules.</item>
+<item>Radiation dosage and its effect on the body can be measured using the quantities radiation dose unit (rad), relative biological effectiveness (RBE), and the roentgen equivalent man (rem).</item>
+</list>
+</section>
+
+<section id="fs-id1167066871482" class="key-equations"><title>Key Equations</title><table id="fs-id1167063956588" class="unnumbered unstyled" summary="Equation for Roentgen equivalent man."><label/>
+<tgroup cols="2">
+<colspec colnum="1" align="left" colname="c1"/>
+<colspec colnum="2" align="left" colname="c2"/>
+<tbody>
+<row>
+<entry>roentgen equivalent man</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mtext>rem</m:mtext><m:mo>=</m:mo><m:mtext>rad</m:mtext><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:mtext>RBE</m:mtext></m:mrow>
+</m:math>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+
+<section id="fs-id1167067025395" class="critical-thinking"><title>Critical Thinking</title><exercise id="fs-id1167067099097" class="os-exercise">
+<problem id="fs-id1167067184844">
+<para id="fs-id1167063697431">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch22-ex135"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167067025489" class="os-exercise">
+<problem id="fs-id1167067196062">
+<para id="fs-id1167067013908">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch22-ex136"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166850221902" class="os-exercise">
+<problem id="eip-id1166850148020">
+<para id="eip-id1166849863682">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch22-ot021"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167067069856" class="short-answer"><title>Test Prep Short Answer</title><exercise id="eip-id1166849864118" class="os-exercise">
+<problem id="eip-id1166847368650">
+<para id="eip-id1166847254596">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch22-ot020"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167067190096" class="extended-response"><title>Test Prep Extended Response</title><exercise id="eip-id1166849688908" class="os-exercise">
+<problem id="eip-id1166849685829">
+<para id="eip-id1166849305184">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch22-ot023"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167063494466" class="performance"><title>Performance Task</title><exercise id="fs-id1167067208721">
+<problem id="fs-id1167067165716">
+<para id="fs-id1167067234607">On the Environmental Protection Agency’s website, a helpful tool exists to allow you to determine your average annual radiation dose. Use the tool to determine whether the radiation level you have been exposed to is dangerous and to compare your radiation dosage to other radiative events.</para>
+<list id="fs-id1167061367653" list-type="enumerated" number-style="arabic">
+<title/>
+<item>Visit the <link url="http://www.openstax.org/l/28calculate">webpage</link> and answer the series of questions provided to determine the average annual radiation dosage that you receive.</item>
+<item><link target-id="Table_22_05"/> shows the immediate effects of a radiation dosage. Using the table, explain what you would experience if your yearly dosage of radiation was received all over the course of one day. Also, determine whether your dosage is considered a low, moderate, or high.</item>
+<item>Using the information input into the webpage, what percentage of your dosage comes from natural sources? The average percentage of radiation from natural sources for an individual is around 85 percent.</item>
+<item>Research radiation dosages for evacuees from events like the Chernobyl and Fukushima meltdowns. How does your annual radiation exposure rate compare to the net dosage for evacuees of each event. Use numbers to support your answer.</item>
+<item>The U.S. Department of Labor limits the amount of radiation that a given worker may receive in a 12 month period.
+
+<list id="fs-id1167067098767" list-type="enumerated" number-style="lower-alpha">
+<item>Research the present maximum value and compare your annual exposure rate to that of a radiation worker. Use numbers to support your answer.</item>
+<item>What types of work are likely to cause an increase in the radiation exposure of a particular worker?</item>
+</list>
+</item>
+</list>
+
+<para id="fs-id1167063171554">Provide one question based upon the information gathered on the EPA website.</para><note id="fs-id1167064922286" class="os-teacher">
+<title>Teacher Support</title>
+<list id="fs-id1167062814842" list-type="bulleted">
+<item>Most evacuees of Chernobyl received radiation doses of less than 50 mSv, although a few received more than 100 mSv. However, radiation doses on the day of the accident exceeded 20,000 mSv, and some workers tasked to clean up the site after the accident had doses greater than 500 mSv.</item>
+<item>Regarding the Fukushima meltdownNo harmful health effects were found in 195,345 residents living in the vicinity of the plant who were screened by the end of May 2011. All the 1,080 children tested for thyroid gland exposure showed results within safe limits, according to the report submitted to IAEA in June. By December, government health checks of some 1,700 residents who were evacuated from three municipalities showed that two thirds received an external radiation dose within the normal international limit of 1 mSv/yr, 98 percent were below 5 mSv/yr, and ten people were exposed to more than 10 mSv. </item>
+<item>As regulated by the Occupational Health and Safety Administration, the maximum permissible amount of radiation exposure during a twelve-month period is 5 rem. Additional regulations exist for pregnant females.</item>
+<item>1 sievert (Sv) = 100 rem</item>
+</list>
+</note>
+</problem>
+</exercise>
+</section></content>
+<glossary>
+<definition id="fs-id1167066992261"><term>anger camera </term><meaning id="fs-id1167063877398">common medical imaging device that uses a scintillator connected to a series of photomultipliers</meaning></definition>
+<definition id="fs-id1167063419869"><term>rad </term><meaning id="fs-id1167063693036">amount of ionizing energy deposited per kilogram of tissue</meaning></definition>
+<definition id="fs-id1167067203795"><term>radiopharmaceutical </term><meaning id="fs-id1167067296859">compound used for medical imaging</meaning></definition>
+<definition id="fs-id1167063563141"><term>relative biological effectiveness (RBE)</term><meaning id="fs-id1167067005830"> number that expresses the relative amount of damage that a fixed amount of ionizing radiation of a given type can inflict on biological tissues</meaning></definition>
+<definition id="fs-id1167066855029"><term>roentgen equivalent man (rem)</term><meaning id="fs-id1167067108196"> dose unit more closely related to effects in biological tissue</meaning></definition>
+<definition id="fs-id1167063491543"><term>tagged</term><meaning id="fs-id1167067200276"> having a radioactive substance attached (to a chemical compound)</meaning></definition>
+<definition id="fs-id1167061214591"><term>therapeutic ratio</term><meaning id="fs-id1167067102320"> the ratio of abnormal cells killed to normal cells killed</meaning></definition>
+</glossary>
+</document>

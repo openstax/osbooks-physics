@@ -1,0 +1,41 @@
+<document xmlns="http://cnx.rice.edu/cnxml" class="introduction">
+
+<title>Introduction</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54366</md:content-id>
+  <md:title>Introduction</md:title>
+  <md:abstract/>
+  <md:uuid>f37f9ec8-dc9c-4daa-bfab-6a167875a966</md:uuid>
+</metadata>
+
+<content>
+<figure id="Figure_16_00_reflect" class="splash"><media id="fs-id1167065878165" alt="A scientist is holding a flashlight and is bending over a mirror to examine its surface. The mirror is reflecting the image of the scientist and his fellow coworkers.[/Figure][S1-LO1]">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_16_00_reflect.jpg"/>
+</media>
+
+<caption>Flat, smooth surfaces reflect light to form mirror images. (credit: NASA Goddard Photo and Video, via Flickr)</caption></figure>
+<note id="fs-id1167065825686" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065770071">Explain that light sometimes behaves mysteriously when it interacts with matter. Briefly mention wave–particle duality and let students know this puzzle is studied later. Tell them that, for the interactions in this chapter, light is well behaved and predictable. They will begin to understand that light travels across space in straight lines and changes direction when it <emphasis effect="italics">bounces</emphasis> off or passes through matter. The angles of these changes of direction can be calculated from equations that depend on the nature of the matter involved. These are the equations that are applied when engineers design microscopes and telescopes. They are also the equations that explain how the human eye works.</para>
+<para id="fs-id1167066122780"><span>[BL]</span><span>[OL]</span> Review the idea that electromagnetic radiation (unlike sound waves) can travel across empty space as well as through some media.</para>
+<para id="fs-id1167064929257"><span>[AL]</span> Throughout this chapter, light is represented as traveling in straight lines as long as it is traveling through a single medium or empty space. You may have heard that a prediction of Einstein’s relativity theory is that a strong gravitational field can bend the path of light. This hypothesis has been verified, but the effect is only significant in the case of light passing through a very large gravitational field, such as that close to our Sun. In the case of light paths studied in this chapter, this effect is insignificant.</para>
+<note id="fs-id1167065846120" class="misconception">
+<para id="fs-id1167065866253">You have heard that light travels as waves. Do not think the path of light is wavy. The path is a straight line. The wave aspect refers to changes in the electric and magnetic fields that make up electromagnetic radiation.</para>
+</note>
+</note>
+<para id="famous-quote"><quote id="fs-id1167065052948" display="block">In another moment Alice was through the glass, and had jumped lightly down into the Looking-glass room.</quote></para><para id="fs-id1167064918182">—Through the Looking Glass <emphasis effect="italics">by Lewis Carol</emphasis></para><para id="fs-id1167065858860"><emphasis effect="italics">Through the Looking Glass</emphasis> tells of the adventures of Alice after she steps from the real world, through a mirror, and into the virtual world. In this chapter we examine the optical meanings of real and virtual, as well as other concepts that make up the field of optics.</para>
+<para id="fs-id1167065703854">The light from this page or screen is formed into an image by the lens of your eyes, much as the lens of the camera that made the photograph at the beginning of this chapter. Mirrors, like lenses, can also form images, which in turn are captured by your eyes.</para>
+<para id="fs-id1167065882670">Optics is the branch of physics that deals with the behavior of visible light and other electromagnetic waves. For now, we concentrate on the propagation of light and its interaction with matter.</para>
+<para id="fs-id1167066156308">It is convenient to divide optics into two major parts based on the size of objects that light encounters. When light interacts with an object that is several times as large as the light’s wavelength, its observable behavior is similar to a ray;  it does not display its wave characteristics prominently. We call this part of optics <emphasis effect="italics">geometric optics</emphasis>. This chapter focuses on situations for which geometric optics is suited.</para>
+<note id="fs-id1167064736373" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167064960898">Before students begin this chapter, it is useful to review the following concepts:</para>
+<list id="fs-id1167065881199">
+<item>Geometry of angles, including adding and subtracting angles</item>
+<item>Trigonometric functions</item>
+<item>The electromagnetic spectrum</item>
+<item>Characteristics of electromagnetic radiation, including the speed of light</item>
+</list>
+</note>
+</content>
+</document>

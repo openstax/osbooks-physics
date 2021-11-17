@@ -1,0 +1,904 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Wave Properties: Speed, Amplitude, Frequency, and Period</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54321</md:content-id>
+  <md:title>Wave Properties: Speed, Amplitude, Frequency, and Period</md:title>
+  <md:abstract/>
+  <md:uuid>d6ed48b4-1ea2-40f7-9e92-39ed9a416ac6</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167062571708" class="learning-objectives"><label/><title>Section Learning Objectives</title>
+<para id="fs-id1167066141312">By the end of this section, you will be able to do the following:</para>
+<list id="fs-id1167062588046"><item>Define amplitude, frequency, period, wavelength, and velocity of a wave</item>
+<item>Relate wave frequency, period, wavelength, and velocity</item>
+<item>Solve problems involving wave properties</item>
+</list></note><note id="fs-id1167066029703" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065896391">The learning objectives in this section will help your students master the following standards:</para>
+<list id="fs-id1167062373266"><item>(7) Science concepts. The student knows the characteristics and behavior of waves. The student is expected to:
+<list id="fs-id1167065970173"><item>
+<span>(B) </span>
+<span>investigate and analyze the characteristics of waves, including velocity, frequency, amplitude, and wavelength, and calculate using the relationship between wave speed, frequency, and wavelength;</span>
+</item>
+<item>
+<span>(D) </span>
+<span>investigate the behaviors of waves, including reflection, refraction, diffraction, interference, resonance, and the Doppler effect.</span>
+</item>
+</list></item>
+</list></note>
+<section id="keyterms"><title>Section Key Terms</title>
+<table id="fs-id1167064648393" class="unnumbered unstyled section-key-terms" summary="no alt text">
+  <label/>
+  <tgroup cols="3">
+   <colspec colnum="1" colname="c1"/>
+   <colspec colnum="2" colname="c2"/>
+   <tbody>
+    <row>
+     <entry>wavelength</entry>
+     <entry>wave velocity</entry>
+    </row>
+   </tbody>
+  </tgroup>
+ </table>
+</section>
+<note id="fs-id1167065055575" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065883805"><span>[BL]</span><span>[OL]</span><span>[AL]</span> Review amplitude, period, and frequency for simple harmonic motion.</para></note>
+<section id="fs-id1167064832959">
+ <title>Wave Variables</title>
+ <para id="fs-id1167065821635">In the chapter on motion in two dimensions, we defined the following variables to describe harmonic motion:</para>
+ <list id="fs-id1167063095693">
+<item>Amplitude—maximum displacement from the equilibrium position of an object oscillating around such equilibrium position</item>
+<item>Frequency—number of events per unit of time</item>
+<item>Period—time it takes to complete one oscillation</item>
+ </list>
+<para id="fs-id1167065885794">For waves, these variables have the same basic meaning. However, it is helpful to word the definitions in a more specific way that applies directly to waves:</para>
+ <list id="fs-id1167064985573">
+  <item>Amplitude—distance between the resting position and the maximum displacement of the wave</item>
+  <item>Frequency—number of waves passing by a specific point per second</item>
+  <item>Period—time it takes for one wave cycle to complete</item>
+ </list>
+ <para id="fs-id1167065887982">In addition to amplitude, frequency, and period, their wavelength and wave velocity also characterize waves. The <term>wavelength</term>  <m:math>
+ <m:mi>λ</m:mi>
+</m:math>  is the distance between adjacent identical parts of a wave, parallel to the direction of propagation. The <term>wave velocity</term>  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>v</m:mi>
+   <m:mi>w</m:mi>
+  </m:msub>
+
+ </m:mrow>
+</m:math>  is the speed at which the disturbance moves.</para>
+
+<note id="fs-id1167064853816" class="tips-for-success">
+
+ <para id="fs-id1167065976289">Wave velocity is sometimes also called the <emphasis effect="italics">propagation velocity </emphasis>or<emphasis effect="italics"> propagation speed</emphasis> because the disturbance propagates from one location to another.</para>
+</note>
+
+<para id="fs-id1167065979917">Consider the periodic water wave in <link target-id="Figure_13_02_Simple2"/>. Its wavelength is the distance from crest to crest or from trough to trough. The wavelength can also be thought of as the distance a wave has traveled after one complete cycle—or one period. The time for one complete up-and-down motion is the simple water wave’s period <emphasis effect="italics">T</emphasis>. In the figure, the wave itself moves to the right with a wave velocity <emphasis effect="italics">v</emphasis><sub>w</sub>. Its amplitude <emphasis effect="italics">X</emphasis> is the distance between the resting position and the maximum displacement—either the crest or the trough—of the wave. It is important to note that this movement of the wave is actually the <emphasis effect="italics">disturbance</emphasis> moving to the right, not the water itself; otherwise, the bird would move to the right. Instead, the seagull bobs up and down in place as waves pass underneath, traveling a total distance of 2<emphasis effect="italics">X</emphasis> in one cycle. However, as mentioned in the text feature on surfing, actual ocean waves are more complex than this simplified example.</para>
+
+<figure id="Figure_13_02_Simple2">
+<media id="fs-id1167064744821" alt="A seagull bobs up and down on a sinusoidal-shaped periodic ocean wave with a given wave velocity of νw. The wavelength λ is shown as the distance from one crest to the next crest. The amplitude X is shown as the distance between the resting position and the crest. The total distance traveled by the seagull in one cycle or period is shown as 2X.">
+   <image mime-type="image/jpg" src="../../media/CNX_HSPhysics_13_02_Simple2.jpg"/>
+  </media>
+
+ <caption>The wave has a wavelength <emphasis effect="italics">λ</emphasis>, which is the distance between adjacent identical parts of the wave. The up-and-down disturbance of the surface propagates parallel to the surface at a speed v<sub>w</sub>.</caption></figure>
+
+<note id="fs-id1167065894273" class="watch-physics"><title>Amplitude, Period, Frequency, and Wavelength of Periodic Waves</title>
+
+
+  <para id="fs-id1167062509703">This video is a continuation of the video “Introduction to Waves” from the "Types of Waves" section. It discusses the properties of a periodic wave: amplitude, period, frequency, wavelength, and wave velocity.</para>
+<media id="fs-id1167066095449" alt="..." class="os-embed">
+<iframe width="660" height="371.4" src="https://www.openstax.org/l/28wavepro"/>
+</media>
+
+ <note id="fs-id1167065046889" class="tips-for-success">
+
+  <para id="fs-id1167064978888">The crest of a wave is sometimes also called the <emphasis effect="italics">peak</emphasis>.</para>
+ </note>
+  <exercise id="fs-id1167065952817" class="os-exercise grasp-check unnumbered">
+
+   <problem id="fs-id1167064872283">
+    <para id="fs-id1167065860323"><link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex027"/></para>
+   </problem>
+  </exercise>
+ </note></section>
+
+ <section id="fs-id1167064799282"><title>The Relationship between Wave Frequency, Period, Wavelength, and Velocity</title><para id="fs-id1167065880211">Since wave frequency is the number of waves per second, and the period is essentially the number of seconds per wave, the relationship between frequency and period is</para>
+<equation id="fs-id1164564807684"> <m:math display="block">
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mi>T</m:mi>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</equation><para id="fs-id1167064928487">or</para>
+<equation id="fs-id1164566851770"> <m:math display="block">
+ <m:mrow>
+  <m:mi>T</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mi>f</m:mi>
+  </m:mfrac>
+  <m:mo>,</m:mo></m:mrow>
+</m:math>
+</equation><para id="fs-id1167065944638">just as in the case of harmonic motion of an object. We can see from this relationship that a higher frequency means a shorter period. Recall that the unit for frequency is hertz (Hz), and that 1 Hz is one cycle—or one wave—per second.</para>
+<para id="fs-id1167064994248">The speed of propagation <emphasis effect="italics">v</emphasis><sub>w</sub> is the distance the wave travels in a given time, which is one wavelength in a time of one period. In equation form, it is written as</para>
+<equation id="fs-id1164566836508"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>v</m:mi>
+   <m:mi>w</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mi>λ</m:mi>
+   <m:mi>T</m:mi>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </equation><para id="fs-id1167067305204">or</para>
+<equation id="fs-id1164563568005"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>v</m:mi>
+   <m:mi>w</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mi>f</m:mi><m:mi>λ</m:mi>
+<m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math>
+</equation><para id="fs-id1167063517803">From this relationship, we see that in a medium where <emphasis effect="italics">v</emphasis><sub>w</sub> is constant, the higher the frequency, the smaller the wavelength. See <link target-id="Figure_13_02_Speaker"/>.</para>
+
+<figure id="Figure_13_02_Speaker">
+<media id="fs-id1167065772781" alt="A smaller speaker emits a high-frequency sound wave with a small wavelength, while a larger speaker emits a lower-frequency sound wave with a larger wavelength.">
+    <image mime-type="image/jpg" src="../../media/CNX_HSPhysics_13_02_Speaker.jpg"/>
+   </media>
+
+  <caption>Because they travel at the same speed in a given medium, low-frequency sounds must have a greater wavelength than high-frequency sounds. Here, the lower-frequency sounds are emitted by the large speaker, called a woofer, while the higher-frequency sounds are emitted by the small speaker, called a tweeter. </caption></figure>
+
+<note id="fs-id1167064979274" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066031064"><span>[BL]</span> For sound, a higher frequency corresponds to a higher pitch while a lower frequency corresponds to a lower pitch. Amplitude corresponds to the loudness of the sound.</para>
+<para id="fs-id1167065961579"><span>[BL]</span><span>[OL]</span> Since sound at all frequencies has the same speed in air, a change in frequency means a change in wavelength.</para>
+<para id="fs-id1167064541159">[Figure Support] The same speaker is capable of reproducing both high- and low-frequency sounds. However, high frequencies have shorter wavelengths and are hence best reproduced by a speaker with a small, hard, and tight cone (tweeter), whereas lower frequencies are best reproduced by a large and soft cone (woofer).</para>
+</note>
+
+<para id="fs-id1167065773318">These fundamental relationships hold true for all types of waves. As an example, for water waves, <emphasis effect="italics">v</emphasis><sub>w</sub> is the speed of a surface wave; for sound, <emphasis effect="italics">v</emphasis><sub>w</sub> is the speed of sound; and for visible light, <emphasis effect="italics">v</emphasis><sub>w</sub> is the speed of light. The amplitude <emphasis effect="italics">X</emphasis> is completely independent of the speed of propagation <emphasis effect="italics">v</emphasis><sub>w</sub> and depends only on the amount of energy in the wave.</para>
+
+<note id="fs-id1167064909304" class="snap-lab"><title>Waves in a Bowl</title>
+
+<para id="fs-id1167065945375">In this lab, you will take measurements to determine how the amplitude and the period of waves are affected by the transfer of energy from a cork dropped into the water. The cork initially has some potential energy when it is held above the water—the greater the height, the higher the potential energy. When it is dropped, such potential energy is converted to kinetic energy as the cork falls. When the cork hits the water, that energy travels through the water in waves.</para>
+<list id="fs-id1167062506610" list-type="bulleted" class="materials">
+
+<item>Large bowl or basin</item>
+<item>Water</item>
+<item>Cork (or ping pong ball)</item>
+<item>Stopwatch</item>
+<item>Measuring tape</item>
+</list>
+<para id="fs-id1164564881974">Instructions</para>
+<list id="fs-id1167066056066" list-type="enumerated"><title>Procedure</title><item>Fill a large bowl or basin with water and wait for the water to settle so there are no ripples.</item>
+<item>Gently drop a cork into the middle of the bowl.</item>
+<item>Estimate the wavelength and the period of oscillation of the water wave that propagates away from the cork. You can estimate the period by counting the number of ripples from the center to the edge of the bowl while your partner times it. This information, combined with the bowl measurement, will give you the wavelength when the correct formula is used.</item>
+<item>Remove the cork from the bowl and wait for the water to settle again.</item>
+<item>Gently drop the cork at a height that is different from the first drop.</item>
+<item>Repeat Steps 3 to 5 to collect a second and third set of data, dropping the cork from different heights and recording the resulting wavelengths and periods.</item>
+<item>Interpret your results.</item>
+</list>
+
+<exercise id="fs-id1167066040450" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167065017593">
+<para id="fs-id1167065862632">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex028"/>
+</para>
+</problem>
+</exercise>
+<note id="fs-id1167064909381" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065046938">Students can measure the bowl beforehand to help them make a better estimation of the wavelength.</para>
+</note>
+</note>
+
+<note id="fs-id1167065747209" class="links-to-physics">
+
+<title>Geology: Physics of Seismic Waves</title>
+<figure id="Figure_13_02_Earthquake"><media id="fs-id1167062325676" alt="A town with collapsed buildings after an earthquake.">
+<image mime-type="image/jpg" src="../../media/CNX_HsPhysics_13_02_Earthquake.jpg"/>
+</media>
+
+<caption>The destructive effect of an earthquake is a palpable evidence of the energy carried in the earthquake waves. The Richter scale rating of earthquakes is related to both their amplitude and the energy they carry. (Petty Officer 2nd Class Candice Villarreal, U.S. Navy)</caption></figure>
+
+<para id="fs-id1167065888948">Geologists rely heavily on physics to study earthquakes since earthquakes involve several types of wave disturbances, including disturbance of Earth’s surface and pressure disturbances under the surface. Surface earthquake waves are similar to surface waves on water. The waves under Earth’s surface have both longitudinal and transverse components. The longitudinal waves in an earthquake are called pressure waves (P-waves) and the transverse waves are called shear waves (S-waves). These two types of waves propagate at different speeds, and the speed at which they travel depends on the rigidity of the medium through which they are traveling. During earthquakes, the speed of P-waves in granite is significantly higher than the speed of S-waves. Both components of earthquakes travel more slowly in less rigid materials, such as sediments. P-waves have speeds of 4 to 7 km/s, and S-waves have speeds of 2 to 5 km/s, but both are faster in more rigid materials. The P-wave gets progressively farther ahead of the S-wave as they travel through Earth’s crust. For that reason, the time difference between the P- and S-waves is used to determine the distance to their source, the epicenter of the earthquake.</para>
+<para id="fs-id1167065811739">We know from seismic waves produced by earthquakes that parts of the interior of Earth are liquid. Shear or transverse waves cannot travel through a liquid and are not transmitted through Earth’s core. In contrast, compression or longitudinal waves can pass through a liquid and they do go through the core.</para>
+<para id="fs-id1167065704286">All waves carry energy, and the energy of earthquake waves is easy to observe based on the amount of damage left behind after the ground has stopped moving. Earthquakes can shake whole cities to the ground, performing the work of thousands of wrecking balls. The amount of energy in a wave is related to its amplitude. Large-amplitude earthquakes produce large ground displacements and greater damage. As earthquake waves spread out, their amplitude decreases, so there is less damage the farther they get from the source.</para>
+<exercise id="fs-id1167065867592" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167065877752">
+<!--<para id="fs-id1167063011817">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex029"/>
+</para>-->
+<para id="fs-id1164557671865">What is the relationship between the propagation speed, frequency, and wavelength of the S-waves in an earthquake?</para>
+<list id="fs-id1164563503101" list-type="enumerated" number-style="lower-alpha">
+<item>The relationship between the propagation speed, frequency, and wavelength is  <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msub>
+    <m:mi>v</m:mi>
+    <m:mtext>w</m:mtext>
+   </m:msub>
+   <m:mo>=</m:mo><m:mi>f</m:mi><m:mi>λ</m:mi><m:mo>.</m:mo>
+  </m:mrow>
+ </m:semantics>
+</m:math> </item>
+<item>The relationship between the propagation speed, frequency, and wavelength is  <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msub>
+    <m:mi>v</m:mi>
+    <m:mtext>w</m:mtext>
+   </m:msub>
+   <m:mo>=</m:mo><m:mfrac>
+    <m:mi>f</m:mi>
+    <m:mi>λ</m:mi>
+   </m:mfrac>
+   <m:mo>.</m:mo>
+  </m:mrow>
+ </m:semantics>
+</m:math> </item>
+<item>The relationship between the propagation speed, frequency, and wavelength is  <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msub>
+    <m:mi>v</m:mi>
+    <m:mtext>w</m:mtext>
+   </m:msub>
+   <m:mo>=</m:mo><m:mfrac>
+    <m:mi>λ</m:mi>
+    <m:mi>f</m:mi>
+   </m:mfrac>
+   <m:mo>.</m:mo>
+  </m:mrow>
+ </m:semantics>
+</m:math> </item>
+<item>The relationship between the propagation speed, frequency, and wavelength is  <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msub>
+    <m:mi>v</m:mi>
+    <m:mtext>w</m:mtext>
+   </m:msub>
+   <m:mo>=</m:mo><m:msqrt>
+    <m:mrow>
+     <m:mi>f</m:mi><m:mi>λ</m:mi>
+    </m:mrow>
+   </m:msqrt>
+   <m:mo>.</m:mo>
+  </m:mrow>
+ </m:semantics>
+</m:math> </item>
+</list>
+
+</problem>
+</exercise>
+</note>
+
+<note id="fs-id1167066169828" class="virtual-physics os-interactive"><title>Wave on a String</title>
+<media id="fs-id1167065947839" alt="This simulation allows you to observe a string vibrate in slow motion, wiggle the end of the string and make waves, or adjust the frequency and amplitude of an oscillator.">
+<iframe width="660" height="371.4" src="https://openstax.org/l/28wavestring"/></media>
+<para id="eip-id1167066154686">In this animation, watch how a string vibrates in slow motion by choosing the Slow Motion setting. Select the No End and Manual options, and wiggle the end of the string to make waves yourself. Then switch to the Oscillate setting to generate waves automatically. Adjust the frequency and the amplitude of the oscillations to see what happens. Then experiment with adjusting the damping and the tension.</para>
+<exercise id="fs-id1167065028506" class="os-exercise grasp-check unnumbered">
+<problem id="fs-id1167064892159">
+<!--<para id="fs-id1167065861984"><link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex030"/></para>-->
+
+<para id="fs-id1164564890666">Which of the settingsamplitude, frequency, damping, or tensionchanges the amplitude of the wave as it propagates? What does it do to the amplitude?</para>
+<list id="fs-id1164560950284" list-type="enumerated" number-style="lower-alpha">
+<item>Frequency; it decreases the amplitude of the wave as it propagates.</item>
+<item>Frequency; it increases the amplitude of the wave as it propagates.</item>
+<item>Damping; it decreases the amplitude of the wave as it propagates.</item>
+<item>Damping; it increases the amplitude of the wave as it propagates.</item>
+</list>
+</problem>
+</exercise>
+</note></section><section id="fs-id1167066042036">
+<title>Solving Wave Problems</title>
+<note id="Worked_Example_13_01" class="worked-example"><title>Calculate the Velocity of Wave Propagation: Gull in the Ocean</title>
+
+<exercise id="fs-id1167065820213" class="13-ex31 unnumbered">
+<label/>
+<problem id="fs-id1167066145854">
+<para id="fs-id1167065943885">Calculate the wave velocity of the ocean wave in the previous figure if the distance between wave crests is 10.0 m and the time for a seagull to bob up and down is 5.00 s.</para>
+<note id="fs-id1167065854862">
+<label/>
+<title>Strategy</title>
+<para id="fs-id1167065969695">The values for the wavelength  <m:math display="block">
+ <m:mo stretchy="false">(</m:mo><m:mi>λ</m:mi><m:mo>=</m:mo><m:mn>10.0</m:mn><m:mspace width="0.3em"/><m:mtext> </m:mtext><m:mi>m</m:mi><m:mo stretchy="false">)</m:mo>
+</m:math>  and the period  <m:math>
+ <m:mrow>
+<m:mtext>(</m:mtext>
+  <m:mi>T</m:mi><m:mo>=</m:mo><m:mn>5.00</m:mn><m:mspace width="0.3em"/><m:mtext>s)</m:mtext>
+ </m:mrow>
+</m:math>  are given and we are asked to find  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>v</m:mi>
+   <m:mi>w</m:mi>
+  </m:msub>
+
+ </m:mrow>
+</m:math>  Therefore, we can use  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>v</m:mi>
+   <m:mi>w</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mi>λ</m:mi>
+   <m:mi>T</m:mi>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>  to find the wave velocity.</para>
+</note></problem>
+
+<solution id="fs-id1167064876765">
+<label/>
+<title>Solution</title>
+<para id="fs-id1167066091579">Enter the known values into  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>v</m:mi>
+   <m:mi>w</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mi>λ</m:mi>
+   <m:mi>T</m:mi>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </para>
+<equation id="fs-id1164566506536"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>v</m:mi>
+   <m:mi>w</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mtext>10</m:mtext><m:mtext>.0 m</m:mtext>
+   </m:mrow>
+   <m:mrow>
+    <m:mtext>5</m:mtext><m:mtext>.00 s</m:mtext>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>2.</m:mn><m:mspace width="0.3em"/><m:mtext>00 m/s</m:mtext><m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math> </equation></solution>
+
+<commentary id="fs-id1167065980021">
+<title>Discussion</title>
+<para id="fs-id1167062468574">This slow speed seems reasonable for an ocean wave. Note that in the figure, the wave moves to the right at this speed, which is different from the varying speed at which the seagull bobs up and down.</para>
+</commentary>
+</exercise>
+</note><note id="Worked_Example_13_02" class="worked-example"><title>Calculate the Period and the Wave Velocity of a Toy Spring</title>
+
+<exercise id="fs-id1167064634716" class="13-ex032 unnumbered"><label/>
+<problem id="fs-id1167064708675">
+<para id="fs-id1167066095330">The woman in <link document="m54314" target-id="Figure_13_01_Transverse"/> creates two waves every second by shaking the toy spring up and down. (a)What is the period of each wave? (b) If each wave travels 0.9 meters after one complete wave cycle, what is the velocity of wave propagation?</para><note id="fs-id1167065862192"><label/>
+<title>Strategy FOR (A)</title>
+
+<para id="fs-id1167064914484">To find the period, we solve for  <m:math>
+ <m:mrow>
+  <m:mi>T</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mi>f</m:mi>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>, given the value of the frequency  <m:math>
+ <m:mrow>
+<m:mtext>(</m:mtext>
+  <m:mi>f</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:msup>
+   <m:mtext>s</m:mtext>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>1</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mtext>).</m:mtext>
+ </m:mrow>
+</m:math> </para>
+</note></problem>
+
+<solution id="fs-id1167065957135">
+<label/>
+<title>Solution for (a)</title>
+<para id="fs-id1167066127894">Enter the known value into  <m:math>
+ <m:mrow>
+  <m:mi>T</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mi>f</m:mi>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </para>
+<equation id="fs-id1164566865249"> <m:math display="block">
+ <m:mrow>
+  <m:mi>T</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:mn>2</m:mn><m:msup>
+     <m:mrow>
+      <m:mtext> s</m:mtext>
+     </m:mrow>
+     <m:mrow>
+      <m:mn>−1</m:mn>
+     </m:mrow>
+    </m:msup>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>0.</m:mn><m:mspace width="0.3em"/><m:mtext>5 s</m:mtext><m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math> </equation></solution>
+</exercise><exercise id="fs-id1167065926661"><label/>
+<problem id="fs-id1167064635544">
+<label/>
+<note id="eip-id1167065812360"><label/>
+<title>Strategy FOR (B)</title>
+
+<para id="fs-id1167065857459">Since one definition of wavelength is the distance a wave has traveled after one complete cycle—or one period—the values for the wavelength  <m:math display="block">
+ <m:mo stretchy="false">(</m:mo><m:mi>λ</m:mi><m:mo>=</m:mo><m:mn>0.9</m:mn><m:mspace width="0.3em"/><m:mtext> </m:mtext><m:mi>m</m:mi><m:mo stretchy="false">)</m:mo>
+</m:math>  as well as the frequency are given. Therefore, we can use  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>v</m:mi>
+   <m:mtext>w</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:mi>f</m:mi><m:mi>λ</m:mi>
+ </m:mrow>
+</m:math>  to find the wave velocity.</para>
+</note></problem>
+
+<solution id="fs-id1167065919846">
+<label/>
+<title>Solution for (b)</title>
+<para id="fs-id1167064893871">Enter the known values into  <m:math>
+  <m:mrow>
+  <m:msub>
+   <m:mi>v</m:mi>
+   <m:mtext>w</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:mi>f</m:mi><m:mi>λ</m:mi>
+ </m:mrow>
+</m:math> </para>
+<para id="fs-id1167064914716"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>v</m:mi>
+   <m:mtext>w</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:mi>f</m:mi><m:mi>λ</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:msup>
+   <m:mrow>
+    <m:mtext> s</m:mtext>
+   </m:mrow>
+   <m:mrow>
+    <m:mtext>−1</m:mtext>
+   </m:mrow>
+  </m:msup>
+  <m:mtext>)(0</m:mtext><m:mtext>.9 m) = 1</m:mtext><m:mtext>.8 m/s</m:mtext><m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math> </para></solution>
+
+<commentary id="fs-id1167065824499">
+<title>Discussion</title>
+<para id="fs-id1167065876876">We could have also used the equation  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>v</m:mi>
+   <m:mtext>w</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mi>λ</m:mi>
+   <m:mi>T</m:mi>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>  to solve for the wave velocity since we already know the value of the period  <m:math>
+ <m:mrow>
+<m:mtext>(</m:mtext>
+  <m:mi>T</m:mi><m:mo>=</m:mo><m:mn>0.5</m:mn><m:mspace width="0.3em"/><m:mtext>s)</m:mtext>
+ </m:mrow>
+</m:math>  from our calculation in part (a), and we would come up with the same answer.</para>
+</commentary>
+</exercise></note></section>
+
+<section id="fs-id1167062465599" class="practice-problems">
+<title>Practice Problems</title>
+<exercise id="fs-id1167066097865">
+<problem id="fs-id1167062853787">
+<!--<para id="fs-id1167066200989"><link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex033"/></para>-->
+
+<para id="fs-id1164562298869">The frequency of a wave is 10 Hz. What is its period?</para>
+<list id="fs-id1164562234392" list-type="enumerated" number-style="lower-alpha">
+<item>The period of the wave is 100 s.</item>
+<item>The period of the wave is 10 s.</item>
+<item>The period of the wave is 0.01 s.</item>
+<item>The period of the wave is 0.1 s.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167062476005">
+<problem id="fs-id1167065017509">
+<!--<para id="fs-id1167066029674"><link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex034"/></para>-->
+<para id="fs-id1164561130770">What is the velocity of a wave whose wavelength is 2 m and whose frequency is 5 Hz?</para>
+<list id="fs-id1164562351320" list-type="enumerated" number-style="lower-alpha">
+<item>20 m/s</item>
+<item>2.5 m/s</item>
+<item>0.4 m/s</item>
+<item>10 m/s</item>
+</list>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167062967347" class="check-understanding">
+<title>Check Your Understanding</title>
+<note id="fs-id1167064873407" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066127952">Use these questions to assess students’ achievement of the section’s Learning Objectives. If students are struggling with a specific objective, these questions will help identify such objective and direct them to the relevant content.</para>
+</note>
+<exercise id="fs-id1167064820992" class="os-exercise">
+<problem id="fs-id1167065949573">
+<!--<para id="fs-id1167064876566"><link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex035"/></para>-->
+<para id="fs-id1164558734805">What is the amplitude of a wave?</para>
+<list id="fs-id1164557698484" list-type="enumerated" number-style="lower-alpha">
+<item>A quarter of the total height of the wave</item>
+<item>Half of the total height of the wave</item>
+<item>Two times the total height of the wave</item>
+<item>Four times the total height of the wave</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167065809826" class="os-exercise">
+<problem id="fs-id1167065799105">
+<para id="fs-id1167065824083"><link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex036"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167064928795" class="os-exercise">
+<problem id="fs-id1167066089777">
+<para id="fs-id1167065014245"><link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex037"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167064778580" class="os-exercise">
+<problem id="fs-id1167065880826">
+<!--<para id="fs-id1167064841904"><link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex038"/></para>-->
+
+<para id="fs-id1164563440942">When is the wavelength directly proportional to the period of a wave?</para>
+<list id="fs-id1164566560482" list-type="enumerated" number-style="lower-alpha">
+<item>When the velocity of the wave is halved</item>
+<item>When the velocity of the wave is constant</item>
+<item>When the velocity of the wave is doubled</item>
+<item>When the velocity of the wave is tripled</item>
+</list>
+</problem>
+</exercise>
+</section>
+
+
+<section id="fs-id1167064873390" class="summary">
+<title>Section Summary</title>
+<list id="fs-id1167064669560"><item>A wave is a disturbance that moves from the point of creation at a wave velocity <emphasis effect="italics">v</emphasis><sub>w</sub>.</item>
+<item>A wave has a wavelength  <m:math>
+ <m:mi>λ</m:mi>
+</m:math>, which is the distance between adjacent identical parts of the wave.</item>
+<item>The wave velocity and the wavelength are related to the wave’s frequency and period by  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>v</m:mi>
+   <m:mtext>w</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mi>λ</m:mi>
+   <m:mi>T</m:mi>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>  or  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>v</m:mi>
+   <m:mtext>w</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:mi>f</m:mi><m:mi>λ</m:mi>
+<m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math> </item>
+<item>The time for one complete wave cycle is the period <emphasis effect="italics">T</emphasis>.</item>
+<item>The number of waves per unit time is the frequency ƒ.</item>
+<item>The wave frequency and the period are inversely related to one another.</item>
+</list></section>
+
+<section id="fs-id1167065848036" class="key-equations">
+<title>Key Equations</title>
+<table id="fs-id1167066108410" class="unnumbered unstyled" summary="The table has three rows. The first row is for the ‘Wave velocity,’ which is νw = λ/T or νw = ƒλ . The second row is for the ‘Period,’ which is T = 1/ƒ . The third row is for the ‘Frequency’, which is ƒ = 1/T."><label/>
+<tgroup cols="2"><colspec colnum="1" align="left" colname="c1"/>
+<colspec colnum="2" align="left" colname="c2"/>
+<tbody>
+<row>
+<entry>wave velocity</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>v</m:mi>
+   <m:mtext>w</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mi>λ</m:mi>
+   <m:mi>T</m:mi>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>  or  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>v</m:mi>
+   <m:mtext>w</m:mtext>
+  </m:msub>
+  <m:mo>=</m:mo><m:mi>f</m:mi><m:mi>λ</m:mi>
+ </m:mrow>
+</m:math> </entry>
+</row>
+<row>
+<entry>period</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mi>T</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mi>f</m:mi>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </entry>
+</row>
+<row>
+<entry>frequency</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mi>T</m:mi>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </entry>
+</row>
+</tbody>
+
+</tgroup>
+</table></section>
+
+
+
+
+
+
+
+<section id="fs-id1167062570839" class="concept"><title>Concept Items</title><exercise id="fs-id1167066024903" class="os-exercise">
+<problem id="fs-id1167066154347">
+<para id="fs-id1167065754639"><link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex039"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065919699" class="os-exercise">
+<problem id="fs-id1167062339567">
+<para id="fs-id1167065979957"><link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex040"/></para>
+</problem>
+</exercise>
+<exercise id="eip-id1166851090883" class="os-exercise">
+<problem id="eip-id1166851219947">
+<para id="eip-id1166851306758">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch13-ot030"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166851123800" class="os-exercise">
+<problem id="eip-id1166851049815">
+<para id="eip-id1166851322480">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch13-ot039"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167065858269" class="critical-thinking"><title>Critical Thinking</title><exercise id="fs-id1167066045841" class="os-exercise">
+<problem id="fs-id1167065896555">
+<!--<para id="fs-id1167065919300"><link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex041"/></para>-->
+<para id="fs-id1164565062711">If the horizontal distance, that is, the distance in the direction of propagation, between a crest and the adjacent trough of a sine wave is 1 m, what is the wavelength of the wave?</para>
+<list id="fs-id1164562063113" list-type="enumerated" number-style="lower-alpha">
+<item>0.5 m</item>
+<item>1 m</item>
+<item>2 m</item>
+<item>4 m</item>
+</list>
+
+</problem>
+</exercise>
+<exercise id="fs-id1167064669244" class="os-exercise">
+<problem id="fs-id1167065947358">
+<para id="fs-id1167065011949"><link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex042"/></para>
+</problem>
+</exercise>
+<exercise id="eip-id1166850271470" class="os-exercise">
+<problem id="eip-id1166849752407">
+<!--<para id="eip-id1166850207425">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch13-ot045"/>
+</para>-->
+<para id="fs-id1164564839318">Two identical waves superimpose in pure constructive interference. What is the height of the resultant wave if the amplitude of each of the waves is 1 m?</para>
+<list id="fs-id1164564976599" list-type="enumerated" number-style="lower-alpha">
+<item>1 m</item>
+<item>2 m</item>
+<item>3 m</item>
+<item>4 m</item>
+</list>
+</problem>
+</exercise>
+</section><section id="fs-id1167065884603" class="problems">
+<title>Problems</title>
+<exercise id="fs-id1167062367438" class="os-exercise">
+<problem id="fs-id1167064871821">
+<!--<para id="fs-id1167064928330"><link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex043"/></para>-->
+<para id="fs-id1164566561575">If a seagull sitting in water bobs up and down once every 2 seconds and the distance between two crests of the water wave is 3 m, what is the velocity of the wave?</para>
+<list id="fs-id1164565237090" list-type="enumerated" number-style="lower-alpha">
+<item>1.5 m/s</item>
+<item>3 m/s</item>
+<item>6 m/s</item>
+<item>12 m/s</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167062410314" class="os-exercise">
+<problem id="fs-id1167064892964">
+<!--<para id="fs-id1167066182872"><link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex044"/></para>-->
+<para id="fs-id1164563517778">A boat in the trough of a wave takes 3 seconds to reach the highest point of the wave. The velocity of the wave is 5 m/s. What is its wavelength?</para>
+<list id="fs-id1164565232576" list-type="enumerated" number-style="lower-alpha">
+<item>0.83 m</item>
+<item>15 m</item>
+<item>30 m</item>
+<item>180 m</item>
+</list>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167064825943" class="multiple-choice"><title>Test Prep Multiple Choice</title>
+<exercise id="fs-id1167065878984" class="os-exercise">
+<problem id="fs-id1167065772515">
+<!--<para id="fs-id1167064853813"><link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex045"/></para>-->
+
+<para id="fs-id1164565208381">Which of these is not a characteristic of a wave?</para>
+<list id="fs-id1164564879243" list-type="enumerated" number-style="lower-alpha">
+<item>amplitude</item>
+<item>period</item>
+<item>mass</item>
+<item>velocity</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167065875671" class="os-exercise">
+<problem id="fs-id1167065883534">
+<!--<para id="fs-id1167062506462"><link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex046"/></para>-->
+<para id="fs-id1164564988241">If you are in a boat at a resting position, how much will your height change when you are hit by the peak of a wave with a height of 2 m?</para>
+<list id="fs-id1164566949676" list-type="enumerated" number-style="lower-alpha">
+<item>0 m</item>
+<item>1 m</item>
+<item>2 m</item>
+<item>4 m</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167064686969" class="os-exercise">
+<problem id="fs-id1167062385006">
+<!--<para id="fs-id1167065925380"><link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex047"/></para>-->
+
+<para id="fs-id1164565014184">What is the period of a wave with a frequency of 0.5 Hz?</para>
+<list id="fs-id1164565055023" list-type="enumerated" number-style="lower-alpha">
+<item>0.5 s</item>
+<item>1 s</item>
+<item>2 s</item>
+<item>3 s</item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-id1166848788010" class="os-exercise">
+<problem id="eip-id1166851203137">
+<para id="eip-id1166851309703">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch13-ot035"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166850947646" class="os-exercise">
+<problem id="eip-id1166851333382">
+<para id="eip-id1166851425613">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch13-ot036"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167065878385" class="short-answer">
+<title>Test Prep Short Answer</title>
+<exercise id="fs-id1167066202775" class="os-exercise">
+<problem id="fs-id1167066030093">
+<para id="fs-id1167064900467"><link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex048"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167062410609" class="os-exercise">
+<problem id="fs-id1167064541413">
+<!--<para id="fs-id1167064820771"><link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex049"/></para>-->
+<para id="fs-id1164559110240">If the amplitude of a water wave is 0.2 m and its frequency is 2 Hz, how much distance would a bird sitting on the waters surface move with every wave? How many times will it do this every second?</para>
+<list id="fs-id1164563547111" list-type="enumerated" number-style="lower-alpha">
+<item>The bird will go up and down a distance of 0.4 m. It will do this twice per second.</item>
+<item>The bird will go up and down a distance of 0.2 m. It will do this twice per second.</item>
+<item>The bird will go up and down a distance of 0.4 m. It will do this once per second.</item>
+<item>The bird will go up and down a distance of 0.2 m. It will do this once per second.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167065910264" class="os-exercise">
+<problem id="fs-id1167062408588">
+<para id="fs-id1167064895077"><link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex050"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065837717" class="os-exercise">
+<problem id="fs-id1167062339383">
+<para id="fs-id1167065881792"><link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex051"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167062604135" class="os-exercise">
+<problem id="fs-id1167065865396">
+<para id="fs-id1167065789223"><link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex052"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167066127960" class="os-exercise">
+<problem id="fs-id1167065857527">
+<!--<para id="fs-id1167065037995"><link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex053"/></para>-->
+<para id="fs-id1164564763477">A water wave propagates in a river at 6 m/s. If the river moves in the opposite direction at 3 m/s, what is the effective velocity of the wave?</para>
+<list id="fs-id1164561243530" list-type="enumerated" number-style="lower-alpha">
+<item>3 m/s</item>
+<item>6 m/s</item>
+<item>9 m/s</item>
+<item>18 m/s</item>
+</list>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167065911351" class="extended-response">
+<title>Test Prep Extended Response</title>
+<exercise id="fs-id1167064581570" class="os-exercise">
+<problem id="fs-id1167065680019">
+<para id="fs-id1167065014033"><link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex054"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065873744" class="os-exercise">
+<problem id="fs-id1167064769920">
+<para id="fs-id1167065775610"><link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex055"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167062889861" class="os-exercise">
+<problem id="fs-id1167066054039">
+<!--<para id="fs-id1167065728244"><link class="os-embed" url="#ost/api/ex/k12phys-ch13-ex056"/></para>-->
+
+<para id="fs-id1164565222226">The time difference between a 2 km/s S-wave and a 6 km/s P-wave recorded at a certain point is 10 seconds. How far is the epicenter of the earthquake from that point?</para>
+<list id="fs-id1164561184321" list-type="enumerated" number-style="lower-alpha">
+<item>15 m</item>
+<item>30 m</item>
+<item>15 km</item>
+<item>30 km</item>
+</list>
+</problem>
+</exercise>
+</section>
+</content>
+
+<glossary>
+<definition id="fs-id1167064791910"><term>wavelength</term><meaning id="fs-id1167062348764"> distance between adjacent identical parts of a wave</meaning></definition>
+<definition id="fs-id1167065978769"><term>wave velocity</term><meaning id="fs-id1167066205837"> speed at which the disturbance moves; also called the propagation velocity or propagation speed</meaning></definition>
+</glossary>
+</document>

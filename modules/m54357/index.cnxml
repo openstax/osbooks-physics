@@ -1,0 +1,1141 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Reflection</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54357</md:content-id>
+  <md:title>Reflection</md:title>
+  <md:abstract/>
+  <md:uuid>558c0399-176a-49a9-a4f1-d3b6a16175d6</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167061211467" class="learning-objectives"><label/>
+<title>Section Learning Objectives</title>
+<para id="fs-id1167063589925">By the end of this section, you will be able to do the following:</para>
+<list id="fs-id1167067079996"><item>Explain reflection from mirrors, describe image formation as a consequence of reflection from mirrors, apply ray diagrams to predict and interpret image and object locations, and describe applications of mirrors</item>
+<item>Perform calculations based on the law of reflection and the equations for curved mirrors</item>
+</list></note><note id="fs-id1167066974116" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067211313">The learning objectives in this section help your students master the following standards:</para>
+<list id="fs-id1167066834047"><item>(7) Science concepts. The student knows the characteristics and behavior of waves. The student is expected to:
+<list id="fs-id1167067303058"><item>
+<span>(D)</span>
+<span>investigate behaviors of waves, including reflection, refraction, diffraction, interference, resonance, and the Doppler effect;</span>
+</item>
+<item>
+<span>(E)</span>
+<span>describe and predict image formation as a consequence of reflection from a plane mirror and refraction through a thin convex lens; and</span>
+</item>
+<item>
+<span>(F)</span>
+<span>describe the role of wave characteristics and behaviors in medical and industrial applications.</span>
+</item></list></item>
+</list><para id="fs-id1169316390424">In addition, the High School Physics Laboratory Manual addresses content in this section in the lab titled: Mirrors and Lenses, as well as the following standards:</para><list id="fs-id1169312851580"><item>(7) Science concepts. The student knows the characteristics and behavior of waves. The student is expected to:
+<list id="fs-id1169316303644"><item>
+<span>(D)</span>
+ <span>investigate behaviors of waves, including reflection, refraction, diffraction, interference, resonance, and the Doppler effect.</span>
+</item>
+</list></item>
+</list></note>
+<section id="keyterms"><title>Section Key Terms</title>
+<table id="fs-id1167063706965" class="unnumbered unstyled section-key-terms" summary="Section Key Terms is a three column table. The first row reads angle of incidence, angle of reflection, central axis. The second row reads concave mirror, convex mirror, diffused. The third row reads focal length, focal point, geometric optics. The fourth row reads law of reflection, law of refraction, ray. The fifth row reads real image, specular, virtual image.">
+<label/>
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+<row>
+<entry>angle of incidence</entry>
+<entry>angle of reflection</entry>
+<entry>central axis</entry>
+<entry>concave mirror</entry>
+<entry>convex mirror</entry>
+</row>
+<row>
+<entry>diffused</entry>
+<entry>focal length</entry>
+<entry>focal point</entry>
+<entry>geometric optics</entry>
+<entry>law of reflection</entry>
+</row>
+<row>
+<entry>law of refraction</entry>
+<entry>ray</entry>
+<entry>real image</entry>
+<entry>specular</entry>
+<entry>virtual image</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section id="fs-id1167066878083"><title>Characteristics of Mirrors</title><note id="fs-id1167063484394" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167063756497"><span>[BL]</span>Recall that, in geometry, angles are numbers that tell how far two straight lines are spread apart. The lines must be straight lines for the number to have meaning.</para>
+<para id="fs-id1167066976494"><span>[OL]</span>Geometry is the study of relationships involving points, lines, angles, and shapes. In this chapter, we are focused on the first three ideas.</para>
+<para id="fs-id1167067236119"><span>[AL]</span>In this chapter, we apply equations that use trigonometric functions that describe the properties of angles. Trigonometric functions are ratios of the lengths of two sides of a right triangle. There are six possible ratios; therefore, there are six such functions.</para>
+</note>
+<para id="fs-id1167063659713">There are three ways, as shown in <link target-id="Figure_16_01_Ray"/>, in which light can travel from a source to another location. It can come directly from the source through empty space, such as from the Sun to Earth. Light can travel to an object through various media, such as air and glass. Light can also arrive at an object after being reflected, such as by a mirror. In all these cases, light is modeled as traveling in a straight line, called a <term><emphasis effect="italics">ray</emphasis></term>. Light may change direction when it encounters the surface of a different material (such as a mirror) or when it passes from one material to another (such as when passing from air into glass). It then continues in a straight line—that is, as a ray. The word <emphasis effect="italics">ray</emphasis> comes from mathematics. Here it means a straight line that originates from some point. It is acceptable to visualize light rays as laser rays (or even science fiction depictions of <emphasis effect="italics">ray guns</emphasis>).</para>
+<figure id="Figure_16_01_Ray">
+<media id="fs-id1167063589240" alt="In view (a), a cartoon image of Earth contains a house superimposed over North America. The Sun is included above and to the right of Earth. An arrow points from the Sun’s rays to a series of lines, which represent Earth’s atmosphere, directly above the Earth. In view (b), a woman is looking out of a window at her car. Arrows show the Sun’s rays bouncing off the car and traveling as light toward the woman.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_16_01_Ray.jpg"/>
+</media>
+<caption>Three methods for light to travel from a source to another location are shown. (a) Light reaches the upper atmosphere of Earth by traveling through empty space directly from the source (the Sun). (b) This light can reach a person in one of two ways. It can travel through a medium, such as air or glass, and typically travels from one medium to another. It can also reflect from an object, such as a mirror.</caption>
+</figure>
+<para id="fs-id1167066878429">Because light moves in straight lines, that is, as rays, and changes directions when it interacts with matter, it can be described through geometry and trigonometry. This part of optics, described by straight lines and angles, is therefore called <term><emphasis effect="italics">geometric optics</emphasis></term>. There are two laws that govern how light changes direction when it interacts with matter: the <term>law of reflection</term>, for situations in which light bounces off matter; and the <term>law of refraction</term>, for situations in which light passes through matter. In this section, we consider the geometric optics of <term>reflection</term>.</para>
+
+<note id="fs-id1167067267829" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067092057"><span>[BL]</span>Explain that <emphasis effect="italics">light bounces</emphasis> is a simplification. The geometry of the path of a bouncing ball is similar to that of light, but what happens at the point of impact is different at the molecular level.</para>
+<para id="fs-id1167063680441"><span>[OL]</span>Indicate that the terms <emphasis effect="italics">right angle</emphasis>,<emphasis effect="italics"> perpendicular</emphasis>, and<emphasis effect="italics"> normal line </emphasis>all mean the same thing: a vertical line at a 90° angle to a flat surface.</para>
+<para id="fs-id1167067090708"><span>[AL]</span>Recount and explain all the possible interactions of light with matter. Light can be absorbed at the surface of an opaque object. Some colors of light may be absorbed and others reflected. Light often is partially absorbed and partially reflected. It may also be transmitted through a transparent material, such as water or glass. Typically, if the surface of a transparent material is smooth, such as that of a window pane, light is transmitted partially and reflected partially.</para>
+</note>
+<para id="fs-id1167067294202">Whenever we look into a mirror or squint at sunlight glinting from a lake, we are seeing a reflection. How does the reflected light travel from the object to your eyes? The law of reflection states: The <term>angle of reflection</term>,  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>θ</m:mi>
+   <m:mtext>r</m:mtext>
+  </m:msub>
+
+ </m:mrow>
+</m:math>, equals the <term>angle of incidence</term>,  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>θ</m:mi>
+   <m:mtext>i</m:mtext>
+  </m:msub>
+
+ </m:mrow>
+</m:math>
+<emphasis effect="italics">.</emphasis> This law governs the behavior of all waves when they interact with a smooth surface, and therefore describe the behavior of light waves as well. The reflection of light is simplified when light is treated as a ray. This concept is illustrated in <link target-id="Figure_16_01_Reflect"/>, which also shows how the angles are measured relative to the line perpendicular to the surface at the point where the light ray strikes it. This perpendicular line is also called the <emphasis effect="italics">normal line</emphasis>, or just the <emphasis effect="italics">normal</emphasis>. Light reflected in this way is referred to as <term>specular</term> (from the Latin word for <emphasis effect="italics">mirror</emphasis>: <emphasis effect="italics">speculum</emphasis>).</para>
+
+<para id="fs-id1167067150525">We expect to see reflections from smooth surfaces, but <link target-id="Figure_16_01_Reflect2"/>, illustrates how a rough surface reflects light. Because the light is reflected from different parts of the surface at different angles, the rays go in many different directions, so the reflected light is <term>diffused</term>. Diffused light allows you to read a printed page from almost any angle because some of the rays go in different directions. Many objects, such as people, clothing, leaves, and walls, have rough surfaces and can be seen from many angles. A mirror, on the other hand, has a smooth surface and reflects light at specific angles.</para>
+<figure id="Figure_16_01_Reflect"><media id="fs-id1167067107661" alt="A smooth, flat reflective surface is shown. A dotted line drops from the top of the figure and ends when it reaches the smooth surface. This line is perpendicular to the surface; there is a 90° angle between the surface and the perpendicular line. To the left of the perpendicular line, a ray (called an “incident ray” strikes the surface at a 45° angle. This ray—the “reflective ray”—is reflected off the surface to the right of the perpendicular line, again at a 45° angle. The angle between the incident ray and the perpendicular line is θi; the angle between the perpendicular line and the reflected ray is θr.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_16_01_Reflect.jpg"/>
+</media>
+
+<caption>The law of reflection states that the angle of reflection, <emphasis effect="bold"><emphasis effect="italics">θ</emphasis><sub>r</sub></emphasis>, equals the angle of incidence, <emphasis effect="bold"><emphasis effect="italics">θ</emphasis><sub>i</sub></emphasis>. The angles are measured relative to the line perpendicular to the surface at the point where the ray strikes the surface. The incident and reflected rays, along with the normal, lie in the same plane.</caption></figure>
+<figure id="Figure_16_01_Reflect2">
+<media id="fs-id1167066974416" alt="A rough surface, such as the ground, is shown. Multiple rays are striking the uneven surface and are bouncing off the ground in different directions.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_16_01_Reflect2.jpg"/>
+</media>
+<caption>Light is diffused when it reflects from a rough surface. Here, many parallel rays are incident, but they are reflected at many different angles because the surface is rough.</caption>
+</figure>
+
+<para id="fs-id1167066975516">When we see ourselves in a mirror, it appears that our image is actually behind the mirror. We see the light coming from a direction determined by the law of reflection. The angles are such that our image is exactly the same distance behind the mirror, <emphasis effect="italics">d</emphasis><sub>i</sub>, as the distance we stand away from the mirror, <emphasis effect="italics">d</emphasis><sub>o</sub>. Although these mirror images make objects appear to be where they cannot be (such as behind a solid wall), the images are not figments of our imagination. Mirror images can be photographed and videotaped by instruments and look just as they do to our eyes, which are themselves optical instruments. An image in a mirror is said to be a <term>virtual image</term>, as opposed to a <term>real image</term>. A virtual image is formed when light rays appear to diverge from a point without actually doing so.</para>
+<para id="fs-id1167063751734"><link target-id="Figure_16_01_Flat_mirror"/> helps illustrate how a flat mirror forms an image. Two rays are shown emerging from the same point, striking the mirror, and reflecting into the observer’s eye. The rays can diverge slightly, and both still enter the eye. If the rays are extrapolated backward, they seem to originate from a common point behind the mirror, allowing us to locate the image. The paths of the reflected rays into the eye are the same as if they had come directly from that point behind the mirror. Using the law of reflection—the angle of reflection equals the angle of incidence—we can see that the image and object are the same distance from the mirror. This is a virtual image, as defined earlier.</para>
+<figure id="Figure_16_01_Flat_mirror">
+<media id="fs-id1167066778660" alt="A flat mirror is placed perpendicular to our field of view. We see the side of the mirror. A bottle is placed to the left of the mirror at distance do to the mirror. Two rays originate from the bottle, strike the mirror, and reflect to an eye that is looking at the mirror. To the right of the mirror, a virtual image of the bottle is included as a backward extrapolation of the path of the rays from the eye to the mirror. The bottle to the right of the mirror is at distance di from the mirror.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_16_01_FlatMirror.jpg"/>
+</media>
+<caption>When two sets of rays from common points on an object are reflected by a flat mirror into the eye of an observer, the reflected rays seem to originate from behind the mirror, which determines the position of the virtual image.</caption>
+</figure>
+
+<note id="fs-id1167063891644" class="fun-in-physics"><title>Mirror Mazes</title>
+
+<para id="eip-id1167067029754"><link target-id="Figure_16_01_Maze"/> is a chase scene from an old silent film called <emphasis effect="italics">The Circus</emphasis>, starring Charlie Chaplin. The chase scene takes place in a mirror maze. You may have seen such a maze at an amusement park or carnival. Finding your way through the maze can be very difficult. Keep in mind that only one image in the picture is real—the others are virtual.</para><figure id="Figure_16_01_Maze">
+<media id="fs-id1167063788875" alt="This black-and-white still shot shows Charlie Chaplin and a thief in a maze of mirrors. Images of Chaplin and the thief appear in mirrors, within mirrors, within mirrors.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_16_01_Maze.jpg"/>
+</media>
+<caption>Charlie Chaplin is in a mirror maze. Which image is real?</caption>
+</figure>
+
+<para id="fs-id1167063698137">One of the earliest uses of mirrors for creating the illusion of space is seen in the Palace of Versailles, the former home of French royalty. Construction of the Hall of Mirrors (<link target-id="Figure_16_01_Versailles"/>) began in 1678. It is still one of the most popular tourist attractions at Versailles.</para>
+<figure id="Figure_16_01_Versailles"><media id="fs-id1167067250004" alt="The Hall of Mirrors at Versailles features an al fresco and gilded domed ceiling; many large, hanging crystal chandeliers; exquisite painted panels on the walls; and mirrors—lots and lots of mirrors—to give an illusion of space. Tourists are pictured roaming the Hall.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_16_01_Versailles.jpg"/>
+</media>
+
+<caption>Tourists love to wander in the Hall of Mirrors at the Palace of Versailles. (credit: Michal Osmenda, Flickr)</caption></figure>
+
+<exercise id="eip-id1167064853469" class="os-exercise grasp-check unnumbered">
+<problem id="eip-id1167064682067"><!--<para id="fs-id1167067025244"><link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex001"/></para>-->
+<para id="fs-id1164563066744">Only one Charlie in this image (<link target-id="fs-id1164566710020"/>) is real. The others are all virtual images of him. Can you tell which is real? Hint—His hat is tilted to one side.</para><figure id="fs-id1164566710020">
+<media id="fs-id1164562239727" alt="A grayscale image of Charlie Chaplain in a house of mirrors is shown. There are infinite images of him, His image in the foreground has his hat tilted to the left.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_16_01_Maze.jpg"/>
+</media>
+<caption/>
+</figure>
+
+<list id="fs-id1164565199289" list-type="enumerated" number-style="lower-alpha">
+<item>The virtual images have their hats tilted to the right.</item>
+<item>The virtual images have their hats tilted to the left.</item>
+<item>The real images have their hats tilted to the right.</item>
+<item>The real images have their hats tilted to the left.</item>
+</list>
+</problem></exercise></note>
+<note id="fs-id1167066971732" class="watch-physics"><title>Virtual Image</title>
+<para id="fs-id1167067086014">This video explains the creation of virtual images in a mirror. It shows the location and orientation of the images using ray diagrams, and relates the perception to the human eye.</para><media id="fs-id1167067299942" alt="no alt text">
+<iframe width="660" height="371.4" src="https://openstax.org/l/28Virtualimage"/>
+</media>
+
+<para id="fs-id1167067275298"><link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex002"/></para>
+
+<note id="fs-id1167067117506" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067012058">Have students construct a ray diagram for an object reflected in a plane mirror. Point out to them that all information can be represented in the diagram by using just paper, a pencil, a ruler, and a protractor. Students may use the preceding video and <link target-id="Figure_16_01_Flat_mirror"/> to help them to draw the necessary rays for the diagram. Have them compare the position and orientation of the virtual image with that of the object, paying particular attention to the identical distances that the object and image have with respect to the mirror surface.</para></note>
+</note><note id="fs-id1167067006829" class="os-teacher"><title>Teacher Support</title>
+<note id="eip-id1167062337809" class="misconception">
+<para id="fs-id1167067140780"><span>[BL]</span>Ask students to define <emphasis effect="italics">virtual</emphasis> and dispel any misconceptions. Explain the term in relation to geometric optics.</para>
+<para id="fs-id1167067176285"><span>[OL]</span>Explain that a <emphasis effect="italics">real focal point</emphasis> is a point at which there is a concentration of light energy that can be transformed into other useful forms. At a <emphasis effect="italics">virtual focal point</emphasis>, on the other hand, light energy cannot be concentrated because no light actually goes to that point.</para>
+<para id="fs-id1167067292622"><span>[AL]</span>Explain the difference between a parabolic shape and a spherical shape. Use drawings of a cross-section of each. Point out that, for a short section of a curved mirror with very little curvature, a spherical mirror approximates a parabolic one.</para>
+</note></note><para id="fs-id1167067158575">Some mirrors are curved instead of flat. A mirror that curves inward is called a <term><emphasis effect="italics">concave mirror</emphasis></term>, whereas one that curves outward is called a <term><emphasis effect="italics">convex mirror</emphasis></term>. Pick up a well-polished metal spoon and you can see an example of each type of curvature. The side of the spoon that holds the food is a concave mirror; the back of the spoon is a convex mirror. Observe your image on both sides of the spoon.</para>
+
+<note id="fs-id1167067198556" class="tips-for-success">
+<para id="fs-id1167063955619">You can remember the difference between concave and convex by thinking, <emphasis effect="italics">Concave means caved in</emphasis>.</para>
+</note>
+
+<para id="fs-id1167063525517">Ray diagrams can be used to find the point where reflected rays converge or appear to converge, or the point from which rays appear to diverge. This is called the <term><emphasis effect="italics">focal point</emphasis></term>, F. The distance from F to the mirror along the <term>central axis</term> (the line perpendicular to the center of the mirror’s surface) is called the <term><emphasis effect="italics">focal length</emphasis></term>, <emphasis effect="italics">f</emphasis>. <link target-id="Figure_16_01_Curved_mirror"/> shows the focal points of concave and convex mirrors.</para>
+
+<figure id="Figure_16_01_Curved_mirror"><media id="fs-id1167061199473" alt="There are two curved mirrors in this figure. In view (a), the front of a concave mirror is struck by rays of light that originate in front of the mirror. The rays reflect off the concave mirror and converge at varying angles to a point F in front of the mirror. The distance from F to the mirror is f. In view (b), the back of a convex mirror is struck by rays of light that diverge off the back of the mirror at varying angles. If one were to extrapolate the diverging rays backward, to the front of the mirror, the backward-extrapolated rays meet at point F; however, the distance from the back of the mirror to F is a negative f.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_16_01_Curved.jpg"/>
+</media>
+
+<caption>(a, b) The focal length for the concave mirror in (a), formed by converging rays, is in front of the mirror, and has a positive value. The focal length for the convex mirror in (b), formed by diverging rays, appears to be behind the mirror, and has a negative value.</caption></figure><para id="fs-id1167063517050">Images formed by a concave mirror vary, depending on which side of the focal point the object is placed. For any object placed on the far side of the focal point with respect to the mirror, the rays converge in front of the mirror to form a real image, which can be projected onto a surface, such as a screen or sheet of paper However, for an object located inside the focal point with respect to the concave mirror, the image is virtual. For a convex mirror the image is always virtual—that is, it appears to be behind the mirror. The ray diagrams in <link target-id="Figure_16_01_Curved2"/> show how to determine the nature of the image formed by concave and convex mirrors.</para>
+<figure id="Figure_16_01_Curved2">
+<media id="fs-id1167067295607" alt="View (a) shows a concave mirror to the right with a lit candle to the left placed outside the focal point. It is a real image. View (b) shows a concave mirror to the right with a lit candle to the left placed inside the focal point. This image is virtual. View (c) shows a convex mirror to the right with a lit candle to the left. The image is virtual.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_16_01_Curved2.jpg"/>
+</media>
+<caption>(a) The image of an object placed outside the focal point of a concave mirror is inverted and real. (b) The image of an object placed inside the focal point of a concave mirror is erect and virtual. (c) The image of an object formed by a convex mirror is erect and virtual.</caption>
+</figure>
+<para id="fs-id1167066876447">The information in <link target-id="Figure_16_01_Curved2"/> is summarized in <link target-id="Table_16_01"/>.</para>
+
+<table id="Table_16_01" summary="The table has three columns and four rows. The top left cell reads “Types Mirror,” with cells to the right reading, respectively, “Object to Mirror Distance, do,” and “Image Characteristics.” The next two rows describe the image produced by a concave mirror, depending on the whether the object is placed within or outside the focal length, whereas the fourth row describes the image (virtual and erect) produced for all convex mirrors, regardless of object placement."><title>Curved Mirror Images</title>
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row><entry>Type of Mirror</entry>
+<entry>Object to Mirror Distance, <emphasis effect="italics">d</emphasis><sub>o</sub></entry>
+<entry>Image Characteristics</entry></row>
+</thead>
+<tbody>
+<row>
+<entry>Concave</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>d</m:mi>
+   <m:mi>o</m:mi>
+  </m:msub>
+  <m:mo>&gt;</m:mo><m:mi>f</m:mi>
+ </m:mrow>
+</m:math> </entry>
+<entry>Real and inverted</entry>
+</row>
+<row>
+<entry>Concave</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>d</m:mi>
+   <m:mi>o</m:mi>
+  </m:msub>
+  <m:mo>&lt;</m:mo><m:mi>f</m:mi>
+ </m:mrow>
+</m:math> </entry>
+<entry>Virtual and erect</entry>
+</row>
+<row>
+<entry>Convex</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>d</m:mi>
+   <m:mi>o</m:mi>
+  </m:msub>
+  <m:mo>&lt;</m:mo><m:mtext> or </m:mtext><m:mo>&gt;</m:mo><m:mtext> </m:mtext><m:mi>f</m:mi>
+ </m:mrow>
+</m:math> </entry>
+<entry>Virtual and erect</entry>
+</row>
+</tbody>
+
+
+</tgroup><caption>This table details the type and orientation of images formed by concave and convex mirrors.</caption>
+</table><note id="fs-id1167063877563" class="snap-lab"><title>Concave and Convex Mirrors</title>
+
+<list id="fs-id1167067276622" list-type="bulleted" class="materials">
+<item>Silver spoon and silver polish, or a new spoon made of any shiny metal</item>
+</list>
+<para id="fs-id1164566695373">Instructions</para>
+<list id="fs-id1167067272160" list-type="enumerated">
+<title>Procedure</title>
+<item>Choose any small object with a top and a bottom, such as a short nail or tack, or a coin, such as a quarter. Observe the object’s reflection on the back of the spoon.</item>
+<item>Observe the reflection of the object on the front (bowl side) of the spoon when held away from the spoon at a distance of several inches.</item>
+<item>Observe the image while slowly moving the small object toward the bowl of the spoon. Continue until the object is all the way inside the bowl of the spoon.</item>
+<item>You should see one point where the object disappears and then reappears. This is the focal point.</item>
+</list>
+<note id="fs-id1167066773564" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067140573">Describe the differences in the image of the object on the two sides of the focal point. Explain the change. Identify which of the images you saw were real and which were virtual.</para>
+</note>
+</note>
+
+<para id="fs-id1167067008189"><link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex003"/></para>
+<note id="fs-id1167063960883" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067009996"><span>[BL]</span><span>[OL]</span>Ask students to identify as many examples as they can of curved mirrors that are used in everyday applications. Supply any they miss: security mirrors, mirrors for entering and exiting a driveway with poor visibility, rear-view mirrors, mirrors for application of cosmetics, and so on.</para>
+</note>
+
+<note id="fs-id1167067033236" class="watch-physics"><title>Parabolic Mirrors and Real Images</title>
+
+<para id="fs-id1167067106800">This video uses ray diagrams to show the special feature of parabolic mirrors that makes them ideal for either projecting light energy in parallel rays, with the source being at the focal point of the parabola, or for collecting at the focal point light energy from a distant source.</para><media id="fs-id1167063105353" alt="no alt text">
+<iframe width="660" height="371.4" src="https://www.openstax.org/l/28Parabolic"/>
+</media>
+
+<para id="fs-id1167063673591"><link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex004"/></para>
+
+<note id="fs-id1167067064650" class="os-teacher"><title>Teacher Support</title>
+<note id="eip-id1167067008746" class="teacher-demonstration"><para id="fs-id1167067258733">Have students use the demonstration in the video to construct a ray diagram that shows that rays from an object (upright arrow) placed at the focal point of a concave mirror emerge parallel to the central axis.</para>
+</note></note></note><para id="fs-id1167067106431">You should be able to notice everyday applications of curved mirrors. One common example is the use of security mirrors in stores, as shown in <link target-id="Figure_16_01_Convex_Example"/>.</para><figure id="Figure_16_01_Convex_Example">
+<media id="fs-id1167066793961" alt="The image shows a woman taking a picture in front of a convex mirror.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_16_01_Convex.jpg"/>
+</media>
+<caption>Security mirrors are convex, producing a smaller, upright image. Because the image is smaller, a larger area is imaged compared with what would be observed for a flat mirror; hence, security is improved. (credit: Laura D’Alessandro, Flickr)</caption>
+</figure>
+
+<para id="fs-id1167067049543">Some telescopes also use curved mirrors and no lenses (except in the eyepieces) both to magnify images and to change the path of light. <link target-id="Figure_16_01_Schmidt"/> shows a Schmidt-Cassegrain telescope. This design uses a spherical primary concave mirror and a convex secondary mirror. The image is projected onto the focal plane by light passing through the perforated primary mirror. The effective focal length of such a telescope is the focal length of the primary mirror multiplied by the magnification of the secondary mirror. The result is a telescope with a focal length much greater than the length of the telescope itself.</para>
+<figure id="Figure_16_01_Schmidt">
+<media id="fs-id1167067067990" alt="There is an eye to the right of the diagram. The eye represents the focal plane. Moving from right to left, in front of the eye, there is a perforated primary mirror and a secondary mirror. The end of the telescope is to the left of the figure. Rays enter the end of the telescoped, hit the primary mirror, bounce backward to the secondary mirror, bounce through the hole (perforation) in the primary mirror, and travel to the eye.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_16_01_Schmidt.jpg"/>
+</media>
+<caption>This diagram shows the design of a Schmidt–Cassegrain telescope.</caption>
+</figure>
+
+<para id="fs-id1167066866964">A parabolic concave mirror has the very useful property that all light from a distant source, on reflection by the mirror surface, is directed to the focal point. Likewise, a light source placed at the focal point directs all the light it emits in parallel lines away from the mirror. This case is illustrated by the ray diagram in <link target-id="Figure_16_01_Concave"/>. The light source in a car headlight, for example, is located at the focal point of a parabolic mirror.</para>
+
+<figure id="Figure_16_01_Concave">
+<media id="fs-id1167067257728" alt="This diagram shows a car headlight, also called a spotlight, which has a light bulb surrounded by a parabolic mirror. The mirror is bowl shaped, with the bulb sitting at the center of recessed side of the bowl. Arrows show that light rays from the bulb extend out in all directions and then bounce off of the mirror so that all of the light rays travel straight out from the headlight">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_16_01_Concave.jpg"/>
+</media>
+<caption>The bulb in this ray diagram of a car headlight is located at the focal point of a parabolic mirror.</caption>
+</figure>
+
+<para id="fs-id1167063459271">Parabolic mirrors are also used to collect sunlight and direct it to a focal point, where it is transformed into heat, which in turn can be used to generate electricity. This application is shown in <link target-id="Figure_16_01_Concave2"/>.</para>
+
+
+<figure id="Figure_16_01_Concave2">
+<media id="fs-id1167067139106" alt="This photo depicts a long length of parabolic trough deflectors angled toward the sun.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_16_01_Concave2.jpg"/>
+</media>
+<caption>Parabolic trough collectors are used to generate electricity in southern California. (credit: kjkolb, Wikimedia Commons)</caption>
+</figure>
+</section><section id="fs-id1167067070336">
+<title>The Application of the Curved Mirror Equations</title>
+<note id="fs-id1167067139832" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167063912069"><span>[BL]</span><span>[OL]</span>Review operations for manipulating fractions and for rearranging equations involving fractional values of variables.</para>
+<para id="fs-id1167067106376"><span>[AL]</span>Demonstrate how to solve equations of the type  <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mi>a</m:mi>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mi>b</m:mi>
+  </m:mfrac>
+  <m:mo>+</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mi>c</m:mi>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>  for any of the variables in terms of the other two. Rearrange so that the variable solved for is not a reciprocal.</para>
+</note>
+
+<para id="fs-id1167067072357">Curved mirrors and the images they create involve a fairly small number of variables: the mirror’s radius of curvature, <emphasis effect="italics">R</emphasis>; the focal length, <emphasis effect="italics">f</emphasis>; the distances of the object and image from the mirror, <emphasis effect="italics">d<sub>o</sub></emphasis> and <emphasis effect="italics">d<sub>i</sub></emphasis>, respectively; and the heights of the object and image, <emphasis effect="italics">h<sub>o</sub></emphasis> and <emphasis effect="italics">h<sub>i</sub></emphasis>, respectively. The signs of these values indicate whether the image is inverted, erect (upright), real, or virtual. We now look at the equations that relate these variables and apply them to everyday problems.</para>
+<para id="fs-id1167067123867"><link target-id="Figure_16_01_Ray2"/> shows the meanings of most of the variables we will use for calculations involving curved mirrors.</para>
+
+<figure id="Figure_16_01_Ray2"><media id="fs-id1167066822035" alt="This figure shows an old-fashioned key inside the focal point of a concave mirror. All the variables used for calculations involving curved mirrors depicted.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_16_01_Ray2.jpg"/>
+</media>
+
+<caption>Look for the variables, <emphasis effect="italics">d<sub>o</sub>, d<sub>i</sub>, h<sub>o</sub>, h<sub>i</sub>,</emphasis> and <emphasis effect="italics">f</emphasis> in this figure.</caption></figure>
+
+<para id="fs-id1167066869482">The basic equation that describes both lenses and mirrors is the lens/mirror equation</para>
+<equation id="fs-id1167067144771" class="unnumbered">
+<label/>
+ <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mi>f</m:mi>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:msub>
+     <m:mi>d</m:mi>
+     <m:mi>i</m:mi>
+    </m:msub>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>+</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:msub>
+     <m:mi>d</m:mi>
+     <m:mi>o</m:mi>
+    </m:msub>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1167063733934">This equation can be rearranged several ways. For example, it may be written to solve for focal length.</para>
+<equation id="fs-id1167066835708" class="unnumbered">
+<label/>
+ <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msub>
+     <m:mi>d</m:mi>
+     <m:mi>i</m:mi>
+    </m:msub>
+    <m:msub>
+     <m:mi>d</m:mi>
+     <m:mi>o</m:mi>
+    </m:msub>
+
+   </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mi>d</m:mi>
+     <m:mi>o</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo><m:msub>
+     <m:mi>d</m:mi>
+     <m:mi>i</m:mi>
+    </m:msub>
+
+   </m:mrow>
+  </m:mfrac>
+   </m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1167067266273">Magnification, <emphasis effect="italics">m</emphasis>, is the ratio of the size of the image, <emphasis effect="italics">h<sub>i</sub></emphasis>, to the size of the object, <emphasis effect="italics">h<sub>o</sub></emphasis>. The value of <emphasis effect="italics">m</emphasis> can be calculated in two ways.</para>
+
+<equation id="fs-id1167066875321" class="unnumbered">
+<label/>
+ <m:math>
+ <m:mrow>
+  <m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msub>
+     <m:mi>h</m:mi>
+     <m:mi>i</m:mi>
+    </m:msub>
+
+   </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mi>h</m:mi>
+     <m:mi>o</m:mi>
+    </m:msub>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mo>−</m:mo><m:msub>
+     <m:mi>d</m:mi>
+     <m:mi>i</m:mi>
+    </m:msub>
+
+   </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mi>d</m:mi>
+     <m:mi>o</m:mi>
+    </m:msub>
+
+   </m:mrow>
+  </m:mfrac>
+   </m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1167063513588">This relationship can be written to solve for any of the variables involved. For example, the height of the image is given by</para>
+<equation id="fs-id1167067139603" class="unnumbered">
+<label/>
+ <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>h</m:mi>
+   <m:mi>i</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mo>−</m:mo><m:msub>
+   <m:mi>h</m:mi>
+   <m:mi>o</m:mi>
+  </m:msub>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:msub>
+       <m:mi>d</m:mi>
+       <m:mi>i</m:mi>
+      </m:msub>
+
+     </m:mrow>
+     <m:mrow>
+      <m:msub>
+       <m:mi>d</m:mi>
+       <m:mi>o</m:mi>
+      </m:msub>
+
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1167063895685">We saved the simplest equation for last. The radius of curvature of a curved mirror, <emphasis effect="italics">R</emphasis>, is simply twice the focal length.</para>
+<equation id="fs-id1167067012638" class="unnumbered">
+<label/>
+ <m:math>
+ <m:mrow>
+  <m:mi>R</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>f</m:mi>
+ </m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1167063556478">We can learn important information from the algebraic sign of the result of a calculation using the previous equations:</para>
+<list id="fs-id1167063779687">
+<item>A negative <emphasis effect="italics">d<sub>i</sub></emphasis> indicates a virtual image; a positive value indicates a real image</item>
+<item>A negative <emphasis effect="italics">h<sub>i</sub></emphasis> indicates an inverted image; a positive value indicates an erect image</item>
+<item>For concave mirrors, <emphasis effect="italics">f</emphasis> is positive; for convex mirrors, <emphasis effect="italics">f</emphasis> is negative</item>
+</list>
+<para id="fs-id1167063957934">Now let’s apply these equations to solve some problems.</para>
+
+<note id="Worked_Example_16_01" class="worked-example"><title>Calculating Focal Length</title>
+
+<exercise id="fs-id1167066145799" class="16-ex005 unnumbered">
+<label/>
+<problem id="fs-id1167064721662">
+<para id="fs-id1167066165774">A person standing 6.0 m from a convex security mirror forms a virtual image that appears to be 1.0 m behind the mirror. What is the focal length of the mirror?</para>
+
+<note id="fs-id1167064900429">
+<label/><title>Strategy</title>
+
+<para id="fs-id1167062863542">The person is the object, so <emphasis effect="italics">d<sub>o</sub></emphasis> = 6.0 m. We know that, for this situation, <emphasis effect="italics">d<sub>o</sub></emphasis> is positive. The image is virtual, so the value for the image distance is negative, so <emphasis effect="italics">d<sub>i</sub></emphasis> = –1.0 m.</para>
+<para id="fs-id1167064757836">Now, use the appropriate version of the lens/mirror equation to solve for focal length by substituting the known values.</para>
+</note></problem>
+
+<solution id="fs-id1167063178185">
+<label/>
+<title>Solution</title>
+<para id="fs-id1167066026887"> <m:math display="block">
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msub>
+     <m:mi>d</m:mi>
+     <m:mi>i</m:mi>
+    </m:msub>
+    <m:msub>
+     <m:mi>d</m:mi>
+     <m:mi>o</m:mi>
+    </m:msub>
+
+   </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mi>d</m:mi>
+     <m:mi>o</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo><m:msub>
+     <m:mi>d</m:mi>
+     <m:mi>i</m:mi>
+    </m:msub>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>1.0</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>6.0</m:mn><m:mo stretchy="false">)</m:mo>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>6.0</m:mn><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>1.0</m:mn><m:mo stretchy="false">)</m:mo>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>6.0</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>5.0</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mo>−</m:mo><m:mn>1.2</m:mn><m:mspace width="0.3em"/><m:mtext> m</m:mtext>
+ </m:mrow>
+</m:math>
+</para>
+</solution>
+
+<commentary id="fs-id1167066177108">
+<title>Discussion</title>
+<para id="fs-id1167065775517">The negative result is expected for a convex mirror. This indicates the focal point is behind the mirror.</para>
+</commentary>
+</exercise>
+</note><note id="Worked_Example_16_02" class="worked-example"><title>Calculating Object Distance</title>
+<exercise id="fs-id1167064573288" class="16-ex006 unnumbered">
+<label/>
+<problem id="fs-id1167064873230">
+<para id="fs-id1167065722577">Electric room heaters use a concave mirror to reflect infrared (IR) radiation from hot coils. Note that IR radiation follows the same law of reflection as visible light. Given that the mirror has a radius of curvature of 50.0 cm and produces an image of the coils 3.00 m in front of the mirror, where are the coils with respect to the mirror?</para>
+
+<note id="fs-id1167064872518"><label/><title>Strategy</title>
+
+<para id="fs-id1167064706376">We are told that the concave mirror projects a real image of the coils at an image distance <emphasis effect="italics">d<sub>i</sub></emphasis> = 3.00 m. The coils are the object, and we are asked to find their location—that is, to find the object distance <emphasis effect="italics">d</emphasis><sub>o</sub>. We are also given the radius of curvature of the mirror, so that its focal length is <emphasis effect="italics">f </emphasis>= <emphasis effect="italics">R</emphasis>/2 = 25.0 cm (a positive value, because the mirror is concave, or converging). We can use the lens/mirror equation to solve this problem.</para>
+</note></problem>
+
+<solution id="fs-id1167066139932">
+<label/>
+<title>Solution</title>
+<para id="fs-id1167065926840">Because <emphasis effect="italics">d<sub>i</sub></emphasis> and <emphasis effect="italics">f </emphasis>are known, the lens/mirror equation can be used to find <emphasis effect="italics">d</emphasis><sub>o</sub>.</para>
+<equation id="fs-id1164566686499"> <m:math display="block">
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mi>f</m:mi>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:msub>
+     <m:mi>d</m:mi>
+     <m:mi>i</m:mi>
+    </m:msub>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>+</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:msub>
+     <m:mi>d</m:mi>
+     <m:mi>o</m:mi>
+    </m:msub>
+
+   </m:mrow>
+  </m:mfrac>
+   </m:mrow>
+</m:math>
+</equation>
+
+<para id="fs-id1167065960799">Rearranging to solve for <emphasis effect="italics">d<sub>o</sub></emphasis>, we have</para>
+<equation id="fs-id1164563103248"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>d</m:mi>
+   <m:mi>o</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msub>
+     <m:mi>d</m:mi>
+     <m:mi>i</m:mi>
+    </m:msub>
+    <m:mi>f</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mi>d</m:mi>
+     <m:mi>i</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo><m:mi>f</m:mi>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</equation>
+
+<para id="fs-id1167065795538">Entering the known quantities gives us</para>
+<equation id="fs-id1164562176961"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>d</m:mi>
+   <m:mi>o</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mo stretchy="false">(</m:mo><m:mn>3.00</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn>
+     </m:mrow>
+     <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>25.0</m:mn><m:mo stretchy="false">)</m:mo>
+   </m:mrow>
+   <m:mrow>
+    <m:mo stretchy="false">(</m:mo><m:mn>3.00</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn>
+     </m:mrow>
+     <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>25.0</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>27.3</m:mn><m:mspace width="0.3em"/><m:mtext> cm</m:mtext><m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math>
+</equation>
+</solution>
+
+<commentary id="fs-id1167064872119">
+<title>Discussion</title>
+<para id="fs-id1167065800917">Note that the object (the coil filament) is farther from the mirror than the mirror’s focal length. This is a <emphasis effect="italics">case 1</emphasis> image (<emphasis effect="italics">d</emphasis><sub>o</sub> &gt; <emphasis effect="italics">f </emphasis>and <emphasis effect="italics">f </emphasis>positive), consistent with the fact that a real image is formed. You get the most concentrated thermal energy directly in front of the mirror and 3.00 m away from it. In general, this is not desirable because it could cause burns. Usually, you want the rays to emerge parallel, and this is accomplished by having the filament at the focal point of the mirror.</para>
+<para id="fs-id1167065914668">Note that the filament here is not much farther from the mirror than the focal length, and that the image produced is considerably farther away.</para>
+</commentary>
+</exercise>
+</note>
+
+
+</section>
+
+
+<section id="fs-id1167062889758" class="practice-problems">
+<title>Practice Problems</title>
+<exercise id="fs-id1167065066856" class="os-exercise">
+<problem id="fs-id1167062385742">
+<para id="fs-id1167065866290"><link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex007"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167062379507">
+<problem id="fs-id1167064591094">
+<!--<para id="fs-id1167065977651"><link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex008"/></para>-->
+<para id="fs-id1164562233733">What is the focal length of a makeup mirror that produces a magnification of 1.50 when a person’s face is 12.0 cm away? Construct a ray diagram using paper, a pencil and a ruler to confirm your calculation.</para>
+<list id="fs-id1164564941050" list-type="enumerated" number-style="lower-alpha">
+<item>–36.0 cm</item>
+<item>–7.20 cm</item>
+<item>7.20 cm</item>
+<item>36.0 cm</item>
+</list>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167066015102" class="check-understanding"><title>Check Your Understanding</title><note id="fs-id1167065713623" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167064774265">Use these questions to assess student achievement of the section’s learning objectives. If students are struggling with a specific objective, these questions will help identify which one, and then you can direct students to the relevant content.</para>
+</note>
+<exercise id="fs-id1167062385114" class="os-exercise">
+<problem id="fs-id1167066137414">
+<!--<para id="fs-id1167065976292">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex009"/>
+</para>-->
+<para id="fs-id1169827689043">How does the object distance, d<sub>o</sub>, compare with the focal length, f, for a concave mirror that produces an image that is real and inverted?</para>
+<list id="fs-id1169828355027" list-type="enumerated" number-style="lower-alpha"><item>d<sub>o</sub> &gt; f, where d<sub>o</sub> and f are object distance and focal length, respectively.</item>
+<item>d<sub>o</sub> &lt; f, where d<sub>o</sub> and f are object distance and focal length, respectively.</item>
+<item>d<sub>o</sub> = f, where do and f are object distance and focal length, respectively.</item>
+<item>d<sub>o</sub> = 0, where do is the object distance.</item>
+</list></problem>
+</exercise>
+<exercise id="fs-id1167062957204" class="os-exercise">
+<problem id="fs-id1167064932070">
+<para id="fs-id1167064927881">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex010"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166851119906" class="os-exercise">
+<problem id="eip-id1166851119910">
+<para id="eip-id1166851379169">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ot005"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167066028058" class="summary">
+<title>Section Summary</title>
+<list id="fs-id1167064818568">
+<item>The angle of reflection equals the angle of incidence.</item>
+<item>Plane mirrors and convex mirrors reflect virtual, erect images. Concave mirrors reflect light to form real, inverted images or virtual, erect images, depending on the location of the object.</item>
+<item>Image distance, height, and other characteristics can be calculated using the lens/mirror equation and the magnification equation.</item>
+</list>
+</section>
+
+<section id="fs-id1167065071972" class="key-equations">
+<title>Key Equations</title>
+<table id="fs-id1167064867846" class="unnumbered unstyled" summary="Table with two columns and four rows. The top left cell reads “Lens/mirror equation (reciprocal version),” with the top right cell showing the equation for the reciprocal of focal length equal to the reciprocal of the image distance plus the reciprocal of the object distance. The second left cell reads “Lens/mirror equation (solved version),” with the right cell showing the equation for focal length as the product of image and object distances divided by the sum of these two variables. The third left cell reads “Magnification equation,” with the right cell showing the magnification equal to image height to object height, or the negative ratio of image distance to object distance. The bottom left cell reads “Radius/focal length equation,” with the bottom right cell showing the equation for radius of curvature equal to twice the focal length.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry>lens/mirror equation (reciprocal version)</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mi>f</m:mi>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:msub>
+     <m:mi>d</m:mi>
+     <m:mi>i</m:mi>
+    </m:msub>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>+</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:msub>
+     <m:mi>d</m:mi>
+     <m:mi>o</m:mi>
+    </m:msub>
+
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </entry>
+</row>
+<row>
+<entry>lens/mirror equation (solved version)</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msub>
+     <m:mi>d</m:mi>
+     <m:mi>i</m:mi>
+    </m:msub>
+    <m:msub>
+     <m:mi>d</m:mi>
+     <m:mi>o</m:mi>
+    </m:msub>
+
+   </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mi>d</m:mi>
+     <m:mi>o</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo><m:msub>
+     <m:mi>d</m:mi>
+     <m:mi>i</m:mi>
+    </m:msub>
+
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </entry>
+</row>
+<row>
+<entry>magnification equation</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msub>
+     <m:mi>h</m:mi>
+     <m:mi>i</m:mi>
+    </m:msub>
+
+   </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mi>h</m:mi>
+     <m:mi>o</m:mi>
+    </m:msub>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mo>−</m:mo><m:msub>
+     <m:mi>d</m:mi>
+     <m:mi>i</m:mi>
+    </m:msub>
+
+   </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mi>d</m:mi>
+     <m:mi>o</m:mi>
+    </m:msub>
+
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </entry>
+</row>
+<row>
+<entry>radius/focal length equation</entry>
+<entry><emphasis effect="italics">R</emphasis> = 2<emphasis effect="italics">f</emphasis></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+
+<section id="fs-id1167064848388" class="concept"><title>Concept Items</title><exercise id="fs-id1167065736270" class="os-exercise">
+<problem id="fs-id1167064901605">
+<!--<para id="fs-id1167065859908">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex011"/>
+</para>-->
+<para id="fs-id1169832031297">Part A. Can you see a virtual image? Part B. Can you photograph one? Explain your answers.</para>
+<list id="fs-id1169828329257" list-type="enumerated" number-style="lower-alpha">
+<item>A. yes; B. No, an image from a flat mirror cannot be photographed.</item>
+<item>A. no; B. Yes, an image from a flat mirror can be photographed.</item>
+<item>A. yes; B. Yes, an image from a flat mirror can be photographed.</item>
+<item>A. no; B. No, an image from a flat mirror cannot be photographed.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-id1166851181863" class="os-exercise"><problem id="eip-id1166851181867">
+<para id="eip-idm508303888">State the law of reflection.</para>
+
+<list id="eip-idm247036448" list-type="enumerated" number-style="lower-alpha"><item>
+ <m:math><m:msub><m:mi>ϑ</m:mi><m:mi>r</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>ϑ</m:mi><m:mi>i</m:mi></m:msub></m:math>, where  <m:math><m:msub><m:mi>ϑ</m:mi><m:mi>r</m:mi></m:msub></m:math>  is the angle of reflection and  <m:math><m:msub><m:mi>ϑ</m:mi><m:mi>i</m:mi></m:msub></m:math>  is the angle of incidence.
+</item>
+<item>
+ <m:math><m:msub><m:mi>ϑ</m:mi><m:mi>r</m:mi></m:msub><m:mo>&gt;</m:mo><m:msub><m:mi>ϑ</m:mi><m:mi>i</m:mi></m:msub></m:math>, where  <m:math><m:msub><m:mi>ϑ</m:mi><m:mi>r</m:mi></m:msub></m:math>  is the angle of reflection and  <m:math><m:msub><m:mi>ϑ</m:mi><m:mi>i</m:mi></m:msub></m:math>  is the angle of incidence.
+</item>
+<item>
+ <m:math><m:msub><m:mi>ϑ</m:mi><m:mi>r</m:mi></m:msub><m:mo>&lt;</m:mo><m:msub><m:mi>ϑ</m:mi><m:mi>i</m:mi></m:msub></m:math>, where  <m:math><m:msub><m:mi>ϑ</m:mi><m:mi>r</m:mi></m:msub></m:math>  is the angle of reflection and  <m:math><m:msub><m:mi>ϑ</m:mi><m:mi>i</m:mi></m:msub></m:math>  is the angle of incidence.
+</item>
+<item>
+ <m:math><m:msub><m:mi>ϑ</m:mi><m:mi>r</m:mi></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:math>, where  <m:math><m:msub><m:mi>ϑ</m:mi><m:mi>r</m:mi></m:msub></m:math>  is the angle of reflection.
+</item></list></problem>
+</exercise></section><section id="fs-id1167065937563" class="critical-thinking">
+<title>Critical Thinking</title>
+<exercise id="fs-id1167064541361" class="os-exercise">
+<problem id="fs-id1167065702567">
+<para id="fs-id1167065842854">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex012"/>
+</para>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167065913023" class="problems">
+<title>Problems</title>
+<exercise id="fs-id1167064872659" class="os-exercise">
+<problem id="fs-id1167065765673">
+<!--<para id="fs-id1167065868367">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex013"/>
+</para>-->
+<para id="fs-id1164564910363">Some telephoto cameras use a mirror rather than a lens. What radius of curvature is needed for a concave mirror to replace a 0.800 -m focal-length telephoto lens?</para>
+<list id="fs-id1164562434455" list-type="enumerated" number-style="lower-alpha">
+<item>0.400 m</item>
+<item>1.60 m</item>
+<item>4.00 m</item>
+<item>16.0 m</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167065946680" class="os-exercise">
+<problem id="fs-id1167062550878">
+<!--<para id="fs-id1167065028440">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex014"/>
+</para>-->
+<para id="fs-id1164564851039">What is the focal length of a makeup mirror that produces a magnification of 2.00 when a person’s face is 8.00 cm away?</para><list id="fs-id1164566829541" list-type="enumerated" number-style="lower-alpha">
+<item>–16 cm</item>
+<item>–5.3 cm</item>
+<item>5.3 cm</item>
+<item>16 cm</item>
+</list>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167065914659" class="multiple-choice"><title>Test Prep Multiple Choice</title><exercise id="fs-id1167065787755" class="os-exercise">
+<problem id="fs-id1167066105849">
+<!--<para id="fs-id1167066164673"><link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex015"/>
+</para>-->
+<para id="fs-id1169831818683">In geometric optics, a straight line emerging from a point is called a (an) ________.</para>
+<list id="fs-id1169831729135" list-type="enumerated" number-style="lower-alpha">
+<item>ray</item>
+<item>focal point</item>
+<item>image</item>
+<item>object distance</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167064645926" class="os-exercise">
+<problem id="fs-id1167066103167">
+<!--<para id="fs-id1167066042037"><link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex016"/>
+</para>-->
+<para id="fs-id1164562063150">An image of a 2.0 -cm object reflected from a mirror is 5.0 cm tall. What is the magnification of the mirror?</para>
+<list id="fs-id1164564967088" list-type="enumerated" number-style="lower-alpha">
+<item>0.4</item>
+<item>2.5</item>
+<item>3</item>
+<item>10</item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-id1166848716442" class="os-exercise">
+<problem id="eip-id1166848716446">
+<!--<para id="eip-id1166848899366">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ot009"/>
+</para>-->
+<para id="fs-id1169828315725">Can a virtual image be projected onto a screen with additional lenses or mirrors? Explain your answer.</para>
+<list id="fs-id1169831734521" list-type="enumerated" number-style="lower-alpha">
+<item>Yes, the rays actually meet behind the lens or mirror.</item>
+<item>No, the image is formed by rays that converge to a point in front of the mirror or lens.</item>
+<item>Yes, any image that can be seen can be manipulated so that it can be projected onto a screen.</item>
+<item>No, the image can only be perceived as being behind the lens or mirror.</item>
+</list>
+</problem>
+</exercise></section><section id="fs-id1167064709979" class="short-answer">
+<title>Test Prep Short Answer</title>
+<exercise id="fs-id1167065949667" class="os-exercise">
+<problem id="fs-id1167066055690">
+<!--<para id="fs-id1167065807731">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex017"/>
+</para>-->
+<para id="fs-id1164561136789">Distinguish between reflection and refraction in terms of how a light ray changes when it meets the interface between two media.</para>
+<list id="fs-id1164566527768" list-type="enumerated" number-style="lower-alpha">
+<item>Reflected light penetrates the surface whereas refracted light is <emphasis effect="italics">bent</emphasis> as it travels from one medium to the other.</item>
+<item>Reflected light penetrates the surface whereas refracted light travels along a curved path.</item>
+<item>Reflected light <emphasis effect="italics">bounces</emphasis> from the surface whereas refracted light travels along a curved path.</item>
+<item>Reflected light <emphasis effect="italics">bounces</emphasis> from the surface whereas refracted light is <emphasis effect="italics">bent</emphasis> as it travels from one medium to the other.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167065016153" class="os-exercise">
+<problem id="fs-id1167066170448">
+<para id="fs-id1167064896029">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex018"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065943512" class="os-exercise">
+<problem id="fs-id1167062410610">
+<!--<para id="fs-id1167065974374">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex019"/>
+</para>-->
+<para id="fs-id1169831843937">A concave mirror has a focal length of 5.00 cm. What is the image distance of an object placed 7.00 cm from the center of the mirror?</para>
+<list id="fs-id1169827534913" list-type="enumerated" number-style="lower-alpha">
+<item>−17.5 cm</item>
+<item>−2.92 cm</item>
+<item>2.92 cm</item>
+<item>17.5 cm</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167062461376" class="os-exercise">
+<problem id="fs-id1167062711929">
+<!--<para id="fs-id1167065837567">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex020"/>
+</para>-->
+<para id="fs-id1169831823471">An 8.0 -cm tall object is placed 6.0 cm from a concave mirror with a magnification of 2.0. What are the image height and the image distance?</para>
+<list id="fs-id1169831833943" list-type="enumerated" number-style="lower-alpha">
+<item>h<sub>i</sub> =  16 cm, d<sub>i</sub> =  12 cm</item>
+<item>h<sub>i</sub> =  16 cm, d<sub>i</sub> = 12 cm</item>
+<item>h<sub>i</sub> = 16 cm, d<sub>i</sub> =  12 cm</item>
+<item>h<sub>i</sub> = 16 cm, d<sub>i</sub> = 12 cm</item>
+</list>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167063102510" class="extended-response">
+<title>Test Prep Extended Response</title>
+<exercise id="fs-id1167065020746" class="os-exercise"><problem id="fs-id1167065895384">
+<para id="fs-id1167065733964">The diagram shows a lightbulb between two mirrors. One mirror produces a beam of light with parallel rays; the other keeps light from escaping without being put into the beam.</para>
+<media id="eip-idm520812096" alt="...">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_16_01_Curved3.jpg"/>
+</media>
+<para id="eip-idm514562208">Where is the light source in relation to the focal point or radius of
+curvature of each mirror? Explain your answer.</para>
+<list id="eip-idm485939120" list-type="enumerated" number-style="lower-alpha">
+<item>The bulb is at the center of curvature of the small mirror and at the focal point of the large mirror.</item>
+<item>The bulb is at the focal point of the small mirror and at the focal point of the large mirror.</item>
+<item>The bulb is at the center of curvature of the small mirror and at the center of curvature of the large mirror.</item>
+<item>The bulb is at the focal point of the small mirror and at the center of curvature of the large mirror.</item>
+</list>
+</problem>
+</exercise><exercise id="fs-id1167065893209" class="os-exercise">
+<problem id="fs-id1167062469237">
+<para id="fs-id1167064589321">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex022"/>
+</para>
+</problem>
+</exercise>
+</section>
+</content>
+
+<glossary>
+<definition id="fs-id1167064937556">
+<term>angle of incidence</term>
+<meaning id="fs-id1167065774466">the angle, with respect to the normal, at which a ray meets a boundary between media or a reflective surface</meaning>
+</definition>
+<definition id="fs-id1167065721947">
+<term>angle of reflection</term>
+<meaning id="fs-id1167064931964">the angle, with respect to the normal, at which a ray leaves a reflective surface</meaning>
+</definition>
+<definition id="fs-id1167066028241">
+<term>central axis</term>
+<meaning id="fs-id1167064909271">a line perpendicular to the center of a lens or mirror extending in both directions</meaning>
+</definition>
+<definition id="fs-id1167065848422">
+<term>concave mirror</term>
+<meaning id="fs-id1167062945369">a mirror with a reflective side that is curved inward</meaning>
+</definition>
+<definition id="fs-id1167062410424">
+<term>convex mirror</term>
+<meaning id="fs-id1167064877629">a mirror with a reflective side that is curved outward</meaning>
+</definition>
+<definition id="fs-id1167065070398">
+<term>focal length</term>
+<meaning id="fs-id1167064767228">the distance from the focal point to the mirror</meaning>
+</definition>
+<definition id="fs-id1167064876898">
+<term>focal point</term>
+<meaning id="fs-id1167064710095">the point at which rays converge or appear to converge</meaning>
+</definition>
+<definition id="fs-id1167066156504">
+<term>law of reflection</term>
+<meaning id="fs-id1167064894877">the law that indicates the angle of reflection equals the angle of incidence</meaning>
+</definition>
+<definition id="fs-id1167065809405">
+<term>law of refraction</term>
+<meaning id="fs-id1167066141881">the law that describes the relationship between refractive indices of materials on both sides of a boundary and the change in the path of light crossing the boundary, as given by the equation <emphasis effect="italics">n</emphasis><sub>1</sub> sin <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>θ</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+
+ </m:mrow>
+</m:math>
+= <emphasis effect="italics">n</emphasis><sub>2</sub> sin <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>θ</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+
+ </m:mrow>
+</m:math> </meaning>
+</definition>
+<definition id="fs-id1167066029340">
+<term>ray</term>
+<meaning id="fs-id1167066058077">light traveling in a straight line</meaning>
+</definition>
+<definition id="fs-id1167065023116">
+<term>real image</term>
+<meaning id="fs-id1167065747778">an optical image formed when light rays converge and pass through the image, producing an image that can be projected onto a screen</meaning>
+</definition>
+<definition id="fs-id1167065946906">
+<term>virtual image</term>
+<meaning id="fs-id1167064876968">the point from which light rays appear to diverge without actually doing so</meaning>
+</definition>
+</glossary>
+</document>

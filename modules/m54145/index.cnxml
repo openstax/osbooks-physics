@@ -1,0 +1,32 @@
+<document xmlns="http://cnx.rice.edu/cnxml" class="introduction">
+
+<title>Introduction</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54145</md:content-id>
+  <md:title>Introduction</md:title>
+  <md:abstract/>
+  <md:uuid>4f2d8d7a-4851-46bb-96ad-ddc8a6978092</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1164356014849" class="os-teacher">
+    <title>Teacher Support</title>
+    <para id="fs-id1164355670051">Physics learning objectives come from 112.39 (c) Knowledge and Skills</para>
+  </note>
+  <figure id="fs-id1164355676819" class="splash"><media id="fs-id1164355657079" alt="Billiard balls in two-dimensional motion after the initial shot.">
+      <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_05_00_pooltable.jpg"/>
+    </media>
+
+  <caption>Billiard balls on a pool table are in motion after being hit with a cue stick. (Popperipopp, Wikimedia Commons)</caption></figure>
+<note id="fs-id1164352257692" class="os-teacher">
+    <title>Teacher Support</title>
+    <para id="fs-id1164352263322">Point out to the students that most motion is in two or three dimensions and can be described in a similar fashion to one-dimensional motion. This chapter is about motion in two dimensions. Motion in two dimensions can be analyzed using vectors. We will first learn the practical skills of adding and subtracting vectors graphically (in drawings) and analytically (with math).  Once we’re able to work with two-dimensional vectors, we can then apply these skills to problems of projectile motion, inclined planes, and harmonic motion.</para></note>
+    <para id="fs-id1164355851122">In Chapter 2, we learned to distinguish between vectors and scalars; the difference being that a vector has magnitude and direction, whereas a scalar has only magnitude. We learned how to deal with vectors in physics by working straightforward one-dimensional vector problems, which may be treated mathematically in the same as scalars. In this chapter, we’ll use vectors to expand our understanding of forces and motion into two dimensions. Most real-world physics problems (such as with the game of pool pictured here) are, after all, either two- or three-dimensional problems and physics is most useful when applied to real physical scenarios. We start by learning the practical skills of graphically adding and subtracting vectors (by using drawings) and analytically (with math). Once we’re able to work with two-dimensional vectors, we apply these skills to problems of projectile motion, inclined planes, and harmonic motion. </para>
+
+  <note id="fs-id1164355924600" class="os-teacher">
+    <title>Teacher Support</title>
+    <para id="fs-id1164355722470">Before students begin this chapter, review the concepts of displacement, velocity, acceleration, vectors, representing vectors, free-body diagrams.</para>
+  </note>
+</content>
+
+</document>

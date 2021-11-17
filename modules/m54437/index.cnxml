@@ -1,0 +1,1269 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Ohm's law</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54437</md:content-id>
+  <md:title>Ohm's law</md:title>
+  <md:abstract/>
+  <md:uuid>2e9cd89d-9691-4a07-98dd-b79a2554625b</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167067086748" class="learning-objectives">
+<label/>
+<title>Section Learning Objectives</title>
+<para id="fs-id1167066784047">By the end of this section, you will be able to do the following:</para>
+<list id="fs-id1167063615492">
+<item>Describe how current is related to charge and time, and distinguish between direct current and alternating current</item>
+<item>Define resistance and verbally describe Ohm’s law</item>
+<item>Calculate current and solve problems involving Ohm’s law</item>
+</list>
+</note>
+
+<note id="fs-id1167067142550" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167064875156">The learning objectives in this section will help your students master the following standards:</para>
+<list id="fs-id1167066121652"><item>(5) Science concepts. The student knows the nature of forces in the physical world. The student is expected to:
+<list id="fs-id1167065860200"><item><span>(F)</span> <span>design, construct, and calculate in terms of current through, potential difference across, resistance of, and power used by electric circuit elements connected in both series and parallel combinations.</span></item>
+</list></item></list><para id="fs-id1169316480352">In addition, the High School Physics Laboratory Manual addresses content in this section in the lab titled Ohms law, as well as the following standards:</para><list id="fs-id1169316531950"><item>(5) The student knows the nature of forces in the physical world. The student is expected to:
+<list id="fs-id1169316151388">
+<item>
+<span>(F)</span>
+<span>design, construct, and calculate in terms of current through, potential difference across, resistance of, and power used by electric circuit elements connected in both series and parallel combinations.</span>
+</item>
+</list>
+</item>
+</list></note>
+<section id="keyterms"><title>Section Key Terms</title>
+<table id="fs-id1167067264705" class="unnumbered unstyled section-key-terms" summary="Section Key Terms is a three column table. The first row reads circuit diagram, electric circuit, equivalent resistance. The second row reads in series, resistor, steady state.">
+<label/>
+<tgroup cols="3">
+<tbody>
+<row>
+<entry>alternating current</entry>
+<entry>ampere</entry>
+<entry>conventional current</entry>
+<entry>direct current</entry>
+<entry>electric current</entry>
+
+</row>
+<row>
+<entry>nonohmic</entry>
+<entry>ohmic</entry>
+<entry>Ohm’s law</entry>
+<entry>resistance</entry>
+<entry/>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section><section id="fs-id1167067083893"><title>Direct and Alternating Current</title><para id="fs-id1167066999351">Just as water flows from high to low elevation, electrons that are free to move will travel from a place with low potential to a place with high potential. A battery has two terminals that are at different potentials. If the terminals are connected by a conducting wire, an electric current (charges) will flow, as shown in <link target-id="Figure_19_01_Battery"/>. Electrons will then move from the low-potential terminal of the battery (the <emphasis effect="italics">negative</emphasis> end) through the wire and enter the high-potential terminal of the battery (the <emphasis effect="italics">positive</emphasis> end).</para>
+
+
+<figure id="Figure_19_01_Battery">
+<media id="fs-id1167067275394" alt="Electrons move from the negative terminal to the positive terminal of a battery.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_19_01_battery.jpg"/></media>
+<caption>A battery has a wire connecting the positive and negative terminals, which allows electrons to move from the negative terminal to the positive terminal.</caption>
+</figure>
+
+<note id="fs-id1167063800869" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167061214698">Stress that electrons move from the negative terminal to the positive terminal because they carry negative charge, so they are repelled by the Coulomb force from the negative terminal.</para>
+</note>
+<para id="fs-id1167063426457"><term>Electric current</term> is the rate at which electric charge moves. A large current, such as that used to start a truck engine, moves a large amount very quickly, whereas a small current, such as that used to operate a hand-held calculator, moves a small amount of charge more slowly. In equation form, electric current <emphasis effect="italics">I</emphasis> is defined as</para>
+<equation id="eip-id1167065872404" class="unnumbered">
+<label/>
+ <m:math>
+ <m:mrow>
+  <m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>Δ</m:mi><m:mi>Q</m:mi></m:mrow>
+   <m:mrow>
+    <m:mi>Δ</m:mi><m:mi>t</m:mi></m:mrow>
+  </m:mfrac>
+  </m:mrow>
+</m:math> </equation>
+<para id="fs-id1167066810444">where  <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>Q</m:mi></m:mrow>
+</m:math>  is the amount of charge that flows past a given area and  <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>t</m:mi></m:mrow>
+</m:math>  is the time it takes for the charge to move past the area. The SI unit for electric current is the ampere (A), which is named in honor of the French physicist André-Marie Ampère (1775–1836). One <term>ampere</term> is one coulomb per second, or</para>
+<equation id="eip-id1167063539764" class="unnumbered"><label/>
+ <m:math>
+ <m:mrow>
+  <m:mn>1</m:mn><m:mspace width="0.3em"/><m:mtext>A</m:mtext><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.3em"/><m:mtext>C/s.</m:mtext></m:mrow>
+</m:math> </equation><para id="fs-id1167067202833">Electric current moving through a wire is in many ways similar to water current moving through a pipe. To define the flow of water through a pipe, we can count the water molecules that flow past a given section of the pipe. As shown in <link target-id="Figure_19_01_Microcur"/>, electric current is very similar. We count the number of electrical charges that flow past a section of a conductor; in this case, a wire.</para>
+
+<figure id="Figure_19_01_Microcur">
+<media id="fs-id1167063690432" alt="Positive charges move through a section of wire of cross-section A."><image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_19_01_microcur.jpg"/></media>
+<caption>The electric current moving through this wire is the charge that moves past the cross-section A divided by the time it takes for this charge to move past the section <emphasis effect="italics">A</emphasis>.</caption>
+</figure>
+
+<note id="fs-id1167067175228" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067066496">Point out that the charge carriers in this sketch are positive, so they move in the same direction as the electric current.</para>
+</note>
+
+<para id="fs-id1167067208157">Assume each particle <emphasis effect="italics">q</emphasis> in <link target-id="Figure_19_01_Microcur"/> carries a charge  <m:math>
+ <m:mrow>
+  <m:mi>q</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.3em"/><m:mtext>nC</m:mtext></m:mrow>
+</m:math>, in which case the total charge shown would be  <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>Q</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mi>q</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mspace width="0.3em"/><m:mtext>nC</m:mtext></m:mrow>
+</m:math> . If these charges move past the area <emphasis effect="italics">A</emphasis> in a time  <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.3em"/><m:mtext>ns</m:mtext></m:mrow>
+</m:math>, then the current would be</para>
+<equation id="fs-id1164564984910"> <m:math display="block">
+ <m:mrow>
+  <m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>Δ</m:mi><m:mi>Q</m:mi></m:mrow>
+   <m:mrow>
+    <m:mi>Δ</m:mi><m:mi>t</m:mi></m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>5</m:mn><m:mspace width="0.3em"/><m:mtext>nC</m:mtext></m:mrow>
+   <m:mrow>
+    <m:mn>1</m:mn><m:mspace width="0.3em"/><m:mtext>ns</m:mtext></m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>5</m:mn><m:mspace width="0.3em"/><m:mtext>A.</m:mtext></m:mrow>
+</m:math> </equation>
+
+<para id="fs-id1167063496431">Note that we assigned a positive charge to the charges in <link target-id="Figure_19_01_Microcur"/>. Normally, negative charges—electrons—are the mobile charge in wires, as indicated in <link target-id="Figure_19_01_Battery"/>. Positive charges are normally stuck in place in solids and cannot move freely. However, because a positive current moving to the right is the same as a negative current of equal magnitude moving to the left, as shown in <link target-id="Figure_19_01_Equivcur"/>, we define <term>conventional current</term> to flow in the direction that a positive charge would flow if it could move. Thus, unless otherwise specified, an electric current is assumed to be composed of positive charges.</para>
+
+<para id="fs-id1167063684359">Also note that one Coulomb is a significant amount of electric charge, so 5 A is a very large current. Most often you will see current on the order of milliamperes (mA).</para>
+
+<figure id="Figure_19_01_Equivcur">
+<media id="fs-id1167067107448" alt="In part (a), positive charges move in the same direction as the current and electric field. In part (b), negative charges move against the direction of the current and electric field.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_19_01_equivcur.jpg"/></media>
+<caption>(a) The electric field points to the right, the current moves to the right, and positive charges move to the right. (b) The equivalent situation but with negative charges moving to the left. The electric field and the current are still to the right.</caption></figure>
+
+<note id="fs-id1167066973415" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167063642435">Point out that the electric field is the same in both cases, and that the current is in the direction of the electric field.</para>
+<note id="fs-id1167066958890" class="misconception">
+
+<para id="fs-id1167063644528">Make sure that students understand that current is <emphasis effect="italics">defined</emphasis> as the direction in which positive charge would flow, even if electrons are most often the mobile charge carriers. Mathematically, the result is the same whether we assume positive charge flowing one way or negative charge flowing the opposite way. Physically, however, the situation is quite different (although the difference is reduced once holes are defined).</para>
+</note>
+</note>
+
+<note id="fs-id1167065943303" class="snap-lab">
+
+<title>Vegetable Current</title>
+<para id="fs-id1167063790414">This lab helps students understand how current works. Given that particles confined in a pipe cannot occupy the same space, pushing more particles into one end of the pipe will force the same number of particles out of the opposite end. This creates a current of particles.</para>
+<para id="fs-id1167067289732">Find a straw and dried peas that can move freely in the straw. Place the straw flat on a table and fill the straw with peas. When you push one pea in at one end, a different pea should come out of the other end. This demonstration is a model for an electric current. Identify the part of the model that represents electrons and the part of the model that represents the supply of electrical energy. For a period of 30 s, count the number of peas you can push through the straw. When finished, calculate the <emphasis effect="italics">pea current</emphasis> by dividing the number of peas by the time in seconds.</para>
+<para id="fs-id1167065946327">Note that the flow of peas is based on the peas physically bumping into each other; electrons push each other along due to mutually repulsive electrostatic forces.</para>
+
+<exercise id="fs-id1167067195453" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167066835193">
+<para id="fs-id1167063564161">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex001"/>
+</para>
+</problem>
+</exercise>
+</note>
+
+<para id="fs-id1167067098733">The direction of conventional current <emphasis effect="italics">is the direction that positive charge would flow</emphasis>. Depending on the situation, positive charges, negative charges, or both may move. In metal wires, as we have seen, current is carried by electrons, so the negative charges move. In ionic solutions, such as salt water, both positively charged and negatively charged ions move. This is also true in nerve cells. Pure positive currents are relatively rare but do occur. History credits American politician and scientist Benjamin Franklin with describing current as the direction that positive charges flow through a wire. He named the type of charge associated with electrons negative long before they were known to carry current in so many situations.</para>
+<para id="fs-id1167061447000">As electrons move through a metal wire, they encounter obstacles such as other electrons, atoms, impurities, etc. The electrons scatter from these obstacles, as depicted in <link target-id="Figure_19_01_Escatter"/>. Normally, the electrons lose energy with each interaction. <footnote id="fs-id1167063699162">This energy is transferred to the wire and becomes thermal energy, which is what makes wires hot when they carry a lot of current.</footnote> To keep the electrons moving thus requires a force, which is supplied by an electric field. The electric field in a wire points from the end of the wire at the higher potential to the end of the wire at the lower potential. Electrons, carrying a negative charge, move on average (or <emphasis effect="italics">drift</emphasis>) in the direction opposite the electric field, as shown in <link target-id="Figure_19_01_Escatter"/>.</para>
+
+<figure id="Figure_19_01_Escatter">
+<media id="fs-id1167067056556" alt="The random path and collisions of an electron moving in an electrical conductor opposite the current and electric field.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_19_01_escatter.jpg"/></media>
+
+<caption>Free electrons moving in a conductor make many collisions with other electrons and atoms. The path of one electron is shown. The average velocity of free electrons is in the direction opposite to the electric field. The collisions normally transfer energy to the conductor, so a constant supply of energy is required to maintain a steady current.</caption></figure>
+
+<para id="fs-id1167067145675">So far, we have discussed current that moves constantly in a single direction. This is called <term>direct current</term>, because the electric charge flows in only one direction. Direct current is often called <emphasis effect="italics">DC</emphasis> current.</para>
+<para id="fs-id1167066808582">Many sources of electrical power, such as the hydroelectric dam shown at the beginning of this chapter, produce <term>alternating current</term>, in which the current direction alternates back and forth. Alternating current is often called <emphasis effect="italics">AC current</emphasis>. Alternating current moves back and forth at regular time intervals, as shown in <link target-id="Figure_19_01_AC_current"/>. The alternating current that comes from a normal wall socket does not suddenly switch directions. Rather, it increases smoothly up to a maximum current and then smoothly decreases back to zero. It then grows again, but in the opposite direction until it has reached the same maximum value. After that, it decreases smoothly back to zero, and the cycle starts over again.</para>
+
+<figure id="Figure_19_01_AC_current">
+<media id="fs-id1167066804876" alt="A graph showing alternating current in which the current increases and decreases at regular intervals, and the direction of the current changing from one direction to another (arrows pointing left or right)">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_19_01_accurrent.jpg"/></media>
+
+<caption>With alternating current, the direction of the current reverses at regular time intervals. The graph on the top shows the current versus time. The negative maxima correspond to the current moving to the left. The positive maxima correspond to current moving to the right. The current alternates regularly and smoothly between these two maxima.</caption></figure>
+
+<note id="fs-id1167066993706" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067216848">Help students interpret the graph, emphasizing that the current does not change direction instantaneously but instead smoothly transitions from one maximum to the opposite maximum and back. Explain that the four images at the bottom show the current at the respective maxima. Note that, to simplify the interpretation, the mobile carriers in the image are taken to be positive.</para>
+</note>
+
+<para id="fs-id1167063577907">Devices that use AC include vacuum cleaners, fans, power tools, hair dryers, and countless others. These devices obtain the power they require when you plug them into a wall socket. The wall socket is connected to the power grid that provides an alternating potential (AC potential). When your device is plugged in, the AC potential pushes charges back and forth in the circuit of the device, creating an alternating current.</para>
+<para id="fs-id1167067208639">Many devices, however, use DC, such as computers, cell phones, flashlights, and cars. One source of DC is a battery, which provides a constant potential (DC potential) between its terminals. With your device connected to a battery, the DC potential pushes charge in one direction through the circuit of your device, creating a DC current. Another way to produce DC current is by using a transformer, which converts AC potential to DC potential. Small transformers that you can plug into a wall socket are used to charge up your laptop, cell phone, or other electronic device. People generally call this a <emphasis effect="italics">charger</emphasis> or a <emphasis effect="italics">battery</emphasis>, but it is a transformer that transforms AC voltage into DC voltage. The next time someone asks to borrow your laptop charger, tell them that you don’t have a laptop charger, but that they may borrow your converter.</para>
+
+<note id="Worked_Example_19_01_01" class="worked-example"><title>Current in a Lightning Strike</title>
+<exercise id="fs-id1167067143955" class="19-ex002 unnumbered">
+<label/>
+<problem id="fs-id1167061305995">
+<para id="fs-id1167061331199">A lightning strike can transfer as many as  <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>20</m:mn>
+   </m:mrow>
+  </m:msup>
+
+ </m:mrow>
+</m:math>  electrons from the cloud to the ground. If the strike lasts 2 ms, what is the average electric current in the lightning?</para>
+
+<note id="fs-id1167067167333">
+<label/><title>Strategy</title>
+<para id="fs-id1167067106430">Use the definition of current,  <m:math>
+ <m:mrow>
+  <m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>Δ</m:mi><m:mi>Q</m:mi></m:mrow>
+   <m:mrow>
+    <m:mi>Δ</m:mi><m:mi>t</m:mi></m:mrow>
+  </m:mfrac>
+  </m:mrow>
+</m:math> . The charge  <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>Q</m:mi></m:mrow>
+</m:math>
+ from  <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>20</m:mn>
+   </m:mrow>
+  </m:msup>
+
+ </m:mrow>
+</m:math>  electrons is  <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>e</m:mi></m:mrow>
+</m:math>, where  <m:math>
+ <m:mrow>
+  <m:mi>n</m:mi><m:mo>=</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>20</m:mn></m:mrow>
+  </m:msup>
+  </m:mrow>
+</m:math>  is the number of electrons and  <m:math>
+ <m:mrow>
+  <m:mi>e</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>1.60</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>19</m:mn></m:mrow>
+  </m:msup>
+  <m:mtext>C</m:mtext></m:mrow>
+</m:math>  is the charge on the electron. This gives</para>
+<equation id="fs-id1164562409817"> <m:math display="block">
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>Q</m:mi><m:mo>=</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>20</m:mn></m:mrow>
+  </m:msup>
+  <m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>−1.60</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn></m:mrow>
+     <m:mrow>
+      <m:mn>−19</m:mn></m:mrow>
+    </m:msup>
+    <m:mtext>C</m:mtext></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−16.0</m:mn><m:mspace width="0.3em"/><m:mtext>C.</m:mtext></m:mrow>
+</m:math> </equation>
+<para id="fs-id1167063922870">The time  <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mrow>
+    <m:mn>−3</m:mn></m:mrow>
+  </m:msup>
+  <m:mtext>s</m:mtext></m:mrow>
+</m:math>  is the duration of the lightning strike.</para>
+</note>
+</problem>
+
+<solution id="fs-id1167063470051">
+<label/>
+<title>Solution</title>
+<para id="fs-id1167067061187">The current in the lightning strike is</para>
+<equation id="fs-id1164562205636"> <m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mi>I</m:mi>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mi>Δ</m:mi><m:mi>Q</m:mi>
+       </m:mrow>
+       <m:mrow>
+        <m:mi>Δ</m:mi><m:mi>t</m:mi>
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mn>−16.0</m:mn><m:mspace width="0.3em"/><m:mtext>C</m:mtext>
+       </m:mrow>
+       <m:mrow>
+        <m:mn>2</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+         <m:mrow>
+          <m:mn>10</m:mn>
+         </m:mrow>
+         <m:mrow>
+          <m:mn>−3</m:mn>
+         </m:mrow>
+        </m:msup>
+        <m:mtext>s</m:mtext>
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>−8</m:mn><m:mspace width="0.3em"/><m:mtext>kA.</m:mtext>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+</equation></solution>
+
+<commentary id="fs-id1167067100873">
+<para id="fs-id1167067025377"><emphasis>Discussion</emphasis></para>
+<para id="fs-id1167066958821">The negative sign reflects the fact that electrons carry the negative charge. Thus, although the electrons flow from the cloud to the ground, the positive current is defined to flow from the ground to the cloud.</para>
+</commentary>
+</exercise>
+</note><note id="Worked_Example_19_01_02" class="worked-example"><title>Average Current to Charge a Capacitor</title>
+
+<exercise id="fs-id1167067013559" class="19-ex003 unnumbered">
+<label/>
+<problem id="fs-id1167063822446">
+<para id="fs-id1167067284342">In a circuit containing a capacitor and a resistor, it takes 1 min to charge a 16 μF capacitor by using a 9-V battery. What is the average current during this time?</para>
+
+<note id="fs-id1167066773957">
+<label/><title>Strategy</title>
+<para id="fs-id1167063536881">We can determine the charge on the capacitor by using the definition of capacitance:  <m:math>
+ <m:mrow>
+  <m:mi>C</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mi>Q</m:mi>
+   <m:mi>V</m:mi>
+  </m:mfrac>
+  </m:mrow>
+</m:math> . When the capacitor is charged by a 9-V battery, the voltage across the capacitor will be  <m:math>
+ <m:mrow>
+  <m:mi>V</m:mi><m:mo>=</m:mo><m:mn>9</m:mn><m:mspace width="0.3em"/><m:mtext>V</m:mtext></m:mrow>
+</m:math> . This gives a charge of</para>
+<equation id="fs-id1164562302044"> <m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr>
+    <m:mtd columnalign="right">
+     <m:mi>C</m:mi>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mi>Q</m:mi>
+       <m:mi>V</m:mi>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="right">
+     <m:mi>Q</m:mi>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mi>C</m:mi><m:mi>V</m:mi><m:mtext>.</m:mtext></m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable></m:mrow>
+</m:math> </equation>
+<para id="fs-id1167063634505">By inserting this expression for charge into the equation for current,  <m:math>
+ <m:mrow>
+  <m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>Δ</m:mi><m:mi>Q</m:mi></m:mrow>
+   <m:mrow>
+    <m:mi>Δ</m:mi><m:mi>t</m:mi></m:mrow>
+  </m:mfrac>
+  </m:mrow>
+</m:math>, we can find the average current.</para>
+</note>
+</problem>
+
+<solution id="fs-id1167063727440">
+<label/>
+<title>Solution</title>
+<para id="fs-id1167066877695">The average current is</para>
+<equation id="fs-id1164565281384"> <m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mi>I</m:mi>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mi>Δ</m:mi><m:mi>Q</m:mi>
+       </m:mrow>
+       <m:mrow>
+        <m:mi>Δ</m:mi><m:mi>t</m:mi>
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mi>C</m:mi><m:mi>V</m:mi>
+       </m:mrow>
+       <m:mrow>
+        <m:mi>Δ</m:mi><m:mi>t</m:mi>
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mrow><m:mo>(</m:mo>
+         <m:mrow>
+          <m:mn>16</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+           <m:mrow>
+            <m:mn>10</m:mn>
+           </m:mrow>
+           <m:mrow>
+            <m:mn>−6</m:mn>
+           </m:mrow>
+          </m:msup>
+          <m:mtext>F</m:mtext>
+         </m:mrow>
+        <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+         <m:mrow>
+          <m:mn>9</m:mn><m:mspace width="0.3em"/><m:mtext>V</m:mtext>
+         </m:mrow>
+        <m:mo>)</m:mo></m:mrow>
+       </m:mrow>
+       <m:mrow>
+        <m:mn>60</m:mn><m:mspace width="0.3em"/><m:mtext>s</m:mtext>
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>2.4</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+       <m:mrow>
+        <m:mn>10</m:mn>
+       </m:mrow>
+       <m:mrow>
+        <m:mn>−6</m:mn>
+       </m:mrow>
+      </m:msup>
+      <m:mtext>A</m:mtext>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right">
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>2.4</m:mn><m:mspace width="0.3em"/><m:mtext>μA.</m:mtext>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+</equation></solution>
+
+<commentary id="fs-id1167066976371">
+<para id="fs-id1167063770320"><emphasis>Discussion</emphasis></para>
+<para id="fs-id1167067064644">This small current is typical of the current encountered in circuits such as this.</para>
+</commentary>
+</exercise>
+</note>
+</section><section id="fs-id1167066975113" class="practice-problems">
+<title>Practice Problems</title>
+<exercise id="fs-id1167063667117">
+<problem id="fs-id1167067214234">
+<!--<para id="fs-id1167067077295"><link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex004"/></para>-->
+<para id="fs-id1169828324642">10 nC of charge flows through a circuit in 3.0 × 10<sup>−6</sup> s . What is the current during this time?</para>
+<list id="fs-id1169832023452" list-type="enumerated" number-style="lower-alpha">
+<item>The current passes through the circuit is 3.3 × 10<sup>−3</sup> A.</item>
+<item>The current passes through the circuit is 30 A.</item>
+<item>The current passes through the circuit is 33 A.</item>
+<item>The current passes through the circuit is 0.3 A.</item></list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067253892">
+<problem id="fs-id1167063520218">
+<para id="fs-id1167067198035"><link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex005"/></para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167061608146"><title>Resistance and Ohm’s Law</title><para id="fs-id1167063419850">As mentioned previously, electrical current in a wire is in many ways similar to water flowing through a pipe. The water current that can flow through a pipe is affected by obstacles in the pipe, such as clogs and narrow sections in the pipe. These obstacles slow down the flow of current through the pipe. Similarly, electrical current in a wire can be slowed down by many factors, including impurities in the metal of the wire or collisions between the charges in the material. These factors create a resistance to the electrical current. <term>Resistance</term> is a description of how much a wire or other electrical component opposes the flow of charge through it.
+In the 19th century, the German physicist Georg Simon Ohm (1787–1854) found experimentally that current through a conductor is proportional to the voltage drop across a current-carrying conductor.</para>
+<equation id="fs-id1167067199056" class="unnumbered">
+<label/>
+ <m:math>
+ <m:mrow>
+  <m:mi>I</m:mi><m:mo>∝</m:mo><m:mi>V</m:mi></m:mrow>
+</m:math> </equation>
+<para id="fs-id1167067316327">The constant of proportionality is the resistance <emphasis effect="italics">R</emphasis> of the material, which leads to</para>
+<equation id="fs-id1167067272143" class="unnumbered">
+<label/>
+ <m:math>
+ <m:mrow>
+  <m:mi>V</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>R</m:mi><m:mtext>(1.3).</m:mtext></m:mrow>
+</m:math> </equation>
+<para id="fs-id1167067179291">This relationship is called <term>Ohm’s law</term>. It can be viewed as a cause-and-effect relationship, with voltage being the cause and the current being the effect. Ohm’s law is an empirical law like that for friction, which means that it is an experimentally observed phenomenon. The units of resistance are volts per ampere, or V/A. We call a V/A an <emphasis effect="italics">ohm</emphasis>, which is represented by the uppercase Greek letter omega ( <m:math>
+ <m:mtext>Ω</m:mtext>
+</m:math> ). Thus,</para><equation id="fs-id1167061214689" class="unnumbered"><label/>
+ <m:math>
+ <m:mrow>
+  <m:mn>1</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.3em"/><m:mtext>V/A</m:mtext><m:mtext>(1.4).</m:mtext></m:mrow>
+</m:math> </equation><para id="fs-id1167066973855">Ohm’s law holds for most materials and at common temperatures. At very low temperatures, resistance may drop to zero (superconductivity). At very high temperatures, the thermal motion of atoms in the material inhibits the flow of electrons, increasing the resistance. The many substances for which Ohm’s law holds are called <term>ohmic</term>. Ohmic materials include good conductors like copper, aluminum, and silver, and some poor conductors under certain circumstances. The resistance of ohmic materials remains essentially the same for a wide range of voltage and current.</para>
+
+<note id="fs-id1167063673602" class="watch-physics"><title>Introduction to Electricity, Circuits, Current, and Resistance</title>
+
+  <para id="fs-id1167063620550">This video presents Ohm’s law and shows a simple electrical circuit. The speaker uses the analogy of pressure to describe how electric potential makes charge move. He refers to electric potential as <emphasis effect="italics">electric pressure</emphasis>. Another way of thinking about electric potential is to imagine that lots of particles of the same sign are crowded in a small, confined space. Because these charges have the same sign (they are all positive or all negative), each charge repels the others around it. This means that lots of charges are constantly being pushed towards the outside of the space. A complete electric circuit is like opening a door in the small space: Whichever particles are pushed towards the door now have a way to escape. The higher the electric potential, the harder each particle pushes against the others.</para>
+<!--<media id="fs-id1167067088530" alt="..." class="os-embed">
+<iframe width="660" height="371.4" src="https://www.openstax.org/l/28introelecir"/>
+</media>-->
+
+  <exercise id="fs-id1167067013907" class="os-exercise grasp-check unnumbered">
+
+   <problem id="fs-id1167066792601">
+    <para id="fs-id1167067107207"><link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex006"/></para>
+   </problem>
+  </exercise>
+ </note>
+ <note id="fs-id1167067201219" class="virtual-physics os-interactive"><title>Ohm’s Law</title>
+<media id="fs-id1167067184393" alt="This simulation mimics a simple circuit with batteries providing the voltage source and a resistor connected across the batteries.">
+<iframe width="660" height="371.4" src="https://openstax.org/l/28ohms_law"/></media>
+<para id="eip-id1167064786788">This simulation mimics a simple circuit with batteries providing the voltage source and a resistor connected across the batteries. See how the current is affected by modifying the resistance and/or the voltage. Note that the resistance is modeled as an element containing small <emphasis effect="italics">scattering centers</emphasis>. These represent impurities or other obstacles that impede the passage of the current.</para>
+<exercise id="fs-id1167061399407" class="os-exercise grasp-check unnumbered">
+<problem id="fs-id1167066957349">
+<para id="fs-id1167063821147"><link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex007"/></para>
+</problem>
+</exercise>
+</note>
+
+
+<note id="Worked_Example_19_01_03" class="worked-example"><title>Resistance of a Headlight</title>
+
+<exercise id="fs-id1167067098948" class="19-ex008 unnumbered"><label/>
+<problem id="fs-id1167063755980">
+<para id="fs-id1167063525137">What is the resistance of an automobile headlight through which 2.50 A flows when 12.0 V is applied to it?</para>
+
+<media id="fs-id1167063526032" alt="A headlight is connected to a battery with current flowing from the positive terminal of the battery into the headlight and returning to the battery via the negative terminal." display="block">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_19_01_headlight_img.jpg"/>
+</media>
+
+<note id="fs-id1167067083193">
+<label/><title>Strategy</title>
+<para id="fs-id1167063851145">Ohm’s law tells us  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>V</m:mi>
+   <m:mrow>
+    <m:mtext>headlight</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mi>I</m:mi><m:msub>
+   <m:mi>R</m:mi>
+   <m:mrow>
+    <m:mtext>headlight</m:mtext></m:mrow>
+  </m:msub>
+  </m:mrow>
+</m:math> . The voltage drop in going through the headlight is just the voltage rise supplied by the battery,  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>V</m:mi>
+   <m:mrow>
+    <m:mtext>headlight</m:mtext></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>V</m:mi>
+   <m:mrow>
+    <m:mtext>battery</m:mtext></m:mrow>
+  </m:msub>
+  </m:mrow>
+</m:math> . We can use this equation and rearrange Ohm’s law to find the resistance  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>R</m:mi>
+   <m:mrow>
+    <m:mtext>headlight</m:mtext></m:mrow>
+  </m:msub>
+  </m:mrow>
+</m:math>  of the headlight.</para>
+</note>
+</problem>
+
+<solution id="fs-id1167066968039">
+<label/>
+<title>Solution</title>
+<para id="fs-id1167067132330">Solving Ohm’s law for the resistance of the headlight gives</para>
+<equation id="fs-id1164564950083"> <m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr>
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:msub>
+       <m:mi>V</m:mi>
+       <m:mrow>
+        <m:mtext>headlight</m:mtext></m:mrow>
+      </m:msub>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mi>I</m:mi><m:msub>
+       <m:mi>R</m:mi>
+       <m:mrow>
+        <m:mtext>headlight</m:mtext></m:mrow>
+      </m:msub>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:msub>
+       <m:mi>V</m:mi>
+       <m:mrow>
+        <m:mtext>battery</m:mtext></m:mrow>
+      </m:msub>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mi>I</m:mi><m:msub>
+       <m:mi>R</m:mi>
+       <m:mrow>
+        <m:mtext>headlight</m:mtext></m:mrow>
+      </m:msub>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:msub>
+       <m:mi>R</m:mi>
+       <m:mrow>
+        <m:mtext>headlight</m:mtext></m:mrow>
+      </m:msub>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:msub>
+         <m:mi>V</m:mi>
+         <m:mrow>
+          <m:mtext>battery</m:mtext></m:mrow>
+        </m:msub>
+        </m:mrow>
+       <m:mi>I</m:mi>
+      </m:mfrac>
+      <m:mo>=</m:mo><m:mfrac>
+       <m:mrow>
+        <m:mn>12</m:mn><m:mspace width="0.3em"/><m:mtext>V</m:mtext></m:mrow>
+       <m:mrow>
+        <m:mn>2.5</m:mn><m:mspace width="0.3em"/><m:mtext>A</m:mtext></m:mrow>
+      </m:mfrac>
+      <m:mo>=</m:mo><m:mn>4.8</m:mn><m:mspace width="0.3em"/><m:mtext>Ω.</m:mtext></m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable></m:mrow>
+</m:math> </equation></solution>
+
+<commentary id="fs-id1167066850188">
+<para id="fs-id1167066832355"><emphasis>Discussion</emphasis></para>
+<para id="fs-id1167067018892">This is a relatively small resistance. As we will see below, resistances in circuits are commonly measured in kW or MW.</para>
+</commentary>
+</exercise></note><note id="Worked_Example_19_01_04" class="worked-example"><title>Determine Resistance from Current-Voltage Graph</title>
+<exercise id="fs-id1167063563540" class="19-ex009 unnumbered">
+<label/>
+<problem id="fs-id1167067068714">
+<para id="fs-id1167061177552">Suppose you apply several different voltages across a circuit and measure the current that runs through the circuit. A plot of your results is shown in <link target-id="Figure_19_01_IVgraph"/>. What is the resistance of the circuit?</para>
+<figure id="Figure_19_01_IVgraph">
+<media id="fs-id1167067010238" alt="The graph shows current in milliamperes on the y-axis and voltage in volts on the x-axis with a straight line such that at 3V, the current is 3 mA.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_19_01_IVgraph.jpg"/>
+</media>
+<caption>The line shows the current as a function of voltage. Notice that the current is given in milliamperes. For example, at 3 V, the current is 0.003 A, or 3 mA.</caption>
+</figure>
+
+<note id="fs-id1167067158113">
+<label/><title>Strategy</title>
+<para id="fs-id1167067209712">The plot shows that current is proportional to voltage, which is Ohm’s law. In Ohm’s law ( <m:math>
+ <m:mrow>
+  <m:mi>V</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>R</m:mi></m:mrow>
+</m:math> ), the constant of proportionality is the resistance <emphasis effect="italics">R</emphasis>. Because the graph shows current as a function of voltage, we have to rearrange Ohm’s law in that form:  <m:math>
+ <m:mrow>
+  <m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mi>V</m:mi>
+   <m:mi>R</m:mi>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mi>R</m:mi>
+  </m:mfrac>
+  <m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:mi>V</m:mi></m:mrow>
+</m:math> . This shows that the slope of the line of <emphasis effect="italics">I</emphasis> versus <emphasis effect="italics">V</emphasis> is  <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mi>R</m:mi>
+  </m:mfrac>
+  </m:mrow>
+</m:math> . Thus, if we find the slope of the line in <link target-id="Figure_19_01_IVgraph"/>, we can calculate the resistance <emphasis effect="italics">R</emphasis>.</para>
+</note>
+</problem>
+
+<solution id="fs-id1167067099098">
+<label/>
+<title>Solution</title>
+<para id="fs-id1167067253144">The slope of the line is the <emphasis effect="italics">rise</emphasis> divided by the <emphasis effect="italics">run</emphasis>. Looking at the lower-left square of the grid, we see that the line rises by 1 mA (0.001 A) and runs over a voltage of 1 V. Thus, the slope of the line is</para>
+<equation id="fs-id1164562293042"> <m:math display="block">
+ <m:mrow>
+  <m:mtext>slope</m:mtext><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>0.001</m:mn><m:mspace width="0.3em"/><m:mtext>A</m:mtext></m:mrow>
+   <m:mrow>
+    <m:mn>1</m:mn><m:mspace width="0.3em"/><m:mtext>V.</m:mtext></m:mrow>
+  </m:mfrac>
+  </m:mrow>
+</m:math> </equation>
+<para id="fs-id1167066828489">Equating the slope with  <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mi>R</m:mi>
+  </m:mfrac>
+  </m:mrow>
+</m:math>  and solving for <emphasis effect="italics">R</emphasis> gives</para>
+<equation id="fs-id1164562091268"> <m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr>
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:mfrac>
+       <m:mn>1</m:mn>
+       <m:mi>R</m:mi>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mn>0.001</m:mn><m:mspace width="0.3em"/><m:mtext>A</m:mtext></m:mrow>
+       <m:mrow>
+        <m:mn>1</m:mn></m:mrow>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="right">
+     <m:mi>R</m:mi>
+    </m:mtd>
+    <m:mtd columnalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mn>1</m:mn><m:mspace width="0.3em"/><m:mtext>V</m:mtext></m:mrow>
+       <m:mrow>
+        <m:mn>0.001</m:mn><m:mspace width="0.3em"/><m:mtext>A</m:mtext></m:mrow>
+      </m:mfrac>
+      <m:mo>=</m:mo><m:mn>1,000</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext></m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable></m:mrow>
+</m:math> </equation>
+<para id="eip-id1167065897177">or 1 k-ohm.</para></solution>
+
+<commentary id="fs-id1167063855921">
+<para id="fs-id1167063723557"><emphasis>Discussion</emphasis></para>
+<para id="fs-id1167066854596">This resistance is greater than what we found in the previous example. Resistances such as this are common in electric circuits, as we will discover in the next section. Note that if the line in <link target-id="Figure_19_01_IVgraph"/> were not straight, then the material would not be ohmic and we would not be able to use Ohm’s law. Materials that do not follow Ohm’s law are called <term>nonohmic</term>.</para>
+</commentary>
+</exercise>
+</note></section><section id="fs-id1167067205670" class="practice-problems">
+<title>Practice Problems</title>
+<exercise id="fs-id1167067058388">
+<problem id="fs-id1167063624538">
+<para id="fs-id1167067084541"><link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex010"/></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167067056321">
+<problem id="fs-id1167067214494">
+<para id="fs-id1167063520344"><link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex011"/></para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167067258753" class="check-understanding">
+<title>Check Your Understanding</title>
+<exercise id="fs-id1167067032344" class="os-exercise">
+<problem id="fs-id1167063527232">
+<para id="fs-id1167067007122">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex012"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167066842331" class="os-exercise">
+<problem id="fs-id1167067179536">
+<para id="fs-id1167063739462">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex013"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167067028755" class="os-exercise">
+<problem id="fs-id1167066856658">
+<para id="fs-id1167063706599">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex014"/>
+</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167063690139" class="summary">
+<title>Section Summary</title>
+<list id="fs-id1167066885416">
+<item>Direct current is constant over time; alternating current alternates smoothly back and forth over time.</item>
+<item>Electrical resistance causes materials to extract work from the current that flows through them.</item>
+<item>In ohmic materials, voltage drop along a path is proportional to the current that runs through the path.</item>
+</list>
+</section>
+
+<section id="fs-id1167066858476" class="key-equations">
+<title>Key Equations</title>
+<table class="unnumbered unstyled" id="fs-id1167063900306" summary="Table with two columns and three rows. The first row shows the equation defining electric current. The second row shows the equation defining an ampere. The third row shows the equation for Ohm’s law."><label/>
+<tgroup cols="2">
+<colspec colnum="1" align="left" colname="c1"/>
+<colspec colnum="2" align="left" colname="c2"/>
+<tbody>
+<row>
+<entry>electric current <emphasis effect="italics">I</emphasis> is the charge  <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>Q</m:mi>
+ </m:mrow>
+</m:math>  that passes a plane per unit time  <m:math>
+ <m:mrow>
+  <m:mi>Δ</m:mi><m:mi>t</m:mi>
+ </m:mrow>
+</m:math> </entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>Δ</m:mi><m:mi>Q</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mi>Δ</m:mi><m:mi>t</m:mi>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </entry>
+</row>
+<row>
+<entry>an ampere is the coulombs per unit time that pass a plane</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mn>1</m:mn><m:mspace width="0.3em"/><m:mtext>A</m:mtext><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.3em"/><m:mtext>C/s</m:mtext>
+ </m:mrow>
+</m:math> </entry>
+</row>
+<row>
+<entry>Ohm’s law: the current <emphasis effect="italics">I</emphasis> is proportional to the voltage <emphasis effect="italics">V</emphasis>, with the resistance <emphasis effect="italics">R</emphasis> being the constant of proportionality</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mi>V</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>R</m:mi>
+ </m:mrow>
+</m:math>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+
+<section id="fs-id1167067274637" class="concept"><title>Concept Items</title>
+<exercise id="fs-id1167066939783" class="os-exercise">
+<problem id="fs-id1167063466291">
+<para id="fs-id1167067203899">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex018"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1164562099828" class="os-exercise">
+<problem id="fs-id1167067204058">
+<para id="fs-id1167067142237">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex019"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166851367637" class="os-exercise">
+<problem id="eip-id1166851367641">
+<para id="eip-id1166851191647">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ot009"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166851161933" class="os-exercise">
+<problem id="eip-id1166851161937">
+<para id="eip-id1166851283046">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ot012"/>
+</para>
+</problem>
+</exercise></section>
+<section id="fs-id1167061410654" class="critical-thinking">
+<title>Critical Thinking</title>
+<exercise id="fs-id1167067203601" class="os-exercise">
+<problem id="fs-id1167061388144">
+<!--<para id="fs-id1167063490563"><link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex020"/>
+</para>-->
+<para id="fs-id1164564775216">An accelerator accelerates He nuclei (change = 2<emphasis effect="italics">e</emphasis>) to a speed of <emphasis effect="italics">v</emphasis> = 2 × 10<sup>6</sup> m/s. What is the current if the linear density of He nuclei is <emphasis effect="italics">λ</emphasis> = 108 m<sup>–1</sup>?</para>
+<list id="fs-id1164566905199" list-type="enumerated" number-style="lower-alpha">
+<item><emphasis effect="italics">I</emphasis> = 9.6 × 10<sup>–5</sup> A</item>
+<item><emphasis effect="italics">I</emphasis> = 3.2 × 10<sup>–5</sup> A</item>
+<item><emphasis effect="italics">I</emphasis> = 12.8 × 10<sup>–5</sup> A</item>
+<item><emphasis effect="italics">I</emphasis> = 6.4 × 10<sup>–5</sup> A</item>
+</list>
+
+</problem>
+</exercise>
+<exercise id="fs-id1167067006136" class="os-exercise">
+<problem id="fs-id1167063717313">
+<para id="fs-id1167067112250"><link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex021"/>
+</para>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167063678849" class="problems">
+<title>Problems</title>
+<exercise id="fs-id1167066778836" class="os-exercise">
+<problem id="fs-id1167067258966">
+<!--<para id="fs-id1167067090715">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex016"/>
+</para>-->
+<para id="fs-id1164565209532">What voltage is needed to make 6 C of charge traverse a 100-Ω resistor in 1 min?</para>
+<list id="fs-id1164563496257" list-type="enumerated" number-style="lower-alpha">
+<item>The required voltage is 1 × 10<sup>−3</sup> V.</item>
+<item>The required voltage is 10 V.</item>
+<item>The required voltage is 1,000 V.</item>
+<item>The required voltage is 10,000 V.</item>
+</list>
+
+</problem>
+</exercise>
+
+<exercise id="fs-id1163727300699">
+<problem id="fs-id1163727183477">
+<para id="fs-id1163727183479">Resistors typically obey Ohm’s law at low currents, but show deviations at higher currents because of heating. Suppose you were to conduct an experiment measuring the voltage, <emphasis effect="italics">V</emphasis>, across a resistor as a function of current, <emphasis effect="italics">I</emphasis>, including currents whose deviations from Ohms law start to become apparent. For a data plot of <emphasis effect="italics">V</emphasis> versus <emphasis effect="italics">I</emphasis>, which of the following functions would be best to fit the data? Assume that <emphasis effect="italics">a, b</emphasis>, and <emphasis effect="italics">c</emphasis> are nonzero constants adjusted to fit the data.</para><list id="fs-id1163727324169" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item> <m:math display="block">
+ <m:mrow>
+  <m:mi>V</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mi>I</m:mi>
+ </m:mrow>
+</m:math> </item>
+<item> <m:math display="block">
+ <m:mrow>
+  <m:mi>V</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mi>I</m:mi><m:mo>+</m:mo><m:mi>b</m:mi>
+ </m:mrow>
+</m:math> </item>
+<item> <m:math display="block">
+ <m:mrow>
+  <m:mi>V</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mi>I</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:msup>
+   <m:mi>I</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+
+ </m:mrow>
+</m:math> </item>
+<item> <m:math display="block">
+ <m:mrow>
+  <m:mi>V</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mi>I</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:msup>
+   <m:mi>I</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>+</m:mo><m:mi>c</m:mi>
+ </m:mrow>
+</m:math> </item>
+</list>
+</problem>
+<solution id="fs-id1163727209606">
+<para id="fs-id1163727209608">The correct answer is (c). Choice (a) can be eliminated because it does not show deviations from Ohm’s Law. Choices (b) and (d) can be eliminated because the voltage drop across the resistor would be nonzero when the current is zero, which is inconsistent with the fact that Ohm’s Law is obeyed at low currents. Choice (c) follows Ohm’s Law at low currents because the linear term will dominate the quadratic term, with deviations from Ohm’s Law becoming apparent at higher currents.</para></solution>
+</exercise>
+
+<exercise id="fs-id1167066809832" class="os-exercise">
+<problem id="fs-id1167066857271">
+<para id="fs-id1167067138066">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex017"/>
+</para>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167067254652" class="multiple-choice"><title>Test Prep Multiple Choice</title><exercise id="fs-id1167066952611" class="os-exercise">
+<problem id="fs-id1167067190884">
+<para id="fs-id1167063512388">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex022"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167063489237" class="os-exercise">
+<problem id="fs-id1167067250724">
+<para id="fs-id1167063526464">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex023"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167067239854" class="os-exercise">
+<problem id="fs-id1167067185875">
+<!-- <para id="fs-id1167067146612">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex024"/>
+</para> -->
+<para id="fs-id1169831774170">The equivalent unit for an ohm is a ________.</para>
+<list id="fs-id1169828379523" list-type="enumerated" number-style="lower-alpha">
+<item>V/A</item>
+<item>C/m</item>
+<item> <m:math display="block">
+ <m:mrow>
+  <m:mfrac>
+   <m:mtext>A</m:mtext>
+   <m:mtext>V</m:mtext>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </item>
+<item>V/s</item></list>
+</problem>
+</exercise>
+<exercise id="eip-id1166849137644" class="os-exercise">
+<problem id="eip-id1166849137648">
+<para id="eip-id1166849137650">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ot016"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167067209810" class="short-answer">
+<title>Test Prep Short Answer</title>
+<exercise id="fs-id1167061217589" class="os-exercise">
+<problem id="fs-id1167063888508">
+<!-- <para id="fs-id1167067149923">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex025"/>
+</para> -->
+<para id="fs-id1164559071387">True or false—it is possible to produce nonzero DC current by adding together AC currents.</para>
+<list id="fs-id1164562182131" list-type="enumerated" number-style="lower-alpha">
+<item>false</item>
+<item>true</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167061209143" class="os-exercise">
+<problem id="fs-id1167066959637">
+<!-- <para id="fs-id1167063517055">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex026"/>
+</para> -->
+<para id="fs-id1164565237091">What type of current is used in cars?</para>
+<list id="fs-id1164561288345" list-type="enumerated" number-style="lower-alpha">
+<item>alternating current</item>
+<item>indirect current</item>
+<item>direct current</item>
+<item>straight current</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167066955006" class="os-exercise">
+<problem id="fs-id1167063422144">
+<para id="fs-id1167067205055">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex027"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167067064635" class="os-exercise">
+<problem id="fs-id1167066999079">
+<para id="fs-id1167067067786">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex028"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167063800786" class="os-exercise">
+<problem id="fs-id1167066799819">
+<!-- <para id="fs-id1167067067207">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex029"/>
+</para> -->
+<para id="fs-id1164559108589">What is the current through a 100-Ω resistor with 12 V across it?</para>
+<list id="fs-id1164562187033" list-type="enumerated" number-style="lower-alpha">
+<item>0</item>
+<item>0.12 A</item>
+<item>8.33 A</item>
+<item>1,200 A</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167067315669" class="os-exercise">
+<problem id="fs-id1167066811328">
+<para id="fs-id1167067198795">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex030"/>
+</para>
+</problem>
+</exercise>
+</section>
+
+
+<section id="fs-id1167063430188" class="extended-response">
+<title>Test Prep Extended Response</title>
+<exercise id="fs-id1167067077963" class="os-exercise">
+<problem id="fs-id1167066955911">
+<para id="fs-id1167063727402">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex031"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167067193696" class="os-exercise">
+<problem id="fs-id1167063502624">
+<para id="fs-id1167067264243">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex032"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167063659078" class="os-exercise">
+<problem id="fs-id1167067214127">
+<para id="fs-id1167063499061">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch19-ex033"/>
+</para>
+</problem>
+</exercise>
+</section>
+
+</content>
+
+<glossary>
+<definition id="fs-id1167063486810"><term>alternating current</term><meaning id="fs-id1167067010251"> electric current whose direction alternates back and forth at regular intervals</meaning></definition>
+<definition id="fs-id1167066850066"><term>ampere</term><meaning id="fs-id1167063599271"> unit for electric current; one ampere is one coulomb per second ( <m:math>
+ <m:mrow>
+  <m:mn>1</m:mn><m:mspace width="0.3em"/><m:mtext>A</m:mtext><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.3em"/><m:mtext>C/s</m:mtext>
+ </m:mrow>
+</m:math> )</meaning></definition>
+<definition id="fs-id1167063730437"><term>conventional current </term><meaning id="fs-id1167067145879">flows in the direction that a positive charge would flow if it could move</meaning></definition>
+<definition id="fs-id1167067006807"><term>direct current</term><meaning id="fs-id1167067144507"> electric current that flows in a single direction</meaning></definition>
+<definition id="fs-id1167066783730"><term>electric current</term><meaning id="fs-id1167063445056"> electric charge that is moving </meaning></definition>
+<definition id="fs-id1167067073968"><term>nonohmic</term><meaning id="fs-id1167063601090"> material that does not follow Ohm’s law</meaning></definition>
+<definition id="fs-id1167067197760"><term>ohmic</term><meaning id="fs-id1167067031253"> material that obeys Ohm’s law</meaning></definition>
+<definition id="fs-id1167066948068"><term>Ohm’s law</term><meaning id="fs-id1167067024030"> electric current is proportional to the voltage applied across a circuit or other path</meaning></definition>
+<definition id="fs-id1167067099455"><term>resistance</term><meaning id="fs-id1167066962337"> how much a circuit element opposes the passage of electric current; it appears as the constant of proportionality in Ohm’s law</meaning></definition>
+</glossary>
+</document>

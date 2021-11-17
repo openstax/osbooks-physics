@@ -1,0 +1,1149 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Phase Change and Latent Heat</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54292</md:content-id>
+  <md:title>Phase Change and Latent Heat</md:title>
+  <md:abstract/>
+  <md:uuid>2abd21ce-dc69-4256-84c7-3a8646801ab4</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167066983482" class="learning-objectives">
+<label/>
+<title>Section Learning Objectives</title>
+<para id="fs-id1167067209970">By the end of this section, you will be able to do the following:</para>
+<list id="fs-id1167067196931">
+<item>Explain changes in heat during changes of state, and describe latent heats of fusion and vaporization</item>
+<item>Solve problems involving thermal energy changes when heating and cooling substances with phase changes</item>
+</list>
+</note>
+<note id="fs-id1167061216557" class="os-teacher"><title>Teacher Support</title>
+<para id="fs-id1167067070135">The learning objectives in this section will help your students master the following standards:</para>
+<list id="fs-id1167063865286">
+<item>(6) Science concepts. The student knows that changes occur within a physical system and applies the laws of conservation of energy and momentum. The student is expected to:
+<list id="fs-id1167063576623">
+<item>
+<span>(E)</span>
+<span>describe how the macroscopic properties of a thermodynamic system such as temperature, specific heat, and pressure are related to the molecular level of matter, including kinetic or potential energy of atoms;</span></item>
+<item>
+<span>(F)</span>
+<span>contrast and give examples of different processes of thermal energy transfer, including conduction, convection, and radiation.</span>
+</item>
+</list>
+</item>
+</list>
+</note>
+<section id="keyterms"><title>Section Key Terms</title>
+<table id="fs-id1167067152626" class="unnumbered unstyled section-key-terms" summary="no alt text">
+<label/>
+<tgroup cols="3">
+<tbody>
+<row>
+<entry>condensation</entry>
+<entry>freezing</entry>
+<entry>latent heat</entry>
+<entry>sublimation</entry>
+
+</row>
+<row>
+<entry>latent heat of fusion</entry>
+<entry>latent heat of vaporization</entry>
+<entry>melting</entry>
+<entry>vaporization</entry>
+
+</row>
+<row>
+<entry>phase change</entry>
+<entry>phase diagram</entry>
+<entry>plasma</entry>
+<entry/>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<note id="fs-id1167067015564" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167063680430">Introduce this section by asking students to give examples of solids, liquids, and gases.</para>
+</note>
+<section id="fs-id1167067051748">
+<title>Phase Changes</title>
+<para id="fs-id1167063707509">So far, we have learned that adding thermal energy by heat increases the temperature of a substance. But surprisingly, there are situations where adding energy does not change the temperature of a substance at all! Instead, the additional thermal energy acts to loosen bonds between molecules or atoms and causes a <term>phase change</term>. Because this energy enters or leaves a system during a phase change without causing a temperature change in the system, it is known as <term>latent heat</term> (latent means <emphasis effect="italics">hidden</emphasis>).</para>
+<para id="fs-id1167067048834">The three phases of matter that you frequently encounter are solid, liquid and gas (see <link target-id="Figure_11_03_Phases"/>). Solid has the least energetic state; atoms in solids are in close contact, with forces between them that allow the particles to vibrate but not change position with neighboring particles. (These forces can be thought of as springs that can be stretched or compressed, but not easily broken.)</para>
+<para id="fs-id1167061419591">Liquid has a more energetic state, in which particles can slide smoothly past one another and change neighbors, although they are still held together by their mutual attraction.</para>
+<para id="fs-id1167063801863">Gas has a more energetic state than liquid, in which particles are broken free of their bonds. Particles in gases are separated by distances that are large compared with the size of the particles.</para>
+<para id="fs-id1167067252230">The most energetic state of all is <term>plasma</term>. Although you may not have heard much about plasma, it is actually the most common state of matter in the universe—stars are made up of plasma, as is lightning. The plasma state is reached by heating a gas to the point where particles are pulled apart, separating the electrons from the rest of the particle. This produces an ionized gas that is a combination of the negatively charged free electrons and positively charged ions, known as plasma.</para>
+
+<figure id="Figure_11_03_Phases"><media id="fs-id1167063717261" alt="A rock, representing a solid is shown in part (a), along with its tightly bound particles. In part (b), liquid water is shown with its molecules attracted to one another, but not tightly bound. In part (c) oxygen is shown with molecules far apart and bouncing off one another in random directions.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_11_03_Phases.jpg"/></media>
+
+<caption>(a) Particles in a solid always have the same neighbors, held close by forces represented here by springs. These particles are essentially in contact with one another. A rock is an example of a solid. This rock retains its shape because of the forces holding its atoms or molecules together. (b) Particles in a liquid are also in close contact but can slide over one another. Forces between them strongly resist attempts to push them closer together and also hold them in close contact. Water is an example of a liquid. Water can flow, but it also remains in an open container because of the forces between its molecules. (c) Particles in a gas are separated by distances that are considerably larger than the size of the particles themselves, and they move about freely. A gas must be held in a closed container to prevent it from moving out into its surroundings. (d) The atmosphere is ionized in the extreme heat of a lightning strike.</caption></figure><para id="fs-id1167063484192">During a phase change, matter changes from one phase to another, either through the addition of energy by heat and the transition to a more energetic state, or from the removal of energy by heat and the transition to a less energetic state.</para>
+
+<para id="fs-id1167061400929">Phase changes to a more energetic state include the following:</para><list id="fs-id1167063606306">
+    <item><term>Melting</term>—Solid to liquid</item>
+    <item><term>Vaporization</term>—Liquid to gas (included boiling and evaporation)</item>
+    <item><term>Sublimation</term>—Solid to gas</item>
+    </list>
+<para id="fs-id1167067010910">Phase changes to a less energetic state are as follows:</para><list id="fs-id1167067069622">
+<item><term>Condensation</term>—Gas to liquid</item>
+<item><term>Freezing</term>—Liquid to solid</item>
+</list>
+
+
+<para id="fs-id1167067317621">Energy is required to melt a solid because the bonds between the particles in the solid must be broken. Since the energy involved in a phase changes is used to break bonds, there is no increase in the kinetic energies of the particles, and therefore no rise in temperature. Similarly, energy is needed to vaporize a liquid to overcome the attractive forces between particles in the liquid. There is no temperature change until a phase change is completed. The temperature of a cup of soda and ice that is initially at 0 <m:math>
+ <m:mrow>
+  <m:mtext>°C</m:mtext></m:mrow>
+</m:math>  stays at 0 <m:math>
+ <m:mrow>
+  <m:mtext>°C</m:mtext></m:mrow>
+</m:math>  until all of the ice has melted. In the reverse of these processes—freezing and condensation—energy is released from the latent heat (see <link target-id="Figure_11_03_PhaseChng"/>).</para>
+<note id="fs-id1167066030316" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167067085570"><span>[BL]</span><span>[OL]</span> Ask students if the same amount of energy is absorbed or released in melting or freezing a particular quantity of a substance.</para>
+<para id="fs-id1167067295557"><span>[AL]</span> Ask student how water is able to evaporate even when it is at room temperature and not at 100 <m:math>
+ <m:mrow>
+  <m:mtext>°C</m:mtext>
+ </m:mrow>
+</m:math> .</para></note>
+
+<figure id="Figure_11_03_PhaseChng">
+<media id="fs-id1167066967487" alt="Energy input (melting) converts solid to liquid. Energy output (freezing) converts liquid to solid. Energy input (boiling) converts liquid to gas. Energy output (condensation) converts gas to liquid. Energy input (sublimation) converts solid to gas."><image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_11_03_PhaseChng.jpg"/></media>
+<caption>(a) Energy is required to partially overcome the attractive forces between particles in a solid to form a liquid. That same energy must be removed for freezing to take place. (b) Particles are separated by large distances when changing from liquid to vapor, requiring significant energy to overcome molecular attraction. The same energy must be removed for condensation to take place. There is no temperature change until a phase change is completed. (c) Enough energy is added that the liquid state is skipped over completely as a substance undergoes sublimation.</caption>
+</figure>
+
+<para id="fs-id1167060081099">The heat, <emphasis effect="italics">Q</emphasis>, required to change the phase of a sample of mass <emphasis effect="italics">m </emphasis>is</para>
+<para id="fs-id1167067067878"> <m:math>
+ <m:mrow>
+  <m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:msub>
+   <m:mi>L</m:mi>
+   <m:mi>f</m:mi>
+  </m:msub>
+
+ </m:mrow>
+</m:math>  (for melting/freezing),</para><para id="fs-id1167067050707"> <m:math>
+ <m:mrow>
+  <m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:msub>
+   <m:mi>L</m:mi>
+   <m:mi>v</m:mi>
+  </m:msub>
+
+ </m:mrow>
+</m:math>  (for vaporization/condensation),</para><para id="fs-id1167067098765">where  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>L</m:mi>
+   <m:mi>f</m:mi>
+  </m:msub>
+
+ </m:mrow>
+</m:math>  is the <term>latent heat of fusion</term>, and  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>L</m:mi>
+   <m:mi>v</m:mi>
+  </m:msub>
+
+ </m:mrow>
+</m:math>  is the <term>latent heat of vaporization</term>. The latent heat of fusion is the amount of heat needed to cause a phase change between solid and liquid. The latent heat of vaporization is the amount of heat needed to cause a phase change between liquid and gas.  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>L</m:mi>
+   <m:mi>f</m:mi>
+  </m:msub>
+
+ </m:mrow>
+</m:math>  and  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>L</m:mi>
+   <m:mi>v</m:mi>
+  </m:msub>
+
+ </m:mrow>
+</m:math>  are coefficients that vary from substance to substance, depending on the strength of intermolecular forces, and both have standard units of J/kg. See <link target-id="Table_11_03"/> for values of  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>L</m:mi>
+   <m:mi>f</m:mi>
+  </m:msub>
+
+ </m:mrow>
+</m:math>  and  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>L</m:mi>
+   <m:mi>v</m:mi>
+  </m:msub>
+
+ </m:mrow>
+</m:math>  of different substances.</para>
+
+<table id="Table_11_03" summary="Table with five columns and eighteen rows. The top left cell reads “Substance”, with cells to the right reading, respectively, “Melting point (°C ),” “Lf (kJ/kg)”, “Boiling point (°C ),” and “Lv (kJ/kg).” Each row lists a substance, its melting point in degrees Celsius, its latent heat of fusion in kilojoules per kilogram, its boiling point in degrees Celsius, its latent heat of vaporization in kilojoules per kilogram."><title>Latent Heats of Fusion and Vaporization, along with Melting and Boiling Points</title>
+<tgroup cols="5"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<thead>
+<row>
+<entry>Substance</entry>
+<entry>Melting Point ( <m:math>
+ <m:mrow>
+  <m:mi>°C</m:mi></m:mrow>
+</m:math>
+)</entry>
+<entry><emphasis effect="italics">Lf</emphasis>  (kJ/kg)</entry>
+<entry>Boiling Point ( <m:math>
+ <m:mrow>
+  <m:mi>°C</m:mi></m:mrow>
+</m:math>
+)</entry>
+<entry><emphasis effect="italics">Lv</emphasis> (kJ/kg)</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>Helium</entry>
+<entry>‒269.7</entry>
+<entry>5.23</entry>
+<entry>‒268.9</entry>
+<entry>20.9</entry>
+</row>
+<row>
+<entry>Hydrogen</entry>
+<entry>‒259.3</entry>
+<entry>58.6</entry>
+<entry>‒252.9</entry>
+<entry>452</entry>
+</row>
+<row>
+<entry>Nitrogen</entry>
+<entry>‒210.0</entry>
+<entry>25.5</entry>
+<entry>‒195.8</entry>
+<entry>201</entry>
+</row>
+<row>
+<entry>Oxygen</entry>
+<entry>‒218.8</entry>
+<entry>13.8</entry>
+<entry>‒183.0</entry>
+<entry>213</entry>
+</row>
+<row>
+<entry>Ethanol</entry>
+<entry>‒114</entry>
+<entry>104</entry>
+<entry>78.3</entry>
+<entry>854</entry>
+</row>
+<row>
+<entry>Ammonia</entry>
+<entry>‒78</entry>
+<entry>332</entry>
+<entry>‒33.4</entry>
+<entry>1370</entry>
+</row>
+<row>
+<entry>Mercury</entry>
+<entry>‒38.9</entry>
+<entry>11.8</entry>
+<entry>357</entry>
+<entry>272</entry>
+</row>
+<row>
+<entry>Water</entry>
+<entry>0.00</entry>
+<entry>334</entry>
+<entry>100.0</entry>
+<entry>2256</entry>
+</row>
+<row>
+<entry>Sulfur</entry>
+<entry>119</entry>
+<entry>38.1</entry>
+<entry>444.6</entry>
+<entry>326</entry>
+</row>
+<row>
+<entry>Lead</entry>
+<entry>327</entry>
+<entry>24.5</entry>
+<entry>1750</entry>
+<entry>871</entry>
+</row>
+<row>
+<entry>Antimony</entry>
+<entry>631</entry>
+<entry>165</entry>
+<entry>1440</entry>
+<entry>561</entry>
+</row>
+<row>
+<entry>Aluminum</entry>
+<entry>660</entry>
+<entry>380</entry>
+<entry>2520</entry>
+<entry>11400</entry>
+</row>
+<row>
+<entry>Silver</entry>
+<entry>961</entry>
+<entry>88.3</entry>
+<entry>2193</entry>
+<entry>2336</entry>
+</row>
+<row>
+<entry>Gold</entry>
+<entry>1063</entry>
+<entry>64.5</entry>
+<entry>2660</entry>
+<entry>1578</entry>
+</row>
+<row>
+<entry>Copper</entry>
+<entry>1083</entry>
+<entry>134</entry>
+<entry>2595</entry>
+<entry>5069</entry>
+</row>
+<row>
+<entry>Uranium</entry>
+<entry>1133</entry>
+<entry>84</entry>
+<entry>3900</entry>
+<entry>1900</entry>
+</row>
+<row>
+<entry>Tungsten</entry>
+<entry>3410</entry>
+<entry>184</entry>
+<entry>5900</entry>
+<entry>4810</entry>
+</row>
+</tbody>
+
+</tgroup>
+</table><para id="fs-id1167067028398">Let’s consider the example of adding heat to ice to examine its transitions through all three phases—solid to liquid to gas. A <term class="no-emphasis">phase diagram</term> indicating the temperature changes of water as energy is added is shown in <link target-id="Figure_11_03_WaterPhases"/>. The ice starts out at −20 <m:math>
+ <m:mrow>
+<m:mtext>°C</m:mtext>
+ </m:mrow>
+</m:math>, and its temperature rises linearly, absorbing heat at a constant rate until it reaches 0 <m:math>
+ <m:mrow>
+<m:mtext>°</m:mtext>
+<m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math>  Once at this temperature, the ice gradually melts, absorbing 334 kJ/kg. The temperature remains constant at 0 <m:math>
+ <m:mrow>
+<m:mtext>°C</m:mtext>
+ </m:mrow>
+</m:math>  during this phase change. Once all the ice has melted, the temperature of the liquid water rises, absorbing heat at a new constant rate. At 100 <m:math>
+ <m:mrow>
+<m:mtext>°C</m:mtext>
+ </m:mrow>
+</m:math>, the water begins to boil and the temperature again remains constant while the water absorbs 2256 kJ/kg during this phase change. When all the liquid has become steam, the temperature rises again at a constant rate.</para><figure id="Figure_11_03_WaterPhases"><media id="fs-id1167066810123" alt="A graph of change in heat per mass on the x-axis and change in temperature on the y-axis is shown. It is level during phase changes, indicating no change in temperature, and rises steeply after phase changes are completed."><image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_11_03_WaterPhase.jpg"/></media>
+
+<caption>A graph of temperature versus added energy. The system is constructed so that no vapor forms while ice warms to become liquid water, and so when vaporization occurs, the vapor remains in the system. The long stretches of constant temperature values at 0 <m:math>
+ <m:mrow>
+  <m:mtext>°C</m:mtext>
+ </m:mrow>
+</m:math>  and 100 <m:math>
+ <m:mrow>
+  <m:mtext>°C</m:mtext>
+ </m:mrow>
+</m:math>  reflect the large latent heats of melting and vaporization, respectively.</caption></figure><para id="fs-id1167063485059">We have seen that vaporization requires heat transfer to a substance from its surroundings. Condensation is the reverse process, where heat in transferred <emphasis effect="italics">away from</emphasis> a substance <emphasis effect="italics">to</emphasis> its surroundings. This release of latent heat increases the temperature of the surroundings. Energy must be removed from the condensing particles to make a vapor condense. This is why condensation occurs on cold surfaces: the heat transfers energy away from the warm vapor to the cold surface. The energy is exactly the same as that required to cause the phase change in the other direction, from liquid to vapor, and so it can be calculated from  <m:math>
+ <m:mrow>
+  <m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:msub>
+   <m:mi>L</m:mi>
+   <m:mi>v</m:mi>
+  </m:msub>
+
+ </m:mrow>
+</m:math> . Latent heat is also released into the environment when a liquid freezes, and can be calculated from  <m:math>
+ <m:mrow>
+  <m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:msub>
+   <m:mi>L</m:mi>
+   <m:mi>f</m:mi>
+  </m:msub>
+
+ </m:mrow>
+</m:math> .</para>
+<note id="fs-id1167063628922" class="fun-in-physics"><title>Making Ice Cream</title>
+
+
+<figure id="Figure_11_03_IceCream"><media id="fs-id1167066945584" alt="A woman holds a strawberry ice cream cone."><image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_11_03_IceCream.jpg"/></media>
+
+<caption>With the proper ingredients, some ice and a couple of plastic bags, you could make your own ice cream in five minutes. (ElinorD, Wikimedia Commons)</caption></figure><para id="fs-id1167067141745">Ice cream is certainly easy enough to buy at the supermarket, but for the hardcore ice cream enthusiast, that may not be satisfying enough. Going through the process of making your own ice cream lets you invent your own flavors and marvel at the physics firsthand (<link target-id="Figure_11_03_IceCream"/>).</para>
+<para id="fs-id1167067234137">The first step to making homemade ice cream is to mix heavy cream, whole milk, sugar, and your flavor of choice; it could be as simple as cocoa powder or vanilla extract, or as fancy as pomegranates or pistachios.</para>
+<para id="fs-id1167061400807">The next step is to pour the mixture into a container that is deep enough that you will be able to churn the mixture without it spilling over, and that is also freezer-safe. After placing it in the freezer, the ice cream has to be stirred vigorously every 45 minutes for four to five hours. This slows the freezing process and prevents the ice cream from turning into a solid block of ice. Most people prefer a soft creamy texture instead of one giant popsicle.</para>
+<para id="fs-id1167067057606">As it freezes, the cream undergoes a phase change from liquid to solid. By now, we’re experienced enough to know that this means that the cream must experience a loss of heat. Where does that heat go? Due to the temperature difference between the freezer and the ice cream mixture, heat transfers thermal energy from the ice cream to the air in the freezer. Once the temperature in the freezer rises enough, the freezer is cooled by pumping excess heat outside into the kitchen.</para>
+<para id="fs-id1167067202780">A faster way to make ice cream is to chill it by placing the mixture in a plastic bag, surrounded by another plastic bag half full of ice. (You can also add a teaspoon of salt to the outer bag to lower the temperature of the ice/salt mixture.) Shaking the bag for five minutes churns the ice cream while cooling it evenly. In this case, the heat transfers energy out of the ice cream mixture and into the ice during the phase change.</para>
+<para id="fs-id1167063630346">This <link url="http://www.openstax.org/l/28icecream">video</link> gives a demonstration of how to make home-made ice cream using ice and plastic bags.</para>
+<exercise id="fs-id1167066968399" class="os-exercise grasp-check unnumbered">
+
+<problem id="fs-id1167067199345">
+<para id="fs-id1167063506535">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex048"/>
+</para>
+</problem>
+</exercise>
+</note></section>
+
+<section id="fs-id1167067076266"><title>Solving Thermal Energy Problems with Phase Changes</title><note id="fs-id1167067271815" class="worked-example"><title>Calculating Heat Required for a Phase Change</title>
+
+<exercise id="fs-id1167067166211" class="11-ex049 unnumbered">
+<label/>
+<problem id="fs-id1167067208504">
+<para id="fs-id1167067208505">Calculate a) how much energy is needed to melt 1.000 kg of ice at 0 <m:math>
+ <m:mrow>
+  <m:mtext>°C</m:mtext>
+ </m:mrow>
+</m:math>  (freezing point), and b) how much energy is required to vaporize 1.000 kg of water at 100 <m:math>
+ <m:mrow>
+  <m:mtext>°C</m:mtext>
+ </m:mrow>
+</m:math>  (boiling point).</para>
+
+<note id="fs-id1167063693657"><label/><title>Strategy FOR (A)</title>
+
+<para id="fs-id1167063513690">Using the equation for the heat required for melting, and the value of the latent heat of fusion of water from the previous table, we can solve for part (a).</para>
+</note></problem>
+
+<solution id="fs-id1167066841725">
+<label/>
+<title>Solution to (a)</title>
+<para id="fs-id1167067264329">The energy to melt 1.000 kg of ice is</para>
+<para id="fs-id1167063632006"><equation id="fs-id1164564392455"> <m:math display="block">
+ <m:mrow>
+  <m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:msub>
+   <m:mi>L</m:mi>
+   <m:mi>f</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mtext>1</m:mtext><m:mtext>.000 kg</m:mtext>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mtext>334 kJ/kg</m:mtext>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>334</m:mn><m:mspace width="0.3em"/><m:mtext> kJ.</m:mtext>
+ </m:mrow>
+</m:math> </equation>
+</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167065714671" class="unnumbered">
+<label/>
+<problem id="fs-id1167064818926">
+<note id="fs-id1167067055251"><label/><title>Strategy FOR (B)</title>
+
+<para id="fs-id1167067250873">To solve part (b), we use the equation for heat required for vaporization, along with the latent heat of vaporization of water from the previous table.</para>
+</note></problem>
+<solution id="fs-id1167063531275">
+<label/>
+<title>Solution to (b)</title>
+<para id="fs-id1167067066496">The energy to vaporize 1.000 kg of liquid water is</para>
+<para id="fs-id1167067052510"><equation id="fs-id1164564291940"> <m:math display="block">
+ <m:mrow>
+  <m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:msub>
+   <m:mi>L</m:mi>
+   <m:mi>v</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mtext>1</m:mtext><m:mtext>.000 kg</m:mtext>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mtext>2256 kJ/kg</m:mtext>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2256</m:mn><m:mspace width="0.3em"/><m:mtext> kJ.</m:mtext>
+ </m:mrow>
+</m:math> </equation>
+</para></solution>
+<commentary id="fs-id1167066939847">
+<title>Discussion</title>
+<para id="fs-id1167063657309">The amount of energy need to melt a kilogram of ice (334 kJ) is the same amount of energy needed to raise the temperature of 1.000 kg of liquid water from 0 <m:math>
+ <m:mrow>
+  <m:mtext>°C</m:mtext>
+ </m:mrow>
+</m:math>  to 79.8 <m:math>
+ <m:mrow>
+  <m:mtext>°C</m:mtext>
+ </m:mrow>
+</m:math> . This example shows that the energy for a phase change is enormous compared to energy associated with temperature changes. It also demonstrates that the amount of energy needed for vaporization is even greater.</para></commentary>
+</exercise>
+</note><note id="fs-id1167063699167" class="worked-example os-interactive"><title>Calculating Final Temperature from Phase Change: Cooling Soda with Ice Cubes</title>
+
+<exercise id="fs-id1167061410460" class="11-ex050 unnumbered"><label/>
+<problem id="fs-id1167063572333">
+<para id="fs-id1167063572334">Ice cubes are used to chill a soda at 20 <m:math>
+ <m:mrow>
+  <m:mtext>°C</m:mtext>
+ </m:mrow>
+</m:math>  and with a mass of  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>m</m:mi>
+   <m:mrow>
+    <m:mi>s</m:mi><m:mi>o</m:mi><m:mi>d</m:mi><m:mi>a</m:mi>
+   </m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>0.25</m:mn><m:mspace width="0.3em"/><m:mtext> kg</m:mtext>
+ </m:mrow>
+</m:math> . The ice is at 0 <m:math>
+ <m:mrow>
+  <m:mtext>°C</m:mtext>
+ </m:mrow>
+</m:math>  and the total mass of the ice cubes is 0.018 kg. Assume that the soda is kept in a foam container so that heat loss can be ignored, and that the soda has the same specific heat as water. Find the final temperature when all of the ice has melted.</para>
+<note id="eip-id1167065870348"><label/><title>Strategy</title>
+
+<para id="fs-id1167067073249">The ice cubes are at the melting temperature of 0 <m:math>
+ <m:mrow>
+  <m:mtext>°C</m:mtext>
+ </m:mrow>
+</m:math> . Heat is transferred from the soda to the ice for melting. Melting of ice occurs in two steps: first, the phase change occurs and solid (ice) transforms into liquid water at the melting temperature; then, the temperature of this water rises. Melting yields water at 0 <m:math>
+ <m:mrow>
+  <m:mtext>°C</m:mtext>
+ </m:mrow>
+</m:math>, so more heat is transferred from the soda to this water until they are the same temperature. Since the amount of heat leaving the soda is the same as the amount of heat transferred to the ice.</para>
+<para id="fs-id1167063649141"><equation id="fs-id1164565562161"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>Q</m:mi>
+   <m:mrow>
+    <m:mi>i</m:mi><m:mi>c</m:mi><m:mi>e</m:mi>
+   </m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mo>−</m:mo><m:msub>
+   <m:mi>Q</m:mi>
+   <m:mrow>
+    <m:mi>s</m:mi><m:mi>o</m:mi><m:mi>d</m:mi><m:mi>a</m:mi>
+   </m:mrow>
+  </m:msub>
+
+ </m:mrow>
+</m:math> </equation></para>
+<para id="fs-id1167061203000">The heat transferred to the ice goes partly toward the phase change (melting), and partly toward raising the temperature after melting. Recall from the last section that the relationship between heat and temperature change is  <m:math>
+ <m:mrow>
+  <m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>c</m:mi><m:mi>Δ</m:mi><m:mi>T</m:mi>
+ </m:mrow>
+</m:math> . For the ice, the temperature change is  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>T</m:mi>
+   <m:mi>f</m:mi>
+  </m:msub>
+  <m:mo>−</m:mo><m:mn>0</m:mn><m:mspace width="0.25em"/><m:mtext>°C</m:mtext>
+ </m:mrow>
+</m:math> . The total heat transferred to the ice is therefore</para>
+<para id="fs-id1167066960191"><equation id="fs-id1164565628501"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>Q</m:mi>
+   <m:mrow>
+    <m:mi>i</m:mi><m:mi>c</m:mi><m:mi>e</m:mi>
+   </m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>m</m:mi>
+   <m:mrow>
+    <m:mi>i</m:mi><m:mi>c</m:mi><m:mi>e</m:mi>
+   </m:mrow>
+  </m:msub>
+  <m:msub>
+   <m:mi>L</m:mi>
+   <m:mi>f</m:mi>
+  </m:msub>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>m</m:mi>
+   <m:mrow>
+    <m:mi>i</m:mi><m:mi>c</m:mi><m:mi>e</m:mi>
+   </m:mrow>
+  </m:msub>
+  <m:msub>
+   <m:mi>c</m:mi>
+   <m:mi>w</m:mi>
+  </m:msub>
+  <m:mo stretchy="false">(</m:mo><m:msub>
+   <m:mi>T</m:mi>
+   <m:mi>f</m:mi>
+  </m:msub>
+  <m:mo>−</m:mo><m:mn>0</m:mn><m:mspace width="0.25em"/><m:mtext>°C</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </equation></para><para id="fs-id1167063465793">Since the soda doesn’t change phase, but only temperature, the heat given off by the soda is</para>
+<para id="fs-id1167067311476"><equation id="fs-id1164566159671"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>Q</m:mi>
+   <m:mrow>
+    <m:mi>s</m:mi><m:mi>o</m:mi><m:mi>d</m:mi><m:mi>a</m:mi></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>m</m:mi>
+   <m:mrow>
+    <m:mi>s</m:mi><m:mi>o</m:mi><m:mi>d</m:mi><m:mi>a</m:mi></m:mrow>
+  </m:msub>
+  <m:msub>
+   <m:mi>c</m:mi>
+   <m:mi>w</m:mi>
+  </m:msub>
+  <m:mo stretchy="false">(</m:mo><m:msub>
+   <m:mi>T</m:mi>
+   <m:mi>f</m:mi>
+  </m:msub>
+  <m:mo>−</m:mo><m:mn>20</m:mn><m:mspace width="0.3em"/><m:mtext>°C</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow>
+</m:math> </equation></para><para id="fs-id1167066975639">Since  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>Q</m:mi>
+   <m:mrow>
+    <m:mi>i</m:mi><m:mi>c</m:mi><m:mi>e</m:mi>
+   </m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mo>−</m:mo><m:msub>
+   <m:mi>Q</m:mi>
+   <m:mrow>
+    <m:mi>s</m:mi><m:mi>o</m:mi><m:mi>d</m:mi><m:mi>a</m:mi>
+   </m:mrow>
+  </m:msub>
+
+ </m:mrow>
+</m:math>,</para>
+<para id="fs-id1167066839885"><equation id="fs-id1164565312904"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>m</m:mi>
+   <m:mrow>
+    <m:mi>i</m:mi><m:mi>c</m:mi><m:mi>e</m:mi>
+   </m:mrow>
+  </m:msub>
+  <m:msub>
+   <m:mi>L</m:mi>
+   <m:mi>f</m:mi>
+  </m:msub>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>m</m:mi>
+   <m:mrow>
+    <m:mi>i</m:mi><m:mi>c</m:mi><m:mi>e</m:mi>
+   </m:mrow>
+  </m:msub>
+  <m:msub>
+   <m:mi>c</m:mi>
+   <m:mi>w</m:mi>
+  </m:msub>
+  <m:mo stretchy="false">(</m:mo><m:msub>
+   <m:mi>T</m:mi>
+   <m:mi>f</m:mi>
+  </m:msub>
+  <m:mo>−</m:mo><m:mn>0</m:mn><m:mspace width="0.3em"/><m:mtext>°C</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:msub>
+   <m:mi>m</m:mi>
+   <m:mrow>
+    <m:mi>s</m:mi><m:mi>o</m:mi><m:mi>d</m:mi><m:mi>a</m:mi>
+   </m:mrow>
+  </m:msub>
+  <m:msub>
+   <m:mi>c</m:mi>
+   <m:mi>w</m:mi>
+  </m:msub>
+  <m:mo stretchy="false">(</m:mo><m:msub>
+   <m:mi>T</m:mi>
+   <m:mi>f</m:mi>
+  </m:msub>
+  <m:mo>−</m:mo><m:mn>20</m:mn><m:mspace width="0.3em"/><m:mtext>°C</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </equation></para><para id="fs-id1167063503951">Bringing all terms involving  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>T</m:mi>
+   <m:mi>f</m:mi>
+  </m:msub>
+
+ </m:mrow>
+</m:math> to the left-hand-side of the equation, and all other terms to the right-hand-side, we can solve for  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>T</m:mi>
+   <m:mi>f</m:mi>
+  </m:msub>
+
+ </m:mrow>
+</m:math> .</para>
+<para id="fs-id1167067021714"><equation id="fs-id1164565974563"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>T</m:mi>
+   <m:mi>f</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msub>
+     <m:mi>m</m:mi>
+     <m:mrow>
+      <m:mi>s</m:mi><m:mi>o</m:mi><m:mi>d</m:mi><m:mi>a</m:mi>
+     </m:mrow>
+    </m:msub>
+    <m:msub>
+     <m:mi>c</m:mi>
+     <m:mi>w</m:mi>
+    </m:msub>
+    <m:mo stretchy="false">(</m:mo><m:mn>20</m:mn><m:mspace width="0.3em"/><m:mtext>°C</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:msub>
+     <m:mi>m</m:mi>
+     <m:mrow>
+      <m:mi>i</m:mi><m:mi>c</m:mi><m:mi>e</m:mi>
+     </m:mrow>
+    </m:msub>
+    <m:msub>
+     <m:mi>L</m:mi>
+     <m:mi>f</m:mi>
+    </m:msub>
+
+   </m:mrow>
+   <m:mrow>
+    <m:mo stretchy="false">(</m:mo><m:msub>
+     <m:mi>m</m:mi>
+     <m:mrow>
+      <m:mi>s</m:mi><m:mi>o</m:mi><m:mi>d</m:mi><m:mi>a</m:mi>
+     </m:mrow>
+    </m:msub>
+    <m:mo>+</m:mo><m:msub>
+     <m:mi>m</m:mi>
+     <m:mrow>
+      <m:mi>i</m:mi><m:mi>c</m:mi><m:mi>e</m:mi>
+     </m:mrow>
+    </m:msub>
+    <m:mo stretchy="false">)</m:mo><m:msub>
+     <m:mi>c</m:mi>
+     <m:mi>w</m:mi>
+    </m:msub>
+
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </equation>
+</para>
+<para id="fs-id1167067201350">Substituting the known quantities</para><para id="fs-id1167063748606"><equation id="fs-id1164566119822"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>T</m:mi>
+   <m:mi>f</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mn>0.25</m:mn><m:mspace width="0.3em"/><m:mtext> kg</m:mtext>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mn>4186</m:mn><m:mspace width="0.3em"/><m:mtext> J/kg</m:mtext><m:mo>⋅</m:mo><m:mtext>°C</m:mtext>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mn>20</m:mn><m:mspace width="0.3em"/><m:mtext>°C</m:mtext>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mn>0.018</m:mn><m:mspace width="0.3em"/><m:mtext> kg</m:mtext>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mtext>334,000 J/kg</m:mtext>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+   <m:mrow>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mtext>0</m:mtext><m:mtext>.25 kg + 0</m:mtext><m:mtext>.018 kg</m:mtext>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mn>4186</m:mn><m:mspace width="0.3em"/><m:mtext> K/kg</m:mtext><m:mo>⋅</m:mo><m:mtext>°C</m:mtext>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>13</m:mn><m:mspace width="0.3em"/><m:mtext>°C</m:mtext>
+ </m:mrow>
+</m:math> </equation>
+</para></note></problem>
+<commentary id="fs-id1167066790786">
+<title>Discussion</title>
+<para id="fs-id1167066800171">This example shows the enormous energies involved during a phase change. The mass of the ice is about 7 percent the mass of the soda, yet it causes a noticeable change in the soda’s temperature.</para>
+<note id="fs-id1167067214929" class="tips-for-success">
+
+<para id="fs-id1167067103294">If the ice were not already at the freezing point, we would also have to factor in how much energy would go into raising its temperature up to 0 <m:math>
+ <m:mrow>
+  <m:mtext>°C</m:mtext>
+ </m:mrow>
+</m:math>, before the phase change occurs. This would be a realistic scenario, because the temperature of ice is often below 0 <m:math>
+ <m:mrow>
+  <m:mtext>°C</m:mtext>
+ </m:mrow>
+</m:math> .</para>
+</note>
+</commentary>
+</exercise>
+</note></section><section id="fs-id1167067198936" class="practice-problems"><title>Practice Problems</title><exercise id="fs-id1167066972727">
+<problem id="fs-id1167067308073">
+<para id="fs-id1164567764282">How much energy is needed to melt 2.00 kg of ice at 0 °C ?</para>
+<list id="fs-id1164567309614" list-type="enumerated" number-style="lower-alpha">
+<item>334 kJ</item>
+<item>336 kJ</item>
+<item>167 kJ</item>
+<item>668 kJ</item></list>
+<!--<para id="fs-id1167063574108">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex051"/>
+</para>-->
+</problem>
+</exercise>
+<exercise id="fs-id1167063647124">
+<problem id="fs-id1167067075451">
+<para id="fs-id1167067240295">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex052"/>
+</para>
+</problem>
+</exercise>
+</section><section id="fs-id1167067314110" class="check-understanding">
+<title>Check Your Understanding</title>
+<note id="fs-id1167067040022" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066956821">Use these questions to assess student achievement of the section’s learning objectives. If students are struggling with a specific objective, these questions will help identify which and direct students to the relevant content.</para>
+</note>
+<exercise id="fs-id1167063743204" class="os-exercise">
+<problem id="fs-id1167063720842">
+<para id="fs-id1167063588418">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex053"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167063470163" class="os-exercise">
+<problem id="fs-id1167067252473">
+<para id="fs-id1164567536443">In which phases of matter are molecules capable of changing their positions?</para>
+<list id="fs-id1164567350344" list-type="enumerated" number-style="lower-alpha">
+<item>gas, liquid, solid</item>
+<item>liquid, plasma, solid</item>
+<item>liquid, gas, plasma</item>
+<item>plasma, gas, solid</item></list>
+<!--<para id="fs-id1167067249676">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex054"/>
+</para>-->
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167067007599" class="summary">
+<title>Section Summary</title>
+<list id="fs-id1167063871169">
+<item>Most substances have four distinct phases: solid, liquid, gas, and plasma.</item>
+<item>Gas is the most energetic state and solid is the least.</item>
+<item>During a phase change, a substance undergoes transition to a higher energy state when heat is added, or to a lower energy state when heat is removed.</item>
+<item>Heat is added to a substance during melting and vaporization.</item>
+<item>Latent heat is released by a substance during condensation and freezing.</item>
+<item>Phase changes occur at fixed temperatures called boiling and freezing (or melting) points for a given substance.</item>
+</list>
+</section>
+
+<section id="fs-id1167067140759" class="key-equations"><title>Key Equations</title><table id="fs-id1167067032952" class="unnumbered unstyled" summary="Table with two columns and two rows. The top left cell reads “Heat transfer for melting/freezing phase change,” with the top right cell showing the equation for heat equal to the product of a substance’s mass and its latent heat of fusion. The lower left cell reads “Heat transfer for vaporization/condensation phase change,” with the lower right cell showing the equation for heat equal to the product of a substance’s mass and its latent heat of vaporization.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" align="left" colname="c1"/>
+<colspec colnum="2" align="left" colname="c2"/>
+<tbody>
+<row>
+<entry>heat transfer for melting/freezing phase change</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:msub>
+   <m:mi>L</m:mi>
+   <m:mi>f</m:mi>
+  </m:msub>
+
+ </m:mrow>
+</m:math> </entry>
+</row>
+
+<row>
+<entry>heat transfer for vaporization/condensation phase change</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:msub>
+   <m:mi>L</m:mi>
+   <m:mi>v</m:mi>
+  </m:msub>
+
+ </m:mrow>
+</m:math> </entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section><section id="fs-id1167067152132" class="concept"><title>Concept Items</title><exercise id="fs-id1167067005890" class="os-exercise">
+<problem id="fs-id1167067185604">
+<para id="fs-id1167067011989">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex055"/>
+</para>
+</problem>
+</exercise>
+
+<exercise id="eip-id1166849315181" class="os-exercise">
+<problem id="eip-id1166849315185">
+<para id="fs-id1164567094426">In which two phases of matter do atoms and molecules have the most distance between them?</para>
+<list id="fs-id1164566043775" list-type="enumerated" number-style="lower-alpha">
+<item>gas and solid</item>
+<item>gas and liquid</item>
+<item>gas and plasma</item>
+<item>liquid and plasma</item></list>
+<!--<para id="eip-id1166847994395">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch11-ot046"/>
+</para>-->
+</problem>
+</exercise></section><section id="fs-id1167066828475" class="critical-thinking">
+<title>Critical Thinking</title>
+<exercise id="fs-id1167063596723" class="os-exercise">
+<problem id="fs-id1167063499024">
+<para id="fs-id1164567446269">Assume 1.0 kg of ice at 0 °C starts to melt. It absorbs 300 kJ of energy by heat. What is the temperature of the water afterwards?</para>
+<list id="fs-id1164567637811" list-type="enumerated" number-style="lower-alpha">
+<item>10 °C</item>
+<item>20 °C</item>
+<item>5 °C</item>
+<item>0 °C</item></list>
+<!--<para id="fs-id1167063484260">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex056"/>
+</para>-->
+</problem>
+</exercise>
+</section>
+
+<section id="fs-id1167066967627" class="problems">
+<title>Problems</title>
+<exercise id="fs-id1167066975327" class="os-exercise">
+<problem id="fs-id1167067295242">
+<para id="fs-id1164566341680">How much energy would it take to heat 1.00 kg of ice at 0 °C to water at 15.0 °C?</para>
+<list id="fs-id1164567502840" list-type="enumerated" number-style="lower-alpha">
+<item>271 kJ</item>
+<item>334 kJ</item>
+<item>62.8 kJ</item>
+<item>397 kJ</item></list>
+<!--<para id="fs-id1167063774892">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex057"/>
+</para>-->
+</problem>
+</exercise>
+<exercise id="fs-id1167067248945" class="os-exercise">
+<problem id="fs-id1167066954381">
+<para id="fs-id1164567002703">Ice cubes are used to chill a soda with a mass m<sub>soda</sub> = 0.300 kg at 15.0 °C. The ice is at 0 °C, and the total mass of the ice cubes is 0.020 kg. Assume that the soda is kept in a foam container so that heat loss can be ignored, and that the soda has the same specific heat as water. Find the final temperature when all ice has melted.</para>
+<list id="fs-id1164565450308" list-type="enumerated" number-style="lower-alpha">
+<item>19.02 °C</item>
+<item>90.3 °C</item>
+<item>0.11 °C</item>
+<item>9.03 °C</item></list>
+<!--<para id="fs-id1167067013826">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex058"/>
+</para>-->
+</problem>
+</exercise>
+</section>
+
+
+
+
+
+<section id="fs-id1167067190384" class="multiple-choice"><title>Test Prep Multiple Choice</title><exercise id="fs-id1167067053516" class="os-exercise">
+<problem id="fs-id1167067314814">
+<para id="fs-id1167067208357">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex059"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167063828459" class="os-exercise">
+<problem id="fs-id1167063459070">
+<para id="fs-id1164567293436">Which substance has the largest latent heat of fusion?</para>
+<list id="fs-id1164567199389" list-type="enumerated" number-style="lower-alpha">
+<item>gold</item>
+<item>water</item>
+<item>mercury</item>
+<item>tungsten</item></list>
+<!--<para id="fs-id1167066846170">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex060"/>
+</para>-->
+</problem>
+</exercise>
+
+<exercise id="eip-id1166847528395" class="os-exercise">
+<problem id="eip-id1166847528399">
+<para id="fs-id1164567197767">In which phase changes does matter undergo a transition to a more energetic state?</para>
+<list id="fs-id1164568062346" list-type="enumerated" number-style="lower-alpha">
+<item>freezing and vaporization</item>
+<item>melting and sublimation</item>
+<item>melting and vaporization</item>
+<item>melting and freezing</item></list>
+<!--<para id="eip-id1166847528401">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch11-ot047"/>
+</para>-->
+</problem>
+</exercise>
+
+<exercise id="eip-id1166849287009" class="os-exercise">
+<problem id="eip-id1166849748732">
+<para id="eip-id1166849748734">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch11-ot052"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167061177831" class="short-answer">
+<title>Test Prep Short Answer</title>
+<exercise id="fs-id1167066958772" class="os-exercise">
+<problem id="fs-id1167063518991">
+<para id="fs-id1164567482056">Upon what does the required amount of heat removed to freeze a sample of a substance depend?</para>
+<list id="fs-id1164566239414" list-type="enumerated" number-style="lower-alpha">
+<item>The mass of the substance and its latent heat of vaporization</item>
+<item>The mass of the substance and its latent heat of fusion</item>
+<item>The mass of the substance and its latent heat of sublimation</item>
+<item>The mass of the substance only</item></list>
+<!--<para id="fs-id1167063466450">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex061"/>
+</para>-->
+</problem>
+</exercise>
+<exercise id="fs-id1167067021107" class="os-exercise"><problem id="fs-id1167067210121">
+<para id="fs-id1167063632672">
+What do latent heats, L<sub>f</sub> and L<sub>v</sub>, depend on?
+</para>
+<list id="eip-idm354867600" list-type="enumerated" number-style="lower-alpha"><item>L<sub>f</sub> and L<sub>v</sub> depend on the forces between the particles in the substance.</item>
+<item>L<sub>f</sub> and L<sub>v</sub> depend on the mass of the substance.</item>
+<item>L<sub>f</sub> and L<sub>v</sub> depend on the volume of the substance.</item>
+<item>L<sub>f</sub> and L<sub>v</sub> depend on the temperature of the substance.</item></list></problem>
+</exercise><exercise id="fs-id1167067044298" class="os-exercise">
+<problem id="fs-id1167063798559">
+<para id="fs-id1164565315423">How much energy is required to melt 7.00 kg a block of aluminum that is at its melting point? (Latent heat of fusion of aluminum is 380 kJ/kg.)</para>
+<list id="fs-id1164567382601" list-type="enumerated" number-style="lower-alpha">
+<item>54.3 kJ</item>
+<item>2.66 kJ</item>
+<item>0.0184 kJ</item>
+<item>2.66×10<sup>3</sup> kJ</item></list>
+<!--<para id="fs-id1167067111689">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex063"/>
+</para>-->
+</problem>
+</exercise>
+<exercise id="fs-id1167063576636" class="os-exercise">
+<problem id="fs-id1167067106292">
+<para id="fs-id1164567262589">A 3.00 kg sample of a substance is at its boiling point. If 5,360 kJ of energy are enough to boil away the entire substance, what is its latent heat of vaporization?</para>
+<list id="fs-id1164565602728" list-type="enumerated" number-style="lower-alpha">
+<item>2,685 kJ/kg</item>
+<item>3,580 kJ/kg</item>
+<item>895 kJ/kg</item>
+<item>1,790 kJ/kg</item></list>
+<!--<para id="fs-id1167067254484">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex064"/>
+</para>-->
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167067112200" class="performance"><title>Performance Task</title><exercise id="fs-id1167067317523"><problem id="fs-id1167067016279">
+<para id="fs-id1167067021236">You have been tasked with designing a baking pan that will bake batter the fastest. There are four materials available for you to test.</para>
+<list id="fs-id1167066863353">
+
+<item>Four pans of similar design, consisting of aluminum, iron (steel), copper, and glass</item>
+<item>Oven or similar heating source</item>
+<item>Device for measuring high temperatures</item>
+<item>Balance for measuring mass</item>
+</list>
+<para id="fs-id1164564486733">Instructions</para>
+<list id="fs-id1167067275833" list-type="enumerated" number-style="arabic">
+<title>Procedure</title>
+<item>Design a safe experiment to test the specific heat of each material (i.e., no extreme temperatures should be used)</item>
+<item>Write down the materials needed for your experiment and the procedure you will follow. Make sure that you include every detail, so that the experiment can be repeated by others.</item>
+<item>Carry out the experiment and record any data collected.</item>
+<item>Review your results and make a recommendation as to which metal should be used for the pan.
+<list id="fs-id1167066953208" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>What physical quantities do you need to measure to determine the specific heats for the different materials?</item>
+<item>How does the glass differ from the metals in terms of thermal properties?</item>
+<item>What are your sources of error?</item>
+</list></item>
+</list>
+</problem>
+</exercise><note id="fs-id1167067091421" class="os-teacher">
+<title>Teacher Support</title>
+<list id="fs-id1167061214670">
+<item>
+<span>NGSS-HS-PS3-3:</span>
+<span>Design, build, and refine a device that works within given constraints to convert one form of energy into another form of energy.</span>
+<list id="fs-id1167066959318" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>The specific heat of aluminum is greatest, so that the aluminum pan will take longest to reach a given temperature. Copper has the lowest specific heat, and so will reach a given temperature fastest.</item>
+<item>Compare the time it takes for the glass pan and the aluminum pan to reach a specific temperature. Although their specific heats are comparable, the thermal conductivity is greater in aluminum, making it heat faster than the glass, which is an insulator.</item>
+</list>
+</item>
+</list>
+</note>
+</section>
+<section id="fs-id1167067074473" class="extended-response">
+<title>Test Prep Extended Response</title>
+<exercise id="fs-id1167067146143" class="os-exercise">
+<problem id="fs-id1167067152071">
+<para id="fs-id1164565442276">True or falseYou have an ice cube floating in a glass of water with a thin thread resting across the cube. If you cover the ice cube and thread with a layer of salt, they will stick together, so that you are able to lift the ice-cube when you pick up the thread.</para>
+<list id="fs-id1164565645678" list-type="enumerated" number-style="lower-alpha">
+<item>True</item>
+<item>False</item></list>
+<!--<para id="fs-id1167066794007">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex065"/>
+</para>-->
+</problem>
+</exercise>
+<exercise id="fs-id1167066833202" class="os-exercise">
+<problem id="fs-id1167067068634">
+<para id="fs-id1164566126250">Suppose the energy required to freeze 0.250 kg of water were added to the same mass of water at an initial temperature of 1.0 °C. What would be the final temperature of the water?</para>
+<list id="fs-id1164567567557" list-type="enumerated" number-style="lower-alpha">
+<item>-69.8 °C</item>
+<item>79.8 °C</item>
+<item>-78.8 °C</item>
+<item>80.8 °C</item></list>
+<!--<para id="fs-id1167067191128">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch11-ex066"/>
+</para>-->
+</problem>
+</exercise>
+</section>
+</content>
+
+<glossary>
+<definition id="fs-id1167063451763">
+<term>condensation</term>
+<meaning id="fs-id1167067064077"> phase change from gas to liquid</meaning></definition>
+<definition id="fs-id1167066878006">
+<term>freezing</term>
+<meaning id="fs-id1167067019941"> phase change from liquid to solid</meaning></definition>
+<definition id="fs-id1167067272771">
+<term>latent heat</term>
+<meaning id="fs-id1167063572396"> heat related to the phase change of a substance rather than a change of temperature</meaning>
+</definition>
+<definition id="fs-id1167063540997">
+<term>latent heat of fusion</term>
+<meaning id="fs-id1167067036615"> amount of heat needed to cause a phase change between solid and liquid</meaning>
+</definition>
+<definition id="fs-id1167066875708">
+<term>latent heat of vaporization</term>
+<meaning id="fs-id1167067034379"> amount of heat needed to cause a phase change between liquid and gas</meaning>
+</definition>
+<definition id="fs-id1167066799223">
+<term>melting</term>
+<meaning id="fs-id1167067289614"> phase change from solid to liquid</meaning></definition>
+<definition id="fs-id1167067271472">
+<term>phase change</term>
+<meaning id="fs-id1167067074047"> transition between solid, liquid, or gas states of a substance</meaning>
+</definition>
+<definition id="fs-id1167067111798">
+<term>plasma</term>
+<meaning id="fs-id1167067000177"> ionized gas that is a combination of the negatively charged free electrons and positively charged ions</meaning></definition>
+<definition id="fs-id1167066859479">
+<term>sublimation</term>
+<meaning id="fs-id1167063710591"> phase change from solid to gas</meaning></definition>
+<definition id="fs-id1167067058312">
+<term>vaporization</term>
+<meaning id="fs-id1167063449066"> phase change from liquid to gas</meaning></definition>
+</glossary>
+</document>

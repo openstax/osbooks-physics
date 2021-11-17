@@ -1,0 +1,690 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Position vs. Time Graphs</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54110</md:content-id>
+  <md:title>Position vs. Time Graphs</md:title>
+  <md:abstract/>
+  <md:uuid>6cf03b99-04d9-4a5f-bed4-342eeb0a9732</md:uuid>
+</metadata>
+
+<content>
+    <note id="fs-id1167063512324" class="learning-objectives">
+<label/>
+<title>Section Learning Objectives</title>
+<para id="fs-id1167066960118">By the end of this section, you will be able to do the following:</para>
+<list id="fs-id1167067083238">
+<item>Explain the meaning of slope in position vs. time graphs</item>
+<item>Solve problems using position vs. time graphs</item>
+</list>
+    </note>
+<note id="fs-id1167067127805" class="os-teacher">
+        <title>Teacher Support</title>
+        <para id="fs-id1167066770435">The learning objectives in this section will help your students master the following standards:</para><list id="fs-id1167066845499">
+        <item>
+          (4) Science concepts. The student knows and applies the laws governing motion in a variety of situations. The student is expected to:
+        <list id="fs-id1167066793729"><item><span>(A)</span> <span>generate and interpret graphs and charts describing different types of motion, including the use of real-time technology such as motion detectors or photogates.</span></item>
+
+        </list></item>
+        </list>
+    </note>
+    <section id="keyterms"><title>Section Key Terms</title>
+    <table id="fs-id1167066875920" class="unnumbered unstyled section-key-terms" summary="The list of Key Terms includes: dependent variable, independent variable, and tangent.">
+      <label/>
+      <tgroup cols="3">
+        <tbody>
+          <row>
+            <entry>dependent variable</entry>
+            <entry>independent variable</entry>
+            <entry>tangent</entry>
+          </row>
+                  </tbody>
+      </tgroup>
+    </table></section>
+<note id="fs-id1167067018707" class="os-teacher">
+<title>Teacher Support</title>
+    <para id="fs-id1167067184024"><span>[BL]</span><span>[OL]</span> Describe a scenario, for example, in which you launch a water rocket into the air. It goes up 150 ft, stops, and then falls back to the earth. Have the students assess the situation. Where would they put their zero? What is the positive direction, and what is the negative direction? Have a student draw a picture of the scenario on the board. Then draw a position vs. time graph describing the motion. Have students help you complete the graph. Is the line straight? Is it curved? Does it change direction? What can they tell by looking at the graph?</para>
+<para id="fs-id1167067069726"><span>[AL]</span> Once the students have looked at and analyzed the graph, see if they can describe different scenarios in which the lines would be straight instead of curved? Where the lines would be discontinuous?</para>
+</note>
+<section id="fs-id1167066767084">
+<title>Graphing Position as a Function of Time</title>
+<para id="fs-id1167067216326">A <term class="no-emphasis">graph</term>, like a picture, is worth a thousand words. Graphs not only contain numerical information, they also reveal relationships between physical quantities. In this section, we will investigate <term class="no-emphasis">kinematics</term> by analyzing graphs of <term class="no-emphasis">position</term> over <term class="no-emphasis">time</term>.</para>
+<para id="fs-id1167066879725">Graphs in this text have perpendicular axes, one horizontal and the other vertical. When two physical quantities are plotted against each other, the horizontal axis is usually considered the <term>independent variable</term>, and the vertical axis is the <term>dependent variable</term>. In algebra, you would have referred to the horizontal axis as the <emphasis effect="italics">x</emphasis>-axis and the vertical axis as the <emphasis effect="italics">y</emphasis>-axis. As in <link target-id="Figure_02_03_graph"/>, a straight-line graph has the general form  <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi>
+ </m:mrow>
+</m:math> .</para>
+<para id="fs-id1167066823716">Here <emphasis effect="italics">m</emphasis> is the slope, defined as the rise divided by the run (as seen in the figure) of the straight line. The letter <emphasis effect="italics">b</emphasis> is the <emphasis effect="italics">y</emphasis>-intercept which is the point at which the line crosses the vertical, <emphasis effect="italics">y</emphasis>-axis. In terms of a physical situation in the real world, these quantities will take on a specific significance, as we will see below. (<link target-id="Figure_02_03_graph"/>.)</para>
+<figure id="Figure_02_03_graph">
+<media id="fs-id1167066871009" alt="A line graph is shown. The plotted line has a positive slope. The point of intersection with the y-axis is labeled intercept, b. The distance between the graphed line and the x-axis at the intercept is also labeled b. The line is labeled with the equation y equals m x plus b. The equation slope equals rise over run equals change in x over change in y equals m is also shown.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_02_03_graph.jpg"/>
+</media>
+<caption>The diagram shows a straight-line graph. The equation for the straight line is <emphasis effect="italics">y</emphasis> equals <emphasis effect="italics">mx</emphasis> + <emphasis effect="italics">b</emphasis>.</caption>
+</figure>
+<para id="fs-id1167067052799">In physics, time is usually the independent variable. Other quantities, such as displacement, are said to depend upon it. A graph of position versus time, therefore, would have position on the vertical axis (dependent variable) and time on the horizontal axis (independent variable). In this case, to what would the slope and <emphasis effect="italics">y</emphasis>-intercept refer? Let’s look back at our original example when studying distance and displacement.</para>
+<para id="fs-id1167067041220">The drive to school was 5 km from home. Let’s assume it took 10 minutes to make the drive and that your parent was driving at a constant velocity the whole time. The position versus time graph for this section of the trip would look like that shown in <link target-id="Figure_02_03_position"/>.</para>
+<figure id="Figure_02_03_position">
+<media id="fs-id1167067104108" alt="A line graph of position versus time is shown. The scale on the x-axis is from zero to twelve in increments of one, and is labeled time in minutes. The scale on the y-axis is from zero to twelve in increments of one and is labeled position in kilometers. A line of the equation y equals point five x is graphed and ends at ten minutes.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_02_03_position.jpg"/>
+</media>
+<caption>A graph of position versus time for the drive to school is shown. What would the graph look like if we added the return trip?</caption>
+</figure>
+<para id="fs-id1167063494643">As we said before, <emphasis>d</emphasis><sub>0</sub> = 0 because we call home our <emphasis effect="italics">O</emphasis> and start calculating from there. In <link target-id="Figure_02_03_position"/>, the line starts at <emphasis>d</emphasis> = 0, as well. This is the <emphasis effect="italics">b</emphasis> in our equation for a straight line. Our initial position in a position versus time graph is always the place where the graph crosses the <emphasis effect="italics">x</emphasis>-axis at <emphasis effect="italics">t</emphasis> = 0. What is the slope? The <emphasis effect="italics">rise</emphasis> is the change in position, (i.e., displacement) and the <emphasis effect="italics">run</emphasis> is the change in time. This relationship can also be written
+</para>
+<equation id="eip-251"><label/> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>d</m:mi></m:mstyle>
+   </m:mrow>
+   <m:mrow>
+    <m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+   </m:mrow>
+  </m:mfrac>
+  <m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math>
+</equation><para id="fs-id1167067058690">This relationship was how we defined average velocity. Therefore, the slope in a <emphasis>d</emphasis> versus <emphasis effect="italics">t</emphasis> graph, is the average velocity.</para>
+<note id="fs-id1167066947988" class="tips-for-success">
+
+<para id="fs-id1167066766530">Sometimes, as is the case where we graph both the trip to school and the return trip, the behavior of the graph looks different during different time intervals. If the graph looks like a series of straight lines, then you can calculate the average velocity for each time interval by looking at the slope. If you then want to calculate the average velocity for the entire trip, you can do a weighted average.</para>
+</note>
+<para id="fs-id1167067154300">Let’s look at another example. <link target-id="Figure_02_03_time"/> shows a graph of position versus time for a jet-powered car on a very flat dry lake bed in Nevada.</para>
+<figure id="Figure_02_03_time">
+<media id="fs-id1167066828835" alt="A line graph is shown. The x-axis is labeled time in seconds and has a scale from zero to eight in increments of one. The y-axis is labeled position, d, in meters and has a scale from zero to two thousand four hundred in increments of four hundred. A line is plotted that intersects the following data points: zero, four hundred (labeled d 0 equals four hundred), point five, five hundred twenty-five; and six point four, two thousand (labeled y equals d o plus bar over v times t). The line is labeled Slope equals bar over v equals change in d over change in t. The distance between points point five, five hundred twenty-five and six point four, two thousand is labeled change in t. The distance between points six point four, five hundred twenty-five and six point four, two thousand is labeled change in d.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_02_03_time.jpg"/>
+</media>
+<caption>The diagram shows a graph of position versus time for a jet-powered car on the Bonneville Salt Flats.</caption>
+</figure>
+<para id="fs-id1167067226452">Using the relationship between dependent and independent variables, we see that the slope in the graph in <link target-id="Figure_02_03_time"/> is average velocity, <emphasis>v</emphasis><sub>avg</sub> and the intercept is displacement at time zero—that is, <emphasis>d</emphasis><sub>0</sub>. Substituting these symbols into <emphasis effect="italics">y</emphasis> = <emphasis effect="italics">mx</emphasis> + <emphasis effect="italics">b</emphasis> gives </para>
+<equation id="eip-853"><label/> <m:math>
+ <m:mrow>
+  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>d</m:mi></m:mstyle><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle><m:mi>t</m:mi><m:mo>+</m:mo><m:msub>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>d</m:mi></m:mstyle>
+   <m:mn>0</m:mn>
+  </m:msub>
+
+ </m:mrow>
+</m:math>
+</equation><para id="fs-id1167063511963">or</para>
+<equation id="eip-504"><label/> <m:math>
+ <m:mrow>
+  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>d</m:mi></m:mstyle><m:mo>=</m:mo><m:msub>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>d</m:mi></m:mstyle>
+   <m:mn>0</m:mn>
+  </m:msub>
+  <m:mo>+</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle><m:mi>t</m:mi>
+  <m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math> </equation><para id="fs-id1167067079004">Thus a graph of position versus time gives a general relationship among displacement, velocity, and time, as well as giving detailed numerical information about a specific situation. From the figure we can see that the car has a position of 400 m at <emphasis effect="italics">t</emphasis> = 0 s, 650 m at <emphasis effect="italics">t</emphasis> = 1.0 s, and so on. And we can learn about the object’s velocity, as well.</para>
+<note id="fs-id1167066885564" class="os-teacher">
+<title>Teacher Support</title>
+<note id="fs-id1167066825159" class="teacher-demonstration">
+
+<para id="fs-id1167067044982">Help students learn what different graphs of displacement vs. time look like.</para>
+<para id="fs-id1167066805885">[Visual] Set up a meter stick.</para>
+<list id="fs-id1167067226669" list-type="enumerated" number-style="arabic">
+<item>If you can find a remote control car, have one student record times as you send the car forward along the stick, then backwards, then forward again with a constant velocity.</item>
+<item>Take the recorded times and the change in position and put them together. </item>
+<item>Get the students to coach you to draw a position vs. time graph.</item>
+</list>
+<para id="fs-id1167066782882">Each leg of the journey should be a straight line with a different slope. The parts where the car was going forward should have a positive slope. The part where it is going backwards would have a negative slope. </para>
+<para id="fs-id1167066767793"><span>[OL]</span> Ask if the place that they take as <emphasis effect="italics">zero</emphasis> affects the graph.</para>
+<para id="fs-id1167066878736"><span>[AL]</span> Is it realistic to draw any position graph that starts at rest without some curve in it? Why might we be able to neglect the curve in some scenarios?</para>
+<para id="fs-id1167067150478">[All] Discuss what can be uncovered from this graph. Students should be able to read the net displacement, but they can also use the graph to determine the total distance traveled. Then ask how the speed or velocity is reflected in this graph. Direct students in seeing that the steepness of the line (slope) is a measure of the speed and that the direction of the slope is the direction of the motion. </para>
+<para id="fs-id1167067154452"><span>[AL]</span> Some students might recognize that a curve in the line represents a sort of slope of the slope, a preview of acceleration which they will learn about in the next chapter.</para>
+</note>
+</note>
+<note id="fs-id1167067250582" class="snap-lab"><title>Graphing Motion</title>
+
+<para id="fs-id1167067099152">In this activity, you will release a ball down a ramp and graph the ball’s displacement vs. time.</para>
+
+<list id="eip-id1167066807005" class="warnings">
+
+<item>Choose an open location with lots of space to spread out so there is less chance for tripping or falling due to rolling balls.</item>
+</list>
+
+<list id="fs-id1167066775830" class="materials">
+<item>1 ball</item>
+<item>1 board</item>
+<item>2 or 3 books</item>
+<item>1 stopwatch</item>
+<item>1 tape measure</item>
+<item>6 pieces of masking tape</item>
+<item>1 piece of graph paper</item>
+<item>1 pencil</item>
+</list><list id="fs-id1167066863175" list-type="enumerated" number-style="arabic"><title>Procedure</title>
+<item>Build a ramp by placing one end of the board on top of the stack of books. Adjust location, as necessary, until there is no obstacle along the straight line path from the bottom of the ramp until at least the next 3 m.</item>
+<item>Mark distances of 0.5 m, 1.0 m, 1.5 m, 2.0 m, 2.5 m, and 3.0 m from the bottom of the ramp. Write the distances on the tape.</item>
+<item>Have one person take the role of the experimenter. This person will release the ball from the top of the ramp. If the ball does not reach the 3.0 m mark, then increase the incline of the ramp by adding another book. Repeat this Step as necessary.</item>
+<item>Have the experimenter release the ball. Have a second person, the timer, begin timing the trial once the ball reaches the bottom of the ramp and stop the timing once the ball reaches 0.5 m. Have a third person, the recorder, record the time in a data table.</item>
+<item>Repeat Step 4, stopping the times at the distances of 1.0 m, 1.5 m, 2.0 m, 2.5 m, and 3.0 m from the bottom of the ramp.</item>
+<item>Use your measurements of time and the displacement to make a position vs. time graph of the ball’s motion.</item>
+<item>Repeat Steps 4 through 6, with different people taking on the roles of experimenter, timer, and recorder. Do you get the same measurement values regardless of who releases the ball, measures the time, or records the result? Discuss possible causes of discrepancies, if any.</item></list><exercise id="fs-id1167067013013" class="os-exercise grasp-check unnumbered">
+
+        <problem id="fs-id1167066793984">
+          <para id="fs-id1167066839152">
+            <link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex049"/>
+          </para>
+        </problem>
+      </exercise>
+    </note><note id="fs-id1167066867401" class="os-teacher">
+<title>Teacher Support</title>
+    <para id="fs-id1167066824074"><span>[BL]</span><span>[OL]</span> Emphasize that the motion in this lab is the motion of the ball as it rolls along the floor. Ask students where there zero should be.</para>
+<para id="fs-id1167066771064"><span>[AL]</span> Ask students what the graph would look like if they began timing at the top versus the bottom of the ramp. Why would the graph look different? What might account for the difference?</para><para id="eip-886"><span>[BL]</span><span>[OL]</span> Have the students compare the graphs made with different individuals taking on different roles. Ask them to determine and compare average speeds for each interval. What were the absolute differences in speeds, and what were the percent differences? Do the differences appear to be random, or are there systematic differences? Why might there be systematic differences between the two sets of measurements with different individuals in each role?</para><para id="eip-967"><span>[BL]</span><span>[OL]</span> Have the students compare the graphs made with different individuals taking on different roles. Ask them to determine and compare average speeds for each interval. What were the absolute differences in speeds, and what were the percent differences? Do the differences appear to be random, or are there systematic differences? Why might there be systematic differences between the two sets of measurements with different individuals in each role?</para></note>
+<section id="fs-id1167066880108">
+<title>Solving Problems Using Position vs. Time Graphs</title>
+<para id="fs-id1167067111205">So how do we use graphs to solve for things we want to know like velocity?</para>
+<note id="fs-id1167066847982" class="worked-example">
+
+<title>Using Position–Time Graph to Calculate Average Velocity: Jet Car</title>
+<exercise id="fs-id1167066829314" class="02-ex050 unnumbered"><label/>
+    <problem id="fs-id1167067006681">
+<para id="fs-id1167067275480">Find the average velocity of the car whose position is graphed in <link target-id="Figure_02_03_time" class="has-default-text">Figure 1.13</link>.</para>
+        <note id="fs-id1167067194773"><label/><title>Strategy</title>
+<para id="fs-id1167066783636">The slope of a graph of <emphasis effect="italics">d</emphasis> vs. <emphasis effect="italics">t</emphasis> is average velocity, since slope equals rise over run.</para>
+<equation id="fs-id1167066833211"><label/> <m:math>
+ <m:mrow>
+  <m:mtext>slope =</m:mtext><m:mfrac>
+   <m:mrow>
+    <m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>d</m:mi></m:mstyle>
+   </m:mrow>
+   <m:mrow>
+    <m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+ </m:mrow>
+</m:math> </equation>
+<para id="eip-id1167064937617">Since the slope is constant here, any two points on the graph can be used to find the slope.</para></note></problem>
+<solution id="fs-id1167066854117"><label/>
+<title>Solution</title>
+<list id="fs-id1167067041644" list-type="enumerated" number-style="arabic"><item>Choose two points on the line. In this case, we choose the points labeled on the graph: (6.4 s, 2000 m) and (0.50 s, 525 m). (Note, however, that you could choose any two points.)</item>
+<item>Substitute the <emphasis>d</emphasis> and <emphasis effect="italics">t</emphasis> values of the chosen points into the equation. Remember in calculating change (Δ) we always use final value minus initial value.
+<equation id="fs-id1164566540759"> <m:math>
+ <m:mrow>
+  <m:mtable>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center" columnalign="right">
+     <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+    </m:mtd>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd rowalign="center" columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>d</m:mi></m:mstyle>
+       </m:mrow>
+       <m:mrow>
+        <m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd rowalign="center" columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mn>2000</m:mn><m:mspace width="0.3em"/><m:mtext> m</m:mtext><m:mo>−</m:mo><m:mn>525</m:mn><m:mspace width="0.3em"/><m:mtext> m</m:mtext>
+       </m:mrow>
+       <m:mrow>
+        <m:mn>6.4</m:mn><m:mspace width="0.3em"/><m:mtext> s</m:mtext><m:mo>−</m:mo><m:mn>0.50</m:mn><m:mspace width="0.3em"/><m:mtext> s</m:mtext>
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd rowalign="center" columnalign="left">
+     <m:mrow>
+      <m:mn>250</m:mn><m:mspace width="0.3em"/><m:mtext> m/s</m:mtext>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> </equation></item>
+</list></solution>
+<commentary id="fs-id1167066997870">
+<title>Discussion</title>
+<para id="fs-id1167067196789">This is an impressively high land speed (900 km/h, or about 560 mi/h): much greater than the typical highway speed limit of 27 m/s or 96 km/h, but considerably shy of the record of 343 m/s or 1,234 km/h, set in 1997.</para>
+</commentary>
+</exercise></note>
+<note id="fs-id1167066970840" class="os-teacher">
+<title>Teacher Support</title>
+    <para id="fs-id1167066836138">If the graph of position is a straight line, then the only thing students need to know to calculate the average velocity is the slope of the line, rise/run. They can use whichever points on the line are most convenient.</para>
+</note>
+<para id="fs-id1167067086654">But what if the graph of the position is more complicated than a straight line? What if the object speeds up or turns around and goes backward? Can we figure out anything about its velocity from a graph of that kind of motion? Let’s take another look at the jet-powered car. The graph in <link target-id="Figure_02_03_jet"/> shows its motion as it is getting up to speed after starting at rest. Time starts at zero for this motion (as if measured with a stopwatch), and the displacement and velocity are initially 200 m and 15 m/s, respectively.</para>
+<figure id="Figure_02_03_jet">
+<media id="fs-id1167063917611" alt="A line graph titled Jet Car Displacement is shown. The x-axis is labeled time, t, in seconds and has a scale from zero to forty on increments of ten. The y-axis is labeled displacement, x, in meters and has a scale from zero to three thousand five hundred in increments of five hundred. The following approximate data points are plotted, resulting in a line that curves upward: eight, two hundred fifty; ten, five hundred; fifteen, one thousand; twenty, one thousand five hundred; twenty-five, two thousand; thirty, three thousand. A right triangle is drawn at points eight, two hundred fifty; twelve, two hundred fifty, and twelve seven hundred fifty. The legs are labeled change in tp and change in dp. Point ten, five hundred is labeled P. Another right triangle is drawn at points twenty, one thousand five hundred; thirty, one thousand five hundred, and thirty, three thousand. The legs are labeled change in tq and change in dq. Point twenty-five, two thousand is labeled Q.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_02_03_jet.jpg"/>
+</media>
+<caption>The diagram shows a graph of the position of a jet-powered car during the time span when it is speeding up. The slope of a distance versus time graph is velocity. This is shown at two points. Instantaneous velocity at any point is the slope of the tangent at that point.</caption>
+</figure>
+<figure id="Figure_02_03_airforce">
+<media id="fs-id1167066948168" alt="A photograph of a United States Air Force jet car is shown speeding down a track. Smoke is billowing from the back end.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_02_03_airforce.jpg"/>
+</media>
+<caption>A U.S. Air Force jet car speeds down a track. (Matt Trostle, Flickr)</caption>
+</figure>
+<para id="fs-id1167067259390">The graph of position versus time in <link target-id="Figure_02_03_jet"/> is a curve rather than a straight line. The slope of the curve becomes steeper as time progresses, showing that the velocity is increasing over time. The slope at any point on a position-versus-time graph is the instantaneous velocity at that point. It is found by drawing a straight line <term>tangent</term> to the curve at the point of interest and taking the slope of this straight line. Tangent lines are shown for two points in <link target-id="Figure_02_03_jet"/>. The average velocity is the net displacement divided by the time traveled.</para>
+<note id="fs-id1167066845021" class="worked-example">
+
+<title>Using Position–Time Graph to Calculate Average Velocity: Jet Car, Take Two</title>
+<exercise id="fs-id1167063772233" class="02-ex051 unnumbered"><label/>
+
+    <problem id="fs-id1167067042560">
+<para id="fs-id1167067154217">Calculate the instantaneous velocity of the jet car at a time of 25 s by finding the slope of the tangent line at point Q in <link target-id="Figure_02_03_jet" class="has-default-text"/>.</para>
+        <note id="fs-id1167066962261"><label/><title>Strategy</title>
+<para id="fs-id1167067108286">The slope of a curve at a point is equal to the slope of a straight line tangent to the curve at that point. </para>
+            </note>
+    </problem>
+<solution id="fs-id1167063518872">
+<label/>
+<title>Solution</title>
+<list id="fs-id1167066953574" list-type="enumerated" number-style="arabic">
+<item>Find the tangent line to the curve at  <m:math>
+ <m:mrow>
+  <m:mi>t</m:mi><m:mo>=</m:mo><m:mn>25</m:mn><m:mspace width="0.3em"/><m:mtext> s</m:mtext>
+ </m:mrow>
+</m:math> .</item>
+<item>Determine the endpoints of the tangent. These correspond to a position of 1,300 m at time 19 s and a position of 3120 m at time 32 s.</item>
+<item>Plug these endpoints into the equation to solve for the slope, <emphasis>v</emphasis>.
+<equation id="fs-id1164566888045"> <m:math>
+ <m:mrow>
+  <m:mtable>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center" columnalign="right">
+     <m:mrow>
+      <m:mtext>slope</m:mtext>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd rowalign="center">
+     <m:mrow>
+      <m:mtext>=</m:mtext>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd rowalign="center" columnalign="left">
+     <m:mrow>
+      <m:msub>
+       <m:mi>v</m:mi>
+       <m:mi>Q</m:mi>
+      </m:msub>
+      <m:mo>=</m:mo><m:mfrac>
+       <m:mrow>
+        <m:mtext>Δ</m:mtext><m:msub>
+         <m:mi>d</m:mi>
+         <m:mi>Q</m:mi>
+        </m:msub>
+
+       </m:mrow>
+       <m:mrow>
+        <m:mtext>Δ</m:mtext><m:msub>
+         <m:mi>t</m:mi>
+         <m:mi>Q</m:mi>
+        </m:msub>
+
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center">
+     <m:mrow>
+      <m:mtext> =</m:mtext>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd rowalign="center" columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mo stretchy="false">(</m:mo><m:mn>3120</m:mn><m:mo>−</m:mo><m:mn>1300</m:mn><m:mo stretchy="false">)</m:mo><m:mtext> m</m:mtext>
+       </m:mrow>
+       <m:mrow>
+        <m:mo stretchy="false">(</m:mo><m:mn>32</m:mn><m:mo>−</m:mo><m:mn>19</m:mn><m:mo stretchy="false">)</m:mo><m:mtext> s</m:mtext>
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center">
+     <m:mrow>
+      <m:mtext> =</m:mtext>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd rowalign="center" columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mn>1820</m:mn><m:mspace width="0.3em"/><m:mtext> m</m:mtext>
+       </m:mrow>
+       <m:mrow>
+        <m:mn>13</m:mn><m:mspace width="0.3em"/><m:mtext> s</m:mtext>
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center">
+     <m:mrow>
+      <m:mtext> =</m:mtext>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd rowalign="center" columnalign="left">
+     <m:mrow>
+      <m:mn>140</m:mn><m:mspace width="0.3em"/><m:mtext> m/s</m:mtext>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+</equation></item>
+</list>
+</solution>
+<commentary id="fs-id1167067049547">
+<title>Discussion</title>
+<para id="fs-id1167067075672">The entire graph of <emphasis>v</emphasis> versus <emphasis effect="italics">t</emphasis> can be obtained in this fashion.</para>
+</commentary>
+</exercise></note>
+<note id="fs-id1167066857161" class="os-teacher">
+<title>Teacher Support</title>
+    <para id="fs-id1167066775102">A curved line is a more complicated example. Define tangent as a line that touches a curve at only one point. Show that as a straight line changes its angle next to a curve, it actually hits the curve multiple times at the base, but only one line will never touch at all. This line forms a right angle to the radius of curvature, but at this level, they can just kind of eyeball it. The slope of this line gives the instantaneous velocity. The most useful part of this line is that students can tell when the velocity is increasing, decreasing, positive, negative, and zero.</para>
+<para id="fs-id1167067095722"><span>[AL]</span> You could find the instantaneous velocity at each point along the graph and if you graphed each of those points, you would have a graph of the velocity.</para>
+</note>
+
+</section>
+</section>
+<section id="fs-id1167067114733" class="practice-problems"><title>Practice Problems</title><exercise id="fs-id1167063726038"><label/>
+<problem id="fs-id1167067137832">
+<!--<para id="fs-id1167067186102">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex052"/>
+</para>-->
+
+
+
+<para id="fs-id1169833127935">Calculate the average velocity of the object shown in the graph below over the whole time interval.</para>
+<media id="fs-id1169832876228" alt="no alt text">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_02_03_line_img.jpg"/>
+</media>
+<list id="fs-id1169830630249" list-type="enumerated" number-style="lower-alpha">
+<item>0.25 m/s</item>
+<item>0.31 m/s</item>
+<item>3.2 m/s</item>
+<item>4.00 m/s</item>
+</list>
+</problem>
+</exercise><exercise id="fs-id1167066946110">
+<label/>
+<problem id="fs-id1167067072449">
+<para id="fs-id1167066856113">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex053"/>
+</para>
+</problem>
+</exercise>
+</section><section id="fs-id1167067052644" class="check-understanding">
+    <title>Check Your Understanding</title>
+    <exercise id="fs-id1167066808934" class="os-exercise">
+      <problem id="fs-id1167067211212">
+        <!--<para id="fs-id1167067043984">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex054"/>
+        </para>-->
+
+<para id="fs-id1164567984758">Which of the following information about motion can be determined by looking at a position vs. time graph that is a straight line?</para>
+<list id="fs-id1164565594962" list-type="enumerated" number-style="lower-alpha">
+<item>frame of reference</item>
+<item>average acceleration</item>
+<item>velocity</item>
+<item>direction of force applied</item>
+</list>
+      </problem>
+    </exercise>
+    <exercise id="fs-id1167067210271" class="os-exercise">
+      <problem id="fs-id1167066974275">
+        <para id="fs-id1167067200189">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex055"/>
+        </para>
+      </problem>
+    </exercise>
+    <note id="fs-id1167067264146" class="os-teacher">
+      <title>Teacher Support</title>
+      <para id="fs-id1167063726082">Use the <emphasis effect="italics">Check Your Understanding</emphasis> questions to assess students’ achievement of the section’s learning objectives. If students are struggling with a specific objective, the <emphasis effect="italics">Check Your Understanding</emphasis> will help identify direct students to the relevant content.</para></note>
+  </section>
+<section id="fs-id1167066864616" class="summary">
+<title>Section Summary</title>
+<list id="fs-id1167067026948">
+<item>Graphs can be used to analyze motion.</item>
+<item>The slope of a position vs. time graph is the velocity.</item>
+<item>For a straight line graph of position, the slope is the average velocity.</item>
+<item>To obtain the instantaneous velocity at a given moment for a curved graph, find the tangent line at that point and take its slope.</item>
+</list>
+</section>
+<section id="fs-id1167067144252" class="key-equations"><title>Key Equations</title><table id="fs-id1167067051318" class="unnumbered unstyled" summary="The list of Key Equations includes the equation for displacement.">
+<label/>
+<tgroup cols="2"><colspec colnum="1" align="left" colname="c1"/>
+<colspec colnum="2" align="left" colname="c2"/>
+<tbody>
+<row>
+<entry>Displacement</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>d</m:mi></m:mstyle><m:mo>=</m:mo><m:msub>
+   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>d</m:mi></m:mstyle>
+   <m:mn>0</m:mn>
+  </m:msub>
+  <m:mo>+</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle><m:mi>t</m:mi>
+ </m:mrow>
+</m:math> .</entry>
+</row>
+
+</tbody>
+
+</tgroup>
+</table></section><section id="fs-id1167067074156" class="concept"><title>Concept Items</title>
+<exercise id="fs-id1167063693172" class="os-exercise"><problem id="fs-id1167067147407">
+        <!--<para id="fs-id1167067018652">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex056"/>
+        </para>-->
+<para id="eip-idm307079696">Use the graph to describe what the runner’s motion looks like.</para>
+<media id="fs-id1164567559201" alt="A graph titled Runner Position plots time (s) on the x axis, and position (m) on the y axis. A line extends from the origin with a slope of 3. At point (12, 4), it extends without a slope and points (12, 6), (12, 8), and (12, 10) are marked.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_02_03_runner_img.jpg"/>
+</media>
+<para id="fs-id1164568013641">How are average velocity for only the first four seconds and instantaneous velocity related? What is the runner's net displacement over the time shown?</para>
+<list id="fs-id1164566384192" list-type="enumerated" number-style="lower-alpha">
+<item>The net displacement is 12 m and the average velocity is equal to the instantaneous velocity.</item>
+<item>The net displacement is 12 m and the average velocity is two times the instantaneous velocity.</item>
+<item>The net displacement is 10 + 12 = 22 m and the average velocity is equal to the instantaneous velocity.</item>
+<item>The net displacement is 10 + 12 = 22 m and the average velocity is two times the instantaneous velocity.</item>
+</list>
+      </problem>
+    </exercise><exercise id="eip-id1166848704807" class="os-exercise">
+<problem id="eip-id1166848696825">
+<para id="eip-id1166848769574">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch02-ot057"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167066983385" class="critical-thinking"><title>Critical Thinking</title><exercise id="fs-id1167067044146" class="os-exercise"><problem id="fs-id1167066878220"><para id="eip-idm470904368">Explain how you can use the graph of position vs. time  to describe the change in velocity over time.</para>
+<media id="veloc" alt="no alt text">
+
+  <image mime-type="image/png" src="../../media/Physics_02_03_veloc.jpg"/></media>
+
+<para id="eip-idm207455760">Identify the time (<emphasis effect="italics">t<sub>a</sub></emphasis>, <emphasis effect="italics">t<sub>b</sub></emphasis>, <emphasis effect="italics">t<sub>c</sub></emphasis>, <emphasis effect="italics">t<sub>d</sub></emphasis>, or <emphasis effect="italics">t<sub>e</sub></emphasis>) at which at which the instantaneous velocity is greatest, the time at which it is zero, and the time at which it is negative.</para>
+</problem></exercise></section><section id="fs-id1167066828332" class="problems">
+    <title>Problems</title>
+    <exercise id="fs-id1167067216542" class="os-exercise"><problem id="fs-id1167066879264">
+<!--        <para id="fs-id1167067199449">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex058"/>
+        </para>--><para id="fs-id1164564615682">Using the graph, what is the average velocity for the whole 10 seconds?</para>
+<media id="fs-id1164565407354" alt="A graph titled Runner Position plots time (s) on the x axis, and position (m) on the y axis. A line extends from the origin with a slope of 3. At point (12, 4), it extends without a slope and points (12, 6), (12, 8), and (12, 10) are marked.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_02_03_runner_img.jpg"/>
+</media>
+<list id="fs-id1164568044666" list-type="enumerated" number-style="lower-alpha"><item>
+The total average velocity is 0 m/s.</item>
+<item>The total average velocity is 1.2 m/s.</item>
+<item>The total average velocity is 1.5 m/s.</item>
+<item>The total average velocity is 3.0 m/s.</item>
+</list>
+      </problem>
+    </exercise><exercise id="fs-id1167063491389" class="os-exercise">
+      <problem id="fs-id1167067266484">
+        <para id="fs-id1167067201471">
+          <link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex059"/>
+        </para>
+      </problem>
+    </exercise>
+  </section>
+<section id="fs-id1167067247903" class="multiple-choice">
+    <title>Test Prep Multiple Choice</title>
+    <exercise id="fs-id1167063556429" class="os-exercise"><problem id="fs-id1167066992881"><para id="fs-id1167066992882">What is the slope of a straight line graph of position vs. time?</para>
+<list id="eip-idm359421440" list-type="enumerated" number-style="lower-alpha"><item>Velocity</item>
+<item>Displacement</item>
+
+<item>Distance</item>
+<item>Acceleration</item></list></problem></exercise><exercise id="fs-id1167067193716" class="os-exercise"><problem id="fs-id1167067095631"><para id="fs-id1167067095632">Using the graph, what is the runner’s velocity from 4 to 10 s?</para>
+
+<media id="testprep" alt="no alt text">
+
+  <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_02_03_runner_img.jpg"/>
+
+</media>
+<list id="eip-idm372549344" list-type="enumerated" number-style="lower-alpha"><item>–3 m/s</item>
+<item>0 m/s</item>
+<item>1.2 m/s</item>
+<item>3 m/s</item></list></problem></exercise></section>
+<section id="fs-id1167067321729" class="short-answer">
+    <title>Test Prep Short Answer</title>
+    <exercise id="fs-id1167066945162" class="os-exercise"><problem id="fs-id1167063444953">
+<!--<para id="fs-id1167066864974"><link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex062"/></para>-->
+
+<para id="fs-id1164567221820">A hockey puck is shot down the arena in a straight line. Assume it does not slow until it is stopped by an opposing player who sends it back in the direction it came. The players are 20 m apart and it takes 1 s for the puck to go there and back. Which of the following describes the graph of the displacement over time? Consider the initial direction of the puck to be positive.</para>
+<list id="fs-id1164565581372" list-type="enumerated" number-style="lower-alpha">
+<item>The graph is an upward opening V.</item>
+<item>The graph is a downward opening V.</item>
+<item>The graph is an upward opening U.</item>
+<item>The graph is downward opening U.</item>
+</list>
+</problem></exercise>
+    <exercise id="fs-id1167066847657" class="os-exercise"><problem id="fs-id1167067227708">
+<!--<para id="fs-id1167067203196"><link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex063"/></para>-->
+<para id="fs-id1164564356074">A defensive player kicks a soccer ball 20 m back to her own goalie. It stops just as it reaches her. She sends it back to the player. Without knowing the time it takes, draw a rough sketch of the displacement over time. Does this graph look similar to the graph of the hockey puck from the previous question?</para>
+<list id="fs-id1164568013716" list-type="enumerated" number-style="lower-alpha">
+<item>Yes, the graph is similar to the graph of the hockey puck.</item>
+<item>No, the graph is not similar to the graph of the hockey puck.</item>
+<item>The graphs cannot be compared without knowing the time the soccer ball was rolling.</item>
+</list>
+</problem></exercise>
+    <exercise id="fs-id1167063915147" class="os-exercise"><problem id="fs-id1167066959806">
+<!--<para id="fs-id1167067090100"><link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex064"/></para>-->
+
+<para id="fs-id1164565499507">What are the net displacement, total distance traveled, and total average velocity in the previous two problems?</para>
+<list id="fs-id1164566083753" list-type="enumerated" number-style="lower-alpha">
+<item>net displacement = 0 m, total distance = 20 m, total average velocity = 20 m/s</item>
+<item>net displacement = 0 m, total distance = 40 m, total average velocity = 20 m/s</item>
+<item>net displacement = 0 m, total distance = 20 m, total average velocity = 0 m/s</item>
+<item>net displacement = 0 m, total distance = 40 m, total average velocity = 0 m/s</item>
+</list>
+</problem></exercise>
+<exercise id="fs-id1167067293581" class="os-exercise"><problem id="fs-id1167063723598"><para id="fs-id1167067048424"><link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex065"/></para></problem></exercise>
+  </section>
+<section id="fs-id1167067316900" class="extended-response">
+    <title>Test Prep Extended Response</title>
+<exercise id="fs-id1167063772262" class="os-exercise"><problem id="fs-id1167067033570">
+<!--<para id="fs-id1167067033571"><link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex066"/></para>--><para id="eip-idm323173472">What kind of motion would create a position graph like the one shown?</para>
+<media id="fs-id1169830662478" alt="no alt text">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_02_03_versus_img.jpg"/>
+</media>
+<list id="fs-id1169833222748" list-type="enumerated" number-style="lower-alpha">
+<item>uniform motion</item>
+<item>any motion that accelerates</item>
+<item>motion that stops and then starts</item>
+<item>motion that has constant velocity</item>
+</list>
+</problem></exercise><exercise id="fs-id1167066793176" class="os-exercise"><problem id="fs-id1167066961085">
+<!--<para id="fs-id1167066961086"><link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex067"/></para>--><para id="eip-idm385642336">What is the average velocity for the whole time period shown in the graph?</para>
+<media id="fs-id1169832834650" alt="no alt text">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_02_03_vs_img.jpg"/>
+</media>
+<list id="fs-id1169831642421" list-type="enumerated" number-style="lower-alpha">
+<item> <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>–</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>3</m:mn>
+   </m:mfrac>
+   <m:mtext>m/s</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</item>
+<item> <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>–</m:mo><m:mfrac>
+    <m:mn>3</m:mn>
+    <m:mn>4</m:mn>
+   </m:mfrac>
+   <m:mtext>m/s</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</item>
+<item> <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>3</m:mn>
+   </m:mfrac>
+   <m:mtext>m/s</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</item>
+<item> <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>3</m:mn>
+    <m:mn>4</m:mn>
+   </m:mfrac>
+   <m:mtext>m/s</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</item>
+</list>
+</problem></exercise></section>
+</content>
+<glossary>
+<definition id="fs-id1167067239970"><term>dependent variable</term> <meaning id="fs-id1167066859778">the variable that changes as the independent variable changes</meaning></definition>
+<definition id="fs-id1167067043916"><term>independent variable</term> <meaning id="fs-id1167066865915">the variable, usually along the horizontal axis of a graph, that does not change based on human or experimental action; in physics this is usually time</meaning></definition>
+<definition id="fs-id1167067251956"><term>tangent</term> <meaning id="fs-id1167067145292">a line that touches another at exactly one point</meaning></definition>
+</glossary>
+
+</document>

@@ -1,0 +1,1486 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Refraction</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54365</md:content-id>
+  <md:title>Refraction</md:title>
+  <md:abstract/>
+  <md:uuid>cce1289f-8a3c-4353-9036-2180e34b55b0</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167065738524" class="learning-objectives"><label/><title>Section Learning Objectives</title>
+<para id="fs-id1167064634524">By the end of this section, you will be able to do the following:</para><list id="fs-id1167065986267">
+<item>Explain refraction at media boundaries, predict the path of light after passing through a boundary (Snell’s law), describe the index of refraction of materials, explain total internal reflection, and describe applications of refraction and total internal reflection</item>
+<item>Perform calculations based on the law of refraction, Snell’s law, and the conditions for total internal reflection</item>
+</list>
+</note><note id="fs-id1167066105214" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167064596500">The learning objectives in this section help your students master the following standards:</para><list id="fs-id1167066057581"><item>(7) Science concepts. The student knows the characteristics and behavior of waves. The student is expected to:
+<list id="fs-id1167065086458"><item>
+<span>(D)</span>
+<span>investigate behaviors of waves, including reflection, refraction, diffraction, interference, resonance, and the Doppler effect; and</span>
+</item>
+<item>
+<span>(F)</span>
+<span>describe the role of wave characteristics and behaviors in medical and industrial applications.</span>
+</item>
+</list></item>
+</list><para id="fs-id1169314943769">In addition, the High School Physics Laboratory Manual addresses content in this section in the lab titled: Mirrors and Lenses, as well as the following standards:</para><list id="fs-id1169316441766"><item>(7) Science concepts. The student knows the characteristics and behavior of waves. The student is expected to:
+<list id="fs-id1169316142641"><item>
+<span>(D)</span>
+ <span>investigate behaviors of waves, including reflection, refraction, diffraction, interference, resonance, and the Doppler effect.</span>
+</item>
+</list></item>
+</list></note>
+<section id="keyterms"><title>Section Key Terms</title>
+<table id="fs-id1167064982120" class="unnumbered unstyled section-key-terms" summary="Section Key Terms is a three column table. The first row reads angle of refraction, corner reflector, critical angle. The second row reads dispersion, incident ray, index of refraction. The third row reads refracted ray, Snells law, total internal reflection.">
+<label/>
+<tgroup cols="3">
+<tbody>
+<row>
+<entry>angle of refraction</entry>
+<entry>corner reflector</entry>
+<entry>critical angle</entry>
+<entry>dispersion</entry>
+<entry>incident ray</entry>
+
+</row>
+<row>
+<entry>index of refraction</entry>
+<entry>refracted ray</entry>
+<entry>Snell’s law</entry>
+<entry>total internal reflection</entry>
+<entry/>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section id="fs-id1167062347681"><title>The Law of Refraction</title><note id="fs-id1167064902296" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065876924"><span>[BL]</span><span>[OL]</span>Remind students that the maximum speed of light is its speed in a vacuum. This is a fundamental constant of physics. The maximum speed of light is equal to 3.00  <m:math>
+ <m:mo>×</m:mo>
+</m:math>  10<sup>8</sup> m/s. Have your students memorize this value.</para></note>
+
+<para id="fs-id1167064734105">You may have noticed some odd optical phenomena when looking into a fish tank. For example, you may see the same fish appear to be in two different places (<link target-id="Figure_16_02_Fish"/>). This is because light coming to you from the fish changes direction when it leaves the tank and, in this case, light rays traveling along two different paths both reach our eyes. The changing of a light ray’s direction (loosely called <emphasis effect="italics">bending</emphasis>) when it passes a boundary between materials of different composition, or between layers in single material where there are changes in temperature and density, is called <emphasis effect="italics">refraction</emphasis>. Refraction is responsible for a tremendous range of optical phenomena, from the action of lenses to voice transmission through optical fibers.</para>
+
+<figure id="Figure_16_02_Fish"><media id="fs-id1167064791995" alt="A man is looking at the corner of a fish tank. Although the fish is directly in his line of sight, he sees the fish to the right and left of the corner of the fish tank."><image mime-type="image/jpg" src="../../media/CNX_HSPhysics_16_02_Fish.jpg"/></media>
+<caption>Looking at the fish tank as shown, we can see the same fish in two different locations, because light changes directions when it passes from water to air. In this case, light rays traveling on two different paths change direction as they travel from water to air, and so reach the observer. Consequently, the fish appears to be in two different places. This bending of light is called <emphasis effect="italics">refraction</emphasis> and is responsible for many optical phenomena.</caption>
+</figure>
+
+<note id="fs-id1167064746663" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065856717"><span>[BL]</span>An angle is the measure of the separation of two lines or rays originating from a single point. The length of the lines is not relevant.</para>
+<para id="fs-id1167065841920"><span>[OL]</span><span>[AL]</span>The trigonometric function sine (sin) for a given angle is the ratio of the side of a right triangle opposite that angle to the hypotenuse of that triangle.</para>
+</note>
+
+<para id="fs-id1167066104903">Why does light change direction when passing from one material (medium) to another? It is because light changes speed when going from one material to another. This behavior is typical of all waves and is especially easy to apply to light because light waves have very small wavelengths, and so they can be treated as rays. Before we study the law of refraction, it is useful to discuss the speed of light and how it varies between different media.</para>
+<para id="fs-id1167064572799">The speed of light is now known to great precision. In fact, the speed of light in a vacuum, <emphasis effect="italics">c</emphasis>, is so important, and is so precisely known, that it is accepted as one of the basic physical quantities, and has the fixed value</para>
+<equation id="fs-id1164565014922"> <m:math display="block">
+ <m:mrow>
+  <m:mi>c</m:mi><m:mo>=</m:mo><m:mn>2.9972458</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mn>8</m:mn>
+  </m:msup>
+  <m:mtext>m/s</m:mtext><m:mo>≈</m:mo><m:mn>3.00</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn></m:mrow>
+   <m:mn>8</m:mn>
+  </m:msup>
+  <m:mtext>m/s</m:mtext></m:mrow>
+</m:math> </equation>
+<para id="fs-id1167064910419">where the approximate value of 3.00  <m:math>
+ <m:mo>×</m:mo>
+</m:math>  10<sup>8</sup> m/s is used whenever three-digit precision is sufficient. The speed of light through matter is less than it is in a vacuum, because light interacts with atoms in a material. The speed of light depends strongly on the type of material, given that its interaction with different atoms, crystal lattices, and other substructures varies. We define the <term>index of refraction</term>, <emphasis effect="italics">n</emphasis>, of a material to be</para>
+<equation id="fs-id1167065044318" class="unnumbered">
+<label/>
+ <m:math display="block">
+ <m:mrow>
+  <m:mi>n</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mi>c</m:mi>
+   <m:mi>v</m:mi>
+  </m:mfrac>
+  <m:mo>,</m:mo></m:mrow>
+</m:math>
+</equation>
+
+<para id="fs-id1167066028154">where <emphasis effect="italics">v </emphasis>is the observed speed of light in the material. Because the speed of light is always less than <emphasis effect="italics">c </emphasis>in matter and equals <emphasis effect="italics">c </emphasis>only in a vacuum, the index of refraction (plural: indices of refraction) is always greater than or equal to one.</para>
+<para id="fs-id1167064844739"><link target-id="Table_16_02_Refractive_Indices"/> lists the indices of refraction in various common materials.</para>
+
+<table id="Table_16_02_Refractive_Indices" summary="The left column of table is headed “Medium”; the right column heading is “n” (index of refraction). The left column lists four gases at 0°C and 1 atm, six liquids at 20°C, and 11 solids, with all but one (ice) at 20°C, and ice at 0°C. The right column lists each substance’s index of refraction."><title>Indices of Refraction</title><tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row>
+<entry>Medium</entry>
+<entry><emphasis effect="italics">n</emphasis></entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>Gases at 0 °C and 1 atm</entry>
+<entry/>
+</row>
+<row>
+<entry>Air</entry>
+<entry>1.000293</entry>
+</row>
+<row>
+<entry>Carbon dioxide</entry>
+<entry>1.00045</entry>
+</row>
+<row>
+<entry>Hydrogen</entry>
+<entry>1.000139</entry>
+</row>
+<row>
+<entry>Oxygen</entry>
+<entry>1.000271</entry>
+</row>
+<row>
+<entry>Liquids at 20 °C</entry>
+<entry/>
+</row>
+<row>
+<entry>Benzene</entry>
+<entry>1.501</entry>
+</row>
+<row>
+<entry>Carbon disulfide</entry>
+<entry>1.628</entry>
+</row>
+<row>
+<entry>Carbon tetrachloride</entry>
+<entry>1.461</entry>
+</row>
+<row>
+<entry>Ethanol</entry>
+<entry>1.361</entry>
+</row>
+<row>
+<entry>Glycerin</entry>
+<entry>1.473</entry>
+</row>
+<row>
+<entry>Water, fresh</entry>
+<entry>1.333</entry>
+</row>
+<row>
+<entry>Solids at 20 °C</entry>
+<entry/>
+</row>
+<row>
+<entry>Diamond</entry>
+<entry>2.419</entry>
+</row>
+<row>
+<entry>Fluorite</entry>
+<entry>1.434</entry>
+</row>
+<row>
+<entry>Glass, crown</entry>
+<entry>1.52</entry>
+</row>
+<row>
+<entry>Glass, flint</entry>
+<entry>1.66</entry>
+</row>
+<row>
+<entry>Ice at 0 °C</entry>
+<entry>1.309</entry>
+</row>
+<row>
+<entry>Plexiglas</entry>
+<entry>1.51</entry>
+</row>
+<row>
+<entry>Polystyrene</entry>
+<entry>1.49</entry>
+</row>
+<row>
+<entry>Quartz, crystalline</entry>
+<entry>1.544</entry>
+</row>
+<row>
+<entry>Quartz, fused</entry>
+<entry>1.458</entry>
+</row>
+<row>
+<entry>Sodium chloride</entry>
+<entry>1.544</entry>
+</row>
+<row>
+<entry>Zircon</entry>
+<entry>1.923</entry>
+</row>
+</tbody>
+</tgroup>
+
+<caption>The table lists the indices of refraction for various materials that are transparent to light. Note, that light travels the slowest in the materials with the greatest indices of refraction.</caption></table><para id="fs-id1167065017604"><link target-id="Figure_16_02_Lawnmower"/> provides an analogy for and a description of how a ray of light changes direction when it passes from one medium to another. As in the previous section, the angles are measured relative to a perpendicular to the surface at the point where the light ray crosses it. The change in direction of the light ray depends on how the speed of light changes. The change in the speed of light is related to the indices of refraction of the media involved. In the situations shown in <link target-id="Figure_16_02_Lawnmower"/>, medium 2 has a greater index of refraction than medium 1. This difference in index of refraction means that the speed of light is less in medium 2 than in medium 1. Note that, in <link target-id="Figure_16_02_Lawnmower"/>(a), the path of the ray moves closer to the perpendicular when the ray slows down. Conversely, in <link target-id="Figure_16_02_Lawnmower"/>(b), the path of the ray moves away from the perpendicular when the ray speeds up. The path is exactly reversible. In both cases, you can imagine what happens by thinking about pushing a lawn mower from a footpath onto grass, and vice versa. Going from the footpath to grass, the right front wheel is slowed and pulled to the side as shown. This is the same change in direction for light when it goes from a fast medium to a slow one. When going from the grass to the footpath, the left front wheel moves faster than the others, and the mower changes direction as shown. This, too, is the same change in direction as light going from slow to fast.</para>
+
+<figure id="Figure_16_02_Lawnmower">
+<media id="fs-id1167065951196" alt="In view (a), a lawnmower is on a sidewalk and is approaching a strip of grass, which is perpendicular to the sidewalk, at angle θ1. As the right front wheel of the lawnmower hits the grass, the path of the angle, θ1, moves closer to the perpendicular. In view (b), a lawnmower is on the grass and is approaching the sidewalk, which is perpendicular to the grass, at angle θ2. As the left front wheel of the lawnmower hits the sidewalk, the path of the angle, θ2, moves farther from the perpendicular."><image mime-type="image/jpg" src="../../media/CNX_HSPhysics_16_02_Lawnmower.jpg"/></media>
+<caption>The change in direction of a light ray depends on how the speed of light changes when it crosses from one medium to another. For the situations shown here, the speed of light is greater in medium 1 than in medium 2. (a) A ray of light moves closer to the perpendicular when it slows down. This is analogous to what happens when a lawnmower goes from a footpath (medium 1) to grass (medium 2). (b) A ray of light moves away from the perpendicular when it speeds up. This is analogous to what happens when a lawnmower goes from grass (medium 2) to the footpath (medium 1). The paths are exactly reversible.</caption>
+</figure>
+
+<note id="fs-id1167065884340" class="snap-lab">
+
+<title>Bent Pencil</title>
+<para id="fs-id1167066202678">A classic observation of refraction occurs when a pencil is placed in a glass filled halfway with water. Do this and observe the shape of the pencil when you look at it sideways through air, glass, and water.</para>
+<list id="fs-id1167066051292" class="materials">
+<item>A full-length pencil</item>
+<item>A glass half full of water</item>
+</list><para id="fs-id1164564981046">Instructions</para>
+<list id="fs-id1167064824944" list-type="enumerated">
+<title>Procedure</title>
+<item>Place the pencil in the glass of water.</item>
+<item>Observe the pencil from the side.</item>
+<item>Explain your observations.</item>
+</list>
+
+<note id="fs-id1167066055642" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167064845589">Look up the refractive indices of air, glass, and water in <link target-id="Table_16_02_Refractive_Indices"/>. Think about how a ray of light changes direction for these transitions: air to glass and glass to water.</para>
+</note>
+
+</note>
+
+<note id="fs-id1167065737903" class="virtual-physics os-interactive"><title>Bending Light</title>
+<media id="fs-id1167065851428" alt="This simulation allows you to explore bending of light between two media with different indices of refraction">
+<iframe width="660" height="371.4" src="https://openstax.org/l/28Bendinglight"/></media>
+<para id="fs-id1167063504115">The Bending Light simulation allows you to show light refracting as it crosses the boundaries between various media (download animation first to view). It also shows the reflected ray. You can move the protractor to the point where the light meets the boundary and measure the angle of incidence, the <term>angle of refraction</term>, and the angle of reflection. You can also insert a prism into the beam to view the spreading, or <term>dispersion</term>, of white light into colors, as discussed later in this section. Use the ray option at the upper left.</para><para id="fs-id1167065938031"><link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex024"/></para>
+
+<note id="fs-id1167066044898" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167066127769">Have students try all the different tabs at the top of the simulation. Point out to students that, although the tools work in both Ray and Wave mode, some may be easier to use in Wave mode because the region where the tool is able to read is larger. </para>
+</note>
+</note><note id="fs-id1167066105635" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167062411073"><span>[BL]</span>Be sure students understand that if <emphasis effect="italics">c</emphasis> is always greater than <emphasis effect="italics">v</emphasis>, <emphasis effect="italics">n</emphasis> must always be greater than one. Demonstrating division using numbers that can be divided easily can reinforce student understanding.</para>
+<para id="fs-id1167063182997"><span>[OL]</span>Explain that, unlike the law of reflection, the law of refraction is most easily expressed as an equation, rather than in words. Walk students through the lawnmower analogy in <link target-id="Figure_16_02_Lawnmower"/>. Suggest other wheeled vehicles with which they may be more familiar, and other surfaces, such as sand.</para>
+<para id="fs-id1167064692476"><span>[AL]</span>Ask students to try to explain why a prism separates white light into a rainbow of colors, but a window pane does not. If they cannot explain it, show them a ray diagram of light transmitted through a flat sheet of glass.</para>
+</note>
+
+<para id="fs-id1167064908215">The amount that a light ray changes direction depends both on the incident angle and the amount that the speed changes. For a ray at a given incident angle, a large change in speed causes a large change in direction, and thus a large change in the angle of refraction. The exact mathematical relationship is the law of refraction, or <term><emphasis effect="italics">Snell’s law</emphasis></term>, which is stated in equation form as</para>
+
+<equation id="fs-id1167065721155" class="unnumbered">
+<label/>
+ <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>n</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mi>sin</m:mi><m:msub>
+   <m:mi>θ</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>n</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mi>sin</m:mi><m:msub>
+   <m:mi>θ</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mtext> or </m:mtext><m:mfrac>
+   <m:mrow>
+    <m:msub>
+     <m:mi>n</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mi>n</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mtext>sin</m:mtext><m:msub>
+     <m:mi>θ</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    </m:mrow>
+   <m:mrow>
+    <m:mtext>sin</m:mtext><m:msub>
+     <m:mi>θ</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    </m:mrow>
+  </m:mfrac>
+  <m:mo>.</m:mo></m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1167065927234">In terms of speeds, Snell’s law becomes</para>
+<equation id="fs-id1164566493092"> <m:math display="block">
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mi>sin</m:mi><m:msub>
+     <m:mi>θ</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    </m:mrow>
+   <m:mrow>
+    <m:mi>sin</m:mi><m:msub>
+     <m:mi>θ</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msub>
+     <m:mi>v</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mi>v</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    </m:mrow>
+  </m:mfrac>
+  <m:mo>.</m:mo></m:mrow>
+</m:math>
+</equation>
+
+<para id="fs-id1167062414005">Here, <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasis effect="italics">n</emphasis><sub>2</sub> are the indices of refraction for media 1 and 2, respectively, and <emphasis effect="italics">θ</emphasis><sub>1</sub> and <emphasis effect="italics">θ</emphasis><sub>2</sub> are the angles between the rays and the perpendicular in the respective media 1 and 2, as shown in <link target-id="Figure_16_02_Lawnmower"/>. The incoming ray is called the <term><emphasis effect="italics">incident ray</emphasis></term> and the outgoing ray is called the <term><emphasis effect="italics">refracted ray</emphasis></term>. The associated angles are called the <emphasis effect="italics">angle of incidence</emphasis> and the <emphasis effect="italics">angle of refraction</emphasis>. Later, we apply Snell’s law to some practical situations.</para>
+
+<para id="fs-id1167065880322">Dispersion is defined as the spreading of white light into the wavelengths of which it is composed. This happens because the index of refraction varies slightly with wavelength. <link target-id="Figure_16_02_Prism"/> shows how a prism disperses white light into the colors of the rainbow.</para>
+
+<figure id="Figure_16_02_Prism"><media id="fs-id1167065859579" alt="In view (a), a ray of pure light (denoted by an arrow) hits the edge of a glass prism at an angle. As demonstrated by the arrow, this light is refracted as it enters the prism and as it exits the prism. In view (b), white light (also denoted by an arrow) hits the edge of a glass prism at an angle. In this case the ray of light disperses, as shown by two arrows originating where the white light enters the prism. When the rays pass through the prism, the angle widens and a rainbow of light is seen exiting the prism."><image mime-type="image/jpg" src="../../media/CNX_HSPhysics_16_02_Prism.jpg"/></media>
+<caption>(a) A pure wavelength of light ( <m:math>
+ <m:mi>λ</m:mi>
+</m:math> ) falls onto a prism and is refracted at both surfaces. (b) White light is dispersed by the prism (spread of light exaggerated). Because the index of refraction varies with wavelength, the angles of refraction vary with wavelength. A sequence of red to violet is produced, because the index of refraction increases steadily with decreasing wavelength.</caption>
+</figure>
+
+<para id="fs-id1167065715565">Rainbows are produced by a combination of refraction and reflection. You may have noticed that you see a rainbow only when you turn your back to the Sun. Light enters a drop of water and is reflected from the back of the drop, as shown in <link target-id="Figure_16_02_Rainbow"/>. The light is refracted both as it enters and as it leaves the drop. Because the index of refraction of water varies with wavelength, the light is dispersed and a rainbow is observed.</para>
+
+<figure id="Figure_16_02_Rainbow"><media id="fs-id1167065877584" alt="A water droplet is depicted in this figure. A ray of sunlight, denoted by an arrow, hits drop of water and disperses at its point of entry, denoted by the arrow splitting in two. These two rays are then reflected off the back of the droplet at two different angles and are dispersed again as they leave the droplet, creating a rainbow."><image mime-type="image/jpg" src="../../media/CNX_HSPhysics_16_02_Rainbow.jpg"/></media>
+<caption>Part of the light falling on this water drop enters and is reflected from the back of the drop. This light is refracted and dispersed both as it enters and as it leaves the drop.</caption>
+</figure>
+
+<note id="fs-id1167065876708" class="watch-physics"><title>Dispersion</title>
+<para id="fs-id1167065790292">This video explains how refraction disperses white light into its composite colors.</para>
+
+<media id="fs-id1167066167311" alt="no alt text">
+<iframe width="660" height="371.4" src="https://www.openstax.org/l/28Raindrop"/>
+</media>
+
+<para id="fs-id1167064928655"><link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex025"/></para>
+<note id="fs-id1167065684022" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065956917">Have students note that the dependence of the index of refraction on the speed of light implies a dependence on wavelength, as discussed in the video. This is because  <m:math>
+ <m:mrow>
+  <m:mi>v</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mi>λ</m:mi></m:mrow>
+</m:math>
+ for light in a medium. Different wavelengths of light travel at different speeds, and so refract differently at media boundaries. Also, have students note that the frequency of light is not affected by refraction; it remains constant.</para>
+</note>
+</note><para id="fs-id1167065926399">A good-quality mirror reflects more than 90 percent of the light that falls on it; the mirror absorbs the rest. But, it would be useful to have a mirror that reflects all the light that falls on it. Interestingly, we can produce total reflection using an aspect of refraction. Consider what happens when a ray of light strikes the surface between two materials, such as is shown in <link target-id="Figure_16_02_Total_internal"/>(a). Part of the light crosses the boundary and is refracted; the rest is reflected. If, as shown in the figure, the index of refraction for the second medium is less than the first, the ray bends away from the perpendicular. Because <emphasis effect="italics">n</emphasis><sub>1</sub><emphasis effect="italics"> &gt; n</emphasis><sub>2</sub>, the angle of refraction is greater than the angle of incidence—that is,  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>θ</m:mi>
+   <m:mtext>2</m:mtext>
+  </m:msub>
+  </m:mrow>
+</m:math> &gt; <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>θ</m:mi>
+   <m:mtext>1</m:mtext>
+  </m:msub>
+  </m:mrow>
+</m:math> . Now, imagine what happens as the incident angle is increased. This causes  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>θ</m:mi>
+   <m:mtext>2</m:mtext>
+  </m:msub>
+  </m:mrow>
+</m:math>  to increase as well. The largest the angle of refraction,  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>θ</m:mi>
+   <m:mtext>2</m:mtext>
+  </m:msub>
+  </m:mrow>
+</m:math>, can be is 90°, as shown in <link target-id="Figure_16_02_Total_internal"/>(b). The <term>critical angle</term>,  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>θ</m:mi>
+   <m:mtext>c</m:mtext>
+  </m:msub>
+  </m:mrow>
+</m:math>, for a combination of two materials is defined to be the incident angle,  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>θ</m:mi>
+   <m:mtext>1</m:mtext>
+  </m:msub>
+  </m:mrow>
+</m:math>, which produces an angle of refraction of 90°. That is,  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>θ</m:mi>
+   <m:mtext>c</m:mtext>
+  </m:msub>
+  </m:mrow>
+</m:math>  is the incident angle for which  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>θ</m:mi>
+   <m:mtext>2</m:mtext>
+  </m:msub>
+  </m:mrow>
+</m:math> <emphasis effect="italics">= </emphasis>90°. If the incident angle,  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>θ</m:mi>
+   <m:mtext>1</m:mtext>
+  </m:msub>
+  </m:mrow>
+</m:math>, is greater than the critical angle, as shown in <link target-id="Figure_16_02_Total_internal"/>(c), then all the light is reflected back into medium 1, a condition called <term><emphasis effect="italics">total internal reflection</emphasis></term>.</para>
+
+<figure id="Figure_16_02_Total_internal"><media id="fs-id1167065735762" alt="Views (a) through (c) depict how light behaves when light strikes a boundary and is reflected and refracted."><image mime-type="image/jpg" src="../../media/CNX_HSPhysics_16_02_TotalInt.jpg"/></media>
+
+<caption>(a) A ray of light crosses a boundary where the speed of light increases and the index of refraction decreases—that is, n<sub>2</sub> &lt; n<sub>1</sub>. The refracted ray bends away from the perpendicular. (b) The critical angle,  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>θ</m:mi>
+   <m:mtext>c</m:mtext>
+  </m:msub>
+  </m:mrow>
+</m:math>, is the one for which the angle of refraction is 90°. (c) Total internal reflection occurs when the incident angle is greater than the critical angle.</caption></figure>
+
+<para id="fs-id1167066086259">Recall that Snell’s law states the relationship between angles and indices of refraction. It is given by</para>
+<equation id="fs-id1164563204282"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>n</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mi>sin</m:mi><m:msub>
+   <m:mi>θ</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>n</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mi>sin</m:mi><m:msub>
+   <m:mi>θ</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>.</m:mo></m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1167065704662">When the incident angle equals the critical angle ( <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>θ</m:mi>
+   <m:mtext>1</m:mtext>
+  </m:msub>
+  </m:mrow>
+</m:math>
+= <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>θ</m:mi>
+   <m:mtext>c</m:mtext>
+  </m:msub>
+  </m:mrow>
+</m:math>
+), the angle of refraction is 90° ( <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>θ</m:mi>
+   <m:mtext>2</m:mtext>
+  </m:msub>
+  </m:mrow>
+</m:math>
+= 90°). Noting that sin 90° = 1, Snell’s law in this case becomes</para>
+<equation id="fs-id1167065677119" class="unnumbered">
+<label/>
+ <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>n</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mi>sin</m:mi><m:msub>
+   <m:mi>θ</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>n</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>.</m:mo></m:mrow>
+</m:math>
+</equation>
+
+<para id="fs-id1167065028825">The critical angle,  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>θ</m:mi>
+   <m:mtext>c</m:mtext>
+  </m:msub>
+  </m:mrow>
+</m:math>, for a given combination of materials is thus</para>
+
+<equation id="fs-id1167062332272" class="unnumbered">
+<label/>
+ <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>θ</m:mi>
+   <m:mi>c</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:msup>
+   <m:mrow>
+    <m:mi>sin</m:mi></m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+  </m:msup>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:msub>
+       <m:mi>n</m:mi>
+       <m:mn>2</m:mn>
+      </m:msub>
+      </m:mrow>
+     <m:mrow>
+      <m:msub>
+       <m:mi>n</m:mi>
+       <m:mn>1</m:mn>
+      </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mtext>,</m:mtext></m:mrow>
+</m:math>
+</equation>
+
+<para id="fs-id1167065871185">for <emphasis effect="italics">n</emphasis><sub>1</sub> &gt; <emphasis effect="italics">n</emphasis><sub>2</sub>.</para>
+
+<note id="fs-id1167064904821" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167065825680"><span>[OL]</span>The superscript in sin<sup>−1</sup> is not a power. It indicates arcsine, which is an inverse trigonometric function. It means, “that angle whose sine equals (in this case) (<emphasis effect="italics">n</emphasis><sub>2</sub>/<emphasis effect="italics">n</emphasis><sub>1</sub>).”</para>
+</note>
+
+<para id="fs-id1167064937659">Total internal reflection occurs for any incident angle greater than the critical angle,  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>θ</m:mi>
+   <m:mtext>c</m:mtext>
+  </m:msub>
+  </m:mrow>
+</m:math>, and it can only occur when the second medium has an index of refraction less than the first. Note that the previous equation is written for a light ray that travels in medium 1 and reflects from medium 2, as shown in <link target-id="Figure_16_02_Total_internal"/>.</para>
+
+<para id="fs-id1167064825538">There are several important applications of total internal reflection. Total internal reflection, coupled with a large index of refraction, explains why diamonds sparkle more than other materials. The critical angle for a diamond-to-air surface is only 24.4°; so, when light enters a diamond, it has trouble getting back out (<link target-id="Figure_16_02_Diamond"/>). Although light freely enters the diamond at different angles, it can exit only if it makes an angle less than 24.4° with the normal to a given surface. Facets on diamonds are specifically intended to make this unlikely, so that the light can exit only in certain places. Diamonds with very few impurities are very clear, so the light makes many internal reflections and is concentrated at the few places it can exit—hence the sparkle.</para>
+
+<figure id="Figure_16_02_Diamond">
+<media id="fs-id1167066044617" alt="A sketch of a diamond shows a ray of light entering the diamond and bouncing of various facets of the diamond at an angle less than the critical angle.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_16_02_Diamond.jpg"/></media>
+<caption>Light cannot escape a diamond easily because its critical angle with air is so small. Most reflections are total and the facets are placed so that light can exit only in particular ways, thus concentrating the light and making the diamond sparkle.</caption>
+</figure>
+
+<para id="fs-id1167064736505">A light ray that strikes an object that consists of two mutually perpendicular reflecting surfaces is reflected back exactly parallel to the direction from which it came. This parallel reflection is true whenever the reflecting surfaces are perpendicular, and it is independent of the angle of incidence. Such an object is called a <term><emphasis effect="italics">corner reflector</emphasis></term> because the light bounces from its inside corner. Many inexpensive reflector buttons on bicycles, cars, and warning signs have corner reflectors designed to return light in the direction from which it originates. Corner reflectors are perfectly efficient when the conditions for total internal reflection are satisfied. With common materials, it is easy to obtain a critical angle that is less than 45°. One use of these perfect <emphasis effect="italics">mirrors</emphasis> is in binoculars, as shown in <link target-id="Figure_16_02_Binoculars"/>. Another application is for periscopes used in submarines.</para>
+
+<figure id="Figure_16_02_Binoculars"><media id="fs-id1167066112774" alt="A pair of binoculars is shown. The right side is a cutout view of the internal workings of the binoculars. A light ray (depicted by an arrow) enters the binoculars, reflects off two prisms (corner reflectors) to transmit the image, which exits the eyepiece."><image mime-type="image/jpg" src="../../media/CNX_HSPhysics_16_02_Binoculars.jpg"/></media>
+<caption>These binoculars use corner reflectors with total internal reflection to get light to the observer’s eyes.</caption>
+</figure>
+
+<para id="fs-id1167065885859">Fiber optics are one common application of total internal reflection. In communications, fiber optics are used to transmit telephone, internet, and cable TV signals, and they use the transmission of light down fibers of plastic or glass. Because the fibers are thin, light entering one is likely to strike the inside surface at an angle greater than the critical angle and, thus, be totally reflected (<link target-id="Figure_16_02_Fiber"/>). The index of refraction outside the fiber must be smaller than inside, a condition that is satisfied easily by coating the outside of the fiber with a material that has an appropriate refractive index. In fact, most fibers have a varying refractive index to allow more light to be guided along the fiber through total internal reflection. Rays are reflected around corners as shown in the figure, making the fibers into tiny <emphasis effect="italics">light pipes</emphasis>.</para><figure id="Figure_16_02_Fiber"><media id="fs-id1167065850467" alt="View (a) shows a cross-section of a fiber optic cable that consists of a core (n1) and thin cladding (n2). A light ray (depicted by an arrow) enters the cable/fiber and reflects off various surfaces. View (b) shows a cross-section of a bent thin fiber and a light ray that reflects off the sides and around corners."><image mime-type="image/jpg" src="../../media/CNX_HSPhysics_16_02_Fiber.jpg"/></media>
+<caption>(a) Fibers in bundles are clad by a material that has a lower index of refraction than the core to ensure total internal reflection, even when fibers are in contact with one another. A single fiber with its cladding is shown. (b) Light entering a thin fiber may strike the inside surface at large, or grazing, angles, and is completely reflected if these angles exceed the critical angle. Such rays continue down the fiber, even following it around corners, because the angles of reflection and incidence remain large.</caption>
+</figure>
+
+<note id="fs-id1167065714203" class="links-to-physics"><title>Medicine: Endoscopes</title>
+<para id="eip-id1167063646918">A medical device called an <emphasis effect="italics">endoscope</emphasis> is shown in <link target-id="Figure_16_02_Endoscope"/>.</para>
+
+<figure id="Figure_16_02_Endoscope"><media id="fs-id1167064720471" alt="A sketch of an endoscope shows the eyepiece attached to an optic tube.">
+<image mime-type="image/jpg" src="../../media/CNX_HSPhysics_16_02_Endoscope.jpg"/></media>
+<caption>Endoscopes, such as the one drawn here, send light down a flexible fiber optic tube, which sends images back to a doctor in charge of performing a medical procedure.</caption>
+</figure>
+
+<para id="fs-id1167065012071">The word <emphasis effect="italics">endoscope means looking inside</emphasis>. Doctors use endoscopes to look inside hollow organs in the human body and inside body cavities. These devices are used to diagnose internal physical problems. Images may be transmitted to an eyepiece or sent to a video screen. Another channel is sometimes included to allow the use of small surgical instruments. Such surgical procedures include collecting biopsies for later testing, and removing polyps and other growths.</para>
+
+<para id="fs-id1167064886300"><link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex026"/></para>
+</note></section><section id="fs-id1167065827630"><title>Calculations with the Law of Refraction</title><note id="fs-id1167064994295" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167064695462"><span>[BL]</span>If an equation has two variables and a constant, such as  <m:math>
+ <m:mrow>
+  <m:mi>n</m:mi><m:mo>=</m:mo><m:mi>c</m:mi><m:mo>/</m:mo><m:mi>v</m:mi><m:mo>,</m:mo></m:mrow>
+</m:math>
+ the value of only one variable is needed to find the other.</para>
+<para id="fs-id1167062349909"><span>[OL]</span>Explain the difference between sine and arcsine. Explain why sin 90° = 1. Note that the index of refraction is a dimensionless number.</para>
+<para id="fs-id1167065735110"><span>[AL]</span>Show why the values sin 0°, sin 30°, sin 45°, sin 60°, and sin 90° can be expressed in the form</para>
+<equation id="fs-id1164564839816"> <m:math display="block">
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:msqrt>
+   <m:mn>0</m:mn>
+  </m:msqrt>
+  <m:mo>,</m:mo><m:mtext> </m:mtext><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:msqrt>
+   <m:mn>1</m:mn>
+  </m:msqrt>
+  <m:mo>,</m:mo><m:mtext> </m:mtext><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:msqrt>
+   <m:mn>2</m:mn>
+  </m:msqrt>
+  <m:mo>,</m:mo><m:mtext> </m:mtext><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:msqrt>
+   <m:mn>3</m:mn>
+  </m:msqrt>
+  <m:mtext>, </m:mtext><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:msqrt>
+   <m:mn>4</m:mn>
+  </m:msqrt>
+  <m:mo>.</m:mo></m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1167065070463">Show that the numerical values of these expressions are 0, 0.5, 0.707, 0.866, and 1.00, respectively.</para>
+</note>
+
+<para id="fs-id1167066090951">The calculation problems that follow require application of the following equations:</para>
+<equation id="fs-id1167064746452" class="unnumberes">
+<label/>
+ <m:math display="block">
+ <m:mrow>
+  <m:mi>n</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mi>c</m:mi>
+   <m:mi>v</m:mi>
+  </m:mfrac>
+  <m:mo>,</m:mo></m:mrow>
+</m:math>
+</equation>
+<equation id="fs-id1167064650984" class="unnumbered">
+<label/>
+ <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>n</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mi>sin</m:mi><m:msub>
+   <m:mi>θ</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>n</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mi>sin</m:mi><m:msub>
+   <m:mi>θ</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mtext> or </m:mtext><m:mfrac>
+   <m:mrow>
+    <m:msub>
+     <m:mi>n</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mi>n</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mtext>sin</m:mtext><m:msub>
+     <m:mi>θ</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    </m:mrow>
+   <m:mrow>
+    <m:mtext>sin</m:mtext><m:msub>
+     <m:mi>θ</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    </m:mrow>
+  </m:mfrac>
+  <m:mo>,</m:mo></m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1167064906869">and</para>
+<equation id="fs-id1167062599710" class="unnumbered">
+<label/>
+ <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>θ</m:mi>
+   <m:mi>c</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:msup>
+   <m:mrow>
+    <m:mi>sin</m:mi></m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+  </m:msup>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:msub>
+       <m:mi>n</m:mi>
+       <m:mn>2</m:mn>
+      </m:msub>
+      </m:mrow>
+     <m:mrow>
+      <m:msub>
+       <m:mi>n</m:mi>
+       <m:mn>1</m:mn>
+      </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mtext>, for </m:mtext><m:msub>
+   <m:mi>n</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>&gt;</m:mo><m:msub>
+   <m:mi>n</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>.</m:mo></m:mrow>
+</m:math>
+</equation>
+
+<para id="fs-id1167066037793">These are the equations for refractive index, the mathematical statement of the law of refraction (Snell’s law), and the equation for the critical angle.</para>
+
+<note id="fs-id1167062368615" class="watch-physics"><title>Snell’s Law Example 1</title>
+
+
+<para id="fs-id1167064903279">This video leads you through calculations based on the application of the equation that represents Snell’s law.</para>
+
+<media id="fs-id1167065859025" alt="no alt text">
+<iframe width="660" height="371.4" src="https://www.openstax.org/l/28Snellslaw"/>
+</media>
+
+<para id="fs-id1167063013596"><link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex027"/></para>
+</note><note id="Worked_Example_16_03" class="worked-example">
+
+<title>Calculating Index of Refraction from Speed</title>
+<exercise id="fs-id1167066091079" class="16-ex028 unnumbered">
+<label/>
+<problem id="fs-id1167065971628">
+<para id="fs-id1167065788863">Calculate the index of refraction for a solid medium in which the speed of light is 2.012  <m:math>
+ <m:mo>×</m:mo>
+</m:math>  10<sup>8</sup> m/s, and identify the most likely substance, based on the  previous table of indicies of refraction.</para><note id="fs-id1167066152135"><label/><title>Strategy</title>
+
+<para id="fs-id1167066089557">We know the speed of light, <emphasis effect="italics">c</emphasis>, is 3.00  <m:math>
+ <m:mo>×</m:mo>
+</m:math>  10<sup>8</sup> m/s, and we are given <emphasis effect="italics">v</emphasis>. We can simply plug these values into the equation for index of refraction, <emphasis effect="italics">n</emphasis>. </para>
+</note></problem>
+<solution id="fs-id1167066083042">
+<label/>
+<title>Solution</title>
+<equation id="fs-id1164565195530"> <m:math display="block">
+ <m:mrow>
+  <m:mi>n</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mi>c</m:mi>
+   <m:mi>v</m:mi>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>3.00</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn></m:mrow>
+     <m:mn>8</m:mn>
+    </m:msup>
+    <m:mtext>m/s</m:mtext></m:mrow>
+   <m:mrow>
+    <m:mn>2.012</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn></m:mrow>
+     <m:mn>8</m:mn>
+    </m:msup>
+    <m:mtext>m/s</m:mtext></m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>1.49</m:mn></m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1167065956260">This value matches that of polystyrene exactly, according to the table of indices of refraction (<link target-id="Table_16_02_Refractive_Indices"/>).  </para></solution>
+<commentary id="fs-id1167065070181">
+<title>Discussion</title>
+<para id="fs-id1167064904402">The three-digit approximation for <emphasis effect="italics">c</emphasis> is used, which in this case is all that is needed. Many values in the table are only given to three significant figures. Note that the units for speed cancel to yield a dimensionless answer, which is correct.</para>
+</commentary>
+</exercise>
+</note>
+
+<note id="Worked_Example_16_04" class="worked-example">
+
+<title>Calculating Index of Refraction from Angles</title>
+<exercise id="fs-id1167062332069" class="16-ex029 unnumbered">
+<label/>
+<problem id="fs-id1167066038893">
+<para id="fs-id1167063183893">Suppose you have an unknown, clear solid substance immersed in water and you wish to identify it by finding its index of refraction. You arrange to have a beam of light enter it at an angle of 45.00°, and you observe the angle of refraction to be 40.30°. What are the index of refraction of the substance and its likely identity?</para>
+<note id="fs-id1167064560210"><label/><title>Strategy</title>
+
+<para id="fs-id1167064774650">We must use the mathematical expression for the law of refraction to solve this problem because we are given angle data, not speed data.</para>
+<equation id="fs-id1164564829480"> <m:math display="block">
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:msub>
+     <m:mi>n</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mi>n</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mtext>sin</m:mtext><m:msub>
+     <m:mi>θ</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    </m:mrow>
+   <m:mrow>
+    <m:mtext>sin</m:mtext><m:msub>
+     <m:mi>θ</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    </m:mrow>
+  </m:mfrac>
+  </m:mrow>
+</m:math>
+</equation>
+
+<para id="fs-id1167065975524">The subscripts 1 and 2 refer to values for water and the unknown, respectively, where 1 represents the medium from which the light is coming and 2 is the new medium it is entering. We are given the angle values, and the table of indicies of refraction gives us <emphasis effect="italics">n</emphasis> for water as 1.333. All we have to do before solving the problem is rearrange the equation</para>
+<equation id="fs-id1164566941978"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>n</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msub>
+     <m:mi>n</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    <m:mtext>sin</m:mtext><m:msub>
+     <m:mi>θ</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    </m:mrow>
+   <m:mrow>
+    <m:mtext>sin</m:mtext><m:msub>
+     <m:mi>θ</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    </m:mrow>
+  </m:mfrac>
+  <m:mo>.</m:mo></m:mrow>
+</m:math>
+</equation></note></problem>
+<solution id="fs-id1167065825266"><label/>
+<title>Solution</title>
+<equation id="fs-id1164564910076"> <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>n</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mo stretchy="false">(</m:mo><m:mn>1.333</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.7071</m:mn><m:mo stretchy="false">)</m:mo></m:mrow>
+   <m:mrow>
+    <m:mn>0.6468</m:mn></m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>1.457</m:mn></m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1167062506509">The best match from <link target-id="Table_16_02_Refractive_Indices"/> is fused quartz, with <emphasis effect="italics">n</emphasis> = 1.458.</para></solution>
+<commentary id="fs-id1167066055670">
+<title>Discussion</title>
+<para id="fs-id1167064931997">Note the relative sizes of the variables involved. For example, a larger angle has a larger sine value. This checks out for the two angles involved. Note that the smaller value of  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>θ</m:mi>
+   <m:mtext>2</m:mtext>
+  </m:msub>
+  </m:mrow>
+</m:math>  compared with  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>θ</m:mi>
+   <m:mtext>1</m:mtext>
+  </m:msub>
+  </m:mrow>
+</m:math>  indicates the ray has bent <emphasis effect="italics">toward</emphasis> normal. This result is to be expected if the unknown substance has a greater <emphasis effect="italics">n</emphasis> value than that of water. The result shows that this is the case.</para>
+</commentary>
+</exercise>
+</note>
+
+<note id="Worked_Example_16_05" class="worked-example">
+
+<title>Calculating Critical Angle</title>
+<exercise id="fs-id1167064948553" class="16-ex030 unnumbered">
+<label/>
+<problem id="fs-id1167064570660">
+<para id="fs-id1167062506431">Verify that the critical angle for light going from water to air is 48.6°. (See <link target-id="Table_16_02_Refractive_Indices"/>, the table of indices of refraction.)</para><note id="fs-id1167065972839"><label/><title>Strategy</title>
+
+<para id="fs-id1167062368275">First, choose the equation for critical angle</para>
+<equation id="fs-id1164563564864">
+ <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>θ</m:mi>
+   <m:mi>c</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:msup>
+   <m:mrow>
+    <m:mi>sin</m:mi></m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+  </m:msup>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:msub>
+       <m:mi>n</m:mi>
+       <m:mn>2</m:mn>
+      </m:msub>
+      </m:mrow>
+     <m:mrow>
+      <m:msub>
+       <m:mi>n</m:mi>
+       <m:mn>1</m:mn>
+      </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mtext>, for </m:mtext><m:msub>
+   <m:mi>n</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>&gt;</m:mo><m:msub>
+   <m:mi>n</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>.</m:mo></m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1167066154249">Then, look up the <emphasis effect="italics">n</emphasis> values for water, <emphasis effect="italics">n</emphasis><sub>1</sub>, and air, <emphasis effect="italics">n</emphasis><sub>2</sub>. Find the value of
+ <m:math><m:mfrac>
+     <m:mrow>
+      <m:msub>
+       <m:mi>n</m:mi>
+       <m:mn>2</m:mn>
+      </m:msub>
+      </m:mrow>
+     <m:mrow>
+      <m:msub>
+       <m:mi>n</m:mi>
+       <m:mn>1</m:mn>
+      </m:msub>
+      </m:mrow>
+    </m:mfrac></m:math> . Last, find the angle that has a sine equal to this value and it compare with the given angle of 48.6°.</para></note></problem>
+<solution id="fs-id1167064930230"><label/>
+<title>Solution</title>
+<para id="fs-id1167066105605">For water, <emphasis effect="italics">n</emphasis><sub>1</sub> = 1.333; for air, <emphasis effect="italics">n</emphasis><sub>2</sub> = 1.0003. So,</para>
+<equation id="fs-id1164562164023"> <m:math display="block">
+ <m:mtable columnalign="left">
+  <m:mtr>
+   <m:mtd>
+    <m:mfrac>
+     <m:mrow>
+      <m:msub>
+       <m:mi>n</m:mi>
+       <m:mn>2</m:mn>
+      </m:msub>
+      </m:mrow>
+     <m:mrow>
+      <m:msub>
+       <m:mi>n</m:mi>
+       <m:mn>1</m:mn>
+      </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo><m:mfrac>
+     <m:mrow>
+      <m:mn>1.0003</m:mn></m:mrow>
+     <m:mrow>
+      <m:mn>1.333</m:mn></m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo><m:mn>0.7504</m:mn>
+   </m:mtd>
+  </m:mtr>
+  <m:mtr>
+   <m:mtd>
+    <m:msup>
+     <m:mi>sin</m:mi>
+     <m:mrow>
+      <m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+    </m:msup>
+    <m:mo stretchy="false">(</m:mo><m:mn>0.7504</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>48.63°</m:mn><m:mo/><m:mo>.</m:mo>
+   </m:mtd>
+  </m:mtr>
+ </m:mtable>
+
+</m:math>
+</equation></solution>
+<commentary id="fs-id1167064686052">
+<title>Discussion</title>
+<para id="fs-id1167064529034">Remember, when we try to find a critical angle, we look for the angle at which light can no longer escape past a medium boundary by refraction. It is logical, then, to think of subscript 1 as referring to the medium the light is trying to leave, and subscript 2 as where it is trying (unsuccessfully) to go. So water is 1 and air is 2.</para>
+</commentary>
+</exercise>
+</note>
+
+
+</section><section id="fs-id1167064908082" class="practice-problems"><title>Practice Problems</title><exercise id="fs-id1167065681590">
+<problem id="fs-id1167062443983">
+<!--<para id="fs-id1167066000551">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex031"/>
+</para>-->
+<para id="fs-id1164563421828">The refractive index of ethanol is 1.36. What is the speed of light in ethanol?</para>
+<list id="fs-id1164564941215" list-type="enumerated" number-style="lower-alpha">
+<item>2.25×108 m/s</item>
+<item>2.21×107 m/s</item>
+<item>2.25×109 m/s</item>
+<item>2.21×108 m/s</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167064951281">
+<problem id="fs-id1167064877480">
+<para id="fs-id1167065877977">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex032"/>
+</para>
+</problem>
+</exercise>
+</section><section id="fs-id1167066086052" class="check-understanding"><title>Check Your Understanding</title><note id="fs-id1167065892043" class="os-teacher">
+<title>Teacher Support</title>
+<para id="fs-id1167062405322">Use these questions to assess student achievement of the section’s learning objectives. If students are struggling with a specific objective, these questions help identify which one, and then you can direct students to the relevant content.</para>
+</note>
+<exercise id="fs-id1167062329363" class="os-exercise">
+<problem id="fs-id1167064583486">
+<para id="fs-id1167064583488">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex033"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065945752" class="os-exercise">
+<problem id="fs-id1167062888015">
+<para id="fs-id1167062888017">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex034"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166851055752" class="os-exercise">
+<problem id="eip-id1166851304814">
+<para id="eip-id1166851304816">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ot021"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167065746620" class="summary">
+<title>Section Summary</title>
+<list id="fs-id1167066098137"><item>The index of refraction for a material is given by the speed of light in a vacuum divided by the speed of light in that material.</item>
+<item>Snell’s law states the relationship between indices of refraction, the incident angle, and the angle of refraction.</item>
+<item>The critical angle,  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>θ</m:mi>
+   <m:mtext>c</m:mtext>
+  </m:msub>
+  </m:mrow>
+</m:math>, determines whether total internal refraction can take place, and can be calculated according to  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>θ</m:mi>
+   <m:mi>c</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mtext> </m:mtext><m:mi>s</m:mi><m:mi>i</m:mi><m:msup>
+   <m:mi>n</m:mi>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+  </m:msup>
+  <m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:msub>
+   <m:mi>n</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub></m:mrow>
+  <m:mrow><m:msub>
+   <m:mi>n</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub></m:mrow></m:mfrac>
+  <m:mo stretchy="false">)</m:mo></m:mrow>
+</m:math> .</item>
+</list></section>
+
+<section id="fs-id1167062354394" class="key-equations"><title>Key Equations</title>
+<table id="fs-id1167064973743" class="unnumbered unstyled" summary="Table with two columns and four rows. The top left cell reads “Index of refraction,” with the top right cell showing the equation for index of refraction of a medium equal to the ratio of the speed of light in a vacuum to the speed of light in the medium. The second left cell reads “Snell’s law,” with the right cell showing the equation for the product of the index of refraction and sine of ray angle in medium 1 equal to the product of the index of refraction and sine of ray angle in medium 2. The third left cell reads “Snell’s law in terms of speed,” with the right cell showing the ratio of the sines of angles in media 1 and 2 equal to the speed of light in media 1 and 2, respectively. The bottom left cell reads “Critical angle,” with the bottom right cell showing the equation for critical angle equal to the arcsine of the ratio of n2 to n1, with the condition that n1 is greater than n2."><label/>
+<tgroup cols="2"><colspec colnum="1" align="left" colname="c1"/>
+<colspec colnum="2" align="left" colname="c2"/>
+<tbody>
+<row>
+<entry>index of Refraction</entry>
+<entry> <m:math><m:mi>n</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>c</m:mi><m:mi>v</m:mi></m:mfrac></m:math>
+</entry>
+</row>
+<row>
+<entry>Snell’s law</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>n</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mi>sin</m:mi><m:msub>
+   <m:mi>θ</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>n</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mi>sin</m:mi><m:msub>
+   <m:mi>θ</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mtext> or </m:mtext><m:mfrac>
+   <m:mrow>
+    <m:msub>
+     <m:mi>n</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mi>n</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mtext>sin</m:mtext><m:msub>
+     <m:mi>θ</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    </m:mrow>
+   <m:mrow>
+    <m:mtext>sin</m:mtext><m:msub>
+     <m:mi>θ</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    </m:mrow>
+  </m:mfrac>
+  </m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>&gt;Snell’s law in terms of speed</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mi>sin</m:mi><m:msub>
+     <m:mi>θ</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    </m:mrow>
+   <m:mrow>
+    <m:mi>sin</m:mi><m:msub>
+     <m:mi>θ</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msub>
+     <m:mi>v</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mi>v</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    </m:mrow>
+  </m:mfrac>
+  </m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>critical angle</entry>
+<entry> <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>θ</m:mi>
+   <m:mi>c</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:msup>
+   <m:mrow>
+    <m:mi>sin</m:mi></m:mrow>
+   <m:mrow>
+    <m:mn>−1</m:mn></m:mrow>
+  </m:msup>
+  <m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:msub>
+   <m:mi>n</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub></m:mrow>
+  <m:mrow><m:msub>
+   <m:mi>n</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub></m:mrow></m:mfrac>
+  <m:mtext>), for </m:mtext><m:msub>
+   <m:mi>n</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>&gt;</m:mo><m:msub>
+   <m:mi>n</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table></section><section id="fs-id1167065958183" class="concept"><title>Concept Items</title><exercise id="fs-id1167064638776" class="os-exercise">
+<problem id="fs-id1167065950968">
+<para id="fs-id1167065848421">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex035"/>
+</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167066088724" class="critical-thinking"><title>Critical Thinking</title>
+<exercise id="fs-id1167066045914" class="os-exercise">
+<problem id="fs-id1167065879839">
+<para id="fs-id1167064533346">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex036"/>
+</para>
+</problem>
+</exercise>
+<exercise id="eip-id1166849409866" class="os-exercise">
+<problem id="eip-id1166849293728">
+<para id="eip-id1166847242303">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ot028"/>
+</para>
+</problem>
+</exercise></section>
+<section id="fs-id1167064595694" class="problems">
+<title>Problems</title>
+<exercise id="fs-id1167065874940" class="os-exercise">
+<problem id="fs-id1167064891630">
+<!--<para id="fs-id1167065941169">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex037"/>
+</para>-->
+<para id="fs-id1164565170915">An optical fiber uses flint glass (<emphasis effect="italics">n</emphasis> = 1.66) clad with crown glass (<emphasis effect="italics">n</emphasis> = 1.52) . What is the critical angle?</para>
+<list id="fs-id1164563497692" list-type="enumerated" number-style="lower-alpha">
+<item>33.2°</item>
+<item>23.7°</item>
+<item>0.92 rad</item>
+<item>1.16 rad</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167065919828" class="os-exercise"><problem id="fs-id1167065919831">
+<!--<para id="fs-id1167064948223">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex038"/>
+</para>--><para id="eip-idm392343264">Suppose this figure represents a ray of light going from air (<emphasis effect="italics">n</emphasis> = 1.0003) through crown glass (<emphasis effect="italics">n</emphasis> = 1.52) into water, similar to a beam of light going into a fish tank.</para>
+<media id="fs-id1164566861565" alt="An image is shown with a ray going into a medium. The incident ray has an angle labeled theta 1 and it splits into two rays as it hits the first horizon labeled en 1. The ray on the bottom is represented by a solid line and starts with an angle labeled theta two and the ray continues through a medium labeled en 2. When it encounters a horizon labeled en 3, the angle of theta 2 is on top of the horizon and theta 3 is under the horizon. The ray on top is represented by a dashed line. It continues straight from the incident ray until it hits horizon en 3. After the ray enters en 3, the angle of theta 3 is below the horizon. A distance of delta x is marked between the two rays at the bottom of the second medium.">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_16_02_Crown_img.jpg"/>
+</media>
+<para id="fs-id1164566549047">Calculate the amount the ray is displaced by the glass (Δx), given that the incident angle is 40.0° and the glass is 1.00 cm thick.</para>
+<list id="fs-id1164562188794" list-type="enumerated" number-style="lower-alpha">
+<item>0.839 cm</item>
+<item>0.619 cm</item>
+<item>0.466 cm</item>
+<item>0.373 cm</item>
+</list>
+</problem>
+</exercise></section>
+
+
+<section id="fs-id1167062337887" class="multiple-choice"><title>Test Prep Multiple Choice</title><exercise id="fs-id1167065952773" class="os-exercise">
+<problem id="fs-id1167065764025">
+<!--<para id="fs-id1167065895905">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex039"/>
+</para>-->
+<para id="fs-id1164564975832">What does <emphasis effect="italics">c</emphasis> represent in the equation
+ <m:math><m:mi>n</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>c</m:mi><m:mi>v</m:mi></m:mfrac></m:math> ?</para><list id="fs-id1164566957227" list-type="enumerated" number-style="lower-alpha">
+<item>the critical angle</item>
+<item>the refractive index</item>
+<item>the speed of light in a vacuum</item>
+<item>the speed of light in a transparent material</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167064743825" class="os-exercise">
+<problem id="fs-id1167064743828">
+<!--<para id="fs-id1167064595718">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex040"/>
+</para>-->
+<para id="fs-id1164566562729">What is the term for the minimum angle at which a light ray is reflected back into a material and cannot pass into the surrounding medium?</para>
+<list id="fs-id1164564746042" list-type="enumerated" number-style="lower-alpha">
+<item>critical angle</item>
+<item>incident angle</item>
+<item>angle of refraction</item>
+<item>angle of reflection</item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-id1166849937173" class="os-exercise">
+<problem id="eip-id1166850032308">
+<!--<para id="eip-id1166849873533">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ot023"/>
+</para>-->
+<para id="fs-id1164564724643">Consider these indices of refraction: glass: 1.52, air: 1.0003, water: 1.333. Put these materials in order from the one in which the speed of light is fastest to the one in which it is slowest.</para>
+<list id="fs-id1164566525307" list-type="enumerated" number-style="lower-alpha">
+<item>The speed of light in water &gt; the speed of light in air &gt; the speed of light in glass.</item>
+<item>The speed of light in glass &gt; the speed of light in water &gt; the speed of light in air.</item>
+<item>The speed of light in air &gt; the speed of light in water &gt; the speed of light in glass.</item>
+<item>The speed of light in glass &gt; the speed of light in air &gt; the speed of light in water.</item>
+</list>
+</problem>
+</exercise>
+<exercise id="eip-id1166849814868" class="os-exercise">
+<problem id="eip-id1166849863719">
+<para id="eip-id1166847587024">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ot026"/>
+</para>
+</problem>
+</exercise></section><section id="fs-id1167066156100" class="short-answer">
+<title>Test Prep Short Answer</title>
+<exercise id="fs-id1167065788721" class="os-exercise">
+<problem id="fs-id1167065030306">
+<para id="fs-id1167065883241">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex041"/>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167065014008" class="os-exercise">
+<problem id="fs-id1167065014011">
+<!--<para id="fs-id1167065775485">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex042"/>
+</para>-->
+<para id="fs-id1169831984771">Water floats on a liquid called <emphasis effect="italics">carbon tetrachloride</emphasis>. The two liquids do not mix. A light ray passing from water into carbon tetrachloride has an incident angle of 45.0° and an angle of refraction of 40.1°. If the index of refraction of water is 1.33, what is the index of refraction of carbon tetrachloride?</para>
+<list id="fs-id1169827306679" list-type="enumerated" number-style="lower-alpha">
+<item>1.60</item>
+<item>1.49</item>
+<item>1.21</item>
+<item>1.46</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167065961278" class="os-exercise">
+<problem id="fs-id1167065961281">
+<!--<para id="fs-id1167065940653">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex043"/>
+</para>-->
+<para id="fs-id1164566862508">Describe what happens to a light ray when it is refracted. Include in your explanation comparison of angles, comparison of refractive indices, and the term <emphasis effect="italics">normal</emphasis>.</para>
+<list id="fs-id1164564874324" list-type="enumerated" number-style="lower-alpha"><item>When a ray of light goes from one medium to another medium with a different refractive index, the ray changes its path as a result of interference. The angle between the ray and the normal (the line perpendicular to the surfaces of the two media) is greater in the medium with the greater refractive index.</item>
+<item>When a ray of light goes from one medium to another medium with a different refractive index, the ray changes its path as a result of refraction. The angle between the ray and the normal (the line perpendicular to the surfaces of the two media) is less in the medium with the greater refractive index.</item>
+<item>When a ray of light goes from one medium to another medium with a different refractive index, the ray does not change its path. The angle between the ray and the normal (the line parallel to the surfaces of the two media) is the same in both media.</item>
+<item>When a ray of light goes from one medium to another medium with a different refractive index, the ray changes its path as a result of refraction. The angle between the ray and the normal (the line perpendicular to the surfaces of the two media) is less in the medium with the lower refractive index.</item>
+</list></problem>
+</exercise>
+</section>
+<section id="fs-id1167064590229" class="extended-response">
+<title>Test Prep Extended Response</title>
+<exercise id="fs-id1167065086638" class="os-exercise"><problem id="fs-id1167066086220">
+
+<para id="eip-idm375046000">A scuba diver training in a pool looks at his instructor, as shown in this figure. The angle between the ray in the water and the normal to the water is 25°.</para>
+<media id="eip-idm377810576" alt="...">
+<image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_16_02_Scuba_img.jpg"/>
+</media>
+
+<para id="eip-idm361880160">
+What angle does the ray make from the instructor’s face with the normal to the water (<emphasis effect="italics">n</emphasis> = 1.33) at the point where the ray enters? Assume <emphasis effect="italics">n</emphasis> = 1.00 for air.</para>
+
+<list id="eip-idm618622704" list-type="enumerated" number-style="lower-alpha"><item>68°</item>
+<item>25°</item>
+<item>19°</item>
+<item>34°</item></list></problem>
+</exercise><exercise id="fs-id1167064720505" class="os-exercise">
+<problem id="fs-id1167064720508">
+<!--<para id="fs-id1167062368622">
+<link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex046"/>
+</para>-->
+<para id="fs-id1164561111095">Describe total internal reflection. Include a definition of the critical angle and how it is related to total internal reflection. Also, compare the indices of refraction of the interior material and the surrounding material.</para>
+<list id="fs-id1164565145544" list-type="enumerated" number-style="lower-alpha">
+<item>When the interior material has a smaller index of refraction than the surrounding material, the incident ray may approach the boundary at an angle (called the <emphasis effect="italics">critical angle</emphasis>) such that the refraction angle is 90° . The refracted ray cannot leave the interior, so it is reflected back inside and total internal reflection occurs.</item>
+<item>When the interior material has a smaller index of refraction than the surrounding material, the incident ray may approach the boundary at an angle (called the <emphasis effect="italics">critical angle</emphasis>) such that the refraction angle is less than 90° . The refracted ray cannot leave the interior, so it is reflected back inside and total internal reflection occurs.</item>
+<item>When the interior material has the same index of refraction as the surrounding material, the incident ray approaches the boundary at an angle (called the <emphasis effect="italics">critical angle</emphasis>) such that the refraction angle is less than 90° . The refracted ray cannot leave the interior, so it is reflected back inside and total internal reflection occurs.</item>
+<item>When the interior material has a greater index of refraction than the surrounding material, the incident ray may approach the boundary at an angle (called the <emphasis effect="italics">critical angle</emphasis>) such that the refraction angle is 90° . The refracted ray cannot leave the interior, so it is reflected back inside and total internal reflection occurs.</item>
+</list>
+</problem>
+</exercise>
+</section>
+
+</content>
+<glossary>
+<definition id="fs-id1167064679622"><term>angle of refraction</term> <meaning id="fs-id1167064630678">the angle between the normal and the refracted ray</meaning></definition>
+<definition id="fs-id1167064630682"><term>critical angle</term> <meaning id="fs-id1167065073355">an incident angle that produces an angle of refraction of 90°</meaning></definition>
+<definition id="fs-id1167065855707"><term>dispersion</term> <meaning id="fs-id1167065703844">separation of white light into its component wavelengths</meaning></definition>
+<definition id="fs-id1167066044689"><term>incident ray</term> <meaning id="fs-id1167065020382">the incoming ray toward a medium boundary or a reflective surface</meaning></definition>
+<definition id="fs-id1167064932525"><term>index of refraction</term> <meaning id="fs-id1167064986383">the speed of light in a vacuum divided by the speed of light in a given material</meaning></definition>
+<definition id="fs-id1167065020906"><term>refracted ray</term> <meaning id="fs-id1167065971979">the light ray after it has been refracted</meaning></definition>
+<definition id="fs-id1167065971982"><term>Snell’s law</term> <meaning id="fs-id1167066047923">the law of refraction expressed mathematically as  <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>n</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mi>sin</m:mi><m:msub>
+   <m:mi>θ</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>n</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mi>sin</m:mi><m:msub>
+   <m:mi>θ</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>
+</meaning></definition>
+<definition id="fs-id1167064650872"><term>total internal reflection</term> <meaning id="fs-id1167064699994">reflection of light traveling through a medium with a large refractive index at a boundary of a medium with a low refractive index under conditions such that refraction cannot occur</meaning></definition>
+</glossary>
+</document>
