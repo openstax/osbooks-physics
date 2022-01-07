@@ -134,7 +134,7 @@ where  <m:math>
     <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>ω</m:mtext></m:mstyle>
   </m:math>, and  <m:math>
     <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>α</m:mtext></m:mstyle>
-  </m:math> . These are the angular versions of the linear variables <emphasis effect="italics">x</emphasis>, <emphasis>v</emphasis>, and <emphasis>a</emphasis>. <link target-id="Table_06_02"/> shows how they are related.</para>
+  </m:math>.  These are the angular versions of the linear variables <emphasis effect="italics">x</emphasis>, <emphasis>v</emphasis>, and <emphasis>a</emphasis>. The following equations in the table represent the magnitude of the rotational variables and only when the radius is constant and perpendicular to the rotational variable. <link target-id="Table_06_02"/> shows how they are related.</para>
   <table id="Table_06_02" summary="The table has three columns labeled Rotational, Linear, and Relationship. The first row under these labels has a theta under Rotational, an x under Linear and theta equals x over r in the Relationship column. The values for the next row are omega, v and omega equals v over r. The last row’s values are alpha, a, and alpha equals a sub t over r."><title>Rotational and Linear Variables</title>
 <tgroup cols="3"><colspec colnum="1" colname="c1"/>
       <colspec colnum="2" colname="c2"/>

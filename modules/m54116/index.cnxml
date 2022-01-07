@@ -1469,7 +1469,7 @@ The initial displacement  <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mn>0</m:mn></
 <!--<para id="fs-id1168439804489">
 <link class="os-embed" url="#ost/api/ex/k12phys-ch03-ex036"/>
 </para>-->
-<para id="fs-id1164567071175">A swan on a lake gets airborne by flapping its wings and running on top of the water. If the swan must reach a velocity of 6.00 m/s to take off and it accelerates from rest at an average rate of 0.350 m/s<sup>2</sup>, how far will it travel before becoming airborne?</para>
+<para id="fs-id1164567071175">A swan on a lake gets airborne by flapping its wings and running on top of the water. If the swan must reach a velocity of 6.00 m/s to take off and it accelerates from rest at a constant rate of 0.350 m/s<sup>2</sup>, how far will it travel before becoming airborne?</para>
 <list id="fs-id1164567401889" list-type="enumerated" number-style="lower-alpha">
 <item>−8.60 m</item>
 <item>8.60 m</item>
@@ -1614,7 +1614,7 @@ The initial displacement  <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mn>0</m:mn></
 <!--<para id="fs-idp36046080">
 <link class="os-embed" url="#ost/api/ex/k12phys-ch03-ex044"/>
 </para>-->
-<para id="fs-id1164565660502">True or False: Consider an object moving with constant acceleration. The plot of displacement versus time for such motion is a curved line while the plot of displacement versus time squared is a straight line.</para>
+<para id="fs-id1164565660502">True or False: Consider an object that starts from rest and moves with constant acceleration. The plot of displacement versus time for such motion is a curved line while the plot of displacement versus time squared is a straight line.</para>
 <list id="fs-id1164566021040" list-type="enumerated" number-style="lower-alpha">
 <item>True</item>
 <item>False</item>

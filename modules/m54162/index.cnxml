@@ -98,7 +98,7 @@
               </m:mrow>
             </m:math> (when <m:math>
               <m:mrow>
-                <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>a</m:mi></m:mstyle><m:mtext>=</m:mtext><m:mn>0</m:mn>
+                <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>a</m:mi></m:mstyle><m:mtext>=</m:mtext><m:mtext>constant</m:mtext>
               </m:mrow>
             </m:math> )</entry>
           </row>

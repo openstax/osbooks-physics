@@ -64,7 +64,7 @@
 <title>Medical Imaging</title>
 <para id="fs-id1167067011989">A host of medical imaging techniques employ nuclear radiation. What makes nuclear radiation so useful? First,  <m:math>
  <m:mi>γ</m:mi>
-</m:math>  radiation can easily penetrate tissue; hence, it is a useful probe to monitor conditions inside the body. Second, nuclear radiation depends on the nuclide and not on the chemical compound it is in, so that a radioactive nuclide can be put into a compound designed for specific purposes. When that is done, the compound is said to be <term>tagged</term>. A tagged compound used for medical purposes is called a <term>radiopharmaceutical</term>. Radiation detectors external to the body can determine the location and concentration of a radiopharmaceutical to yield medically useful information. For example, certain drugs are concentrated in inflamed regions of the body, and their locations can aid diagnosis and treatment as seen in <link target-id="Figure_22_05_Radiopharm"/>. Another application utilizes a radiopharmaceutical that the body sends to bone cells, particularly those that are most active, to detect cancerous tumors or healing points. Images can then be produced of such bone scans. Clever use of radioisotopes determines the functioning of body organs, such as blood flow, heart muscle activity, and iodine uptake in the thyroid gland. For instance, a radioactive form of iodine can be used to monitor the thyroid, a radioactive thallium salt can be used to follow the blood stream, and radioactive gallium can be used for cancer imaging.</para>
+</m:math>  radiation can easily penetrate tissue; hence, it is a useful probe to monitor conditions inside the body. Second, nuclear radiation depends on the nuclide and not on the chemical compound it is in, so that a radioactive nuclide can be put into a compound designed for specific purposes. When that is done, the compound is said to be <term id="term-00001">tagged</term>. A tagged compound used for medical purposes is called a <term id="term-00002">radiopharmaceutical</term>. Radiation detectors external to the body can determine the location and concentration of a radiopharmaceutical to yield medically useful information. For example, certain drugs are concentrated in inflamed regions of the body, and their locations can aid diagnosis and treatment as seen in <link target-id="Figure_22_05_Radiopharm"/>. Another application utilizes a radiopharmaceutical that the body sends to bone cells, particularly those that are most active, to detect cancerous tumors or healing points. Images can then be produced of such bone scans. Clever use of radioisotopes determines the functioning of body organs, such as blood flow, heart muscle activity, and iodine uptake in the thyroid gland. For instance, a radioactive form of iodine can be used to monitor the thyroid, a radioactive thallium salt can be used to follow the blood stream, and radioactive gallium can be used for cancer imaging.</para>
 
 <note id="fs-id1167067009663" class="os-teacher">
 <title>Teacher Support</title>
@@ -81,20 +81,20 @@
 <para id="fs-id1167067247353">Refer students to the explanation of how a scintillator works from earlier in this chapter.</para>
 </note>
 
-<para id="fs-id1167067087712">Once a radioactive compound has been ingested, a device like that shown in <link target-id="Figure_22_05_Anger"/> is used to monitor nuclear activity. The device, called an <term>Anger camera</term> or gamma camera uses a piece of lead with holes bored through it. The gamma rays are redirected through the collimator to narrow their beam, and are then interpreted using a device called a scintillator. The computer analysis of detector signals produces an image. One of the disadvantages of this detection method is that there is no depth information (i.e., it provides a two-dimensional view of the tumor as opposed to a three-dimensional view), because radiation from any location under that detector produces a signal.</para>
+<para id="fs-id1167067087712">Once a radioactive compound has been ingested, a device like that shown in <link target-id="Figure_22_05_Anger"/> is used to monitor nuclear activity. The device, called an <term id="term-00003">Anger camera</term> or gamma camera uses a piece of lead with holes bored through it. The gamma rays are redirected through the collimator to narrow their beam, and are then interpreted using a device called a scintillator. The computer analysis of detector signals produces an image. One of the disadvantages of this detection method is that there is no depth information (i.e., it provides a two-dimensional view of the tumor as opposed to a three-dimensional view), because radiation from any location under that detector produces a signal.</para>
 
 <figure id="Figure_22_05_Anger"><media id="fs-id1167067087863" alt="The figure shows the working of an Anger camera (or gamma camera) with the input rays on the left, camera in the centre and output on the right (which is used for image construction)."><image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_22_05_Anger.jpg"/></media>
 <caption>An Anger or gamma camera consists of a lead collimator and an array of detectors. Gamma rays produce light flashes in the scintillators. The light output is converted to an electrical signal by the photomultipliers. A computer constructs an image from the detector output.</caption>
 </figure>
 
-<para id="fs-id1167067132672"><term class="no-emphasis">Single-photon-emission computer tomography</term> (SPECT) used in conjunction with a CT scanner improves on the process carried out by the gamma camera. <link target-id="Figure_22_05_SPECT"/> shows a patient in a circular array of SPECT detectors that may be stationary or rotated, with detector output used by a computer to construct a detailed image. The spatial resolution of this technique is poor, but the three-dimensional image created results in a marked improvement in contrast.</para>
+<para id="fs-id1167067132672"><term class="no-emphasis" id="term-00004">Single-photon-emission computer tomography</term> (SPECT) used in conjunction with a CT scanner improves on the process carried out by the gamma camera. <link target-id="Figure_22_05_SPECT"/> shows a patient in a circular array of SPECT detectors that may be stationary or rotated, with detector output used by a computer to construct a detailed image. The spatial resolution of this technique is poor, but the three-dimensional image created results in a marked improvement in contrast.</para>
 
 <figure id="Figure_22_05_SPECT">
 <media id="fs-id1167063520605" alt="A photo showing the equipment for Single-photon-emission computer tomography (SPECT)."><image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_22_05_SPECT.jpg"/></media>
 <caption>SPECT uses a rotating camera to form an image of the concentration of a radiopharmaceutical compound. (credit: Woldo, Wikimedia Commons)</caption>
 </figure>
 
-<para id="fs-id1167067053095"><term class="no-emphasis">Positron emission tomography</term> (or PET) scans utilize images produced by  <m:math>
+<para id="fs-id1167067053095"><term class="no-emphasis" id="term-00005">Positron emission tomography</term> (or PET) scans utilize images produced by  <m:math>
  <m:mrow>
   <m:msup>
    <m:mi>β</m:mi>
@@ -116,7 +116,7 @@
 
 <section id="fs-id1167063411680">
 <title>Ionizing Radiation on the Body</title>
-<para id="fs-id1167066966588">We hear many seemingly contradictory things about the biological effects of <term class="no-emphasis">ionizing radiation</term>. It can cause cancer, burns, and hair loss, and yet it is used to treat and even cure cancer. How do we understand such effects? Once again, there is an underlying simplicity in nature, even in complicated biological organisms. All the effects of ionizing radiation on biological tissue can be understood by knowing that ionizing radiation affects molecules within cells, particularly DNA molecules. Let us take a brief look at molecules within cells and how cells operate. Cells have long, double-helical DNA molecules containing chemical patterns called genetic codes that govern the function and processes undertaken by the cells. Damage to DNA consists of breaks in chemical bonds or other changes in the structural features of the DNA chain, leading to changes in the genetic code. In human cells, we can have as many as a million individual instances of damage to DNA per cell per day. The repair ability of DNA is vital for maintaining the integrity of the genetic code and for the normal functioning of the entire organism. A cell with a damaged ability to repair DNA, which could have been induced by ionizing radiation, can do one of the following:</para>
+<para id="fs-id1167066966588">We hear many seemingly contradictory things about the biological effects of <term class="no-emphasis" id="term-00006">ionizing radiation</term>. It can cause cancer, burns, and hair loss, and yet it is used to treat and even cure cancer. How do we understand such effects? Once again, there is an underlying simplicity in nature, even in complicated biological organisms. All the effects of ionizing radiation on biological tissue can be understood by knowing that ionizing radiation affects molecules within cells, particularly DNA molecules. Let us take a brief look at molecules within cells and how cells operate. Cells have long, double-helical DNA molecules containing chemical patterns called genetic codes that govern the function and processes undertaken by the cells. Damage to DNA consists of breaks in chemical bonds or other changes in the structural features of the DNA chain, leading to changes in the genetic code. In human cells, we can have as many as a million individual instances of damage to DNA per cell per day. The repair ability of DNA is vital for maintaining the integrity of the genetic code and for the normal functioning of the entire organism. A cell with a damaged ability to repair DNA, which could have been induced by ionizing radiation, can do one of the following:</para>
 
 <list id="fs-id1167067082798">
 <item>The cell can go into an irreversible state of dormancy, known as senescence.</item>
@@ -134,7 +134,7 @@
 
 <section id="fs-id1167067150095">
 <title>Radiotherapy</title>
-<para id="fs-id1167061683228"><term class="no-emphasis">Radiotherapy</term> is effective against cancer because cancer cells reproduce rapidly and, consequently, are more sensitive to radiation. The central problem in radiotherapy is to make the dose for cancer cells as high as possible while limiting the dose for normal cells. The ratio of abnormal cells killed to normal cells killed is called the <term>therapeutic ratio</term>, and all radiotherapy techniques are designed to enhance that ratio. Radiation can be concentrated in cancerous tissue by a number of techniques. One of the most prevalent techniques for well-defined tumors is a geometric technique shown in <link target-id="Figure_22_05_Radio"/>. A narrow beam of radiation is passed through the patient from a variety of directions with a common crossing point in the tumor. The technique concentrates the dose in the tumor while spreading it out over a large volume of normal tissue.</para>
+<para id="fs-id1167061683228"><term class="no-emphasis" id="term-00007">Radiotherapy</term> is effective against cancer because cancer cells reproduce rapidly and, consequently, are more sensitive to radiation. The central problem in radiotherapy is to make the dose for cancer cells as high as possible while limiting the dose for normal cells. The ratio of abnormal cells killed to normal cells killed is called the <term id="term-00008">therapeutic ratio</term>, and all radiotherapy techniques are designed to enhance that ratio. Radiation can be concentrated in cancerous tissue by a number of techniques. One of the most prevalent techniques for well-defined tumors is a geometric technique shown in <link target-id="Figure_22_05_Radio"/>. A narrow beam of radiation is passed through the patient from a variety of directions with a common crossing point in the tumor. The technique concentrates the dose in the tumor while spreading it out over a large volume of normal tissue.</para>
 
 <figure id="Figure_22_05_Radio"><media id="fs-id1167067184600" alt="The figure shows the use of radiotherapy for treating tumors. A patient is lying and gamma rays are passed through him from several directions and concentrated on the tumor point."><image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_22_05_Radio.jpg"/></media>
 <caption>The <sup>60</sup>Co source of  <m:math>
@@ -148,7 +148,7 @@
 <section id="fs-id1167063636653">
 <title>Radiation Dosage</title>
 <para id="fs-id1167061706174">
-To quantitatively discuss the biological effects of ionizing radiation, we need a radiation dose unit that is directly related to those effects. To do define such a unit, it is important to consider both the biological organism and the radiation itself. Knowing that the amount of ionization is proportional to the amount of deposited energy, we define a radiation dose unit called the <term>rad</term>. It 1/100 of a joule of ionizing energy deposited per kilogram of tissue, which is</para>
+To quantitatively discuss the biological effects of ionizing radiation, we need a radiation dose unit that is directly related to those effects. To do define such a unit, it is important to consider both the biological organism and the radiation itself. Knowing that the amount of ionization is proportional to the amount of deposited energy, we define a radiation dose unit called the <term id="term-00009">rad</term>. It 1/100 of a joule of ionizing energy deposited per kilogram of tissue, which is</para>
 <equation id="fs-id1164566578110"> <m:math display="block">
  <m:mrow>
   <m:mn>1</m:mn><m:mspace width="0.3em"/><m:mtext>rad</m:mtext><m:mo>=</m:mo><m:mn>0.01</m:mn><m:mspace width="0.3em"/><m:mtext>J</m:mtext><m:mo>/</m:mo><m:mtext>kg</m:mtext><m:mo>.</m:mo>
@@ -184,7 +184,7 @@ To quantitatively discuss the biological effects of ionizing radiation, we need 
  <m:mi>β</m:mi>
 </m:math>,  <m:math>
  <m:mi>γ</m:mi>
-</m:math>, X-ray, or some other type of ionizing radiation. The <term>relative biological effectiveness</term> (RBE) relates to the amount of biological damage that can occur from a given type of radiation and is given in <link target-id="Table_22_04"/> for several types of ionizing radiation.</para>
+</m:math>, X-ray, or some other type of ionizing radiation. The <term id="term-00010">relative biological effectiveness</term> (RBE) relates to the amount of biological damage that can occur from a given type of radiation and is given in <link target-id="Table_22_04"/> for several types of ionizing radiation.</para>
 
 <table id="Table_22_04" summary="Table with Type and energy of radiation and Relative Biological Effectiveness.">
 <title>Relative Biological Effectiveness</title>
@@ -261,7 +261,7 @@ To quantitatively discuss the biological effects of ionizing radiation, we need 
 <para id="fs-id1167067277689">Can you think of any other insights from the table?</para>
 </note>
 
-<para id="fs-id1167066966022">A final dose unit more closely related to the effect of radiation on biological tissue is called the <term>roentgen equivalent man</term>, or rem. A combination of all factors mentioned previously, the roentgen equivalent man is defined to be the dose in rads multiplied by the relative biological effectiveness.</para>
+<para id="fs-id1167066966022">A final dose unit more closely related to the effect of radiation on biological tissue is called the <term id="term-00011">roentgen equivalent man</term>, or rem. A combination of all factors mentioned previously, the roentgen equivalent man is defined to be the dose in rads multiplied by the relative biological effectiveness.</para>
 
 <equation id="fs-id1164563173128"> <m:math display="block">
  <m:mrow>
@@ -311,7 +311,7 @@ To quantitatively discuss the biological effects of ionizing radiation, we need 
 <entry>Worst effects due to malfunction of small intestine and blood systems; limited survival</entry>
 </row>
 <row>
-<entry>&gt; 2,000</entry>
+<entry>> 2,000</entry>
 <entry>Fatal within hours due to collapse of central nervous system</entry>
 </row>
 </tbody>

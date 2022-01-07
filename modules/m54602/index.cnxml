@@ -1162,7 +1162,7 @@
 <row>
 <entry/>
 <entry>average radius</entry>
-<entry>1.74 × 10<sup>6</sup> s</entry>
+<entry>1.74 × 10<sup>6</sup> m</entry>
 </row>
 <row>
 <entry/>
@@ -3815,7 +3815,7 @@
 <entry>5950</entry>
 </row>
 <row>
-<entry>Air</entry>
+<entry>Air (20 °C)</entry>
 <entry>343</entry>
 <entry>Water</entry>
 <entry>1493</entry>
@@ -3823,7 +3823,7 @@
 <entry>5100</entry>
 </row>
 <row>
-<entry>Air</entry>
+<entry>Air (0 °C)</entry>
 <entry>331</entry>
 <entry>Mercury</entry>
 <entry>1450</entry>

@@ -958,8 +958,8 @@
 
 <list id="eip-idm377949280" list-type="enumerated" number-style="lower-alpha">
 <item>No, because induced current does not depend upon the area of the coil.</item>
-<item>Yes, because area of the coil increases; the direction of the induced current is counterclockwise.</item>
-<item>Yes, because area of the coil increases; the direction of the induced current is clockwise.</item>
+<item>Yes, because area of the coil decreases; the direction of the induced current is counterclockwise.</item>
+<item>Yes, because area of the coil decreases; the direction of the induced current is clockwise.</item>
 <item>Yes, because the area of the coil does not change; the direction of the induced current is clockwise.</item></list></problem>
 </exercise><exercise id="eip-id1166848706782" class="os-exercise">
 <problem id="eip-id1166848675844">

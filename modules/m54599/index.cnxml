@@ -183,7 +183,9 @@
 
 <section id="fs-id1167065838960">
 <title>The Kilogram</title>
-<para id="fs-id1167065882588">The SI unit for mass is the <emphasis effect="bold">kilogram</emphasis> (kg). It is defined to be the mass of a platinum-iridium cylinder, housed at the International Bureau of Weights and Measures near Paris. Exact replicas of the standard kilogram cylinder are kept in numerous locations throughout the world, such as the National Institute of Standards and Technology in Gaithersburg, Maryland. The determination of all other masses can be done by comparing them with one of these standard kilograms.</para>
+<para id="fs-id1167065882588">The SI unit for mass is the <emphasis effect="bold">kilogram</emphasis> (abbreviated kg); it was previously defined to be the mass of a platinum-iridium cylinder kept with the old meter standard at the International Bureau of Weights and Measures near Paris. Exact replicas of the previously defined kilogram are also kept at the United States’ National Institute of Standards and Technology, or NIST, located in Gaithersburg, Maryland outside of Washington D.C., and at other locations around the world. The determination of all other masses could be ultimately traced to a comparison with the standard mass. Even though the platinum-iridium cylinder was resistant to corrosion, airborne contaminants were able to adhere to its surface, slightly changing its mass over time. In May 2019, the scientific community adopted a more stable definition of the kilogram. The kilogram is now defined in terms of the second, the meter, and Planck's constant, <emphasis effect="italics">h</emphasis> (a quantum mechanical value that relates a photon's energy to its frequency).
+
+</para>
 </section>
 
 <section id="fs-id1167065770264">
@@ -627,7 +629,7 @@
    <m:mrow>
     <m:mtext>.6 × 10</m:mtext>
    </m:mrow>
-   <m:mtext>2</m:mtext>
+   <m:mtext>3</m:mtext>
   </m:msup>
   <m:mtext> s</m:mtext>
  </m:mrow>
@@ -1100,7 +1102,7 @@
 <section id="fs-id1167066102954">
 <title>Uncertainty in Calculations</title>
 <para id="fs-id1167065879809">There is an uncertainty in anything calculated from measured quantities. For example, the area of a floor calculated from measurements of its length and width has an uncertainty because the both the length and width have uncertainties. How big is the uncertainty in something you calculate by multiplication or division? If the measurements in the calculation have small uncertainties (a few percent or less), then the <term>method of adding percents</term> can be used. This method says that the percent uncertainty in a quantity calculated by multiplication or division is the sum of the percent uncertainties in the items used to make the calculation. For example, if a floor has a length of 4.00 m and a width of 3.00 m, with uncertainties of 2 percent and 1 percent, respectively, then the area of the floor is 12.0 m<sup>2</sup> and has an uncertainty of 3 percent (expressed as an area this is 0.36 m<sup>2</sup>, which we round to 0.4 m<sup>2</sup> since the area of the floor is given to a tenth of a square meter).</para>
-<para id="fs-id1167066096796">For a quick demonstration of the accuracy, precision, and uncertainty of measurements based upon the units of measurement, try <link url="http://openstax.org/l/28precision">this simulation</link>. You will have the opportunity to measure the length and weight of a desk, using milli- versus centi- units. Which do you think will provide greater accuracy, precision and uncertainty when measuring the desk and the notepad in the simulation? Consider how the nature of the hypothesis or research question might influence how precise of a measuring tool you need to collect data.</para>
+<para id="fs-id1167066096796">For more information on the accuracy, precision, and uncertainty of measurements based upon the units of measurement, visit <link url="http://openstax.org/l/28precision">this website</link>.</para>
 </section>
 
 <section id="fs-id1167065740447">
