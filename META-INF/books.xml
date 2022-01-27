@@ -1,3 +1,3 @@
 <container xmlns="https://openstax.org/namespaces/book-container" version="1">
-    <book slug="physics" collection-id="col12081" href="../collections/physics.collection.xml" />
+    <book slug="physics" collection-id="col12081" style="hs-physics" href="../collections/physics.collection.xml" />
 </container>
