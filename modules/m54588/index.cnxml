@@ -47,9 +47,9 @@
 </tgroup>
 </table>
 </section>
-<section id="fs-id1167063709447"><title>Understanding the Grand Unified Theory</title><para id="fs-id1167067049638">Present quests to show that the four basic forces are different manifestations of a single unified force that follow a long tradition. In the nineteenth century, the distinct electric and magnetic forces were shown to be intimately connected and are now collectively called the electromagnetic force. More recently, the weak nuclear force was united with the electromagnetic force. As shown in <link target-id="Figure_23_03_WeakFeyn"/>, carrier particles transmit three of the four fundamental forces in very similar ways. With these considerations in mind, it is natural to suggest that a theory may be constructed in which the strong nuclear, weak nuclear, and electromagnetic forces are all unified. The search for a correct theory linking the forces, called the <term>Grand Unified Theory (GUT)</term>, is explored in this section.</para>
+<section id="fs-id1167063709447"><title>Understanding the Grand Unified Theory</title><para id="fs-id1167067049638">Present quests to show that the four basic forces are different manifestations of a single unified force that follow a long tradition. In the nineteenth century, the distinct electric and magnetic forces were shown to be intimately connected and are now collectively called the electromagnetic force. More recently, the weak nuclear force was united with the electromagnetic force. As shown in <link target-id="Figure_23_03_WeakFeyn"/>, carrier particles transmit three of the four fundamental forces in very similar ways. With these considerations in mind, it is natural to suggest that a theory may be constructed in which the strong nuclear, weak nuclear, and electromagnetic forces are all unified. The search for a correct theory linking the forces, called the <term id="term-00001">Grand Unified Theory (GUT)</term>, is explored in this section.</para>
 
-<para id="fs-id1167063528692">In the 1960s, the <term>electroweak theory</term> was developed by Steven Weinberg, Sheldon Glashow, and Abdus Salam. This theory proposed that the electromagnetic and weak nuclear forces are identical at sufficiently high energies. At lower energies, like those in our present-day universe, the two forces remain united but manifest themselves in different ways. One of the main consequences of the electroweak theory was the prediction of three short-range carrier particles, now known as the  <m:math>
+<para id="fs-id1167063528692">In the 1960s, the <term id="term-00002">electroweak theory</term> was developed by Steven Weinberg, Sheldon Glashow, and Abdus Salam. This theory proposed that the electromagnetic and weak nuclear forces are identical at sufficiently high energies. At lower energies, like those in our present-day universe, the two forces remain united but manifest themselves in different ways. One of the main consequences of the electroweak theory was the prediction of three short-range carrier particles, now known as the  <m:math>
  <m:mrow>
   <m:msup>
    <m:mi>W</m:mi>
@@ -163,7 +163,7 @@
 </figure>
 
 <para id="fs-id1167066808929">The extremely short distances and high energies at which the electroweak force becomes identical with the strong nuclear force are not reachable with any conceivable human-built accelerator. At energies of about 10<sup>14</sup> GeV (16,000 J per particle), distances of about 10 to 30 m can be probed. Such energies are needed to test the theory directly, but these are about 10<sup>10</sup> times higher than the maximum energy associated with the LHC, and the distances are about 10 to 12 smaller than any structure we have direct knowledge of. This would be the realm of various GUTs, of which there are many, since there is no constraining evidence at these energies and distances. Past experience has shown that anytime you probe so many orders of magnitude further, you find the unexpected.</para><para id="fs-id1167067105871">While direct evidence of a GUT is not presently possible, that does not rule out the ability to assess a GUT through an indirect process. Current GUTs require various other events as a consequence of their theory. Some GUTs require the existence of magnetic monopoles, very massive individual north- and south-pole particles, which have not yet been proven to exist, while others require the use of extra dimensions. However, not all theories result in the same consequences. For example, disproving the existence of magnetic monopoles will not disprove all GUTs. Much of the science we accept in our everyday lives is based on different models, each with their own strengths and limitations. Although a particular model may have drawbacks, that does not necessarily mean that it should be discounted completely.</para>
-<para id="fs-id1167067133570">One consequence of GUTs that can theoretically be assessed is <term class="no-emphasis">proton decay</term>. Multiple current GUTs hypothesize that the stable proton should actually decay at a lifetime of 10<sup>31</sup> years. While this time is incredibly large (keep in mind that the age of the universe is less than 14 billion years), scientists at the <term class="no-emphasis">Super-Kamiokande</term> in Japan have used a 50,000-ton tank of water to search for its existence. The decay of a single proton in the Super-Kamiokande tank would be observed by a detector, thereby providing support for the predicting GUT model. However, as of 2014, 17 years into the experiment, decay is yet to be found. This time span equates to a minimum limit on proton life of  <m:math>
+<para id="fs-id1167067133570">One consequence of GUTs that can theoretically be assessed is <term class="no-emphasis" id="term-00003">proton decay</term>. Multiple current GUTs hypothesize that the stable proton should actually decay at a lifetime of 10<sup>31</sup> years. While this time is incredibly large (keep in mind that the age of the universe is less than 14 billion years), scientists at the <term class="no-emphasis" id="term-00004">Super-Kamiokande</term> in Japan have used a 50,000-ton tank of water to search for its existence. The decay of a single proton in the Super-Kamiokande tank would be observed by a detector, thereby providing support for the predicting GUT model. However, as of 2014, 17 years into the experiment, decay is yet to be found. This time span equates to a minimum limit on proton life of  <m:math>
  <m:mrow>
   <m:mn>5.9</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
    <m:mrow>
@@ -178,7 +178,7 @@
 
 <para id="fs-id1167063589360">The Super-Kamiokande experiment is a clever use of proportional reasoning. Because it is not feasible to test for 10<sup>31</sup> years in order for a single proton to decay, scientists chose instead to manipulate the protontime ratio. If one proton decays in 10<sup>31</sup> years, then in one year 10<sup>−31</sup> protons will decay. With this in mind, if scientists wanted to test the proton decay theory in one year, they would need 10<sup>31</sup> protons. While this is also unfeasible, the use of a 50,000-ton tank of water helps to bring both the wait time and proton number to within reason.</para></note>
 </section><section id="fs-id1167067210122"><title>The Standard Model and the Big Bang</title><para id="fs-id1167067088797">Nature is full of examples where the macroscopic and microscopic worlds intertwine. Newton realized that the nature of gravity on Earth that pulls an apple to the ground could explain the motion of the moon and planets so much farther away. Decays of tiny nuclei explain the hot interior of the Earth. Fusion of nuclei likewise explains the energy of stars. Today, the patterns in particle physics seem to be explaining the evolution and character of the universe. And the nature of the universe has implications for unexplored regions of particle physics.</para>
-<para id="fs-id1167063716451">In 1929, <term class="no-emphasis">Edwin Hubble</term> observed that all but the closest galaxies surrounding our own had a red shift in their hydrogen spectra that was proportional to their distance from us. Applying the Doppler Effect, Hubble recognized that this meant that all galaxies were receding from our own, with those farther away receding even faster. Knowing that our place in the universe was no more unique than any other, the implication was clear: The space within the universe itself was expanding. Just like pen marks on an expanding balloon, everything in the universe was accelerating away from everything else.</para>
+<para id="fs-id1167063716451">In 1929, <term class="no-emphasis" id="term-00005">Edwin Hubble</term> observed that all but the closest galaxies surrounding our own had a red shift in their hydrogen spectra that was proportional to their distance from us. Applying the Doppler Effect, Hubble recognized that this meant that all galaxies were receding from our own, with those farther away receding even faster. Knowing that our place in the universe was no more unique than any other, the implication was clear: The space within the universe itself was expanding. Just like pen marks on an expanding balloon, everything in the universe was accelerating away from everything else.</para>
 
 <note id="fs-id1167063519723" class="os-teacher">
 <title>Teacher Support</title>
@@ -187,7 +187,7 @@
 
 
 
-<para id="fs-id1167063772250"><link target-id="Figure_23_03_Expansion"/> shows how the recession of galaxies looks like the remnants of a gigantic explosion, the famous <term>Big Bang</term>. Extrapolating backward in time, the Big Bang would have occurred between 13 and 15 billion years ago, when all matter would have been at a single point. From this, questions instantly arise. What caused the explosion? What happened before the Big Bang? Was there a before, or did time start then? For our purposes, the biggest question relating to the Big Bang is this: How does the Big Bang relate to the unification of the fundamental forces?</para>
+<para id="fs-id1167063772250"><link target-id="Figure_23_03_Expansion"/> shows how the recession of galaxies looks like the remnants of a gigantic explosion, the famous <term id="term-00006">Big Bang</term>. Extrapolating backward in time, the Big Bang would have occurred between 13 and 15 billion years ago, when all matter would have been at a single point. From this, questions instantly arise. What caused the explosion? What happened before the Big Bang? Was there a before, or did time start then? For our purposes, the biggest question relating to the Big Bang is this: How does the Big Bang relate to the unification of the fundamental forces?</para>
 
 <figure id="Figure_23_03_Expansion"><media id="fs-id1167063476434" alt="The drawing shows galaxies fleeing from the center of the image, labeled MW for Milky Way. Galaxies further from the center have longer arrows pointing outward than galaxies near the center. This shows that the universe is expanding.">
 <image mime-type="image/jpg" src="../../media/CNX_HSPhysics_23_03_Expansion.jpg"/></media>
@@ -204,7 +204,7 @@
 <para id="fs-id1167063458306">The discussion of the universe evolution in this text stops at the Quark Era. Have students consider why various other eras took place after the Quark Era. How did temperature, density, and pressure play a role in further evolution?</para>
 </note>
 
-<para id="fs-id1167066998041">The <term>Planck Epoch</term>  <m:math>
+<para id="fs-id1167066998041">The <term id="term-00007">Planck Epoch</term>  <m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -225,7 +225,7 @@
     <m:mn>19</m:mn></m:mrow>
   </m:msup>
   </m:mrow>
-</m:math>  GeV necessary to unify gravity with all other forces. As a result, modern cosmology suggests that all four forces would have existed as one force, a hypothetical <term>superforce</term> as suggested by the <term>Theory of Everything</term>.</para><para id="fs-id1167063828463">The <term>Grand Unification Epoch</term>  <m:math>
+</m:math>  GeV necessary to unify gravity with all other forces. As a result, modern cosmology suggests that all four forces would have existed as one force, a hypothetical <term id="term-00008">superforce</term> as suggested by the <term id="term-00009">Theory of Everything</term>.</para><para id="fs-id1167063828463">The <term id="term-00010">Grand Unification Epoch</term>  <m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -243,7 +243,7 @@
     </m:msup>
     <m:mo>s</m:mo></m:mrow>
   <m:mo>)</m:mo></m:mrow></m:mrow>
-</m:math> —As the universe expands, the temperatures necessary to maintain the superforce decrease. As a result, gravity separates, leaving the electroweak and strong nuclear forces together. At this time, the electromagnetic, weak, and strong forces are identical, matching the conditions requested in the Grand Unification Theory.</para><para id="fs-id1167066823830">The <term>Inflationary Epoch</term>  <m:math>
+</m:math> —As the universe expands, the temperatures necessary to maintain the superforce decrease. As a result, gravity separates, leaving the electroweak and strong nuclear forces together. At this time, the electromagnetic, weak, and strong forces are identical, matching the conditions requested in the Grand Unification Theory.</para><para id="fs-id1167066823830">The <term id="term-00011">Inflationary Epoch</term>  <m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -279,7 +279,7 @@
     <m:mn>14</m:mn></m:mrow>
   </m:msup>
   </m:mrow>
-</m:math>  GeV, vastly greater than the limits of modern accelerators.</para><para id="fs-id1167063901188">The <term>Electroweak Epoch</term>  <m:math>
+</m:math>  GeV, vastly greater than the limits of modern accelerators.</para><para id="fs-id1167063901188">The <term id="term-00012">Electroweak Epoch</term>  <m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -297,7 +297,7 @@
     </m:msup>
     <m:mo>s</m:mo></m:mrow>
   <m:mo>)</m:mo></m:mrow></m:mrow>
-</m:math> —Now separated from both gravity and the strong nuclear force, the electroweak force exists as a singular force during this time period. As stated earlier, scientists are able to create the energies at this stage in the universe’s expansion, needing only 100 GeV, as shown in <link target-id="Figure_23_03_GUT"/>. W and Z bosons, as well as the Higgs boson, are released during this time.</para><para id="fs-id1167067194522">The <term>Quark Era</term>  <m:math>
+</m:math> —Now separated from both gravity and the strong nuclear force, the electroweak force exists as a singular force during this time period. As stated earlier, scientists are able to create the energies at this stage in the universe’s expansion, needing only 100 GeV, as shown in <link target-id="Figure_23_03_GUT"/>. W and Z bosons, as well as the Higgs boson, are released during this time.</para><para id="fs-id1167067194522">The <term id="term-00013">Quark Era</term>  <m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
    <m:mrow>

@@ -57,12 +57,12 @@
   </section>
   <section id="fs-id1167067080131">
     <title>Properties of Projectile Motion</title>
-    <para id="fs-id1167067050700"><term>Projectile motion</term> is the motion of an object thrown (projected) into the air. After the initial force that launches the object, it only experiences the force of gravity. The object is called a <term>projectile</term>, and its path is called its <term>trajectory</term>. As an object travels through the air, it encounters a frictional force that slows its motion called <term>air resistance</term>. Air resistance does significantly alter trajectory motion, but due to the difficulty in calculation, it is ignored in introductory physics.</para>
+    <para id="fs-id1167067050700"><term id="term-00001">Projectile motion</term> is the motion of an object thrown (projected) into the air. After the initial force that launches the object, it only experiences the force of gravity. The object is called a <term id="term-00002">projectile</term>, and its path is called its <term id="term-00003">trajectory</term>. As an object travels through the air, it encounters a frictional force that slows its motion called <term id="term-00004">air resistance</term>. Air resistance does significantly alter trajectory motion, but due to the difficulty in calculation, it is ignored in introductory physics.</para>
     <note id="fs-id1167066854907" class="os-teacher">
       <title>Teacher Support</title>
       <para id="fs-id1167067045794"><span>[BL]</span><span>[OL]</span> Review addition of vectors graphically and analytically.</para>
       <para id="fs-id1167066999616"><span>[BL]</span><span>[OL]</span><span>[AL]</span> Explain the term projectile motion. Ask students to guess what the motion of a projectile might depend on? Is the initial velocity important? Is the angle important? How will these things affect its height and the distance it covers? Introduce the concept of air resistance. Review kinematic equations.</para></note>
-    <para id="fs-id1167066778142">The most important concept in projectile motion is that <emphasis effect="italics">horizontal and vertical motions are</emphasis> <term class="no-emphasis"><emphasis effect="italics">independent</emphasis></term>, meaning that they don’t influence one another. <link target-id="Figure_05_03_cannonball"/> compares a cannonball in free fall (in blue) to a cannonball launched horizontally in projectile motion (in red). You can see that the cannonball in free fall falls at the same rate as the cannonball in projectile motion. Keep in mind that if the cannon launched the ball with any vertical component to the velocity, the vertical displacements would not line up perfectly.</para>
+    <para id="fs-id1167066778142">The most important concept in projectile motion is that <emphasis effect="italics">horizontal and vertical motions are</emphasis> <term class="no-emphasis" id="term-00005"><emphasis effect="italics">independent</emphasis></term>, meaning that they don’t influence one another. <link target-id="Figure_05_03_cannonball"/> compares a cannonball in free fall (in blue) to a cannonball launched horizontally in projectile motion (in red). You can see that the cannonball in free fall falls at the same rate as the cannonball in projectile motion. Keep in mind that if the cannon launched the ball with any vertical component to the velocity, the vertical displacements would not line up perfectly.</para>
     <para id="fs-id1167067053283">Since vertical and horizontal motions are independent, we can analyze them separately, along perpendicular axes. To do this, we separate projectile motion into the two components of its motion, one along the horizontal axis and the other along the vertical.</para>
 
     <figure id="Figure_05_03_cannonball">
@@ -754,7 +754,7 @@
                 </m:msub>
 
               </m:mrow>
-            </m:math> to be zero and solve for the <term>maximum height</term>.</para></note>
+            </m:math> to be zero and solve for the <term id="term-00006">maximum height</term>.</para></note>
         </problem>
         <solution id="fs-id1167066863043"><label/>
           <title>Solution for (a)</title>
@@ -1269,7 +1269,7 @@
         </m:mrow>
       </m:math>
 
-    </equation><para id="fs-id1167067038168">This equation defines the <term>maximum height of a projectile</term>. The maximum height depends only on the vertical component of the initial velocity.</para>
+    </equation><para id="fs-id1167067038168">This equation defines the <term id="term-00007">maximum height of a projectile</term>. The maximum height depends only on the vertical component of the initial velocity.</para>
     <note id="fs-id1167067038174" class="worked-example">
         <title>Calculating Projectile Motion: Hot Rock Projectile</title>
       <exercise id="fs-id1167067141936" class="05-ex051 unnumbered"><label/>

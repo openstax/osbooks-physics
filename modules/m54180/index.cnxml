@@ -64,7 +64,7 @@
 <para id="fs-id1167067179503">Students may get confused between deceleration and increasing acceleration in the negative direction.</para>
 </note>
 </note>
-<para id="fs-id1167063459079">In the section on uniform circular motion, we discussed motion in a circle at constant speed and, therefore, constant angular velocity. However, there are times when angular velocity is not constant—rotational motion can speed up, slow down, or reverse directions. Angular velocity is not constant when a spinning skater pulls in her arms, when a child pushes a merry-go-round to make it rotate, or when a CD slows to a halt when switched off. In all these cases, <term>angular acceleration</term> occurs because the angular velocity  <m:math>
+<para id="fs-id1167063459079">In the section on uniform circular motion, we discussed motion in a circle at constant speed and, therefore, constant angular velocity. However, there are times when angular velocity is not constant—rotational motion can speed up, slow down, or reverse directions. Angular velocity is not constant when a spinning skater pulls in her arms, when a child pushes a merry-go-round to make it rotate, or when a CD slows to a halt when switched off. In all these cases, <term id="term-00001">angular acceleration</term> occurs because the angular velocity  <m:math>
  <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>ω</m:mtext></m:mstyle>
 </m:math>  changes. The faster the change occurs, the greater is the angular acceleration. Angular acceleration  <m:math>
  <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>α</m:mtext></m:mstyle>
@@ -107,7 +107,7 @@ where  <m:math>
 <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_06_03_IceSkater.jpg"/>
 </media>
 
-<caption>A figure skater spins in the counterclockwise direction, so her angular velocity is normally considered to be positive. (Luu, Wikimedia Commons)</caption></figure><para id="fs-id1167066825514">The relationship between the magnitudes of <term>tangential acceleration</term>, <emphasis>a</emphasis>, and angular acceleration,</para>
+<caption>A figure skater spins in the counterclockwise direction, so her angular velocity is normally considered to be positive. (Luu, Wikimedia Commons)</caption></figure><para id="fs-id1167066825514">The relationship between the magnitudes of <term id="term-00002">tangential acceleration</term>, <emphasis>a</emphasis>, and angular acceleration,</para>
 <equation id="fs-id1167067084360">
 <label/>
  <m:math display="block">
@@ -121,12 +121,12 @@ where  <m:math>
 </m:math> 
 
 </equation>
-  <para id="fs-id1167063470309">These equations mean that the magnitudes of tangential acceleration and angular acceleration are directly proportional to each other. The greater the angular acceleration, the larger the change in tangential acceleration, and vice versa. For example, consider riders in their pods on a Ferris wheel at rest. A Ferris wheel with greater angular acceleration will give the riders greater tangential acceleration because, as the Ferris wheel increases its rate of spinning, it also increases its <term class="no-emphasis">tangential velocity</term>. Note that the radius of the spinning object also matters. For example, for a given angular acceleration  <m:math>
+  <para id="fs-id1167063470309">These equations mean that the magnitudes of tangential acceleration and angular acceleration are directly proportional to each other. The greater the angular acceleration, the larger the change in tangential acceleration, and vice versa. For example, consider riders in their pods on a Ferris wheel at rest. A Ferris wheel with greater angular acceleration will give the riders greater tangential acceleration because, as the Ferris wheel increases its rate of spinning, it also increases its <term class="no-emphasis" id="term-00003">tangential velocity</term>. Note that the radius of the spinning object also matters. For example, for a given angular acceleration  <m:math>
     <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>α</m:mtext></m:mstyle>
   </m:math>, a smaller Ferris wheel leads to a smaller tangential acceleration for the riders.</para>
   <note id="fs-id1167066808542" class="tips-for-success">
 
-    <para id="fs-id1167067176090">Tangential acceleration is sometimes denoted <emphasis>a</emphasis><sub>t</sub>. It is a <term class="no-emphasis">linear acceleration</term> in a direction tangent to the circle at the point of interest in circular or rotational motion. Remember that tangential acceleration is parallel to the tangential velocity (either in the same direction or in the opposite direction.) <term class="no-emphasis">Centripetal acceleration</term> is always perpendicular to the tangential velocity.</para>
+    <para id="fs-id1167067176090">Tangential acceleration is sometimes denoted <emphasis>a</emphasis><sub>t</sub>. It is a <term class="no-emphasis" id="term-00004">linear acceleration</term> in a direction tangent to the circle at the point of interest in circular or rotational motion. Remember that tangential acceleration is parallel to the tangential velocity (either in the same direction or in the opposite direction.) <term class="no-emphasis" id="term-00005">Centripetal acceleration</term> is always perpendicular to the tangential velocity.</para>
   </note>
   <para id="fs-id1167063589397">So far, we have defined three rotational variables:  <m:math>
     <m:mi>θ</m:mi>
@@ -215,7 +215,7 @@ where  <m:math>
   </m:math>  and angle of rotation  <m:math>
     <m:mi>θ</m:mi>
   </m:math>  are large. In the case of linear motion, if an object starts at rest and undergoes a large linear acceleration, then it has a large final velocity and will have traveled a large distance.</para>
-  <para id="fs-id1167067085294">The <term>kinematics of rotational motion</term> describes the relationships between the angle of rotation, angular velocity, angular acceleration, and time. It only <emphasis effect="italics">describes</emphasis> motion—it does not include any forces or masses that may affect rotation (these are part of dynamics). Recall the kinematics equation for linear motion:  <m:math>
+  <para id="fs-id1167067085294">The <term id="term-00006">kinematics of rotational motion</term> describes the relationships between the angle of rotation, angular velocity, angular acceleration, and time. It only <emphasis effect="italics">describes</emphasis> motion—it does not include any forces or masses that may affect rotation (these are part of dynamics). Recall the kinematics equation for linear motion:  <m:math>
     <m:mrow>
       <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle><m:mo>=</m:mo><m:msub>
         <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
@@ -499,8 +499,8 @@ where  <m:math>
 </section>
   <section id="fs-id1167067154476">
     <title>Torque</title>
-    <para id="fs-id1167067276602">If you have ever spun a bike wheel or pushed a merry-go-round, you know that force is needed to change angular velocity. The farther the force is applied from the <term class="no-emphasis">pivot point</term> (or <term class="no-emphasis">fulcrum</term>), the greater the angular acceleration. For example, a door opens slowly if you push too close to its hinge, but opens easily if you push far from the hinges. Furthermore, we know that the more massive the door is, the more slowly it opens; this is because angular acceleration is inversely proportional to mass. These relationships are very similar to the relationships between force, mass, and acceleration from Newton’s second law of motion. Since we have already covered the angular versions of distance, velocity and time, you may wonder what the angular version of force is, and how it relates to linear force.</para>
-    <para id="fs-id1167066840204">The angular version of force is <term>torque</term>  <m:math>
+    <para id="fs-id1167067276602">If you have ever spun a bike wheel or pushed a merry-go-round, you know that force is needed to change angular velocity. The farther the force is applied from the <term class="no-emphasis" id="term-00007">pivot point</term> (or <term class="no-emphasis" id="term-00008">fulcrum</term>), the greater the angular acceleration. For example, a door opens slowly if you push too close to its hinge, but opens easily if you push far from the hinges. Furthermore, we know that the more massive the door is, the more slowly it opens; this is because angular acceleration is inversely proportional to mass. These relationships are very similar to the relationships between force, mass, and acceleration from Newton’s second law of motion. Since we have already covered the angular versions of distance, velocity and time, you may wonder what the angular version of force is, and how it relates to linear force.</para>
+    <para id="fs-id1167066840204">The angular version of force is <term id="term-00009">torque</term>  <m:math>
       <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>τ</m:mi></m:mstyle>
     </m:math>, which is the turning effectiveness of a force. See <link target-id="Figure_06_03_MerryGoRound"/>. The equation for the magnitude of torque is </para>
     <equation id="fs-id1167067092506" class="unnumbered"><label/>
@@ -510,7 +510,7 @@ where  <m:math>
         </m:mrow>
       </m:math> 
     </equation>
-    <para id="fs-id1167067133758">where <emphasis effect="italics">r</emphasis> is the magnitude of the <term>lever arm</term>, <emphasis>F</emphasis> is the magnitude of the linear force, and  <m:math>
+    <para id="fs-id1167067133758">where <emphasis effect="italics">r</emphasis> is the magnitude of the <term id="term-00010">lever arm</term>, <emphasis>F</emphasis> is the magnitude of the linear force, and  <m:math>
  <m:mi>θ</m:mi>
 </m:math>  is the angle between the lever arm and the force. The lever arm is the vector from the point of rotation (pivot point or fulcrum) to the location where force is applied. Since the magnitude of the lever arm is a distance, its units are in meters, and torque has units of N⋅m. Torque is a vector quantity and has the same direction as the angular acceleration that it produces.</para>
     <figure id="Figure_06_03_MerryGoRound">

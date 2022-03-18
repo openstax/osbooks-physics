@@ -60,9 +60,9 @@
   <item>Frequency—number of waves passing by a specific point per second</item>
   <item>Period—time it takes for one wave cycle to complete</item>
  </list>
- <para id="fs-id1167065887982">In addition to amplitude, frequency, and period, their wavelength and wave velocity also characterize waves. The <term>wavelength</term>  <m:math>
+ <para id="fs-id1167065887982">In addition to amplitude, frequency, and period, their wavelength and wave velocity also characterize waves. The <term id="term-00001">wavelength</term>  <m:math>
  <m:mi>λ</m:mi>
-</m:math>  is the distance between adjacent identical parts of a wave, parallel to the direction of propagation. The <term>wave velocity</term>  <m:math>
+</m:math>  is the distance between adjacent identical parts of a wave, parallel to the direction of propagation. The <term id="term-00002">wave velocity</term>  <m:math>
  <m:mrow>
   <m:msub>
    <m:mi>v</m:mi>

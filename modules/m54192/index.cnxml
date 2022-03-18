@@ -58,7 +58,7 @@
 </list>
 <note id="fs-id1167065977234" class="os-teacher"><title>Teacher Support</title>
 <para id="fs-id1167065864125"><span>[OL]</span> Ask the students to explain the criteria to see if they understand relative mass and isolated systems.</para>
-</note><para id="fs-id1167066121734">Based on the motion of the planets about the sun, Kepler devised a set of three classical laws, called <term>Kepler’s laws of planetary motion</term>, that describe the orbits of all bodies satisfying these two conditions:</para>
+</note><para id="fs-id1167066121734">Based on the motion of the planets about the sun, Kepler devised a set of three classical laws, called <term id="term-00001">Kepler’s laws of planetary motion</term>, that describe the orbits of all bodies satisfying these two conditions:</para>
 <list id="fs-id1167065705190" list-type="enumerated" number-style="arabic">
 <item>The orbit of each planet around the sun is an ellipse with the sun at one focus.</item>
 <item>Each planet moves so that an imaginary line drawn from the sun to the planet sweeps out equal areas in equal times.</item>
@@ -74,7 +74,7 @@
 
 <section id="fs-id1167064916013">
 <title>Kepler’s First Law</title>
-<para id="fs-id1167065894858">The orbit of each planet about the sun is an ellipse with the sun at one focus, as shown in <link target-id="Figure_07_01_circle"/>. The planet’s closest approach to the sun is called <term>perihelion</term> and its farthest distance from the sun is called <term>aphelion</term>.</para><figure id="Figure_07_01_circle"><media id="fs-id1167065872487" alt="Three ellipses are shown. In image (a) the ellipse is divided into quadrants. In image (b) the sun and a planet are shown. In image (c), the sun and planet are shown, and the aphelion and perihelion.">
+<para id="fs-id1167065894858">The orbit of each planet about the sun is an ellipse with the sun at one focus, as shown in <link target-id="Figure_07_01_circle"/>. The planet’s closest approach to the sun is called <term id="term-00002">perihelion</term> and its farthest distance from the sun is called <term id="term-00003">aphelion</term>.</para><figure id="Figure_07_01_circle"><media id="fs-id1167065872487" alt="Three ellipses are shown. In image (a) the ellipse is divided into quadrants. In image (b) the sun and a planet are shown. In image (c), the sun and planet are shown, and the aphelion and perihelion.">
 <image mime-type="image/jpg" src="../../media/CNX_HSPhysics_07_01_circle.jpg"/>
 </media>
 
@@ -212,7 +212,7 @@
     </m:mrow>
   </m:mfrac>
   <m:mo>,</m:mo></m:mrow>
-</m:math> </equation><para id="fs-id1167066145469">where <emphasis effect="italics">T </emphasis>is the <term class="no-emphasis">period</term> (time for one orbit) and <emphasis effect="italics">r </emphasis>is the average distance (also called orbital radius). This equation is valid only for comparing two small masses orbiting a single large mass. Most importantly, this is only a descriptive equation; it gives no information about the cause of the equality.</para>
+</m:math> </equation><para id="fs-id1167066145469">where <emphasis effect="italics">T </emphasis>is the <term class="no-emphasis" id="term-00004">period</term> (time for one orbit) and <emphasis effect="italics">r </emphasis>is the average distance (also called orbital radius). This equation is valid only for comparing two small masses orbiting a single large mass. Most importantly, this is only a descriptive equation; it gives no information about the cause of the equality.</para>
 
 
 <note id="fs-id1167065736386" class="os-teacher">
@@ -245,7 +245,7 @@
 <note id="fs-id1167065057938" class="links-to-physics">
 
 <title>History: Ptolemy vs. Copernicus</title>
-<para id="fs-id1167065844371">Before the discoveries of Kepler, Copernicus, Galileo, Newton, and others, the solar system was thought to revolve around Earth as shown in <link target-id="Figure_07_01_solar"/> <emphasis>(a)</emphasis>. This is called the <term>Ptolemaic model</term>, named for the Greek philosopher Ptolemy who lived in the second century AD. The Ptolemaic model is characterized by a list of facts for the motions of planets, with no explanation of cause and effect. There tended to be a different rule for each heavenly body and a general lack of simplicity.</para><para id="fs-id1167065827754"><link target-id="Figure_07_01_solar"/> <emphasis>(b)</emphasis> represents the modern or <term>Copernican model</term>. In this model, a small set of rules and a single underlying force explain not only all planetary motion in the solar system, but also all other situations involving gravity. The breadth and simplicity of the laws of physics are compelling.</para><figure id="Figure_07_01_solar"><media id="fs-id1167065849651" alt="Image a shows the Ptolemaic view of the solar system. This view shows Earth at the center of the solar system with all other planets orbiting clockwise, the moon circling the Earth, Mercury and Venus which go in wide circles as it orbits, which are called Epicycles. The Sun orbits earth between Venus and Mars. Mars circles opposite of the others, its own path shown with a looping arrow. Jupiter and Saturn come next. On the outside of the solar system are stars. Image b shows the Copernican view of the solar system which is the more traditional view of the solar system with the Sun in the center and the other planets orbiting the sun.">
+<para id="fs-id1167065844371">Before the discoveries of Kepler, Copernicus, Galileo, Newton, and others, the solar system was thought to revolve around Earth as shown in <link target-id="Figure_07_01_solar"/> <emphasis>(a)</emphasis>. This is called the <term id="term-00005">Ptolemaic model</term>, named for the Greek philosopher Ptolemy who lived in the second century AD. The Ptolemaic model is characterized by a list of facts for the motions of planets, with no explanation of cause and effect. There tended to be a different rule for each heavenly body and a general lack of simplicity.</para><para id="fs-id1167065827754"><link target-id="Figure_07_01_solar"/> <emphasis>(b)</emphasis> represents the modern or <term id="term-00006">Copernican model</term>. In this model, a small set of rules and a single underlying force explain not only all planetary motion in the solar system, but also all other situations involving gravity. The breadth and simplicity of the laws of physics are compelling.</para><figure id="Figure_07_01_solar"><media id="fs-id1167065849651" alt="Image a shows the Ptolemaic view of the solar system. This view shows Earth at the center of the solar system with all other planets orbiting clockwise, the moon circling the Earth, Mercury and Venus which go in wide circles as it orbits, which are called Epicycles. The Sun orbits earth between Venus and Mars. Mars circles opposite of the others, its own path shown with a looping arrow. Jupiter and Saturn come next. On the outside of the solar system are stars. Image b shows the Copernican view of the solar system which is the more traditional view of the solar system with the Sun in the center and the other planets orbiting the sun.">
 <image mime-type="image/jpg" src="../../media/CNX_HSPhysics_07_01_solar.jpg"/>
 </media>
 <caption>(a) The Ptolemaic model of the universe has Earth at the center with the moon, the planets, the sun, and the stars revolving about it in complex circular paths. This geocentric (Earth-centered) model, which can be made progressively more accurate by adding more circles, is purely descriptive, containing no hints about the causes of these motions. (b) The Copernican heliocentric (sun-centered) model is a simpler and more accurate model.</caption></figure><para id="fs-id1167064819448">Nicolaus Copernicus (1473–1543) first had the idea that the planets circle the sun, in about 1514. It took him almost 20 years to work out the mathematical details for his model. He waited another 10 years or so to publish his work. It is thought he hesitated because he was afraid people would make fun of his theory. Actually, the reaction of many people was more one of fear and anger. Many people felt the Copernican model threatened their basic belief system. About 100 years later, the astronomer Galileo was put under house arrest for providing evidence that planets, including Earth, orbited the sun. In all, it took almost 300 years for everyone to admit that Copernicus had been right all along.</para>
@@ -351,7 +351,7 @@
  <m:mrow>
   <m:mi>t</m:mi><m:mo>=</m:mo><m:mrow><m:mi>d</m:mi><m:mo>/</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle></m:mrow>
   </m:mrow>
-</m:math>, so distance divided by velocity is also a constant. For example, if we know the average velocity of Earth on June 21 and December 21, we can compare the distance Earth travels on those days.</para><para id="fs-id1167065740948">The degree of elongation of an elliptical orbit is called its <term>eccentricity</term> (<emphasis effect="italics">e</emphasis>). Eccentricity is calculated by dividing the distance <emphasis effect="italics">f</emphasis> from the center of an ellipse to one of the foci by half the long axis <emphasis effect="italics">a</emphasis>.</para>
+</m:math>, so distance divided by velocity is also a constant. For example, if we know the average velocity of Earth on June 21 and December 21, we can compare the distance Earth travels on those days.</para><para id="fs-id1167065740948">The degree of elongation of an elliptical orbit is called its <term id="term-00007">eccentricity</term> (<emphasis effect="italics">e</emphasis>). Eccentricity is calculated by dividing the distance <emphasis effect="italics">f</emphasis> from the center of an ellipse to one of the foci by half the long axis <emphasis effect="italics">a</emphasis>.</para>
 <equation id="fs-id1167067012774"> <m:math>
  <m:semantics>
   <m:mrow>
@@ -1064,8 +1064,8 @@
 <list id="fs-id1169833232558" list-type="enumerated" number-style="lower-alpha">
 <item><emphasis effect="italics">A</emphasis><sub>1</sub> ≠ <emphasis effect="italics">A</emphasis><sub>2</sub> ≠ <emphasis effect="italics">A</emphasis><sub>3</sub></item>
 <item><emphasis effect="italics">A</emphasis><sub>1</sub> = <emphasis effect="italics">A</emphasis><sub>2</sub> = <emphasis effect="italics">A</emphasis><sub>3</sub></item>
-<item><emphasis effect="italics">A</emphasis><sub>1</sub> = <emphasis effect="italics">A</emphasis><sub>2</sub> &gt; <emphasis effect="italics">A</emphasis><sub>3</sub></item>
-<item><emphasis effect="italics">A</emphasis><sub>1</sub> &gt; <emphasis effect="italics">A</emphasis><sub>2</sub> = <emphasis effect="italics">A</emphasis><sub>3</sub></item>
+<item><emphasis effect="italics">A</emphasis><sub>1</sub> = <emphasis effect="italics">A</emphasis><sub>2</sub> > <emphasis effect="italics">A</emphasis><sub>3</sub></item>
+<item><emphasis effect="italics">A</emphasis><sub>1</sub> > <emphasis effect="italics">A</emphasis><sub>2</sub> = <emphasis effect="italics">A</emphasis><sub>3</sub></item>
 </list>
 </problem>
 </exercise><exercise id="eip-id1166849880392" class="os-exercise">
@@ -1090,7 +1090,7 @@
 <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_07_01_kep.jpg"/>
 </media>
 <list id="fs-id1169833130485" list-type="enumerated" number-style="lower-alpha"><item>Area X &lt; Area Y; the speed is greater for area X.</item>
-<item>Area X &gt; Area Y; the speed is greater for area Y.</item>
+<item>Area X > Area Y; the speed is greater for area Y.</item>
 <item>Area X = Area Y; the speed is greater for area X.</item>
 <item>Area X = Area Y; the speed is greater for area Y.</item>
 </list></problem>

@@ -56,7 +56,7 @@ Return again to the discussion of efficiency that was begun at the start of the 
 <para id="fs-id1167067099522"><span>[OL]</span> Ask students whether they can explain the limits on efficiency in terms of what they have now learned.</para>
 </note>
 <section id="fs-id1167067312931"><title>Heat Engines, Heat Pumps, and Refrigerators</title><para id="fs-id1167063642283">In this section, we’ll explore how heat engines, heat pumps, and refrigerators operate in terms of the laws of thermodynamics.</para>
-<para id="fs-id1167067148181">One of the most important things we can do with heat is to use it to do work for us. A <term>heat engine</term> does exactly this—it makes use of the properties of thermodynamics to transform heat into work. Gasoline and diesel engines, jet engines, and steam turbines that generate electricity are all examples of heat engines.</para>
+<para id="fs-id1167067148181">One of the most important things we can do with heat is to use it to do work for us. A <term id="term-00001">heat engine</term> does exactly this—it makes use of the properties of thermodynamics to transform heat into work. Gasoline and diesel engines, jet engines, and steam turbines that generate electricity are all examples of heat engines.</para>
 
 
 <para id="fs-id1167067083970"><link target-id="Figure_12_04_Cylinder"/> illustrates one of the ways in which heat transfers energy to do work. Fuel combustion releases chemical energy that heat transfers throughout the gas in a cylinder. This increases the gas temperature, which in turn increases the pressure of the gas and, therefore, the force it exerts on a movable piston. The gas does work on the outside world, as this force moves the piston through some distance. Thus, heat transfer of energy to the gas in the cylinder results in work being done.</para>
@@ -68,7 +68,7 @@ Return again to the discussion of efficiency that was begun at the start of the 
 </figure>
 
 <para id="fs-id1167061193081">To repeat this process, the piston needs to be returned to its starting point. Heat now transfers energy from the gas to the surroundings, so that the gas’s pressure decreases, and a force is exerted by the surroundings to push the piston back through some distance.</para>
-<para id="fs-id1167066849659">A <term>cyclical process</term> brings a system, such as the gas in a cylinder, back to its original state at the end of every cycle. All heat engines use cyclical processes.</para>
+<para id="fs-id1167066849659">A <term id="term-00002">cyclical process</term> brings a system, such as the gas in a cylinder, back to its original state at the end of every cycle. All heat engines use cyclical processes.</para>
 <para id="fs-id1167063517821">Heat engines do work by using part of the energy transferred by heat from some source. As shown in <link target-id="Figure_12_04_Reservoirs"/>, heat transfers energy,  <m:math>
  <m:mrow>
   <m:msub>
@@ -209,7 +209,7 @@ Return again to the discussion of efficiency that was begun at the start of the 
   </m:msub>
 
  </m:mrow>
-</m:math>, and the more heat energy is available to do work.</para><para id="fs-id1167067150182"><term>Heat pumps</term>, air conditioners, and refrigerators utilize heat transfer of energy from low to high temperatures, which is the opposite of what heat engines do. Heat transfers energy  <m:math>
+</m:math>, and the more heat energy is available to do work.</para><para id="fs-id1167067150182"><term id="term-00003">Heat pumps</term>, air conditioners, and refrigerators utilize heat transfer of energy from low to high temperatures, which is the opposite of what heat engines do. Heat transfers energy  <m:math>
  <m:mrow>
   <m:msub>
    <m:mi>Q</m:mi>
@@ -354,7 +354,7 @@ Return again to the discussion of efficiency that was begun at the start of the 
   </m:msub>
 
  </m:mrow>
-</m:math>  that transfers energy to the environment—and usually a very significant amount at that. A way to quantify how efficiently a machine runs is through a quantity called <term>thermal efficiency</term>.</para>
+</m:math>  that transfers energy to the environment—and usually a very significant amount at that. A way to quantify how efficiently a machine runs is through a quantity called <term id="term-00004">thermal efficiency</term>.</para>
 <para id="fs-id1167066810827">We define thermal efficiency, <emphasis effect="italics">Eff</emphasis>, to be the ratio of useful energy output to the energy input (or, in other words, the ratio of what we get to what we spend). The efficiency of a heat engine is the output of net work, <emphasis effect="italics">W</emphasis>, divided by heat-transferred energy,  <m:math>
  <m:mrow>
   <m:msub>

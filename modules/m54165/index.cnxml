@@ -83,7 +83,7 @@
         </m:mrow>
       </m:math> north of east.</caption>
     </figure>
-    <para id="fs-id1167065864748">The <term>head-to-tail method</term> is a <term>graphical</term> way to add vectors. The <term>tail</term> of the vector is the starting point of the vector, and the <term>head</term> (or tip) of a vector is the pointed end of the arrow. The following steps describe how to use the head-to-tail method for graphical <term>vector addition</term>.</para>
+    <para id="fs-id1167065864748">The <term id="term-00001">head-to-tail method</term> is a <term id="term-00002">graphical</term> way to add vectors. The <term id="term-00003">tail</term> of the vector is the starting point of the vector, and the <term id="term-00004">head</term> (or tip) of a vector is the pointed end of the arrow. The following steps describe how to use the head-to-tail method for graphical <term id="term-00005">vector addition</term>.</para>
     <list id="fs-id1167065826467" list-type="enumerated" number-style="arabic">
       <item>Let the <emphasis effect="italics">x</emphasis>-axis represent the east-west direction. Using a ruler and protractor, draw an arrow to represent the first vector (nine blocks to the east), as shown in <link target-id="Figure_05_01_vectora"/><link target-id="Figure_05_01_vectora">(a)</link>.
         <figure id="Figure_05_01_vectora">
@@ -102,7 +102,7 @@
         </figure>
       </item>
       <item>If there are more than two vectors, continue to add the vectors head-to-tail as described in step 2. In this example, we have only two vectors, so we have finished placing arrows tip to tail.</item>
-      <item>Draw an arrow from the tail of the first vector to the head of the last vector, as shown in <link target-id="Figure_05_01_vectorc"/><link target-id="Figure_05_01_vectorc">(c)</link>. This is the <term>resultant</term>, or the sum, of the vectors.
+      <item>Draw an arrow from the tail of the first vector to the head of the last vector, as shown in <link target-id="Figure_05_01_vectorc"/><link target-id="Figure_05_01_vectorc">(c)</link>. This is the <term id="term-00006">resultant</term>, or the sum, of the vectors.
         <figure id="Figure_05_01_vectorc">
           <media id="fs-id1167065785430" alt="The diagram shows a vector along an x-axis with a magnitude of nine units and a direction of 0°. A vertical vector is also shown at nine units with a height of five units. A y-axis is shown with ten tick marks. A resultant vector is drawn, forming a right triangle with the other two vectors. This vector is labeled D, has a magnitude of ten point three units, and forms a twenty-nine point one degree angle with the x-axis.">
             <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_05_01_vector(c).jpg"/>
@@ -132,7 +132,7 @@
           </para>
         </problem>
       </exercise>
-    </note><para id="fs-id1167065770710"><term>Vector subtraction</term> is done in the same way as vector addition with one small change. We add the first vector to the negative of the vector that needs to be subtracted. A negative vector has the same magnitude as the original vector, but points in the opposite direction (as shown in <link target-id="Figure_05_01_negative"/>). Subtracting the vector <emphasis>B</emphasis> from the vector <emphasis>A</emphasis>, which is written as <emphasis>A</emphasis> − <emphasis>B</emphasis>, is the same as <emphasis>A</emphasis> + (−<emphasis>B</emphasis>). Since it does not matter in what order vectors are added, <emphasis>A</emphasis> − <emphasis>B</emphasis> is also equal to (−<emphasis>B</emphasis>) + <emphasis>A</emphasis>. This is true for scalars as well as vectors. For example, 5 – 2 = 5 + (−2) = (−2) + 5. </para>
+    </note><para id="fs-id1167065770710"><term id="term-00007">Vector subtraction</term> is done in the same way as vector addition with one small change. We add the first vector to the negative of the vector that needs to be subtracted. A negative vector has the same magnitude as the original vector, but points in the opposite direction (as shown in <link target-id="Figure_05_01_negative"/>). Subtracting the vector <emphasis>B</emphasis> from the vector <emphasis>A</emphasis>, which is written as <emphasis>A</emphasis> − <emphasis>B</emphasis>, is the same as <emphasis>A</emphasis> + (−<emphasis>B</emphasis>). Since it does not matter in what order vectors are added, <emphasis>A</emphasis> − <emphasis>B</emphasis> is also equal to (−<emphasis>B</emphasis>) + <emphasis>A</emphasis>. This is true for scalars as well as vectors. For example, 5 – 2 = 5 + (−2) = (−2) + 5. </para>
     <figure id="Figure_05_01_negative">
       <media id="fs-id1167066034916" alt="Two vectors are shown. Vector B points upward at an angle. Vector negative B is parallel to vector B and points downward.">
         <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_05_01_negative.jpg"/>
@@ -173,7 +173,7 @@
   </section>
   <section id="fs-id1167065700592">
     <title>Using the Graphical Method of Vector Addition and Subtraction to Solve Physics Problems </title>
-    <para id="fs-id1167065662827">Now that we have the skills to work with vectors in two dimensions, we can apply vector addition to graphically determine the <term>resultant vector</term>, which represents the total force. Consider an example of force involving two ice skaters pushing a third as seen in <link target-id="Figure_05_01_skaters"/>.</para>
+    <para id="fs-id1167065662827">Now that we have the skills to work with vectors in two dimensions, we can apply vector addition to graphically determine the <term id="term-00008">resultant vector</term>, which represents the total force. Consider an example of force involving two ice skaters pushing a third as seen in <link target-id="Figure_05_01_skaters"/>.</para>
     <figure id="Figure_05_01_skaters">
       <media id="fs-id1167065974680" alt="Two diagrams are shown. Diagram a is an overhead view of two skaters, one on the left and one below, pushing on a third skater in the center. A force vector is shown on each of the pushing skaters pointing from the skater's shoulder to the skater in the center. A right triangle is drawn using the force vectors, with F tot as the hypotenuse, F one as the bottom leg, and F two as the right leg. Diagram b is a free body diagram with F one pointing to the right and F two pointing up. Both vectors have the same magnitude.">
         <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_05_01_skaters.jpg"/>

@@ -49,7 +49,7 @@
 </note>
 <section id="fs-id1167066868278">
 <title>Momentum, Impulse, and the Impulse-Momentum Theorem</title>
-<para id="fs-id1167067093303"><term>Linear momentum</term> is the product of a system’s <term class="no-emphasis">mass</term> and its <term class="no-emphasis">velocity</term>. In equation form, linear momentum <emphasis>p</emphasis> is</para>
+<para id="fs-id1167067093303"><term id="term-00001">Linear momentum</term> is the product of a system’s <term class="no-emphasis" id="term-00002">mass</term> and its <term class="no-emphasis" id="term-00003">velocity</term>. In equation form, linear momentum <emphasis>p</emphasis> is</para>
 <equation id="fs-id1167067100471" class="unnumbered"><label/>
  <m:math>
 <m:mrow>
@@ -58,9 +58,9 @@
 </m:mrow>
 </m:math>
 </equation><para id="fs-id1167067031089">You can see from the equation that momentum is directly proportional to the object’s mass (<emphasis effect="italics">m</emphasis>) and velocity (<emphasis>v</emphasis>). Therefore, the greater an object’s mass or the greater its velocity, the greater its momentum. A large, fast-moving object has greater momentum than a smaller, slower object. </para>
-<para id="fs-id1167066829441">Momentum is a <term class="no-emphasis">vector</term> and has the same direction as velocity <emphasis>v</emphasis>. Since mass is a <term class="no-emphasis">scalar</term>, when velocity is in a negative direction (i.e., opposite the direction of motion), the momentum will also be in a negative direction; and when velocity is in a positive direction, momentum will likewise be in a positive direction. The SI unit for momentum is kg m/s.</para>
-<para id="fs-id1167067089120">Momentum is so important for understanding motion that it was called the <emphasis effect="italics">quantity of motion</emphasis> by physicists such as Newton. <term class="no-emphasis">Force</term> influences momentum, and we can rearrange Newton’s second law of motion to show the relationship between force and momentum.</para>
-<para id="fs-id1167067193246">Recall our study of Newton’s second law of motion (<emphasis>F</emphasis><sub>net</sub> = <emphasis effect="italics">m</emphasis><emphasis>a</emphasis>). Newton actually stated his second law of motion in terms of momentum: The net external force equals the <term>change in momentum</term> of a system divided by the time over which it changes. The change in momentum is the difference between the final and initial values of momentum.</para>
+<para id="fs-id1167066829441">Momentum is a <term class="no-emphasis" id="term-00004">vector</term> and has the same direction as velocity <emphasis>v</emphasis>. Since mass is a <term class="no-emphasis" id="term-00005">scalar</term>, when velocity is in a negative direction (i.e., opposite the direction of motion), the momentum will also be in a negative direction; and when velocity is in a positive direction, momentum will likewise be in a positive direction. The SI unit for momentum is kg m/s.</para>
+<para id="fs-id1167067089120">Momentum is so important for understanding motion that it was called the <emphasis effect="italics">quantity of motion</emphasis> by physicists such as Newton. <term class="no-emphasis" id="term-00006">Force</term> influences momentum, and we can rearrange Newton’s second law of motion to show the relationship between force and momentum.</para>
+<para id="fs-id1167067193246">Recall our study of Newton’s second law of motion (<emphasis>F</emphasis><sub>net</sub> = <emphasis effect="italics">m</emphasis><emphasis>a</emphasis>). Newton actually stated his second law of motion in terms of momentum: The net external force equals the <term id="term-00007">change in momentum</term> of a system divided by the time over which it changes. The change in momentum is the difference between the final and initial values of momentum.</para>
 <para id="fs-id1167066804974">In equation form, this law is</para>
 <equation id="fs-id1167066804663" class="unnumbered"><label/>
  <m:math>
@@ -141,7 +141,7 @@
 <m:mtext>Δ</m:mtext><m:mi>t</m:mi>
 </m:mrow>
 </m:math>
-is known as <term>impulse</term> and this equation is known as the <term>impulse-momentum theorem</term>. From the equation, we see that the impulse equals the average net external force multiplied by the time this force acts. It is equal to the change in momentum. <emphasis effect="italics">The effect of a force on an object depends on how long it acts, as well as the strength of the force.</emphasis> Impulse is a useful concept because it quantifies the effect of a force. A very large force acting for a short time can have a great effect on the momentum of an object, such as the force of a racket hitting a tennis ball. A small force could cause the same change in momentum, but it would have to act for a much longer time. </para>
+is known as <term id="term-00008">impulse</term> and this equation is known as the <term id="term-00009">impulse-momentum theorem</term>. From the equation, we see that the impulse equals the average net external force multiplied by the time this force acts. It is equal to the change in momentum. <emphasis effect="italics">The effect of a force on an object depends on how long it acts, as well as the strength of the force.</emphasis> Impulse is a useful concept because it quantifies the effect of a force. A very large force acting for a short time can have a great effect on the momentum of an object, such as the force of a racket hitting a tennis ball. A small force could cause the same change in momentum, but it would have to act for a much longer time. </para>
 <note id="fs-id1167067110948" class="os-teacher">
 <title>Teacher Support</title>
 <para id="fs-id1167067006119"><span>[OL]</span><span>[AL]</span> Explain that a large, fast-moving object has greater momentum than a smaller, slower object. This quality is called momentum. </para>
@@ -399,7 +399,7 @@ is known as <term>impulse</term> and this equation is known as the <term>impulse
 <m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>p</m:mi></m:mstyle>
 </m:mrow>
 </m:math>  stays the same will decrease <emphasis>F</emphasis><sub>net</sub>. This is another example of an inverse relationship. Similarly, a padded dashboard increases the time over which the force of impact acts, thereby reducing the force of impact.</para>
-<para id="fs-id1167066847972">Cars today have many plastic components. One advantage of plastics is their lighter weight, which results in better gas mileage. Another advantage is that a car will crumple in a <term class="no-emphasis">collision</term>, especially in the event of a head-on collision. A longer collision time means the force on the occupants of the car will be less. Deaths during car races decreased dramatically when the rigid frames of racing cars were replaced with parts that could crumple or collapse in the event of an accident.</para>
+<para id="fs-id1167066847972">Cars today have many plastic components. One advantage of plastics is their lighter weight, which results in better gas mileage. Another advantage is that a car will crumple in a <term class="no-emphasis" id="term-00010">collision</term>, especially in the event of a head-on collision. A longer collision time means the force on the occupants of the car will be less. Deaths during car races decreased dramatically when the rigid frames of racing cars were replaced with parts that could crumple or collapse in the event of an accident.</para>
 <exercise id="fs-id1167066845454" class="os-exercise grasp-check unnumbered">
 
 <problem id="fs-id1167067084948">

@@ -73,7 +73,7 @@
 <para id="fs-id1167067111904"><span>[OL]</span><span>[AL]</span>Ask if anyone thinks it is strange or even mysterious that a force can act at a distance across empty space. Ask the students to compare and contrast gravitational force with magnetic and electrostatic forces. Note how much force at a distance is like magic or having superpowers.</para>
 </note>
 
-<para id="fs-id1167066850157">The gravitational force is relatively simple. It is always attractive, and it depends only on the masses involved and the distance between them. Expressed in modern language, <term>Newton’s universal law of gravitation</term> states that every object in the universe attracts every other object with a force that is directed along a line joining them. The force is directly proportional to the product of their masses and inversely proportional to the square of the distance between them. This attraction is illustrated by <link target-id="Figure_07_02_gravity"/>.</para>
+<para id="fs-id1167066850157">The gravitational force is relatively simple. It is always attractive, and it depends only on the masses involved and the distance between them. Expressed in modern language, <term id="term-00001">Newton’s universal law of gravitation</term> states that every object in the universe attracts every other object with a force that is directed along a line joining them. The force is directly proportional to the product of their masses and inversely proportional to the square of the distance between them. This attraction is illustrated by <link target-id="Figure_07_02_gravity"/>.</para>
 
 <figure id="Figure_07_02_gravity"><media id="fs-id1167067032646" alt="A figure shows a small circle and a large circle. A black line goes from one circle to the other. A red line with an arrow extends outward from each circle. The red lines have arrows on one end, pointing away from the circles, towards the midpoint of the space in between the circles.">
 <image mime-type="image/jpg" src="../../media/CNX_HSPhysics_07_02_gravity.jpg"/>
@@ -95,7 +95,7 @@
   </m:mfrac>
   </m:mrow>
 </m:math>
-</equation><para id="fs-id1167067033630">where <emphasis>F</emphasis> is the magnitude of the gravitational force and <emphasis effect="italics">G</emphasis> is a proportionality factor called the <term>gravitational constant</term>. <emphasis effect="italics">G</emphasis> is a universal constant, meaning that it is thought to be the same everywhere in the universe. It has been measured experimentally to be  <m:math>
+</equation><para id="fs-id1167067033630">where <emphasis>F</emphasis> is the magnitude of the gravitational force and <emphasis effect="italics">G</emphasis> is a proportionality factor called the <term id="term-00002">gravitational constant</term>. <emphasis effect="italics">G</emphasis> is a universal constant, meaning that it is thought to be the same everywhere in the universe. It has been measured experimentally to be  <m:math>
  <m:mrow>
   <m:mi>G</m:mi><m:mo>=</m:mo><m:mn>6.673</m:mn><m:mo>×</m:mo><m:msup>
    <m:mrow>
@@ -475,8 +475,8 @@
 <title>NASA gravity probe B</title>
 <para id="fs-id1167066854738">NASA’s Gravity Probe B (GP-B) mission has confirmed two key predictions derived from Albert Einstein’s general theory of relativity. The probe, shown in <link target-id="Figure_07_02_NASA"/> was launched in 2004. It carried four ultra-precise gyroscopes designed to measure two effects hypothesized by Einstein’s theory:</para>
 <list id="fs-id1167063754943" list-type="bulleted">
-<item>The <term class="no-emphasis">geodetic effect</term>, which is the warping of space and time by the gravitational field of a massive body (in this case, Earth)</item>
-<item>The <term class="no-emphasis">frame-dragging effect</term>, which is the amount by which a spinning object pulls space and time with it as it rotates</item>
+<item>The <term class="no-emphasis" id="term-00003">geodetic effect</term>, which is the warping of space and time by the gravitational field of a massive body (in this case, Earth)</item>
+<item>The <term class="no-emphasis" id="term-00004">frame-dragging effect</term>, which is the amount by which a spinning object pulls space and time with it as it rotates</item>
 </list>
 
 <figure id="Figure_07_02_NASA"><media id="fs-id1167066791137" alt="Photo shows satellite in space.">

@@ -76,14 +76,14 @@
 <para id="fs-id1167066976494"><span>[OL]</span>Geometry is the study of relationships involving points, lines, angles, and shapes. In this chapter, we are focused on the first three ideas.</para>
 <para id="fs-id1167067236119"><span>[AL]</span>In this chapter, we apply equations that use trigonometric functions that describe the properties of angles. Trigonometric functions are ratios of the lengths of two sides of a right triangle. There are six possible ratios; therefore, there are six such functions.</para>
 </note>
-<para id="fs-id1167063659713">There are three ways, as shown in <link target-id="Figure_16_01_Ray"/>, in which light can travel from a source to another location. It can come directly from the source through empty space, such as from the Sun to Earth. Light can travel to an object through various media, such as air and glass. Light can also arrive at an object after being reflected, such as by a mirror. In all these cases, light is modeled as traveling in a straight line, called a <term><emphasis effect="italics">ray</emphasis></term>. Light may change direction when it encounters the surface of a different material (such as a mirror) or when it passes from one material to another (such as when passing from air into glass). It then continues in a straight line—that is, as a ray. The word <emphasis effect="italics">ray</emphasis> comes from mathematics. Here it means a straight line that originates from some point. It is acceptable to visualize light rays as laser rays (or even science fiction depictions of <emphasis effect="italics">ray guns</emphasis>).</para>
+<para id="fs-id1167063659713">There are three ways, as shown in <link target-id="Figure_16_01_Ray"/>, in which light can travel from a source to another location. It can come directly from the source through empty space, such as from the Sun to Earth. Light can travel to an object through various media, such as air and glass. Light can also arrive at an object after being reflected, such as by a mirror. In all these cases, light is modeled as traveling in a straight line, called a <term id="term-00001"><emphasis effect="italics">ray</emphasis></term>. Light may change direction when it encounters the surface of a different material (such as a mirror) or when it passes from one material to another (such as when passing from air into glass). It then continues in a straight line—that is, as a ray. The word <emphasis effect="italics">ray</emphasis> comes from mathematics. Here it means a straight line that originates from some point. It is acceptable to visualize light rays as laser rays (or even science fiction depictions of <emphasis effect="italics">ray guns</emphasis>).</para>
 <figure id="Figure_16_01_Ray">
 <media id="fs-id1167063589240" alt="In view (a), a cartoon image of Earth contains a house superimposed over North America. The Sun is included above and to the right of Earth. An arrow points from the Sun’s rays to a series of lines, which represent Earth’s atmosphere, directly above the Earth. In view (b), a woman is looking out of a window at her car. Arrows show the Sun’s rays bouncing off the car and traveling as light toward the woman.">
 <image mime-type="image/jpg" src="../../media/CNX_HSPhysics_16_01_Ray.jpg"/>
 </media>
 <caption>Three methods for light to travel from a source to another location are shown. (a) Light reaches the upper atmosphere of Earth by traveling through empty space directly from the source (the Sun). (b) This light can reach a person in one of two ways. It can travel through a medium, such as air or glass, and typically travels from one medium to another. It can also reflect from an object, such as a mirror.</caption>
 </figure>
-<para id="fs-id1167066878429">Because light moves in straight lines, that is, as rays, and changes directions when it interacts with matter, it can be described through geometry and trigonometry. This part of optics, described by straight lines and angles, is therefore called <term><emphasis effect="italics">geometric optics</emphasis></term>. There are two laws that govern how light changes direction when it interacts with matter: the <term>law of reflection</term>, for situations in which light bounces off matter; and the <term>law of refraction</term>, for situations in which light passes through matter. In this section, we consider the geometric optics of <term>reflection</term>.</para>
+<para id="fs-id1167066878429">Because light moves in straight lines, that is, as rays, and changes directions when it interacts with matter, it can be described through geometry and trigonometry. This part of optics, described by straight lines and angles, is therefore called <term id="term-00002"><emphasis effect="italics">geometric optics</emphasis></term>. There are two laws that govern how light changes direction when it interacts with matter: the <term id="term-00003">law of reflection</term>, for situations in which light bounces off matter; and the <term id="term-00004">law of refraction</term>, for situations in which light passes through matter. In this section, we consider the geometric optics of <term id="term-00005">reflection</term>.</para>
 
 <note id="fs-id1167067267829" class="os-teacher">
 <title>Teacher Support</title>
@@ -91,7 +91,7 @@
 <para id="fs-id1167063680441"><span>[OL]</span>Indicate that the terms <emphasis effect="italics">right angle</emphasis>,<emphasis effect="italics"> perpendicular</emphasis>, and<emphasis effect="italics"> normal line </emphasis>all mean the same thing: a vertical line at a 90° angle to a flat surface.</para>
 <para id="fs-id1167067090708"><span>[AL]</span>Recount and explain all the possible interactions of light with matter. Light can be absorbed at the surface of an opaque object. Some colors of light may be absorbed and others reflected. Light often is partially absorbed and partially reflected. It may also be transmitted through a transparent material, such as water or glass. Typically, if the surface of a transparent material is smooth, such as that of a window pane, light is transmitted partially and reflected partially.</para>
 </note>
-<para id="fs-id1167067294202">Whenever we look into a mirror or squint at sunlight glinting from a lake, we are seeing a reflection. How does the reflected light travel from the object to your eyes? The law of reflection states: The <term>angle of reflection</term>,  <m:math>
+<para id="fs-id1167067294202">Whenever we look into a mirror or squint at sunlight glinting from a lake, we are seeing a reflection. How does the reflected light travel from the object to your eyes? The law of reflection states: The <term id="term-00006">angle of reflection</term>,  <m:math>
  <m:mrow>
   <m:msub>
    <m:mi>θ</m:mi>
@@ -99,7 +99,7 @@
   </m:msub>
 
  </m:mrow>
-</m:math>, equals the <term>angle of incidence</term>,  <m:math>
+</m:math>, equals the <term id="term-00007">angle of incidence</term>,  <m:math>
  <m:mrow>
   <m:msub>
    <m:mi>θ</m:mi>
@@ -108,9 +108,9 @@
 
  </m:mrow>
 </m:math>
-<emphasis effect="italics">.</emphasis> This law governs the behavior of all waves when they interact with a smooth surface, and therefore describe the behavior of light waves as well. The reflection of light is simplified when light is treated as a ray. This concept is illustrated in <link target-id="Figure_16_01_Reflect"/>, which also shows how the angles are measured relative to the line perpendicular to the surface at the point where the light ray strikes it. This perpendicular line is also called the <emphasis effect="italics">normal line</emphasis>, or just the <emphasis effect="italics">normal</emphasis>. Light reflected in this way is referred to as <term>specular</term> (from the Latin word for <emphasis effect="italics">mirror</emphasis>: <emphasis effect="italics">speculum</emphasis>).</para>
+<emphasis effect="italics">.</emphasis> This law governs the behavior of all waves when they interact with a smooth surface, and therefore describe the behavior of light waves as well. The reflection of light is simplified when light is treated as a ray. This concept is illustrated in <link target-id="Figure_16_01_Reflect"/>, which also shows how the angles are measured relative to the line perpendicular to the surface at the point where the light ray strikes it. This perpendicular line is also called the <emphasis effect="italics">normal line</emphasis>, or just the <emphasis effect="italics">normal</emphasis>. Light reflected in this way is referred to as <term id="term-00008">specular</term> (from the Latin word for <emphasis effect="italics">mirror</emphasis>: <emphasis effect="italics">speculum</emphasis>).</para>
 
-<para id="fs-id1167067150525">We expect to see reflections from smooth surfaces, but <link target-id="Figure_16_01_Reflect2"/>, illustrates how a rough surface reflects light. Because the light is reflected from different parts of the surface at different angles, the rays go in many different directions, so the reflected light is <term>diffused</term>. Diffused light allows you to read a printed page from almost any angle because some of the rays go in different directions. Many objects, such as people, clothing, leaves, and walls, have rough surfaces and can be seen from many angles. A mirror, on the other hand, has a smooth surface and reflects light at specific angles.</para>
+<para id="fs-id1167067150525">We expect to see reflections from smooth surfaces, but <link target-id="Figure_16_01_Reflect2"/>, illustrates how a rough surface reflects light. Because the light is reflected from different parts of the surface at different angles, the rays go in many different directions, so the reflected light is <term id="term-00009">diffused</term>. Diffused light allows you to read a printed page from almost any angle because some of the rays go in different directions. Many objects, such as people, clothing, leaves, and walls, have rough surfaces and can be seen from many angles. A mirror, on the other hand, has a smooth surface and reflects light at specific angles.</para>
 <figure id="Figure_16_01_Reflect"><media id="fs-id1167067107661" alt="A smooth, flat reflective surface is shown. A dotted line drops from the top of the figure and ends when it reaches the smooth surface. This line is perpendicular to the surface; there is a 90° angle between the surface and the perpendicular line. To the left of the perpendicular line, a ray (called an “incident ray” strikes the surface at a 45° angle. This ray—the “reflective ray”—is reflected off the surface to the right of the perpendicular line, again at a 45° angle. The angle between the incident ray and the perpendicular line is θi; the angle between the perpendicular line and the reflected ray is θr.">
 <image mime-type="image/jpg" src="../../media/CNX_HSPhysics_16_01_Reflect.jpg"/>
 </media>
@@ -123,7 +123,7 @@
 <caption>Light is diffused when it reflects from a rough surface. Here, many parallel rays are incident, but they are reflected at many different angles because the surface is rough.</caption>
 </figure>
 
-<para id="fs-id1167066975516">When we see ourselves in a mirror, it appears that our image is actually behind the mirror. We see the light coming from a direction determined by the law of reflection. The angles are such that our image is exactly the same distance behind the mirror, <emphasis effect="italics">d</emphasis><sub>i</sub>, as the distance we stand away from the mirror, <emphasis effect="italics">d</emphasis><sub>o</sub>. Although these mirror images make objects appear to be where they cannot be (such as behind a solid wall), the images are not figments of our imagination. Mirror images can be photographed and videotaped by instruments and look just as they do to our eyes, which are themselves optical instruments. An image in a mirror is said to be a <term>virtual image</term>, as opposed to a <term>real image</term>. A virtual image is formed when light rays appear to diverge from a point without actually doing so.</para>
+<para id="fs-id1167066975516">When we see ourselves in a mirror, it appears that our image is actually behind the mirror. We see the light coming from a direction determined by the law of reflection. The angles are such that our image is exactly the same distance behind the mirror, <emphasis effect="italics">d</emphasis><sub>i</sub>, as the distance we stand away from the mirror, <emphasis effect="italics">d</emphasis><sub>o</sub>. Although these mirror images make objects appear to be where they cannot be (such as behind a solid wall), the images are not figments of our imagination. Mirror images can be photographed and videotaped by instruments and look just as they do to our eyes, which are themselves optical instruments. An image in a mirror is said to be a <term id="term-00010">virtual image</term>, as opposed to a <term id="term-00011">real image</term>. A virtual image is formed when light rays appear to diverge from a point without actually doing so.</para>
 <para id="fs-id1167063751734"><link target-id="Figure_16_01_Flat_mirror"/> helps illustrate how a flat mirror forms an image. Two rays are shown emerging from the same point, striking the mirror, and reflecting into the observer’s eye. The rays can diverge slightly, and both still enter the eye. If the rays are extrapolated backward, they seem to originate from a common point behind the mirror, allowing us to locate the image. The paths of the reflected rays into the eye are the same as if they had come directly from that point behind the mirror. Using the law of reflection—the angle of reflection equals the angle of incidence—we can see that the image and object are the same distance from the mirror. This is a virtual image, as defined earlier.</para>
 <figure id="Figure_16_01_Flat_mirror">
 <media id="fs-id1167066778660" alt="A flat mirror is placed perpendicular to our field of view. We see the side of the mirror. A bottle is placed to the left of the mirror at distance do to the mirror. Two rays originate from the bottle, strike the mirror, and reflect to an eye that is looking at the mirror. To the right of the mirror, a virtual image of the bottle is included as a backward extrapolation of the path of the rays from the eye to the mirror. The bottle to the right of the mirror is at distance di from the mirror.">
@@ -179,13 +179,13 @@
 <para id="fs-id1167067140780"><span>[BL]</span>Ask students to define <emphasis effect="italics">virtual</emphasis> and dispel any misconceptions. Explain the term in relation to geometric optics.</para>
 <para id="fs-id1167067176285"><span>[OL]</span>Explain that a <emphasis effect="italics">real focal point</emphasis> is a point at which there is a concentration of light energy that can be transformed into other useful forms. At a <emphasis effect="italics">virtual focal point</emphasis>, on the other hand, light energy cannot be concentrated because no light actually goes to that point.</para>
 <para id="fs-id1167067292622"><span>[AL]</span>Explain the difference between a parabolic shape and a spherical shape. Use drawings of a cross-section of each. Point out that, for a short section of a curved mirror with very little curvature, a spherical mirror approximates a parabolic one.</para>
-</note></note><para id="fs-id1167067158575">Some mirrors are curved instead of flat. A mirror that curves inward is called a <term><emphasis effect="italics">concave mirror</emphasis></term>, whereas one that curves outward is called a <term><emphasis effect="italics">convex mirror</emphasis></term>. Pick up a well-polished metal spoon and you can see an example of each type of curvature. The side of the spoon that holds the food is a concave mirror; the back of the spoon is a convex mirror. Observe your image on both sides of the spoon.</para>
+</note></note><para id="fs-id1167067158575">Some mirrors are curved instead of flat. A mirror that curves inward is called a <term id="term-00012"><emphasis effect="italics">concave mirror</emphasis></term>, whereas one that curves outward is called a <term id="term-00013"><emphasis effect="italics">convex mirror</emphasis></term>. Pick up a well-polished metal spoon and you can see an example of each type of curvature. The side of the spoon that holds the food is a concave mirror; the back of the spoon is a convex mirror. Observe your image on both sides of the spoon.</para>
 
 <note id="fs-id1167067198556" class="tips-for-success">
 <para id="fs-id1167063955619">You can remember the difference between concave and convex by thinking, <emphasis effect="italics">Concave means caved in</emphasis>.</para>
 </note>
 
-<para id="fs-id1167063525517">Ray diagrams can be used to find the point where reflected rays converge or appear to converge, or the point from which rays appear to diverge. This is called the <term><emphasis effect="italics">focal point</emphasis></term>, F. The distance from F to the mirror along the <term>central axis</term> (the line perpendicular to the center of the mirror’s surface) is called the <term><emphasis effect="italics">focal length</emphasis></term>, <emphasis effect="italics">f</emphasis>. <link target-id="Figure_16_01_Curved_mirror"/> shows the focal points of concave and convex mirrors.</para>
+<para id="fs-id1167063525517">Ray diagrams can be used to find the point where reflected rays converge or appear to converge, or the point from which rays appear to diverge. This is called the <term id="term-00014"><emphasis effect="italics">focal point</emphasis></term>, F. The distance from F to the mirror along the <term id="term-00015">central axis</term> (the line perpendicular to the center of the mirror’s surface) is called the <term id="term-00016"><emphasis effect="italics">focal length</emphasis></term>, <emphasis effect="italics">f</emphasis>. <link target-id="Figure_16_01_Curved_mirror"/> shows the focal points of concave and convex mirrors.</para>
 
 <figure id="Figure_16_01_Curved_mirror"><media id="fs-id1167061199473" alt="There are two curved mirrors in this figure. In view (a), the front of a concave mirror is struck by rays of light that originate in front of the mirror. The rays reflect off the concave mirror and converge at varying angles to a point F in front of the mirror. The distance from F to the mirror is f. In view (b), the back of a convex mirror is struck by rays of light that diverge off the back of the mirror at varying angles. If one were to extrapolate the diverging rays backward, to the front of the mirror, the backward-extrapolated rays meet at point F; however, the distance from the back of the mirror to F is a negative f.">
 <image mime-type="image/jpg" src="../../media/CNX_HSPhysics_16_01_Curved.jpg"/>
@@ -218,7 +218,7 @@
    <m:mi>d</m:mi>
    <m:mi>o</m:mi>
   </m:msub>
-  <m:mo>&gt;</m:mo><m:mi>f</m:mi>
+  <m:mo>></m:mo><m:mi>f</m:mi>
  </m:mrow>
 </m:math> </entry>
 <entry>Real and inverted</entry>
@@ -244,7 +244,7 @@
    <m:mi>d</m:mi>
    <m:mi>o</m:mi>
   </m:msub>
-  <m:mo>&lt;</m:mo><m:mtext> or </m:mtext><m:mo>&gt;</m:mo><m:mtext> </m:mtext><m:mi>f</m:mi>
+  <m:mo>&lt;</m:mo><m:mtext> or </m:mtext><m:mo>></m:mo><m:mtext> </m:mtext><m:mi>f</m:mi>
  </m:mrow>
 </m:math> </entry>
 <entry>Virtual and erect</entry>
@@ -692,7 +692,7 @@
 
 <commentary id="fs-id1167064872119">
 <title>Discussion</title>
-<para id="fs-id1167065800917">Note that the object (the coil filament) is farther from the mirror than the mirror’s focal length. This is a <emphasis effect="italics">case 1</emphasis> image (<emphasis effect="italics">d</emphasis><sub>o</sub> &gt; <emphasis effect="italics">f </emphasis>and <emphasis effect="italics">f </emphasis>positive), consistent with the fact that a real image is formed. You get the most concentrated thermal energy directly in front of the mirror and 3.00 m away from it. In general, this is not desirable because it could cause burns. Usually, you want the rays to emerge parallel, and this is accomplished by having the filament at the focal point of the mirror.</para>
+<para id="fs-id1167065800917">Note that the object (the coil filament) is farther from the mirror than the mirror’s focal length. This is a <emphasis effect="italics">case 1</emphasis> image (<emphasis effect="italics">d</emphasis><sub>o</sub> > <emphasis effect="italics">f </emphasis>and <emphasis effect="italics">f </emphasis>positive), consistent with the fact that a real image is formed. You get the most concentrated thermal energy directly in front of the mirror and 3.00 m away from it. In general, this is not desirable because it could cause burns. Usually, you want the rays to emerge parallel, and this is accomplished by having the filament at the focal point of the mirror.</para>
 <para id="fs-id1167065914668">Note that the filament here is not much farther from the mirror than the focal length, and that the image produced is considerably farther away.</para>
 </commentary>
 </exercise>
@@ -733,7 +733,7 @@
 <link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex009"/>
 </para>-->
 <para id="fs-id1169827689043">How does the object distance, d<sub>o</sub>, compare with the focal length, f, for a concave mirror that produces an image that is real and inverted?</para>
-<list id="fs-id1169828355027" list-type="enumerated" number-style="lower-alpha"><item>d<sub>o</sub> &gt; f, where d<sub>o</sub> and f are object distance and focal length, respectively.</item>
+<list id="fs-id1169828355027" list-type="enumerated" number-style="lower-alpha"><item>d<sub>o</sub> > f, where d<sub>o</sub> and f are object distance and focal length, respectively.</item>
 <item>d<sub>o</sub> &lt; f, where d<sub>o</sub> and f are object distance and focal length, respectively.</item>
 <item>d<sub>o</sub> = f, where do and f are object distance and focal length, respectively.</item>
 <item>d<sub>o</sub> = 0, where do is the object distance.</item>
@@ -903,7 +903,7 @@
  <m:math><m:msub><m:mi>ϑ</m:mi><m:mi>r</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>ϑ</m:mi><m:mi>i</m:mi></m:msub></m:math>, where  <m:math><m:msub><m:mi>ϑ</m:mi><m:mi>r</m:mi></m:msub></m:math>  is the angle of reflection and  <m:math><m:msub><m:mi>ϑ</m:mi><m:mi>i</m:mi></m:msub></m:math>  is the angle of incidence.
 </item>
 <item>
- <m:math><m:msub><m:mi>ϑ</m:mi><m:mi>r</m:mi></m:msub><m:mo>&gt;</m:mo><m:msub><m:mi>ϑ</m:mi><m:mi>i</m:mi></m:msub></m:math>, where  <m:math><m:msub><m:mi>ϑ</m:mi><m:mi>r</m:mi></m:msub></m:math>  is the angle of reflection and  <m:math><m:msub><m:mi>ϑ</m:mi><m:mi>i</m:mi></m:msub></m:math>  is the angle of incidence.
+ <m:math><m:msub><m:mi>ϑ</m:mi><m:mi>r</m:mi></m:msub><m:mo>></m:mo><m:msub><m:mi>ϑ</m:mi><m:mi>i</m:mi></m:msub></m:math>, where  <m:math><m:msub><m:mi>ϑ</m:mi><m:mi>r</m:mi></m:msub></m:math>  is the angle of reflection and  <m:math><m:msub><m:mi>ϑ</m:mi><m:mi>i</m:mi></m:msub></m:math>  is the angle of incidence.
 </item>
 <item>
  <m:math><m:msub><m:mi>ϑ</m:mi><m:mi>r</m:mi></m:msub><m:mo>&lt;</m:mo><m:msub><m:mi>ϑ</m:mi><m:mi>i</m:mi></m:msub></m:math>, where  <m:math><m:msub><m:mi>ϑ</m:mi><m:mi>r</m:mi></m:msub></m:math>  is the angle of reflection and  <m:math><m:msub><m:mi>ϑ</m:mi><m:mi>i</m:mi></m:msub></m:math>  is the angle of incidence.

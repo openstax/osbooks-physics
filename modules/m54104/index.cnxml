@@ -57,9 +57,9 @@
 </note>
 </section><section id="fs-id1167065793417">
 <title>Speed</title>
-<para id="fs-id1167064958961">There is more to <term class="no-emphasis">motion</term> than distance and displacement. Questions such as, “How long does a foot race take?” and “What was the runner’s speed?” cannot be answered without an understanding of other concepts. In this section we will look at <term class="no-emphasis">time</term>, speed, and velocity to expand our understanding of motion.</para>
+<para id="fs-id1167064958961">There is more to <term class="no-emphasis" id="term-00001">motion</term> than distance and displacement. Questions such as, “How long does a foot race take?” and “What was the runner’s speed?” cannot be answered without an understanding of other concepts. In this section we will look at <term class="no-emphasis" id="term-00002">time</term>, speed, and velocity to expand our understanding of motion.</para>
 
-<para id="fs-id1167065895204">A description of how fast or slow an object moves is its speed. <term>Speed</term> is the <term class="no-emphasis">rate</term> at which an object changes its location. Like distance, speed is a <term class="no-emphasis">scalar</term> because it has a magnitude but not a direction. Because speed is a rate, it depends on the time interval of motion. You can calculate the elapsed time or the change in time,  <m:math>
+<para id="fs-id1167065895204">A description of how fast or slow an object moves is its speed. <term id="term-00003">Speed</term> is the <term class="no-emphasis" id="term-00004">rate</term> at which an object changes its location. Like distance, speed is a <term class="no-emphasis" id="term-00005">scalar</term> because it has a magnitude but not a direction. Because speed is a rate, it depends on the time interval of motion. You can calculate the elapsed time or the change in time,  <m:math>
  <m:mrow>
   <m:mi>Δ</m:mi><m:mi>t</m:mi></m:mrow>
 </m:math>, of motion as the difference between the ending time and the beginning time</para>
@@ -80,7 +80,7 @@
 </m:math>
 </equation><para id="fs-id1167062305169">The SI unit of time is the second (s), and the SI unit of speed is meters per second (m/s), but sometimes kilometers per hour (km/h), miles per hour (mph) or other units of speed are used.</para>
 
-<para id="fs-id1167065842878">When you describe an object's speed, you often describe the average over a time period. <term>Average speed</term>, <emphasis effect="italics">v</emphasis><sub><emphasis effect="italics">avg</emphasis></sub>, is the distance traveled divided by the time during which the motion occurs.</para><equation id="fs-id1167065950394" class="unnumbered"><label/>
+<para id="fs-id1167065842878">When you describe an object's speed, you often describe the average over a time period. <term id="term-00006">Average speed</term>, <emphasis effect="italics">v</emphasis><sub><emphasis effect="italics">avg</emphasis></sub>, is the distance traveled divided by the time during which the motion occurs.</para><equation id="fs-id1167065950394" class="unnumbered"><label/>
  <m:math>
  <m:mrow>
   <m:msub>
@@ -182,7 +182,7 @@
    </m:mtr>
 
   </m:mtable></m:mrow>
-</m:math> </equation><para id="fs-id1167064538110">A car's speed would likely increase and decrease many times over a 3.2 hour trip. Its speed at a specific instant in time, however, is its <term>instantaneous speed</term>. A car's speedometer describes its instantaneous speed.</para>
+</m:math> </equation><para id="fs-id1167064538110">A car's speed would likely increase and decrease many times over a 3.2 hour trip. Its speed at a specific instant in time, however, is its <term id="term-00007">instantaneous speed</term>. A car's speedometer describes its instantaneous speed.</para>
 
 <note id="fs-id1167065759142" class="os-teacher">
 <title>Teacher Support</title>
@@ -263,7 +263,7 @@
 </section>
 <section id="fs-idm535043152"><section id="fs-id1167065870692">
 <title>Velocity</title>
-<para id="fs-id1167065800783">The <term class="no-emphasis">vector</term> version of speed is velocity. <term>Velocity</term> describes the speed and direction of an object. As with speed, it is useful to describe either the average velocity over a time period or the velocity at a specific moment. <term>Average velocity</term> is displacement divided by the time over which the displacement occurs.</para>
+<para id="fs-id1167065800783">The <term class="no-emphasis" id="term-00008">vector</term> version of speed is velocity. <term id="term-00009">Velocity</term> describes the speed and direction of an object. As with speed, it is useful to describe either the average velocity over a time period or the velocity at a specific moment. <term id="term-00010">Average velocity</term> is displacement divided by the time over which the displacement occurs.</para>
 
 <equation id="fs-id1167065850657" class="unnumbered"><label/>
  <m:math>
@@ -316,7 +316,7 @@
 <para id="fs-id1167065920104">It is important to keep in mind that the average speed is not the same thing as the average velocity without its direction. Like we saw with displacement and distance in the last section, changes in direction over a time interval have a bigger effect on speed and velocity.</para>
 </note>
 
-<para id="fs-id1167065855140">Suppose a passenger moved toward the back of a plane with an average velocity of –4 m/s. We cannot tell from the average velocity whether the passenger stopped momentarily or backed up before he got to the back of the plane. To get more details, we must consider smaller segments of the trip over smaller time intervals such as those shown in <link target-id="Figure_02_02_plane"/>. If you consider infinitesimally small intervals, you can define <term>instantaneous velocity</term>, which is the velocity at a specific instant in time. Instantaneous velocity and average velocity are the same if the velocity is constant.</para><figure id="Figure_02_02_plane"><media id="fs-id1167065974649" alt="A drawing of an airplane facing to the right is shown, and is set in quadrant one of a coordinate plane. The x-axis is labeled df and then do. The distance between df and do is labeled with a left-pointing vector, change in d total. Four other vectors are shown below the airplane. Vector change in d a points to the left and is short. Vector change in d b points to the left and is also short. Vector change in d c points to the right and is short. Vector change in d d points to the left and is longer.">
+<para id="fs-id1167065855140">Suppose a passenger moved toward the back of a plane with an average velocity of –4 m/s. We cannot tell from the average velocity whether the passenger stopped momentarily or backed up before he got to the back of the plane. To get more details, we must consider smaller segments of the trip over smaller time intervals such as those shown in <link target-id="Figure_02_02_plane"/>. If you consider infinitesimally small intervals, you can define <term id="term-00011">instantaneous velocity</term>, which is the velocity at a specific instant in time. Instantaneous velocity and average velocity are the same if the velocity is constant.</para><figure id="Figure_02_02_plane"><media id="fs-id1167065974649" alt="A drawing of an airplane facing to the right is shown, and is set in quadrant one of a coordinate plane. The x-axis is labeled df and then do. The distance between df and do is labeled with a left-pointing vector, change in d total. Four other vectors are shown below the airplane. Vector change in d a points to the left and is short. Vector change in d b points to the left and is also short. Vector change in d c points to the right and is short. Vector change in d d points to the left and is longer.">
 <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_02_02_plane.jpg"/>
 </media>
 

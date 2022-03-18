@@ -49,7 +49,7 @@
 <span>[BL]</span><span>[OL]</span><span>[AL]</span> Review heat and absolute temperature. Recall earlier discussions on engine efficiency. Assess students' understanding of efficiency.
 </para>
 </note>
-<para id="fs-id1167065957917">Recall from the chapter introduction that it is not even theoretically possible for engines to be 100 percent efficient. This phenomenon is explained by the <term>second law of thermodynamics</term>, which relies on a concept known as <term>entropy</term>. Entropy is a measure of the disorder of a system. Entropy also describes how much energy is <emphasis effect="italics">not</emphasis> available to do work. The more disordered a system and higher the entropy, the less of a system's energy is available to do work.</para>
+<para id="fs-id1167065957917">Recall from the chapter introduction that it is not even theoretically possible for engines to be 100 percent efficient. This phenomenon is explained by the <term id="term-00001">second law of thermodynamics</term>, which relies on a concept known as <term id="term-00002">entropy</term>. Entropy is a measure of the disorder of a system. Entropy also describes how much energy is <emphasis effect="italics">not</emphasis> available to do work. The more disordered a system and higher the entropy, the less of a system's energy is available to do work.</para>
 
 <note id="fs-id1167064985573" class="os-teacher">
 <title>Teacher Support</title>
@@ -149,7 +149,7 @@
     <m:mtext>envir</m:mtext>
    </m:mrow>
   </m:msub>
-  <m:mo>&gt;</m:mo><m:mn>0</m:mn>
+  <m:mo>></m:mo><m:mn>0</m:mn>
 <m:mtext>.</m:mtext>
  </m:mrow>
 </m:math> </para><para id="fs-id1167066170244">Based on this equation, we see that  <m:math>
@@ -211,7 +211,7 @@
    <m:mrow>
     <m:mtext>envir</m:mtext></m:mrow>
   </m:msub>
-  <m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow>
+  <m:mo>></m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow>
 </m:math> </equation><para id="fs-id1167065728367">and the second law of thermodynamics is <emphasis effect="italics">not</emphasis> violated.</para>
 <para id="fs-id1167065926298">Every time a plant stores some solar energy in the form of chemical potential energy, or an updraft of warm air lifts a soaring bird, Earth experiences local decreases in entropy as it uses part of the energy transfer from the sun into deep space to do work. There is a large total increase in entropy resulting from this massive energy transfer. A small part of this energy transfer by heat is stored in structured systems on Earth, resulting in much smaller, local decreases in entropy.</para>
 

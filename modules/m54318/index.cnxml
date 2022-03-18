@@ -80,12 +80,12 @@
 <para id="fs-id1167063801846">The horizontal waves in the picture bounce off the wall of the lake seen in the front part of the picture. These superimpose or combine with waves moving in a different direction. When they combine, their energies get added, forming higher peaks and lower crests in specific places. This is why the water has a crisscross pattern.</para>
 </note>
 
-<para id="fs-id1167067137773">Most waves appear complex because they result from two or more simple waves that combine as they come together at the same place at the same time—a phenomenon called <term>superposition</term>.</para>
+<para id="fs-id1167067137773">Most waves appear complex because they result from two or more simple waves that combine as they come together at the same place at the same time—a phenomenon called <term id="term-00001">superposition</term>.</para>
 <para id="fs-id1167064876700">Waves superimpose by adding their disturbances; each disturbance corresponds to a force, and all the forces add. If the disturbances are along the same line, then the resulting wave is a simple addition of the disturbances of the individual waves, that is, their amplitudes add.</para>
 </section>
 
 <section id="fs-id1167063534954"><title>Wave Interference</title><para id="fs-id1167063729891">The two special cases of superposition that produce the simplest results are pure constructive interference and pure destructive interference.</para>
-<para id="fs-id1167066960883">Pure <term>constructive interference</term> occurs when two identical waves arrive at the same point exactly in phase. When waves are exactly in phase, the crests of the two waves are precisely aligned, as are the troughs. Refer to <link target-id="Figure_13_03_Construct"/>. Because the disturbances add, the pure constructive interference of two waves with the same amplitude produces a wave that has twice the amplitude of the two individual waves, but has the same wavelength.</para>
+<para id="fs-id1167066960883">Pure <term id="term-00002">constructive interference</term> occurs when two identical waves arrive at the same point exactly in phase. When waves are exactly in phase, the crests of the two waves are precisely aligned, as are the troughs. Refer to <link target-id="Figure_13_03_Construct"/>. Because the disturbances add, the pure constructive interference of two waves with the same amplitude produces a wave that has twice the amplitude of the two individual waves, but has the same wavelength.</para>
 
 <figure id="Figure_13_03_Construct">
 <media id="fs-id1167063473771" alt="Wave 1 and wave 2 are perfectly in phase, and their resultant has twice the amplitude of each individual wave.">
@@ -94,7 +94,7 @@
 <caption>The pure constructive interference of two identical waves produces a wave with twice the amplitude but the same wavelength.</caption>
 </figure>
 
-<para id="fs-id1167066811305"><link target-id="Figure_13_03_Destruct"/> shows two identical waves that arrive exactly <emphasis effect="italics">out</emphasis> of phase—that is, precisely aligned crest to trough—producing pure <term>destructive interference</term>. Because the disturbances are in opposite directions for this superposition, the resulting amplitude is zero for pure destructive interference; that is, the waves completely cancel out each other.</para>
+<para id="fs-id1167066811305"><link target-id="Figure_13_03_Destruct"/> shows two identical waves that arrive exactly <emphasis effect="italics">out</emphasis> of phase—that is, precisely aligned crest to trough—producing pure <term id="term-00003">destructive interference</term>. Because the disturbances are in opposite directions for this superposition, the resulting amplitude is zero for pure destructive interference; that is, the waves completely cancel out each other.</para>
 
 <figure id="Figure_13_03_Destruct">
 <media id="fs-id1167063481018" alt="Wave 1 and wave 2 are perfectly out of phase, and their resultant has zero amplitude.">
@@ -129,7 +129,7 @@
 </exercise>
 </note></section><section id="fs-id1167067069364">
 <title>Standing Waves</title>
-<para id="fs-id1167067240299">Sometimes waves do not seem to move and they appear to just stand in place, vibrating. Such waves are called <term>standing waves</term> and are formed by the superposition of two or more waves moving in opposite directions. The waves move through each other with their disturbances adding as they go by. If the two waves have the same amplitude and wavelength, then they alternate between constructive and destructive interference. Standing waves created by the superposition of two identical waves moving in opposite directions are illustrated in <link target-id="Figure_13_03_Standing"/>.</para>
+<para id="fs-id1167067240299">Sometimes waves do not seem to move and they appear to just stand in place, vibrating. Such waves are called <term id="term-00004">standing waves</term> and are formed by the superposition of two or more waves moving in opposite directions. The waves move through each other with their disturbances adding as they go by. If the two waves have the same amplitude and wavelength, then they alternate between constructive and destructive interference. Standing waves created by the superposition of two identical waves moving in opposite directions are illustrated in <link target-id="Figure_13_03_Standing"/>.</para>
 
 <figure id="Figure_13_03_Standing">
 <media id="fs-id1167066974327" alt="Two identical waves moving in opposite directions alternate between creating no disturbance during destructive interference and doubling the disturbance during constructive interference.">
@@ -140,8 +140,8 @@
 
 <para id="fs-id1167067051662">As an example, standing waves can be seen on the surface of a glass of milk in a refrigerator. The vibrations from the refrigerator motor create waves on the milk that oscillate up and down but do not seem to move across the surface. The two waves that produce standing waves may be due to the reflections from the side of the glass.</para>
 <para id="fs-id1167067051874">Earthquakes can create standing waves and cause constructive and destructive interferences. As the earthquake waves travel along the surface of Earth and reflect off denser rocks, constructive interference occurs at certain points. As a result, areas closer to the epicenter are not damaged while areas farther from the epicenter are damaged.</para>
-<para id="fs-id1167067085587">Standing waves are also found on the strings of musical instruments and are due to reflections of waves from the ends of the string. <link target-id="Figure_13_03_Antinode"/> and <link target-id="Figure_13_03_Antinodes"/> show three standing waves that can be created on a string that is fixed at both ends. When the wave reaches the fixed end, it has nowhere else to go but back where it came from, causing the reflection. The <term>nodes</term> are the points where the string does not move; more generally, the nodes are the points where the wave disturbance is zero in a standing wave. The fixed ends of strings must be nodes, too, because the string cannot move there.</para>
-<para id="fs-id1167067038594">The <term>antinode</term> is the location of maximum amplitude in standing waves. The standing waves on a string have a frequency that is related to the propagation speed  <m:math>
+<para id="fs-id1167067085587">Standing waves are also found on the strings of musical instruments and are due to reflections of waves from the ends of the string. <link target-id="Figure_13_03_Antinode"/> and <link target-id="Figure_13_03_Antinodes"/> show three standing waves that can be created on a string that is fixed at both ends. When the wave reaches the fixed end, it has nowhere else to go but back where it came from, causing the reflection. The <term id="term-00005">nodes</term> are the points where the string does not move; more generally, the nodes are the points where the wave disturbance is zero in a standing wave. The fixed ends of strings must be nodes, too, because the string cannot move there.</para>
+<para id="fs-id1167067038594">The <term id="term-00006">antinode</term> is the location of maximum amplitude in standing waves. The standing waves on a string have a frequency that is related to the propagation speed  <m:math>
  <m:mrow>
   <m:msub>
    <m:mi>v</m:mi>
@@ -169,7 +169,7 @@
 
 <section id="fs-id1167067192761">
 <title>Reflection and Refraction of Waves</title>
-<para id="fs-id1167066974358">As we saw in the case of standing waves on the strings of a musical instrument, <term>reflection</term> is the change in direction of a wave when it bounces off a barrier, such as a fixed end. When the wave hits the fixed end, it changes direction, returning to its source. As it is reflected, the wave experiences an <term>inversion</term>, which means that it flips vertically. If a wave hits the fixed end with a crest, it will return as a trough, and vice versa (Henderson 2015). Refer to <link target-id="Figure_13_03_Inversion"/>.</para>
+<para id="fs-id1167066974358">As we saw in the case of standing waves on the strings of a musical instrument, <term id="term-00007">reflection</term> is the change in direction of a wave when it bounces off a barrier, such as a fixed end. When the wave hits the fixed end, it changes direction, returning to its source. As it is reflected, the wave experiences an <term id="term-00008">inversion</term>, which means that it flips vertically. If a wave hits the fixed end with a crest, it will return as a trough, and vice versa (Henderson 2015). Refer to <link target-id="Figure_13_03_Inversion"/>.</para>
 
 <figure id="Figure_13_03_Inversion">
 <media id="fs-id1167067036571" alt="A wave travels to the right, hits the fixed end, flips vertically, and travels to the left.">
@@ -183,7 +183,7 @@
 <para id="fs-id1167067142430">If the end is not fixed, it is said to be a <emphasis effect="italics">free end</emphasis>, and no inversion occurs. When the end is loosely attached, it reflects without inversion, and when the end is not attached to anything, it does not reflect at all. You may have noticed this while changing the settings from Fixed End to Loose End to No End in the Waves on a String PhET simulation.</para>
 </note>
 
-<para id="fs-id1167063810871">Rather than encountering a fixed end or barrier, waves sometimes pass from one medium into another, for instance, from air into water. Different types of media have different properties, such as density or depth, that affect how a wave travels through them. At the boundary between media, waves experience <term>refraction</term>—they change their path of propagation. As the wave bends, it also changes its speed and wavelength upon entering the new medium. Refer to <link target-id="Figure_13_03_Refraction"/>.</para>
+<para id="fs-id1167063810871">Rather than encountering a fixed end or barrier, waves sometimes pass from one medium into another, for instance, from air into water. Different types of media have different properties, such as density or depth, that affect how a wave travels through them. At the boundary between media, waves experience <term id="term-00009">refraction</term>—they change their path of propagation. As the wave bends, it also changes its speed and wavelength upon entering the new medium. Refer to <link target-id="Figure_13_03_Refraction"/>.</para>
 
 <figure id="Figure_13_03_Refraction">
 <media id="fs-id1167063526214" alt="A wave bends slightly to the right of its original path as it crosses the line into another medium.">

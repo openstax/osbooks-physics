@@ -93,7 +93,7 @@
 </m:math> </equation>
 <para id="fs-id1167064910419">where the approximate value of 3.00  <m:math>
  <m:mo>×</m:mo>
-</m:math>  10<sup>8</sup> m/s is used whenever three-digit precision is sufficient. The speed of light through matter is less than it is in a vacuum, because light interacts with atoms in a material. The speed of light depends strongly on the type of material, given that its interaction with different atoms, crystal lattices, and other substructures varies. We define the <term>index of refraction</term>, <emphasis effect="italics">n</emphasis>, of a material to be</para>
+</m:math>  10<sup>8</sup> m/s is used whenever three-digit precision is sufficient. The speed of light through matter is less than it is in a vacuum, because light interacts with atoms in a material. The speed of light depends strongly on the type of material, given that its interaction with different atoms, crystal lattices, and other substructures varies. We define the <term id="term-00001">index of refraction</term>, <emphasis effect="italics">n</emphasis>, of a material to be</para>
 <equation id="fs-id1167065044318" class="unnumbered">
 <label/>
  <m:math display="block">
@@ -250,7 +250,7 @@
 <note id="fs-id1167065737903" class="virtual-physics os-interactive"><title>Bending Light</title>
 <media id="fs-id1167065851428" alt="This simulation allows you to explore bending of light between two media with different indices of refraction">
 <iframe width="660" height="371.4" src="https://openstax.org/l/28Bendinglight"/></media>
-<para id="fs-id1167063504115">The Bending Light simulation allows you to show light refracting as it crosses the boundaries between various media (download animation first to view). It also shows the reflected ray. You can move the protractor to the point where the light meets the boundary and measure the angle of incidence, the <term>angle of refraction</term>, and the angle of reflection. You can also insert a prism into the beam to view the spreading, or <term>dispersion</term>, of white light into colors, as discussed later in this section. Use the ray option at the upper left.</para><para id="fs-id1167065938031"><link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex024"/></para>
+<para id="fs-id1167063504115">The Bending Light simulation allows you to show light refracting as it crosses the boundaries between various media (download animation first to view). It also shows the reflected ray. You can move the protractor to the point where the light meets the boundary and measure the angle of incidence, the <term id="term-00002">angle of refraction</term>, and the angle of reflection. You can also insert a prism into the beam to view the spreading, or <term id="term-00003">dispersion</term>, of white light into colors, as discussed later in this section. Use the ray option at the upper left.</para><para id="fs-id1167065938031"><link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex024"/></para>
 
 <note id="fs-id1167066044898" class="os-teacher">
 <title>Teacher Support</title>
@@ -263,7 +263,7 @@
 <para id="fs-id1167064692476"><span>[AL]</span>Ask students to try to explain why a prism separates white light into a rainbow of colors, but a window pane does not. If they cannot explain it, show them a ray diagram of light transmitted through a flat sheet of glass.</para>
 </note>
 
-<para id="fs-id1167064908215">The amount that a light ray changes direction depends both on the incident angle and the amount that the speed changes. For a ray at a given incident angle, a large change in speed causes a large change in direction, and thus a large change in the angle of refraction. The exact mathematical relationship is the law of refraction, or <term><emphasis effect="italics">Snell’s law</emphasis></term>, which is stated in equation form as</para>
+<para id="fs-id1167064908215">The amount that a light ray changes direction depends both on the incident angle and the amount that the speed changes. For a ray at a given incident angle, a large change in speed causes a large change in direction, and thus a large change in the angle of refraction. The exact mathematical relationship is the law of refraction, or <term id="term-00004"><emphasis effect="italics">Snell’s law</emphasis></term>, which is stated in equation form as</para>
 
 <equation id="fs-id1167065721155" class="unnumbered">
 <label/>
@@ -351,7 +351,7 @@
 </m:math>
 </equation>
 
-<para id="fs-id1167062414005">Here, <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasis effect="italics">n</emphasis><sub>2</sub> are the indices of refraction for media 1 and 2, respectively, and <emphasis effect="italics">θ</emphasis><sub>1</sub> and <emphasis effect="italics">θ</emphasis><sub>2</sub> are the angles between the rays and the perpendicular in the respective media 1 and 2, as shown in <link target-id="Figure_16_02_Lawnmower"/>. The incoming ray is called the <term><emphasis effect="italics">incident ray</emphasis></term> and the outgoing ray is called the <term><emphasis effect="italics">refracted ray</emphasis></term>. The associated angles are called the <emphasis effect="italics">angle of incidence</emphasis> and the <emphasis effect="italics">angle of refraction</emphasis>. Later, we apply Snell’s law to some practical situations.</para>
+<para id="fs-id1167062414005">Here, <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasis effect="italics">n</emphasis><sub>2</sub> are the indices of refraction for media 1 and 2, respectively, and <emphasis effect="italics">θ</emphasis><sub>1</sub> and <emphasis effect="italics">θ</emphasis><sub>2</sub> are the angles between the rays and the perpendicular in the respective media 1 and 2, as shown in <link target-id="Figure_16_02_Lawnmower"/>. The incoming ray is called the <term id="term-00005"><emphasis effect="italics">incident ray</emphasis></term> and the outgoing ray is called the <term id="term-00006"><emphasis effect="italics">refracted ray</emphasis></term>. The associated angles are called the <emphasis effect="italics">angle of incidence</emphasis> and the <emphasis effect="italics">angle of refraction</emphasis>. Later, we apply Snell’s law to some practical situations.</para>
 
 <para id="fs-id1167065880322">Dispersion is defined as the spreading of white light into the wavelengths of which it is composed. This happens because the index of refraction varies slightly with wavelength. <link target-id="Figure_16_02_Prism"/> shows how a prism disperses white light into the colors of the rainbow.</para>
 
@@ -383,14 +383,14 @@
 </m:math>
  for light in a medium. Different wavelengths of light travel at different speeds, and so refract differently at media boundaries. Also, have students note that the frequency of light is not affected by refraction; it remains constant.</para>
 </note>
-</note><para id="fs-id1167065926399">A good-quality mirror reflects more than 90 percent of the light that falls on it; the mirror absorbs the rest. But, it would be useful to have a mirror that reflects all the light that falls on it. Interestingly, we can produce total reflection using an aspect of refraction. Consider what happens when a ray of light strikes the surface between two materials, such as is shown in <link target-id="Figure_16_02_Total_internal"/>(a). Part of the light crosses the boundary and is refracted; the rest is reflected. If, as shown in the figure, the index of refraction for the second medium is less than the first, the ray bends away from the perpendicular. Because <emphasis effect="italics">n</emphasis><sub>1</sub><emphasis effect="italics"> &gt; n</emphasis><sub>2</sub>, the angle of refraction is greater than the angle of incidence—that is,  <m:math>
+</note><para id="fs-id1167065926399">A good-quality mirror reflects more than 90 percent of the light that falls on it; the mirror absorbs the rest. But, it would be useful to have a mirror that reflects all the light that falls on it. Interestingly, we can produce total reflection using an aspect of refraction. Consider what happens when a ray of light strikes the surface between two materials, such as is shown in <link target-id="Figure_16_02_Total_internal"/>(a). Part of the light crosses the boundary and is refracted; the rest is reflected. If, as shown in the figure, the index of refraction for the second medium is less than the first, the ray bends away from the perpendicular. Because <emphasis effect="italics">n</emphasis><sub>1</sub><emphasis effect="italics"> > n</emphasis><sub>2</sub>, the angle of refraction is greater than the angle of incidence—that is,  <m:math>
  <m:mrow>
   <m:msub>
    <m:mi>θ</m:mi>
    <m:mtext>2</m:mtext>
   </m:msub>
   </m:mrow>
-</m:math> &gt; <m:math>
+</m:math> > <m:math>
  <m:mrow>
   <m:msub>
    <m:mi>θ</m:mi>
@@ -411,7 +411,7 @@
    <m:mtext>2</m:mtext>
   </m:msub>
   </m:mrow>
-</m:math>, can be is 90°, as shown in <link target-id="Figure_16_02_Total_internal"/>(b). The <term>critical angle</term>,  <m:math>
+</m:math>, can be is 90°, as shown in <link target-id="Figure_16_02_Total_internal"/>(b). The <term id="term-00007">critical angle</term>,  <m:math>
  <m:mrow>
   <m:msub>
    <m:mi>θ</m:mi>
@@ -446,7 +446,7 @@
    <m:mtext>1</m:mtext>
   </m:msub>
   </m:mrow>
-</m:math>, is greater than the critical angle, as shown in <link target-id="Figure_16_02_Total_internal"/>(c), then all the light is reflected back into medium 1, a condition called <term><emphasis effect="italics">total internal reflection</emphasis></term>.</para>
+</m:math>, is greater than the critical angle, as shown in <link target-id="Figure_16_02_Total_internal"/>(c), then all the light is reflected back into medium 1, a condition called <term id="term-00008"><emphasis effect="italics">total internal reflection</emphasis></term>.</para>
 
 <figure id="Figure_16_02_Total_internal"><media id="fs-id1167065735762" alt="Views (a) through (c) depict how light behaves when light strikes a boundary and is reflected and refracted."><image mime-type="image/jpg" src="../../media/CNX_HSPhysics_16_02_TotalInt.jpg"/></media>
 
@@ -570,7 +570,7 @@
 </m:math>
 </equation>
 
-<para id="fs-id1167065871185">for <emphasis effect="italics">n</emphasis><sub>1</sub> &gt; <emphasis effect="italics">n</emphasis><sub>2</sub>.</para>
+<para id="fs-id1167065871185">for <emphasis effect="italics">n</emphasis><sub>1</sub> > <emphasis effect="italics">n</emphasis><sub>2</sub>.</para>
 
 <note id="fs-id1167064904821" class="os-teacher">
 <title>Teacher Support</title>
@@ -594,7 +594,7 @@
 <caption>Light cannot escape a diamond easily because its critical angle with air is so small. Most reflections are total and the facets are placed so that light can exit only in particular ways, thus concentrating the light and making the diamond sparkle.</caption>
 </figure>
 
-<para id="fs-id1167064736505">A light ray that strikes an object that consists of two mutually perpendicular reflecting surfaces is reflected back exactly parallel to the direction from which it came. This parallel reflection is true whenever the reflecting surfaces are perpendicular, and it is independent of the angle of incidence. Such an object is called a <term><emphasis effect="italics">corner reflector</emphasis></term> because the light bounces from its inside corner. Many inexpensive reflector buttons on bicycles, cars, and warning signs have corner reflectors designed to return light in the direction from which it originates. Corner reflectors are perfectly efficient when the conditions for total internal reflection are satisfied. With common materials, it is easy to obtain a critical angle that is less than 45°. One use of these perfect <emphasis effect="italics">mirrors</emphasis> is in binoculars, as shown in <link target-id="Figure_16_02_Binoculars"/>. Another application is for periscopes used in submarines.</para>
+<para id="fs-id1167064736505">A light ray that strikes an object that consists of two mutually perpendicular reflecting surfaces is reflected back exactly parallel to the direction from which it came. This parallel reflection is true whenever the reflecting surfaces are perpendicular, and it is independent of the angle of incidence. Such an object is called a <term id="term-00009"><emphasis effect="italics">corner reflector</emphasis></term> because the light bounces from its inside corner. Many inexpensive reflector buttons on bicycles, cars, and warning signs have corner reflectors designed to return light in the direction from which it originates. Corner reflectors are perfectly efficient when the conditions for total internal reflection are satisfied. With common materials, it is easy to obtain a critical angle that is less than 45°. One use of these perfect <emphasis effect="italics">mirrors</emphasis> is in binoculars, as shown in <link target-id="Figure_16_02_Binoculars"/>. Another application is for periscopes used in submarines.</para>
 
 <figure id="Figure_16_02_Binoculars"><media id="fs-id1167066112774" alt="A pair of binoculars is shown. The right side is a cutout view of the internal workings of the binoculars. A light ray (depicted by an arrow) enters the binoculars, reflects off two prisms (corner reflectors) to transmit the image, which exits the eyepiece."><image mime-type="image/jpg" src="../../media/CNX_HSPhysics_16_02_Binoculars.jpg"/></media>
 <caption>These binoculars use corner reflectors with total internal reflection to get light to the observer’s eyes.</caption>
@@ -766,7 +766,7 @@
    <m:mi>n</m:mi>
    <m:mn>1</m:mn>
   </m:msub>
-  <m:mo>&gt;</m:mo><m:msub>
+  <m:mo>></m:mo><m:msub>
    <m:mi>n</m:mi>
    <m:mn>2</m:mn>
   </m:msub>
@@ -990,7 +990,7 @@
    <m:mi>n</m:mi>
    <m:mn>1</m:mn>
   </m:msub>
-  <m:mo>&gt;</m:mo><m:msub>
+  <m:mo>></m:mo><m:msub>
    <m:mi>n</m:mi>
    <m:mn>2</m:mn>
   </m:msub>
@@ -1206,7 +1206,7 @@
 </entry>
 </row>
 <row>
-<entry>&gt;Snell’s law in terms of speed</entry>
+<entry>>Snell’s law in terms of speed</entry>
 <entry> <m:math>
  <m:mrow>
   <m:mfrac>
@@ -1267,7 +1267,7 @@
    <m:mi>n</m:mi>
    <m:mn>1</m:mn>
   </m:msub>
-  <m:mo>&gt;</m:mo><m:msub>
+  <m:mo>></m:mo><m:msub>
    <m:mi>n</m:mi>
    <m:mn>2</m:mn>
   </m:msub>
@@ -1371,10 +1371,10 @@
 </para>-->
 <para id="fs-id1164564724643">Consider these indices of refraction: glass: 1.52, air: 1.0003, water: 1.333. Put these materials in order from the one in which the speed of light is fastest to the one in which it is slowest.</para>
 <list id="fs-id1164566525307" list-type="enumerated" number-style="lower-alpha">
-<item>The speed of light in water &gt; the speed of light in air &gt; the speed of light in glass.</item>
-<item>The speed of light in glass &gt; the speed of light in water &gt; the speed of light in air.</item>
-<item>The speed of light in air &gt; the speed of light in water &gt; the speed of light in glass.</item>
-<item>The speed of light in glass &gt; the speed of light in air &gt; the speed of light in water.</item>
+<item>The speed of light in water > the speed of light in air > the speed of light in glass.</item>
+<item>The speed of light in glass > the speed of light in water > the speed of light in air.</item>
+<item>The speed of light in air > the speed of light in water > the speed of light in glass.</item>
+<item>The speed of light in glass > the speed of light in air > the speed of light in water.</item>
 </list>
 </problem>
 </exercise>

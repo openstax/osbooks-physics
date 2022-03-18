@@ -69,11 +69,11 @@
 </note>
 <section id="fs-id1167067051748">
 <title>Phase Changes</title>
-<para id="fs-id1167063707509">So far, we have learned that adding thermal energy by heat increases the temperature of a substance. But surprisingly, there are situations where adding energy does not change the temperature of a substance at all! Instead, the additional thermal energy acts to loosen bonds between molecules or atoms and causes a <term>phase change</term>. Because this energy enters or leaves a system during a phase change without causing a temperature change in the system, it is known as <term>latent heat</term> (latent means <emphasis effect="italics">hidden</emphasis>).</para>
+<para id="fs-id1167063707509">So far, we have learned that adding thermal energy by heat increases the temperature of a substance. But surprisingly, there are situations where adding energy does not change the temperature of a substance at all! Instead, the additional thermal energy acts to loosen bonds between molecules or atoms and causes a <term id="term-00001">phase change</term>. Because this energy enters or leaves a system during a phase change without causing a temperature change in the system, it is known as <term id="term-00002">latent heat</term> (latent means <emphasis effect="italics">hidden</emphasis>).</para>
 <para id="fs-id1167067048834">The three phases of matter that you frequently encounter are solid, liquid and gas (see <link target-id="Figure_11_03_Phases"/>). Solid has the least energetic state; atoms in solids are in close contact, with forces between them that allow the particles to vibrate but not change position with neighboring particles. (These forces can be thought of as springs that can be stretched or compressed, but not easily broken.)</para>
 <para id="fs-id1167061419591">Liquid has a more energetic state, in which particles can slide smoothly past one another and change neighbors, although they are still held together by their mutual attraction.</para>
 <para id="fs-id1167063801863">Gas has a more energetic state than liquid, in which particles are broken free of their bonds. Particles in gases are separated by distances that are large compared with the size of the particles.</para>
-<para id="fs-id1167067252230">The most energetic state of all is <term>plasma</term>. Although you may not have heard much about plasma, it is actually the most common state of matter in the universe—stars are made up of plasma, as is lightning. The plasma state is reached by heating a gas to the point where particles are pulled apart, separating the electrons from the rest of the particle. This produces an ionized gas that is a combination of the negatively charged free electrons and positively charged ions, known as plasma.</para>
+<para id="fs-id1167067252230">The most energetic state of all is <term id="term-00003">plasma</term>. Although you may not have heard much about plasma, it is actually the most common state of matter in the universe—stars are made up of plasma, as is lightning. The plasma state is reached by heating a gas to the point where particles are pulled apart, separating the electrons from the rest of the particle. This produces an ionized gas that is a combination of the negatively charged free electrons and positively charged ions, known as plasma.</para>
 
 <figure id="Figure_11_03_Phases"><media id="fs-id1167063717261" alt="A rock, representing a solid is shown in part (a), along with its tightly bound particles. In part (b), liquid water is shown with its molecules attracted to one another, but not tightly bound. In part (c) oxygen is shown with molecules far apart and bouncing off one another in random directions.">
 <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_11_03_Phases.jpg"/></media>
@@ -81,13 +81,13 @@
 <caption>(a) Particles in a solid always have the same neighbors, held close by forces represented here by springs. These particles are essentially in contact with one another. A rock is an example of a solid. This rock retains its shape because of the forces holding its atoms or molecules together. (b) Particles in a liquid are also in close contact but can slide over one another. Forces between them strongly resist attempts to push them closer together and also hold them in close contact. Water is an example of a liquid. Water can flow, but it also remains in an open container because of the forces between its molecules. (c) Particles in a gas are separated by distances that are considerably larger than the size of the particles themselves, and they move about freely. A gas must be held in a closed container to prevent it from moving out into its surroundings. (d) The atmosphere is ionized in the extreme heat of a lightning strike.</caption></figure><para id="fs-id1167063484192">During a phase change, matter changes from one phase to another, either through the addition of energy by heat and the transition to a more energetic state, or from the removal of energy by heat and the transition to a less energetic state.</para>
 
 <para id="fs-id1167061400929">Phase changes to a more energetic state include the following:</para><list id="fs-id1167063606306">
-    <item><term>Melting</term>—Solid to liquid</item>
-    <item><term>Vaporization</term>—Liquid to gas (included boiling and evaporation)</item>
-    <item><term>Sublimation</term>—Solid to gas</item>
+    <item><term id="term-00004">Melting</term>—Solid to liquid</item>
+    <item><term id="term-00005">Vaporization</term>—Liquid to gas (included boiling and evaporation)</item>
+    <item><term id="term-00006">Sublimation</term>—Solid to gas</item>
     </list>
 <para id="fs-id1167067010910">Phase changes to a less energetic state are as follows:</para><list id="fs-id1167067069622">
-<item><term>Condensation</term>—Gas to liquid</item>
-<item><term>Freezing</term>—Liquid to solid</item>
+<item><term id="term-00007">Condensation</term>—Gas to liquid</item>
+<item><term id="term-00008">Freezing</term>—Liquid to solid</item>
 </list>
 
 
@@ -137,7 +137,7 @@
   </m:msub>
 
  </m:mrow>
-</m:math>  is the <term>latent heat of fusion</term>, and  <m:math>
+</m:math>  is the <term id="term-00009">latent heat of fusion</term>, and  <m:math>
  <m:mrow>
   <m:msub>
    <m:mi>L</m:mi>
@@ -145,7 +145,7 @@
   </m:msub>
 
  </m:mrow>
-</m:math>  is the <term>latent heat of vaporization</term>. The latent heat of fusion is the amount of heat needed to cause a phase change between solid and liquid. The latent heat of vaporization is the amount of heat needed to cause a phase change between liquid and gas.  <m:math>
+</m:math>  is the <term id="term-00010">latent heat of vaporization</term>. The latent heat of fusion is the amount of heat needed to cause a phase change between solid and liquid. The latent heat of vaporization is the amount of heat needed to cause a phase change between liquid and gas.  <m:math>
  <m:mrow>
   <m:msub>
    <m:mi>L</m:mi>
@@ -325,7 +325,7 @@
 </tbody>
 
 </tgroup>
-</table><para id="fs-id1167067028398">Let’s consider the example of adding heat to ice to examine its transitions through all three phases—solid to liquid to gas. A <term class="no-emphasis">phase diagram</term> indicating the temperature changes of water as energy is added is shown in <link target-id="Figure_11_03_WaterPhases"/>. The ice starts out at −20 <m:math>
+</table><para id="fs-id1167067028398">Let’s consider the example of adding heat to ice to examine its transitions through all three phases—solid to liquid to gas. A <term class="no-emphasis" id="term-00011">phase diagram</term> indicating the temperature changes of water as energy is added is shown in <link target-id="Figure_11_03_WaterPhases"/>. The ice starts out at −20 <m:math>
  <m:mrow>
 <m:mtext>°C</m:mtext>
  </m:mrow>

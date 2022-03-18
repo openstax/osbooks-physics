@@ -51,14 +51,14 @@
 </section>
 <section id="fs-id1167065826383">
 <title>Angle of Rotation</title>
-<para id="fs-id1167066012376">What exactly do we mean by <emphasis effect="italics">circular motion</emphasis> or <emphasis effect="italics">rotation</emphasis>? <term>Rotational motion</term> is the circular motion of an object about an axis of rotation. We will discuss specifically circular motion and spin. <term>Circular motion</term> is when an object moves in a circular path. Examples of circular motion include a race car speeding around a circular curve, a toy attached to a string swinging in a circle around your head, or the circular <emphasis effect="italics">loop-the-loop</emphasis> on a roller coaster. <term>Spin</term> is rotation about an axis that goes through the center of mass of the object, such as Earth rotating on its axis, a wheel turning on its axle, the spin of a tornado on its path of destruction, or a figure skater spinning during a performance at the Olympics. Sometimes, objects will be spinning while in circular motion, like the Earth spinning on its axis while revolving around the Sun, but we will focus on these two motions separately.</para>
+<para id="fs-id1167066012376">What exactly do we mean by <emphasis effect="italics">circular motion</emphasis> or <emphasis effect="italics">rotation</emphasis>? <term id="term-00001">Rotational motion</term> is the circular motion of an object about an axis of rotation. We will discuss specifically circular motion and spin. <term id="term-00002">Circular motion</term> is when an object moves in a circular path. Examples of circular motion include a race car speeding around a circular curve, a toy attached to a string swinging in a circle around your head, or the circular <emphasis effect="italics">loop-the-loop</emphasis> on a roller coaster. <term id="term-00003">Spin</term> is rotation about an axis that goes through the center of mass of the object, such as Earth rotating on its axis, a wheel turning on its axle, the spin of a tornado on its path of destruction, or a figure skater spinning during a performance at the Olympics. Sometimes, objects will be spinning while in circular motion, like the Earth spinning on its axis while revolving around the Sun, but we will focus on these two motions separately.</para>
 <note id="fs-id1167065711348" class="os-teacher">
 <title>Teacher Support</title>
     <para id="fs-id1167065976376"><span>[BL]</span><span>[OL]</span> Explain the difference between circular and rotational motions by using the Earth’s rotation about its axis and its revolution about the Sun. Explain that Earth’s rotation is slightly elliptical, although it is very nearly circular.</para>
 <para id="fs-id1167065897746"><span>[OL]</span><span>[AL]</span> Ask students to come up with examples of circular motion.</para>
 
 </note>
-<para id="fs-id1167065811287">When solving problems involving rotational motion, we use variables that are similar to linear variables (distance, velocity, acceleration, and force) but take into account the curvature or rotation of the motion. Here, we define the <term>angle of rotation</term>, which is the angular equivalence of distance; and <term>angular velocity</term>, which is the angular equivalence of linear velocity.</para>
+<para id="fs-id1167065811287">When solving problems involving rotational motion, we use variables that are similar to linear variables (distance, velocity, acceleration, and force) but take into account the curvature or rotation of the motion. Here, we define the <term id="term-00004">angle of rotation</term>, which is the angular equivalence of distance; and <term id="term-00005">angular velocity</term>, which is the angular equivalence of linear velocity.</para>
 <para id="fs-id1167065001525">When objects rotate about some axis—for example, when the CD in <link target-id="Figure_06_01_CD"/> rotates about its center—each point in the object follows a circular path. </para>
 <figure id="Figure_06_01_CD"><media id="fs-id1167065812517" alt="The diagram shows a picture of a CD with about an eighth of the shiny surface peeled away to display the inside of the CD with pits (dots) arranged in lines from the center. An angle theta is marked from one line of dots to another.">
 <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_06_01_CD.jpg"/>
@@ -72,7 +72,7 @@
  <m:mrow>
   <m:mtext>Δ</m:mtext><m:mi>t</m:mi>
  </m:mrow>
-</m:math> .</caption></figure><para id="fs-id1167065846392">The <term>arc length</term><emphasis>,  </emphasis>, is the distance traveled along a circular path. The <term>radius of curvature</term>,<emphasis> <emphasis effect="italics"/>r</emphasis>, is the radius of the circular path. Both are shown in <link target-id="Figure_06_01_RotationAngle"/>.</para>
+</m:math> .</caption></figure><para id="fs-id1167065846392">The <term id="term-00006">arc length</term><emphasis>,  </emphasis>, is the distance traveled along a circular path. The <term id="term-00007">radius of curvature</term>,<emphasis> <emphasis effect="italics"/>r</emphasis>, is the radius of the circular path. Both are shown in <link target-id="Figure_06_01_RotationAngle"/>.</para>
 <figure id="Figure_06_01_RotationAngle"><media id="fs-id1167065892392" alt="The diagram shows a circle with the center marked O, a radius r ending on the circumference at A, an arc change of s starting at A and ending at B. The angle for the arc is change of theta. A formula to the right of the circle says change of theta is equal to change of s divided by r.">
 <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_06_01_RotationAn.jpg"/>
 </media>
@@ -103,7 +103,7 @@
 </m:math>
 
 </equation>
-<para id="fs-id1167064927682">The angle of rotation is often measured by using a unit called the <term class="no-emphasis">radian</term>. (Radians are actually dimensionless, because a radian is defined as the ratio of two distances, radius and arc length.) A <term class="no-emphasis">revolution</term> is one complete rotation, where every point on the circle returns to its original position. One revolution covers  <m:math>
+<para id="fs-id1167064927682">The angle of rotation is often measured by using a unit called the <term class="no-emphasis" id="term-00008">radian</term>. (Radians are actually dimensionless, because a radian is defined as the ratio of two distances, radius and arc length.) A <term class="no-emphasis" id="term-00009">revolution</term> is one complete rotation, where every point on the circle returns to its original position. One revolution covers  <m:math>
  <m:mrow>
   <m:mn>2</m:mn><m:mi>π</m:mi>
  </m:mrow>
@@ -355,7 +355,7 @@
  </m:mrow>
 </m:math> . If an object rotates through a greater angle of rotation in a given time, it has a greater angular speed. The units for angular speed are radians per second (rad/s).</para>
 <para id="fs-id1167065823797">Now let’s consider the direction of the angular speed, which means we now must call it the angular velocity. The direction of the angular velocity is along the axis of rotation. For an object rotating clockwise, the angular velocity points away from you along the axis of rotation. For an object rotating counterclockwise, the angular velocity points toward you along the axis of rotation.</para>
-<para id="fs-id1167065853790">Angular velocity (ω) is the angular version of linear velocity <emphasis>v</emphasis>. <term>Tangential velocity</term> is the instantaneous linear velocity of an object in rotational motion<emphasis>. </emphasis>To get the precise relationship between angular velocity and tangential velocity, consider again a pit on the rotating CD. This pit moves through an arc length  <m:math display="block">
+<para id="fs-id1167065853790">Angular velocity (ω) is the angular version of linear velocity <emphasis>v</emphasis>. <term id="term-00010">Tangential velocity</term> is the instantaneous linear velocity of an object in rotational motion<emphasis>. </emphasis>To get the precise relationship between angular velocity and tangential velocity, consider again a pit on the rotating CD. This pit moves through an arc length  <m:math display="block">
  <m:semantics>
   <m:mrow>
    <m:mo stretchy="false">(</m:mo><m:mi>Δ</m:mi><m:mi>s</m:mi><m:mo stretchy="false">)</m:mo>

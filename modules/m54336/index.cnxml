@@ -5,7 +5,7 @@
   <md:content-id>m54336</md:content-id>
   <md:title>Introduction</md:title>
   <md:abstract>In this chapter you will learn about:
-<list>
+<list id="list-00001">
 <item>The electromagnetic spectrum</item>
 <item>The behavior of electromagnetic radiation</item>
 </list></md:abstract>

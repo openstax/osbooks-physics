@@ -48,8 +48,8 @@
 </note>
 <section id="fs-id1167066767084">
 <title>Graphing Position as a Function of Time</title>
-<para id="fs-id1167067216326">A <term class="no-emphasis">graph</term>, like a picture, is worth a thousand words. Graphs not only contain numerical information, they also reveal relationships between physical quantities. In this section, we will investigate <term class="no-emphasis">kinematics</term> by analyzing graphs of <term class="no-emphasis">position</term> over <term class="no-emphasis">time</term>.</para>
-<para id="fs-id1167066879725">Graphs in this text have perpendicular axes, one horizontal and the other vertical. When two physical quantities are plotted against each other, the horizontal axis is usually considered the <term>independent variable</term>, and the vertical axis is the <term>dependent variable</term>. In algebra, you would have referred to the horizontal axis as the <emphasis effect="italics">x</emphasis>-axis and the vertical axis as the <emphasis effect="italics">y</emphasis>-axis. As in <link target-id="Figure_02_03_graph"/>, a straight-line graph has the general form  <m:math>
+<para id="fs-id1167067216326">A <term class="no-emphasis" id="term-00001">graph</term>, like a picture, is worth a thousand words. Graphs not only contain numerical information, they also reveal relationships between physical quantities. In this section, we will investigate <term class="no-emphasis" id="term-00002">kinematics</term> by analyzing graphs of <term class="no-emphasis" id="term-00003">position</term> over <term class="no-emphasis" id="term-00004">time</term>.</para>
+<para id="fs-id1167066879725">Graphs in this text have perpendicular axes, one horizontal and the other vertical. When two physical quantities are plotted against each other, the horizontal axis is usually considered the <term id="term-00005">independent variable</term>, and the vertical axis is the <term id="term-00006">dependent variable</term>. In algebra, you would have referred to the horizontal axis as the <emphasis effect="italics">x</emphasis>-axis and the vertical axis as the <emphasis effect="italics">y</emphasis>-axis. As in <link target-id="Figure_02_03_graph"/>, a straight-line graph has the general form  <m:math>
  <m:mrow>
   <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi>
  </m:mrow>
@@ -282,7 +282,7 @@
 </media>
 <caption>A U.S. Air Force jet car speeds down a track. (Matt Trostle, Flickr)</caption>
 </figure>
-<para id="fs-id1167067259390">The graph of position versus time in <link target-id="Figure_02_03_jet"/> is a curve rather than a straight line. The slope of the curve becomes steeper as time progresses, showing that the velocity is increasing over time. The slope at any point on a position-versus-time graph is the instantaneous velocity at that point. It is found by drawing a straight line <term>tangent</term> to the curve at the point of interest and taking the slope of this straight line. Tangent lines are shown for two points in <link target-id="Figure_02_03_jet"/>. The average velocity is the net displacement divided by the time traveled.</para>
+<para id="fs-id1167067259390">The graph of position versus time in <link target-id="Figure_02_03_jet"/> is a curve rather than a straight line. The slope of the curve becomes steeper as time progresses, showing that the velocity is increasing over time. The slope at any point on a position-versus-time graph is the instantaneous velocity at that point. It is found by drawing a straight line <term id="term-00007">tangent</term> to the curve at the point of interest and taking the slope of this straight line. Tangent lines are shown for two points in <link target-id="Figure_02_03_jet"/>. The average velocity is the net displacement divided by the time traveled.</para>
 <note id="fs-id1167066845021" class="worked-example">
 
 <title>Using Position–Time Graph to Calculate Average Velocity: Jet Car, Take Two</title>

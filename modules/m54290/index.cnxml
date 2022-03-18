@@ -60,7 +60,7 @@
  <m:mrow>
   <m:mi>Q</m:mi><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mi>m</m:mi><m:mi>c</m:mi><m:mi>Δ</m:mi><m:mi>T</m:mi><m:mi>,</m:mi></m:mrow>
 </m:math> </equation></para>
-<para id="fs-id1167064892499">where <emphasis effect="italics">m </emphasis>is the mass of the substance and Δ<emphasis effect="italics">T </emphasis>is the change in its temperature, in units of Celsius or Kelvin. The symbol <emphasis effect="italics">c </emphasis>stands for <term>specific heat</term>, and depends on the material and phase. The specific heat is the amount of heat necessary to change the temperature of 1.00 kg of mass by 1.00 ºC. The specific heat <emphasis effect="italics">c </emphasis>is a property of the substance; its SI unit is J/(kg <m:math>
+<para id="fs-id1167064892499">where <emphasis effect="italics">m </emphasis>is the mass of the substance and Δ<emphasis effect="italics">T </emphasis>is the change in its temperature, in units of Celsius or Kelvin. The symbol <emphasis effect="italics">c </emphasis>stands for <term id="term-00001">specific heat</term>, and depends on the material and phase. The specific heat is the amount of heat necessary to change the temperature of 1.00 kg of mass by 1.00 ºC. The specific heat <emphasis effect="italics">c </emphasis>is a property of the substance; its SI unit is J/(kg <m:math>
  <m:mo>⋅</m:mo>
 </m:math> K) or J/(kg <m:math>
  <m:mo>⋅</m:mo>
@@ -70,7 +70,7 @@
 </m:math> ). The temperature change ( <m:math>
  <m:mrow>
   <m:mi>Δ</m:mi><m:mi>T</m:mi></m:mrow>
-</m:math> ) is the same in units of kelvins and degrees Celsius (but not degrees Fahrenheit). Specific heat is closely related to the concept of <term>heat capacity</term>. Heat capacity is the amount of heat necessary to change the temperature of a substance by 1.00 <m:math>
+</m:math> ) is the same in units of kelvins and degrees Celsius (but not degrees Fahrenheit). Specific heat is closely related to the concept of <term id="term-00002">heat capacity</term>. Heat capacity is the amount of heat necessary to change the temperature of a substance by 1.00 <m:math>
  <m:mrow>
   <m:mtext>°C</m:mtext></m:mrow>
 </m:math> . In equation form, heat capacity <emphasis effect="italics">C</emphasis> is  <m:math>
@@ -241,7 +241,7 @@
 </exercise>
 </note></section>
 <section id="fs-id1167066034749"><title>Conduction, Convection, and Radiation</title><para id="fs-id1167064903342">Whenever there is a temperature difference, heat transfer occurs. Heat transfer may happen rapidly, such as through a cooking pan, or slowly, such as through the walls of an insulated cooler.</para>
-<para id="fs-id1167064899898">There are three different heat transfer methods: <term>conduction</term>, <term>convection</term>, and <term>radiation</term>. At times, all three may happen simultaneously. See <link target-id="Figure_11_02_Fireplace"/>.</para>
+<para id="fs-id1167064899898">There are three different heat transfer methods: <term id="term-00003">conduction</term>, <term id="term-00004">convection</term>, and <term id="term-00005">radiation</term>. At times, all three may happen simultaneously. See <link target-id="Figure_11_02_Fireplace"/>.</para>
 <figure id="Figure_11_02_Fireplace"><media id="fs-id1167065969893" alt="Hot air rises up the chimney, cold air comes in through the window, and heat radiates into the room from the fireplace.">
 <image mime-type="image/jpg" src="../../media/CNX_HSPhysics_11_02_Fireplace.jpg"/>
 </media>
