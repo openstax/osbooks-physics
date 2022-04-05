@@ -87,7 +87,7 @@ The initial displacement  <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mn>0</m:mn></
 </figure>
 
 <para id="fs-idp23524752">The second kinematic equation, another expression for average velocity  <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mover accent="true">
     <m:mi>v</m:mi>
@@ -95,7 +95,7 @@ The initial displacement  <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mn>0</m:mn></
    </m:mover>
    <m:mo>,</m:mo>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
  is simply the initial velocity plus the final velocity divided by two.</para>
 
@@ -752,7 +752,7 @@ The initial displacement  <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mn>0</m:mn></
 <para id="fs-idp103439792">List the unknowns: <emphasis effect="italics">y</emphasis><sub>1</sub>, <emphasis effect="italics">y</emphasis><sub>2</sub>, and <emphasis effect="italics">y</emphasis><sub>3</sub>; <emphasis effect="italics">v</emphasis><sub>1</sub>, <emphasis effect="italics">v</emphasis><sub>2</sub>, and <emphasis effect="italics">v</emphasis><sub>3</sub>—where 1, 2, 3 refer to times 1.00 s, 2.00 s, and 3.00 s</para>
 <para id="fs-idm1373856">Choose the equations.</para>
 <equation id="fs-id1164566840202"> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>d</m:mi><m:mo>=</m:mo><m:msub>
     <m:mi>d</m:mi>
@@ -788,7 +788,7 @@ The initial displacement  <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mn>0</m:mn></
    </m:msup>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math> </equation>
 <equation id="fs-id1164565022570"> <m:math>
  <m:mrow>
@@ -1297,7 +1297,7 @@ The initial displacement  <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mn>0</m:mn></
 <para id="fs-id1164566272670">An object falls from a height for 2.0 s, at which point it is still 60 m above the ground. What will be the velocity of the object when it hits the ground?</para>
 <para id="fs-id1164567162591">Which of the following provides the correct order of kinematic equations that can be used to solve the problem?</para>
 <list id="fs-id1164566183631" list-type="enumerated" number-style="lower-alpha"><item>First use  <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:msup>
     <m:mi>v</m:mi>
@@ -1318,9 +1318,9 @@ The initial displacement  <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mn>0</m:mn></
    <m:mo stretchy="false">)</m:mo>
   <m:mtext>,</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>  then use  <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>v</m:mi><m:mo>=</m:mo><m:msub>
     <m:mi>v</m:mi>
@@ -1328,10 +1328,10 @@ The initial displacement  <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mn>0</m:mn></
    </m:msub>
    <m:mo>+</m:mo><m:mi>a</m:mi><m:mi>t</m:mi><m:mo>.</m:mo>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> </item>
 <item>First use  <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>v</m:mi><m:mo>=</m:mo><m:msub>
     <m:mi>v</m:mi>
@@ -1339,9 +1339,9 @@ The initial displacement  <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mn>0</m:mn></
    </m:msub>
    <m:mo>+</m:mo><m:mi>a</m:mi><m:mi>t</m:mi><m:mo>,</m:mo>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>   then use  <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:msup>
     <m:mi>v</m:mi>
@@ -1362,10 +1362,10 @@ The initial displacement  <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mn>0</m:mn></
    <m:mo stretchy="false">)</m:mo>
    <m:mtext>.</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> </item>
 <item>First use  <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>d</m:mi><m:mo>=</m:mo><m:msub>
     <m:mi>d</m:mi>
@@ -1385,9 +1385,9 @@ The initial displacement  <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mn>0</m:mn></
    </m:msup>
    <m:mo>,</m:mo>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>  then use  <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>v</m:mi><m:mo>=</m:mo><m:msub>
     <m:mi>v</m:mi>
@@ -1395,10 +1395,10 @@ The initial displacement  <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mn>0</m:mn></
    </m:msub>
    <m:mo>+</m:mo><m:mi>a</m:mi><m:mi>t</m:mi><m:mo>.</m:mo>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> </item>
 <item>First use  <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>v</m:mi><m:mo>=</m:mo><m:msub>
     <m:mi>v</m:mi>
@@ -1406,9 +1406,9 @@ The initial displacement  <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mn>0</m:mn></
    </m:msub>
    <m:mo>+</m:mo><m:mi>a</m:mi><m:mi>t</m:mi><m:mo>,</m:mo>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>   then use  <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>d</m:mi><m:mo>-</m:mo><m:msub>
     <m:mi>d</m:mi>
@@ -1428,7 +1428,7 @@ The initial displacement  <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mn>0</m:mn></
    </m:msup>
    <m:mo>.</m:mo>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> </item>
 </list></problem>
 </exercise>

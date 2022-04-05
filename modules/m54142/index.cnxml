@@ -701,7 +701,7 @@ The equation <m:math>
 <item>F = <emphasis effect="italics">m</emphasis>a</item>
 <item>F = 2<emphasis effect="italics">m</emphasis>a</item>
 <item> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mtext>F</m:mtext><m:mo>=</m:mo><m:mfrac>
     <m:mi>m</m:mi>
@@ -709,7 +709,7 @@ The equation <m:math>
    </m:mfrac>
 
   </m:mrow>
-   </m:semantics>
+   
 </m:math> </item>
 <item>F = <emphasis effect="italics">m</emphasis>a<sup>2</sup></item>
 </list>

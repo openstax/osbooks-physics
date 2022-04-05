@@ -50,9 +50,9 @@ Introduce the concepts of systems and systems of interest. Explain how forces ca
 </note>
 <para id="fs-idp30183856">If you have ever stubbed your toe, you have noticed that although your toe initiates the impact, the surface that you stub it on exerts a force back on your toe. Although the first thought that crosses your mind is probably “ouch, that hurt” rather than “this is a great example of Newton’s third law,” both statements are true.</para>
 <para id="fs-idp62593200">This is exactly what happens whenever one object exerts a force on another—each object experiences a force that is the same strength as the force acting on the other object but that acts in the opposite direction. Everyday experiences, such as stubbing a toe or throwing a ball, are all perfect examples of Newton’s third law in action.</para>
-<para id="fs-idm14932656"><term>Newton’s third law of motion</term> states that whenever a first object exerts a force on a second object, the first object experiences a force equal in magnitude but opposite in direction to the force that it exerts.</para>
+<para id="fs-idm14932656"><term id="term-00001">Newton’s third law of motion</term> states that whenever a first object exerts a force on a second object, the first object experiences a force equal in magnitude but opposite in direction to the force that it exerts.</para>
 <para id="fs-idp73541968">Newton’s third law of motion tells us that forces always occur in pairs, and one object cannot exert a force on another without experiencing the same strength force in return. We sometimes refer to these force pairs as <emphasis effect="italics">action-reaction</emphasis> pairs, where the force exerted is the action, and the force experienced in return is the reaction (although which is which depends on your point of view). </para>
-<para id="fs-idp68039024">Newton’s third law is useful for figuring out which forces are external to a system. Recall that identifying external forces is important when setting up a problem, because the external forces must be added together to find the <term class="no-emphasis">net force</term>.</para><para id="fs-idp5085584">We can see Newton’s third law at work by looking at how people move about. Consider a swimmer pushing off from the side of a pool, as illustrated in <link target-id="Figure_04_04_swimmer"/>. She pushes against the pool wall with her feet and accelerates in the direction opposite to her push. The wall has thus exerted on the swimmer a force of equal magnitude but in the direction opposite that of her push. You might think that two forces of equal magnitude but that act in opposite directions would cancel, <emphasis effect="italics">but they do not because they act on different systems.</emphasis></para>
+<para id="fs-idp68039024">Newton’s third law is useful for figuring out which forces are external to a system. Recall that identifying external forces is important when setting up a problem, because the external forces must be added together to find the <term class="no-emphasis" id="term-00002">net force</term>.</para><para id="fs-idp5085584">We can see Newton’s third law at work by looking at how people move about. Consider a swimmer pushing off from the side of a pool, as illustrated in <link target-id="Figure_04_04_swimmer"/>. She pushes against the pool wall with her feet and accelerates in the direction opposite to her push. The wall has thus exerted on the swimmer a force of equal magnitude but in the direction opposite that of her push. You might think that two forces of equal magnitude but that act in opposite directions would cancel, <emphasis effect="italics">but they do not because they act on different systems.</emphasis></para>
 
 <para id="fs-idm31221936">In this case, there are two different systems that we could choose to investigate: the swimmer or the wall. If we choose the swimmer to be the system of interest, as in the figure, then  <m:math>
  <m:mrow>
@@ -63,7 +63,7 @@ Introduce the concepts of systems and systems of interest. Explain how forces ca
    </m:mrow>
   </m:msub>
  </m:mrow>
-</m:math>  is an external force on the swimmer and affects her motion. Because <term class="no-emphasis">acceleration</term> is in the same direction as the <term class="no-emphasis">net external force</term>, the swimmer moves in the direction of  <m:math>
+</m:math>  is an external force on the swimmer and affects her motion. Because <term class="no-emphasis" id="term-00003">acceleration</term> is in the same direction as the <term class="no-emphasis" id="term-00004">net external force</term>, the swimmer moves in the direction of  <m:math>
  <m:mrow>
   <m:msub>
    <m:mtext>F</m:mtext>
@@ -151,8 +151,8 @@ Introduce the concepts of systems and systems of interest. Explain how forces ca
 <para id="fs-idm10562800"><span>[BL]</span><span>[OL]</span><span>[AL]</span> Demonstrate the concept of tension by using physical objects. Suspend an object such as an eraser from a peg by using a rubber band. Hang another rubber band beside the first but with no object attached. Ask students what the difference is between the two. What are the forces acting on the first peg? Explain how the rubber band (i.e., the connector) transmits force. Now ask students what the direction of the external forces acting on the connectoris. Also, ask what internal forces are acting on the connector. If you remove the eraser, in which direction will the rubber band move? This is the direction of the force the rubber band applied to the eraser.</para>
 </note>
 </note>
-<para id="fs-idp59478640">Forces are classified and given names based on their source, how they are transmitted, or their effects. In previous sections, we discussed the forces called <emphasis effect="italics">push</emphasis>, <emphasis effect="italics">weight</emphasis>, and <emphasis effect="italics">friction</emphasis>. In this section, applying Newton’s third law of motion will allow us to explore three more forces: the <term>normal force</term>, <term>tension</term>, and <term>thrust</term>. However, because we haven’t yet covered vectors in depth, we’ll only consider one-dimensional situations in this chapter. Another chapter will consider forces acting in two dimensions.</para>
-<para id="fs-idm15080864">The <term class="no-emphasis">gravitational</term> force (or <term class="no-emphasis">weight</term>) acts on objects at all times and everywhere on Earth. We know from Newton’s second law that a <term class="no-emphasis">net force</term> produces an acceleration; so, why is everything not in a constant state of freefall toward the center of Earth? The answer is the normal force. The normal force is the force that a surface applies to an object to support the weight of that object; it acts perpendicular to the surface upon which the object rests. If an object on a flat surface is not accelerating, the net external force is zero, and the normal force has the same magnitude as the weight of the system but acts in the opposite direction. In equation form, we write that</para><equation id="fs-idm31189056">
+<para id="fs-idp59478640">Forces are classified and given names based on their source, how they are transmitted, or their effects. In previous sections, we discussed the forces called <emphasis effect="italics">push</emphasis>, <emphasis effect="italics">weight</emphasis>, and <emphasis effect="italics">friction</emphasis>. In this section, applying Newton’s third law of motion will allow us to explore three more forces: the <term id="term-00005">normal force</term>, <term id="term-00006">tension</term>, and <term id="term-00007">thrust</term>. However, because we haven’t yet covered vectors in depth, we’ll only consider one-dimensional situations in this chapter. Another chapter will consider forces acting in two dimensions.</para>
+<para id="fs-idm15080864">The <term class="no-emphasis" id="term-00008">gravitational</term> force (or <term class="no-emphasis" id="term-00009">weight</term>) acts on objects at all times and everywhere on Earth. We know from Newton’s second law that a <term class="no-emphasis" id="term-00010">net force</term> produces an acceleration; so, why is everything not in a constant state of freefall toward the center of Earth? The answer is the normal force. The normal force is the force that a surface applies to an object to support the weight of that object; it acts perpendicular to the surface upon which the object rests. If an object on a flat surface is not accelerating, the net external force is zero, and the normal force has the same magnitude as the weight of the system but acts in the opposite direction. In equation form, we write that</para><equation id="fs-idm31189056">
  <label/>
  <m:math>
  <m:mrow>
@@ -401,15 +401,15 @@ Introduce the concepts of systems and systems of interest. Explain how forces ca
  </m:mrow>
 </m:math> </equation><para id="fs-idp23566944">The mass of the system is the sum of the mass of the teacher, cart, and equipment.</para>
 <equation id="fs-idm17969744"><label/> <m:math display="block">
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>m</m:mi><m:mtext> = (65</m:mtext><m:mtext>.0 + 12</m:mtext><m:mtext>.0 + 7</m:mtext><m:mtext>.0) kg = 84 kg</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> </equation><para id="fs-idp55490448">Insert these values of net F and <emphasis effect="italics">m</emphasis> into Newton’s second law to obtain the acceleration of the system.</para>
 <equation id="fs-idp14220304"><label/>
  <m:math display="block">
- <m:semantics>
+ 
   <m:mrow>
    <m:mtable columnalign="left">
     <m:mtr columnalign="left">
@@ -455,11 +455,11 @@ Introduce the concepts of systems and systems of interest. Explain how forces ca
 
    </m:mtable>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </equation><equation id="fs-id1164564959355">
  <m:math display="block">
- <m:semantics>
+ 
   <m:mrow>
    <m:msub>
     <m:mi>F</m:mi>
@@ -471,7 +471,7 @@ Introduce the concepts of systems and systems of interest. Explain how forces ca
    </m:msub>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </equation></solution>
 <commentary id="fs-idm6518272">
@@ -640,7 +640,7 @@ Introduce the concepts of systems and systems of interest. Explain how forces ca
 <exercise id="fs-idm12274624" class="os-exercise"><problem id="fs-idm25241904"><!--<para id="fs-idm25235232"><link class="os-embed" url="#ost/api/ex/k12phys-ch04-ex065"/></para>-->
 <para id="fs-id1164565053154">One object exerts a force of magnitude F<sub>1</sub> on another object and experiences a force of magnitude F<sub>2</sub> in return. What is true for F<sub>1</sub> and F<sub>2</sub>?</para>
 <list id="fs-id1164565191458" list-type="enumerated" number-style="lower-alpha">
-<item>F<sub>1</sub> &gt; F<sub>2</sub></item>
+<item>F<sub>1</sub> > F<sub>2</sub></item>
 <item>F<sub>1</sub> &lt; F<sub>2</sub></item>
 <item>F<sub>1</sub> = F<sub>2</sub></item>
 </list>
@@ -687,7 +687,7 @@ Introduce the concepts of systems and systems of interest. Explain how forces ca
 <title>Test Prep Short Answer</title>
 <exercise id="fs-idm20350144" class="os-exercise"><problem id="fs-idp11975104"><!--<para id="fs-idm13364368"><link class="os-embed" url="#ost/api/ex/k12phys-ch04-ex067"/></para>-->
 <para id="fs-id1164564993866">A large truck with mass 30<emphasis effect="italics">m</emphasis> crashes into a small sedan with mass <emphasis effect="italics">m</emphasis>. If the truck exerts a force F on the sedan, what force will the sedan exert on the truck?</para><list id="fs-id1164566701933" list-type="enumerated" number-style="lower-alpha"><item> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mfrac>
     <m:mtext>F</m:mtext>
@@ -697,7 +697,7 @@ Introduce the concepts of systems and systems of interest. Explain how forces ca
    </m:mfrac>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </item>
 <item>F</item>

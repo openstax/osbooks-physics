@@ -85,7 +85,7 @@
 
 <para id="fs-id1167065688169">If you know the aphelion (<emphasis effect="italics">r</emphasis><sub>a</sub>) and perihelion (<emphasis effect="italics">r</emphasis><sub>p</sub>) distances, then you can calculate the semi-major axis (<emphasis effect="italics">a</emphasis>) and semi-minor axis (<emphasis effect="italics">b</emphasis>).</para><equation id="fs-id1167066055063" class="unnumbered"><label/>
  <m:math display="block">
- <m:semantics>
+ 
   <m:mrow>
    <m:mtable columnalign="left">
     <m:mtr columnalign="left">
@@ -132,7 +132,7 @@
 
    </m:mtable>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </equation>
 <note id="fs-id1167065773080" class="os-teacher">
@@ -353,11 +353,11 @@
   </m:mrow>
 </m:math>, so distance divided by velocity is also a constant. For example, if we know the average velocity of Earth on June 21 and December 21, we can compare the distance Earth travels on those days.</para><para id="fs-id1167065740948">The degree of elongation of an elliptical orbit is called its <term id="term-00007">eccentricity</term> (<emphasis effect="italics">e</emphasis>). Eccentricity is calculated by dividing the distance <emphasis effect="italics">f</emphasis> from the center of an ellipse to one of the foci by half the long axis <emphasis effect="italics">a</emphasis>.</para>
 <equation id="fs-id1167067012774"> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mo stretchy="false">(</m:mo><m:mi>e</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>f</m:mi><m:mo>/</m:mo><m:mi>a</m:mi>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> </equation>
 <para id="fs-id1164566882575">When  <m:math>
  <m:mrow>
@@ -695,7 +695,7 @@
 <title>Solution</title>
 <para id="fs-id1167066121700">To solve for <emphasis effect="italics">T</emphasis><sub>2</sub>, we cross-multiply and take the square root, yielding</para>
 <equation id="fs-id1164562239848"> <m:math display="block">
- <m:semantics>
+ 
   <m:mtable columnalign="left">
    <m:mtr>
     <m:mtd>
@@ -833,7 +833,7 @@
     </m:mtd>
    </m:mtr>
   </m:mtable>
- </m:semantics>
+ 
 </m:math> </equation>
 </solution>
 <commentary id="fs-id1167066097036">

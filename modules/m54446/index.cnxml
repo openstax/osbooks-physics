@@ -919,7 +919,7 @@
 <para id="fs-id1164564775101">What is the formula for the power dissipated in a resistor?</para>
 <list id="fs-id1164560954210" list-type="enumerated" number-style="lower-alpha">
 <item>The formula for the power dissipated in a resistor is  <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac>
     <m:mi>I</m:mi>
@@ -927,10 +927,10 @@
    </m:mfrac>
    <m:mtext>.</m:mtext>
   </m:mrow>
-   </m:semantics>
+   
 </m:math> </item>
 <item>The formula for the power dissipated in a resistor is  <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac>
     <m:mi>V</m:mi>
@@ -938,7 +938,7 @@
    </m:mfrac>
    <m:mtext>.</m:mtext>
   </m:mrow>
-   </m:semantics>
+   
 </m:math> </item>
 <item>The formula for the power dissipated in a resistor is <emphasis effect="italics">P</emphasis> = <emphasis effect="italics">IV</emphasis>.</item>
 <item>The formula for the power dissipated in a resistor is <emphasis effect="italics">P</emphasis> = <emphasis effect="italics">I</emphasis><sup>2</sup><emphasis effect="italics">V</emphasis>.</item>
@@ -953,7 +953,7 @@
 <para id="fs-id1164565085189">What is the formula for power dissipated by a resistor given its resistance and the voltage across it?</para>
 <list id="fs-id1164566547076" list-type="enumerated" number-style="lower-alpha">
 <item>The formula for the power dissipated in a resistor is  <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac>
     <m:mi>R</m:mi>
@@ -967,10 +967,10 @@
    </m:mfrac>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math> </item>
 <item>The formula for the power dissipated in a resistor is  <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>P</m:mi><m:mo>=</m:mo><m:msup>
     <m:mi>V</m:mi>
@@ -978,10 +978,10 @@
    </m:msup>
    <m:mi>R</m:mi>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> </item>
 <item>The formula for the power dissipated in a resistor is  <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac>
     <m:mrow>
@@ -995,10 +995,10 @@
    </m:mfrac>
 
   </m:mrow>
-   </m:semantics>
+   
 </m:math> </item>
 <item>The formula for the power dissipated in a resistor is  <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>P</m:mi><m:mo>=</m:mo><m:msup>
     <m:mi>I</m:mi>
@@ -1006,7 +1006,7 @@
    </m:msup>
    <m:mi>R</m:mi>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> </item>
 </list>
 

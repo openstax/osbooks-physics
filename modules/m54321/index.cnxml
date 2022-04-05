@@ -224,7 +224,7 @@
 <para id="fs-id1164557671865">What is the relationship between the propagation speed, frequency, and wavelength of the S-waves in an earthquake?</para>
 <list id="fs-id1164563503101" list-type="enumerated" number-style="lower-alpha">
 <item>The relationship between the propagation speed, frequency, and wavelength is  <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:msub>
     <m:mi>v</m:mi>
@@ -232,10 +232,10 @@
    </m:msub>
    <m:mo>=</m:mo><m:mi>f</m:mi><m:mi>λ</m:mi><m:mo>.</m:mo>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> </item>
 <item>The relationship between the propagation speed, frequency, and wavelength is  <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:msub>
     <m:mi>v</m:mi>
@@ -247,10 +247,10 @@
    </m:mfrac>
    <m:mo>.</m:mo>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> </item>
 <item>The relationship between the propagation speed, frequency, and wavelength is  <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:msub>
     <m:mi>v</m:mi>
@@ -262,10 +262,10 @@
    </m:mfrac>
    <m:mo>.</m:mo>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> </item>
 <item>The relationship between the propagation speed, frequency, and wavelength is  <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:msub>
     <m:mi>v</m:mi>
@@ -278,7 +278,7 @@
    </m:msqrt>
    <m:mo>.</m:mo>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> </item>
 </list>
 

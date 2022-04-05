@@ -70,7 +70,7 @@
 <title>Teacher Support</title>
 <para id="fs-id1167061214698">Stress that electrons move from the negative terminal to the positive terminal because they carry negative charge, so they are repelled by the Coulomb force from the negative terminal.</para>
 </note>
-<para id="fs-id1167063426457"><term>Electric current</term> is the rate at which electric charge moves. A large current, such as that used to start a truck engine, moves a large amount very quickly, whereas a small current, such as that used to operate a hand-held calculator, moves a small amount of charge more slowly. In equation form, electric current <emphasis effect="italics">I</emphasis> is defined as</para>
+<para id="fs-id1167063426457"><term id="term-00001">Electric current</term> is the rate at which electric charge moves. A large current, such as that used to start a truck engine, moves a large amount very quickly, whereas a small current, such as that used to operate a hand-held calculator, moves a small amount of charge more slowly. In equation form, electric current <emphasis effect="italics">I</emphasis> is defined as</para>
 <equation id="eip-id1167065872404" class="unnumbered">
 <label/>
  <m:math>
@@ -89,7 +89,7 @@
 </m:math>  is the amount of charge that flows past a given area and  <m:math>
  <m:mrow>
   <m:mi>Δ</m:mi><m:mi>t</m:mi></m:mrow>
-</m:math>  is the time it takes for the charge to move past the area. The SI unit for electric current is the ampere (A), which is named in honor of the French physicist André-Marie Ampère (1775–1836). One <term>ampere</term> is one coulomb per second, or</para>
+</m:math>  is the time it takes for the charge to move past the area. The SI unit for electric current is the ampere (A), which is named in honor of the French physicist André-Marie Ampère (1775–1836). One <term id="term-00002">ampere</term> is one coulomb per second, or</para>
 <equation id="eip-id1167063539764" class="unnumbered"><label/>
  <m:math>
  <m:mrow>
@@ -133,7 +133,7 @@
   <m:mo>=</m:mo><m:mn>5</m:mn><m:mspace width="0.3em"/><m:mtext>A.</m:mtext></m:mrow>
 </m:math> </equation>
 
-<para id="fs-id1167063496431">Note that we assigned a positive charge to the charges in <link target-id="Figure_19_01_Microcur"/>. Normally, negative charges—electrons—are the mobile charge in wires, as indicated in <link target-id="Figure_19_01_Battery"/>. Positive charges are normally stuck in place in solids and cannot move freely. However, because a positive current moving to the right is the same as a negative current of equal magnitude moving to the left, as shown in <link target-id="Figure_19_01_Equivcur"/>, we define <term>conventional current</term> to flow in the direction that a positive charge would flow if it could move. Thus, unless otherwise specified, an electric current is assumed to be composed of positive charges.</para>
+<para id="fs-id1167063496431">Note that we assigned a positive charge to the charges in <link target-id="Figure_19_01_Microcur"/>. Normally, negative charges—electrons—are the mobile charge in wires, as indicated in <link target-id="Figure_19_01_Battery"/>. Positive charges are normally stuck in place in solids and cannot move freely. However, because a positive current moving to the right is the same as a negative current of equal magnitude moving to the left, as shown in <link target-id="Figure_19_01_Equivcur"/>, we define <term id="term-00003">conventional current</term> to flow in the direction that a positive charge would flow if it could move. Thus, unless otherwise specified, an electric current is assumed to be composed of positive charges.</para>
 
 <para id="fs-id1167063684359">Also note that one Coulomb is a significant amount of electric charge, so 5 A is a very large current. Most often you will see current on the order of milliamperes (mA).</para>
 
@@ -177,8 +177,8 @@
 
 <caption>Free electrons moving in a conductor make many collisions with other electrons and atoms. The path of one electron is shown. The average velocity of free electrons is in the direction opposite to the electric field. The collisions normally transfer energy to the conductor, so a constant supply of energy is required to maintain a steady current.</caption></figure>
 
-<para id="fs-id1167067145675">So far, we have discussed current that moves constantly in a single direction. This is called <term>direct current</term>, because the electric charge flows in only one direction. Direct current is often called <emphasis effect="italics">DC</emphasis> current.</para>
-<para id="fs-id1167066808582">Many sources of electrical power, such as the hydroelectric dam shown at the beginning of this chapter, produce <term>alternating current</term>, in which the current direction alternates back and forth. Alternating current is often called <emphasis effect="italics">AC current</emphasis>. Alternating current moves back and forth at regular time intervals, as shown in <link target-id="Figure_19_01_AC_current"/>. The alternating current that comes from a normal wall socket does not suddenly switch directions. Rather, it increases smoothly up to a maximum current and then smoothly decreases back to zero. It then grows again, but in the opposite direction until it has reached the same maximum value. After that, it decreases smoothly back to zero, and the cycle starts over again.</para>
+<para id="fs-id1167067145675">So far, we have discussed current that moves constantly in a single direction. This is called <term id="term-00004">direct current</term>, because the electric charge flows in only one direction. Direct current is often called <emphasis effect="italics">DC</emphasis> current.</para>
+<para id="fs-id1167066808582">Many sources of electrical power, such as the hydroelectric dam shown at the beginning of this chapter, produce <term id="term-00005">alternating current</term>, in which the current direction alternates back and forth. Alternating current is often called <emphasis effect="italics">AC current</emphasis>. Alternating current moves back and forth at regular time intervals, as shown in <link target-id="Figure_19_01_AC_current"/>. The alternating current that comes from a normal wall socket does not suddenly switch directions. Rather, it increases smoothly up to a maximum current and then smoothly decreases back to zero. It then grows again, but in the opposite direction until it has reached the same maximum value. After that, it decreases smoothly back to zero, and the cycle starts over again.</para>
 
 <figure id="Figure_19_01_AC_current">
 <media id="fs-id1167066804876" alt="A graph showing alternating current in which the current increases and decreases at regular intervals, and the direction of the current changing from one direction to another (arrows pointing left or right)">
@@ -592,7 +592,7 @@
 </problem>
 </exercise>
 </section>
-<section id="fs-id1167061608146"><title>Resistance and Ohm’s Law</title><para id="fs-id1167063419850">As mentioned previously, electrical current in a wire is in many ways similar to water flowing through a pipe. The water current that can flow through a pipe is affected by obstacles in the pipe, such as clogs and narrow sections in the pipe. These obstacles slow down the flow of current through the pipe. Similarly, electrical current in a wire can be slowed down by many factors, including impurities in the metal of the wire or collisions between the charges in the material. These factors create a resistance to the electrical current. <term>Resistance</term> is a description of how much a wire or other electrical component opposes the flow of charge through it.
+<section id="fs-id1167061608146"><title>Resistance and Ohm’s Law</title><para id="fs-id1167063419850">As mentioned previously, electrical current in a wire is in many ways similar to water flowing through a pipe. The water current that can flow through a pipe is affected by obstacles in the pipe, such as clogs and narrow sections in the pipe. These obstacles slow down the flow of current through the pipe. Similarly, electrical current in a wire can be slowed down by many factors, including impurities in the metal of the wire or collisions between the charges in the material. These factors create a resistance to the electrical current. <term id="term-00006">Resistance</term> is a description of how much a wire or other electrical component opposes the flow of charge through it.
 In the 19th century, the German physicist Georg Simon Ohm (1787–1854) found experimentally that current through a conductor is proportional to the voltage drop across a current-carrying conductor.</para>
 <equation id="fs-id1167067199056" class="unnumbered">
 <label/>
@@ -607,13 +607,13 @@ In the 19th century, the German physicist Georg Simon Ohm (1787–1854) found ex
  <m:mrow>
   <m:mi>V</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>R</m:mi><m:mtext>(1.3).</m:mtext></m:mrow>
 </m:math> </equation>
-<para id="fs-id1167067179291">This relationship is called <term>Ohm’s law</term>. It can be viewed as a cause-and-effect relationship, with voltage being the cause and the current being the effect. Ohm’s law is an empirical law like that for friction, which means that it is an experimentally observed phenomenon. The units of resistance are volts per ampere, or V/A. We call a V/A an <emphasis effect="italics">ohm</emphasis>, which is represented by the uppercase Greek letter omega ( <m:math>
+<para id="fs-id1167067179291">This relationship is called <term id="term-00007">Ohm’s law</term>. It can be viewed as a cause-and-effect relationship, with voltage being the cause and the current being the effect. Ohm’s law is an empirical law like that for friction, which means that it is an experimentally observed phenomenon. The units of resistance are volts per ampere, or V/A. We call a V/A an <emphasis effect="italics">ohm</emphasis>, which is represented by the uppercase Greek letter omega ( <m:math>
  <m:mtext>Ω</m:mtext>
 </m:math> ). Thus,</para><equation id="fs-id1167061214689" class="unnumbered"><label/>
  <m:math>
  <m:mrow>
   <m:mn>1</m:mn><m:mspace width="0.3em"/><m:mtext>Ω</m:mtext><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.3em"/><m:mtext>V/A</m:mtext><m:mtext>(1.4).</m:mtext></m:mrow>
-</m:math> </equation><para id="fs-id1167066973855">Ohm’s law holds for most materials and at common temperatures. At very low temperatures, resistance may drop to zero (superconductivity). At very high temperatures, the thermal motion of atoms in the material inhibits the flow of electrons, increasing the resistance. The many substances for which Ohm’s law holds are called <term>ohmic</term>. Ohmic materials include good conductors like copper, aluminum, and silver, and some poor conductors under certain circumstances. The resistance of ohmic materials remains essentially the same for a wide range of voltage and current.</para>
+</m:math> </equation><para id="fs-id1167066973855">Ohm’s law holds for most materials and at common temperatures. At very low temperatures, resistance may drop to zero (superconductivity). At very high temperatures, the thermal motion of atoms in the material inhibits the flow of electrons, increasing the resistance. The many substances for which Ohm’s law holds are called <term id="term-00008">ohmic</term>. Ohmic materials include good conductors like copper, aluminum, and silver, and some poor conductors under certain circumstances. The resistance of ohmic materials remains essentially the same for a wide range of voltage and current.</para>
 
 <note id="fs-id1167063673602" class="watch-physics"><title>Introduction to Electricity, Circuits, Current, and Resistance</title>
 
@@ -898,7 +898,7 @@ In the 19th century, the German physicist Georg Simon Ohm (1787–1854) found ex
 
 <commentary id="fs-id1167063855921">
 <para id="fs-id1167063723557"><emphasis>Discussion</emphasis></para>
-<para id="fs-id1167066854596">This resistance is greater than what we found in the previous example. Resistances such as this are common in electric circuits, as we will discover in the next section. Note that if the line in <link target-id="Figure_19_01_IVgraph"/> were not straight, then the material would not be ohmic and we would not be able to use Ohm’s law. Materials that do not follow Ohm’s law are called <term>nonohmic</term>.</para>
+<para id="fs-id1167066854596">This resistance is greater than what we found in the previous example. Resistances such as this are common in electric circuits, as we will discover in the next section. Note that if the line in <link target-id="Figure_19_01_IVgraph"/> were not straight, then the material would not be ohmic and we would not be able to use Ohm’s law. Materials that do not follow Ohm’s law are called <term id="term-00009">nonohmic</term>.</para>
 </commentary>
 </exercise>
 </note></section><section id="fs-id1167067205670" class="practice-problems">

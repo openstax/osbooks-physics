@@ -123,7 +123,7 @@
  <m:mrow>
   <m:mi>v</m:mi><m:mo>=</m:mo><m:mi>r</m:mi><m:mi>ω</m:mi></m:mrow>
 </m:math>  into the equation above, we get  <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:msub>
     <m:mi>a</m:mi>
@@ -147,9 +147,9 @@
    </m:msup>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math> . Therefore, the magnitude of centripetal acceleration in terms of the magnitude of angular velocity is <equation id="fs-id1167065820320"> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:msub>
     <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>a</m:mi></m:mstyle>
@@ -161,7 +161,7 @@
    </m:msup>
    <m:mo>.</m:mo>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </equation></para><note id="fs-id1167064892349" class="tips-for-success">
 
@@ -378,12 +378,12 @@
 <!--<para id="fs-id1167065733924">
 <link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex033"/>
 </para>-->
-<para id="fs-id1164567920186">Was it more useful to use the equation  <m:math display="block"> <m:semantics>  <m:mrow>   <m:msub>    <m:mi>a</m:mi>    <m:mi>c</m:mi>   </m:msub>   <m:mo>=</m:mo><m:mfrac>    <m:mrow>     <m:msup>      <m:mi>v</m:mi>      <m:mn>2</m:mn>     </m:msup>   </m:mrow>   <m:mi>r</m:mi>   </m:mfrac>  </m:mrow> </m:semantics></m:math>  or  <m:math display="block"> <m:semantics>  <m:mrow>   <m:msub>    <m:mi>a</m:mi>    <m:mi>c</m:mi>   </m:msub>   <m:mo>=</m:mo><m:mi>r</m:mi><m:msup>    <m:mi>ω</m:mi>    <m:mn>2</m:mn>   </m:msup>     </m:mrow> </m:semantics></m:math>  in this activity? Why?</para>
+<para id="fs-id1164567920186">Was it more useful to use the equation  <m:math display="block">   <m:mrow>   <m:msub>    <m:mi>a</m:mi>    <m:mi>c</m:mi>   </m:msub>   <m:mo>=</m:mo><m:mfrac>    <m:mrow>     <m:msup>      <m:mi>v</m:mi>      <m:mn>2</m:mn>     </m:msup>   </m:mrow>   <m:mi>r</m:mi>   </m:mfrac>  </m:mrow> </m:math>  or  <m:math display="block">   <m:mrow>   <m:msub>    <m:mi>a</m:mi>    <m:mi>c</m:mi>   </m:msub>   <m:mo>=</m:mo><m:mi>r</m:mi><m:msup>    <m:mi>ω</m:mi>    <m:mn>2</m:mn>   </m:msup>     </m:mrow> </m:math>  in this activity? Why?</para>
 <list id="fs-id1164564287765" list-type="enumerated" number-style="lower-alpha">
-<item>It should be simpler to use  <m:math display="block"> <m:semantics>  <m:mrow>   <m:msub>    <m:mi>a</m:mi>    <m:mi>c</m:mi>   </m:msub>   <m:mo>=</m:mo><m:mi>r</m:mi><m:msup>    <m:mi>ω</m:mi>    <m:mn>2</m:mn>   </m:msup>   </m:mrow> </m:semantics></m:math>  because measuring angular velocity through observation would be easier.</item>
-<item>It should be simpler to use  <m:math display="block"> <m:semantics>  <m:mrow>   <m:msub>    <m:mi>a</m:mi>    <m:mi>c</m:mi>   </m:msub>   <m:mo>=</m:mo><m:mfrac>    <m:mrow>     <m:msup>      <m:mi>v</m:mi>      <m:mn>2</m:mn>     </m:msup>   </m:mrow>   <m:mi>r</m:mi>   </m:mfrac>  </m:mrow> </m:semantics></m:math>  because measuring tangential velocity through observation would be easier.</item>
-<item>It should be simpler to use  <m:math display="block"> <m:semantics>  <m:mrow>   <m:msub>    <m:mi>a</m:mi>    <m:mi>c</m:mi>   </m:msub>   <m:mo>=</m:mo><m:mi>r</m:mi><m:msup>    <m:mi>ω</m:mi>    <m:mn>2</m:mn>   </m:msup>    </m:mrow> </m:semantics></m:math>  because measuring angular velocity through observation would be difficult.</item>
-<item>It should be simpler to use  <m:math display="block"> <m:semantics>  <m:mrow>   <m:msub>    <m:mi>a</m:mi>    <m:mi>c</m:mi>   </m:msub>   <m:mo>=</m:mo><m:mfrac>    <m:mrow>     <m:msup>      <m:mi>v</m:mi>      <m:mn>2</m:mn>     </m:msup>   </m:mrow>   <m:mi>r</m:mi>   </m:mfrac>  </m:mrow> </m:semantics></m:math>  because measuring tangential velocity through observation would be difficult.</item>
+<item>It should be simpler to use  <m:math display="block">   <m:mrow>   <m:msub>    <m:mi>a</m:mi>    <m:mi>c</m:mi>   </m:msub>   <m:mo>=</m:mo><m:mi>r</m:mi><m:msup>    <m:mi>ω</m:mi>    <m:mn>2</m:mn>   </m:msup>   </m:mrow> </m:math>  because measuring angular velocity through observation would be easier.</item>
+<item>It should be simpler to use  <m:math display="block">   <m:mrow>   <m:msub>    <m:mi>a</m:mi>    <m:mi>c</m:mi>   </m:msub>   <m:mo>=</m:mo><m:mfrac>    <m:mrow>     <m:msup>      <m:mi>v</m:mi>      <m:mn>2</m:mn>     </m:msup>   </m:mrow>   <m:mi>r</m:mi>   </m:mfrac>  </m:mrow> </m:math>  because measuring tangential velocity through observation would be easier.</item>
+<item>It should be simpler to use  <m:math display="block">   <m:mrow>   <m:msub>    <m:mi>a</m:mi>    <m:mi>c</m:mi>   </m:msub>   <m:mo>=</m:mo><m:mi>r</m:mi><m:msup>    <m:mi>ω</m:mi>    <m:mn>2</m:mn>   </m:msup>    </m:mrow> </m:math>  because measuring angular velocity through observation would be difficult.</item>
+<item>It should be simpler to use  <m:math display="block">   <m:mrow>   <m:msub>    <m:mi>a</m:mi>    <m:mi>c</m:mi>   </m:msub>   <m:mo>=</m:mo><m:mfrac>    <m:mrow>     <m:msup>      <m:mi>v</m:mi>      <m:mn>2</m:mn>     </m:msup>   </m:mrow>   <m:mi>r</m:mi>   </m:mfrac>  </m:mrow> </m:math>  because measuring tangential velocity through observation would be difficult.</item>
 </list>
 
 </problem>

@@ -54,8 +54,8 @@
 <para id="fs-id1167065974562"><span>[OL]</span>Remind students that gravitational potential energy is only meaningful when we deal with differences in energy. In other words, a reference position is chosen, and all other potential energies are compared with the potential energy at the reference position.</para>
 <para id="fs-id1167065888014"><span>[AL]</span>Point out that sometimes the reference position is at infinity, in which case this may not be explicitly stated.</para>
 </note>
-<para id="fs-id1167062810961">As you learned in studying gravity, a mass in a gravitational field has <term class="no-emphasis">potential energy</term>, which means it has the potential to accelerate and thereby increase its <term class="no-emphasis">kinetic energy</term>. This kinetic energy can be used to do work. For example, imagine you want to use a stone to pound a nail into a piece of wood. You first lift the stone high above the nail, which increases the potential energy of the stone-Earth system—because Earth is so large, it does not move, so we usually shorten this by saying simply that the potential energy of the stone increases. When you drop the stone, gravity converts the potential energy into kinetic energy. When the stone hits the nail, it does work by pounding the nail into the wood. The gravitational potential energy is the work that a mass can potentially do by virtue of its position in a gravitational field. Potential energy is a very useful concept, because it can be used with conservation of energy to calculate the motion of masses in a gravitational field.</para>
-<para id="fs-id1167062367476"><term>Electric potential energy</term> works much the same way, but it is based on the electric field instead of the gravitational field. By virtue of its position in an electric field, a charge has an electric potential energy. If the charge is free to move, the force due to the electric field causes it to accelerate, so its potential energy is converted to kinetic energy, just like a mass that falls in a gravitational field. This kinetic energy can be used to do work. The electric potential energy is the work that a charge can do by virtue of its position in an electric field.</para>
+<para id="fs-id1167062810961">As you learned in studying gravity, a mass in a gravitational field has <term class="no-emphasis" id="term-00001">potential energy</term>, which means it has the potential to accelerate and thereby increase its <term class="no-emphasis" id="term-00002">kinetic energy</term>. This kinetic energy can be used to do work. For example, imagine you want to use a stone to pound a nail into a piece of wood. You first lift the stone high above the nail, which increases the potential energy of the stone-Earth system—because Earth is so large, it does not move, so we usually shorten this by saying simply that the potential energy of the stone increases. When you drop the stone, gravity converts the potential energy into kinetic energy. When the stone hits the nail, it does work by pounding the nail into the wood. The gravitational potential energy is the work that a mass can potentially do by virtue of its position in a gravitational field. Potential energy is a very useful concept, because it can be used with conservation of energy to calculate the motion of masses in a gravitational field.</para>
+<para id="fs-id1167062367476"><term id="term-00003">Electric potential energy</term> works much the same way, but it is based on the electric field instead of the gravitational field. By virtue of its position in an electric field, a charge has an electric potential energy. If the charge is free to move, the force due to the electric field causes it to accelerate, so its potential energy is converted to kinetic energy, just like a mass that falls in a gravitational field. This kinetic energy can be used to do work. The electric potential energy is the work that a charge can do by virtue of its position in an electric field.</para>
 <para id="fs-id1167065052791">The analogy between gravitational potential energy and electric potential energy is depicted in <link target-id="Figure_18_04_gravelecpe"/>. On the left, the ball-Earth system gains gravitational potential energy when the ball is higher in Earth's gravitational field. On the right, the two-charge system gains electric potential energy when the positive charge is farther from the negative charge.</para>
 <figure id="Figure_18_04_gravelecpe"><media id="fs-id1167065955231" alt="This figure has two columns. The left column is labeled “Gravitational Potential Energy”, and the right column is labeled “Electric Potential Energy”. In the left column, a large sphere represents planet Earth, as it shows features of land and water. Above it are two small balls, with an arrow pointing from the lower to the upper ball. The gap between the two small balls is labeled “Gravitational potential energy increases.” In the right column, a large sphere is marked with a minus sign at its center. Above it are two small balls, each marked with a plus sign, and an arrow points from the lower to the upper ball. The gap between the two small balls is labeled “Electric potential energy increases.”">
 <image mime-type="image/jpg" src="../../media/CNX_HSPhysics_18_04_gravelecpe.jpg"/>
@@ -463,7 +463,7 @@
 <title>Teacher Support</title>
 <para id="fs-id1167066051053">Have students imagine that they have to push together or pull apart balls that carry these charges. Discuss which would require more work: pushing them together from far apart or from close together. Compare this with the analogous situations for the different charge combinations and for pushing together versus pulling apart.</para>
 </note>
-<section id="fs-id1167065984645"><title>Electric Potential</title><para id="fs-id1167065738498">Recall that to find the force applied by a fixed charge <emphasis effect="italics">Q</emphasis> on any arbitrary test charge <emphasis effect="italics">q</emphasis>, it was convenient to define the electric field, which is the force per unit charge applied by <emphasis effect="italics">Q</emphasis> on any test charge that we place in its electric field. The same Strategy is used here with electric potential energy: We now define the <term>electric potential</term> <emphasis effect="italics">V</emphasis>, which is the electric potential energy per unit charge.</para>
+<section id="fs-id1167065984645"><title>Electric Potential</title><para id="fs-id1167065738498">Recall that to find the force applied by a fixed charge <emphasis effect="italics">Q</emphasis> on any arbitrary test charge <emphasis effect="italics">q</emphasis>, it was convenient to define the electric field, which is the force per unit charge applied by <emphasis effect="italics">Q</emphasis> on any test charge that we place in its electric field. The same Strategy is used here with electric potential energy: We now define the <term id="term-00004">electric potential</term> <emphasis effect="italics">V</emphasis>, which is the electric potential energy per unit charge.</para>
 
 <equation id="fs-id1167062304791"><label/>
  <m:math>
@@ -485,7 +485,7 @@
 
 <para id="fs-id1167066205515">Emphasize the difference between electric potential energy and electric potential. Although the latter seems to be shorthand for the former, the two terms have different meanings.</para></note>
 </note>
-<para id="fs-id1167065859576">Normally, the electric potential is simply called the <emphasis effect="italics">potential</emphasis> or <term class="no-emphasis"><emphasis effect="italics">voltage</emphasis></term>. The units for the potential are J/C, which are given the name <emphasis effect="italics">volt</emphasis> (V) after the Italian physicist Alessandro Volta (1745–1827). From the equation  <m:math>
+<para id="fs-id1167065859576">Normally, the electric potential is simply called the <emphasis effect="italics">potential</emphasis> or <term class="no-emphasis" id="term-00005"><emphasis effect="italics">voltage</emphasis></term>. The units for the potential are J/C, which are given the name <emphasis effect="italics">volt</emphasis> (V) after the Italian physicist Alessandro Volta (1745–1827). From the equation  <m:math>
  <m:mrow>
   <m:msub>
    <m:mi>U</m:mi>
@@ -602,7 +602,7 @@
   </m:mrow>
 </m:math> </equation>
 
-<para id="fs-id1167066141428">Note that this equation actually represents a <emphasis effect="italics">difference</emphasis> in electric potential. However, because the second term is zero, it is normally not written, and we speak of the electric potential instead of the electric <term class="no-emphasis">potential difference</term>, or we just say the potential difference, or voltage). Below, when we consider the electric potential energy per unit charge between two points not infinitely far apart, we speak of electric potential <emphasis effect="italics">difference</emphasis> explicitly. Just remember that electric potential and electric potential difference are really the same thing; the former is used just when the electric potential energy is zero in either the initial or final charge configuration.</para>
+<para id="fs-id1167066141428">Note that this equation actually represents a <emphasis effect="italics">difference</emphasis> in electric potential. However, because the second term is zero, it is normally not written, and we speak of the electric potential instead of the electric <term class="no-emphasis" id="term-00006">potential difference</term>, or we just say the potential difference, or voltage). Below, when we consider the electric potential energy per unit charge between two points not infinitely far apart, we speak of electric potential <emphasis effect="italics">difference</emphasis> explicitly. Just remember that electric potential and electric potential difference are really the same thing; the former is used just when the electric potential energy is zero in either the initial or final charge configuration.</para>
 
 <para id="fs-id1167065838871">Coming back now to the electric potential a distance <emphasis effect="italics">r</emphasis> from a point charge  <m:math>
  <m:mrow>
@@ -1652,7 +1652,7 @@
 <problem id="fs-id1167065943985">
 <!--<para id="fs-id1167065943987"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex092"/></para>-->
 <para id="fs-id1164564361439">How much work is required from an outside agent to move an electron from <emphasis effect="italics">x</emphasis><sub>i</sub> = 0 to <emphasis effect="italics">x</emphasis><sub>f</sub> = 20 cm in an electric field  <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mo stretchy="false">(</m:mo><m:mn>50</m:mn><m:mo> </m:mo><m:mtext>N/C</m:mtext><m:mo stretchy="false">)</m:mo><m:mover accent="true">
     <m:mi>x</m:mi>
@@ -1660,7 +1660,7 @@
    </m:mover>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 ?</para>
 <list id="fs-id1169830620477" list-type="enumerated" number-style="lower-alpha">
@@ -1726,7 +1726,7 @@
 <problem id="fs-id1167066056009">
 <!--<para id="fs-id1167066028511"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex099"/></para>-->
 <para id="fs-id1164566039634">If it takes 10 mJ to move a charge <emphasis effect="italics">q</emphasis> from <emphasis effect="italics">x</emphasis><sub>i</sub> = 25 cm to <emphasis effect="italics">x</emphasis><sub>f</sub> = − 25 cm in an electric field of  <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mo stretchy="false">(</m:mo><m:mn>20</m:mn><m:mo> </m:mo><m:mtext>N/C</m:mtext><m:mo stretchy="false">)</m:mo><m:mover accent="true">
     <m:mi>x</m:mi>
@@ -1734,7 +1734,7 @@
    </m:mover>
    <m:mtext>,</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>  what is the charge <emphasis effect="italics">q</emphasis>?</para>
 <list id="fs-id1164565457350" list-type="enumerated" number-style="lower-alpha">
 <item>−1.0 mC</item>

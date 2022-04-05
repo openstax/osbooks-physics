@@ -229,11 +229,11 @@
 <para id="fs-id1167066846752">So far we have covered linear momentum, which describes the inertia of objects traveling in a straight line. But we know that many objects in nature have a curved or circular path. Just as linear motion has linear momentum to describe its tendency to move forward, circular motion has the equivalent <term id="term-00005">angular momentum</term> to describe how rotational motion is carried forward.</para>
 <para id="fs-id1167067196857">This is similar to how <term class="no-emphasis" id="term-00006">torque</term> is analogous to force, <term class="no-emphasis" id="term-00007">angular acceleration</term> is analogous to <term class="no-emphasis" id="term-00008">translational acceleration</term>, and <emphasis effect="italics">mr</emphasis><sup>2</sup> is analogous to mass or inertia. You may recall learning that the quantity <emphasis effect="italics">mr</emphasis><sup>2</sup> is called the <term class="no-emphasis" id="term-00009">rotational inertia</term> or <term class="no-emphasis" id="term-00010">moment of inertia</term> of a point mass <emphasis effect="italics">m </emphasis>at a distance <emphasis effect="italics">r </emphasis>from the center of rotation.</para>
 <para id="fs-id1167067068577">We already know the equation for linear momentum, <emphasis>p</emphasis> = <emphasis effect="italics">m</emphasis><emphasis>v</emphasis>. Since angular momentum is analogous to linear momentum, the moment of inertia (<emphasis effect="italics">I</emphasis>) is analogous to mass, and angular velocity  <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mo stretchy="false">(</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>ω</m:mtext></m:mstyle><m:mo stretchy="false">)</m:mo>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>  is analogous to linear velocity, it makes sense that angular momentum (<emphasis>L</emphasis>) is defined as </para>
 
 <equation id="fs-id1167067058676" class="unnumbered"><label/>

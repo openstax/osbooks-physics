@@ -74,7 +74,7 @@
 </note>
 <para id="fs-id1167062305381">In a quiet forest, you can sometimes hear a single leaf fall to the ground. But in a traffic jam filled with honking cars, you may have to shout just so the person next to you can hear <link target-id="Figure_14_02_Traffic"/>.The loudness of a sound is related to how energetically its source is vibrating. In cartoons showing a screaming person, the cartoonist often shows an open mouth with a vibrating uvula (the hanging tissue at the back of the mouth) to represent a loud sound coming from the throat. <link target-id="Figure_14_02_Bird"/> shows such a cartoon depiction of a bird loudly expressing its opinion.</para>
 
-<para id="fs-id1167064726893">A useful quantity for describing the loudness of sounds is called <term>sound intensity</term>. In general, the intensity of a wave is the <term class="no-emphasis">power</term> per unit area carried by the wave. Power is the rate at which energy is transferred by the wave. In equation form, intensity <emphasis effect="italics">I</emphasis> is</para>
+<para id="fs-id1167064726893">A useful quantity for describing the loudness of sounds is called <term id="term-00001">sound intensity</term>. In general, the intensity of a wave is the <term class="no-emphasis" id="term-00002">power</term> per unit area carried by the wave. Power is the rate at which energy is transferred by the wave. In equation form, intensity <emphasis effect="italics">I</emphasis> is</para>
 
 <equation id="fs-id1164565700116"> <m:math display="block">
  <m:mrow>
@@ -134,7 +134,7 @@
 </note>
 </section><section id="fs-id1167065919234">
 <title>The Decibel Scale</title>
-<para id="fs-id1167064573140">You may have noticed that when people talk about the loudness of a sound, they describe it in units of <term>decibels</term> rather than watts per meter squared. While sound intensity (in W/m<sup>2</sup>) is the SI unit, the <term>sound intensity level</term> in decibels (dB) is more relevant for how humans perceive sounds. The way our ears perceive sound can be more accurately described by the logarithm of the intensity of a sound rather than the intensity of a sound directly. The sound intensity level <emphasis effect="italics">β </emphasis>is defined to be</para>
+<para id="fs-id1167064573140">You may have noticed that when people talk about the loudness of a sound, they describe it in units of <term id="term-00003">decibels</term> rather than watts per meter squared. While sound intensity (in W/m<sup>2</sup>) is the SI unit, the <term id="term-00004">sound intensity level</term> in decibels (dB) is more relevant for how humans perceive sounds. The way our ears perceive sound can be more accurately described by the logarithm of the intensity of a sound rather than the intensity of a sound directly. The sound intensity level <emphasis effect="italics">β </emphasis>is defined to be</para>
 <equation id="fs-id1164567805332"> <m:math display="block">
  <m:mrow>
   <m:mi>β</m:mi><m:mtext> (dB)</m:mtext><m:mo>=</m:mo><m:mn>10</m:mn><m:msub>
@@ -582,8 +582,8 @@
 <section id="fs-id1167066139110">
 <title>Hearing and Voice</title>
 <para id="fs-id1167065967706">People create sounds by pushing air up through their lungs and through elastic folds in the throat called vocal cords. These folds open and close rhythmically, creating a pressure buildup. As air travels up and past the vocal cords, it causes them to vibrate. This vibration escapes the mouth along with puffs of air as sound. A voice changes in pitch when the muscles of the larynx relax or tighten, changing the tension on the vocal chords. A voice becomes louder when air flow from the lungs increases, making the amplitude of the sound pressure wave greater.</para>
-<para id="fs-id1167066036226"><term>Hearing</term> is the perception of sound. It can give us plenty of information—such as pitch, loudness, and direction. Humans can normally hear frequencies ranging from approximately 20 to 20,000 Hz. Other animals have hearing ranges different from that of humans. Dogs can hear sounds as high as 45,000 Hz, whereas bats and dolphins can hear up to 110,000 Hz sounds. You may have noticed that dogs respond to the sound of a dog whistle which produces sound out of the range of human hearing.</para>
-<para id="eip-id1167065913681">Sounds below 20 Hz are called <term class="no-emphasis">infrasound</term>, whereas those above 20,000 Hz are <term class="no-emphasis">ultrasound</term>. The perception of frequency is called <term>pitch</term>, and the perception of intensity is called <term>loudness</term>.</para>
+<para id="fs-id1167066036226"><term id="term-00005">Hearing</term> is the perception of sound. It can give us plenty of information—such as pitch, loudness, and direction. Humans can normally hear frequencies ranging from approximately 20 to 20,000 Hz. Other animals have hearing ranges different from that of humans. Dogs can hear sounds as high as 45,000 Hz, whereas bats and dolphins can hear up to 110,000 Hz sounds. You may have noticed that dogs respond to the sound of a dog whistle which produces sound out of the range of human hearing.</para>
+<para id="eip-id1167065913681">Sounds below 20 Hz are called <term class="no-emphasis" id="term-00006">infrasound</term>, whereas those above 20,000 Hz are <term class="no-emphasis" id="term-00007">ultrasound</term>. The perception of frequency is called <term id="term-00008">pitch</term>, and the perception of intensity is called <term id="term-00009">loudness</term>.</para>
 <para id="fs-id1167065967633">The way we hear involves some interesting physics. The sound wave that hits our ear is a pressure wave. The ear converts sound waves into electrical nerve impulses, similar to a microphone.</para>
 <para id="fs-id1167064529122"><link target-id="Figure_14_02_Ear"/> shows the anatomy of the ear with its division into three parts: the outer ear or ear canal; the middle ear, which runs from the eardrum to the cochlea; and the inner ear, which is the cochlea itself. The body part normally referred to as the ear is technically called the pinna.</para>
 
@@ -790,7 +790,7 @@
 <para id="fs-id1164567828953">What is the mathematical relationship between intensity, power, and area?</para>
 <list id="fs-id1164567354550" list-type="enumerated" number-style="lower-alpha">
 <item> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac>
     <m:mi>P</m:mi>
@@ -804,36 +804,36 @@
    </m:mfrac>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </item>
 <item> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>I</m:mi><m:mo>=</m:mo><m:mi>P</m:mi><m:mi>A</m:mi>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </item>
 <item> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac>
     <m:mi>A</m:mi>
     <m:mi>P</m:mi>
    </m:mfrac>
     </m:mrow>
-   </m:semantics>
+   
 </m:math> </item>
 <item> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac>
     <m:mi>P</m:mi>
     <m:mi>A</m:mi>
    </m:mfrac>
     </m:mrow>
-   </m:semantics>
+   
 </m:math> </item>
 </list>
 

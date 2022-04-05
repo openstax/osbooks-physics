@@ -810,7 +810,7 @@ where  <m:math>
 <para id="fs-id1164566566267">What is the equation for angular acceleration, 	<emphasis effect="italics">α</emphasis>? Assume <emphasis effect="italics">θ</emphasis> is the angle, <emphasis effect="italics">ω</emphasis> is the angular velocity, and <emphasis effect="italics">t</emphasis> is time.</para>
 <list id="fs-id1164565201338" list-type="enumerated" number-style="lower-alpha">
 <item> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>α</m:mi><m:mo>=</m:mo><m:mfrac>
     <m:mrow>
@@ -822,17 +822,17 @@ where  <m:math>
    </m:mfrac>
 
   </m:mrow>
-   </m:semantics>
+   
 </m:math> </item>
 <item> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>α</m:mi><m:mo>=</m:mo><m:mi>Δ</m:mi><m:mi>ω</m:mi><m:mi>Δ</m:mi><m:mi>t</m:mi>
   </m:mrow>
-   </m:semantics>
+   
 </m:math> </item>
 <item> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>α</m:mi><m:mo>=</m:mo><m:mfrac>
     <m:mrow>
@@ -844,14 +844,14 @@ where  <m:math>
    </m:mfrac>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math> </item>
 <item> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>α</m:mi><m:mo>=</m:mo><m:mi>Δ</m:mi><m:mi>θ</m:mi><m:mi>Δ</m:mi><m:mi>t</m:mi>
   </m:mrow>
-   </m:semantics>
+   
 </m:math> </item>
 </list>
         </problem>
@@ -1069,11 +1069,11 @@ where  <m:math>
 <!--<para id="fs-id1167063419484"><link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex077"/></para>-->
 
 <para id="fs-id1164557680853">In the equation  <m:math display="block">
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>τ</m:mi><m:mtext> = </m:mtext><m:mi>r</m:mi><m:mi>F</m:mi><m:mtext>sin</m:mtext><m:mi>θ</m:mi>
   </m:mrow>
-   </m:semantics>
+   
 </m:math>, what is <emphasis effect="italics">F</emphasis>?</para>
 <list id="fs-id1164566837150" list-type="enumerated" number-style="lower-alpha">
 <item>Linear force</item>

@@ -1137,14 +1137,14 @@
 <para id="fs-id1169831107175">What is the magnification of a lens if it produces a 12-cm-high image of a 4 -cm -high object? The image is virtual and erect.</para>
 <list id="fs-id1169833195291" list-type="enumerated" number-style="lower-alpha">
 <item> <m:math>
-<m:semantics>
+
   <m:mrow>
    <m:mo>–</m:mo><m:mn>3.00</m:mn>
   </m:mrow>
-   </m:semantics>
+   
 </m:math> </item>
 <item> <m:math>
-<m:semantics>
+
   <m:mrow>
    <m:mo>–</m:mo><m:mfrac>
     <m:mn>1</m:mn>
@@ -1154,10 +1154,10 @@
    </m:mfrac>
 
   </m:mrow>
-   </m:semantics>
+   
 </m:math> </item>
 <item> <m:math>
-<m:semantics>
+
   <m:mrow>
    <m:mfrac>
     <m:mn>1</m:mn>
@@ -1165,15 +1165,15 @@
      <m:mn>3.00</m:mn>
     </m:mrow>
    </m:mfrac></m:mrow>
-   </m:semantics>
+   
 </m:math>
 </item>
 <item> <m:math>
-<m:semantics>
+
   <m:mrow>
    <m:mn>3.00</m:mn>
   </m:mrow>
-</m:semantics>
+
 </m:math> </item>
 </list>
 </problem>

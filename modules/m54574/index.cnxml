@@ -225,12 +225,10 @@
    <m:mrow>
     <m:mn>24</m:mn>
    </m:mrow>
-  </m:msup>
-  <m:mtext>atoms</m:mtext><m:mtext>of</m:mtext><m:msup>
-
-   <m:mrow>
+  </m:msup><m:mspace width="0.5em"/>
+  <m:mtext>atoms of</m:mtext><m:msup>
+   <m:mrow/>
     <m:mn>235</m:mn>
-   </m:mrow>
   </m:msup>
   <m:mtext>U</m:mtext><m:mo>.</m:mo>
  </m:mrow>

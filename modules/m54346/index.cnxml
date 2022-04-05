@@ -738,7 +738,7 @@ OR</item>
 </para>-->
 <para id="fs-id1164565358879">How does the illuminance of light change when the distance from the light source is tripled? Cite the relevant equation and explain how it supports your answer.</para>
 <list id="fs-id1164564483012" list-type="enumerated" number-style="lower-alpha"><item> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mtext>Illuminance = </m:mtext><m:mfrac>
     <m:mi>P</m:mi>
@@ -752,10 +752,10 @@ OR</item>
    </m:mfrac>
    <m:mtext>;</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>  if distance is tripled, then the illuminance increases by 19 times.</item>
 <item> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mtext>Illuminance = </m:mtext><m:mfrac>
     <m:mi>P</m:mi>
@@ -767,10 +767,10 @@ OR</item>
    </m:mfrac>
    <m:mtext>;</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>  if distance is tripled, then the illuminance decreases by 13 times.</item>
 <item> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mtext>Illuminance = </m:mtext><m:mi>P</m:mi><m:mi> </m:mi><m:mtext>· 4</m:mtext><m:mi>π</m:mi><m:msup>
     <m:mi>r</m:mi>
@@ -778,16 +778,16 @@ OR</item>
    </m:msup>
    <m:mtext>;</m:mtext>
   </m:mrow>
-   </m:semantics>
+   
 </m:math>  if distance is tripled, then the illuminance decreases by 9 times.</item>
 <item> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mtext>Illuminance = </m:mtext><m:mi>P</m:mi><m:mi> </m:mi><m:mtext>· 4</m:mtext><m:mi>π</m:mi>
     <m:mi>r</m:mi>
        <m:mtext>;</m:mtext>
   </m:mrow>
-   </m:semantics>
+   
 </m:math>  if distance tripled, then the illuminance increases by 3 times.</item>
 </list></problem>
 </exercise>

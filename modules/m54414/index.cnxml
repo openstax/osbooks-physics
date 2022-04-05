@@ -46,7 +46,7 @@
 <para id="fs-id1167065867593"><span>[AL]</span>Ask why the law of force between electrostatic charge was discovered after that of gravity if gravity is weak compared to electrostatic forces.</para>
 </note>
 
-<para id="fs-id1167064929810">More than 100 years before Thomson and Rutherford discovered the fundamental particles that carry positive and negative electric charges, the French scientist Charles-Augustin de <term class="no-emphasis">Coulomb</term> mathematically described the force between charged objects. Doing so required careful measurements of forces between charged spheres, for which he built an ingenious device called a <term class="no-emphasis"><emphasis effect="italics">torsion balance</emphasis></term>.</para>
+<para id="fs-id1167064929810">More than 100 years before Thomson and Rutherford discovered the fundamental particles that carry positive and negative electric charges, the French scientist Charles-Augustin de <term class="no-emphasis" id="term-00001">Coulomb</term> mathematically described the force between charged objects. Doing so required careful measurements of forces between charged spheres, for which he built an ingenious device called a <term class="no-emphasis" id="term-00002"><emphasis effect="italics">torsion balance</emphasis></term>.</para>
 <para id="fs-id1167065997226">This device, shown in <link target-id="Figure_18_02_torsionbal"/>, contains an insulating rod that is hanging by a thread inside a glass-walled enclosure. At one end of the rod is the metallic sphere A. When no charge is on this sphere, it touches sphere B. Coulomb would touch the spheres with a third metallic ball (shown at the bottom of the diagram) that was charged. An unknown amount of charge would distribute evenly between spheres A and B, which would then repel each other, because like charges repel. This force would cause sphere A to rotate away from sphere B, thus twisting the wire until the torsion in the wire balanced the electrical force. Coulomb then turned the knob at the top, which allowed him to rotate the thread, thus bringing sphere A closer to sphere B. He found that bringing sphere A twice as close to sphere B required increasing the torsion by a factor of four. Bringing the sphere three times closer required a ninefold increase in the torsion. From this type of measurement, he deduced that the electrical force between the spheres was inversely proportional to the distance squared between the spheres. In other words,</para>
 <equation id="fs-id1167065768462"><label/>
  <m:math>
@@ -63,7 +63,7 @@
   </m:mrow>
 </m:math> 
 </equation><para id="fs-id1167066096519">where <emphasis effect="italics">r</emphasis> is the distance between the spheres.</para>
-<para id="fs-id1167066028053">An <term class="no-emphasis">electrical charge</term> distributes itself equally between two conducting spheres of the same size. Knowing this allowed Coulomb to divide an unknown charge in half. Repeating this process would produce a sphere with one quarter of the initial charge, and so on. Using this technique, he measured the force between spheres A and B when they were charged with different amounts of charge. These measurements led him to deduce that the force was proportional to the charge on each sphere, or</para>
+<para id="fs-id1167066028053">An <term class="no-emphasis" id="term-00003">electrical charge</term> distributes itself equally between two conducting spheres of the same size. Knowing this allowed Coulomb to divide an unknown charge in half. Repeating this process would produce a sphere with one quarter of the initial charge, and so on. Using this technique, he measured the force between spheres A and B when they were charged with different amounts of charge. These measurements led him to deduce that the force was proportional to the charge on each sphere, or</para>
 <equation id="fs-id1167065857450"><label/>
  <m:math>
  <m:mrow>
@@ -120,7 +120,7 @@
   </m:mfrac>
   </m:mrow>
 </m:math> 
-</equation><para id="fs-id1167066163345">This equation is known as <term>Coulomb’s law</term>, and it describes the electrostatic force between charged objects. The constant of proportionality <emphasis effect="italics">k</emphasis> is called <term class="no-emphasis"><emphasis effect="italics">Coulomb’s constant</emphasis></term>. In SI units, the constant <emphasis effect="italics">k</emphasis> has the value  <m:math>
+</equation><para id="fs-id1167066163345">This equation is known as <term id="term-00004">Coulomb’s law</term>, and it describes the electrostatic force between charged objects. The constant of proportionality <emphasis effect="italics">k</emphasis> is called <term class="no-emphasis" id="term-00005"><emphasis effect="italics">Coulomb’s constant</emphasis></term>. In SI units, the constant <emphasis effect="italics">k</emphasis> has the value  <m:math>
  <m:mrow>
   <m:mi>k</m:mi><m:mo>=</m:mo><m:mn>8.99</m:mn><m:mspace width="0.25em"/><m:mo>×</m:mo><m:mspace width="0.25em"/><m:msup>
    <m:mrow>
@@ -189,7 +189,7 @@
   </m:msup>
   <m:mo>=</m:mo><m:mn>4</m:mn></m:mrow>
 </m:math> . Although Coulomb’s law is true in general, it is easiest to apply to spherical objects or to objects that are much smaller than the distance between the objects (in which case, the objects can be approximated as spheres).</para>
-<para id="fs-id1167062308272">Coulomb’s law is an example of an <term>inverse-square law</term>, which means the force depends on the square of the denominator. Another inverse-square law is Newton’s law of universal gravitation, which is  <m:math>
+<para id="fs-id1167062308272">Coulomb’s law is an example of an <term id="term-00006">inverse-square law</term>, which means the force depends on the square of the denominator. Another inverse-square law is Newton’s law of universal gravitation, which is  <m:math>
  <m:mrow>
   <m:mi>F</m:mi><m:mo>=</m:mo><m:mrow><m:mrow>
    <m:mi>G</m:mi><m:msub>

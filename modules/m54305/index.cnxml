@@ -49,7 +49,7 @@
 <para id="fs-id1167065862031"><span>[BL]</span><span>[OL]</span><span>[AL]</span> Review the concept of force.</para>
 <para id="fs-id1167062400323"><span>[OL]</span> Ask students how much force it would take to hammer a nail into a wall. Would they achieve the same result if the nail were blunt instead of pointed? Why or why not?</para>
 </note>
-<para id="fs-id1167065878257">Before covering the first law of thermodynamics, it is first important to understand the relationship between <term>pressure</term>, volume, and temperature. Pressure, <emphasis effect="italics">P</emphasis>, is defined as</para>
+<para id="fs-id1167065878257">Before covering the first law of thermodynamics, it is first important to understand the relationship between <term id="term-00001">pressure</term>, volume, and temperature. Pressure, <emphasis effect="italics">P</emphasis>, is defined as</para>
 <equation id="fs-id1164563051950"> <m:math display="block">
  <m:mrow>
   <m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac>
@@ -78,11 +78,11 @@
 </m:math>
 </para>
 <para id="fs-id1167065997251">Pressure is defined for all states of matter but is particularly important when discussing fluids (such as air). You have probably heard the word <emphasis effect="italics">pressure</emphasis> being used in relation to blood (high or low blood pressure) and in relation to the weather (high- and low-pressure weather systems). These are only two of many examples of pressures in fluids.</para>
-<para id="fs-id1167063168011">The relationship between the pressure, volume, and temperature for an ideal gas is given by the <term>ideal gas law</term>. A gas is considered ideal at low pressure and fairly high temperature, and forces between its component particles can be ignored. The ideal gas law states that</para>
+<para id="fs-id1167063168011">The relationship between the pressure, volume, and temperature for an ideal gas is given by the <term id="term-00002">ideal gas law</term>. A gas is considered ideal at low pressure and fairly high temperature, and forces between its component particles can be ignored. The ideal gas law states that</para>
 <equation id="fs-id1164563465800"> <m:math display="block">
  <m:mrow>
   <m:mi>P</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>N</m:mi><m:mi>k</m:mi><m:mi>T</m:mi><m:mo>.</m:mo></m:mrow>
-</m:math> </equation><para id="fs-id1167066104764">where <emphasis effect="italics">P </emphasis>is the pressure of a gas, <emphasis effect="italics">V </emphasis>is the volume it occupies, <emphasis effect="italics">N </emphasis>is the number of particles (atoms or molecules) in the gas, and <emphasis effect="italics">T </emphasis>is its absolute temperature. The constant <emphasis effect="italics">k </emphasis>is called the <term>Boltzmann constant</term> and has the value  <m:math>
+</m:math> </equation><para id="fs-id1167066104764">where <emphasis effect="italics">P </emphasis>is the pressure of a gas, <emphasis effect="italics">V </emphasis>is the volume it occupies, <emphasis effect="italics">N </emphasis>is the number of particles (atoms or molecules) in the gas, and <emphasis effect="italics">T </emphasis>is its absolute temperature. The constant <emphasis effect="italics">k </emphasis>is called the <term id="term-00003">Boltzmann constant</term> and has the value  <m:math>
  <m:mrow>
   <m:mi>k</m:mi><m:mo>=</m:mo><m:mn>1.38</m:mn><m:mo>×</m:mo><m:msup>
    <m:mrow>
@@ -191,8 +191,8 @@
 <para id="fs-id1167065891212"><span>[BL]</span> Review heat transfer. When and how does heat transfer energy between two bodies? What happens when energy is transferred into or out of a system by heat?</para>
 </note>
 <para id="fs-id1167064649082">Heat (<emphasis effect="italics">Q</emphasis>) and work (<emphasis effect="italics">W</emphasis>) are the two ways to add or remove energy from a system. The processes are very different. Heat is driven by temperature differences, while work involves a force exerted through a distance. Nevertheless, heat and work can produce identical results. For example, both can cause a temperature increase. Heat transfers energy into a system, such as when the sun warms the air in a bicycle tire and increases the air’s temperature. Similarly, work can be done on the system, as when the bicyclist pumps air into the tire. Once the temperature increase has occurred, it is impossible to tell whether it was caused by heat or work. Heat and work are both energy in transit—neither is stored as such in a system. However, both can change the internal energy, <emphasis effect="italics">U</emphasis>, of a system.</para>
-<para id="fs-id1167065715361"><term>Internal energy</term> is the sum of the kinetic and potential energies of a system’s atoms and molecules. It can be divided into many subcategories, such as thermal and chemical energy, and depends only on the state of a system (that is, <emphasis effect="italics">P</emphasis>,<emphasis effect="italics"> V</emphasis>, and <emphasis effect="italics">T</emphasis>), not on how the energy enters or leaves the system.</para>
-<para id="fs-id1167065859858">In order to understand the relationship between heat, work, and internal energy, we use the <term>first law of thermodynamics</term>. The first law of thermodynamics applies the <emphasis effect="italics">conservation of energy</emphasis> principle to systems where heat and work are the methods of transferring energy into and out of the systems. It can also be used to describe how energy transferred by heat is converted and transferred again by work.</para>
+<para id="fs-id1167065715361"><term id="term-00004">Internal energy</term> is the sum of the kinetic and potential energies of a system’s atoms and molecules. It can be divided into many subcategories, such as thermal and chemical energy, and depends only on the state of a system (that is, <emphasis effect="italics">P</emphasis>,<emphasis effect="italics"> V</emphasis>, and <emphasis effect="italics">T</emphasis>), not on how the energy enters or leaves the system.</para>
+<para id="fs-id1167065859858">In order to understand the relationship between heat, work, and internal energy, we use the <term id="term-00005">first law of thermodynamics</term>. The first law of thermodynamics applies the <emphasis effect="italics">conservation of energy</emphasis> principle to systems where heat and work are the methods of transferring energy into and out of the systems. It can also be used to describe how energy transferred by heat is converted and transferred again by work.</para>
 <note id="fs-id1167065911083" class="os-teacher">
 <title>Teacher Support</title>
 <para id="fs-id1167064915460"><span>[OL]</span><span>[AL]</span> Ask students to give examples of processes where energy is converted from one form into another. Analyze whether energy transfer by heat occurs in each case.</para>
@@ -724,7 +724,7 @@ work done by the system.</item>
 <para id="fs-id1164566943764">If a fixed quantity of an ideal gas is held at a constant volume, which variable relates to pressure, and what is that relation?</para>
 <list id="fs-id1164563496607" list-type="enumerated" number-style="lower-alpha">
 <item>Temperature; inverse proportionality  <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mrow><m:mo>(</m:mo>
     <m:mrow>
@@ -736,11 +736,11 @@ work done by the system.</item>
     </m:mrow>
    <m:mo>)</m:mo></m:mrow>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </item>
 <item>Temperature, direct proportionality to square root  <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mrow><m:mo>(</m:mo>
     <m:mrow>
@@ -751,10 +751,10 @@ work done by the system.</item>
     </m:mrow>
    <m:mo>)</m:mo></m:mrow>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> </item>
 <item>Temperature; direct proportionality  <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mrow><m:mo>(</m:mo>
     <m:mrow>
@@ -763,10 +763,10 @@ work done by the system.</item>
          </m:mrow>
    <m:mo>)</m:mo></m:mrow>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> </item>
 <item>Temperature; direct proportionality to square  <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mrow><m:mo>(</m:mo>
     <m:mrow>
@@ -780,7 +780,7 @@ work done by the system.</item>
     </m:mrow>
    <m:mo>)</m:mo></m:mrow>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> </item>
 </list>
 

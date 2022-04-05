@@ -1159,7 +1159,7 @@
             <m:mi>θ</m:mi>
           </m:mrow>
         </m:math> with the horizontal surface, the weight of the object can be broken into components that act perpendicular  <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mo stretchy="false">(</m:mo><m:msub>
     <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>w</m:mi></m:mstyle>
@@ -1167,7 +1167,7 @@
    </m:msub>
    <m:mo stretchy="false">)</m:mo>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
  and parallel ( <m:math>
           <m:mrow>
@@ -1322,32 +1322,32 @@
 <para id="fs-id1164566986043">A skier with a mass of 55 kg is skiing down a snowy slope that has an incline of 30°. Find the coefficient of kinetic friction for the skier if friction is known to be 25 N .</para>
 <list id="fs-id1164567106793" list-type="enumerated" number-style="lower-alpha">
 <item> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>μ</m:mi><m:mi>k</m:mi><m:mi> </m:mi><m:mo>=</m:mo><m:mi> </m:mi><m:mn>0</m:mn>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> </item>
 <item> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>μ</m:mi><m:mi>k</m:mi><m:mi> </m:mi><m:mo>=</m:mo><m:mi> </m:mi><m:mn>0.05</m:mn>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> </item>
 <item> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>μ</m:mi><m:mi>k</m:mi><m:mi> </m:mi><m:mo>=</m:mo><m:mi> </m:mi><m:mn>0.09</m:mn>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> </item>
 <item> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>μ</m:mi><m:mi>k</m:mi><m:mi> </m:mi><m:mo>=</m:mo><m:mi> </m:mi><m:mn>∞</m:mn>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> </item>
 </list>
 

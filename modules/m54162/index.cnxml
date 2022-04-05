@@ -1841,17 +1841,17 @@
     <exercise id="fs-id1167067078052" class="os-exercise"><problem id="fs-id1167067078054"><para id="fs-id1167067078055"><link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex063"/></para></problem></exercise>
     <exercise id="fs-id1167067078060" class="os-exercise"><problem id="fs-id1167067078063"><!--<para id="fs-id1167067078064"><link class="os-embed" url="#ost/api/ex/k12phys-ch05-ex064"/></para>-->
 <para id="fs-id1164567964980">In the equation for the maximum height of a projectile, what does  <m:math display="inline">
- <m:semantics>
+ 
   <m:mrow>
    <m:msub>
     <m:mi>v</m:mi><m:mrow><m:mn>0</m:mn><m:mi>y</m:mi></m:mrow>
      </m:msub>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>  stand for?
 
  <m:math display="block">
- <m:semantics><m:mrow>
+ <m:mrow>
   <m:mi>h</m:mi><m:mo>=</m:mo><m:mfrac>
    <m:mrow>
     <m:msub>
@@ -1865,7 +1865,7 @@
     <m:mn>2</m:mn><m:mi>g</m:mi>
    </m:mrow>
   </m:mfrac></m:mrow>
- </m:semantics>
+ 
 </m:math>  </para><list id="fs-id1164566057344" list-type="enumerated" number-style="lower-alpha">
 <item>Initial velocity in the x direction</item>
 <item>Initial velocity in the y direction</item>

@@ -432,11 +432,11 @@ is known as <term id="term-00008">impulse</term> and this equation is known as t
 <note id="fs-id1167066864800"><label/><title>Strategy</title>
 <para id="fs-id1167063506712">No information is given about the direction of the football player or the football, so we can calculate only the magnitude of the momentum, <emphasis effect="italics">p</emphasis>. (A symbol in italics represents magnitude.) In both parts of this example, the magnitude of momentum can be calculated directly from the definition of momentum:</para>
 <equation id="fs-id1167065681653" class="unnumbered"><label/> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>p</m:mtext></m:mstyle><m:mo>=</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </equation>
 </note>
@@ -804,7 +804,7 @@ is known as <term id="term-00008">impulse</term> and this equation is known as t
 <para id="fs-id1164565149559">What is the equation for Newtons second law of motion, in terms of mass, velocity, and time, when the mass of the system is constant?</para>
 <list id="fs-id1164564770994" list-type="enumerated" number-style="lower-alpha">
 <item> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:msub>
     <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>F</m:mtext></m:mstyle>
@@ -823,10 +823,10 @@ is known as <term id="term-00008">impulse</term> and this equation is known as t
 
   </m:mrow>
 
- </m:semantics>
+ 
 </m:math> </item>
 <item> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:msub>
     <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>F</m:mtext></m:mstyle>
@@ -844,10 +844,10 @@ is known as <term id="term-00008">impulse</term> and this equation is known as t
    </m:mfrac>
 
   </m:mrow>
-   </m:semantics>
+   
 </m:math> </item>
 <item> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:msub>
     <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>F</m:mtext></m:mstyle>
@@ -865,12 +865,12 @@ is known as <term id="term-00008">impulse</term> and this equation is known as t
    </m:mfrac>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 
 </item>
 <item> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:msub>
     <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>F</m:mtext></m:mstyle>
@@ -889,7 +889,7 @@ is known as <term id="term-00008">impulse</term> and this equation is known as t
 
   </m:mrow>
 
- </m:semantics>
+ 
 </m:math> </item>
 </list>
 </problem>
@@ -1047,14 +1047,14 @@ is known as <term id="term-00008">impulse</term> and this equation is known as t
 <para id="fs-id1164564847844">In which equation of Newtons second law is mass assumed to be constant?</para>
 <list id="fs-id1164562350064" list-type="enumerated" number-style="lower-alpha">
 <item> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>F</m:mtext></m:mstyle><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>a</m:mi>
   </m:mrow>
-   </m:semantics>
+   
 </m:math> </item>
 <item> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>F</m:mtext></m:mstyle><m:mo>=</m:mo><m:mfrac>
     <m:mrow>
@@ -1065,17 +1065,17 @@ is known as <term id="term-00008">impulse</term> and this equation is known as t
     </m:mrow>
    </m:mfrac>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> </item>
 <item> <m:math>
- <m:semantics>
+ 
   <m:mrow>
     <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>F</m:mtext></m:mstyle><m:mo>=</m:mo><m:mtext>Δ</m:mtext> <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>p</m:mtext></m:mstyle><m:mtext>Δ</m:mtext><m:mi>t</m:mi>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> </item>
 <item> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>F</m:mtext></m:mstyle><m:mo>=</m:mo><m:mfrac>
     <m:mrow>
@@ -1086,7 +1086,7 @@ is known as <term id="term-00008">impulse</term> and this equation is known as t
     </m:mrow>
    </m:mfrac>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </item>
 </list>
@@ -1108,21 +1108,21 @@ is known as <term id="term-00008">impulse</term> and this equation is known as t
 <para id="fs-id1164557700857">What is the equation for linear momentum?</para>
 <list id="fs-id1164564883122" list-type="enumerated" number-style="lower-alpha">
 <item> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>p</m:mtext></m:mstyle><m:mo>=</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
   </m:mrow>
-   </m:semantics>
+   
 </m:math> </item>
 <item> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>p</m:mtext></m:mstyle><m:mo>=</m:mo><m:mi>m</m:mi><m:mtext>/</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
   </m:mrow>
-   </m:semantics>
+   
 </m:math> </item>
 <item> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>p</m:mtext></m:mstyle><m:mo>=</m:mo><m:mtext>m</m:mtext><m:msup>
     <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
@@ -1130,10 +1130,10 @@ is known as <term id="term-00008">impulse</term> and this equation is known as t
    </m:msup>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math> </item>
 <item> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>p</m:mtext></m:mstyle><m:mo>=</m:mo><m:mfrac>
     <m:mn>1</m:mn>
@@ -1144,7 +1144,7 @@ is known as <term id="term-00008">impulse</term> and this equation is known as t
    </m:msup>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math> </item>
 </list>
 
@@ -1251,14 +1251,14 @@ is known as <term id="term-00008">impulse</term> and this equation is known as t
 <para id="fs-id1164564966381">How can you express impulse in terms of mass and velocity when neither of those are constant?</para>
 <list id="fs-id1164562298892" list-type="enumerated" number-style="lower-alpha">
 <item> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>Δ</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>p</m:mtext></m:mstyle><m:mo>=</m:mo><m:mtext>Δ</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle><m:mo stretchy="false">)</m:mo>
   </m:mrow>
-   </m:semantics>
+   
 </m:math> </item>
 <item> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mfrac>
     <m:mrow>
@@ -1278,10 +1278,10 @@ is known as <term id="term-00008">impulse</term> and this equation is known as t
    </m:mfrac>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math> </item>
 <item> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>p</m:mtext></m:mstyle><m:mo>=</m:mo><m:mtext>Δ</m:mtext><m:mo stretchy="false">(</m:mo><m:mfrac>
     <m:mi>m</m:mi>
@@ -1289,10 +1289,10 @@ is known as <term id="term-00008">impulse</term> and this equation is known as t
    </m:mfrac>
    <m:mo stretchy="false">)</m:mo>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> </item>
 <item> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mfrac>
     <m:mrow>
@@ -1310,7 +1310,7 @@ is known as <term id="term-00008">impulse</term> and this equation is known as t
    </m:mfrac>
    <m:mtext>·</m:mtext><m:mtext>Δ</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle><m:mo stretchy="false">)</m:mo>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> </item>
 </list>
 
@@ -1320,7 +1320,7 @@ is known as <term id="term-00008">impulse</term> and this equation is known as t
 <para id="fs-id1164561123530">How can you express impulse in terms of mass and initial and final velocities?</para>
 <list id="fs-id1164564773133" list-type="enumerated" number-style="lower-alpha">
 <item> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>p</m:mtext></m:mstyle><m:mtext> = </m:mtext><m:mi>m</m:mi><m:mtext>(</m:mtext><m:msub>
     <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle>
@@ -1332,10 +1332,10 @@ is known as <term id="term-00008">impulse</term> and this equation is known as t
    </m:msub>
    <m:mtext>)</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> </item>
 <item> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mfrac>
     <m:mrow>
@@ -1363,10 +1363,10 @@ is known as <term id="term-00008">impulse</term> and this equation is known as t
    </m:mfrac>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math> </item>
 <item> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>p</m:mtext></m:mstyle><m:mtext> = </m:mtext><m:mfrac>
     <m:mrow>
@@ -1384,10 +1384,10 @@ is known as <term id="term-00008">impulse</term> and this equation is known as t
    </m:mfrac>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math> </item>
 <item> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mfrac>
     <m:mrow>
@@ -1418,7 +1418,7 @@ is known as <term id="term-00008">impulse</term> and this equation is known as t
     </m:mrow>
    </m:mfrac>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> </item>
 </list>
 </problem></exercise>
@@ -1443,7 +1443,7 @@ is known as <term id="term-00008">impulse</term> and this equation is known as t
 
 <exercise id="fs-id1167067191384" class="os-exercise"><problem id="fs-id1167067217862"><!--<para id="fs-id1167066973884"><link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex028"/></para>-->
 <para id="fs-id1164566932362">Can we use the equation  <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:msub>
     <m:mtext>F</m:mtext>
@@ -1461,7 +1461,7 @@ is known as <term id="term-00008">impulse</term> and this equation is known as t
    </m:mfrac>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math>  when the mass is constant?</para>
 <list id="fs-id1164566481093" list-type="enumerated" number-style="lower-alpha">
 <item>No, because the given equation is applicable for the variable mass only.</item>

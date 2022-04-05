@@ -596,7 +596,7 @@
 <para id="fs-id1164562382593">A constant electric field is (4.5 × 10<sup>5</sup> N/C)<emphasis effect="italics">ŷ</emphasis>. In which direction is the force on a −20 nC charge placed in this field?</para>
 <list id="fs-id1164566566616" list-type="enumerated" number-style="lower-alpha">
 <item>The direction of the force is in the  <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mo>+</m:mo><m:mover accent="true">
     <m:mi>x</m:mi>
@@ -604,11 +604,11 @@
    </m:mover>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
  direction.</item>
 <item>The direction of the force is in the  <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mo>+</m:mo><m:mover accent="true">
     <m:mi>x</m:mi>
@@ -616,7 +616,7 @@
    </m:mover>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
  direction.</item>
 <item>The direction of the force is in the −ŷ direction.</item>
@@ -661,7 +661,7 @@
 <problem id="fs-id1167067006505">
 <!--<para id="fs-id1167067203120"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex071"/></para>-->
 <para id="fs-id1164562146619">Two uniform electric fields are superimposed. The first electric field is  <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:msub>
     <m:mrow>
@@ -678,10 +678,10 @@
     <m:mo stretchy="true">^</m:mo>
    </m:mover>
   </m:mrow>
-   </m:semantics>
+   
 </m:math>
 . The second electric field is  <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:msub>
     <m:mrow>
@@ -695,7 +695,7 @@
    </m:msub>
    <m:mtext> = (7</m:mtext><m:mtext>.0 N/C)</m:mtext><m:mi>ŷ</m:mi>
   </m:mrow>
-   </m:semantics>
+   
 </m:math>
 . With respect to the positive <emphasis effect="italics">x</emphasis> axis, at which angle will a positive test charge accelerate in this combined field?</para>
 <list id="fs-id1164562447529" list-type="enumerated" number-style="lower-alpha">
@@ -795,7 +795,7 @@
 <!--<para id="fs-id1167067099097"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex080"/></para>-->
 <para id="fs-id1164566855199">Point charges are located at each corner of a square with sides of 5.0 cm . The top-left charge is <emphasis effect="italics">q</emphasis><sub>1</sub> = 8.0 nC The top right charge is <emphasis effect="italics">q</emphasis><sub>2</sub> = 4.0 nC. The bottom-right charge is <emphasis effect="italics">q</emphasis><sub>3</sub> = 4.0 nC. The bottom-left charge is <emphasis effect="italics">q</emphasis><sub>4</sub> = 8.0 nC. What is the electric field at the point midway between charges <emphasis effect="italics">q</emphasis><sub>2</sub> and <emphasis effect="italics">q</emphasis><sub>3</sub>?</para>
 <list id="fs-id1164563186638" list-type="enumerated" number-style="lower-alpha"><item> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mo stretchy="false">(</m:mo><m:mo>–</m:mo><m:mn>2.1</m:mn><m:mspace width="0.25em"/><m:mtext>×</m:mtext><m:mspace width="0.25em"/><m:msup>
     <m:mrow>
@@ -809,10 +809,10 @@
    </m:mover>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math> </item>
 <item> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mo stretchy="false">(</m:mo><m:mn>2.3</m:mn><m:mspace width="0.25em"/><m:mtext>×</m:mtext><m:mspace width="0.25em"/><m:msup>
     <m:mrow>
@@ -826,10 +826,10 @@
    </m:mover>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math> </item>
 <item> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mo stretchy="false">(</m:mo><m:mn>4.1</m:mn><m:mspace width="0.25em"/><m:mtext>×</m:mtext><m:mspace width="0.25em"/><m:msup>
     <m:mrow>
@@ -843,10 +843,10 @@
    </m:mover>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math> </item>
 <item> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mo stretchy="false">(</m:mo><m:mn>4.6</m:mn><m:mspace width="0.25em"/><m:mtext>×</m:mtext><m:mspace width="0.25em"/><m:msup>
     <m:mrow>
@@ -860,7 +860,7 @@
    </m:mover>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math> </item></list></problem>
 </exercise>
 <exercise id="fs-id1167067078255" class="os-exercise">

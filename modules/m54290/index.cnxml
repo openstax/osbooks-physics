@@ -571,19 +571,8 @@
 <item>Calculate the temperature change from the heat transferred by rearranging the equation  <m:math>
  <m:mrow>
   <m:mi>Q</m:mi><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mi>m</m:mi><m:mi>c</m:mi><m:mi>Δ</m:mi><m:mi>T</m:mi></m:mrow>
-</m:math>  to solve for  <m:math>
- <m:semantics>
-  <m:mrow>
-   <m:mi>Δ</m:mi><m:mi>T</m:mi><m:mtext>.</m:mtext></m:mrow>
-  <m:annotation encoding="MathType-MTEF">MathType@MTEF@5@5@+=
-  feaagKart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLn
-  hiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr
-  4rNCHbGeaGqiVCI8FfYJH8YrFfeuY=Hhbbf9v8qqaqFr0xc9pk0xbb
-  a9q8WqFfeaY=biLkVcLq=JHqpepeea0=as0Fb9pgeaYRXxe9vr0=vr
-  0=vqpWqaaeaabiGaciaacaqabeaadaqaaqaaaOqaaabaaaaaaaaape
-  GaeuiLdqKaamivaaaa@384A@
-  </m:annotation>
- </m:semantics>
+</m:math>  to solve for  <m:math><m:mrow>
+   <m:mi>Δ</m:mi><m:mi>T</m:mi><m:mtext>.</m:mtext></m:mrow> 
 </m:math>
 <para id="fs-id1167066096443"><equation id="fs-id1164567470630"> <m:math display="block">
  <m:mrow>

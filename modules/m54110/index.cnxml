@@ -631,7 +631,7 @@ The total average velocity is 0 m/s.</item>
 </media>
 <list id="fs-id1169831642421" list-type="enumerated" number-style="lower-alpha">
 <item> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mo>–</m:mo><m:mfrac>
     <m:mn>1</m:mn>
@@ -639,11 +639,11 @@ The total average velocity is 0 m/s.</item>
    </m:mfrac>
    <m:mtext>m/s</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </item>
 <item> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mo>–</m:mo><m:mfrac>
     <m:mn>3</m:mn>
@@ -651,11 +651,11 @@ The total average velocity is 0 m/s.</item>
    </m:mfrac>
    <m:mtext>m/s</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </item>
 <item> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mfrac>
     <m:mn>1</m:mn>
@@ -663,11 +663,11 @@ The total average velocity is 0 m/s.</item>
    </m:mfrac>
    <m:mtext>m/s</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </item>
 <item> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mfrac>
     <m:mn>3</m:mn>
@@ -675,7 +675,7 @@ The total average velocity is 0 m/s.</item>
    </m:mfrac>
    <m:mtext>m/s</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </item>
 </list>

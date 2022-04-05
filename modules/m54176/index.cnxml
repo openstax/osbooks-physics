@@ -324,11 +324,11 @@
 <para id="fs-id1167065823102"><span>[AL]</span> Ask students whether or not velocity changes in uniform circular motion. What about speed? What about acceleration?</para>
 </note>
 <para id="fs-id1167064903318">How fast is an object rotating? We can answer this question by using the concept of angular velocity. Consider first the angular speed  <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mo stretchy="false">(</m:mo><m:mi>ω</m:mi><m:mo stretchy="false">)</m:mo>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>  is the rate at which the angle of rotation changes. In equation form, the angular speed is</para>
 <equation id="fs-id1164565533858"> <m:math>
  <m:mrow>
@@ -344,11 +344,11 @@
  </m:mrow>
 </m:math> </equation>
 <para id="fs-id1167064979370">which means that an angular rotation  <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mo stretchy="false">(</m:mo><m:mi>Δ</m:mi><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>  occurs in a time,  <m:math>
  <m:mrow>
   <m:mtext>Δ</m:mtext><m:mi>t</m:mi>
@@ -356,17 +356,17 @@
 </m:math> . If an object rotates through a greater angle of rotation in a given time, it has a greater angular speed. The units for angular speed are radians per second (rad/s).</para>
 <para id="fs-id1167065823797">Now let’s consider the direction of the angular speed, which means we now must call it the angular velocity. The direction of the angular velocity is along the axis of rotation. For an object rotating clockwise, the angular velocity points away from you along the axis of rotation. For an object rotating counterclockwise, the angular velocity points toward you along the axis of rotation.</para>
 <para id="fs-id1167065853790">Angular velocity (ω) is the angular version of linear velocity <emphasis>v</emphasis>. <term id="term-00010">Tangential velocity</term> is the instantaneous linear velocity of an object in rotational motion<emphasis>. </emphasis>To get the precise relationship between angular velocity and tangential velocity, consider again a pit on the rotating CD. This pit moves through an arc length  <m:math display="block">
- <m:semantics>
+ 
   <m:mrow>
    <m:mo stretchy="false">(</m:mo><m:mi>Δ</m:mi><m:mi>s</m:mi><m:mo stretchy="false">)</m:mo>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>  in a <emphasis effect="italics">short</emphasis> time  <m:math display="block">
- <m:semantics>
+ 
   <m:mrow>
    <m:mo stretchy="false">(</m:mo><m:mi>Δ</m:mi><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>  so its tangential <emphasis effect="italics">speed</emphasis> is</para>
 <equation id="eip-289"><label/>
  <m:math>

@@ -88,7 +88,7 @@
 <title>Teacher Support</title>
 <para id="fs-id1167065061970">This animation shows the transformations between <emphasis effect="italics">KE</emphasis> and <emphasis effect="italics">PE</emphasis> and how speed varies in the process. Later we can refer back to the animation to see how friction converts some of the mechanical energy into heat and how total energy is conserved.</para>
 </note>
-</note><para id="fs-id1167065895204">On an actual roller coaster, there are many ups and downs, and each of these is accompanied by transitions between kinetic and potential energy. Assume that no energy is lost to friction. At any point in the ride, the total mechanical energy is the same, and it is equal to the energy the car had at the top of the first rise. This is a result of the <term>law of conservation of energy</term>, which says that, in a closed system, total energy is conservedthat is, it is constant. Using subscripts 1 and 2 to represent initial and final energy, this law is expressed as</para>
+</note><para id="fs-id1167065895204">On an actual roller coaster, there are many ups and downs, and each of these is accompanied by transitions between kinetic and potential energy. Assume that no energy is lost to friction. At any point in the ride, the total mechanical energy is the same, and it is equal to the energy the car had at the top of the first rise. This is a result of the <term id="term-00001">law of conservation of energy</term>, which says that, in a closed system, total energy is conservedthat is, it is constant. Using subscripts 1 and 2 to represent initial and final energy, this law is expressed as</para>
 
 <equation id="fs-id1167066020906" class="unnumbered">
 <label/>
@@ -115,7 +115,7 @@
 </m:math>
 </equation>
 
-<para id="fs-id1167064894985">Either side equals the total mechanical energy. The phrase <emphasis effect="italics">in a </emphasis><term class="no-emphasis"><emphasis effect="italics">closed system</emphasis></term> means we are assuming no energy is lost to the surroundings due to friction and air resistance. If we are making calculations on dense falling objects, this is a good assumption. For the roller coaster, this assumption introduces some inaccuracy to the calculation.</para>
+<para id="fs-id1167064894985">Either side equals the total mechanical energy. The phrase <emphasis effect="italics">in a </emphasis><term class="no-emphasis" id="term-00002"><emphasis effect="italics">closed system</emphasis></term> means we are assuming no energy is lost to the surroundings due to friction and air resistance. If we are making calculations on dense falling objects, this is a good assumption. For the roller coaster, this assumption introduces some inaccuracy to the calculation.</para>
 </section><section id="fs-id1167065856599">
 <title>Calculations involving Mechanical Energy and Conservation of Energy</title>
 <note id="fs-id1167066037451" class="tips-for-success">

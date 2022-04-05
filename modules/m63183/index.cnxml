@@ -396,7 +396,7 @@
 </m:math> </equation>
 <para id="fs-id1167064981422">Convert the 20.334 min to seconds.</para>
 <equation id="fs-id1164567990257"> <m:math display="block">
- <m:semantics>
+ 
   <m:mrow>
    <m:mtable columnalign="left">
     <m:mtr columnalign="left">
@@ -460,7 +460,7 @@
 
    </m:mtable>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> </equation><para id="fs-id1167064877348">(b) The amount of material after one hour can be found by using the equation</para>
 <equation id="fs-id1164567109617"> <m:math display="block">
  <m:mrow>

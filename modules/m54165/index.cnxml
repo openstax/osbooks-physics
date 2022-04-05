@@ -184,7 +184,7 @@
     <para id="fs-id1167065886432">You can tell by looking at the vectors in the free-body diagram in <link target-id="Figure_05_01_skaters"/> that the two skaters are pushing on the third skater with equal-magnitude forces, since the length of their force vectors are the same. Note, however, that the forces are not equal because they act in different directions. If, for example, each force had a magnitude of 400 N, then we would find the magnitude of the total external force acting on the third skater by finding the magnitude of the resultant vector. Since the forces act at a right angle to one another, we can use the Pythagorean theorem. For a triangle with sides a, b, and c, the Pythagorean theorem tells us that</para>
 
   <equation id="fs-id1167065759269" class="unnumbered"><label/> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mtable columnalign="left">
     <m:mtr columnalign="left">
@@ -229,7 +229,7 @@
 
    </m:mtable>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
   </equation>
   <para id="fs-id1167065684950">Applying this theorem to the triangle made by <emphasis>F</emphasis><sub>1</sub>, <emphasis>F</emphasis><sub>2</sub>, and <emphasis>F</emphasis><sub>tot</sub> in <link target-id="Figure_05_01_skaters"/>, we get </para>
@@ -292,7 +292,7 @@
       </m:math>
 
     </equation><para id="fs-id1167065878919">Note that, if the vectors were not at a right angle to each other  <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mo stretchy="false">(</m:mo><m:msup>
     <m:mrow>
@@ -302,7 +302,7 @@
    </m:msup>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
  to one another), we would not be able to use the Pythagorean theorem to find the magnitude of the resultant vector. Another scenario where adding two-dimensional vectors is necessary is for velocity, where the direction may not be purely east-west or north-south, but some combination of these two directions. In the next section, we cover how to solve this type of problem analytically. For now let’s consider the problem graphically.</para>
   <note id="fs-id1167065848962" class="worked-example">

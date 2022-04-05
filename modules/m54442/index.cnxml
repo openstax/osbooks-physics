@@ -1325,7 +1325,7 @@
 <item>The equivalent resistance is (<emphasis effect="italics">R</emphasis>)<sup><emphasis effect="italics">N</emphasis></sup>.</item>
 <item>The equivalent resistance is NR.</item>
 <item>The equivalent resistance is  <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mfrac>
     <m:mi>R</m:mi>
@@ -1333,10 +1333,10 @@
    </m:mfrac>
 <m:mtext>.</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> </item>
 <item>The equivalent resistance is  <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mfrac>
     <m:mi>N</m:mi>
@@ -1344,7 +1344,7 @@
    </m:mfrac>
 <m:mtext>.</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> </item>
 </list>
 
@@ -2027,7 +2027,7 @@
 <para id="fs-id1164566252991">What is the formula for the equivalent resistance of two parallel resistors with resistance <emphasis effect="italics">R</emphasis><sub>1</sub> and <emphasis effect="italics">R</emphasis><sub>2</sub>?</para>
 <list id="fs-id1164567231429" list-type="enumerated" number-style="lower-alpha">
 <item>Equivalent resistance of two parallel resistors  <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:msub>
     <m:mi>R</m:mi>
@@ -2045,10 +2045,10 @@
    </m:msub>
 
   </m:mrow>
-   </m:semantics>
+   
 </m:math> </item>
 <item>Equivalent resistance of two parallel resistors  <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:msub>
     <m:mi>R</m:mi>
@@ -2066,10 +2066,10 @@
    </m:msub>
 
   </m:mrow>
-   </m:semantics>
+   
 </m:math> </item>
 <item>Equivalent resistance of two parallel resistors  <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:msub>
     <m:mi>R</m:mi>
@@ -2087,10 +2087,10 @@
    </m:msub>
 
   </m:mrow>
-   </m:semantics>
+   
 </m:math> </item>
 <item>Equivalent resistance of two parallel resistors  <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:msub>
     <m:mi>R</m:mi>
@@ -2114,7 +2114,7 @@
    </m:mfrac>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math> </item>
 </list>
 </problem>

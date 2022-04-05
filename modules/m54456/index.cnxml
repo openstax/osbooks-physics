@@ -1157,24 +1157,24 @@
 <list id="fs-id1164562311735" list-type="enumerated" number-style="lower-alpha">
 <item>expression for the magnetic flux through the circuit Φ(<emphasis effect="italics">t</emphasis>) = <emphasis effect="italics">BA</emphasis>cos<emphasis effect="italics">⁡ωt</emphasis></item>
 <item>expression for the magnetic flux through the circuit  <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mtext>Φ</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msqrt>
     <m:mn>2</m:mn>
    </m:msqrt>
    <m:mi>B</m:mi><m:mi>A</m:mi><m:mtext>cos</m:mtext><m:mi>ω</m:mi><m:mi>t</m:mi>
   </m:mrow>
-   </m:semantics>
+   
 </m:math> </item>
 <item>expression for the magnetic flux through the circuit  <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mtext>Φ</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msqrt>
     <m:mn>3</m:mn>
    </m:msqrt>
    <m:mi>B</m:mi><m:mi>A</m:mi><m:mtext>cos</m:mtext><m:mi>ω</m:mi><m:mi>t</m:mi>
   </m:mrow>
-   </m:semantics>
+   
 </m:math> </item>
 <item>expression for the magnetic flux through the circuit Φ(<emphasis effect="italics">t</emphasis>) = 2<emphasis effect="italics">BA</emphasis> cos <emphasis effect="italics">ωt</emphasis></item>
 </list>

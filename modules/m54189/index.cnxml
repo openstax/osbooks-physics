@@ -1038,7 +1038,7 @@ Part B. Gravity is a very weak force but despite this limitation, Cavendish was 
 </para> -->
 <para id="fs-id1164562395463">Earth has a mass of 5.971×10<sup>24</sup> kg and a radius of 6.371×10<sup>6</sup> m. Use the data to check the value of the gravitational constant.</para>
 <list id="fs-id1164566857402" list-type="enumerated" number-style="lower-alpha"><item> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mn>6.66</m:mn><m:mo>×</m:mo><m:msup>
     <m:mrow>
@@ -1062,10 +1062,10 @@ Part B. Gravity is a very weak force but despite this limitation, Cavendish was 
    </m:mfrac>
    <m:mo>,</m:mo>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>  it matches the value of the gravitational constant G.</item>
 <item> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mn>1.05</m:mn><m:mo>×</m:mo><m:msup>
     <m:mrow>
@@ -1089,10 +1089,10 @@ Part B. Gravity is a very weak force but despite this limitation, Cavendish was 
    </m:mfrac>
    <m:mo>,</m:mo>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>  it matches the value of the gravitational constant G.</item>
 <item> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mn>6.66</m:mn><m:mo>×</m:mo><m:msup>
     <m:mrow>
@@ -1120,10 +1120,10 @@ Part B. Gravity is a very weak force but despite this limitation, Cavendish was 
    </m:mfrac>
    <m:mo>,</m:mo>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>  it matches the value of the gravitational constant G.</item>
 <item> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mn>1.05</m:mn><m:mo>×</m:mo><m:msup>
     <m:mrow>
@@ -1151,7 +1151,7 @@ Part B. Gravity is a very weak force but despite this limitation, Cavendish was 
    </m:mfrac>
    <m:mo>,</m:mo>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>  it matches the value of the gravitational constant G.</item>
 </list></problem>
 </exercise>
