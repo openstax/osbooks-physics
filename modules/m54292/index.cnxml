@@ -84,10 +84,13 @@
     <item><term id="term-00004">Melting</term>—Solid to liquid</item>
     <item><term id="term-00005">Vaporization</term>—Liquid to gas (included boiling and evaporation)</item>
     <item><term id="term-00006">Sublimation</term>—Solid to gas</item>
+    <item><term id="term-00012">Ionization</term>Gas to plasma</item>
     </list>
 <para id="fs-id1167067010910">Phase changes to a less energetic state are as follows:</para><list id="fs-id1167067069622">
 <item><term id="term-00007">Condensation</term>—Gas to liquid</item>
 <item><term id="term-00008">Freezing</term>—Liquid to solid</item>
+<item><term id="term-00013">Recombination</term>—Plasma to gas</item>
+<item><term id="term-00014">Deposition</term>Gas to solid</item>
 </list>
 
 
