@@ -1291,7 +1291,7 @@
 </m:math> </equation><para id="fs-id1167065865017">The least precise measurement is 13.7 kg. This measurement is expressed to the 0.1 decimal place, so our final answer must also be expressed to the 0.1 decimal place. Thus, the answer should be rounded to the tenths place, giving 15.2 kg. The same is true for non-decimal numbers. For example,</para>
 <equation id="fs-id1167065861317" class="unnumbered"><label/> <m:math display="block">
  <m:mrow>
-  <m:mn>6527.23</m:mn><m:mtext/><m:mo>+</m:mo><m:mtext/><m:mn>2</m:mn><m:mtext/><m:mo>=</m:mo><m:mtext/><m:mn>6528.23</m:mn><m:mtext/><m:mo>=</m:mo><m:mtext/><m:mn>6528</m:mn><m:mspace width="0.3em"/><m:mtext>.</m:mtext></m:mrow>
+  <m:mn>6527.23</m:mn><m:mtext/><m:mo>+</m:mo><m:mtext/><m:mn>2</m:mn><m:mtext/><m:mo>=</m:mo><m:mtext/><m:mn>6529.23</m:mn><m:mtext/><m:mo>=</m:mo><m:mtext/><m:mn>6529</m:mn><m:mspace width="0.3em"/><m:mtext>.</m:mtext></m:mrow>
 </m:math>
 </equation><para id="fs-id1167065867046">We cannot report the decimal places in the answer because <emphasis effect="italics">2</emphasis> has no decimal places that would be significant. Therefore, we can only report to the ones place.</para>
 <para id="fs-id1167065957441">It is a good idea to keep extra significant figures while calculating, and to round off to the correct number of significant figures only in the final answers. The reason is that small errors from rounding while calculating can sometimes produce significant errors in the final answer. As an example, try calculating  <m:math>
