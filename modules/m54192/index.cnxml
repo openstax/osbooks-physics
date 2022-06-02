@@ -425,7 +425,7 @@
 <image mime-type="image/jpg" src="../../media/CNX_HSPhysics_07_01_ellipse.jpg"/>
 </media>
 
-<caption>The major axis is the length of the ellipse, and the minor axis is the width of the ellipse. The semi-major axis is half the major axis, and the semi-minor axis is half the minor axis.</caption></figure><para id="fs-id1167065787646">Earth’s orbit is slightly elliptical, with a semi-major axis of 152 million km and a semi-minor axis of 147 million km. If Earth’s period is 365.26 days, what area does an Earth-to-sun line sweep past in one day?</para>
+<caption>The major axis is the length of the ellipse, and the minor axis is the width of the ellipse. The semi-major axis is half the major axis, and the semi-minor axis is half the minor axis.</caption></figure><para id="fs-id1167065787646">Earth’s orbit is very slightly elliptical, with a semi-major axis of 1.49598 × 10<sup>8</sup>  km and a semi-minor axis of 1.49577 × 10<sup>8</sup> km. If Earth’s period is 365.26 days, what area does an Earth-to-sun line sweep past in one day?</para>
 
 <note id="fs-id1167065735846">
 <label/>
@@ -486,7 +486,7 @@
        <m:mrow>
         <m:mi>π</m:mi><m:mrow><m:mo>(</m:mo>
          <m:mrow>
-          <m:mn>1.47</m:mn><m:mo>×</m:mo><m:msup>
+          <m:mn>1.496</m:mn><m:mo>×</m:mo><m:msup>
            <m:mrow>
             <m:mn>10</m:mn></m:mrow>
            <m:mn>8</m:mn>
@@ -494,7 +494,7 @@
           <m:mtext> km</m:mtext></m:mrow>
         <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
          <m:mrow>
-          <m:mn>1.52</m:mn><m:mo>×</m:mo><m:msup>
+          <m:mn>1.496</m:mn><m:mo>×</m:mo><m:msup>
            <m:mrow>
             <m:mn>10</m:mn></m:mrow>
            <m:mn>3</m:mn>
@@ -514,7 +514,7 @@
     </m:mtd>
     <m:mtd rowalign="center" columnalign="left">
      <m:mrow>
-      <m:mn>1.92</m:mn><m:mo>×</m:mo><m:msup>
+      <m:mn>1.93</m:mn><m:mo>×</m:mo><m:msup>
        <m:mrow>
         <m:mn>10</m:mn></m:mrow>
        <m:mrow>
@@ -533,7 +533,7 @@
 </m:math> </equation>
 <para id="fs-id1167066091834">The area swept out in one day is thus  <m:math>
  <m:mrow>
-  <m:mn>1.92</m:mn><m:mo>×</m:mo><m:msup>
+  <m:mn>1.93</m:mn><m:mo>×</m:mo><m:msup>
    <m:mrow>
     <m:mn>10</m:mn></m:mrow>
    <m:mrow>
