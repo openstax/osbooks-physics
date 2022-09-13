@@ -1048,24 +1048,24 @@
 <list id="fs-id1167065848802">
 <item>Week 1 weight:  <m:math>
  <m:mrow>
-  <m:mn>4.</m:mn><m:mspace width="0.3em"/><m:mtext>8</m:mtext><m:mtext>lb</m:mtext></m:mrow>
+  <m:mn>4.8</m:mn><m:mspace width="0.4em"/><m:mtext>lb</m:mtext></m:mrow>
 </m:math>
 </item>
 <item>Week 2 weight:  <m:math>
  <m:mrow>
-  <m:mn>5.3</m:mn><m:mspace width="0.3em"/><m:mtext>lb</m:mtext></m:mrow>
+  <m:mn>5.3</m:mn><m:mspace width="0.4em"/><m:mtext>lb</m:mtext></m:mrow>
 </m:math> </item>
 <item>Week 3 weight:  <m:math>
  <m:mrow>
-  <m:mn>4.</m:mn><m:mspace width="0.3em"/><m:mtext>9</m:mtext><m:mtext>lb</m:mtext></m:mrow>
+  <m:mn>4.9</m:mn><m:mspace width="0.4em"/><m:mtext>lb</m:mtext></m:mrow>
 </m:math>
 </item>
 <item>Week 4 weight:  <m:math>
  <m:mrow>
-  <m:mn>5.4</m:mn><m:mspace width="0.3em"/><m:mtext>lb</m:mtext></m:mrow>
+  <m:mn>5.4</m:mn><m:mspace width="0.4em"/><m:mtext>lb</m:mtext></m:mrow>
 </m:math> </item>
 </list>
-<para id="fs-id1167065949526">You determine that the weight of the 5 lb bag has an uncertainty of ±0.4 lb. What is the percent uncertainty of the bag’s weight?</para><note id="fs-id1167065850982"><label/><title>Strategy</title>
+<para id="fs-id1167065949526">You determine that the expected weight of a 5 lb bag has an uncertainty of ±0.4 lb. What is the percent uncertainty of the bag’s weight?</para><note id="fs-id1167065850982"><label/><title>Strategy</title>
 <para id="fs-id1167065866955">First, observe that the expected value of the bag’s weight,  <m:math><m:mi>A</m:mi></m:math>, is 5 lb. The uncertainty in this value,  <m:math><m:mrow><m:mi>δ</m:mi><m:mi>A</m:mi></m:mrow></m:math>, is 0.4 lb. We can use the following equation to determine the percent uncertainty of the weight</para>
 <equation id="fs-id1167065916500" class="unnumbered"><label/> <m:math>
  <m:mrow>
