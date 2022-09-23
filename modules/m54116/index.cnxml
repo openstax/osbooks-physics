@@ -55,7 +55,7 @@
 <para id="fs-idp12605072"><span>[OL]</span><span>[AL]</span> Explain that this section introduces five equations that allow us to solve a wider range of problems than just finding acceleration from time and velocity. Review graphical analysis, including axes, algebraic signs, how to designate points on a coordinate plane, i.e., (<emphasis effect="italics">x</emphasis>, <emphasis effect="italics">y</emphasis>), slopes, and intercepts. Explain that these equations can also be represented graphically.</para>
 </note></section>
 
-<section id="fs-idm57946960"><title>How the Kinematic Equations are Related to Acceleration</title><para id="fs-idm7760528">We are studying concepts related to motion: time, displacement, <term class="no-emphasis" id="term-00001">velocity</term>, and especially acceleration. We are only concerned with motion in one dimension. The <term id="term-00002">kinematic equations</term> apply to conditions of constant acceleration and show how these concepts are related. <term id="term-00003">Constant acceleration</term> is acceleration that does not change over time. The first kinematic equation relates displacement <emphasis effect="italics">d</emphasis>, average velocity  <m:math>
+<section id="fs-idm57946960"><title>How the Kinematic Equations are Related to Acceleration</title><para id="fs-idm7760528">We are studying concepts related to motion: time, displacement, <term class="no-emphasis" id="term-00001">velocity</term>, and especially acceleration. We are only concerned with motion in one dimension. The <term id="term-00002">kinematic equations</term> that we will be using apply to conditions of constant acceleration, except where noted, and show how these concepts are related. <term id="term-00003">Constant acceleration</term> is acceleration that does not change over time. The first kinematic equation relates displacement <emphasis effect="italics">d</emphasis>, average velocity  <m:math>
 <m:mover accent="true">
 <m:mi>v</m:mi>
 <m:mo>¯</m:mo>
@@ -78,7 +78,7 @@ The initial displacement  <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mn>0</m:mn></
   </m:mfrac>
  </m:mrow>
 </m:math>
-</para><para id="fs-idp18709056">This equation says that average velocity is <term class="no-emphasis" id="term-00004">displacement</term> per unit time. We will express velocity in meters per second. If we graph displacement versus time, as in <link target-id="Figure_03_02_displace"/>, the slope will be the velocity. Whenever a rate, such as velocity, is represented graphically, time is usually taken to be the independent variable and is plotted along the <emphasis effect="italics">x</emphasis> axis.</para>
+</para><para id="fs-idp18709056">This equation, which is the definition of average velocity and valid for both constant and non-constant acceleration, says that average velocity is <term class="no-emphasis" id="term-00004">displacement</term> per unit time. We will express velocity in meters per second. If we graph displacement versus time, as in <link target-id="Figure_03_02_displace"/>, the slope will be the velocity. Whenever a rate, such as velocity, is represented graphically, time is usually taken to be the independent variable and is plotted along the <emphasis effect="italics">x</emphasis> axis.</para>
 <figure id="Figure_03_02_displace">
 <media id="fs-idp23485472" alt=" A line graph is shown. The x-axis is labeled time and includes a directional arrow pointing to the right. The y-axis is labeled displacement and includes a directional arrow pointing upward. The graphed line shows a directly proportional relationship between time and displacement.">
 <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_03_02_displace.jpg"/>
@@ -97,7 +97,7 @@ The initial displacement  <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mn>0</m:mn></
   </m:mrow>
  
 </m:math>
- is simply the initial velocity plus the final velocity divided by two.</para>
+ is simply the initial velocity plus the final velocity divided by two. This equation is only valid for constant acceleration.</para>
 
 <equation id="fs-idp18271280"><label/> <m:math><m:mrow><m:mover accent="true">
 <m:mi>v</m:mi>
@@ -1100,6 +1100,7 @@ The initial displacement  <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mn>0</m:mn></
 <item>The kinematic equations show how time, displacement, velocity, and acceleration are related for objects in motion.</item>
 <item>In general, kinematic problems can be solved by identifying the kinematic equation that expresses the unknown in terms of the knowns.</item>
 <item>Displacement, velocity, and acceleration may be displayed graphically versus time.</item>
+<item>The kinematic equations in this section are valid only for constant acceleration.</item>
 </list>
 </section>
 
@@ -1159,7 +1160,7 @@ The initial displacement  <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mn>0</m:mn></
 </m:math> </entry>
   </row>
   <row>
-    <entry>Velocity</entry>
+    <entry>Velocity with constant acceleration</entry>
     <entry> <m:math>
  <m:mrow>
   <m:mi>v</m:mi><m:mo>=</m:mo><m:msub>
@@ -1168,10 +1169,12 @@ The initial displacement  <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mn>0</m:mn></
   </m:msub>
   <m:mo>+</m:mo><m:mi>a</m:mi><m:mi>t</m:mi>
  </m:mrow>
-</m:math>, or  when <emphasis effect="italics">v</emphasis><sub>0</sub> = 0</entry>
+</m:math>, or <m:math>
+  <m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mi>t</m:mi></m:mrow>
+</m:math> when <emphasis effect="italics">v</emphasis><sub>0</sub> = 0</entry>
   </row>
   <row>
-    <entry>Displacement</entry>
+    <entry>Displacement with constant acceleration</entry>
     <entry> <m:math>
  <m:mrow>
   <m:mi>d</m:mi><m:mo>=</m:mo><m:msub>
@@ -1208,7 +1211,7 @@ The initial displacement  <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mn>0</m:mn></
 </m:math>  when <emphasis effect="italics">d</emphasis><sub>0</sub> = 0 and <emphasis effect="italics">v</emphasis><sub>0</sub> = 0</entry>
   </row>
   <row>
-    <entry>Acceleration</entry>
+    <entry>Constant acceleration</entry>
     <entry> <m:math>
  <m:mrow>
   <m:msup>
@@ -1640,7 +1643,7 @@ The initial displacement  <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mn>0</m:mn></
 <term>constant acceleration</term><meaning id="fs-idp48805648">acceleration that does not change with respect to time</meaning>
 </definition>
 <definition id="fs-idp6209888">
-<term>kinematic equations</term><meaning id="fs-idp29475632">the five equations that describe motion in terms of time, displacement, velocity, and acceleration</meaning>
+<term>kinematic equations</term><meaning id="fs-idp29475632">the five equations that describe constant acceleration motion in terms of time, displacement, velocity, and acceleration</meaning>
 </definition>
 </glossary>
 

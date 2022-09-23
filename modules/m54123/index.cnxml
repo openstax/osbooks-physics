@@ -153,7 +153,7 @@
   <m:mtext>.</m:mtext>
  </m:mrow>
 </m:math>
-</equation><para id="fs-idp22305568">Average acceleration is distinguished from <term id="term-00006">instantaneous acceleration</term>, which is acceleration at a specific instant in time. The magnitude of acceleration is often not constant over time. For example, runners in a race accelerate at a greater rate in the first second of a race than during the following seconds. You do not need to know all the instantaneous accelerations at all times to calculate average acceleration. All you need to know is the change in velocity (i.e., the final velocity minus the initial velocity) and the change in time (i.e., the final time minus the initial time), as shown in the formula. Note that the average acceleration can be positive, negative, or zero. A <term id="term-00007">negative acceleration</term> is simply an acceleration in the negative direction.</para>
+</equation><para id="fs-idp22305568">Average acceleration is distinguished from <term id="term-00006">instantaneous acceleration</term>, which is acceleration at a specific instant in time. The magnitude of acceleration is often not constant over time. For example, runners in a race accelerate at a greater rate in the first second of a race than during the following seconds. You do not need to know all the instantaneous accelerations at all times to calculate average acceleration. All you need to know is the change in velocity (i.e., the final velocity minus the initial velocity) and the change in time (i.e., the final time minus the initial time), as shown in the formula. A component of the average acceleration can be positive, negative, or zero. A <term id="term-00007">negative acceleration</term> component is simply an acceleration in the negative direction along that axis. When the motion is in one dimension, we often simply refer to this as negative acceleration, and acceleration in the positive direction as positive acceleration.</para>
 <para id="fs-idp25862848">Keep in mind that although acceleration points in the same direction as the <emphasis effect="italics">change</emphasis> in velocity, it is not always in the direction of the velocity itself. When an object slows down, its acceleration is opposite to the direction of its velocity. In everyday language, this is called deceleration; but in physics, it is acceleration—whose direction happens to be opposite that of the velocity. For now, let us assume that motion to the right along the <emphasis effect="italics">x</emphasis>-axis is <emphasis effect="italics">positive</emphasis> and motion to the left is <emphasis effect="italics">negative</emphasis>.</para>
 <para id="fs-idp37610544"><link target-id="Figure_03_01_Car"/> shows a car with positive acceleration in (a) and negative acceleration in (b). The arrows represent vectors showing both direction and magnitude of velocity and acceleration.</para>
 <figure id="Figure_03_01_Car">
@@ -163,7 +163,7 @@
 <caption>The car is speeding up in (a) and slowing down in (b).</caption>
 </figure>
 
-<para id="fs-idp56616272">Velocity and acceleration are both <term class="no-emphasis" id="term-00008">vector quantities</term>. Recall that vectors have both magnitude and direction. An object traveling at a constant velocity—therefore having no acceleration—does accelerate if it changes direction. So, turning the steering wheel of a moving car makes the car accelerate because the velocity changes direction.</para>
+<para id="fs-idp56616272">Velocity and acceleration are both <term class="no-emphasis" id="term-00008">vector quantities</term>. Recall that vectors have both magnitude and direction. An object traveling at a constant speed does accelerate if it changes direction. So, turning the steering wheel of a moving car makes the car accelerate because the velocity changes direction.</para>
 <note id="fs-idp56122560" class="virtual-physics"><title>The Moving Man</title><para id="fs-idp24239584">With this animation, you can produce both variations of acceleration and velocity shown in <link target-id="Figure_03_01_Car"/>, plus a few more variations. Vary the velocity and acceleration by sliding the red and green markers along the scales. Keeping the velocity marker near zero will make the effect of acceleration more obvious. Try changing acceleration from positive to negative while the man is moving. We will come back to this animation and look at the <emphasis effect="italics">Charts</emphasis> view when we study graphical representation of motion.</para>
 
 <media id="fs-id1167066948382" alt="The Moving Man Simulation allows you to study graphical representation of motion.">
@@ -194,7 +194,9 @@
 </exercise></note></section><section id="fs-idm27472368">
 <title>Calculating Average Acceleration</title>
 <para id="fs-idp36840768">Look back at the equation for average acceleration. You can see that the calculation of average acceleration involves three values: change in time, (Δ<emphasis effect="italics">t</emphasis>); change in velocity, (Δ<emphasis effect="italics">v</emphasis>); and acceleration (<emphasis effect="italics">a</emphasis>).</para>
-<para id="fs-idp41662800">Change in <term class="no-emphasis" id="term-00009">time</term> is often stated as a time interval, and change in velocity can often be calculated by subtracting the initial velocity from the final velocity. Average acceleration is then simply change in velocity divided by change in time. Before you begin calculating, be sure that all distances and times have been converted to meters and seconds. Look at these examples of acceleration of a subway train.</para><note id="fs-idm2891888" class="os-teacher"><title>Teacher Support</title>
+<para id="fs-idp41662800">Change in <term class="no-emphasis" id="term-00009">time</term> is often stated as a time interval, and change in velocity can often be calculated by subtracting the initial velocity from the final velocity. Average acceleration is then simply change in velocity divided by change in time. Before you begin calculating, be sure that all distances and times have been converted to meters and seconds. Look at these examples of acceleration of a subway train.</para>
+<para id="para-00001">Recall that for analysis of motion in only one dimension, we do not need to use vectors. Instead, we can treat displacement, velocity, and acceleration as scalars. Unlike magnitudes, scalars can be positive or negative, so the sign can serve to tell us the direction along the one-dimensional axis.</para>
+<note id="fs-idm2891888" class="os-teacher"><title>Teacher Support</title>
 <para id="fs-idp6692672"><span>[BL]</span><span>[OL]</span> Before beginning the calculations, verify that students understand the equation for acceleration. Do they understand what it means when quantities have a plus or minus sign? Do they understand the units for each variable?</para>
 </note><note id="fs-idp42721584" class="worked-example"><title>An Accelerating Subway Train</title>
 <exercise id="fs-idp17233664" class="03-ex002 unnumbered"><label/>
@@ -587,49 +589,8 @@
 </problem>
 </exercise></section><section id="fs-idm9378240" class="summary">
 <title>Section Summary</title>
-<list id="fs-idm9527648"><item>Acceleration is the rate of change of velocity and may be negative or positive.</item>
-<item>Average acceleration is expressed in m/s<sup>2</sup> and, in one dimension, can be calculated using  <m:math>
- <m:mrow>
-  <m:mover accent="true">
-   <m:mi>a</m:mi>
-   <m:mo>¯</m:mo>
-  </m:mover>
-  <m:mo>=</m:mo><m:mfrac>
-   <m:mrow>
-    <m:mi>Δ</m:mi><m:mi>v</m:mi>
-   </m:mrow>
-   <m:mrow>
-    <m:mi>Δ</m:mi><m:mi>t</m:mi>
-   </m:mrow>
-  </m:mfrac>
-  <m:mo>=</m:mo><m:mfrac>
-   <m:mrow>
-    <m:msub>
-     <m:mi>v</m:mi>
-     <m:mtext>f</m:mtext>
-    </m:msub>
-    <m:mo>−</m:mo><m:msub>
-     <m:mi>v</m:mi>
-     <m:mn>0</m:mn>
-    </m:msub>
-
-   </m:mrow>
-   <m:mrow>
-    <m:msub>
-     <m:mi>t</m:mi>
-     <m:mtext>f</m:mtext>
-    </m:msub>
-    <m:mo>−</m:mo><m:msub>
-     <m:mi>t</m:mi>
-     <m:mi>o</m:mi>
-    </m:msub>
-
-   </m:mrow>
-  </m:mfrac>
-  <m:mtext>.</m:mtext>
- </m:mrow>
-</m:math>
-</item>
+<list id="fs-idm9527648"><item>Acceleration is the rate of change of velocity. Its magnitude is expressed in units of m/s<sup>2</sup>.</item>
+<item>The components of acceleration may be positive or negative.</item>
 </list></section>
 
 <section id="fs-idp35380400" class="key-equations"><title>Key Equations</title><table id="eip-972" class="unnumbered unstyled" summary="The list of Key Equations includes the equation for average acceleration"><label/>
@@ -879,7 +840,7 @@
 <term>instantaneous acceleration</term> <meaning id="fs-idm46472224">rate of change of velocity at a specific instant in time</meaning>
 </definition>
 <definition id="fs-idp14365632">
-<term>negative acceleration</term> <meaning id="fs-idm23612832">acceleration in the negative direction</meaning>
+<term>negative acceleration</term> <meaning id="fs-idm23612832">a component of acceleration in the negative direction of the component axis</meaning>
 </definition>
 </glossary>
 

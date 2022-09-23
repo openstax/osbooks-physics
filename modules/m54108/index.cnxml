@@ -212,7 +212,7 @@
       </note>
       <para id="fs-id1167067039297">If you are describing only your drive to school, then the distance traveled and the displacement are the same—5 kilometers. When you are describing the entire round trip, distance and displacement are different. When you describe distance, you only include the <term id="term-00012">magnitude</term>, the size or amount, of the distance traveled. However, when you describe the displacement, you take into account both the magnitude of the change in position and the direction of movement.</para>
       <para id="fs-id1167067292383">In our previous example, the car travels a total of 10 kilometers, but it drives five of those kilometers forward toward school and five of those kilometers back in the opposite direction. If we ascribe the forward direction a positive (+) and the opposite direction a negative (–), then the two quantities will cancel each other out when added together.</para>
-      <para id="fs-id1167066854758">A quantity, such as distance, that has magnitude (i.e., how big or how much) but does not take into account direction is called a <term id="term-00013">scalar</term>. A quantity, such as displacement, that has both magnitude and direction is called a <term id="term-00014">vector</term>.</para>
+      <para id="fs-id1167066854758">A quantity, such as distance, that has magnitude (i.e., how big or how much) and sometimes a sign (e.g., electric charge, temperature in Celsius, or component of a vector) but does not take into account direction is called a <term id="term-00013">scalar</term>. A quantity, such as displacement, that has both magnitude and direction is called a <term id="term-00014">vector</term>. A vector with magnitude zero is a special case of a vector which has no direction.</para>
       <note id="fs-id1167063511963" class="watch-physics"><title>Vectors &amp; Scalars</title>
 
         <para id="fs-id1167067031806">This <link url="http://openstax.org/l/28vectorscalar">video</link> introduces and differentiates between vectors and scalars. It also introduces quantities that we will be working with during the study of kinematics.</para>
@@ -579,7 +579,7 @@
     <definition id="fs-id1167067028379"><term>magnitude</term> <meaning id="fs-id1167063535955">size or amount</meaning></definition>
     <definition id="fs-id1167066984863"><term>position</term> <meaning id="fs-id1167066790078">the location of an object at any particular time</meaning></definition>
     <definition id="fs-id1167066975728"><term>reference frame</term> <meaning id="fs-id1167066940039">a coordinate system from which the positions of objects are described</meaning></definition>
-    <definition id="fs-id1167067106156"><term>scalar</term> <meaning id="fs-id1167067192913">a quantity that has magnitude but no direction</meaning></definition>
+    <definition id="fs-id1167067106156"><term>scalar</term> <meaning id="fs-id1167067192913">a quantity that has magnitude (and possibly sign) but no direction</meaning></definition>
     <definition id="fs-id1167067143060"><term>vector</term> <meaning id="fs-id1167066799686">a quantity that has both magnitude and direction</meaning></definition>
 
   </glossary>
