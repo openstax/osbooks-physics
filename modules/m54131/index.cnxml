@@ -584,7 +584,7 @@ Introduce the concepts of systems and systems of interest. Explain how forces ca
 </exercise></section><section id="fs-idp21712016" class="critical-thinking"><title>Critical Thinking</title>
 <exercise id="fs-idm8995088" class="os-exercise"><problem id="fs-idm32982640"><!--<para id="fs-idm50512880"><link class="os-embed" url="#ost/api/ex/k12phys-ch04-ex062"/></para>-->
 
-<para id="fs-id1164559107351">True or False: A person accelerates while walking on the ground by exerting force. The ground in turn exerts force F<sub>2</sub> on the person. F<sub>1</sub> and F<sub>2</sub> are equal in magnitude but act in opposite directions. The person is able to walk because the two forces act on the different systems and the net force acting on the person is nonzero.</para><list id="fs-id1164562108831" list-type="enumerated" number-style="lower-alpha">
+<para id="fs-id1164559107351">True or False: A person accelerates while walking on the ground by exerting force F<sub>1</sub>. The ground in turn exerts force F<sub>2</sub> on the person. F<sub>1</sub> and F<sub>2</sub> are equal in magnitude but act in opposite directions. The person is able to accelerate because the two forces act on the different systems and the net force acting on the person is nonzero.</para><list id="fs-id1164562108831" list-type="enumerated" number-style="lower-alpha">
 <item>True</item>
 <item>False</item>
 </list>
@@ -619,7 +619,7 @@ Introduce the concepts of systems and systems of interest. Explain how forces ca
 <section id="fs-idp19696064" class="performance">
 <title>Performance Task</title>
 <exercise id="fs-id1167066095898" class="os-exercise"><problem id="fs-idm59599488"><!--<para id="fs-idp45540064"><link class="os-embed" url="#ost/api/ex/k12phys-ch04-ex064"/></para>-->
-<para id="fs-id1164562263513">A car weighs 2,000 kg. It moves along a road by applying a force on the road with a parallel component of 560 N. There are two passengers in the car, each weighing 55 kg. If the magnitude of the force of friction experienced by the car is 45 N, what is the acceleration of the car?</para><list id="fs-id1164561966057" list-type="enumerated" number-style="lower-alpha">
+<para id="fs-id1164562263513">A car weighs 2,000 kg. It moves along a road by applying a force on the road with a parallel component of 560 N. There are two passengers in the car, each weighing 55 kg. If the magnitude of the drag experienced by the car is 45 N, what is the acceleration of the car?</para><list id="fs-id1164561966057" list-type="enumerated" number-style="lower-alpha">
 <item>0.244 m/s<sup>2</sup></item>
 <item>0.265 m/s<sup>2</sup></item>
 <item>4.00 m/s<sup>2</sup></item>

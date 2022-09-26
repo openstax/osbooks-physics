@@ -201,7 +201,7 @@
         <m:mrow>
           <m:mi>θ</m:mi>
         </m:mrow>
-      </m:math> .</para><para id="fs-id1167066840531">For a simple pendulum, The period is <m:math>
+      </m:math> .</para><para id="fs-id1167066840531">For small angle oscillations of a simple pendulum, the period is <m:math>
       <m:mrow>
         <m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt>
           <m:mrow>
@@ -766,7 +766,7 @@
   <glossary>
     <definition id="fs-id1167066971983"><term>amplitude</term> <meaning id="fs-id1167066793954">the maximum displacement from the equilibrium position of an object oscillating around the equilibrium position</meaning></definition>
     <definition id="fs-id1167066866178"><term>deformation</term> <meaning id="fs-id1167066845080">displacement from equilibrium, or change in shape due to the application of force</meaning></definition>
-    <definition id="fs-id1167066791270"><term>equilibrium position</term> <meaning id="fs-id1167066953218">where an object would naturally rest in the absence of force</meaning></definition>
+    <definition id="fs-id1167066791270"><term>equilibrium position</term> <meaning id="fs-id1167066953218">where an object would naturally rest in the absence of a net force</meaning></definition>
     <definition id="fs-id1167067029291"><term>frequency</term> <meaning id="fs-id1167067075181">number of events per unit of time</meaning></definition>
     <definition id="fs-id1167067075184"><term>Hooke’s law</term> <meaning id="fs-id1167066963037">proportional relationship between the force <emphasis>F</emphasis> on a material and the deformation <m:math>
       <m:mrow>
@@ -780,7 +780,7 @@
     <definition id="fs-id1167066983805"><term>oscillate</term> <meaning id="fs-id1167066983809">moving back and forth regularly between two points</meaning></definition>
     <definition id="fs-id1167066983812"><term>period</term> <meaning id="fs-id1167066828747">time it takes to complete one oscillation</meaning></definition>
     <definition id="fs-id1167066828751"><term>periodic motion</term> <meaning id="fs-id1167067071093">motion that repeats itself at regular time intervals</meaning></definition>
-    <definition id="fs-id1167067071096"><term>restoring force</term> <meaning id="fs-id1167066974528">force acting in opposition to the force caused by a deformation</meaning></definition>
+    <definition id="fs-id1167067071096"><term>restoring force</term> <meaning id="fs-id1167066974528">force acting in opposition to the force causing the deformation</meaning></definition>
     <definition id="fs-id1167066974531"><term>simple harmonic motion</term> <meaning id="fs-id1167066975355">the oscillatory motion in a system where the net force can be described by Hooke’s law</meaning></definition>
     <definition id="fs-id1167066975360"><term>simple pendulum</term> <meaning id="fs-id1167066884762">an object with a small mass suspended from a light wire or string</meaning></definition>
   </glossary>

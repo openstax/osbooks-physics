@@ -303,10 +303,12 @@
 
 <section id="fs-idp17318416" class="multiple-choice"><title>Test Prep Multiple Choice</title>
 <exercise id="fs-idp21966320" class="os-exercise"><problem id="fs-idp2274544"><!--<para id="fs-idm9570096"><link class="os-embed" url="#ost/api/ex/k12phys-ch04-ex026"/></para>-->
-<para id="fs-id1164566075110">What kind of force is friction?</para>
-<list id="fs-id1164564304366" list-type="enumerated" number-style="lower-alpha"><item>External force</item>
-<item>Internal force</item>
-<item>Net force</item>
+<para id="fs-id1164566075110">Which of the following does the friction force NOT depend on?</para>
+<list id="fs-id1164564304366" list-type="enumerated" number-style="lower-alpha">
+<item>The normal force on the object</item>
+<item>The nature of the contact surface</item>
+<item>The speed of the object</item>
+<item>The direction of the object's motion</item>
 </list></problem></exercise>
 <exercise id="fs-idp6477280" class="os-exercise"><problem id="fs-idp78160720"><!--<para id="fs-idp18707408"><link class="os-embed" url="#ost/api/ex/k12phys-ch04-ex027"/></para>-->
 
@@ -394,5 +396,6 @@
 <definition id="fs-idp90697696"><term>mass</term> <meaning id="fs-idm27622608">the quantity of matter in a substance; the SI unit of mass is the kilogram</meaning></definition>
 <definition id="fs-idp45591104"><term>Newton’s first law of motion</term> <meaning id="fs-idm52378368">a body at rest remains at rest or, if in motion, remains in motion at a constant speed in a straight line, unless acted on by a net external force; also known as the law of inertia</meaning></definition>
 <definition id="fs-idp41223520"><term>system</term> <meaning id="fs-idp33868976">one or more objects of interest for which only the forces acting on them from the outside are considered, but not the forces acting between them or inside them</meaning></definition>
+<definition id="def-00001"><term>rolling resistance</term> <meaning>various forces that may impede a rolling wheel; these include axle friction, drag, and imperfectly elastic deformation of the wheel and/or surface</meaning></definition>
 </glossary>
 </document>

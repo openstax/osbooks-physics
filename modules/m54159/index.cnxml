@@ -38,8 +38,8 @@
 </section>
       <section id="fs-id1167066946202">
         <title>Static Friction and Kinetic Friction</title>
-        <para id="fs-id1167067184786">Recall from the previous chapter that friction is a force that opposes motion, and is around us all the time. Friction allows us to move, which you have discovered if you have ever tried to walk on ice.</para>
-        <para id="fs-id1167066811244">There are different types of friction—kinetic and static. <term id="term-00001">Kinetic friction</term> acts on an object in motion, while <term id="term-00002">static friction</term> acts on an object or system at rest. The maximum static friction is usually greater than the kinetic friction between the objects.</para>
+        <para id="fs-id1167067184786">Recall from the previous chapter that friction is a force that opposes relative motion parallel to the contact surface of the interacting objects and is around us all the time. Friction allows us to move, which you have discovered if you have ever tried to walk on ice.</para>
+        <para id="fs-id1167066811244">There are different types of friction—kinetic and static. <term id="term-00001">Kinetic friction</term> acts on an object in relative motion, while <term id="term-00002">static friction</term> acts on an object or system at rest relative to each other. The maximum static friction is usually greater than the kinetic friction between the objects.</para>
         <note id="fs-id1167067040886" class="os-teacher">
           <title>Teacher Support</title>
           <para id="fs-id1167067074318"><span>[BL]</span><span>[OL]</span> Review the concept of friction.</para>
@@ -79,7 +79,7 @@
             </m:msub>
 
           </m:mrow>
-        </m:math> is the coefficient of static friction and <emphasis>N</emphasis> is the magnitude of the normal force. Recall that the normal force opposes the force of gravity and acts perpendicular to the surface in this example, but not always.</para><para id="fs-id1167066879604">Since the symbol <m:math>
+        </m:math> is the coefficient of static friction and <emphasis>N</emphasis> is the magnitude of the normal force. Recall that the normal force acts perpendicular to the surface and prevents the crate from falling through the floor. It opposes the force of gravity in this example, but that will not always be the case.</para><para id="fs-id1167066879604">Since the symbol <m:math>
           <m:mrow>
             <m:mo>≤</m:mo>
           </m:mrow>
@@ -225,7 +225,7 @@
             </tbody>
 
 </tgroup>
-</table><para id="fs-id1167066838720">Since the direction of friction is always opposite to the direction of motion, friction runs parallel to the surface between objects and perpendicular to the normal force. For example, if the crate you try to push (with a force parallel to the floor) has a mass of 100 kg, then the normal force would be equal to its weight</para>
+</table><para id="fs-id1167066838720">Since friction always opposes relative motion, the direction of friction is upward along the plane if the object is at rest or sliding down the incline. For example, if the crate you try to push (with a force parallel to the floor) has a mass of 100 kg, then the normal force would be equal to its weight</para>
         <equation id="fs-id1167066858565" class="unnumbered"><label/>
            <m:math display="block">
             <m:mrow>
@@ -270,7 +270,7 @@
               <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>N</m:mi></m:mstyle><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.30</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>980</m:mn><m:mspace width="0.3em"/><m:mtext> N)</m:mtext><m:mo>=</m:mo><m:mn>290</m:mn><m:mspace width="0.3em"/><m:mtext> N</m:mtext>
             </m:mrow>
           </m:math>
-        </equation><para id="fs-id1167067082956">would keep it moving at a constant speed. If the floor were lubricated, both coefficients would be much smaller than they would be without lubrication. The coefficient of friction is unitless and is a number usually between 0 and 1.0. </para>
+        </equation><para id="fs-id1167067082956">would keep it moving at a constant speed. If the floor were lubricated, both coefficients would be much smaller than they would be without lubrication. The coefficient of friction is unitless and is a number usually between 0 and 1.0, but there is no theoretical upper limit to its value.</para>
       </section>
     <section id="fs-id1167067194746"><title>Working with Inclined Planes</title><para id="fs-id1167066874236">We discussed previously that when an object rests on a horizontal surface, there is a normal force supporting it equal in magnitude to its weight. Up until now, we dealt only with normal force in one dimension, with gravity and normal force acting perpendicular to the surface in opposing directions (gravity downward, and normal force upward). Now that you have the skills to work with forces in two dimensions, we can explore what happens to weight and the normal force on a tilted surface such as an inclined plane. For inclined plane problems, it is easier breaking down the forces into their components if we rotate the coordinate system, as illustrated in <link target-id="Figure_05_04_weight"/>. The first step when setting up the problem is to break down the force of weight into components.</para>
       <figure id="Figure_05_04_weight">

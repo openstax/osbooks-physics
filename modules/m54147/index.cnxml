@@ -580,6 +580,27 @@
           </m:mrow>
         </m:math>
       </equation>
+  <para id="para-00001">Note that <m:math><m:msup>
+        <m:mrow>
+          <m:mtext>tan</m:mtext>
+        </m:mrow>
+        <m:mrow>
+          <m:mo>−</m:mo><m:mn>1</m:mn>
+        </m:mrow>
+      </m:msup><m:mo stretchy="false">(</m:mo><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo></m:math> gives an angle in the first quadrant if 
+      <m:math><m:mrow>
+        <m:msub><m:mi>A</m:mi><m:mi>y</m:mi></m:msub><m:mo>/</m:mo><m:msub><m:mi>A</m:mi><m:mi>x</m:mi></m:msub><m:mspace width="0.2em"/><m:mo>></m:mo><m:mspace width="0.2em"/><m:mn>0</m:mn>
+      </m:mrow></m:math> and in the fourth quadrant if 
+      <m:math><m:mrow>
+        <m:msub><m:mi>A</m:mi><m:mi>y</m:mi></m:msub><m:mo>/</m:mo><m:msub><m:mi>A</m:mi><m:mi>x</m:mi></m:msub><m:mspace width="0.2em"/><m:mo>&lt;</m:mo><m:mspace width="0.2em"/><m:mn>0</m:mn>
+      </m:mrow></m:math>. If, in fact, both <m:math><m:msub><m:mi>A</m:mi><m:mi>x</m:mi></m:msub></m:math> and <m:math><m:msub><m:mi>A</m:mi><m:mi>y</m:mi></m:msub></m:math> are negative, or if <m:math><m:msub><m:mi>A</m:mi><m:mi>x</m:mi></m:msub></m:math> is negative and <m:math><m:msub><m:mi>A</m:mi><m:mi>y</m:mi></m:msub></m:math> positive, then <m:math><m:mi>θ</m:mi></m:math>, measured from the positive <m:math><m:mi>x</m:mi></m:math> direction, is 
+      <m:math><m:mrow><m:msup><m:mrow>
+        <m:mtext>tan</m:mtext></m:mrow>
+      <m:mrow>
+        <m:mo>–</m:mo><m:mn>1</m:mn></m:mrow></m:msup>
+     <m:mo stretchy="false">(</m:mo><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>180</m:mn><m:mtext>°</m:mtext>
+    </m:mrow>
+      </m:math>.</para>
       <para id="fs-id1167067064195">Since this is a right triangle, the Pythagorean theorem (x<sup>2</sup> + y<sup>2</sup> = h<sup>2</sup>) for finding the hypotenuse applies. In this case, it becomes<newline count="1"/></para><equation id="fs-id1167066880042" class="unnumbered"><label/> <m:math>
         <m:mrow>
           <m:msup>
@@ -2288,6 +2309,6 @@ A person walks 10.0 m north and then 2.00 m east. Solving analytically, what is 
 </content>
 <glossary>
   <definition id="fs-id1167067087001"><term>analytical method</term> <meaning id="fs-id1167067087006">the method of determining the magnitude and direction of a resultant vector using the Pythagorean theorem and trigonometric identities</meaning></definition>
-  <definition id="fs-id1167067087010"><term>component (of a 2-dimensional vector)</term> <meaning id="fs-id1167067087015">a piece of a vector that points in either the vertical or the horizontal direction; every 2-d vector can be expressed as a sum of two vertical and horizontal vector components</meaning></definition>
+  <definition id="fs-id1167067087010"><term>component (of a 2-dimensional vector)</term> <meaning id="fs-id1167067087015">a piece of a vector that points in a particular direction, usually in the direction of one of the axes of a chosen coordinate system; every 2-d vector can be expressed as a sum of two perpendicular vector components</meaning></definition>
 </glossary>
 </document>
