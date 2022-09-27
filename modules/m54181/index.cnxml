@@ -102,7 +102,7 @@
  <m:math>
  <m:mrow>
   <m:msub>
-   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>a</m:mi></m:mstyle>
+    <m:mi>a</m:mi>
    <m:mtext>c</m:mtext>
   </m:msub>
   <m:mo>=</m:mo><m:mfrac>
@@ -152,7 +152,7 @@
  
   <m:mrow>
    <m:msub>
-    <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>a</m:mi></m:mstyle>
+   <m:mi>a</m:mi>
     <m:mi>c</m:mi>
    </m:msub>
    <m:mo>=</m:mo><m:mi>r</m:mi><m:msup>
@@ -194,11 +194,11 @@
 <para id="fs-id1167065827754"><span>[BL]</span><span>[OL]</span><span>[AL]</span> Using the same demonstration as before, ask students to predict the relationships between the quantities of angular velocity, centripetal acceleration, mass, centripetal force. Invite students to experiment by using various lengths of string and different weights.</para>
 </note>
 
-<para id="fs-id1167066051057">Because an object in uniform circular motion undergoes constant acceleration (by changing direction), we know from Newton’s second law of motion that there must be a constant net external force acting on the object.</para>
+<para id="fs-id1167066051057">Because an object in uniform circular motion undergoes acceleration (by changing the direction of motion but not the speed), we know from Newton’s second law of motion that there must be a net external force acting on the object. Since the magnitude of the acceleration is constant, so is the magnitude of the net force, and since the acceleration points toward the center of the rotation, so does the net force.</para>
 
 <para id="fs-id1167066047091">Any force or combination of forces can cause a centripetal acceleration. Just a few examples are the tension in the rope on a tether ball, the force of Earth’s gravity on the Moon, the friction between a road and the tires of a car as it goes around a curve, or the normal force of a roller coaster track on the cart during a loop-the-loop.</para>
 
-<para id="fs-id1167065772688">Any net force causing uniform circular motion is called a <term id="term-00008">centripetal force</term>. The direction of a centripetal force is toward the center of rotation, the same as for centripetal acceleration. According to Newton’s second law of motion, a net force causes the acceleration of mass according to <emphasis>F</emphasis><sub>net</sub> = <emphasis effect="italics">m</emphasis><emphasis>a</emphasis>. For uniform circular motion, the acceleration is centripetal acceleration: <emphasis>a</emphasis> = <emphasis>a</emphasis><sub>c</sub>. Therefore, the magnitude of centripetal force, <emphasis>F</emphasis><sub>c</sub>, is  <m:math>
+<para id="fs-id1167065772688">The component of any net force that causes circular motion is called a <term id="term-00008">centripetal force</term>. When the net force is equal to the centripetal force, and its magnitude is constant, uniform circular motion results. The direction of a centripetal force is toward the center of rotation, the same as for centripetal acceleration. According to Newton’s second law of motion, a net force causes the acceleration of mass according to <emphasis>F</emphasis><sub>net</sub> = <emphasis effect="italics">m</emphasis><emphasis>a</emphasis>. For uniform circular motion, the acceleration is centripetal acceleration: <emphasis>a</emphasis> = <emphasis>a</emphasis><sub>c</sub>. Therefore, the magnitude of centripetal force, <emphasis>F</emphasis><sub>c</sub>, is  <m:math>
  <m:mrow>
   <m:msub>
    <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
@@ -212,7 +212,7 @@
 </m:math> .</para><para id="fs-id1167066183003">By using the two different forms of the equation for the magnitude of centripetal acceleration,  <m:math>
  <m:mrow>
   <m:msub>
-   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>a</m:mi></m:mstyle>
+   <m:mi>a</m:mi>
    <m:mtext>c</m:mtext>
   </m:msub>
   <m:mo>=</m:mo><m:mrow><m:mrow>
@@ -225,7 +225,7 @@
 </m:math>  and  <m:math>
  <m:mrow>
   <m:msub>
-   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>a</m:mi></m:mstyle>
+   <m:mi>a</m:mi>
    <m:mi>c</m:mi>
   </m:msub>
   <m:mo>=</m:mo><m:mi>r</m:mi><m:msup>
@@ -233,10 +233,10 @@
    <m:mn>2</m:mn>
   </m:msup>
   </m:mrow>
-</m:math>, we get two expressions involving the magnitude of the centripetal force <emphasis>F</emphasis><sub>c</sub>. The first expression is in terms of tangential speed, the second is in terms of angular speed:  <m:math>
+</m:math>, we get two expressions involving the magnitude of the centripetal force <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:math>. The first expression is in terms of tangential speed, the second is in terms of angular speed:  <m:math>
  <m:mrow>
   <m:msub>
-   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+  <m:mi>F</m:mi>
    <m:mtext>c</m:mtext>
   </m:msub>
   <m:mo>=</m:mo><m:mi>m</m:mi><m:mfrac>
@@ -252,7 +252,7 @@
 </m:math>  and  <m:math>
  <m:mrow>
   <m:msub>
-   <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+   <m:mi>F</m:mi>
    <m:mtext>c</m:mtext>
   </m:msub>
   <m:mo>=</m:mo><m:mi>m</m:mi><m:mi>r</m:mi><m:msup>
@@ -274,7 +274,7 @@
     </m:mrow>
    <m:mrow>
     <m:msub>
-     <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+     <m:mi>F</m:mi>
      <m:mtext>c</m:mtext>
     </m:msub>
     </m:mrow>
@@ -296,7 +296,7 @@
 
 </m:math> .</caption></figure><note id="fs-id1167065941582" class="watch-physics"><title>Centripetal Force and Acceleration Intuition</title>
 
-<para id="fs-id1167065770178">This video explains why a centripetal force creates centripetal acceleration and uniform circular motion. It also covers the difference between speed and velocity and shows examples of uniform circular motion.</para>
+<para id="fs-id1167065770178">This video explains why centripetal force, when it is equal to the net force and has constant magnitude, creates centripetal acceleration and uniform circular motion.</para>
 
 <media id="fs-id1167065707865" alt="This tutorial explains the direction of the force in the cases of circular motion at constant speeds.">
 <iframe width="660" height="371.4" src="https://www.youtube.com/embed/vZOk8NnjILg"/>
@@ -538,6 +538,7 @@
 <list id="fs-id1167065715123" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
 <item>Calculate the centripetal force exerted on a 900 kg car that rounds a 600-m-radius curve on horizontal ground at 25.0 m/s.</item>
 <item>Static friction prevents the car from slipping. Find the magnitude of the frictional force between the tires and the road that allows the car to round the curve without sliding off in a straight line.</item>
+<item>If the car would slip if it were to be traveling any faster, what is the coefficient of static friction between the tires and the road? Could we conclude anything about the coefficient of static friction if we did not know whether the car could round the curve any faster without slipping?</item>
 </list>
 
 <media id="fs-id1167065824509" alt="The diagram shows an illustration of a car and a red dot. An arrow pointing up from the red dot is labeled N. An arrow pointing down is labeled w and an arrow pointing to the left is labeled f. Below the car is another arrow pointing down labeled w and an arrow pointing from the ground to the car labeled N. On the right back tire is a left arrow pointing toward the wheel with the formula f equals Fc equals mu s times N.">
@@ -647,6 +648,27 @@
   <m:mo>=</m:mo><m:mn>938</m:mn><m:mspace width="0.3em"/><m:mtext>N</m:mtext></m:mrow>
 </m:math>
 </equation></note>
+
+<note id="note-00001">
+  <label/>
+  <title>Strategy and Solution for (c)</title>
+  <para id="para-00001">If the car is about to slip, the static friction is at its maximum value and 
+<m:math><m:mrow>
+<m:mi>f</m:mi>
+<m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mi>s</m:mi></m:msub><m:mi>N</m:mi>
+<m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mi>s</m:mi></m:msub><m:mi>m</m:mi><m:mi>g</m:mi>
+</m:mrow></m:math>. Solving for <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mi>s</m:mi></m:msub></m:mrow></m:math>, we get
+<m:math>
+  <m:mrow>
+    <m:msub><m:mi>μ</m:mi><m:mi>s</m:mi></m:msub>
+    <m:mo>=</m:mo><m:mfrac>
+      <m:mrow><m:mn>938</m:mn></m:mrow>
+      <m:mrow><m:mn>900</m:mn><m:mo>×</m:mo><m:mn>9.8</m:mn></m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo><m:mn>0.11</m:mn>
+  </m:mrow>
+</m:math>. Regardless of whether we know the maximum allowable speed for rounding the curve, we can conclude this is a minimum value for the coefficient.</para>
+</note>
 </problem>
 
 <commentary id="fs-id1167065736686">
@@ -662,7 +684,9 @@
    <m:mtext>s</m:mtext>
   </m:msub>
   <m:mi>m</m:mi><m:mi>g</m:mi></m:mrow>
-</m:math> .</para></commentary>
+</m:math>. The static friction is only equal to 
+<m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mi>s</m:mi></m:msub>
+ <m:mi>N</m:mi></m:mrow></m:math> when it is at the maximum possible value. If the car could go faster, the friction at the given speed would still be the same as we calculated, but the coefficient of static friction would be larger.</para></commentary>
 </exercise></note></section>
 
 <section id="fs-id1167065866432" class="practice-problems"><title>Practice Problems</title><exercise id="fs-id1167065955117">
