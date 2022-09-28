@@ -172,7 +172,7 @@
 
 <para id="fs-id1167065965047">In this simulation, you experiment with the position, velocity, and acceleration of a ladybug in circular and elliptical motion. Switch the type of motion from linear to circular and observe the velocity and acceleration vectors. Next, try elliptical motion and notice how the velocity and acceleration vectors differ from those in circular motion.</para>
 <media id="fs-id1167062339457" alt="This simulation allows you to adjust position, velocity, and acceleration of a ladybug.">
-<iframe width="660" height="371.4" src="https://openstax.org/l/28ladybug"/></media>
+<iframe width="660" height="371.4" src="https://openstax.org/l/28ladybugmotion"/></media>
 
 <exercise id="fs-id1167066020743" class="os-exercise grasp-check unnumbered">
 
@@ -655,7 +655,7 @@
   <para id="para-00001">If the car is about to slip, the static friction is at its maximum value and 
 <m:math><m:mrow>
 <m:mi>f</m:mi>
-<m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mi>s</m:mi></m:msub><m:mi>N</m:mi>
+<m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mi>s</m:mi></m:msub><m:mtext>N</m:mtext>
 <m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mi>s</m:mi></m:msub><m:mi>m</m:mi><m:mi>g</m:mi>
 </m:mrow></m:math>. Solving for <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mi>s</m:mi></m:msub></m:mrow></m:math>, we get
 <m:math>
@@ -663,7 +663,7 @@
     <m:msub><m:mi>μ</m:mi><m:mi>s</m:mi></m:msub>
     <m:mo>=</m:mo><m:mfrac>
       <m:mrow><m:mn>938</m:mn></m:mrow>
-      <m:mrow><m:mn>900</m:mn><m:mo>×</m:mo><m:mn>9.8</m:mn></m:mrow>
+      <m:mrow><m:mn>900</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>9.8</m:mn></m:mrow>
     </m:mfrac>
     <m:mo>=</m:mo><m:mn>0.11</m:mn>
   </m:mrow>
@@ -686,7 +686,7 @@
   <m:mi>m</m:mi><m:mi>g</m:mi></m:mrow>
 </m:math>. The static friction is only equal to 
 <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mi>s</m:mi></m:msub>
- <m:mi>N</m:mi></m:mrow></m:math> when it is at the maximum possible value. If the car could go faster, the friction at the given speed would still be the same as we calculated, but the coefficient of static friction would be larger.</para></commentary>
+ <m:mtext>N</m:mtext></m:mrow></m:math> when it is at the maximum possible value. If the car could go faster, the friction at the given speed would still be the same as we calculated, but the coefficient of static friction would be larger.</para></commentary>
 </exercise></note></section>
 
 <section id="fs-id1167065866432" class="practice-problems"><title>Practice Problems</title><exercise id="fs-id1167065955117">
