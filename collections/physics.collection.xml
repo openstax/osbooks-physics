@@ -1,12 +1,13 @@
-<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en">
+<?xml version="1.0"?>
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en" authors="Fatih Gozuacik ,Denise Pattison ,Catherine Tabor">
   <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
     <md:content-id>col12081</md:content-id>
     <md:title>Physics</md:title>
     <md:language>en</md:language>
     <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</md:license>
     <md:uuid>cce64fde-f448-43b8-ae88-27705cceb0da</md:uuid>
-<md:slug>physics</md:slug>
-</metadata>
+    <md:slug>physics</md:slug>
+  </metadata>
   <col:content>
     <col:module document="m54081"/>
     <col:subcollection>
@@ -37,7 +38,7 @@
       </col:content>
     </col:subcollection>
     <col:subcollection>
-      <md:title>Forces and Newton’s Laws of Motion</md:title>
+      <md:title>Forces and Newton&#x2019;s Laws of Motion</md:title>
       <col:content>
         <col:module document="m54144"/>
         <col:module document="m54135"/>
