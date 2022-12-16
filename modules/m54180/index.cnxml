@@ -68,7 +68,7 @@
  <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>ω</m:mtext></m:mstyle>
 </m:math>  changes. The faster the change occurs, the greater is the angular acceleration. Angular acceleration  <m:math>
  <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>α</m:mtext></m:mstyle>
-</m:math>  is the rate of change of angular velocity. In equation form, angular acceleration is </para><equation id="fs-id1167063813314" class="unnumbered"><label/>
+</m:math>  is the rate of change of angular velocity. In equation form, average angular acceleration is </para><equation id="fs-id1167063813314" class="unnumbered"><label/>
  <m:math display="block">
  <m:mrow>
   <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>α</m:mtext></m:mstyle><m:mo>=</m:mo><m:mfrac>
@@ -131,10 +131,10 @@ where  <m:math>
   <para id="fs-id1167063589397">So far, we have defined three rotational variables:  <m:math>
     <m:mi>θ</m:mi>
   </m:math>,  <m:math>
-    <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>ω</m:mtext></m:mstyle>
+    <m:mstyle mathsize="normal"><m:mtext>ω</m:mtext></m:mstyle>
   </m:math>, and  <m:math>
-    <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>α</m:mtext></m:mstyle>
-  </m:math>.  These are the angular versions of the linear variables <emphasis effect="italics">x</emphasis>, <emphasis>v</emphasis>, and <emphasis>a</emphasis>. The following equations in the table represent the magnitude of the rotational variables and only when the radius is constant and perpendicular to the rotational variable. <link target-id="Table_06_02"/> shows how they are related.</para>
+    <m:mstyle mathsize="normal"><m:mtext>α</m:mtext></m:mstyle>
+  </m:math>.  These are the angular versions of the linear variables x, v, and a. The following equations in the table represent the magnitude of the rotational variables and only when the radius is constant and perpendicular to the rotational variable. <link target-id="Table_06_02"/> shows how they are related.</para>
   <table id="Table_06_02" summary="The table has three columns labeled Rotational, Linear, and Relationship. The first row under these labels has a theta under Rotational, an x under Linear and theta equals x over r in the Relationship column. The values for the next row are omega, v and omega equals v over r. The last row’s values are alpha, a, and alpha equals a sub t over r."><title>Rotational and Linear Variables</title>
 <tgroup cols="3"><colspec colnum="1" colname="c1"/>
       <colspec colnum="2" colname="c2"/>
@@ -153,7 +153,7 @@ where  <m:math>
             <m:mi>θ</m:mi>
           </m:math> 
           </entry>
-          <entry align="center"><emphasis effect="italics">x</emphasis></entry>
+          <entry align="center">x</entry>
           <entry align="center"> <m:math>
             <m:mrow>
               <m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac>
@@ -167,14 +167,14 @@ where  <m:math>
         </row>
         <row>
           <entry align="center"> <m:math>
-            <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>ω</m:mtext></m:mstyle>
+            <m:mstyle mathsize="normal"><m:mtext>ω</m:mtext></m:mstyle>
           </m:math> 
           </entry>
-          <entry align="center"><emphasis>v</emphasis></entry>
+          <entry align="center">v</entry>
           <entry align="center"> <m:math>
             <m:mrow>
-              <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>ω</m:mtext></m:mstyle><m:mo>=</m:mo><m:mfrac>
-                <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle>
+              <m:mstyle mathsize="normal"><m:mtext>ω</m:mtext></m:mstyle><m:mo>=</m:mo><m:mfrac>
+                <m:mstyle mathsize="normal"><m:mi>v</m:mi></m:mstyle>
                 <m:mi>r</m:mi>
               </m:mfrac>
 
@@ -184,14 +184,14 @@ where  <m:math>
         </row>
         <row>
           <entry align="center"> <m:math>
-            <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>α</m:mtext></m:mstyle>
+            <m:mstyle mathsize="normal"><m:mtext>α</m:mtext></m:mstyle>
           </m:math> 
           </entry>
-          <entry align="center"><emphasis>a</emphasis></entry>
+          <entry align="center">a</entry>
           <entry align="center"> <m:math>
             <m:mrow>
-              <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>α</m:mtext></m:mstyle><m:mo>=</m:mo><m:mfrac>
-                <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>a</m:mi></m:mstyle>
+              <m:mstyle mathsize="normal"><m:mtext>α</m:mtext></m:mstyle><m:mo>=</m:mo><m:mfrac>
+                <m:mstyle mathsize="normal"><m:mi>a</m:mi></m:mstyle>
                 <m:mi>r</m:mi>
               </m:mfrac>
 
@@ -205,13 +205,13 @@ where  <m:math>
 </table><para id="fs-id1167063572785">We can now begin to see how rotational quantities like  <m:math>
     <m:mi>θ</m:mi>
   </m:math>,  <m:math>
-    <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>ω</m:mtext></m:mstyle>
+    <m:mstyle mathsize="normal"><m:mtext>ω</m:mtext></m:mstyle>
   </m:math>, and  <m:math>
-    <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>α</m:mtext></m:mstyle>
+    <m:mstyle mathsize="normal"><m:mtext>α</m:mtext></m:mstyle>
   </m:math>   are related to each other. For example, if a motorcycle wheel that starts at rest has a large angular acceleration for a fairly long time, it ends up spinning rapidly and rotates through many revolutions. Putting this in terms of the variables, if the wheel’s angular acceleration  <m:math>
-    <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>α</m:mtext></m:mstyle>
+    <m:mstyle mathsize="normal"><m:mtext>α</m:mtext></m:mstyle>
   </m:math>  is large for a long period of time <emphasis effect="italics">t</emphasis>, then the final angular velocity  <m:math>
-    <m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>ω</m:mtext></m:mstyle>
+    <m:mstyle mathsize="normal"><m:mtext>ω</m:mtext></m:mstyle>
   </m:math>  and angle of rotation  <m:math>
     <m:mi>θ</m:mi>
   </m:math>  are large. In the case of linear motion, if an object starts at rest and undergoes a large linear acceleration, then it has a large final velocity and will have traveled a large distance.</para>
@@ -485,16 +485,8 @@ where  <m:math>
       <caption>Tornadoes descend from clouds in funnel-like shapes that spin violently. (Daphne Zaras, U.S. National Oceanic and Atmospheric Administration)</caption>
     </figure>
     <para id="fs-id1167066880265">Storm chasers tend to fall into one of three groups: Amateurs chasing tornadoes as a hobby, atmospheric scientists gathering data for research, weather watchers for news media, or scientists having fun under the guise of work. Storm chasing is a dangerous pastime because tornadoes can change course rapidly with little warning. Since storm chasers follow in the wake of the destruction left by tornadoes, changing flat tires due to debris left on the highway is common. The most active part of the world for tornadoes, called <emphasis effect="italics">tornado alley</emphasis>, is in the central United States, between the Rocky Mountains and Appalachian Mountains.</para>
-    <para id="fs-id1167067107305">Tornadoes are perfect examples of rotational motion in action in nature. They come out of severe thunderstorms called supercells, which have a column of air rotating around a horizontal axis, usually about four miles across. The difference in wind speeds between the strong cold winds higher up in the atmosphere in the jet stream and weaker winds traveling north from the Gulf of Mexico causes the column of rotating air to shift so that it spins around a vertical axis, creating a tornado.</para>
+    <para id="fs-id1167067107305">Tornadoes are perfect examples of rotational motion in action in nature. They come out of severe thunderstorms called supercells, which have a column of air rotating around a horizontal axis, usually about four miles across. The difference in wind speeds between the strong cold winds higher up in the atmosphere in the jet stream and weaker winds traveling north from the Gulf of Mexico causes the axis of the column of rotating air to shift as the storm travels so that the axis becomes vertical, creating a tornado.</para>
     <para id="fs-id1167063514018">Tornadoes produce wind speeds as high as 500 km/h (approximately 300 miles/h), particularly at the bottom where the funnel is narrowest because the rate of rotation increases as the radius decreases. They blow houses away as if they were made of paper and have been known to pierce tree trunks with pieces of straw.</para>
-    <exercise id="fs-id1167066839174" class="os-exercise grasp-check unnumbered">
-
-      <problem id="fs-id1167063892302">
-        <para id="fs-id1167067179628">
-          <link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex060"/>
-        </para>
-      </problem>
-    </exercise>
   </note>
 </section>
   <section id="fs-id1167067154476">
@@ -885,10 +877,15 @@ where  <m:math>
 
 </list>
 </section>
-<section id="fs-id1167067041454" class="key-equations"><title>Key Equations</title><table id="fs-id1167066867514" class="unnumbered unstyled" summary="Key equations is a 2 column table. The first row reads Angular acceleration, alpha equals delta omega delta t. The second row reads Rotational kinematic equations, theta equals omega times time, omega equals omega original plus alpha time, theta equals alpha original time plus 12 alpha over 2, omega 2 equals omega plus 2 alpha theta. The third row reads tangential linear acceleration, a equals rho times alpha. The third row reads tau equals rho F sin theta."><label/>
+<section id="fs-id1167067041454" class="key-equations"><title>Key Equations</title>
+  
+  <table id="fs-id1167066867514" class="unnumbered unstyled" summary="Key equations is a 2 column table. The first row reads Angular acceleration, alpha equals delta omega delta t. The second row reads Rotational kinematic equations, theta equals omega times time, omega equals omega original plus alpha time, theta equals alpha original time plus 12 alpha over 2, omega 2 equals omega plus 2 alpha theta. The third row reads tangential linear acceleration, a equals rho times alpha. The third row reads tau equals rho F sin theta."><label/>
 <tgroup cols="2"><colspec colnum="1" align="left" colname="c1"/>
 <colspec colnum="2" align="left" colname="c2"/>
 <tbody>
+  <row>
+    <entry namest="c1" nameend="c2"><emphasis>Constant angular velocity</emphasis></entry>
+  </row>
 <row>
 <entry>Angular acceleration</entry>
 <entry> <m:math>
@@ -905,6 +902,9 @@ where  <m:math>
  </m:mrow>
 </m:math> 
 </entry>
+</row>
+<row>
+  <entry namest="c1" nameend="c2"><emphasis>Constant angular acceleration</emphasis></entry>
 </row>
 <row>
 <entry>Rotational kinematic equations</entry>

@@ -207,7 +207,7 @@
 </problem>
 </exercise>
 </note>
-<para id="fs-id1167065828234">Now, let us turn to the second type of collision. An <term id="term-00007">inelastic collision</term> is one in which objects stick together after impact, and kinetic energy is <emphasis effect="italics">not</emphasis> conserved. This lack of conservation means that the forces between colliding objects may convert kinetic energy to other forms of energy, such as potential energy or thermal energy. The concepts of energy are discussed more thoroughly elsewhere. For inelastic collisions, kinetic energy may be lost in the form of heat. <link target-id="Figure_08_03_Inelastic"/> shows an example of an inelastic collision. Two objects that have equal masses head toward each other at equal speeds and then stick together. The two objects come to rest after sticking together, conserving momentum but not kinetic energy after they collide. Some of the energy of motion gets converted to thermal energy, or heat.</para>
+<para id="fs-id1167065828234">Now, let us turn to the second type of collision. An <term id="term-00007">inelastic collision</term> is one in which kinetic energy is not conserved. A perfectly inelastic collision (also sometimes called completely or maximally inelastic) is one in which objects stick together after impact, and the maximum amount of kinetic energy is lost. This lack of conservation means that the forces between colliding objects may convert kinetic energy to other forms of energy, such as potential energy or thermal energy. The concepts of energy are discussed more thoroughly elsewhere. For inelastic collisions, kinetic energy may be lost in the form of heat. <link target-id="Figure_08_03_Inelastic"/> shows an example of an inelastic collision. Two objects that have equal masses head toward each other at equal speeds and then stick together. The two objects come to rest after sticking together, conserving momentum but not kinetic energy after they collide. Some of the energy of motion gets converted to thermal energy, or heat.</para>
 <figure id="Figure_08_03_Inelastic">
 <media id="fs-id1167065775230" alt="An illustration shows before and after diagrams of two boxes moving toward each other on a frictionless surface. Both boxes are labeled m. Both diagrams are labeled System of Interest. In the before diagram, a velocity vector, v, points from the left box to the right box. A second vector of equal magnitude, negative v, points from right box toward the left box. Two equations are shown: p one plus p two equals zero and net F equals zero. In the after diagram, the boxes are touching. The equations p one prime plus p two prime equals zero and v equals zero are shown.">
 <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_08_03_Inelastic.jpg"/>
@@ -1846,7 +1846,7 @@
 </section><section id="fs-id1167064892052" class="summary">
 <title>Section Summary</title>
 <list id="fs-id1167064799427">
-<item>If objects separate after impact, the collision is elastic; If they stick together, the collision is inelastic.</item>
+<item>If kinetic energy is conserved, the collision is elastic. If they stick together, the collision is perfectly inelastic.</item>
 <item>Kinetic energy is conserved in an elastic collision, but not in an inelastic collision.</item>
 <item>The approach to two-dimensional collisions is to choose a convenient coordinate system and break the motion into components along perpendicular axes. Choose a coordinate system with the <emphasis effect="italics">x</emphasis>-axis parallel to the velocity of the incoming particle.</item>
 <item>Two-dimensional collisions of point masses, where mass 2 is initially at rest, conserve momentum along the initial direction of mass 1, or the <emphasis effect="italics">x</emphasis>-axis, and along the direction perpendicular to the initial direction, or the <emphasis effect="italics">y</emphasis>-axis.</item>
@@ -1859,7 +1859,7 @@
 <colspec colnum="2" align="left" colname="c2"/>
 <tbody>
 <row>
-<entry>conservation of momentum in an elastic collision</entry>
+<entry>conservation of momentum in any collision, including elastic collisionselastic collision</entry>
 <entry> <m:math>
  <m:mrow>
   <m:msub>
@@ -1908,7 +1908,7 @@
 </entry>
 </row>
 <row>
-<entry>conservation of momentum in an inelastic collision</entry>
+<entry>conservation of momentum in a perfectly inelastic collision</entry>
 <entry> <m:math>
  <m:mrow>
   <m:msub>
@@ -2077,7 +2077,7 @@
 <!--<para id="fs-id1167064894485">
 <link class="os-embed" url="#ost/api/ex/k12phys-ch08-ex051"/>
 </para>-->
-<para id="fs-id1164567247745">In an elastic collision, an object with momentum 25 kg⋅m/s collides with another that has a momentum 35 kg⋅m/s. The first object’s momentum changes to 15 kg⋅m/s. What is the momentum of the second object after the collision?</para><list id="fs-id1164567107712" list-type="enumerated" number-style="lower-alpha"><item>5 kg⋅m/s</item>
+<para id="fs-id1164567247745">In an elastic collision, an object with momentum 25 kg⋅m/s (moving to the left) collides with another that has a momentum 35 kg⋅m/s, moving toward it to the right. The first object’s momentum changes to 15 kg⋅m/s, and it is now moving to the right. What is the magnitude of the momentum of the second object after the collision?</para><list id="fs-id1164567107712" list-type="enumerated" number-style="lower-alpha"><item>5 kg⋅m/s</item>
 <item>10 kg⋅m/s</item>
 <item>25 kg⋅m/s</item>
 <item>75 kg⋅m/s</item></list></problem>
@@ -2195,7 +2195,8 @@
 </content>
 <glossary>
 <definition id="fs-id1167064876594"><term>elastic collision</term> <meaning id="fs-id1167066091116">collision in which objects separate after impact and kinetic energy is conserved</meaning></definition>
-<definition id="fs-id1167066091119"><term>inelastic collision</term> <meaning id="fs-id1167065852236">collision in which objects stick together after impact and kinetic energy is not conserved</meaning></definition>
+<definition id="fs-id1167066091119"><term>inelastic collision</term> <meaning id="fs-id1167065852236">collision in which kinetic energy is not conserved</meaning></definition>
+<definition id="def-00001"><term>perfectly inelastic collision</term> <meaning>collision in which objects stick together after impact and kinetic energy is not conserved</meaning></definition>
 <definition id="fs-id1167065852240"><term>point masses</term> <meaning id="fs-id1167065852126">structureless particles that cannot rotate or spin</meaning></definition>
 <definition id="fs-id1167065852129"><term>recoil</term> <meaning id="fs-id1167064994027">backward movement of an object caused by the transfer of momentum from another object in a collision</meaning></definition>
 

@@ -721,7 +721,7 @@
 <!--<para id="fs-id1167064824437">
 <link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex039"/>
 </para>-->
-<para id="fs-id1164568077326">What is centripetal acceleration?</para>
+<para id="fs-id1164568077326">Which of the following is centripetal acceleration?</para>
 <list id="fs-id1164566236765" list-type="enumerated" number-style="lower-alpha">
 <item>The acceleration of an object moving in a circular path and directed radially toward the center of the circular orbit</item>
 <item>The acceleration of an object moving in a circular path and directed tangentially along the circular path</item>
@@ -1070,8 +1070,8 @@
 </content>
 <glossary>
 <definition id="fs-id1167065670817"><term>centrifugal force</term><meaning id="fs-id1167064529840"> a fictitious force that acts in the direction opposite the centripetal acceleration</meaning></definition>
-<definition id="fs-id1167066027979"><term>centripetal acceleration </term><meaning id="fs-id1167066042371">the acceleration of an object moving in a circle, directed toward the center of the circle</meaning></definition>
-<definition id="fs-id1167064818809"><term>centripetal force </term><meaning id="fs-id1167062966489">any force causing uniform circular motion</meaning></definition>
+<definition id="fs-id1167066027979"><term>centripetal acceleration </term><meaning id="fs-id1167066042371">the component of the acceleration of an object perpendicular to the velocity; an object moving in a circular path experiences centripetal acceleration directed toward the center of the circle</meaning></definition>
+<definition id="fs-id1167064818809"><term>centripetal force </term><meaning id="fs-id1167062966489">the component of the net force which is perpendicular to the velocity; an object moving in a circular path does so due to a centripetal force</meaning></definition>
 <definition id="fs-id1167065880644"><term>uniform circular motion </term><meaning id="fs-id1167066152389">the motion of an object in a circular path at constant speed</meaning></definition>
 </glossary>
 </document>

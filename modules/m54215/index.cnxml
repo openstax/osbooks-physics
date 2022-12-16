@@ -320,7 +320,7 @@ is known as <term id="term-00008">impulse</term> and this equation is known as t
 </m:msub>
 <m:mo>=</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>a</m:mtext></m:mstyle>
 </m:mrow>
-</m:math>  applies only when the mass of the system is constant. An example of when this formula would not apply would be a moving rocket that burns enough fuel to significantly change the mass of the rocket. In this case, you would need to use Newton’s second law expressed in terms of momentum to account for the changing mass.</para>
+</m:math>  applies only when the mass of the system is constant. An example of when this formula would not apply would be a moving rocket that burns enough fuel to significantly change the mass of the rocket. In this case, you can use Newton’s second law expressed in terms of momentum to account for the changing mass without having to know anything about the interaction force by the fuel on the rocket.</para>
 </note>
 <note id="fs-id1167066833066" class="snap-lab">
 
