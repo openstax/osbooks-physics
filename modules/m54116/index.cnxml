@@ -414,15 +414,16 @@ The initial displacement  <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mn>0</m:mn></
  </m:mrow>
 </m:math>, or  <m:math>
  <m:mrow>
-  <m:mi>a</m:mi><m:mo>=</m:mo><m:mfrac>
-   <m:mrow>
-    <m:mn>2</m:mn><m:mi>d</m:mi>
-   </m:mrow>
+  <m:mi>a</m:mi><m:mo>=</m:mo>
+  <m:mfrac>
    <m:mrow>
     <m:msup>
-     <m:mi>t</m:mi>
+     <m:mi>v</m:mi>
      <m:mn>2</m:mn>
     </m:msup>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>d</m:mi>
    </m:mrow>
   </m:mfrac>
  </m:mrow>
