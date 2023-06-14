@@ -48,7 +48,7 @@
 <para id="fs-id1167066984053"><span>[OL]</span> Ask students what the direction of heat flow would be if an ice cube were melting in a glass of soda or if a glass of hot water were placed in a room. Give a few more examples. Ask students how long the heat transfer would take place. What causes the heat transfer to occur?</para>
 </note>
 <para id="fs-id1167063730445">We learned in the previous chapter that when two objects (or <emphasis effect="italics">systems</emphasis>) are in contact with one another, heat will transfer thermal energy from the object at higher temperature to the one at lower temperature until they both reach the same temperature. The objects are then in <term id="term-00001">thermal equilibrium</term>, and no further temperature changes will occur if they are isolated from other systems. The systems interact and change because their temperatures are different, and the changes stop once their temperatures are the same. Thermal equilibrium is established when two bodies are in <emphasis effect="italics">thermal contact</emphasis> with each other—meaning heat transfer (i.e., the transfer of energy by heat) can occur between them. If two systems cannot freely exchange energy, they will not reach thermal equilibrium. (It is fortunate that empty space stands between Earth and the sun, because a state of thermal equilibrium with the sun would be too toasty for life on this planet!)</para>
-<para id="fs-id1167066866191">If two systems, A and B, are in thermal equilibrium with each another, and B is in thermal equilibrium with a third system, C, then A is also in thermal equilibrium with C. This statement may seem obvious, because all three have the same temperature, but it is basic to thermodynamics. It is called the <term id="term-00002">zeroth law of thermodynamics</term>.</para>
+<para id="fs-id1167066866191">If two systems, A and B, are in thermal equilibrium with each other, and B is in thermal equilibrium with a third system, C, then A is also in thermal equilibrium with C. This statement may seem obvious, because all three have the same temperature, but it is basic to thermodynamics. It is called the <term id="term-00002">zeroth law of thermodynamics</term>.</para>
 
 <note id="fs-id1167067050691" class="os-teacher">
 <title>Teacher Support</title>
@@ -109,7 +109,7 @@
 <para id="fs-id1164564284279">What is the zeroth law of thermodynamics?</para>
 <list id="fs-id1164565858862" list-type="enumerated" number-style="lower-alpha">
 <item>Energy can neither be created nor destroyed in a chemical reaction.</item>
-<item>If two systems, A and B, are in thermal equilibrium with each another, and B is in thermal equilibrium with a third system, C, then A is also in thermal equilibrium with C.</item>
+<item>If two systems, A and B, are in thermal equilibrium with each other, and B is in thermal equilibrium with a third system, C, then A is also in thermal equilibrium with C.</item>
 <item>Entropy of any isolated system not in thermal equilibrium always increases.</item>
 <item>Entropy of a system approaches a constant value as temperature approaches absolute zero.</item>
 </list>
