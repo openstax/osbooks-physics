@@ -72,7 +72,7 @@
  <m:mrow>
   <m:mtext>Δ</m:mtext><m:mi>t</m:mi>
  </m:mrow>
-</m:math> .</caption></figure><para id="fs-id1167065846392">The <term id="term-00006">arc length</term><emphasis>,  </emphasis>, is the distance traveled along a circular path. The <term id="term-00007">radius of curvature</term>,<emphasis> <emphasis effect="italics"/>r</emphasis>, is the radius of the circular path. Both are shown in <link target-id="Figure_06_01_RotationAngle"/>.</para>
+</m:math> .</caption></figure><para id="fs-id1167065846392">The <term id="term-00006">arc length</term>, <emphasis>Δ<emphasis effect="italics">s</emphasis></emphasis>, is the distance traveled along a circular path. The <term id="term-00007">radius of curvature</term>,<emphasis> <emphasis effect="italics"/>r</emphasis>, is the radius of the circular path. Both are shown in <link target-id="Figure_06_01_RotationAngle"/>.</para>
 <figure id="Figure_06_01_RotationAngle"><media id="fs-id1167065892392" alt="The diagram shows a circle with the center marked O, a radius r ending on the circumference at A, an arc change of s starting at A and ending at B. The angle for the arc is change of theta. A formula to the right of the circle says change of theta is equal to change of s divided by r.">
 <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_06_01_RotationAn.jpg"/>
 </media>
