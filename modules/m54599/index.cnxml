@@ -2372,10 +2372,10 @@ as a result.</item>
 
 <para id="fs-id1164565850187">Suppose that a bathroom scale reads a persons mass as 65 kg with a 3 percent uncertainty. What is the uncertainty in their mass in kilograms?</para>
 <list id="fs-id1164564470173" list-type="enumerated" number-style="lower-alpha">
-<item>a. 2 kg</item>
-<item>b. 98 kg</item>
-<item>c. 5 kg</item>
-<item>d. 0</item>
+<item>2 kg</item>
+<item>98 kg</item>
+<item>5 kg</item>
+<item>0</item>
 </list>
 </problem>
 </exercise>
