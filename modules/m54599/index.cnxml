@@ -2476,7 +2476,7 @@ The graph shows the temperature change over time of a heated cup of water.
 At x = 3, a function f(x) has a positive value, with a positive slope that is decreasing in magnitude with increasing x. Which option could correspond to f(x)?
 </para>
 
-<list id="eip-idm302219184" list-type="enumerated" number-style="lower-alpha"><item> <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>13</m:mn><m:mi>x</m:mi></m:mrow></m:math> </item>
+<list id="eip-idm302219184" list-type="enumerated" number-style="lower-alpha"><item> <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow></m:math> </item>
 <item> <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> </item>
 <item> <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mtext>log</m:mtext><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:math> </item>
 <item> <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mi>x</m:mi></m:mfrac></m:mrow></m:math> </item></list></problem>
