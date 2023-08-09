@@ -297,7 +297,7 @@ The equation <m:math>
 
 <para id="fs-idm87061200">This video reviews Newton’s second law of motion and how net external force and acceleration relate to one another and to mass. It also covers units of force, mass, and acceleration, and reviews a worked-out example.</para>
  <media id="fs-idm99887232" alt="This link takes you to a lecture that reviews Newton's second law of motion and how external force and acceleration relate to one another and to mass." class="os-embed">
-<iframe width="660" height="371.4" src="https://www.khanacademy.org/embed_video?v=ou9YMWlJgkE"/>
+<iframe width="660" height="371.4" src="https://openstax/org/l/02newlawtwo"/>
 </media>
  <exercise id="fs-idm60179888" class="os-exercise grasp-check unnumbered">
 
@@ -305,7 +305,7 @@ The equation <m:math>
 <!--<para id="fs-idm13995552">
 <link class="os-embed" url="#ost/api/ex/k12phys-ch04-ex035"/>
 </para>-->
-<para id="fs-id1164565409274">True or FalseIf you want to reduce the acceleration of an object to half its original value, then you would need to reduce the net external force by half.</para>
+<para id="fs-id1164565409274">True or False If you want to reduce the acceleration of an object to half its original value, then you would need to reduce the net external force by half.</para>
 <list id="fs-id1164567634358" list-type="enumerated" number-style="lower-alpha">
 <item>True</item>
 <item>False</item>
