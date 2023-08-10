@@ -1101,7 +1101,7 @@
 <section id="fs-id1167066102954">
 <title>Uncertainty in Calculations</title>
 <para id="fs-id1167065879809">There is an uncertainty in anything calculated from measured quantities. For example, the area of a floor calculated from measurements of its length and width has an uncertainty because the both the length and width have uncertainties. How big is the uncertainty in something you calculate by multiplication or division? If the measurements in the calculation have small uncertainties (a few percent or less), then the <term id="term-00017">method of adding percents</term> can be used. This method says that the percent uncertainty in a quantity calculated by multiplication or division is the sum of the percent uncertainties in the items used to make the calculation. For example, if a floor has a length of 4.00 m and a width of 3.00 m, with uncertainties of 2 percent and 1 percent, respectively, then the area of the floor is 12.0 m<sup>2</sup> and has an uncertainty of 3 percent (expressed as an area this is 0.36 m<sup>2</sup>, which we round to 0.4 m<sup>2</sup> since the area of the floor is given to a tenth of a square meter).</para>
-<para id="fs-id1167066096796">For more information on the accuracy, precision, and uncertainty of measurements based upon the units of measurement, visit <link url="http://openstax.org/l/28precision">this website</link>.</para>
+<para id="fs-id1167066096796">For more information on the accuracy, precision, and uncertainty of measurements based upon the units of measurement, visit <link url="https://openstax.org/l/28precision">this website</link>.</para>
 </section>
 
 <section id="fs-id1167065740447">
