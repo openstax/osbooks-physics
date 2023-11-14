@@ -1241,11 +1241,13 @@
 <exercise id="fs-id1167064937980" class="os-exercise">
 <problem id="fs-id1167064841530">
 <!-- <para id="fs-id1167066167485"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex050"/></para> -->
-<para id="fs-id1169832023447">Two particles with equal charge experience a force of 10 nN when they are 30 cm apart. What is the magnitude of the charge on each particle?</para>
+<para id="fs-id1169832023447">Two plastic spheres with uniform charge repel each other with a force of 10 N. If you remove the charge from one sphere, what will be the force between the spheres?</para>
 <list id="fs-id1169831826986" list-type="enumerated" number-style="lower-alpha"><item>-5.8 × 10<sup>-10</sup> C</item>
-<item>-3.2 × 10<sup>-10</sup> C</item>
-<item>+3.2 × 10<sup>-10</sup> C</item>
-<item>+1.4 × 10<sup>-5</sup> C</item></list></problem>
+<item>The force will be 15 N.</item>
+<item>The force will be 10 N.</item>
+<item>The force will be 5 N.</item>
+<item>The force will be zero.</item>
+</list></problem>
 </exercise>
 <exercise id="fs-id1167064701838" class="os-exercise">
 <problem id="fs-id1167065919134">
