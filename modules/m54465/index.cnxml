@@ -377,7 +377,7 @@
 </equation>
 <para id="fs-id1167064960880">where  <m:math>
  <m:mi>θ</m:mi>
-</m:math>  is the angle between the velocity of the charge and the magnetic field.</para>
+</m:math>  is the angle between the velocity of the charge and the magnetic field. From this equation, we can see that the SI unit of magnetic field, the Tesla, is the magnetic field required to produce a 1 N force on a 1 C charge moving at 1 m/s in a direction perpendicular to the field and  equivalent to the following: <m:math><m:mrow><m:mtext>T</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo>(</m:mo><m:mi>N</m:mi><m:mo>⋅</m:mo><m:mtext>s</m:mtext><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mtext>C</m:mtext><m:mo>⋅</m:mo><m:mtext>m</m:mtext><m:mo>)</m:mo></m:mrow></m:mfrac></m:mrow></m:math>.</para>
 <para id="fs-id1167062373110">The direction of the force may be found by using another version of the right-hand rule: First, we join the tails of the velocity vector and a magnetic field vector, as shown in step 1 of <link target-id="Figure_20_01_q_in_B"/>. We then curl our right fingers from  <m:math>
  <m:mover accent="true">
   <m:mi>v</m:mi>
