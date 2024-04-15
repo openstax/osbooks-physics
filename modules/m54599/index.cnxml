@@ -1202,7 +1202,7 @@
     <m:mo>)</m:mo></m:mrow></m:mrow>
    <m:mn>2</m:mn>
   </m:msup>
-  <m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>4.5238934</m:mn><m:msup>
+  <m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>12.5663708</m:mn><m:msup>
    <m:mrow>
     <m:mtext> m</m:mtext></m:mrow>
    <m:mn>2</m:mn>
@@ -1213,7 +1213,7 @@
 <para id="fs-id1167065766091">But because the radius has only two significant figures, the area calculated is meaningful only to two significant figures or</para>
 <equation id="fs-id1167065766096" class="unnumbered"><label/> <m:math display="block">
  <m:mrow>
-  <m:mi>A</m:mi><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>4.5</m:mn><m:msup>
+  <m:mi>A</m:mi><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>13</m:mn><m:msup>
    <m:mrow>
     <m:mtext> m</m:mtext></m:mrow>
    <m:mn>2</m:mn>
