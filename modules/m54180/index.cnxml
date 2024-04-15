@@ -502,9 +502,9 @@ where  <m:math>
         </m:mrow>
       </m:math> 
     </equation>
-    <para id="fs-id1167067133758">where <emphasis effect="italics">r</emphasis> is the magnitude of the <term id="term-00010">lever arm</term>, <emphasis>F</emphasis> is the magnitude of the linear force, and  <m:math>
+    <para id="fs-id1167067133758">where <emphasis effect="italics">r</emphasis> is the distance from the pivot point to the point where the force is applied, <emphasis>F</emphasis> is the magnitude of the linear force, and  <m:math>
  <m:mi>θ</m:mi>
-</m:math>  is the angle between the lever arm and the force. The lever arm is the vector from the point of rotation (pivot point or fulcrum) to the location where force is applied. Since the magnitude of the lever arm is a distance, its units are in meters, and torque has units of N⋅m. Torque is a vector quantity and has the same direction as the angular acceleration that it produces.</para>
+</m:math>  is the angle between the lever arm and the force. The <term id="term-00010">lever arm</term> is the vector from the point of rotation (pivot point or fulcrum) to the location where force is applied. Since the magnitude of the lever arm is a distance, its units are in meters, and torque has units of N⋅m. Torque is a vector quantity and has the same direction as the angular acceleration that it produces.</para>
     <figure id="Figure_06_03_MerryGoRound">
       <media id="fs-id1167067216859" alt="The figure shows an illustration of a merry-go-round with a radius of r and a man pushing on a bar on the circumference with an arrow indicating a force of F. To the right of the diagram, it is noted that F is perpendicular to r for maximum alpha.">
         <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_06_03_MerryGo.jpg"/>
