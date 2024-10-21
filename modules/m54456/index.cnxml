@@ -124,7 +124,7 @@
 <para id="fs-id1167063529911">This is analogous to a sail in the wind. Think of the conducting loop as the sail and the magnetic field as the wind. To maximize the force of the wind on the sail, the sail is oriented so that its surface vector points in the same direction as the winds, as in the right-most loop in <link target-id="Figure_20_02_Loops"/>. When the sail is aligned so that its surface vector is perpendicular to the wind, as in the left-most loop in <link target-id="Figure_20_02_Loops"/>, then the wind exerts no force on the sail.</para>
 <para id="fs-id1167067139555">Thus, taking into account the angle of the magnetic field with respect to the area, the proportionality  <m:math>
  <m:mrow>
-  <m:mi>E</m:mi><m:mo>∝</m:mo><m:mrow><m:mrow>
+  <m:mi>ε</m:mi><m:mo>∝</m:mo><m:mrow><m:mrow>
    <m:mtext>Δ</m:mtext><m:mi>B</m:mi></m:mrow><m:mo>/</m:mo><m:mrow>
    <m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mrow>
   </m:mrow>
@@ -132,7 +132,7 @@
 
 <equation id="fs-id1164564947417"> <m:math display="block">
  <m:mrow>
-  <m:mi>E</m:mi><m:mo>∝</m:mo><m:mfrac>
+  <m:mi>ε</m:mi><m:mo>∝</m:mo><m:mfrac>
    <m:mrow>
     <m:mtext>Δ</m:mtext><m:mi>B</m:mi> <m:mi>cos</m:mi><m:mi>θ</m:mi></m:mrow>
    <m:mrow>
@@ -593,7 +593,7 @@
 <note id="fs-id1167067236340"><label/><title>Strategy</title>
 <para id="fs-id1167067193776">We again use Faraday’s law of induction,  <m:math>
  <m:mrow>
-  <m:mi>E</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>N</m:mi><m:mfrac>
+  <m:mi>ε</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>N</m:mi><m:mfrac>
    <m:mrow>
     <m:mtext>Δ</m:mtext><m:mtext>Φ</m:mtext></m:mrow>
    <m:mrow>
@@ -654,7 +654,7 @@
 <para id="fs-id1167066843625">Faraday’s law of induction gives</para>
 <equation id="fs-id1164559073048"> <m:math display="block">
  <m:mrow>
-  <m:mi>E</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>N</m:mi><m:mfrac>
+  <m:mi>ε</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>N</m:mi><m:mfrac>
    <m:mrow>
     <m:mtext>Δ</m:mtext><m:mtext>Φ</m:mtext></m:mrow>
    <m:mrow>
@@ -668,7 +668,7 @@
 <equation id="fs-id1164563556868"> <m:math display="block">
  <m:mrow>
   <m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac>
-   <m:mi>E</m:mi>
+   <m:mi>ε</m:mi>
    <m:mi>R</m:mi>
   </m:mfrac>
   <m:mo>=</m:mo><m:mfrac>
@@ -934,7 +934,7 @@
 <entry>emf</entry>
 <entry> <m:math display="block">
  <m:mrow>
-  <m:mi>E</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>N</m:mi><m:mfrac>
+  <m:mi>ε</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>N</m:mi><m:mfrac>
    <m:mrow>
     <m:mtext>Δ</m:mtext><m:mtext>Φ</m:mtext></m:mrow>
    <m:mrow>

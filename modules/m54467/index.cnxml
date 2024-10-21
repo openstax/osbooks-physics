@@ -252,7 +252,7 @@
 
 <para id="fs-id1167064928983">Because current is induced only in the side wires, we can find the induced emf by only considering these wires. As explained in <link document="m54456" target-id="fs-id1167061628540">Induced Current in a Wire</link>, motional emf in a straight wire moving at velocity <emphasis effect="italics">v</emphasis> through a magnetic field <emphasis effect="italics">B</emphasis> is  <m:math>
 <m:mrow>
-<m:mi>E</m:mi><m:mo>=</m:mo><m:mi>B</m:mi><m:mi>ℓ</m:mi><m:mi>v</m:mi>
+<m:mi>ε</m:mi><m:mo>=</m:mo><m:mi>B</m:mi><m:mi>ℓ</m:mi><m:mi>v</m:mi>
 <m:mtext>,</m:mtext>
 </m:mrow>
 </m:math>  where the velocity is perpendicular to the magnetic field. In the generator, the velocity makes an angle  <m:math>
@@ -264,12 +264,12 @@
 </m:mrow>
 </m:math>  Thus, in this case, the emf induced on each vertical wire segment is  <m:math>
 <m:mrow>
-<m:mi>E</m:mi><m:mo>=</m:mo><m:mi>B</m:mi><m:mi>ℓ</m:mi><m:mi>v</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi>
+<m:mi>ε</m:mi><m:mo>=</m:mo><m:mi>B</m:mi><m:mi>ℓ</m:mi><m:mi>v</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi>
 <m:mtext>,</m:mtext>
 </m:mrow>
 </m:math>  and they are in the same direction. The total emf around the loop is then</para><equation id="fs-id1164568047102"> <m:math display="block">
 <m:mrow>
-<m:mi>E</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>B</m:mi><m:mi>ℓ</m:mi><m:mi>v</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi>
+<m:mi>ε</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>B</m:mi><m:mi>ℓ</m:mi><m:mi>v</m:mi><m:mi>sin</m:mi><m:mi>θ</m:mi>
 <m:mtext>.</m:mtext>
 </m:mrow>
 </m:math> </equation><para id="fs-id1167064534859">Although this expression is valid, it does not give the emf as a function of time. To find how the emf evolves in time, we assume that the coil is rotated at a constant angular velocity  <m:math>
@@ -287,7 +287,7 @@
 </m:math>  so that</para>
 <equation id="fs-id1164567163427"> <m:math display="block">
 <m:mrow>
-<m:mi>E</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>B</m:mi><m:mi>ℓ</m:mi><m:mi>v</m:mi><m:mi>sin</m:mi><m:mi>ω</m:mi><m:mi>t</m:mi>
+<m:mi>ε</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>B</m:mi><m:mi>ℓ</m:mi><m:mi>v</m:mi><m:mi>sin</m:mi><m:mi>ω</m:mi><m:mi>t</m:mi>
 <m:mtext>.</m:mtext>
 </m:mrow>
 </m:math> </equation><para id="fs-id1167066122553">Recall that tangential velocity <emphasis effect="italics">v</emphasis> is related to angular velocity  <m:math>
@@ -314,7 +314,7 @@
 </m:math>  and</para>
 <equation id="fs-id1164567872417"> <m:math display="block">
 <m:mrow>
-<m:mi>E</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>B</m:mi><m:mi>ℓ</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>ε</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>B</m:mi><m:mi>ℓ</m:mi><m:mrow><m:mo>(</m:mo>
 <m:mrow>
 <m:mfrac>
 <m:mi>w</m:mi>
@@ -332,15 +332,15 @@
 </m:math>  and allowing for <emphasis effect="italics">N</emphasis> wire loops, we find that</para>
 <equation id="fs-id1164567983060"> <m:math display="block">
 <m:mrow>
-<m:mi>E</m:mi><m:mo>=</m:mo><m:mi>N</m:mi><m:mi>A</m:mi><m:mi>B</m:mi><m:mi>ω</m:mi><m:mi>sin</m:mi><m:mi>ω</m:mi><m:mi>t</m:mi>
+<m:mi>ε</m:mi><m:mo>=</m:mo><m:mi>N</m:mi><m:mi>A</m:mi><m:mi>B</m:mi><m:mi>ω</m:mi><m:mi>sin</m:mi><m:mi>ω</m:mi><m:mi>t</m:mi>
 </m:mrow>
 </m:math> </equation><para id="fs-id1167065967241">is the emf induced in a generator coil of <emphasis effect="italics">N</emphasis> turns and area <emphasis effect="italics">A</emphasis> rotating at a constant angular velocity  <m:math>
 <m:mi>ω</m:mi>
 </m:math>  in a uniform magnetic field <emphasis effect="italics">B</emphasis>. This can also be expressed as</para>
 <equation id="fs-id1164567015914"> <m:math display="block">
 <m:mrow>
-<m:mi>E</m:mi><m:mo>=</m:mo><m:msub>
-<m:mi>E</m:mi>
+<m:mi>ε</m:mi><m:mo>=</m:mo><m:msub>
+<m:mi>ε</m:mi>
 <m:mn>0</m:mn>
 </m:msub>
 <m:mi>sin</m:mi><m:mi>ω</m:mi><m:mi>t</m:mi>
@@ -349,7 +349,7 @@
 <equation id="fs-id1164567420614"> <m:math display="block">
 <m:mrow>
 <m:msub>
-<m:mi>E</m:mi>
+<m:mi>ε</m:mi>
 <m:mn>0</m:mn>
 </m:msub>
 <m:mo>=</m:mo><m:mi>N</m:mi><m:mi>A</m:mi><m:mi>B</m:mi><m:mi>ω</m:mi>
@@ -368,7 +368,7 @@
 <para id="fs-id1167066057525"><link target-id="Figure_20_03_Light"/> shows a generator connected to a light bulb and a graph of the emf vs. time. Note that the emf oscillates from a positive maximum of  <m:math>
 <m:mrow>
 <m:msub>
-<m:mi>E</m:mi>
+<m:mi>ε</m:mi>
 <m:mn>0</m:mn>
 </m:msub>
 
@@ -388,7 +388,7 @@
 <caption>The emf of a generator is sent to a light bulb with the system of rings and brushes shown. The graph gives the emf of the generator as a function of time.  <m:math>
 <m:mrow>
 <m:msub>
-<m:mi>E</m:mi>
+<m:mi>ε</m:mi>
 <m:mn>0</m:mn>
 </m:msub>
 
@@ -536,7 +536,7 @@
 <m:mtext>S</m:mtext>
 </m:msub>
 <m:mo>=</m:mo><m:msub>
-<m:mi>E</m:mi>
+<m:mi>ε</m:mi>
 <m:mtext>S</m:mtext>
 </m:msub>
 <m:mtext>),</m:mtext>
