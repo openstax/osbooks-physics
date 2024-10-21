@@ -514,7 +514,7 @@
 <title>Section Summary</title>
 <list id="fs-id1167066958478">
 <item>The electric field defines the force per unit charge in the space around a charge distribution.</item>
-<item>For a point charge or a sphere of uniform charge, the electric field is inversely proportional to the distance from the point charge or from the center of the sphere.</item>
+<item>For a point charge or a sphere of uniform charge, the electric field is inversely proportional to the square of the distance from the point charge or from the center of the sphere.</item>
 <item>Electric-field lines never cross each other.</item>
 <item>More force is applied to a charge in a region with many electric field lines than in a region with few electric field lines.</item>
 <item>Electric field lines start at positive charges and point away from positive charges. They end at negative charges and point toward negative charges.</item>
