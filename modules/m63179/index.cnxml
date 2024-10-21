@@ -1287,12 +1287,12 @@
 <!--<para id="fs-id1167064645939">
 <link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex117"/>
 </para>-->
-<para id="fs-id1164566039620">When you insert a dielectric into a capacitor, the energy stored in the capacitor decreases. If you take the dielectric out, the energy increases again. Where does this energy go in the former case, and where does the energy come from in the latter case?</para>
+<para id="fs-id1164566039620">When you insert a dielectric into a capacitor that has been charged and then disconnected from the charging battery, the energy stored in the capacitor decreases. If you take the dielectric out, the energy increases again. Where does this energy go in the former case, and where does the energy come from in the latter case?</para>
 <list id="fs-id1164567962714" list-type="enumerated" number-style="lower-alpha">
-<item>Energy is utilized to remove the dielectric and is released when the dielectric is introduced between the plates.</item>
-<item>Energy is released when the dielectric is added and is utilized when the dielectric is introduced between the plates.</item>
-<item>Energy is utilized to polarize the dielectric and is released when the dielectric is introduced between the plates.</item>
-<item>Energy is released to polarize the dielectric and is utilized when dielectric is introduced between the plates.</item></list>
+<item>Energy is released by the dielectric when it is introduced between the plates and then reabsorbed when it is removed.</item>
+<item>The energy goes into polarizing the dielectric when it is added. When you remove the dielectric, energy comes from your work pulling on the dielectric.</item>
+<item>Energy goes into you when you insert the dielectric, and comes from you when you remove it.</item>
+<item>Energy is released to polarize the dielectric when it is introduced between the plates. The polarized dielectric transfers the energy back into the capacitor when the dielectric is removed.</item></list>
 </problem>
 </exercise>
 </section>
