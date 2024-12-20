@@ -1022,7 +1022,7 @@ where  <m:math>
             <link class="os-embed" url="#ost/api/ex/k12phys-ch06-ex074"/>
           </para>-->
 
-<para id="fs-id1164565281237">An objects angular acceleration is 36 rad/s<sup>2</sup>. If it were initially spinning with a velocity of 6.0 m/s, what would its angular velocity be after 5.0 s?</para>
+<para id="fs-id1164565281237">An objects angular acceleration is 36 rad/s<sup>2</sup>. If it were initially spinning with a velocity of 6.0 rad/s, what would its angular velocity be after 5.0 s?</para>
 <list id="fs-id1164566956418" list-type="enumerated" number-style="lower-alpha">
 <item>186 rad/s</item>
 <item>190 rad/s<sup>2</sup></item>
