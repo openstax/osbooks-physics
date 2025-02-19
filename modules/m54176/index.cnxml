@@ -510,7 +510,7 @@
 <item>Tie an object to the end of a string.</item>
 <item>Swing the object around in a horizontal circle above your head (swing from your wrist). It is important that the circle be horizontal!</item>
 <item>Maintain the object at uniform speed as it swings.</item>
-<item>Measure the angular speed of the object in this manner. Measure the time it takes in seconds for the object to travel 10 revolutions. Divide that time by 10 to get the angular speed in revolutions per second, which you can convert to radians per second.</item>
+<item>Measure the angular speed of the object in this manner. Measure the time it takes in seconds for the object to travel 10 revolutions. Divide 10 revolutions by that time to get the angular speed in revolutions per second, which you can convert to radians per second.</item>
 <item>What is the approximate linear speed of the object?</item>
 <item>Move your hand up the string so that the length of the string is 90 cm. Repeat steps 2–5.</item>
 <item>Move your hand up the string so that its length is 80 cm. Repeat steps 2–5.</item>
