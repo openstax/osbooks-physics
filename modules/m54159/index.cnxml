@@ -63,10 +63,7 @@
                 <m:mi>μ</m:mi>
                 <m:mtext>s</m:mtext>
               </m:msub>
-              <m:msub>
                 <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>N</m:mi></m:mstyle>
-                <m:mtext>s</m:mtext>
-              </m:msub>
               <m:mtext>,</m:mtext>
             </m:mrow>
           </m:math>
