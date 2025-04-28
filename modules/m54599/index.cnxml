@@ -1635,9 +1635,9 @@
 
        </m:mrow>
       </m:mfrac>
-      <m:mtext> = 1</m:mtext><m:msup>
+      <m:mtext> = 1.5</m:mtext><m:msup>
        <m:mrow>
-        <m:mtext>.33 × 10</m:mtext>
+        <m:mtext> × 10</m:mtext>
        </m:mrow>
        <m:mtext>2</m:mtext>
       </m:msup>
@@ -1645,33 +1645,26 @@
      </m:mrow>
     </m:mtd>
    </m:mtr>
-   <m:mtr>
-    <m:mtd>
+
+     </m:mtable>
+ </m:mrow>
+</m:math></equation>
+<para id="para-00001">Since the area is actually a little larger than 6 × 10<sup>2</sup>, the height is a little less than 150, so round down to 100 inches rather than up to 200 inches.</para>
+  <equation class="unnumbered" id="eq-00001"> <m:math>
      <m:mrow>
       <m:mtext>Height of money</m:mtext>
-     </m:mrow>
-    </m:mtd>
-    <m:mtd>
-     <m:mtext>=</m:mtext>
-    </m:mtd>
-    <m:mtd>
-     <m:mrow>
+     <m:mo>=</m:mo>
       <m:msup>
        <m:mrow>
         <m:mtext>1×10</m:mtext>
        </m:mrow>
        <m:mtext>2</m:mtext>
-      </m:msup>
-      <m:mtext> in</m:mtext><m:mtext>. = 100 in</m:mtext><m:mtext>.</m:mtext>
+      </m:msup><m:mspace width="0.2em"/>
+      <m:mtext> in.</m:mtext><m:mo>=</m:mo><m:mtext>100 in</m:mtext><m:mtext>.</m:mtext>
      </m:mrow>
-    </m:mtd>
-   </m:mtr>
-
-  </m:mtable>
- </m:mrow>
-</m:math>
-
-</equation><para id="fs-id1167065726573">The height of the money will be about 100 in. high. Converting this value to feet gives</para>
+    </m:math>
+</equation>
+<para id="fs-id1167065726573">The height of the money will be about 100 in. high. Converting this value to feet gives</para>
 <equation id="fs-id1167065726576" class="unnumbered"><label/>
  <m:math display="block">
  <m:mrow>
