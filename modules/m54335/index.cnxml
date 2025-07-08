@@ -199,12 +199,12 @@
    <m:mi>f</m:mi>
    <m:mi>n</m:mi>
   </m:msub>
-  <m:mo>=</m:mo><m:mi>n</m:mi><m:mfrac>
+  <m:mo>=</m:mo><m:mo>(</m:mo><m:mn>2n</m:mn><m:mo>–</m:mo><m:mn>1</m:mn><m:mo>)</m:mo><m:mfrac>
    <m:mi>v</m:mi>
    <m:mrow>
     <m:mn>4</m:mn><m:mi>L</m:mi></m:mrow>
   </m:mfrac>
-  <m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>5...</m:mn><m:mo>,</m:mo></m:mrow>
+  <m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3...</m:mn><m:mo>,</m:mo></m:mrow>
 </m:math> </para>
 <para id="fs-id1167065796099">where <emphasis effect="italics">f</emphasis><sub>1</sub> is the fundamental, <emphasis effect="italics">f</emphasis><sub>3</sub> is the first overtone, and so on. Note that the resonant frequencies depend on the speed of sound <emphasis effect="italics">v</emphasis> and on the length of the tube <emphasis effect="italics">L</emphasis>.</para>
 <para id="fs-id1167066028663">Another type of tube is one that is <emphasis effect="italics">open </emphasis>at both ends (known as an <term class="no-emphasis" id="term-00013">open-pipe resonator</term>). Examples are some organ pipes, flutes, and oboes. The air columns in tubes open at both ends have maximum air displacements at both ends. (See <link target-id="Figure_14_04_OpenOver"/>). Standing waves form as shown.</para>
