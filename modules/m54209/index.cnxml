@@ -310,9 +310,9 @@
 
 <title>Introduction to Momentum</title> <para id="fs-id1167065881814">This video reviews the definitions of momentum and impulse. It also covers an example of using conservation of momentum to solve a problem involving an inelastic collision between a car with constant velocity and a stationary truck. Note that Sal accidentally gives the unit for impulse as Joules; it is actually N <m:math>
 <m:mo>⋅</m:mo>
-</m:math> s or k <m:math>
+</m:math> s or kg <m:math>
 <m:mo>⋅</m:mo>
-</m:math> gm/s. </para>
+</m:math> m/s. </para>
 <media id="fs-id1167066102904" alt="This video introduces the concept of momentum through an explanation of a simple problem." class="os-embed">
 <iframe width="660" height="371.4" src="https://openstax.org/l/02introtwomom"/>
 </media>
