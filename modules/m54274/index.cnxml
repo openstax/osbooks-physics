@@ -172,7 +172,7 @@
                 <m:mi>d</m:mi>
                 <m:mi>e</m:mi>
               </m:msub>
-              <m:mo>></m:mo><m:msub>
+              <m:mo>&gt;</m:mo><m:msub>
                 <m:mi>d</m:mi>
                 <m:mi>r</m:mi>
               </m:msub>
@@ -836,7 +836,7 @@ An electrician grips the handles of a wire cutter, like the one shown, 10 cm fro
 
 <exercise id="eip-id1166850157365" class="os-exercise"><problem id="eip-id1166849372528">
 <para id="eip-id1166849372530">Which statement correctly describes the simple machines, like the crank in the image, that make up an Archimedes screw and the forces it applies?</para>
-<media id="eip-idm276679808" alt="no alt text">
+<media id="eip-idm276679808" alt="A classic illustration of an Archimedes' screw, a historical water-lifting device, showing its helical design within a tube, used to transport water upwards from a lower to a higher level.">
 <image mime-type="image/jpeg" src="../../media/CNX_Archimedes_screw.jpg"/>
 </media>
 <list id="eip-idm204681728" list-type="enumerated" number-style="lower-alpha"><item>The crank is a wedge in which the IMA is the length of the tube divided by the radius of the tube. The applied force is the effort force and the

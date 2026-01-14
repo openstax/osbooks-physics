@@ -218,7 +218,7 @@
    <m:mi>d</m:mi>
    <m:mi>o</m:mi>
   </m:msub>
-  <m:mo>></m:mo><m:mi>f</m:mi>
+  <m:mo>&gt;</m:mo><m:mi>f</m:mi>
  </m:mrow>
 </m:math> </entry>
 <entry>Real and inverted</entry>
@@ -244,7 +244,7 @@
    <m:mi>d</m:mi>
    <m:mi>o</m:mi>
   </m:msub>
-  <m:mo>&lt;</m:mo><m:mtext> or </m:mtext><m:mo>></m:mo><m:mtext> </m:mtext><m:mi>f</m:mi>
+  <m:mo>&lt;</m:mo><m:mtext> or </m:mtext><m:mo>&gt;</m:mo><m:mtext> </m:mtext><m:mi>f</m:mi>
  </m:mrow>
 </m:math> </entry>
 <entry>Virtual and erect</entry>
@@ -692,7 +692,7 @@
 
 <commentary id="fs-id1167064872119">
 <title>Discussion</title>
-<para id="fs-id1167065800917">Note that the object (the coil filament) is farther from the mirror than the mirror’s focal length. This is a <emphasis effect="italics">case 1</emphasis> image (<emphasis effect="italics">d</emphasis><sub>o</sub> > <emphasis effect="italics">f </emphasis>and <emphasis effect="italics">f </emphasis>positive), consistent with the fact that a real image is formed. You get the most concentrated thermal energy directly in front of the mirror and 3.00 m away from it. In general, this is not desirable because it could cause burns. Usually, you want the rays to emerge parallel, and this is accomplished by having the filament at the focal point of the mirror.</para>
+<para id="fs-id1167065800917">Note that the object (the coil filament) is farther from the mirror than the mirror’s focal length. This is a <emphasis effect="italics">case 1</emphasis> image (<emphasis effect="italics">d</emphasis><sub>o</sub> &gt; <emphasis effect="italics">f </emphasis>and <emphasis effect="italics">f </emphasis>positive), consistent with the fact that a real image is formed. You get the most concentrated thermal energy directly in front of the mirror and 3.00 m away from it. In general, this is not desirable because it could cause burns. Usually, you want the rays to emerge parallel, and this is accomplished by having the filament at the focal point of the mirror.</para>
 <para id="fs-id1167065914668">Note that the filament here is not much farther from the mirror than the focal length, and that the image produced is considerably farther away.</para>
 </commentary>
 </exercise>
@@ -733,7 +733,7 @@
 <link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex009"/>
 </para>-->
 <para id="fs-id1169827689043">How does the object distance, d<sub>o</sub>, compare with the focal length, f, for a concave mirror that produces an image that is real and inverted?</para>
-<list id="fs-id1169828355027" list-type="enumerated" number-style="lower-alpha"><item>d<sub>o</sub> > f, where d<sub>o</sub> and f are object distance and focal length, respectively.</item>
+<list id="fs-id1169828355027" list-type="enumerated" number-style="lower-alpha"><item>d<sub>o</sub> &gt; f, where d<sub>o</sub> and f are object distance and focal length, respectively.</item>
 <item>d<sub>o</sub> &lt; f, where d<sub>o</sub> and f are object distance and focal length, respectively.</item>
 <item>d<sub>o</sub> = f, where do and f are object distance and focal length, respectively.</item>
 <item>d<sub>o</sub> = 0, where do is the object distance.</item>
@@ -903,7 +903,7 @@
  <m:math><m:msub><m:mi>ϑ</m:mi><m:mi>r</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>ϑ</m:mi><m:mi>i</m:mi></m:msub></m:math>, where  <m:math><m:msub><m:mi>ϑ</m:mi><m:mi>r</m:mi></m:msub></m:math>  is the angle of reflection and  <m:math><m:msub><m:mi>ϑ</m:mi><m:mi>i</m:mi></m:msub></m:math>  is the angle of incidence.
 </item>
 <item>
- <m:math><m:msub><m:mi>ϑ</m:mi><m:mi>r</m:mi></m:msub><m:mo>></m:mo><m:msub><m:mi>ϑ</m:mi><m:mi>i</m:mi></m:msub></m:math>, where  <m:math><m:msub><m:mi>ϑ</m:mi><m:mi>r</m:mi></m:msub></m:math>  is the angle of reflection and  <m:math><m:msub><m:mi>ϑ</m:mi><m:mi>i</m:mi></m:msub></m:math>  is the angle of incidence.
+ <m:math><m:msub><m:mi>ϑ</m:mi><m:mi>r</m:mi></m:msub><m:mo>&gt;</m:mo><m:msub><m:mi>ϑ</m:mi><m:mi>i</m:mi></m:msub></m:math>, where  <m:math><m:msub><m:mi>ϑ</m:mi><m:mi>r</m:mi></m:msub></m:math>  is the angle of reflection and  <m:math><m:msub><m:mi>ϑ</m:mi><m:mi>i</m:mi></m:msub></m:math>  is the angle of incidence.
 </item>
 <item>
  <m:math><m:msub><m:mi>ϑ</m:mi><m:mi>r</m:mi></m:msub><m:mo>&lt;</m:mo><m:msub><m:mi>ϑ</m:mi><m:mi>i</m:mi></m:msub></m:math>, where  <m:math><m:msub><m:mi>ϑ</m:mi><m:mi>r</m:mi></m:msub></m:math>  is the angle of reflection and  <m:math><m:msub><m:mi>ϑ</m:mi><m:mi>i</m:mi></m:msub></m:math>  is the angle of incidence.
@@ -1049,7 +1049,7 @@
 <title>Test Prep Extended Response</title>
 <exercise id="fs-id1167065020746" class="os-exercise"><problem id="fs-id1167065895384">
 <para id="fs-id1167065733964">The diagram shows a lightbulb between two mirrors. One mirror produces a beam of light with parallel rays; the other keeps light from escaping without being put into the beam.</para>
-<media id="eip-idm520812096" alt="...">
+<media id="eip-idm520812096" alt="A diagram illustrating a light bulb positioned between two concave mirrors, demonstrating how light rays are reflected to create a parallel beam, often used in headlights or flashlights.">
 <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_16_01_Curved3.jpg"/>
 </media>
 <para id="eip-idm514562208">Where is the light source in relation to the focal point or radius of
