@@ -529,7 +529,7 @@
 </para>
 </problem>
 </exercise></section><section id="fs-id1167066983385" class="critical-thinking"><title>Critical Thinking</title><exercise id="fs-id1167067044146" class="os-exercise"><problem id="fs-id1167066878220"><para id="eip-idm470904368">Explain how you can use the graph of position vs. time  to describe the change in velocity over time.</para>
-<media id="veloc" alt="no alt text">
+<media id="veloc" alt="A position-time graph (x vs. t) showing an object's motion with decreasing positive velocity from points a to c, reaching zero velocity at d, and remaining stationary at e.">
 
   <image mime-type="image/png" src="../../media/Physics_02_03_veloc.jpg"/></media>
 
@@ -567,7 +567,7 @@ The total average velocity is 0 m/s.</item>
 <item>Distance</item>
 <item>Acceleration</item></list></problem></exercise><exercise id="fs-id1167067193716" class="os-exercise"><problem id="fs-id1167067095631"><para id="fs-id1167067095632">Using the graph, what is the runner’s velocity from 4 to 10 s?</para>
 
-<media id="testprep" alt="no alt text">
+<media id="testprep" alt="A line graph titled 'Runner Position' shows a runner's position (m) over time (s). The runner moves from 0m to 12m in the first 4 seconds, then remains at 12m from 4 to 10 seconds.">
 
   <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_02_03_runner_img.jpg"/>
 
@@ -615,7 +615,7 @@ The total average velocity is 0 m/s.</item>
     <title>Test Prep Extended Response</title>
 <exercise id="fs-id1167063772262" class="os-exercise"><problem id="fs-id1167067033570">
 <!--<para id="fs-id1167067033571"><link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex066"/></para>--><para id="eip-idm323173472">What kind of motion would create a position graph like the one shown?</para>
-<media id="fs-id1169830662478" alt="no alt text">
+<media id="fs-id1169830662478" alt="A position versus time graph illustrates an object's increasing position over time, with the red line indicating an accelerating motion as the slope becomes steeper.">
 <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_02_03_versus_img.jpg"/>
 </media>
 <list id="fs-id1169833222748" list-type="enumerated" number-style="lower-alpha">
@@ -626,7 +626,7 @@ The total average velocity is 0 m/s.</item>
 </list>
 </problem></exercise><exercise id="fs-id1167066793176" class="os-exercise"><problem id="fs-id1167066961085">
 <!--<para id="fs-id1167066961086"><link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex067"/></para>--><para id="eip-idm385642336">What is the average velocity for the whole time period shown in the graph?</para>
-<media id="fs-id1169832834650" alt="no alt text">
+<media id="fs-id1169832834650" alt="A position-time graph showing an object's position in meters (y-axis) versus time in seconds (x-axis). The object moves from 0m to 2m, then to -3m, stays at -3m, and finally moves to -2m.">
 <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_02_03_vs_img.jpg"/>
 </media>
 <list id="fs-id1169831642421" list-type="enumerated" number-style="lower-alpha">
