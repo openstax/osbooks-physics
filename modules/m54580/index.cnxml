@@ -205,25 +205,17 @@
 <para id="fs-id1167063667227">To more easily identify various atoms, their atomic number and mass number are typically written in a form of representation called the <term class="no-emphasis" id="term-00005">nuclide</term>. The nuclide form appears as follows: <m:math>
 <m:msubsup>
 <m:mrow/>
-   <m:mrow><m:mi>A</m:mi></m:mrow>
-   <m:mi>Z</m:mi>
+   <m:mrow><m:mi>Z</m:mi></m:mrow>
+   <m:mi>A</m:mi>
 </m:msubsup>
   <m:mi>X</m:mi>
-  <m:msub>
-   <m:mrow/>
-   <m:mi>N</m:mi>
-  </m:msub>
 </m:math>, where <emphasis effect="italics">X</emphasis> is the atomic symbol and <emphasis effect="italics">N</emphasis> represents the number of neutrons. </para><para id="fs-id1167063419008">Let us look at a few examples of nuclides expressed in the  <m:math>
 <m:msubsup>
 <m:mrow/>
-   <m:mrow><m:mi>A</m:mi></m:mrow>
-   <m:mi>Z</m:mi>
+   <m:mrow><m:mi>Z</m:mi></m:mrow>
+   <m:mi>A</m:mi>
 </m:msubsup>
   <m:mi>X</m:mi>
-  <m:msub>
-   <m:mrow/>
-   <m:mi>N</m:mi>
-  </m:msub>
 </m:math>  notation. The nucleus of the simplest atom, hydrogen, is a single proton, or  <m:math>
  <m:mrow>
   <m:mmultiscripts>
@@ -242,7 +234,7 @@
   <m:mtext>H</m:mtext>
   <m:msub>
    <m:mrow/>
-   <m:mn>2</m:mn>
+   <m:mn>1</m:mn>
   </m:msub>
 </m:math> . An even rarer—and radioactive—form of hydrogen is called <emphasis effect="italics">tritium</emphasis>, since it has a single proton and two neutrons, and it is written  <m:math>
 <m:msubsup>

@@ -963,7 +963,7 @@
 <exercise id="fs-id1167065967076" class="08-ex043 unnumbered"><label/>
 
 <problem id="fs-id1167062343003">
-<para id="fs-id1167064905118">Two hard, steel carts collide head-on and then ricochet off each other in opposite directions on a frictionless surface (see <link target-id="Figure_08_03_Carts"/>). Cart 1 has a mass of 0.350 kg and an initial velocity of 2 m/s. Cart 2 has a mass of 0.500 kg and an initial velocity of −0.500 m/s. After the collision, cart 1 recoils with a velocity of −4 m/s. What is the final velocity of cart 2?</para>
+<para id="fs-id1167064905118">Two hard, steel carts collide head-on and then ricochet off each other in opposite directions on a frictionless surface (see <link target-id="Figure_08_03_Carts"/>). Cart 1 has a mass of 0.350 kg and an initial velocity of 2 m/s. Cart 2 has a mass of 0.500 kg and an initial velocity of −0.500 m/s. After the collision, cart 1 recoils with a velocity of −0.94 m/s. What is the final velocity of cart 2?</para>
 <figure id="Figure_08_03_Carts">
 <media id="fs-id1167066038762" alt="An illustration shows before and after diagrams of two carts moving toward each other on a frictionless surface. The cart on the left is labeled m one and the car on the right is labeled m two. Both diagrams are labeled System of Interest. In the before diagram, a velocity vector, v one, points from the cart on the left to the cart on the right. A second, shorter velocity vector, v two, points from the cart on the right to the cart on the left. Two equations are shown: p one plus p one equals p total and net F equals zero. In the after diagram, the velocity vectors are equal in magnitude and point away from the carts. They are labeled v one prime and v two prime. The equation p one prime plus p one prime equals p total is shown.">
 <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_08_03_Carts.jpg"/>
@@ -1122,7 +1122,7 @@
                       </m:mrow>
                       <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
                         <m:mrow>
-                          <m:mo>−</m:mo><m:mtext>4</m:mtext><m:mtext>.00</m:mtext><m:mtext>m/s</m:mtext>
+                          <m:mo>−</m:mo><m:mtext>0</m:mtext><m:mtext>.94</m:mtext><m:mtext>m/s</m:mtext>
                         </m:mrow>
                         <m:mo>)</m:mo></m:mrow>
           </m:mrow>
@@ -1141,7 +1141,7 @@
     </m:mtd>
     <m:mtd rowalign="center" columnalign="left">
       <m:mrow>
-        <m:mtext>3</m:mtext><m:mtext>.70</m:mtext><m:mtext>m/s.</m:mtext>
+        <m:mtext>1</m:mtext><m:mtext>.56</m:mtext><m:mtext>m/s.</m:mtext>
       </m:mrow>
     </m:mtd>
   </m:mtr>

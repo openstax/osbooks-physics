@@ -286,7 +286,7 @@
     <item>Calculate the bottom rectangle (common to all pieces). 165 m/s  <m:math>
      <m:mo>×</m:mo>
     </m:math>  70 s = 11,550 m.</item>
-    <item>Estimate a triangle at the top, and calculate the area for each section. Section 1 = 225 m; section 2 = 100 m + 450 m = 550 m; section 3 = 150 m + 1,300 m = 1,450 m; section 4 = 2,550 m.</item>
+    <item>Estimate a triangle at the top, and calculate the area for each section. Section 1 contributes a triangle of width 10 s and height (210 – 165) m/s = 45 m/s so the added areas for Section 1 = (1/2)(45 m/s)(10 s) = 225 m; section 2 contributes a rectangle and a triangle with area  = 100 m + 450 m = 550 m; section 3 = 150 m + 1,300 m = 1,450 m; section 4 = 2,550 m.</item>
     <item>Add them together to get a net displacement of 16,325 m.</item>
     </list>
 </item>
