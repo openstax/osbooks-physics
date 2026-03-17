@@ -327,7 +327,7 @@
 <link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex071"/>
 </para>-->
 <figure id="fs-id1169830667228">
-<media id="fs-id1169832910346" alt="no alt text">
+<media id="fs-id1169832910346" alt="The image shows a graph titled 'Velocity vs. Time' with velocity on the y-axis and time on the x-axis. The graphed line shows that velocity increases rapidly in 3 seconds to 3 m/s velocity but plateaus before losing velocity at 23 seconds.">
 <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_02_04_ve.jpg"/>
 </media>
 <caption/>
@@ -349,7 +349,7 @@
 <link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex072"/>
 </para>-->
 <figure id="fs-id1169832945716">
-<media id="fs-id1169831643166" alt="no alt text">
+<media id="fs-id1169831643166" alt="The image shows a graph titled 'Velocity vs. Time' with velocity on the y-axis and time on the x-axis. The graphed line shows that velocity increases rapidly in 3 seconds to 3 m/s velocity but plateaus before losing velocity at 23 seconds.">
 <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_02_04_ve.jpg"/>
 </media>
 <caption/>
@@ -459,7 +459,7 @@
 <para id="fs-id1167064845687">A graph of velocity vs. time of a ship coming into a harbor is shown.
 
 </para>
-<media id="graphy" alt="no alt text">
+<media id="graphy" alt="The image shows a simple graph with velocity on the y-axis and time on the x-axis. The graphed line trends downward from left to right.">
 
   <image mime-type="image/jpeg" src="../../media/TEA_HSPhysics_02 ML_SR-14ae.jpg"/>
 
@@ -568,7 +568,7 @@
 <!--<para id="fs-id1167065965275">
 <link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex082"/>
 </para>--><para id="eip-idm322086144">What would the velocity vs. time graph of the object whose position is shown in the graph look like?</para>
-<media id="fs-id1169832876953" alt="no alt text">
+<media id="fs-id1169832876953" alt="The image shows a graph titled 'Position vs Time' with position (m) on the y-axis and time (s) on the x-axis. The graphed data points show a trending curve upward from left to right.">
 <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_02_04_pos_img.jpg"/>
 </media>
 <list id="fs-id1169829487901" list-type="enumerated" number-style="lower-alpha">
@@ -642,7 +642,7 @@
 <!--<link class="os-embed" url="#ost/api/ex/k12phys-ch02-ex087"/><newline/>-->
 Divide the graph into approximate sections, and use those sections to graph the velocity vs. time of the object.
 </para>
-<media id="end" alt="no alt text">
+<media id="end" alt="A graph titled 'position vs time' with position (m) on the y-axis and time (s) on the x-axis. The data points trend upward for the first 5 seconds before moving downward by 10 seconds. After 10 seconds, the points gently curve upward with a max position of 25 m at 20 seconds.">
   <image mime-type="image/jpeg" src="../../media/CNX_HSPhysics_02_04_pvst_img.jpg"/>
 </media>
 <para id="eip-idm240278992">Then calculate the acceleration during each section, and calculate the approximate average velocity.</para>
