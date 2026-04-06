@@ -120,10 +120,8 @@
 <media id="fs-id1167062458485" alt="Wave 1 and wave 2 have different frequencies, and produce a resultant wave with varying amplitude."><image mime-type="image/jpg" src="../../media/CNX_HSPhysics_14_04_Beats.jpg"/></media>
 <caption>Beats are produced by the superposition of two waves of slightly different frequencies but identical amplitudes. The waves alternate in time between constructive interference and destructive interference, giving the resulting wave a time-varying amplitude.</caption></figure>
 
-<note id="fs-id1167065858276" class="virtual-physics os-interactive"><title>Wave Interference</title><media id="fs-id1167067067106" alt="This simulation allows you to make waves with a dripping faucet, audio speaker, or laser. You can also add a second source to create an interference pattern, put up a barrier to explore single-slit diffraction and double-slit interference, and experiment with diffraction through elliptical, rectangular, or irregular apertures.">
-<iframe width="660" height="371.4" src="https://openstax.org/l/28interference"/>
-</media>
-<para id="fs-id1167060068950">For this activity, switch to the Sound tab. Turn on the Sound option, and experiment with changing the frequency and amplitude, and adding in a second speaker and a barrier.</para>
+<note id="fs-id1167065858276" class="virtual-physics os-interactive"><title>Wave Interference</title>
+<para id="fs-id1167060068950">For <link url="https://openstax.org/l/28interference">this activity</link>, switch to the Sound tab. Turn on the Sound option, and experiment with changing the frequency and amplitude, and adding in a second speaker and a barrier.</para>
 
 <exercise id="fs-id1167066098496" class="os-exercise grasp-check unnumbered">
 

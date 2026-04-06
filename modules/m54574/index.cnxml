@@ -292,10 +292,8 @@
 </note>
 
 <note id="fs-id1167063649118" class="virtual-physics"><title>Nuclear Fission</title>
-<media id="fs-id1167063693188" alt="This simulation allows you to control energy production in a nuclear reactor.">
-<iframe width="660" height="371.4" src="https://openstax.org/l/16fission"/>
-</media>
-<para id="fs-id1167067073682">Start a chain reaction, or introduce nonradioactive isotopes to prevent one. Use the applet to control energy production in a nuclear reactor!</para>
+
+<para id="fs-id1167067073682">Start a chain reaction, or introduce nonradioactive isotopes to prevent one in <link url="https://openstax.org/l/16fission">this simulation</link>. Use the applet to control energy production in a nuclear reactor!</para>
 </note></section>
 </section>
 

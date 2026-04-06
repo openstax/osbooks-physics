@@ -241,9 +241,7 @@
 </problem>
 </exercise>
 </note><note id="fs-id1167065844476" class="virtual-physics os-interactive"><title>Charge your Capacitor</title>
-<media id="fs-id1167066202649" alt="This simulation allows you to explore how a capacitor works.">
-<iframe width="660" height="371.4" src="https://openstax.org/l/28charge-cap"/></media>
-<para id="eip-id1167062372980">In this simulation, you are presented with a parallel-plate capacitor connected to a variable-voltage battery. The battery is initially at zero volts, so no charge is on the capacitor. Slide the battery slider up and down to change the battery voltage, and observe the charges that accumulate on the plates. Display the capacitance, top-plate charge, and stored energy as you vary the battery voltage. You can also display the electric-field lines in the capacitor. Finally, probe the voltage between different points in this circuit with the help of the voltmeter.</para>
+<para id="eip-id1167062372980">In <link url="https://openstax.org/l/28charge-cap">this simulation</link>, you are presented with a parallel-plate capacitor connected to a variable-voltage battery. The battery is initially at zero volts, so no charge is on the capacitor. Slide the battery slider up and down to change the battery voltage, and observe the charges that accumulate on the plates. Display the capacitance, top-plate charge, and stored energy as you vary the battery voltage. You can also display the electric-field lines in the capacitor. Finally, probe the voltage between different points in this circuit with the help of the voltmeter.</para>
 
 <exercise id="fs-id1167065762850" class="os-exercise grasp-check unnumbered">
 

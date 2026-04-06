@@ -83,9 +83,8 @@
 <item>One of the advantages of using a laser as a surgical tool is that it is accompanied by very little bleeding.</item>
 <item>Laser eye surgery has improved the vision of many people, without the need for corrective lenses. A laser beam is used to change the shape of the lens of the eye, thus changing its focal length.</item>
 </list><note id="fs-id1167066094217" class="virtual-physics"><title>Lasers</title>
-<media id="fs-id1167066074326" alt="This simulation allows you to examine the workings of a laser.">
-<iframe width="660" height="371.4" src="https://openstax.org/l/28lasers"/></media>
-<para id="fs-id1167065877288">This animation allows you to examine the workings of a laser. First view the picture of a real laser. Change the energy of the incoming photons, and see if you can match it to an excitation level that will produce pairs of coherent photons. Change the excitation level and try to match it to the incoming photon energy.</para>
+
+<para id="fs-id1167065877288"><link url="https://openstax.org/l/28lasers">This animation</link> allows you to examine the workings of a laser. First view the picture of a real laser. Change the energy of the incoming photons, and see if you can match it to an excitation level that will produce pairs of coherent photons. Change the excitation level and try to match it to the incoming photon energy.</para>
 <!--<para id="fs-id1167067076635"><link class="os-embed" url="#ost/api/ex/k12phys-ch17-ex021"/></para>-->
 <para id="fs-id1164564767073">In the animation there is only one excited atom. Is that the case for a real laser? Explain.</para>
 <list id="fs-id1164562306470" list-type="enumerated" number-style="lower-alpha">

@@ -248,9 +248,8 @@
 </note>
 
 <note id="fs-id1167065737903" class="virtual-physics os-interactive"><title>Bending Light</title>
-<media id="fs-id1167065851428" alt="This simulation allows you to explore bending of light between two media with different indices of refraction">
-<iframe width="660" height="371.4" src="https://openstax.org/l/28Bendinglight"/></media>
-<para id="fs-id1167063504115">The Bending Light simulation allows you to show light refracting as it crosses the boundaries between various media (download animation first to view). It also shows the reflected ray. You can move the protractor to the point where the light meets the boundary and measure the angle of incidence, the <term id="term-00002">angle of refraction</term>, and the angle of reflection. You can also insert a prism into the beam to view the spreading, or <term id="term-00003">dispersion</term>, of white light into colors, as discussed later in this section. Use the ray option at the upper left.</para><para id="fs-id1167065938031"><link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex024"/></para>
+
+<para id="fs-id1167063504115"><link url="https://openstax.org/l/28Bendinglight">The Bending Light simulation</link> allows you to show light refracting as it crosses the boundaries between various media (download animation first to view). It also shows the reflected ray. You can move the protractor to the point where the light meets the boundary and measure the angle of incidence, the <term id="term-00002">angle of refraction</term>, and the angle of reflection. You can also insert a prism into the beam to view the spreading, or <term id="term-00003">dispersion</term>, of white light into colors, as discussed later in this section. Use the ray option at the upper left.</para><para id="fs-id1167065938031"><link class="os-embed" url="#ost/api/ex/k12phys-ch16-ex024"/></para>
 
 <note id="fs-id1167066044898" class="os-teacher">
 <title>Teacher Support</title>

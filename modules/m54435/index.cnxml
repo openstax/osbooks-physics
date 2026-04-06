@@ -207,9 +207,7 @@
 </m:math>  is measured from the bottom of the resistor to the top, meaning that the top of the resistor is at a higher voltage than the bottom of the resistor. Thus, current flows from the top of the resistor or higher voltage to the bottom of the resistor or lower voltage.</para>
 
 <note id="fs-id1167065071819" class="virtual-physics os-interactive"><title>Battery-Resistor Circuit</title>
-<media id="fs-id1167066103477" alt="This simulation shows how resistance, voltage, and current are related.">
-<iframe width="660" height="371.4" src="https://openstax.org/l/21batteryresist"/></media>
-<para id="eip-id1167067152016">Use this simulation to better understand how resistance, voltage, and current are related. The simulation shows a battery with a resistor connected between the terminals of the battery, as in the previous figure. You can modify the battery voltage and the resistance. The simulation shows how electrons react to these changes. It also shows the atomic cores in the resistor and how they are excited and heat up as more current goes through the resistor.</para>
+<para id="eip-id1167067152016">Use <link url="https://openstax.org/l/21batteryresist">this simulation</link> to better understand how resistance, voltage, and current are related. The simulation shows a battery with a resistor connected between the terminals of the battery, as in the previous figure. You can modify the battery voltage and the resistance. The simulation shows how electrons react to these changes. It also shows the atomic cores in the resistor and how they are excited and heat up as more current goes through the resistor.</para>
 
 <para id="fs-id1167064910507">Draw the circuit diagram for the circuit, being sure to draw an arrow indicating the direction of the current. Now pick three spots along the wire. Without changing the settings, allow the simulation to run for 20 s while you count the number of electrons passing through that spot. Record the number on the circuit diagram. Now do the same thing at each of the other two spots in the circuit. What do you notice about the number of charges passing through each spot in 20 s? Remember that that current is defined as the rate that charges flow through the circuit. What does this mean about the current through the entire circuit?</para>
 
@@ -254,9 +252,7 @@
 </figure></note>
 
 <note id="eip-id1167063573082" class="virtual-physics">
-  <media id="eip-id1167067027672" alt="This simulation provides you with various standard circuit elements, such as batteries, AC voltage sources, resistors, capacitors, light bulbs, switches, etc., with which to build your own circuits.">
-  <iframe width="660" height="371.4" src="https://openstax.org/l/21phetcirconstr"/></media>
-  <para id="fs-id1167065945137">Amuse yourself by building circuits of all different shapes and sizes. This simulation provides you with various standard circuit elements, such as batteries, AC voltage sources, resistors, capacitors, light bulbs, switches, etc. You can connect these in any configuration you like and then see the result.</para>
+  <para id="fs-id1167065945137">Amuse yourself by building circuits of all different shapes and sizes. <link url="https://openstax.org/l/21phetcirconstr">This simulation</link> provides you with various standard circuit elements, such as batteries, AC voltage sources, resistors, capacitors, light bulbs, switches, etc. You can connect these in any configuration you like and then see the result.</para>
 
 <para id="fs-id1167066138991">Build a circuit that starts with a resistor connected to a capacitor. Connect the free side of the resistor to the positive terminal of a battery and the free side of the capacitor to the negative terminal of the battery. Click the <emphasis effect="italics">reset dynamics</emphasis> button to see how the current flows starting with no charge on the capacitor. Now right click on the resistor to change its value. When you increase the resistance, does the circuit reach the steady state more rapidly or more slowly?</para>
 

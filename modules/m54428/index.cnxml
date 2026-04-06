@@ -192,9 +192,7 @@
 </note>
 
 <note id="fs-id1167067293970" class="virtual-physics os-interactive"><title>Probing an Electric Field</title>
-<media id="fs-id1167066831384" alt="This simulation allows you to arrange positive and negative charges in space and view the resulting electric field and electrostatic potential.">
-<iframe width="660" height="371.4" src="https://openstax.org/l/28charge-field"/></media>
-<para id="eip-id1167062315786">This simulation shows you the electric field due to charges that you place on the screen. Start by clicking the top checkbox in the options panel on the right-hand side to show the electric field. Drag charges from the buckets onto the screen, move them around, and observe the electric field that they form. To see more precisely the magnitude and direction of the electric field, drag an electric-field sensor, or <emphasis effect="italics">E-field</emphasis> sensor from the bottom bucket, and move it around the screen.</para><exercise id="fs-id1167066993553" class="os-exercise grasp-check unnumbered">
+<para id="eip-id1167062315786"><link url="https://openstax.org/l/28charge-field">This simulation</link> shows you the electric field due to charges that you place on the screen. Start by clicking the top checkbox in the options panel on the right-hand side to show the electric field. Drag charges from the buckets onto the screen, move them around, and observe the electric field that they form. To see more precisely the magnitude and direction of the electric field, drag an electric-field sensor, or <emphasis effect="italics">E-field</emphasis> sensor from the bottom bucket, and move it around the screen.</para><exercise id="fs-id1167066993553" class="os-exercise grasp-check unnumbered">
 
 <problem id="fs-id1167066948207">
 <para id="fs-id1167066877694"><link class="os-embed" url="#ost/api/ex/k12phys-ch18-ex062"/></para>

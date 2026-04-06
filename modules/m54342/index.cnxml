@@ -116,9 +116,7 @@
 <para id="fs-id1167064927654">Direct students to use this video as a way of connecting to the information in the following two figures, as well as to the following table.</para></note>
 </note>
 <note id="fs-id1167065912785" class="virtual-physics"><title>Radio Waves and Electromagnetic Fields</title>
-<media id="fs-id1167065661124" alt="This simulation demonstrates EM wave propagation">
-<iframe width="660" height="371.4" src="https://openstax.org/l/28Radiowaves"/></media>
-<para id="fs-id1167061228865">This simulation demonstrates wave propagation. The EM wave is propagated from the broadcast tower on the left, just as in <link target-id="Figure_15_01_EMwave"/>. You can make the wave yourself or allow the animation to send it. When the wave reaches the antenna on the right, it causes an oscillating current. This is how radio and television signals are transmitted and received.</para>
+<para id="fs-id1167061228865"><link url="https://openstax.org/l/28Radiowaves">This simulation</link> demonstrates wave propagation. The EM wave is propagated from the broadcast tower on the left, just as in <link target-id="Figure_15_01_EMwave"/>. You can make the wave yourself or allow the animation to send it. When the wave reaches the antenna on the right, it causes an oscillating current. This is how radio and television signals are transmitted and received.</para>
 <exercise id="fs-id1167064669785" class="os-exercise grasp-check unnumbered">
 
 <problem id="fs-id1167066146054">

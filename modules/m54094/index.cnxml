@@ -48,9 +48,8 @@
 
 <note id="fs-id1167066188879" class="virtual-physics os-interactive"><title>Maze Game</title>
 
-<para id="fs-id1167064914995">In this simulation you will use a vector diagram to manipulate a ball into a certain location without hitting a wall. You can manipulate the ball directly with position or by changing its velocity. Explore how these factors change the motion. If you would like, you can put it on the <emphasis effect="italics">a</emphasis> setting, as well. This is acceleration, which measures the rate of change of velocity. We will explore acceleration in more detail later, but it might be interesting to take a look at it here.</para>
-<media id="fs-id1167067104720" alt="In this game, students will use a vector arrow to explore position and velocity. The task is to get a ball into the pinpointed location without it hitting a wall.">
-<iframe width="660" height="371.4" src="https://openstax.org/l/28mazegame"/></media>
+<para id="fs-id1167064914995">In <link url="https://openstax.org/l/28mazegame">this simulation</link> you will use a vector diagram to manipulate a ball into a certain location without hitting a wall. You can manipulate the ball directly with position or by changing its velocity. Explore how these factors change the motion. If you would like, you can put it on the <emphasis effect="italics">a</emphasis> setting, as well. This is acceleration, which measures the rate of change of velocity. We will explore acceleration in more detail later, but it might be interesting to take a look at it here.</para>
+
 
 <exercise id="fs-id1167065773080" class="os-exercise grasp-check unnumbered">
 

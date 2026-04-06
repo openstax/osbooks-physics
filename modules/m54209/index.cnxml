@@ -749,9 +749,7 @@
 </note>
 
 <note id="fs-id1167065871105" class="virtual-physics"><title>Collision Lab</title>
-<para id="fs-id1167064747088">In this simulation, you will investigate collisions on an air hockey table. Place checkmarks next to the momentum vectors and momenta diagram options. Experiment with changing the masses of the balls and the initial speed of ball 1. How does this affect the momentum of each ball? What about the total momentum? Next, experiment with changing the elasticity of the collision. You will notice that collisions have varying degrees of elasticity, ranging from perfectly elastic to perfectly inelastic.  </para>
-<media id="fs-id1167067199002" alt="This simulation allows you to experiment with an online air hockey table in order to investigate simple collisions.">
-<iframe width="660" height="371.4" src="https://openstax.org/l/28collisionlab"/></media>
+<para id="fs-id1167064747088">In <link url="https://openstax.org/l/28collisionlab">this simulation</link>, you will investigate collisions on an air hockey table. Place checkmarks next to the momentum vectors and momenta diagram options. Experiment with changing the masses of the balls and the initial speed of ball 1. How does this affect the momentum of each ball? What about the total momentum? Next, experiment with changing the elasticity of the collision. You will notice that collisions have varying degrees of elasticity, ranging from perfectly elastic to perfectly inelastic.</para>
 <exercise id="fs-id1167065663486" class="os-exercise grasp-check unnumbered">
 
 <problem id="fs-id1167065848969">

@@ -170,9 +170,8 @@
 
 <note id="fs-id1167064850602" class="virtual-physics os-interactive"><title>Ladybug Motion in 2D</title>
 
-<para id="fs-id1167065965047">In this simulation, you experiment with the position, velocity, and acceleration of a ladybug in circular and elliptical motion. Switch the type of motion from linear to circular and observe the velocity and acceleration vectors. Next, try elliptical motion and notice how the velocity and acceleration vectors differ from those in circular motion.</para>
-<media id="fs-id1167062339457" alt="This simulation allows you to adjust position, velocity, and acceleration of a ladybug.">
-<iframe width="660" height="371.4" src="https://openstax.org/l/28ladybugmotion"/></media>
+<para id="fs-id1167065965047">In <link url="https://openstax.org/l/28ladybugmotion">this simulation</link>, you experiment with the position, velocity, and acceleration of a ladybug in circular and elliptical motion. Switch the type of motion from linear to circular and observe the velocity and acceleration vectors. Next, try elliptical motion and notice how the velocity and acceleration vectors differ from those in circular motion.</para>
+
 
 <exercise id="fs-id1167066020743" class="os-exercise grasp-check unnumbered">
 
