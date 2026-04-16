@@ -531,9 +531,7 @@ where  <m:math>
     <note id="fs-id1167066945228" class="watch-physics"><title>Introduction to Torque</title>
 
       <para id="fs-id1167063504147">This <link url="https://openstax.org/l/28torque">video</link> defines torque in terms of moment arm (which is the same as lever arm). It also covers a problem with forces acting in opposing directions about a pivot point. (At this stage, you can ignore Sal’s references to work and mechanical advantage.)</para>
- <!--     <media id="fs-id1167067202795" alt="This presentation gives a detailed introduction to torque." class="os-embed">
-        <iframe width="660" height="371.4" src="https://openstax.org/l/28torque"/>
-      </media>-->
+ <!--     <para><link url="https://openstax.org/l/28torque">Introduction to torque | Moments, torque, and angular momentum | Physics | Khan Academy</link></para>-->
       <exercise id="fs-id1167067308236" class="os-exercise grasp-check unnumbered">
 
         <problem id="fs-id1167066952680">

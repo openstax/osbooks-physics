@@ -326,9 +326,7 @@
 
 <note id="fs-id1167062461214" class="watch-physics"><title>Analogy between Gravity and Electricity</title>
 
-<para id="fs-id1167064906557">This video discusses the analogy between gravitational potential energy and electric potential energy. It reviews the concepts of work and potential energy and shows the connection between a mass in a uniform gravitation field, such as on Earth’s surface, and an electric charge in a uniform electric field.</para><media id="eip-id1167063426457" alt="..." class="os-embed">
-<iframe width="660" height="371.4" src="https://www.openstax.org/l/28grav-elec"/>
-</media></note><para id="fs-id1167065857925">If the electric field is not constant, then the equation  <m:math>
+<para id="fs-id1167064906557">This video discusses the analogy between gravitational potential energy and electric potential energy. It reviews the concepts of work and potential energy and shows the connection between a mass in a uniform gravitation field, such as on Earth’s surface, and an electric charge in a uniform electric field.</para><para id="para-00001"><link url="https://www.openstax.org/l/28grav-elec">Electric potential energy | Electrostatics | Electrical engineering | Khan Academy</link></para></note><para id="fs-id1167065857925">If the electric field is not constant, then the equation  <m:math>
  <m:mrow>
   <m:mi>Δ</m:mi><m:msub>
    <m:mi>U</m:mi>
@@ -817,9 +815,7 @@
 
 <para id="fs-id1167064635753">This video starts from electric potential energy and explains how this is related to electric potential (or voltage). The lecturer calculates the electric potential created by a uniform electric field.</para>
 
-<media id="fs-id1167066038725" alt="..." class="os-embed">
-<iframe width="660" height="371.4" src="https://www.openstax.org/l/28voltage"/>
-</media>
+<para id="para-00002"><link url="https://www.openstax.org/l/28voltage">Voltage | Electric charge, electric force, and voltage | Physics | Khan Academy</link></para>
 
 <exercise id="fs-id1167065770029" class="os-exercise grasp-check unnumbered">
 

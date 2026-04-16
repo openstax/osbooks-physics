@@ -271,9 +271,7 @@
 <note id="fs-id1167065873747" class="watch-physics"><title>Diffraction Grating</title>
 <para id="fs-id1167065938826">This <link class="os-embed" url="https://www.openstax.org/l/28diffraction">video</link> explains the geometry behind the diffraction pattern produced by a diffraction grating.</para>
 
-<media id="fs-id1167065823067" alt="diffraction grating" class="os-embed">
-<iframe width="660" height="371.4" src="https://www.openstax.org/l/28diffraction"/>
-</media>
+<para id="para-00001"><link url="https://www.openstax.org/l/28diffraction">Diffraction grating | Light waves | Physics | Khan Academy</link></para>
 
 <para id="fs-id1167065918843"><link class="os-embed" url="#ost/api/ex/k12phys-ch17-ex026"/></para>
 </note><para id="fs-id1167064799668">Just what is the resolution limit of an aperture or lens? To answer that question, consider the diffraction pattern for a circular aperture, which, similar to the diffraction pattern of light passing through a slit, has a central maximum that is wider and brighter than the maxima surrounding it (see <link target-id="Figure_17_02_Resolution"/> (a)). It can be shown that, for a circular aperture of diameter <emphasis effect="italics">D</emphasis>, the first minimum in the diffraction pattern occurs at  <m:math>

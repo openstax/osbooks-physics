@@ -172,7 +172,7 @@
                 <m:mi>d</m:mi>
                 <m:mi>e</m:mi>
               </m:msub>
-              <m:mo>&gt;</m:mo><m:msub>
+              <m:mo>></m:mo><m:msub>
                 <m:mi>d</m:mi>
                 <m:mi>r</m:mi>
               </m:msub>
@@ -188,9 +188,7 @@
     <note id="fs-id1167066885564" class="watch-physics"><title>Introduction to Mechanical Advantage </title>
 
       <para id="fs-id1167066809024">This video shows how to calculate the <emphasis effect="italics">IMA</emphasis> of a lever by three different methods: (1) from effort force and resistance force; (2) from the lengths of the lever arms, and; (3) from the distance over which the force is applied and the distance the load moves.</para>
-      <media id="fs-id1167067250534" alt="This tutorial introduces simple machines, mechanical advantage, and moments." class="os-embed">
-        <iframe width="660" height="371.4" src="https://www.youtube.com/embed/pfzJ-z5Ij48"/>
-      </media>
+      <para id="para-00001"><link url="https://www.youtube.com/embed/pfzJ-z5Ij48">Introduction to mechanical advantage | Work and energy | Physics | Khan Academy</link></para>
       <note id="fs-id1167066975948" class="os-teacher">
         <title>Teacher Support</title>
         <para id="fs-id1167066825589">The beginning of this video may cause more confusion than illumination. It shows a derivation using trig functions that is beyond the scope of this chapter. Interested students may want to work their way through it. Most students should skip to the final two or three minutes which explain the basics of calculating <emphasis effect="italics">IMA</emphasis> of a lever from different ratios. Review <emphasis effect="italics">W</emphasis> = <emphasis>f</emphasis><emphasis effect="italics">d</emphasis>.</para>
@@ -256,9 +254,7 @@
 
       <title>Mechanical Advantage of Inclined Planes and Pulleys</title>
       <para id="fs-id1167066783060">The first part of this video shows how to calculate the <emphasis effect="italics">IMA</emphasis> of pulley systems. The last part shows how to calculate the <emphasis effect="italics">IMA</emphasis> of an inclined plane. </para>
-      <media id="fs-id1167063526915" alt="This tutorial introduces pulleys and wedges." class="os-embed">
-        <iframe width="660" height="371.4" src="https://openstax.org/l/02mechadvant"/>
-      </media>
+      <para id="para-00002"><link url="https://openstax.org/l/02mechadvant">Mechanical advantage (part 3) | Work and energy | Physics | Khan Academy</link></para>
       <note id="fs-id1167067154187" class="os-teacher">
         <title>Teacher Support</title>
         <para id="fs-id1167066839153">Review what was learned about the <emphasis effect="italics">IMA</emphasis> of inclined planes and pulley systems before watching the video. Remind the students that, for an ideal machine, work in = work out and that <emphasis effect="italics">W</emphasis> = <emphasis>f</emphasis><emphasis effect="italics">d</emphasis>. The video shows how to find the <emphasis>f</emphasis>s and the <emphasis effect="italics">d</emphasis>s.</para>
